@@ -3148,6 +3148,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 96054, "", "=q4=Quakestompers", "=ds=#s12#, #a3#" },
 				{ 13, 96055, "", "=q4=Shoulderguards of Centripetal Destruction", "=ds=#s3#, #a4#" },
 				{ 14, 96056, "", "=q4=Shell-Coated Wristplates", "=ds=#s8#, #a4#" },
+				{ 15, 96069, "", "=q4=Tortos' Shellseizers", "=ds=#s9#, #a4#" },
 				{ 16, 96068, "", "=q4=Refreshing Abalone Girdle", "=ds=#s10#, #a4#" },
 				{ 18, 96057, "", "=q4=Amulet of the Primal Turtle", "=ds=#s2#" },
 				{ 20, 96058, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
@@ -3245,7 +3246,9 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 96073, "", "=q4=Grips of Cinderflesh", "=ds=#s9#, #a3#" },
 				{ 8, 96086, "", "=q4=Links of the Bifurcated Tongue", "=ds=#s10#, #a3#" },
 				{ 9, 96075, "", "=q4=Rot-Proof Greatplate", "=ds=#s5#, #a4#" },
+				{ 10, 96074, "", "=q4=Plated Toothbreaker Girdle", "=ds=#s10#, #a4#" },
 				{ 11, 96088, "", "=q4=Ice-Scored Treads", "=ds=#s12#, #a4#" },
+				{ 16, 96077, "", "=q4=Hydraskull Choker", "=ds=#s2#" },
 				{ 17, 96081, "", "=q4=Megaera's Shining Eye", "=ds=#s2#" },
 				{ 18, 96071, "", "=q4=Quadra-Head Brooch", "=ds=#s2#" },
 				{ 19, 96076, "", "=q4=Spinescale Seal", "=ds=#s13#" },
@@ -3420,9 +3423,19 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 			{
+				{ 1, 96113, "", "=q4=Deadly Glare Cape", "=ds=#s4#" },
+				{ 5, 96111, "", "=q4=Leggings of Pulsing Blood", "=ds=#s11#, #a1#" },
+				{ 6, 96101, "", "=q4=Crimson Bloom Legguards", "=ds=#s11#, #a2#" },
+				{ 7, 96116, "", "=q4=Sandals of the Starving Eye", "=ds=#s12#, #a2#" },
+				{ 8, 96103, "", "=q4=Aberrant Chestguard of Torment", "=ds=#s5#, #a3#" },
+				{ 10, 96102, "", "=q4=Links of the Disintegrator", "=ds=#s10#, #a3#" },
+				{ 11, 96104, "", "=q4=Caustic Spike Bracers", "=ds=#s8#, #a4#" },
+				{ 12, 96107, "", "=q4=Artery Rippers", "=ds=#s9#, #a4#" },
 				{ 13, 96118, "", "=q4=Iceshatter Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 96105, "", "=q4=Legplates of the Dark Parasite", "=ds=#s11#, #a4#" },
 				{ 16, 96106, "", "=q4=Treads of the Blind Eye", "=ds=#s12#, #a4#" },
 				{ 18, 96114, "", "=q4=Durumu's Captive Eyeball", "=ds=#s13#" },
+				{ 19, 96109, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 96115, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 96100, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
 				extraText = ": "..AL["Thunderforged"];
@@ -3528,6 +3541,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 96126, "", "=q4=Metabolically Boosted Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 12, 96139, "", "=q4=Spaulders of Primordial Growth", "=ds=#s3#, #a4#" },
 				{ 13, 96138, "", "=q4=Bonemender Bracers", "=ds=#s8#, #a4#" },
+				{ 14, 96124, "", "=q4=Pathogenic Gauntlets", "=ds=#s9#, #a4#" },
 				{ 15, 96125, "", "=q4=Black Blood Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 96128, "", "=q4=Band of the Scaled Tyrant", "=ds=#s13#" },
 				{ 17, 96129, "", "=q4=Primordius' Talisman of Rage", "=ds=#s14#" },
@@ -3612,6 +3626,16 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
+			{
+				{ 1, 96145, "", "=q4=Constantly Accelerating Cloak", "=ds=#s4#" },
+				{ 2, 96143, "", "=q4=Hood of the Crimson Wake", "=ds=#s1#, #a1#" },
+				{ 5, 96150, "", "=q4=Crown of the Golden Golem", "=ds=#s1#, #a4#" },
+				{ 9, 96144, "", "=q4=Cha-Ye's Essence of Brilliance", "=ds=#s14#" },
+				{ 10, 96151, "", "=q4=Delicate Vial of the Sanguinaire", "=ds=#s14#" },
+				{ 20, 96146, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
+				{ 21, 96142, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
+				extraText = ": "..AL["Thunderforged"];
+			};
 		};
 		["Heroic"] = {
 			{
@@ -3679,6 +3703,12 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94964, "", "=q4=Qon's Flaming Scimitar", "=ds=#h1#, #w10#" },
 				{ 22, 94963, "", "=q4=Voice of the Quilen", "=ds=#w5#" },
 				{ 23, 94965, "", "=q4=Orb of Arcing Lightning", "=ds=#s15#" },
+			};
+			{
+				{ 20, 96152, "", "=q4=Iron Qon's Boot Knife", "=ds=#h1#, #w4#" },
+				{ 21, 96162, "", "=q4=Qon's Flaming Scimitar", "=ds=#h1#, #w10#" },
+				{ 23, 96158, "", "=q4=Orb of Arcing Lightning", "=ds=#s15#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3829,6 +3859,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 22, 96175, "", "=q4=Shan-Dun, Breaker of Hope", "=ds=#w7#" },
+				{ 23, 96181, "", "=q4=Uroe, Harbinger of Terror", "=ds=#h2#, #w1#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -3984,13 +4015,16 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 96334, "", "=q4=Abandoned Zandalari Shadowgirdle", "=ds=#s10#, #a1#" },
 				{ 6, 96337, "", "=q4=Home-Warding Slippers", "=ds=#s12#, #a1#" },
 				{ 7, 96335, "", "=q4=Silentflame Sandals", "=ds=#s12#, #a1#" },
+				{ 8, 96240, "", "=q4=Forgotten Mantle of the Moon", "=ds=#s3#, #a2#" },
 				{ 9, 96241, "", "=q4=Forgotten Mantle of the Sun", "=ds=#s3#, #a2#" },
 				{ 10, 96343, "", "=q4=Abandoned Zandalari Moonstrap", "=ds=#s10#, #a2#" },
 				{ 11, 96342, "", "=q4=Abandoned Zandalari Silentbelt", "=ds=#s10#, #a2#" },
 				{ 12, 96338, "", "=q4=Deeproot Treads", "=ds=#s12#, #a2#" },
 				{ 13, 96331, "", "=q4=Spiderweb Tabi", "=ds=#s12#, #a2#" },
+				{ 14, 96242, "", "=q4=Abandoned Spaulders of Arrowflight", "=ds=#s3#, #a3#" },
 				{ 15, 96243, "", "=q4=Abandoned Spaulders of Renewal", "=ds=#s3#, #a3#" },
 				{ 16, 96344, "", "=q4=Abandoned Zandalari Arrowlinks", "=ds=#s10#, #a3#" },
+				{ 17, 96345, "", "=q4=Abandoned Zandalari Waterchain", "=ds=#s10#, #a3#" },
 				{ 18, 96332, "", "=q4=Scalehide Spurs", "=ds=#s12#, #a3#" },
 				{ 19, 96339, "", "=q4=Spiritbound Boots", "=ds=#s12#, #a3#" },
 				{ 20, 96246, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
@@ -4794,7 +4828,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Kirin Tor Offensive",
+			name = BabbleFaction["Kirin Tor Offensive"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5055,7 +5089,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Shado-Pan Assault",
+			name = BabbleFaction["Shado-Pan Assault"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5108,7 +5142,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Sunreaver Onslaught",
+			name = BabbleFaction["Sunreaver Onslaught"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
