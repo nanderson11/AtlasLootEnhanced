@@ -6289,6 +6289,8 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		["Normal"] = {
+			{};
+			{};
 			{
 				{ 1, 91453, "", "=q4=Malevolent Gladiator's Cape of Cruelty", "=ds=#s4#", "#HONOR:1250#"},
 				{ 2, 91454, "", "=q4=Malevolent Gladiator's Cape of Prowess", "=ds=#s4#", "#HONOR:1250#"},
@@ -6335,7 +6337,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 91754, "", "=q4=Malevolent Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
 				{ 23, 91768, "", "=q4=Malevolent Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
 			};
-			--[[{
+			{
 				{ 1, 93420, "", "=q3=Crafted Dreadful Gladiator's Cape of Cruelty", "=ds=#s4#"},
 				{ 2, 93421, "", "=q3=Crafted Dreadful Gladiator's Cape of Prowess", "=ds=#s4#"},
 				{ 3, 93607, "", "=q3=Crafted Dreadful Gladiator's Cloak of Alacrity", "=ds=#s4#"},
@@ -6380,7 +6382,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 93424, "", "=q3=Crafted Dreadful Gladiator's Insignia of Conquest", "=ds=#s14#", "#HONOR:1750#" },
 				{ 22, 93601, "", "=q3=Crafted Dreadful Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
 				{ 23, 93611, "", "=q3=Crafted Dreadful Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
-			};--]]
+			};
 		};
 		info = {
 			name = AL["PvP Accessories"],
