@@ -1070,8 +1070,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "Panier Ogre de tannin";
 	AL["Unfinished Painting"] = "Toile inachevée";
 	AL["Felvine Shard"] = "Fragment de la Gangrevigne"; --- If still in game, should be used in IngameLocales
-	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis"; --- If still in game, should be used in IngameLocales
-	AL["Fathom Core"] = "Noyau de la Brasse"; --- If still in game, should be used in IngameLocales
 	AL["Gift of Adoration"] = "Cadeau d'adoration"; --- If still in game, should be used in IngameLocales
 	AL["Treat Bag"] = "Sac de friandises"; --- If still in game, should be used in IngameLocales
 	AL["The Cache of Madness"] = "L'antre de la Folie";

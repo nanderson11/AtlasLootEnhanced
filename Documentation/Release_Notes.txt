@@ -8,6 +8,7 @@ Patch Notes
 v7.05.01 (Mar 12, 2013)
 Added various missing 5.2 stuff.
 Added missing Season 13 items.
+Added drop rates to MoP dungeons.
 Minor fixes, additions and translations.
 
 v7.05.00 (Mar 05, 2013)

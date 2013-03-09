@@ -1072,8 +1072,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "巨魔鞣酸籃";
 	AL["Unfinished Painting"] = "未完成的畫作";
 	AL["Felvine Shard"] = "魔藤碎片";
-	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
-	AL["Fathom Core"] = "深淵之核";
 	AL["Gift of Adoration"] = "愛慕之禮";
 	AL["Treat Bag"] = "糖果包";
 	AL["The Cache of Madness"] = "瘋狂之緣";

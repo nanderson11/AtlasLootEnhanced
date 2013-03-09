@@ -876,8 +876,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "오우거 타닌 바구니";
 	AL["Unfinished Painting"] = "완성되지 않은 그림";
 	AL["Felvine Shard"] = "악령덩쿨 조각";
-	AL["Lorgalis Manuscript"] = "로르갈리스 초본";
-	AL["Fathom Core"] = "심연의 핵";
 	AL["Gift of Adoration"] = true;
 	AL["Treat Bag"] = true;
 	AL["Timed Reward Chest"] = true;

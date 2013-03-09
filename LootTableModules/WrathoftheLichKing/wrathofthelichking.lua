@@ -532,7 +532,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 35635, "", "=q3=Stable Master's Breeches", "=ds=#s11#, #a1#", "", "28%"};
 				{ 3, 35634, "", "=q3=Scabrous-Hide Helm", "=ds=#s1#, #a2#", "", "28%"};
 				{ 4, 35633, "", "=q3=Staff of the Great Reptile", "=ds=#w9#", "", "31%"};
-				{ 6, 35633, "", "=q1=King Dred's Tooth", "=ds=#m3#", "", "100%"};
+				{ 6, 74755, "", "=q1=King Dred's Tooth", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:2039#"};
 				{ 17, 37725, "", "=q3=Savage Wound Wrap", "=ds=#s8#, #a1#", "", "21%"};
 				{ 18, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#", "", "21%"};
@@ -675,7 +675,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 43382, "", "=q3=Band of Eyes", "=ds=#s13#", "", "43%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 43410, "", "=q3=Moragg's Chestguard", "=ds=#s5#, #a3#", "", "29%"};
-				{ 18, 43408, "", "=q3=Solitare of Reflecting Beams", "=ds=#s13#", "", "29%"};
+				{ 18, 43408, "", "=q3=Solitaire of Reflecting Beams", "=ds=#s13#", "", "29%"};
 				{ 19, 43409, "", "=q3=Saliva Corroded Pike", "=ds=#w7#", "", "30%"};
 			};	
 		};

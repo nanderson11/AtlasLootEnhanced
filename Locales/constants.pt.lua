@@ -880,8 +880,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "Cesta de Ogro Tanino";
 	AL["Unfinished Painting"] = "Pintura Interminada"; --Comprobar
 	AL["Felvine Shard"] = "Fragmento de Vinhavil";
-	AL["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
-	AL["Fathom Core"] = "Núcleo das Profundezas";
 	AL["Gift of Adoration"] = "Presente de adoração";
 	AL["Treat Bag"] = "Bolsa de Prêmios";
 	AL["Timed Reward Chest"] = "Baú de Recompensa de Tempo"; --Comprobar

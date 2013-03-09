@@ -1069,8 +1069,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "Gerbekorb der Oger";
 	AL["Unfinished Painting"] = "Unvollendetes Gemälde";
 	AL["Felvine Shard"] = "Teufelsrankensplitter";
-	AL["Lorgalis Manuscript"] = "Manuskript von Lorgalis";
-	AL["Fathom Core"] = "Tiefenkern";
 	AL["Gift of Adoration"] = "Geschenke der Verehrung";
 	AL["Treat Bag"] = "Schlotterbeutel";
 	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";

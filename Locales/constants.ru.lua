@@ -929,8 +929,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "Огрский дубильный чан";
 	AL["Unfinished Painting"] = "Незаконченная картина";
 	AL["Felvine Shard"] = "Сквернит";
-	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
-	AL["Fathom Core"] = "Глубинный сердечник";
 	AL["Gift of Adoration"] = "Дар обожания";
 	AL["Treat Bag"] = "Сумка с лакомствами";
 	AL["Timed Reward Chest"] = "Сундук, награда за время";

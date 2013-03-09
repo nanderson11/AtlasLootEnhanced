@@ -1072,8 +1072,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = true;
 	AL["Unfinished Painting"] = true;
 	AL["Felvine Shard"] = true; --- If still in game, should be used in IngameLocales
-	AL["Lorgalis Manuscript"] = true; --- If still in game, should be used in IngameLocales
-	AL["Fathom Core"] = true; --- If still in game, should be used in IngameLocales
 	AL["Gift of Adoration"] = true; --- If still in game, should be used in IngameLocales
 	AL["Treat Bag"] = true; --- If still in game, should be used in IngameLocales
 	AL["The Cache of Madness"] = true;
