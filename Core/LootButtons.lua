@@ -1217,6 +1217,7 @@ function AltasLootItemButton:SetAmount(amount)
 end
 
 function AltasLootItemButton:CheckBonusRoll(enabled)
+	if not AtlasLoot.CanShowBonusRoll then return end
 	if self.type ~= "ItemIcon" then return end
 	for k,v in ipairs(self.Frame.BonusRoll) do
 		v:Hide()
@@ -1573,7 +1574,7 @@ do
 					if( priority ~= nil and priority ~= "" ) then
 						AtlasLootTooltip:AddLine(GREEN..AL["Priority:"].." "..priority, 1, 1, 0);
 					end
-					if AtlasLoot.db.profile.ShowBonusRollInfoInTT and self.par.Specs then
+					if AtlasLoot.db.profile.ShowBonusRollInfoInTT and self.par.Specs and self.par.SpecsTT then
 						if not self.par.SpecsTT then
 							self.par:CheckBonusRoll(AtlasLoot.db.profile.BonusRollEnabled)
 						end
