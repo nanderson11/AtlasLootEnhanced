@@ -1060,6 +1060,8 @@ if AL then
 	AL["Crusader's Square"] = true;
 	AL["The Gauntlet"] = true;
 	AL["Halfhill Farm"] = true;
+	AL["Domination Point"] = true;
+	AL["Lion's Landing"] = true;
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = true; -- Avatar of the Martyred

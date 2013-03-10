@@ -4373,29 +4373,29 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsIsleofThunder"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ancient Mogu Guardian"], ""};
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ancient Mogu Guardian"], "=q1="..AL["Summon"]};
 				{ 3, 94826, "", "=q4=Mogu Sportsman's Bow", "=ds=#w2#"};
-				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Cera"], ""};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Cera"], "=q1="..AL["Summon"]};
 				{ 6, 94706, "", "=q4=Cera's Impalers", "=ds=#h1#, #w4#"};
-				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Echo of Kros"], ""};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Echo of Kros"], "=q1="..AL["Summon"]};
 				{ 9, 94708, "", "=q4=Saurok Ritualist's Sacrificial Dagger", "=ds=#h1#, #w4#"};
-				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Electromancer Ju'le"], ""};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Electromancer Ju'le"], "=q1="..AL["Summon"]};
 				{ 12, 94825, "", "=q4=Lightning Snare", "=ds=#h1#, #w6#"};
 				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Haywire Sunreaver Construct"], ""};
 				{ 18, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#"};
-				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Incomplete Drakkari Colossus"], ""};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Incomplete Drakkari Colossus"], "=q1="..AL["Summon"]};
 				{ 21, 94823, "", "=q4=Drakkari Decapitator", "=ds=#h2#, #w1#"};
-				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kor'dok and Tinzo the Emberkeeper"], ""};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kor'dok and Tinzo the Emberkeeper"], "=q1="..AL["Summon"]};
 				{ 24, 94720, "", "=q4=Vengeance of Kor'dok", "=ds=#h1#, #w10#"};
-				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Qi'nor"], ""};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Qi'nor"], "=q1="..AL["Summon"]};
 				{ 27, 94824, "", "=q4=Gaze of Qi'nor", "=ds=#w9#"};
 			};
 			{
 				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Ra'sha"], ""};
 				{ 3, 95566, "", "=q3=Ra'sha's Sacrificial Dagger", "=ds="};
-				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Spirit of Warlord Teng"], ""};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Spirit of Warlord Teng"], "=q1="..AL["Summon"]};
 				{ 6, 94707, "", "=q4=Teng's Reach", "=ds=#w7#"};
-				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Windweaver Akil'amon"], ""};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Windweaver Akil'amon"], "=q1="..AL["Summon"]};
 				{ 9, 94709, "", "=q4=Talonblade of Akil'amon", "=ds=#h1#, #w10#"};
 				{ 17, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
 				{ 18, 94222, "", "=q4=Key to the Palace of Lei Shen", "=ds=#e9#"};
@@ -5238,7 +5238,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Domination Point",
+			name = AL["Domination Point"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5274,7 +5274,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Lion's Landing",
+			name = AL["Lion's Landing"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
