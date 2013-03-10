@@ -9,7 +9,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "PVP90Accessories", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
 				{ 3, "PVP90SET", "inv_helm_plate_pvppaladin_c_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 90"]};
-				{ 4, "PVP90NonSet", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 90"]};	
+				{ 4, "PVP90NonSetCloth", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 90"]};	
 				{ 7, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..AL["BG/Open PvP Rewards"], ""};
 				{ 17, "PVP90Weapons2", "inv_stave_2h_pvppandarias1_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 490"], "=q5="..AL["Level 90"]};
 				{ 18, "PVP90Weapons", "inv_hand_1h_pvppandarias1_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 470"], "=q5="..AL["Level 90"]};

@@ -2903,7 +2903,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Adarogg", 694), ""};
 				{ 2, 82772, "", "=q3=Snarlmouth Leggings", "=ds=#s11#, #a1#" },
 				{ 3, 82879, "", "=q3=Collarspike Bracers", "=ds=#s8#, #a3#" },
-				{ 4, 82880, "", "=q3=Fang of Adarogg", "=ds=#h1#, #w4#", "", "" };
+				{ 4, 82880, "", "=q3=Fang of Adarogg", "=ds=#h1#, #w4#", ""};
 				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Dark Shaman Koranthal", 695), ""};
 				{ 7, 82882, "", "=q3=Dark Ritual Cape", "=ds=#s4#", "" };
 				{ 8, 82881, "", "=q3=Cuffs of Black Elements", "=ds=#s8#, #a1#", "" };
@@ -2912,7 +2912,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 82878, "", "=q3=Fireworm Robes", "=ds=#s5#, #a1#" },
 				{ 18, 82884, "", "=q3=Chitonous Bracers", "=ds=#s8#, #a2#", "" };
 				{ 19, 82885, "", "=q3=Flameseared Carapace", "=ds=#s5#, #a3#", "" };
-				{ 21, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lava Guard Gordoth", 697), ""};
+				{ 21, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lava Guard Gordoth", 697), "#ACHIEVEMENTID:629#"};
 				{ 22, 82886, "", "=q3=Gorewalker Treads", "=ds=#s12#, #a3#", "" };
 				{ 23, 82883, "", "=q3=Bloodcursed Felblade", "=ds=#h1#, #w10#" };
 				{ 24, 82888, "", "=q3=Heartboiler Staff", "=ds=#w9#", "" };
