@@ -2152,6 +2152,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95191, "", "=q4=Voolar's Bloodied Belt", "=ds=#s10#, #a4#" },
 				{ 9, 95190, "", "=q4=Waistband of Furious Stomping", "=ds=#s10#, #a4#" },
 				{ 11, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=ds=#e26#" },
+				{ 12, 95601, "", "=q4=Shiny Pile of Refuse", "=ds=#m20#" },
 				{ 16, 95181, "", "=q4=Amulet of the Titanorex", "=ds=#s2#" },
 				{ 17, 95177, "", "=q4=Choker of Stygimolochy", "=ds=#s2#" },
 				{ 18, 95178, "", "=q4=Lootraptor's Amulet", "=ds=#s2#" },
@@ -2445,7 +2446,7 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 90438, "", "=q4=Signet of the Bandit Lord", "=ds=#s13#" },
 				{ 26, 90434, "", "=q4=Steaming Seal of Flame", "=ds=#s13#" },
 				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=ds=#e26#" },
-				{ 29, 90840, "", "=q4=Marauder's Gleaming Sack of Gold", "=ds=#m20#" },
+				{ 29, 90840, "", "=q3=Marauder's Gleaming Sack of Gold", "=ds=#m20#" },
 			}
 		};
 		info = {
