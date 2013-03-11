@@ -1058,6 +1058,8 @@ if AL then
 	AL["Crusader's Square"] = "Place des Croisés";
 	AL["The Gauntlet"] = "Le Défi";
 	AL["Halfhill Farm"] = "Marché de Micolline";
+	AL["Domination Point"] = "Halte de la Domination";
+	AL["Lion's Landing"] = "Le territoire du Lion";
 
 	-- Shortcuts for Bossname files
 	--AL["Avatar"] = true; -- Avatar of the Martyred
