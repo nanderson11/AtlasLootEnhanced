@@ -6338,6 +6338,52 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 91754, "", "=q4=Malevolent Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
 				{ 23, 91768, "", "=q4=Malevolent Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
 			};
+			{
+				{ 1, 93420, "", "=q3=Crafted Dreadful Gladiator's Cape of Cruelty", "=ds=#s4#"},
+				{ 2, 93421, "", "=q3=Crafted Dreadful Gladiator's Cape of Prowess", "=ds=#s4#"},
+				{ 3, 93607, "", "=q3=Crafted Dreadful Gladiator's Cloak of Alacrity", "=ds=#s4#"},
+				{ 4, 93608, "", "=q3=Crafted Dreadful Gladiator's Cloak of Prowess", "=ds=#s4#"},
+				{ 5, 93437, "", "=q3=Crafted Dreadful Gladiator's Drape of Cruelty", "=ds=#s4#"},
+				{ 6, 93439, "", "=q3=Crafted Dreadful Gladiator's Drape of Meditation", "=ds=#s4#"},
+				{ 7, 93438, "", "=q3=Crafted Dreadful Gladiator's Drape of Prowess", "=ds=#s4#"},
+				{ 9, 93448, "", "=q3=Crafted Dreadful Gladiator's Band of Accuracy", "=ds=#s13#"};
+				{ 10, 93447, "", "=q3=Crafted Dreadful Gladiator's Band of Cruelty", "=ds=#s13#"};
+				{ 11, 93449, "", "=q3=Crafted Dreadful Gladiator's Band of Meditation", "=ds=#s13#"};
+				{ 12, 93426, "", "=q3=Crafted Dreadful Gladiator's Ring of Accuracy", "=ds=#s13#"};
+				{ 13, 93425, "", "=q3=Crafted Dreadful Gladiator's Ring of Cruelty", "=ds=#s13#"};
+				{ 14, 93613, "", "=q3=Crafted Dreadful Gladiator's Signet of Accuracy", "=ds=#s13#"};
+				{ 15, 93612, "", "=q3=Crafted Dreadful Gladiator's Signet of Cruelty", "=ds=#s13#"};
+				{ 16, 93610, "", "=q3=Crafted Dreadful Gladiator's Choker of Accuracy", "=ds=#s2#"},
+				{ 17, 93609, "", "=q3=Crafted Dreadful Gladiator's Choker of Proficiency", "=ds=#s2#"},
+				{ 18, 93422, "", "=q3=Crafted Dreadful Gladiator's Necklace of Proficiency", "=ds=#s2#"},
+				{ 19, 93423, "", "=q3=Crafted Dreadful Gladiator's Necklace of Prowess", "=ds=#s2#"},
+				{ 20, 93445, "", "=q3=Crafted Dreadful Gladiator's Pendant of Alacrity", "=ds=#s2#"},
+				{ 21, 93444, "", "=q3=Crafted Dreadful Gladiator's Pendant of Cruelty", "=ds=#s2#"},
+				{ 22, 93446, "", "=q3=Crafted Dreadful Gladiator's Pendant of Meditation", "=ds=#s2#"},
+			};
+			{
+				{ 2, 93419, "", "=q3=Crafted Dreadful Gladiator's Badge of Conquest", "=ds=#s14#"},
+				{ 3, 93600, "", "=q3=Crafted Dreadful Gladiator's Badge of Dominance", "=ds=#s14#"},
+				{ 4, 93606, "", "=q3=Crafted Dreadful Gladiator's Badge of Victory", "=ds=#s14#"},
+				{ 6, 93485, "", "=q3=Crafted Dreadful Gladiator's Emblem of Cruelty", "=ds=#s14#"},
+				{ 7, 93487, "", "=q3=Crafted Dreadful Gladiator's Emblem of Meditation", "=ds=#s14#"},
+				{ 8, 93486, "", "=q3=Crafted Dreadful Gladiator's Emblem of Tenacity", "=ds=#s14#"},
+				{
+					{ 17, 93561, "", "=q3=Crafted Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#"},
+					{ 17, 93560, "", "=q3=Crafted Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#"},
+				};
+				{
+					{ 18, 93565, "", "=q3=Crafted Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#"},
+					{ 18, 93564, "", "=q3=Crafted Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#"},
+				};
+				{
+					{ 19, 93563, "", "=q3=Crafted Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#"},
+					{ 19, 93562, "", "=q3=Crafted Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#"},
+				};
+				{ 21, 93424, "", "=q3=Crafted Dreadful Gladiator's Insignia of Conquest", "=ds=#s14#"},
+				{ 22, 93601, "", "=q3=Crafted Dreadful Gladiator's Insignia of Dominance", "=ds=#s14#"},
+				{ 23, 93611, "", "=q3=Crafted Dreadful Gladiator's Insignia of Victory", "=ds=#s14#"},
+			};
 		};
 		info = {
 			name = AL["PvP Accessories"],
@@ -6493,6 +6539,164 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+	AtlasLoot_Data["PVP90NonSetMail"] = {
+   		["Normal_A"] = {
+      		{
+				{ 16, 91357, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 91350, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 91354, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 91356, "", "=q4=Tyrannical Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 91378, "", "=q4=Tyrannical Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 91352, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 91220, "", "=q4=Tyrannical Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 91212, "", "=q4=Tyrannical Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 91218, "", "=q4=Tyrannical Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 91221, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 91214, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 91216, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
+         		merge = true;
+      		};   
+   		};
+   		["Normal_H"] = {
+      		{
+				{ 16, 94337, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 94382, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 94336, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 94379, "", "=q4=Tyrannical Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 94393, "", "=q4=Tyrannical Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 94378, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 94404, "", "=q4=Tyrannical Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 94330, "", "=q4=Tyrannical Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 94359, "", "=q4=Tyrannical Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 94469, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 94358, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 94445, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
+         		merge = true;
+      		};   
+   		};
+		["Normal"] = {
+			{
+				{ 2, 91351, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 91355, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 91379, "", "=q4=Tyrannical Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 91353, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 91213, "", "=q4=Tyrannical Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 91219, "", "=q4=Tyrannical Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 14, 91215, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 15, 91217, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
+			};
+			{
+				{ 1, 91710, "", "=q4=Malevolent Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 2, 91703, "", "=q4=Malevolent Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 3, 91707, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 5, 91709, "", "=q4=Malevolent Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 6, 91731, "", "=q4=Malevolent Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 7, 91705, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 9, 91573, "", "=q4=Malevolent Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 10, 91565, "", "=q4=Malevolent Gladiator's Links of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 91571, "", "=q4=Malevolent Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 13, 91574, "", "=q4=Malevolent Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 14, 91567, "", "=q4=Malevolent Gladiator's Links of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 15, 91569, "", "=q4=Malevolent Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 16, 93578, "", "=q3=Crafted Dreadful Gladiator's Armbands of Meditation", "=ds="};
+				{ 17, 93574, "", "=q3=Crafted Dreadful Gladiator's Waistguard of Meditation", "=ds="};
+				{ 18, 93576, "", "=q3=Crafted Dreadful Gladiator's Footguards of Meditation", "=ds="};
+				{ 20, 93577, "", "=q3=Crafted Dreadful Gladiator's Armbands of Prowess", "=ds="};
+				{ 21, 93589, "", "=q3=Crafted Dreadful Gladiator's Waistguard of Cruelty", "=ds="};
+				{ 22, 93575, "", "=q3=Crafted Dreadful Gladiator's Footguards of Alacrity", "=ds="};
+				{ 24, 93492, "", "=q3=Crafted Dreadful Gladiator's Wristguards of Alacrity", "=ds="};
+				{ 25, 93488, "", "=q3=Crafted Dreadful Gladiator's Links of Cruelty", "=ds="};
+				{ 26, 93491, "", "=q3=Crafted Dreadful Gladiator's Sabatons of Alacrity", "=ds="};
+				{ 28, 93493, "", "=q3=Crafted Dreadful Gladiator's Wristguards of Accuracy", "=ds="};
+				{ 29, 93489, "", "=q3=Crafted Dreadful Gladiator's Links of Accuracy", "=ds="};
+				{ 30, 93490, "", "=q3=Crafted Dreadful Gladiator's Sabatons of Cruelty", "=ds="};
+			};
+		};
+		info = {
+			name = AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+	AtlasLoot_Data["PVP90NonSetPlate"] = {
+   		["Normal_A"] = {
+      		{
+				{ 16, 91286, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 91279, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 91283, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 91305, "", "=q4=Tyrannical Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 91297, "", "=q4=Tyrannical Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 91301, "", "=q4=Tyrannical Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 91285, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 91277, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 91281, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 91306, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
+				{ 29, 91299, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 91303, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+         		merge = true;
+      		};   
+   		};
+   		["Normal_H"] = {
+      		{
+				{ 16, 94481, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 94464, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 94352, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 94418, "", "=q4=Tyrannical Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 94353, "", "=q4=Tyrannical Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 94414, "", "=q4=Tyrannical Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 94411, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 94480, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 94351, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 94487, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
+				{ 29, 94440, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 94461, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+         		merge = true;
+      		};   
+   		};
+		["Normal"] = {
+			{
+				{ 2, 91280, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 91284, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 91298, "", "=q4=Tyrannical Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 91302, "", "=q4=Tyrannical Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 91278, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 91282, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 14, 91300, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
+				{ 15, 91304, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+			};
+			{
+				{ 1, 91639, "", "=q4=Malevolent Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 2, 91632, "", "=q4=Malevolent Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 3, 91634, "", "=q4=Malevolent Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 5, 91658, "", "=q4=Malevolent Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
+				{ 6, 91650, "", "=q4=Malevolent Gladiator's Girdle of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 7, 91654, "", "=q4=Malevolent Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 9, 91638, "", "=q4=Malevolent Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 10, 91630, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 91634, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 13, 91659, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
+				{ 14, 91652, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1750#"};
+				{ 15, 91656, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 16, 93537, "", "=q3=Crafted Dreadful Gladiator's Bracers of Meditation", "=ds="};
+				{ 17, 93533, "", "=q3=Crafted Dreadful Gladiator's Clasp of Meditation", "=ds="};
+				{ 18, 93535, "", "=q3=Crafted Dreadful Gladiator's Greaves of Meditation", "=ds="};
+				{ 20, 93457, "", "=q3=Crafted Dreadful Gladiator's Armplates of Proficiency", "=ds="};
+				{ 21, 93543, "", "=q3=Crafted Dreadful Gladiator's Girdle of Accuracy", "=ds="};
+				{ 22, 93545, "", "=q3=Crafted Dreadful Gladiator's Warboots of Cruelty", "=ds="};
+				{ 24, 93536, "", "=q3=Crafted Dreadful Gladiator's Bracers of Prowess", "=ds="};
+				{ 25, 93532, "", "=q3=Crafted Dreadful Gladiator's Clasp of Cruelty", "=ds="};
+				{ 26, 93534, "", "=q3=Crafted Dreadful Gladiator's Greaves of Alacrity", "=ds="};
+				{ 28, 93458, "", "=q3=Crafted Dreadful Gladiator's Armplates of Alacrity", "=ds="};	
+				{ 29, 93544, "", "=q3=Crafted Dreadful Gladiator's Girdle of Prowess", "=ds="};
+				{ 30, 93546, "", "=q3=Crafted Dreadful Gladiator's Warboots of Alacrity", "=ds="};
+			};
+		};
+		info = {
+			name = AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
 		--------------------------
 		--- Level 90 - Weapons ---
 		--------------------------
@@ -6572,58 +6776,6 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
-
-		--------------------------------
-		--- Level 90 - Crafted Items ---
-		--------------------------------
-
---[[			{
-				{ 1, 93420, "", "=q3=Crafted Dreadful Gladiator's Cape of Cruelty", "=ds=#s4#"},
-				{ 2, 93421, "", "=q3=Crafted Dreadful Gladiator's Cape of Prowess", "=ds=#s4#"},
-				{ 3, 93607, "", "=q3=Crafted Dreadful Gladiator's Cloak of Alacrity", "=ds=#s4#"},
-				{ 4, 93608, "", "=q3=Crafted Dreadful Gladiator's Cloak of Prowess", "=ds=#s4#"},
-				{ 5, 93437, "", "=q3=Crafted Dreadful Gladiator's Drape of Cruelty", "=ds=#s4#"},
-				{ 6, 93439, "", "=q3=Crafted Dreadful Gladiator's Drape of Meditation", "=ds=#s4#"},
-				{ 7, 93438, "", "=q3=Crafted Dreadful Gladiator's Drape of Prowess", "=ds=#s4#"},
-				{ 9, 93448, "", "=q3=Crafted Dreadful Gladiator's Band of Accuracy", "=ds=#s13#"};
-				{ 10, 93447, "", "=q3=Crafted Dreadful Gladiator's Band of Cruelty", "=ds=#s13#"};
-				{ 11, 93449, "", "=q3=Crafted Dreadful Gladiator's Band of Meditation", "=ds=#s13#"};
-				{ 12, 93613, "", "=q3=Crafted Dreadful Gladiator's Ring of Accuracy", "=ds=#s13#"};
-				{ 13, 93612, "", "=q3=Crafted Dreadful Gladiator's Ring of Cruelty", "=ds=#s13#"};
-				{ 14, 93426, "", "=q3=Crafted Dreadful Gladiator's Signet of Accuracy", "=ds=#s13#"};
-				{ 15, 93425, "", "=q3=Crafted Dreadful Gladiator's Signet of Cruelty", "=ds=#s13#"};
-				{ 16, 93610, "", "=q3=Crafted Dreadful Gladiator's Choker of Accuracy", "=ds=#s2#"},
-				{ 17, 93609, "", "=q3=Crafted Dreadful Gladiator's Choker of Proficiency", "=ds=#s2#"},
-				{ 18, 93422, "", "=q3=Crafted Dreadful Gladiator's Necklace of Proficiency", "=ds=#s2#"},
-				{ 19, 93423, "", "=q3=Crafted Dreadful Gladiator's Necklace of Prowess", "=ds=#s2#"},
-				{ 20, 93445, "", "=q3=Crafted Dreadful Gladiator's Pendant of Alacrity", "=ds=#s2#"},
-				{ 21, 93444, "", "=q3=Crafted Dreadful Gladiator's Pendant of Cruelty", "=ds=#s2#"},
-				{ 22, 93446, "", "=q3=Crafted Dreadful Gladiator's Pendant of Meditation", "=ds=#s2#"},
-			};
-			{
-				{ 2, 93419, "", "=q3=Crafted Dreadful Gladiator's Badge of Conquest", "=ds=#s14#"},
-				{ 3, 93600, "", "=q3=Crafted Dreadful Gladiator's Badge of Dominance", "=ds=#s14#"},
-				{ 4, 93606, "", "=q3=Crafted Dreadful Gladiator's Badge of Victory", "=ds=#s14#"},
-				{ 6, 93485, "", "=q3=Crafted Dreadful Gladiator's Emblem of Cruelty", "=ds=#s14#"},
-				{ 7, 93487, "", "=q3=Crafted Dreadful Gladiator's Emblem of Meditation", "=ds=#s14#"},
-				{ 8, 93486, "", "=q3=Crafted Dreadful Gladiator's Emblem of Tenacity", "=ds=#s14#"},
-				{
-					{ 17, 93561, "", "=q3=Crafted Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#"},
-					{ 17, 93560, "", "=q3=Crafted Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#"},
-				};
-				{
-					{ 18, 93565, "", "=q3=Crafted Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#"},
-					{ 18, 93564, "", "=q3=Crafted Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#"},
-				};
-				{
-					{ 19, 93563, "", "=q3=Crafted Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#"},
-					{ 19, 93562, "", "=q3=Crafted Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#"},
-				};
-				{ 21, 93424, "", "=q3=Crafted Dreadful Gladiator's Insignia of Conquest", "=ds=#s14#"},
-				{ 22, 93601, "", "=q3=Crafted Dreadful Gladiator's Insignia of Dominance", "=ds=#s14#"},
-				{ 23, 93611, "", "=q3=Crafted Dreadful Gladiator's Insignia of Victory", "=ds=#s14#"},
-			};--]]
-
 
 	--------------------------
 	--- Sets & Collections ---
