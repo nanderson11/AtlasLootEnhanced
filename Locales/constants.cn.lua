@@ -1060,6 +1060,8 @@ if AL then
 	AL["Crusader's Square"] = "十字军广场";
 	AL["The Gauntlet"] = "街巷";
 	AL["Halfhill Farm"] = "半山农场";
+	AL["Domination Point"] = "统御岗哨";
+	AL["Lion's Landing"] = "雄狮港";
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = "殉难者的化身";
