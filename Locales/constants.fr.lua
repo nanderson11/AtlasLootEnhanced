@@ -381,6 +381,10 @@ if AL then
 	--AL["ilvl 397"] = true;
 	--AL["ilvl 470"] = true;
 	--AL["ilvl 490"] = true;
+	--AL["ilvl 489"] = true;
+	--AL["ilvl 493"] = true;
+	--AL["ilvl 496"] = true;
+	--AL["ilvl 512"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
