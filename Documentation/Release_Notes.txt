@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.05.02 (Mar 12, 2013)
+Fixed a bug that prevented the factions menu to open.
+
 v7.05.01 (Mar 12, 2013)
 Added various missing 5.2 stuff.
 Added missing Season 13 items.

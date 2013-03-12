@@ -1,6 +1,6 @@
 ﻿## Interface: 50200
 ## Author: Hegarol
-## Version: v7.05.01
+## Version: v7.05.02
 ## SavedVariables: AtlasLootDB
 ## SavedVariablesPerCharacter: AtlasLootCharDB
 ## Dependencies: AtlasLoot_Loader
