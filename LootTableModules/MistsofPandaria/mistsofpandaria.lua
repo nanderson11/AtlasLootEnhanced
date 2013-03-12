@@ -4829,7 +4829,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = BabbleFaction["Kirin Tor Offensive"],
+			name = AtlasLoot_IngameLocales["Kirin Tor Offensive"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5090,7 +5090,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = BabbleFaction["Shado-Pan Assault"],
+			name = AtlasLoot_IngameLocales["Shado-Pan Assault"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5143,7 +5143,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = BabbleFaction["Sunreaver Onslaught"],
+			name = AtlasLoot_IngameLocales["Sunreaver Onslaught"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}

@@ -243,6 +243,14 @@ AtlasLoot_IngameLocales = {
 	
 	-- Insc
 	["Book of Glyph Mastery"] = GetSpellInfo(64323),
+
+	-- ######################################################################
+	-- Factions
+	-- ######################################################################
+	-- Mists of Pandaria
+	["Sunreaver Onslaught"] = GetFactionInfoByID(1388),
+	["Kirin Tor Offensive"] = GetFactionInfoByID(1387),
+	["Shado-Pan Assault"] = GetFactionInfoByID(1435),
 }
 
 do
