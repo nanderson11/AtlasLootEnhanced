@@ -423,6 +423,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Fixxul Lonelyheart"] = "菲克索尔·孤心",
 	Forgosh = "弗尔高什",
 	["Frozen Trail Packer"] = "冰封小径运货人",
+	["G'nathus"] = "格纳瑟斯",
 	Garr = "加尔",
 	["Gezzarak the Huntress"] = "猎手吉萨拉克",
 	Ghostcrawler = "鬼脚蟹",
@@ -464,6 +465,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Porfus the Gem Gorger"] = "掘钻者波弗斯",
 	Portent = "噩兆",
 	Poseidus = "波塞冬斯",
+	["Ra'sha"] = "拉沙",
 	["Ravasaur Matriarch's Nest"] = "暴掠龙女王的卵",
 	["Razormaw Matriarch's Nest"] = "刺喉雌龙的卵",
 	["Rockhide the Immovable"] = true, -- Needs review
@@ -493,6 +495,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Wild Onyx Serpent"] = "野生玛瑙翔龙",
 	["Wrathbringer Laz-tarash"] = "天罚使者拉塔莱什",
 	Xariona = "埃克萨妮奥娜",
+	["Zandalari Warbringer"] = "赞达拉战争使者",
 	Zhing = "金尼",
 }
 
@@ -533,6 +536,7 @@ elseif GAME_LOCALE == "zhTW" then
 	["Fixxul Lonelyheart"] = "費茲索·寂寞心",
 	Forgosh = "弗古斯",
 	["Frozen Trail Packer"] = "冰霜小徑腳伕",
+	["G'nathus"] = "葛納勒斯",
 	Garr = "加爾",
 	["Gezzarak the Huntress"] = "女獵人吉札拉",
 	Ghostcrawler = "鬼蟹",
@@ -574,6 +578,7 @@ elseif GAME_LOCALE == "zhTW" then
 	["Porfus the Gem Gorger"] = "寶石吞噬者波弗斯",
 	Portent = "惡兆",
 	Poseidus = "波賽達斯",
+	["Ra'sha"] = "拉沙",
 	["Ravasaur Matriarch's Nest"] = "暴掠龍族母的巢",
 	["Razormaw Matriarch's Nest"] = "刺喉龍族母的巢",
 	["Rockhide the Immovable"] = "無法撼動的洛克海德",
@@ -603,6 +608,7 @@ elseif GAME_LOCALE == "zhTW" then
 	["Wild Onyx Serpent"] = "野生瑪瑙蛟",
 	["Wrathbringer Laz-tarash"] = "憤怒使者拉茲泰拉西",
 	Xariona = "克薩瑞歐納",
+	["Zandalari Warbringer"] = "贊達拉戰爭使者",
 	Zhing = "鎮山羊",
 }
 
