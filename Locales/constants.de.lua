@@ -370,16 +370,18 @@ if AL then
 	-- AL["Brutal"] = true;
 	AL["Wrathful"] = "Zornerfüllt";
 	AL["Cataclysmic"] = "Kataklysmisch";
-	-- AL["ilvl 200"] = "Gegenstandsstufe 200";
-	-- AL["ilvl 213"] = "Gegenstandsstufe 213";
-	-- AL["ilvl 226"] = "Gegenstandsstufe 226";
-	-- AL["ilvl 245"] = "Gegenstandsstufe 245";
-	-- AL["ilvl 264"] = "Gegenstandsstufe 264";
-	-- AL["ilvl 397"] = "Gegenstandsstufe 397";
-	-- AL["ilvl 470"] = "Gegenstandsstufe 470";
-	-- AL["ilvl 490"] = "Gegenstandsstufe 490";
-	-- AL["ilvl 489"] = "Gegenstandsstufe 489";
-	-- AL["ilvl 496"] = "Gegenstandsstufe 496";
+	-- AL["ilvl 200"] = true;
+	-- AL["ilvl 213"] = true;
+	-- AL["ilvl 226"] = true;
+	-- AL["ilvl 245"] = true;
+	-- AL["ilvl 264"] = true;
+	-- AL["ilvl 397"] = true;
+	-- AL["ilvl 470"] = true;
+	-- AL["ilvl 490"] = true;
+	-- AL["ilvl 489"] = true;
+	-- AL["ilvl 493"] = true;
+	-- AL["ilvl 496"] = true;
+	-- AL["ilvl 512"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Arathibecken (Sets)";
