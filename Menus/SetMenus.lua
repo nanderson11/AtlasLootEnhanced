@@ -1,7 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
@@ -197,22 +196,22 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["MOUNTMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "MountsAlliance", "achievement_pvp_a_16", "=ds="..BabbleFaction["Darnassus"].." / "..BabbleFaction["Gnomeregan"], "=ec1="..BabbleFaction["Alliance"]};
-				{ 3, "MountsAlliance#2", "achievement_pvp_a_16", "=ds="..BabbleFaction["Ironforge"].." / "..BabbleFaction["Exodar"].." / "..BabbleFaction["Stormwind"], "=ec1="..BabbleFaction["Alliance"]};
-				{ 4, "MountsAlliance#3", "achievement_pvp_a_16", "=ds="..BabbleFaction["Tushui Pandaren"].." / "..BabbleFaction["Gilneas"], "=ec1="..BabbleFaction["Alliance"]};
-				{ 5, "MountsAlliance#4", "achievement_pvp_a_16", "=ds="..AL["Flying Mounts"].." / "..BabbleFaction["Kurenai"], "=ec1="..BabbleFaction["Alliance"]};
-				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..BabbleFaction["Alliance"]};
+				{ 2, "MountsAlliance", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Darnassus"].." / "..AtlasLoot_IngameLocales["Gnomeregan"], "=ec1="..AL["Alliance"]};
+				{ 3, "MountsAlliance#2", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Ironforge"].." / "..AtlasLoot_IngameLocales["Exodar"].." / "..AtlasLoot_IngameLocales["Stormwind"], "=ec1="..AL["Alliance"]};
+				{ 4, "MountsAlliance#3", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Tushui Pandaren"].." / "..AtlasLoot_IngameLocales["Gilneas"], "=ec1="..AL["Alliance"]};
+				{ 5, "MountsAlliance#4", "achievement_pvp_a_16", "=ds="..AL["Flying Mounts"].." / "..AtlasLoot_IngameLocales["Kurenai"], "=ec1="..AL["Alliance"]};
+				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Alliance"]};
 				{ 8, "MountsFaction", "ability_mount_warhippogryph", "=ds="..AL["Neutral Faction Mounts"], ""};
 				{ 9, "MountsRareDungeon", "ability_mount_drake_bronze", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Dungeon"].." / "..AL["Outdoor"]};
 				{ 10, "MountsCraftQuest", "ability_mount_gyrocoptorelite", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted Mounts"], ""};
 				{ 11, "MountsEvent", "achievement_halloween_witch_01", "=ds="..AL["World Events"], ""};
 				{ 12, "MountsPromotional", "inv_misc_reforgedarchstone_01", "=ds="..AL["Promotional Mounts"], ""};
 				--{ 13, "MountsNEW", "inv_pandarenserpentmount_green", "=ds="..AL["New Mounts"], "=q5=Patch 5.2"};
-				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..BabbleFaction["Orgrimmar"].." / "..BabbleFaction["Silvermoon City"], "=ec1="..BabbleFaction["Horde"]};
-				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..BabbleFaction["Darkspear Trolls"].." / "..BabbleFaction["Thunder Bluff"].." / "..BabbleFaction["Undercity"], "=ec1="..BabbleFaction["Horde"]};
-				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..BabbleFaction["Huojin Pandaren"].." / "..BabbleFaction["Bilgewater Cartel"], "=ec1="..BabbleFaction["Horde"]};
-				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..AL["Flying Mounts"].." / "..BabbleFaction["The Mag'har"], "=ec1="..BabbleFaction["Horde"]};
-				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..BabbleFaction["Horde"]};
+				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Orgrimmar"].." / "..AtlasLoot_IngameLocales["Silvermoon City"], "=ec1="..AL["Horde"]};
+				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Darkspear Trolls"].." / "..AtlasLoot_IngameLocales["Thunder Bluff"].." / "..AtlasLoot_IngameLocales["Undercity"], "=ec1="..AL["Horde"]};
+				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Huojin Pandaren"].." / "..AtlasLoot_IngameLocales["Bilgewater Cartel"], "=ec1="..AL["Horde"]};
+				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..AL["Flying Mounts"].." / "..AtlasLoot_IngameLocales["The Mag'har"], "=ec1="..AL["Horde"]};
+				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Horde"]};
 				{ 23, "MountsPvP", "ability_mount_netherdrakeelite", "=ds="..AL["PvP Mounts"], ""};
 				{ 24, "MountsRareRaid", "inv_misc_summerfest_brazierorange", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Raid"]};
 				{ 25, "MountsAchievement", "inv_mount_allianceliong", "=ds="..AL["Achievement Reward"], ""};

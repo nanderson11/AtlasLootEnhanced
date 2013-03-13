@@ -1,7 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
@@ -78,7 +77,6 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Thunder Bluff
 ---- Timbermaw Hold
 ---- Tushui Pandaren
----- Zandalar Tribe
 ---- Undercity
 
 	------------------------
@@ -5583,7 +5581,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AVMisc"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5="..BabbleFaction["Stormpike Guard"]};
+				{ 2, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5="..AtlasLoot_IngameLocales["Stormpike Guard"]};
 				{ 3, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "#HONOR:2000#"};
 				{ 4, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "#HONOR:500#"};
 				{ 5, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "#HONOR:2678#"};
@@ -5591,7 +5589,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# #HONOR:1#"};
 				{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
 				{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
-				{ 17, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..BabbleFaction["Frostwolf Clan"]};
+				{ 17, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..AtlasLoot_IngameLocales["Frostwolf Clan"]};
 				{ 18, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26#", "#HONOR:2000#"};
 				{ 19, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "#HONOR:500#"};
 				{ 20, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "#HONOR:2678#"};
@@ -5688,7 +5686,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:35#", ""};
 				{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:45#", ""};
 				{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:55#", ""};
-				{ 17, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 17, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..AtlasLoot_IngameLocales["The League of Arathor"]};
 				{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "#HONOR:85#", ""};
 				{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "#HONOR:130#", ""};
 				{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "#HONOR:185#", ""};
@@ -5708,7 +5706,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:35#", ""};
 				{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:45#", ""};
 				{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:55#", ""};
-				{ 16, 0, "INV_BannerPVP_01", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..BabbleFaction["The Defilers"]};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..AtlasLoot_IngameLocales["The Defilers"]};
 				{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "#HONOR:85#", ""};
 				{ 25, 20214, "", "=q4=Mindfang", "=ds=", "#HONOR:130#", ""};
 				{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "#HONOR:185#", ""};
@@ -5723,7 +5721,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB4049"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..AtlasLoot_IngameLocales["The League of Arathor"]};
 				{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:70#", ""};
 				{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:70#", ""};
 				{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:70#", ""};
@@ -5750,7 +5748,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..BabbleFaction["The Defilers"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..AtlasLoot_IngameLocales["The Defilers"]};
 				{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:70#", ""};
 				{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:70#", ""};
 				{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:70#", ""};
@@ -5784,14 +5782,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB2039"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..AtlasLoot_IngameLocales["The League of Arathor"]};
 				{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "#HONOR:45#", ""};
 				{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "#HONOR:45#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..AtlasLoot_IngameLocales["The League of Arathor"]};
 				{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:45#", ""};
@@ -5810,14 +5808,14 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..BabbleFaction["The Defilers"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..AtlasLoot_IngameLocales["The Defilers"]};
 				{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "#HONOR:45#", ""};
 				{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "#HONOR:45#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..BabbleFaction["The Defilers"]};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..AtlasLoot_IngameLocales["The Defilers"]};
 				{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:45#", ""};
@@ -5922,14 +5920,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["WSGMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5="..BabbleFaction["Silverwing Sentinels"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5="..AtlasLoot_IngameLocales["Silverwing Sentinels"]};
 				{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "#HONOR:2059#", ""};
 				{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# #HONOR:1#", ""};
 				{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
 				{ 7, 19060, "", "=q1=Warsong Gulch Enriched Ration", "=ds=", "20 #silver#", ""};
 				{ 8, 19062, "", "=q1=Warsong Gulch Field Ration", "=ds=", "10 #silver#", ""};
 				{ 9, 19067, "", "=q1=Warsong Gulch Mageweave Bandage", "=ds=", "15 #silver#", ""};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..BabbleFaction["Warsong Outriders"]};
+				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..AtlasLoot_IngameLocales["Warsong Outriders"]};
 				{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "#HONOR:2059#", ""};
 				{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# #HONOR:1#", ""};
 				{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
@@ -6637,25 +6635,25 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["MiscFactions"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_jewelry_stormpiketrinket_05", "=q6="..BabbleFaction["Stormpike Guard"], "=q5="..BabbleFaction["Alliance"]};
+				{ 1, 0, "inv_jewelry_stormpiketrinket_05", "=q6="..AtlasLoot_IngameLocales["Stormpike Guard"], "=q5="..AL["Alliance"]};
 				{ 2, 17904, "", "=q4=Stormpike Insignia Rank 6", "=ds=#s14#, =q1=#r5#"};
 				{ 3, 17903, "", "=q3=Stormpike Insignia Rank 5", "=ds=#s14#, =q1=#r5#"};
 				{ 4, 17902, "", "=q3=Stormpike Insignia Rank 4", "=ds=#s14#, =q1=#r4#"};
 				{ 5, 17901, "", "=q2=Stormpike Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 6, 17900, "", "=q2=Stormpike Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 7, 17691, "", "=q2=Stormpike Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..BabbleFaction["The League of Arathor"], "=ds=#r5#, =q5="..BabbleFaction["Alliance"]};
+				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..AtlasLoot_IngameLocales["The League of Arathor"], "=ds=#r5#, =q5="..AL["Alliance"]};
 				{ 10, 20132, "", "=q1=Arathor Battle Tabard", "=ds=#s7#", "#HONOR:2679#"};
-				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..BabbleFaction["Wintersaber Trainers"], "=ds=#r5#, =q5="..BabbleFaction["Alliance"]};
+				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..AtlasLoot_IngameLocales["Wintersaber Trainers"], "=ds=#r5#, =q5="..AL["Alliance"]};
 				{ 13, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#", "=q1=#m4#: #QUESTID:29034#"};
-				{ 16, 0, "inv_jewelry_frostwolftrinket_05", "=q6="..BabbleFaction["Frostwolf Clan"], "=q5="..BabbleFaction["Horde"]};
+				{ 16, 0, "inv_jewelry_frostwolftrinket_05", "=q6="..AtlasLoot_IngameLocales["Frostwolf Clan"], "=q5="..AL["Horde"]};
 				{ 17, 17909, "", "=q4=Frostwolf Insignia Rank 6", "=ds=#s14#, =q1=#r5#"};
 				{ 18, 17908, "", "=q3=Frostwolf Insignia Rank 5", "=ds=#s14#, =q1=#r5#"};
 				{ 19, 17907, "", "=q3=Frostwolf Insignia Rank 4", "=ds=#s14#, =q1=#r4#"};
 				{ 20, 17906, "", "=q2=Frostwolf Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 21, 17905, "", "=q2=Frostwolf Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 22, 17690, "", "=q2=Frostwolf Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..BabbleFaction["The Defilers"], "=ds=#r5#, =q5="..BabbleFaction["Horde"]};
+				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..AtlasLoot_IngameLocales["The Defilers"], "=ds=#r5#, =q5="..AL["Horde"]};
 				{ 25, 20131, "", "=q1=Battle Tabard of the Defilers", "=ds=#s7#", "#HONOR:2679#"};
 			};
 		};
@@ -6698,7 +6696,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Argent Dawn"],
+			name = AtlasLoot_IngameLocales["Argent Dawn"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -6710,11 +6708,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BilgewaterCartel"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tabard_kezan", "=q6="..AtlasLoot_IngameLocales["Bilgewater Cartel"], "=q5=#r1#"};
 				{ 2, 64884, "", "=q1=Bilgewater Cartel Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tabard_kezan", "=q6="..AtlasLoot_IngameLocales["Bilgewater Cartel"], "=q5=#r4#"};
 				{ 5, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tabard_kezan", "=q6="..AtlasLoot_IngameLocales["Bilgewater Cartel"], "=q5=#r5#"};
 				{ 8, 64906, "", "=q3=Bilgewater Cape", "=ds=#s4#", "3 #gold# 62 #silver# 2 #copper#"};
 				{ 9, 64907, "", "=q3=Bilgewater Mantle", "=ds=#s4#", "3 #gold# 63 #silver# 31 #copper#"};
 				{ 10, 64905, "", "=q3=Bilgewater Shroud", "=ds=#s4#", "3 #gold# 60 #silver# 78 #copper#"};
@@ -6723,7 +6721,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Bilgewater Cartel"],
+			name = AtlasLoot_IngameLocales["Bilgewater Cartel"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6735,17 +6733,17 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BloodsailBuccaneers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Helmet_66", "=q6="..BabbleFaction["Bloodsail Buccaneers"], "=q5=#r1# / #QUESTID:9272#"};
+				{ 1, 0, "INV_Helmet_66", "=q6="..AtlasLoot_IngameLocales["Bloodsail Buccaneers"], "=q5=#r1# / #QUESTID:9272#"};
 				{ 2, 22742, "", "=q1=Bloodsail Shirt", "=ds=#s5#, #a1#"};
 				{ 3, 22743, "", "=q1=Bloodsail Sash", "=ds=#s10#, #a1#"};
 				{ 4, 22745, "", "=q1=Bloodsail Pants", "=ds=#s11#, #a1#"};
 				{ 5, 22744, "", "=q1=Bloodsail Boots", "=ds=#s12#, #a1#"};
-				{ 16, 0, "INV_Helmet_66", "=q6="..BabbleFaction["Bloodsail Buccaneers"], "=q5=#r2# / #QUESTID:4621#"};
+				{ 16, 0, "INV_Helmet_66", "=q6="..AtlasLoot_IngameLocales["Bloodsail Buccaneers"], "=q5=#r2# / #QUESTID:4621#"};
 				{ 17, 12185, "", "=q2=Bloodsail Admiral's Hat", "=ds=#s1#, #a1#"};
 			};
 		};
 		info = {
-			name = BabbleFaction["Bloodsail Buccaneers"],
+			name = AtlasLoot_IngameLocales["Bloodsail Buccaneers"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -6778,7 +6776,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Brood of Nozdormu"],
+			name = AtlasLoot_IngameLocales["Brood of Nozdormu"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -6823,7 +6821,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Cenarion Circle"],
+			name = AtlasLoot_IngameLocales["Cenarion Circle"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -6835,11 +6833,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Darnassus"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..AtlasLoot_IngameLocales["Darnassus"], "=q5=#r1#"};
 				{ 2, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..AtlasLoot_IngameLocales["Darnassus"], "=q5=#r4#"};
 				{ 5, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..AtlasLoot_IngameLocales["Darnassus"], "=q5=#r5#"};
 				{ 8, 64887, "", "=q3=Cape of Darnassus", "=ds=#s4#", "3 #gold# 62 #silver# 34 #copper#"};
 				{ 9, 64888, "", "=q3=Mantle of Darnassus", "=ds=#s4#", "3 #gold# 29 #silver# 92 #copper#"};
 				{ 10, 64886, "", "=q3=Shroud of Darnassus", "=ds=#s4#", "3 #gold# 62 #silver# 9 #copper#"};
@@ -6853,7 +6851,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Darnassus"],
+			name = AtlasLoot_IngameLocales["Darnassus"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6865,11 +6863,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["DarkspearTrolls"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_troll", "=q6="..AtlasLoot_IngameLocales["Darkspear Trolls"], "=q5=#r1#"};
 				{ 2, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_troll", "=q6="..AtlasLoot_IngameLocales["Darkspear Trolls"], "=q5=#r4#"};
 				{ 5, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_troll", "=q6="..AtlasLoot_IngameLocales["Darkspear Trolls"], "=q5=#r5#"};
 				{ 8, 64912, "", "=q3=Darkspear Cape", "=ds=#s4#", "3 #gold# 34 #silver# 98 #copper#"};
 				{ 9, 64911, "", "=q3=Darkspear Mantle", "=ds=#s4#", "3 #gold# 33 #silver# 70 #copper#"};
 				{ 10, 64913, "", "=q3=Darkspear Shroud", "=ds=#s4#", "3 #gold# 36 #silver# 26 #copper#"};
@@ -6882,7 +6880,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Darkspear Trolls"],
+			name = AtlasLoot_IngameLocales["Darkspear Trolls"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6894,11 +6892,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Exodar"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..AtlasLoot_IngameLocales["Exodar"], "=q5=#r1#"};
 				{ 2, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..AtlasLoot_IngameLocales["Exodar"], "=q5=#r4#"};
 				{ 5, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..AtlasLoot_IngameLocales["Exodar"], "=q5=#r5#"};
 				{ 8, 64890, "", "=q3=Cape of Exodar", "=ds=#s4#", "3 #gold# 32 #silver# 48 #copper#"};
 				{ 9, 64889, "", "=q3=Mantle of Exodar", "=ds=#s4#", "3 #gold# 31 #silver# 20 #copper#"};
 				{ 10, 64891, "", "=q3=Shroud of Exodar", "=ds=#s4#", "3 #gold# 33 #silver# 73 #copper#"};
@@ -6911,7 +6909,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Exodar"],
+			name = AtlasLoot_IngameLocales["Exodar"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6923,11 +6921,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Gilneas"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r1#"};
+				{ 1, 0, "achievement_win_gilneas", "=q6="..AtlasLoot_IngameLocales["Gilneas"], "=q5=#r1#"};
 				{ 2, 64882, "", "=q1=Gilneas Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r4#"};
+				{ 4, 0, "achievement_win_gilneas", "=q6="..AtlasLoot_IngameLocales["Gilneas"], "=q5=#r4#"};
 				{ 5, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r5#"};
+				{ 7, 0, "achievement_win_gilneas", "=q6="..AtlasLoot_IngameLocales["Gilneas"], "=q5=#r5#"};
 				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#", "3 #gold# 36 #silver# 30 #copper#"};
 				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#", "3 #gold# 35 #silver# 2 #copper#"};
 				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#", "3 #gold# 37 #silver# 58 #copper#"};
@@ -6936,7 +6934,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Gilneas"],
+			name = AtlasLoot_IngameLocales["Gilneas"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6948,11 +6946,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["GnomereganRep"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..AtlasLoot_IngameLocales["Gnomeregan"], "=q5=#r1#"};
 				{ 2, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..AtlasLoot_IngameLocales["Gnomeregan"], "=q5=#r4#"};
 				{ 5, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..AtlasLoot_IngameLocales["Gnomeregan"], "=q5=#r5#"};
 				{ 8, 64896, "", "=q3=Cape of Gnomeregan", "=ds=#s4#", "3 #gold# 40 #silver# 11 #copper#"};
 				{ 9, 64895, "", "=q3=Mantle of Gnomeregan", "=ds=#s4#", "3 #gold# 38 #silver# 83 #copper#"};
 				{ 10, 64897, "", "=q3=Shroud of Gnomeregan", "=ds=#s4#", "3 #gold# 41 #silver# 40 #copper#"};
@@ -6966,7 +6964,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Gnomeregan"],
+			name = AtlasLoot_IngameLocales["Gnomeregan"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -6978,11 +6976,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["HuojinPandaren"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..AtlasLoot_IngameLocales["Huojin Pandaren"], "=q5=#r1#"};
 				{ 2, 83080, "", "=q1=Huojin Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..AtlasLoot_IngameLocales["Huojin Pandaren"], "=q5=#r4#"};
 				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 16, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r5#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_orc", "=q6="..AtlasLoot_IngameLocales["Huojin Pandaren"], "=q5=#r5#"};
 				{ 17, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
 				{ 18, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
 				{ 19, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
@@ -6998,7 +6996,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Huojin Pandaren"],
+			name = AtlasLoot_IngameLocales["Huojin Pandaren"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7010,11 +7008,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Ironforge"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..AtlasLoot_IngameLocales["Ironforge"], "=q5=#r1#"};
 				{ 2, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..AtlasLoot_IngameLocales["Ironforge"], "=q5=#r4#"};
 				{ 5, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..AtlasLoot_IngameLocales["Ironforge"], "=q5=#r5#"};
 				{ 8, 64899, "", "=q3=Cape of Ironforge", "=ds=#s4#", "3 #gold# 43 #silver# 93 #copper#"};
 				{ 9, 64900, "", "=q3=Mantle of Ironforge", "=ds=#s4#", "3 #gold# 45 #silver# 21 #copper#"};
 				{ 10, 64898, "", "=q3=Shroud of Ironforge", "=ds=#s4#", "3 #gold# 42 #silver# 68 #copper#"};
@@ -7027,7 +7025,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Ironforge"],
+			name = AtlasLoot_IngameLocales["Ironforge"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7039,11 +7037,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Orgrimmar"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..AtlasLoot_IngameLocales["Orgrimmar"], "=q5=#r1#"};
 				{ 2, 45581, "", "=q1=Orgrimmar", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_orc", "=q6="..AtlasLoot_IngameLocales["Orgrimmar"], "=q5=#r4#"};
 				{ 5, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_orc", "=q6="..AtlasLoot_IngameLocales["Orgrimmar"], "=q5=#r5#"};
 				{ 8, 64909, "", "=q3=Cape of Orgrimmar", "=ds=#s4#", "3 #gold# 31 #silver# 17 #copper#"};
 				{ 9, 64910, "", "=q3=Mantle of Orgrimmar", "=ds=#s4#", "3 #gold# 32 #silver# 42 #copper#"};
 				{ 10, 64908, "", "=q3=Shroud of Orgrimmar", "=ds=#s4#", "3 #gold# 29 #silver# 88 #copper#"};
@@ -7057,7 +7055,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Orgrimmar"],
+			name = AtlasLoot_IngameLocales["Orgrimmar"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7069,11 +7067,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["SilvermoonCity"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..AtlasLoot_IngameLocales["Silvermoon City"], "=q5=#r1#"};
 				{ 2, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..AtlasLoot_IngameLocales["Silvermoon City"], "=q5=#r4#"};
 				{ 5, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..AtlasLoot_IngameLocales["Silvermoon City"], "=q5=#r5#"};
 				{ 8, 64915, "", "=q3=Cape of Silvermoon", "=ds=#s4#", "3 #gold# 38 #silver# 80 #copper#"};
 				{ 9, 64916, "", "=q3=Mantle of Silvermoon", "=ds=#s4#", "3 #gold# 40 #silver# 8 #copper#"};
 				{ 10, 64914, "", "=q3=Shroud of Silvermoon", "=ds=#s4#", "3 #gold# 37 #silver# 51 #copper#"};
@@ -7087,7 +7085,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Silvermoon City"],
+			name = AtlasLoot_IngameLocales["Silvermoon City"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7099,11 +7097,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Stormwind"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..AtlasLoot_IngameLocales["Stormwind"], "=q5=#r1#"};
 				{ 2, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_human", "=q6="..AtlasLoot_IngameLocales["Stormwind"], "=q5=#r4#"};
 				{ 5, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_human", "=q6="..AtlasLoot_IngameLocales["Stormwind"], "=q5=#r5#"};
 				{ 8, 64902, "", "=q3=Cape of Stormwind", "=ds=#s4#", "3 #gold# 56 #silver# 93 #copper#"};
 				{ 9, 64901, "", "=q3=Mantle of Stormwind", "=ds=#s4#", "3 #gold# 46 #silver# 49 #copper#"};
 				{ 10, 64898, "", "=q3=Shroud of Stormwind", "=ds=#s4#", "3 #gold# 58 #silver# 21 #copper#"};
@@ -7117,7 +7115,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Stormwind"],
+			name = AtlasLoot_IngameLocales["Stormwind"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7168,7 +7166,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Thorium Brotherhood"],
+			name = AtlasLoot_IngameLocales["Thorium Brotherhood"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -7180,11 +7178,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["ThunderBluff"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..AtlasLoot_IngameLocales["Thunder Bluff"], "=q5=#r1#"};
 				{ 2, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..AtlasLoot_IngameLocales["Thunder Bluff"], "=q5=#r4#"};
 				{ 5, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..AtlasLoot_IngameLocales["Thunder Bluff"], "=q5=#r5#"};
 				{ 8, 64918, "", "=q3=Cape of Thunder Bluff", "=ds=#s4#", "3 #gold# 51 #silver# 80 #copper#"};
 				{ 9, 64917, "", "=q3=Mantle of Thunder Bluff", "=ds=#s4#", "3 #gold# 41 #silver# 36 #copper#"};
 				{ 10, 64919, "", "=q3=Shroud of Thunder Bluff", "=ds=#s4#", "3 #gold# 53 #silver# 8 #copper#"};
@@ -7197,7 +7195,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Thunder Bluff"],
+			name = AtlasLoot_IngameLocales["Thunder Bluff"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7231,7 +7229,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Timbermaw Hold"],
+			name = AtlasLoot_IngameLocales["Timbermaw Hold"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -7243,11 +7241,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["TushuiPandaren"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..AtlasLoot_IngameLocales["Tushui Pandaren"], "=q5=#r1#"};
 				{ 2, 83079, "", "=q1=Tushui Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..AtlasLoot_IngameLocales["Tushui Pandaren"], "=q5=#r4#"};
 				{ 5, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r5#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..AtlasLoot_IngameLocales["Tushui Pandaren"], "=q5=#r5#"};
 				{ 17, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
 				{ 18, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
 				{ 19, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
@@ -7263,7 +7261,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Tushui Pandaren"],
+			name = AtlasLoot_IngameLocales["Tushui Pandaren"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
@@ -7275,11 +7273,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Undercity"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..AtlasLoot_IngameLocales["Undercity"], "=q5=#r1#"};
 				{ 2, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "10 #silver#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..AtlasLoot_IngameLocales["Undercity"], "=q5=#r4#"};
 				{ 5, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#", "2 #gold#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..AtlasLoot_IngameLocales["Undercity"], "=q5=#r5#"};
 				{ 8, 64921, "", "=q3=Cape of Undercity", "=ds=#s4#", "3 #gold# 55 #silver# 61 #copper#"};
 				{ 9, 64922, "", "=q3=Mantle of Undercity", "=ds=#s4#", "3 #gold# 56 #silver# 90 #copper#"};
 				{ 10, 64920, "", "=q3=Shroud of Undercity", "=ds=#s4#", "3 #gold# 54 #silver# 36 #copper#"};
@@ -7293,7 +7291,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleFaction["Undercity"],
+			name = AtlasLoot_IngameLocales["Undercity"],
 			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}

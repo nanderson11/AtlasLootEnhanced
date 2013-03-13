@@ -1,7 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootCataclysm"
@@ -4004,7 +4003,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Avengers of Hyjal"],
+			name = AtlasLoot_IngameLocales["Avengers of Hyjal"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4054,7 +4053,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Baradin's Wardens"],
+			name = AtlasLoot_IngameLocales["Baradin's Wardens"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4086,7 +4085,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Dragonmaw Clan"],
+			name = AtlasLoot_IngameLocales["Dragonmaw Clan"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4136,7 +4135,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Hellscream's Reach"],
+			name = AtlasLoot_IngameLocales["Hellscream's Reach"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4170,7 +4169,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Ramkahen"],
+			name = AtlasLoot_IngameLocales["Ramkahen"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4202,7 +4201,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Earthen Ring"],
+			name = AtlasLoot_IngameLocales["The Earthen Ring"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4234,7 +4233,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Guardians of Hyjal"],
+			name = AtlasLoot_IngameLocales["Guardians of Hyjal"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4266,7 +4265,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Therazane"],
+			name = AtlasLoot_IngameLocales["Therazane"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -4298,7 +4297,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleFaction["Wildhammer Clan"],
+			name = AtlasLoot_IngameLocales["Wildhammer Clan"],
 			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
@@ -6252,26 +6251,26 @@ local moduleName = "AtlasLootCataclysm"
 				{ 26, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "#HONOR:50#"};
 				{ 27, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "#HONOR:50#"};
 				{ 28, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "=ds="..BabbleBoss["Ribbly Screwspigot"]..": "..AtlasLoot:GetMapNameByID(704)};
-				{ 29, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Bilgewater Cartel"].." - "..BabbleFaction["Revered"]};
-				{ 30, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Darkspear Trolls"].." - "..BabbleFaction["Revered"]};
+				{ 29, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Bilgewater Cartel"].." - "..AL["Revered"]};
+				{ 30, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Darkspear Trolls"].." - "..AL["Revered"]};
 			};
 			{
-				{ 1, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Darnassus"].." - "..BabbleFaction["Revered"]};
-				{ 2, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Exodar"].." - "..BabbleFaction["Revered"]};
-				{ 3, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Gilneas"].." - "..BabbleFaction["Revered"]};
-				{ 4, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Gnomeregan"].." - "..BabbleFaction["Revered"]};
-				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Huojin Pandaren"].." - "..BabbleFaction["Revered"]};
-				{ 6, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Ironforge"].." - "..BabbleFaction["Revered"]};
+				{ 1, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Darnassus"].." - "..AL["Revered"]};
+				{ 2, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Exodar"].." - "..AL["Revered"]};
+				{ 3, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Gilneas"].." - "..AL["Revered"]};
+				{ 4, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Gnomeregan"].." - "..AL["Revered"]};
+				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Huojin Pandaren"].." - "..AL["Revered"]};
+				{ 6, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Ironforge"].." - "..AL["Revered"]};
 				{ 7, 14155, "", "=q2=Mooncloth Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 8, 21841, "", "=q2=Netherweave Bag", "=ds=#e1#", "=ds=#p8#"};
-				{ 9, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Orgrimmar"].." - "..BabbleFaction["Revered"]};
+				{ 9, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Orgrimmar"].." - "..AL["Revered"]};
 				{ 10, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 11, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Silvermoon City"].." - "..BabbleFaction["Revered"]};
-				{ 12, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Stormwind"].." - "..BabbleFaction["Revered"]};
-				{ 13, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Thunder Bluff"].." - "..BabbleFaction["Revered"]};
+				{ 11, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Silvermoon City"].." - "..AL["Revered"]};
+				{ 12, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Stormwind"].." - "..AL["Revered"]};
+				{ 13, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Thunder Bluff"].." - "..AL["Revered"]};
 				{ 14, 4500, "", "=q2=Traveler's Backpack", "=ds=#e1#", "=ds="..AL["World Drop"]};
-				{ 15, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Tushui Pandaren"].." - "..BabbleFaction["Revered"]};
-				{ 16, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Undercity"].." - "..BabbleFaction["Revered"]};
+				{ 15, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Tushui Pandaren"].." - "..AL["Revered"]};
+				{ 16, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Undercity"].." - "..AL["Revered"]};
 				{ 17, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"};
 				{ 18, 30744, "", "=q2=Draenic Leather Pack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 12 #gold#"};
 				{ 19, 21340, "", "=q2=Soul Pouch", "=ds=#e1#", "=ds=#p8#"};

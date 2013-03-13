@@ -491,7 +491,6 @@ if AL then
 	AL["Potions"] = "藥水";
 	AL["Transmutes"] = "轉化";
 	AL["Flasks"] = "精鍊藥劑";
-	AL["Guild"] = "公會";
 
 	-- Blacksmithing
 	AL["Armor Enhancements"] = "護甲附魔";
@@ -938,6 +937,19 @@ if AL then
 	AL["Skin of the Great Sandworm"] = "巨型沙蟲的皮";
 	AL["Husk of the Old God"] = "上古之神的外殼";
 	AL["Carapace of the Old God"] = "上古之神的甲殼";
+
+	-- Faction related strings
+	AL["Alliance"] = "聯盟";
+	AL["Horde"] = "部落";
+	AL["Neutral"] = "中立";
+	AL["Friendly"] = "友好";
+	AL["Honored"] = "尊敬";
+	AL["Revered"] = "崇敬";
+	AL["Exalted"] = "崇拜";
+	AL["Best Friend"] = "最好的朋友";
+	AL["Rank 4"] = "第4階";
+	AL["Rank 8"] = "第8階";
+	AL["Winterfin Retreat"] = "冬鰭避居地";
 
 	-- Recipe origin strings
 	AL["Crafted"] = "製作";

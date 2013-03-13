@@ -1,7 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
@@ -3314,7 +3313,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Ashtongue Deathsworn"],
+			name = AtlasLoot_IngameLocales["Ashtongue Deathsworn"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3367,7 +3366,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Cenarion Expedition"],
+			name = AtlasLoot_IngameLocales["Cenarion Expedition"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3409,7 +3408,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Honor Hold"],
+			name = AtlasLoot_IngameLocales["Honor Hold"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3445,7 +3444,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Keepers of Time"],
+			name = AtlasLoot_IngameLocales["Keepers of Time"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3487,7 +3486,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Kurenai"],
+			name = AtlasLoot_IngameLocales["Kurenai"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3521,7 +3520,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Lower City"],
+			name = AtlasLoot_IngameLocales["Lower City"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3550,7 +3549,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Netherwing"],
+			name = AtlasLoot_IngameLocales["Netherwing"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3584,7 +3583,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Ogri'la"],
+			name = AtlasLoot_IngameLocales["Ogri'la"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3616,7 +3615,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Sha'tari Skyguard"],
+			name = AtlasLoot_IngameLocales["Sha'tari Skyguard"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3704,7 +3703,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Shattered Sun Offensive"],
+			name = AtlasLoot_IngameLocales["Shattered Sun Offensive"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3737,7 +3736,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Sporeggar"],
+			name = AtlasLoot_IngameLocales["Sporeggar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3792,7 +3791,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Aldor"],
+			name = AtlasLoot_IngameLocales["The Aldor"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3843,7 +3842,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Consortium"],
+			name = AtlasLoot_IngameLocales["The Consortium"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3885,7 +3884,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Mag'har"],
+			name = AtlasLoot_IngameLocales["The Mag'har"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3943,7 +3942,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Scale of the Sands"],
+			name = AtlasLoot_IngameLocales["The Scale of the Sands"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3996,7 +3995,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Scryers"],
+			name = AtlasLoot_IngameLocales["The Scryers"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4033,7 +4032,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Sha'tar"],
+			name = AtlasLoot_IngameLocales["The Sha'tar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4082,7 +4081,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Violet Eye"],
+			name = AtlasLoot_IngameLocales["The Violet Eye"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4124,7 +4123,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Thrallmar"],
+			name = AtlasLoot_IngameLocales["Thrallmar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4154,7 +4153,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleFaction["Tranquillien"],
+			name = AtlasLoot_IngameLocales["Tranquillien"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}

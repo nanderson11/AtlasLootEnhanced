@@ -2,7 +2,6 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLoot_WorldEvents"
@@ -123,14 +122,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 27, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
 			};
 			{
-				{ 1, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
+				{ 1, 0, "inv_misc_tabardpvp_01", "=q6="..AtlasLoot_IngameLocales["The Silver Covenant"], "=ec1=#m7#"};
 				{ 2, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "#CHAMPSEAL:150#"};
-				{ 5, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 5, 0, "INV_Jewelry_Talisman_08", "=q6="..AtlasLoot_IngameLocales["Argent Crusade"], "" };
 				{ 6, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 7, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "#CHAMPSEAL:150#"};
-				{ 16, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=ec1=#m6#"};
+				{ 16, 0, "inv_misc_tabardpvp_02", "=q6="..AtlasLoot_IngameLocales["The Sunreavers"], "=ec1=#m6#"};
 				{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "#CHAMPSEAL:150#"};
 			};
@@ -151,7 +150,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 6, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 8, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "#CHAMPSEAL:40#"};
-				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..AtlasLoot_IngameLocales["Argent Crusade"], "" };
 				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "#CHAMPSEAL:50#"};
 				{ 17, 44998, "", "=q3=Argent Squire", "=ds=#e13#", "=ds=#m4#, =ec1=#m7#"};
 				{ 18, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#", "#CHAMPSEAL:40#"};
@@ -1023,7 +1022,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = BabbleFaction["Darkmoon Faire"],
+			name = AtlasLoot_IngameLocales["Darkmoon Faire"],
 			module = moduleName, menu = "DARKMOONMENU"
 		};
 	};
@@ -1212,7 +1211,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = BabbleFaction["Darkmoon Faire"],
+			name = AtlasLoot_IngameLocales["Darkmoon Faire"],
 			module = moduleName, menu = "DARKMOONMENU"
 		};
 	};
@@ -1298,7 +1297,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = BabbleFaction["Darkmoon Faire"],
+			name = AtlasLoot_IngameLocales["Darkmoon Faire"],
 			module = moduleName, menu = "DARKMOONMENU"
 		};
 	};

@@ -491,7 +491,6 @@ if AL then
 	AL["Potions"] = true;
 	AL["Transmutes"] = true;
 	AL["Flasks"] = true;
-	AL["Guild"] = true;
 
 	-- Blacksmithing
 	AL["Armor Enhancements"] = true;
@@ -938,6 +937,19 @@ if AL then
 	AL["Skin of the Great Sandworm"] = true;
 	AL["Husk of the Old God"] = true;
 	AL["Carapace of the Old God"] = true;
+
+	-- Faction related strings
+	AL["Alliance"] = true;
+	AL["Horde"] = true;
+	AL["Neutral"] = true;
+	AL["Friendly"] = true;
+	AL["Honored"] = true;
+	AL["Revered"] = true;
+	AL["Exalted"] = true;
+	AL["Best Friend"] = true;
+	AL["Rank 4"] = true;
+	AL["Rank 8"] = true;
+	AL["Winterfin Retreat"] = true;
 
 	-- Recipe origin strings
 	AL["Crafted"] = true;

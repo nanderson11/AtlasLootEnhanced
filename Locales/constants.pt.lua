@@ -735,6 +735,19 @@ if AL then
 	AL["Husk of the Old God"] = "Carapaça do Deus Antigo";
 	AL["Carapace of the Old God"] = "Carapaça do Deus Antigo";
 
+	-- Faction related strings
+	AL["Alliance"] = "Aliança";
+	AL["Horde"] = "Horda";
+	AL["Neutral"] = "Tolerado";
+	AL["Friendly"] = "Respeitado";
+	AL["Honored"] = "Honrado";
+	AL["Revered"] = "Reverenciado";
+	AL["Exalted"] = "Exaltado";
+	-- AL["Best Friend"] = true;
+	-- AL["Rank 4"] = true;
+	-- AL["Rank 8"] = true;
+	AL["Winterfin Retreat"] = "Retiro da Falésia Invernal";
+
 	--Recipe origin strings
 	AL["Trainer"] = "Instrutor";
 	AL["Discovery"] = "Descoberta";

@@ -491,7 +491,6 @@ if AL then
 	--AL["Potions"] = true;
 	AL["Transmutes"] = "Transmutations";
 	AL["Flasks"] = "Flacons";
-	AL["Guild"] = "Guilde";
 
 	-- Blacksmithing
 	AL["Armor Enhancements"] = "Améliorations d'armure";
@@ -938,6 +937,19 @@ if AL then
 	AL["Skin of the Great Sandworm"] = "Diadème de Vek'lor";
 	AL["Husk of the Old God"] = "Peau du Grand ver des sables";
 	AL["Carapace of the Old God"] = "Carapace du Dieu très ancien";
+
+	-- Faction related strings
+	-- AL["Alliance"] = true;
+	-- AL["Horde"] = true;
+	AL["Neutral"] = "Neutre";
+	AL["Friendly"] = "Amical";
+	AL["Honored"] = "Honoré";
+	AL["Revered"] = "Révéré";
+	AL["Exalted"] = "Exalté";
+	AL["Best Friend"] = "Meilleur ami";
+	AL["Rank 4"] = "Rang 4";
+	AL["Rank 8"] = "Rang 8";
+	AL["Winterfin Retreat"] = "Retraite des Ailerons-d'hiver";
 
 	-- Recipe origin strings
 	AL["Crafted"] = "Fabriqué";

@@ -5,6 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.05.03 (Mar xx, 2013)
+Added more Thunderforged items to Throne of Thunder loot tables
+Converted faction names to use ingame locales instead of BabbleFaction
+Deleted BabbleFaction library
+
 v7.05.02 (Mar 12, 2013)
 Fixed a bug that prevented the factions menu to open.
 

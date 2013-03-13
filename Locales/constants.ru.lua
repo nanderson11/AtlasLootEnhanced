@@ -391,7 +391,6 @@ if AL then
 	AL["Potions"] = "Зелья";
 	AL["Transmutes"] = "Трансмутация";
 	AL["Flasks"] = "Фляги";
-	AL["Guild"] = "Гильдия";
 	
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = "Чертежы Cataclysmа у торговцев";
@@ -789,6 +788,19 @@ if AL then
 	AL["Skin of the Great Sandworm"] = "Шкура гигантского песчаного червя";
 	AL["Husk of the Old God"] = "Броня Древнего Бога";
 	AL["Carapace of the Old God"] = "Панцирь Древнего Бога";
+
+	-- Faction related strings
+	AL["Alliance"] = "Альянс";
+	AL["Horde"] = "Орда";
+	AL["Neutral"] = "Равнодушие";
+	AL["Friendly"] = "Дружелюбие";
+	AL["Honored"] = "Уважение";
+	AL["Revered"] = "Почтение";
+	AL["Exalted"] = "Превознесение";
+	AL["Best Friend"] = "Лучший друг";
+	-- AL["Rank 4"] = true;
+	-- AL["Rank 8"] = true;
+	AL["Winterfin Retreat"] = "Холодный Плавник";
 
 	-- Recipe origin strings
 	AL["Trainer"] = "Тренер";

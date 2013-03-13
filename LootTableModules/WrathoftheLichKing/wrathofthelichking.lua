@@ -3,7 +3,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootWotLK"
 
@@ -7380,7 +7379,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Alliance Vanguard"],
+			name = AtlasLoot_IngameLocales["Alliance Vanguard"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7414,7 +7413,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Argent Crusade"],
+			name = AtlasLoot_IngameLocales["Argent Crusade"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7426,12 +7425,12 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["ArgentTournamentFaction"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=q5=#r5#"};
+				{ 2, 0, "inv_misc_tabardpvp_01", "=q6="..AtlasLoot_IngameLocales["The Silver Covenant"], "=q5=#r5#"};
 				{ 3, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#"};
 				{ 4, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#"};
 				{ 5, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
 				{ 6, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
-				{ 17, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=q5=#r5#"};
+				{ 17, 0, "inv_misc_tabardpvp_02", "=q6="..AtlasLoot_IngameLocales["The Sunreavers"], "=q5=#r5#"};
 				{ 18, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#"};
 				{ 19, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#"};
 				{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
@@ -7459,7 +7458,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Explorers' League"].." / "..BabbleFaction["Warsong Offensive"],
+			name = AtlasLoot_IngameLocales["Explorers' League"].." / "..AtlasLoot_IngameLocales["Warsong Offensive"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7495,7 +7494,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Frenzyheart Tribe"],
+			name = AtlasLoot_IngameLocales["Frenzyheart Tribe"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7521,7 +7520,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Horde Expedition"],
+			name = AtlasLoot_IngameLocales["Horde Expedition"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7555,7 +7554,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Kirin Tor"],
+			name = AtlasLoot_IngameLocales["Kirin Tor"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7591,7 +7590,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Knights of the Ebon Blade"],
+			name = AtlasLoot_IngameLocales["Knights of the Ebon Blade"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7648,7 +7647,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Ashen Verdict"],
+			name = AtlasLoot_IngameLocales["The Ashen Verdict"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7685,7 +7684,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Kalu'ak"],
+			name = AtlasLoot_IngameLocales["The Kalu'ak"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7724,7 +7723,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Oracles"],
+			name = AtlasLoot_IngameLocales["The Oracles"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7767,7 +7766,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Sons of Hodir"],
+			name = AtlasLoot_IngameLocales["The Sons of Hodir"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7802,7 +7801,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["The Wyrmrest Accord"],
+			name = AtlasLoot_IngameLocales["The Wyrmrest Accord"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -7827,7 +7826,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleFaction["Winterfin Retreat"],
+			name = AL["Winterfin Retreat"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
