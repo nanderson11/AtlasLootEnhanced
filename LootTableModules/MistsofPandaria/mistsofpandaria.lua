@@ -6700,36 +6700,36 @@ local moduleName = "AtlasLootMoP"
 		--- Level 90 - Weapons ---
 		--------------------------
 
---[[	AtlasLoot_Data["PVP90Weapons"] = {
+	AtlasLoot_Data["PVP90Weapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 4, 84961, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
-				{ 5, 84967, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
-				{ 7, 84969, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
-				{ 8, 84968, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
-				{ 9, 84965, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
-				{ 10, 84966, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
-				{ 16, 84970, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 17, 84971, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 18, 84964, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 20, 84790, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
-				{ 21, 84791, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
-				{ 22, 84785, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3500#" },
-				{ 24, 84786, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3500#" },
-				{ 26, 84787, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3500#" },
-				{ 27, 84788, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3500#" },
-				{ 28, 84789, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3500#" },
+				{ 1, 91749, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#HONOR:1750#" },
+				{ 2, 91745, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#HONOR:1750#" },
+				{ 4, 91484, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:2250#" },
+				{ 5, 91743, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:1750#" },
+				{ 7, 91450, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#HONOR:1750#" },
+				{ 8, 91761, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:1750#" },
+				{ 9, 91446, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:1750#" },
+				{ 10, 91757, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#HONOR:1750#" },
+				{ 16, 91759, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#HONOR:1750#" },
+				{ 17, 91556, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h1#, #w6#", "#HONOR:2250#" },
+				{ 18, 91448, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:1750#" },
+				{ 20, 91444, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:3500#" },
+				{ 21, 91440, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:3500#" },
+				{ 22, 91442, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:3500#" },
+				{ 24, 91660, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#HONOR:3500#" },
+				{ 26, 91486, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:3500#" },
+				{ 27, 91560, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#HONOR:3500#" },
+				{ 28, 91535, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#HONOR:3500#" },
 			};
 			{
-				{ 1, 84911, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 2, 84912, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 3, 84910, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 5, 84896, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3500#" },
-				{ 6, 84900, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3500#" },
-				{ 16, 84867, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
-				{ 17, 84866, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
+				{ 1, 91482, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#HONOR:1250#" },
+				{ 2, 91558, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#HONOR:1250#" },
+				{ 3, 91771, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:1250#" },
+				{ 5, 91460, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#HONOR:3500#" },
+				{ 6, 91554, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#HONOR:3500#" },
+				{ 16, 91494, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#HONOR:1250#" },
+				{ 17, 91480, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#HONOR:1250#" }
 			};
 		};
 		info = {
@@ -6738,7 +6738,7 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
-	AtlasLoot_Data["PVP90Weapons2"] = {
+--[[	AtlasLoot_Data["PVP90Weapons2"] = {
 		["Normal"] = {
 			{
 				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
