@@ -382,7 +382,9 @@ if AL then
 	AL["ilvl 470"] = "等级470";
 	AL["ilvl 490"] = "等级490";
 	AL["ilvl 489"] = "等级489";
+	AL["ilvl 493"] = "等级493";
 	AL["ilvl 496"] = "等级496";
+	AL["ilvl 512"] = "等级512";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";
