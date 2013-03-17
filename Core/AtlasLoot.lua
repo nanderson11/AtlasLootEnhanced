@@ -1036,12 +1036,12 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Prev.lootpage = prevPage
 		self.ItemFrame.Prev:Show()
 	end
-	if AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu then
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu then
 		self.ItemFrame.Back.lootpage = AtlasLoot_Data[dataID].info.menu
 		self.ItemFrame.Back:Show()
 	end
 	
-	if AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
 		self.ItemFrame.RaidFinder:Show()
 		self.ItemFrame.RaidFinder:SetChecked(false)
 		self.ItemFrame.RaidFinder:Enable()
@@ -1094,7 +1094,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 10 Man Loot"])
 		self.ItemFrame.Switch:Show()
-	elseif self.ItemFrame.Switch.changePoint then
+	elseif self.ItemFrame.Switch.changePoint and AtlasLoot_Data[dataID] then
 		if AtlasLoot.db.profile.ShowLootTablePrice then
 			if AtlasLoot_Data[dataID].info.switchText and AtlasLoot_Data[dataID].info.switchText[1] then
 				self.ItemFrame.Switch:SetText(AtlasLoot_Data[dataID].info.switchText[1])
