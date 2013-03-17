@@ -1217,21 +1217,23 @@ function AltasLootItemButton:SetAmount(amount)
 end
 
 function AltasLootItemButton:CheckBonusRoll(enabled)
-	if not AtlasLoot.CanShowBonusRoll then return end
 	if self.type ~= "ItemIcon" then return end
+	if not AtlasLoot.CanShowBonusRoll then 
+		enabled = false
+	end
 	for k,v in ipairs(self.Frame.BonusRoll) do
 		v:Hide()
 	end
-	if self.info then 
-		self.Specs = AtlasLoot:BonusLoot_CheckItemId(self.info[2]) 
-		if AtlasLoot.db.profile.ShowBonusRollInfoInTT then
-			self.SpecsTT = AtlasLoot:BonusLoot_GetItemIdInfo(self.info[2]) 
-		end
-	else
-		self.Specs = nil
-		self.SpecsTT = nil
-	end
 	if enabled then
+		if self.info then 
+			self.Specs = AtlasLoot:BonusLoot_CheckItemId(self.info[2]) 
+			if AtlasLoot.db.profile.ShowBonusRollInfoInTT then
+				self.SpecsTT = AtlasLoot:BonusLoot_GetItemIdInfo(self.info[2]) 
+			end
+		else
+			self.Specs = nil
+			self.SpecsTT = nil
+		end
 		if self.Specs then
 			self.Frame:SetAlpha(1)
 			for k,v in ipairs(self.Specs) do

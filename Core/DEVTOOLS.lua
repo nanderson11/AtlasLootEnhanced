@@ -550,6 +550,24 @@ local function startBonusRollScan()
 	
 	return retString
 end
+
+local function startClassScan()
+	local ret = "local classTable = {\n"
+	for i = 1,11 do
+		ret = ret.."["..i.."] = {"
+		for j=1,4 do
+			local id, name, description, icon, background, role = GetSpecializationInfoForClassID(i,j)
+			if id then
+				ret = ret.."["..id.."] = "..j..","
+			end
+		end
+		ret = ret.."},\n"
+	end
+	ret = ret.."}"
+	
+	return ret
+end
+
 --EJ_SetLootFilter(classID, specID)
 local function BonusRollScanFrame(container)
 	local lootTable, lootTableString
@@ -568,6 +586,15 @@ local function BonusRollScanFrame(container)
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
+	
+	local button2 = AceGUI:Create("Button")
+	button2:SetText("Class Scan")
+	button2:SetCallback("OnClick", function() 
+		lootTableString = startClassScan()
+		multiEditbox:SetText(lootTableString)
+	end)
+	button2:SetWidth(200)
+	container:AddChild(button2)
 
 	container:AddChild(desc)
 	
