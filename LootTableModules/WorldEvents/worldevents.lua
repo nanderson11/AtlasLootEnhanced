@@ -3,7 +3,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLoot_WorldEvents"
 
 -- Index
@@ -324,18 +323,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ChildrensWeek"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleZone["Azeroth"], "=q5="..AtlasLoot:GetMapNameByID(301).." / "..AtlasLoot:GetMapNameByID(321)};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Azeroth"], "=q5="..AtlasLoot_IngameLocales["Stormwind City"].." / "..AtlasLoot_IngameLocales["Orgrimmar"]};
 				{ 2, 23007, "", "=q1=Piglet's Collar", "=ds=#e13#"};
 				{ 3, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
 				{ 4, 66073, "", "=q1=Snail Shell", "=ds=#e13#"};
 				{ 5, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
 				{ 6, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..AtlasLoot:GetMapNameByID(481)};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Outland"], "=q5="..AtlasLoot_IngameLocales["Shattrath City"]};
 				{ 9, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
 				{ 10, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
 				{ 11, 69648, "", "=q3=Legs", "=ds=#e13#"};
 				{ 12, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleZone["Northrend"], "=q5="..AtlasLoot:GetMapNameByID(504)};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Northrend"], "=q5="..AtlasLoot_IngameLocales["Dalaran"]};
 				{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
 				{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
 			};
@@ -926,7 +925,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 12, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
 				{ 13, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
 				{ 17, 80008, "", "=q4=Darkmoon Rabbit", "=ds=#e13#", "#ACHIEVEMENTID:6332#"};
-				{ 18, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..BabbleZone["Darkmoon Island"]};
+				{ 18, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
 				{ 20, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#", "=q1=#m4#: #QUESTID:32175#"};
 				{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: #QUESTID:7946#"};
 				{ 23, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#", "10 #silver#"},

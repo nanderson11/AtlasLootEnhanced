@@ -1069,13 +1069,26 @@ if AL then
 	AL["Bash'ir Landing Stasis Chambers"] = "貝許爾的靜止密室";
 	AL["Battle Pet Trainer"] = "寵物戰鬥訓練師";
 
-	-- Zones
-	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
+	-- Zone related strings
+	AL["Alterac Mountains"] = "奧特蘭克山脈";
+	AL["Azeroth"] = "艾澤拉斯";
+	AL["Blackrock Mountain"] = "黑石山";
+	AL["Caverns of Time"] = "時光之穴";
 	AL["Crusader's Square"] = "十字軍廣場";
-	AL["The Gauntlet"] = "街巷";
-	AL["Halfhill Farm"] = "半山農場";
+	AL["Darkmoon Island"] = "暗月島";
 	AL["Domination Point"] = "制霸岬";
+	AL["East"] = "東";
+	AL["Halfhill Farm"] = "半山農場";
 	AL["Lion's Landing"] = "雄獅灘";
+	AL["Lower"] = "低階";
+	AL["North"] = "北";
+	AL["Northrend"] = "北裂境";
+	AL["Outland"] = "外域";
+	AL["Pandaria"] = "潘達利亞";
+	AL["The Gauntlet"] = "街巷";
+	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
+	AL["Upper"] = "上層";
+	AL["West"] = "西";
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = "馬丁瑞德的化身";

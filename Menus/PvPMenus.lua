@@ -1,7 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["PVPMENU"] = {
 		["Normal"] = {
@@ -27,21 +26,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PVPMENU2"] = {
 		["Normal"] = {
 			{
-				{ 2, "ABMisc", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Arathi Basin"]};
+				{ 2, "ABMisc", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], "=q5="..AtlasLoot_IngameLocales["Arathi Basin"]};
 				{ 3, "ABSets", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
-				{ 5, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Warsong Gulch"]};
-				{ 6, "WSGAccessories", "INV_Misc_Rune_07", "=ds="..AL["Accessories"], "=q5="..BabbleZone["Warsong Gulch"]};
-				{ 8, "AVMisc", "INV_Jewelry_Necklace_21", "=ds="..BabbleZone["Alterac Valley"], ""};
-				{ 10, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
-				{ 11, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
-				{ 13, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
-				{ 17, "AB4049", "INV_Jewelry_Amulet_07", "=ds="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..BabbleZone["Arathi Basin"]};
-				{ 18, "AB2039", "INV_Jewelry_Amulet_07", "=ds="..string.format(AL["Level %s Rewards"], "20-39"), "=q5="..BabbleZone["Arathi Basin"]};
-				{ 20, "WSGWeapons", "INV_Misc_Rune_07", "=ds="..AL["Weapons"], "=q5="..BabbleZone["Warsong Gulch"]};
-				{ 21, "WSGArmor", "INV_Misc_Rune_07", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleZone["Warsong Gulch"]};
-				{ 25, "Terokkar", "INV_Jewelry_FrostwolfTrinket_04", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Spirit Towers"]};
-				{ 26, "Nagrand", "INV_Misc_Rune_09", "=ds="..BabbleZone["Nagrand"], "=q5="..AL["Halaa"]};
-				{ 28, "VentureBay", "INV_Misc_Coin_16", "=ds="..BabbleZone["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
+				{ 5, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], "=q5="..AtlasLoot_IngameLocales["Warsong Gulch"]};
+				{ 6, "WSGAccessories", "INV_Misc_Rune_07", "=ds="..AL["Accessories"], "=q5="..AtlasLoot_IngameLocales["Warsong Gulch"]};
+				{ 8, "AVMisc", "INV_Jewelry_Necklace_21", "=ds="..AtlasLoot_IngameLocales["Alterac Valley"], ""};
+				{ 10, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..AtlasLoot_IngameLocales["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
+				{ 11, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..AtlasLoot_IngameLocales["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
+				{ 13, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..AtlasLoot_IngameLocales["Wintergrasp"], ""};
+				{ 17, "AB4049", "INV_Jewelry_Amulet_07", "=ds="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..AtlasLoot_IngameLocales["Arathi Basin"]};
+				{ 18, "AB2039", "INV_Jewelry_Amulet_07", "=ds="..string.format(AL["Level %s Rewards"], "20-39"), "=q5="..AtlasLoot_IngameLocales["Arathi Basin"]};
+				{ 20, "WSGWeapons", "INV_Misc_Rune_07", "=ds="..AL["Weapons"], "=q5="..AtlasLoot_IngameLocales["Warsong Gulch"]};
+				{ 21, "WSGArmor", "INV_Misc_Rune_07", "=ds="..BabbleInventory["Armor"], "=q5="..AtlasLoot_IngameLocales["Warsong Gulch"]};
+				{ 25, "Terokkar", "INV_Jewelry_FrostwolfTrinket_04", "=ds="..AtlasLoot_IngameLocales["Terokkar Forest"], "=q5="..AL["Spirit Towers"]};
+				{ 26, "Nagrand", "INV_Misc_Rune_09", "=ds="..AtlasLoot_IngameLocales["Nagrand"], "=q5="..AL["Halaa"]};
+				{ 28, "VentureBay", "INV_Misc_Coin_16", "=ds="..AtlasLoot_IngameLocales["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
 			};
 		};
 		info = {
@@ -231,7 +230,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = BabbleZone["Wintergrasp"],
+			name = AtlasLoot_IngameLocales["Wintergrasp"],
 			menu = "PVPMENU2",
 		};
 	}

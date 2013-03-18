@@ -580,7 +580,20 @@ if AL then
 	AL["Felsteed"] = "Corcel vil";
 	AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
 
-	--Zones
+	-- Zone related strings
+	AL["Alterac Mountains"] = "Montañas de Alterac";
+	-- AL["Azeroth"] = true;
+	AL["Blackrock Mountain"] = "Montaña Roca Negra";
+	AL["Caverns of Time"] = "Cavernas del Tiempo";
+	AL["Darkmoon Island"] = "Isla Luna Negra";
+	AL["East"] = "Este";
+	AL["Lower"] = "Cumbre inferior";
+	AL["North"] = "Norte";
+	AL["Northrend"] = "Rasganorte";
+	AL["Outland"] = "Terrallende";
+	-- AL["Pandaria"] = true;
+	AL["Upper"] = "Cumbre";
+	AL["West"] = "Oeste";
 
 	--Shortcuts for Bossname files
 	--AL["Avatar"] = true,	

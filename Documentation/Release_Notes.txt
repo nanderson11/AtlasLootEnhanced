@@ -9,6 +9,8 @@ v7.05.03 (Mar xx, 2013)
 Added more Thunderforged items to Throne of Thunder loot tables
 Converted faction names to use ingame locales instead of BabbleFaction
 Deleted BabbleFaction library
+Converted zone names to use ingame locales instead of BabbleZone
+Deleted BabbleZone library
 
 v7.05.02 (Mar 12, 2013)
 Fixed a bug that prevented the factions menu to open.

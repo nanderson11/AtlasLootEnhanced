@@ -3,7 +3,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootClassicWoW"
 
 -- Index
@@ -711,7 +710,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(688),
+			name = AtlasLoot_IngameLocales["Blackfathom Deeps"],
 			module = moduleName, instance = "BlackfathomDeeps",
 		};
 	};
@@ -1108,7 +1107,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(688).." - "..AL["Quest Item"],
+			name = AtlasLoot_IngameLocales["Blackrock Depths"].." - "..AL["Quest Item"],
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1165,7 +1164,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Blackrock Mountain"],
+			name = AL["Blackrock Mountain"],
 			module = moduleName, instance = "BlackrockMountainEnt",
 		};
 	};
@@ -1181,7 +1180,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Lower Blackrock Spire"].." - "..AL["Quest Item"],
+			name = AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..") - "..AL["Quest Item"],
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -2825,7 +2824,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Gnomeregan"],
+			name = AtlasLoot_IngameLocales["Gnomeregan"],
 			module = moduleName, instance = "Gnomeregan",
 		};
 	};
@@ -2886,7 +2885,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Maraudon"],
+			name = AtlasLoot_IngameLocales["Maraudon"],
 			module = moduleName, instance = "Maraudon",
 		};
 	};
@@ -2917,7 +2916,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Ragefire Chasm"],
+			name = AtlasLoot_IngameLocales["Ragefire Chasm"],
 			module = moduleName, instance = "RagefireChasm",
 		};
 	};
@@ -2974,7 +2973,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Razorfen Downs"],
+			name = AtlasLoot_IngameLocales["Razorfen Downs"],
 			module = moduleName, instance = "RazorfenDowns",
 		};
 	};
@@ -3028,7 +3027,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Razorfen Kraul"],
+			name = AtlasLoot_IngameLocales["Razorfen Kraul"],
 			module = moduleName, instance = "RazorfenKraul",
 		};
 	};
@@ -4007,7 +4006,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["The Stockade"],
+			name = AtlasLoot_IngameLocales["The Stockade"],
 			module = moduleName, instance = "TheStockade",
 		};
 	};
@@ -4380,7 +4379,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Wailing Caverns"],
+			name = AtlasLoot_IngameLocales["Wailing Caverns"],
 			module = moduleName, instance = "WailingCaverns",
 		};
 	};
@@ -5257,26 +5256,26 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["VWOWSets"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1="..BabbleZone["The Deadmines"]};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1="..AtlasLoot_IngameLocales["The Deadmines"]};
 				{ 2, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#", "=q2="..BabbleBoss["Edwin VanCleef"], "", "14.77%"};
 				{ 3, 10401, "", "=q3=Blackened Defias Gloves", "=ds=#s9#", "=q2="..AL["Defias Overseer/Taskmaster"], "", "1.76%"};
 				{ 4, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#", "=q2="..BabbleBoss["Captain Greenskin"], "", "23.26%"};
 				{ 5, 10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#", "=q2="..AL["Defias Overseer/Taskmaster"], "", "1.64%"};
 				{ 6, 10402, "", "=q3=Blackened Defias Boots", "=ds=#s12#", "=q2="..AL["Defias Strip Miner"], "", "1.23%"};
-				{ 8, 0, "INV_Box_01", "=q6=#pre60s2#", "=ec1=#a2#. =q1="..BabbleZone["Wailing Caverns"]};
+				{ 8, 0, "INV_Box_01", "=q6=#pre60s2#", "=ec1=#a2#. =q1="..AtlasLoot_IngameLocales["Wailing Caverns"]};
 				{ 9, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#", "=q2="..BabbleBoss["Lord Pythas"], "", "52.05%"};
 				{ 10, 10413, "", "=q3=Gloves of the Fang", "=ds=#s9#", "=q2="..AL["Druid of the Fang"], "", "1.20%"};
 				{ 11, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#", "=q2="..BabbleBoss["Lady Anacondra"], "", "8.64%"};
 				{ 12, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#", "=q2="..BabbleBoss["Lord Cobrahn"], "", "16.03%"};
 				{ 13, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#", "=q2="..BabbleBoss["Lord Serpentis"], "", "19.08%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s3#", "=ec1=#a3#. =q1="..BabbleZone["Scarlet Monastery"]};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s3#", "=ec1=#a3#. =q1="..AtlasLoot_IngameLocales["Scarlet Monastery"]};
 				{ 17, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#", ""};
 				{ 18, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#", ""};
 				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#", ""};
 				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#", ""};
 				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#", ""};
 				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", ""};
-				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1="..BabbleZone["Blackrock Depths"]};
+				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#", "=q2="..BabbleBoss["Gorosh the Dervish"].." / "..BabbleBoss["Hedrum the Creeper"], "", "10.08%"};
 				{ 26, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#", "=q2="..BabbleBoss["Gorosh the Dervish"], "", "14.52%"};
 				{ 27, 11730, "", "=q3=Savage Gladiator Grips", "=ds=#s9#", "=q2="..BabbleBoss["Eviscerator"], "", "14.12%"};
@@ -5285,15 +5284,15 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#pre60s5#", "=ec1=#a1#, =q1=#m1# #c5#, #c3#, #c8#"};
-				{ 2, 22302, "", "=q3=Ironweave Cowl", "=ds=#s1#", "=q2="..BabbleBoss["Lord Valthalak"].." ("..BabbleZone["Upper Blackrock Spire"]..")", "", "27.72%"};
-				{ 3, 22305, "", "=q3=Ironweave Mantle", "=ds=#s3#", "=q2=#n17# ("..BabbleZone["Blackrock Depths"]..")", "", "30.39%"};
-				{ 4, 22301, "", "=q3=Ironweave Robe", "=ds=#s5#", "=q2=#n18# ("..BabbleZone["Stratholme"]..")", "", "19.00%"};
-				{ 5, 22313, "", "=q3=Ironweave Bracers", "=ds=#s8#", "=q2="..BabbleBoss["Halycon"].." ("..BabbleZone["Lower Blackrock Spire"]..")", "", "18.16%"};
-				{ 6, 22304, "", "=q3=Ironweave Gloves", "=ds=#s9#", "=q2="..BabbleBoss["Isalien"].." ("..BabbleZone["Dire Maul (East)"]..")", "", "16.24%"};
-				{ 7, 22306, "", "=q3=Ironweave Belt", "=ds=#s10#", "=q2="..BabbleBoss["Mor Grayhoof"].." ("..BabbleZone["Lower Blackrock Spire"]..")", "", "20.28%"};
-				{ 8, 22303, "", "=q3=Ironweave Pants", "=ds=#s11#", "=q2="..BabbleBoss["Kormok"].." ("..BabbleZone["Scholomance"]..")", "", "23.33%"};
-				{ 9, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#", "=q2="..BabbleBoss["The Beast"].." ("..BabbleZone["Upper Blackrock Spire"]..")", "", "12.31%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s10#", "=ec1=#a1#, =q2="..BabbleBoss["Postmaster Malown"]..", =q1="..BabbleZone["Stratholme"]};
+				{ 2, 22302, "", "=q3=Ironweave Cowl", "=ds=#s1#", "=q2="..BabbleBoss["Lord Valthalak"].." ("..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Upper"]..")"..")", "", "27.72%"};
+				{ 3, 22305, "", "=q3=Ironweave Mantle", "=ds=#s3#", "=q2=#n17# ("..AtlasLoot_IngameLocales["Blackrock Depths"]..")", "", "30.39%"};
+				{ 4, 22301, "", "=q3=Ironweave Robe", "=ds=#s5#", "=q2=#n18# ("..AtlasLoot_IngameLocales["Stratholme"]..")", "", "19.00%"};
+				{ 5, 22313, "", "=q3=Ironweave Bracers", "=ds=#s8#", "=q2="..BabbleBoss["Halycon"].." ("..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"..")", "", "18.16%"};
+				{ 6, 22304, "", "=q3=Ironweave Gloves", "=ds=#s9#", "=q2="..BabbleBoss["Isalien"].." ("..AtlasLoot_IngameLocales["Dire Maul"].." ("..AL["East"]..")"..")", "", "16.24%"};
+				{ 7, 22306, "", "=q3=Ironweave Belt", "=ds=#s10#", "=q2="..BabbleBoss["Mor Grayhoof"].." ("..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"..")", "", "20.28%"};
+				{ 8, 22303, "", "=q3=Ironweave Pants", "=ds=#s11#", "=q2="..BabbleBoss["Kormok"].." ("..AtlasLoot_IngameLocales["Scholomance"]..")", "", "23.33%"};
+				{ 9, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#", "=q2="..BabbleBoss["The Beast"].." ("..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Upper"]..")"..")", "", "12.31%"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s10#", "=ec1=#a1#, =q2="..BabbleBoss["Postmaster Malown"]..", =q1="..AtlasLoot_IngameLocales["Stratholme"]};
 				{ 17, 13390, "", "=q3=The Postmaster's Band", "=ds=#s1#", "", ""};
 				{ 18, 13388, "", "=q3=The Postmaster's Tunic", "=ds=#s5#", "", ""};
 				{ 19, 13389, "", "=q3=The Postmaster's Trousers", "=ds=#s11#", "", ""};
@@ -5302,15 +5301,15 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#pre60s15#", "=q1="..AL["Various Locations"]};
-				{ 2, 17082, "", "=q4=Shard of the Flame", "=ds=#s14#", "=q2="..BabbleBoss["Ragnaros"].." ("..BabbleZone["Molten Core"]..")", "", "4.46%"};
+				{ 2, 17082, "", "=q4=Shard of the Flame", "=ds=#s14#", "=q2="..BabbleBoss["Ragnaros"].." ("..AtlasLoot_IngameLocales["Molten Core"]..")", "", "4.46%"};
 				{ 3, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#"};
 				{ 5, 0, "INV_Box_01", "=q6=#pre60s20#", "=q1="..AL["Various Locations"]};
-				{ 6, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#", "=q2="..BabbleBoss["Magmadar"].." ("..BabbleZone["Molten Core"]..")", "", "16.97%"};
+				{ 6, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#", "=q2="..BabbleBoss["Magmadar"].." ("..AtlasLoot_IngameLocales["Molten Core"]..")", "", "16.97%"};
 				{ 7, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#", "=q2="};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s24#", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s24#", "=q1="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"};
 				{ 17, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#", "=q2="..BabbleBoss["Crystal Fang"], "", "15.46%"};
 				{ 18, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "=q2="..BabbleBoss["Mother Smolderweb"], "", "13.07%"};
-				{ 20, 0, "INV_Box_01", "=q6=#pre60s23#", "=q1="..BabbleZone["Upper Blackrock Spire"]};
+				{ 20, 0, "INV_Box_01", "=q6=#pre60s23#", "=q1="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Upper"]..")"};
 				{ 21, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "=q2="..BabbleBoss["Warchief Rend Blackhand"], "", "6.62%"};
 				{ 22, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "=q2="..BabbleBoss["Warchief Rend Blackhand"], "", "7.44%"};
 			};
@@ -5323,25 +5322,25 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["VWOWScholo"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1="..BabbleZone["Scholomance"]};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1="..AtlasLoot_IngameLocales["Scholomance"]};
 				{ 2, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#", "", "1.12%"};
 				{ 3, 14626, "", "=q3=Necropile Robe", "=ds=#s5#", "", "1.27%"};
 				{ 4, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#", "", "1.03%"};
 				{ 5, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#", "", "0.85%"};
 				{ 6, 14631, "", "=q3=Necropile Boots", "=ds=#s12#", "", "0.88%"};
-				{ 8, 0, "INV_Box_01", "=q6=#pre60s7#", "=ec1=#a2#. =q1="..BabbleZone["Scholomance"]};
+				{ 8, 0, "INV_Box_01", "=q6=#pre60s7#", "=ec1=#a2#. =q1="..AtlasLoot_IngameLocales["Scholomance"]};
 				{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#", "", "1.51%"};
 				{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#", "", "0.82%"};
 				{ 11, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#", "", "0.60%"};
 				{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#", "", "1.09%"};
 				{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#", "", "0.67%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s8#", "=ec1=#a3#. =q1="..BabbleZone["Scholomance"]};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s8#", "=ec1=#a3#. =q1="..AtlasLoot_IngameLocales["Scholomance"]};
 				{ 17, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#", "", "0.54%"};
 				{ 18, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#", "", "0.09%"};
 				{ 19, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#", "", "0.60%"};
 				{ 20, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#", "", "0.42%"};
 				{ 21, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#", "", "0.36%"};
-				{ 23, 0, "INV_Box_01", "=q6=#pre60s9#", "=ec1=#a4#. =q1="..BabbleZone["Scholomance"]};
+				{ 23, 0, "INV_Box_01", "=q6=#pre60s9#", "=ec1=#a4#. =q1="..AtlasLoot_IngameLocales["Scholomance"]};
 				{ 24, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#", "", "0.45%"};
 				{ 25, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#", "", "0.45%"};
 				{ 26, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#", "", "0.67%"};
@@ -5350,7 +5349,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Scholomance"].." "..AL["Sets"],
+			name = AtlasLoot_IngameLocales["Scholomance"].." "..AL["Sets"],
 			module = moduleName, NextPrevDisable = true, menu = "SETSCLASSIC",
 		};
 	};
@@ -5403,7 +5402,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"],
+			name = AtlasLoot_IngameLocales["Ruins of Ahn'Qiraj"].." "..AL["Set"],
 			module = moduleName, menu = "SETSMISCMENU",
 		};
 	}
@@ -5476,7 +5475,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"],
+			name = AtlasLoot_IngameLocales["Temple of Ahn'Qiraj"].." "..AL["Set"],
 			module = moduleName, menu = "SETSMISCMENU",
 		};
 	}
@@ -5599,7 +5598,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Alterac Valley"].." "..AL["Misc. Rewards"],
+			name = AtlasLoot_IngameLocales["Alterac Valley"].." "..AL["Misc. Rewards"],
 			module = moduleName, menu = "PVPMENU2", instance = "AlteracValley",
 		};
 	}
@@ -5662,7 +5661,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Alterac Valley"],
+			name = AtlasLoot_IngameLocales["Alterac Valley"],
 			module = moduleName, menu = "PVPMENU2", instance = "AlteracValley",
 		};
 	}
@@ -5713,7 +5712,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Arathi Basin"].." "..AL["Misc. Rewards"],
+			name = AtlasLoot_IngameLocales["Arathi Basin"].." "..AL["Misc. Rewards"],
 			module = moduleName, menu = "PVPMENU2"
 		};
 	}
@@ -5774,7 +5773,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "40-49"),
+			name = AtlasLoot_IngameLocales["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "40-49"),
 			module = moduleName, menu = "PVPMENU2"
 		};
 	}
@@ -5833,7 +5832,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "20-39"),
+			name = AtlasLoot_IngameLocales["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "20-39"),
 			module = moduleName, menu = "PVPMENU2"
 		};
 	}
@@ -5937,7 +5936,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"],
+			name = AtlasLoot_IngameLocales["Warsong Gulch"].." "..AL["Misc. Rewards"],
 			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
 		};
 	}
@@ -6000,7 +5999,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Warsong Gulch"].." "..AL["Accessories"],
+			name = AtlasLoot_IngameLocales["Warsong Gulch"].." "..AL["Accessories"],
 			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
 		};
 	}
@@ -6055,7 +6054,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Warsong Gulch"].." "..AL["Weapons"],
+			name = AtlasLoot_IngameLocales["Warsong Gulch"].." "..AL["Weapons"],
 			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
 		};
 	}
@@ -6108,7 +6107,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"],
+			name = AtlasLoot_IngameLocales["Warsong Gulch"].." "..BabbleInventory["Armor"],
 			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
 		};
 	}
@@ -6808,7 +6807,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "ability_racial_ultravision", "=q6=#r4#", ""};
 				{ 2, 22766, "", "=q1=Plans: Ironvine Breastplate", "=ds=#p2# (300)", "5 #gold#"};
-				{ 3, 22219, "", "=q1=Plans: Jagged Obsidian Shield", "=ds=#p2# (300)", "5 #gold# =q2="..AtlasLoot:GetMapNameByID(717)};
+				{ 3, 22219, "", "=q1=Plans: Jagged Obsidian Shield", "=ds=#p2# (300)", "5 #gold# =q2="..AtlasLoot_IngameLocales["Ruins of Ahn'Qiraj"]};
 				{ 4, 22771, "", "=q1=Pattern: Bramblewood Helm", "=ds=#p7# (300)", "5 #gold#"};
 				{ 5, 20511, "", "=q1=Pattern: Sandstalker Breastplate", "=ds=#p7# (300)", "4 #gold#"};
 				{ 6, 20508, "", "=q1=Pattern: Spitfire Breastplate", "=ds=#p7# (300)", "4 #gold#"};
@@ -6816,7 +6815,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 8, 22312, "", "=q1=Pattern: Satchel of Cenarius", "=ds=#p8# (300)", "5 #gold#"};
 				{ 9, 22774, "", "=q1=Pattern: Sylvan Vest", "=ds=#p8# (300)", "5 #gold#"};
 				{ 16, 0, "ability_racial_ultravision", "=q6=#r5#", ""};
-				{ 17, 22221, "", "=q1=Plans: Obsidian Mail Tunic", "=ds=#p2# (300)", "8 #gold# =q2="..AtlasLoot:GetMapNameByID(717)};
+				{ 17, 22221, "", "=q1=Plans: Obsidian Mail Tunic", "=ds=#p2# (300)", "8 #gold# =q2="..AtlasLoot_IngameLocales["Ruins of Ahn'Qiraj"]};
 				{ 18, 20382, "", "=q1=Pattern: Dreamscale Breastplate", "=ds=#p7# (300)", "6 #gold#"};
 			};
 		};
@@ -7127,14 +7126,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["ThoriumBrotherhood"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r2#", "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r2#", "=q5="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 2, 17051, "", "=q3=Plans: Dark Iron Bracers", "=ds=#p2# (295)"};
 				{ 3, 20761, "", "=q1=Recipe: Transmute Elemental Fire", "=ds=#p1# (300)"};
 				{ 4, 19444, "", "=q1=Formula: Enchant Weapon - Strength", "=ds=#p4# (290)"};
 				{ 5, 17023, "", "=q1=Pattern: Molten Helm", "=ds=#p7# (300)"};
 				{ 6, 17022, "", "=q1=Pattern: Corehound Boots", "=ds=#p7# (295)"};
 				{ 7, 17018, "", "=q1=Pattern: Flarecore Gloves", "=ds=#p8# (300)"};
-				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r3#", "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r3#", "=q5="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 17, 17060, "", "=q3=Plans: Dark Iron Destroyer", "=ds=#p2# (300)"};
 				{ 18, 17059, "", "=q3=Plans: Dark Iron Reaver", "=ds=#p2# (300)"};
 				{ 19, 17049, "", "=q3=Plans: Fiery Chain Girdle", "=ds=#p2# (295)"};
@@ -7146,7 +7145,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 25, 19219, "", "=q1=Pattern: Flarecore Robe", "=ds=#p8# (300)"};
 			};
 			{
-				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r4#", "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r4#", "=q5="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 2, 18592, "", "=q4=Plans: Sulfuron Hammer", "=ds=#p2# (300), #m4#"};
 				{ 3, 17052, "", "=q3=Plans: Dark Iron Leggings", "=ds=#p2# (300)"};
 				{ 4, 17053, "", "=q3=Plans: Fiery Chain Shoulders", "=ds=#p2# (300)"};
@@ -7158,7 +7157,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 10, 19332, "", "=q1=Pattern: Corehound Belt", "=ds=#p7# (300)"};
 				{ 11, 19333, "", "=q1=Pattern: Molten Belt", "=ds=#p7# (300)"};
 				{ 12, 19220, "", "=q1=Pattern: Flarecore Leggings", "=ds=#p8# (300)"};
-				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r5#", "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r5#", "=q5="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 17, 19211, "", "=q1=Plans: Blackguard", "=ds=#p2# (300)"};
 				{ 18, 20040, "", "=q1=Plans: Dark Iron Boots", "=ds=#p2# (300)"};
 				{ 19, 19210, "", "=q1=Plans: Ebon Hand", "=ds=#p2# (300)"};

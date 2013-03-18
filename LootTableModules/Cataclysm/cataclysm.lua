@@ -2,7 +2,6 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootCataclysm"
 
 -- Index
@@ -3211,7 +3210,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(824).. " "..AL["Patterns/Plans"],
+			name = AtlasLoot_IngameLocales["Dragon Soul"].. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "DragonSoul",
 		};
 	};
@@ -3607,7 +3606,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(800).. " "..AL["Patterns/Plans"],
+			name = AtlasLoot_IngameLocales["Firelands"].. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "Firelands",
 		};
 	};
@@ -6229,18 +6228,18 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 69748, "", "=q3=Tattered Hexcloth Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:29186#"};
 				{ 5, 88397, "", "=q1=Grummlepack", "=ds=#e1#", "=q1=#m4#: #QUESTID:30600#"};
 				{ 6, 38082, "", "=q4=\"Gigantique\" Bag", "=ds=#e1#", "=ds="..AL["Vendor"]..": 1,200 #gold#"};
-				{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=", "=ds=#e1#", "=ds="..BabbleBoss["Sartharion"]..": "..AtlasLoot:GetMapNameByID(531)};
-				{ 8, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "=ds="..BabbleBoss["Onyxia"]..": "..AtlasLoot:GetMapNameByID(718)};
-				{ 9, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot:GetMapNameByID(601)};
+				{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=", "=ds=#e1#", "=ds="..BabbleBoss["Sartharion"]..": "..AtlasLoot_IngameLocales["The Obsidian Sanctum"]};
+				{ 8, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "=ds="..BabbleBoss["Onyxia"]..": "..AtlasLoot_IngameLocales["Onyxia's Lair"]};
+				{ 9, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot_IngameLocales["The Forge of Souls"]};
 				{ 10, 41957, "", "=q3=Abyssal Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 11, 41600, "", "=q3=Glacial Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 12, 54443, "", "=q2=Embersilk Bag", "=ds=#e1#", "=ds=#p8#"};
-				{ 13, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot:GetMapNameByID(601)};
-				{ 14, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Magtheridon"]..": "..AtlasLoot:GetMapNameByID(779)};
+				{ 13, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot_IngameLocales["The Forge of Souls"]};
+				{ 14, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Magtheridon"]..": "..AtlasLoot_IngameLocales["Magtheridon's Lair"]};
 				{ 15, 21872, "", "=q3=Ebon Shadowbag", "=ds=#e1#", "=ds=#p8#"};
 				{ 16, 21876, "", "=q3=Primal Mooncloth Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 17, 34105, "", "=q3=Quiver of a Thousand Feathers", "=ds=#e1#", "#p7#"};
-				--{ 18, 35516, "", "=q3=Sun Touched Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Zone Drop"]..": "..AtlasLoot:GetMapNameByID(798)};
+				--{ 18, 35516, "", "=q3=Sun Touched Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Zone Drop"]..": "..AtlasLoot_IngameLocales["Magisters' Terrace"]};
 				{ 19, 41599, "", "=q2=Frostweave Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 20, 21342, "", "=q4=Core Felcloth Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 21, 14156, "", "=q3=Bottomless Bag", "=ds=#e1#", "=ds=#p8#"};
@@ -6250,7 +6249,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 25, 21341, "", "=q3=Felcloth Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 26, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "#HONOR:50#"};
 				{ 27, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "#HONOR:50#"};
-				{ 28, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "=ds="..BabbleBoss["Ribbly Screwspigot"]..": "..AtlasLoot:GetMapNameByID(704)};
+				{ 28, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "=ds="..BabbleBoss["Ribbly Screwspigot"]..": "..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 29, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Bilgewater Cartel"].." - "..AL["Revered"]};
 				{ 30, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Darkspear Trolls"].." - "..AL["Revered"]};
 			};
@@ -6274,7 +6273,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"};
 				{ 18, 30744, "", "=q2=Draenic Leather Pack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 12 #gold#"};
 				{ 19, 21340, "", "=q2=Soul Pouch", "=ds=#e1#", "=ds=#p8#"};
-				{ 20, 67387, "", "=q1=\"Carriage\" Signature Bag", "=ds=#e1#", "=ds="..AtlasLoot:GetMapNameByID(301).." "..AL["Vendor"]..": 30 #gold#"};
+				{ 20, 67387, "", "=q1=\"Carriage\" Signature Bag", "=ds=#e1#", "=ds="..AtlasLoot_IngameLocales["Stormwind City"].." "..AL["Vendor"]..": 30 #gold#"};
 				{ 21, 3914, "", "=q1=Journeyman's Backpack", "=ds=#e1#"};
 				{ 22, 14046, "", "=q1=Runecloth Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 23, 60335, "", "=q1=Thick Hide Pack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 12 #gold#"};
@@ -6283,19 +6282,19 @@ local moduleName = "AtlasLootCataclysm"
 				{ 26, 1725, "", "=q1=Large Knapsack", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 27, 10050, "", "=q1=Mageweave Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 28, 10051, "", "=q1=Red Mageweave Bag", "=ds=#e1#", "=ds=#p8#"};
-				{ 29, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Lady Anacondra"]..": "..AtlasLoot:GetMapNameByID(749)};
+				{ 29, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Lady Anacondra"]..": "..AtlasLoot_IngameLocales["Wailing Caverns"]};
 				{ 30, 5765, "", "=q1=Black Silk Pack", "=ds=#e1#", "=ds=#p8#"};
 			};
 			{
-				--{ 1, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1#", "=ds="..AL["Fel Steed"]..": "..AtlasLoot:GetMapNameByID(764)};
+				--{ 1, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1#", "=ds="..AL["Fel Steed"]..": "..AtlasLoot_IngameLocales["Shadowfang Keep"]};
 				{ 2, 5764, "", "=q1=Green Silk Pack", "=ds=#e1#", "=ds=#p8#"};
 				{ 3, 4497, "", "=q1=Heavy Brown Bag", "=ds=#e1#", "=ds="..AL["Vendor"]..": 2 #gold#"};
 				{ 4, 804, "", "=q1=Large Blue Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 5, 5576, "", "=q1=Large Brown Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 6, 5575, "", "=q1=Large Green Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 7, 857, "", "=q1=Large Red Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
-				--{ 8, 933, "", "=q1=Large Rucksack", "=ds=#e1#", "=ds="..AL["Foe Reaper 4000"]..": "..AtlasLoot:GetMapNameByID(39)}; ---rare
-				{ 9, 1470, "", "=q1=Murloc Skin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Gelihast"]..": "..AtlasLoot:GetMapNameByID(688)};
+				--{ 8, 933, "", "=q1=Large Rucksack", "=ds=#e1#", "=ds="..AL["Foe Reaper 4000"]..": "..AtlasLoot_IngameLocales["Westfall"]}; ---rare
+				{ 9, 1470, "", "=q1=Murloc Skin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Gelihast"]..": "..AtlasLoot_IngameLocales["Blackfathom Deeps"]};
 				{ 10, 4245, "", "=q1=Small Silk Pack", "=ds=#e1#", "=ds=#p8#"};
 				{ 11, 23852, "", "=q2=Nolkai's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:9561#"};
 				{ 12, 57251, "", "=q1=\"Collecting\" Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:147#"};
@@ -6304,7 +6303,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 15, 3343, "", "=q1=Captain Sanders' Booty Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:26356#"};
 				{ 16, 60240, "", "=q1=Dream Carrier", "=ds=#e1#", "=q1=#m4#: #QUESTID:483#"};
 				{ 17, 56149, "", "=q1=Empty Town-In-A-Box", "=ds=#e1#", "=q1=#m4#: #QUESTID:24671#"};
-				--{ 18, 3233, "", "=q1=Gnoll Hide Sack", "=ds=#e1#", "=ds="..AL["Fedfennel"]..": "..AtlasLoot:GetMapNameByID(30)}; ---rare
+				--{ 18, 3233, "", "=q1=Gnoll Hide Sack", "=ds=#e1#", "=ds="..AL["Fedfennel"]..": "..AtlasLoot_IngameLocales["Elwynn Forest"]}; ---rare
 				{ 19, 5573, "", "=q1=Green Leather Bag", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 20, 4241, "", "=q1=Green Woolen Bag", "=ds=#e1#", "=ds=#p8#"};
 				{ 21, 57791, "", "=q1=Headsman's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:25046#"};
@@ -6342,7 +6341,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 5572, "", "=q1=Small Green Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 22, 805, "", "=q1=Small Red Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
 				{ 23, 23389, "", "=q1=Empty Draenei Supply Pouch", "=ds=#e1#", "=q1=#m4#: #QUESTID:9283#"};
-				--{ 24, 56147, "", "=q1=Fatcandle Bag", "=ds=#e1#", "=ds="..AL["Gug Fatcandle"]..": "..AtlasLoot:GetMapNameByID(30)}; ---rare
+				--{ 24, 56147, "", "=q1=Fatcandle Bag", "=ds=#e1#", "=ds="..AL["Gug Fatcandle"]..": "..AtlasLoot_IngameLocales["Elwynn Forest"]}; ---rare
 				{ 25, 22976, "", "=q1=Magister's Pouch", "=ds=#e1#", "=q1=#m4#: #QUESTID:9066#"};
 				{ 26, 20474, "", "=q1=Sunstrider Book Satchel", "=ds=#e1#", "=q1=#m4#: #QUESTID:8330#"};
 				--{ 27, 37606, "", "=q1=Penny Pouch", "=ds=#e1#", "=ds="..AL["Handful of Treats"].." - "..AL["Hallow's End"]}; 
@@ -6690,7 +6689,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleZone["Molten Front"].." "..AL["Rewards"],
+			name = AtlasLoot_IngameLocales["Molten Front"].." "..AL["Rewards"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}

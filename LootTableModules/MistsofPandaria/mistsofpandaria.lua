@@ -3,7 +3,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootMoP"
 
 -- Index
@@ -4262,7 +4261,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(806),
+			name = AtlasLoot_IngameLocales["The Jade Forest"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}	
@@ -4306,7 +4305,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(807),
+			name = AtlasLoot_IngameLocales["Valley of the Four Winds"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4350,7 +4349,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(857),
+			name = AtlasLoot_IngameLocales["Krasarang Wilds"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4394,7 +4393,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(809),
+			name = AtlasLoot_IngameLocales["Kun-Lai Summit"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4434,7 +4433,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(810),
+			name = AtlasLoot_IngameLocales["Townlong Steppes"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4477,7 +4476,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(858),
+			name = AtlasLoot_IngameLocales["Dread Wastes"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4517,7 +4516,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(811),
+			name = AtlasLoot_IngameLocales["Vale of Eternal Blossoms"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4561,7 +4560,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(928),
+			name = AtlasLoot_IngameLocales["Isle of Thunder"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4573,25 +4572,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsMisc"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Fixxul Lonelyheart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Fixxul Lonelyheart"], "=q2="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 3, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Lorbu Sadsummon"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Lorbu Sadsummon"], "=q2="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 6, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Martar the Not-So-Smart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Martar the Not-So-Smart"], "=q2="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 9, 87780, "", "=q3=Martar's Magnifying Glass", "=ds=#s14#"};
-				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Huggalon the Heart Watcher"], "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Huggalon the Heart Watcher"], "=q2="..AtlasLoot_IngameLocales["Townlong Steppes"]};
 				{ 12, 90067, "", "=q3=B. F. F. Necklace", "=ds="};
-				{ 14, 0, "inv_box_04", "=q6="..BabbleRare["Scotty"], "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 14, 0, "inv_box_04", "=q6="..BabbleRare["Scotty"], "=q2="..AtlasLoot_IngameLocales["Townlong Steppes"]};
 				{ 15, 89373, "", "=q2=Scotty's Lucky Coin", "=ds=#e25#"};
-				{ 17, 0, "inv_box_04", "=q6="..BabbleRare["Alani"], "=q2="..AtlasLoot:GetMapNameByID(811)};
+				{ 17, 0, "inv_box_04", "=q6="..BabbleRare["Alani"], "=q2="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
 				{ 18, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e12#"};
-				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Sungraze Behemoth"], "=q2="..AtlasLoot:GetMapNameByID(807)};
+				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Sungraze Behemoth"], "=q2="..AtlasLoot_IngameLocales["Valley of the Four Winds"]};
 				{ 21, 89682, "", "=q2=Oddly-Shaped Horn", "=ds=#e12#"};
-				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Zhing"], "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Zhing"], "=q2="..AtlasLoot_IngameLocales["Kun-Lai Summit"]};
 				{ 24, 89697, "", "=q2=Bag of Kafa Beans", "=ds=#e12#"};
-				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Pengsong"], "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Pengsong"], "=q2="..AtlasLoot_IngameLocales["Dread Wastes"]};
 				{ 27, 89770, "", "=q2=Tuft of Yak Fur", "=ds=#e12#"};
-				{ 29, 0, "inv_box_04", "=q6="..BabbleRare["Wild Onyx Serpent"], "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 29, 0, "inv_box_04", "=q6="..BabbleRare["Wild Onyx Serpent"], "=q2="..AtlasLoot_IngameLocales["Kun-Lai Summit"]};
 				{ 30, 93360, "", "=q2=Serpent's Cache", "=ds="};
 			};
 		};
@@ -4633,20 +4632,20 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsClawlord"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Clawlord Kril'mandar"], "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Clawlord Kril'mandar"], "=q2="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
 				{ 3, 90087, "", "=q3=Lobstmourne", "=ds=#h1#, #w13#"};
-				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Akkalou"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Akkalou"], "=q2="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 6, 90166, "", "=q2=Akkalou's Clamshell", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Akkalar"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Akkalar"], "=q2="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 9, 90167, "", "=q2=Akkalar's Clamshell", "=ds="};
-				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Damlak"], "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Damlak"], "=q2="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
 				{ 12, 90169, "", "=q2=Damlak's Clamshell", "=ds="};
 				{ 18, 90172, "", "=q2=Clamshell Band", "=ds=#m27#"};
-				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Clamstok"], "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Clamstok"], "=q2="..AtlasLoot_IngameLocales["Dread Wastes"]};
 				{ 21, 90170, "", "=q2=Clamstok's Clamshell", "=ds="};
-				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Kishak"], "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Kishak"], "=q2="..AtlasLoot_IngameLocales["Kun-Lai Summit"]};
 				{ 24, 90168, "", "=q2=Kishak's Clamshell", "=ds="};
-				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Odd'nirok"], "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Odd'nirok"], "=q2="..AtlasLoot_IngameLocales["Townlong Steppes"]};
 				{ 27, 90171, "", "=q2=Odd'nirok's Clamshell", "=ds="};
 			};
 		};
@@ -4667,14 +4666,14 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsJadeForestValleyoftheFourWinds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(806), "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["The Jade Forest"], "=ds="};
 				{ 2, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
 				{ 3, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
 				{ 4, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
 				{ 5, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
 				{ 7, 0, "inv_box_04", "=q6="..BabbleRare["Jade Warrior Statue"], "=ds="};
 				{ 8, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
-				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(807), "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Valley of the Four Winds"], "=ds="};
 				{ 17, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
 				{ 19, 0, "inv_box_04", "=q6="..BabbleRare["Ghostly Pandaren Craftsman"], "=ds="};
 				{ 20, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
@@ -4689,7 +4688,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(807),
+			name = AtlasLoot_IngameLocales["The Jade Forest"].." / "..AtlasLoot_IngameLocales["Valley of the Four Winds"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4701,7 +4700,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsKrasarangWildsKunLaiSummit"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(857), "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Krasarang Wilds"], "=ds="};
 				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
 				{ 4, 0, "inv_box_04", "=q6="..BabbleRare["Barrel of Banana Infused Rum"], "=ds="};
 				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
@@ -4714,7 +4713,7 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 86120, "", "=q3=Seafaring Sabatons of Meditation", "=ds=#s12#, #a3#"};
 				{ 14, 86122, "", "=q3=Plankwalking Greaves", "=ds=#s12#, #a4#"};
 				{ 15, 86123, "", "=q3=Seafarer's Sturdy Boots", "=ds=#s12#, #a4#"};
-				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(809), "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kun-Lai Summit"], "=ds="};
 				{ 17, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
 				{ 18, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
 				{ 19, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
@@ -4729,7 +4728,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(809),
+			name = AtlasLoot_IngameLocales["Krasarang Wilds"].." / "..AtlasLoot_IngameLocales["Kun-Lai Summit"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -4741,9 +4740,9 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsTownlongSteppesDreadWastes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(810), "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Townlong Steppes"], "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
-				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(858), "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Dread Wastes"], "=ds="};
 				{ 17, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
 				{ 18, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
 				{ 19, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
@@ -4758,7 +4757,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(858),
+			name = AtlasLoot_IngameLocales["Townlong Steppes"].." / "..AtlasLoot_IngameLocales["Dread Wastes"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -8618,7 +8617,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e12#" },
 				{ 18, 72159, "", "=q3=Magical Ogre Idol", "=ds=" },
 				{ 19, 72134, "", "=q3=Grell Moss", "=ds=#e13#"};
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AtlasLoot_IngameLocales["Throne of the Tides"]};
 				{ 22, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
 				{ 23, 71624, "", "=q3=Purple Puffer", "=ds=#e13#"},
 				{ 24, 71628, "", "=q3=Sack of Starfish", "=ds=" },
@@ -8749,9 +8748,9 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 2, 48120, "", "=q1=Obsidian Hatchling", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(504)};
-				{ 3, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds=#e13#", "=ds="..BabbleZone["Booty Bay"]};
+				{ 3, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds=#e13#", "=ds="..AtlasLoot_IngameLocales["Booty Bay"]};
 				{ 4, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(756)};
-				{ 5, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(479).." / "..BabbleZone["Booty Bay"]};
+				{ 5, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(479).." / "..AtlasLoot_IngameLocales["Booty Bay"]};
 				{ 6, 10394, "", "=q1=Prairie Dog Whistle", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(362)};
 				{ 7, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(27)};
 				{ 8, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(480)};
@@ -8844,12 +8843,12 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 2, 0, "INV_Box_01", "=q6=#p24#", ""};
 				{ 3, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..AtlasLoot:GetMapNameByID(504)};
-				{ 4, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q1="..BabbleZone["Darkmoon Island"]};
+				{ 4, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q1="..AL["Darkmoon Island"]};
 				{ 5, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(478)};
-				{ 6, 94933, "", "=q1=Tiny Blue Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 7, 94934, "", "=q1=Tiny Green Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(807)};
-				{ 8, 94932, "", "=q1=Tiny Red Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(858)};
-				{ 9, 94935, "", "=q1=Tiny White Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(809).." / "..BabbleZone["Pandaria"]};
+				{ 6, 94933, "", "=q1=Tiny Blue Carp", "=ds=#e13#", "=q1="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
+				{ 7, 94934, "", "=q1=Tiny Green Carp", "=ds=#e13#", "=q1="..AtlasLoot_IngameLocales["The Jade Forest"].." / "..AtlasLoot_IngameLocales["Krasarang Wilds"].." / "..AtlasLoot_IngameLocales["Valley of the Four Winds"]};
+				{ 8, 94932, "", "=q1=Tiny Red Carp", "=ds=#e13#", "=q1="..AtlasLoot_IngameLocales["Townlong Steppes"].." / "..AtlasLoot_IngameLocales["Dread Wastes"]};
+				{ 9, 94935, "", "=q1=Tiny White Carp", "=ds=#e13#", "=q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"].." / "..AL["Pandaria"]};
 				{ 11, 0, "INV_Box_01", "=q6=#p26#", ""};
 				{ 12, 89368, "", "=q1=Chi-ji Kite", "=ds=#e13#"};
 				{ 13, 89367, "", "=q1=Yu'lon Kite", "=ds=#e13#"};
@@ -8960,10 +8959,10 @@ local moduleName = "AtlasLootMoP"
 
 				{ 4, 64403, "", "=q3=Fox Kit", "=ds=#e13#", "=q2="..AL["Baradin Fox"]..", =q1="..AtlasLoot:GetMapNameByID(709)};
 				{ 5, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..AtlasLoot:GetMapNameByID(504)};
-				{ 6, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Karr the Darkener"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 7, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Nalash Verdantis"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 8, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..BabbleZone["Darkmoon Island"]};
-				{ 9, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#", "=q2="..BabbleRare["G'nathus"]..", =q1="..AtlasLoot:GetMapNameByID(810)};
+				{ 6, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Karr the Darkener"]..", =q1="..AtlasLoot_IngameLocales["Dread Wastes"]};
+				{ 7, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Nalash Verdantis"]..", =q1="..AtlasLoot_IngameLocales["Dread Wastes"]};
+				{ 8, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
+				{ 9, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#", "=q2="..BabbleRare["G'nathus"]..", =q1="..AtlasLoot_IngameLocales["Townlong Steppes"]};
 				{ 10, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Haywire Sunreaver Construct"]..", =q1="..AtlasLoot:GetMapNameByID(928)};
 				{ 11, 85220, "", "=q3=Terrible Turnip", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Ominous Seed"]..", =q1="..AL["Halfhill Farm"]};
 				{ 12, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(929)};
@@ -9010,12 +9009,12 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
 				{ 13, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
 				{ 14, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 15, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 15, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"};
 				{ 17, 94152, "", "=q3=Son of Animus", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Dark Animus", 824)..", =q1="..AtlasLoot:GetMapNameByID(930)};
 				{ 18, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
 				{ 19, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
 				{ 20, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 21, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 21, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"};
 				{ 22, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
 				extraText = ": "..AL["Dungeon/Raid"]
 			};
@@ -9092,7 +9091,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 9, 73765, "", "=q3=Darkmoon Turtle", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 10, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 11, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..BabbleZone["Darkmoon Island"]};
+				{ 11, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
 				{ 12, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: #QUESTID:7946#"};
 				{ 13, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
 				{ 14, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
@@ -9177,7 +9176,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 93669, "", "=q3=Gusting Grimoire", "=q1="..AL["Betrayal of the Guardian"]};
 				{ 9, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#", "=q1="..AL["War of the Elements"]};
 				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=ds=#e13#", "=q1="..AL["Worldbreaker"]};
-				{ 18, 71624, "", "=q3=Purple Puffer", "=ds=#e13#", "=q1="..BabbleZone["Throne of the Tides"]};
+				{ 18, 71624, "", "=q3=Purple Puffer", "=ds=#e13#", "=q1="..AtlasLoot_IngameLocales["Throne of the Tides"]};
 				{ 19, 34492, "", "=q3=Rocket Chicken", "=ds=#e13#", "=q1="..AL["March of the Legion"]};
 				{ 20, 72153, "", "=q3=Sand Scarab", "=ds=#e13#", "=q1="..AL["Tomb of the Forgotten"]};
 				{ 21, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#e13#", "=q1="..AL["Hunt for Illidan"]};
@@ -9404,7 +9403,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_BannerPVP_02", "=q6="..AtlasLoot_IngameLocales["Baradin's Wardens"], "=ec1=#m7#"};
 				{ 2, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};
 				{ 3, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
-				{ 5, 0, "INV_BannerPVP_02", "=q6="..BabbleZone["Dalaran"], "=ec1=#m7#"};
+				{ 5, 0, "INV_BannerPVP_02", "=q6="..AtlasLoot_IngameLocales["Dalaran"], "=ec1=#m7#"};
 				{ 6, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
 				{ 7, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
 				{ 8, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
@@ -9511,7 +9510,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_BannerPVP_01", "=q6="..AtlasLoot_IngameLocales["Hellscream's Reach"], "=ec1=#m6#"};
 				{ 2, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};
 				{ 3, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
-				{ 5, 0, "INV_BannerPVP_01", "=q6="..BabbleZone["Dalaran"], "=ec1=#m6#"};
+				{ 5, 0, "INV_BannerPVP_01", "=q6="..AtlasLoot_IngameLocales["Dalaran"], "=ec1=#m6#"};
 				{ 6, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
 				{ 7, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
 				{ 8, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
@@ -9562,9 +9561,9 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#", "=ds=472 #gold# 22 #silver# 22 #copper#"};
 				{ 4, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#", "=ds=3069 #gold# 44 #silver# 44 #copper#"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
-				{ 7, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=120,000 #gold#"};
-				{ 8, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
-				{ 9, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
+				{ 7, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"], "=ds=120,000 #gold#"};
+				{ 8, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"], "=ds=3,000 #gold#"};
+				{ 9, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"], "=ds=3,000 #gold#"};
 				{ 11, 0, "INV_Box_01", "=q6="..AtlasLoot_IngameLocales["Ramkahen"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(720)};
 				{ 12, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", "=ds=100 #gold#"};
 				{ 13, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", "=ds=100 #gold#"};
@@ -9640,7 +9639,7 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon"], ""};
-				{ 2, 69747, "", "=q4=Amani Battle Bear", "=q2="..AL["Timed Reward Chest"]..", =q1="..BabbleZone["Zul'Aman"]};
+				{ 2, 69747, "", "=q4=Amani Battle Bear", "=q2="..AL["Timed Reward Chest"]..", =q1="..AtlasLoot_IngameLocales["Zul'Aman"]};
 				{ 3, 68823, "", "=q4=Armored Razzashi Raptor", "=q2="..AtlasLoot:EJ_GetBossName("Bloodlord Mandokir", 176)..", =q1="..AtlasLoot:GetMapNameByID(793)};
 				{ 4, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
 				{ 5, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..AtlasLoot:EJ_GetBossName("Skadi the Ruthless", 643)..", =q1="..AL["Heroic"].." "..AtlasLoot:GetMapNameByID(524), ""};
@@ -9652,20 +9651,20 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 68824, "", "=q4=Swift Zulian Panther", "=q2="..AtlasLoot:EJ_GetBossName("High Priestess Kilnara", 181)..", =q1="..AtlasLoot:GetMapNameByID(793)};
 				{ 13, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};
 				{ 14, 67151, "", "=q4=Reins of Poseidus", "=q2="..BabbleRare["Poseidus"]..", =q1="..AtlasLoot:GetMapNameByID(613)};
-				{ 15, 94230, "", "=q4=Reins of the Amber Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..BabbleZone["Pandaria"]};
+				{ 15, 94230, "", "=q4=Reins of the Amber Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..AL["Pandaria"]};
 				{ 16, 94292, "", "=q4=Reins of the Black Primal Raptor", "=q1="..AtlasLoot:GetMapNameByID(929)};
 				{ 17, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=q2="..AtlasLoot:EJ_GetBossName("Oondasta", 826)..", =q1="..AtlasLoot:GetMapNameByID(929), ""},
 				{ 18, 94293, "", "=q4=Reins of the Green Primal Raptor", "=q1="..AtlasLoot:GetMapNameByID(929)};
 				{ 19, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
-				{ 20, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691)..", =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 21, 94231, "", "=q4=Reins of the Jade Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..BabbleZone["Pandaria"]};
+				{ 20, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691)..", =q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"], ""};
+				{ 21, 94231, "", "=q4=Reins of the Jade Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..AL["Pandaria"]};
 				{ 22, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..BabbleRare["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
 				{ 23, 94291, "", "=q4=Reins of the Red Primal Raptor", "=q1="..AtlasLoot:GetMapNameByID(929)};
-				{ 24, 94229, "", "=q4=Reins of the Slate Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..BabbleZone["Pandaria"]};
+				{ 24, 94229, "", "=q4=Reins of the Slate Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..AL["Pandaria"]};
 				{ 25, 95057, "", "=q4=Reins of the Thundering Cobalt Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Nalak, The Storm Lord", 814)..", =q1="..AtlasLoot:GetMapNameByID(928), ""},
-				{ 26, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 26, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
 				{ 27, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
-				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
+				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot_IngameLocales["Valley of the Four Winds"], ""};
 				{ 29, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
@@ -9814,7 +9813,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
 				{ 16, 23720, "", "=q4=Riding Turtle", "=ds=#e26#", "=q1="..AL["Heroes of Azeroth"]};
 				{ 17, 69228, "", "=q4=Savage Raptor", "=ds=#e26#", "=q1="..AL["War of the Elements"]},
-				{ 18, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#", "=q1="..BabbleZone["Throne of the Tides"]},
+				{ 18, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#", "=q1="..AtlasLoot_IngameLocales["Throne of the Tides"]},
 				{ 19, 72575, "", "=q4=White Riding Camel", "=ds=#e26#", "=q1="..AL["Tomb of the Forgotten"]},
 				{ 20, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#", "=q1="..AL["Icecrown"]};
 				{ 21, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
@@ -9907,7 +9906,7 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon"], ""};
-				{ 2, 33809, "", "=q4=Amani War Bear", "=q1="..BabbleZone["Zul'Aman"], ""};
+				{ 2, 33809, "", "=q4=Amani War Bear", "=q1="..AtlasLoot_IngameLocales["Zul'Aman"], ""};
 				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#"};
 				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Raid"], ""};
@@ -10161,10 +10160,10 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
 				{ 2, 44719, "", "=q3=Frenzyheart Brew", "=q2="..AtlasLoot_IngameLocales["Frenzyheart Tribe"].." - "..AL["Revered"], "=ds=3 #gold#"};
-				{ 3, 68806, "", "=q3=Kalytha's Haunted Locket", "=q2="..AL["Tex Vortacoil"]..", =q1="..BabbleZone["Azshara"], "=ds=5,000 #gold#"};
+				{ 3, 68806, "", "=q3=Kalytha's Haunted Locket", "=q2="..AL["Tex Vortacoil"]..", =q1="..AtlasLoot_IngameLocales["Azshara"], "=ds=5,000 #gold#"};
 				{
-					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Olut Alegut"]..", =q1="..BabbleZone["The Storm Peaks"], "#RELICULDUAR:10#"};
-					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Rork Sharpchin"]..", =q1="..BabbleZone["The Storm Peaks"], "#RELICULDUAR:10#"};
+					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Olut Alegut"]..", =q1="..AtlasLoot_IngameLocales["The Storm Peaks"], "#RELICULDUAR:10#"};
+					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Rork Sharpchin"]..", =q1="..AtlasLoot_IngameLocales["The Storm Peaks"], "#RELICULDUAR:10#"};
 				};
 				{ 5, 66888, "", "=q1=Stave of Fur and Claw", "=q2="..AtlasLoot_IngameLocales["Timbermaw Hold"].." - "..AL["Exalted"], "=ds=5,000 #gold#"};
 				{ 7, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
@@ -10178,15 +10177,15 @@ local moduleName = "AtlasLootMoP"
 				{ 15, 71259, "", "=q1=Leyara's Locket", "=ds=#m4#: #QUESTID:29311#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare"]};
 				{ 17, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
-				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2="..AtlasLoot_IngameLocales["Ai-Li Skymirror"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 19, 86582, "", "=q3=Aqua Jewel", "=q2="..AtlasLoot_IngameLocales["Sahn Tidehunter"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2="..AtlasLoot_IngameLocales["Ai-Li Skymirror"]..", =q1="..AtlasLoot_IngameLocales["Dread Wastes"]};
+				{ 19, 86582, "", "=q3=Aqua Jewel", "=q2="..AtlasLoot_IngameLocales["Sahn Tidehunter"]..", =q1="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
 				{ 20, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..BabbleRare["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
-				{ 21, 86593, "", "=q3=Hozen Beach Ball", "=q2="..AtlasLoot_IngameLocales["Ik-Ik the Nimble"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 21, 86593, "", "=q3=Hozen Beach Ball", "=q2="..AtlasLoot_IngameLocales["Ik-Ik the Nimble"]..", =q1="..AtlasLoot_IngameLocales["Dread Wastes"]};
 				{ 22, 88566, "", "=q3=Krastinov's Bag of Horrors", "=q2="..BabbleBoss["Doctor Theolen Krastinov"]..", =q1="..AtlasLoot:GetMapNameByID(763)};
-				{ 23, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2="..AtlasLoot_IngameLocales["Yorik Sharpeye"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 23, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2="..AtlasLoot_IngameLocales["Yorik Sharpeye"]..", =q1="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
 				{ 24, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
 				{ 25, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 26, 86573, "", "=q3=Shard of Archstone", "=q2="..AtlasLoot_IngameLocales["Havak"]..", =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 26, 86573, "", "=q3=Shard of Archstone", "=q2="..AtlasLoot_IngameLocales["Havak"]..", =q1="..AtlasLoot_IngameLocales["Kun-Lai Summit"]};
 				{ 27, 32782, "", "=q3=Time-Lost Figurine", "=q2="..BabbleRare["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
 			};
 			{
@@ -10228,7 +10227,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 23864, "", "=q1=Torment of the Worgen", "=q1="..AtlasLoot:GetMapNameByID(799)};
 				{ 13, 44012, "", "=q1=Underbelly Elixir", "=q1="..AtlasLoot:GetMapNameByID(504)};
 				{ 17, 0, "INV_Box_01", "=q6="..AL["Rare"]};
-				{ 18, 89373, "", "=q2=Scotty's Lucky Coin", "=q2="..AtlasLoot_IngameLocales["Scotty"]..", =q1="..AtlasLoot:GetMapNameByID(810)};
+				{ 18, 89373, "", "=q2=Scotty's Lucky Coin", "=q2="..AtlasLoot_IngameLocales["Scotty"]..", =q1="..AtlasLoot_IngameLocales["Townlong Steppes"]};
 			};
 			{
 				{ 2, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
@@ -10238,8 +10237,8 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 4, 8529, "", "=q1=Noggenfogger Elixir", "=q2="..AL["Sprinkle Noggenfogger"]..", =q1="..AtlasLoot:GetMapNameByID(161), "35 #silver#"};
 				{
-					{ 5, 92528, "", "=q1=Obelisk of Deception", "=q2="..AL["Ongrom Black Tooth"]..", =q1="..AtlasLoot:GetMapNameByID(857), "=ds=", "#DOMINATIONCOMMISSION:500#" },
-					{ 5, 92533, "", "=q1=Obelisk of Deception", "=q2="..AL["Proveditor Grantley"]..", =q1="..AtlasLoot:GetMapNameByID(857), "=ds=", "#LIONSLANDINGCOMMISSION:500#" },
+					{ 5, 92528, "", "=q1=Obelisk of Deception", "=q2="..AL["Ongrom Black Tooth"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"], "=ds=", "#DOMINATIONCOMMISSION:500#" },
+					{ 5, 92533, "", "=q1=Obelisk of Deception", "=q2="..AL["Proveditor Grantley"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"], "=ds=", "#LIONSLANDINGCOMMISSION:500#" },
 				};
 				{ 6, 31337, "", "=q1=Orb of the Blackwhelp", "=q2="..AL["Wyrmcult Provisioner"]..", =q1="..AtlasLoot:GetMapNameByID(475), "2 #gold# 50 #silver#"};
 				{ 7, 88492, "", "=q1=Wicked Wikket", "=q2="..AL["Auntie Stormstout"]..", =q1="..AtlasLoot:GetMapNameByID(876), "15 #gold#"};
@@ -10553,17 +10552,17 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 90575, "", "=q4=Sutiru's Brazen Bulwark", "=ds=#w8#"};
 			};
 			{
-				{ 1, 0, "inv_misc_bag_12", "=q6="..AtlasLoot_IngameLocales["Big Bag of Arms"].." / "..AtlasLoot_IngameLocales["Big Bag of Mysteries"], "=q2="..AtlasLoot_IngameLocales["Kah'tir"].." / "..AtlasLoot_IngameLocales["Norlaxx"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 2, 90721, "", "=q4=Courinth Waterstrider's Silken Finery", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Cournith Waterstrider"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 3, 90725, "", "=q4=Gaarn's Leggings of Infestation", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Gaarn the Toxic"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 4, 90720, "", "=q4=Silent Leggings of the Ghostpaw", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Ruun Ghostpaw"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 5, 90724, "", "=q4=Spriggin's Sproggin' Leggin'", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Spriggin"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 6, 90723, "", "=q4=Arness's Scaled Leggings", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Arness the Scale"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 7, 90719, "", "=q4=Go-Kan's Golden Trousers", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Go-Kan"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 1, 0, "inv_misc_bag_12", "=q6="..AtlasLoot_IngameLocales["Big Bag of Arms"].." / "..AtlasLoot_IngameLocales["Big Bag of Mysteries"], "=q2="..AtlasLoot_IngameLocales["Kah'tir"].." / "..AtlasLoot_IngameLocales["Norlaxx"]..", =q1="..AtlasLoot_IngameLocales["Dread Wastes"]};
+				{ 2, 90721, "", "=q4=Courinth Waterstrider's Silken Finery", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Cournith Waterstrider"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 3, 90725, "", "=q4=Gaarn's Leggings of Infestation", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Gaarn the Toxic"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 4, 90720, "", "=q4=Silent Leggings of the Ghostpaw", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Ruun Ghostpaw"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 5, 90724, "", "=q4=Spriggin's Sproggin' Leggin'", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Spriggin"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 6, 90723, "", "=q4=Arness's Scaled Leggings", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Arness the Scale"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 7, 90719, "", "=q4=Go-Kan's Golden Trousers", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Go-Kan"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
 				{ 8, 90722, "", "=q4=Torik-Ethis' Gilded Legplates", "=ds=#s11#, #a3#"};
-				{ 9, 90717, "", "=q4=Qu'nas' Apocryphal Legplates", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Qu'nas"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 10, 90718, "", "=q4=Torik-Ethis' Bloodied Legguards", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Torik-Ethis"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
-				{ 11, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#", "=q2="..AtlasLoot_IngameLocales["Sarnak"]..", =q1="..AtlasLoot:GetMapNameByID(806)};
+				{ 9, 90717, "", "=q4=Qu'nas' Apocryphal Legplates", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Qu'nas"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 10, 90718, "", "=q4=Torik-Ethis' Bloodied Legguards", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Torik-Ethis"]..", =q1="..AtlasLoot_IngameLocales["Krasarang Wilds"]};
+				{ 11, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#", "=q2="..AtlasLoot_IngameLocales["Sarnak"]..", =q1="..AtlasLoot_IngameLocales["The Jade Forest"]};
 				{ 12, 87641, "", "=q4=Yaungol Battle Barrier", "=ds=#w8#"};
 				{ 16, 0, "inv_box_03", "=q6="..AtlasLoot_IngameLocales["Vine-Cracked Junkbox"], "=q1=#p28#"};
 				{ 17, 88149, "", "=q4=The Gloaming Blade", "=ds=#h1#, #w4#"};

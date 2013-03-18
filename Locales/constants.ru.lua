@@ -926,10 +926,23 @@ if AL then
 	AL["Servant's Quarter Animal Bosses"] = "Боссы Комнаты Слуг";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
 
-	-- Zones
-	AL["Trial of the Grand Crusader"] = "Испытание великого крестоносца";
+	-- Zone related strings
+	AL["Alterac Mountains"] = "Альтеракские горы";
+	AL["Azeroth"] = "Азерот";
+	AL["Blackrock Mountain"] = "Черная гора";
+	AL["Caverns of Time"] = "Пещеры Времени";
 	AL["Crusader's Square"] = "Площадь рыцарей";
+	AL["Darkmoon Island"] = "Остров Новолуния";
+	AL["East"] = "Восток";
+	AL["Lower"] = "Нижний";
+	AL["North"] = "Север";
+	AL["Northrend"] = "Нордскол";
+	AL["Outland"] = "Запределье";
+	-- AL["Pandaria"] = true;
 	AL["The Gauntlet"] = "Улица Испытаний";
+	AL["Trial of the Grand Crusader"] = "Испытание великого крестоносца";
+	AL["Upper"] = "Верхний";
+	AL["West"] = "Запад";
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = "Аватара"; -- Avatar of the Martyred

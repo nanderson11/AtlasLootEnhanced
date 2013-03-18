@@ -3,7 +3,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootWotLK"
 
 -- Index
@@ -4886,7 +4885,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(529).. " "..AL["Formula/Patterns/Plans"],
+			name = AtlasLoot_IngameLocales["Ulduar"].. " "..AL["Formula/Patterns/Plans"],
 			module = moduleName, instance = "Ulduar",
 		};
 	}
@@ -5890,7 +5889,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(543).. " "..AL["Patterns/Plans"],
+			name = AtlasLoot_IngameLocales["Trial of the Crusader"].. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "TrialOfTheCrusader",
 		};
 	}
@@ -7438,7 +7437,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Argent Tournament"].." - "..BabbleZone["Icecrown"],
+			name = AL["Argent Tournament"].." - "..AtlasLoot_IngameLocales["Icecrown"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
@@ -8966,7 +8965,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleZone["Wintergrasp"],
+			name = AtlasLoot_IngameLocales["Wintergrasp"],
 			module = moduleName, menu = "WINTERGRASPMENU",
 		};
 	}
@@ -8987,7 +8986,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"],
+			name = AtlasLoot_IngameLocales["Grizzly Hills"]..": "..AL["Venture Bay"],
 			module = moduleName, menu = "PVPMENU2",
 		};
 	}
@@ -11203,10 +11202,10 @@ local moduleName = "AtlasLootWotLK"
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Raine's Revenge"], "=q1="..AL["World Drop"]};
 				{ 2, 37758, "", "=q3=Raine's Choker of Combustion", "=ds=#s2#"};
 				{ 3, 37821, "", "=q3=Raine's Signet of Blasting", "=ds=#s13#"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["Purified Shard of the Gods"], "=q1="..BabbleZone["Onyxia's Lair"]};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["Purified Shard of the Gods"], "=q1="..AtlasLoot_IngameLocales["Onyxia's Lair"]};
 				{ 6, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#"};
 				{ 7, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["Shiny Shard of the Gods"], "=q1="..BabbleZone["Onyxia's Lair"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["Shiny Shard of the Gods"], "=q1="..AtlasLoot_IngameLocales["Onyxia's Lair"]};
 				{ 17, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#"};
 				{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
 			};

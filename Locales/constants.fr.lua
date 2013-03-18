@@ -1069,13 +1069,26 @@ if AL then
 	AL["Bash'ir Landing Stasis Chambers"] = "Chambre de stase alpha du point d'ancrage de Bash'ir";
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
 
-	-- Zones
-	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
+	-- Zone related strings
+	AL["Alterac Mountains"] = "Montagnes d'Alterac";
+	-- AL["Azeroth"] = true;
+	AL["Blackrock Mountain"] = "Mont Rochenoire";
+	AL["Caverns of Time"] = "Grottes du temps";
 	AL["Crusader's Square"] = "Place des Croisés";
-	AL["The Gauntlet"] = "Le Défi";
-	AL["Halfhill Farm"] = "Marché de Micolline";
+	AL["Darkmoon Island"] = "Île de Sombrelune";
 	AL["Domination Point"] = "Halte de la Domination";
+	AL["East"] = "Est";
+	AL["Halfhill Farm"] = "Marché de Micolline";
 	AL["Lion's Landing"] = "Le territoire du Lion";
+	AL["Lower"] = "Inférieur";
+	AL["North"] = "Nord";
+	AL["Northrend"] = "Norfendre";
+	AL["Outland"] = "Outreterre";
+	AL["Pandaria"] = "Pandarie";
+	AL["The Gauntlet"] = "Le Défi";
+	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
+	AL["Upper"] = "Supérieur";
+	AL["West"] = "Ouest";
 
 	-- Shortcuts for Bossname files
 	--AL["Avatar"] = true; -- Avatar of the Martyred

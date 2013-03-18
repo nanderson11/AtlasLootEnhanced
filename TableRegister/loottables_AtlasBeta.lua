@@ -10,7 +10,6 @@ inherant title to the loot table, given the origins of the mod as an Atlas plugi
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 -- Using alchemy skill to get localized rank
 local JOURNEYMAN = select(2, GetSpellInfo(3101));
@@ -59,7 +58,7 @@ AtlasLoot_LootTableRegister_AtlasBeta = {
 					{ "BlackrockCavernsLordObsidius", 6 },
 					{ "BlackrockCavernsTrash", 11 },
 				},
-				["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
+				["Info"] = { AtlasLoot_IngameLocales["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
 			},
 		]]--
 		},

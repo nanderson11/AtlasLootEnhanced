@@ -4,7 +4,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
@@ -12,7 +11,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
 				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..AtlasLoot_IngameLocales["Spirit of Harmony"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 4, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 4, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..AtlasLoot_IngameLocales["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 7, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
@@ -148,9 +147,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SpiritOfHarmony"] = {
 		["Normal"] = {
 			{
-				{ 2, "SmithingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Plans"], "=q5="..AtlasLoot:GetMapNameByID(811)};
-				{ 3, "TailoringMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
-				{ 17, "LeatherworkingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
+				{ 2, "SmithingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Plans"], "=q5="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
+				{ 3, "TailoringMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
+				{ 17, "LeatherworkingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"]};
 				{ 20, 72238, "", "=q2=Golden Lotus", "=ds=", "#SPIRITOFHARMONY:1#", amount = 2};
 				{ 21, 89610, "", "=q1=Pandaria Herbs", "=ds=", "#SPIRITOFHARMONY:1#"};
 				{ 23, 74247, "", "=q3=Ethereal Shard", "=ds=", "#SPIRITOFHARMONY:1#"};
@@ -200,7 +199,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "MountsAlliance#2", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Ironforge"].." / "..AtlasLoot_IngameLocales["Exodar"].." / "..AtlasLoot_IngameLocales["Stormwind"], "=ec1="..AL["Alliance"]};
 				{ 4, "MountsAlliance#3", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Tushui Pandaren"].." / "..AtlasLoot_IngameLocales["Gilneas"], "=ec1="..AL["Alliance"]};
 				{ 5, "MountsAlliance#4", "achievement_pvp_a_16", "=ds="..AL["Flying Mounts"].." / "..AtlasLoot_IngameLocales["Kurenai"], "=ec1="..AL["Alliance"]};
-				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Alliance"]};
+				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..AtlasLoot_IngameLocales["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Alliance"]};
 				{ 8, "MountsFaction", "ability_mount_warhippogryph", "=ds="..AL["Neutral Faction Mounts"], ""};
 				{ 9, "MountsRareDungeon", "ability_mount_drake_bronze", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Dungeon"].." / "..AL["Outdoor"]};
 				{ 10, "MountsCraftQuest", "ability_mount_gyrocoptorelite", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted Mounts"], ""};
@@ -211,7 +210,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Darkspear Trolls"].." / "..AtlasLoot_IngameLocales["Thunder Bluff"].." / "..AtlasLoot_IngameLocales["Undercity"], "=ec1="..AL["Horde"]};
 				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Huojin Pandaren"].." / "..AtlasLoot_IngameLocales["Bilgewater Cartel"], "=ec1="..AL["Horde"]};
 				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..AL["Flying Mounts"].." / "..AtlasLoot_IngameLocales["The Mag'har"], "=ec1="..AL["Horde"]};
-				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Horde"]};
+				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..AtlasLoot_IngameLocales["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Horde"]};
 				{ 23, "MountsPvP", "ability_mount_netherdrakeelite", "=ds="..AL["PvP Mounts"], ""};
 				{ 24, "MountsRareRaid", "inv_misc_summerfest_brazierorange", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Raid"]};
 				{ 25, "MountsAchievement", "inv_mount_allianceliong", "=ds="..AL["Achievement Reward"], ""};
@@ -344,20 +343,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["RAREMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "RaresMOPMobsJadeForest", "achievement_zone_jadeforest", "=ds="..AtlasLoot:GetMapNameByID(806), "#ACHIEVEMENTID:7439#"};
-				{ 3, "RaresMOPMobsKrasarangWilds", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot:GetMapNameByID(857), "#ACHIEVEMENTID:7439#"};
-				{ 4, "RaresMOPMobsTownlongSteppes", "achievement_zone_townlongsteppes", "=ds="..AtlasLoot:GetMapNameByID(810), "#ACHIEVEMENTID:7439#"};
-				{ 5, "RaresMOPMobsValeOfEternalBlossoms", "achievement_zone_valeofeternalblossoms", "=ds="..AtlasLoot:GetMapNameByID(811), "#ACHIEVEMENTID:7439#"};
+				{ 2, "RaresMOPMobsJadeForest", "achievement_zone_jadeforest", "=ds="..AtlasLoot_IngameLocales["The Jade Forest"], "#ACHIEVEMENTID:7439#"};
+				{ 3, "RaresMOPMobsKrasarangWilds", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot_IngameLocales["Krasarang Wilds"], "#ACHIEVEMENTID:7439#"};
+				{ 4, "RaresMOPMobsTownlongSteppes", "achievement_zone_townlongsteppes", "=ds="..AtlasLoot_IngameLocales["Townlong Steppes"], "#ACHIEVEMENTID:7439#"};
+				{ 5, "RaresMOPMobsValeOfEternalBlossoms", "achievement_zone_valeofeternalblossoms", "=ds="..AtlasLoot_IngameLocales["Vale of Eternal Blossoms"], "#ACHIEVEMENTID:7439#"};
 				{ 7, "RaresMOPMobsMisc", "inv_pandarenserpentmount_lightning", "=ds="..AL["Misc"], ""};
 				{ 8, "RaresMOPMobsWarbringer", "achievement_boss_chiefukorzsandscalp", "=ds="..BabbleRare["Zandalari Warbringer"], ""};
-				{ 10, "RaresMOPItemsJadeForestValleyoftheFourWinds", "achievement_zone_jadeforest", "=ds="..AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(807), "#ACHIEVEMENTID:7284#"};
-				{ 11, "RaresMOPItemsTownlongSteppesDreadWastes", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(858), "#ACHIEVEMENTID:7284#"};
-				{ 17, "RaresMOPMobsValleyFourWinds", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot:GetMapNameByID(807), "#ACHIEVEMENTID:7439#"};
-				{ 18, "RaresMOPMobsKunLaiSummit", "achievement_zone_kunlaisummit", "=ds="..AtlasLoot:GetMapNameByID(809), "#ACHIEVEMENTID:7439#"};
-				{ 19, "RaresMOPMobsDreadWastes", "achievement_zone_dreadwastes", "=ds="..AtlasLoot:GetMapNameByID(858), "#ACHIEVEMENTID:7439#"};
-				{ 20, "RaresMOPMobsIsleofThunder", "inv_shield_mogu_c_01", "=ds="..AtlasLoot:GetMapNameByID(928), "#ACHIEVEMENTID:8103#"};
+				{ 10, "RaresMOPItemsJadeForestValleyoftheFourWinds", "achievement_zone_jadeforest", "=ds="..AtlasLoot_IngameLocales["The Jade Forest"].." / "..AtlasLoot_IngameLocales["Valley of the Four Winds"], "#ACHIEVEMENTID:7284#"};
+				{ 11, "RaresMOPItemsTownlongSteppesDreadWastes", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot_IngameLocales["Townlong Steppes"].." / "..AtlasLoot_IngameLocales["Dread Wastes"], "#ACHIEVEMENTID:7284#"};
+				{ 17, "RaresMOPMobsValleyFourWinds", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot_IngameLocales["Valley of the Four Winds"], "#ACHIEVEMENTID:7439#"};
+				{ 18, "RaresMOPMobsKunLaiSummit", "achievement_zone_kunlaisummit", "=ds="..AtlasLoot_IngameLocales["Kun-Lai Summit"], "#ACHIEVEMENTID:7439#"};
+				{ 19, "RaresMOPMobsDreadWastes", "achievement_zone_dreadwastes", "=ds="..AtlasLoot_IngameLocales["Dread Wastes"], "#ACHIEVEMENTID:7439#"};
+				{ 20, "RaresMOPMobsIsleofThunder", "inv_shield_mogu_c_01", "=ds="..AtlasLoot_IngameLocales["Isle of Thunder"], "#ACHIEVEMENTID:8103#"};
 				{ 22, "RaresMOPMobsClawlord", "inv_misc_birdbeck_02", "=ds="..BabbleRare["Clawlord Kril'mandar"], ""};
-				{ 25, "RaresMOPItemsKrasarangWildsKunLaiSummit", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(809), "#ACHIEVEMENTID:7284#"};
+				{ 25, "RaresMOPItemsKrasarangWildsKunLaiSummit", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot_IngameLocales["Krasarang Wilds"].." / "..AtlasLoot_IngameLocales["Kun-Lai Summit"], "#ACHIEVEMENTID:7284#"};
 			};
 		};
 		info = {
@@ -369,21 +368,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETSMISCMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Jaws of Retribution"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Jaws of Retribution"], "=q1="..AtlasLoot_IngameLocales["Dragon Soul"]};
 				{ 2, 77945, "", "=q4=Fear", "=ds=#h3#, #w4#", "" };
 				{ 3, 77946, "", "=q4=Vengeance", "=ds=#h4#, #w4#", "" };
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["Maw of Oblivion"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["Maw of Oblivion"], "=q1="..AtlasLoot_IngameLocales["Dragon Soul"]};
 				{ 6, 77947, "", "=q4=The Sleeper", "=ds=#h3#, #w4#", "" };
 				{ 7, 77948, "", "=q4=The Dreamer", "=ds=#h4#, #w4#", "" };
-				{ 9, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
+				{ 9, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..AtlasLoot_IngameLocales["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
 				{ 11, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["No Longer Available"]};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["Fangs of the Father"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["Fangs of the Father"], "=q1="..AtlasLoot_IngameLocales["Dragon Soul"]};
 				{ 17, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
 				{ 18, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
 				{ 20, "SETSCLASSIC", "INV_Sword_43", "=ds="..AL["Classic WoW"].." "..AL["Sets"], ""};
 				{ 21, "TBCSets", "INV_Weapon_Glave_01", "=ds="..AL["Burning Crusade"].." "..AL["Sets"], ""};
 				{ 22, "WOTLKSets", "inv_misc_monsterscales_15", "=ds="..AL["Wrath of the Lich King"].." "..AL["Sets"], ""};
-				{ 24, "AQ40Sets", "achievement_boss_cthun", "=ds="..BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
+				{ 24, "AQ40Sets", "achievement_boss_cthun", "=ds="..AtlasLoot_IngameLocales["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
 				{ 26, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon Set 3"], "=q5="..AL["Burning Crusade"]};
 			};
 		};
@@ -396,18 +395,18 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETSCLASSIC"] = {
 		["Normal"] = {
 			{
-				{ 2, "VWOWSets#1", "INV_Pants_12", "=ds="..BabbleItemSet["Defias Leather"], "=q5="..BabbleZone["The Deadmines"]};
-				{ 3, "VWOWSets#1", "INV_Shirt_16", "=ds="..BabbleItemSet["Embrace of the Viper"], "=q5="..BabbleZone["Wailing Caverns"]};
-				{ 4, "VWOWSets#1", "INV_Gauntlets_19", "=ds="..BabbleItemSet["Chain of the Scarlet Crusade"], "=q5="..BabbleZone["Scarlet Monastery"]};
-				{ 5, "VWOWSets#1", "INV_Helmet_01", "=ds="..BabbleItemSet["The Gladiator"], "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 2, "VWOWSets#1", "INV_Pants_12", "=ds="..BabbleItemSet["Defias Leather"], "=q5="..AtlasLoot_IngameLocales["The Deadmines"]};
+				{ 3, "VWOWSets#1", "INV_Shirt_16", "=ds="..BabbleItemSet["Embrace of the Viper"], "=q5="..AtlasLoot_IngameLocales["Wailing Caverns"]};
+				{ 4, "VWOWSets#1", "INV_Gauntlets_19", "=ds="..BabbleItemSet["Chain of the Scarlet Crusade"], "=q5="..AtlasLoot_IngameLocales["Scarlet Monastery"]};
+				{ 5, "VWOWSets#1", "INV_Helmet_01", "=ds="..BabbleItemSet["The Gladiator"], "=q5="..AtlasLoot_IngameLocales["Blackrock Depths"]};
 				{ 6, "VWOWSets#2", "INV_Boots_Cloth_05", "=ds="..BabbleItemSet["Ironweave Battlesuit"], "=q5="..AL["Various Locations"]};
-				{ 7, "VWOWSets#2", "INV_Boots_02", "=ds="..BabbleItemSet["The Postmaster"], "=q5="..BabbleZone["Stratholme"]};
-				{ 8, "VWOWScholo", "INV_Shoulder_02", "=ds="..BabbleItemSet["Necropile Raiment"], "=q5="..BabbleZone["Scholomance"]};
-				{ 17, "VWOWScholo", "INV_Belt_16", "=ds="..BabbleItemSet["Cadaverous Garb"], "=q5="..BabbleZone["Scholomance"]};
-				{ 18, "VWOWScholo", "INV_Gauntlets_26", "=ds="..BabbleItemSet["Bloodmail Regalia"], "=q5="..BabbleZone["Scholomance"]};
-				{ 19, "VWOWScholo", "INV_Belt_12", "=ds="..BabbleItemSet["Deathbone Guardian"], "=q5="..BabbleZone["Scholomance"]};
-				{ 20, "VWOWSets#3", "INV_Weapon_ShortBlade_16", "=ds="..BabbleItemSet["Spider's Kiss"], "=q5="..BabbleZone["Lower Blackrock Spire"]};
-				{ 21, "VWOWSets#3", "INV_Sword_43", "=ds="..BabbleItemSet["Dal'Rend's Arms"], "=q5="..BabbleZone["Upper Blackrock Spire"]};
+				{ 7, "VWOWSets#2", "INV_Boots_02", "=ds="..BabbleItemSet["The Postmaster"], "=q5="..AtlasLoot_IngameLocales["Stratholme"]};
+				{ 8, "VWOWScholo", "INV_Shoulder_02", "=ds="..BabbleItemSet["Necropile Raiment"], "=q5="..AtlasLoot_IngameLocales["Scholomance"]};
+				{ 17, "VWOWScholo", "INV_Belt_16", "=ds="..BabbleItemSet["Cadaverous Garb"], "=q5="..AtlasLoot_IngameLocales["Scholomance"]};
+				{ 18, "VWOWScholo", "INV_Gauntlets_26", "=ds="..BabbleItemSet["Bloodmail Regalia"], "=q5="..AtlasLoot_IngameLocales["Scholomance"]};
+				{ 19, "VWOWScholo", "INV_Belt_12", "=ds="..BabbleItemSet["Deathbone Guardian"], "=q5="..AtlasLoot_IngameLocales["Scholomance"]};
+				{ 20, "VWOWSets#3", "INV_Weapon_ShortBlade_16", "=ds="..BabbleItemSet["Spider's Kiss"], "=q5="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Lower"]..")"};
+				{ 21, "VWOWSets#3", "INV_Sword_43", "=ds="..BabbleItemSet["Dal'Rend's Arms"], "=q5="..AtlasLoot_IngameLocales["Blackrock Spire"].." ("..AL["Upper"]..")"};
 				{ 22, "VWOWSets#3", "INV_Misc_MonsterScales_15", "=ds="..BabbleItemSet["Shard of the Gods"], "=q5="..AL["Various Locations"]};
 				{ 23, "VWOWSets#3", "INV_Misc_MonsterClaw_04", "=ds="..BabbleItemSet["Spirit of Eskhandar"], "=q5="..AL["Various Locations"]};
 			};
