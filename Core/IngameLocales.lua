@@ -12,6 +12,11 @@ local function GetSpecNameById(id)
 	return tmp1
 end
 
+local function GetAchievementName(id, index)
+	_, tmp1 = GetAchievementInfo(id, index)
+	return tmp1
+end
+
 AtlasLoot_IngameLocales = {
 	-- ######################################################################
 	-- Rares
