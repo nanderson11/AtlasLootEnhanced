@@ -875,21 +875,15 @@ if AL then
 	AL["Servant's Quarter Animal Bosses"] = true;
 
 	-- Zone related strings
-	AL["Alterac Mountains"] = "알터랙 산맥";
 	AL["Azeroth"] = "아제로스";
 	AL["Blackrock Mountain"] = "검은바위 산";
 	AL["Caverns of Time"] = "시간의 동굴";
 	-- AL["Crusader's Square"] = true;
 	AL["Darkmoon Island"] = "다크문 축제";
 	AL["East"] = "동부";
-	AL["Lower"] = "하층";
 	AL["North"] = "북부";
-	AL["Northrend"] = "노스렌드";
-	AL["Outland"] = "아웃랜드";
-	AL["Pandaria"] = "판다리아";
 	-- AL["The Gauntlet"] = true;
 	-- AL["Trial of the Grand Crusader"] = true;
-	AL["Upper"] = "상층";
 	AL["West"] = "서부";
 
 	-- Shortcuts for Bossname files

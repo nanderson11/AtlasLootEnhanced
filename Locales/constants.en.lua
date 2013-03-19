@@ -1070,24 +1070,16 @@ if AL then
 	AL["Battle Pet Trainer"] = true;
 
 	-- Zone related strings
-	AL["Alterac Mountains"] = true;
 	AL["Azeroth"] = true;
 	AL["Blackrock Mountain"] = true;
 	AL["Caverns of Time"] = true;
 	AL["Crusader's Square"] = true;
 	AL["Darkmoon Island"] = true;
-	AL["Domination Point"] = true;
 	AL["East"] = true;
 	AL["Halfhill Farm"] = true;
-	AL["Lion's Landing"] = true;
-	AL["Lower"] = true;
 	AL["North"] = true;
-	AL["Northrend"] = true;
-	AL["Outland"] = true;
-	AL["Pandaria"] = true;
 	AL["The Gauntlet"] = true;
 	AL["Trial of the Grand Crusader"] = true;
-	AL["Upper"] = true;
 	AL["West"] = true;
 
 	-- Shortcuts for Bossname files

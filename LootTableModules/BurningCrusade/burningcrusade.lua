@@ -1,5 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local ALIL = AtlasLoot_IngameLocales;
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
@@ -466,19 +467,19 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["AuchTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["Mana-Tombs"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["Mana-Tombs"]};
 				{ 2, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370), =q1="..AL["Nexus Stalker"], "", "0.52%"};
 				{ 3, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1="..AL["Ethereal Priest"], "", "0.52%"};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["Sethekk Halls"]};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["Sethekk Halls"]};
 				{ 6, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1="..AL["Sethekk Ravenguard"], "", "0.46%"};
-				{ 8, 0, "INV_Box_01", "=q6="..AL["The Saga of Terokk"], "=q5="..AtlasLoot_IngameLocales["Sethekk Halls"]};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["The Saga of Terokk"], "=q5="..ALIL["Sethekk Halls"]};
 				{ 9, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["Auchenai Crypts"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["Auchenai Crypts"]};
 				{ 17, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360), =q1="..AL["Auchenai Monk"], "", "0.69%"};
 				{ 18, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1="..AL["Raging Skeleton"], "", "0.60%"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["Shadow Labyrinth"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["Shadow Labyrinth"]};
 				{ 21, 23607, "", "=q3=Plans: Felsteel Helm", "=ds=#p2# (365), =q1="..AL["Cabal Fanatic"], "", "0.61%"};
-				{ 23, 0, "INV_Box_01", "=q6="..AL["First Fragment Guardian"], "=q5="..AtlasLoot_IngameLocales["Shadow Labyrinth"]};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["First Fragment Guardian"], "=q5="..ALIL["Shadow Labyrinth"]};
 				{ 24, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%"};
 			};
 		};
@@ -757,7 +758,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Black Temple"].. " "..AL["Patterns/Plans"],
+			name = ALIL["Black Temple"].. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "BlackTemple",
 		};
 	};
@@ -868,17 +869,17 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["CoTTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["Old Hillsbrad Foothills"]};
 				{ 2, 25729, "", "=q3=Pattern: Stylin' Adventure Hat", "=ds=#p7# (350) =q1="..AL["Durnholde Rifleman"], "", "0.25%"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Don Carlos"], "=q5="..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Don Carlos"], "=q5="..ALIL["Old Hillsbrad Foothills"]};
 				{ 5, 38506, "", "=q3=Don Carlos' Famous Hat", "=ds=#s1#, #a1# =q2=#j3#"};
 				{ 6, 38329, "", "=q1=Don Carlos' Hat", "=q1=#m3#"};
 				{ 7, 38276, "", "=q1=Haliscan Brimmed Hat", "=q1=#m4#: =ds=#s1#, #a1#"};
-				{ 9, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["The Black Morass"]};
+				{ 9, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["The Black Morass"]};
 				{ 10, 25730, "", "=q3=Pattern: Stylin' Jungle Hat", "=ds=#p7# (350) =q1="..AL["Rift Keeper/Rift Lord"], "", "0.29%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Thomas Yance"], "=q5="..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Thomas Yance"], "=q5="..ALIL["Old Hillsbrad Foothills"]};
 				{ 17, 25725, "", "=q1=Pattern: Riding Crop", "=ds=#p7# (350)"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["Aged Dalaran Wizard"], "=q5="..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Aged Dalaran Wizard"], "=q5="..ALIL["Old Hillsbrad Foothills"]};
 				{ 20, 22539, "", "=q1=Formula: Enchant Shield - Intellect", "=ds=#p4# (325)"};
 			};
 		};
@@ -1303,7 +1304,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 24159, "", "=q3=Design: Khorium Band of Frost", "=ds=#p12# (355) =q1="..AL["Coilfang Sorceress"], "", "0.14%"};
 				{ 3, 22533, "", "=q2=Formula: Enchant Bracer - Fortitude", "=ds=#p4# (350) =q1="..AL["Coilfang Oracle"], "", "0.40%"};
 				{ 5, 24367, "", "=q1=Orders from Lady Vashj", "=ds=#m2#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Second Fragment Guardian"], "=q5="..AtlasLoot_IngameLocales["The Steamvault"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Second Fragment Guardian"], "=q5="..ALIL["The Steamvault"]};
 				{ 17, 24487, "", "=q1=Second Key Fragment", "=ds=#m3#", "", "100%"};
 			};
 		};
@@ -2715,7 +2716,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Sunwell Plateau"].. " "..AL["Patterns/Plans"],
+			name = ALIL["Sunwell Plateau"].. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "SunwellPlateau",
 		};
 	};
@@ -2851,18 +2852,18 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["TKTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["The Botanica"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["The Botanica"]};
 				{ 2, 24172, "", "=q4=Design: Coronet of Verdant Flame", "=ds=#p12# (370) =q1="..AL["Sunseeker Botanist"], "", "0.27%"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["The Mechanar"]};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["The Mechanar"]};
 				{ 5, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1="..AL["Sunseeker Astromage"], "", "0.30%"};
 				{ 6, 21906, "", "=q2=Pattern: Arcanoweave Boots", "=ds=#p8# (360) =q1="..AL["Sunseeker Astromage"], "", "0.57%"};
-				{ 8, 0, "INV_Box_01", "=q6="..AL["Overcharged Manacell"], "=q5="..AtlasLoot_IngameLocales["The Mechanar"]};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Overcharged Manacell"], "=q5="..ALIL["The Mechanar"]};
 				{ 9, 30824, "", "=q1=Overcharged Manacell", "=ds=#m3#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..AtlasLoot_IngameLocales["The Arcatraz"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..ALIL["The Arcatraz"]};
 				{ 17, 23606, "", "=q3=Plans: Felsteel Leggings", "=ds=#p2# (360), =q1="..AL["Unchained Doombringer"], "", "3.93%"};
 				{ 18, 22556, "", "=q2=Formula: Enchant 2H Weapon - Major Agility", "=ds=#p4# (360) =q1="..AL["Eredar Deathbringer"], "", "1.68%"};
 				{ 19, 21905, "", "=q2=Pattern: Arcanoweave Bracers", "=ds=#p8# (350) =q1="..AL["Arcatraz Sentinel"], "", "1.21%"};
-				{ 21, 0, "INV_Box_01", "=q6="..AL["Third Fragment Guardian"], "=q5="..AtlasLoot_IngameLocales["The Arcatraz"]};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Third Fragment Guardian"], "=q5="..ALIL["The Arcatraz"]};
 				{ 22, 24488, "", "=q1=Third Key Fragment", "=ds=#m3#", "", "100%"};
 			};
 		};
@@ -3312,7 +3313,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Ashtongue Deathsworn"],
+			name = ALIL["Ashtongue Deathsworn"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3365,7 +3366,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Cenarion Expedition"],
+			name = ALIL["Cenarion Expedition"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3407,7 +3408,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Honor Hold"],
+			name = ALIL["Honor Hold"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3443,7 +3444,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Keepers of Time"],
+			name = ALIL["Keepers of Time"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3485,7 +3486,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Kurenai"],
+			name = ALIL["Kurenai"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3519,7 +3520,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Lower City"],
+			name = ALIL["Lower City"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3548,7 +3549,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Netherwing"],
+			name = ALIL["Netherwing"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3582,7 +3583,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Ogri'la"],
+			name = ALIL["Ogri'la"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3614,7 +3615,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Sha'tari Skyguard"],
+			name = ALIL["Sha'tari Skyguard"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3702,7 +3703,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Shattered Sun Offensive"],
+			name = ALIL["Shattered Sun Offensive"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3735,7 +3736,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Sporeggar"],
+			name = ALIL["Sporeggar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3790,7 +3791,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Aldor"],
+			name = ALIL["The Aldor"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3841,7 +3842,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Consortium"],
+			name = ALIL["The Consortium"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3883,7 +3884,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Mag'har"],
+			name = ALIL["The Mag'har"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3941,7 +3942,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Scale of the Sands"],
+			name = ALIL["The Scale of the Sands"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -3994,7 +3995,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Scryers"],
+			name = ALIL["The Scryers"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4031,7 +4032,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Sha'tar"],
+			name = ALIL["The Sha'tar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4080,7 +4081,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["The Violet Eye"],
+			name = ALIL["The Violet Eye"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4122,7 +4123,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Thrallmar"],
+			name = ALIL["Thrallmar"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4152,7 +4153,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Tranquillien"],
+			name = ALIL["Tranquillien"],
 			module = moduleName, menu = "REPMENU_BURNINGCRUSADE",
 		};
 	}
@@ -4183,7 +4184,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"],
+			name = ALIL["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"],
 			module = moduleName, menu = "PVPMENU2",
 		};
 	}
@@ -4228,7 +4229,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Nagrand"]..": "..AL["Halaa"],
+			name = ALIL["Nagrand"]..": "..AL["Halaa"],
 			module = moduleName, menu = "PVPMENU2",
 		};
 	}
@@ -4261,7 +4262,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Terokkar Forest"]..": "..AL["Spirit Towers"],
+			name = ALIL["Terokkar Forest"]..": "..AL["Spirit Towers"],
 			module = moduleName, menu = "PVPMENU2",
 		};
 	}
@@ -4283,7 +4284,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AtlasLoot_IngameLocales["Zangarmarsh"]..": "..AL["Twin Spire Ruins"],
+			name = ALIL["Zangarmarsh"]..": "..AL["Twin Spire Ruins"],
 			module = moduleName, menu = "PVPMENU2",
 		};
 	}
@@ -4596,7 +4597,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Feral"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Feral"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4631,7 +4632,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Balance"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Balance"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4666,7 +4667,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Restoration"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4771,7 +4772,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Protection"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4806,7 +4807,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Retribution"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Retribution"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4841,7 +4842,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Holy"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4876,7 +4877,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Shadow"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Shadow"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4911,7 +4912,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Discipline"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Discipline"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -4981,7 +4982,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..AtlasLoot_IngameLocales["Demonology"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..ALIL["Demonology"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -5016,7 +5017,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..AtlasLoot_IngameLocales["Destruction"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..ALIL["Destruction"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -5051,7 +5052,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Enhancement"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Enhancement"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -5086,7 +5087,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Elemental"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Elemental"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -5121,7 +5122,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Restoration"],
 			module = moduleName, menu = "PVP70SET",
 		};
 	}
@@ -5351,29 +5352,29 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_InnerFire", "=q6=#ds3s1#", ""};
-				{ 2, 28413, "", "=q3=Hallowed Crown", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 3, 27775, "", "=q3=Hallowed Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Grandmaster Vorpil", 546).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 4, 28230, "", "=q3=Hallowed Garments", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 5, 27536, "", "=q3=Hallowed Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 6, 27875, "", "=q3=Hallowed Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..AtlasLoot_IngameLocales["Sethekk Halls"]..")"};
+				{ 2, 28413, "", "=q3=Hallowed Crown", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 3, 27775, "", "=q3=Hallowed Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Grandmaster Vorpil", 546).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 4, 28230, "", "=q3=Hallowed Garments", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 5, 27536, "", "=q3=Hallowed Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 6, 27875, "", "=q3=Hallowed Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..ALIL["Sethekk Halls"]..")"};
 				{ 8, 0, "INV_Elemental_Mote_Nether", "=q6=#ds3s3#", ""};
-				{ 9, 28193, "", "=q3=Mana-Etched Crown", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
+				{ 9, 28193, "", "=q3=Mana-Etched Crown", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
 				{ 10, 27796, "", "=q3=Mana-Etched Spaulders", "=ds="..AtlasLoot:EJ_GetBossName("Quagmirran", 572).." (#j3#)"};
-				{ 11, 28191, "", "=q3=Mana-Etched Vestments", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 12, 27465, "", "=q3=Mana-Etched Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Omor the Unscarred", 528).." ("..AtlasLoot_IngameLocales["Hellfire Ramparts"]..") (#j3#)"};
+				{ 11, 28191, "", "=q3=Mana-Etched Vestments", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..ALIL["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 12, 27465, "", "=q3=Mana-Etched Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Omor the Unscarred", 528).." ("..ALIL["Hellfire Ramparts"]..") (#j3#)"};
 				{ 13, 27907, "", "=q3=Mana-Etched Pantaloons", "=ds="..AtlasLoot:EJ_GetBossName("The Black Stalker", 579).." (#j3#)"};
 				{ 16, 0, "Ability_Creature_Cursed_04", "=q6=#ds3s2#", ""};
-				{ 17, 28278, "", "=q3=Incanter's Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..AtlasLoot_IngameLocales["The Mechanar"]..")"};
-				{ 18, 27738, "", "=q3=Incanter's Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 19, 28229, "", "=q3=Incanter's Robe", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Hydromancer Thespia", 573).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"}; 
-				{ 21, 27838, "", "=q3=Incanter's Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..AtlasLoot_IngameLocales["Sethekk Halls"]..")"};
+				{ 17, 28278, "", "=q3=Incanter's Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..ALIL["The Mechanar"]..")"};
+				{ 18, 27738, "", "=q3=Incanter's Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 19, 28229, "", "=q3=Incanter's Robe", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..ALIL["The Botanica"]..")"};
+				{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Hydromancer Thespia", 573).." ("..ALIL["The Steamvault"]..")"}; 
+				{ 21, 27838, "", "=q3=Incanter's Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..ALIL["Sethekk Halls"]..")"};
 				{ 23, 0, "Ability_Creature_Cursed_03", "=q6=#ds3s4#", ""};
-				{ 24, 28415, "", "=q3=Hood of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 25, 27778, "", "=q3=Spaulders of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 26, 28232, "", "=q3=Robe of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 27, 27537, "", "=q3=Gloves of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 28, 27948, "", "=q3=Trousers of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..AtlasLoot_IngameLocales["Sethekk Halls"]..")"};
+				{ 24, 28415, "", "=q3=Hood of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 25, 27778, "", "=q3=Spaulders of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 26, 28232, "", "=q3=Robe of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 27, 27537, "", "=q3=Gloves of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 28, 27948, "", "=q3=Trousers of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..ALIL["Sethekk Halls"]..")"};
 			};
 		};
 		info = {
@@ -5386,23 +5387,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Ability_Rogue_SinisterCalling", "=q6=#ds3s5#", ""};
-				{ 2, 28414, "", "=q3=Helm of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 3, 27776, "", "=q3=Shoulderpads of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..AtlasLoot_IngameLocales["Sethekk Halls"]..")"};
-				{ 4, 28204, "", "=q3=Tunic of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..AtlasLoot_IngameLocales["The Mechanar"]..")"};
-				{ 5, 27509, "", "=q3=Handgrips of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
-				{ 6, 27908, "", "=q3=Leggings of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
+				{ 2, 28414, "", "=q3=Helm of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 3, 27776, "", "=q3=Shoulderpads of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..ALIL["Sethekk Halls"]..")"};
+				{ 4, 28204, "", "=q3=Tunic of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..ALIL["The Mechanar"]..")"};
+				{ 5, 27509, "", "=q3=Handgrips of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
+				{ 6, 27908, "", "=q3=Leggings of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
 				{ 8, 0, "Ability_Hunter_RapidKilling", "=q6=#ds3s7#", ""};
-				{ 9, 28224, "", "=q3=Wastewalker Helm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 10, 27797, "", "=q3=Wastewalker Shoulderpads", "=ds="..AL["Avatar"].." ("..AtlasLoot_IngameLocales["Auchenai Crypts"]..") (#j3#)"};
-				{ 11, 28264, "", "=q3=Wastewalker Tunic", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..AtlasLoot_IngameLocales["The Blood Furnace"]..") (#j3#)"};
-				{ 12, 27531, "", "=q3=Wastewalker Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 13, 27837, "", "=q3=Wastewalker Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Nexus-Prince Shaffar", 537).." ("..AtlasLoot_IngameLocales["Mana-Tombs"]..") (#j3#)"};
+				{ 9, 28224, "", "=q3=Wastewalker Helm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..ALIL["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 10, 27797, "", "=q3=Wastewalker Shoulderpads", "=ds="..AL["Avatar"].." ("..ALIL["Auchenai Crypts"]..") (#j3#)"};
+				{ 11, 28264, "", "=q3=Wastewalker Tunic", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..ALIL["The Blood Furnace"]..") (#j3#)"};
+				{ 12, 27531, "", "=q3=Wastewalker Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 13, 27837, "", "=q3=Wastewalker Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Nexus-Prince Shaffar", 537).." ("..ALIL["Mana-Tombs"]..") (#j3#)"};
 				{ 16, 0, "Spell_Holy_SealOfRighteousness", "=q6=#ds3s6#", ""};
-				{ 17, 28348, "", "=q3=Moonglade Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 18, 27737, "", "=q3=Moonglade Shoulders", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 19, 28202, "", "=q3=Moonglade Robe", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..AtlasLoot_IngameLocales["The Mechanar"]..")"};
-				{ 20, 27468, "", "=q3=Moonglade Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Blackheart the Inciter", 545).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 21, 27873, "", "=q3=Moonglade Pants", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
+				{ 17, 28348, "", "=q3=Moonglade Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..ALIL["The Botanica"]..")"};
+				{ 18, 27737, "", "=q3=Moonglade Shoulders", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 19, 28202, "", "=q3=Moonglade Robe", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..ALIL["The Mechanar"]..")"};
+				{ 20, 27468, "", "=q3=Moonglade Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Blackheart the Inciter", 545).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 21, 27873, "", "=q3=Moonglade Pants", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
 			};
 		};
 		info = {
@@ -5415,23 +5416,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Ability_Hunter_Pet_Wolf", "=q6=#ds3s8#", ""};
-				{ 2, 28275, "", "=q3=Beast Lord Helm", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..AtlasLoot_IngameLocales["The Mechanar"]..")"};
-				{ 3, 27801, "", "=q3=Beast Lord Mantle", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 4, 28228, "", "=q3=Beast Lord Curiass", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 5, 27474, "", "=q3=Beast Lord Handguards", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 6, 27874, "", "=q3=Beast Lord Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
+				{ 2, 28275, "", "=q3=Beast Lord Helm", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..ALIL["The Mechanar"]..")"};
+				{ 3, 27801, "", "=q3=Beast Lord Mantle", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 4, 28228, "", "=q3=Beast Lord Curiass", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..ALIL["The Botanica"]..")"};
+				{ 5, 27474, "", "=q3=Beast Lord Handguards", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 6, 27874, "", "=q3=Beast Lord Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
 				{ 8, 0, "INV_Helmet_70", "=q6=#ds3s10#", ""};
-				{ 9, 28349, "", "=q3=Tidefury Helm", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 10, 27802, "", "=q3=Tidefury Shoulderguards", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 11, 28231, "", "=q3=Tidefury Chestpiece", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 12, 27510, "", "=q3=Tidefury Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 13, 27909, "", "=q3=Tidefury Kilt", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
+				{ 9, 28349, "", "=q3=Tidefury Helm", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..ALIL["The Botanica"]..")"};
+				{ 10, 27802, "", "=q3=Tidefury Shoulderguards", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 11, 28231, "", "=q3=Tidefury Chestpiece", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 12, 27510, "", "=q3=Tidefury Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 13, 27909, "", "=q3=Tidefury Kilt", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
 				{ 16, 0, "Ability_FiegnDead", "=q6=#ds3s9#", ""};
-				{ 17, 28192, "", "=q3=Helm of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
+				{ 17, 28192, "", "=q3=Helm of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
 				{ 18, 27713, "", "=q3=Pauldrons of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Quagmirran", 572).." (#j3#)"};
-				{ 19, 28401, "", "=q3=Hauberk of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 20, 27528, "", "=q3=Gauntlets of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 21, 27936, "", "=q3=Greaves of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..AtlasLoot_IngameLocales["Sethekk Halls"]..")"};
+				{ 19, 28401, "", "=q3=Hauberk of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..ALIL["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 20, 27528, "", "=q3=Gauntlets of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 21, 27936, "", "=q3=Greaves of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..ALIL["Sethekk Halls"]..")"};
 			};
 		};
 		info = {
@@ -5444,23 +5445,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Fire_EnchantWeapon", "=q6=#ds3s11#", ""};
-				{ 2, 28350, "", "=q3=Warhelm of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 3, 27803, "", "=q3=Shoulderguards of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..AtlasLoot_IngameLocales["Shadow Labyrinth"]..")"};
-				{ 4, 28205, "", "=q3=Breastplate of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 5, 27475, "", "=q3=Gauntlets of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 6, 27977, "", "=q3=Legplates of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
+				{ 2, 28350, "", "=q3=Warhelm of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..ALIL["The Botanica"]..")"};
+				{ 3, 27803, "", "=q3=Shoulderguards of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..ALIL["Shadow Labyrinth"]..")"};
+				{ 4, 28205, "", "=q3=Breastplate of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 5, 27475, "", "=q3=Gauntlets of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 6, 27977, "", "=q3=Legplates of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
 				{ 8, 0, "INV_Hammer_02", "=q6=#ds3s13#", ""};
-				{ 9, 28285, "", "=q3=Helm of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..AtlasLoot_IngameLocales["The Mechanar"]..")"};
-				{ 10, 27739, "", "=q3=Spaulders of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Laj", 561).." ("..AtlasLoot_IngameLocales["The Botanica"]..")"};
-				{ 11, 28203, "", "=q3=Breastplate of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..AtlasLoot_IngameLocales["The Steamvault"]..")"};
-				{ 12, 27535, "", "=q3=Gauntlets of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..AtlasLoot_IngameLocales["The Shattered Halls"]..")"};
-				{ 13, 27839, "", "=q3=Legplates of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")"};
+				{ 9, 28285, "", "=q3=Helm of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..ALIL["The Mechanar"]..")"};
+				{ 10, 27739, "", "=q3=Spaulders of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Laj", 561).." ("..ALIL["The Botanica"]..")"};
+				{ 11, 28203, "", "=q3=Breastplate of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..ALIL["The Steamvault"]..")"};
+				{ 12, 27535, "", "=q3=Gauntlets of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..ALIL["The Shattered Halls"]..")"};
+				{ 13, 27839, "", "=q3=Legplates of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")"};
 				{ 16, 0, "INV_Helmet_08", "=q6=#ds3s12#", ""};
-				{ 17, 28225, "", "=q3=Doomplate Warhelm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 17, 28225, "", "=q3=Doomplate Warhelm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..ALIL["Old Hillsbrad Foothills"]..") (#j3#)"};
 				{ 18, 27771, "", "=q3=Doomplate Shoulderguards", "=ds="..AtlasLoot:EJ_GetBossName("The Black Stalker", 579).." (#j3#)"};
-				{ 19, 28403, "", "=q3=Doomplate Chestguard", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..AtlasLoot_IngameLocales["The Arcatraz"]..")"};
-				{ 20, 27497, "", "=q3=Doomplate Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..AtlasLoot_IngameLocales["The Blood Furnace"]..") (#j3#)"};
-				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds="..AtlasLoot:EJ_GetBossName("Exarch Maladaar", 524).." ("..AtlasLoot_IngameLocales["Auchenai Crypts"]..") (#j3#)"};
+				{ 19, 28403, "", "=q3=Doomplate Chestguard", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..ALIL["The Arcatraz"]..")"};
+				{ 20, 27497, "", "=q3=Doomplate Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..ALIL["The Blood Furnace"]..") (#j3#)"};
+				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds="..AtlasLoot:EJ_GetBossName("Exarch Maladaar", 524).." ("..ALIL["Auchenai Crypts"]..") (#j3#)"};
 			};
 		};
 		info = {
@@ -5477,30 +5478,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_catform", "=q6=#t4s1_1#", "=ec1=#m21#"};
-				{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29100, "", "=q4=Mantle of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29096, "", "=q4=Breastplate of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29097, "", "=q4=Gauntlets of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29097, "", "=q4=Gauntlets of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29099, "", "=q4=Greaves of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_druid_catform", "=q6=#t5s1_1#", "=ec1=#m22#"};
-				{ 9, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_druid_catform", "=q6=#t6s1_1#", "=ec1=#m23#"};
-				{ 17, 31039, "", "=q4=Thunderheart Cover", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31048, "", "=q4=Thunderheart Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31042, "", "=q4=Thunderheart Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34444, "", "=q4=Thunderheart Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31034, "", "=q4=Thunderheart Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34556, "", "=q4=Thunderheart Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31044, "", "=q4=Thunderheart Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34573, "", "=q4=Thunderheart Treads", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31039, "", "=q4=Thunderheart Cover", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31048, "", "=q4=Thunderheart Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31042, "", "=q4=Thunderheart Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34444, "", "=q4=Thunderheart Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31034, "", "=q4=Thunderheart Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34556, "", "=q4=Thunderheart Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31044, "", "=q4=Thunderheart Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34573, "", "=q4=Thunderheart Treads", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Feral"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Feral"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5509,30 +5510,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t4s1_2#", "=ec1=#m21#"};
-				{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29089, "", "=q4=Shoulderguards of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29087, "", "=q4=Chestguard of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t5s1_2#", "=ec1=#m22#"};
-				{ 9, 30219, "", "=q4=Nordrassil Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30217, "", "=q4=Nordrassil Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30220, "", "=q4=Nordrassil Life-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30219, "", "=q4=Nordrassil Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30217, "", "=q4=Nordrassil Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30220, "", "=q4=Nordrassil Life-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t6s1_2#", "=ec1=#m23#"};
-				{ 17, 31037, "", "=q4=Thunderheart Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31047, "", "=q4=Thunderheart Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31041, "", "=q4=Thunderheart Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34445, "", "=q4=Thunderheart Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31032, "", "=q4=Thunderheart Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34554, "", "=q4=Thunderheart Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31045, "", "=q4=Thunderheart Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34571, "", "=q4=Thunderheart Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31037, "", "=q4=Thunderheart Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31047, "", "=q4=Thunderheart Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31041, "", "=q4=Thunderheart Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34445, "", "=q4=Thunderheart Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31032, "", "=q4=Thunderheart Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34554, "", "=q4=Thunderheart Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31045, "", "=q4=Thunderheart Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34571, "", "=q4=Thunderheart Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Restoration"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5541,30 +5542,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t4s1_3#", "=ec1=#m21#"};
-				{ 2, 29093, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29093, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29095, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29091, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t5s1_3#", "=ec1=#m22#"};
-				{ 9, 30233, "", "=q4=Nordrassil Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30232, "", "=q4=Nordrassil Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30234, "", "=q4=Nordrassil Wrath-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30233, "", "=q4=Nordrassil Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30232, "", "=q4=Nordrassil Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30234, "", "=q4=Nordrassil Wrath-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t6s1_3#", "=ec1=#m23#"};
-				{ 17, 31040, "", "=q4=Thunderheart Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31049, "", "=q4=Thunderheart Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31043, "", "=q4=Thunderheart Vest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34446, "", "=q4=Thunderheart Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31035, "", "=q4=Thunderheart Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34555, "", "=q4=Thunderheart Cord", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31046, "", "=q4=Thunderheart Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34572, "", "=q4=Thunderheart Footwraps", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31040, "", "=q4=Thunderheart Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31049, "", "=q4=Thunderheart Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31043, "", "=q4=Thunderheart Vest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34446, "", "=q4=Thunderheart Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31035, "", "=q4=Thunderheart Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34555, "", "=q4=Thunderheart Cord", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31046, "", "=q4=Thunderheart Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34572, "", "=q4=Thunderheart Footwraps", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Balance"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Balance"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5573,26 +5574,26 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t4s2#", "=ec1=#m21#"};
-				{ 2, 29081, "", "=q4=Demon Stalker Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29081, "", "=q4=Demon Stalker Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29084, "", "=q4=Demon Stalker Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29082, "", "=q4=Demon Stalker Harness", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29085, "", "=q4=Demon Stalker Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29085, "", "=q4=Demon Stalker Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29083, "", "=q4=Demon Stalker Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t5s2#", "=ec1=#m22#"};
-				{ 9, 30141, "", "=q4=Rift Stalker Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30142, "", "=q4=Rift Stalker Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30141, "", "=q4=Rift Stalker Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30142, "", "=q4=Rift Stalker Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t6s2#", "=ec1=#m23#"};
-				{ 17, 31003, "", "=q4=Gronnstalker's Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31006, "", "=q4=Gronnstalker's Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31004, "", "=q4=Gronnstalker's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34443, "", "=q4=Gronnstalker's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31001, "", "=q4=Gronnstalker's Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34549, "", "=q4=Gronnstalker's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31005, "", "=q4=Gronnstalker's Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34570, "", "=q4=Gronnstalker's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31003, "", "=q4=Gronnstalker's Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31006, "", "=q4=Gronnstalker's Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31004, "", "=q4=Gronnstalker's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34443, "", "=q4=Gronnstalker's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31001, "", "=q4=Gronnstalker's Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34549, "", "=q4=Gronnstalker's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31005, "", "=q4=Gronnstalker's Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34570, "", "=q4=Gronnstalker's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
@@ -5605,26 +5606,26 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t4s3#", "=ec1=#m21#"};
-				{ 2, 29076, "", "=q4=Collar of the Aldor", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29076, "", "=q4=Collar of the Aldor", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29079, "", "=q4=Pauldrons of the Aldor", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29077, "", "=q4=Vestments of the Aldor", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29080, "", "=q4=Gloves of the Aldor", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29080, "", "=q4=Gloves of the Aldor", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29078, "", "=q4=Legwraps of the Aldor", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_staff_13", "=q6=#t5s3#", "=ec1=#m22#"};
-				{ 9, 30206, "", "=q4=Cowl of Tirisfal", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30210, "", "=q4=Mantle of Tirisfal", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30205, "", "=q4=Gloves of Tirisfal", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30207, "", "=q4=Leggings of Tirisfal", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30206, "", "=q4=Cowl of Tirisfal", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30210, "", "=q4=Mantle of Tirisfal", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30205, "", "=q4=Gloves of Tirisfal", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30207, "", "=q4=Leggings of Tirisfal", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_staff_13", "=q6=#t6s3#", "=ec1=#m23#"};
-				{ 17, 31056, "", "=q4=Cowl of the Tempest", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31059, "", "=q4=Mantle of the Tempest", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31057, "", "=q4=Robes of the Tempest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34447, "", "=q4=Bracers of the Tempest", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31055, "", "=q4=Gloves of the Tempest", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34557, "", "=q4=Belt of the Tempest", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31058, "", "=q4=Leggings of the Tempest", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34574, "", "=q4=Boots of the Tempest", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31056, "", "=q4=Cowl of the Tempest", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31059, "", "=q4=Mantle of the Tempest", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31057, "", "=q4=Robes of the Tempest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34447, "", "=q4=Bracers of the Tempest", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31055, "", "=q4=Gloves of the Tempest", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34557, "", "=q4=Belt of the Tempest", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31058, "", "=q4=Leggings of the Tempest", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34574, "", "=q4=Boots of the Tempest", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
@@ -5637,30 +5638,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t4s4_1#", "=ec1=#m21#"};
-				{ 2, 29068, "", "=q4=Justicar Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29068, "", "=q4=Justicar Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29070, "", "=q4=Justicar Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29066, "", "=q4=Justicar Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29067, "", "=q4=Justicar Handguards", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29067, "", "=q4=Justicar Handguards", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29069, "", "=q4=Justicar Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t5s4_1#", "=ec1=#m22#"};
-				{ 9, 30125, "", "=q4=Crystalforge Faceguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30123, "", "=q4=Crystalforge Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30124, "", "=q4=Crystalforge Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30126, "", "=q4=Crystalforge Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30125, "", "=q4=Crystalforge Faceguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30123, "", "=q4=Crystalforge Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30124, "", "=q4=Crystalforge Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30126, "", "=q4=Crystalforge Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t6s4_1#", "=ec1=#m23#"};
-				{ 17, 30987, "", "=q4=Lightbringer Faceguard", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 30998, "", "=q4=Lightbringer Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 30991, "", "=q4=Lightbringer Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34433, "", "=q4=Lightbringer Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 30985, "", "=q4=Lightbringer Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34488, "", "=q4=Lightbringer Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 30995, "", "=q4=Lightbringer Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34560, "", "=q4=Lightbringer Stompers", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 30987, "", "=q4=Lightbringer Faceguard", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 30998, "", "=q4=Lightbringer Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 30991, "", "=q4=Lightbringer Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34433, "", "=q4=Lightbringer Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 30985, "", "=q4=Lightbringer Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34488, "", "=q4=Lightbringer Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 30995, "", "=q4=Lightbringer Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34560, "", "=q4=Lightbringer Stompers", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Protection"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5669,30 +5670,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
-				{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29075, "", "=q4=Justicar Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29071, "", "=q4=Justicar Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29072, "", "=q4=Justicar Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29072, "", "=q4=Justicar Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29074, "", "=q4=Justicar Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
-				{ 9, 30131, "", "=q4=Crystalforge War-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30129, "", "=q4=Crystalforge Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30130, "", "=q4=Crystalforge Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30132, "", "=q4=Crystalforge Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30131, "", "=q4=Crystalforge War-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30129, "", "=q4=Crystalforge Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30130, "", "=q4=Crystalforge Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30132, "", "=q4=Crystalforge Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t6s4_2#", "=ec1=#m23#"};
-				{ 17, 30989, "", "=q4=Lightbringer War-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 30997, "", "=q4=Lightbringer Shoulderbraces", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 30990, "", "=q4=Lightbringer Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34431, "", "=q4=Lightbringer Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 30982, "", "=q4=Lightbringer Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34485, "", "=q4=Lightbringer Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 30993, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34561, "", "=q4=Lightbringer Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 30989, "", "=q4=Lightbringer War-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 30997, "", "=q4=Lightbringer Shoulderbraces", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 30990, "", "=q4=Lightbringer Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34431, "", "=q4=Lightbringer Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 30982, "", "=q4=Lightbringer Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34485, "", "=q4=Lightbringer Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 30993, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34561, "", "=q4=Lightbringer Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Retribution"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Retribution"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5701,30 +5702,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
-				{ 2, 29061, "", "=q4=Justicar Diadem", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29061, "", "=q4=Justicar Diadem", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29064, "", "=q4=Justicar Pauldrons", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29062, "", "=q4=Justicar Chestpiece", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29065, "", "=q4=Justicar Gloves", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29065, "", "=q4=Justicar Gloves", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29063, "", "=q4=Justicar Leggings", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
-				{ 9, 30136, "", "=q4=Crystalforge Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30138, "", "=q4=Crystalforge Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30134, "", "=q4=Crystalforge Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30135, "", "=q4=Crystalforge Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30137, "", "=q4=Crystalforge Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30136, "", "=q4=Crystalforge Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30138, "", "=q4=Crystalforge Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30134, "", "=q4=Crystalforge Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30135, "", "=q4=Crystalforge Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30137, "", "=q4=Crystalforge Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t6s4_3#", "=ec1=#m23#"};
-				{ 17, 30988, "", "=q4=Lightbringer Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 30996, "", "=q4=Lightbringer Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 30992, "", "=q4=Lightbringer Chestpiece", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34432, "", "=q4=Lightbringer Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 30983, "", "=q4=Lightbringer Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34487, "", "=q4=Lightbringer Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 30994, "", "=q4=Lightbringer Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34559, "", "=q4=Lightbringer Treads", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 30988, "", "=q4=Lightbringer Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 30996, "", "=q4=Lightbringer Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 30992, "", "=q4=Lightbringer Chestpiece", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34432, "", "=q4=Lightbringer Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 30983, "", "=q4=Lightbringer Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34487, "", "=q4=Lightbringer Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 30994, "", "=q4=Lightbringer Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34559, "", "=q4=Lightbringer Treads", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Holy"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5733,30 +5734,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t4s5_1#", "=ec1=#m21#"};
-				{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29054, "", "=q4=Light-Mantle of the Incarnate", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29050, "", "=q4=Robes of the Incarnate", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29055, "", "=q4=Handwraps of the Incarnate", "The Curator ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29055, "", "=q4=Handwraps of the Incarnate", "The Curator ("..ALIL["Karazhan"]..")"};
 				{ 6, 29053, "", "=q4=Trousers of the Incarnate", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t5s5_1#", "=ec1=#m22#"};
-				{ 9, 30152, "", "=q4=Cowl of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30151, "", "=q4=Gloves of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30153, "", "=q4=Breeches of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30152, "", "=q4=Cowl of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30151, "", "=q4=Gloves of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30153, "", "=q4=Breeches of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t6s5_1#", "=ec1=#m23#"};
-				{ 17, 31063, "", "=q4=Cowl of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31069, "", "=q4=Mantle of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31066, "", "=q4=Vestments of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34435, "", "=q4=Cuffs of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31060, "", "=q4=Gloves of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34527, "", "=q4=Belt of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31068, "", "=q4=Breeches of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34562, "", "=q4=Boots of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31063, "", "=q4=Cowl of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31069, "", "=q4=Mantle of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31066, "", "=q4=Vestments of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34435, "", "=q4=Cuffs of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31060, "", "=q4=Gloves of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34527, "", "=q4=Belt of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31068, "", "=q4=Breeches of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34562, "", "=q4=Boots of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Holy"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5765,30 +5766,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t4s5_2#", "=ec1=#m21#"};
-				{ 2, 29058, "", "=q4=Soul-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29058, "", "=q4=Soul-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29060, "", "=q4=Soul-Mantle of the Incarnate", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29056, "", "=q4=Shroud of the Incarnate", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29057, "", "=q4=Gloves of the Incarnate", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29057, "", "=q4=Gloves of the Incarnate", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29059, "", "=q4=Leggings of the Incarnate", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t5s5_2#", "=ec1=#m22#"};
-				{ 9, 30161, "", "=q4=Hood of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30163, "", "=q4=Wings of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30159, "", "=q4=Shroud of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30160, "", "=q4=Handguards of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30162, "", "=q4=Leggings of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30161, "", "=q4=Hood of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30163, "", "=q4=Wings of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30159, "", "=q4=Shroud of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30160, "", "=q4=Handguards of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30162, "", "=q4=Leggings of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t6s5_2#", "=ec1=#m23#"};
-				{ 17, 31064, "", "=q4=Hood of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31070, "", "=q4=Shoulderpads of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31065, "", "=q4=Shroud of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34434, "", "=q4=Bracers of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31061, "", "=q4=Handguards of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34528, "", "=q4=Cord of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31067, "", "=q4=Leggings of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34563, "", "=q4=Treads of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31064, "", "=q4=Hood of Absolution", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31070, "", "=q4=Shoulderpads of Absolution", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31065, "", "=q4=Shroud of Absolution", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34434, "", "=q4=Bracers of Absolution", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31061, "", "=q4=Handguards of Absolution", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34528, "", "=q4=Cord of Absolution", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31067, "", "=q4=Leggings of Absolution", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34563, "", "=q4=Treads of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Shadow"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Shadow"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5797,26 +5798,26 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t4s6#", "=ec1=#m21#"};
-				{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29047, "", "=q4=Netherblade Shoulderpads", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29045, "", "=q4=Netherblade Chestpiece", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29048, "", "=q4=Netherblade Gloves", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29048, "", "=q4=Netherblade Gloves", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29046, "", "=q4=Netherblade Breeches", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t5s6#", "=ec1=#m22#"};
-				{ 9, 30146, "", "=q4=Deathmantle Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30145, "", "=q4=Deathmantle Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30148, "", "=q4=Deathmantle Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30146, "", "=q4=Deathmantle Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30145, "", "=q4=Deathmantle Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30148, "", "=q4=Deathmantle Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t6s6#", "=ec1=#m23#"};
-				{ 17, 31027, "", "=q4=Slayer's Helm", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31030, "", "=q4=Slayer's Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31028, "", "=q4=Slayer's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34448, "", "=q4=Slayer's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31026, "", "=q4=Slayer's Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34558, "", "=q4=Slayer's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31029, "", "=q4=Slayer's Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34575, "", "=q4=Slayer's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31027, "", "=q4=Slayer's Helm", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31030, "", "=q4=Slayer's Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31028, "", "=q4=Slayer's Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34448, "", "=q4=Slayer's Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31026, "", "=q4=Slayer's Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34558, "", "=q4=Slayer's Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31029, "", "=q4=Slayer's Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34575, "", "=q4=Slayer's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
@@ -5829,30 +5830,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t4s7_1#", "=ec1=#m21#"};
-				{ 2, 29040, "", "=q4=Cyclone Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29040, "", "=q4=Cyclone Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29043, "", "=q4=Cyclone Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29038, "", "=q4=Cyclone Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29039, "", "=q4=Cyclone Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29039, "", "=q4=Cyclone Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29042, "", "=q4=Cyclone War-Kilt", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t5s7_1#", "=ec1=#m22#"};
-				{ 9, 30190, "", "=q4=Cataclysm Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30185, "", "=q4=Cataclysm Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30189, "", "=q4=Cataclysm Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30192, "", "=q4=Cataclysm Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30190, "", "=q4=Cataclysm Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30185, "", "=q4=Cataclysm Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30189, "", "=q4=Cataclysm Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30192, "", "=q4=Cataclysm Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t6s7_1#", "=ec1=#m23#"};
-				{ 17, 31015, "", "=q4=Skyshatter Cover", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31024, "", "=q4=Skyshatter Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31018, "", "=q4=Skyshatter Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34439, "", "=q4=Skyshatter Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31011, "", "=q4=Skyshatter Grips", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34545, "", "=q4=Skyshatter Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31021, "", "=q4=Skyshatter Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34567, "", "=q4=Skyshatter Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31015, "", "=q4=Skyshatter Cover", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31024, "", "=q4=Skyshatter Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31018, "", "=q4=Skyshatter Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34439, "", "=q4=Skyshatter Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31011, "", "=q4=Skyshatter Grips", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34545, "", "=q4=Skyshatter Girdle", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31021, "", "=q4=Skyshatter Pants", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34567, "", "=q4=Skyshatter Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Enhancement"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Enhancement"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5861,30 +5862,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t4s7_2#", "=ec1=#m21#"};
-				{ 2, 29028, "", "=q4=Cyclone Headdress", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29028, "", "=q4=Cyclone Headdress", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29031, "", "=q4=Cyclone Shoulderpads", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29029, "", "=q4=Cyclone Hauberk", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29032, "", "=q4=Cyclone Gloves", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29032, "", "=q4=Cyclone Gloves", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29030, "", "=q4=Cyclone Kilt", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t5s7_2#", "=ec1=#m22#"};
-				{ 9, 30166, "", "=q4=Cataclysm Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30164, "", "=q4=Cataclysm Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30165, "", "=q4=Cataclysm Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30167, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30166, "", "=q4=Cataclysm Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30164, "", "=q4=Cataclysm Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30165, "", "=q4=Cataclysm Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30167, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t6s7_2#", "=ec1=#m23#"};
-				{ 17, 31012, "", "=q4=Skyshatter Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31022, "", "=q4=Skyshatter Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31016, "", "=q4=Skyshatter Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34438, "", "=q4=Skyshatter Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31007, "", "=q4=Skyshatter Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34543, "", "=q4=Skyshatter Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31019, "", "=q4=Skyshatter Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34565, "", "=q4=Skyshatter Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31012, "", "=q4=Skyshatter Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31022, "", "=q4=Skyshatter Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31016, "", "=q4=Skyshatter Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34438, "", "=q4=Skyshatter Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31007, "", "=q4=Skyshatter Gloves", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34543, "", "=q4=Skyshatter Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31019, "", "=q4=Skyshatter Leggings", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34565, "", "=q4=Skyshatter Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Restoration"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5893,30 +5894,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
-				{ 2, 29035, "", "=q4=Cyclone Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29035, "", "=q4=Cyclone Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29037, "", "=q4=Cyclone Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29033, "", "=q4=Cyclone Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29034, "", "=q4=Cyclone Handguards", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29034, "", "=q4=Cyclone Handguards", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29036, "", "=q4=Cyclone Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
-				{ 9, 30171, "", "=q4=Cataclysm Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30169, "", "=q4=Cataclysm Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30170, "", "=q4=Cataclysm Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30172, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30171, "", "=q4=Cataclysm Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30169, "", "=q4=Cataclysm Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30170, "", "=q4=Cataclysm Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30172, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t6s7_3#", "=ec1=#m23#"};
-				{ 17, 31014, "", "=q4=Skyshatter Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31023, "", "=q4=Skyshatter Mantle", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31017, "", "=q4=Skyshatter Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34437, "", "=q4=Skyshatter Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31008, "", "=q4=Skyshatter Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34542, "", "=q4=Skyshatter Cord", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31020, "", "=q4=Skyshatter Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34566, "", "=q4=Skyshatter Treads", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31014, "", "=q4=Skyshatter Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31023, "", "=q4=Skyshatter Mantle", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31017, "", "=q4=Skyshatter Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34437, "", "=q4=Skyshatter Bands", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31008, "", "=q4=Skyshatter Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34542, "", "=q4=Skyshatter Cord", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31020, "", "=q4=Skyshatter Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34566, "", "=q4=Skyshatter Treads", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Elemental"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Elemental"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5925,26 +5926,26 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t4s8#", "=ec1=#m21#"};
-				{ 2, 28963, "", "=q4=Voidheart Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 28963, "", "=q4=Voidheart Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 28967, "", "=q4=Voidheart Mantle", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 28964, "", "=q4=Voidheart Robe", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 28968, "", "=q4=Voidheart Gloves", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 28968, "", "=q4=Voidheart Gloves", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 28966, "", "=q4=Voidheart Leggings", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t5s8#", "=ec1=#m22#"};
-				{ 9, 30212, "", "=q4=Hood of the Corruptor", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30211, "", "=q4=Gloves of the Corruptor", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30213, "", "=q4=Leggings of the Corruptor", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30212, "", "=q4=Hood of the Corruptor", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30211, "", "=q4=Gloves of the Corruptor", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30213, "", "=q4=Leggings of the Corruptor", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t6s8#", "=ec1=#m23#"};
-				{ 17, 31051, "", "=q4=Hood of the Malefic", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 31054, "", "=q4=Mantle of the Malefic", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 31052, "", "=q4=Robe of the Malefic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34436, "", "=q4=Bracers of the Malefic", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 31050, "", "=q4=Gloves of the Malefic", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34541, "", "=q4=Belt of the Malefic", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 31053, "", "=q4=Leggings of the Malefic", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34564, "", "=q4=Boots of the Malefic", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 31051, "", "=q4=Hood of the Malefic", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 31054, "", "=q4=Mantle of the Malefic", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 31052, "", "=q4=Robe of the Malefic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34436, "", "=q4=Bracers of the Malefic", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 31050, "", "=q4=Gloves of the Malefic", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34541, "", "=q4=Belt of the Malefic", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 31053, "", "=q4=Leggings of the Malefic", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34564, "", "=q4=Boots of the Malefic", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
@@ -5957,30 +5958,30 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t4s9_1#", "=ec1=#m21#"};
-				{ 2, 29011, "", "=q4=Warbringer Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29011, "", "=q4=Warbringer Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29016, "", "=q4=Warbringer Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29012, "", "=q4=Warbringer Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29017, "", "=q4=Warbringer Handguards", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29017, "", "=q4=Warbringer Handguards", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29015, "", "=q4=Warbringer Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t5s9_1#", "=ec1=#m22#"};
-				{ 9, 30115, "", "=q4=Destroyer Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30114, "", "=q4=Destroyer Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30116, "", "=q4=Destroyer Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30115, "", "=q4=Destroyer Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30114, "", "=q4=Destroyer Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30116, "", "=q4=Destroyer Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t6s9_1#", "=ec1=#m23#"};
-				{ 17, 30974, "", "=q4=Onslaught Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 30980, "", "=q4=Onslaught Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 30976, "", "=q4=Onslaught Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34442, "", "=q4=Onslaught Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 30970, "", "=q4=Onslaught Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34547, "", "=q4=Onslaught Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 30978, "", "=q4=Onslaught Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34568, "", "=q4=Onslaught Boots", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 30974, "", "=q4=Onslaught Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 30980, "", "=q4=Onslaught Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 30976, "", "=q4=Onslaught Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34442, "", "=q4=Onslaught Wristguards", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 30970, "", "=q4=Onslaught Handguards", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34547, "", "=q4=Onslaught Waistguard", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 30978, "", "=q4=Onslaught Legguards", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34568, "", "=q4=Onslaught Boots", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AtlasLoot_IngameLocales["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..ALIL["Protection"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -5989,26 +5990,26 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t4s9_2#", "=ec1=#m21#"};
-				{ 2, 29021, "", "=q4=Warbringer Battle-Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 2, 29021, "", "=q4=Warbringer Battle-Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..ALIL["Karazhan"]..")"};
 				{ 3, 29023, "", "=q4=Warbringer Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29019, "", "=q4=Warbringer Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
-				{ 5, 29020, "", "=q4=Warbringer Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..AtlasLoot_IngameLocales["Karazhan"]..")"};
+				{ 5, 29020, "", "=q4=Warbringer Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..ALIL["Karazhan"]..")"};
 				{ 6, 29022, "", "=q4=Warbringer Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t5s9_2#", "=ec1=#m22#"};
-				{ 9, 30120, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 10, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 11, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..AtlasLoot_IngameLocales["The Eye"]..")"};
-				{ 12, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
-				{ 13, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..AtlasLoot_IngameLocales["Serpentshrine Cavern"]..")"};
+				{ 9, 30120, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 10, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
+				{ 11, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 12, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
+				{ 13, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t6s9_2#", "=ec1=#m23#"};
-				{ 17, 30972, "", "=q4=Onslaught Battle-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 18, 30979, "", "=q4=Onslaught Shoulderblades", "=ds="..BabbleBoss["Mother Shahraz"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 19, 30975, "", "=q4=Onslaught Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 20, 34441, "", "=q4=Onslaught Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 21, 30969, "", "=q4=Onslaught Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..AtlasLoot_IngameLocales["Hyjal Summit"]..")"};
-				{ 22, 34546, "", "=q4=Onslaught Belt", "=ds="..BabbleBoss["Brutallus"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
-				{ 23, 30977, "", "=q4=Onslaught Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..AtlasLoot_IngameLocales["Black Temple"]..")"};
-				{ 24, 34569, "", "=q4=Onslaught Treads", "=ds="..BabbleBoss["Felmyst"].." ("..AtlasLoot_IngameLocales["Sunwell Plateau"]..")"};
+				{ 17, 30972, "", "=q4=Onslaught Battle-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 18, 30979, "", "=q4=Onslaught Shoulderblades", "=ds="..BabbleBoss["Mother Shahraz"].." ("..ALIL["Black Temple"]..")"};
+				{ 19, 30975, "", "=q4=Onslaught Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..ALIL["Black Temple"]..")"};
+				{ 20, 34441, "", "=q4=Onslaught Bracers", "=ds="..BabbleBoss["Kalecgos"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 21, 30969, "", "=q4=Onslaught Gauntlets", "=ds="..BabbleBoss["Azgalor"].." ("..ALIL["Hyjal Summit"]..")"};
+				{ 22, 34546, "", "=q4=Onslaught Belt", "=ds="..BabbleBoss["Brutallus"].." ("..ALIL["Sunwell Plateau"]..")"};
+				{ 23, 30977, "", "=q4=Onslaught Greaves", "=ds="..BabbleBoss["The Illidari Council"].." ("..ALIL["Black Temple"]..")"};
+				{ 24, 34569, "", "=q4=Onslaught Treads", "=ds="..BabbleBoss["Felmyst"].." ("..ALIL["Sunwell Plateau"]..")"};
 			};
 		};
 		info = {
@@ -6025,15 +6026,15 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Latro's Flurry"], "=q1="..AL["Various Locations"]};
-				{ 2, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Vexallus", 531).." ("..AtlasLoot_IngameLocales["Magisters' Terrace"]..")", "", ""};
-				{ 3, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..AtlasLoot_IngameLocales["The Black Morass"]..")", "", ""};
+				{ 2, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Vexallus", 531).." ("..ALIL["Magisters' Terrace"]..")", "", ""};
+				{ 3, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..ALIL["The Black Morass"]..")", "", ""};
 				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Stars"], "=q1="..AL["World Drop"]};
 				{ 6, 31338, "", "=q4=Charlotte's Ivy", "=ds=#s2#", "", "0.01%"};
 				{ 7, 31339, "", "=q4=Lola's Eve", "=ds=#s13#", "", "0.01%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Fists of Fury"], "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot_IngameLocales["Hyjal Summit"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Fists of Fury"], "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Hyjal Summit"]};
 				{ 17, 32946, "", "=q4=Claw of Molten Fury", "=ds=#h3#, #w13#"};
 				{ 18, 32945, "", "=q4=Fist of Molten Fury", "=ds=#h4#, #w13#"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Blades of Azzinoth"], "=q2="..BabbleBoss["Illidan Stormrage"]..", =q1="..AtlasLoot_IngameLocales["Black Temple"]};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Blades of Azzinoth"], "=q2="..BabbleBoss["Illidan Stormrage"]..", =q1="..ALIL["Black Temple"]};
 				{ 21, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
 				{ 22, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
 			};

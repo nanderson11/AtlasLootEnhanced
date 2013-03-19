@@ -12,8 +12,8 @@ local function GetSpecNameById(id)
 	return tmp1
 end
 
-local function GetAchievementName(id, index)
-	_, tmp1 = GetAchievementInfo(id, index)
+local function GetAchievementName(id)
+	_, tmp1 = GetAchievementInfo(id)
 	return tmp1
 end
 
@@ -370,6 +370,7 @@ AtlasLoot_IngameLocales = {
 	["Kun-Lai Summit"] = GetMapNameByID(809),
 	["Mogu'Shan Palace"] = GetMapNameByID(885),
 	["Mogu'shan Vaults"] = GetMapNameByID(896),
+	["Pandaria"] = GetAchievementCriteriaInfo(46,6),
 	["Scarlet Halls"] = GetMapNameByID(871),
 	["Scarlet Monastery"] = GetMapNameByID(874),
 	["Scholomance"] = GetMapNameByID(898),
@@ -429,6 +430,7 @@ AtlasLoot_IngameLocales = {
 	["Icecrown"] = GetMapNameByID(492),
 	["Icecrown Citadel"] = GetMapNameByID(604),
 	["Naxxramas"] = GetMapNameByID(535),
+	["Northrend"] = GetAchievementCriteriaInfo(46,4),
 	["Onyxia's Lair"] = GetMapNameByID(718),
 	["Pit of Saron"] = GetMapNameByID(602),
 	["Sholazar Basin"] = GetMapNameByID(493),
@@ -467,6 +469,7 @@ AtlasLoot_IngameLocales = {
 	["Nagrand"] = GetMapNameByID(477),
 	["Netherstorm"] = GetMapNameByID(479),
 	["Old Hillsbrad Foothills"] = GetMapNameByID(734),
+	["Outland"] = GetAchievementCriteriaInfo(46,3),
 	["Serpentshrine Cavern"] = GetMapNameByID(780),
 	["Sethekk Halls"] = GetMapNameByID(723),
 	["Shadow Labyrinth"] = GetMapNameByID(724),
@@ -496,12 +499,12 @@ AtlasLoot_IngameLocales = {
 	["Badlands"] = GetMapNameByID(17),
 	["Blackfathom Deeps"] = GetMapNameByID(688),
 	["Blackrock Depths"] = GetMapNameByID(704),
-	["Blackrock Spire"] = GetMapNameByID(721),
 	["Blackwing Lair"] = GetMapNameByID(755),
 	["Burning Steppes"] = GetMapNameByID(29),
 	["Deadwind Pass"] = GetMapNameByID(32),
 	["Desolace"] = GetMapNameByID(101),
 	["Dire Maul"] = GetMapNameByID(699),
+	["Domination Point"] = GetAchievementName(8013),
 	["Durotar"] = GetMapNameByID(4),
 	["Dustwallow Marsh"] = GetMapNameByID(141),
 	["Eastern Plaguelands"] = GetMapNameByID(23),
@@ -511,6 +514,8 @@ AtlasLoot_IngameLocales = {
 	["Gnomeregan"] = GetMapNameByID(691),
 	["Hillsbrad Foothills"] = GetMapNameByID(24),
 	-- ["Ironforge"] = GetMapNameByID(341), -- already existing as faction
+	["Lion's Landing"] = GetAchievementName(8010),
+	["Lower Blackrock Spire"] = GetAchievementName(643),
 	["Maraudon"] = GetMapNameByID(750),
 	["Molten Core"] = GetMapNameByID(696),
 	["Moonglade"] = GetMapNameByID(241),
@@ -542,6 +547,7 @@ AtlasLoot_IngameLocales = {
 	-- ["Thunder Bluff"] = GetMapNameByID(362), -- already existing as faction
 	["Uldaman"] = GetMapNameByID(692),
 	-- ["Undercity"] = GetMapNameByID(382), -- already existing as faction
+	["Upper Blackrock Spire"] = GetAchievementName(1307),
 	["Wailing Caverns"] = GetMapNameByID(749),
 	["Warsong Gulch"] = GetMapNameByID(443),
 	["Western Plaguelands"] = GetMapNameByID(22),

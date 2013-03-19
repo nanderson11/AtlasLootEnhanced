@@ -1070,24 +1070,16 @@ if AL then
 	AL["Battle Pet Trainer"] = "宠物对战训练师";
 
 	-- Zone related strings
-	AL["Alterac Mountains"] = "奥特兰克山脉";
 	AL["Azeroth"] = "艾泽拉斯";
 	AL["Blackrock Mountain"] = "黑石山";
 	AL["Caverns of Time"] = "时光之穴";
 	AL["Crusader's Square"] = "十字军广场";
 	AL["Darkmoon Island"] = "暗月岛";
-	AL["Domination Point"] = "统御岗哨";
 	AL["East"] = "东";
 	AL["Halfhill Farm"] = "半山农场";
-	AL["Lion's Landing"] = "雄狮港";
-	AL["Lower"] = "下";
 	AL["North"] = "北";
-	AL["Northrend"] = "诺森德";
-	AL["Outland"] = "外域";
-	AL["Pandaria"] = "潘达利亚";
 	AL["The Gauntlet"] = "街巷";
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
-	AL["Upper"] = "上";
 	AL["West"] = "西";
 
 	-- Shortcuts for Bossname files

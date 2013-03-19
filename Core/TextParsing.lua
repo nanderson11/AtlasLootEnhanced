@@ -1,5 +1,6 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local ALIL = AtlasLoot_IngameLocales;
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
@@ -215,11 +216,11 @@ AtlasLoot_TextParsing = {
 	{ "#n18#", AL["Sothos and Jarien"] },
 
 	-- Factions
-	{ "#f1#", AtlasLoot_IngameLocales["Lower City"] },
-	{ "#f2#", AtlasLoot_IngameLocales["The Sha'tar"] },
-	{ "#f4#", AtlasLoot_IngameLocales["Honor Hold"] },
-	{ "#f5#", AtlasLoot_IngameLocales["Keepers of Time"] },
-	{ "#f6#", AtlasLoot_IngameLocales["Cenarion Expedition"] },
+	{ "#f1#", ALIL["Lower City"] },
+	{ "#f2#", ALIL["The Sha'tar"] },
+	{ "#f4#", ALIL["Honor Hold"] },
+	{ "#f5#", ALIL["Keepers of Time"] },
+	{ "#f6#", ALIL["Cenarion Expedition"] },
 
 	-- Blacksmithing Crafted Plate Sets
 	{ "#craftbp1#", BabbleItemSet["Imperial Plate"] },
@@ -793,18 +794,18 @@ AtlasLoot_TextParsing = {
 	{ "=ds=", "|cffFFd200" },	-- Yellow
 
 	-- Months
-	{ "#month1#", AtlasLoot_IngameLocales["January"] },
-	{ "#month2#", AtlasLoot_IngameLocales["February"] },
-	{ "#month3#", AtlasLoot_IngameLocales["March"] },
-	{ "#month4#", AtlasLoot_IngameLocales["April"] },
-	{ "#month5#", AtlasLoot_IngameLocales["May"] },
-	{ "#month6#", AtlasLoot_IngameLocales["June"] },
-	{ "#month7#", AtlasLoot_IngameLocales["July"] },
-	{ "#month8#", AtlasLoot_IngameLocales["August"] },
-	{ "#month9#", AtlasLoot_IngameLocales["September"] },
-	{ "#month10#", AtlasLoot_IngameLocales["October"] },
-	{ "#month11#", AtlasLoot_IngameLocales["November"] },
-	{ "#month12#", AtlasLoot_IngameLocales["December"] },
+	{ "#month1#", ALIL["January"] },
+	{ "#month2#", ALIL["February"] },
+	{ "#month3#", ALIL["March"] },
+	{ "#month4#", ALIL["April"] },
+	{ "#month5#", ALIL["May"] },
+	{ "#month6#", ALIL["June"] },
+	{ "#month7#", ALIL["July"] },
+	{ "#month8#", ALIL["August"] },
+	{ "#month9#", ALIL["September"] },
+	{ "#month10#", ALIL["October"] },
+	{ "#month11#", ALIL["November"] },
+	{ "#month12#", ALIL["December"] },
 
 	-- Currency Icons
 	{ "#gold#", "|TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t" },

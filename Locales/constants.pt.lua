@@ -879,21 +879,15 @@ if AL then
 	AL["Master Elemental Shaper Krixix"] = "Mestre Modelador de Elementos Krixix";
 
 	-- Zone related strings
-	AL["Alterac Mountains"] = "Montanhas de Alterac";
 	-- AL["Azeroth"] = true;
 	AL["Blackrock Mountain"] = "Montanha Rocha Negra";
 	AL["Caverns of Time"] = "Cavernas do Tempo";
 	AL["Crusader's Square"] = "Praça dos Cruzados";
 	AL["Darkmoon Island"] = "Ilha de Negraluna";
 	AL["East"] = "Leste";
-	AL["Lower"] = "Inferior";
 	AL["North"] = "Norte";
-	AL["Northrend"] = "Nortúndria";
-	AL["Outland"] = "Terralém";
-	-- AL["Pandaria"] = true;
 	AL["The Gauntlet"] = "A Manopla"; -- Comprobar
 	AL["Trial of the Grand Crusader"] = "Prova do Grande Cruzado";
-	AL["Upper"] = "Superior";
 	AL["West"] = "Oeste";
 
 	--Shortcuts for Bossname files

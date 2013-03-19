@@ -1067,24 +1067,16 @@ if AL then
 	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
 
 	-- Zone related strings
-	AL["Alterac Mountains"] = "Alteracgebirge";
 	-- AL["Azeroth"] = true;
 	AL["Blackrock Mountain"] = "Der Schwarzfels";
 	AL["Caverns of Time"] = "Höhlen der Zeit";
 	AL["Crusader's Square"] = "Kreuzzüglerpass";
 	AL["Darkmoon Island"] = "Dunkelmondinsel";
-	AL["Domination Point"] = "Herrschaftsfeste";
 	AL["East"] = "Ost";
 	AL["Halfhill Farm"] = "Halbhügel Farm";
-	AL["Lion's Landing"] = "Löwenlandung";
-	AL["Lower"] = "Unten";
 	AL["North"] = "Nord";
-	AL["Northrend"] = "Nordend";
-	AL["Outland"] = "Scherbenwelt";
-	-- AL["Pandaria"] = true;
 	AL["The Gauntlet"] = "Der Spießrutenlauf";
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
-	AL["Upper"] = "Oben";
 	AL["West"] = "West";
 
 	-- Shortcuts for Bossname files
