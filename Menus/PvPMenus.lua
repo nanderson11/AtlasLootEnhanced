@@ -12,7 +12,7 @@ local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 				{ 7, "PVP90NonSetLeather", "inv_belt_leather_pvpmonk_f_01", "=ds="..AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "=q5="..AL["Level 90"]};	
 				{ 9, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..AL["BG/Open PvP Rewards"], ""};
 				{ 17, "PVP90WeaponsTyrannicalElite", "inv_stave_2h_pvppandarias2_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 512"], "=q5="..AL["Level 90"]};
-				{ 18, "PVP90WeaponsTyrannical", "inv_hand_1h_pvppandarias2_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 493"], "=q5="..AL["Level 90"]};
+				{ 18, "PVP90WeaponsTyrannical", "inv_hand_1h_pvppandarias2_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 498"], "=q5="..AL["Level 90"]};
 				{ 19, "PVP90Weapons", "inv_hand_1h_pvppandarias1_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 470"], "=q5="..AL["Level 90"]};
 				{ 21, "PVP90NonSetMail", "inv_mail_pvphunter_f_01boot", "=ds="..AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "=q5="..AL["Level 90"]};
 				{ 22, "PVP90NonSetPlate", "inv_bracer_plate_pvppaladin_f_01white", "=ds="..AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "=q5="..AL["Level 90"]};

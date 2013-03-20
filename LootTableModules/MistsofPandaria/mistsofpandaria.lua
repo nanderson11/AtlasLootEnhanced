@@ -7175,7 +7175,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." - "..AL["ilvl 493"], "=q5="..AL["Level 90"],
+			name = AL["PvP Weapons"].." - "..AL["ilvl 498"], "=q5="..AL["Level 90"],
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
