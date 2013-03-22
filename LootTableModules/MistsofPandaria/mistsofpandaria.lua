@@ -3151,9 +3151,13 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 96784, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
 				{ 3, 96787, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
+				{ 4, 96788, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
 				{ 5, 96789, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
 				{ 6, 96790, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
+				{ 8, 96792, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
 				{ 9, 96781, "", "=q4=Bad Juju", "=ds=#s14#" },
+				{ 10, 96793, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
+				{ 11, 96785, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
 				{ 20, 96786, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 21, 96782, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				{ 22, 96791, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
@@ -3267,14 +3271,19 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 96803, "", "=q4=Beakbreaker Greatcloak", "=ds=#s4#" },
 				{ 2, 96807, "", "=q4=Shimmershell Cape", "=ds=#s4#" },
+				{ 3, 96805, "", "=q4=Stonegaze Hood", "=ds=#s1#, #a1#" },
 				{ 4, 96804, "", "=q4=Azure Shell Bracers", "=ds=#s8#, #a1#" },
 				{ 5, 96806, "", "=q4=Crystal-Claw Gloves", "=ds=#s9#, #a1#" },
 				{ 6, 96810, "", "=q4=Robes of Concussive Shocks", "=ds=#s5#, #a2#" },
 				{ 7, 96795, "", "=q4=Rockfall Ribwraps", "=ds=#s5#, #a2#" },
 				{ 9, 96796, "", "=q4=Grips of Vampiric Cruelty", "=ds=#s9#, #a2#" },
 				{ 10, 96811, "", "=q4=Spaulders of Quaking Fear", "=ds=#s3#, #a3#" },
+				{ 11, 96797, "", "=q4=Beady-Eye Bracers", "=ds=#s8#, #a3#" },
+				{ 12, 96798, "", "=q4=Quakestompers", "=ds=#s12#, #a3#" },
 				{ 13, 96799, "", "=q4=Shoulderguards of Centripetal Destruction", "=ds=#s3#, #a4#" },
 				{ 14, 96800, "", "=q4=Shell-Coated Wristplates", "=ds=#s8#, #a4#" },
+				{ 15, 96813, "", "=q4=Tortos' Shellseizers", "=ds=#s9#, #a4#" },
+				{ 16, 96812, "", "=q4=Refreshing Abalone Girdle", "=ds=#s10#, #a4#" },
 				{ 18, 96801, "", "=q4=Amulet of the Primal Turtle", "=ds=#s2#" },
 				{ 20, 96802, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 21, 96794, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
@@ -3488,7 +3497,10 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 96464, "", "=q4=Giorgio's Caduceus of Pure Moods", "=ds=#w9#" },
 			};
 			{
+				{ 1, 96833, "", "=q4=Pinionfeather Greatcloak", "=ds=#s4#" },
 				{ 2, 96835, "", "=q4=Robe of Midnight Down", "=ds=#s5#, #a1#" },
+				{ 6, 96839, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
+				{ 7, 96840, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 96841, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
 				{ 20, 96842, "", "=q4=Fabled Feather of Ji-Kun", "=ds=#s14#" },
 				{ 23, 96836, "", "=q4=Giorgio's Caduceus of Pure Moods", "=ds=#w9#" },
@@ -3604,10 +3616,13 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 96857, "", "=q4=Deadly Glare Cape", "=ds=#s4#" },
+				{ 4, 96854, "", "=q4=Lifedrainer's Sordid Grip", "=ds=#s9#, #a1#" },
+				{ 5, 96855, "", "=q4=Leggings of Pulsing Blood", "=ds=#s11#, #a1#" },
 				{ 6, 96845, "", "=q4=Crimson Bloom Legguards", "=ds=#s11#, #a2#" },
 				{ 7, 96860, "", "=q4=Sandals of the Starving Eye", "=ds=#s12#, #a2#" },
 				{ 9, 96861, "", "=q4=Vein-Cover Bracers", "=ds=#s8#, #a3#" },
 				{ 16, 96850, "", "=q4=Treads of the Blind Eye", "=ds=#s12#, #a4#" },
+				{ 19, 96853, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 96859, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -3725,8 +3740,14 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 96871, "", "=q4=Hydra-Scale Bloodcloak", "=ds=#s4#" },
+				{ 2, 96875, "", "=q4=Robes of Mutagenic Blood", "=ds=#s5#, #a1#" },
+				{ 3, 96878, "", "=q4=Bracers of Fragile Bone", "=ds=#s8#, #a1#" },
+				{ 9, 96866, "", "=q4=Bracers of Mutagenic Fervor", "=ds=#s8#, #a3#" },
 				{ 11, 96870, "", "=q4=Metabolically Boosted Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 12, 96883, "", "=q4=Spaulders of Primordial Growth", "=ds=#s3#, #a4#" },
+				{ 13, 96882, "", "=q4=Bonemender Bracers", "=ds=#s8#, #a4#" },
 				{ 16, 96872, "", "=q4=Band of the Scaled Tyrant", "=ds=#s13#" },
+				{ 22, 96884, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -3816,6 +3837,7 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 96889, "", "=q4=Constantly Accelerating Cloak", "=ds=#s4#" },
 				{ 4, 96891, "", "=q4=Worldbinder Leggings", "=ds=#s11#, #a2#" },
+				{ 5, 96894, "", "=q4=Crown of the Golden Golem", "=ds=#s1#, #a4#" },
 				{ 8, 96885, "", "=q4=Gore-Soaked Gear", "=ds=#s13#" },
 				{ 20, 96890, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				extraText = ": "..AL["Thunderforged"];
@@ -3900,6 +3922,10 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96534, "", "=q4=Qon's Flaming Scimitar", "=ds=#h1#, #w10#" },
 				{ 22, 96525, "", "=q4=Voice of the Quilen", "=ds=#w5#" },
 				{ 23, 96530, "", "=q4=Orb of Arcing Lightning", "=ds=#s15#" },
+			};
+			{
+				{ 8, 96901, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
@@ -4295,12 +4321,18 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 96979, "", "=q4=Lost Shoulders of Fire", "=ds=#s3#, #a1#" },
+				{ 3, 96980, "", "=q4=Lost Shoulders of Healing", "=ds=#s3#, #a1#" },
 				{ 6, 96986, "", "=q4=Abandoned Spaulders of Arrowflight", "=ds=#s3#, #a3#" },
+				{ 7, 96987, "", "=q4=Abandoned Spaulders of Renewal", "=ds=#s3#, #a3#" },
 				{ 8, 96990, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 9, 96989, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 10, 96988, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 16, 96993, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
 				{ 17, 96978, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
 				{ 18, 96992, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
+				{ 21, 96974, "", "=q4=Invocation of the Dawn", "=ds=#h2#, #w6#" },
+				{ 22, 96983, "", "=q4=Jerthud, Graceful Hand of the Savior", "=ds=#h1#, #w6#" },
+				{ 23, 96975, "", "=q4=Miracoran, the Vehement Chord", "=ds=#w2#" },
 				{ 24, 96982, "", "=q4=Nadagast's Exsanguinator", "=ds=#h1#, #w4#" },
 				{ 25, 97130, "", "=q4=Tia-Tia, the Scything Star", "=ds=#h1#, #w13#" },
 				{ 26, 96977, "", "=q4=Zeeg's Ancient Kegsmasher", "=ds=#h1#, #w6#" },
