@@ -472,7 +472,7 @@ local moduleName = "AtlasLootMoP"
 
 	AtlasLoot_Data["GotSSRimok"] = {
 		["Normal"] = {
-			{	
+			{
 				{ 1, 81106, "", "=q3=Leggings of the Frenzy", "=ds=#s11#, #a1#", "", "20%" },
 				{ 2, 81105, "", "=q3=Swarmcall Helm", "=ds=#s1#, #a3#", "", "20%" },
 				{ 3, 81230, "", "=q3=Ri'mok's Shattered Scale", "=ds=#s8#, #a4#", "", "20%" },
@@ -4452,7 +4452,7 @@ local moduleName = "AtlasLootMoP"
 			name = ALIL["The Jade Forest"],
 			module = moduleName, menu = "RAREMENU",
 		};
-	}	
+	}
 
 		--------------------------------
 		--- Valley of the Four Winds ---
@@ -5079,7 +5079,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 86276, "", "=q1=Pattern: Ironscale Leg Armor", "=ds=#p7# (575)", "=ds=25 #gold#"};
 				{ 9, 86295, "", "=q1=Pattern: Shadowleather Leg Armor", "=ds=#p7# (575)", "=ds=25 #gold#"};
 				{ 10, 86237, "", "=q1=Pattern: Chestguard of Earthen Harmony", "=ds=#p7# (600)", "=ds=50 #gold#"};
-				{ 11, 86273, "", "=q1=Pattern: Gloves of Earthen Harmony", "=ds=#p7# (600)", "=ds=50 #gold#"};	
+				{ 11, 86273, "", "=q1=Pattern: Gloves of Earthen Harmony", "=ds=#p7# (600)", "=ds=50 #gold#"};
 				{ 12, 86274, "", "=q1=Pattern: Greyshadow Chestguard", "=ds=#p7# (600)", "=ds=50 #gold#"};
 				{ 13, 86275, "", "=q1=Pattern: Greyshadow Gloves", "=ds=#p7# (600)", "=ds=50 #gold#"};
 				{ 14, 86278, "", "=q1=Pattern: Lifekeeper's Robe", "=ds=#p7# (600)", "=ds=50 #gold#"};
@@ -5633,28 +5633,28 @@ local moduleName = "AtlasLootMoP"
 		----------------------
 
 	AtlasLoot_Data["PVP90DeathKnight"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
 				{ 9, 91151, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91155, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91147, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91149, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91153, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
 				{ 9, 94429, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94366, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94392, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94364, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94365, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
@@ -5684,28 +5684,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90DruidBalance"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
 				{ 9, 91191, "", "=q4=Tyrannical Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91197, "", "=q4=Tyrannical Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91195, "", "=q4=Tyrannical Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91189, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91193, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
 				{ 9, 94347, "", "=q4=Tyrannical Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94416, "", "=q4=Tyrannical Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94327, "", "=q4=Tyrannical Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94412, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94483, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
@@ -5735,28 +5735,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90DruidFeral"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
 				{ 9, 91159, "", "=q4=Tyrannical Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91165, "", "=q4=Tyrannical Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91163, "", "=q4=Tyrannical Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91157, "", "=q4=Tyrannical Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91161, "", "=q4=Tyrannical Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
 				{ 9, 94367, "", "=q4=Tyrannical Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94457, "", "=q4=Tyrannical Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94456, "", "=q4=Tyrannical Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94455, "", "=q4=Tyrannical Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94368, "", "=q4=Tyrannical Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
@@ -5786,28 +5786,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90DruidRestoration"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
 				{ 9, 91174, "", "=q4=Tyrannical Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91180, "", "=q4=Tyrannical Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91178, "", "=q4=Tyrannical Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91172, "", "=q4=Tyrannical Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91176, "", "=q4=Tyrannical Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
 				{ 9, 94492, "", "=q4=Tyrannical Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94372, "", "=q4=Tyrannical Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94437, "", "=q4=Tyrannical Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94371, "", "=q4=Tyrannical Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94477, "", "=q4=Tyrannical Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
@@ -5837,28 +5837,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90Hunter"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
 				{ 9, 91226, "", "=q4=Tyrannical Gladiator's Chain Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91230, "", "=q4=Tyrannical Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91222, "", "=q4=Tyrannical Gladiator's Chain Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91224, "", "=q4=Tyrannical Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91228, "", "=q4=Tyrannical Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
 				{ 9, 94406, "", "=q4=Tyrannical Gladiator's Chain Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94450, "", "=q4=Tyrannical Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94405, "", "=q4=Tyrannical Gladiator's Chain Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94453, "", "=q4=Tyrannical Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94384, "", "=q4=Tyrannical Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
@@ -5888,28 +5888,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90Mage"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
 				{ 9, 91234, "", "=q4=Tyrannical Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91240, "", "=q4=Tyrannical Gladiator's Silk Amice", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91238, "", "=q4=Tyrannical Gladiator's Silk Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91232, "", "=q4=Tyrannical Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91236, "", "=q4=Tyrannical Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
 				{ 9, 94381, "", "=q4=Tyrannical Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94389, "", "=q4=Tyrannical Gladiator's Silk Amice", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94431, "", "=q4=Tyrannical Gladiator's Silk Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94451, "", "=q4=Tyrannical Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94362, "", "=q4=Tyrannical Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
@@ -5939,28 +5939,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90MonkHealer"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
 				{ 9, 91259, "", "=q4=Tyrannical Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91263, "", "=q4=Tyrannical Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91265, "", "=q4=Tyrannical Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91257, "", "=q4=Tyrannical Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91261, "", "=q4=Tyrannical Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
 				{ 9, 94341, "", "=q4=Tyrannical Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94493, "", "=q4=Tyrannical Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94479, "", "=q4=Tyrannical Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94340, "", "=q4=Tyrannical Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94478, "", "=q4=Tyrannical Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
@@ -5990,28 +5990,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90MonkDPS"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
 				{ 9, 91249, "", "=q4=Tyrannical Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91253, "", "=q4=Tyrannical Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91255, "", "=q4=Tyrannical Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91247, "", "=q4=Tyrannical Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91251, "", "=q4=Tyrannical Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
 				{ 9, 94428, "", "=q4=Tyrannical Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94339, "", "=q4=Tyrannical Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94436, "", "=q4=Tyrannical Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94391, "", "=q4=Tyrannical Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94370, "", "=q4=Tyrannical Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
@@ -6041,28 +6041,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90PaladinRetribution"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
 				{ 9, 91271, "", "=q4=Tyrannical Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91275, "", "=q4=Tyrannical Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91267, "", "=q4=Tyrannical Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91269, "", "=q4=Tyrannical Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91273, "", "=q4=Tyrannical Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
 				{ 9, 94495, "", "=q4=Tyrannical Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94460, "", "=q4=Tyrannical Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94463, "", "=q4=Tyrannical Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94343, "", "=q4=Tyrannical Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94496, "", "=q4=Tyrannical Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
@@ -6092,28 +6092,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90PaladinHoly"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
 				{ 9, 91291, "", "=q4=Tyrannical Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91295, "", "=q4=Tyrannical Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91287, "", "=q4=Tyrannical Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91289, "", "=q4=Tyrannical Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91293, "", "=q4=Tyrannical Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
 				{ 9, 94348, "", "=q4=Tyrannical Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94413, "", "=q4=Tyrannical Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94345, "", "=q4=Tyrannical Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94438, "", "=q4=Tyrannical Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94484, "", "=q4=Tyrannical Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
@@ -6143,28 +6143,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90PriestShadow"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
 				{ 9, 91321, "", "=q4=Tyrannical Gladiator's Satin Hood", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91327, "", "=q4=Tyrannical Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91325, "", "=q4=Tyrannical Gladiator's Satin Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91319, "", "=q4=Tyrannical Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91323, "", "=q4=Tyrannical Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
 				{ 9, 94467, "", "=q4=Tyrannical Gladiator's Satin Hood", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94385, "", "=q4=Tyrannical Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94335, "", "=q4=Tyrannical Gladiator's Satin Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94423, "", "=q4=Tyrannical Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94334, "", "=q4=Tyrannical Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
@@ -6194,28 +6194,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90PriestHoly"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
 				{ 9, 91311, "", "=q4=Tyrannical Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91310, "", "=q4=Tyrannical Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91315, "", "=q4=Tyrannical Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91317, "", "=q4=Tyrannical Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91313, "", "=q4=Tyrannical Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
 				{ 9, 94419, "", "=q4=Tyrannical Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94466, "", "=q4=Tyrannical Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94397, "", "=q4=Tyrannical Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94328, "", "=q4=Tyrannical Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94420, "", "=q4=Tyrannical Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
@@ -6245,28 +6245,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90Rogue"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
 				{ 9, 91344, "", "=q4=Tyrannical Gladiator's Leather Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91348, "", "=q4=Tyrannical Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91340, "", "=q4=Tyrannical Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91342, "", "=q4=Tyrannical Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91346, "", "=q4=Tyrannical Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
 				{ 9, 94426, "", "=q4=Tyrannical Gladiator's Leather Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94447, "", "=q4=Tyrannical Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94443, "", "=q4=Tyrannical Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94377, "", "=q4=Tyrannical Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94446, "", "=q4=Tyrannical Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
@@ -6296,28 +6296,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90ShamanElemental"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 91384, "", "=q4=Tyrannical Gladiator's Mail Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91388, "", "=q4=Tyrannical Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91380, "", "=q4=Tyrannical Gladiator's Mail Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91382, "", "=q4=Tyrannical Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91386, "", "=q4=Tyrannical Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 94409, "", "=q4=Tyrannical Gladiator's Mail Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94350, "", "=q4=Tyrannical Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94459, "", "=q4=Tyrannical Gladiator's Mail Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94408, "", "=q4=Tyrannical Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94497, "", "=q4=Tyrannical Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
@@ -6347,28 +6347,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90ShamanEnhancement"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 91372, "", "=q4=Tyrannical Gladiator's Linked Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91376, "", "=q4=Tyrannical Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91368, "", "=q4=Tyrannical Gladiator's Linked Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91370, "", "=q4=Tyrannical Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91374, "", "=q4=Tyrannical Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 94439, "", "=q4=Tyrannical Gladiator's Linked Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94342, "", "=q4=Tyrannical Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94475, "", "=q4=Tyrannical Gladiator's Linked Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94458, "", "=q4=Tyrannical Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94494, "", "=q4=Tyrannical Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="};
@@ -6398,28 +6398,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90ShamanRestoration"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 91362, "", "=q4=Tyrannical Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91366, "", "=q4=Tyrannical Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91358, "", "=q4=Tyrannical Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91360, "", "=q4=Tyrannical Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91364, "", "=q4=Tyrannical Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
 				{ 9, 94434, "", "=q4=Tyrannical Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94369, "", "=q4=Tyrannical Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94433, "", "=q4=Tyrannical Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94490, "", "=q4=Tyrannical Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94435, "", "=q4=Tyrannical Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="};
@@ -6449,28 +6449,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90Warlock"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
 				{ 9, 91422, "", "=q4=Tyrannical Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91428, "", "=q4=Tyrannical Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91426, "", "=q4=Tyrannical Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91420, "", "=q4=Tyrannical Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91424, "", "=q4=Tyrannical Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
 				{ 9, 94442, "", "=q4=Tyrannical Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94398, "", "=q4=Tyrannical Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94375, "", "=q4=Tyrannical Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94441, "", "=q4=Tyrannical Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94471, "", "=q4=Tyrannical Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
@@ -6500,28 +6500,28 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90Warrior"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
 				{ 9, 91434, "", "=q4=Tyrannical Gladiator's Plate Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 91438, "", "=q4=Tyrannical Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 91430, "", "=q4=Tyrannical Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 91432, "", "=q4=Tyrannical Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 91436, "", "=q4=Tyrannical Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
 				{ 9, 94332, "", "=q4=Tyrannical Gladiator's Plate Helm", "=ds=", "#CONQUEST:2250#"};
 				{ 10, 94401, "", "=q4=Tyrannical Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1750#"};
 				{ 11, 94444, "", "=q4=Tyrannical Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 12, 94331, "", "=q4=Tyrannical Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 13, 94448, "", "=q4=Tyrannical Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2250#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
@@ -6706,8 +6706,8 @@ local moduleName = "AtlasLootMoP"
 		--------------------------------
 
 	AtlasLoot_Data["PVP90NonSetCloth"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 16, 91121, "", "=q4=Tyrannical Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 91111, "", "=q4=Tyrannical Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 91117, "", "=q4=Tyrannical Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1750#"};
@@ -6717,11 +6717,11 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 91122, "", "=q4=Tyrannical Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
 				{ 25, 91109, "", "=q4=Tyrannical Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				{ 26, 91115, "", "=q4=Tyrannical Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 16, 94403, "", "=q4=Tyrannical Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 94376, "", "=q4=Tyrannical Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 94333, "", "=q4=Tyrannical Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1750#"};
@@ -6731,9 +6731,9 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94449, "", "=q4=Tyrannical Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
 				{ 25, 94400, "", "=q4=Tyrannical Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				{ 26, 94402, "", "=q4=Tyrannical Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 2, 91112, "", "=q4=Tyrannical Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1750#"};
@@ -6771,8 +6771,8 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90NonSetLeather"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 16, 91246, "", "=q4=Tyrannical Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 91335, "", "=q4=Tyrannical Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 91337, "", "=q4=Tyrannical Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1750#"};
@@ -6785,11 +6785,11 @@ local moduleName = "AtlasLootMoP"
 				{ 28, 91171, "", "=q4=Tyrannical Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 91167, "", "=q4=Tyrannical Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 91169, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 16, 94427, "", "=q4=Tyrannical Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 94424, "", "=q4=Tyrannical Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 94374, "", "=q4=Tyrannical Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1750#"};
@@ -6802,9 +6802,9 @@ local moduleName = "AtlasLootMoP"
 				{ 28, 94407, "", "=q4=Tyrannical Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 94491, "", "=q4=Tyrannical Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 94344, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 2, 91336, "", "=q4=Tyrannical Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1750#"};
@@ -6850,8 +6850,8 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90NonSetMail"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 16, 91357, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 91350, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 91354, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6864,11 +6864,11 @@ local moduleName = "AtlasLootMoP"
 				{ 28, 91221, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 91214, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 91216, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 16, 94337, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 94382, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 94336, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6881,9 +6881,9 @@ local moduleName = "AtlasLootMoP"
 				{ 28, 94469, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 94358, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 94445, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 2, 91351, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6929,8 +6929,8 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90NonSetPlate"] = {
-   		["Normal_A"] = {
-      		{
+			["Normal_A"] = {
+				{
 				{ 16, 91286, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 91279, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 91283, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6940,14 +6940,14 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 91285, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
 				{ 25, 91277, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				{ 26, 91281, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
-				{ 28, 91306, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
+				{ 28, 91306, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 91299, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 91303, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
-   		["Normal_H"] = {
-      		{
+					merge = true;
+				};
+			};
+			["Normal_H"] = {
+				{
 				{ 16, 94481, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 94464, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
 				{ 18, 94352, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6957,12 +6957,12 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94411, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
 				{ 25, 94480, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				{ 26, 94351, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
-				{ 28, 94487, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
+				{ 28, 94487, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};
 				{ 29, 94440, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
 				{ 30, 94461, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
-         		merge = true;
-      		};   
-   		};
+					merge = true;
+				};
+			};
 		["Normal"] = {
 			{
 				{ 2, 91280, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
@@ -6984,7 +6984,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 91638, "", "=q4=Malevolent Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
 				{ 10, 91630, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1750#"};
 				{ 11, 91634, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1750#"};
-				{ 13, 91659, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
+				{ 13, 91659, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};
 				{ 14, 91652, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1750#"};
 				{ 15, 91656, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1750#"};
 				{ 16, 93537, "", "=q3=Crafted Dreadful Gladiator's Bracers of Meditation", "=ds="};
@@ -6996,7 +6996,7 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 93536, "", "=q3=Crafted Dreadful Gladiator's Bracers of Prowess", "=ds="};
 				{ 25, 93532, "", "=q3=Crafted Dreadful Gladiator's Clasp of Cruelty", "=ds="};
 				{ 26, 93534, "", "=q3=Crafted Dreadful Gladiator's Greaves of Alacrity", "=ds="};
-				{ 28, 93458, "", "=q3=Crafted Dreadful Gladiator's Armplates of Alacrity", "=ds="};	
+				{ 28, 93458, "", "=q3=Crafted Dreadful Gladiator's Armplates of Alacrity", "=ds="};
 				{ 29, 93544, "", "=q3=Crafted Dreadful Gladiator's Girdle of Prowess", "=ds="};
 				{ 30, 93546, "", "=q3=Crafted Dreadful Gladiator's Warboots of Alacrity", "=ds="};
 			};
@@ -7228,7 +7228,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90055, "", "=q4=Shoulderguards of the Lich Lord", "=ds=#s3#, #a4#", ""};
 				{ 4, 90051, "", "=q4=Chestguard of the Lich Lord", "=ds=#s5#, #a4#", ""};
 				{ 5, 90056, "", "=q4=Bracers of the Lich Lord", "=ds=#s8#, #a4#", ""};
-				{ 6, 90052, "", "=q4=Grasps of the Lich Lord", "=ds=#s9#, #a4#", ""};				
+				{ 6, 90052, "", "=q4=Grasps of the Lich Lord", "=ds=#s9#, #a4#", ""};
 				{ 7, 90049, "", "=q4=Girdle of the Lich Lord", "=ds=#s10#, #a4#", ""};
 				{ 8, 90054, "", "=q4=Legplates of the Lich Lord", "=ds=#s11#, #a4#", ""};
 				{ 9, 90050, "", "=q4=Treads of the Lich Lord", "=ds=#s12#, #a4#", ""};
@@ -8877,7 +8877,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
 				{ 12, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
 				{ 13, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
-				{ 14, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
+				{ 14, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
 				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
 				{ 18, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
@@ -9376,7 +9376,7 @@ local moduleName = "AtlasLootMoP"
 			name = AL["Card Game Companions"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
-	}			
+	}
 
 	AtlasLoot_Data["PetsRemoved"] = {
 		["Normal"] = {
@@ -10014,7 +10014,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-				
+
 	AtlasLoot_Data["MountsPromotional"] = {
 		["Normal"] = {
 			{
@@ -10148,7 +10148,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-	
+
 --[[	AtlasLoot_Data["MountsNEW"] = {
 		["Normal"] = {
 			{
@@ -10910,7 +10910,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};				
+				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 6, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89431, "", "=q4=Softfoot Silentwrap", "=ds=#s5#, #a2#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
