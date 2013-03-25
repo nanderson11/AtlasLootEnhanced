@@ -146,7 +146,7 @@ function AtlasLoot:BonusLoot_CheckItemId(itemId)
 			if not PLAYER_SPEC_INFO[k].icon then
 				CreateSpecInfo()
 			end
-			table.insert(ret, PLAYER_SPEC_INFO[k].icon)
+			table.insert(ret, { k, PLAYER_SPEC_INFO[k].icon })
 		end
 	end
 	return #ret > 0 and ret or false

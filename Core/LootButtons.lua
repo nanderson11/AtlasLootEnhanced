@@ -1239,9 +1239,9 @@ function AltasLootItemButton:CheckBonusRoll(enabled)
 			for k,v in ipairs(self.Specs) do
 				if not self.Frame.BonusRoll[k] then break end
 				self.Frame.BonusRoll[k]:Show()
-				self.Frame.BonusRoll[k].Id = k
+				self.Frame.BonusRoll[k].Id = v[1]
 				--SetPortraitToTexture(self.Frame.BonusRoll[k].specIcon, v)
-				self.Frame.BonusRoll[k].specIcon:SetTexture(v)
+				self.Frame.BonusRoll[k].specIcon:SetTexture(v[2])
 			end
 		elseif self.Specs == false then
 			self.Frame:SetAlpha(0.33)
