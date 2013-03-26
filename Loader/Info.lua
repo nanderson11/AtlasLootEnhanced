@@ -37,7 +37,7 @@ AtlasLoot.AddonInfo = {
 		},
 		["Dynaletik"] = {
 			email = "dynaletik@gmail.com",
-			ingame = {"Dynaletik@Nera'thor", "Dynarix@Nera'thor"},
+			ingame = {"Dynaletik@Eredar", "Dynarix@Eredar"},
 		},
 	},
 	help = {
