@@ -1159,7 +1159,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TKEyeKaelthas", 6 },
 				{ "TKEyeTrash", 12 },
 			},
-			["Info"] = { ALIL["The Eye"], "AtlasLootBurningCrusade", raid = true },
+			["Info"] = { ALIL["Tempest Keep"], "AtlasLootBurningCrusade", raid = true },
 		},
 
 	-------------------------

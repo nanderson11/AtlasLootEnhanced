@@ -31,7 +31,7 @@ local moduleName = "AtlasLootBurningCrusade"
 ---- Tempest Keep: The Arcatraz
 ---- Tempest Keep: The Botanica
 ---- Tempest Keep: The Mechanar
----- Tempest Keep: The Eye
+---- Tempest Keep: Tempest Keep
 --- Factions
 ---- Ashtongue Deathsworn
 ---- Cenarion Expedition
@@ -3127,9 +3127,9 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 	};
 
-		-----------------------------
-		--- Tempest Keep: The Eye ---
-		-----------------------------
+		----------------------------------
+		--- Tempest Keep: Tempest Keep ---
+		----------------------------------
 
 	AtlasLoot_Data["TKEyeAlar"] = {
 		["Normal"] = {
@@ -5485,8 +5485,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29099, "", "=q4=Greaves of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_druid_catform", "=q6=#t5s1_1#", "=ec1=#m22#"};
 				{ 9, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_druid_catform", "=q6=#t6s1_1#", "=ec1=#m23#"};
@@ -5517,8 +5517,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t5s1_2#", "=ec1=#m22#"};
 				{ 9, 30219, "", "=q4=Nordrassil Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30217, "", "=q4=Nordrassil Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30220, "", "=q4=Nordrassil Life-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t6s1_2#", "=ec1=#m23#"};
@@ -5549,8 +5549,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t5s1_3#", "=ec1=#m22#"};
 				{ 9, 30233, "", "=q4=Nordrassil Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30232, "", "=q4=Nordrassil Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30234, "", "=q4=Nordrassil Wrath-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t6s1_3#", "=ec1=#m23#"};
@@ -5581,8 +5581,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29083, "", "=q4=Demon Stalker Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t5s2#", "=ec1=#m22#"};
 				{ 9, 30141, "", "=q4=Rift Stalker Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30143, "", "=q4=Rift Stalker Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30139, "", "=q4=Rift Stalker Hauberk", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30140, "", "=q4=Rift Stalker Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30142, "", "=q4=Rift Stalker Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t6s2#", "=ec1=#m23#"};
@@ -5613,8 +5613,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29078, "", "=q4=Legwraps of the Aldor", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_staff_13", "=q6=#t5s3#", "=ec1=#m22#"};
 				{ 9, 30206, "", "=q4=Cowl of Tirisfal", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30210, "", "=q4=Mantle of Tirisfal", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30210, "", "=q4=Mantle of Tirisfal", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30196, "", "=q4=Robes of Tirisfal", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30205, "", "=q4=Gloves of Tirisfal", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30207, "", "=q4=Leggings of Tirisfal", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_staff_13", "=q6=#t6s3#", "=ec1=#m23#"};
@@ -5645,8 +5645,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29069, "", "=q4=Justicar Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t5s4_1#", "=ec1=#m22#"};
 				{ 9, 30125, "", "=q4=Crystalforge Faceguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30123, "", "=q4=Crystalforge Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30127, "", "=q4=Crystalforge Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30123, "", "=q4=Crystalforge Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30124, "", "=q4=Crystalforge Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30126, "", "=q4=Crystalforge Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t6s4_1#", "=ec1=#m23#"};
@@ -5677,8 +5677,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29074, "", "=q4=Justicar Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t5s4_2#", "=ec1=#m22#"};
 				{ 9, 30131, "", "=q4=Crystalforge War-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30129, "", "=q4=Crystalforge Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30133, "", "=q4=Crystalforge Shoulderbraces", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30129, "", "=q4=Crystalforge Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30130, "", "=q4=Crystalforge Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30132, "", "=q4=Crystalforge Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t6s4_2#", "=ec1=#m23#"};
@@ -5709,8 +5709,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29063, "", "=q4=Justicar Leggings", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t5s4_3#", "=ec1=#m22#"};
 				{ 9, 30136, "", "=q4=Crystalforge Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30138, "", "=q4=Crystalforge Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30134, "", "=q4=Crystalforge Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30138, "", "=q4=Crystalforge Pauldrons", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30134, "", "=q4=Crystalforge Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30135, "", "=q4=Crystalforge Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30137, "", "=q4=Crystalforge Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t6s4_3#", "=ec1=#m23#"};
@@ -5741,8 +5741,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29053, "", "=q4=Trousers of the Incarnate", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t5s5_1#", "=ec1=#m22#"};
 				{ 9, 30152, "", "=q4=Cowl of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30154, "", "=q4=Mantle of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30150, "", "=q4=Vestments of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30151, "", "=q4=Gloves of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30153, "", "=q4=Breeches of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t6s5_1#", "=ec1=#m23#"};
@@ -5773,8 +5773,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29059, "", "=q4=Leggings of the Incarnate", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t5s5_2#", "=ec1=#m22#"};
 				{ 9, 30161, "", "=q4=Hood of the Avatar", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30163, "", "=q4=Wings of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30159, "", "=q4=Shroud of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30163, "", "=q4=Wings of the Avatar", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30159, "", "=q4=Shroud of the Avatar", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30160, "", "=q4=Handguards of the Avatar", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30162, "", "=q4=Leggings of the Avatar", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t6s5_2#", "=ec1=#m23#"};
@@ -5805,8 +5805,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29046, "", "=q4=Netherblade Breeches", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t5s6#", "=ec1=#m22#"};
 				{ 9, 30146, "", "=q4=Deathmantle Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30149, "", "=q4=Deathmantle Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30144, "", "=q4=Deathmantle Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30145, "", "=q4=Deathmantle Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30148, "", "=q4=Deathmantle Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t6s6#", "=ec1=#m23#"};
@@ -5837,8 +5837,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29042, "", "=q4=Cyclone War-Kilt", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t5s7_1#", "=ec1=#m22#"};
 				{ 9, 30190, "", "=q4=Cataclysm Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30185, "", "=q4=Cataclysm Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30194, "", "=q4=Cataclysm Shoulderplates", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30185, "", "=q4=Cataclysm Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30189, "", "=q4=Cataclysm Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30192, "", "=q4=Cataclysm Leggings", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t6s7_1#", "=ec1=#m23#"};
@@ -5869,8 +5869,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29030, "", "=q4=Cyclone Kilt", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t5s7_2#", "=ec1=#m22#"};
 				{ 9, 30166, "", "=q4=Cataclysm Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30164, "", "=q4=Cataclysm Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30168, "", "=q4=Cataclysm Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30164, "", "=q4=Cataclysm Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30165, "", "=q4=Cataclysm Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30167, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t6s7_2#", "=ec1=#m23#"};
@@ -5901,8 +5901,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29036, "", "=q4=Cyclone Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t5s7_3#", "=ec1=#m22#"};
 				{ 9, 30171, "", "=q4=Cataclysm Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30169, "", "=q4=Cataclysm Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30173, "", "=q4=Cataclysm Shoulderpads", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30169, "", "=q4=Cataclysm Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30170, "", "=q4=Cataclysm Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30172, "", "=q4=Cataclysm Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t6s7_3#", "=ec1=#m23#"};
@@ -5933,8 +5933,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 28966, "", "=q4=Voidheart Leggings", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t5s8#", "=ec1=#m22#"};
 				{ 9, 30212, "", "=q4=Hood of the Corruptor", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30215, "", "=q4=Mantle of the Corruptor", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30214, "", "=q4=Robe of the Corruptor", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30211, "", "=q4=Gloves of the Corruptor", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30213, "", "=q4=Leggings of the Corruptor", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t6s8#", "=ec1=#m23#"};
@@ -5965,8 +5965,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29015, "", "=q4=Warbringer Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t5s9_1#", "=ec1=#m22#"};
 				{ 9, 30115, "", "=q4=Destroyer Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30114, "", "=q4=Destroyer Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30116, "", "=q4=Destroyer Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t6s9_1#", "=ec1=#m23#"};
@@ -5997,8 +5997,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 29022, "", "=q4=Warbringer Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t5s9_2#", "=ec1=#m22#"};
 				{ 9, 30120, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..ALIL["Serpentshrine Cavern"]..")"};
-				{ 10, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["The Eye"]..")"};
-				{ 11, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["The Eye"]..")"};
+				{ 10, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..ALIL["Tempest Keep"]..")"};
+				{ 11, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..ALIL["Tempest Keep"]..")"};
 				{ 12, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 13, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..ALIL["Serpentshrine Cavern"]..")"};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t6s9_2#", "=ec1=#m23#"};
