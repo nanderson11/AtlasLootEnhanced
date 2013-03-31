@@ -258,29 +258,29 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTEndTime"] = {
 			["Bosses"] = {
-				{ "EndtimeEchoes", {3,4,5,6}, EncounterJournalID = 340 },
-				{ "EndtimeMurozond", 7, EncounterJournalID = 289 },
-				{ "EndtimeTrash", 10 },
+				{ "EndtimeEchoes", {5,6,7,8}, EncounterJournalID = 340 },
+				{ "EndtimeMurozond", 9, EncounterJournalID = 289 },
+				{ "EndtimeTrash", 12 },
 			},
 			["Info"] = { ALIL["End Time"], "AtlasLootCataclysm", mapname = "EndTime", EncounterJournalID = 184 },
 		},
 
 		["CoTHourOfTwilight"] = {
 			["Bosses"] = {
-				{ "HoTArcurion", 3, EncounterJournalID = 322 },
-				{ "HoTDawnslayer", 4, EncounterJournalID = 342 },
-				{ "HoTBenedictus", 5, EncounterJournalID = 341 },
-				{ "HoTTrash", 8 },
+				{ "HoTArcurion", 4, EncounterJournalID = 322 },
+				{ "HoTDawnslayer", 5, EncounterJournalID = 342 },
+				{ "HoTBenedictus", 6, EncounterJournalID = 341 },
+				{ "HoTTrash", 9 },
 			},
 			["Info"] = { ALIL["Hour of Twilight"], "AtlasLootCataclysm", mapname = "HourofTwilight", EncounterJournalID = 186 },
 		},
 
 		["CoTWellOfEternity"] = {
 			["Bosses"] = {
-				{ "WoEPerotharn", 3, EncounterJournalID = 290 },
-				{ "WoEAzshara", 4, EncounterJournalID = 291 },
-				{ "WoEMannoroth", 5, EncounterJournalID = 292 },
-				{ "WoETrash", 8 },
+				{ "WoEPerotharn", 5, EncounterJournalID = 290 },
+				{ "WoEAzshara", 6, EncounterJournalID = 291 },
+				{ "WoEMannoroth", 7, EncounterJournalID = 292 },
+				{ "WoETrash", 12 },
 			},
 			["Info"] = { ALIL["Well of Eternity"], "AtlasLootCataclysm", mapname = "WellOfEternity", EncounterJournalID = 185 },
 		},
@@ -1500,14 +1500,14 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "ZFGahzrilla", 5 },
 				{ "ZFSezzziz", 12 },
-				{ "ZFChiefUkorzSandscalp", 14 },
-				{ "ZFWitchDoctorZumrah", 16 },
-				{ "ZFAntusul", 17 },
-				{ "ZFHydromancerVelratha", 19 },
-				{ "ZFDustwraith", 21 },
-				{ "ZFZerillis", 22 },
-				{ "LunarFestival", 23, hide = true },
-				{ "ZFTrash", 25 },
+				{ "ZFChiefUkorzSandscalp", 13 },
+				{ "ZFWitchDoctorZumrah", 15 },
+				{ "ZFAntusul", 16 },
+				{ "ZFHydromancerVelratha", 18 },
+				{ "ZFDustwraith", 20 },
+				{ "ZFZerillis", 21 },
+				{ "LunarFestival", 22, hide = true },
+				{ "ZFTrash", 24 },
 			},
 			["Info"] = { ALIL["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak", EncounterJournalID = 241 },
 		},

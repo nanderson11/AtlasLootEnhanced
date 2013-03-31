@@ -67,13 +67,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 55278, "", "=q3=Inquisition Robes", "=ds=#s5#, #a1#", ""};
 				{ 3, 55279, "", "=q3=Manacles of Pain", "=ds=#s8#, #a3#", ""};
 				{ 4, 55776, "", "=q3=Skullcracker Ring", "=ds=#s13#", ""};
-				{ 5, 55777, "", "=q3=Torturer's Mercy", "=ds=#h3#, #w6#", ""};
+				{ 5, 55777, "", "=q3=Torturer's Mercy", "=ds=#h1#, #w6#", ""};
 				{ 6, 55778, "", "=q3=Shield of the Iron Maiden", "=ds=#w8#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5281#"};
 				{ 17, 56311, "", "=q3=Inquisition Robes", "=ds=#s5#, #a1#", ""};
 				{ 18, 56313, "", "=q3=Manacles of Pain", "=ds=#s8#, #a3#", ""};
 				{ 19, 56310, "", "=q3=Skullcracker Ring", "=ds=#s13#", ""};
-				{ 20, 56312, "", "=q3=Torturer's Mercy", "=ds=#h3#, #w6#", ""};
+				{ 20, 56312, "", "=q3=Torturer's Mercy", "=ds=#h1#, #w6#", ""};
 				{ 21, 56314, "", "=q3=Shield of the Iron Maiden", "=ds=#w8#", ""};
 			};
 		};
@@ -435,13 +435,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 56112, "", "=q3=Wildhammer Riding Helm", "=ds=#s1#, #a3#", ""};
 				{ 4, 56114, "", "=q3=Umbriss Band", "=ds=#s13#", ""};
 				{ 5, 56115, "", "=q3=Skardyn's Grace", "=ds=#s14#", ""};
-				{ 6, 56116, "", "=q3=Modgud's Blade", "=ds=#h3#, #w4#", ""};
+				{ 6, 56116, "", "=q3=Modgud's Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5297#"};
 				{ 17, 56442, "", "=q3=Cursed Skardyn Vest", "=ds=#s5#, #a2#", ""};
 				{ 18, 56443, "", "=q3=Wildhammer Riding Helm", "=ds=#s1#, #a3#", ""};
 				{ 19, 56444, "", "=q3=Umbriss Band", "=ds=#s13#", ""};
 				{ 20, 56440, "", "=q3=Skardyn's Grace", "=ds=#s14#", ""};
-				{ 21, 56441, "", "=q3=Modgud's Blade", "=ds=#h3#, #w4#", ""};
+				{ 21, 56441, "", "=q3=Modgud's Blade", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -668,13 +668,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 57863, "", "=q3=Hieroglyphic Vest", "=ds=#s5#, #a2#", ""};
 				{ 4, 57862, "", "=q3=Chaotic Wrappings", "=ds=#s11#, #a3#", ""};
 				{ 5, 57861, "", "=q3=Helm of Setesh", "=ds=#s1#, #a4#", ""};
-				{ 6, 57865, "", "=q3=Scepter of Power", "=ds=#h3#, #w6#", ""};
+				{ 6, 57865, "", "=q3=Scepter of Power", "=ds=#h1#, #w6#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 57871, "", "=q3=Helm of the Typhonic Beast", "=ds=#s1#, #a1#", ""};
 				{ 18, 57874, "", "=q3=Hieroglyphic Vest", "=ds=#s5#, #a2#", ""};
 				{ 19, 57875, "", "=q3=Chaotic Wrappings", "=ds=#s11#, #a3#", ""};
 				{ 20, 57873, "", "=q3=Helm of Setesh", "=ds=#s1#, #a4#", ""};
-				{ 21, 57872, "", "=q3=Scepter of Power", "=ds=#h3#, #w6#", ""};
+				{ 21, 57872, "", "=q3=Scepter of Power", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		info = {
@@ -695,7 +695,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 56106, "", "=q3=Band of Rays", "=ds=#s13#", ""};
 				{ 8, 56102, "", "=q3=Left Eye of Rajh", "=ds=#s14#", ""};
 				{ 9, 56100, "", "=q3=Right Eye of Rajh", "=ds=#s14#", ""};
-				{ 10, 56108, "", "=q3=Blade of the Burning Sun", "=ds=#h3#, #w10#", ""};
+				{ 10, 56108, "", "=q3=Blade of the Burning Sun", "=ds=#h1#, #w10#", ""};
 				{ 11, 56101, "", "=q3=Sun Strike", "=ds=#h1#, #w10#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5295#"};
 				{ 17, 56434, "", "=q3=Solar Wind Cloak", "=ds=#s4#", ""};
@@ -706,7 +706,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 56432, "", "=q3=Band of Rays", "=ds=#s13#", ""};
 				{ 23, 56427, "", "=q3=Left Eye of Rajh", "=ds=#s14#", ""};
 				{ 24, 56431, "", "=q3=Right Eye of Rajh", "=ds=#s14#", ""};
-				{ 25, 56433, "", "=q3=Blade of the Burning Sun", "=ds=#h3#, #w10#", ""};
+				{ 25, 56433, "", "=q3=Blade of the Burning Sun", "=ds=#h1#, #w10#", ""};
 				{ 26, 56430, "", "=q3=Sun Strike", "=ds=#h1#, #w10#", ""};
 			};
 		};
@@ -1153,13 +1153,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 55792, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
 				{ 4, 55794, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
 				{ 5, 55795, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
-				{ 6, 55796, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
+				{ 6, 55796, "", "=q3=Fist of Pained Senses", "=ds=#h1#, #w13#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56331, "", "=q3=Dolomite Adorned Gloves", "=ds=#s9#, #a1#", ""};
 				{ 18, 56330, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
 				{ 19, 56332, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
 				{ 20, 56328, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
-				{ 21, 56329, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
+				{ 21, 56329, "", "=q3=Fist of Pained Senses", "=ds=#h1#, #w13#", ""};
 			};
 		};
 		info = {
@@ -1271,13 +1271,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 55832, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
 				{ 4, 55831, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
 				{ 5, 55833, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
-				{ 6, 55834, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
+				{ 6, 55834, "", "=q3=Biting Wind", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56356, "", "=q3=Stratosphere Belt", "=ds=#s10#, #a1#", ""};
 				{ 18, 56359, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
 				{ 19, 56358, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
 				{ 20, 56360, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
-				{ 21, 56357, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
+				{ 21, 56357, "", "=q3=Biting Wind", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -1573,7 +1573,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 69580, "", "=q4=Mask of Restless Spirits", "=ds=#s1#, #a3#"};
 				{ 7, 69582, "", "=q4=Skullpiercer Pauldrons", "=ds=#s3#, #a4#"};
 				{ 8, 69583, "", "=q4=Legguards of the Unforgiving", "=ds=#s11#, #a4#"};
-				{ 16, 69581, "", "=q4=Amani Scepter of Rites", "=ds=#h3#, #w6#"};
+				{ 16, 69581, "", "=q4=Amani Scepter of Rites", "=ds=#h1#, #w6#"};
 				{ 17, 69575, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
 			};
 		};
@@ -1594,7 +1594,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 69593, "", "=q4=Battleplate of the Amani Empire", "=ds=#s5#, #a4#"};
 				{ 7, 69587, "", "=q4=Chestplate of Hubris", "=ds=#s5#, #a4#"};
 				{ 8, 69588, "", "=q4=Skullcrusher Warboots", "=ds=#s12#, #a4#"};
-				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h3#, #w4#"};
+				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h1#, #w4#"};
 				{ 17, 69592, "", "=q4=Reforged Trollbane", "=ds=#h2#, #w1#"};
 				{ 19, 69747, "", "=q4=Amani Battle Bear", "=ds=#e26#", ""};
 			};
@@ -1665,10 +1665,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 69634, "", "=q4=Fasc's Preserved Boots", "=ds=#s12#, #a2#", ""};
 				{ 3, 69635, "", "=q4=Amulet of Protection", "=ds=#s2#", ""};
 				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
-				{ 6, 69636, "", "=q4=Thekal's Claws", "=ds=#h3#, #w13#", ""};
+				{ 6, 69636, "", "=q4=Thekal's Claws", "=ds=#h1#, #w13#", ""};
 				{ 7, 69637, "", "=q4=Gurubashi Destroyer", "=ds=#w5#", ""};
 				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
-				{ 10, 69638, "", "=q4=Arlokk's Claws", "=ds=#h4#, #w13#", ""};
+				{ 10, 69638, "", "=q4=Arlokk's Claws", "=ds=#h1#, #w13#", ""};
 				{ 11, 69639, "", "=q4=Renataki's Soul Slicer", "=ds=#h1#, #w10#", ""};
 				{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
 				{ 14, 69640, "", "=q4=Kilt of Forgotten Rites", "=ds=#s11#, #a3#", ""};
@@ -1726,7 +1726,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 69622, "", "=q4=The Hexxer's Mask", "=ds=#s1#, #a1#", ""};
 				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
 				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
-				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
+				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
 				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
 				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
 				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
@@ -2442,7 +2442,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
 				{ 16, 59333, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
 				{ 17, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -2461,7 +2461,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 67431, "", "=q4=Gauntlets of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
 				{ 20, 65047, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
 				{ 21, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 22, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+				{ 22, 65041, "", "=q4=Incineratus", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -2646,7 +2646,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
 				{ 20, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
 				{ 21, 63679, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
-				{ 22, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 22, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h1#, #w6#", ""};
 				{ 23, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
 			};
 		};
@@ -2666,7 +2666,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
 				{ 20, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
 				{ 21, 65003, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
-				{ 22, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 22, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h1#, #w6#", ""};
 				{ 23, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
 			};
 		};
@@ -2686,9 +2686,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
 				{ 7, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", ""};
 				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
-				{ 17, 59463, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
-				{ 18, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 19, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 17, 59463, "", "=q4=Maldo's Sword Cane", "=ds=#h1#, #w10#", ""};
+				{ 18, 63537, "", "=q4=Claws of Torment", "=ds=#h1#, #w13#", ""};
+				{ 19, 63538, "", "=q4=Claws of Agony", "=ds=#h1#, #w13#", ""};
 				{ 20, 68601, "", "=q4=Scaleslicer", "=ds=#h1#, #w4#", ""};
 				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
@@ -2730,7 +2730,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 77270, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
 				{ 9, 77265, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
 				{ 16, 77262, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
-				{ 18, 77214, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
+				{ 18, 77214, "", "=q4=Vagaries of Time", "=ds=#h1#, #w6#" },
 				{ 19, 77212, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
 			};
 		};
@@ -2746,7 +2746,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 78373, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
 				{ 9, 78361, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
 				{ 16, 78364, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
-				{ 18, 78363, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
+				{ 18, 78363, "", "=q4=Vagaries of Time", "=ds=#h1#, #w6#" },
 				{ 19, 78371, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
 			};
 		};
@@ -2827,7 +2827,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 77253, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
 				{ 5, 77217, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
 				{ 6, 77218, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
-				{ 7, 77219, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
+				{ 7, 77219, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h1#, #w4#" },
 				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2842,7 +2842,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 78406, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
 				{ 5, 78403, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
 				{ 6, 78401, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
-				{ 7, 78404, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
+				{ 7, 78404, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h1#, #w4#" },
 				{ 16, 78856, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78857, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78858, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -3068,12 +3068,12 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulDeathwingMadness"] = {
 		["RaidFinder"] = {
 			{
-				{ 1, 78484, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+				{ 1, 78484, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h1#, #w4#" },
 				{ 2, 78483, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
 				{ 3, 78488, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
 				{ 4, 78487, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
 				{ 5, 78481, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
-				{ 6, 78485, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+				{ 6, 78485, "", "=q4=Maw of the Dragonlord", "=ds=#h1#, #w6#" },
 				{ 16, 78482, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
 				{ 17, 78486, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
 				{ 18, 78480, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
@@ -3081,12 +3081,12 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		["Normal"] = {
 			{
-				{ 1, 77195, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+				{ 1, 77195, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h1#, #w4#" },
 				{ 2, 77189, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
 				{ 3, 77193, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
 				{ 4, 77191, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
 				{ 5, 77188, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
-				{ 6, 77196, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+				{ 6, 77196, "", "=q4=Maw of the Dragonlord", "=ds=#h1#, #w6#" },
 				{ 16, 77194, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
 				{ 17, 77190, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
 				{ 18, 78359, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
@@ -3095,12 +3095,12 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		["Heroic"] = {
 			{
-				{ 1, 78475, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+				{ 1, 78475, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h1#, #w4#" },
 				{ 2, 78474, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
 				{ 3, 78479, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
 				{ 4, 78478, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
 				{ 5, 78472, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
-				{ 6, 78476, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+				{ 6, 78476, "", "=q4=Maw of the Dragonlord", "=ds=#h1#, #w6#" },
 				{ 16, 78473, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
 				{ 17, 78477, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
 				{ 18, 78471, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
@@ -3176,7 +3176,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 78887, "", "=q4=Girdle of Soulful Mending", "=ds=#s10#, #a4#" },
 				{ 8, 78888, "", "=q4=Waistguard of Bleeding Bone", "=ds=#s10#, #a4#" },
 				{ 9, 78889, "", "=q4=Waistplate of the Desecrated Future", "=ds=#s10#, #a4#" },
-				{ 17, 78878, "", "=q4=Spine of the Thousand Cuts", "=ds=#h3#, #w10#" },
+				{ 17, 78878, "", "=q4=Spine of the Thousand Cuts", "=ds=#h1#, #w10#" },
 				{ 18, 77192, "", "=q4=Ruinblaster Shotgun", "=ds=#w5#" },
 				{ 20, 77938, "", "=q4=Dragonfire Orb", "=ds=#s15#" },
 			};
@@ -3277,7 +3277,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 71007, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
 				{ 10, 70912, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
 				{ 16, 71012, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
-				{ 18, 71006, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
+				{ 18, 71006, "", "=q4=Volcanospike", "=ds=#h1#, #w10#"};
 				{ 19, 70991, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
 			};
 		};
@@ -3294,7 +3294,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 71426, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
 				{ 10, 71420, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
 				{ 16, 71423, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
-				{ 18, 71422, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
+				{ 18, 71422, "", "=q4=Volcanospike", "=ds=#h1#, #w10#"};
 				{ 19, 71414, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
 			};
 		};
@@ -3368,7 +3368,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 71024, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
 				{ 13, 71022, "", "=q4=Goblet of Anger", "=ds=#s15#"};
 				{ 16, 71014, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
-				{ 17, 71013, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
+				{ 17, 71013, "", "=q4=Feeding Frenzy", "=ds=#h1#, #w4#"};
 			};
 		};
 		["Heroic"] = {
@@ -3389,7 +3389,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 71685, "", "=q4=Leggings of the Fiery Protector", "=ds=#e15#, #m38# - #j4#"};
 				{ 18, 71671, "", "=q4=Leggings of the Fiery Vanquisher", "=ds=#e15#, #m38# - #j4#"};
 				{ 20, 71445, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
-				{ 21, 71441, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
+				{ 21, 71441, "", "=q4=Feeding Frenzy", "=ds=#h1#, #w4#"};
 			};
 		};
 		info = {
@@ -3502,7 +3502,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 71675, "", "=q4=Helm of the Fiery Conqueror", "=ds=#e15#, #m38#"};
 				{ 17, 71682, "", "=q4=Helm of the Fiery Protector", "=ds=#e15#, #m38#"};
 				{ 18, 71668, "", "=q4=Helm of the Fiery Vanquisher", "=ds=#e15#, #m38#"};
-				{ 20, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 20, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h1#, #w6#"};
 				{ 21, 71352, "", "=q4=Sulfuras, the Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 22, 71798, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
 				{ 23, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
@@ -3522,7 +3522,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 71677, "", "=q4=Crown of the Fiery Conqueror", "=ds=#e15#, #m38# - #j4#"};
 				{ 17, 71684, "", "=q4=Crown of the Fiery Protector", "=ds=#e15#, #m38# - #j4#"};
 				{ 18, 71670, "", "=q4=Crown of the Fiery Vanquisher", "=ds=#e15#, #m38# - #j4#"};
-				{ 20, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 20, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h1#, #w6#"};
 				{ 21, 70723, "", "=q4=Sulfuras, the Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 22, 71797, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
 				{ 23, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
@@ -3540,17 +3540,17 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 71779, "", "=q4=Avool's Incendiary Shanker", "=ds=#h1#, #w4#"};
 				{ 3, 71787, "", "=q4=Entrail Disgorger", "=ds=#h1#, #w4#"};
-				{ 4, 71785, "", "=q4=Firethorn Mindslicer", "=ds=#h3#, #w10#"};
+				{ 4, 71785, "", "=q4=Firethorn Mindslicer", "=ds=#h1#, #w10#"};
 				{ 5, 71780, "", "=q4=Zoid's Firelit Greatsword", "=ds=#h2#, #w10#"};
-				{ 6, 71776, "", "=q4=Eye of Purification", "=ds=#h3#, #w1#"};
+				{ 6, 71776, "", "=q4=Eye of Purification", "=ds=#h1#, #w1#"};
 				{ 7, 71782, "", "=q4=Shatterskull Bonecrusher", "=ds=#h1#, #w6#"};
 				{ 8, 71775, "", "=q4=Smoldering Censer of Purity", "=ds=#w9#"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 71778, "", "=q4=Avool's Incendiary Shanker", "=ds=#h1#, #w4#"};
 				{ 18, 71786, "", "=q4=Entrail Disgorger", "=ds=#h1#, #w4#"};
-				{ 19, 71784, "", "=q4=Firethorn Mindslicer", "=ds=#h3#, #w10#"};
+				{ 19, 71784, "", "=q4=Firethorn Mindslicer", "=ds=#h1#, #w10#"};
 				{ 20, 71781, "", "=q4=Zoid's Firelit Greatsword", "=ds=#h2#, #w10#"};
-				{ 21, 71777, "", "=q4=Eye of Purification", "=ds=#h3#, #w1#"};
+				{ 21, 71777, "", "=q4=Eye of Purification", "=ds=#h1#, #w1#"};
 				{ 22, 71783, "", "=q4=Shatterskull Bonecrusher", "=ds=#h1#, #w6#"};
 				{ 23, 71774, "", "=q4=Smoldering Censer of Purity", "=ds=#w9#"};
 			};
@@ -3570,7 +3570,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 71367, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
 				{ 6, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
 				{ 7, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
-				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h1#, #w4#"};
 				{ 17, 71362, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
 				{ 18, 71361, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 19, 71360, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
@@ -3621,7 +3621,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 71564, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
 				{ 6, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
 				{ 7, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
-				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h1#, #w4#"};
 				{ 10, 71562, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
 				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
@@ -3696,7 +3696,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
 				{ 10, 59515, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
 				{ 16, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 17, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 17, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h1#, #w4#", ""};
 				{ 18, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
@@ -3712,7 +3712,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
 				{ 10, 65109, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
 				{ 16, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 17, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 17, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h1#, #w4#", ""};
 				{ 18, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
@@ -3779,7 +3779,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
 				{ 20, 59494, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
 				{ 21, 59330, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
-				{ 22, 63680, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
+				{ 22, 63680, "", "=q4=Twilight's Hammer", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -3799,7 +3799,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
 				{ 20, 68600, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
 				{ 21, 65145, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
-				{ 22, 65090, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
+				{ 22, 65090, "", "=q4=Twilight's Hammer", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		info = {
@@ -3907,8 +3907,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
 				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h1#, #w10#", ""};
+				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h1#, #w10#", ""};
 				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
 				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
 				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
@@ -3937,8 +3937,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
 				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h1#, #w10#", ""};
+				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h1#, #w10#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
 				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
 				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
@@ -4036,7 +4036,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 62473, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "#TOLBARAD:85#"};
 				{ 4, 62476, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
 				{ 5, 68739, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
-				{ 6, 62478, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "#TOLBARAD:85#"};
+				{ 6, 62478, "", "=q3=Shimmering Morningstar", "=ds=#h1#, #w6#", "#TOLBARAD:85#"};
 				{ 7, 62474, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "#TOLBARAD:85#"};
 				{ 8, 62477, "", "=q3=Insidious Staff", "=ds=#w9#", "#TOLBARAD:85#"};
 				{ 9, 62479, "", "=q3=Sky Piercer", "=ds=#w3#", "#TOLBARAD:85#"};
@@ -4118,7 +4118,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 62454, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "#TOLBARAD:85#"};
 				{ 4, 62457, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
 				{ 5, 68740, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
-				{ 6, 62459, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "#TOLBARAD:85#"};
+				{ 6, 62459, "", "=q3=Shimmering Morningstar", "=ds=#h1#, #w6#", "#TOLBARAD:85#"};
 				{ 7, 62455, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "#TOLBARAD:85#"};
 				{ 8, 62458, "", "=q3=Insidious Staff", "=ds=#w9#", "#TOLBARAD:85#"};
 				{ 9, 62460, "", "=q3=Sky Piercer", "=ds=#w3#", "#TOLBARAD:85#"};
@@ -4905,17 +4905,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 73452, "", "=q4=Cataclysmic Gladiator's Right Render", "=ds=#h1#, #w13#", "#HONOR:2450#" },
-				{ 2, 73454, "", "=q4=Cataclysmic Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:2450#" },
-				{ 3, 73451, "", "=q4=Cataclysmic Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:950#" },
-				{ 4, 73453, "", "=q4=Cataclysmic Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:950#" },
-				{ 6, 73467, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:2450#" },
+				{ 2, 73454, "", "=q4=Cataclysmic Gladiator's Ripper", "=ds=#h1#, #w13#", "#HONOR:2450#" },
+				{ 3, 73451, "", "=q4=Cataclysmic Gladiator's Slasher", "=ds=#h1#, #w13#", "#HONOR:950#" },
+				{ 4, 73453, "", "=q4=Cataclysmic Gladiator's Fleshslicer", "=ds=#h1#, #w13#", "#HONOR:950#" },
+				{ 6, 73467, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h1#, #w4#", "#HONOR:2450#" },
 				{ 7, 73455, "", "=q4=Cataclysmic Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:2450#" },
 				{ 8, 73461, "", "=q4=Cataclysmic Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:950#" },
 				{ 10, 73472, "", "=q4=Cataclysmic Gladiator's Quickblade", "=ds=#h1#, #w10#", "#HONOR:2450#" },
 				{ 11, 73447, "", "=q4=Cataclysmic Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:2450#" },
 				{ 13, 73474, "", "=q4=Cataclysmic Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:2450#" },
 				{ 14, 73449, "", "=q4=Cataclysmic Gladiator's Hacker", "=ds=#h1#, #w1#", "#HONOR:2450#" },
-				{ 16, 73459, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:2450#" },
+				{ 16, 73459, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h1#, #w6#", "#HONOR:2450#" },
 				{ 17, 73448, "", "=q4=Cataclysmic Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#HONOR:2450#" },
 				{ 18, 73473, "", "=q4=Cataclysmic Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:2450#" },
 				{ 20, 73475, "", "=q4=Cataclysmic Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:3400#" },

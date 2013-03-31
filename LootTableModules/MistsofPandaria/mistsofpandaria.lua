@@ -158,7 +158,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#", "", "33%" },
 				{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#", "", "33%" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6475# / #ACHIEVEMENTID:6671#"}; --- 2nd achievemnt isn't showing up..
-				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h3#, #w6#", "", "1%" },
+				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h1#, #w6#", "", "1%" },
 				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#", "", "20%" },
 				{ 19, 81132, "", "=q3=Paralyzing Gloves", "=ds=#s9#, #a1#", "", "20%" },
 				{ 20, 81071, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#", "", "20%" },
@@ -315,7 +315,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 85186, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
 				{ 8, 85191, "", "=q3=Mindcapture Pendant", "=ds=#s2#", "", "20%" },
 				{ 9, 85188, "", "=q3=Blade Trap Signet", "=ds=#s13#", "", "20%" },
-				{ 10, 85190, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#", "", "20%" },
+				{ 10, 85190, "", "=q3=Firescribe Dagger", "=ds=#h1#, #w4#", "", "20%" },
 				{ 11, 85185, "", "=q3=Ghostheart", "=ds=#w7#", "", "20%" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6736#"};
 				{ 17, 87542, "", "=q4=Mogu'Dar, Blade of the Thousand Slaves", "=ds=#h2#, #w10#", "", "1%" },
@@ -327,7 +327,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 81248, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
 				{ 24, 81254, "", "=q3=Mindcapture Pendant", "=ds=#s2#", "", "20%" },
 				{ 25, 81251, "", "=q3=Blade Trap Signet", "=ds=#s13#", "", "20%" },
-				{ 26, 81253, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#", "", "20%" },
+				{ 26, 81253, "", "=q3=Firescribe Dagger", "=ds=#h1#, #w4#", "", "20%" },
 				{ 27, 81247, "", "=q3=Ghostheart", "=ds=#w7#", "", "20%" },
 			}
 		};
@@ -769,7 +769,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#", "", "20%" },
 				{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#", "", "20%" },
 				{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#", "", "20%" },
-				{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#", "", "20%" },
+				{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h1#, #w4#", "", "20%" },
 				{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#", "", "20%" },
 				{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#", "", "20%" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
@@ -781,7 +781,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#", "", "20%" },
 				{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#", "", "20%" },
 				{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#", "", "20%" },
-				{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#", "", "20%" },
+				{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h1#, #w4#", "", "20%" },
 				{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#", "", "20%" },
 				{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#", "", "20%" },
 			};
@@ -1135,7 +1135,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89268, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89269, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89267, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 86862, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 20, 86862, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86863, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
@@ -1150,7 +1150,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89243, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89244, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89245, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 86217, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 20, 86217, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86219, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
@@ -1165,7 +1165,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89253, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89254, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89252, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 86983, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 20, 86983, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86987, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
@@ -1185,7 +1185,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 89962, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
 				{ 5, 89963, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
 				{ 7, 86864, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
-				{ 8, 86865, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 8, 86865, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h1#, #w6#" },
 				{ 16, 89265, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89266, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89264, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -1200,7 +1200,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 89835, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
 				{ 5, 89837, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
 				{ 7, 86226, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
-				{ 8, 86227, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 8, 86227, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h1#, #w6#" },
 				{ 16, 89237, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89238, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89239, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -1215,7 +1215,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 89927, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
 				{ 5, 89928, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
 				{ 7, 86988, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
-				{ 8, 86990, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 8, 86990, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h1#, #w6#" },
 				{ 16, 89250, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89251, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89249, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -1620,7 +1620,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86810, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
 				{ 17, 86802, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
 				{ 18, 86805, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
-				{ 20, 86806, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 20, 86806, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 86801, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
 				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -1640,7 +1640,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86152, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
 				{ 17, 86144, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
 				{ 18, 86147, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
-				{ 20, 86148, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 20, 86148, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 86142, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
 				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -1660,7 +1660,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 87076, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
 				{ 17, 87072, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
 				{ 18, 87075, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
-				{ 20, 87074, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 20, 87074, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 87069, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
 				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -2498,7 +2498,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86871, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 18, 86869, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 19, 86873, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 21, 86909, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 21, 86909, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Normal"] = {
@@ -2514,7 +2514,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86233, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 10, 86231, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 86315, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 12, 86390, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 12, 86390, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
 				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90526, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
@@ -2530,7 +2530,7 @@ local moduleName = "AtlasLootMoP"
 				{ 27, 90522, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 28, 90517, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 29, 90525, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 30, 90527, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 30, 90527, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2546,7 +2546,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 87147, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 10, 87144, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 87151, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 12, 87152, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 12, 87152, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
 				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90512, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
@@ -2562,7 +2562,7 @@ local moduleName = "AtlasLootMoP"
 				{ 27, 90508, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 28, 90503, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 29, 90511, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 30, 90513, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 30, 90513, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		info = {
@@ -5018,7 +5018,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "inv_box_04", "=q6="..ALIL["Townlong Steppes"], "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
 				{ 16, 0, "inv_box_04", "=q6="..ALIL["Dread Wastes"], "=ds="};
-				{ 17, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
+				{ 17, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h1#, #w10#"};
 				{ 18, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
 				{ 19, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
 				{ 20, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
@@ -7103,7 +7103,7 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 91749, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#HONOR:1750#" },
 				{ 2, 91745, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#HONOR:1750#" },
-				{ 4, 91484, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:2250#" },
+				{ 4, 91484, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h1#, #w4#", "#HONOR:2250#" },
 				{ 5, 91743, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:1750#" },
 				{ 7, 91450, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#HONOR:1750#" },
 				{ 8, 91761, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:1750#" },
@@ -7141,14 +7141,14 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 4, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
+				{ 4, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
 				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
 				{ 7, 85135, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 8, 85134, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 9, 85131, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 10, 85132, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 16, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 17, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
+				{ 17, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
 				{ 18, 85130, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
 				{ 20, 85112, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
 				{ 21, 85113, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
@@ -7180,16 +7180,16 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 91395, "", "=q4=Tyrannical Gladiator's Fleshslicer", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 2, 91397, "", "=q4=Tyrannical Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 3, 91393, "", "=q4=Tyrannical Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 5, 91132, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2250#" },
+				{ 5, 91132, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h1#, #w4#", "#CONQUEST:2250#" },
 				{ 6, 91391, "", "=q4=Tyrannical Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
-				{ 7, 91200, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h3#, #w4#", "#CONQUEST:1750#" },
+				{ 7, 91200, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1750#" },
 				{ 9, 91399, "", "=q4=Tyrannical Gladiator's Mageblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 10, 91098, "", "=q4=Tyrannical Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 11, 91409, "", "=q4=Tyrannical Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 13, 91094, "", "=q4=Tyrannical Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 14, 91405, "", "=q4=Tyrannical Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 16, 91407, "", "=q4=Tyrannical Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 17, 91204, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2250#" },
+				{ 17, 91204, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2250#" },
 				{ 18, 91096, "", "=q4=Tyrannical Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
 				{ 20, 91092, "", "=q4=Tyrannical Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
 				{ 21, 91088, "", "=q4=Tyrannical Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
@@ -7224,16 +7224,16 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 91394, "", "=q4=Tyrannical Gladiator's Fleshslicer", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 2, 91396, "", "=q4=Tyrannical Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 3, 91392, "", "=q4=Tyrannical Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 5, 91131, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2250#" },
+				{ 5, 91131, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h1#, #w4#", "#CONQUEST:2250#" },
 				{ 6, 91390, "", "=q4=Tyrannical Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
-				{ 7, 91199, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h3#, #w4#", "#CONQUEST:1750#" },
+				{ 7, 91199, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1750#" },
 				{ 9, 91398, "", "=q4=Tyrannical Gladiator's Mageblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 10, 91097, "", "=q4=Tyrannical Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 11, 91408, "", "=q4=Tyrannical Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 13, 91093, "", "=q4=Tyrannical Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 14, 91404, "", "=q4=Tyrannical Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 16, 91406, "", "=q4=Tyrannical Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 17, 91203, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2250#" },
+				{ 17, 91203, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2250#" },
 				{ 18, 91095, "", "=q4=Tyrannical Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
 				{ 20, 91091, "", "=q4=Tyrannical Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
 				{ 21, 91087, "", "=q4=Tyrannical Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
@@ -7261,16 +7261,16 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 94314, "", "=q4=Tyrannical Gladiator's Fleshslicer", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 2, 94321, "", "=q4=Tyrannical Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 3, 94316, "", "=q4=Tyrannical Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
-				{ 5, 94306, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2250#" },
+				{ 5, 94306, "", "=q4=Tyrannical Gladiator's Spellblade", "=ds=#h1#, #w4#", "#CONQUEST:2250#" },
 				{ 6, 94315, "", "=q4=Tyrannical Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
-				{ 7, 94301, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h3#, #w4#", "#CONQUEST:1750#" },
+				{ 7, 94301, "", "=q4=Tyrannical Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1750#" },
 				{ 9, 94310, "", "=q4=Tyrannical Gladiator's Mageblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 10, 94325, "", "=q4=Tyrannical Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 11, 94318, "", "=q4=Tyrannical Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
 				{ 13, 94312, "", "=q4=Tyrannical Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 14, 94317, "", "=q4=Tyrannical Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
 				{ 16, 94322, "", "=q4=Tyrannical Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
-				{ 17, 94302, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2250#" },
+				{ 17, 94302, "", "=q4=Tyrannical Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2250#" },
 				{ 18, 94304, "", "=q4=Tyrannical Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
 				{ 20, 94311, "", "=q4=Tyrannical Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
 				{ 21, 94323, "", "=q4=Tyrannical Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
@@ -10543,8 +10543,8 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#", "=q2="..BabbleBoss["Majordomo Staghelm"]..", =q1="..ALIL["Firelands"]};
 				{ 4, 71466, "", "=q4=Fandral's Flamescythe", "=ds=#w9#", "=q2="..BabbleBoss["Majordomo Staghelm"]..", =q1="..ALIL["Firelands"]};
 				{ 5, 39769, "", "=q4=Arcanite Ripper", "=ds=#h2#, #w1#", "=q2="..AL["No Longer Available"]};
-				{ 6, 19910, "", "=q3=Arlokk's Grasp", "=ds=#h4#, #w13#", "=q2="..AL["No Longer Available"]};
-				{ 7, 19896, "", "=q3=Thekal's Grasp", "=ds=#h1#, #w13#", "=q2="..AL["No Longer Available"]};
+				{ 6, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h1#, #w13#", "=q2="..AL["No Longer Available"]};
+				{ 7, 19896, "", "=q4=Thekal's Grasp", "=ds=#h1#, #w13#", "=q2="..AL["No Longer Available"]};
 				{ 9, 0, "INV_Box_01", "=q6="..BabbleInventory["Mounts"]};
 				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e12#", "=ds=#p1#"};
 				{ 11, 83086, "", "=q4=Heart of the Nightwing", "=ds=#e12#", "=q2="..AL["Recruit-A-Friend"]};
@@ -10594,7 +10594,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Wrath of the Lich King"]};
 				{ 2, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
 				{ 3, 49888, "", "=q4=Shadow's Edge", "=ds=#h2#, #w1#", "" };
-				{ 5, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
+				{ 5, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h1#, #w6#", "" };
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Burning Crusade"]};
 				{ 17, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
 				{ 19, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
@@ -10602,7 +10602,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 30312, "", "=q5=Infinity Blade", "=ds=#h1#, #w4#"};
 				{ 23, 30311, "", "=q5=Warp Slicer", "=ds=#h1#, #w10#"};
 				{ 24, 30316, "", "=q5=Devastation", "=ds=#h2#, #w1#"};
-				{ 25, 30317, "", "=q5=Cosmic Infuse", "=ds=#h3#, #w6#"};
+				{ 25, 30317, "", "=q5=Cosmic Infuse", "=ds=#h1#, #w6#"};
 				{ 26, 30313, "", "=q5=Staff of Disintegration", "=ds=#w9#"};
 				{ 27, 30318, "", "=q5=Netherstrand Longbow", "=ds=#w2#"};
 				{ 28, 30314, "", "=q5=Phaseshift Bulwark", "=ds=#w8#"};
@@ -10674,10 +10674,10 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
 				{ 4, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
 				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
 				{ 27, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
@@ -10698,7 +10698,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:2175#"};
 				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:2175#"};
 				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:3500#"};
-				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "#HONOR:2725#"};
+				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:2725#"};
 				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
 				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
 				extraText = ": "..AL["PvP Heirlooms"];
@@ -10742,7 +10742,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "85-89"), "=q1="..AL["Mists of Pandaria"]};
 				{ 7, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
 				{ 8, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
-				{ 9, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
+				{ 9, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h1#, #w10#"};
 				{ 10, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
 				{ 11, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
 				{ 12, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
