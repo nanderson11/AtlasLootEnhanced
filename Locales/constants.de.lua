@@ -381,7 +381,6 @@ if AL then
 	-- AL["ilvl 489"] = true;
 	-- AL["ilvl 496"] = true;
 	-- AL["ilvl 498"] = true;
-	-- AL["ilvl 512"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Arathibecken (Sets)";
@@ -946,6 +945,7 @@ if AL then
 	AL["Best Friend"] = "Bester Freund";
 	AL["Rank 4"] = "Rang 4";
 	AL["Rank 8"] = "Rang 8";
+	AL["Rank 10"] = "Rang 10";
 	AL["Winterfin Retreat"] = "Zuflucht der Winterflossen";
 
 	-- Recipe origin strings
