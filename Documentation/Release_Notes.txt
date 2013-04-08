@@ -7,6 +7,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v7.06.00 (May ??, 2013)
 Patch 5.3 stuff.
+Updated Heirloom & BoA section with Patch 5.2 items.
 
 v7.05.03 (Apr 03, 2013)
 Added all Thunderforged items to Throne of Thunder loot tables.

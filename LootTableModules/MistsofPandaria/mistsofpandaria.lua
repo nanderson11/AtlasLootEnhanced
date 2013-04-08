@@ -5127,8 +5127,8 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 18, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
 				{ 20, 0, "achievement_faction_celestials", "=q6="..AL["Rank 8"], ""};
-				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
-				{ 22, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870#" },
+				{ 21, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 22, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
 				{ 24, 0, "achievement_faction_celestials", "=q6="..AL["Rank 10"], ""};
 				{ 25, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
 			};
@@ -6736,9 +6736,10 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 98336, "", "=q4=Tyrannical Gladiator's Greatcloak", "=ds=#s4#", "#CONQUEST:1000#"},
 				{ 25, 95348, "", "=q4=Tyrannical Primal Diamond", "=ds=#e32# #e7#", "#CONQUEST:1000#"},
 				{ 26, 98162, "", "=q4=Tyrannical Gladiator's Tabard", "=ds=#s7#", "#CONQUEST:1000#"},
-				{ 27, 98163, "", "=q3=Enchant Weapon - Bloody Dancing Steel", "=ds=#e17#", ""}, -- Cost: Base enchant scroll LAG!
+				{ 27, 98163, "", "=q3=Enchant Weapon - Bloody Dancing Steel", "=ds=#e17#", "#ITEMID:74726#"},
 				{ 28, 95349, "", "=q3=Enchant Weapon - Glorious Tyranny", "=ds=#e17#", "#CONQUEST:1000#"},
-				{ 29, 98164, "", "=q3=Enchant Weapon - Spirit of Conquest", "=ds=#e17#", ""}, -- Cost: Base enchant scroll LAG!
+				{ 29, 98164, "", "=q3=Enchant Weapon - Spirit of Conquest", "=ds=#e17#", "#ITEMID:74724#"},
+				{ 30, 76061, "", "=q3=Spirit of Harmony", "=ds=#e8#", "#CONQUEST:600#"},
 			};
 			{};
 			{
@@ -10616,70 +10617,119 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", "1,200 #gold#"};
 				{ 4, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", "1,200 #gold#"};
 				{ 6, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", "1,500 #gold#"};
-				{ 7, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 9, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", "1,750 #gold#"};
+				{ 7, 93859, "", "=q7=Bloodstained Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42985#"};
+				{ 8, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 9, 93860, "", "=q7=Bloodstained Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48691#"};
+				{ 10, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 11, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", "1,750 #gold#"};
 				{ 16, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 17, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", "1,750 #gold#"};
-				{ 21, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 22, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 23, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 24, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", "1,750 #gold#"};
+				{ 17, 93864, "", "=q7=Majestic Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42984#"};
+				{ 18, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 19, 93865, "", "=q7=Majestic Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48687#"};
+				{ 20, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 21, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", "1,750 #gold#"};
+				{ 23, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", "1,500 #gold#"};
+				{ 24, 93862, "", "=q7=Supple Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42952#"};
+				{ 25, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 26, 93863, "", "=q7=Supple Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48689#"};
+				{ 27, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 28, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
 				{ 1, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 2, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 3, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 4, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", "1,750 #gold#"};
-				{ 6, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 7, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 8, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 9, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", "1,750 #gold#"};
+				{ 2, 93887, "", "=q7=Grand Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42950#"};
+				{ 3, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 4, 93888, "", "=q7=Furious Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48677#"};
+				{ 5, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 6, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", "1,750 #gold#"};
+				{ 8, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", "1,500 #gold#"};
+				{ 9, 93876, "", "=q7=Awakened Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42951#"};
+				{ 10, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 11, 93885, "", "=q7=Awakened Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48683#"};
+				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 13, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", "1,750 #gold#"};
 				{ 16, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 17, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", "1,750 #gold#"};
-				{ 21, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 22, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 23, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 24, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", "1,750 #gold#"};
+				{ 17, 93893, "", "=q7=Brushed Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69890#"};
+				{ 18, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 19, 93892, "", "=q7=Brushed Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69889#"};
+				{ 20, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 21, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", "1,750 #gold#"};
+				{ 23, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", "1,500 #gold#"};
+				{ 24, 93890, "", "=q7=Gleaming Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42949#"};
+				{ 25, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 26, 93891, "", "=q7=Gleaming Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48685#"};
+				{ 27, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 28, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"];
 			};
 			{
 				{ 1, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
+				{ 2, 93897, "", "=q7=Piercing Eye of the Beast", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEMID:42992#"};
 				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
-				{ 4, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
-				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 27, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 4, 93896, "", "=q7=Forceful Hand of Justice", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEMID:42991#"};
+				{ 5, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
+				{ 7, 93857, "", "=q7=Vengeful Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42944#"};
+				{ 8, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 9, 93845, "", "=q7=Gore-Steeped Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69893#"};
+				{ 10, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 11, 93856, "", "=q7=Noble Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42945#"};
+				{ 12, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 13, 93843, "", "=q7=Hardened Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42943#"};
+				{ 14, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 16, 93853, "", "=q7=Pious Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:1090# #DARKMOON:44# #ITEMID:42948#"};
+				{ 17, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 93847, "", "=q7=Crushing Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48716#"};
+				{ 19, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 20, 93846, "", "=q7=Re-Engineered Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:48718#"};
+				{ 21, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 22, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 23, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+				{ 24, 93844, "", "=q7=Refinished Warden Staff", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:79131#"};
+				{ 25, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 26, 93854, "", "=q7=Scholarly Headmaster's Charge", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42947#"};
+				{ 27, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 28, 93855, "", "=q7=War-Torn Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42946#"};
+				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 30, 93904, "", "=q7=Musty Tome of the Lost", "=ds=#s15#", "#JUSTICE:2175#"};
 				extraText = ": "..AL["Accessories"].." / "..AL["Weapons"];
 			};
 			{
-				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
-				{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
-				{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
-				{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:2175#"};
-				{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:2175#"};
-				{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:2175#"};
-				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:2175#"};
-				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "#HONOR:2725#"};
-				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "#HONOR:2725#"};
-				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:2175#"};
-				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:2175#"};
-				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:3500#"};
-				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:2725#"};
-				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
-				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
+				{ 1, 93861, "", "=q7=Prestigious Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:870# #ITEMID:44107#"};
+				{ 2, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
+				{ 3, 93867, "", "=q7=Superior Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEMID:44103#"};
+				{ 4, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
+				{ 5, 93866, "", "=q7=Wild Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEMID:44105#"};
+				{ 6, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
+				{ 7, 93889, "", "=q7=Venerated Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:870# #ITEMID:44102#"};
+				{ 8, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:2175#"};
+				{ 9, 93886, "", "=q7=Adorned Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:870# #ITEMID:44101#"};
+				{ 10, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:2175#"};
+				{ 11, 93894, "", "=q7=Immaculate Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:870# #ITEMID:44100#"};
+				{ 12, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:2175#"};
+				{ 13, 93895, "", "=q7=Reinforced Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:870# #ITEMID:44099#"};
+				{ 14, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:2175#"};
+				{
+					{ 15, 93898, "", "=q7=Bequeathed Insignia of the Horde", "=ds=#s14#", "#HONOR:1090# #ITEMID:44097#"};
+					{ 15, 93899, "", "=q7=Bequeathed Insignia of the Alliance", "=ds=#s14#", "#HONOR:1090# #ITEMID:44098#"};
+				};
+				{
+					{ 16, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "#HONOR:2725#"};
+					{ 16, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "#HONOR:2725#"};
+				};
+				{ 17, 93900, "", "=q7=Inherited Mark of Tyranny", "=ds=#s14#", "#HONOR:2725#"};
+				{ 19, 93852, "", "=q7=Deadly Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:870# #ITEMID:44091#"};
+				{ 20, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:2175#"};
+				{ 21, 93848, "", "=q7=Battle-Hardened Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:870# #ITEMID:44096#"};
+				{ 22, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:2175#"};
+				{ 23, 93851, "", "=q7=Battle-Forged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:1400# #ITEMID:44092#"};
+				{ 24, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:3500#"};
+				{ 25, 93850, "", "=q7=The Sanctified Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:1090# #ITEMID:44094#"};
+				{ 26, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:2725#"};
+				{ 27, 93849, "", "=q7=Elder Staff of Jordan", "=ds=#w9#", "#HONOR:1400# #ITEMID:44095#"};
+				{ 28, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
+				{ 29, 93841, "", "=q7=Smoothbore Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:1400# #ITEMID:44093#"};
+				{ 30, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
 				extraText = ": "..AL["PvP Heirlooms"];
 			};
 		};
@@ -10724,19 +10774,21 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h1#, #w10#"};
 				{ 10, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
 				{ 11, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
-				{ 12, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
-				{ 13, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
-				{ 14, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
-				{ 15, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
-				{ 16, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
-				{ 17, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
-				{ 18, 89685, "", "=q3=Spear of Xuen", "=ds=#w7#"};
-				{ 19, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
-				{ 20, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
-				{ 21, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
-				{ 22, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
-				{ 23, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
-				{ 24, 89684, "", "=q3=Umbrella of Chi-Ji", "=ds=#s15#"};
+				{ 12, 95391, "", "=q3=Mantid Sky Reaver", "=ds=#h1#, #w10#"};
+				{ 13, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
+				{ 14, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
+				{ 15, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
+				{ 16, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
+				{ 17, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
+				{ 18, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
+				{ 19, 89685, "", "=q3=Spear of Xuen", "=ds=#w7#"};
+				{ 20, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
+				{ 21, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
+				{ 22, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
+				{ 23, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
+				{ 24, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
+				{ 25, 95392, "", "=q3=Sonic Pulse Generator", "=ds=#w5#"};
+				{ 26, 89684, "", "=q3=Umbrella of Chi-Ji", "=ds=#s15#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
@@ -10762,10 +10814,31 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
 				{ 4, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
 				{ 6, 86574, "", "=q3=Elixir of Ancient Knowledge", "=ds="};
-				{ 16, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
-				{ 17, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
-				{ 19, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
-				{ 20, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 8, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
+				{ 9, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
+				{ 16, 95490, "", "=q3=Greater Kirin Tor Offensive Insignia", "=ds=", ""};
+				{ 17, 95488, "", "=q3=Greater Sunreaver Onslaught Insignia", "=ds=", ""};
+				{ 18, 95489, "", "=q3=Kirin Tor Offensive Insignia", "=ds=", ""};
+				{ 19, 95496, "", "=q3=Shado-Pan Assault Insignia", "=ds=", ""};
+				{ 20, 94225, "", "=q3=Stolen Celestial Insignia", "=ds=", ""};
+				{ 21, 94227, "", "=q3=Stolen Golden Lotus Insignia", "=ds=", ""};
+				{ 22, 94226, "", "=q3=Stolen Klaxxi Insignia", "=ds=", ""};
+				{ 23, 94223, "", "=q3=Stolen Shado-Pan Insignia", "=ds=", ""};
+				{ 24, 95487, "", "=q3=Sunreaver Onslaught Insignia", "=ds=", ""};
+				{ 25, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 26, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
+			};
+			{
+				{ 1, 92679, "", "=q3=Flawless Aquatic Battle-Stone", "=ds=", ""};
+				{ 2, 92675, "", "=q3=Flawless Beast Battle-Stone", "=ds=", ""};
+				{ 3, 92676, "", "=q3=Flawless Critter Battle-Stone", "=ds=", ""};
+				{ 4, 92683, "", "=q3=Flawless Dragonkin Battle-Stone", "=ds=", ""};
+				{ 5, 92665, "", "=q3=Flawless Elemental Battle-Stone", "=ds=", ""};
+				{ 6, 92677, "", "=q3=Flawless Flying Battle-Stone", "=ds=", ""};
+				{ 7, 92682, "", "=q3=Flawless Humanoid Battle-Stone", "=ds=", ""};
+				{ 8, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=", ""};
+				{ 9, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=", ""};
+				{ 10, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=", ""};
 			};
 		};
 		info = {

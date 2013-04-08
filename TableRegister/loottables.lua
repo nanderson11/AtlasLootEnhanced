@@ -205,6 +205,7 @@ AtlasLoot_LootTableRegister = {
 		["ThroneofThunderD"] = "ThroneofThunder",
 		["ThroneofThunder"] = {
 			["ThroneofThunderA"] = {
+				{ "ShadoPanAssault", 1, hide = true},
 				{ "ToTJinrokh", 4, EncounterJournalID = 827, BonusLootID = 139674 },
 				{ "ToTHorridon", 5, EncounterJournalID = 819, BonusLootID = 139677 },
 				{ "ToTCouncil", 6, EncounterJournalID = 816, BonusLootID = 139679 },
@@ -212,6 +213,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTTrash", 13, hide = true },
 			},
 			["ThroneofThunderB"] = {
+				{ "ShadoPanAssault", 1, hide = true},
 				{ "ToTTortos", 3, EncounterJournalID = 825, BonusLootID = 139680 },
 				{ "ToTMegaera", 4, EncounterJournalID = 821, BonusLootID = 139682 },
 				{ "ToTJiKun", 5, EncounterJournalID = 828, BonusLootID = 139684 },
@@ -219,6 +221,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTTrash", 8, hide = true },
 			},
 			["ThroneofThunderC"] = {
+				{ "ShadoPanAssault", 1, hide = true},
 				{ "ToTDurumu", 3, EncounterJournalID = 818, BonusLootID = 139686 },
 				{ "ToTPrimordius", 4, EncounterJournalID = 820, BonusLootID = 139687 },
 				{ "ToTDarkAnimus", 5, EncounterJournalID = 824, BonusLootID = 139688 },
@@ -226,6 +229,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTTrash", 8, hide = true },
 			},
 			["ThroneofThunderD"] = {
+				{ "ShadoPanAssault", 1, hide = true},
 				{ "ToTIronQon", 3, EncounterJournalID = 817, BonusLootID = 139689 },
 				{ "ToTTwinConsorts", 7, EncounterJournalID = 829, BonusLootID = 139690 },
 				{ "ToTLeiShen", 10, EncounterJournalID = 832, BonusLootID = 139691 },
