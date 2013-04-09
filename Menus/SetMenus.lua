@@ -297,7 +297,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 		["Normal"] = {
 			{
 				{ 2, "Heirloom", "inv_helmet_24", "=ds="..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"], ""};
-				{ 3, "Heirloom#4", "inv_sword_17", "=ds="..AL["PvP Heirlooms"], ""};
+				{ 3, "Heirloom#4", "inv_sword_19", "=ds="..AL["PvP Heirlooms"], ""};
 				{ 5, 86559, "", "=q7=Frying Pan", "=ds=#h1#", "#IRONPAW:50#"};
 				{ 6, 86558, "", "=q7=Rolling Pin", "=ds=#s15#", "#IRONPAW:50#"};
 				{ 7, 86468, "", "=q7=Apron", "=ds=#s7#", "#IRONPAW:50#"};
@@ -305,7 +305,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 11, "HeirloomBoAArmor", "trade_archaeology_ancientorcshamanheaddress", "=ds="..AL["Bind on Account Armor"], ""};
 				{ 12, "HeirloomBoAMisc", "trade_archaeology_pendant of the aqir", "=ds="..AL["Misc"], ""};
 				{ 17, "Heirloom#2", "inv_chest_plate03", "=ds="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"], ""};
-				{ 18, "Heirloom#3", "INV_Helmet_01", "=ds="..AL["Accessories"].." / "..AL["Weapons"], ""};
+				{ 18, "Heirloom#3", "inv_sword_17", "=ds="..AL["Accessories"].." / "..AL["Weapons"], ""};
 				{ 20, 44133, "", "=q7=Greater Inscription of the Axe", "=ds=#s3# #e17#", "100 #gold#"};
 				{ 21, 44134, "", "=q7=Greater Inscription of the Crag", "=ds=#s3# #e17#", "100 #gold#"};
 				{ 22, 44136, "", "=q7=Greater Inscription of the Pinnacle", "=ds=#s3# #e17#", "100 #gold#"};
