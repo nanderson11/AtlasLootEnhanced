@@ -8,6 +8,8 @@ Patch Notes
 v7.06.00 (May ??, 2013)
 Patch 5.3 stuff.
 Updated Heirloom & BoA section with Patch 5.2 items.
+Added amount of crafted items to crafting section.
+Compatible with Atlas 1.24.01.
 
 v7.05.03 (Apr 03, 2013)
 Added all Thunderforged items to Throne of Thunder loot tables.

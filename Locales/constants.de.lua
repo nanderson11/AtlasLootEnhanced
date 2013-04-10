@@ -944,7 +944,9 @@ if AL then
 	AL["Exalted"] = "Ehrfürchtig";
 	AL["Best Friend"] = "Bester Freund";
 	AL["Rank 4"] = "Rang 4";
+	AL["Rank 7"] = "Rang 7";
 	AL["Rank 8"] = "Rang 8";
+	AL["Rank 9"] = "Rang 9";
 	AL["Rank 10"] = "Rang 10";
 	AL["Winterfin Retreat"] = "Zuflucht der Winterflossen";
 

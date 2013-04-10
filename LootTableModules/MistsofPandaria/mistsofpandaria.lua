@@ -5116,21 +5116,31 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 92941, "", "=q1=Potion of Brawler's Might", "=ds=#e2#", "70 #silver#" },
 				{ 4, 92942, "", "=q1=Potion of Brawler's Cunning", "=ds=#e2#", "70 #silver#" },
 				{ 5, 92943, "", "=q1=Potion of Brawler's Deftness", "=ds=#e2#", "70 #silver#" },
-				{ 6, 93043, "", "=q1=Rotten Apple", "=ds=", "70 #silver#", amount = 5  },
-				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#", amount = 5  },
+				{ 6, 93043, "", "=q1=Rotten Apple", "=ds=", "70 #silver#", amount = 5 },
+				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#", amount = 5 },
 				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#", amount = 5 },
-				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#", amount = 5  },
-				{ 16, 0, "achievement_faction_celestials", "=q6="..AL["Rank 4"], ""};
+				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#", amount = 5 },
+				{ 11, 0, "achievement_faction_celestials", "=q6="..AL["Rank 4"], ""};
 				{
-					{ 17, 95050, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
-					{ 17, 95051, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
+					{ 12, 95050, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
+					{ 12, 95051, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
 				};
-				{ 18, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
-				{ 20, 0, "achievement_faction_celestials", "=q6="..AL["Rank 8"], ""};
-				{ 21, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
-				{ 22, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
-				{ 24, 0, "achievement_faction_celestials", "=q6="..AL["Rank 10"], ""};
-				{ 25, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
+				{ 13, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
+				{ 16, 0, "achievement_faction_celestials", "=q6="..AL["Rank 7"], ""};
+				{
+					{ 17, 93228, "", "=q1=Brawler's Pass", "=ds=","" },
+					{ 17, 93195, "", "=q1=Brawler's Pass", "=ds=", "" },
+				};
+				{ 19, 0, "achievement_faction_celestials", "=q6="..AL["Rank 8"], ""};
+				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+				{ 23, 0, "achievement_faction_celestials", "=q6="..AL["Rank 9"], ""};
+				{
+					{ 24, 93228, "", "=q1=Brawler's Pass", "=ds=","" },
+					{ 24, 93195, "", "=q1=Brawler's Pass", "=ds=", "" },
+				};
+				{ 26, 0, "achievement_faction_celestials", "=q6="..AL["Rank 10"], ""};
+				{ 27, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
 			};
 		};
 		info = {
@@ -5245,7 +5255,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95053, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
 				{ 19, 95093, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 21, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
-				{ 22, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 22, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=50 #gold#"};
 				{ 23, 97207, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
 				{ 24, 97205, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
 				{ 25, 97206, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
@@ -5265,6 +5275,8 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive", "=ds=", "=q1=#m4#: #QUESTID:32599#"};
 				{ 9, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
 				{ 10, 97155, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
+				{ 11, 98558, "", "=q1=Empty Supply Crate", "=ds=", "#ELDERCHARM:3#"};
+				{ 12, 98560, "", "=q1=Arcane Trove", "=ds=", "#ELDERCHARM:15#"};
 			};
 		};
 		info = {
@@ -5560,7 +5572,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 97158, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
 				{ 19, 97154, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 21, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
-				{ 22, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
+				{ 22, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=50 #gold#"};
 				{ 23, 97212, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
 				{ 24, 97210, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
 				{ 25, 97211, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
@@ -5580,6 +5592,8 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught", "=ds=", "=q1=#m4#: #QUESTID:32589#"};
 				{ 9, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
 				{ 10, 97155, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
+				{ 11, 98559, "", "=q1=Empty Supply Crate", "=ds=", "#ELDERCHARM:3#"};
+				{ 12, 98562, "", "=q1=Sunreaver Bounty", "=ds=", "#ELDERCHARM:15#"};
 			};
 		};
 		info = {
@@ -9460,20 +9474,21 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsPetStore"] = {
 		["Normal"] = {
 			{
-				{ 2, 70099, "", "=q4=Cenarion Hatchling", "=ds=#e13#"};
-				{ 3, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
-				{ 4, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 5, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
-				{ 6, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 7, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
-				{ 17, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 2, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
+				{ 3, 70099, "", "=q3=Cenarion Hatchling", "=ds=#e13#"};
+				{ 4, 92707, "", "=q3=Cinder Kitten", "=ds=#e13#"};
+				{ 5, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+				{ 6, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
+				{ 7, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 17, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 18, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 				{
-					{ 18, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
-					{ 18, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+					{ 19, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+					{ 19, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
 				};
-				{ 19, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
-				{ 20, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
-				{ 21, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+				{ 20, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+				{ 21, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
+				{ 22, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
 		};
 		info = {
@@ -10084,12 +10099,13 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 2, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
-				{ 3, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
-				{ 4, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
-				{ 5, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
-				{ 6, 83086, "", "=q4=Heart of the Nightwing", "#ACHIEVEMENTID:8213#"};
-				{ 8, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 2, 83086, "", "=q4=Heart of the Nightwing", "#ACHIEVEMENTID:8213#"};
+				{ 3, 98618, "", "=q4=Hearthsteed", "#ACHIEVEMENTID:8345#"};
+				{ 4, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
+				{ 5, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 6, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 7, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 9, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
 				{ 18, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
@@ -10839,6 +10855,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=", ""};
 				{ 9, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=", ""};
 				{ 10, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=", ""};
+				{ 11, 98715, "", "=q3=Marked Flawless Battle-Stone", "#ACHIEVEMENTID:8348#", ""};
 			};
 		};
 		info = {

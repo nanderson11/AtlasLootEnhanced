@@ -947,7 +947,10 @@ if AL then
 	AL["Exalted"] = "崇拜";
 	AL["Best Friend"] = "挚友";
 	AL["Rank 4"] = "4级";
+	AL["Rank 7"] = "7级";
 	AL["Rank 8"] = "8级";
+	AL["Rank 9"] = "9级";
+	AL["Rank 10"] = "10级";
 	AL["Winterfin Retreat"] = "冬鳞避难所";
 
 	-- Recipe origin strings

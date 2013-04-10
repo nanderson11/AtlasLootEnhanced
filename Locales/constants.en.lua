@@ -947,7 +947,9 @@ if AL then
 	AL["Exalted"] = true;
 	AL["Best Friend"] = true;
 	AL["Rank 4"] = true;
+	AL["Rank 7"] = true;
 	AL["Rank 8"] = true;
+	AL["Rank 9"] = true;
 	AL["Rank 10"] = true;
 	AL["Winterfin Retreat"] = true;
 
