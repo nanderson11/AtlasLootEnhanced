@@ -3786,14 +3786,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringFirework"] = {
 		["Normal"] = {
 			{
-				{ 1, "s131256", "89893", "=q1=Autumn Flower Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"], amount = 5};
-				{ 2, "s128260", "88493", "=q1=Celestial Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"], amount = 5};
-				{ 3, "s128261", "88491", "=q1=Grand Celebration Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"], amount = 5};
-				{ 4, "s131258", "89888", "=q1=Jade Blossom Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"], amount = 5};
-				{ 5, "s128262", "87764", "=q1=Serpent's Heart Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"], amount = 5};
-				{ 7, "s30344", "23771", "=q1=Green Smoke Flare", "=ds=#sr# 335", "=ds="..AL["Vendor"], amount = 3};
-				{ 8, "s32814", "25886", "=q1=Purple Smoke Flare", "=ds=#sr# 335", "=ds="..AL["World Drop"], amount = 3};
-				{ 9, "s30341", "23768", "=q1=White Smoke Flare", "=ds=#sr# 335", "=ds="..AL["Vendor"], amount = 3};
+				{ 1, "s131353", "89991", "=q1=Pandaria Firework", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 2, "s131256", "89893", "=q1=Autumn Flower Firework", "=ds=#sr# 500", "#ITEMID:89991#", amount = 5};
+				{ 3, "s128260", "88493", "=q1=Celestial Firework", "=ds=#sr# 500", "#ITEMID:89991#", amount = 5};
+				{ 4, "s128261", "88491", "=q1=Grand Celebration Firework", "=ds=#sr# 500", "#ITEMID:89991#", amount = 5};
+				{ 5, "s131258", "89888", "=q1=Jade Blossom Firework", "=ds=#sr# 500", "#ITEMID:89991#", amount = 5};
+				{ 6, "s128262", "87764", "=q1=Serpent's Heart Firework", "=ds=#sr# 500", "#ITEMID:89991#", amount = 5};
+				{ 8, "s30344", "23771", "=q1=Green Smoke Flare", "=ds=#sr# 335", "=ds="..AL["Vendor"], amount = 3};
+				{ 9, "s32814", "25886", "=q1=Purple Smoke Flare", "=ds=#sr# 335", "=ds="..AL["World Drop"], amount = 3};
+				{ 10, "s30341", "23768", "=q1=White Smoke Flare", "=ds=#sr# 335", "=ds="..AL["Vendor"], amount = 3};
 				{ 11, "s26443", "21570", "=q1=Cluster Launcher", "=ds=#sr# 275", "=ds="..AL["Lunar Festival"], amount = 2};
 				{ 12, "s26426", "21714", "=q1=Large Blue Rocket Cluster", "=ds=#sr# 275", "=ds="..AL["Lunar Festival"], amount = 3};
 				{ 13, "s26427", "21716", "=q1=Large Green Rocket Cluster", "=ds=#sr# 275", "=ds="..AL["Lunar Festival"], amount = 3};
