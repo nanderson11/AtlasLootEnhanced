@@ -255,6 +255,7 @@ AtlasLoot_IngameLocales = {
 	-- Mists of Pandaria
 	["Bizmo's Brawlpub"] = GetFactionInfoByID(1419),
 	["Brawl'gar Arena"] = GetFactionInfoByID(1374),
+	["Darkspear Rebellion"] = GetFactionInfoByID(1440),
 	["Dominance Offensive"] = GetFactionInfoByID(1375),
 	["Golden Lotus"] = GetFactionInfoByID(1269),
 	["Huojin Pandaren"] = GetFactionInfoByID(1352),

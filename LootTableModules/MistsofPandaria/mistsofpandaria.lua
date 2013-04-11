@@ -5128,16 +5128,16 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
 				{ 16, 0, "achievement_faction_celestials", "=q6="..AL["Rank 7"], ""};
 				{
-					{ 17, 93228, "", "=q1=Brawler's Pass", "=ds=","" },
-					{ 17, 93195, "", "=q1=Brawler's Pass", "=ds=", "" },
+					{ 17, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7939#","" },
+					{ 17, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
 				};
 				{ 19, 0, "achievement_faction_celestials", "=q6="..AL["Rank 8"], ""};
 				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
 				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
 				{ 23, 0, "achievement_faction_celestials", "=q6="..AL["Rank 9"], ""};
 				{
-					{ 24, 93228, "", "=q1=Brawler's Pass", "=ds=","" },
-					{ 24, 93195, "", "=q1=Brawler's Pass", "=ds=", "" },
+					{ 24, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8337#","" },
+					{ 24, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8335#", "" },
 				};
 				{ 26, 0, "achievement_faction_celestials", "=q6="..AL["Rank 10"], ""};
 				{ 27, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
@@ -9179,15 +9179,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsFaction"] = {
 		["Normal"] = {
 			{
-				{ 2, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#", "=ds="..ALIL["Sha'tari Skyguard"]};
-				{ 3, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#", "=ds="..ALIL["The Kalu'ak"]};
-				{ 4, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..ALIL["Sho"].." - "..AL["Best Friend"]};
-				{ 5, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..ALIL["The Anglers"]};
-				{ 6, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#", "=ds="..ALIL["Sporeggar"]};
-				{ 7, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 8, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 9, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 10, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 2, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=ds="..ALIL["Darkspear Rebellion"]};
+				{ 3, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#", "=ds="..ALIL["Sha'tari Skyguard"]};
+				{ 4, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#", "=ds="..ALIL["The Kalu'ak"]};
+				{ 5, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..ALIL["Sho"].." - "..AL["Best Friend"]};
+				{ 6, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..ALIL["The Anglers"]};
+				{ 7, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#", "=ds="..ALIL["Sporeggar"]};
+				{ 8, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 9, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 10, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 11, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
 				{
 					{ 17, "", "inv_misc_tournaments_symbol_orc", "=q6="..AL["Horde"], ""};
 					{ 17, "", "inv_misc_tournaments_symbol_human", "=q6="..AL["Alliance"], ""};
@@ -11270,5 +11271,41 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = AL["Valor Points"],
 			module = moduleName, menu = "VPMOPMENU",
+		};
+	}
+
+		---------------------------
+		--- Darkspear Rebellion ---
+		---------------------------
+
+	AtlasLoot_Data["DarkspearRebellion"] = {
+		["Normal"] = {
+			{
+				{ 1, 97829, "", "=q4=Latent Kor'kron Helm", "=ds=#s1#", "#KORKRONMEAT:100# #KORKRONOIL:100#"};
+				{ 2, 97831, "", "=q4=Latent Kor'kron Spaulders", "=ds=#s3#", "#KORKRONMEAT:100# #KORKRONSTONE:100#"};
+				{ 3, 97826, "", "=q4=Latent Kor'kron Chestpiece", "=ds=#s5#", "#KORKRONLUMBER:100# #KORKRONOIL:100#"};
+				{ 4, 97828, "", "=q4=Latent Kor'kron Gloves", "=ds=#s9#", "#KORKRONLUMBER:100# #KORKRONOIL:100#"};
+				{ 5, 97832, "", "=q4=Latent Kor'kron Belt", "=ds=#s10#", "#KORKRONOIL:100# #KORKRONSTONE:100#"};
+				{ 6, 97830, "", "=q4=Latent Kor'kron Leggings", "=ds=#s11#", "#KORKRONLUMBER:100# #KORKRONSTONE:100#"};
+				{ 7, 97827, "", "=q4=Latent Kor'kron Boots", "=ds=#s12#", "#KORKRONLUMBER:100# #KORKRONMEAT:100#"};
+				{ 9, 97849, "", "=q3=Radical Mojo", "=ds=#m17#", "#QUESTID:32872#"};
+				{ 10, 97530, "", "=q1=Kor'kron Lumber", "=ds=#m17#", ""};
+				{ 11, 97545, "", "=q1=Kor'kron Meat", "=ds=#m17#", ""};
+				{ 12, 97544, "", "=q1=Kor'kron Oil", "=ds=#m17#", ""};
+				{ 13, 97543, "", "=q1=Kor'kron Stone", "=ds=#m17#", ""};
+				{ 16, 98561, "", "=q3=Darkspear Battle Standard", "=ds=", "#KORKRONSTONE:10#"};
+				{ 17, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEMID:97849#"};
+				{ 18, 98552, "", "=q3=Xan'tish's Flute", "=ds=", "#KORKRONLUMBER:150# #KORKRONOIL:150#"};
+				{ 19, 97921, "", "=q1=Bom'bay's Color-Seein' Sauce", "=ds=", "#KORKRONOIL:500#"};
+				{ 20, 97901, "", "=q1=Griftah's Authentic Troll Shoes", "=ds=#s12#", "#KORKRONLUMBER:500#"};
+				{ 21, 98563, "", "=q1=Rainstick", "=ds=", "#KORKRONLUMBER:10#"};
+				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEMID:97849#"};
+				{ 23, 97942, "", "=q1=Sen'jin Spirit Drum", "=ds=", "#KORKRONMEAT:500#"};
+				{ 24, 97919, "", "=q1=Whole-Body Shrinka'", "=ds=", "#KORKRONSTONE:500#"};
+			}
+		};
+		info = {
+			name = ALIL["Darkspear Rebellion"].." "..AL["Rewards"],
+			module = moduleName, menu = "SETMENU",
 		};
 	}
