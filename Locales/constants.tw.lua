@@ -946,11 +946,7 @@ if AL then
 	AL["Revered"] = "崇敬";
 	AL["Exalted"] = "崇拜";
 	AL["Best Friend"] = "最好的朋友";
-	AL["Rank 4"] = "第4階";
-	AL["Rank 7"] = "第7階";
-	AL["Rank 8"] = "第8階";
-	AL["Rank 9"] = "第9階";
-	AL["Rank 10"] = "第10階";
+	AL["Rank %d"] = "第%d階";
 	AL["Winterfin Retreat"] = "冬鰭避居地";
 
 	-- Recipe origin strings

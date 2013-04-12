@@ -875,7 +875,7 @@ if AL then
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
 	AL["Misc. Rewards"] = "Diverses";
-	AL["Level %s Rewards"] = "Belohnungen (Stufe %s)"; -- usage: string.format(AL["Level %s Rewards"], "60")
+	AL["Level %s Rewards"] = "Belohnungen (Stufe %s)";
 
 	-- Brood of Nozdormu Paths
 	AL["Path of the Conqueror"] = "Der Pfad des Eroberers";
@@ -943,11 +943,7 @@ if AL then
 	AL["Revered"] = "Respektvoll";
 	AL["Exalted"] = "Ehrfürchtig";
 	AL["Best Friend"] = "Bester Freund";
-	AL["Rank 4"] = "Rang 4";
-	AL["Rank 7"] = "Rang 7";
-	AL["Rank 8"] = "Rang 8";
-	AL["Rank 9"] = "Rang 9";
-	AL["Rank 10"] = "Rang 10";
+	AL["Rank %d"] = "Rang %d";
 	AL["Winterfin Retreat"] = "Zuflucht der Winterflossen";
 
 	-- Recipe origin strings

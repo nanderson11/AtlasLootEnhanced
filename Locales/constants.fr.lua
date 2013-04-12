@@ -946,11 +946,7 @@ if AL then
 	AL["Revered"] = "Révéré";
 	AL["Exalted"] = "Exalté";
 	AL["Best Friend"] = "Meilleur ami";
-	AL["Rank 4"] = "Rang 4";
-	AL["Rank 7"] = "Rang 7";
-	AL["Rank 8"] = "Rang 8";
-	AL["Rank 9"] = "Rang 9";
-	AL["Rank 10"] = "Rang 10";
+	AL["Rank %d"] = "Rang %d";
 	AL["Winterfin Retreat"] = "Retraite des Ailerons-d'hiver";
 
 	-- Recipe origin strings

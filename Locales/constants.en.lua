@@ -946,11 +946,7 @@ if AL then
 	AL["Revered"] = true;
 	AL["Exalted"] = true;
 	AL["Best Friend"] = true;
-	AL["Rank 4"] = true;
-	AL["Rank 7"] = true;
-	AL["Rank 8"] = true;
-	AL["Rank 9"] = true;
-	AL["Rank 10"] = true;
+	AL["Rank %d"] = true; -- usage: string.format(AL["Rank %d"], 1)
 	AL["Winterfin Retreat"] = true;
 
 	-- Recipe origin strings

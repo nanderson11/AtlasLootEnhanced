@@ -415,8 +415,6 @@ if AL then
 	AL["Revered"] = "Reverenciado";
 	AL["Exalted"] = "Exaltado";
 	-- AL["Best Friend"] = true;
-	-- AL["Rank 4"] = true;
-	-- AL["Rank 8"] = true;
 	AL["Winterfin Retreat"] = "Retiro Aleta Invernal";
 
 	--Recipe origin strings

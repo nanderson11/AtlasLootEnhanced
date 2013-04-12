@@ -75,6 +75,7 @@ local moduleName = "AtlasLootMoP"
 ---- BoE World Epics
 ---- Justice Points Items
 ---- Valor Points Items
+---- Darkspear Rebellion
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -5120,27 +5121,35 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#", amount = 5 },
 				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#", amount = 5 },
 				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#", amount = 5 },
-				{ 11, 0, "achievement_faction_celestials", "=q6="..AL["Rank 4"], ""};
+				{ 11, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 4), ""};
 				{
 					{ 12, 95050, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
 					{ 12, 95051, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
 				};
-				{ 13, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
-				{ 16, 0, "achievement_faction_celestials", "=q6="..AL["Rank 7"], ""};
+				{ 13, 98081, "", "=q3=The Boomshirt", "=ds=#s6#", "#QUESTID:32841#" },
+				{ 14, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
+				{ 16, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 5), ""};
+				{ 17, 98084, "", "=q3=Ooze-Soaked Shirt", "=ds=#s6#", "#QUESTID:32845#" },
+				{ 19, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 6), ""};
+				{ 20, 98085, "", "=q3=Brucehide Jersey", "=ds=#s6#", "#QUESTID:32847#" },
+				{ 22, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 7), ""};
+				{ 23, 98080, "", "=q3=Gorgeous Blouse", "=ds=#s6#", "#QUESTID:32839#" },
 				{
-					{ 17, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7939#","" },
-					{ 17, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
+					{ 24, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7939#","" },
+					{ 24, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
 				};
-				{ 19, 0, "achievement_faction_celestials", "=q6="..AL["Rank 8"], ""};
-				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
-				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
-				{ 23, 0, "achievement_faction_celestials", "=q6="..AL["Rank 9"], ""};
+				{ 26, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 8), ""};
+				{ 27, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 28, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+			};
+			{
+				{ 1, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 9), ""};
 				{
-					{ 24, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8337#","" },
-					{ 24, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8335#", "" },
+					{ 2, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8337#","" },
+					{ 2, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8335#", "" },
 				};
-				{ 26, 0, "achievement_faction_celestials", "=q6="..AL["Rank 10"], ""};
-				{ 27, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
+				{ 4, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 10), ""};
+				{ 5, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
 			};
 		};
 		info = {
@@ -6747,9 +6756,9 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-				{ 24, 98336, "", "=q4=Tyrannical Gladiator's Greatcloak", "=ds=#s4#", "#CONQUEST:1000#"},
-				{ 25, 95348, "", "=q4=Tyrannical Primal Diamond", "=ds=#e32# #e7#", "#CONQUEST:1000#"},
-				{ 26, 98162, "", "=q4=Tyrannical Gladiator's Tabard", "=ds=#s7#", "#CONQUEST:1000#"},
+				{ 24, 98336, "", "=q4=Tyrannical Gladiator's Greatcloak", "=ds=#s4#", "#CONQUEST:1000#"..AL["Rating:"].." 2500"},
+				{ 25, 98162, "", "=q4=Tyrannical Gladiator's Tabard", "=ds=#s7#", "#CONQUEST:1000#"..AL["Rating:"].." 2500"},
+				{ 26, 95348, "", "=q4=Tyrannical Primal Diamond", "=ds=#e32# #e7#", "#CONQUEST:1000#"},
 				{ 27, 98163, "", "=q3=Enchant Weapon - Bloody Dancing Steel", "=ds=#e17#", "#ITEMID:74726#"},
 				{ 28, 95349, "", "=q3=Enchant Weapon - Glorious Tyranny", "=ds=#e17#", "#CONQUEST:1000#"},
 				{ 29, 98164, "", "=q3=Enchant Weapon - Spirit of Conquest", "=ds=#e17#", "#ITEMID:74724#"},
@@ -9206,8 +9215,8 @@ local moduleName = "AtlasLootMoP"
 					{ 20, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "=ds="..ALIL["The Silver Covenant"]};
 				};
 				{
-					{ 21, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..ALIL["Brawl'gar Arena"].." - "..AL["Rank 4"]};
-					{ 21, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..ALIL["Bizmo's Brawlpub"].." - "..AL["Rank 4"]};
+					{ 21, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..ALIL["Brawl'gar Arena"].." - "..string.format(AL["Rank %d"], 4)};
+					{ 21, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..ALIL["Bizmo's Brawlpub"].." - "..string.format(AL["Rank %d"], 4)};
 				};
 			};
 		};
@@ -10152,7 +10161,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..ALIL["Bizmo's Brawlpub"].." / "..ALIL["Brawl'gar Arena"], ""};
-				{ 2, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", AL["Rank 10"]..", 1500 #gold#" },
+				{ 2, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", string.format(AL["Rank %d"], 10)..", 1500 #gold#" },
 				{ 4, 0, "INV_Box_01", "=q6="..AL["Brewfest"], ""};
 				{ 5, 37828, "", "=q4=Great Brewfest Kodo", "=q2="..BabbleBoss["Coren Direbrew"]};
 				{ 6, 33977, "", "=q4=Swift Brewfest Ram", "=q2="..BabbleBoss["Coren Direbrew"]};
@@ -11302,6 +11311,182 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEMID:97849#"};
 				{ 23, 97942, "", "=q1=Sen'jin Spirit Drum", "=ds=", "#KORKRONMEAT:500#"};
 				{ 24, 97919, "", "=q1=Whole-Body Shrinka'", "=ds=", "#KORKRONSTONE:500#"};
+			};
+			{
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 2, 97725, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97727, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97722, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97724, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97728, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97726, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97723, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 17, 97734, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97736, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97738, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97733, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97737, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97735, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97739, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"];
+			};
+			{
+				{ 1, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Feral"].." / "..ALIL["Guardian"]};
+				{ 2, 97745, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97742, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97746, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97744, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97740, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97741, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97743, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Balance"].." / "..ALIL["Restoration"]};
+				{ 17, 97660, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97679, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97635, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97652, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97687, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97668, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97644, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"];
+			};
+			{
+				{ 1, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+				{ 2, 97659, "", "=q4=Tallgrass Guerilla's Cap", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97678, "", "=q4=Tallgrass Guerilla's Mantle", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97636, "", "=q4=Tallgrass Guerilla's Tunic", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97651, "", "=q4=Tallgrass Guerilla's Gloves", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97685, "", "=q4=Tallgrass Guerilla's Belt", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97667, "", "=q4=Tallgrass Guerilla's Pants", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97643, "", "=q4=Tallgrass Guerilla's Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+				{ 17, 97658, "", "=q4=Dissident's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97677, "", "=q4=Dissident's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97671, "", "=q4=Dissident's Robes", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97649, "", "=q4=Dissident's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97686, "", "=q4=Dissident's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97666, "", "=q4=Dissident's Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97642, "", "=q4=Dissident's Boots", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." / "..LOCALIZED_CLASS_NAMES_MALE["MAGE"];
+			};
+			{
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Windwalker"]};
+				{ 2, 97692, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97689, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97688, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97693, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97691, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97690, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97696, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Brewmaster"]};
+				{ 17, 97757, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97759, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97754, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97756, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97760, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97758, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97755, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 10, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Mistweaver"]};
+				{ 11, 97750, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 12, 97752, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 13, 97747, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 14, 97749, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 26, 97753, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 27, 97751, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 28, 97748, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["MONK"];
+			};
+			{
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Retribution"]};
+				{ 2, 97656, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97676, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97634, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97650, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97684, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97665, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97640, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Protection"]};
+				{ 17, 97785, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97787, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97782, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97784, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97788, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97786, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97783, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 10, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Holy"]};
+				{ 11, 97776, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 12, 97781, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 13, 97777, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 14, 97775, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 26, 97779, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 27, 97780, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 28, 97778, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"];
+			};
+			{
+				{ 1, 0, "inv_staff_30", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="};
+				{ 2, 97657, "", "=q4=Reformationist's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97674, "", "=q4=Reformationist's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97670, "", "=q4=Reformationist's Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97648, "", "=q4=Reformationist's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97683, "", "=q4=Reformationist's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97664, "", "=q4=Reformationist's Skirt", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97641, "", "=q4=Reformationist's Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+				{ 17, 97655, "", "=q4=Disowner's Cap", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97675, "", "=q4=Disowner's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97633, "", "=q4=Disowner's Tunic", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97647, "", "=q4=Disowner's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97682, "", "=q4=Disowner's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97663, "", "=q4=Disowner's Pants", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97639, "", "=q4=Disowner's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 10, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+				{ 11, 97653, "", "=q4=Perjurious Mask", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 12, 97673, "", "=q4=Perjurious Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 13, 97669, "", "=q4=Perjurious Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 14, 97646, "", "=q4=Perjurious Wraps", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 26, 97681, "", "=q4=Perjurious Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 27, 97662, "", "=q4=Perjurious Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 28, 97638, "", "=q4=Perjurious Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." / "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"];
+			};
+			{
+				{ 1, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Enhancement"]};
+				{ 2, 97774, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97769, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97771, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97773, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97770, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97768, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97772, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Elemental"].." / "..ALIL["Restoration"]};
+				{ 17, 97625, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97630, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97628, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97626, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97629, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97631, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97627, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"];
+			};
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 2, 97654, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 3, 97672, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 4, 97632, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 5, 97645, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 6, 97680, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 7, 97661, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 8, 97637, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 16, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..ALIL["Protection"]};
+				{ 17, 97764, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 18, 97761, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 19, 97766, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 20, 97763, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
+				{ 21, 97762, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 22, 97765, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
+				{ 23, 97767, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"];
 			}
 		};
 		info = {

@@ -748,8 +748,6 @@ if AL then
 	AL["Revered"] = "매우 우호적";
 	AL["Exalted"] = "확고한 동맹";
 	AL["Best Friend"] = "가장 친한 친구";
-	-- AL["Rank 4"] = true;
-	-- AL["Rank 8"] = true;
 	AL["Winterfin Retreat"] = "겨울지느러미 은신처";
 
 	-- Recipe origin strings

@@ -798,8 +798,6 @@ if AL then
 	AL["Revered"] = "Почтение";
 	AL["Exalted"] = "Превознесение";
 	AL["Best Friend"] = "Лучший друг";
-	-- AL["Rank 4"] = true;
-	-- AL["Rank 8"] = true;
 	AL["Winterfin Retreat"] = "Холодный Плавник";
 
 	-- Recipe origin strings

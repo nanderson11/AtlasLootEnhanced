@@ -9,6 +9,7 @@ v7.06.00 (May ??, 2013)
 Patch 5.3 stuff.
 Added Darkspear Rebellion rewards.
 Updated Heirloom & BoA section with Patch 5.2 items.
+Updated Brawler's Guild rewards.
 Added amount of crafted items to crafting section.
 Compatible with Atlas 1.24.01.
 
