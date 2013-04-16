@@ -217,8 +217,8 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTTortos", 3, EncounterJournalID = 825, BonusLootID = 139680 },
 				{ "ToTMegaera", 4, EncounterJournalID = 821, BonusLootID = 139682 },
 				{ "ToTJiKun", 5, EncounterJournalID = 828, BonusLootID = 139684 },
-				{ "ToTShared", 7, hide = true },
-				{ "ToTTrash", 8, hide = true },
+				{ "ToTShared", 8, hide = true },
+				{ "ToTTrash", 9, hide = true },
 			},
 			["ThroneofThunderC"] = {
 				{ "ShadoPanAssault", 1, hide = true},
