@@ -3091,7 +3091,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95670, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 21, 95666, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				{ 22, 95675, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 24, 94125, "", "=q3=Living Sandling", "=ds=#e13#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {

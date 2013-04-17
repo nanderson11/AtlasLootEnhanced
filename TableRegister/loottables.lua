@@ -223,10 +223,10 @@ AtlasLoot_LootTableRegister = {
 			["ThroneofThunderC"] = {
 				{ "ShadoPanAssault", 1, hide = true},
 				{ "ToTDurumu", 3, EncounterJournalID = 818, BonusLootID = 139686 },
-				{ "ToTPrimordius", 4, EncounterJournalID = 820, BonusLootID = 139687 },
-				{ "ToTDarkAnimus", 5, EncounterJournalID = 824, BonusLootID = 139688 },
-				{ "ToTShared", 9, hide = true },
-				{ "ToTTrash", 10, hide = true },
+				{ "ToTPrimordius", 6, EncounterJournalID = 820, BonusLootID = 139687 },
+				{ "ToTDarkAnimus", 7, EncounterJournalID = 824, BonusLootID = 139688 },
+				{ "ToTShared", 11, hide = true },
+				{ "ToTTrash", 12, hide = true },
 			},
 			["ThroneofThunderD"] = {
 				{ "ShadoPanAssault", 1, hide = true},
