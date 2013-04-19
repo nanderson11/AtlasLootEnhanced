@@ -5122,35 +5122,47 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#", amount = 5 },
 				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#", amount = 5 },
 				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#", amount = 5 },
-				{ 11, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 4), ""};
+				{ 16, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 4), ""};
 				{
-					{ 12, 95050, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
-					{ 12, 95051, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
+					{ 17, 95050, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
+					{ 17, 95051, "", "=q4=The Brassiest Knuckle", "=ds=#s13#", "5000 #gold#" };
 				};
-				{ 13, 98081, "", "=q3=The Boomshirt", "=ds=#s6#", "#QUESTID:32841#" },
-				{ 14, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
-				{ 16, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 5), ""};
-				{ 17, 98084, "", "=q3=Ooze-Soaked Shirt", "=ds=#s6#", "#QUESTID:32845#" },
-				{ 19, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 6), ""};
-				{ 20, 98085, "", "=q3=Brucehide Jersey", "=ds=#s6#", "#QUESTID:32847#" },
-				{ 22, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 7), ""};
-				{ 23, 98080, "", "=q3=Gorgeous Blouse", "=ds=#s6#", "#QUESTID:32839#" },
-				{
-					{ 24, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7939#","" },
-					{ 24, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
-				};
-				{ 26, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 8), ""};
-				{ 27, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
-				{ 28, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+				{ 18, 98079, "", "=q3=Floot-Tooter's Tunic", "=ds=#s6#", "#QUESTID:32837#" },
+				{ 19, 98081, "", "=q3=The Boomshirt", "=ds=#s6#", "#QUESTID:32841#" },
+				{ 20, 98082, "", "=q3=Undisputed Champion's Shirt", "=ds=#s6#", "#QUESTID:32859#" },
+				{ 21, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
+				{ 23, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 5), ""};
+				{ 24, 98084, "", "=q3=Ooze-Soaked Shirt", "=ds=#s6#", "#QUESTID:32845#" },
+				{ 25, 98083, "", "=q3=Sharkskin Tunic", "=ds=#s6#", "#QUESTID:32843#" },
+				{ 26, 98086, "", "=q3=Tuxedo-Like Shirt", "=ds=#s6#", "#QUESTID:32849#" },
+				{ 28, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 6), ""};
+				{ 29, 98085, "", "=q3=Brucehide Jersey", "=ds=#s6#", "#QUESTID:32847#" },
+				{ 30, 98091, "", "=q3=Last Season's Shirt", "=ds=#s6#", "#QUESTID:32851#" },
 			};
 			{
-				{ 1, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 9), ""};
+				{ 1, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 7), ""};
+				{ 2, 98080, "", "=q3=Gorgeous Blouse", "=ds=#s6#", "#QUESTID:32839#" },
+				{ 3, 98087, "", "=q3=Paper Shirt", "=ds=#s6#", "#QUESTID:32857#" },
 				{
-					{ 2, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8337#","" },
-					{ 2, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8335#", "" },
+					{ 4, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7939#","" },
+					{ 4, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
 				};
-				{ 4, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 10), ""};
-				{ 5, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
+				{ 6, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 8), ""};
+				{ 7, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 8, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+				{ 16, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 9), ""};
+				{
+					{ 17, 98543, "", "=q4=Wraps of the Blood-Soaked Brawler", "=ds=#s6#", "#ACHIEVEMENTID:8343#" },
+					{ 17, 98543, "", "=q4=Wraps of the Blood-Soaked Brawler", "=ds=#s6#", "#ACHIEVEMENTID:8340#" },
+				};
+				{ 18, 98092, "", "=q3=Digmaster's Bodysleeve", "=ds=#s6#", "#QUESTID:32853#" },
+				{ 19, 98093, "", "=q3=Sightless Mantle", "=ds=#s6#", "#QUESTID:32855#" },
+				{
+					{ 20, 93228, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8337#","" },
+					{ 20, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:8335#", "" },
+				};
+				{ 22, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 10), ""};
+				{ 23, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", "1500 #gold#" },
 			};
 		};
 		info = {
