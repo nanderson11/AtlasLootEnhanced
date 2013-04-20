@@ -7764,9 +7764,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 1, "s75597", "54797", "=q4=Frosty Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..ALIL["Dalaran"] };
 				{ 2, "s60971", "44558", "=q4=Magnificent Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 3, "s60969", "44554", "=q3=Flying Carpet", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
-				{ 4, "s75247", "54442", "=q1=Embersilk Net", "=ds=#sr# 425", "=ds="..AL["Trainer"], amount = 3 };
-				{ 5, "s55898", "41509", "=q1=Frostweave Net", "=ds=#sr# 360", "=ds="..AL["Trainer"], amount = 5 };
-				{ 6, "s31460", "24268", "=q1=Netherweave Net", "=ds=#sr# 300", "=ds="..AL["Trainer"], amount = 2 };
+				{ 5, "s75247", "54442", "=q1=Embersilk Net", "=ds=#sr# 425", "=ds="..AL["Trainer"], amount = 3 };
+				{ 6, "s55898", "41509", "=q1=Frostweave Net", "=ds=#sr# 360", "=ds="..AL["Trainer"], amount = 5 };
+				{ 7, "s31460", "24268", "=q1=Netherweave Net", "=ds=#sr# 300", "=ds="..AL["Trainer"], amount = 2 };
+				{ 16, "s125557", "90900", "=q3=Imperial Moth", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 17, "s125557", "90902", "=q2=Imperial Silkworm", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {

@@ -3678,8 +3678,9 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95748, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 95758, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 95768, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3705,8 +3706,9 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 94522, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 94937, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 94945, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 			{
 				{ 1, 96127, "", "=q4=Hydra-Scale Bloodcloak", "=ds=#s4#" },
@@ -3756,8 +3758,9 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96492, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 96502, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 96512, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 97960, "", "=q3=Dark Quivering Blob", "=ds=#e13#", ""};
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 			{
 				{ 1, 96871, "", "=q4=Hydra-Scale Bloodcloak", "=ds=#s4#" },
@@ -9177,19 +9180,20 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 89686, "", "=q3=Jade Tentacle", "=ds=#e13#", "#ACHIEVEMENTID:7521#"};
 				{ 11, 44738, "", "=q3=Kirin Tor Familiar", "=ds=#e13#", "#ACHIEVEMENTID:1956#"};
 				{ 12, 44841, "", "=q3=Little Fawn's Salt Lick", "=ds=#e13#", "#ACHIEVEMENTID:2516#"};
-				{ 13, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", "#ACHIEVEMENTID:7934#"};
+				{ 13, 93031, "", "=q3=Mr. Bigglesworth", "=ds=#e13#", "#ACHIEVEMENTID:7934#"};
 				{ 14, 71140, "", "=q3=Nuts' Acorn", "=ds=#e13#", "#ACHIEVEMENTID:5876#" },
 				{ 17, 49912, "", "=q3=Perky Pug", "=ds=#e13#", "#ACHIEVEMENTID:4478#"};
-				{ 18, 88147, "", "=q3=Singing Cricket Cage", "=ds=#e13#", "#ACHIEVEMENTID:6582#"};
-				{ 19, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#", "#ACHIEVEMENTID:1250#"};
+				{ 18, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#", "#ACHIEVEMENTID:1250#"};
+				{ 19, 88147, "", "=q3=Singing Cricket Cage", "=ds=#e13#", "#ACHIEVEMENTID:6582#"};
 				{ 20, 85513, "", "=q3=Thundering Serpent Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:6634#"};
+				{ 21, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
 				{
-					{ 21, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
-					{ 21, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
+					{ 22, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
+					{ 22, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
 				};
-				{ 22, 89736, "", "=q3=Venus", "=ds=#e13#", "#ACHIEVEMENTID:7501#"};
-				{ 23, 71033, "", "=q1=Lil' Tarecgosa", "=ds=#e13#", "#ACHIEVEMENTID:5840#" },
-				{ 24, 60869, "", "=q1=Pebble", "=ds=#e13#", "#ACHIEVEMENTID:5449#"};
+				{ 23, 89736, "", "=q3=Venus", "=ds=#e13#", "#ACHIEVEMENTID:7501#"};
+				{ 24, 71033, "", "=q1=Lil' Tarecgosa", "=ds=#e13#", "#ACHIEVEMENTID:5840#" },
+				{ 25, 60869, "", "=q1=Pebble", "=ds=#e13#", "#ACHIEVEMENTID:5449#"};
 			};
 		};
 		info = {
@@ -9242,11 +9246,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsRare"] = {
 		["Normal"] = {
 			{
-				{ 2, 80008, "", "=q4=Darkmoon Rabbit", "=ds=#e13#", "#ACHIEVEMENTID:6332#"};
-				{ 3, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
+				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "=ds=#e13#", "#ACHIEVEMENTID:6332#"};
+				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
 
-				{ 4, 64403, "", "=q3=Fox Kit", "=ds=#e13#", "=q2="..AL["Baradin Fox"]..", =q1="..ALIL["Tol Barad Peninsula"]};
-				{ 5, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..ALIL["Dalaran"]};
+				{ 3, 64403, "", "=q3=Fox Kit", "=ds=#e13#", "=q2="..AL["Baradin Fox"]..", =q1="..ALIL["Tol Barad Peninsula"]};
+				{ 4, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..ALIL["Dalaran"]};
+				{ 5, 97961, "", "=q3=Half-Empty Food Container", "=ds=#e13#", "=q1="..ALIL["Isle of Thunder"]};
+
 				{ 6, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..ALIL["Karr the Darkener"]..", =q1="..ALIL["Dread Wastes"]};
 				{ 7, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..ALIL["Nalash Verdantis"]..", =q1="..ALIL["Dread Wastes"]};
 				{ 8, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
@@ -9261,49 +9267,64 @@ local moduleName = "AtlasLootMoP"
 
 				{ 15, 95424, "", "=q3=Zandalari Toenibbler", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
 
-				{ 17, 34535, "", "=q1=Azure Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Winterspring"]};
-				{ 18, 29960, "", "=q1=Captured Firefly", "=ds=#e13#", "=q2="..AL["Bogflare Needler"]..", =q1="..ALIL["Zangarmarsh"]};
-				{ 19, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Hillsbrad Foothills"]};
-				{ 20, 10822, "", "=q1=Dark Whelpling", "=ds=#e13#", "=q2="..ALIL["Wetlands"].." / "..ALIL["Badlands"].." / "..ALIL["Burning Steppes"]};
-				{ 21, 48112, "", "=q1=Darting Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Dart's Nest"]..", =q1="..ALIL["Dustwallow Marsh"]};
-				{ 22, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#", "=q2="..ALIL["Oozing Bag"]..", =q1="..AL["Various Locations"]};
-				{ 23, 48116, "", "=q1=Gundrak Hatchling", "=ds=#e13#", "=q2="..AL["Gundrak Raptor"]..", =q1="..ALIL["Zul'Drak"]};
-				{ 24, 48118, "", "=q1=Leaping Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Takk's Nest"]..", =q1="..ALIL["Northern Barrens"]};
-				{ 25, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=ds="..ALIL["Terokkar Forest"]};
-				{ 26, 66076, "", "=q1=Mr. Grubbs", "=ds=#e13#", "=q2="..ALIL["Hidden Stash"]..", =q1="..ALIL["Eastern Plaguelands"]};
-				{ 27, 48122, "", "=q1=Ravasaur Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Ravasaur Matriarch's Nest"]..", =q1="..ALIL["Un'Goro Crater"]};
-				{ 28, 48124, "", "=q1=Razormaw Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Razormaw Matriarch's Nest"]..", =q1="..ALIL["Wetlands"]};
-				{ 29, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
-				{ 30, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Feralas"]};
+				{ 16, 34535, "", "=q1=Azure Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Winterspring"]};
+				{ 17, 29960, "", "=q1=Captured Firefly", "=ds=#e13#", "=q2="..AL["Bogflare Needler"]..", =q1="..ALIL["Zangarmarsh"]};
+				{ 18, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Hillsbrad Foothills"]};
+				{ 19, 10822, "", "=q1=Dark Whelpling", "=ds=#e13#", "=q2="..ALIL["Wetlands"].." / "..ALIL["Badlands"].." / "..ALIL["Burning Steppes"]};
+				{ 20, 48112, "", "=q1=Darting Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Dart's Nest"]..", =q1="..ALIL["Dustwallow Marsh"]};
+				{ 21, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#", "=q2="..ALIL["Oozing Bag"]..", =q1="..AL["Various Locations"]};
+				{ 22, 48116, "", "=q1=Gundrak Hatchling", "=ds=#e13#", "=q2="..AL["Gundrak Raptor"]..", =q1="..ALIL["Zul'Drak"]};
+				{ 23, 48118, "", "=q1=Leaping Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Takk's Nest"]..", =q1="..ALIL["Northern Barrens"]};
+				{ 24, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=ds="..ALIL["Terokkar Forest"]};
+				{ 25, 66076, "", "=q1=Mr. Grubbs", "=ds=#e13#", "=q2="..ALIL["Hidden Stash"]..", =q1="..ALIL["Eastern Plaguelands"]};
+				{ 26, 48122, "", "=q1=Ravasaur Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Ravasaur Matriarch's Nest"]..", =q1="..ALIL["Un'Goro Crater"]};
+				{ 27, 48124, "", "=q1=Razormaw Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Razormaw Matriarch's Nest"]..", =q1="..ALIL["Wetlands"]};
+				{ 28, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
+				{ 29, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Feralas"]};
+				{ 30, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Wetlands"]};
 				extraText = ": "..AL["World Drop"]
 			};
 			{
-				{ 2, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Wetlands"]};
-				{ 3, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#", "=q2="..AL["Noxious Whelp"]..", =q1="..ALIL["Feralas"]};
-				{ 4, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..BabbleRare["Jadefang"]..", =q1="..ALIL["Deepholm"]};
+				{ 1, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#", "=q2="..AL["Noxious Whelp"]..", =q1="..ALIL["Feralas"]};
+				{ 2, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..BabbleRare["Jadefang"]..", =q1="..ALIL["Deepholm"]};
 				extraText = ": "..AL["World Drop"]
 			};
 			{
-				{ 2, 93040, "", "=q3=Anubisath Idol", "=ds=#e13#", "=q2="..BabbleBoss["Emperor Vek'lor"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
-				{ 3, 93037, "", "=q3=Blackwing Banner", "=ds=#e13#", "=q2="..BabbleBoss["Broodlord Lashlayer"]..", =q1="..ALIL["Blackwing Lair"]};
-				{ 4, 93034, "", "=q3=Blazing Rune", "=ds=#e13#", "=q2="..BabbleBoss["Magmadar"]..", =q1="..ALIL["Molten Core"]};
-				{ 5, 93032, "", "=q3=Blighted Spore", "=ds=#e13#", "=q2="..BabbleBoss["Loatheb"]..", =q1="..ALIL["Naxxramas"]};
+				{ 1, 93040, "", "=q3=Anubisath Idol", "=ds=#e13#", "=q2="..BabbleBoss["Emperor Vek'lor"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
+				{ 2, 93037, "", "=q3=Blackwing Banner", "=ds=#e13#", "=q2="..BabbleBoss["Broodlord Lashlayer"]..", =q1="..ALIL["Blackwing Lair"]};
+				{ 3, 93034, "", "=q3=Blazing Rune", "=ds=#e13#", "=q2="..BabbleBoss["Magmadar"]..", =q1="..ALIL["Molten Core"]};
+				{ 4, 93032, "", "=q3=Blighted Spore", "=ds=#e13#", "=q2="..BabbleBoss["Loatheb"]..", =q1="..ALIL["Naxxramas"]};
+				{ 5, 97557, "", "=q3=Brilliant Phoenix Hawk Feather", "=ds=#e13#", "=q2="..BabbleBoss["Al'ar"]..", =q1="..ALIL["Tempest Keep"]};
 				{ 6, 93035, "", "=q3=Core of Hardened Ash", "=ds=#e13#", "=q2="..BabbleBoss["Golemagg the Incinerator"]..", =q1="..ALIL["Molten Core"]};
-				{ 7, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..ALIL["Naxxramas"]};
-				{ 8, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..ALIL["Naxxramas"]};
-				{ 9, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
-				{ 10, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Ji-Kun", 828)..", =q1="..ALIL["Throne of Thunder"]};
-				{ 11, 94125, "", "=q3=Living Sandling", "=ds=#e13#", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Throne of Thunder"]};
-				{ 12, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..ALIL["Molten Core"]};
-				{ 13, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..ALIL["Zul'Aman"]};
-				{ 14, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..ALIL["Magisters' Terrace"]};
-				{ 15, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..ALIL["Lower Blackrock Spire"]};
-				{ 17, 94152, "", "=q3=Son of Animus", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Dark Animus", 824)..", =q1="..ALIL["Throne of Thunder"]};
-				{ 18, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..ALIL["Blackwing Lair"]};
-				{ 19, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
-				{ 20, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..ALIL["Blackwing Lair"]};
-				{ 21, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..ALIL["Lower Blackrock Spire"]};
-				{ 22, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..ALIL["Wailing Caverns"]};
+				{ 7, 97556, "", "=q3=Crystal of the Void", "=ds=#e13#", "=q2="..BabbleBoss["High Astromancer Solarian"]..", =q1="..ALIL["Tempest Keep"]};
+				{ 8, 97960, "", "=q3=Dark Quivering Blob", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Primordius", 820).." - "..AL["Heroic"]..", =q1="..ALIL["Throne of Thunder"]};
+				{ 9, 97554, "", "=q3=Dripping Strider Egg", "=ds=#e13#", "=q2="..BabbleBoss["Lady Vashj"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 10, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..ALIL["Naxxramas"]};
+				{ 11, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..ALIL["Naxxramas"]};
+				{ 12, 97549, "", "=q3=Instant Arcane Sanctum Security Kit", "=ds=#e13#", "=q2="..BabbleBoss["The Curator"]..", =q1="..ALIL["Karazhan"]};
+				{ 13, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
+				{ 14, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Ji-Kun", 828)..", =q1="..ALIL["Throne of Thunder"]};
+				{ 15, 94125, "", "=q3=Living Sandling", "=ds=#e13#", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Throne of Thunder"]};
+				{ 16, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..ALIL["Molten Core"]};
+				{ 17, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..ALIL["Zul'Aman"]};
+				{ 18, 97550, "", "=q3=Netherspace Portal-Stone", "=ds=#e13#", "=q2="..BabbleBoss["Prince Malchezaar"]..", =q1="..ALIL["Karazhan"]};
+				{ 19, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..ALIL["Magisters' Terrace"]};
+				{ 20, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Primordius", 820).." - "..AL["Normal"].."/"..AL["Raid Finder"]..", =q1="..ALIL["Throne of Thunder"]};
+				{ 21, 97551, "", "=q3=Satyr Charm", "=ds=#e13#", "=q2="..BabbleBoss["Terestian Illhoof"]..", =q1="..ALIL["Karazhan"]};
+				{ 22, 97552, "", "=q3=Shell of Tide-Calling", "=ds=#e13#", "=q2="..BabbleBoss["Morogrim Tidewalker"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 23, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..ALIL["Lower Blackrock Spire"]};
+				{ 24, 94152, "", "=q3=Son of Animus", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Dark Animus", 824)..", =q1="..ALIL["Throne of Thunder"]};
+				{ 25, 97548, "", "=q3=Spiky Collar", "=ds=#e13#", "=q2="..BabbleBoss["The Big Bad Wolf"]..", =q1="..ALIL["Karazhan"]};
+				{ 26, 97553, "", "=q3=Tainted Core", "=ds=#e13#", "=q2="..BabbleBoss["Hydross the Unstable"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 27, 97555, "", "=q3=Tiny Fel Engine Key", "=ds=#e13#", "=q2="..BabbleBoss["Void Reaver"]..", =q1="..ALIL["Tempest Keep"]};
+				{ 28, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..ALIL["Blackwing Lair"]};
+				{ 29, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..ALIL["Temple of Ahn'Qiraj"]};
+				{ 30, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..ALIL["Blackwing Lair"]};
+				extraText = ": "..AL["Dungeon/Raid"]
+			};
+			{
+				{ 1, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..ALIL["Lower Blackrock Spire"]};
+				{ 2, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..ALIL["Wailing Caverns"]};
 				extraText = ": "..AL["Dungeon/Raid"]
 			};
 		};
