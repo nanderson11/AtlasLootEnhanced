@@ -9593,33 +9593,31 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsNEW"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
-				{ 2, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
-				{ 3, 94125, "", "=q3=Living Sandling", "=ds=#e13#"};
-				{ 4, 94152, "", "=q3=Son of Animus", "=ds=#e13#"};
-				{ 5, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#"};
-				{ 6, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#"};
-				{ 7, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#"};
-				{ 8, 95423, "", "=q3=Zandalari Footslasher", "=ds=#e13#"};
-				{ 9, 94126, "", "=q3=Zandalari Kneebiter", "=ds=#e13#"};
-				{ 10, 95424, "", "=q3=Zandalari Toenibbler", "=ds=#e13#"};
-				{ 12, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 13, 93669, "", "=q3=Gusting Grimoire", "=ds=#e13#", "=q1="..AL["Betrayal of the Guardian"]};
-				{ 16, 0, "INV_Box_01", "=q6=#p24#", ""};
-				{ 17, 94933, "", "=q3=Tiny Blue Carp", "=ds=#e13#"};
-				{ 18, 94934, "", "=q3=Tiny Green Carp", "=ds=#e13#"};
-				{ 19, 94932, "", "=q3=Tiny Red Carp", "=ds=#e13#"};
-				{ 20, 94935, "", "=q3=Tiny White Carp", "=ds=#e13#"};
-				{ 22, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
-				{ 23, 94210, "", "=q3=Mountain Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32603#"};
-				{ 24, 94025, "", "=q3=Red Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
-				{ 25, 94209, "", "=q3=Snowy Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
-				{ 26, 94208, "", "=q3=Sunfur Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
-				{ 27, 94190, "", "=q3=Spectral Porcupette", "=ds=#e13#", "=q1=#m4#: #QUESTID:32616#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Companions"], ""};
+				{ 2, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 5, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
+				{ 8, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=ds="..ALIL["Darkspear Rebellion"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
+				{ 17, 97557, "", "=q3=Brilliant Phoenix Hawk Feather", "=ds=#e13#", "=q2="..BabbleBoss["Al'ar"]..", =q1="..ALIL["Tempest Keep"]};
+				{ 18, 97556, "", "=q3=Crystal of the Void", "=ds=#e13#", "=q2="..BabbleBoss["High Astromancer Solarian"]..", =q1="..ALIL["Tempest Keep"]};
+				{ 19, 97960, "", "=q3=Dark Quivering Blob", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Primordius", 820).." - "..AL["Heroic"]..", =q1="..ALIL["Throne of Thunder"]};
+				{ 20, 97554, "", "=q3=Dripping Strider Egg", "=ds=#e13#", "=q2="..BabbleBoss["Lady Vashj"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 21, 97961, "", "=q3=Half-Empty Food Container", "=ds=#e13#", "=q1="..ALIL["Isle of Thunder"]};
+
+				{ 22, 97549, "", "=q3=Instant Arcane Sanctum Security Kit", "=ds=#e13#", "=q2="..BabbleBoss["The Curator"]..", =q1="..ALIL["Karazhan"]};
+				{ 23, 97550, "", "=q3=Netherspace Portal-Stone", "=ds=#e13#", "=q2="..BabbleBoss["Prince Malchezaar"]..", =q1="..ALIL["Karazhan"]};
+				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Primordius", 820).." - "..AL["Normal"].."/"..AL["Raid Finder"]..", =q1="..ALIL["Throne of Thunder"]};
+				{ 25, 97551, "", "=q3=Satyr Charm", "=ds=#e13#", "=q2="..BabbleBoss["Terestian Illhoof"]..", =q1="..ALIL["Karazhan"]};
+				{ 26, 97552, "", "=q3=Shell of Tide-Calling", "=ds=#e13#", "=q2="..BabbleBoss["Morogrim Tidewalker"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 27, 97548, "", "=q3=Spiky Collar", "=ds=#e13#", "=q2="..BabbleBoss["The Big Bad Wolf"]..", =q1="..ALIL["Karazhan"]};
+				{ 28, 97553, "", "=q3=Tainted Core", "=ds=#e13#", "=q2="..BabbleBoss["Hydross the Unstable"]..", =q1="..ALIL["Serpentshrine Cavern"]};
+				{ 29, 97555, "", "=q3=Tiny Fel Engine Key", "=ds=#e13#", "=q2="..BabbleBoss["Void Reaver"]..", =q1="..ALIL["Tempest Keep"]};
 			};
 		};
 		info = {
-			name = AL["New Companions"].." - Patch 5.2",
+			name = AL["New Companions"].." - Patch 5.3",
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
