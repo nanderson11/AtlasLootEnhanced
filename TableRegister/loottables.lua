@@ -1934,16 +1934,6 @@ AtlasLoot_LootTableRegister = {
 		},
 	},
 
-	["Sets"] = {
-		["EmblemofTriumph"] = {
-			["Bosses"] = {
-				{ "EmblemofTriumph" },
-				{ "EmblemofTriumph2" },
-			},
-			["Info"] = { AL["ilvl 245"].." - "..AL["Rewards"], "AtlasLootWotLK"},
-		},
-	},
-
 	["TierSets"] = {
 		["TierSetsMenus"] = {
 			["Bosses"] = {

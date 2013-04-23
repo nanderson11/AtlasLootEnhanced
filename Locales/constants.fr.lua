@@ -373,17 +373,7 @@ if AL then
 	AL["Brutal"] = "Brutale";
 	AL["Wrathful"] = "Courroucé";
 	AL["Cataclysmic"] = "Cataclysmique";
-	--AL["ilvl 200"] = true;
-	--AL["ilvl 213"] = true;
-	--AL["ilvl 226"] = true;
-	--AL["ilvl 245"] = true;
-	--AL["ilvl 264"] = true;
-	--AL["ilvl 397"] = true;
-	--AL["ilvl 470"] = true;
-	--AL["ilvl 490"] = true;
-	--AL["ilvl 489"] = true;
-	--AL["ilvl 496"] = true;
-	--AL["ilvl 498"] = true;
+	--AL["ilvl %d"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";

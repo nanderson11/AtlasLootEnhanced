@@ -373,17 +373,7 @@ if AL then
 	AL["Brutal"] = "野蛮";
 	AL["Wrathful"] = "暴怒";
 	AL["Cataclysmic"] = "灾变";
-	AL["ilvl 200"] = "等级200";
-	AL["ilvl 213"] = "等级213";
-	AL["ilvl 226"] = "等级226";
-	AL["ilvl 245"] = "等级245";
-	AL["ilvl 264"] = "等级264";
-	AL["ilvl 397"] = "等级397";
-	AL["ilvl 470"] = "等级470";
-	AL["ilvl 490"] = "等级490";
-	AL["ilvl 489"] = "等级489";
-	AL["ilvl 496"] = "等级496";
-	AL["ilvl 498"] = "等级498";
+	AL["ilvl %d"] = "等级%d";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";

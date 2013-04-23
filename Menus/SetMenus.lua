@@ -105,19 +105,18 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 	AtlasLoot_Data["JPWRATHMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..AL["ilvl 264"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
-				{ 4, "EmblemofTriumph", "spell_holy_summonchampion", "=ds="..AL["ilvl 245"], "=q5="..BabbleInventory["Armor"]};
-				{ 5, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..AL["ilvl 245"], "=q5="..AL["Accessories"].." & "..AL["Weapons"]};
-				{ 7, "EmblemofConquest", "Spell_Holy_ChampionsGrace", "=ds="..AL["ilvl 226"], "=q5="..BabbleInventory["Armor"]};
-				{ 9, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["ilvl 213"], "=q5="..BabbleInventory["Armor"]};
-				{ 11, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
-				{ 12, "EmblemofHeroism#3", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..BabbleInventory["Miscellaneous"]};
-				{ 14, "PVP80SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 80"]};
+				{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..string.format(AL["ilvl %d"], 264), "=q5="..BabbleInventory["Armor"]};
+				{ 4, "EmblemofTriumph", "spell_holy_summonchampion", "=ds="..string.format(AL["ilvl %d"], 245), "=q5="..BabbleInventory["Armor"]};
+				{ 5, "EmblemofTriumph#2", "spell_holy_summonchampion", "=ds="..string.format(AL["ilvl %d"], 245), "=q5="..AL["Accessories"].." & "..AL["Weapons"]};
+				{ 7, "EmblemofConquest", "Spell_Holy_ChampionsGrace", "=ds="..string.format(AL["ilvl %d"], 226), "=q5="..BabbleInventory["Armor"]};
+				{ 9, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..string.format(AL["ilvl %d"], 213), "=q5="..BabbleInventory["Armor"]};
+				{ 11, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..string.format(AL["ilvl %d"], 200), "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
+				{ 13, "PVP80SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 80"]};
 				{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Set"], "=q5="..AL["10/25 Man"]};
 				{ 19, "T9SET", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Set"], "=q5="..AL["10/25 Man"]};
-				{ 22, "EmblemofConquest#2", "Spell_Holy_ChampionsGrace", "=ds="..AL["ilvl 226"], "=q5="..AL["Accessories"]};
-				{ 24, "EmblemofValor#2", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["ilvl 213"], "=q5="..AL["Accessories"]};
-				{ 26, "EmblemofHeroism#2", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..AL["Accessories"]};
+				{ 22, "EmblemofConquest#2", "Spell_Holy_ChampionsGrace", "=ds="..string.format(AL["ilvl %d"], 226), "=q5="..AL["Accessories"]};
+				{ 24, "EmblemofValor#2", "Spell_Holy_ProclaimChampion_02", "=ds="..string.format(AL["ilvl %d"], 213), "=q5="..AL["Accessories"]};
+				{ 26, "EmblemofHeroism#2", "Spell_Holy_ProclaimChampion", "=ds="..string.format(AL["ilvl %d"], 200), "=q5="..AL["Accessories"]};
 			};
 		};
 		info = {

@@ -1723,7 +1723,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["Patterns/Plans"].." ("..AL["ilvl 496"]..")",
+			name = AL["Patterns/Plans"].." ("..string.format(AL["ilvl %d"], 496)..")",
 			module = moduleName,
 		};
 	};
@@ -7192,7 +7192,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." - "..AL["ilvl 498"].." - "..AL["Elite"],
+			name = AL["PvP Weapons"].." - "..string.format(AL["ilvl %d"], 498).." - "..AL["Elite"],
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
@@ -7273,7 +7273,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." - "..AL["ilvl 498"],
+			name = AL["PvP Weapons"].." - "..string.format(AL["ilvl %d"], 498),
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
@@ -7311,7 +7311,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." - "..AL["ilvl 470"],
+			name = AL["PvP Weapons"].." - "..string.format(AL["ilvl %d"], 470),
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
@@ -11061,13 +11061,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ValorPointsMoP"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95081, "", "=q4=Fire Support Robes", "=ds=#s5#, #a1#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 3, 95136, "", "=q4=Troll-Burner Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 4, 95106, "", "=q4=Flameweaver Handwraps", "=ds=#s9#, #a1#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95090, "", "=q4=Firestrike Cord", "=ds=#s10#, #a1#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95123, "", "=q4=Charfire Leggings", "=ds=#s11#, #a1#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95082, "", "=q4=Robes of Misty Bindings", "=ds=#s5#, #a1#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 18, 95135, "", "=q4=Bracers of Shielding Thought", "=ds=#s8#, #a1#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 95105, "", "=q4=Ghostbinder Grips", "=ds=#s9#, #a1#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
@@ -11076,7 +11076,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 
 				{
 					{ 2, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
@@ -11086,7 +11086,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 6, 89337, "", "=q4=Firecracker Corona", "=ds=#s1#, #a1#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89340, "", "=q4=Mantle of the Golden Sun", "=ds=#s3#, #a1#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89433, "", "=q4=Vestments of Thundering Skies", "=ds=#s5#, #a1#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11095,7 +11095,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 89062, "", "=q4=Klaxxi Lash of the Orator", "=ds=#s10#, #a1#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 12, 89088, "", "=q4=Leggings of the Poisoned Soul", "=ds=#s11#, #a1#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 13, 88878, "", "=q4=Void Flame Slippers", "=ds=#s12#, #a1#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 17, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 17, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11104,7 +11104,7 @@ local moduleName = "AtlasLootMoP"
 					{ 18, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 18, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 21, 89338, "", "=q4=Yalia's Cowl", "=ds=#s1#, #a1#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 22, 89339, "", "=q4=Tenderheart Shoulders", "=ds=#s3#, #a1#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 23, 89434, "", "=q4=Robe of the Five Sisters", "=ds=#s5#, #a1#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11116,13 +11116,13 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 3, 95133, "", "=q4=Willow-Weave Armbands", "=ds=#s8#, #a2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 4, 95108, "", "=q4=Daggerfinger Clutches", "=ds=#s9#, #a2#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95125, "", "=q4=Legguards of Hidden Knives", "=ds=#s11#, #a2#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 18, 95134, "", "=q4=Hearthfire Armwraps", "=ds=#s8#, #a2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 95107, "", "=q4=Gloves of Enduring Renewal", "=ds=#s9#, #a2#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
@@ -11131,7 +11131,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 2, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 2, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11140,7 +11140,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 6, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89431, "", "=q4=Softfoot Silentwrap", "=ds=#s5#, #a2#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11149,7 +11149,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 89060, "", "=q4=Klaxxi Lash of the Borrower", "=ds=#s10#, #a2#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 12, 89090, "", "=q4=Dreadsworn Slayer Legs", "=ds=#s11#, #a2#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 13, 88868, "", "=q4=Tukka-Tuk's Hairy Boots", "=ds=#s12#, #a2#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 17, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 17, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11158,7 +11158,7 @@ local moduleName = "AtlasLootMoP"
 					{ 18, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 18, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 21, 89308, "", "=q4=Snowdrift Helm", "=ds=#s1#, #a2#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 22, 89342, "", "=q4=Whitepetal Shouldergarb", "=ds=#s3#, #a2#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 23, 89432, "", "=q4=Mistfall Robes", "=ds=#s5#, #a2#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11170,13 +11170,13 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95079, "", "=q4=Carapace of Segmented Scale", "=ds=#s5#, #a3#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 3, 95131, "", "=q4=Powderburn Bracers", "=ds=#s8#, #a3#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 4, 95109, "", "=q4=Gauntlets of the Longbow", "=ds=#s9#, #a3#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95086, "", "=q4=Nightflight Chain", "=ds=#s10#, #a3#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95127, "", "=q4=Homeguard Leggings", "=ds=#s11#, #a3#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95080, "", "=q4=Skinsealer Tunic", "=ds=#s5#, #a3#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 18, 95132, "", "=q4=Spiritcaller Cuffs", "=ds=#s8#, #a3#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 95112, "", "=q4=Totemshaper Gloves", "=ds=#s9#, #a3#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
@@ -11185,7 +11185,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 2, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 2, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11194,7 +11194,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 6, 89291, "", "=q4=Hawkmaster's Headguard", "=ds=#s1#, #a3#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89344, "", "=q4=Windwalker Spaulders", "=ds=#s3#, #a3#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89430, "", "=q4=Breastplate of the Golden Pagoda", "=ds=#s5#, #a3#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11203,7 +11203,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 89058, "", "=q4=Klaxxi Lash of the Winnower", "=ds=#s10#, #a3#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 12, 89092, "", "=q4=Locust Swarm Legguards", "=ds=#s11#, #a3#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 13, 88866, "", "=q4=Steps of the War Serpent", "=ds=#s12#, #a3#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 17, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 17, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11212,7 +11212,7 @@ local moduleName = "AtlasLootMoP"
 					{ 18, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 18, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 21, 89296, "", "=q4=Nightwatcher's Helm", "=ds=#s1#, #a3#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 22, 89343, "", "=q4=Mindbender Shoulders", "=ds=#s3#, #a3#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 23, 89429, "", "=q4=Robes of the Setting Sun", "=ds=#s5#, #a3#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11224,19 +11224,19 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95075, "", "=q4=Gianttooth Chestplate", "=ds=#s5#, #a4#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 3, 95128, "", "=q4=Bonecrusher Bracers", "=ds=#s8#, #a4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 4, 95111, "", "=q4=Bloodstained Skullsqueezers", "=ds=#s9#, #a4#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95083, "", "=q4=Swordhook Slingbelt", "=ds=#s10#, #a4#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95121, "", "=q4=Vaultbreaker Greaves", "=ds=#s11#, #a4#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 8, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 9, 95076, "", "=q4=Breastplate of Brutal Strikes", "=ds=#s5#, #a4#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 10, 95129, "", "=q4=Axebinder Wristguards", "=ds=#s8#, #a4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 11, 95110, "", "=q4=Stoneward Handguards", "=ds=#s9#, #a4#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 12, 95084, "", "=q4=Reinforced Spiritplate Girdle", "=ds=#s10#, #a4#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 13, 95119, "", "=q4=Thunderbreaker Legplates", "=ds=#s11#, #a4#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95074, "", "=q4=Hauberk of Gleaming Fire", "=ds=#s5#, #a4#", "#VALOR:2250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 18, 95130, "", "=q4=Softscar Armplates", "=ds=#s8#, #a4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 95113, "", "=q4=Touch of Soothing Mists", "=ds=#s9#, #a4#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
@@ -11245,7 +11245,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 2, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 2, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11254,7 +11254,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 6, 89280, "", "=q4=Voice Amplyifying Greathelm", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89345, "", "=q4=Stonetoe Spaulders", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89420, "", "=q4=Dawnblade's Chestguard", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11263,7 +11263,7 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 89055, "", "=q4=Klaxxi Lash of the Rescinder", "=ds=#s10#, #a4#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 12, 89095, "", "=q4=Legguards of the Unscathed", "=ds=#s11#, #a4#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
 				{ 13, 88862, "", "=q4=Tankiss Warstompers", "=ds=#s12#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11272,7 +11272,7 @@ local moduleName = "AtlasLootMoP"
 					{ 18, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 18, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 21, 89216, "", "=q4=Yi's Least Favorite Helmet", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 22, 89346, "", "=q4=Shoulders of Autumnlight", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 23, 89421, "", "=q4=Cuirass of the Twin Monoliths", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11284,7 +11284,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 2, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 2, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11293,7 +11293,7 @@ local moduleName = "AtlasLootMoP"
 					{ 3, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 3, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 6, 89096, "", "=q4=Six Pool's Open Helm", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 7, 89347, "", "=q4=Paleblade Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
 				{ 8, 89423, "", "=q4=Battleguard of Guo-Lai", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
@@ -11305,25 +11305,25 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95118, "", "=q4=Dreamweaver Drape", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 3, 95116, "", "=q4=Longshot Forestcloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 4, 95115, "", "=q4=Many-Layered Scalecloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95117, "", "=q4=Shadowspike Cloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 6, 95114, "", "=q4=Spikeshard Greatcloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 8, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 9, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
 				{ 10, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
 				{ 11, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
 				{ 12, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
 				{ 13, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95146, "", "=q4=Destroyer's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 18, 95143, "", "=q4=Flanker's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 19, 95145, "", "=q4=Mender's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 20, 95142, "", "=q4=Striker's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 21, 95144, "", "=q4=Vanguard's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 23, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 24, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
 				{ 25, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
 				{ 26, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
@@ -11332,13 +11332,13 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 2, 95140, "", "=q4=Band of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 3, 95141, "", "=q4=Loop of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 4, 95139, "", "=q4=Ring of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 5, 95137, "", "=q4=Seal of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95138, "", "=q4=Signet of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 522"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 94508, "", "=q4=Brutal Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 18, 94509, "", "=q4=Soothing Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 94507, "", "=q4=Steadfast Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
@@ -11347,7 +11347,7 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"];
 			};
 			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
 					{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
@@ -11368,13 +11368,13 @@ local moduleName = "AtlasLootMoP"
 					{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
 					{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
 				};
-				{ 8, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 9, 89070, "", "=q4=Anji's Keepsake", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
 				{ 10, 89071, "", "=q4=Alani's Inflexible Ring", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
 				{ 11, 89073, "", "=q4=Leven's Circle of Hope", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
 				{ 12, 89069, "", "=q4=Ring of the Golden Stair", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
 				{ 13, 89072, "", "=q4=Simple Harmonius Ring", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
 					{ 17, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 17, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
@@ -11395,7 +11395,7 @@ local moduleName = "AtlasLootMoP"
 					{ 21, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
 					{ 21, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
 				};
-				{ 23, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
+				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
 				{ 24, 89081, "", "=q4=Blossom of Pure Snow", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 25, 89082, "", "=q4=Hawkmaster's Talon", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
 				{ 26, 89083, "", "=q4=Iron Belly Wok", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
