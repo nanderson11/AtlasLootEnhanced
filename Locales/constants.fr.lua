@@ -373,7 +373,7 @@ if AL then
 	AL["Brutal"] = "Brutale";
 	AL["Wrathful"] = "Courroucé";
 	AL["Cataclysmic"] = "Cataclysmique";
-	--AL["ilvl %d"] = true;
+	--AL["ilvl %d"] = true; -- usage: string.format(AL["ilvl %d"], 522)
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
