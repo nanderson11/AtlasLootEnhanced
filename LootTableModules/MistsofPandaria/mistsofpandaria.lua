@@ -5181,8 +5181,41 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["DominanceOffensive"] = {
 		["Normal"] = {
 			{
+				{ 1, 0, "pvpcurrency-honor-horde", "=q6=#r3#", ""};
+				{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:937#" };
+				{ 3, 93251, "", "=q4=Dominator's Circle", "=ds=#s13#", "#VALOR:937#" };
+				{ 4, 93250, "", "=q4=Dominator's Loop", "=ds=#s13#", "#VALOR:937#" };
+				{ 5, 93252, "", "=q4=Dominator's Seal", "=ds=#s13#", "#VALOR:937#" };
+				{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:937#" };
+				{ 8, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
+				{ 9, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+				{ 10, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+				{ 11, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+				{ 12, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+				{ 13, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+				{ 14, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+				{ 15, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 16, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
+				{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 18, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 20, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+				{ 21, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+				{ 22, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+				{ 23, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+				{ 24, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+				{ 25, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+				{ 26, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+				{ 27, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+				{ 28, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+			};
+			{
 				{ 1, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
-				{ 2, 93232, "", "=q7=Grand Commendation of the Dominance Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 2, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 3, 93257, "", "=q4=Medallion of Mystifying Vapors", "=ds=#s14#", "#VALOR:1312#" };
+				{ 4, 93256, "", "=q4=Skullrender Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 5, 93254, "", "=q4=Static-Caster's Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 6, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 7, 93232, "", "=q7=Grand Commendation of the Dominance Offensive", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "pvpcurrency-honor-horde", "=q6=#r5#", ""};
 				{ 17, 93169, "", "=q4=Grand Armored Wyvern", "=ds=#e27#", "=ds=2,000 #gold#"};
 			};
@@ -5391,8 +5424,41 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["OperationShieldwall"] = {
 		["Normal"] = {
 			{
+				{ 1, 0, "pvpcurrency-honor-alliance", "=q6=#r3#", ""};
+				{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
+				{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
+				{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
+				{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
+				{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
+				{ 8, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
+				{ 9, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+				{ 10, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+				{ 11, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+				{ 12, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+				{ 13, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+				{ 14, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+				{ 15, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 16, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
+				{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 18, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+				{ 20, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+				{ 21, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+				{ 22, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+				{ 23, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+				{ 24, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+				{ 25, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+				{ 26, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+				{ 27, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+				{ 28, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+			};
+			{
 				{ 1, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
-				{ 2, 93231, "", "=q7=Grand Commendation of Operation: Shieldwall", "=ds=", "=ds=45 #gold#"};
+				{ 2, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 3, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 4, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 5, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 6, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1312#" };
+				{ 7, 93231, "", "=q7=Grand Commendation of Operation: Shieldwall", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "pvpcurrency-honor-alliance", "=q6=#r5#", ""};
 				{ 17, 93168, "", "=q4=Grand Armored Gryphon", "=ds=#e27#", "=ds=2,000 #gold#"};
 			};
@@ -9479,13 +9545,14 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#", "=q2="..AL["Burning Crusade"].." "..AL["Collector's Edition"]};
 				{ 17, 56806, "", "=q3=Mini Thor", "=ds=#e13#", "#ACHIEVEMENTID:4824#"};
 				{ 18, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#", "#ACHIEVEMENTID:3618#"};
-				{ 19, 71726, "", "=q3=Murky's Little Soulstone", "=ds=#e13#", "#ACHIEVEMENTID:6185#"};
-				{ 20, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#", "#ACHIEVEMENTID:665#"};
-				{ 21, 13583, "", "=q3=Panda Collar", "=ds=#e13#", "#ACHIEVEMENTID:663#"};
-				{ 22, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#", "=ds=#e13#"};
-				{ 23, 67418, "", "=q3=Smoldering Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:5378#"};
-				{ 24, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#", "#ACHIEVEMENTID:414#"};
-				{ 25, 13582, "", "=q3=Zergling Leash", "=ds=#e13#", "#ACHIEVEMENTID:664#"};
+				{ 19, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""}; -- ACM not yet on PTR
+				{ 20, 71726, "", "=q3=Murky's Little Soulstone", "=ds=#e13#", "#ACHIEVEMENTID:6185#"};
+				{ 21, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#", "#ACHIEVEMENTID:665#"};
+				{ 22, 13583, "", "=q3=Panda Collar", "=ds=#e13#", "#ACHIEVEMENTID:663#"};
+				{ 23, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#", "=ds=#e13#"};
+				{ 24, 67418, "", "=q3=Smoldering Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:5378#"};
+				{ 25, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#", "#ACHIEVEMENTID:414#"};
+				{ 26, 13582, "", "=q3=Zergling Leash", "=ds=#e13#", "#ACHIEVEMENTID:664#"};
 			};
 		};
 		info = {

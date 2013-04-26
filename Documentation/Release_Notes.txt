@@ -11,7 +11,7 @@ Added Darkspear Rebellion rewards.
 Updated Heirloom & BoA section with Patch 5.2 items.
 Updated Brawler's Guild rewards.
 Added amount of crafted items to crafting section.
-Compatible with Atlas 1.24.01.
+Compatible with Atlas 1.25.00.
 
 v7.05.03 (Apr 03, 2013)
 Added all Thunderforged items to Throne of Thunder loot tables.
