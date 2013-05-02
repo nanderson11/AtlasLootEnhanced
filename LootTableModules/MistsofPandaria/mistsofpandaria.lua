@@ -4265,6 +4265,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95022, "", "=q4=Ra-den's Ruinous Ring", "=ds=#s13#" },
 				{ 19, 95019, "", "=q4=Ra-den's Summoning Band", "=ds=#s13#" },
 				{ 20, 95021, "", "=q4=Ra-den's Swift Seal", "=ds=#s13#" },
+				{ 22, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -9272,15 +9273,16 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 49912, "", "=q3=Perky Pug", "=ds=#e13#", "#ACHIEVEMENTID:4478#"};
 				{ 18, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#", "#ACHIEVEMENTID:1250#"};
 				{ 19, 88147, "", "=q3=Singing Cricket Cage", "=ds=#e13#", "#ACHIEVEMENTID:6582#"};
-				{ 20, 85513, "", "=q3=Thundering Serpent Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:6634#"};
-				{ 21, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
+				{ 20, 94191, "", "=q3=Stunted Direhorn", "=ds=#e13#", "#ACHIEVEMENTID:8300#"};
+				{ 21, 85513, "", "=q3=Thundering Serpent Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:6634#"};
+				{ 22, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
 				{
-					{ 22, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
-					{ 22, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
+					{ 23, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
+					{ 23, 44810, "", "=q3=Turkey Cage", "=ds=#e13#", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
 				};
-				{ 23, 89736, "", "=q3=Venus", "=ds=#e13#", "#ACHIEVEMENTID:7501#"};
-				{ 24, 71033, "", "=q1=Lil' Tarecgosa", "=ds=#e13#", "#ACHIEVEMENTID:5840#" },
-				{ 25, 60869, "", "=q1=Pebble", "=ds=#e13#", "#ACHIEVEMENTID:5449#"};
+				{ 24, 89736, "", "=q3=Venus", "=ds=#e13#", "#ACHIEVEMENTID:7501#"};
+				{ 25, 71033, "", "=q1=Lil' Tarecgosa", "=ds=#e13#", "#ACHIEVEMENTID:5840#" },
+				{ 26, 60869, "", "=q1=Pebble", "=ds=#e13#", "#ACHIEVEMENTID:5449#"};
 			};
 		};
 		info = {
@@ -9682,11 +9684,14 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Companions"], ""};
-				{ 2, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 5, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
-				{ 7, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
-				{ 8, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=ds="..ALIL["Darkspear Rebellion"]};
+				{ 2, 94191, "", "=q3=Stunted Direhorn", "=ds=#e13#", "#ACHIEVEMENTID:8300#"};
+				{ 3, 97558, "", "=q3=Tito's Basket", "=ds=#e13#", "#ACHIEVEMENTID:8293#"};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 6, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
+				{ 9, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=ds="..ALIL["Darkspear Rebellion"]};
+				{ 11, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
+				{ 12, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
 				{ 17, 97557, "", "=q3=Brilliant Phoenix Hawk Feather", "=ds=#e13#", "=q2="..BabbleBoss["Al'ar"]..", =q1="..ALIL["Tempest Keep"]};
 				{ 18, 97556, "", "=q3=Crystal of the Void", "=ds=#e13#", "=q2="..BabbleBoss["High Astromancer Solarian"]..", =q1="..ALIL["Tempest Keep"]};
@@ -10627,8 +10632,10 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 38320, "", "=q1=Dire Brew", "=q1="..ALIL["Blackrock Depths"]};
 				{ 12, 23864, "", "=q1=Torment of the Worgen", "=q1="..ALIL["Karazhan"]};
 				{ 13, 44012, "", "=q1=Underbelly Elixir", "=q1="..ALIL["Dalaran"]};
-				{ 17, 0, "INV_Box_01", "=q6="..AL["Rare"]};
-				{ 18, 89373, "", "=q2=Scotty's Lucky Coin", "=q2="..ALIL["Scotty"]..", =q1="..ALIL["Townlong Steppes"]};
+				{ 17, 0, "INV_Box_01", "=q6="..AL["Dungeon"].." / "..AL["Raid"]};
+				{ 18, 94604, "", "=q2=Burning Seed", "=q1="..ALIL["Firelands"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Rare"]};
+				{ 21, 89373, "", "=q2=Scotty's Lucky Coin", "=q2="..ALIL["Scotty"]..", =q1="..ALIL["Townlong Steppes"]};
 			};
 			{
 				{ 2, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
@@ -10815,28 +10822,30 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
 				{ 4, 93896, "", "=q7=Forceful Hand of Justice", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEMID:42991#"};
 				{ 5, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
-				{ 7, 93857, "", "=q7=Vengeful Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42944#"};
-				{ 8, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 9, 93845, "", "=q7=Gore-Steeped Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69893#"};
-				{ 10, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 11, 93856, "", "=q7=Noble Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42945#"};
-				{ 12, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 13, 93843, "", "=q7=Hardened Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42943#"};
-				{ 14, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 16, 93853, "", "=q7=Pious Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:1090# #DARKMOON:44# #ITEMID:42948#"};
-				{ 17, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 93847, "", "=q7=Crushing Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48716#"};
-				{ 19, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 20, 93846, "", "=q7=Re-Engineered Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:48718#"};
-				{ 21, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 22, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
-				{ 23, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
-				{ 24, 93844, "", "=q7=Refinished Warden Staff", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:79131#"};
-				{ 25, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 26, 93854, "", "=q7=Scholarly Headmaster's Charge", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42947#"};
-				{ 27, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 28, 93855, "", "=q7=War-Torn Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42946#"};
-				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 6, 93857, "", "=q7=Vengeful Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42944#"};
+				{ 7, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 8, 93845, "", "=q7=Gore-Steeped Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69893#"};
+				{ 9, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 10, 93856, "", "=q7=Noble Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42945#"};
+				{ 11, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 12, 93843, "", "=q7=Hardened Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42943#"};
+				{ 13, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 14, 93853, "", "=q7=Pious Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:1090# #DARKMOON:44# #ITEMID:42948#"};
+				{ 15, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 16, 93847, "", "=q7=Crushing Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48716#"};
+				{ 17, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 93846, "", "=q7=Re-Engineered Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:48718#"};
+				{ 19, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+				{ 22, 93844, "", "=q7=Refinished Warden Staff", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:79131#"};
+				{ 23, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 24, 93854, "", "=q7=Scholarly Headmaster's Charge", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42947#"};
+				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 26, 93855, "", "=q7=War-Torn Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42946#"};
+				{ 27, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 28, 93902, "", "=q7=Flamescarred Draconian Deflector", "=ds=#w8#", "#JUSTICE:2175#"};
+				{ 29, 93903, "", "=q7=Weathered Observer's Shield", "=ds=#w8#", "#JUSTICE:2175#"};
 				{ 30, 93904, "", "=q7=Musty Tome of the Lost", "=ds=#s15#", "#JUSTICE:2175#"};
 				extraText = ": "..AL["Accessories"].." / "..AL["Weapons"];
 			};
