@@ -609,10 +609,10 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
 	AL["Raid Finder"] = "团队查找器";
+	AL["Thunderforged"] = "雷霆";
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
 	AL["Elite"] = "精锐";
 	AL["Vegetables"] = "蔬菜";
-	AL["Thunderforged"] = "雷霆";
 
 	-- Loot Table Names
 	AL["Level %s"] = "等级%s"; -- usage: string.format(AL["Level %s"], "85-89")

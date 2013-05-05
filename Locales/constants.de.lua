@@ -606,10 +606,10 @@ if AL then
 	AL["Rare"] = "Selten";
 	AL["Specializations"] = "Spezialisierungen";
 	AL["Raid Finder"] = "Schlachtzugsbrowser";
+	AL["Thunderforged"] = "Donnergeschmiedet";
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
 	-- AL["Elite"] = true;
 	AL["Vegetables"] = "Gemüse";
-	AL["Thunderforged"] = "Donnergeschmiedet";
 
 	-- Loot Table Names
 	AL["Level %s"] = "Stufe %s";

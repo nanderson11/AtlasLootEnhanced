@@ -613,7 +613,6 @@ if AL then
 	AL["Pandaria World Bosses"] = true;
 	AL["Elite"] = true;
 	AL["Vegetables"] = true;
-	AL["Thunderforged"] = true;
 
 	-- Loot Table Names
 	AL["Level %s"] = true; -- usage: string.format(AL["Level %s"], "85-89")
