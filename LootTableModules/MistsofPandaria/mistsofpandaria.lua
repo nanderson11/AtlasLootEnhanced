@@ -2837,98 +2837,52 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-				{ 1, 94735, "", "=q4=Drape of Booming Nights", "=ds=#s4#" },
-				{ 2, 94733, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#" },
-				{ 3, 94731, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#" },
-				{ 4, 94737, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#" },
-				{ 5, 94739, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#" },
-				{ 6, 94724, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#" },
-				{ 7, 94732, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#" },
-				{ 8, 94725, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#" },
-				{ 9, 94728, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#" },
-				{ 10, 94736, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#" },
-				{ 11, 94723, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#" },
-				{ 12, 94734, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
-				{ 13, 94727, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#" },
-				{ 14, 94726, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#" },
-				{ 16, 94738, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
-				{ 17, 94729, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#" },
-				{ 18, 95510, "", "=q4=Sign of the Bloodied God", "=ds=#s13#" },
-				{ 19, 94512, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
-				{ 21, 94730, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
-				{ 22, 94722, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				{ 1, 94735, "", "=q4=Drape of Booming Nights", "=ds=#s4#", tf=96011 },
+				{ 2, 94733, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#", tf=96008 },
+				{ 3, 94731, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#", tf=96009 },
+				{ 4, 94737, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#", tf=96006 },
+				{ 5, 94739, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#", tf=96007 },
+				{ 6, 94724, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#", tf=95998 },
+				{ 7, 94732, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#", tf=96014 },
+				{ 8, 94725, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#", tf=96000 },
+				{ 9, 94728, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#", tf=95999 },
+				{ 10, 94736, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#", tf=96015 },
+				{ 11, 94723, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#", tf=96002 },
+				{ 12, 94734, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#", tf=96016 },
+				{ 13, 94727, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#", tf=96003 },
+				{ 14, 94726, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#", tf=96001 },
+				{ 16, 94738, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#", tf=96010 },
+				{ 17, 94729, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#", tf=96005 },
+				{ 18, 95510, "", "=q4=Sign of the Bloodied God", "=ds=#s13#", tf=95996 },
+				{ 19, 94512, "", "=q4=Renataki's Soul Charm", "=ds=#s14#", tf=95997 },
+				{ 21, 94730, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#", tf=96012 },
+				{ 22, 94722, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#", tf=96004 },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96011, "", "=q4=Drape of Booming Nights", "=ds=#s4#" },
-				{ 2, 96008, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#" },
-				{ 3, 96009, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#" },
-				{ 4, 96006, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#" },
-				{ 5, 96007, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#" },
-				{ 6, 95998, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#" },
-				{ 7, 96014, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#" },
-				{ 8, 96000, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#" },
-				{ 9, 95999, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#" },
-				{ 10, 96015, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#" },
-				{ 11, 96002, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#" },
-				{ 12, 96016, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
-				{ 13, 96003, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#" },
-				{ 14, 96001, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#" },
-				{ 16, 96010, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
-				{ 17, 96005, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#" },
-				{ 18, 95996, "", "=q4=Sign of the Bloodied God", "=ds=#s13#" },
-				{ 19, 95997, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
-				{ 21, 96012, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
-				{ 22, 96004, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 96383, "", "=q4=Drape of Booming Nights", "=ds=#s4#" },
-				{ 2, 96380, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#" },
-				{ 3, 96381, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#" },
-				{ 4, 96378, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#" },
-				{ 5, 96379, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#" },
-				{ 6, 96370, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#" },
-				{ 7, 96386, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#" },
-				{ 8, 96372, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#" },
-				{ 9, 96371, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#" },
-				{ 10, 96387, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#" },
-				{ 11, 96374, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#" },
-				{ 12, 96388, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
-				{ 13, 96375, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#" },
-				{ 14, 96373, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#" },
-				{ 16, 96382, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
-				{ 17, 96377, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#" },
-				{ 18, 96368, "", "=q4=Sign of the Bloodied God", "=ds=#s13#" },
-				{ 19, 96369, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
-				{ 21, 96384, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
-				{ 22, 96376, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				{ 1, 96383, "", "=q4=Drape of Booming Nights", "=ds=#s4#", tf=96755 },
+				{ 2, 96380, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#", tf=96752 },
+				{ 3, 96381, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#", tf=96753 },
+				{ 4, 96378, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#", tf=96750 },
+				{ 5, 96379, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#", tf=96751 },
+				{ 6, 96370, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#", tf=96742 },
+				{ 7, 96386, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#", tf=96758 },
+				{ 8, 96372, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#", tf=96744 },
+				{ 9, 96371, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#", tf=96743 },
+				{ 10, 96387, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#", tf=96759 },
+				{ 11, 96374, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#", tf=96746 },
+				{ 12, 96388, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#", tf=96760 },
+				{ 13, 96375, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#", tf=96747 },
+				{ 14, 96373, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#", tf=96745 },
+				{ 16, 96382, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#", tf=96754 },
+				{ 17, 96377, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#", tf=96749 },
+				{ 18, 96368, "", "=q4=Sign of the Bloodied God", "=ds=#s13#", tf=96740 },
+				{ 19, 96369, "", "=q4=Renataki's Soul Charm", "=ds=#s14#", tf=96741 },
+				{ 21, 96384, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#", tf=96756 },
+				{ 22, 96376, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#", tf=96748 },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96755, "", "=q4=Drape of Booming Nights", "=ds=#s4#" },
-				{ 2, 96752, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#" },
-				{ 3, 96753, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#" },
-				{ 4, 96750, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#" },
-				{ 5, 96751, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#" },
-				{ 6, 96742, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#" },
-				{ 7, 96758, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#" },
-				{ 8, 96744, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#" },
-				{ 9, 96743, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#" },
-				{ 10, 96759, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#" },
-				{ 11, 96746, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#" },
-				{ 12, 96760, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
-				{ 13, 96747, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#" },
-				{ 14, 96745, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#" },
-				{ 16, 96754, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
-				{ 17, 96749, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#" },
-				{ 18, 96740, "", "=q4=Sign of the Bloodied God", "=ds=#s13#" },
-				{ 19, 96741, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
-				{ 21, 96756, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
-				{ 22, 96748, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
@@ -2966,104 +2920,56 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-				{ 1, 94745, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
-				{ 2, 94748, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#" },
-				{ 3, 94752, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#" },
-				{ 4, 94750, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#" },
-				{ 5, 94753, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#" },
-				{ 6, 94743, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#" },
-				{ 7, 94756, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
-				{ 8, 94741, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
-				{ 9, 94975, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
-				{ 10, 94744, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#" },
-				{ 11, 94751, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
-				{ 12, 94742, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
-				{ 13, 94747, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
-				{ 16, 94754, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#" },
-				{ 17, 94746, "", "=q4=Talisman of Living Poison", "=ds=#s2#" },
-				{ 18, 95514, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#" },
-				{ 19, 94514, "", "=q4=Horridon's Last Gasp", "=ds=#s14#" },
-				{ 20, 94526, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
-				{ 22, 94749, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
-				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
-				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
+				{ 1, 94745, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#", tf=96025 },
+				{ 2, 94748, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#", tf=96017 },
+				{ 3, 94752, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#", tf=96027 },
+				{ 4, 94750, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#", tf=96028 },
+				{ 5, 94753, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#", tf=96034 },
+				{ 6, 94743, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#", tf=96020 },
+				{ 7, 94756, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#", tf=96033 },
+				{ 8, 94741, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#", tf=96021 },
+				{ 9, 94975, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#", tf=96035 },
+				{ 10, 94744, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#", tf=96024 },
+				{ 11, 94751, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#", tf=96036 },
+				{ 12, 94742, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#", tf=96022 },
+				{ 13, 94747, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#", tf=96023 },
+				{ 16, 94754, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#", tf=96030 },
+				{ 17, 94746, "", "=q4=Talisman of Living Poison", "=ds=#s2#", tf=96018 },
+				{ 18, 95514, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#", tf=96031 },
+				{ 19, 94514, "", "=q4=Horridon's Last Gasp", "=ds=#s14#", tf=96013 },
+				{ 20, 94526, "", "=q4=Spark of Zandalar", "=ds=#s14#", tf=96026 },
+				{ 22, 94749, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#", tf=96029 },
+				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#", tf=96019 },
+				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#", tf=96032 },
 				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
 				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96025, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
-				{ 2, 96017, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#" },
-				{ 3, 96027, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#" },
-				{ 4, 96028, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#" },
-				{ 5, 96034, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#" },
-				{ 6, 96020, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#" },
-				{ 7, 96033, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
-				{ 8, 96021, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
-				{ 9, 96035, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
-				{ 10, 96024, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#" },
-				{ 11, 96036, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
-				{ 12, 96022, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
-				{ 13, 96023, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
-				{ 16, 96030, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#" },
-				{ 17, 96018, "", "=q4=Talisman of Living Poison", "=ds=#s2#" },
-				{ 18, 96031, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#" },
-				{ 19, 96013, "", "=q4=Horridon's Last Gasp", "=ds=#s14#" },
-				{ 20, 96026, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
-				{ 22, 96029, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
-				{ 23, 96019, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
-				{ 24, 96032, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 96397, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
-				{ 2, 96389, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#" },
-				{ 3, 96399, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#" },
-				{ 4, 96400, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#" },
-				{ 5, 96406, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#" },
-				{ 6, 96392, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#" },
-				{ 7, 96405, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
-				{ 8, 96393, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
-				{ 9, 96407, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
-				{ 10, 96396, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#" },
-				{ 11, 96408, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
-				{ 12, 96394, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
-				{ 13, 96395, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
-				{ 16, 96402, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#" },
-				{ 17, 96390, "", "=q4=Talisman of Living Poison", "=ds=#s2#" },
-				{ 18, 96403, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#" },
-				{ 19, 96385, "", "=q4=Horridon's Last Gasp", "=ds=#s14#" },
-				{ 20, 96398, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
-				{ 22, 96401, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
-				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
-				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
+				{ 1, 96397, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#", tf=96769 },
+				{ 2, 96389, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#", tf=96761 },
+				{ 3, 96399, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#", tf=96771 },
+				{ 4, 96400, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#", tf=96772 },
+				{ 5, 96406, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#", tf=96778 },
+				{ 6, 96392, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#", tf=96764 },
+				{ 7, 96405, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#", tf=96777 },
+				{ 8, 96393, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#", tf=96765 },
+				{ 9, 96407, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#", tf=96779 },
+				{ 10, 96396, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#", tf=96768 },
+				{ 11, 96408, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#", tf=96780 },
+				{ 12, 96394, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#", tf=96766 },
+				{ 13, 96395, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#", tf=96767 },
+				{ 16, 96402, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#", tf=96774 },
+				{ 17, 96390, "", "=q4=Talisman of Living Poison", "=ds=#s2#", tf=96762 },
+				{ 18, 96403, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#", tf=96775 },
+				{ 19, 96385, "", "=q4=Horridon's Last Gasp", "=ds=#s14#", tf=96757 },
+				{ 20, 96398, "", "=q4=Spark of Zandalar", "=ds=#s14#", tf=96770 },
+				{ 22, 96401, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#", tf=96773 },
+				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#", tf=96763 },
+				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#", tf=96776 },
 				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
 				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96769, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
-				{ 2, 96761, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#" },
-				{ 3, 96771, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#" },
-				{ 4, 96772, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#" },
-				{ 5, 96778, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#" },
-				{ 6, 96764, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#" },
-				{ 7, 96777, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
-				{ 8, 96765, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
-				{ 9, 96779, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
-				{ 10, 96768, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#" },
-				{ 11, 96780, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
-				{ 12, 96766, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
-				{ 13, 96767, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
-				{ 16, 96774, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#" },
-				{ 17, 96762, "", "=q4=Talisman of Living Poison", "=ds=#s2#" },
-				{ 18, 96775, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#" },
-				{ 19, 96757, "", "=q4=Horridon's Last Gasp", "=ds=#s14#" },
-				{ 20, 96770, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
-				{ 22, 96773, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
-				{ 23, 96763, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
-				{ 24, 96776, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
@@ -3097,76 +3003,44 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-				{ 1, 94761, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
-				{ 2, 94762, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#" },
-				{ 3, 94765, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
-				{ 4, 94763, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
-				{ 5, 94767, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
-				{ 6, 94764, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
-				{ 8, 94766, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
-				{ 9, 94523, "", "=q4=Bad Juju", "=ds=#s14#" },
-				{ 10, 94516, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
-				{ 11, 94513, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
+				{ 1, 94761, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#", tf=96040 },
+				{ 2, 94762, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#", tf=96039 },
+				{ 3, 94765, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#", tf=96043 },
+				{ 4, 94763, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#", tf=96044 },
+				{ 5, 94767, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#", tf=96045 },
+				{ 6, 94764, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#", tf=96046 },
+				{ 8, 94766, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#", tf=96048 },
+				{ 9, 94523, "", "=q4=Bad Juju", "=ds=#s14#", tf=96037 },
+				{ 10, 94516, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#", tf=96049 },
+				{ 11, 94513, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#", tf=96041 },
 				{ 16, 95575, "", "=q4=Gauntlets of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95580, "", "=q4=Gauntlets of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95570, "", "=q4=Gauntlets of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
-				{ 20, 94760, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
-				{ 21, 94759, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
-				{ 22, 94758, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
+				{ 20, 94760, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#", tf=96042 },
+				{ 21, 94759, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#", tf=96038 },
+				{ 22, 94758, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#", tf=96047 },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96040, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
-				{ 2, 96039, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#" },
-				{ 3, 96043, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
-				{ 4, 96044, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
-				{ 5, 96045, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
-				{ 6, 96046, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
-				{ 8, 96048, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
-				{ 9, 96037, "", "=q4=Bad Juju", "=ds=#s14#" },
-				{ 10, 96049, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
-				{ 11, 96041, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
-				{ 20, 96042, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
-				{ 21, 96038, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
-				{ 22, 96047, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 96412, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
-				{ 2, 96411, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#" },
-				{ 3, 96415, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
-				{ 4, 96416, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
-				{ 5, 96417, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
-				{ 6, 96418, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
-				{ 8, 96420, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
-				{ 9, 96409, "", "=q4=Bad Juju", "=ds=#s14#" },
-				{ 10, 96421, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
-				{ 11, 96413, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
+				{ 1, 96412, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#", tf=96784 },
+				{ 2, 96411, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#", tf=96783 },
+				{ 3, 96415, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#", tf=96787 },
+				{ 4, 96416, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#", tf=96788 },
+				{ 5, 96417, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#", tf=96789 },
+				{ 6, 96418, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#", tf=96790 },
+				{ 8, 96420, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#", tf=96792 },
+				{ 9, 96409, "", "=q4=Bad Juju", "=ds=#s14#", tf=96781 },
+				{ 10, 96421, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#", tf=96793 },
+				{ 11, 96413, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#", tf=96785 },
 				{ 16, 96600, "", "=q4=Gauntlets of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96601, "", "=q4=Gauntlets of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96599, "", "=q4=Gauntlets of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
-				{ 20, 96414, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
-				{ 21, 96410, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
-				{ 22, 96419, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
+				{ 20, 96414, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#", tf=96786 },
+				{ 21, 96410, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#", tf=96782 },
+				{ 22, 96419, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#", tf=96791 },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-			};
-			{
-				{ 1, 96784, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
-				{ 2, 96783, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#" },
-				{ 3, 96787, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
-				{ 4, 96788, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
-				{ 5, 96789, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
-				{ 6, 96790, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
-				{ 8, 96792, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
-				{ 9, 96781, "", "=q4=Bad Juju", "=ds=#s14#" },
-				{ 10, 96793, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
-				{ 11, 96785, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
-				{ 20, 96786, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
-				{ 21, 96782, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
-				{ 22, 96791, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
-				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
@@ -5152,7 +5026,7 @@ local moduleName = "AtlasLootMoP"
 					{ 4, 93195, "", "=q1=Brawler's Pass", "#ACHIEVEMENTID:7940#", "" },
 				};
 				{ 6, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 8), ""};
-				{ 7, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 7, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEM:92948:1#" },
 				{ 8, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
 				{ 16, 0, "achievement_faction_celestials", "=q6="..string.format(AL["Rank %d"], 9), ""};
 				{
@@ -10770,79 +10644,79 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", "1,200 #gold#"};
 				{ 4, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", "1,200 #gold#"};
 				{ 6, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", "1,500 #gold#"};
-				{ 7, 93859, "", "=q7=Bloodstained Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42985#"};
+				{ 7, 93859, "", "=q7=Bloodstained Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42985:1#"};
 				{ 8, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 9, 93860, "", "=q7=Bloodstained Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48691#"};
+				{ 9, 93860, "", "=q7=Bloodstained Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48691:1#"};
 				{ 10, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 11, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", "1,750 #gold#"};
 				{ 16, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 17, 93864, "", "=q7=Majestic Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42984#"};
+				{ 17, 93864, "", "=q7=Majestic Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42984:1#"};
 				{ 18, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 93865, "", "=q7=Majestic Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48687#"};
+				{ 19, 93865, "", "=q7=Majestic Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48687:1#"};
 				{ 20, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 21, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", "1,750 #gold#"};
 				{ 23, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 24, 93862, "", "=q7=Supple Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42952#"};
+				{ 24, 93862, "", "=q7=Supple Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42952:1#"};
 				{ 25, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 26, 93863, "", "=q7=Supple Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48689#"};
+				{ 26, 93863, "", "=q7=Supple Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48689:1#"};
 				{ 27, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 28, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
 				{ 1, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 2, 93887, "", "=q7=Grand Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42950#"};
+				{ 2, 93887, "", "=q7=Grand Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42950:1#"};
 				{ 3, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 4, 93888, "", "=q7=Furious Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48677#"};
+				{ 4, 93888, "", "=q7=Furious Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48677:1#"};
 				{ 5, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 6, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", "1,750 #gold#"};
 				{ 8, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 9, 93876, "", "=q7=Awakened Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42951#"};
+				{ 9, 93876, "", "=q7=Awakened Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42951:1#"};
 				{ 10, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 11, 93885, "", "=q7=Awakened Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48683#"};
+				{ 11, 93885, "", "=q7=Awakened Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48683:1#"};
 				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 13, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", "1,750 #gold#"};
 				{ 16, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 17, 93893, "", "=q7=Brushed Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69890#"};
+				{ 17, 93893, "", "=q7=Brushed Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEM:69890:1#"};
 				{ 18, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 19, 93892, "", "=q7=Brushed Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69889#"};
+				{ 19, 93892, "", "=q7=Brushed Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEM:69889:1#"};
 				{ 20, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 21, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", "1,750 #gold#"};
 				{ 23, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 24, 93890, "", "=q7=Gleaming Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42949#"};
+				{ 24, 93890, "", "=q7=Gleaming Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42949:1#"};
 				{ 25, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 26, 93891, "", "=q7=Gleaming Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48685#"};
+				{ 26, 93891, "", "=q7=Gleaming Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48685:1#"};
 				{ 27, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 28, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"];
 			};
 			{
 				{ 1, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 2, 93897, "", "=q7=Piercing Eye of the Beast", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEMID:42992#"};
+				{ 2, 93897, "", "=q7=Piercing Eye of the Beast", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEM:42992:1#"};
 				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
-				{ 4, 93896, "", "=q7=Forceful Hand of Justice", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEMID:42991#"};
+				{ 4, 93896, "", "=q7=Forceful Hand of Justice", "=ds=#s14#", "#JUSTICE:1090# #DARKMOON:60# #ITEM:42991:1#"};
 				{ 5, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
-				{ 6, 93857, "", "=q7=Vengeful Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42944#"};
+				{ 6, 93857, "", "=q7=Vengeful Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42944:1#"};
 				{ 7, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 8, 93845, "", "=q7=Gore-Steeped Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:69893#"};
+				{ 8, 93845, "", "=q7=Gore-Steeped Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEM:69893:1#"};
 				{ 9, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 10, 93856, "", "=q7=Noble Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:42945#"};
+				{ 10, 93856, "", "=q7=Noble Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:870# #DARKMOON:44# #ITEM:42945:1#"};
 				{ 11, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h1#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 12, 93843, "", "=q7=Hardened Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42943#"};
+				{ 12, 93843, "", "=q7=Hardened Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:1400# #DARKMOON:64# #ITEM:42943:1#"};
 				{ 13, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 14, 93853, "", "=q7=Pious Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:1090# #DARKMOON:44# #ITEMID:42948#"};
+				{ 14, 93853, "", "=q7=Pious Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:1090# #DARKMOON:44# #ITEM:42948:1#"};
 				{ 15, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h1#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 16, 93847, "", "=q7=Crushing Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:870# #DARKMOON:44# #ITEMID:48716#"};
+				{ 16, 93847, "", "=q7=Crushing Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:870# #DARKMOON:44# #ITEM:48716:1#"};
 				{ 17, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
-				{ 18, 93846, "", "=q7=Re-Engineered Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:48718#"};
+				{ 18, 93846, "", "=q7=Re-Engineered Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:1400# #DARKMOON:64# #ITEM:48718:1#"};
 				{ 19, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEMID:92948#" },
+				{ 20, 93858, "", "=q7=Brawler's Bladed Claws", "=ds=#h1#, #w13#", "#JUSTICE:870# #ITEM:92948:1#" },
 				{ 21, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
-				{ 22, 93844, "", "=q7=Refinished Warden Staff", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:79131#"};
+				{ 22, 93844, "", "=q7=Refinished Warden Staff", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEM:79131:1#"};
 				{ 23, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 24, 93854, "", "=q7=Scholarly Headmaster's Charge", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42947#"};
+				{ 24, 93854, "", "=q7=Scholarly Headmaster's Charge", "=ds=#w9#", "#JUSTICE:1400# #DARKMOON:64# #ITEM:42947:1#"};
 				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
-				{ 26, 93855, "", "=q7=War-Torn Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:1400# #DARKMOON:64# #ITEMID:42946#"};
+				{ 26, 93855, "", "=q7=War-Torn Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:1400# #DARKMOON:64# #ITEM:42946:1#"};
 				{ 27, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
 				{ 28, 93902, "", "=q7=Flamescarred Draconian Deflector", "=ds=#w8#", "#JUSTICE:2175#"};
 				{ 29, 93903, "", "=q7=Weathered Observer's Shield", "=ds=#w8#", "#JUSTICE:2175#"};
@@ -10850,40 +10724,40 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..AL["Accessories"].." / "..AL["Weapons"];
 			};
 			{
-				{ 1, 93861, "", "=q7=Prestigious Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:870# #ITEMID:44107#"};
+				{ 1, 93861, "", "=q7=Prestigious Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:870# #ITEM:44107:1#"};
 				{ 2, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
-				{ 3, 93867, "", "=q7=Superior Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEMID:44103#"};
+				{ 3, 93867, "", "=q7=Superior Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEM:44103:1#"};
 				{ 4, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
-				{ 5, 93866, "", "=q7=Wild Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEMID:44105#"};
+				{ 5, 93866, "", "=q7=Wild Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:870# #ITEM:44105:1#"};
 				{ 6, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
-				{ 7, 93889, "", "=q7=Venerated Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:870# #ITEMID:44102#"};
+				{ 7, 93889, "", "=q7=Venerated Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:870# #ITEM:44102:1#"};
 				{ 8, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:2175#"};
-				{ 9, 93886, "", "=q7=Adorned Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:870# #ITEMID:44101#"};
+				{ 9, 93886, "", "=q7=Adorned Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:870# #ITEM:44101:1#"};
 				{ 10, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:2175#"};
-				{ 11, 93894, "", "=q7=Immaculate Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:870# #ITEMID:44100#"};
+				{ 11, 93894, "", "=q7=Immaculate Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:870# #ITEM:44100:1#"};
 				{ 12, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:2175#"};
-				{ 13, 93895, "", "=q7=Reinforced Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:870# #ITEMID:44099#"};
+				{ 13, 93895, "", "=q7=Reinforced Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:870# #ITEM:44099:1#"};
 				{ 14, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:2175#"};
 				{
-					{ 15, 93898, "", "=q7=Bequeathed Insignia of the Horde", "=ds=#s14#", "#HONOR:1090# #ITEMID:44097#"};
-					{ 15, 93899, "", "=q7=Bequeathed Insignia of the Alliance", "=ds=#s14#", "#HONOR:1090# #ITEMID:44098#"};
+					{ 15, 93898, "", "=q7=Bequeathed Insignia of the Horde", "=ds=#s14#", "#HONOR:1090# #ITEM:44097:1#"};
+					{ 15, 93899, "", "=q7=Bequeathed Insignia of the Alliance", "=ds=#s14#", "#HONOR:1090# #ITEM:44098:1#"};
 				};
 				{
 					{ 16, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "#HONOR:2725#"};
 					{ 16, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "#HONOR:2725#"};
 				};
 				{ 17, 93900, "", "=q7=Inherited Mark of Tyranny", "=ds=#s14#", "#HONOR:2725#"};
-				{ 19, 93852, "", "=q7=Deadly Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:870# #ITEMID:44091#"};
+				{ 19, 93852, "", "=q7=Deadly Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:870# #ITEM:44091:1#"};
 				{ 20, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:2175#"};
-				{ 21, 93848, "", "=q7=Battle-Hardened Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:870# #ITEMID:44096#"};
+				{ 21, 93848, "", "=q7=Battle-Hardened Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:870# #ITEM:44096:1#"};
 				{ 22, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:2175#"};
-				{ 23, 93851, "", "=q7=Battle-Forged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:1400# #ITEMID:44092#"};
+				{ 23, 93851, "", "=q7=Battle-Forged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:1400# #ITEM:44092:1#"};
 				{ 24, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:3500#"};
-				{ 25, 93850, "", "=q7=The Sanctified Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:1090# #ITEMID:44094#"};
+				{ 25, 93850, "", "=q7=The Sanctified Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:1090# #ITEM:44094:1#"};
 				{ 26, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h1#, #w6#", "#HONOR:2725#"};
-				{ 27, 93849, "", "=q7=Elder Staff of Jordan", "=ds=#w9#", "#HONOR:1400# #ITEMID:44095#"};
+				{ 27, 93849, "", "=q7=Elder Staff of Jordan", "=ds=#w9#", "#HONOR:1400# #ITEM:44095:1#"};
 				{ 28, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
-				{ 29, 93841, "", "=q7=Smoothbore Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:1400# #ITEMID:44093#"};
+				{ 29, 93841, "", "=q7=Smoothbore Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:1400# #ITEM:44093:1#"};
 				{ 30, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
 				extraText = ": "..AL["PvP Heirlooms"];
 			};
@@ -11525,189 +11399,189 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 97544, "", "=q1=Kor'kron Oil", "=ds=#m17#", ""};
 				{ 13, 97543, "", "=q1=Kor'kron Stone", "=ds=#m17#", ""};
 				{ 16, 98561, "", "=q3=Darkspear Battle Standard", "=ds=", "#KORKRONSTONE:10#"};
-				{ 17, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEMID:97849#"};
+				{ 17, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEM:97849:1#"};
 				{ 18, 98552, "", "=q3=Xan'tish's Flute", "=ds=", "#KORKRONLUMBER:150# #KORKRONOIL:150#"};
 				{ 19, 97921, "", "=q1=Bom'bay's Color-Seein' Sauce", "=ds=", "#KORKRONOIL:500#"};
 				{ 20, 97901, "", "=q1=Griftah's Authentic Troll Shoes", "=ds=#s12#", "#KORKRONLUMBER:500#"};
 				{ 21, 98563, "", "=q1=Rainstick", "=ds=", "#KORKRONLUMBER:10#"};
-				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEMID:97849#"};
+				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEM:97849:1#"};
 				{ 23, 97942, "", "=q1=Sen'jin Spirit Drum", "=ds=", "#KORKRONMEAT:500#"};
 				{ 24, 97919, "", "=q1=Whole-Body Shrinka'", "=ds=", "#KORKRONSTONE:500#"};
 			};
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
-				{ 2, 97725, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97727, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97722, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97724, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97728, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97726, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97723, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97725, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97727, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97722, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97724, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97728, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97726, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97723, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
-				{ 17, 97734, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97736, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97738, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97733, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97737, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97735, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97739, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97734, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97736, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849#:1"};
+				{ 19, 97738, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97733, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97737, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97735, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97739, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"];
 			};
 			{
 				{ 1, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Feral"].." / "..ALIL["Guardian"]};
-				{ 2, 97745, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97742, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97746, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97744, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97740, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97741, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97743, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97745, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97742, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97746, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97744, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97740, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97741, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97743, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Balance"].." / "..ALIL["Restoration"]};
-				{ 17, 97660, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97679, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97635, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97652, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97687, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97668, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97644, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97660, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849#"};
+				{ 18, 97679, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97635, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97652, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97687, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97668, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97644, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"];
 			};
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
-				{ 2, 97659, "", "=q4=Tallgrass Guerilla's Cap", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97678, "", "=q4=Tallgrass Guerilla's Mantle", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97636, "", "=q4=Tallgrass Guerilla's Tunic", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97651, "", "=q4=Tallgrass Guerilla's Gloves", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97685, "", "=q4=Tallgrass Guerilla's Belt", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97667, "", "=q4=Tallgrass Guerilla's Pants", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97643, "", "=q4=Tallgrass Guerilla's Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97659, "", "=q4=Tallgrass Guerilla's Cap", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97678, "", "=q4=Tallgrass Guerilla's Mantle", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97636, "", "=q4=Tallgrass Guerilla's Tunic", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97651, "", "=q4=Tallgrass Guerilla's Gloves", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97685, "", "=q4=Tallgrass Guerilla's Belt", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97667, "", "=q4=Tallgrass Guerilla's Pants", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97643, "", "=q4=Tallgrass Guerilla's Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
-				{ 17, 97658, "", "=q4=Dissident's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97677, "", "=q4=Dissident's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97671, "", "=q4=Dissident's Robes", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97649, "", "=q4=Dissident's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97686, "", "=q4=Dissident's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97666, "", "=q4=Dissident's Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97642, "", "=q4=Dissident's Boots", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97658, "", "=q4=Dissident's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97677, "", "=q4=Dissident's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97671, "", "=q4=Dissident's Robes", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97649, "", "=q4=Dissident's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97686, "", "=q4=Dissident's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97666, "", "=q4=Dissident's Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97642, "", "=q4=Dissident's Boots", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." / "..LOCALIZED_CLASS_NAMES_MALE["MAGE"];
 			};
 			{
 				{ 1, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Windwalker"]};
-				{ 2, 97692, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97689, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97688, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97693, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97691, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97690, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97696, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97692, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97689, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97688, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97693, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97691, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97690, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97696, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Brewmaster"]};
-				{ 17, 97757, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97759, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97754, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97756, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97760, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97758, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97755, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97757, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97759, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97754, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97756, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97760, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97758, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97755, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 10, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Mistweaver"]};
-				{ 11, 97750, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 12, 97752, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 13, 97747, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 14, 97749, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 26, 97753, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 27, 97751, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 28, 97748, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 11, 97750, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 12, 97752, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 13, 97747, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 14, 97749, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 26, 97753, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 27, 97751, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 28, 97748, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["MONK"];
 			};
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Retribution"]};
-				{ 2, 97656, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97676, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97634, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97650, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97684, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97665, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97640, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97656, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97676, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97634, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97650, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97684, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97665, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97640, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Protection"]};
-				{ 17, 97785, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97787, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97782, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97784, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97788, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97786, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97783, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97785, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97787, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97782, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97784, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97788, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97786, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97783, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 10, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Holy"]};
-				{ 11, 97776, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 12, 97781, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 13, 97777, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 14, 97775, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 26, 97779, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 27, 97780, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 28, 97778, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 11, 97776, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 12, 97781, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 13, 97777, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 14, 97775, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 26, 97779, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 27, 97780, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 28, 97778, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"];
 			};
 			{
 				{ 1, 0, "inv_staff_30", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="};
-				{ 2, 97657, "", "=q4=Reformationist's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97674, "", "=q4=Reformationist's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97670, "", "=q4=Reformationist's Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97648, "", "=q4=Reformationist's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97683, "", "=q4=Reformationist's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97664, "", "=q4=Reformationist's Skirt", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97641, "", "=q4=Reformationist's Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97657, "", "=q4=Reformationist's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97674, "", "=q4=Reformationist's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97670, "", "=q4=Reformationist's Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97648, "", "=q4=Reformationist's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97683, "", "=q4=Reformationist's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97664, "", "=q4=Reformationist's Skirt", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97641, "", "=q4=Reformationist's Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
-				{ 17, 97655, "", "=q4=Disowner's Cap", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97675, "", "=q4=Disowner's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97633, "", "=q4=Disowner's Tunic", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97647, "", "=q4=Disowner's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97682, "", "=q4=Disowner's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97663, "", "=q4=Disowner's Pants", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97639, "", "=q4=Disowner's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97655, "", "=q4=Disowner's Cap", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97675, "", "=q4=Disowner's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97633, "", "=q4=Disowner's Tunic", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97647, "", "=q4=Disowner's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97682, "", "=q4=Disowner's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97663, "", "=q4=Disowner's Pants", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97639, "", "=q4=Disowner's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 10, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
-				{ 11, 97653, "", "=q4=Perjurious Mask", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 12, 97673, "", "=q4=Perjurious Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 13, 97669, "", "=q4=Perjurious Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 14, 97646, "", "=q4=Perjurious Wraps", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 26, 97681, "", "=q4=Perjurious Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 27, 97662, "", "=q4=Perjurious Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 28, 97638, "", "=q4=Perjurious Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 11, 97653, "", "=q4=Perjurious Mask", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 12, 97673, "", "=q4=Perjurious Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 13, 97669, "", "=q4=Perjurious Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 14, 97646, "", "=q4=Perjurious Wraps", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 26, 97681, "", "=q4=Perjurious Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 27, 97662, "", "=q4=Perjurious Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 28, 97638, "", "=q4=Perjurious Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." / "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"];
 			};
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Enhancement"]};
-				{ 2, 97774, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97769, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97771, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97773, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97770, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97768, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97772, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97774, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97769, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97771, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97773, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97770, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97768, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97772, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Elemental"].." / "..ALIL["Restoration"]};
-				{ 17, 97625, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97630, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97628, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97626, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97629, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97631, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97627, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97625, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97630, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97628, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97626, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97629, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97631, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97627, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"];
 			};
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 2, 97654, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 3, 97672, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 4, 97632, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 5, 97645, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 6, 97680, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 7, 97661, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 8, 97637, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 2, 97654, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 3, 97672, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 4, 97632, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 5, 97645, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 6, 97680, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 7, 97661, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 8, 97637, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..ALIL["Protection"]};
-				{ 17, 97764, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 18, 97761, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 19, 97766, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 20, 97763, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEMID:97849#"};
-				{ 21, 97762, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 22, 97765, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEMID:97849#"};
-				{ 23, 97767, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEMID:97849#"};
+				{ 17, 97764, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 18, 97761, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 19, 97766, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 20, 97763, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
+				{ 21, 97762, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 22, 97765, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
+				{ 23, 97767, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"];
 			}
 		};

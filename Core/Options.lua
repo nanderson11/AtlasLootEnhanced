@@ -300,7 +300,7 @@ do
 end
 
 --[[
-AtlasLoot:OptionsInitialize()
+-> AtlasLoot:OptionsInitialize()
 ]]
 function AtlasLoot:ReplaceOptions()
 	LibStub("AceConfigRegistry-3.0"):RegisterOptionsTable("AtlasLoot", getOptions)

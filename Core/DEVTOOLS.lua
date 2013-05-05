@@ -187,6 +187,7 @@ local function VendorFrame(container)
 			lootTableString = returnItemTableString(AtlasLoot_Data[lootTable]["Normal"])
 		end
 		multiEditbox:SetText(lootTableString)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	container:AddChild(editbox)
 
@@ -207,6 +208,7 @@ local function VendorFrame(container)
 		lootTableString = startVendorScan(newTab)
 		lootTableString = returnItemTableString(lootTableString)
 		multiEditbox:SetText(lootTableString)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -230,17 +232,19 @@ local function CheckTextParsing(entrys)
 	for iniName, iniTable in pairs(AtlasLoot_Data) do
 		for tableType, tableTypeTable in pairs(iniTable) do
 			if tableType ~= "info" then
-				for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
-					if type(tableNumberTable) == "table" then
-						for itemNum, itemTable in ipairs(tableNumberTable) do
-							for k,v in pairs(AtlasLoot_TextParsing) do
-								local tabName = v[1].." <"..v[2]..">"
-								if not checkTable[tabName] then checkTable[tabName] = {} end
-								if string.find(itemTable[4] or "", v[1]) 
-								or string.find(itemTable[5] or "", v[1]) 
-								or string.find(itemTable[6] or "", v[1]) 
-								or string.find(itemTable[7] or "", v[1]) then
-									checkTable[tabName][#checkTable[tabName] + 1] = "AtlasLoot_Data[\""..iniName.."\"][\""..tableType.."\"]["..tableNumber.."]["..itemNum.."]"
+				if type(tableTypeTable) == "table" then
+					for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
+						if type(tableNumberTable) == "table" then
+							for itemNum, itemTable in ipairs(tableNumberTable) do
+								for k,v in pairs(AtlasLoot_TextParsing) do
+									local tabName = v[1].." <"..v[2]..">"
+									if not checkTable[tabName] then checkTable[tabName] = {} end
+									if string.find(itemTable[4] or "", v[1]) 
+									or string.find(itemTable[5] or "", v[1]) 
+									or string.find(itemTable[6] or "", v[1]) 
+									or string.find(itemTable[7] or "", v[1]) then
+										checkTable[tabName][#checkTable[tabName] + 1] = "AtlasLoot_Data[\""..iniName.."\"][\""..tableType.."\"]["..tableNumber.."]["..itemNum.."]"
+									end
 								end
 							end
 						end
@@ -277,6 +281,7 @@ local function TextParsingFrame(container)
 	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
 		numEntrys = tonumber(text)
 		editbox:SetText(numEntrys)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	container:AddChild(editbox)
 	
@@ -290,6 +295,7 @@ local function TextParsingFrame(container)
 		multiEditbox:SetText(text)
 		desc:SetText(number.." entrys found")
 		multiEditbox.editBox:HighlightText(0)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -348,6 +354,7 @@ local function InstanceInfoFrame(container)
 		local text, number = CheckInstanceList()
 		multiEditbox:SetText(text)
 		multiEditbox.editBox:HighlightText(0)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -355,6 +362,7 @@ local function InstanceInfoFrame(container)
 	button2:SetText("Mark all")
 	button2:SetCallback("OnClick", function()
 		multiEditbox.editBox:HighlightText(0)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)
@@ -407,6 +415,7 @@ local function AchievementScanFrame(container)
 	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
 		textAID = tonumber(text)
 		multiEditbox:SetText(AchievementScan( textAID ))
+		multiEditbox.editBox:SetFocus() 
 	end)
 	container:AddChild(editbox)
 	
@@ -414,6 +423,7 @@ local function AchievementScanFrame(container)
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function() 
 		multiEditbox:SetText(AchievementScan( textAID ))
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -422,6 +432,7 @@ local function AchievementScanFrame(container)
 	button2:SetText("Scan All")
 	button2:SetCallback("OnClick", function() 
 		multiEditbox:SetText(AchievementScanAll())
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)
@@ -583,6 +594,8 @@ local function BonusRollScanFrame(container)
 	button:SetCallback("OnClick", function() 
 		lootTableString = startBonusRollScan()
 		multiEditbox:SetText(lootTableString)
+		multiEditbox.editBox:HighlightText(0)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -592,6 +605,8 @@ local function BonusRollScanFrame(container)
 	button2:SetCallback("OnClick", function() 
 		lootTableString = startClassScan()
 		multiEditbox:SetText(lootTableString)
+		multiEditbox.editBox:HighlightText(0)
+		multiEditbox.editBox:SetFocus() 
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)

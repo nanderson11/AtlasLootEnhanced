@@ -847,7 +847,7 @@ AtlasLoot_TextParsing = {
 -- Text replacement function
 --------------------------------------------------------------------------------
 function AtlasLoot:FixText(text)
-	if not text or text == "" then return "" end
+	if not text or string.trim(text) == "" then return "" end
 	for k in ipairs(AtlasLoot_TextParsing) do
 		text = gsub(text, AtlasLoot_TextParsing[k][1], tostring(AtlasLoot_TextParsing[k][2]));
 	end
@@ -863,7 +863,7 @@ function AtlasLoot:FixText(text)
 end
 
 function AtlasLoot:FixTextBack(text)
-	if not text or text == "" then return "" end
+	if not text or string.trim(text) == "" then return "" end
 	
 	text = gsub(text, "Miscellaneous", "#m20#");
 	for k in ipairs(AtlasLoot_TextParsing) do

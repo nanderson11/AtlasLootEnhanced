@@ -1,9 +1,3 @@
---[[	
-	GetAchievementCriteriaInfo
-	BC		=	1312
-	WotLK	=	2256
-	Mop		=	7439
-]]--
 local _, tmp1, tmp2, tmp3
 local months = {CalendarGetMonthNames()}
 

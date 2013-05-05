@@ -36,7 +36,6 @@
 
 embeds.xml
 
-Add_Ons\Addons.xml
 Core\AtlasLoot.xml
 Menus\Menus.xml
 Modules\Modules.xml

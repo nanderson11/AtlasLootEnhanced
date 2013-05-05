@@ -125,6 +125,7 @@ local AtlasLootDBDefaults = {
 		CurrentUpgradeLvl = 0,
 		BonusRollEnabled = true,
 		ShowBonusRollInfoInTT = true,
+		ShowThunderforged = false,
 	}
 }
 
@@ -1128,10 +1129,13 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		AtlasLoot.ItemFrame.BonusRoll:Hide()
 		AtlasLoot.CanShowBonusRoll = false
 	end
-	if AtlasLoot.ItemFrame.CloseButton:IsShown() then
-		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("RIGHT", AtlasLoot.ItemFrame.CloseButton, "LEFT", 0, 0)
+	AtlasLoot:ItemFrame_IconList_Refresh()
+	
+	if self.ThunderforgeAviable then
+		self.ItemFrame.Thunderforged:Show()
+		self.ItemFrame.Thunderforged:SetChecked(self.db.profile.ShowThunderforged)
 	else
-		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasLoot.ItemFrame, "TOPRIGHT", -5, -5)
+		self.ItemFrame.Thunderforged:Hide()
 	end
 	
 	if string.find(dataID, "SortedTable") then

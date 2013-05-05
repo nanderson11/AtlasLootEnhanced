@@ -997,7 +997,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 1, 93859, "", "=q7=Bloodstained Dreadmist Mantle", "=ds=#s3#, #a1#", "#DARKMOON:44# #ITEMID:42985#"};
 				{ 2, 93864, "", "=q7=Majestic Ironfeather Shoulders", "=ds=#s3#, #a2#", "#DARKMOON:44# #ITEMID:42984#"};
 				{ 3, 93862, "", "=q7=Supple Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#DARKMOON:44# #ITEMID:42952#"};
-				{ 4, 93887, "", "=q7=Grand Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#DARKMOON:44# #ITEMID:42950#"};
+				{ 4, 93887, "", "=q7=Grand Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#DARKMOON:44# #ITEM:42950:1#"};
 				{ 5, 93876, "", "=q7=Awakened Pauldrons of Elements", "=ds=#s3#, #a3#", "#DARKMOON:44# #ITEMID:42951#"};
 				{ 6, 93893, "", "=q7=Brushed Pauldrons of Might", "=ds=#s3#, #a4#", "#DARKMOON:44# #ITEMID:69890#"};
 				{ 7, 93890, "", "=q7=Gleaming Spaulders of Valor", "=ds=#s3#, #a4#", "#DARKMOON:44# #ITEMID:42949#"};

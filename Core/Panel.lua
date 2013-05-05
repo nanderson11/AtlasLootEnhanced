@@ -128,14 +128,6 @@ local function Init_ButtonList()
 			lootPage = "CRAFTINGMENU",
 			order = 50,
 		},
-		--[[
-		Wishlist = {
-			text = AL["Wishlist"],
-			func = function() print("WISHLIST") end,
-			order = 60,
-			--disabled = true,
-		},
-		]]--
 		Options = {
 			text = AL["Options"],
 			func = AtlasLoot.OptionsToggle,

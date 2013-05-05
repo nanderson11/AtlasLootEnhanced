@@ -97,7 +97,6 @@ function AtlasLoot:AtlasInitialize()
 		AtlasLoot.SetupForAtlas = nil
 		AtlasLoot.Atlas_SetBoss = nil
 		AtlasLoot.Boss_OnClick = nil
-		AtlasLoot.SetupForAtlas = nil
 		AtlasLoot.AtlasInitialize = nil
 	end
 end

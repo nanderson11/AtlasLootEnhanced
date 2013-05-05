@@ -93,8 +93,8 @@ do
 					AtlasLoot:RefreshAtlasLootPanel()
 				end,
 			},
-		
 		}
+		
 		if AtlasLoot.db.profile.QuickLooks[num].lootPage then
 			retTab.curLootPage.name = "|cff0070dd"..AtlasLoot:GetQuickLookName(num, true)
 		else

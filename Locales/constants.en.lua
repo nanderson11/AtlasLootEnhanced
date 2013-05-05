@@ -609,6 +609,7 @@ if AL then
 	AL["Rare"] = true;
 	AL["Specializations"] = true;
 	AL["Raid Finder"] = true;
+	AL["Thunderforged"] = true;
 	AL["Pandaria World Bosses"] = true;
 	AL["Elite"] = true;
 	AL["Vegetables"] = true;
