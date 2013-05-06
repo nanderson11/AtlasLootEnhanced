@@ -420,7 +420,7 @@ function AtlasLoot:Boss_OnClick()
 					if v[2] == id then
 						self.Selected:Show()
 						self.Loot:Hide()
-						local _,_,boss = string.find(self.Text:GetText(), "|c%x%x%x%x%x%x%x%x%s*[%dX']*[%) ]*(.*[^%,])[%,]?$")
+						local _,_,boss = string.find(self.Text:GetText() or "", "|c%x%x%x%x%x%x%x%x%s*[%dX']*[%) ]*(.*[^%,])[%,]?$")
 						AtlasLoot:ShowLootPage(v[1])
 						AtlasLootItemsFrame.activeBoss = id
 						AtlasLoot:AtlasScrollBar_Update()
