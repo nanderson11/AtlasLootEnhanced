@@ -49,7 +49,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 5, "ValorPointsMoP#10", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"], ""};
 				{ 17, "ValorPointsMoP#3", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "ValorPointsMoP#7", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
-				{ 20, "ValorPointsMoP#11", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"], ""};
+				{ 20, "ValorPointsMoP#12", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"], ""};
 			};
 		};
 		info = {

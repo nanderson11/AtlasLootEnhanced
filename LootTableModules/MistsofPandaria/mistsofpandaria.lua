@@ -10862,24 +10862,49 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 95115, "", "=q4=Many-Layered Scalecloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 5, 95117, "", "=q4=Shadowspike Cloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
 				{ 6, 95114, "", "=q4=Spikeshard Greatcloak", "=ds=#s4#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Honored"] },
-				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 9, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 10, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 11, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 12, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 13, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
+				{
+
+					{ 9, 97212, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Revered"] },
+					{ 9, 97207, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Revered"] },
+				};
+				{
+					{ 10, 97210, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Revered"] },
+					{ 10, 97205, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Revered"] },
+				};
+				{
+					{ 11, 97211, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Revered"] },
+					{ 11, 97206, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Revered"] },
+				};
+				{
+					{ 12, 97209, "", "=q4=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Revered"] },
+					{ 12, 97204, "", "=q4=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Revered"] },
+				};
+				{
+					{ 13, 97208, "", "=q4=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Revered"] },
+					{ 13, 97203, "", "=q4=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Revered"] },
+				};
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95146, "", "=q4=Destroyer's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 18, 95143, "", "=q4=Flanker's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 19, 95145, "", "=q4=Mender's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 20, 95142, "", "=q4=Striker's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 21, 95144, "", "=q4=Vanguard's Battletags", "=ds=#s2#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 24, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 25, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 26, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 27, 89066, "", "=q4=Paragon's Pale Pendant", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 28, 89068, "", "=q4=Wire of the Wakener", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"];
+			};
+			{
+				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
+				{ 2, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 3, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 4, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 5, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 6, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
+				{ 17, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				{ 18, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				{ 19, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				{ 20, 89066, "", "=q4=Paragon's Pale Pendant", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				{ 21, 89068, "", "=q4=Wire of the Wakener", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
 				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"];
 			};
 			{
@@ -10889,6 +10914,28 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 95139, "", "=q4=Ring of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 5, 95137, "", "=q4=Seal of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95138, "", "=q4=Signet of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
+				{
+
+					{ 9, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Exalted"] },
+					{ 9, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Exalted"] },
+				};
+				{
+					{ 10, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Exalted"] },
+					{ 10, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Exalted"] },
+				};
+				{
+					{ 11, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Exalted"] },
+					{ 11, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Exalted"] },
+				};
+				{
+					{ 12, 97195, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Exalted"] },
+					{ 12, 97190, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Exalted"] },
+				};
+				{
+					{ 13, 97193, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"..ALIL["Sunreaver Onslaught"].." - "..AL["Exalted"] },
+					{ 13, 97188, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"..ALIL["Kirin Tor Offensive"].." - "..AL["Exalted"] },
+				};
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 94508, "", "=q4=Brutal Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 18, 94509, "", "=q4=Soothing Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
