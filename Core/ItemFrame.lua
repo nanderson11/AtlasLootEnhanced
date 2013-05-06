@@ -35,6 +35,13 @@ function AtlasLoot:RefreshLootPage()
 	for i in ipairs(self.ItemFrame.ItemButtons) do
 		self.ItemFrame.ItemButtons[i]:Refresh()
 	end
+	local bossName
+	if self.ThunderforgeAviable then
+		bossName = self:GetTableInfo(self.ItemFrame.dataID, false, true, true, self.db.profile.ShowThunderforged)
+	else
+		bossName = self:GetTableInfo(self.ItemFrame.dataID, false, true, true)
+	end
+	self.ItemFrame.BossName:SetText(bossName)
 end
 
 --- Sets a itemtable to the item frame
@@ -42,7 +49,7 @@ end
 -- @usage AtlasLoot:SetItemTable(tab)
 function AtlasLoot:SetItemTable(tab)
 	self:ClearLootPageItems()
-	 self.ThunderforgeAviable = false 
+	self.ThunderforgeAviable = false 
 	if not tab or type(tab) ~= "table" or not #tab then return end
 	local cPoint = false
 	local itemButtonNum, texture, num1, spellNumber

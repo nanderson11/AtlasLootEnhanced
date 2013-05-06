@@ -527,7 +527,7 @@ function Filter:FilterBySlot(lootTable)
 			if newItemPos == 16 then posSet = true end
 			--count = 0
 			oldItemPos = newItemPos
-			AtlasLoot_Data["FilterList"][tabNumSet] = { newItemPos, v[2], v[3], v[4], v[5], v[6], v[7], v[8] }
+			AtlasLoot_Data["FilterList"][tabNumSet] = { newItemPos, v[2], v[3], v[4], v[5], v[6], v[7], v[8], tf=v.tf }
 		else
 			count = count + 1
 		end

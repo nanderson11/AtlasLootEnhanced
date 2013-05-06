@@ -553,10 +553,11 @@ end
 -- @param addInstanceName false\nil if no instance name behind the boss name is needed
 -- @param addInstanceType false\nil if no instance type behind the boss name is needed
 -- @param addPageNumber false\nil if no pagenumber behind the boss name is needed
+-- @param isThunderforged false\nil if not thunderforged 
 -- @usage local bossName, instanceName = AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber)
 -- @return localized boss name or table name
 -- @return localized instance name
-function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber)
+function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber, isThunderforged)
 	if not dataID or type(dataID) ~= "string" then
 		--error("AtlasLoot:GetTableInfo: Enter a available dataID <string>", 2)
 		return
@@ -593,6 +594,13 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 	end
 	local instanceTypeOld = instanceType
 	instanceType = self:GetLocInstanceType(instanceType)
+	if isThunderforged then
+		if instanceType == "" then
+			instanceType = AL["Thunderforged"]
+		else
+			instanceType = instanceType.." "..AL["Thunderforged"]
+		end
+	end
 	
 	if addInstanceName and not addInstanceType and instanceName and instanceType ~= "" then
 		bossName = bossName.." ("..instanceName..")"
@@ -1011,7 +1019,6 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	dataID, instancePage = self:FormatDataID(dataID)
 	nextPage, prevPage = self:GetNextPrevPage(dataID, instancePage)
 	lootTableType = self:GetLootTableType(saveDataID)
-	bossName = self:GetTableInfo(saveDataID, false, true, true)
 	
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.module then
 		moduleName = AtlasLoot_Data[dataID].info.module
@@ -1028,7 +1035,6 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	self.ItemFrame.dataID = saveDataID
 	self.ItemFrame.lootTableType = lootTableType
 	
-	self.ItemFrame.BossName:SetText(bossName)
 	if nextPage then
 		self.ItemFrame.Next.lootpage = nextPage
 		self.ItemFrame.Next:Show()
@@ -1134,9 +1140,13 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	if self.ThunderforgeAviable then
 		self.ItemFrame.Thunderforged:Show()
 		self.ItemFrame.Thunderforged:SetChecked(self.db.profile.ShowThunderforged)
+		bossName = self:GetTableInfo(saveDataID, false, true, true, self.db.profile.ShowThunderforged)
 	else
 		self.ItemFrame.Thunderforged:Hide()
+		bossName = self:GetTableInfo(saveDataID, false, true, true)
 	end
+	self.ItemFrame.BossName:SetText(bossName)
+	
 	
 	if string.find(dataID, "SortedTable") then
 		self.ItemFrame.QuickLooks:Hide()

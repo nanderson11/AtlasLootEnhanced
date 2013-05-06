@@ -353,6 +353,7 @@ do
 		itemButton.Frame:SetHeight(37)
 		itemButton.Frame:SetPoint(unpack(point));
 		itemButton.Frame:RegisterForClicks("LeftButtonDown", "RightButtonDown")
+		itemButton.Frame.SetAlpha = function() end	-- No Alpha change allowed here ;)
 		itemButton.SetPoint = itemButton.Frame.SetPoint
 		itemButton.Frame.par = itemButton
 
