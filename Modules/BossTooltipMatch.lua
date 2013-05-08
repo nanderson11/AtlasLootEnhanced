@@ -11,6 +11,15 @@ AtlasLoot_BossTooltipMatch = {}
 -----------------------
 -- Mists Raids
 -----------------------
+AtlasLoot_BossTooltipMatch[68905]					= AtlasLoot:EJ_GetBossName("Twin Consorts", 829)
+AtlasLoot_BossTooltipMatch[68904]					= AtlasLoot:EJ_GetBossName("Twin Consorts", 829)
+AtlasLoot_BossTooltipMatch[70247]					= AtlasLoot:EJ_GetBossName("Megaera", 821)
+AtlasLoot_BossTooltipMatch[70235]					= AtlasLoot:EJ_GetBossName("Megaera", 821)
+AtlasLoot_BossTooltipMatch[70212]					= AtlasLoot:EJ_GetBossName("Megaera", 821)
+AtlasLoot_BossTooltipMatch[69134]					= AtlasLoot:EJ_GetBossName("Council of Elders", 816)
+AtlasLoot_BossTooltipMatch[69132]					= AtlasLoot:EJ_GetBossName("Council of Elders", 816)
+AtlasLoot_BossTooltipMatch[69131]					= AtlasLoot:EJ_GetBossName("Council of Elders", 816)
+AtlasLoot_BossTooltipMatch[69078]					= AtlasLoot:EJ_GetBossName("Council of Elders", 816)
 AtlasLoot_BossTooltipMatch[60583]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)
 AtlasLoot_BossTooltipMatch[60585]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)
 AtlasLoot_BossTooltipMatch[60586]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)

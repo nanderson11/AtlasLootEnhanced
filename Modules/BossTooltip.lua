@@ -4,7 +4,7 @@ function AtlasLoot_hook(tooltip)
 		ALtooltipName = tooltip:GetUnit()
 		local ALGUID = UnitGUID("mouseover")
 		if ALGUID then
-			ALunitID = tonumber((ALGUID):sub(-12, -9), 16)
+			ALunitID = tonumber((ALGUID):sub(6, 10), 16)
 		end
 	end
 
