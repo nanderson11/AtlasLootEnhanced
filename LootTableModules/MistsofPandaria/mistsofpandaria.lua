@@ -442,11 +442,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GotSSKiptilak"] = {
 		["Normal"] = {
 			{
-				{ 1, 81104, "", "=q3=Fallout-Filtering Hood", "=ds=#s1#, #a1#", "", "20%"},
-				{ 2, 81090, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#", "", "20%" },
-				{ 3, 81190, "", "=q3=Grenadier's Belt", "=ds=#s10#, #a4#", "", "20%" },
-				{ 4, 81095, "", "=q3=Pendant of Precise Timing", "=ds=#s2#", "", "20%" },
-				{ 5, 81191, "", "=q3=Pulled Grenade Pin", "=ds=#s13#", "", "20%" },
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80920, "", "=q3=Fallout Filter", "=ds=#s1#, #a1#", "", "20%"},
+				{ 3, 80921, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#", "", "20%" },
+				{ 4, 80934, "", "=q3=Pendant of Precise Timing", "=ds=#s2#", "", "20%" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81104, "", "=q3=Fallout-Filtering Hood", "=ds=#s1#, #a1#", "", "20%"},
+				{ 18, 81090, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#", "", "20%" },
+				{ 19, 81190, "", "=q3=Grenadier's Belt", "=ds=#s10#, #a4#", "", "20%" },
+				{ 20, 81095, "", "=q3=Pendant of Precise Timing", "=ds=#s2#", "", "20%" },
+				{ 21, 81191, "", "=q3=Pulled Grenade Pin", "=ds=#s13#", "", "20%" },
 			}
 		};
 		info = {
@@ -458,11 +463,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GotSSGadok"] = {
 		["Normal"] = {
 			{
-				{ 1, 81229, "", "=q3=Bomber's Precision Gloves", "=ds=#s9#, #a1#", "", "20%" },
-				{ 2, 81111, "", "=q3=Airstream Treads", "=ds=#s12#, #a2#", "", "20%" },
-				{ 3, 81085, "", "=q3=Impaler's Girdle", "=ds=#s10#, #a3#", "", "20%" },
-				{ 4, 81098, "", "=q3=Acid-Scarred Spaulders", "=ds=#s3#, #a4#", "", "20%" },
-				{ 5, 81192, "", "=q3=Vision of the Predator", "=ds=#s14#", "", "20%" },
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80922, "", "=q3=Airstream Treads", "=ds=#s12#, #a2#", "", "20%" },
+				{ 3, 80923, "", "=q3=Impaler's Girdle", "=ds=#s10#, #a3#", "", "20%" },
+				{ 4, 80924, "", "=q3=Acid-Scarred Spaulders", "=ds=#s3#, #a4#", "", "20%" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81229, "", "=q3=Bomber's Precision Gloves", "=ds=#s9#, #a1#", "", "20%" },
+				{ 18, 81111, "", "=q3=Airstream Treads", "=ds=#s12#, #a2#", "", "20%" },
+				{ 19, 81085, "", "=q3=Impaler's Girdle", "=ds=#s10#, #a3#", "", "20%" },
+				{ 20, 81098, "", "=q3=Acid-Scarred Spaulders", "=ds=#s3#, #a4#", "", "20%" },
+				{ 21, 81192, "", "=q3=Vision of the Predator", "=ds=#s14#", "", "20%" },
 			}
 		};
 		info = {
@@ -474,11 +484,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GotSSRimok"] = {
 		["Normal"] = {
 			{
-				{ 1, 81106, "", "=q3=Leggings of the Frenzy", "=ds=#s11#, #a1#", "", "20%" },
-				{ 2, 81105, "", "=q3=Swarmcall Helm", "=ds=#s1#, #a3#", "", "20%" },
-				{ 3, 81230, "", "=q3=Ri'mok's Shattered Scale", "=ds=#s8#, #a4#", "", "20%" },
-				{ 4, 81232, "", "=q3=Viscous Ring", "=ds=#s13#", "", "20%" },
-				{ 5, 81088, "", "=q3=Mantid Trochanter", "=ds=#h1#, #w4#", "", "20%" },
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80926, "", "=q3=Leggings of the Frenzy", "=ds=#s11#, #a1#", "", "20%" },
+				{ 3, 80925, "", "=q3=Swarmcall Helm", "=ds=#s1#, #a3#", "", "20%" },
+				{ 4, 80933, "", "=q3=Mantid Trochanter", "=ds=#h1#, #w4#", "", "20%" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81106, "", "=q3=Leggings of the Frenzy", "=ds=#s11#, #a1#", "", "20%" },
+				{ 18, 81105, "", "=q3=Swarmcall Helm", "=ds=#s1#, #a3#", "", "20%" },
+				{ 19, 81230, "", "=q3=Ri'mok's Shattered Scale", "=ds=#s8#, #a4#", "", "20%" },
+				{ 20, 81232, "", "=q3=Viscous Ring", "=ds=#s13#", "", "20%" },
+				{ 21, 81088, "", "=q3=Mantid Trochanter", "=ds=#h1#, #w4#", "", "20%" },
 			}
 		};
 		info = {
@@ -490,17 +505,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GotSSRaigonn"] = {
 		["Normal"] = {
 			{
-				{ 1, 87546, "", "=q4=Klatith, Fangs of the Swarm", "=ds=#w2#", "", "1%" },
-				{ 3, 81234, "", "=q3=Drape of the Screeching Swarm", "=ds=#s4#", "", "20%" },
-				{ 4, 81235, "", "=q3=Shoulders of Engulfing Winds", "=ds=#s3#, #a1#", "", "20%" },
-				{ 5, 81236, "", "=q3=Frenzyswarm Bracers", "=ds=#s8#, #a1#", "", "20%" },
-				{ 6, 81091, "", "=q3=Wall-Breaker Legguards", "=ds=#s11#, #a2#", "", "20%" },
-				{ 7, 81112, "", "=q3=Treads of Fixation", "=ds=#s12#, #a3#", "", "20%" },
-				{ 8, 81109, "", "=q3=Swarmbringer Chestguard", "=ds=#s5#, #a4#", "", "20%" },
-				{ 9, 81100, "", "=q3=Hive Protector's Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
-				{ 18, 81094, "", "=q3=Carapace Breaker", "=ds=#h1#, #w6#", "", "20%" },
-				{ 19, 81233, "", "=q3=Impervious Carapace", "=ds=#w8#", "", "20%" },
-				{ 20, 81097, "", "=q3=Shield of the Protectorate", "=ds=#w8#", "", "20%" },
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80929, "", "=q3=Wall-Breaker Legguards", "=ds=#s11#, #a2#", "", "20%" },
+				{ 3, 80928, "", "=q3=Treads of Fixation", "=ds=#s12#, #a3#", "", "20%" },
+				{ 4, 80930, "", "=q3=Swarmbringer Chestguard", "=ds=#s5#, #a4#", "", "20%" },
+				{ 5, 80927, "", "=q3=Hive Protector's Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
+				{ 6, 80932, "", "=q3=Carapace Breaker", "=ds=#h1#, #w6#", "", "20%" },
+				{ 7, 80931, "", "=q3=Shield of the Protectorate", "=ds=#w8#", "", "20%" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87546, "", "=q4=Klatith, Fangs of the Swarm", "=ds=#w2#", "", "1%" },
+				{ 18, 81234, "", "=q3=Drape of the Screeching Swarm", "=ds=#s4#", "", "20%" },
+				{ 19, 81235, "", "=q3=Shoulders of Engulfing Winds", "=ds=#s3#, #a1#", "", "20%" },
+				{ 20, 81236, "", "=q3=Frenzyswarm Bracers", "=ds=#s8#, #a1#", "", "20%" },
+				{ 21, 81091, "", "=q3=Wall-Breaker Legguards", "=ds=#s11#, #a2#", "", "20%" },
+				{ 22, 81112, "", "=q3=Treads of Fixation", "=ds=#s12#, #a3#", "", "20%" },
+				{ 23, 81109, "", "=q3=Swarmbringer Chestguard", "=ds=#s5#, #a4#", "", "20%" },
+				{ 24, 81100, "", "=q3=Hive Protector's Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
+				{ 25, 81094, "", "=q3=Carapace Breaker", "=ds=#h1#, #w6#", "", "20%" },
+				{ 26, 81233, "", "=q3=Impervious Carapace", "=ds=#w8#", "", "20%" },
+				{ 27, 81097, "", "=q3=Shield of the Protectorate", "=ds=#w8#", "", "20%" },
 			}
 		};
 		info = {
@@ -3704,6 +3727,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 95808, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
 				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95816, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#" },
 				{ 17, 95817, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 95802, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
@@ -3731,6 +3755,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 94985, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96180 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
 				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 94994, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96188 },
 				{ 17, 94530, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96189 },
 				{ 18, 94532, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96174 },
@@ -3757,6 +3782,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 96552, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96924 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
 				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96560, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96932 },
 				{ 17, 96561, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96933 },
 				{ 18, 96546, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96918 },
