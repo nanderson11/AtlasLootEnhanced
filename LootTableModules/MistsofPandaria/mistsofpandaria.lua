@@ -446,7 +446,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 80920, "", "=q3=Fallout Filter", "=ds=#s1#, #a1#", "", "20%"},
 				{ 3, 80921, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#", "", "20%" },
 				{ 4, 80934, "", "=q3=Pendant of Precise Timing", "=ds=#s2#", "", "20%" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6479#"};
 				{ 17, 81104, "", "=q3=Fallout-Filtering Hood", "=ds=#s1#, #a1#", "", "20%"},
 				{ 18, 81090, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#", "", "20%" },
 				{ 19, 81190, "", "=q3=Grenadier's Belt", "=ds=#s10#, #a4#", "", "20%" },
@@ -512,7 +512,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 80927, "", "=q3=Hive Protector's Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
 				{ 6, 80932, "", "=q3=Carapace Breaker", "=ds=#h1#, #w6#", "", "20%" },
 				{ 7, 80931, "", "=q3=Shield of the Protectorate", "=ds=#w8#", "", "20%" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6945#"};
 				{ 17, 87546, "", "=q4=Klatith, Fangs of the Swarm", "=ds=#w2#", "", "1%" },
 				{ 18, 81234, "", "=q3=Drape of the Screeching Swarm", "=ds=#s4#", "", "20%" },
 				{ 19, 81235, "", "=q3=Shoulders of Engulfing Winds", "=ds=#s3#, #a1#", "", "20%" },
