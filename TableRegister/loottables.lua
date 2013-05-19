@@ -1691,7 +1691,7 @@ AtlasLoot_LootTableRegister = {
 				{ "WSGMisc", 6 },
 				{ "WSGAccessories", 7 },
 				{ "WSGWeapons", 8 },
-				{ "WSGArmor", 10 },
+				{ "WSGArmor", 9 },
 			},
 			["Info"] = { ALIL["Warsong Gulch"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
 		},
