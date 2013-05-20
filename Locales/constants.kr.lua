@@ -740,8 +740,6 @@ if AL then
 	AL["Carapace of the Old God"] = "고대신의 껍질";
 
 	-- Faction related strings
-	AL["Alliance"] = "얼라이언스";
-	AL["Horde"] = "호드";
 	AL["Neutral"] = "중립적";
 	AL["Friendly"] = "약간 우호적";
 	AL["Honored"] = "우호적";

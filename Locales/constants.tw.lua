@@ -928,8 +928,6 @@ if AL then
 	AL["Carapace of the Old God"] = "上古之神的甲殼";
 
 	-- Faction related strings
-	AL["Alliance"] = "聯盟";
-	AL["Horde"] = "部落";
 	AL["Neutral"] = "中立";
 	AL["Friendly"] = "友好";
 	AL["Honored"] = "尊敬";

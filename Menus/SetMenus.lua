@@ -196,22 +196,22 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 	AtlasLoot_Data["MOUNTMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "MountsAlliance", "achievement_pvp_a_16", "=ds="..ALIL["Darnassus"].." / "..ALIL["Gnomeregan"], "=ec1="..AL["Alliance"]};
-				{ 3, "MountsAlliance#2", "achievement_pvp_a_16", "=ds="..ALIL["Ironforge"].." / "..ALIL["Exodar"].." / "..ALIL["Stormwind"], "=ec1="..AL["Alliance"]};
-				{ 4, "MountsAlliance#3", "achievement_pvp_a_16", "=ds="..ALIL["Tushui Pandaren"].." / "..ALIL["Gilneas"], "=ec1="..AL["Alliance"]};
-				{ 5, "MountsAlliance#4", "achievement_pvp_a_16", "=ds="..AL["Flying Mounts"].." / "..ALIL["Kurenai"], "=ec1="..AL["Alliance"]};
-				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..ALIL["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Alliance"]};
+				{ 2, "MountsAlliance", "achievement_pvp_a_16", "=ds="..ALIL["Darnassus"].." / "..ALIL["Gnomeregan"], "=ec1="..FACTION_ALLIANCE};
+				{ 3, "MountsAlliance#2", "achievement_pvp_a_16", "=ds="..ALIL["Ironforge"].." / "..ALIL["Exodar"].." / "..ALIL["Stormwind"], "=ec1="..FACTION_ALLIANCE};
+				{ 4, "MountsAlliance#3", "achievement_pvp_a_16", "=ds="..ALIL["Tushui Pandaren"].." / "..ALIL["Gilneas"], "=ec1="..FACTION_ALLIANCE};
+				{ 5, "MountsAlliance#4", "achievement_pvp_a_16", "=ds="..AL["Flying Mounts"].." / "..ALIL["Kurenai"], "=ec1="..FACTION_ALLIANCE};
+				{ 6, "MountsAlliance#5", "achievement_pvp_a_16", "=ds="..ALIL["Dalaran"].." / "..AL["Misc"], "=ec1="..FACTION_ALLIANCE};
 				{ 8, "MountsFaction", "ability_mount_warhippogryph", "=ds="..AL["Neutral Faction Mounts"], ""};
 				{ 9, "MountsRareDungeon", "ability_mount_drake_bronze", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Dungeon"].." / "..AL["Outdoor"]};
 				{ 10, "MountsCraftQuest", "ability_mount_gyrocoptorelite", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted Mounts"], ""};
 				{ 11, "MountsEvent", "achievement_halloween_witch_01", "=ds="..AL["World Events"], ""};
 				{ 12, "MountsPromotional", "inv_misc_reforgedarchstone_01", "=ds="..AL["Promotional Mounts"], ""};
-				--{ 13, "MountsNEW", "inv_pandarenserpentmount_green", "=ds="..AL["New Mounts"], "=q5=Patch 5.2"};
-				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..ALIL["Orgrimmar"].." / "..ALIL["Silvermoon City"], "=ec1="..AL["Horde"]};
-				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..ALIL["Darkspear Trolls"].." / "..ALIL["Thunder Bluff"].." / "..ALIL["Undercity"], "=ec1="..AL["Horde"]};
-				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..ALIL["Huojin Pandaren"].." / "..ALIL["Bilgewater Cartel"], "=ec1="..AL["Horde"]};
-				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..AL["Flying Mounts"].." / "..ALIL["The Mag'har"], "=ec1="..AL["Horde"]};
-				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..ALIL["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Horde"]};
+				{ 13, "MountsNEW", "inv_pandarenserpentmount_green", "=ds="..AL["New Mounts"], "=q5=Patch 5.3"};
+				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..ALIL["Orgrimmar"].." / "..ALIL["Silvermoon City"], "=ec1="..FACTION_HORDE};
+				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..ALIL["Darkspear Trolls"].." / "..ALIL["Thunder Bluff"].." / "..ALIL["Undercity"], "=ec1="..FACTION_HORDE};
+				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..ALIL["Huojin Pandaren"].." / "..ALIL["Bilgewater Cartel"], "=ec1="..FACTION_HORDE};
+				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..AL["Flying Mounts"].." / "..ALIL["The Mag'har"], "=ec1="..FACTION_HORDE};
+				{ 21, "MountsHorde#5", "achievement_pvp_h_16", "=ds="..ALIL["Dalaran"].." / "..AL["Misc"], "=ec1="..FACTION_HORDE};
 				{ 23, "MountsPvP", "ability_mount_netherdrakeelite", "=ds="..AL["PvP Mounts"], ""};
 				{ 24, "MountsRareRaid", "inv_misc_summerfest_brazierorange", "=ds="..AL["Rare Mounts"], "=ec1="..AL["Raid"]};
 				{ 25, "MountsAchievement", "inv_mount_allianceliong", "=ds="..AL["Achievement Reward"], ""};

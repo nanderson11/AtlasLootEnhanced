@@ -6524,25 +6524,25 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["MiscFactions"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_jewelry_stormpiketrinket_05", "=q6="..ALIL["Stormpike Guard"], "=q5="..AL["Alliance"]};
+				{ 1, 0, "inv_jewelry_stormpiketrinket_05", "=q6="..ALIL["Stormpike Guard"], "=q5="..FACTION_ALLIANCE};
 				{ 2, 17904, "", "=q4=Stormpike Insignia Rank 6", "=ds=#s14#, =q1=#r5#"};
 				{ 3, 17903, "", "=q3=Stormpike Insignia Rank 5", "=ds=#s14#, =q1=#r5#"};
 				{ 4, 17902, "", "=q3=Stormpike Insignia Rank 4", "=ds=#s14#, =q1=#r4#"};
 				{ 5, 17901, "", "=q2=Stormpike Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 6, 17900, "", "=q2=Stormpike Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 7, 17691, "", "=q2=Stormpike Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..ALIL["The League of Arathor"], "=ds=#r5#, =q5="..AL["Alliance"]};
+				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..ALIL["The League of Arathor"], "=ds=#r5#, =q5="..FACTION_ALLIANCE};
 				{ 10, 20132, "", "=q1=Arathor Battle Tabard", "=ds=#s7#", "#HONOR:2679#"};
-				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..ALIL["Wintersaber Trainers"], "=ds=#r5#, =q5="..AL["Alliance"]};
+				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..ALIL["Wintersaber Trainers"], "=ds=#r5#, =q5="..FACTION_ALLIANCE};
 				{ 13, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#", "=q1=#m4#: #QUESTID:29034#"};
-				{ 16, 0, "inv_jewelry_frostwolftrinket_05", "=q6="..ALIL["Frostwolf Clan"], "=q5="..AL["Horde"]};
+				{ 16, 0, "inv_jewelry_frostwolftrinket_05", "=q6="..ALIL["Frostwolf Clan"], "=q5="..FACTION_HORDE};
 				{ 17, 17909, "", "=q4=Frostwolf Insignia Rank 6", "=ds=#s14#, =q1=#r5#"};
 				{ 18, 17908, "", "=q3=Frostwolf Insignia Rank 5", "=ds=#s14#, =q1=#r5#"};
 				{ 19, 17907, "", "=q3=Frostwolf Insignia Rank 4", "=ds=#s14#, =q1=#r4#"};
 				{ 20, 17906, "", "=q2=Frostwolf Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 21, 17905, "", "=q2=Frostwolf Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 22, 17690, "", "=q2=Frostwolf Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..ALIL["The Defilers"], "=ds=#r5#, =q5="..AL["Horde"]};
+				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..ALIL["The Defilers"], "=ds=#r5#, =q5="..FACTION_HORDE};
 				{ 25, 20131, "", "=q1=Battle Tabard of the Defilers", "=ds=#s7#", "#HONOR:2679#"};
 			};
 		};

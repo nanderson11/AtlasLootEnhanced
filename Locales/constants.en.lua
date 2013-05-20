@@ -928,8 +928,6 @@ if AL then
 	AL["Carapace of the Old God"] = true;
 
 	-- Faction related strings
-	AL["Alliance"] = true;
-	AL["Horde"] = true;
 	AL["Neutral"] = true;
 	AL["Friendly"] = true;
 	AL["Honored"] = true;

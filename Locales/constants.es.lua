@@ -734,8 +734,6 @@ if AL then
 	AL["Carapace of the Old God"] = "Caparazón del dios antiguo";
 
 	-- Faction related strings
-	AL["Alliance"] = "Alianza";
-	AL["Horde"] = "Horda";
 	-- AL["Neutral"] = true;
 	AL["Friendly"] = "Amistoso";
 	AL["Honored"] = "Honorable";

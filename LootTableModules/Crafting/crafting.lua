@@ -3135,8 +3135,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Companions"], ""};
-				{ 2, "s93843", "67275", "=q3=Magic Lamp", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..AL["Alliance"]};
-				{ 3, "s93841", "67274", "=q3=Enchanted Lantern", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..AL["Horde"]};
+				{ 2, "s93843", "67275", "=q3=Magic Lamp", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..FACTION_ALLIANCE};
+				{ 3, "s93841", "67274", "=q3=Enchanted Lantern", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..FACTION_HORDE};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
 				{ 6, "s116499", "74248", "=q4=Sha Crystal", "=ds=#sr# 600", "=ds="..AL["Trainer"]};
 				{ 7, "s118239", "74247", "=q3=Sha Shatter", "=ds=#sr# 600", "=ds="..AL["Trainer"], amount = 2};
@@ -3194,8 +3194,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
 				{ 11, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
 				{ 12, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
-				{ 13, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..AL["Alliance"] };
-				{ 14, 67308, "", "=q3=Formula: Enchanted Lantern", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..AL["Horde"] };
+				{ 13, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..FACTION_ALLIANCE };
+				{ 14, 67308, "", "=q3=Formula: Enchanted Lantern", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..FACTION_HORDE };
 			};
 		};
 		info = {
