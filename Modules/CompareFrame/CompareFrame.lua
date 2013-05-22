@@ -905,6 +905,8 @@ function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, 
 	elseif refresh and not frameWasShown then
 		AtlasLoot.CompareFrame:Hide()
 	end	
+	AtlasLoot.CompareFrame.EncounterJournal.info = nil
+	AtlasLoot:EncounterJournal_ButtonsRefresh()
 end	
 
 --function AtlasLoot:CompareFrame_WishlistSelect_UpdateList()

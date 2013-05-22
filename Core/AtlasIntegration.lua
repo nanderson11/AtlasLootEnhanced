@@ -146,17 +146,15 @@ function AtlasLoot:AtlasRefreshHook()
 	--Get map selection info from Atlas
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
-	local base = {};
+	local Atlastextbase = {};
 	
 	--Get boss name information
 	for k,v in pairs(data[zoneID]) do
-		base[k] = v;
+		Atlastextbase[k] = v;
 	end
 	
 	Atlas_MapRefresh();
-	
-	Atlastextbase = base;
-	
+
 	-- Check Tables
 	local contentTable = "Instances"
 	for k,v in pairs(AtlasLoot_LootTableRegister) do
@@ -182,7 +180,9 @@ function AtlasLoot:AtlasRefreshHook()
 							if missLines > 0 then
 								for _ = 1,missLines do
 									numContent = numContent + 1
-									Atlastextbase[numContent]={"", nil, nil}
+									if not Atlastextbase[numContent] then
+										Atlastextbase[numContent]={"", nil, nil}
+									end
 								end
 							end
 							-- Sets the Text
@@ -201,7 +201,9 @@ function AtlasLoot:AtlasRefreshHook()
 								if missLines > 0 then
 									for _ = 1,missLines do
 										numContent = numContent + 1
-										Atlastextbase[numContent]={"", nil, nil}
+										if not Atlastextbase[numContent] then
+											Atlastextbase[numContent]={"", nil, nil}
+										end
 									end
 								end
 								-- Sets the Text
@@ -241,13 +243,13 @@ function AtlasLoot:AtlasRefreshHook()
 	end
 
 	--populate the scroll frame entries list, the update func will do the rest
-	Atlas_Search("");
-	AtlasSearchEditBox:SetText("");
-	AtlasSearchEditBox:ClearFocus();
+	--Atlas_Search("");
+	--AtlasSearchEditBox:SetText("");
+	--AtlasSearchEditBox:ClearFocus();
 	
 	--create and align any new entry buttons that we need
 	if not AtlasLoot.AtlasLines then AtlasLoot.AtlasLines = {} end
-	for i=1,ATLAS_CUR_LINES do
+	for i=1,#ATLAS_DATA do
 		if not AtlasLoot.AtlasLines[i] then
 			if i==1 then
 				AtlasLoot.AtlasLines[i] = AtlasLoot:CreateSelectBossLineButton(AtlasFrame, {"TOPLEFT", "AtlasScrollBar", "TOPLEFT", 16, -3}, "AtlasBossLine"..i)
@@ -269,7 +271,7 @@ function AtlasLoot:AtlasRefreshHook()
 	AtlasLootItemsFrame:Hide();
 	Atlas_Search("");
 	--Make sure the scroll bar is correctly offset
-	AtlasLoot:AtlasScrollBar_Update();
+	AtlasLoot:AtlasScrollBar_Update()
 	
 	--see if we should display the entrance/instance button or not, and decide what it should say
 	local matchFound = {nil};

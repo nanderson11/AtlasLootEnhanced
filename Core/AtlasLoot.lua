@@ -1467,9 +1467,6 @@ function AtlasLoot:CheckHeroic(itemTable)
 	end
 end
 
---gsub(ITEM_UPGRADE_TOOLTIP_FORMAT, "%%d", "(%%d)")
-
-
 --- Returns a MapName by ID
 -- This function only replace nil with a "error" string
 -- @param id MapId ( http://www.wowpedia.org/MapID )
