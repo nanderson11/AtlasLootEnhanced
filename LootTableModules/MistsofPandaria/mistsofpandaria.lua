@@ -11070,10 +11070,10 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 97545, "", "=q1=Kor'kron Meat", "=ds=#m17#", ""};
 				{ 12, 97544, "", "=q1=Kor'kron Oil", "=ds=#m17#", ""};
 				{ 13, 97543, "", "=q1=Kor'kron Stone", "=ds=#m17#", ""};
-				{ 16, 98561, "", "=q3=Darkspear Battle Standard", "=ds=", "#KORKRONSTONE:10#"};
-				{ 17, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEM:97849:1#"};
-				{ 18, 98552, "", "=q3=Xan'tish's Flute", "=ds=", "#KORKRONLUMBER:150# #KORKRONOIL:150#"};
-				{ 19, 97921, "", "=q1=Bom'bay's Color-Seein' Sauce", "=ds=", "#KORKRONOIL:500#"};
+				{ 16, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEM:97849:1#"};
+				{ 17, 98552, "", "=q3=Xan'tish's Flute", "=ds=", "#KORKRONLUMBER:150# #KORKRONOIL:150#"};
+				{ 18, 97921, "", "=q1=Bom'bay's Color-Seein' Sauce", "=ds=", "#KORKRONOIL:500#"};
+				{ 19, 98561, "", "=q1=Darkspear Battle Standard", "=ds=", "#KORKRONSTONE:10#"};
 				{ 20, 97901, "", "=q1=Griftah's Authentic Troll Shoes", "=ds=#s12#", "#KORKRONLUMBER:500#"};
 				{ 21, 98563, "", "=q1=Rainstick", "=ds=", "#KORKRONLUMBER:10#"};
 				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEM:97849:1#"};
