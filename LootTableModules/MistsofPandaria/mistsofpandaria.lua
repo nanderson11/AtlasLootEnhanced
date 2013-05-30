@@ -9754,10 +9754,11 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
 				{ 9, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 17, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
-				{ 18, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
-				{ 19, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 20, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+				{ 17, 95341, "", "=q4=Armored Bloodwing", "=ds=#e27#"};
+				{ 18, 54811, "", "=q4=Celestial Steed", "=ds=#e27#"};
+				{ 19, 78924, "", "=q4=Heart of the Aspects", "=ds=#e27#"};
+				{ 20, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
+				{ 21, 69846, "", "=q4=Winged Guardian", "=ds=#e27#"};
 			};
 		};
 		info = {
