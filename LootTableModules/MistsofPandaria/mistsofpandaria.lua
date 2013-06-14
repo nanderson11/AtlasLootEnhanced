@@ -9157,9 +9157,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
 				{ 21, 89139, "", "=q1=Chain Pet Leash", "=ds="};
 				{ 22, 89222, "", "=q1=Cloud Ring", "=ds="};
-				{ 23, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
-				{ 24, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
-				{ 25, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+				{ 23, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+				{ 24, 37460, "", "=q1=Rope Pet Leash", "=ds="};
 			};
 			{
 				{ 1, 92742, "", "=q2=Polished Battle-Stone", "=ds=#e18#"};
