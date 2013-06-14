@@ -218,6 +218,7 @@ AtlasLoot_TextParsing = {
 	-- Factions
 	{ "#f1#", ALIL["Lower City"] },
 	{ "#f2#", ALIL["The Sha'tar"] },
+	{ "#f3#", ALIL["Thrallmar"] },
 	{ "#f4#", ALIL["Honor Hold"] },
 	{ "#f5#", ALIL["Keepers of Time"] },
 	{ "#f6#", ALIL["Cenarion Expedition"] },
