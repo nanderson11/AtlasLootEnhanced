@@ -364,6 +364,7 @@ if AL then
 	AL["Tier 13 Set"] = true;
 	AL["Tier 14 Set"] = true;
 	AL["Tier 15 Set"] = true;
+	AL["Tier 16 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Rare Mobs"] = true;
 	AL["Grand Marshal"] = true;
@@ -608,6 +609,7 @@ if AL then
 	AL["Accessories"] = true;
 	AL["Rare"] = true;
 	AL["Specializations"] = true;
+	AL["Flexible"] = true;
 	AL["Raid Finder"] = true;
 	AL["Thunderforged"] = true;
 	AL["Pandaria World Bosses"] = true;

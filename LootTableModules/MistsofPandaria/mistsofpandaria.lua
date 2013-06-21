@@ -20,6 +20,7 @@ local moduleName = "AtlasLootMoP"
 ---- Heart of Fear
 ---- Mogu'Shan Vaults
 ---- Pandaria World Bosses
+---- Siege of Orgrimmar
 ---- Terrace of Endless Spring
 ---- Throne of Thunder
 --- Rare Mobs
@@ -65,6 +66,7 @@ local moduleName = "AtlasLootMoP"
 ---- Challenge Mode Armor Sets
 ---- Tier 14 Sets (T14)
 ---- Tier 15 Sets (T15)
+---- Tier 16 Sets (T16)
 ---- Trading Card Game Items
 ---- Companions
 ---- Mounts
@@ -1773,6 +1775,18 @@ local moduleName = "AtlasLootMoP"
 		--- Pandaria World Bosses ---
 		-----------------------------
 
+	AtlasLoot_Data["ChiJi"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Chi-Ji, The Red Crane", 857),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
 	AtlasLoot_Data["Nalak"] = {
 		["Normal_A"] = {
 			{
@@ -2185,6 +2199,18 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
+	AtlasLoot_Data["Niuzao"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Niuzao, The Black Ox", 859),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
 	AtlasLoot_Data["Oondasta"] = {
 		["Normal"] = {
 			{
@@ -2235,6 +2261,79 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Oondasta", 826),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+	AtlasLoot_Data["Ordos"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ordos, Fire-God of the Yaungol", 861),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+	AtlasLoot_Data["SalyisWarband"] = {
+		["Normal"] = {
+			{
+				{ 1, 90408, "", "=q4=Free Spirit Hood", "=ds=#s1#, #a1#" },
+				{ 2, 90409, "", "=q4=Sky-Sear Cowl", "=ds=#s1#, #a1#" },
+				{ 3, 90417, "", "=q4=Robes of Blue Skies", "=ds=#s5#, #a1#" },
+				{ 4, 90418, "", "=q4=Robes of the Lightning Rider", "=ds=#s5#, #a1#" },
+				{ 5, 90449, "", "=q4=Belt of Detonation", "=ds=#s10#, #a1#" },
+				{ 6, 90448, "", "=q4=Cannonfire Cord", "=ds=#s10#, #a1#" },
+				{ 7, 90439, "", "=q4=Open Steppe Sandals", "=ds=#s12#, #a1#" },
+				{ 8, 90440, "", "=q4=Slippers of Fiery Retribution", "=ds=#s12#, #a1#" },
+				{ 10, 90413, "", "=q4=Crest of the Grand Warband", "=ds=#s1#, #a3#" },
+				{ 11, 90412, "", "=q4=Helm of Restoring Wind", "=ds=#s1#, #a3#" },
+				{ 12, 90422, "", "=q4=Armor of the Single Cloud", "=ds=#s5#, #a3#" },
+				{ 13, 90421, "", "=q4=Chain of Unsiezed Skies", "=ds=#s5#, #a3#" },
+				{ 16, 90410, "", "=q4=Cap of Wandering Pride", "=ds=#s1#, #a2#" },
+				{ 17, 90411, "", "=q4=Facemask of Unrepentant Banditry", "=ds=#s1#, #a2#" },
+				{ 18, 90419, "", "=q4=Fireproofed Chestguard", "=ds=#s5#, #a2#" },
+				{ 19, 90420, "", "=q4=Flameshot Wrap", "=ds=#s5#, #a2#" },
+				{ 20, 90451, "", "=q4=Cannoneer's Gunpowder Carrier", "=ds=#s10#, #a2#" },
+				{ 21, 90450, "", "=q4=Carrot-Holder Belt", "=ds=#s10#, #a2#" },
+				{ 22, 90442, "", "=q4=Flamefoot Tabi", "=ds=#s12#, #a2#" },
+				{ 23, 90441, "", "=q4=Stompdodger Boots", "=ds=#s12#, #a2#" },
+				{ 25, 90453, "", "=q4=Girdle of the Raging Rider", "=ds=#s10#, #a3#" },
+				{ 26, 90452, "", "=q4=Sparkmaker Girdle", "=ds=#s10#, #a3#" },
+				{ 27, 90443, "", "=q4=Burnmender Boots", "=ds=#s12#, #a3#" },
+				{ 28, 90444, "", "=q4=Treads of Gentle Nudges", "=ds=#s12#, #a3#" },
+			};
+			{
+				{ 1, 90416, "", "=q4=Crown of Ranging Invasion", "=ds=#s1#, #a4#" },
+				{ 2, 90415, "", "=q4=Giantfoot Headguard", "=ds=#s1#, #a4#" },
+				{ 3, 90414, "", "=q4=Greathelm of the Monstrous Mushan", "=ds=#s1#, #a4#" },
+				{ 4, 90425, "", "=q4=Carapace of Crushed Conviction", "=ds=#s5#, #a4#" },
+				{ 5, 90423, "", "=q4=Chestguard of the Unbowed Back", "=ds=#s5#, #a4#" },
+				{ 6, 90424, "", "=q4=Ravaging Warrior's Chestplate", "=ds=#s5#, #a4#" },
+				{ 7, 90456, "", "=q4=Cord of Crazed Strength", "=ds=#s10#, #a4#" },
+				{ 8, 90454, "", "=q4=Girdle of the Galloping Giant", "=ds=#s10#, #a4#" },
+				{ 9, 90455, "", "=q4=Greatbelt of Livid Fury", "=ds=#s10#, #a4#" },
+				{ 10, 90445, "", "=q4=Firerider Treads", "=ds=#s12#, #a4#" },
+				{ 11, 90446, "", "=q4=Silverspur Warboots", "=ds=#s12#, #a4#" },
+				{ 12, 90447, "", "=q4=Stompers of Vigorous Stomping", "=ds=#s12#, #a4#" },
+				{ 16, 90432, "", "=q4=Hellrider's Choker", "=ds=#s2#" },
+				{ 17, 90433, "", "=q4=Mushan Rider's Collar", "=ds=#s2#" },
+				{ 18, 90429, "", "=q4=Necklace of Imbued Fury", "=ds=#s2#" },
+				{ 19, 90431, "", "=q4=Saddlebinder Links", "=ds=#s2#" },
+				{ 20, 90430, "", "=q4=Stomphowl Pendant", "=ds=#s2#" },
+				{ 22, 90436, "", "=q4=Circle of Scaled Fury", "=ds=#s13#" },
+				{ 23, 90437, "", "=q4=Hereditary Saurok Loop", "=ds=#s13#" },
+				{ 24, 90435, "", "=q4=Ring of Wretched Flames", "=ds=#s13#" },
+				{ 25, 90438, "", "=q4=Signet of the Bandit Lord", "=ds=#s13#" },
+				{ 26, 90434, "", "=q4=Steaming Seal of Flame", "=ds=#s13#" },
+				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=ds=#e26#" },
+				{ 29, 90840, "", "=q3=Marauder's Gleaming Sack of Gold", "=ds=#m20#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Salyis's Warband", 725),
 			module = moduleName, instance = "Pandaria",
 		};
 	};
@@ -2462,64 +2561,453 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
-	AtlasLoot_Data["SalyisWarband"] = {
+	AtlasLoot_Data["Xuen"] = {
 		["Normal"] = {
 			{
-				{ 1, 90408, "", "=q4=Free Spirit Hood", "=ds=#s1#, #a1#" },
-				{ 2, 90409, "", "=q4=Sky-Sear Cowl", "=ds=#s1#, #a1#" },
-				{ 3, 90417, "", "=q4=Robes of Blue Skies", "=ds=#s5#, #a1#" },
-				{ 4, 90418, "", "=q4=Robes of the Lightning Rider", "=ds=#s5#, #a1#" },
-				{ 5, 90449, "", "=q4=Belt of Detonation", "=ds=#s10#, #a1#" },
-				{ 6, 90448, "", "=q4=Cannonfire Cord", "=ds=#s10#, #a1#" },
-				{ 7, 90439, "", "=q4=Open Steppe Sandals", "=ds=#s12#, #a1#" },
-				{ 8, 90440, "", "=q4=Slippers of Fiery Retribution", "=ds=#s12#, #a1#" },
-				{ 10, 90413, "", "=q4=Crest of the Grand Warband", "=ds=#s1#, #a3#" },
-				{ 11, 90412, "", "=q4=Helm of Restoring Wind", "=ds=#s1#, #a3#" },
-				{ 12, 90422, "", "=q4=Armor of the Single Cloud", "=ds=#s5#, #a3#" },
-				{ 13, 90421, "", "=q4=Chain of Unsiezed Skies", "=ds=#s5#, #a3#" },
-				{ 16, 90410, "", "=q4=Cap of Wandering Pride", "=ds=#s1#, #a2#" },
-				{ 17, 90411, "", "=q4=Facemask of Unrepentant Banditry", "=ds=#s1#, #a2#" },
-				{ 18, 90419, "", "=q4=Fireproofed Chestguard", "=ds=#s5#, #a2#" },
-				{ 19, 90420, "", "=q4=Flameshot Wrap", "=ds=#s5#, #a2#" },
-				{ 20, 90451, "", "=q4=Cannoneer's Gunpowder Carrier", "=ds=#s10#, #a2#" },
-				{ 21, 90450, "", "=q4=Carrot-Holder Belt", "=ds=#s10#, #a2#" },
-				{ 22, 90442, "", "=q4=Flamefoot Tabi", "=ds=#s12#, #a2#" },
-				{ 23, 90441, "", "=q4=Stompdodger Boots", "=ds=#s12#, #a2#" },
-				{ 25, 90453, "", "=q4=Girdle of the Raging Rider", "=ds=#s10#, #a3#" },
-				{ 26, 90452, "", "=q4=Sparkmaker Girdle", "=ds=#s10#, #a3#" },
-				{ 27, 90443, "", "=q4=Burnmender Boots", "=ds=#s12#, #a3#" },
-				{ 28, 90444, "", "=q4=Treads of Gentle Nudges", "=ds=#s12#, #a3#" },
-			};
-			{
-				{ 1, 90416, "", "=q4=Crown of Ranging Invasion", "=ds=#s1#, #a4#" },
-				{ 2, 90415, "", "=q4=Giantfoot Headguard", "=ds=#s1#, #a4#" },
-				{ 3, 90414, "", "=q4=Greathelm of the Monstrous Mushan", "=ds=#s1#, #a4#" },
-				{ 4, 90425, "", "=q4=Carapace of Crushed Conviction", "=ds=#s5#, #a4#" },
-				{ 5, 90423, "", "=q4=Chestguard of the Unbowed Back", "=ds=#s5#, #a4#" },
-				{ 6, 90424, "", "=q4=Ravaging Warrior's Chestplate", "=ds=#s5#, #a4#" },
-				{ 7, 90456, "", "=q4=Cord of Crazed Strength", "=ds=#s10#, #a4#" },
-				{ 8, 90454, "", "=q4=Girdle of the Galloping Giant", "=ds=#s10#, #a4#" },
-				{ 9, 90455, "", "=q4=Greatbelt of Livid Fury", "=ds=#s10#, #a4#" },
-				{ 10, 90445, "", "=q4=Firerider Treads", "=ds=#s12#, #a4#" },
-				{ 11, 90446, "", "=q4=Silverspur Warboots", "=ds=#s12#, #a4#" },
-				{ 12, 90447, "", "=q4=Stompers of Vigorous Stomping", "=ds=#s12#, #a4#" },
-				{ 16, 90432, "", "=q4=Hellrider's Choker", "=ds=#s2#" },
-				{ 17, 90433, "", "=q4=Mushan Rider's Collar", "=ds=#s2#" },
-				{ 18, 90429, "", "=q4=Necklace of Imbued Fury", "=ds=#s2#" },
-				{ 19, 90431, "", "=q4=Saddlebinder Links", "=ds=#s2#" },
-				{ 20, 90430, "", "=q4=Stomphowl Pendant", "=ds=#s2#" },
-				{ 22, 90436, "", "=q4=Circle of Scaled Fury", "=ds=#s13#" },
-				{ 23, 90437, "", "=q4=Hereditary Saurok Loop", "=ds=#s13#" },
-				{ 24, 90435, "", "=q4=Ring of Wretched Flames", "=ds=#s13#" },
-				{ 25, 90438, "", "=q4=Signet of the Bandit Lord", "=ds=#s13#" },
-				{ 26, 90434, "", "=q4=Steaming Seal of Flame", "=ds=#s13#" },
-				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=ds=#e26#" },
-				{ 29, 90840, "", "=q3=Marauder's Gleaming Sack of Gold", "=ds=#m20#" },
+
 			}
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Salyis's Warband", 725),
+			name = AtlasLoot:EJ_GetBossName("Xuen, The White Tiger", 860),
 			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+	AtlasLoot_Data["Yulon"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Yu'lon, The Jade Serpent", 858),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+		--------------------------
+		--- Siege of Orgrimmar ---
+		--------------------------
+
+	AtlasLoot_Data["SoOImmerseus"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Immerseus", 852),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOFallenProtectors"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("The Fallen Protectors", 849),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoONorushen"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Norushen", 866),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOShaofPride"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Sha of Pride", 867),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOGalakras"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Galakras", 868),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOIronJuggernaut"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Iron Juggernaut", 864),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoODarkShaman"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Kor'kron Dark Shaman", 856),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoONazgrim"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("General Nazgrim", 850),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOMalkorok"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Malkorok", 846),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOSpoils"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Spoils of Pandaria", 870),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOThok"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOBlackfuse"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOParagons"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOGarrosh"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869),
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOShared"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AL["Shared Boss Loot"],
+			module = moduleName, instance = "SiegeofOrgrimmar",
+		};
+	};
+
+	AtlasLoot_Data["SoOTrash"] = {
+		["Flexible"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "SiegeofOrgrimmar",
 		};
 	};
 
@@ -2885,7 +3373,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95625, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 95640, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 95632, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2910,7 +3397,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 94512, "", "=q4=Renataki's Soul Charm", "=ds=#s14#", tf=95997 },
 				{ 21, 94730, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#", tf=96012 },
 				{ 22, 94722, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#", tf=96004 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -2935,7 +3421,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96369, "", "=q4=Renataki's Soul Charm", "=ds=#s14#", tf=96741 },
 				{ 21, 96384, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#", tf=96756 },
 				{ 22, 96376, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#", tf=96748 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -2968,7 +3453,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 95657, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 95647, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 95660, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2995,7 +3479,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#", tf=96019 },
 				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#", tf=96032 },
 				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
-				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3022,7 +3505,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#", tf=96763 },
 				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#", tf=96776 },
 				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
-				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3051,7 +3533,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 95666, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				{ 22, 95675, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
 				{ 24, 94125, "", "=q3=Living Sandling", "=ds=#e13#" },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3072,7 +3553,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94760, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#", tf=96042 },
 				{ 21, 94759, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#", tf=96038 },
 				{ 22, 94758, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#", tf=96047 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3093,7 +3573,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96414, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#", tf=96786 },
 				{ 21, 96410, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#", tf=96782 },
 				{ 22, 96419, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#", tf=96791 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3125,7 +3604,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95686, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 21, 95678, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 95692, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3150,7 +3628,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94768, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#", tf=96058 },
 				{ 21, 94769, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#", tf=96050 },
 				{ 22, 94778, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#", tf=96064 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3175,7 +3652,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96430, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#", tf=96802 },
 				{ 21, 96422, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#", tf=96794 },
 				{ 22, 96436, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#", tf=96808 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3206,7 +3682,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 95712, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#" },
 				{ 23, 95698, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 95710, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3230,7 +3705,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94520, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#", tf=96084 },
 				{ 23, 94788, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#", tf=96070 },
 				{ 24, 94796, "", "=q4=Fetish of the Hydra", "=ds=#s15#", tf=96082 },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3254,7 +3728,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96456, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#", tf=96828 },
 				{ 23, 96442, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#", tf=96814 },
 				{ 24, 96454, "", "=q4=Fetish of the Hydra", "=ds=#s15#", tf=96826 },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3275,7 +3748,6 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 95724, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 95725, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
 				{ 10, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", ""};
-				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95888, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95889, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95887, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3296,7 +3768,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 94807, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#", tf=96097 },
 				{ 10, 95059, "", "=q4=Clutch of Ji-Kun", "=ds=#e27#", ""};
 				{ 11, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", ""};
-				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95576, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95581, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95572, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3317,7 +3788,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 96469, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#", tf=96841 },
 				{ 10, 95059, "", "=q4=Clutch of Ji-Kun", "=ds=#e27#", ""};
 				{ 11, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", ""};
-				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 96632, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96633, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96631, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3355,8 +3825,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95737, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 95743, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 95728, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3381,8 +3850,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95511, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#", tf=96109 },
 				{ 21, 94922, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#", tf=96115 },
 				{ 22, 94814, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#", tf=96100 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3407,8 +3875,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96481, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#", tf=96853 },
 				{ 21, 96487, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#", tf=96859 },
 				{ 22, 96472, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#", tf=96844 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3442,8 +3909,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 95758, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 95768, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
 				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3470,8 +3936,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94937, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#", tf=96130 },
 				{ 22, 94945, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#", tf=96140 },
 				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3498,8 +3963,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96502, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#", tf=96874 },
 				{ 22, 96512, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#", tf=96884 },
 				{ 24, 97960, "", "=q3=Dark Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 27, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3526,8 +3990,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95774, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 95770, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3547,8 +4010,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94955, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#", tf=96146 },
 				{ 21, 94954, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#", tf=96142 },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3568,8 +4030,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96518, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#", tf=96890 },
 				{ 21, 96514, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#", tf=96886 },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3588,8 +4049,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 95788, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#" },
 				{ 6, 95789, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#" },
 				{ 8, 95785, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
-				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95956, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95957, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95955, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3608,8 +4068,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 94969, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#", tf=96160},
 				{ 6, 94972, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#", tf=96161 },
 				{ 8, 95512, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#", tf=96157 },
-				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95578, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95583, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95573, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3628,8 +4087,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 96532, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#", tf=96904 },
 				{ 6, 96533, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#", tf=96905 },
 				{ 8, 96529, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#", tf=96901 },
-				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96700, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96701, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96699, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3662,8 +4120,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95795, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#" },
 				{ 21, 95791, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#" },
 				{ 22, 95794, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3682,8 +4139,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94974, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#", tf=96167 },
 				{ 21, 94973, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#", tf=96163 },
 				{ 22, 95515, "", "=q4=Shield of Twinned Despair", "=ds=#w8#", tf=96166 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3702,8 +4158,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96539, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#", tf=96911 },
 				{ 21, 96535, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#", tf=96907 },
 				{ 22, 96538, "", "=q4=Shield of Twinned Despair", "=ds=#w8#", tf=96910 },
-				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3726,8 +4181,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 95807, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#" },
 				{ 10, 95808, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95816, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#" },
 				{ 17, 95817, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 95802, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
@@ -3754,8 +4208,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 95535, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#", tf=96179 },
 				{ 10, 94985, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96180 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 94994, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96188 },
 				{ 17, 94530, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96189 },
 				{ 18, 94532, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96174 },
@@ -3781,8 +4234,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 96551, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#", tf=96923 },
 				{ 10, 96552, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96924 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 14, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96560, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96932 },
 				{ 17, 96561, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96933 },
 				{ 18, 96546, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96918 },
@@ -3876,6 +4328,9 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95874, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 9, 95873, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 10, 95872, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 95877, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
 				{ 17, 95862, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
 				{ 18, 95876, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
@@ -3932,6 +4387,9 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95068, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#", tf=96246 },
 				{ 9, 95063, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#", tf=96245 },
 				{ 10, 95069, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#", tf=96244 },
+				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 95498, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#", tf=96249 },
 				{ 17, 95507, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#", tf=96234 },
 				{ 18, 95502, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#", tf=96248 },
@@ -3958,6 +4416,9 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 96618, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#", tf=96990 },
 				{ 9, 96617, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#", tf=96989 },
 				{ 10, 96616, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#", tf=96988 },
+				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 96621, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#", tf=96993 },
 				{ 17, 96606, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#", tf=96978 },
 				{ 18, 96620, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#", tf=96992 },
@@ -4351,7 +4812,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 94222, "", "=q4=Key to the Palace of Lei Shen", "=ds=#e9#"};
 				{ 19, 92426, "", "=q4=Sealed Tome of the Lost Legion", "=ds=#m2#"};
 				{ 20, 94221, "", "=q3=Shan'ze Ritual Stone", "=ds="};
-				{ 21, 97268, "", "=q3=Tome of Valor", "=ds="};
 			};
 		};
 		info = {
@@ -4694,41 +5154,8 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["DominanceOffensive"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "pvpcurrency-honor-horde", "=q6=#r3#", ""};
-				{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:937#" };
-				{ 3, 93251, "", "=q4=Dominator's Circle", "=ds=#s13#", "#VALOR:937#" };
-				{ 4, 93250, "", "=q4=Dominator's Loop", "=ds=#s13#", "#VALOR:937#" };
-				{ 5, 93252, "", "=q4=Dominator's Seal", "=ds=#s13#", "#VALOR:937#" };
-				{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:937#" };
-				{ 8, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
-				{ 9, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
-				{ 10, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1312#" };
-				{ 11, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1312#" };
-				{ 12, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1312#" };
-				{ 13, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1312#" };
-				{ 14, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1312#" };
-				{ 15, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 16, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
-				{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 18, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 20, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1312#" };
-				{ 21, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1312#" };
-				{ 22, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
-				{ 23, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1312#" };
-				{ 24, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1312#" };
-				{ 25, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1312#" };
-				{ 26, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-				{ 27, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-				{ 28, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-			};
-			{
 				{ 1, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
-				{ 2, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 3, 93257, "", "=q4=Medallion of Mystifying Vapors", "=ds=#s14#", "#VALOR:1312#" };
-				{ 4, 93256, "", "=q4=Skullrender Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 5, 93254, "", "=q4=Static-Caster's Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 6, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 7, 93232, "", "=q7=Grand Commendation of the Dominance Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 2, 93232, "", "=q7=Grand Commendation of the Dominance Offensive", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "pvpcurrency-honor-horde", "=q6=#r5#", ""};
 				{ 17, 93169, "", "=q4=Grand Armored Wyvern", "=ds=#e27#", "=ds=2,000 #gold#"};
 			};
@@ -4845,7 +5272,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 97188, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"};
 				{ 8, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive", "=ds=", "=q1=#m4#: #QUESTID:32599#"};
 				{ 9, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
-				{ 10, 97155, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
+				{ 10, 95056, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
 				{ 11, 98558, "", "=q1=Empty Supply Crate", "=ds=", "#ELDERCHARM:3#"};
 				{ 12, 98560, "", "=q1=Arcane Trove", "=ds=", "#ELDERCHARM:15#"};
 			};
@@ -4937,41 +5364,8 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["OperationShieldwall"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "pvpcurrency-honor-alliance", "=q6=#r3#", ""};
-				{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
-				{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
-				{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
-				{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
-				{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
-				{ 8, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
-				{ 9, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
-				{ 10, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1312#" };
-				{ 11, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1312#" };
-				{ 12, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1312#" };
-				{ 13, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1312#" };
-				{ 14, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1312#" };
-				{ 15, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 16, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
-				{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 18, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
-				{ 20, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1312#" };
-				{ 21, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1312#" };
-				{ 22, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
-				{ 23, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1312#" };
-				{ 24, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1312#" };
-				{ 25, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1312#" };
-				{ 26, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-				{ 27, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-				{ 28, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1312#" };
-			};
-			{
 				{ 1, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
-				{ 2, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 3, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 4, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 5, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 6, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1312#" };
-				{ 7, 93231, "", "=q7=Grand Commendation of Operation: Shieldwall", "=ds=", "=ds=45 #gold#"};
+				{ 2, 93231, "", "=q7=Grand Commendation of Operation: Shieldwall", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "pvpcurrency-honor-alliance", "=q6=#r5#", ""};
 				{ 17, 93168, "", "=q4=Grand Armored Gryphon", "=ds=#e27#", "=ds=2,000 #gold#"};
 			};
@@ -7787,19 +8181,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86666, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86664, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86668, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86667, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86665, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85326, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85324, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85328, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85327, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85325, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87199, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87201, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87197, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -8458,19 +8852,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95993, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95995, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95991, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95992, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95994, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95337, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95339, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95335, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95336, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95338, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96737, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96739, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96735, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -8481,6 +8875,815 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..ALIL["Protection"],
 			module = moduleName, menu = "T15SET",
+		};
+	}
+
+		--------------------------
+		--- Tier 16 Sets (T16) ---
+		--------------------------
+
+	AtlasLoot_Data["T16DeathKnightDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t16s10_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99057, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 3, 99059, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 4, 99066, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 5, 99067, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 6, 99058, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t16s10_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99571, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 10, 99639, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 11, 99608, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 12, 99609, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 13, 99572, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t16s10_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99194, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 18, 99187, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 19, 99192, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 20, 99193, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 21, 99186, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 23, 0, "spell_deathknight_frostpresence", "=q6=#t16s10_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99337, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 25, 99339, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 26, 99335, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 27, 99336, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 28, 99338, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16DeathKnightTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t16s10_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99049, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 3, 99040, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 4, 99060, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 5, 99048, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 6, 99039, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t16s10_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99605, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 10, 99652, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 11, 99640, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 12, 99604, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 13, 99564, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t16s10_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99190, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 18, 99179, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 19, 99188, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 20, 99189, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 21, 99191, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 23, 0, "spell_deathknight_bloodpresence", "=q6=#t16s10_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99323, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#"};
+				{ 25, 99325, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#"};
+				{ 26, 99330, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#"};
+				{ 27, 99331, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 28, 99324, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16DruidRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#t16s1_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99013, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 3, 99016, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 4, 99015, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 5, 99012, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 6, 99014, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#t16s1_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99638, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 10, 99583, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 11, 99582, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 12, 99637, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 13, 99581, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#t16s1_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99178, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 18, 99173, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 19, 99172, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 20, 99185, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 21, 99171, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 23, 0, "spell_nature_healingtouch", "=q6=#t16s1_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99436, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 25, 99431, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 26, 99430, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 27, 99435, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 28, 99429, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Restoration"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16DruidDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_druid_catform", "=q6=#t16s1_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99043, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 3, 99022, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 4, 99041, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 5, 99042, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 6, 99044, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 8, 0, "ability_druid_catform", "=q6=#t16s1_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99599, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 10, 99589, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 11, 99632, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 12, 99633, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 13, 99600, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 16, 0, "ability_druid_catform", "=q6=#t16s1_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99182, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 18, 99184, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 19, 99180, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 20, 99181, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 21, 99183, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 23, 0, "ability_druid_catform", "=q6=#t16s1_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99328, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 25, 99322, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 26, 99326, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 27, 99327, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 28, 99329, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Feral"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16DruidBalance"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_starfall", "=q6=#t16s1_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 98995, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 3, 98998, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 4, 98997, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 5, 98994, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 6, 98996, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_starfall", "=q6=#t16s1_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99618, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 10, 99621, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 11, 99620, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 12, 99617, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 13, 99619, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_starfall", "=q6=#t16s1_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99175, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 18, 99169, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 19, 99177, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 20, 99174, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 21, 99176, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 23, 0, "spell_nature_starfall", "=q6=#t16s1_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99433, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 25, 99428, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 26, 99427, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 27, 99432, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 28, 99434, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Balance"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16DruidTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_racial_bearform", "=q6=#t16s1_4#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99001, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 3, 98978, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 4, 98999, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 5, 99000, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 6, 98981, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 8, 0, "ability_racial_bearform", "=q6=#t16s1_4#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99624, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 10, 99664, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 11, 99622, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 12, 99623, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 13, 99610, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 16, 0, "ability_racial_bearform", "=q6=#t16s1_4#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99163, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 18, 99166, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 19, 99170, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 20, 99163, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 21, 99165, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 23, 0, "ability_racial_bearform", "=q6=#t16s1_4#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99421, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#"};
+				{ 25, 99423, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#"};
+				{ 26, 99419, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#"};
+				{ 27, 99420, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 28, 99422, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..ALIL["Guardian"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16Hunter"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#t16s2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99080, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 3, 99082, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 4, 99085, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 5, 99086, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 6, 99081, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#t16s2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99660, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 10, 99574, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 11, 99577, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 12, 99578, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 13, 99573, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#t16s2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99157, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 18, 99159, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 19, 99167, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 20, 99168, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 21, 99158, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 23, 0, "inv_weapon_bow_07", "=q6=#t16s2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99402, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 25, 99404, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 26, 99405, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 27, 99406, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 28, 99403, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16Mage"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_staff_13", "=q6=#t16s3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99084, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#"};
+				{ 3, 99079, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#"};
+				{ 4, 99078, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#"};
+				{ 5, 99083, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#"};
+				{ 6, 99077, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#"};
+				{ 8, 0, "inv_staff_13", "=q6=#t16s3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99576, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#"};
+				{ 10, 99659, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#"};
+				{ 11, 99658, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#"};
+				{ 12, 99575, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#"};
+				{ 13, 99657, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#"};
+				{ 16, 0, "inv_staff_13", "=q6=#t16s3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99161, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#"};
+				{ 18, 99153, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#"};
+				{ 19, 99152, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#"};
+				{ 20, 99160, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#"};
+				{ 21, 99162, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#"};
+				{ 23, 0, "inv_staff_13", "=q6=#t16s3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99398, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#"};
+				{ 25, 99401, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#"};
+				{ 26, 99400, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#"};
+				{ 27, 99397, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#"};
+				{ 28, 99399, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16MonkTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t16s11_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99065, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#"};
+				{ 3, 99051, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#"};
+				{ 4, 99063, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#"};
+				{ 5, 99064, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#"};
+				{ 6, 99050, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t16s11_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99607, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#"};
+				{ 10, 99565, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#"};
+				{ 11, 99643, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#"};
+				{ 12, 99644, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#"};
+				{ 13, 99606, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t16s11_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99142, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#"};
+				{ 18, 99144, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#"};
+				{ 19, 99140, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#"};
+				{ 20, 99141, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#"};
+				{ 21, 99143, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#"};
+				{ 23, 0, "spell_monk_brewmaster_spec", "=q6=#t16s11_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99384, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#"};
+				{ 25, 99386, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#"};
+				{ 26, 99382, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#"};
+				{ 27, 99383, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#"};
+				{ 28, 99385, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..ALIL["Brewmaster"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16MonkDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t16s11_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99073, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#"};
+				{ 3, 99075, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#"};
+				{ 4, 99071, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#"};
+				{ 5, 99072, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#"};
+				{ 6, 99074, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t16s11_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99653, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#"};
+				{ 10, 99655, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#"};
+				{ 11, 99555, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#"};
+				{ 12, 99556, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#"};
+				{ 13, 99654, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t16s11_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99156, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#"};
+				{ 18, 99146, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 99154, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#"};
+				{ 20, 99155, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#"};
+				{ 21, 99145, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#"};
+				{ 23, 0, "spell_monk_windwalker_spec", "=q6=#t16s11_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99393, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#"};
+				{ 25, 99395, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#"};
+				{ 26, 99396, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#"};
+				{ 27, 99392, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#"};
+				{ 28, 99394, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..ALIL["Windwalker"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16MonkHealer"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t16s11_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99069, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#"};
+				{ 3, 99062, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#"};
+				{ 4, 99061, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#"};
+				{ 5, 99068, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#"};
+				{ 6, 99070, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t16s11_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99553, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#"};
+				{ 10, 99642, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#"};
+				{ 11, 99641, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#"};
+				{ 12, 99552, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#"};
+				{ 13, 99554, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t16s11_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99148, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#"};
+				{ 18, 99151, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#"};
+				{ 19, 99150, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#"};
+				{ 20, 99147, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#"};
+				{ 21, 99149, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#"};
+				{ 23, 0, "spell_monk_mistweaver_spec", "=q6=#t16s11_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99389, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#"};
+				{ 25, 99381, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#"};
+				{ 26, 99391, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#"};
+				{ 27, 99388, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#"};
+				{ 28, 99390, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..ALIL["Mistweaver"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16PaladinHoly"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t16s4_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 98979, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#"};
+				{ 3, 99076, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#"};
+				{ 4, 99003, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#"};
+				{ 5, 98982, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#"};
+				{ 6, 98980, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#"};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t16s4_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99665, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#"};
+				{ 10, 99656, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#"};
+				{ 11, 99626, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#"};
+				{ 12, 99648, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#"};
+				{ 13, 99666, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t16s4_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99135, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#"};
+				{ 18, 99125, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#"};
+				{ 19, 99133, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#"};
+				{ 20, 99134, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#"};
+				{ 21, 99124, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#"};
+				{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#t16s4_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99376, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#"};
+				{ 25, 99378, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#"};
+				{ 26, 99374, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#"};
+				{ 27, 99375, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#"};
+				{ 28, 99377, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Holy"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16PaladinProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t16s4_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99029, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#"};
+				{ 3, 99027, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 4, 99031, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#"};
+				{ 5, 99028, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#"};
+				{ 6, 99026, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#"};
+				{ 8, 0, "spell_holy_devotionaura", "=q6=#t16s4_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99596, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#"};
+				{ 10, 99594, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 11, 99598, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#"};
+				{ 12, 99595, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#"};
+				{ 13, 99593, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t16s4_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99128, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#"};
+				{ 18, 99130, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 19, 99126, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#"};
+				{ 20, 99127, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#"};
+				{ 21, 99129, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#"};
+				{ 23, 0, "spell_holy_devotionaura", "=q6=#t16s4_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99370, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#"};
+				{ 25, 99364, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 26, 99368, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#"};
+				{ 27, 99369, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#"};
+				{ 28, 99371, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Protection"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16PaladinRetribution"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t16s4_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 98985, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#"};
+				{ 3, 98987, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#"};
+				{ 4, 99052, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#"};
+				{ 5, 99002, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 6, 98986, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#"};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t16s4_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99651, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#"};
+				{ 10, 99662, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#"};
+				{ 11, 99566, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#"};
+				{ 12, 99625, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 13, 99661, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t16s4_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99138, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#"};
+				{ 18, 99132, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#"};
+				{ 19, 99136, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#"};
+				{ 20, 99134, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 21, 99139, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#"};
+				{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#t16s4_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99379, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#"};
+				{ 25, 99373, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#"};
+				{ 26, 99387, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#"};
+				{ 27, 99380, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 28, 99372, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..ALIL["Retribution"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16PriestShadow"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99020, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 3, 99005, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 4, 99004, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 5, 99019, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 6, 99021, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99587, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 10, 99628, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 11, 99627, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 12, 99586, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 13, 99588, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99122, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 18, 99111, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 19, 99110, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 20, 99121, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 21, 99123, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 23, 0, "spell_shadow_shadowwordpain", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99360, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 25, 99363, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 26, 99362, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 27, 99359, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 28, 99361, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Shadow"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16PriestHoly"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99024, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 3, 99018, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 4, 99017, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 5, 99023, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 6, 99025, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99591, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 10, 99585, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 11, 99584, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 12, 99590, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 13, 99592, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99117, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 18, 99120, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 19, 99119, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 20, 99131, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 21, 99118, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 23, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99366, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#"};
+				{ 25, 99358, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#"};
+				{ 26, 99357, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#"};
+				{ 27, 99365, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 28, 99367, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..ALIL["Holy"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16Rogue"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_throwingknife_04", "=q6=#t16s6#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99008, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#"};
+				{ 3, 99010, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#"};
+				{ 4, 99006, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#"};
+				{ 5, 99007, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#"};
+				{ 6, 99009, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#"};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#t16s6#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99631, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#"};
+				{ 10, 99635, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#"};
+				{ 11, 99629, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#"};
+				{ 12, 99630, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#"};
+				{ 13, 99634, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#"};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#t16s6#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99114, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#"};
+				{ 18, 99116, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 99112, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#"};
+				{ 20, 99113, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#"};
+				{ 21, 99115, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#"};
+				{ 23, 0, "inv_throwingknife_04", "=q6=#t16s6#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99348, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#"};
+				{ 25, 99350, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#"};
+				{ 26, 99356, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#"};
+				{ 27, 99355, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#"};
+				{ 28, 99349, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16ShamanElemental"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t16s7_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99089, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 3, 99091, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 4, 99087, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 5, 99088, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 6, 99090, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t16s7_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99645, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 10, 99647, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 11, 99579, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 12, 99580, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 13, 99646, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t16s7_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99093, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 18, 99095, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 19, 99106, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 20, 99092, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 21, 99094, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 23, 0, "Spell_Nature_Lightning", "=q6=#t16s7_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99332, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 25, 99334, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 26, 99344, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 27, 99345, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 28, 99333, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Elemental"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16ShamanEnhancement"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#t16s7_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 98983, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 3, 98977, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 4, 98992, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 5, 98993, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 6, 98984, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#t16s7_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99649, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 10, 99663, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 11, 99615, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 12, 99616, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 13, 99650, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#t16s7_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99103, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 18, 99105, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 19, 99101, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 20, 99102, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 21, 99104, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 23, 0, "spell_nature_lightningshield", "=q6=#t16s7_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99341, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 25, 99343, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 26, 99347, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 27, 99340, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 28, 99342, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Enhancement"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16ShamanRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t16s7_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 98989, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 3, 98991, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 4, 99011, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 5, 98988, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 6, 98990, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t16s7_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99612, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 10, 99614, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 11, 99636, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 12, 99611, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 13, 99613, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t16s7_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99109, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 18, 99100, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 19, 99107, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 20, 99108, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 21, 99099, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 23, 0, "spell_nature_magicimmunity", "=q6=#t16s7_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99353, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#"};
+				{ 25, 99346, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#"};
+				{ 26, 99351, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#"};
+				{ 27, 99352, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 28, 99354, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..ALIL["Restoration"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16Warlock"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t16s8#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99054, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#"};
+				{ 3, 99045, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#"};
+				{ 4, 99056, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#"};
+				{ 5, 99053, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#"};
+				{ 6, 99055, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t16s8#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99568, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#"};
+				{ 10, 99601, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#"};
+				{ 11, 99570, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#"};
+				{ 12, 99567, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#"};
+				{ 13, 99569, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t16s8#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99097, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#"};
+				{ 18, 99205, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#"};
+				{ 19, 99204, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#"};
+				{ 20, 99096, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#"};
+				{ 21, 99098, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#"};
+				{ 23, 0, "spell_nature_drowsy", "=q6=#t16s8#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99425, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#"};
+				{ 25, 99417, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#"};
+				{ 26, 99416, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#"};
+				{ 27, 99424, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#"};
+				{ 28, 99426, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16WarriorFury"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t16s9_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99046, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 3, 99036, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 4, 99047, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 5, 99034, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 6, 99035, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t16s9_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99602, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 10, 99561, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 11, 99603, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 12, 99559, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 13, 99560, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t16s9_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99206, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 18, 99200, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 19, 99197, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 20, 99198, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 21, 99199, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 23, 0, "ability_warrior_innerrage", "=q6=#t16s9_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99418, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 25, 99414, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 26, 99411, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 27, 99412, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 28, 99413, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
+			module = moduleName, menu = "T16SET",
+		};
+	}
+
+	AtlasLoot_Data["T16WarriorProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t16s9_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 2, 99032, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 3, 99030, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 4, 99037, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 5, 99038, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 6, 99033, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t16s9_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 9, 99557, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 10, 99597, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 11, 99562, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 12, 99563, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 13, 99558, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t16s9_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 17, 99203, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 18, 99196, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 19, 99201, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 20, 99202, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 21, 99195, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 23, 0, "ability_warrior_defensivestance", "=q6=#t16s9_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 24, 99409, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#"};
+				{ 25, 99407, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#"};
+				{ 26, 99415, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#"};
+				{ 27, 99408, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 28, 99410, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..ALIL["Protection"],
+			module = moduleName, menu = "T16SET",
 		};
 	}
 
@@ -10673,40 +11876,40 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 
 				{
-					{ 2, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 2, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 2, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+					{ 2, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1312#" };
 				};
 				{
-					{ 3, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 3, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 3, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+					{ 3, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1312#" };
 				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 6, 89337, "", "=q4=Firecracker Corona", "=ds=#s1#, #a1#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 7, 89340, "", "=q4=Mantle of the Golden Sun", "=ds=#s3#, #a1#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 8, 89433, "", "=q4=Vestments of Thundering Skies", "=ds=#s5#, #a1#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 9, 88893, "", "=q4=Minh's Beaten Bracers", "=ds=#s8#, #a1#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 10, 88742, "", "=q4=Sunspeaker's Flared Gloves", "=ds=#s9#, #a1#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 11, 89062, "", "=q4=Klaxxi Lash of the Orator", "=ds=#s10#, #a1#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 12, 89088, "", "=q4=Leggings of the Poisoned Soul", "=ds=#s11#, #a1#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 13, 88878, "", "=q4=Void Flame Slippers", "=ds=#s12#, #a1#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 6, 89337, "", "=q4=Firecracker Corona", "=ds=#s1#, #a1#", "#VALOR:1125#" },
+				{ 7, 89340, "", "=q4=Mantle of the Golden Sun", "=ds=#s3#, #a1#", "#VALOR:875#" },
+				{ 8, 89433, "", "=q4=Vestments of Thundering Skies", "=ds=#s5#, #a1#", "#VALOR:1125#" },
+				{ 9, 88893, "", "=q4=Minh's Beaten Bracers", "=ds=#s8#, #a1#", "#VALOR:625#" },
+				{ 10, 88742, "", "=q4=Sunspeaker's Flared Gloves", "=ds=#s9#, #a1#", "#VALOR:875#" },
+				{ 11, 89062, "", "=q4=Klaxxi Lash of the Orator", "=ds=#s10#, #a1#", "#VALOR:875#" },
+				{ 12, 89088, "", "=q4=Leggings of the Poisoned Soul", "=ds=#s11#, #a1#", "#VALOR:1125#" },
+				{ 13, 88878, "", "=q4=Void Flame Slippers", "=ds=#s12#, #a1#", "#VALOR:875#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 17, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 17, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 17, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1312#" };
+					{ 17, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1312#" };
 				};
 				{
-					{ 18, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 18, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 18, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1312#" };
+					{ 18, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1312#" };
 				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 21, 89338, "", "=q4=Yalia's Cowl", "=ds=#s1#, #a1#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 22, 89339, "", "=q4=Tenderheart Shoulders", "=ds=#s3#, #a1#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 23, 89434, "", "=q4=Robe of the Five Sisters", "=ds=#s5#, #a1#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 24, 88892, "", "=q4=Bracers of Inlaid Jade", "=ds=#s8#, #a1#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 25, 88741, "", "=q4=Gloves of Red Feathers", "=ds=#s9#, #a1#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 26, 89063, "", "=q4=Klaxxi Lash of the Seeker", "=ds=#s10#, #a1#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 27, 89087, "", "=q4=Poisoncrafter's Kilt", "=ds=#s11#, #a1#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 28, 88877, "", "=q4=Storm-Sing Sandals", "=ds=#s12#, #a1#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 21, 89338, "", "=q4=Yalia's Cowl", "=ds=#s1#, #a1#", "#VALOR:1125#" },
+				{ 22, 89339, "", "=q4=Tenderheart Shoulders", "=ds=#s3#, #a1#", "#VALOR:875#" },
+				{ 23, 89434, "", "=q4=Robe of the Five Sisters", "=ds=#s5#, #a1#", "#VALOR:1125#" },
+				{ 24, 88892, "", "=q4=Bracers of Inlaid Jade", "=ds=#s8#, #a1#", "#VALOR:625#" },
+				{ 25, 88741, "", "=q4=Gloves of Red Feathers", "=ds=#s9#, #a1#", "#VALOR:875#" },
+				{ 26, 89063, "", "=q4=Klaxxi Lash of the Seeker", "=ds=#s10#, #a1#", "#VALOR:875#" },
+				{ 27, 89087, "", "=q4=Poisoncrafter's Kilt", "=ds=#s11#, #a1#", "#VALOR:1125#" },
+				{ 28, 88877, "", "=q4=Storm-Sing Sandals", "=ds=#s12#, #a1#", "#VALOR:875#" },
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
@@ -10727,40 +11930,40 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 2, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 2, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 2, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+					{ 2, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1312#" };
 				};
 				{
-					{ 3, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 3, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+					{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1312#" };
 				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 6, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 7, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 8, 89431, "", "=q4=Softfoot Silentwrap", "=ds=#s5#, #a2#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 9, 88884, "", "=q4=Quillpaw Family Bracers", "=ds=#s8#, #a2#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 10, 88744, "", "=q4=Fingers of the Loneliest Monk", "=ds=#s9#, #a2#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 11, 89060, "", "=q4=Klaxxi Lash of the Borrower", "=ds=#s10#, #a2#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 12, 89090, "", "=q4=Dreadsworn Slayer Legs", "=ds=#s11#, #a2#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 13, 88868, "", "=q4=Tukka-Tuk's Hairy Boots", "=ds=#s12#, #a2#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 6, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:1125#" },
+				{ 7, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:875#" },
+				{ 8, 89431, "", "=q4=Softfoot Silentwrap", "=ds=#s5#, #a2#", "#VALOR:1125#" },
+				{ 9, 88884, "", "=q4=Quillpaw Family Bracers", "=ds=#s8#, #a2#", "#VALOR:625#" },
+				{ 10, 88744, "", "=q4=Fingers of the Loneliest Monk", "=ds=#s9#, #a2#", "#VALOR:875#" },
+				{ 11, 89060, "", "=q4=Klaxxi Lash of the Borrower", "=ds=#s10#, #a2#", "#VALOR:875#" },
+				{ 12, 89090, "", "=q4=Dreadsworn Slayer Legs", "=ds=#s11#, #a2#", "#VALOR:1125#" },
+				{ 13, 88868, "", "=q4=Tukka-Tuk's Hairy Boots", "=ds=#s12#, #a2#", "#VALOR:875#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 17, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 17, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 17, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1312#" };
+					{ 17, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1312#" };
 				};
 				{
-					{ 18, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 18, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 18, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1312#" };
+					{ 18, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1312#" };
 				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 21, 89308, "", "=q4=Snowdrift Helm", "=ds=#s1#, #a2#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 22, 89342, "", "=q4=Whitepetal Shouldergarb", "=ds=#s3#, #a2#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 23, 89432, "", "=q4=Mistfall Robes", "=ds=#s5#, #a2#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 24, 88885, "", "=q4=Clever Ashyo's Armbands", "=ds=#s8#, #a2#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 25, 88743, "", "=q4=Ogo's Elder Gloves", "=ds=#s9#, #a2#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 26, 89061, "", "=q4=Klaxxi Lash of the Harbinger", "=ds=#s10#, #a2#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 27, 89089, "", "=q4=Wind-Reaver Greaves", "=ds=#s11#, #a2#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 28, 88876, "", "=q4=Boots of the High Adept", "=ds=#s12#, #a2#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 21, 89308, "", "=q4=Snowdrift Helm", "=ds=#s1#, #a2#", "#VALOR:1125#" },
+				{ 22, 89342, "", "=q4=Whitepetal Shouldergarb", "=ds=#s3#, #a2#", "#VALOR:875#" },
+				{ 23, 89432, "", "=q4=Mistfall Robes", "=ds=#s5#, #a2#", "#VALOR:1125#" },
+				{ 24, 88885, "", "=q4=Clever Ashyo's Armbands", "=ds=#s8#, #a2#", "#VALOR:625#" },
+				{ 25, 88743, "", "=q4=Ogo's Elder Gloves", "=ds=#s9#, #a2#", "#VALOR:875#" },
+				{ 26, 89061, "", "=q4=Klaxxi Lash of the Harbinger", "=ds=#s10#, #a2#", "#VALOR:875#" },
+				{ 27, 89089, "", "=q4=Wind-Reaver Greaves", "=ds=#s11#, #a2#", "#VALOR:1125#" },
+				{ 28, 88876, "", "=q4=Boots of the High Adept", "=ds=#s12#, #a2#", "#VALOR:875#" },
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
@@ -10781,40 +11984,40 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 2, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 2, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 2, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+					{ 2, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1312#" };
 				};
 				{
-					{ 3, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 3, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 3, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+					{ 3, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1312#" };
 				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 6, 89291, "", "=q4=Hawkmaster's Headguard", "=ds=#s1#, #a3#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 7, 89344, "", "=q4=Windwalker Spaulders", "=ds=#s3#, #a3#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 8, 89430, "", "=q4=Breastplate of the Golden Pagoda", "=ds=#s5#, #a3#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 9, 88882, "", "=q4=Tiger-Striped Wristguards", "=ds=#s8#, #a3#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 10, 88745, "", "=q4=Sentinel Commander's Gauntlets", "=ds=#s9#, #a3#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 11, 89058, "", "=q4=Klaxxi Lash of the Winnower", "=ds=#s10#, #a3#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 12, 89092, "", "=q4=Locust Swarm Legguards", "=ds=#s11#, #a3#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 13, 88866, "", "=q4=Steps of the War Serpent", "=ds=#s12#, #a3#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 6, 89291, "", "=q4=Hawkmaster's Headguard", "=ds=#s1#, #a3#", "#VALOR:1125#" },
+				{ 7, 89344, "", "=q4=Windwalker Spaulders", "=ds=#s3#, #a3#", "#VALOR:875#" },
+				{ 8, 89430, "", "=q4=Breastplate of the Golden Pagoda", "=ds=#s5#, #a3#", "#VALOR:1125#" },
+				{ 9, 88882, "", "=q4=Tiger-Striped Wristguards", "=ds=#s8#, #a3#", "#VALOR:625#" },
+				{ 10, 88745, "", "=q4=Sentinel Commander's Gauntlets", "=ds=#s9#, #a3#", "#VALOR:875#" },
+				{ 11, 89058, "", "=q4=Klaxxi Lash of the Winnower", "=ds=#s10#, #a3#", "#VALOR:875#" },
+				{ 12, 89092, "", "=q4=Locust Swarm Legguards", "=ds=#s11#, #a3#", "#VALOR:1125#" },
+				{ 13, 88866, "", "=q4=Steps of the War Serpent", "=ds=#s12#, #a3#", "#VALOR:875#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 17, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 17, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 17, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1312#" };
+					{ 17, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1312#" };
 				};
 				{
-					{ 18, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 18, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 18, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1312#" };
+					{ 18, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1312#" };
 				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 21, 89296, "", "=q4=Nightwatcher's Helm", "=ds=#s1#, #a3#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 22, 89343, "", "=q4=Mindbender Shoulders", "=ds=#s3#, #a3#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 23, 89429, "", "=q4=Robes of the Setting Sun", "=ds=#s5#, #a3#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 24, 88883, "", "=q4=Brewmaster Chani's Bracers", "=ds=#s8#, #a3#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 25, 88748, "", "=q4=Ravenmane's Gloves", "=ds=#s9#, #a3#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 26, 89059, "", "=q4=Klaxxi Lash of the Precursor", "=ds=#s10#, #a3#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 27, 89091, "", "=q4=Swarmkeeper's Leggings", "=ds=#s11#, #a3#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 28, 88867, "", "=q4=Sandals of the Elder Sage", "=ds=#s12#, #a3#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 21, 89296, "", "=q4=Nightwatcher's Helm", "=ds=#s1#, #a3#", "#VALOR:1125#" },
+				{ 22, 89343, "", "=q4=Mindbender Shoulders", "=ds=#s3#, #a3#", "#VALOR:875#" },
+				{ 23, 89429, "", "=q4=Robes of the Setting Sun", "=ds=#s5#, #a3#", "#VALOR:1125#" },
+				{ 24, 88883, "", "=q4=Brewmaster Chani's Bracers", "=ds=#s8#, #a3#", "#VALOR:625#" },
+				{ 25, 88748, "", "=q4=Ravenmane's Gloves", "=ds=#s9#, #a3#", "#VALOR:875#" },
+				{ 26, 89059, "", "=q4=Klaxxi Lash of the Precursor", "=ds=#s10#, #a3#", "#VALOR:875#" },
+				{ 27, 89091, "", "=q4=Swarmkeeper's Leggings", "=ds=#s11#, #a3#", "#VALOR:1125#" },
+				{ 28, 88867, "", "=q4=Sandals of the Elder Sage", "=ds=#s12#, #a3#", "#VALOR:875#" },
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
@@ -10841,61 +12044,61 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 2, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 2, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 2, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+					{ 2, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1312#" };
 				};
 				{
-					{ 3, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 3, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 3, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+					{ 3, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1312#" };
 				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 6, 89280, "", "=q4=Voice Amplyifying Greathelm", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 7, 89345, "", "=q4=Stonetoe Spaulders", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 8, 89420, "", "=q4=Dawnblade's Chestguard", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 9, 88879, "", "=q4=Braided Black and White Bracer", "=ds=#s8#, #a4#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 10, 88747, "", "=q4=Streetfighter's Iron Knuckles", "=ds=#s9#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 11, 89055, "", "=q4=Klaxxi Lash of the Rescinder", "=ds=#s10#, #a4#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 12, 89095, "", "=q4=Legguards of the Unscathed", "=ds=#s11#, #a4#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 13, 88862, "", "=q4=Tankiss Warstompers", "=ds=#s12#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 6, 89280, "", "=q4=Voice Amplyifying Greathelm", "=ds=#s1#, #a4#", "#VALOR:1125#" },
+				{ 7, 89345, "", "=q4=Stonetoe Spaulders", "=ds=#s3#, #a4#", "#VALOR:875#" },
+				{ 8, 89420, "", "=q4=Dawnblade's Chestguard", "=ds=#s5#, #a4#", "#VALOR:1125#" },
+				{ 9, 88879, "", "=q4=Braided Black and White Bracer", "=ds=#s8#, #a4#", "#VALOR:625#" },
+				{ 10, 88747, "", "=q4=Streetfighter's Iron Knuckles", "=ds=#s9#, #a4#", "#VALOR:875#" },
+				{ 11, 89055, "", "=q4=Klaxxi Lash of the Rescinder", "=ds=#s10#, #a4#", "#VALOR:875#" },
+				{ 12, 89095, "", "=q4=Legguards of the Unscathed", "=ds=#s11#, #a4#", "#VALOR:1125#" },
+				{ 13, 88862, "", "=q4=Tankiss Warstompers", "=ds=#s12#, #a4#", "#VALOR:875#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+					{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1312#" };
 				};
 				{
-					{ 18, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 18, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 18, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+					{ 18, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1312#" };
 				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 21, 89216, "", "=q4=Yi's Least Favorite Helmet", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 22, 89346, "", "=q4=Shoulders of Autumnlight", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 23, 89421, "", "=q4=Cuirass of the Twin Monoliths", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 24, 88880, "", "=q4=Battle Shadow Bracers", "=ds=#s8#, #a4#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 25, 88746, "", "=q4=Gloves of the Overwhelming Swarm", "=ds=#s9#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 26, 89056, "", "=q4=Klaxxi Lash of the Consumer", "=ds=#s10#, #a4#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 27, 89093, "", "=q4=Kovok's Riven Legguards", "=ds=#s11#, #a4#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 28, 88864, "", "=q4=Yu'lon Guardian Boots", "=ds=#s12#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 21, 89216, "", "=q4=Yi's Least Favorite Helmet", "=ds=#s1#, #a4#", "#VALOR:1125#" },
+				{ 22, 89346, "", "=q4=Shoulders of Autumnlight", "=ds=#s3#, #a4#", "#VALOR:875#" },
+				{ 23, 89421, "", "=q4=Cuirass of the Twin Monoliths", "=ds=#s5#, #a4#", "#VALOR:1125#" },
+				{ 24, 88880, "", "=q4=Battle Shadow Bracers", "=ds=#s8#, #a4#", "#VALOR:625#" },
+				{ 25, 88746, "", "=q4=Gloves of the Overwhelming Swarm", "=ds=#s9#, #a4#", "#VALOR:875#" },
+				{ 26, 89056, "", "=q4=Klaxxi Lash of the Consumer", "=ds=#s10#, #a4#", "#VALOR:875#" },
+				{ 27, 89093, "", "=q4=Kovok's Riven Legguards", "=ds=#s11#, #a4#", "#VALOR:1125#" },
+				{ 28, 88864, "", "=q4=Yu'lon Guardian Boots", "=ds=#s12#, #a4#", "#VALOR:875#" },
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 2, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 2, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 2, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
+					{ 2, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1312#" };
 				};
 				{
-					{ 3, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 3, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 3, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1312#" };
+					{ 3, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1312#" };
 				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 6, 89096, "", "=q4=Six Pool's Open Helm", "=ds=#s1#, #a4#", "#VALOR:1125#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 7, 89347, "", "=q4=Paleblade Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:875#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 8, 89423, "", "=q4=Battleguard of Guo-Lai", "=ds=#s5#, #a4#", "#VALOR:1125#"..ALIL["Golden Lotus"].." - "..AL["Revered"] },
-				{ 9, 88881, "", "=q4=Fallen Sentinel Bracers", "=ds=#s8#, #a4#", "#VALOR:625#"..ALIL["The August Celestials"].." - "..AL["Honored"] },
-				{ 10, 88749, "", "=q4=Gauntlets of Jade Sutras", "=ds=#s9#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
-				{ 11, 89057, "", "=q4=Klaxxi Lash of the Doubter", "=ds=#s10#, #a4#", "#VALOR:875#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 12, 89094, "", "=q4=Ambersmith Legplates", "=ds=#s11#, #a4#", "#VALOR:1125#"..ALIL["The Klaxxi"].." - "..AL["Revered"] },
-				{ 13, 88865, "", "=q4=Bramblestaff Boots", "=ds=#s12#, #a4#", "#VALOR:875#"..ALIL["The August Celestials"].." - "..AL["Revered"] },
+				{ 6, 89096, "", "=q4=Six Pool's Open Helm", "=ds=#s1#, #a4#", "#VALOR:1125#" },
+				{ 7, 89347, "", "=q4=Paleblade Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:875#" },
+				{ 8, 89423, "", "=q4=Battleguard of Guo-Lai", "=ds=#s5#, #a4#", "#VALOR:1125#" },
+				{ 9, 88881, "", "=q4=Fallen Sentinel Bracers", "=ds=#s8#, #a4#", "#VALOR:625#" },
+				{ 10, 88749, "", "=q4=Gauntlets of Jade Sutras", "=ds=#s9#, #a4#", "#VALOR:875#" },
+				{ 11, 89057, "", "=q4=Klaxxi Lash of the Doubter", "=ds=#s10#, #a4#", "#VALOR:875#" },
+				{ 12, 89094, "", "=q4=Ambersmith Legplates", "=ds=#s11#, #a4#", "#VALOR:1125#" },
+				{ 13, 88865, "", "=q4=Bramblestaff Boots", "=ds=#s12#, #a4#", "#VALOR:875#" },
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
@@ -10937,17 +12140,17 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 2, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 3, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 4, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 5, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
-				{ 6, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:625#"..ALIL["Shado-Pan"].." - "..AL["Honored"] },
+				{ 2, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:625#" },
+				{ 3, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:625#" },
+				{ 4, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:625#" },
+				{ 5, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:625#" },
+				{ 6, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:625#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 17, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 18, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 19, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 20, 89066, "", "=q4=Paragon's Pale Pendant", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
-				{ 21, 89068, "", "=q4=Wire of the Wakener", "=ds=#s2#", "#VALOR:625#"..ALIL["The Klaxxi"].." - "..AL["Honored"] },
+				{ 17, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:625#" },
+				{ 18, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:625#" },
+				{ 19, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:625#" },
+				{ 20, 89066, "", "=q4=Paragon's Pale Pendant", "=ds=#s2#", "#VALOR:625#" },
+				{ 21, 89068, "", "=q4=Wire of the Wakener", "=ds=#s2#", "#VALOR:625#" },
 				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"];
 			};
 			{
@@ -10990,58 +12193,58 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
-					{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
+					{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:937#" };
+					{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
 				};
 				{
-					{ 3, 93251, "", "=q4=Dominator's Circle", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
-					{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
+					{ 3, 93251, "", "=q4=Dominator's Circle", "=ds=#s13#", "#VALOR:937#" };
+					{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
 				};
 				{
-					{ 4, 93250, "", "=q4=Dominator's Loop", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
-					{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
+					{ 4, 93250, "", "=q4=Dominator's Loop", "=ds=#s13#", "#VALOR:937#" };
+					{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
 				};
 				{
-					{ 5, 93252, "", "=q4=Dominator's Seal", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
-					{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
+					{ 5, 93252, "", "=q4=Dominator's Seal", "=ds=#s13#", "#VALOR:937#" };
+					{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
 				};
 				{
-					{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:937#"..ALIL["Dominance Offensive"].." - "..AL["Honored"] };
-					{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:937#"..ALIL["Operation: Shieldwall"].." - "..AL["Honored"] };
+					{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:937#" };
+					{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:937#" };
 				};
 				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 9, 89070, "", "=q4=Anji's Keepsake", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
-				{ 10, 89071, "", "=q4=Alani's Inflexible Ring", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
-				{ 11, 89073, "", "=q4=Leven's Circle of Hope", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
-				{ 12, 89069, "", "=q4=Ring of the Golden Stair", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
-				{ 13, 89072, "", "=q4=Simple Harmonius Ring", "=ds=#s13#", "#VALOR:625#"..ALIL["Golden Lotus"].." - "..AL["Honored"] },
+				{ 9, 89070, "", "=q4=Anji's Keepsake", "=ds=#s13#", "#VALOR:625#" },
+				{ 10, 89071, "", "=q4=Alani's Inflexible Ring", "=ds=#s13#", "#VALOR:625#" },
+				{ 11, 89073, "", "=q4=Leven's Circle of Hope", "=ds=#s13#", "#VALOR:625#" },
+				{ 12, 89069, "", "=q4=Ring of the Golden Stair", "=ds=#s13#", "#VALOR:625#" },
+				{ 13, 89072, "", "=q4=Simple Harmonius Ring", "=ds=#s13#", "#VALOR:625#" },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 496), ""};
 				{
-					{ 17, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 17, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 17, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1312#" };
+					{ 17, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1312#" };
 				};
 				{
-					{ 18, 93257, "", "=q4=Medallion of Mystifying Vapors", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 18, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 18, 93257, "", "=q4=Medallion of Mystifying Vapors", "=ds=#s14#", "#VALOR:1312#" };
+					{ 18, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1312#" };
 				};
 				{
-					{ 19, 93256, "", "=q4=Skullrender Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 19, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 19, 93256, "", "=q4=Skullrender Medallion", "=ds=#s14#", "#VALOR:1312#" };
+					{ 19, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1312#" };
 				};
 				{
-					{ 20, 93254, "", "=q4=Static-Caster's Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 20, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 20, 93254, "", "=q4=Static-Caster's Medallion", "=ds=#s14#", "#VALOR:1312#" };
+					{ 20, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1312#" };
 				};
 				{
-					{ 21, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Dominance Offensive"].." - "..AL["Revered"] };
-					{ 21, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1312#"..ALIL["Operation: Shieldwall"].." - "..AL["Revered"] };
+					{ 21, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1312#" };
+					{ 21, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1312#" };
 				};
 				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 489), ""};
-				{ 24, 89081, "", "=q4=Blossom of Pure Snow", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 25, 89082, "", "=q4=Hawkmaster's Talon", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 26, 89083, "", "=q4=Iron Belly Wok", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 27, 89079, "", "=q4=Lao-Chin's Liquid Courage", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
-				{ 28, 89080, "", "=q4=Scroll of Revered Ancestors", "=ds=#s14#", "#VALOR:875#"..ALIL["Shado-Pan"].." - "..AL["Revered"] },
+				{ 24, 89081, "", "=q4=Blossom of Pure Snow", "=ds=#s14#", "#VALOR:875#" },
+				{ 25, 89082, "", "=q4=Hawkmaster's Talon", "=ds=#s14#", "#VALOR:875#" },
+				{ 26, 89083, "", "=q4=Iron Belly Wok", "=ds=#s14#", "#VALOR:875#" },
+				{ 27, 89079, "", "=q4=Lao-Chin's Liquid Courage", "=ds=#s14#", "#VALOR:875#" },
+				{ 28, 89080, "", "=q4=Scroll of Revered Ancestors", "=ds=#s14#", "#VALOR:875#" },
 				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"];
 			};
 		};

@@ -6188,19 +6188,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Raid Finder"]};
 				{ 2, 78784, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
 				{ 3, 78829, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
 				{ 4, 78753, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
 				{ 5, 78764, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
 				{ 6, 78800, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Normal"]};
 				{ 9, 76990, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
 				{ 10, 76992, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
 				{ 11, 76988, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
 				{ 12, 76989, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
 				{ 13, 76991, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t13s9_2#", "=q5="..string.format(AL["Tier %d"], 13).." - "..AL["Heroic"]};
 				{ 17, 78689, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
 				{ 18, 78734, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
 				{ 19, 78658, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};

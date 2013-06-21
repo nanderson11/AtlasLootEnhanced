@@ -361,6 +361,7 @@ if AL then
 	-- AL["Tier 13 Set"] = true;
 	-- AL["Tier 14 Set"] = true;
 	-- AL["Tier 15 Set"] = true;
+	-- AL["Tier 16 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
 	AL["Rare Mobs"] = "Rare-Mobs";
 	AL["Grand Marshal"] = "Großmarschall";
@@ -605,6 +606,7 @@ if AL then
 	AL["Accessories"] = "Zubehör";
 	AL["Rare"] = "Selten";
 	AL["Specializations"] = "Spezialisierungen";
+	AL["Flexible"] = "Flexibel";
 	AL["Raid Finder"] = "Schlachtzugsbrowser";
 	AL["Thunderforged"] = "Donnergeschmiedet";
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
