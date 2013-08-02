@@ -34,7 +34,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 27, "T13SET", "inv_shoulder_plate_raiddeathknight_j_01", "=ds="..AL["Tier 13 Set"], "=q5="..AL["Cataclysm"]};
 				{ 28, "T14SET", "inv_shoulder_cloth_raidwarlock_l_01", "=ds="..AL["Tier 14 Set"], "=q5="..AL["Mists of Pandaria"]};
 				{ 29, "T15SET", "inv_chest_plate_raidwarrior_m_01", "=ds="..AL["Tier 15 Set"], "=q5="..AL["Mists of Pandaria"]};
-				{ 30, "T16SET", "", "=ds="..AL["Tier 16 Set"], "=q5="..AL["Mists of Pandaria"]};
+				{ 30, "T16SET", "inv_shoulder_leather_raidmonk_n_01", "=ds="..AL["Tier 16 Set"], "=q5="..AL["Mists of Pandaria"]};
 			};
 		};
 		info = {
