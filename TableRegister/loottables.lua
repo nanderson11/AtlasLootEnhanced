@@ -212,7 +212,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SoOShared", 33 },
 				{ "SoOTrash", 34 },
 			},
-			["Info"] = { "Siege of Orgrimmar", "AtlasLootMoP", mapname = "SiegeofOrgrimmar", raid = true, EncounterJournalID = 369 },
+			["Info"] = { ALIL["Siege of Orgrimmar"], "AtlasLootMoP", mapname = "SiegeofOrgrimmar", raid = true, EncounterJournalID = 369 },
 		},
 
 		["TerraceofEndlessSpring"] = {
