@@ -8217,19 +8217,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t14s5_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86702, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86699, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86700, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86703, "", "=q4=Guardian Serpent Handwraps", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86701, "", "=q4=Guardian Serpent Legwraps", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t14s5_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85362, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85359, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85360, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85363, "", "=q4=Guardian Serpent Handwraps", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85361, "", "=q4=Guardian Serpent Legwraps", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t14s5_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87115, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87118, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87117, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -8888,19 +8888,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t15s5_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95926, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95929, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95928, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95925, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95927, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t15s5_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95296, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95299, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95298, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95295, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95297, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t15s5_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96670, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96673, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96672, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -9649,25 +9649,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T16PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t16s5_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Raid Finder"]};
 				{ 2, 99024, "", "=q4=Cowl of the Ternion Glory", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 3, 99018, "", "=q4=Mantle of the Ternion Glory", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 4, 99017, "", "=q4=Robes of the Ternion Glory", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};
 				{ 5, 99023, "", "=q4=Handwraps of the Ternion Glory", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
 				{ 6, 99025, "", "=q4=Legwraps of the Ternion Glory", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t16s5_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Flexible"]};
 				{ 9, 99591, "", "=q4=Cowl of the Ternion Glory", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 10, 99585, "", "=q4=Mantle of the Ternion Glory", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 11, 99584, "", "=q4=Robes of the Ternion Glory", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};
 				{ 12, 99590, "", "=q4=Handwraps of the Ternion Glory", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
 				{ 13, 99592, "", "=q4=Legwraps of the Ternion Glory", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t16s5_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
 				{ 17, 99117, "", "=q4=Cowl of the Ternion Glory", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 18, 99120, "", "=q4=Mantle of the Ternion Glory", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 19, 99119, "", "=q4=Robes of the Ternion Glory", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};
 				{ 20, 99131, "", "=q4=Handwraps of the Ternion Glory", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
 				{ 21, 99118, "", "=q4=Legwraps of the Ternion Glory", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)};
-				{ 23, 0, "spell_holy_guardianspirit", "=q6=#t16s5_1#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
+				{ 23, 0, "spell_holy_guardianspirit", "=q6=#t16s5_2#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
 				{ 24, 99366, "", "=q4=Cowl of the Ternion Glory", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 25, 99358, "", "=q4=Mantle of the Ternion Glory", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 26, 99357, "", "=q4=Robes of the Ternion Glory", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};

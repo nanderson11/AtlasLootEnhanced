@@ -1973,6 +1973,7 @@ AtlasLoot_LootTableRegister = {
 				{ "T13SET" },
 				{ "T14SET" },
 				{ "T15SET" },
+				{ "T16SET" },
 			},
 			["Info"] = { AL["Tier Sets"], "AtlasLootMoP"},
 		},
