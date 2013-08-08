@@ -80,7 +80,7 @@ AtlasLoot_TextParsing = {
 	{ "#s14#", BabbleInventory["Trinket"] },
 	{ "#s15#", BabbleInventory["Held in Off-Hand"] },
 
-	-- Weapon Weilding
+	-- Weapon Wielding
 	{ "#h1#", BabbleInventory["One-Hand"] },
 	{ "#h2#", BabbleInventory["Two-Hand"] },
 	{ "#h3#", BabbleInventory["Main Hand"] },
@@ -160,6 +160,7 @@ AtlasLoot_TextParsing = {
 	{ "#m39#", string.format(AL["Tier %d"], 13) },
 	{ "#m40#", string.format(AL["Tier %d"], 14) },
 	{ "#m41#", string.format(AL["Tier %d"], 15) },
+	{ "#m42#", string.format(AL["Tier %d"], 16) },
 
 	-- Misc
 	{ "#j1#", AL["Normal Mode"] },

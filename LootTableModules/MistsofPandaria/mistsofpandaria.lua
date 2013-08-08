@@ -2592,12 +2592,54 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOImmerseus"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 104923, "", "=q4=Cloak of Misguided Power", "=ds=#s4#" },
+				{ 2, 104922, "", "=q4=Hood of Swirling Senses", "=ds=#s1#, #a1#" },
+				{ 3, 104921, "", "=q4=Ichor-Dripping Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 4, 104920, "", "=q4=Bolt-Burster Grips", "=ds=#s9#, #a1#" },
+				{ 5, 104911, "", "=q4=Hood of Blackened Tears", "=ds=#s1#, #a2#" },
+				{ 6, 104927, "", "=q4=Bracers of Purified Spirit", "=ds=#s8#, #a2#" },
+				{ 7, 104926, "", "=q4=Salt Water Sandals", "=ds=#s12#, #a2#" },
+				{ 8, 104928, "", "=q4=Soul-Soaked Gloves", "=ds=#s9#, #a3#" },
+				{ 9, 104912, "", "=q4=Puddle Punishers", "=ds=#s12#, #a3#" },
+				{ 10, 104918, "", "=q4=Pauldrons of Violent Eruption", "=ds=#s3#, #a4#" },
+				{ 11, 104914, "", "=q4=Chestplate of Congealed Corrosion", "=ds=#s5#, #a4#" },
+				{ 12, 104917, "", "=q4=Bracers of Sordid Sleep", "=ds=#s8#, #a4#" },
+				{ 13, 104913, "", "=q4=Bubble-Burst Bracers", "=ds=#s8#, #a4#" },
+				{ 14, 104915, "", "=q4=Corruption-Rotted Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104929, "", "=q4=Greatbelt of Living Waters", "=ds=#s10#, #a4#" },
+				{ 16, 104916, "", "=q4=Treads of Unchained Hate", "=ds=#s12#, #a4#" },
+				{ 17, 104930, "", "=q4=Waterwalker Greatboots", "=ds=#s12#, #a4#" },
+				{ 19, 104909, "", "=q4=Immerseus' Crystalline Eye", "=ds=#s2#" },
+				{ 20, 104925, "", "=q4=Seal of Eternal Sorrow", "=ds=#s13#" },
+				{ 21, 104924, "", "=q4=Purified Bindings of Immerseus", "=ds=#s14#" },
+				{ 23, 104919, "", "=q4=Encapsulated Essence of Immerseus", "=ds=#h1#, #w6#" },
+				{ 24, 104910, "", "=q4=Trident of Corrupted Waters", "=ds=#w9#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104674, "", "=q4=Cloak of Misguided Power", "=ds=#s4#" },
+				{ 2, 104673, "", "=q4=Hood of Swirling Senses", "=ds=#s1#, #a1#" },
+				{ 3, 104672, "", "=q4=Ichor-Dripping Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 4, 104671, "", "=q4=Bolt-Burster Grips", "=ds=#s9#, #a1#" },
+				{ 5, 104662, "", "=q4=Hood of Blackened Tears", "=ds=#s1#, #a2#" },
+				{ 6, 104678, "", "=q4=Bracers of Purified Spirit", "=ds=#s8#, #a2#" },
+				{ 7, 104677, "", "=q4=Salt Water Sandals", "=ds=#s12#, #a2#" },
+				{ 8, 104679, "", "=q4=Soul-Soaked Gloves", "=ds=#s9#, #a3#" },
+				{ 9, 104663, "", "=q4=Puddle Punishers", "=ds=#s12#, #a3#" },
+				{ 10, 104669, "", "=q4=Pauldrons of Violent Eruption", "=ds=#s3#, #a4#" },
+				{ 11, 104665, "", "=q4=Chestplate of Congealed Corrosion", "=ds=#s5#, #a4#" },
+				{ 12, 104668, "", "=q4=Bracers of Sordid Sleep", "=ds=#s8#, #a4#" },
+				{ 13, 104664, "", "=q4=Bubble-Burst Bracers", "=ds=#s8#, #a4#" },
+				{ 14, 104666, "", "=q4=Corruption-Rotted Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104680, "", "=q4=Greatbelt of Living Waters", "=ds=#s10#, #a4#" },
+				{ 16, 104667, "", "=q4=Treads of Unchained Hate", "=ds=#s12#, #a4#" },
+				{ 17, 104681, "", "=q4=Waterwalker Greatboots", "=ds=#s12#, #a4#" },
+				{ 19, 104660, "", "=q4=Immerseus' Crystalline Eye", "=ds=#s2#" },
+				{ 20, 104676, "", "=q4=Seal of Eternal Sorrow", "=ds=#s13#" },
+				{ 21, 104675, "", "=q4=Purified Bindings of Immerseus", "=ds=#s14#" },
+				{ 23, 104670, "", "=q4=Encapsulated Essence of Immerseus", "=ds=#h1#, #w6#" },
+				{ 24, 104661, "", "=q4=Trident of Corrupted Waters", "=ds=#w9#" },
 			};
 		};
 		["Normal"] = {
@@ -2628,7 +2670,28 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104425, "", "=q4=Cloak of Misguided Power", "=ds=#s4#" },
+				{ 2, 104424, "", "=q4=Hood of Swirling Senses", "=ds=#s1#, #a1#" },
+				{ 3, 104423, "", "=q4=Ichor-Dripping Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 4, 104422, "", "=q4=Bolt-Burster Grips", "=ds=#s9#, #a1#" },
+				{ 5, 104413, "", "=q4=Hood of Blackened Tears", "=ds=#s1#, #a2#" },
+				{ 6, 104429, "", "=q4=Bracers of Purified Spirit", "=ds=#s8#, #a2#" },
+				{ 7, 104428, "", "=q4=Salt Water Sandals", "=ds=#s12#, #a2#" },
+				{ 8, 104430, "", "=q4=Soul-Soaked Gloves", "=ds=#s9#, #a3#" },
+				{ 9, 104414, "", "=q4=Puddle Punishers", "=ds=#s12#, #a3#" },
+				{ 10, 104420, "", "=q4=Pauldrons of Violent Eruption", "=ds=#s3#, #a4#" },
+				{ 11, 104416, "", "=q4=Chestplate of Congealed Corrosion", "=ds=#s5#, #a4#" },
+				{ 12, 104419, "", "=q4=Bracers of Sordid Sleep", "=ds=#s8#, #a4#" },
+				{ 13, 104415, "", "=q4=Bubble-Burst Bracers", "=ds=#s8#, #a4#" },
+				{ 14, 104417, "", "=q4=Corruption-Rotted Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104431, "", "=q4=Greatbelt of Living Waters", "=ds=#s10#, #a4#" },
+				{ 16, 104418, "", "=q4=Treads of Unchained Hate", "=ds=#s12#, #a4#" },
+				{ 17, 104432, "", "=q4=Waterwalker Greatboots", "=ds=#s12#, #a4#" },
+				{ 19, 104411, "", "=q4=Immerseus' Crystalline Eye", "=ds=#s2#" },
+				{ 20, 104427, "", "=q4=Seal of Eternal Sorrow", "=ds=#s13#" },
+				{ 21, 104426, "", "=q4=Purified Bindings of Immerseus", "=ds=#s14#" },
+				{ 23, 104421, "", "=q4=Encapsulated Essence of Immerseus", "=ds=#h1#, #w6#" },
+				{ 24, 104412, "", "=q4=Trident of Corrupted Waters", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -2640,22 +2703,102 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOFallenProtectors"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 104939, "", "=q4=Gloomwrap Greatcloak", "=ds=#s4#" },
+				{ 2, 104943, "", "=q4=Shoulderpads of Dou Dou Chong", "=ds=#s3#, #a1#" },
+				{ 3, 104942, "", "=q4=Robes of the Tendered Heart", "=ds=#s5#, #a1#" },
+				{ 4, 104944, "", "=q4=Lifebane Bracers", "=ds=#s8#, #a1#" },
+				{ 5, 104941, "", "=q4=Sha-Seared Sandals", "=ds=#s12#, #a1#" },
+				{ 6, 104947, "", "=q4=Shoulders of the Roiling Inferno", "=ds=#s3#, #a2#" },
+				{ 7, 104933, "", "=q4=Stonetoe's Tormented Treads", "=ds=#s12#, #a2#" },
+				{ 8, 104949, "", "=q4=Shoulderguards of Dark Meditations", "=ds=#s3#, #a3#" },
+				{ 9, 104934, "", "=q4=Grips of Unending Anguish", "=ds=#s9#, #a3#" },
+				{ 10, 104948, "", "=q4=Sabatons of Defilement", "=ds=#s12#, #a3#" },
+				{ 11, 104951, "", "=q4=Gaze of Echoing Despair", "=ds=#s1#, #a4#" },
+				{ 12, 104936, "", "=q4=Darkfallen Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 13, 104950, "", "=q4=Grips of the Fallen Council", "=ds=#s9#, #a4#" },
+				{ 14, 104937, "", "=q4=Shockstriker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104935, "", "=q4=Poisonbinder Girth", "=ds=#s10#, #a4#" },
+				{ 16, 104945, "", "=q4=Petrified Pennyroyal Ring", "=ds=#s13#" },
+				{ 17, 104938, "", "=q4=Sorrowpath Signet", "=ds=#s13#" },
+				{ 18, 104940, "", "=q4=Rook's Unlucky Talisman", "=ds=#s14#" },
+				{ 20, 104931, "", "=q4=Death Lotus Crossbow", "=ds=#w3#" },
+				{ 21, 104932, "", "=q4=Softfoot's Last Resort", "=ds=#h1#, #w13#" },
+				{ 22, 104946, "", "=q4=Purehearted Cricket Cage", "=ds=#s15#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104690, "", "=q4=Gloomwrap Greatcloak", "=ds=#s4#" },
+				{ 2, 104694, "", "=q4=Shoulderpads of Dou Dou Chong", "=ds=#s3#, #a1#" },
+				{ 3, 104693, "", "=q4=Robes of the Tendered Heart", "=ds=#s5#, #a1#" },
+				{ 4, 104695, "", "=q4=Lifebane Bracers", "=ds=#s8#, #a1#" },
+				{ 5, 104692, "", "=q4=Sha-Seared Sandals", "=ds=#s12#, #a1#" },
+				{ 6, 104698, "", "=q4=Shoulders of the Roiling Inferno", "=ds=#s3#, #a2#" },
+				{ 7, 104684, "", "=q4=Stonetoe's Tormented Treads", "=ds=#s12#, #a2#" },
+				{ 8, 104700, "", "=q4=Shoulderguards of Dark Meditations", "=ds=#s3#, #a3#" },
+				{ 9, 104685, "", "=q4=Grips of Unending Anguish", "=ds=#s9#, #a3#" },
+				{ 10, 104699, "", "=q4=Sabatons of Defilement", "=ds=#s12#, #a3#" },
+				{ 11, 104702, "", "=q4=Gaze of Echoing Despair", "=ds=#s1#, #a4#" },
+				{ 12, 104687, "", "=q4=Darkfallen Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 13, 104701, "", "=q4=Grips of the Fallen Council", "=ds=#s9#, #a4#" },
+				{ 14, 104688, "", "=q4=Shockstriker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104686, "", "=q4=Poisonbinder Girth", "=ds=#s10#, #a4#" },
+				{ 16, 104696, "", "=q4=Petrified Pennyroyal Ring", "=ds=#s13#" },
+				{ 17, 104689, "", "=q4=Sorrowpath Signet", "=ds=#s13#" },
+				{ 18, 104691, "", "=q4=Rook's Unlucky Talisman", "=ds=#s14#" },
+				{ 20, 104682, "", "=q4=Death Lotus Crossbow", "=ds=#w3#" },
+				{ 21, 104683, "", "=q4=Softfoot's Last Resort", "=ds=#h1#, #w13#" },
+				{ 22, 104697, "", "=q4=Purehearted Cricket Cage", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103799, "", "=q4=Gloomwrap Greatcloak", "=ds=#s4#" },
+				{ 2, 103807, "", "=q4=Shoulderpads of Dou Dou Chong", "=ds=#s3#, #a1#" },
+				{ 3, 103802, "", "=q4=Robes of the Tendered Heart", "=ds=#s5#, #a1#" },
+				{ 4, 103809, "", "=q4=Lifebane Bracers", "=ds=#s8#, #a1#" },
+				{ 5, 103804, "", "=q4=Sha-Seared Sandals", "=ds=#s12#, #a1#" },
+				{ 6, 103924, "", "=q4=Shoulders of the Roiling Inferno", "=ds=#s3#, #a2#" },
+				{ 7, 103777, "", "=q4=Stonetoe's Tormented Treads", "=ds=#s12#, #a2#" },
+				{ 8, 103815, "", "=q4=Shoulderguards of Dark Meditations", "=ds=#s3#, #a3#" },
+				{ 9, 103780, "", "=q4=Grips of Unending Anguish", "=ds=#s9#, #a3#" },
+				{ 10, 103812, "", "=q4=Sabatons of Defilement", "=ds=#s12#, #a3#" },
+				{ 11, 103820, "", "=q4=Gaze of Echoing Despair", "=ds=#s1#, #a4#" },
+				{ 12, 103783, "", "=q4=Darkfallen Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 13, 103817, "", "=q4=Grips of the Fallen Council", "=ds=#s9#, #a4#" },
+				{ 14, 103790, "", "=q4=Shockstriker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 103787, "", "=q4=Poisonbinder Girth", "=ds=#s10#, #a4#" },
+				{ 16, 103822, "", "=q4=Petrified Pennyroyal Ring", "=ds=#s13#" },
+				{ 17, 103793, "", "=q4=Sorrowpath Signet", "=ds=#s13#" },
+				{ 18, 102296, "", "=q4=Rook's Unlucky Talisman", "=ds=#s14#" },
+				{ 20, 103776, "", "=q4=Death Lotus Crossbow", "=ds=#w3#" },
+				{ 21, 103775, "", "=q4=Softfoot's Last Resort", "=ds=#h1#, #w13#" },
+				{ 22, 103801, "", "=q4=Purehearted Cricket Cage", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104441, "", "=q4=Gloomwrap Greatcloak", "=ds=#s4#" },
+				{ 2, 104445, "", "=q4=Shoulderpads of Dou Dou Chong", "=ds=#s3#, #a1#" },
+				{ 3, 104444, "", "=q4=Robes of the Tendered Heart", "=ds=#s5#, #a1#" },
+				{ 4, 104446, "", "=q4=Lifebane Bracers", "=ds=#s8#, #a1#" },
+				{ 5, 104443, "", "=q4=Sha-Seared Sandals", "=ds=#s12#, #a1#" },
+				{ 6, 104449, "", "=q4=Shoulders of the Roiling Inferno", "=ds=#s3#, #a2#" },
+				{ 7, 104435, "", "=q4=Stonetoe's Tormented Treads", "=ds=#s12#, #a2#" },
+				{ 8, 104451, "", "=q4=Shoulderguards of Dark Meditations", "=ds=#s3#, #a3#" },
+				{ 9, 104436, "", "=q4=Grips of Unending Anguish", "=ds=#s9#, #a3#" },
+				{ 10, 104450, "", "=q4=Sabatons of Defilement", "=ds=#s12#, #a3#" },
+				{ 11, 104453, "", "=q4=Gaze of Echoing Despair", "=ds=#s1#, #a4#" },
+				{ 12, 104438, "", "=q4=Darkfallen Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 13, 104452, "", "=q4=Grips of the Fallen Council", "=ds=#s9#, #a4#" },
+				{ 14, 104439, "", "=q4=Shockstriker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 15, 104437, "", "=q4=Poisonbinder Girth", "=ds=#s10#, #a4#" },
+				{ 16, 104447, "", "=q4=Petrified Pennyroyal Ring", "=ds=#s13#" },
+				{ 17, 104440, "", "=q4=Sorrowpath Signet", "=ds=#s13#" },
+				{ 18, 104442, "", "=q4=Rook's Unlucky Talisman", "=ds=#s14#" },
+				{ 20, 104433, "", "=q4=Death Lotus Crossbow", "=ds=#w3#" },
+				{ 21, 104434, "", "=q4=Softfoot's Last Resort", "=ds=#h1#, #w13#" },
+				{ 22, 104448, "", "=q4=Purehearted Cricket Cage", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -2667,22 +2810,106 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoONorushen"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 104960, "", "=q4=Drape of the Despairing Pit", "=ds=#s4#" },
+				{ 2, 104966, "", "=q4=Rime-Rift Shoulders", "=ds=#s3#, #a1#" },
+				{ 3, 104963, "", "=q4=Bracers of Broken Causation", "=ds=#s8#, #a1#" },
+				{ 4, 104964, "", "=q4=Blight Hurlers", "=ds=#s9#, #a1#" },
+				{ 5, 104965, "", "=q4=Sash of the Last Guardian", "=ds=#s10#, #a1#" },
+				{ 6, 104954, "", "=q4=Robes of the Blackened Watcher", "=ds=#s5#, #a2#" },
+				{ 7, 104970, "", "=q4=Confident Grips", "=ds=#s9#, #a2#" },
+				{ 8, 104955, "", "=q4=Gloves of the Golden Protector", "=ds=#s9#, #a2#" },
+				{ 9, 104969, "", "=q4=Boots of Broken Reliance", "=ds=#s12#, #a2#" },
+				{ 10, 104957, "", "=q4=Quarantine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 11, 104971, "", "=q4=Bracers of Final Serenity", "=ds=#s8#, #a3#" },
+				{ 12, 104956, "", "=q4=Leggings of Unabashed Anger", "=ds=#s11#, #a3#" },
+				{ 13, 104972, "", "=q4=Shadow-Binder's Kilt", "=ds=#s11#, #a3#" },
+				{ 14, 104959, "", "=q4=Rage-Blind Greathelm", "=ds=#s1#, #a4#" },
+				{ 15, 104958, "", "=q4=Bracers of Blind Hatred", "=ds=#s8#, #a4#" },
+				{ 16, 104973, "", "=q4=Wristplates of Broken Doubt", "=ds=#s8#, #a4#" },
+				{ 18, 104967, "", "=q4=Untainted Guardian's Chain", "=ds=#s2#" },
+				{ 19, 104953, "", "=q4=Reality Ripper Ring", "=ds=#s13#" },
+				{ 20, 104961, "", "=q4=Fusion-Fire Core", "=ds=#s14#" },
+				{ 22, 104952, "", "=q4=Norushen's Shortblade", "=ds=#h1#, #w4#" },
+				{ 23, 104962, "", "=q4=Xifeng, Longblade of the Titanic Guardian", "=ds=#h1#, #w10#" },
+				{ 24, 104968, "", "=q4=Norushen's Enigmatic Barrier", "=ds=#w8#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104711, "", "=q4=Drape of the Despairing Pit", "=ds=#s4#" },
+				{ 2, 104717, "", "=q4=Rime-Rift Shoulders", "=ds=#s3#, #a1#" },
+				{ 3, 104714, "", "=q4=Bracers of Broken Causation", "=ds=#s8#, #a1#" },
+				{ 4, 104715, "", "=q4=Blight Hurlers", "=ds=#s9#, #a1#" },
+				{ 5, 104716, "", "=q4=Sash of the Last Guardian", "=ds=#s10#, #a1#" },
+				{ 6, 104705, "", "=q4=Robes of the Blackened Watcher", "=ds=#s5#, #a2#" },
+				{ 7, 104721, "", "=q4=Confident Grips", "=ds=#s9#, #a2#" },
+				{ 8, 104706, "", "=q4=Gloves of the Golden Protector", "=ds=#s9#, #a2#" },
+				{ 9, 104720, "", "=q4=Boots of Broken Reliance", "=ds=#s12#, #a2#" },
+				{ 10, 104708, "", "=q4=Quarantine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 11, 104722, "", "=q4=Bracers of Final Serenity", "=ds=#s8#, #a3#" },
+				{ 12, 104707, "", "=q4=Leggings of Unabashed Anger", "=ds=#s11#, #a3#" },
+				{ 13, 104723, "", "=q4=Shadow-Binder's Kilt", "=ds=#s11#, #a3#" },
+				{ 14, 104710, "", "=q4=Rage-Blind Greathelm", "=ds=#s1#, #a4#" },
+				{ 15, 104709, "", "=q4=Bracers of Blind Hatred", "=ds=#s8#, #a4#" },
+				{ 16, 104724, "", "=q4=Wristplates of Broken Doubt", "=ds=#s8#, #a4#" },
+				{ 18, 104718, "", "=q4=Untainted Guardian's Chain", "=ds=#s2#" },
+				{ 19, 104704, "", "=q4=Reality Ripper Ring", "=ds=#s13#" },
+				{ 20, 104712, "", "=q4=Fusion-Fire Core", "=ds=#s14#" },
+				{ 22, 104703, "", "=q4=Norushen's Shortblade", "=ds=#h1#, #w4#" },
+				{ 23, 104713, "", "=q4=Xifeng, Longblade of the Titanic Guardian", "=ds=#h1#, #w10#" },
+				{ 24, 104719, "", "=q4=Norushen's Enigmatic Barrier", "=ds=#w8#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103845, "", "=q4=Drape of the Despairing Pit", "=ds=#s4#" },
+				{ 2, 103857, "", "=q4=Rime-Rift Shoulders", "=ds=#s3#, #a1#" },
+				{ 3, 103849, "", "=q4=Bracers of Broken Causation", "=ds=#s8#, #a1#" },
+				{ 4, 103852, "", "=q4=Blight Hurlers", "=ds=#s9#, #a1#" },
+				{ 5, 103855, "", "=q4=Sash of the Last Guardian", "=ds=#s10#, #a1#" },
+				{ 6, 103834, "", "=q4=Robes of the Blackened Watcher", "=ds=#s5#, #a2#" },
+				{ 7, 103858, "", "=q4=Confident Grips", "=ds=#s9#, #a2#" },
+				{ 8, 103830, "", "=q4=Gloves of the Golden Protector", "=ds=#s9#, #a2#" },
+				{ 9, 103762, "", "=q4=Boots of Broken Reliance", "=ds=#s12#, #a2#" },
+				{ 10, 103836, "", "=q4=Quarantine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 11, 103861, "", "=q4=Bracers of Final Serenity", "=ds=#s8#, #a3#" },
+				{ 12, 103838, "", "=q4=Leggings of Unabashed Anger", "=ds=#s11#, #a3#" },
+				{ 13, 103942, "", "=q4=Shadow-Binder's Kilt", "=ds=#s11#, #a3#" },
+				{ 14, 103839, "", "=q4=Rage-Blind Greathelm", "=ds=#s1#, #a4#" },
+				{ 15, 103740, "", "=q4=Bracers of Blind Hatred", "=ds=#s8#, #a4#" },
+				{ 16, 103864, "", "=q4=Wristplates of Broken Doubt", "=ds=#s8#, #a4#" },
+				{ 18, 103867, "", "=q4=Untainted Guardian's Chain", "=ds=#s2#" },
+				{ 19, 103841, "", "=q4=Reality Ripper Ring", "=ds=#s13#" },
+				{ 20, 102295, "", "=q4=Fusion-Fire Core", "=ds=#s14#" },
+				{ 22, 103827, "", "=q4=Norushen's Shortblade", "=ds=#h1#, #w4#" },
+				{ 23, 103826, "", "=q4=Xifeng, Longblade of the Titanic Guardian", "=ds=#h1#, #w10#" },
+				{ 24, 103847, "", "=q4=Norushen's Enigmatic Barrier", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104462, "", "=q4=Drape of the Despairing Pit", "=ds=#s4#" },
+				{ 2, 104468, "", "=q4=Rime-Rift Shoulders", "=ds=#s3#, #a1#" },
+				{ 3, 104465, "", "=q4=Bracers of Broken Causation", "=ds=#s8#, #a1#" },
+				{ 4, 104466, "", "=q4=Blight Hurlers", "=ds=#s9#, #a1#" },
+				{ 5, 104467, "", "=q4=Sash of the Last Guardian", "=ds=#s10#, #a1#" },
+				{ 6, 104456, "", "=q4=Robes of the Blackened Watcher", "=ds=#s5#, #a2#" },
+				{ 7, 104472, "", "=q4=Confident Grips", "=ds=#s9#, #a2#" },
+				{ 8, 104457, "", "=q4=Gloves of the Golden Protector", "=ds=#s9#, #a2#" },
+				{ 9, 104471, "", "=q4=Boots of Broken Reliance", "=ds=#s12#, #a2#" },
+				{ 10, 104459, "", "=q4=Quarantine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 11, 104473, "", "=q4=Bracers of Final Serenity", "=ds=#s8#, #a3#" },
+				{ 12, 104458, "", "=q4=Leggings of Unabashed Anger", "=ds=#s11#, #a3#" },
+				{ 13, 104474, "", "=q4=Shadow-Binder's Kilt", "=ds=#s11#, #a3#" },
+				{ 14, 104461, "", "=q4=Rage-Blind Greathelm", "=ds=#s1#, #a4#" },
+				{ 15, 104460, "", "=q4=Bracers of Blind Hatred", "=ds=#s8#, #a4#" },
+				{ 16, 104475, "", "=q4=Wristplates of Broken Doubt", "=ds=#s8#, #a4#" },
+				{ 18, 104469, "", "=q4=Untainted Guardian's Chain", "=ds=#s2#" },
+				{ 19, 104455, "", "=q4=Reality Ripper Ring", "=ds=#s13#" },
+				{ 20, 104463, "", "=q4=Fusion-Fire Core", "=ds=#s14#" },
+				{ 22, 104454, "", "=q4=Norushen's Shortblade", "=ds=#h1#, #w4#" },
+				{ 23, 104464, "", "=q4=Xifeng, Longblade of the Titanic Guardian", "=ds=#h1#, #w10#" },
+				{ 24, 104470, "", "=q4=Norushen's Enigmatic Barrier", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -2694,22 +2921,75 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOShaofPride"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 104978, "", "=q4=Self-Reflecting Mask", "=ds=#s1#, #a2#" },
+				{ 2, 104979, "", "=q4=Crown of Boastful Words", "=ds=#s1#, #a4#" },
+				{ 3, 104980, "", "=q4=Greaves of Sublime Superiority", "=ds=#s12#, #a4#" },
+				{ 5, 104982, "", "=q4=Choker of the Final Word", "=ds=#s2#" },
+				{ 6, 104975, "", "=q4=Necklace of Fading Light", "=ds=#s2#" },
+				{ 7, 104974, "", "=q4=Assurance of Consequence", "=ds=#s14#" },
+				{ 8, 104976, "", "=q4=Prismatic Prison of Pride", "=ds=#s14#" },
+				{ 16, 99678, "", "=q4=Chest of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99679, "", "=q4=Chest of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99677, "", "=q4=Chest of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104977, "", "=q4=Gaze of Arrogance", "=ds=#w9#" },
+				{ 21, 104981, "", "=q4=Greatsword of Pride's Fall", "=ds=#h2#, #w10#" },
+				{ 22, 104983, "", "=q4=Shield of Mockery", "=ds=#w8#" },
+				{ 24, 104163, "", "=q3=Gooey Sha-ling", "=ds=#e13#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104729, "", "=q4=Self-Reflecting Mask", "=ds=#s1#, #a2#" },
+				{ 2, 104730, "", "=q4=Crown of Boastful Words", "=ds=#s1#, #a4#" },
+				{ 3, 104731, "", "=q4=Greaves of Sublime Superiority", "=ds=#s12#, #a4#" },
+				{ 5, 104733, "", "=q4=Choker of the Final Word", "=ds=#s2#" },
+				{ 6, 104726, "", "=q4=Necklace of Fading Light", "=ds=#s2#" },
+				{ 7, 104725, "", "=q4=Assurance of Consequence", "=ds=#s14#" },
+				{ 8, 104727, "", "=q4=Prismatic Prison of Pride", "=ds=#s14#" },
+				{ 16, 99743, "", "=q4=Chest of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99744, "", "=q4=Chest of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99742, "", "=q4=Chest of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104728, "", "=q4=Gaze of Arrogance", "=ds=#w9#" },
+				{ 21, 104732, "", "=q4=Greatsword of Pride's Fall", "=ds=#h2#, #w10#" },
+				{ 22, 104734, "", "=q4=Shield of Mockery", "=ds=#w8#" },
+				{ 24, 104162, "", "=q3=Droplet of Y'Shaarj", "=ds=#e13#" },
+				{ 25, 104163, "", "=q3=Gooey Sha-ling", "=ds=#e13#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103876, "", "=q4=Self-Reflecting Mask", "=ds=#s1#, #a2#" },
+				{ 2, 103821, "", "=q4=Crown of Boastful Words", "=ds=#s1#, #a4#" },
+				{ 3, 103878, "", "=q4=Greaves of Sublime Superiority", "=ds=#s12#, #a4#" },
+				{ 5, 103883, "", "=q4=Choker of the Final Word", "=ds=#s2#" },
+				{ 6, 103881, "", "=q4=Necklace of Fading Light", "=ds=#s2#" },
+				{ 7, 102292, "", "=q4=Assurance of Consequence", "=ds=#s14#" },
+				{ 8, 102299, "", "=q4=Prismatic Prison of Pride", "=ds=#s14#" },
+				{ 16, 99686, "", "=q4=Chest of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99691, "", "=q4=Chest of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99696, "", "=q4=Chest of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 103873, "", "=q4=Gaze of Arrogance", "=ds=#w9#" },
+				{ 21, 103869, "", "=q4=Greatsword of Pride's Fall", "=ds=#h2#, #w10#" },
+				{ 22, 103870, "", "=q4=Shield of Mockery", "=ds=#w8#" },
+				{ 24, 104162, "", "=q3=Droplet of Y'Shaarj", "=ds=#e13#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104480, "", "=q4=Self-Reflecting Mask", "=ds=#s1#, #a2#" },
+				{ 2, 104481, "", "=q4=Crown of Boastful Words", "=ds=#s1#, #a4#" },
+				{ 3, 104482, "", "=q4=Greaves of Sublime Superiority", "=ds=#s12#, #a4#" },
+				{ 5, 104484, "", "=q4=Choker of the Final Word", "=ds=#s2#" },
+				{ 6, 104477, "", "=q4=Necklace of Fading Light", "=ds=#s2#" },
+				{ 7, 104476, "", "=q4=Assurance of Consequence", "=ds=#s14#" },
+				{ 8, 104478, "", "=q4=Prismatic Prison of Pride", "=ds=#s14#" },
+				{ 16, 99715, "", "=q4=Chest of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99716, "", "=q4=Chest of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99714, "", "=q4=Chest of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104479, "", "=q4=Gaze of Arrogance", "=ds=#w9#" },
+				{ 21, 104483, "", "=q4=Greatsword of Pride's Fall", "=ds=#h2#, #w10#" },
+				{ 22, 104485, "", "=q4=Shield of Mockery", "=ds=#w8#" },
+				{ 24, 104162, "", "=q3=Droplet of Y'Shaarj", "=ds=#e13#" },
 			};
 		};
 		info = {
@@ -2721,22 +3001,106 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOGalakras"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 104997, "", "=q4=Flameslinger's Fiery Cowl", "=ds=#s1#, #a1#" },
+				{ 2, 104999, "", "=q4=Shoulderpads of Pulsing Protection", "=ds=#s3#, #a1#" },
+				{ 3, 104996, "", "=q4=Scalebane Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 104995, "", "=q4=Bone-Inlaid Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 104998, "", "=q4=Skydancer Boots", "=ds=#s12#, #a1#" },
+				{ 6, 104987, "", "=q4=Korgra's Venom-Soaked Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 105002, "", "=q4=Dragonmaw Emergency Strap", "=ds=#s10#, #a2#" },
+				{ 8, 104986, "", "=q4=Unrepentant Heels", "=ds=#s12#, #a2#" },
+				{ 9, 104989, "", "=q4=Dagryn's Fuselight Bracers", "=ds=#s8#, #a3#" },
+				{ 10, 105003, "", "=q4=Grips of Tidal Force", "=ds=#s9#, #a3#" },
+				{ 11, 104988, "", "=q4=Cannoneer's Multipocket Gunbelt", "=ds=#s10#, #a3#" },
+				{ 12, 104990, "", "=q4=Thranok's Shattering Helm", "=ds=#s1#, #a4#" },
+				{ 13, 104992, "", "=q4=Krugruk's Rigid Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 14, 104991, "", "=q4=Arcsmasher Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 105004, "", "=q4=Smoldering Drakescale Bracers", "=ds=#s8#, #a4#" },
+				{ 16, 105005, "", "=q4=Windfire Legplates", "=ds=#s11#, #a4#" },
+				{ 18, 105000, "", "=q4=Extinguished Ember of Galakras", "=ds=#s13#" },
+				{ 19, 104994, "", "=q4=Galakrond Control Band", "=ds=#s13#" },
+				{ 20, 104985, "", "=q4=Swift Serpent Signet", "=ds=#s13#" },
+				{ 21, 104993, "", "=q4=Evil Eye of Galakras", "=ds=#s14#" },
+				{ 23, 104984, "", "=q4=Dagryn's Discarded Longbow", "=ds=#w2#" },
+				{ 24, 105001, "", "=q4=Drakebinder Greatstaff", "=ds=#w9#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104748, "", "=q4=Flameslinger's Fiery Cowl", "=ds=#s1#, #a1#" },
+				{ 2, 104750, "", "=q4=Shoulderpads of Pulsing Protection", "=ds=#s3#, #a1#" },
+				{ 3, 104747, "", "=q4=Scalebane Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 104746, "", "=q4=Bone-Inlaid Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 104749, "", "=q4=Skydancer Boots", "=ds=#s12#, #a1#" },
+				{ 6, 104738, "", "=q4=Korgra's Venom-Soaked Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 104753, "", "=q4=Dragonmaw Emergency Strap", "=ds=#s10#, #a2#" },
+				{ 8, 104737, "", "=q4=Unrepentant Heels", "=ds=#s12#, #a2#" },
+				{ 9, 104740, "", "=q4=Dagryn's Fuselight Bracers", "=ds=#s8#, #a3#" },
+				{ 10, 104754, "", "=q4=Grips of Tidal Force", "=ds=#s9#, #a3#" },
+				{ 11, 104739, "", "=q4=Cannoneer's Multipocket Gunbelt", "=ds=#s10#, #a3#" },
+				{ 12, 104741, "", "=q4=Thranok's Shattering Helm", "=ds=#s1#, #a4#" },
+				{ 13, 104743, "", "=q4=Krugruk's Rigid Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 14, 104742, "", "=q4=Arcsmasher Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 104755, "", "=q4=Smoldering Drakescale Bracers", "=ds=#s8#, #a4#" },
+				{ 16, 104756, "", "=q4=Windfire Legplates", "=ds=#s11#, #a4#" },
+				{ 18, 104751, "", "=q4=Extinguished Ember of Galakras", "=ds=#s13#" },
+				{ 19, 104745, "", "=q4=Galakrond Control Band", "=ds=#s13#" },
+				{ 20, 104736, "", "=q4=Swift Serpent Signet", "=ds=#s13#" },
+				{ 21, 104744, "", "=q4=Evil Eye of Galakras", "=ds=#s14#" },
+				{ 23, 104735, "", "=q4=Dagryn's Discarded Longbow", "=ds=#w2#" },
+				{ 24, 104752, "", "=q4=Drakebinder Greatstaff", "=ds=#w9#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103900, "", "=q4=Flameslinger's Fiery Cowl", "=ds=#s1#, #a1#" },
+				{ 2, 103756, "", "=q4=Shoulderpads of Pulsing Protection", "=ds=#s3#, #a1#" },
+				{ 3, 103850, "", "=q4=Scalebane Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 103805, "", "=q4=Bone-Inlaid Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 103902, "", "=q4=Skydancer Boots", "=ds=#s12#, #a1#" },
+				{ 6, 103831, "", "=q4=Korgra's Venom-Soaked Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 103905, "", "=q4=Dragonmaw Emergency Strap", "=ds=#s10#, #a2#" },
+				{ 8, 103778, "", "=q4=Unrepentant Heels", "=ds=#s12#, #a2#" },
+				{ 9, 103889, "", "=q4=Dagryn's Fuselight Bracers", "=ds=#s8#, #a3#" },
+				{ 10, 103765, "", "=q4=Grips of Tidal Force", "=ds=#s9#, #a3#" },
+				{ 11, 103887, "", "=q4=Cannoneer's Multipocket Gunbelt", "=ds=#s10#, #a3#" },
+				{ 12, 103892, "", "=q4=Thranok's Shattering Helm", "=ds=#s1#, #a4#" },
+				{ 13, 103748, "", "=q4=Krugruk's Rigid Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 14, 103743, "", "=q4=Arcsmasher Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 103865, "", "=q4=Smoldering Drakescale Bracers", "=ds=#s8#, #a4#" },
+				{ 16, 103907, "", "=q4=Windfire Legplates", "=ds=#s11#, #a4#" },
+				{ 18, 103823, "", "=q4=Extinguished Ember of Galakras", "=ds=#s13#" },
+				{ 19, 103894, "", "=q4=Galakrond Control Band", "=ds=#s13#" },
+				{ 20, 103842, "", "=q4=Swift Serpent Signet", "=ds=#s13#" },
+				{ 21, 102298, "", "=q4=Evil Eye of Galakras", "=ds=#s14#" },
+				{ 23, 103885, "", "=q4=Dagryn's Discarded Longbow", "=ds=#w2#" },
+				{ 24, 103875, "", "=q4=Drakebinder Greatstaff", "=ds=#w9#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104499, "", "=q4=Flameslinger's Fiery Cowl", "=ds=#s1#, #a1#" },
+				{ 2, 104501, "", "=q4=Shoulderpads of Pulsing Protection", "=ds=#s3#, #a1#" },
+				{ 3, 104498, "", "=q4=Scalebane Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 104497, "", "=q4=Bone-Inlaid Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 104500, "", "=q4=Skydancer Boots", "=ds=#s12#, #a1#" },
+				{ 6, 104489, "", "=q4=Korgra's Venom-Soaked Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 104504, "", "=q4=Dragonmaw Emergency Strap", "=ds=#s10#, #a2#" },
+				{ 8, 104488, "", "=q4=Unrepentant Heels", "=ds=#s12#, #a2#" },
+				{ 9, 104491, "", "=q4=Dagryn's Fuselight Bracers", "=ds=#s8#, #a3#" },
+				{ 10, 104505, "", "=q4=Grips of Tidal Force", "=ds=#s9#, #a3#" },
+				{ 11, 104490, "", "=q4=Cannoneer's Multipocket Gunbelt", "=ds=#s10#, #a3#" },
+				{ 12, 104492, "", "=q4=Thranok's Shattering Helm", "=ds=#s1#, #a4#" },
+				{ 13, 104494, "", "=q4=Krugruk's Rigid Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 14, 104493, "", "=q4=Arcsmasher Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 104506, "", "=q4=Smoldering Drakescale Bracers", "=ds=#s8#, #a4#" },
+				{ 16, 104507, "", "=q4=Windfire Legplates", "=ds=#s11#, #a4#" },
+				{ 18, 104502, "", "=q4=Extinguished Ember of Galakras", "=ds=#s13#" },
+				{ 19, 104496, "", "=q4=Galakrond Control Band", "=ds=#s13#" },
+				{ 20, 104487, "", "=q4=Swift Serpent Signet", "=ds=#s13#" },
+				{ 21, 104495, "", "=q4=Evil Eye of Galakras", "=ds=#s14#" },
+				{ 23, 104486, "", "=q4=Dagryn's Discarded Longbow", "=ds=#w2#" },
+				{ 24, 104503, "", "=q4=Drakebinder Greatstaff", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -2748,22 +3112,106 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOIronJuggernaut"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105021, "", "=q4=Shock Pulse Robes", "=ds=#s5#, #a1#" },
+				{ 2, 105019, "", "=q4=Bracers of the Broken Fault", "=ds=#s8#, #a1#" },
+				{ 3, 105020, "", "=q4=Earthripper Gloves", "=ds=#s9#, #a1#" },
+				{ 4, 105017, "", "=q4=Belt of Ominous Trembles", "=ds=#s10#, #a1#" },
+				{ 5, 105018, "", "=q4=Leggings of Furious Flame", "=ds=#s11#, #a1#" },
+				{ 6, 105008, "", "=q4=Ricocheting Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 7, 105024, "", "=q4=Castlebreaker Bracers", "=ds=#s8#, #a2#" },
+				{ 8, 105007, "", "=q4=Laser Burn Bracers", "=ds=#s8#, #a2#" },
+				{ 9, 105026, "", "=q4=Cavemaker Wristguards", "=ds=#s8#, #a3#" },
+				{ 10, 105010, "", "=q4=Precision Cutters", "=ds=#s9#, #a3#" },
+				{ 11, 105009, "", "=q4=Minelayer's Padded Boots", "=ds=#s12#, #a3#" },
+				{ 12, 105025, "", "=q4=Treads of Autonomic Motion", "=ds=#s12#, #a3#" },
+				{ 13, 105014, "", "=q4=Earthbreaker's Steaming Chestplate", "=ds=#s5#, #a4#" },
+				{ 14, 105012, "", "=q4=Wall-Borer Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 105013, "", "=q4=Tar-Coated Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 105011, "", "=q4=Demolisher's Reinforced Belt", "=ds=#s10#, #a4#" },
+				{ 17, 105027, "", "=q4=Borer Drill Boots", "=ds=#s12#, #a4#" },
+				{ 19, 105015, "", "=q4=Juggernaut's Ignition Keys", "=ds=#s2#" },
+				{ 20, 105022, "", "=q4=Laser-Slice Signet", "=ds=#s13#" },
+				{ 21, 105016, "", "=q4=Juggernaut's Focusing Crystal", "=ds=#s14#" },
+				{ 23, 105006, "", "=q4=Seismic Bore", "=ds=#h1#, #w6#" },
+				{ 24, 105023, "", "=q4=Juggernaut's Power Core", "=ds=#s15#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104772, "", "=q4=Shock Pulse Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104770, "", "=q4=Bracers of the Broken Fault", "=ds=#s8#, #a1#" },
+				{ 3, 104771, "", "=q4=Earthripper Gloves", "=ds=#s9#, #a1#" },
+				{ 4, 104768, "", "=q4=Belt of Ominous Trembles", "=ds=#s10#, #a1#" },
+				{ 5, 104769, "", "=q4=Leggings of Furious Flame", "=ds=#s11#, #a1#" },
+				{ 6, 104759, "", "=q4=Ricocheting Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 7, 104775, "", "=q4=Castlebreaker Bracers", "=ds=#s8#, #a2#" },
+				{ 8, 104758, "", "=q4=Laser Burn Bracers", "=ds=#s8#, #a2#" },
+				{ 9, 104777, "", "=q4=Cavemaker Wristguards", "=ds=#s8#, #a3#" },
+				{ 10, 104761, "", "=q4=Precision Cutters", "=ds=#s9#, #a3#" },
+				{ 11, 104760, "", "=q4=Minelayer's Padded Boots", "=ds=#s12#, #a3#" },
+				{ 12, 104776, "", "=q4=Treads of Autonomic Motion", "=ds=#s12#, #a3#" },
+				{ 13, 104765, "", "=q4=Earthbreaker's Steaming Chestplate", "=ds=#s5#, #a4#" },
+				{ 14, 104763, "", "=q4=Wall-Borer Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 104764, "", "=q4=Tar-Coated Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 104762, "", "=q4=Demolisher's Reinforced Belt", "=ds=#s10#, #a4#" },
+				{ 17, 104778, "", "=q4=Borer Drill Boots", "=ds=#s12#, #a4#" },
+				{ 19, 104766, "", "=q4=Juggernaut's Ignition Keys", "=ds=#s2#" },
+				{ 20, 104773, "", "=q4=Laser-Slice Signet", "=ds=#s13#" },
+				{ 21, 104767, "", "=q4=Juggernaut's Focusing Crystal", "=ds=#s14#" },
+				{ 23, 104757, "", "=q4=Seismic Bore", "=ds=#h1#, #w6#" },
+				{ 24, 104774, "", "=q4=Juggernaut's Power Core", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103922, "", "=q4=Shock Pulse Robes", "=ds=#s5#, #a1#" },
+				{ 2, 103811, "", "=q4=Bracers of the Broken Fault", "=ds=#s8#, #a1#" },
+				{ 3, 103754, "", "=q4=Earthripper Gloves", "=ds=#s9#, #a1#" },
+				{ 4, 103898, "", "=q4=Belt of Ominous Trembles", "=ds=#s10#, #a1#" },
+				{ 5, 103921, "", "=q4=Leggings of Furious Flame", "=ds=#s11#, #a1#" },
+				{ 6, 103912, "", "=q4=Ricocheting Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 7, 103759, "", "=q4=Castlebreaker Bracers", "=ds=#s8#, #a2#" },
+				{ 8, 103909, "", "=q4=Laser Burn Bracers", "=ds=#s8#, #a2#" },
+				{ 9, 103863, "", "=q4=Cavemaker Wristguards", "=ds=#s8#, #a3#" },
+				{ 10, 103782, "", "=q4=Precision Cutters", "=ds=#s9#, #a3#" },
+				{ 11, 103731, "", "=q4=Minelayer's Padded Boots", "=ds=#s12#, #a3#" },
+				{ 12, 103813, "", "=q4=Treads of Autonomic Motion", "=ds=#s12#, #a3#" },
+				{ 13, 103914, "", "=q4=Earthbreaker's Steaming Chestplate", "=ds=#s5#, #a4#" },
+				{ 14, 103739, "", "=q4=Wall-Borer Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 103735, "", "=q4=Tar-Coated Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 103788, "", "=q4=Demolisher's Reinforced Belt", "=ds=#s10#, #a4#" },
+				{ 17, 103767, "", "=q4=Borer Drill Boots", "=ds=#s12#, #a4#" },
+				{ 19, 103916, "", "=q4=Juggernaut's Ignition Keys", "=ds=#s2#" },
+				{ 20, 103773, "", "=q4=Laser-Slice Signet", "=ds=#s13#" },
+				{ 21, 102297, "", "=q4=Juggernaut's Focusing Crystal", "=ds=#s14#" },
+				{ 23, 103908, "", "=q4=Seismic Bore", "=ds=#h1#, #w6#" },
+				{ 24, 103918, "", "=q4=Juggernaut's Power Core", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104523, "", "=q4=Shock Pulse Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104521, "", "=q4=Bracers of the Broken Fault", "=ds=#s8#, #a1#" },
+				{ 3, 104522, "", "=q4=Earthripper Gloves", "=ds=#s9#, #a1#" },
+				{ 4, 104519, "", "=q4=Belt of Ominous Trembles", "=ds=#s10#, #a1#" },
+				{ 5, 104520, "", "=q4=Leggings of Furious Flame", "=ds=#s11#, #a1#" },
+				{ 6, 104510, "", "=q4=Ricocheting Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 7, 104526, "", "=q4=Castlebreaker Bracers", "=ds=#s8#, #a2#" },
+				{ 8, 104509, "", "=q4=Laser Burn Bracers", "=ds=#s8#, #a2#" },
+				{ 9, 104528, "", "=q4=Cavemaker Wristguards", "=ds=#s8#, #a3#" },
+				{ 10, 104512, "", "=q4=Precision Cutters", "=ds=#s9#, #a3#" },
+				{ 11, 104511, "", "=q4=Minelayer's Padded Boots", "=ds=#s12#, #a3#" },
+				{ 12, 104527, "", "=q4=Treads of Autonomic Motion", "=ds=#s12#, #a3#" },
+				{ 13, 104516, "", "=q4=Earthbreaker's Steaming Chestplate", "=ds=#s5#, #a4#" },
+				{ 14, 104514, "", "=q4=Wall-Borer Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 104515, "", "=q4=Tar-Coated Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 104513, "", "=q4=Demolisher's Reinforced Belt", "=ds=#s10#, #a4#" },
+				{ 17, 104529, "", "=q4=Borer Drill Boots", "=ds=#s12#, #a4#" },
+				{ 19, 104517, "", "=q4=Juggernaut's Ignition Keys", "=ds=#s2#" },
+				{ 20, 104524, "", "=q4=Laser-Slice Signet", "=ds=#s13#" },
+				{ 21, 104518, "", "=q4=Juggernaut's Focusing Crystal", "=ds=#s14#" },
+				{ 23, 104508, "", "=q4=Seismic Bore", "=ds=#h1#, #w6#" },
+				{ 24, 104525, "", "=q4=Juggernaut's Power Core", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -2775,22 +3223,102 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoODarkShaman"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105028, "", "=q4=Poisonmist Nightcloak", "=ds=#s4#" },
+				{ 2, 105040, "", "=q4=Iron Wolf Hood", "=ds=#s1#, #a1#" },
+				{ 3, 105039, "", "=q4=Toxic Tornado Treads", "=ds=#s12#, #a1#" },
+				{ 4, 105044, "", "=q4=Darkfang Mask", "=ds=#s1#, #a2#" },
+				{ 5, 105030, "", "=q4=Damron's Belt of Darkness", "=ds=#s10#, #a2#" },
+				{ 6, 105031, "", "=q4=Riou's Vigilant Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 105032, "", "=q4=Haromm's Horrifying Helm", "=ds=#s1#, #a3#" },
+				{ 8, 105046, "", "=q4=Shoulderguards of Foul Streams", "=ds=#s3#, #a3#" },
+				{ 9, 105045, "", "=q4=Belt of the Iron Prison", "=ds=#s10#, #a3#" },
+				{ 10, 105048, "", "=q4=Shoulderplates of Gushing Geysers", "=ds=#s3#, #a4#" },
+				{ 11, 105034, "", "=q4=Breastplate of Shamanic Mirrors", "=ds=#s5#, #a4#" },
+				{ 12, 105047, "", "=q4=Shackles of Stinking Slime", "=ds=#s8#, #a4#" },
+				{ 13, 105035, "", "=q4=Ashen Wall Girdle", "=ds=#s10#, #a4#" },
+				{ 14, 105033, "", "=q4=Wolf-Rider Spurs", "=ds=#s12#, #a4#" },
+				{ 16, 105041, "", "=q4=Ashflare Pendant", "=ds=#s2#" },
+				{ 17, 105036, "", "=q4=Bloodclaw Band", "=ds=#s13#" },
+				{ 18, 105038, "", "=q4=Ring of the Iron Tomb", "=ds=#s13#" },
+				{ 19, 105029, "", "=q4=Haromm's Talisman", "=ds=#s14#" },
+				{ 20, 105042, "", "=q4=Kardris' Toxic Totem", "=ds=#s14#" },
+				{ 22, 105037, "", "=q4=Haromm's Frozen Crescent", "=ds=#h1#, #w1#" },
+				{ 23, 105043, "", "=q4=Kardris' Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104779, "", "=q4=Poisonmist Nightcloak", "=ds=#s4#" },
+				{ 2, 104791, "", "=q4=Iron Wolf Hood", "=ds=#s1#, #a1#" },
+				{ 3, 104790, "", "=q4=Toxic Tornado Treads", "=ds=#s12#, #a1#" },
+				{ 4, 104795, "", "=q4=Darkfang Mask", "=ds=#s1#, #a2#" },
+				{ 5, 104781, "", "=q4=Damron's Belt of Darkness", "=ds=#s10#, #a2#" },
+				{ 6, 104782, "", "=q4=Riou's Vigilant Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 104783, "", "=q4=Haromm's Horrifying Helm", "=ds=#s1#, #a3#" },
+				{ 8, 104797, "", "=q4=Shoulderguards of Foul Streams", "=ds=#s3#, #a3#" },
+				{ 9, 104796, "", "=q4=Belt of the Iron Prison", "=ds=#s10#, #a3#" },
+				{ 10, 104799, "", "=q4=Shoulderplates of Gushing Geysers", "=ds=#s3#, #a4#" },
+				{ 11, 104785, "", "=q4=Breastplate of Shamanic Mirrors", "=ds=#s5#, #a4#" },
+				{ 12, 104798, "", "=q4=Shackles of Stinking Slime", "=ds=#s8#, #a4#" },
+				{ 13, 104786, "", "=q4=Ashen Wall Girdle", "=ds=#s10#, #a4#" },
+				{ 14, 104784, "", "=q4=Wolf-Rider Spurs", "=ds=#s12#, #a4#" },
+				{ 16, 104792, "", "=q4=Ashflare Pendant", "=ds=#s2#" },
+				{ 17, 104787, "", "=q4=Bloodclaw Band", "=ds=#s13#" },
+				{ 18, 104789, "", "=q4=Ring of the Iron Tomb", "=ds=#s13#" },
+				{ 19, 104780, "", "=q4=Haromm's Talisman", "=ds=#s14#" },
+				{ 20, 104793, "", "=q4=Kardris' Toxic Totem", "=ds=#s14#" },
+				{ 22, 104788, "", "=q4=Haromm's Frozen Crescent", "=ds=#h1#, #w1#" },
+				{ 23, 104794, "", "=q4=Kardris' Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103934, "", "=q4=Poisonmist Nightcloak", "=ds=#s4#" },
+				{ 2, 103938, "", "=q4=Iron Wolf Hood", "=ds=#s1#, #a1#" },
+				{ 3, 103806, "", "=q4=Toxic Tornado Treads", "=ds=#s12#, #a1#" },
+				{ 4, 103877, "", "=q4=Darkfang Mask", "=ds=#s1#, #a2#" },
+				{ 5, 103927, "", "=q4=Damron's Belt of Darkness", "=ds=#s10#, #a2#" },
+				{ 6, 103929, "", "=q4=Riou's Vigilant Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 103930, "", "=q4=Haromm's Horrifying Helm", "=ds=#s1#, #a3#" },
+				{ 8, 103816, "", "=q4=Shoulderguards of Foul Streams", "=ds=#s3#, #a3#" },
+				{ 9, 103940, "", "=q4=Belt of the Iron Prison", "=ds=#s10#, #a3#" },
+				{ 10, 103943, "", "=q4=Shoulderplates of Gushing Geysers", "=ds=#s3#, #a4#" },
+				{ 11, 103737, "", "=q4=Breastplate of Shamanic Mirrors", "=ds=#s5#, #a4#" },
+				{ 12, 103866, "", "=q4=Shackles of Stinking Slime", "=ds=#s8#, #a4#" },
+				{ 13, 103932, "", "=q4=Ashen Wall Girdle", "=ds=#s10#, #a4#" },
+				{ 14, 103880, "", "=q4=Wolf-Rider Spurs", "=ds=#s12#, #a4#" },
+				{ 16, 103868, "", "=q4=Ashflare Pendant", "=ds=#s2#" },
+				{ 17, 103798, "", "=q4=Bloodclaw Band", "=ds=#s13#" },
+				{ 18, 103895, "", "=q4=Ring of the Iron Tomb", "=ds=#s13#" },
+				{ 19, 102301, "", "=q4=Haromm's Talisman", "=ds=#s14#" },
+				{ 20, 102300, "", "=q4=Kardris' Toxic Totem", "=ds=#s14#" },
+				{ 22, 103926, "", "=q4=Haromm's Frozen Crescent", "=ds=#h1#, #w1#" },
+				{ 23, 103936, "", "=q4=Kardris' Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104530, "", "=q4=Poisonmist Nightcloak", "=ds=#s4#" },
+				{ 2, 104542, "", "=q4=Iron Wolf Hood", "=ds=#s1#, #a1#" },
+				{ 3, 104541, "", "=q4=Toxic Tornado Treads", "=ds=#s12#, #a1#" },
+				{ 4, 104546, "", "=q4=Darkfang Mask", "=ds=#s1#, #a2#" },
+				{ 5, 104532, "", "=q4=Damron's Belt of Darkness", "=ds=#s10#, #a2#" },
+				{ 6, 104533, "", "=q4=Riou's Vigilant Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 104534, "", "=q4=Haromm's Horrifying Helm", "=ds=#s1#, #a3#" },
+				{ 8, 104548, "", "=q4=Shoulderguards of Foul Streams", "=ds=#s3#, #a3#" },
+				{ 9, 104547, "", "=q4=Belt of the Iron Prison", "=ds=#s10#, #a3#" },
+				{ 10, 104550, "", "=q4=Shoulderplates of Gushing Geysers", "=ds=#s3#, #a4#" },
+				{ 11, 104536, "", "=q4=Breastplate of Shamanic Mirrors", "=ds=#s5#, #a4#" },
+				{ 12, 104549, "", "=q4=Shackles of Stinking Slime", "=ds=#s8#, #a4#" },
+				{ 13, 104537, "", "=q4=Ashen Wall Girdle", "=ds=#s10#, #a4#" },
+				{ 14, 104535, "", "=q4=Wolf-Rider Spurs", "=ds=#s12#, #a4#" },
+				{ 16, 104543, "", "=q4=Ashflare Pendant", "=ds=#s2#" },
+				{ 17, 104538, "", "=q4=Bloodclaw Band", "=ds=#s13#" },
+				{ 18, 104540, "", "=q4=Ring of the Iron Tomb", "=ds=#s13#" },
+				{ 19, 104531, "", "=q4=Haromm's Talisman", "=ds=#s14#" },
+				{ 20, 104544, "", "=q4=Kardris' Toxic Totem", "=ds=#s14#" },
+				{ 22, 104539, "", "=q4=Haromm's Frozen Crescent", "=ds=#h1#, #w1#" },
+				{ 23, 104545, "", "=q4=Kardris' Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
@@ -2802,22 +3330,74 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoONazgrim"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105059, "", "=q4=Spaulders of Kor'kron Fealty", "=ds=#s3#, #a1#" },
+				{ 2, 105050, "", "=q4=Sandals of Two Little Bees", "=ds=#s12#, #a1#" },
+				{ 3, 105053, "", "=q4=Shoulderguards of the Righteous Stand", "=ds=#s3#, #a2#" },
+				{ 4, 105054, "", "=q4=Robes of the Warrior's Fall", "=ds=#s5#, #a2#" },
+				{ 5, 105056, "", "=q4=Crown of Tragic Truth", "=ds=#s1#, #a3#" },
+				{ 6, 105055, "", "=q4=Ravager's Pathwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 105051, "", "=q4=Nazgrim's Burnished Insignia", "=ds=#s14#" },
+				{ 16, 99681, "", "=q4=Gauntlets of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99667, "", "=q4=Gauntlets of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99680, "", "=q4=Gauntlets of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 105052, "", "=q4=Arcweaver Spell Sword", "=ds=#h1#, #w10#" },
+				{ 21, 105057, "", "=q4=Gar'tok, Strength of the Faithful", "=ds=#h2#, #w6#" },
+				{ 22, 105049, "", "=q4=Nazgrim's Gutripper", "=ds=#h1#, #w4#" },
+				{ 23, 105058, "", "=q4=Bulwark of the Fallen General", "=ds=#w8#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104810, "", "=q4=Spaulders of Kor'kron Fealty", "=ds=#s3#, #a1#" },
+				{ 2, 104801, "", "=q4=Sandals of Two Little Bees", "=ds=#s12#, #a1#" },
+				{ 3, 104804, "", "=q4=Shoulderguards of the Righteous Stand", "=ds=#s3#, #a2#" },
+				{ 4, 104805, "", "=q4=Robes of the Warrior's Fall", "=ds=#s5#, #a2#" },
+				{ 5, 104807, "", "=q4=Crown of Tragic Truth", "=ds=#s1#, #a3#" },
+				{ 6, 104806, "", "=q4=Ravager's Pathwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 104802, "", "=q4=Nazgrim's Burnished Insignia", "=ds=#s14#" },
+				{ 16, 99746, "", "=q4=Gauntlets of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99747, "", "=q4=Gauntlets of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99745, "", "=q4=Gauntlets of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104803, "", "=q4=Arcweaver Spell Sword", "=ds=#h1#, #w10#" },
+				{ 21, 104808, "", "=q4=Gar'tok, Strength of the Faithful", "=ds=#h2#, #w6#" },
+				{ 22, 104800, "", "=q4=Nazgrim's Gutripper", "=ds=#h1#, #w4#" },
+				{ 23, 104809, "", "=q4=Bulwark of the Fallen General", "=ds=#w8#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103808, "", "=q4=Spaulders of Kor'kron Fealty", "=ds=#s3#, #a1#" },
+				{ 2, 103904, "", "=q4=Sandals of Two Little Bees", "=ds=#s12#, #a1#" },
+				{ 3, 103913, "", "=q4=Shoulderguards of the Righteous Stand", "=ds=#s3#, #a2#" },
+				{ 4, 103947, "", "=q4=Robes of the Warrior's Fall", "=ds=#s5#, #a2#" },
+				{ 5, 103949, "", "=q4=Crown of Tragic Truth", "=ds=#s1#, #a3#" },
+				{ 6, 103732, "", "=q4=Ravager's Pathwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 102294, "", "=q4=Nazgrim's Burnished Insignia", "=ds=#s14#" },
+				{ 16, 99687, "", "=q4=Gauntlets of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99692, "", "=q4=Gauntlets of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99682, "", "=q4=Gauntlets of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 103946, "", "=q4=Arcweaver Spell Sword", "=ds=#h1#, #w10#" },
+				{ 21, 103945, "", "=q4=Gar'tok, Strength of the Faithful", "=ds=#h2#, #w6#" },
+				{ 22, 103829, "", "=q4=Nazgrim's Gutripper", "=ds=#h1#, #w4#" },
+				{ 23, 103872, "", "=q4=Bulwark of the Fallen General", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104561, "", "=q4=Spaulders of Kor'kron Fealty", "=ds=#s3#, #a1#" },
+				{ 2, 104552, "", "=q4=Sandals of Two Little Bees", "=ds=#s12#, #a1#" },
+				{ 3, 104555, "", "=q4=Shoulderguards of the Righteous Stand", "=ds=#s3#, #a2#" },
+				{ 4, 104556, "", "=q4=Robes of the Warrior's Fall", "=ds=#s5#, #a2#" },
+				{ 5, 104558, "", "=q4=Crown of Tragic Truth", "=ds=#s1#, #a3#" },
+				{ 6, 104557, "", "=q4=Ravager's Pathwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 104553, "", "=q4=Nazgrim's Burnished Insignia", "=ds=#s14#" },
+				{ 16, 99721, "", "=q4=Gauntlets of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99722, "", "=q4=Gauntlets of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99720, "", "=q4=Gauntlets of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104554, "", "=q4=Arcweaver Spell Sword", "=ds=#h1#, #w10#" },
+				{ 21, 104559, "", "=q4=Gar'tok, Strength of the Faithful", "=ds=#h2#, #w6#" },
+				{ 22, 104551, "", "=q4=Nazgrim's Gutripper", "=ds=#h1#, #w4#" },
+				{ 23, 104560, "", "=q4=Bulwark of the Fallen General", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -2829,22 +3409,106 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOMalkorok"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105075, "", "=q4=Black-Blooded Drape", "=ds=#s4#" },
+				{ 2, 105072, "", "=q4=Hood of Perpetual Implosion", "=ds=#s1#, #a1#" },
+				{ 3, 105073, "", "=q4=Robes of Riven Dreams", "=ds=#s5#, #a1#" },
+				{ 4, 105071, "", "=q4=Miasmic Skullbelt", "=ds=#s10#, #a1#" },
+				{ 5, 105063, "", "=q4=Lazahk's Lost Shadowrap", "=ds=#s5#, #a2#" },
+				{ 6, 105079, "", "=q4=Bracers of Averted Fatality", "=ds=#s8#, #a2#" },
+				{ 7, 105078, "", "=q4=Boots of Perilous Infusion", "=ds=#s12#, #a2#" },
+				{ 8, 105080, "", "=q4=Ebon Blood Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 105064, "", "=q4=Wristguards of Ruination", "=ds=#s8#, #a3#" },
+				{ 10, 105081, "", "=q4=Terrorguard Chestplate", "=ds=#s5#, #a4#" },
+				{ 11, 105066, "", "=q4=Blood Rage Bracers", "=ds=#s8#, #a4#" },
+				{ 12, 105067, "", "=q4=Legplates of Willful Doom", "=ds=#s11#, #a4#" },
+				{ 13, 105065, "", "=q4=Malkorok's Giant Stompers", "=ds=#s12#, #a4#" },
+				{ 16, 105068, "", "=q4=Malkorok's Tainted Dog Tags", "=ds=#s2#" },
+				{ 17, 105060, "", "=q4=Ring of Restless Energy", "=ds=#s13#" },
+				{ 18, 105076, "", "=q4=Seal of Sullen Fury", "=ds=#s13#" },
+				{ 19, 105074, "", "=q4=Frenzied Crystal of Rage", "=ds=#s14#" },
+				{ 20, 105070, "", "=q4=Vial of Living Corruption", "=ds=#s14#" },
+				{ 22, 105062, "", "=q4=Halberd of Inner Shadows", "=ds=#w7#" },
+				{ 23, 105061, "", "=q4=Kor'kron Hand Cannon", "=ds=#w5#" },
+				{ 24, 105069, "", "=q4=Malkorok's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 25, 105077, "", "=q4=Visage of the Monstrous", "=ds=#w8#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104826, "", "=q4=Black-Blooded Drape", "=ds=#s4#" },
+				{ 2, 104823, "", "=q4=Hood of Perpetual Implosion", "=ds=#s1#, #a1#" },
+				{ 3, 104824, "", "=q4=Robes of Riven Dreams", "=ds=#s5#, #a1#" },
+				{ 4, 104822, "", "=q4=Miasmic Skullbelt", "=ds=#s10#, #a1#" },
+				{ 5, 104814, "", "=q4=Lazahk's Lost Shadowrap", "=ds=#s5#, #a2#" },
+				{ 6, 104830, "", "=q4=Bracers of Averted Fatality", "=ds=#s8#, #a2#" },
+				{ 7, 104829, "", "=q4=Boots of Perilous Infusion", "=ds=#s12#, #a2#" },
+				{ 8, 104831, "", "=q4=Ebon Blood Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 104815, "", "=q4=Wristguards of Ruination", "=ds=#s8#, #a3#" },
+				{ 10, 104832, "", "=q4=Terrorguard Chestplate", "=ds=#s5#, #a4#" },
+				{ 11, 104817, "", "=q4=Blood Rage Bracers", "=ds=#s8#, #a4#" },
+				{ 12, 104818, "", "=q4=Legplates of Willful Doom", "=ds=#s11#, #a4#" },
+				{ 13, 104816, "", "=q4=Malkorok's Giant Stompers", "=ds=#s12#, #a4#" },
+				{ 16, 104819, "", "=q4=Malkorok's Tainted Dog Tags", "=ds=#s2#" },
+				{ 17, 104811, "", "=q4=Ring of Restless Energy", "=ds=#s13#" },
+				{ 18, 104827, "", "=q4=Seal of Sullen Fury", "=ds=#s13#" },
+				{ 19, 104825, "", "=q4=Frenzied Crystal of Rage", "=ds=#s14#" },
+				{ 20, 104821, "", "=q4=Vial of Living Corruption", "=ds=#s14#" },
+				{ 22, 104813, "", "=q4=Halberd of Inner Shadows", "=ds=#w7#" },
+				{ 23, 104812, "", "=q4=Kor'kron Hand Cannon", "=ds=#w5#" },
+				{ 24, 104820, "", "=q4=Malkorok's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 25, 104828, "", "=q4=Visage of the Monstrous", "=ds=#w8#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103959, "", "=q4=Black-Blooded Drape", "=ds=#s4#" },
+				{ 2, 103939, "", "=q4=Hood of Perpetual Implosion", "=ds=#s1#, #a1#" },
+				{ 3, 103923, "", "=q4=Robes of Riven Dreams", "=ds=#s5#, #a1#" },
+				{ 4, 103899, "", "=q4=Miasmic Skullbelt", "=ds=#s10#, #a1#" },
+				{ 5, 103835, "", "=q4=Lazahk's Lost Shadowrap", "=ds=#s5#, #a2#" },
+				{ 6, 103758, "", "=q4=Bracers of Averted Fatality", "=ds=#s8#, #a2#" },
+				{ 7, 103761, "", "=q4=Boots of Perilous Infusion", "=ds=#s12#, #a2#" },
+				{ 8, 103955, "", "=q4=Ebon Blood Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 103890, "", "=q4=Wristguards of Ruination", "=ds=#s8#, #a3#" },
+				{ 10, 103957, "", "=q4=Terrorguard Chestplate", "=ds=#s5#, #a4#" },
+				{ 11, 103742, "", "=q4=Blood Rage Bracers", "=ds=#s8#, #a4#" },
+				{ 12, 103954, "", "=q4=Legplates of Willful Doom", "=ds=#s11#, #a4#" },
+				{ 13, 103879, "", "=q4=Malkorok's Giant Stompers", "=ds=#s12#, #a4#" },
+				{ 16, 103917, "", "=q4=Malkorok's Tainted Dog Tags", "=ds=#s2#" },
+				{ 17, 103843, "", "=q4=Ring of Restless Energy", "=ds=#s13#" },
+				{ 18, 103772, "", "=q4=Seal of Sullen Fury", "=ds=#s13#" },
+				{ 19, 102303, "", "=q4=Frenzied Crystal of Rage", "=ds=#s14#" },
+				{ 20, 102306, "", "=q4=Vial of Living Corruption", "=ds=#s14#" },
+				{ 22, 103952, "", "=q4=Halberd of Inner Shadows", "=ds=#w7#" },
+				{ 23, 103953, "", "=q4=Kor'kron Hand Cannon", "=ds=#w5#" },
+				{ 24, 103951, "", "=q4=Malkorok's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 25, 103848, "", "=q4=Visage of the Monstrous", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104577, "", "=q4=Black-Blooded Drape", "=ds=#s4#" },
+				{ 2, 104574, "", "=q4=Hood of Perpetual Implosion", "=ds=#s1#, #a1#" },
+				{ 3, 104575, "", "=q4=Robes of Riven Dreams", "=ds=#s5#, #a1#" },
+				{ 4, 104573, "", "=q4=Miasmic Skullbelt", "=ds=#s10#, #a1#" },
+				{ 5, 104565, "", "=q4=Lazahk's Lost Shadowrap", "=ds=#s5#, #a2#" },
+				{ 6, 104581, "", "=q4=Bracers of Averted Fatality", "=ds=#s8#, #a2#" },
+				{ 7, 104580, "", "=q4=Boots of Perilous Infusion", "=ds=#s12#, #a2#" },
+				{ 8, 104582, "", "=q4=Ebon Blood Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 104566, "", "=q4=Wristguards of Ruination", "=ds=#s8#, #a3#" },
+				{ 10, 104583, "", "=q4=Terrorguard Chestplate", "=ds=#s5#, #a4#" },
+				{ 11, 104568, "", "=q4=Blood Rage Bracers", "=ds=#s8#, #a4#" },
+				{ 12, 104569, "", "=q4=Legplates of Willful Doom", "=ds=#s11#, #a4#" },
+				{ 13, 104567, "", "=q4=Malkorok's Giant Stompers", "=ds=#s12#, #a4#" },
+				{ 16, 104570, "", "=q4=Malkorok's Tainted Dog Tags", "=ds=#s2#" },
+				{ 17, 104562, "", "=q4=Ring of Restless Energy", "=ds=#s13#" },
+				{ 18, 104578, "", "=q4=Seal of Sullen Fury", "=ds=#s13#" },
+				{ 19, 104576, "", "=q4=Frenzied Crystal of Rage", "=ds=#s14#" },
+				{ 20, 104572, "", "=q4=Vial of Living Corruption", "=ds=#s14#" },
+				{ 22, 104564, "", "=q4=Halberd of Inner Shadows", "=ds=#w7#" },
+				{ 23, 104563, "", "=q4=Kor'kron Hand Cannon", "=ds=#w5#" },
+				{ 24, 104571, "", "=q4=Malkorok's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 25, 104579, "", "=q4=Visage of the Monstrous", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -2856,22 +3520,102 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOSpoils"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105094, "", "=q4=Mantid Vizier's Robes", "=ds=#s5#, #a1#" },
+				{ 2, 105093, "", "=q4=Avool's Ancestral Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 105085, "", "=q4=Mantid Carapace Augments", "=ds=#s8#, #a2#" },
+				{ 4, 105097, "", "=q4=Klaxxi Grips of Rejuvenation", "=ds=#s9#, #a2#" },
+				{ 5, 105098, "", "=q4=Shado-Pan Reliquary Kilt", "=ds=#s11#, #a2#" },
+				{ 6, 105084, "", "=q4=Pandaren Roofsprinters", "=ds=#s12#, #a2#" },
+				{ 7, 105087, "", "=q4=Ancient Archer's Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 105100, "", "=q4=Bracers of the Pristine Purifier", "=ds=#s8#, #a3#" },
+				{ 9, 105086, "", "=q4=Arrowflight Girdle", "=ds=#s10#, #a3#" },
+				{ 10, 105099, "", "=q4=Chitin-Link Chain Belt", "=ds=#s10#, #a3#" },
+				{ 11, 105088, "", "=q4=Helm of the Night Watchman", "=ds=#s1#, #a4#" },
+				{ 12, 105101, "", "=q4=Plate Belt of the War-Healer", "=ds=#s10#, #a4#" },
+				{ 13, 105089, "", "=q4=Untarnishable Greatbelt", "=ds=#s10#, #a4#" },
+				{ 14, 105102, "", "=q4=Mogu Mindbender's Greaves", "=ds=#s12#, #a4#" },
+				{ 15, 105090, "", "=q4=Ominous Mogu Greatboots", "=ds=#s12#, #a4#" },
+				{ 16, 105095, "", "=q4=Lost Necklace of the Mogu Empress", "=ds=#s2#" },
+				{ 17, 105091, "", "=q4=Seal of the Forgotten Kings", "=ds=#s13#" },
+				{ 18, 105082, "", "=q4=Sigil of Rampage", "=ds=#s14#" },
+				{ 20, 105083, "", "=q4=Enchanted Shao-Tien Saber", "=ds=#h1#, #w10#" },
+				{ 21, 105096, "", "=q4=Immaculately Preserved Wand", "=ds=#w12#" },
+				{ 22, 105092, "", "=q4=Ancient Mogu Tower Shield", "=ds=#w8#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104845, "", "=q4=Mantid Vizier's Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104844, "", "=q4=Avool's Ancestral Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 104836, "", "=q4=Mantid Carapace Augments", "=ds=#s8#, #a2#" },
+				{ 4, 104848, "", "=q4=Klaxxi Grips of Rejuvenation", "=ds=#s9#, #a2#" },
+				{ 5, 104849, "", "=q4=Shado-Pan Reliquary Kilt", "=ds=#s11#, #a2#" },
+				{ 6, 104835, "", "=q4=Pandaren Roofsprinters", "=ds=#s12#, #a2#" },
+				{ 7, 104838, "", "=q4=Ancient Archer's Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 104851, "", "=q4=Bracers of the Pristine Purifier", "=ds=#s8#, #a3#" },
+				{ 9, 104837, "", "=q4=Arrowflight Girdle", "=ds=#s10#, #a3#" },
+				{ 10, 104850, "", "=q4=Chitin-Link Chain Belt", "=ds=#s10#, #a3#" },
+				{ 11, 104839, "", "=q4=Helm of the Night Watchman", "=ds=#s1#, #a4#" },
+				{ 12, 104852, "", "=q4=Plate Belt of the War-Healer", "=ds=#s10#, #a4#" },
+				{ 13, 104840, "", "=q4=Untarnishable Greatbelt", "=ds=#s10#, #a4#" },
+				{ 14, 104853, "", "=q4=Mogu Mindbender's Greaves", "=ds=#s12#, #a4#" },
+				{ 15, 104841, "", "=q4=Ominous Mogu Greatboots", "=ds=#s12#, #a4#" },
+				{ 16, 104846, "", "=q4=Lost Necklace of the Mogu Empress", "=ds=#s2#" },
+				{ 17, 104842, "", "=q4=Seal of the Forgotten Kings", "=ds=#s13#" },
+				{ 18, 104833, "", "=q4=Sigil of Rampage", "=ds=#s14#" },
+				{ 20, 104834, "", "=q4=Enchanted Shao-Tien Saber", "=ds=#h1#, #w10#" },
+				{ 21, 104847, "", "=q4=Immaculately Preserved Wand", "=ds=#w12#" },
+				{ 22, 104843, "", "=q4=Ancient Mogu Tower Shield", "=ds=#w8#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103803, "", "=q4=Mantid Vizier's Robes", "=ds=#s5#, #a1#" },
+				{ 2, 103851, "", "=q4=Avool's Ancestral Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 103911, "", "=q4=Mantid Carapace Augments", "=ds=#s8#, #a2#" },
+				{ 4, 103860, "", "=q4=Klaxxi Grips of Rejuvenation", "=ds=#s9#, #a2#" },
+				{ 5, 103967, "", "=q4=Shado-Pan Reliquary Kilt", "=ds=#s11#, #a2#" },
+				{ 6, 103779, "", "=q4=Pandaren Roofsprinters", "=ds=#s12#, #a2#" },
+				{ 7, 103962, "", "=q4=Ancient Archer's Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 103862, "", "=q4=Bracers of the Pristine Purifier", "=ds=#s8#, #a3#" },
+				{ 9, 103888, "", "=q4=Arrowflight Girdle", "=ds=#s10#, #a3#" },
+				{ 10, 103941, "", "=q4=Chitin-Link Chain Belt", "=ds=#s10#, #a3#" },
+				{ 11, 103893, "", "=q4=Helm of the Night Watchman", "=ds=#s1#, #a4#" },
+				{ 12, 103965, "", "=q4=Plate Belt of the War-Healer", "=ds=#s10#, #a4#" },
+				{ 13, 103933, "", "=q4=Untarnishable Greatbelt", "=ds=#s10#, #a4#" },
+				{ 14, 103768, "", "=q4=Mogu Mindbender's Greaves", "=ds=#s12#, #a4#" },
+				{ 15, 103745, "", "=q4=Ominous Mogu Greatboots", "=ds=#s12#, #a4#" },
+				{ 16, 103882, "", "=q4=Lost Necklace of the Mogu Empress", "=ds=#s2#" },
+				{ 17, 103796, "", "=q4=Seal of the Forgotten Kings", "=ds=#s13#" },
+				{ 18, 102302, "", "=q4=Sigil of Rampage", "=ds=#s14#" },
+				{ 20, 103961, "", "=q4=Enchanted Shao-Tien Saber", "=ds=#h1#, #w10#" },
+				{ 21, 103964, "", "=q4=Immaculately Preserved Wand", "=ds=#w12#" },
+				{ 22, 103871, "", "=q4=Ancient Mogu Tower Shield", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104596, "", "=q4=Mantid Vizier's Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104595, "", "=q4=Avool's Ancestral Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 104587, "", "=q4=Mantid Carapace Augments", "=ds=#s8#, #a2#" },
+				{ 4, 104599, "", "=q4=Klaxxi Grips of Rejuvenation", "=ds=#s9#, #a2#" },
+				{ 5, 104600, "", "=q4=Shado-Pan Reliquary Kilt", "=ds=#s11#, #a2#" },
+				{ 6, 104586, "", "=q4=Pandaren Roofsprinters", "=ds=#s12#, #a2#" },
+				{ 7, 104589, "", "=q4=Ancient Archer's Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 104602, "", "=q4=Bracers of the Pristine Purifier", "=ds=#s8#, #a3#" },
+				{ 9, 104588, "", "=q4=Arrowflight Girdle", "=ds=#s10#, #a3#" },
+				{ 10, 104601, "", "=q4=Chitin-Link Chain Belt", "=ds=#s10#, #a3#" },
+				{ 11, 104590, "", "=q4=Helm of the Night Watchman", "=ds=#s1#, #a4#" },
+				{ 12, 104603, "", "=q4=Plate Belt of the War-Healer", "=ds=#s10#, #a4#" },
+				{ 13, 104591, "", "=q4=Untarnishable Greatbelt", "=ds=#s10#, #a4#" },
+				{ 14, 104604, "", "=q4=Mogu Mindbender's Greaves", "=ds=#s12#, #a4#" },
+				{ 15, 104592, "", "=q4=Ominous Mogu Greatboots", "=ds=#s12#, #a4#" },
+				{ 16, 104597, "", "=q4=Lost Necklace of the Mogu Empress", "=ds=#s2#" },
+				{ 17, 104593, "", "=q4=Seal of the Forgotten Kings", "=ds=#s13#" },
+				{ 18, 104584, "", "=q4=Sigil of Rampage", "=ds=#s14#" },
+				{ 20, 104585, "", "=q4=Enchanted Shao-Tien Saber", "=ds=#h1#, #w10#" },
+				{ 21, 104598, "", "=q4=Immaculately Preserved Wand", "=ds=#w12#" },
+				{ 22, 104594, "", "=q4=Ancient Mogu Tower Shield", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -2883,22 +3627,74 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOThok"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105106, "", "=q4=Akolik's Acid-Soaked Robes", "=ds=#s5#, #a1#" },
+				{ 2, 105105, "", "=q4=Montak's Grips of Scorching Breath", "=ds=#s9#, #a1#" },
+				{ 3, 105110, "", "=q4=Icy Blood Chestplate", "=ds=#s5#, #a4#" },
+				{ 5, 105104, "", "=q4=Gleaming Eye of the Devilsaur", "=ds=#s2#" },
+				{ 6, 105113, "", "=q4=Devilfang Band", "=ds=#s13#" },
+				{ 7, 105108, "", "=q4=Signet of the Dinomancers", "=ds=#s13#" },
+				{ 8, 105109, "", "=q4=Thok's Acid-Grooved Tooth", "=ds=#s14#" },
+				{ 9, 105111, "", "=q4=Thok's Tail Tip", "=ds=#s14#" },
+				{ 16, 99672, "", "=q4=Helm of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99673, "", "=q4=Helm of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99671, "", "=q4=Helm of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 105112, "", "=q4=Britomart's Jagged Pike", "=ds=#w7#" },
+				{ 21, 105103, "", "=q4=Hvitserk's Formidable Shanker", "=ds=#h1#, #w4#" },
+				{ 22, 105107, "", "=q4=Festering Primordial Globule", "=ds=#s15#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104857, "", "=q4=Akolik's Acid-Soaked Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104856, "", "=q4=Montak's Grips of Scorching Breath", "=ds=#s9#, #a1#" },
+				{ 3, 104861, "", "=q4=Icy Blood Chestplate", "=ds=#s5#, #a4#" },
+				{ 5, 104855, "", "=q4=Gleaming Eye of the Devilsaur", "=ds=#s2#" },
+				{ 6, 104864, "", "=q4=Devilfang Band", "=ds=#s13#" },
+				{ 7, 104859, "", "=q4=Signet of the Dinomancers", "=ds=#s13#" },
+				{ 8, 104860, "", "=q4=Thok's Acid-Grooved Tooth", "=ds=#s14#" },
+				{ 9, 104862, "", "=q4=Thok's Tail Tip", "=ds=#s14#" },
+				{ 16, 99749, "", "=q4=Helm of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99750, "", "=q4=Helm of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99748, "", "=q4=Helm of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104863, "", "=q4=Britomart's Jagged Pike", "=ds=#w7#" },
+				{ 21, 104854, "", "=q4=Hvitserk's Formidable Shanker", "=ds=#h1#, #w4#" },
+				{ 22, 104858, "", "=q4=Festering Primordial Globule", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 104308, "", "=q4=Akolik's Acid-Soaked Robes", "=ds=#s5#, #a1#" },
+				{ 2, 103853, "", "=q4=Montak's Grips of Scorching Breath", "=ds=#s9#, #a1#" },
+				{ 3, 103915, "", "=q4=Icy Blood Chestplate", "=ds=#s5#, #a4#" },
+				{ 5, 103750, "", "=q4=Gleaming Eye of the Devilsaur", "=ds=#s2#" },
+				{ 6, 103896, "", "=q4=Devilfang Band", "=ds=#s13#" },
+				{ 7, 103774, "", "=q4=Signet of the Dinomancers", "=ds=#s13#" },
+				{ 8, 102304, "", "=q4=Thok's Acid-Grooved Tooth", "=ds=#s14#" },
+				{ 9, 102305, "", "=q4=Thok's Tail Tip", "=ds=#s14#" },
+				{ 16, 99689, "", "=q4=Helm of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99694, "", "=q4=Helm of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99683, "", "=q4=Helm of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 103968, "", "=q4=Britomart's Jagged Pike", "=ds=#w7#" },
+				{ 21, 103828, "", "=q4=Hvitserk's Formidable Shanker", "=ds=#h1#, #w4#" },
+				{ 22, 103919, "", "=q4=Festering Primordial Globule", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104608, "", "=q4=Akolik's Acid-Soaked Robes", "=ds=#s5#, #a1#" },
+				{ 2, 104607, "", "=q4=Montak's Grips of Scorching Breath", "=ds=#s9#, #a1#" },
+				{ 3, 104612, "", "=q4=Icy Blood Chestplate", "=ds=#s5#, #a4#" },
+				{ 5, 104606, "", "=q4=Gleaming Eye of the Devilsaur", "=ds=#s2#" },
+				{ 6, 104615, "", "=q4=Devilfang Band", "=ds=#s13#" },
+				{ 7, 104610, "", "=q4=Signet of the Dinomancers", "=ds=#s13#" },
+				{ 8, 104611, "", "=q4=Thok's Acid-Grooved Tooth", "=ds=#s14#" },
+				{ 9, 104613, "", "=q4=Thok's Tail Tip", "=ds=#s14#" },
+				{ 16, 99724, "", "=q4=Helm of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99725, "", "=q4=Helm of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99723, "", "=q4=Helm of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104614, "", "=q4=Britomart's Jagged Pike", "=ds=#w7#" },
+				{ 21, 104605, "", "=q4=Hvitserk's Formidable Shanker", "=ds=#h1#, #w4#" },
+				{ 22, 104609, "", "=q4=Festering Primordial Globule", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -2910,22 +3706,78 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOBlackfuse"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105115, "", "=q4=Fusespark Gloves", "=ds=#s9#, #a1#" },
+				{ 2, 105118, "", "=q4=Bomber's Blackened Wristwatch", "=ds=#s8#, #a2#" },
+				{ 3, 105119, "", "=q4=Bracers of Infinite Pipes", "=ds=#s8#, #a3#" },
+				{ 4, 105120, "", "=q4=Powder-Stained Totemic Treads", "=ds=#s12#, #a3#" },
+				{ 5, 105121, "", "=q4=Calixian Bladebreakers", "=ds=#s9#, #a4#" },
+				{ 7, 105124, "", "=q4=Blackfuse's Blasting Cord", "=ds=#s2#" },
+				{ 8, 105122, "", "=q4=Asgorathian Blood Seal", "=ds=#s13#" },
+				{ 9, 105117, "", "=q4=Dysmorphic Samophlange of Discontinuity", "=ds=#s14#" },
+				{ 10, 105114, "", "=q4=Ticking Ebon Detonator", "=ds=#s14#" },
+				{ 16, 99669, "", "=q4=Shoulders of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99670, "", "=q4=Shoulders of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99668, "", "=q4=Shoulders of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 105116, "", "=q4=Lever of the Megantholithic Apparatus", "=ds=#w9#" },
+				{ 21, 105123, "", "=q4=Siegecrafter's Forge Hammer", "=ds=#h1#, #w6#" },
+				{ 23, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104866, "", "=q4=Fusespark Gloves", "=ds=#s9#, #a1#" },
+				{ 2, 104869, "", "=q4=Bomber's Blackened Wristwatch", "=ds=#s8#, #a2#" },
+				{ 3, 104870, "", "=q4=Bracers of Infinite Pipes", "=ds=#s8#, #a3#" },
+				{ 4, 104871, "", "=q4=Powder-Stained Totemic Treads", "=ds=#s12#, #a3#" },
+				{ 5, 104872, "", "=q4=Calixian Bladebreakers", "=ds=#s9#, #a4#" },
+				{ 7, 104875, "", "=q4=Blackfuse's Blasting Cord", "=ds=#s2#" },
+				{ 8, 104873, "", "=q4=Asgorathian Blood Seal", "=ds=#s13#" },
+				{ 9, 104868, "", "=q4=Dysmorphic Samophlange of Discontinuity", "=ds=#s14#" },
+				{ 10, 104865, "", "=q4=Ticking Ebon Detonator", "=ds=#s14#" },
+				{ 16, 99755, "", "=q4=Shoulders of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99756, "", "=q4=Shoulders of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99754, "", "=q4=Shoulders of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104867, "", "=q4=Lever of the Megantholithic Apparatus", "=ds=#w9#" },
+				{ 21, 104874, "", "=q4=Siegecrafter's Forge Hammer", "=ds=#h1#, #w6#" },
+				{ 23, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103970, "", "=q4=Fusespark Gloves", "=ds=#s9#, #a1#" },
+				{ 2, 103910, "", "=q4=Bomber's Blackened Wristwatch", "=ds=#s8#, #a2#" },
+				{ 3, 103891, "", "=q4=Bracers of Infinite Pipes", "=ds=#s8#, #a3#" },
+				{ 4, 103814, "", "=q4=Powder-Stained Totemic Treads", "=ds=#s12#, #a3#" },
+				{ 5, 103792, "", "=q4=Calixian Bladebreakers", "=ds=#s9#, #a4#" },
+				{ 7, 103884, "", "=q4=Blackfuse's Blasting Cord", "=ds=#s2#" },
+				{ 8, 103794, "", "=q4=Asgorathian Blood Seal", "=ds=#s13#" },
+				{ 9, 102309, "", "=q4=Dysmorphic Samophlange of Discontinuity", "=ds=#s14#" },
+				{ 10, 102311, "", "=q4=Ticking Ebon Detonator", "=ds=#s14#" },
+				{ 16, 99690, "", "=q4=Shoulders of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99695, "", "=q4=Shoulders of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99685, "", "=q4=Shoulders of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 103874, "", "=q4=Lever of the Megantholithic Apparatus", "=ds=#w9#" },
+				{ 21, 103969, "", "=q4=Siegecrafter's Forge Hammer", "=ds=#h1#, #w6#" },
+				{ 23, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104617, "", "=q4=Fusespark Gloves", "=ds=#s9#, #a1#" },
+				{ 2, 104620, "", "=q4=Bomber's Blackened Wristwatch", "=ds=#s8#, #a2#" },
+				{ 3, 104621, "", "=q4=Bracers of Infinite Pipes", "=ds=#s8#, #a3#" },
+				{ 4, 104622, "", "=q4=Powder-Stained Totemic Treads", "=ds=#s12#, #a3#" },
+				{ 5, 104623, "", "=q4=Calixian Bladebreakers", "=ds=#s9#, #a4#" },
+				{ 7, 104626, "", "=q4=Blackfuse's Blasting Cord", "=ds=#s2#" },
+				{ 8, 104624, "", "=q4=Asgorathian Blood Seal", "=ds=#s13#" },
+				{ 9, 104619, "", "=q4=Dysmorphic Samophlange of Discontinuity", "=ds=#s14#" },
+				{ 10, 104616, "", "=q4=Ticking Ebon Detonator", "=ds=#s14#" },
+				{ 16, 99718, "", "=q4=Shoulders of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99719, "", "=q4=Shoulders of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99717, "", "=q4=Shoulders of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104618, "", "=q4=Lever of the Megantholithic Apparatus", "=ds=#w9#" },
+				{ 21, 104625, "", "=q4=Siegecrafter's Forge Hammer", "=ds=#h1#, #w6#" },
+				{ 23, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#" },
 			};
 		};
 		info = {
@@ -2937,22 +3789,78 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOParagons"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105128, "", "=q4=Bracers of Sonic Projection", "=ds=#s8#, #a1#" },
+				{ 2, 105131, "", "=q4=Amber Parasite Wraps", "=ds=#s5#, #a2#" },
+				{ 3, 105132, "", "=q4=Chestguard of Toxic Injections", "=ds=#s5#, #a3#" },
+				{ 4, 105133, "", "=q4=Gauntlets of Insane Calculations", "=ds=#s9#, #a4#" },
+				{ 6, 105130, "", "=q4=Iyyokuk's Hereditary Seal", "=ds=#s13#" },
+				{ 7, 105126, "", "=q4=Kil'ruk's Band of Ascendancy", "=ds=#s13#" },
+				{ 8, 105134, "", "=q4=Skeer's Bloodsoaked Talisman", "=ds=#s14#" },
+				{ 16, 99675, "", "=q4=Leggings of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99676, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99674, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 105125, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
+				{ 21, 105135, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 105127, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 23, 105129, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
+				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104879, "", "=q4=Bracers of Sonic Projection", "=ds=#s8#, #a1#" },
+				{ 2, 104882, "", "=q4=Amber Parasite Wraps", "=ds=#s5#, #a2#" },
+				{ 3, 104883, "", "=q4=Chestguard of Toxic Injections", "=ds=#s5#, #a3#" },
+				{ 4, 104884, "", "=q4=Gauntlets of Insane Calculations", "=ds=#s9#, #a4#" },
+				{ 6, 104881, "", "=q4=Iyyokuk's Hereditary Seal", "=ds=#s13#" },
+				{ 7, 104877, "", "=q4=Kil'ruk's Band of Ascendancy", "=ds=#s13#" },
+				{ 8, 104885, "", "=q4=Skeer's Bloodsoaked Talisman", "=ds=#s14#" },
+				{ 16, 99752, "", "=q4=Leggings of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99753, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99751, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104876, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
+				{ 21, 104886, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 104878, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 23, 104880, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
+				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103810, "", "=q4=Bracers of Sonic Projection", "=ds=#s8#, #a1#" },
+				{ 2, 103948, "", "=q4=Amber Parasite Wraps", "=ds=#s5#, #a2#" },
+				{ 3, 103956, "", "=q4=Chestguard of Toxic Injections", "=ds=#s5#, #a3#" },
+				{ 4, 103819, "", "=q4=Gauntlets of Insane Calculations", "=ds=#s9#, #a4#" },
+				{ 6, 103824, "", "=q4=Iyyokuk's Hereditary Seal", "=ds=#s13#" },
+				{ 7, 103844, "", "=q4=Kil'ruk's Band of Ascendancy", "=ds=#s13#" },
+				{ 8, 102308, "", "=q4=Skeer's Bloodsoaked Talisman", "=ds=#s14#" },
+				{ 16, 99688, "", "=q4=Leggings of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99693, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99684, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 103886, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
+				{ 21, 103972, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 103971, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 23, 103973, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
+				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104630, "", "=q4=Bracers of Sonic Projection", "=ds=#s8#, #a1#" },
+				{ 2, 104633, "", "=q4=Amber Parasite Wraps", "=ds=#s5#, #a2#" },
+				{ 3, 104634, "", "=q4=Chestguard of Toxic Injections", "=ds=#s5#, #a3#" },
+				{ 4, 104635, "", "=q4=Gauntlets of Insane Calculations", "=ds=#s9#, #a4#" },
+				{ 6, 104632, "", "=q4=Iyyokuk's Hereditary Seal", "=ds=#s13#" },
+				{ 7, 104628, "", "=q4=Kil'ruk's Band of Ascendancy", "=ds=#s13#" },
+				{ 8, 104636, "", "=q4=Skeer's Bloodsoaked Talisman", "=ds=#s14#" },
+				{ 16, 99712, "", "=q4=Leggings of the Cursed Conqueror", "=ds=#e15#, #m42#" },
+				{ 17, 99713, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
+				{ 18, 99726, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
+				{ 20, 104627, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
+				{ 21, 104637, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 104629, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 23, 104631, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
+				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
 		};
 		info = {
@@ -2964,22 +3872,144 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOGarrosh"] = {
 		["RaidFinder"] = {
 			{
-
+				{ 1, 105149, "", "=q4=Ebon Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 2, 105148, "", "=q4=Belt of the Broken Pact", "=ds=#s10#, #a1#" },
+				{ 3, 105138, "", "=q4=Kor'kron Elite Skullmask", "=ds=#s1#, #a2#" },
+				{ 4, 105154, "", "=q4=Hopeglow Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 105137, "", "=q4=Cord of Black Dreams", "=ds=#s10#, #a2#" },
+				{ 6, 105153, "", "=q4=Seal of Karmic Return", "=ds=#s10#, #a2#" },
+				{ 7, 105155, "", "=q4=Cowl of Smoking Dreams", "=ds=#s1#, #a3#" },
+				{ 8, 105140, "", "=q4=Penetrating Gaze of Y'Shaarj", "=ds=#s1#, #a3#" },
+				{ 9, 105141, "", "=q4=Shoulderguards of Intended Power", "=ds=#s3#, #a3#" },
+				{ 10, 105139, "", "=q4=Chestguard of Relentless Tyranny", "=ds=#s5#, #a3#" },
+				{ 11, 105145, "", "=q4=Greathelm of the Warchief", "=ds=#s1#, #a4#" },
+				{ 12, 105157, "", "=q4=Mantle of Looming Darkness", "=ds=#s3#, #a4#" },
+				{ 13, 105143, "", "=q4=Spaulders of the Fallen Warchief", "=ds=#s3#, #a4#" },
+				{ 14, 105156, "", "=q4=Chestplate of Fallen Passion", "=ds=#s5#, #a4#" },
+				{ 15, 105142, "", "=q4=Legplates of Unthinking Strife", "=ds=#s11#, #a4#" },
+				{ 16, 105150, "", "=q4=Black Blood of Y'Shaarj", "=ds=#s14#" },
+				{ 17, 105147, "", "=q4=Curse of Hubris", "=ds=#s14#" },
+				{ 19, 105151, "", "=q4=Horned Mace of the Old Ones", "=ds=#h1#, #w6#" },
+				{ 20, 105136, "", "=q4=Kor'kron Spire of Supremacy", "=ds=#w9#" },
+				{ 21, 105146, "", "=q4=Xal'atoh, Desecrated Image of Gorehowl", "=ds=#h2#, #w1#" },
+				{ 22, 105152, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#" },
 			};
 		};
 		["Flexible"] = {
 			{
-
+				{ 1, 104900, "", "=q4=Ebon Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 2, 104899, "", "=q4=Belt of the Broken Pact", "=ds=#s10#, #a1#" },
+				{ 3, 104889, "", "=q4=Kor'kron Elite Skullmask", "=ds=#s1#, #a2#" },
+				{ 4, 104905, "", "=q4=Hopeglow Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 104888, "", "=q4=Cord of Black Dreams", "=ds=#s10#, #a2#" },
+				{ 6, 104904, "", "=q4=Seal of Karmic Return", "=ds=#s10#, #a2#" },
+				{ 7, 104906, "", "=q4=Cowl of Smoking Dreams", "=ds=#s1#, #a3#" },
+				{ 8, 104891, "", "=q4=Penetrating Gaze of Y'Shaarj", "=ds=#s1#, #a3#" },
+				{ 9, 104892, "", "=q4=Shoulderguards of Intended Power", "=ds=#s3#, #a3#" },
+				{ 10, 104890, "", "=q4=Chestguard of Relentless Tyranny", "=ds=#s5#, #a3#" },
+				{ 11, 104896, "", "=q4=Greathelm of the Warchief", "=ds=#s1#, #a4#" },
+				{ 12, 104908, "", "=q4=Mantle of Looming Darkness", "=ds=#s3#, #a4#" },
+				{ 13, 104894, "", "=q4=Spaulders of the Fallen Warchief", "=ds=#s3#, #a4#" },
+				{ 14, 104907, "", "=q4=Chestplate of Fallen Passion", "=ds=#s5#, #a4#" },
+				{ 15, 104893, "", "=q4=Legplates of Unthinking Strife", "=ds=#s11#, #a4#" },
+				{ 16, 104901, "", "=q4=Black Blood of Y'Shaarj", "=ds=#s14#" },
+				{ 17, 104898, "", "=q4=Curse of Hubris", "=ds=#s14#" },
+				{ 19, 104902, "", "=q4=Horned Mace of the Old Ones", "=ds=#h1#, #w6#" },
+				{ 20, 104887, "", "=q4=Kor'kron Spire of Supremacy", "=ds=#w9#" },
+				{ 21, 104897, "", "=q4=Xal'atoh, Desecrated Image of Gorehowl", "=ds=#h2#, #w1#" },
+				{ 22, 104903, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#" },
+			};
+			{
+				{ 1, 105672, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 105679, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 105678, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 105673, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 105671, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 105677, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 105670, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 105675, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 105674, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 105680, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 105676, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
 			{
-
+				{ 1, 103901, "", "=q4=Ebon Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 2, 103856, "", "=q4=Belt of the Broken Pact", "=ds=#s10#, #a1#" },
+				{ 3, 103729, "", "=q4=Kor'kron Elite Skullmask", "=ds=#s1#, #a2#" },
+				{ 4, 103925, "", "=q4=Hopeglow Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 103928, "", "=q4=Cord of Black Dreams", "=ds=#s10#, #a2#" },
+				{ 6, 103906, "", "=q4=Seal of Karmic Return", "=ds=#s10#, #a2#" },
+				{ 7, 103950, "", "=q4=Cowl of Smoking Dreams", "=ds=#s1#, #a3#" },
+				{ 8, 103931, "", "=q4=Penetrating Gaze of Y'Shaarj", "=ds=#s1#, #a3#" },
+				{ 9, 103837, "", "=q4=Shoulderguards of Intended Power", "=ds=#s3#, #a3#" },
+				{ 10, 103963, "", "=q4=Chestguard of Relentless Tyranny", "=ds=#s5#, #a3#" },
+				{ 11, 103840, "", "=q4=Greathelm of the Warchief", "=ds=#s1#, #a4#" },
+				{ 12, 103944, "", "=q4=Mantle of Looming Darkness", "=ds=#s3#, #a4#" },
+				{ 13, 103784, "", "=q4=Spaulders of the Fallen Warchief", "=ds=#s3#, #a4#" },
+				{ 14, 103785, "", "=q4=Tusks of Mannoroth", "=ds=#s3#, #a4#" },
+				{ 15, 103958, "", "=q4=Chestplate of Fallen Passion", "=ds=#s5#, #a4#" },
+				{ 16, 104311, "", "=q4=Legplates of Unthinking Strife", "=ds=#s11#, #a4#" },
+				{ 18, 102310, "", "=q4=Black Blood of Y'Shaarj", "=ds=#s14#" },
+				{ 19, 102307, "", "=q4=Curse of Hubris", "=ds=#s14#" },
+				{ 21, 103937, "", "=q4=Horned Mace of the Old Ones", "=ds=#h1#, #w6#" },
+				{ 22, 103974, "", "=q4=Kor'kron Spire of Supremacy", "=ds=#w9#" },
+				{ 23, 103649, "", "=q4=Xal'atoh, Desecrated Image of Gorehowl", "=ds=#h2#, #w1#" },
+				{ 24, 103920, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#" },
+			};
+			{
+				{ 1, 104404, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 104405, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 104401, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 104403, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 104400, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 104406, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 104399, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 104402, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 104409, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 104407, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 104408, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 104651, "", "=q4=Ebon Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 2, 104650, "", "=q4=Belt of the Broken Pact", "=ds=#s10#, #a1#" },
+				{ 3, 104640, "", "=q4=Kor'kron Elite Skullmask", "=ds=#s1#, #a2#" },
+				{ 4, 104656, "", "=q4=Hopeglow Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 104639, "", "=q4=Cord of Black Dreams", "=ds=#s10#, #a2#" },
+				{ 6, 104655, "", "=q4=Seal of Karmic Return", "=ds=#s10#, #a2#" },
+				{ 7, 104657, "", "=q4=Cowl of Smoking Dreams", "=ds=#s1#, #a3#" },
+				{ 8, 104642, "", "=q4=Penetrating Gaze of Y'Shaarj", "=ds=#s1#, #a3#" },
+				{ 9, 104643, "", "=q4=Shoulderguards of Intended Power", "=ds=#s3#, #a3#" },
+				{ 10, 104641, "", "=q4=Chestguard of Relentless Tyranny", "=ds=#s5#, #a3#" },
+				{ 11, 104647, "", "=q4=Greathelm of the Warchief", "=ds=#s1#, #a4#" },
+				{ 12, 104659, "", "=q4=Mantle of Looming Darkness", "=ds=#s3#, #a4#" },
+				{ 13, 104645, "", "=q4=Spaulders of the Fallen Warchief", "=ds=#s3#, #a4#" },
+				{ 14, 104646, "", "=q4=Tusks of Mannoroth", "=ds=#s3#, #a4#" },
+				{ 15, 104658, "", "=q4=Chestplate of Fallen Passion", "=ds=#s5#, #a4#" },
+				{ 16, 104644, "", "=q4=Legplates of Unthinking Strife", "=ds=#s11#, #a4#" },
+				{ 18, 104652, "", "=q4=Black Blood of Y'Shaarj", "=ds=#s14#" },
+				{ 19, 104649, "", "=q4=Curse of Hubris", "=ds=#s14#" },
+				{ 21, 104653, "", "=q4=Horned Mace of the Old Ones", "=ds=#h1#, #w6#" },
+				{ 22, 104638, "", "=q4=Kor'kron Spire of Supremacy", "=ds=#w9#" },
+				{ 23, 104648, "", "=q4=Xal'atoh, Desecrated Image of Gorehowl", "=ds=#h2#, #w1#" },
+				{ 24, 104654, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#" },
+				{ 26, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#" },
+			};
+			{
+				{ 1, 105685, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 105692, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 105691, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 105686, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 105684, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 105690, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 105683, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 105688, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 105687, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 105693, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 105689, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		info = {
