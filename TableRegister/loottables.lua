@@ -180,15 +180,12 @@ AtlasLoot_LootTableRegister = {
 
 		["Pandaria"] = {
 			["Bosses"] = {
-				{ "NALAK", 1, EncounterJournalID = 814, BonusLootID = 136381 },
-				{ "Oondasta", 2, EncounterJournalID = 826, BonusLootID = 137554 },
-				{ "Xuen", 3, EncounterJournalID = 860 },
+				{ "AUGUSTCELESTIALS", 1, EncounterJournalID = 857 },
+				{ "NALAK", 2, EncounterJournalID = 814, BonusLootID = 136381 },
+				{ "Oondasta", 3, EncounterJournalID = 826, BonusLootID = 137554 },
 				{ "SHAOFANGER", 4, EncounterJournalID = 691, BonusLootID = 132205 },
-				{ "ORDOS", 5, EncounterJournalID = 861 },
-				{ "Niuzao", 6, EncounterJournalID = 859 },
-				{ "Yulon", 7, EncounterJournalID = 858 },
-				{ "SalyisWarband", 8, EncounterJournalID = 725, BonusLootID = 132206 },
-				{ "ChiJi", 9, EncounterJournalID = 857 },
+				{ "Ordos", 5, EncounterJournalID = 861 },
+				{ "SalyisWarband", 6, EncounterJournalID = 725, BonusLootID = 132206 },
 			},
 			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
