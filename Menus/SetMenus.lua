@@ -12,7 +12,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
 				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..ALIL["Spirit of Harmony"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 4, "DarkspearRebellion", "inv_misc_tournaments_banner_troll", "=ds="..ALIL["Darkspear Rebellion"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 4, "TimelessIsle", "spell_mage_altertime", "=ds="..ALIL["Timless Isle"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 5, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..ALIL["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 8, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 9, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
@@ -46,11 +46,11 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 		["Normal"] = {
 			{
 				{ 2, "ValorPointsMoP", "inv_helmet_cloth_reputation_c_01", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "ValorPointsMoP#5", "inv_helm_mail_reputation_c_01", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "ValorPointsMoP#10", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"], ""};
-				{ 17, "ValorPointsMoP#3", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "ValorPointsMoP#7", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
-				{ 20, "ValorPointsMoP#12", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"], ""};
+				{ 3, "ValorPointsMoP#3", "inv_helm_mail_reputation_c_01", "=ds="..BabbleInventory["Mail"], ""};
+				{ 5, "ValorPointsMoP#5", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"], ""};
+				{ 17, "ValorPointsMoP#2", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "ValorPointsMoP#4", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
+				{ 20, "ValorPointsMoP#6", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"], ""};
 			};
 		};
 		info = {
@@ -63,12 +63,13 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 		["Normal"] = {
 			{
 				{ 2, "JusticePointsMoP", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "JusticePointsMoP#2", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "JusticePointsMoP#3", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
+				{ 3, "JusticePointsMoP#4", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
+				{ 5, "JusticePointsMoP#8", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
 				{ 7, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 8, "JPBCMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
-				{ 17, "JusticePointsMoP", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "JusticePointsMoP#2", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 17, "JusticePointsMoP#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "JusticePointsMoP#5", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 20, 92742, "", "=q2=Polished Battle-Stone", "", "#JUSTICE:1000#" },
 				{ 22, "JPWRATHMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 			};
 		};
@@ -1000,26 +1001,26 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 		};
 	}
 
-	AtlasLoot_Data["AUGUSTCELESTIALS"] = {
+	AtlasLoot_Data["AUGUSTCELESTIALSWORLDBOSSES"] = {
 		["Normal"] = {
 			{
-				{ 2, "AugustCelestials#7", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
-				{ 3, "AugustCelestials", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-				{ 4, "AugustCelestials#2", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-				{ 5, "AugustCelestials#2", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 6, "AugustCelestials#3", "class_monk", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], ""};
-				{ 7, "AugustCelestials#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 9, "AugustCelestials#8", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"]};
-				{ 10, "AugustCelestials#10", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
-				{ 17, "AugustCelestials#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-				{ 18, "AugustCelestials#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 19, "AugustCelestials#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-				{ 20, "AugustCelestials#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 21, "AugustCelestials#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 24, "AugustCelestials#9", "inv_bracer_plate_pvppaladin_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
+				{ 2, "AugustCelestialsWorldBosses#7", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "AugustCelestialsWorldBosses", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "AugustCelestialsWorldBosses#2", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "AugustCelestialsWorldBosses#2", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "AugustCelestialsWorldBosses#3", "class_monk", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], ""};
+				{ 7, "AugustCelestialsWorldBosses#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 9, "AugustCelestialsWorldBosses#8", "inv_belt_leather_pvprogue_g_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"]};
+				{ 10, "AugustCelestialsWorldBosses#10", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
+				{ 17, "AugustCelestialsWorldBosses#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "AugustCelestialsWorldBosses#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "AugustCelestialsWorldBosses#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "AugustCelestialsWorldBosses#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "AugustCelestialsWorldBosses#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 24, "AugustCelestialsWorldBosses#9", "inv_boots_mail_pvphunter_g_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
 			};
 		};
 		info = {
-			name = AL["August Celestials"],
+			name = ALIL["The August Celestials"],
 		};
 	}

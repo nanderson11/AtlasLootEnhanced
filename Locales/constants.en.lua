@@ -1056,7 +1056,6 @@ if AL then
 	AL["Smokywood Pastures Vendor"] = true;
 	AL["Bash'ir Landing Stasis Chambers"] = true;
 	AL["Battle Pet Trainer"] = true;
-	AL["August Celestials"] = true;
 
 	-- Zone related strings
 	AL["Azeroth"] = true;
