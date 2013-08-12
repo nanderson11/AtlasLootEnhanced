@@ -8496,6 +8496,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 98772, "", "=q3=Crafted Malevolent Gladiator's Drape of Cruelty", "=ds=#s4#"},
 				{ 21, 98774, "", "=q3=Crafted Malevolent Gladiator's Drape of Meditation", "=ds=#s4#"},
 				{ 22, 98773, "", "=q3=Crafted Malevolent Gladiator's Drape of Prowess", "=ds=#s4#"},
+				{ 24, 102483, "", "=q3=Crafted Malevolent Gladiator's Medallion of Tenacity", "=ds=#s14#"},
 			};
 		};
 		info = {
