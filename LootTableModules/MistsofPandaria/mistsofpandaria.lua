@@ -923,8 +923,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89952, "", "=q4=Pheromone-Coated Choker", "=ds=#s2#" },
 				{ 17, 86814, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 18, 86813, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -943,8 +941,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89827, "", "=q4=Pheromone-Coated Choker", "=ds=#s2#" },
 				{ 17, 86156, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 18, 86155, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -963,8 +959,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89917, "", "=q4=Pheromone-Coated Choker", "=ds=#s2#" },
 				{ 17, 86949, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 18, 86946, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -990,8 +984,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86824, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86820, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86829, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
-				{ 21, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 22, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1010,8 +1002,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86166, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86162, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86171, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
-				{ 21, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 22, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1030,8 +1020,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86953, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86957, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86960, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
-				{ 21, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 22, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1057,8 +1045,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86837, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86835, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86830, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
-				{ 19, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1077,8 +1063,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86179, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86177, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86172, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
-				{ 19, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1097,8 +1081,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86973, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86967, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86968, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
-				{ 19, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1120,8 +1102,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89270, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86856, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86851, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1136,8 +1116,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89242, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86205, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86200, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1152,8 +1130,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89255, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86976, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86974, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1175,8 +1151,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89267, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86862, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86863, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1191,8 +1165,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89245, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86217, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86219, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1207,8 +1179,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89252, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86983, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h1#, #w4#" },
 				{ 21, 86987, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1230,8 +1200,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89265, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89266, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89264, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1246,8 +1214,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89237, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89238, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89239, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1262,8 +1228,6 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 89250, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89251, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89249, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1329,8 +1293,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86742, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 86739, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 86741, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1349,8 +1311,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 85925, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 85922, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 85924, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1369,8 +1329,6 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 87015, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 87016, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 87012, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
-				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1396,8 +1354,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89968, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89967, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1416,8 +1372,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89803, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89802, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89424, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1436,8 +1390,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89933, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89932, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89425, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1462,8 +1414,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86767, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 86762, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 86764, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1481,8 +1431,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86038, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 85994, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 85996, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1500,8 +1448,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 87040, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 87032, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 87039, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1528,8 +1474,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86783, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 86777, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 86778, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1549,8 +1493,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86083, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 86071, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 86075, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1570,8 +1512,6 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 87053, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 87046, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 87050, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
-				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1590,8 +1530,6 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86800, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
 				{ 6, 89974, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 86794, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
-				{ 9, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 10, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89972, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 86791, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 86792, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1611,8 +1549,6 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 89821, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 86135, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", ""};
-				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89824, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 86132, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 86133, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1632,8 +1568,6 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 89939, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 87059, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", ""};
-				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89937, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 87057, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 87065, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1666,8 +1600,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86805, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 86806, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 86801, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1686,8 +1618,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86147, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 86148, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 86142, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1706,8 +1636,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 87075, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 87074, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h1#, #w6#" },
 				{ 21, 87069, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
-				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -4535,8 +4463,6 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86876, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
 				{ 6, 86868, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
 				{ 7, 86870, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
-				{ 9, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 10, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 86872, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
 				{ 17, 86871, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 18, 86869, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
@@ -4558,8 +4484,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86231, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 86315, "", "=q4=Watersoul Signet", "=ds=#s13#" },
 				{ 12, 86390, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
-				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90526, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
 				{ 18, 90524, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -4591,8 +4515,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 87144, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 87151, "", "=q4=Watersoul Signet", "=ds=#s13#" },
 				{ 12, 87152, "", "=q4=Regail's Crackling Dagger", "=ds=#h1#, #w4#" },
-				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90512, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
 				{ 18, 90510, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -4643,8 +4565,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 86881, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 25, 86886, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 26, 86879, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
-				{ 28, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 29, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -4673,8 +4593,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 86323, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 25, 86328, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 26, 86321, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
-				{ 28, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 29, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -4703,8 +4621,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 87160, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 25, 87164, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 26, 87156, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
-				{ 28, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 29, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -4728,8 +4644,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86902, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 86904, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 86903, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
-				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89277, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89278, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89276, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -4754,8 +4668,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86383, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 86385, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 86384, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
-				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89246, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89247, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89248, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -4780,8 +4692,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 87184, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 87186, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 87185, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
-				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89262, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89263, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89261, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -4809,8 +4719,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 86906, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 9, 86905, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 11, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
-				{ 12, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 13, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89274, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89275, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89273, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -4826,8 +4734,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 86387, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 9, 86386, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 11, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
-				{ 12, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 13, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89235, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89236, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89234, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -4843,8 +4749,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 9, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 11, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
-				{ 12, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 13, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89259, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89260, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89258, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -5335,7 +5239,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95737, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 95743, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 95728, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -5360,7 +5263,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95511, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#", tf=96109 },
 				{ 21, 94922, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#", tf=96115 },
 				{ 22, 94814, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#", tf=96100 },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -5385,7 +5287,6 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96481, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#", tf=96853 },
 				{ 21, 96487, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#", tf=96859 },
 				{ 22, 96472, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#", tf=96844 },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -5419,7 +5320,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 95758, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 95768, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
 				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -5446,7 +5346,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94937, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#", tf=96130 },
 				{ 22, 94945, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#", tf=96140 },
 				{ 24, 97959, "", "=q3=Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -5473,7 +5372,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96502, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#", tf=96874 },
 				{ 22, 96512, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#", tf=96884 },
 				{ 24, 97960, "", "=q3=Dark Quivering Blob", "=ds=#e13#", ""};
-				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -5500,7 +5398,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95774, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 95770, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -5520,7 +5417,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94955, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#", tf=96146 },
 				{ 21, 94954, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#", tf=96142 },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -5540,7 +5436,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96518, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#", tf=96890 },
 				{ 21, 96514, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#", tf=96886 },
 				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
-				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -5559,7 +5454,6 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 95788, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#" },
 				{ 6, 95789, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#" },
 				{ 8, 95785, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
-				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95956, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95957, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95955, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -5578,7 +5472,6 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 94969, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#", tf=96160},
 				{ 6, 94972, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#", tf=96161 },
 				{ 8, 95512, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#", tf=96157 },
-				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95578, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95583, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95573, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -5597,7 +5490,6 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 96532, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#", tf=96904 },
 				{ 6, 96533, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#", tf=96905 },
 				{ 8, 96529, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#", tf=96901 },
-				{ 10, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96700, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96701, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96699, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -5630,7 +5522,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95795, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#" },
 				{ 21, 95791, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#" },
 				{ 22, 95794, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -5649,7 +5540,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94974, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#", tf=96167 },
 				{ 21, 94973, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#", tf=96163 },
 				{ 22, 95515, "", "=q4=Shield of Twinned Despair", "=ds=#w8#", tf=96166 },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -5668,7 +5558,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96539, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#", tf=96911 },
 				{ 21, 96535, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#", tf=96907 },
 				{ 22, 96538, "", "=q4=Shield of Twinned Despair", "=ds=#w8#", tf=96910 },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -5691,7 +5580,6 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 95807, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#" },
 				{ 10, 95808, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95816, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#" },
 				{ 17, 95817, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 95802, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
@@ -5718,7 +5606,6 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 95535, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#", tf=96179 },
 				{ 10, 94985, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96180 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 94994, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96188 },
 				{ 17, 94530, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96189 },
 				{ 18, 94532, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96174 },
@@ -5744,7 +5631,6 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 96551, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#", tf=96923 },
 				{ 10, 96552, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#", tf=96924 },
 				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
-				{ 13, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96560, "", "=q4=Soul Prism of Lei Shen", "=ds=#s2#", tf=96932 },
 				{ 17, 96561, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#", tf=96933 },
 				{ 18, 96546, "", "=q4=Rune of Re-Origination", "=ds=#s14#", tf=96918 },
@@ -5815,7 +5701,6 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95022, "", "=q4=Ra-den's Ruinous Ring", "=ds=#s13#" },
 				{ 19, 95019, "", "=q4=Ra-den's Summoning Band", "=ds=#s13#" },
 				{ 20, 95021, "", "=q4=Ra-den's Swift Seal", "=ds=#s13#" },
-				{ 22, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				extraText = " ("..AL["Thunderforged"]..")";
 			};
 		};
@@ -5838,9 +5723,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95874, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 9, 95873, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#" },
 				{ 10, 95872, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#" },
-				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 95877, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
 				{ 17, 95862, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
 				{ 18, 95876, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
@@ -5897,9 +5779,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95068, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#", tf=96246 },
 				{ 9, 95063, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#", tf=96245 },
 				{ 10, 95069, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#", tf=96244 },
-				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 95498, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#", tf=96249 },
 				{ 17, 95507, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#", tf=96234 },
 				{ 18, 95502, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#", tf=96248 },
@@ -5926,9 +5805,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 96618, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#", tf=96990 },
 				{ 9, 96617, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#", tf=96989 },
 				{ 10, 96616, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#", tf=96988 },
-				{ 12, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 13, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 14, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 96621, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#", tf=96993 },
 				{ 17, 96606, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#", tf=96978 },
 				{ 18, 96620, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#", tf=96992 },
@@ -11067,7 +10943,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 99138, "", "=q4=Helmet of Winged Triumph", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 18, 99132, "", "=q4=Pauldrons of Winged Triumph", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 19, 99136, "", "=q4=Battleplate of Winged Triumph", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};
-				{ 20, 99134, "", "=q4=Gauntlets of Winged Triumph", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
+				{ 20, 99137, "", "=q4=Gauntlets of Winged Triumph", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
 				{ 21, 99139, "", "=q4=Legplates of Winged Triumph", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)};
 				{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#t16s4_3#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Heroic"]};
 				{ 24, 99379, "", "=q4=Helmet of Winged Triumph", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
@@ -11720,16 +11596,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsFaction"] = {
 		["Normal"] = {
 			{
-				{ 2, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=ds="..ALIL["Darkspear Rebellion"]};
-				{ 3, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#", "=ds="..ALIL["Sha'tari Skyguard"]};
-				{ 4, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#", "=ds="..ALIL["The Kalu'ak"]};
-				{ 5, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..ALIL["Sho"].." - "..AL["Best Friend"]};
-				{ 6, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..ALIL["The Anglers"]};
-				{ 7, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#", "=ds="..ALIL["Sporeggar"]};
-				{ 8, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 9, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 10, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
-				{ 11, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 2, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#", "=ds="..ALIL["Sha'tari Skyguard"]};
+				{ 3, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#", "=ds="..ALIL["The Kalu'ak"]};
+				{ 4, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..ALIL["Sho"].." - "..AL["Best Friend"]};
+				{ 5, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..ALIL["The Anglers"]};
+				{ 6, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#", "=ds="..ALIL["Sporeggar"]};
+				{ 7, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 8, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 9, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
+				{ 10, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..ALIL["The Oracles"].." - =q2="..ALIL["Mysterious Egg"]};
 				{
 					{ 17, "", "inv_misc_tournaments_symbol_orc", "=q6="..FACTION_HORDE, ""};
 					{ 17, "", "inv_misc_tournaments_symbol_human", "=q6="..FACTION_ALLIANCE, ""};
@@ -11765,43 +11640,44 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
 
 				{ 3, 64403, "", "=q3=Fox Kit", "=ds=#e13#", "=q2="..AL["Baradin Fox"]..", =q1="..ALIL["Tol Barad Peninsula"]};
-				{ 4, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..ALIL["Dalaran"]};
-				{ 5, 97961, "", "=q3=Half-Empty Food Container", "=ds=#e13#", "=q1="..ALIL["Isle of Thunder"]};
+				{ 4, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=q2="..ALIL["Darkspear Rebellion"]..", =q1="..ALIL["Northern Barrens"]};
+				{ 5, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..ALIL["Dalaran"]};
+				{ 6, 97961, "", "=q3=Half-Empty Food Container", "=ds=#e13#", "=q1="..ALIL["Isle of Thunder"]};
 
-				{ 6, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..ALIL["Karr the Darkener"]..", =q1="..ALIL["Dread Wastes"]};
-				{ 7, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..ALIL["Nalash Verdantis"]..", =q1="..ALIL["Dread Wastes"]};
-				{ 8, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
-				{ 9, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#", "=q2="..BabbleRare["G'nathus"]..", =q1="..ALIL["Townlong Steppes"]};
-				{ 10, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#", "=q2="..ALIL["Haywire Sunreaver Construct"]..", =q1="..ALIL["Isle of Thunder"]};
-				{ 11, 85220, "", "=q3=Terrible Turnip", "=ds=#e13#", "=q2="..ALIL["Ominous Seed"]..", =q1="..AL["Halfhill Farm"]};
-				{ 12, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
+				{ 7, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..ALIL["Karr the Darkener"]..", =q1="..ALIL["Dread Wastes"]};
+				{ 8, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..ALIL["Nalash Verdantis"]..", =q1="..ALIL["Dread Wastes"]};
+				{ 9, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q2=#p24#, =q1="..AL["Darkmoon Island"]};
+				{ 10, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#", "=q2="..BabbleRare["G'nathus"]..", =q1="..ALIL["Townlong Steppes"]};
+				{ 11, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#", "=q2="..ALIL["Haywire Sunreaver Construct"]..", =q1="..ALIL["Isle of Thunder"]};
+				{ 12, 85220, "", "=q3=Terrible Turnip", "=ds=#e13#", "=q2="..ALIL["Ominous Seed"]..", =q1="..AL["Halfhill Farm"]};
+				{ 13, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
 
-				{ 13, 95423, "", "=q3=Zandalari Footslasher", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
+				{ 14, 95423, "", "=q3=Zandalari Footslasher", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
 
-				{ 14, 94126, "", "=q3=Zandalari Kneebiter", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
+				{ 15, 94126, "", "=q3=Zandalari Kneebiter", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
 
-				{ 15, 95424, "", "=q3=Zandalari Toenibbler", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
+				{ 16, 95424, "", "=q3=Zandalari Toenibbler", "=ds=#e13#", "=q1="..ALIL["Isle of Giants"]};
 
-				{ 16, 34535, "", "=q1=Azure Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Winterspring"]};
-				{ 17, 29960, "", "=q1=Captured Firefly", "=ds=#e13#", "=q2="..AL["Bogflare Needler"]..", =q1="..ALIL["Zangarmarsh"]};
-				{ 18, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Hillsbrad Foothills"]};
-				{ 19, 10822, "", "=q1=Dark Whelpling", "=ds=#e13#", "=q2="..ALIL["Wetlands"].." / "..ALIL["Badlands"].." / "..ALIL["Burning Steppes"]};
-				{ 20, 48112, "", "=q1=Darting Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Dart's Nest"]..", =q1="..ALIL["Dustwallow Marsh"]};
-				{ 21, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#", "=q2="..ALIL["Oozing Bag"]..", =q1="..AL["Various Locations"]};
-				{ 22, 48116, "", "=q1=Gundrak Hatchling", "=ds=#e13#", "=q2="..AL["Gundrak Raptor"]..", =q1="..ALIL["Zul'Drak"]};
-				{ 23, 48118, "", "=q1=Leaping Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Takk's Nest"]..", =q1="..ALIL["Northern Barrens"]};
-				{ 24, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=ds="..ALIL["Terokkar Forest"]};
-				{ 25, 66076, "", "=q1=Mr. Grubbs", "=ds=#e13#", "=q2="..ALIL["Hidden Stash"]..", =q1="..ALIL["Eastern Plaguelands"]};
-				{ 26, 48122, "", "=q1=Ravasaur Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Ravasaur Matriarch's Nest"]..", =q1="..ALIL["Un'Goro Crater"]};
-				{ 27, 48124, "", "=q1=Razormaw Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Razormaw Matriarch's Nest"]..", =q1="..ALIL["Wetlands"]};
-				{ 28, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
-				{ 29, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Feralas"]};
-				{ 30, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Wetlands"]};
+				{ 17, 34535, "", "=q1=Azure Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Winterspring"]};
+				{ 18, 29960, "", "=q1=Captured Firefly", "=ds=#e13#", "=q2="..AL["Bogflare Needler"]..", =q1="..ALIL["Zangarmarsh"]};
+				{ 19, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Hillsbrad Foothills"]};
+				{ 20, 10822, "", "=q1=Dark Whelpling", "=ds=#e13#", "=q2="..ALIL["Wetlands"].." / "..ALIL["Badlands"].." / "..ALIL["Burning Steppes"]};
+				{ 21, 48112, "", "=q1=Darting Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Dart's Nest"]..", =q1="..ALIL["Dustwallow Marsh"]};
+				{ 22, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#", "=q2="..ALIL["Oozing Bag"]..", =q1="..AL["Various Locations"]};
+				{ 23, 48116, "", "=q1=Gundrak Hatchling", "=ds=#e13#", "=q2="..AL["Gundrak Raptor"]..", =q1="..ALIL["Zul'Drak"]};
+				{ 24, 48118, "", "=q1=Leaping Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Takk's Nest"]..", =q1="..ALIL["Northern Barrens"]};
+				{ 25, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=ds="..ALIL["Terokkar Forest"]};
+				{ 26, 66076, "", "=q1=Mr. Grubbs", "=ds=#e13#", "=q2="..ALIL["Hidden Stash"]..", =q1="..ALIL["Eastern Plaguelands"]};
+				{ 27, 48122, "", "=q1=Ravasaur Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Ravasaur Matriarch's Nest"]..", =q1="..ALIL["Un'Goro Crater"]};
+				{ 28, 48124, "", "=q1=Razormaw Hatchling", "=ds=#e13#", "=q2="..BabbleRare["Razormaw Matriarch's Nest"]..", =q1="..ALIL["Wetlands"]};
+				{ 29, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Stranglethorn Vale"]};
+				{ 30, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Feralas"]};
 				extraText = ": "..AL["World Drop"]
 			};
 			{
-				{ 1, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#", "=q2="..AL["Noxious Whelp"]..", =q1="..ALIL["Feralas"]};
-				{ 2, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..BabbleRare["Jadefang"]..", =q1="..ALIL["Deepholm"]};
+				{ 1, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#", "=q2="..AL["Various Locations"]..", =q1="..ALIL["Wetlands"]};
+				{ 2, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#", "=q2="..AL["Noxious Whelp"]..", =q1="..ALIL["Feralas"]};
+				{ 3, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..BabbleRare["Jadefang"]..", =q1="..ALIL["Deepholm"]};
 				extraText = ": "..AL["World Drop"]
 			};
 			{
@@ -13976,218 +13852,6 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "VPMOPMENU",
 		};
 	}
-
-		---------------------------
-		--- Darkspear Rebellion ---
-		---------------------------
-
-	--[[AtlasLoot_Data["DarkspearRebellion"] = {
-		["Normal"] = {
-			{
-				{ 1, 97829, "", "=q4=Latent Kor'kron Helm", "=ds=#s1#", "#KORKRONMEAT:100# #KORKRONOIL:100#"};
-				{ 2, 97831, "", "=q4=Latent Kor'kron Spaulders", "=ds=#s3#", "#KORKRONMEAT:100# #KORKRONSTONE:100#"};
-				{ 3, 97826, "", "=q4=Latent Kor'kron Chestpiece", "=ds=#s5#", "#KORKRONLUMBER:100# #KORKRONOIL:100#"};
-				{ 4, 97828, "", "=q4=Latent Kor'kron Gloves", "=ds=#s9#", "#KORKRONLUMBER:100# #KORKRONOIL:100#"};
-				{ 5, 97832, "", "=q4=Latent Kor'kron Belt", "=ds=#s10#", "#KORKRONOIL:100# #KORKRONSTONE:100#"};
-				{ 6, 97830, "", "=q4=Latent Kor'kron Leggings", "=ds=#s11#", "#KORKRONLUMBER:100# #KORKRONSTONE:100#"};
-				{ 7, 97827, "", "=q4=Latent Kor'kron Boots", "=ds=#s12#", "#KORKRONLUMBER:100# #KORKRONMEAT:100#"};
-				{ 9, 97849, "", "=q3=Radical Mojo", "=ds=#m17#", "#QUESTID:32872#"};
-				{ 10, 97530, "", "=q1=Kor'kron Lumber", "=ds=#m17#", ""};
-				{ 11, 97545, "", "=q1=Kor'kron Meat", "=ds=#m17#", ""};
-				{ 12, 97544, "", "=q1=Kor'kron Oil", "=ds=#m17#", ""};
-				{ 13, 97543, "", "=q1=Kor'kron Stone", "=ds=#m17#", ""};
-				{ 16, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "#ITEM:97849:1#"};
-				{ 17, 98552, "", "=q3=Xan'tish's Flute", "=ds=", "#KORKRONLUMBER:150# #KORKRONOIL:150#"};
-				{ 18, 97921, "", "=q1=Bom'bay's Color-Seein' Sauce", "=ds=", "#KORKRONOIL:500#"};
-				{ 19, 98561, "", "=q1=Darkspear Battle Standard", "=ds=", "#KORKRONSTONE:10#"};
-				{ 20, 97901, "", "=q1=Griftah's Authentic Troll Shoes", "=ds=#s12#", "#KORKRONLUMBER:500#"};
-				{ 21, 98563, "", "=q1=Rainstick", "=ds=", "#KORKRONLUMBER:10#"};
-				{ 22, 97990, "", "=q1=Raptorhide Boxing Gloves", "=ds=#m2#", "#ITEM:97849:1#"};
-				{ 23, 97942, "", "=q1=Sen'jin Spirit Drum", "=ds=", "#KORKRONMEAT:500#"};
-				{ 24, 97919, "", "=q1=Whole-Body Shrinka'", "=ds=", "#KORKRONSTONE:500#"};
-			};
-			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
-				{ 2, 97725, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97727, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97722, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97724, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97728, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97726, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97723, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
-				{ 17, 97734, "", "=q4=Insubordination Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97736, "", "=q4=Insubordination Shoulderpads", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849#:1"};
-				{ 19, 97738, "", "=q4=Insubordination Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97733, "", "=q4=Insubordination Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97737, "", "=q4=Insubordination Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97735, "", "=q4=Insubordination Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97739, "", "=q4=Insubordination Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"];
-			};
-			{
-				{ 1, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Feral"].." / "..ALIL["Guardian"]};
-				{ 2, 97745, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97742, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97746, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97744, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97740, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97741, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97743, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..ALIL["Balance"].." / "..ALIL["Restoration"]};
-				{ 17, 97660, "", "=q4=Malcontent's Cowl", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849#"};
-				{ 18, 97679, "", "=q4=Malcontent's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97635, "", "=q4=Malcontent's Vest", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97652, "", "=q4=Malcontent's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97687, "", "=q4=Malcontent's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97668, "", "=q4=Malcontent's Kilt", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97644, "", "=q4=Malcontent's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"];
-			};
-			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
-				{ 2, 97659, "", "=q4=Tallgrass Guerilla's Cap", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97678, "", "=q4=Tallgrass Guerilla's Mantle", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97636, "", "=q4=Tallgrass Guerilla's Tunic", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97651, "", "=q4=Tallgrass Guerilla's Gloves", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97685, "", "=q4=Tallgrass Guerilla's Belt", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97667, "", "=q4=Tallgrass Guerilla's Pants", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97643, "", "=q4=Tallgrass Guerilla's Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
-				{ 17, 97658, "", "=q4=Dissident's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97677, "", "=q4=Dissident's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97671, "", "=q4=Dissident's Robes", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97649, "", "=q4=Dissident's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97686, "", "=q4=Dissident's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97666, "", "=q4=Dissident's Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97642, "", "=q4=Dissident's Boots", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." / "..LOCALIZED_CLASS_NAMES_MALE["MAGE"];
-			};
-			{
-				{ 1, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Windwalker"]};
-				{ 2, 97692, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97689, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97688, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97693, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97691, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97690, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97696, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Brewmaster"]};
-				{ 17, 97757, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97759, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97754, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97756, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97760, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97758, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97755, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 10, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..ALIL["Mistweaver"]};
-				{ 11, 97750, "", "=q4=Crimson Schism Headpiece", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 12, 97752, "", "=q4=Crimson Schism Pauldrons", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 13, 97747, "", "=q4=Crimson Schism Chestpiece", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 14, 97749, "", "=q4=Crimson Schism Mitts", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 26, 97753, "", "=q4=Crimson Schism Cord", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 27, 97751, "", "=q4=Crimson Schism Leggings", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 28, 97748, "", "=q4=Crimson Schism Slippers", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["MONK"];
-			};
-			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Retribution"]};
-				{ 2, 97656, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97676, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97634, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97650, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97684, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97665, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97640, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Protection"]};
-				{ 17, 97785, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97787, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97782, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97784, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97788, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97786, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97783, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 10, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Holy"]};
-				{ 11, 97776, "", "=q4=Secessionist's Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 12, 97781, "", "=q4=Secessionist's Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 13, 97777, "", "=q4=Secessionist's Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 14, 97775, "", "=q4=Secessionist's Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 26, 97779, "", "=q4=Secessionist's Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 27, 97780, "", "=q4=Secessionist's Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 28, 97778, "", "=q4=Secessionist's Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"];
-			};
-			{
-				{ 1, 0, "inv_staff_30", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="};
-				{ 2, 97657, "", "=q4=Reformationist's Crown", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97674, "", "=q4=Reformationist's Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97670, "", "=q4=Reformationist's Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97648, "", "=q4=Reformationist's Gloves", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97683, "", "=q4=Reformationist's Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97664, "", "=q4=Reformationist's Skirt", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97641, "", "=q4=Reformationist's Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
-				{ 17, 97655, "", "=q4=Disowner's Cap", "=ds=#s1#, #a2#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97675, "", "=q4=Disowner's Spaulders", "=ds=#s3#, #a2#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97633, "", "=q4=Disowner's Tunic", "=ds=#s5#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97647, "", "=q4=Disowner's Gloves", "=ds=#s9#, #a2#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97682, "", "=q4=Disowner's Belt", "=ds=#s10#, #a2#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97663, "", "=q4=Disowner's Pants", "=ds=#s11#, #a2#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97639, "", "=q4=Disowner's Boots", "=ds=#s12#, #a2#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 10, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
-				{ 11, 97653, "", "=q4=Perjurious Mask", "=ds=#s1#, #a1#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 12, 97673, "", "=q4=Perjurious Mantle", "=ds=#s3#, #a1#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 13, 97669, "", "=q4=Perjurious Robe", "=ds=#s5#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 14, 97646, "", "=q4=Perjurious Wraps", "=ds=#s9#, #a1#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 26, 97681, "", "=q4=Perjurious Belt", "=ds=#s10#, #a1#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 27, 97662, "", "=q4=Perjurious Leggings", "=ds=#s11#, #a1#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 28, 97638, "", "=q4=Perjurious Sandals", "=ds=#s12#, #a1#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." / "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"];
-			};
-			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Enhancement"]};
-				{ 2, 97774, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97769, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97771, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97773, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97770, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97768, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97772, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..ALIL["Elemental"].." / "..ALIL["Restoration"]};
-				{ 17, 97625, "", "=q4=Unbending Spirit Coif", "=ds=#s1#, #a3#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97630, "", "=q4=Unbending Spirit Pauldrons", "=ds=#s3#, #a3#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97628, "", "=q4=Unbending Spirit Vest", "=ds=#s5#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97626, "", "=q4=Unbending Spirit Gauntlets", "=ds=#s9#, #a3#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97629, "", "=q4=Unbending Spirit Cord", "=ds=#s10#, #a3#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97631, "", "=q4=Unbending Spirit Kilt", "=ds=#s11#, #a3#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97627, "", "=q4=Unbending Spirit Boots", "=ds=#s12#, #a3#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"];
-			};
-			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 2, 97654, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 3, 97672, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 4, 97632, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 5, 97645, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 6, 97680, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 7, 97661, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 8, 97637, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				{ 16, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..ALIL["Protection"]};
-				{ 17, 97764, "", "=q4=Insurrection Helm", "=ds=#s1#, #a4#", "#KORKRONMEAT:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 18, 97761, "", "=q4=Insurrection Spaulders", "=ds=#s3#, #a4#", "#KORKRONMEAT:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 19, 97766, "", "=q4=Insurrection Breastplate", "=ds=#s5#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 20, 97763, "", "=q4=Insurrection Gauntlets", "=ds=#s9#, #a4#", "#KORKRONLUMBER:100# #KORKRONOIL:100# #ITEM:97849:1#"};
-				{ 21, 97762, "", "=q4=Insurrection Belt", "=ds=#s10#, #a4#", "#KORKRONOIL:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 22, 97765, "", "=q4=Insurrection Legplates", "=ds=#s11#, #a4#", "#KORKRONLUMBER:100# #KORKRONSTONE:100# #ITEM:97849:1#"};
-				{ 23, 97767, "", "=q4=Insurrection Boots", "=ds=#s12#, #a4#", "#KORKRONLUMBER:100# #KORKRONMEAT:100# #ITEM:97849:1#"};
-				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"];
-			}
-		};
-		info = {
-			name = ALIL["Darkspear Rebellion"].." "..AL["Rewards"],
-			module = moduleName, menu = "SETMENU",
-		};
-	}--]]
 
 		---------------------
 		--- Timeless Isle ---
