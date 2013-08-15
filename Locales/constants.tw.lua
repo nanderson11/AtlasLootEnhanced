@@ -364,6 +364,7 @@ if AL then
 	AL["Tier 13 Set"] = "T13 套裝";
 	AL["Tier 14 Set"] = "T14 套裝";
 	AL["Tier 15 Set"] = "T15 套裝";
+	AL["Tier 16 Set"] = "T16 套裝";
 	AL["TCG Items"] = "卡片遊戲物品";
 	AL["Rare Mobs"] = "稀有怪物";
 	AL["Grand Marshal"] = "總元帥";
@@ -608,8 +609,9 @@ if AL then
 	AL["Accessories"] = "配件";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
+	AL["Flexible"] = "彈性";
 	AL["Raid Finder"] = "團隊搜尋器";
-	--AL["Thunderforged"] = "Thunderforged";
+	AL["Thunderforged"] = "雷霆鎔鑄";
 	AL["Pandaria World Bosses"] = "潘達利亞世界首領";
 	AL["Elite"] = "菁英";
 	AL["Vegetables"] = "蔬菜";

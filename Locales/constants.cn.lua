@@ -364,6 +364,7 @@ if AL then
 	AL["Tier 13 Set"] = "等级13套装";
 	AL["Tier 14 Set"] = "等级14套装";
 	AL["Tier 15 Set"] = "等级15套装";
+	AL["Tier 16 Set"] = "等级16套装";
 	AL["TCG Items"] = "集换式卡牌物品";
 	AL["Rare Mobs"] = "稀有怪物";
 	AL["Grand Marshal"] = "大元帅";
@@ -608,6 +609,7 @@ if AL then
 	AL["Accessories"] = "附件";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
+	AL["Flexible"] = "弹性";
 	AL["Raid Finder"] = "团队查找器";
 	AL["Thunderforged"] = "雷霆";
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
