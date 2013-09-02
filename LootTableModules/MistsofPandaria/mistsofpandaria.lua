@@ -77,7 +77,7 @@ local moduleName = "AtlasLootMoP"
 ---- BoE World Epics
 ---- Justice Points Items
 ---- Valor Points Items
----- Darkspear Rebellion
+---- Timeless Isle
 
 	------------------------
 	--- Dungeons & Raids ---
