@@ -1488,12 +1488,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingArmorMoP"] = {
 		["Normal"] = {
 			{
-				{ 1, "s142963", "98611", "=q4=Balanced Trillium Belt", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
-				{ 2, "s142967", "98615", "=q4=Balanced Trillium Waistguard", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
-				{ 3, "s142968", "98616", "=q4=Balanced Trillium Waistplate", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
-				{ 4, "s142954", "98602", "=q4=Balanced Trillium Greaves", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
-				{ 5, "s142958", "98606", "=q4=Balanced Trillium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
-				{ 6, "s142959", "98607", "=q4=Balanced Trillium Legplates", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 1, "s142968", "98616", "=q4=Avenger's Trillium Waistplate", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 2, "s142963", "98611", "=q4=Blessed Trillium Belt", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 3, "s142967", "98615", "=q4=Protector's Trillium Waistguard", "=ds=#s10#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 4, "s142959", "98607", "=q4=Avenger's Trillium Legplates", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 5, "s142954", "98602", "=q4=Blessed Trillium Greaves", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
+				{ 6, "s142958", "98606", "=q4=Protector's Trillium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 600", "=ds="..AL["Discovery"]..": "..GetSpellInfo(143255)};
 				{ 7, "s126854", "87403", "=q4=Chestplate of Limitless Faith", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..string.format(AL["Tier %d"], 14).." "..AL["Raid"]};
 				{ 8, "s126852", "87402", "=q4=Ornate Battleplate of the Master", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..string.format(AL["Tier %d"], 14).." "..AL["Raid"]};
 				{ 9, "s126850", "87405", "=q4=Unyielding Bloodplate", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..string.format(AL["Tier %d"], 14).." "..AL["Raid"]};
