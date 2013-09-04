@@ -4273,17 +4273,17 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 104903, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#" },
 			};
 			{
-				{ 1, 105672, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
-				{ 2, 105679, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
-				{ 3, 105678, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
-				{ 4, 105673, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
-				{ 5, 105671, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
-				{ 6, 105677, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
-				{ 7, 105670, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
-				{ 8, 105675, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
-				{ 9, 105674, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
-				{ 10, 105680, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
-				{ 11, 105676, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
+				{ 1, 105672, "", "=q7=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 105679, "", "=q7=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 105678, "", "=q7=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 105673, "", "=q7=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 105671, "", "=q7=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 105677, "", "=q7=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 105670, "", "=q7=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 105675, "", "=q7=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 105674, "", "=q7=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 105680, "", "=q7=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 105676, "", "=q7=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
@@ -4312,17 +4312,17 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 103920, "", "=q4=Revelations of Y'Shaarj", "=ds=#s15#", tf=105401 },
 			};
 			{
-				{ 1, 104404, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
-				{ 2, 104405, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
-				{ 3, 104401, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
-				{ 4, 104403, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
-				{ 5, 104400, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
-				{ 6, 104406, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
-				{ 7, 104399, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
-				{ 8, 104402, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
-				{ 9, 104409, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
-				{ 10, 104407, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
-				{ 11, 104408, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
+				{ 1, 104404, "", "=q7=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 104405, "", "=q7=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 104401, "", "=q7=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 104403, "", "=q7=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 104400, "", "=q7=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 104406, "", "=q7=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 104399, "", "=q7=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 104402, "", "=q7=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 104409, "", "=q7=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 104407, "", "=q7=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 104408, "", "=q7=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
@@ -4352,17 +4352,17 @@ local moduleName = "AtlasLootMoP"
 				{ 26, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#" },
 			};
 			{
-				{ 1, 105685, "", "=q4=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
-				{ 2, 105692, "", "=q4=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
-				{ 3, 105691, "", "=q4=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
-				{ 4, 105686, "", "=q4=Hellscream's Pig Sticker", "=ds=#w7#" },
-				{ 5, 105684, "", "=q4=Hellscream's Razor", "=ds=#h1#, #w4#" },
-				{ 6, 105690, "", "=q4=Hellscream's War Staff", "=ds=#w9#" },
-				{ 7, 105683, "", "=q4=Hellscream's Warbow", "=ds=#w2#" },
-				{ 8, 105688, "", "=q4=Hellscream's Warmace", "=ds=#h1#, #w6#" },
-				{ 9, 105687, "", "=q4=Hellscream's Barrier", "=ds=#w8#" },
-				{ 10, 105693, "", "=q4=Hellscream's Shield Wall", "=ds=#w8#" },
-				{ 11, 105689, "", "=q4=Hellscream's Tome of Destruction", "=ds=#s15#" },
+				{ 1, 105685, "", "=q7=Hellscream's Cleaver", "=ds=#h1#, #w1#" },
+				{ 2, 105692, "", "=q7=Hellscream's Decapitator", "=ds=#h2#, #w1#" },
+				{ 3, 105691, "", "=q7=Hellscream's Doomblade", "=ds=#h1#, #w10#" },
+				{ 4, 105686, "", "=q7=Hellscream's Pig Sticker", "=ds=#w7#" },
+				{ 5, 105684, "", "=q7=Hellscream's Razor", "=ds=#h1#, #w4#" },
+				{ 6, 105690, "", "=q7=Hellscream's War Staff", "=ds=#w9#" },
+				{ 7, 105683, "", "=q7=Hellscream's Warbow", "=ds=#w2#" },
+				{ 8, 105688, "", "=q7=Hellscream's Warmace", "=ds=#h1#, #w6#" },
+				{ 9, 105687, "", "=q7=Hellscream's Barrier", "=ds=#w8#" },
+				{ 10, 105693, "", "=q7=Hellscream's Shield Wall", "=ds=#w8#" },
+				{ 11, 105689, "", "=q7=Hellscream's Tome of Destruction", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -13777,28 +13777,25 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 95106, "", "=q4=Flameweaver Handwraps", "=ds=#s9#, #a1#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 5, 95090, "", "=q4=Firestrike Cord", "=ds=#s10#, #a1#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95123, "", "=q4=Charfire Leggings", "=ds=#s11#, #a1#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
+				{ 9, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 10, 95133, "", "=q4=Willow-Weave Armbands", "=ds=#s8#, #a2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 11, 95108, "", "=q4=Daggerfinger Clutches", "=ds=#s9#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 12, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 13, 95125, "", "=q4=Legguards of Hidden Knives", "=ds=#s11#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
 				{ 17, 95082, "", "=q4=Robes of Misty Bindings", "=ds=#s5#, #a1#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 18, 95135, "", "=q4=Bracers of Shielding Thought", "=ds=#s8#, #a1#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 19, 95105, "", "=q4=Ghostbinder Grips", "=ds=#s9#, #a1#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 20, 95091, "", "=q4=Girdle of Glowing Light", "=ds=#s10#, #a1#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 21, 95122, "", "=q4=Wisp-Weave Pantaloons", "=ds=#s11#, #a1#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				extraText = ": "..BabbleInventory["Cloth"];
-			};
-			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
-				{ 2, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 3, 95133, "", "=q4=Willow-Weave Armbands", "=ds=#s8#, #a2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 4, 95108, "", "=q4=Daggerfinger Clutches", "=ds=#s9#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 5, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 6, 95125, "", "=q4=Legguards of Hidden Knives", "=ds=#s11#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
-				{ 17, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 18, 95134, "", "=q4=Hearthfire Armwraps", "=ds=#s8#, #a2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 19, 95107, "", "=q4=Gloves of Enduring Renewal", "=ds=#s9#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 20, 95089, "", "=q4=Martiean's Splitleaf Girdle", "=ds=#s10#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 21, 95124, "", "=q4=Trousers of Waning Shadow", "=ds=#s11#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				extraText = ": "..BabbleInventory["Leather"];
+				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
+				{ 24, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 25, 95134, "", "=q4=Hearthfire Armwraps", "=ds=#s8#, #a2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 26, 95107, "", "=q4=Gloves of Enduring Renewal", "=ds=#s9#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 27, 95089, "", "=q4=Martiean's Splitleaf Girdle", "=ds=#s10#, #a2#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 28, 95124, "", "=q4=Trousers of Waning Shadow", "=ds=#s11#, #a2#", "#VALOR:1485#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				extraText = ": "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
@@ -13843,28 +13840,25 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 95115, "", "=q4=Many-Layered Scalecloak", "=ds=#s4#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 5, 95117, "", "=q4=Shadowspike Cloak", "=ds=#s4#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
 				{ 6, 95114, "", "=q4=Spikeshard Greatcloak", "=ds=#s4#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 8, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
+				{ 9, 95146, "", "=q4=Destroyer's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
+				{ 10, 95143, "", "=q4=Flanker's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
+				{ 11, 95145, "", "=q4=Mender's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
+				{ 12, 95142, "", "=q4=Striker's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
+				{ 13, 95144, "", "=q4=Vanguard's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
-				{ 17, 95146, "", "=q4=Destroyer's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 18, 95143, "", "=q4=Flanker's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 19, 95145, "", "=q4=Mender's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 20, 95142, "", "=q4=Striker's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				{ 21, 95144, "", "=q4=Vanguard's Battletags", "=ds=#s2#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Neutral"] },
-				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Back"].." / "..BabbleInventory["Neck"];
-			};
-			{
-				{ 1, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
-				{ 2, 95140, "", "=q4=Band of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 3, 95141, "", "=q4=Loop of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 4, 95139, "", "=q4=Ring of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 5, 95137, "", "=q4=Seal of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 6, 95138, "", "=q4=Signet of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 16, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
-				{ 17, 94508, "", "=q4=Brutal Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 18, 94509, "", "=q4=Soothing Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 19, 94507, "", "=q4=Steadfast Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 20, 94511, "", "=q4=Vicious Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				{ 21, 94510, "", "=q4=Volatile Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
-				extraText = ": "..AL["Accessories"]..": "..BabbleInventory["Ring"].." / "..BabbleInventory["Trinket"];
+				{ 17, 95140, "", "=q4=Band of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 18, 95141, "", "=q4=Loop of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 19, 95139, "", "=q4=Ring of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 20, 95137, "", "=q4=Seal of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 21, 95138, "", "=q4=Signet of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:825#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 23, 0, "pvecurrency-valor", "=ds="..string.format(AL["ilvl %d"], 522), ""};
+				{ 24, 94508, "", "=q4=Brutal Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 25, 94509, "", "=q4=Soothing Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 26, 94507, "", "=q4=Steadfast Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 27, 94511, "", "=q4=Vicious Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				{ 28, 94510, "", "=q4=Volatile Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1155#"..ALIL["Shado-Pan Assault"].." - "..AL["Friendly"] },
+				extraText = ": "..AL["Accessories"];
 			};
 		};
 		info = {

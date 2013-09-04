@@ -7,10 +7,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v7.07.00 (?? ??, 2013)
 Compatible with Patch 5.4.
+Compatible with Atlas 1.26.00.
 Added Tier 16 Raid Set.
 Added PvP Season 14 Set.
 Added loot for Siege of Orgrimmar.
-***new 5.4 stuff***
+Added Timeless Isle Rewards.
+Minor fixes, additions and translations.
 
 v7.06.00 (May 22, 2013)
 Compatible with Patch 5.3.
