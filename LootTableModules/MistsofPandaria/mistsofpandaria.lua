@@ -2646,6 +2646,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 105763, "", "=q4=Penate's Perilous Pendant", "=ds=#s2#" },
 				{ 19, 105764, "", "=q4=Rising New Moon Talisman", "=ds=#s2#" },
 				{ 20, 105762, "", "=q4=Smoldering Eye", "=ds=#s2#" },
+				{ 22, 104273, "", "=q4=Flame-Scarred Cache of Offerings", "=ds=#m20#" },
 			}
 		};
 		info = {
@@ -12276,6 +12277,8 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=500 #gold#"};
 				{ 24, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=1,500 #gold#"};
 				{ 25, 89306, "", "=q4=Reins of the Red Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=2,500 #gold#"};
+				{ 27, 0, "INV_Box_01", "=q6="..ALIL["Emperor Shaohao"].." #j30#"};
+				{ 28, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..ALIL["The Tillers"].." #j30#"};
@@ -12349,6 +12352,8 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26# =ec1=#m6#"};
 				{ 22, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26# =ec1=#m6#"};
 				{ 23, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m6#"};
+				{ 27, 0, "INV_Box_01", "=q6="..ALIL["Timeless Isle"], ""};
+				{ 28, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
 			};
 		};
 		info = {
@@ -12384,10 +12389,11 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 94291, "", "=q4=Reins of the Red Primal Raptor", "=q1="..ALIL["Isle of Giants"]};
 				{ 24, 94229, "", "=q4=Reins of the Slate Primordial Direhorn", "=q2="..BabbleRare["Zandalari Warbringer"]..", =q1="..ALIL["Pandaria"]};
 				{ 25, 95057, "", "=q4=Reins of the Thundering Cobalt Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Nalak, The Storm Lord", 814)..", =q1="..ALIL["Isle of Thunder"], ""},
-				{ 26, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..ALIL["Vale of Eternal Blossoms"]};
-				{ 27, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..ALIL["The Storm Peaks"]};
-				{ 28, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..ALIL["Valley of the Four Winds"], ""};
-				{ 29, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 26, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
+				{ 27, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..ALIL["Vale of Eternal Blossoms"]};
+				{ 28, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..ALIL["The Storm Peaks"]};
+				{ 29, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..ALIL["Valley of the Four Winds"], ""};
+				{ 30, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
@@ -12405,26 +12411,27 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
 				{ 5, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..AtlasLoot:EJ_GetBossName("Alysrazor", 194)..", =q1="..ALIL["Firelands"]},
 				{ 6, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#"};
-				{ 7, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..ALIL["Dragon Soul"]},
-				{ 8, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..ALIL["Ulduar"], "", ""};
-				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..ALIL["Mogu'shan Vaults"], ""};
-				{ 10, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..ALIL["The Obsidian Sanctum"], "100%"};
-				{ 11, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..ALIL["Dragon Soul"]},
-				{ 12, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..ALIL["The Obsidian Sanctum"], "100%"};
-				{ 13, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..ALIL["The Eye of Eternity"], ""};
-				{ 14, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..ALIL["The Eye of Eternity"], ""};
-				{ 15, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..AtlasLoot:EJ_GetBossName("Al'Akir", 155)..", =q1="..ALIL["Throne of the Four Winds"]};
+				{ 7, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] },
+				{ 8, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..ALIL["Dragon Soul"]},
+				{ 9, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..ALIL["Ulduar"], "", ""};
+				{ 10, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..ALIL["Mogu'shan Vaults"], ""};
+				{ 11, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..ALIL["The Obsidian Sanctum"], "100%"};
+				{ 12, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..ALIL["Dragon Soul"]},
+				{ 13, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..ALIL["The Obsidian Sanctum"], "100%"};
+				{ 14, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..ALIL["The Eye of Eternity"], ""};
+				{ 15, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..ALIL["The Eye of Eternity"], ""};
+				{ 16, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..AtlasLoot:EJ_GetBossName("Al'Akir", 155)..", =q1="..ALIL["Throne of the Four Winds"]};
 				{
-					{ 16, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..ALIL["Vault of Archavon"]..", =ec1=#m6#", "", ""};
-					{ 16, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..ALIL["Vault of Archavon"]..", =ec1=#m7#", "", ""};
+					{ 17, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..ALIL["Vault of Archavon"]..", =ec1=#m6#", "", ""};
+					{ 17, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..ALIL["Vault of Archavon"]..", =ec1=#m7#", "", ""};
 				};
-				{ 17, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..ALIL["Onyxia's Lair"], ""};
-				{ 18, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..ALIL["Firelands"]},
-				{ 19, 93666, "", "=q4=Spawn of Horridon", "=q2="..AtlasLoot:EJ_GetBossName("Horridon", 819)..", =q1="..ALIL["Throne of Thunder"]};
-				{ 21, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 22, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 23, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 24, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "12.64%"};
+				{ 18, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..ALIL["Onyxia's Lair"], ""};
+				{ 19, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..ALIL["Firelands"]},
+				{ 20, 93666, "", "=q4=Spawn of Horridon", "=q2="..AtlasLoot:EJ_GetBossName("Horridon", 819)..", =q1="..ALIL["Throne of Thunder"]};
+				{ 22, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 23, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 24, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 25, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..ALIL["Temple of Ahn'Qiraj"], "", "12.64%"};
 			};
 		};
 		info = {
@@ -12444,22 +12451,25 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
 				{ 7, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
 				{ 8, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP"], ""};
-				{ 11, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
-				{ 12, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
-				{ 13, 70909, "", "=q4=Dreadful War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"};
-				{ 14, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
+				{ 11, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
+				{ 12, 89785, "", "=q4=Pandaren Kite String", "#ACHIEVEMENTID:6828#"};
+				{ 13, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
+				{ 14, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
+				{ 15, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Raid"], ""};
 				{ 17, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" };
-				{ 18, 93662, "", "=q4=Reins of the Armored Skyscreamer", "#ACHIEVEMENTID:8124#"};
-				{ 19, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 20, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 21, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 22, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
-				{ 23, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 24, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 25, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 26, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
+				{ 18, 104208, "", "=q4=Reins of Galakras", "#ACHIEVEMENTID:8454#"};
+				{ 19, 93662, "", "=q4=Reins of the Armored Skyscreamer", "#ACHIEVEMENTID:8124#"};
+				{ 20, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 21, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 22, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 23, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
+				{ 24, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 25, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 26, 104246, "", "=q4=Reins of the Kor'kron War Wolf", "#ACHIEVEMENTID:8398#"};
+				{ 27, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 28, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Mount Collecting"], ""};
@@ -12472,12 +12482,13 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 6, 98259, "", "=q4=Armored Blue Dragonhawk", "#ACHIEVEMENTID:8304#, =ec1=#m7#"};
 				{ 7, 98104, "", "=q4=Armored Red Dragonhawk", "#ACHIEVEMENTID:8302#, =ec1=#m6#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
-				{ 17, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
-				{ 18, 89785, "", "=q4=Pandaren Kite String", "#ACHIEVEMENTID:6828#"};
-				{ 19, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
-				{ 20, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
-				{ 21, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP"], ""};
+				{ 17, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
+				{ 18, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+				{ 19, 70909, "", "=q4=Reins of the Vicious War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"};
+				{ 20, 70910, "", "=q4=Horn of the Vicious War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"};
+				{ 21, 102514, "", "=q4=Reins of the Vicious Warsaber", "#ACHIEVEMENTID:8485#, =ec1=#m7#"};
+				{ 22, 102533, "", "=q4=Reins of the Vicious Skeletal Warhorse", "#ACHIEVEMENTID:8484#, =ec1=#m6#"};
 			};
 		};
 		info = {
@@ -12490,23 +12501,24 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
-				{ 2, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
-				{ 3, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e27# =q2=#p12#"};
-				{ 4, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
-				{ 5, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
-				{ 6, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
-				{ 7, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 8, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
-				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
-				{ 11, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
-				{ 12, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
-				{ 13, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
-				{ 14, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
-				{ 17, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
-				{ 18, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
-				{ 19, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 20, 34060, "", "=q3=Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 2, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
+				{ 3, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
+				{ 4, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
+				{ 5, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
+				{ 6, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
+				{ 7, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 8, 95416, "", "=q4=Sky Golem", "=ds=#e27# =q2=#p5#" };
+				{ 9, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e27# =q2=#p12#"};
+				{ 10, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 11, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 12, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
+				{ 13, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
+				{ 14, 34060, "", "=q3=Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 16, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
+				{ 17, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
+				{ 18, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
+				{ 19, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
+				{ 20, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
 				{ 22, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{ 23, 93385, "", "=q4=Grand Gryphon", "=ds=#e27#, =ec1=#m7#", "=q1=#m4#: #QUESTID:32455#"};
 				{ 24, 93386, "", "=q4=Grand Wyvern", "=ds=#e27#, =ec1=#m6#", "=q1=#m4#: #QUESTID:32399#"};
@@ -12644,19 +12656,22 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#, =ec1=#m6#"};
 				{ 11, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
 				{ 12, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
-				{ 17, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#"};
-				{ 18, 34092, "", "=q4=Merciless Nether Drake", "#ACHIEVEMENTID:887#"};
-				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "#ACHIEVEMENTID:888#"};
-				{ 20, 43516, "", "=q4=Brutal Nether Drake", "#ACHIEVEMENTID:2316#"};
-				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3096#"};
-				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3756#"};
-				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3757#"};
-				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
-				{ 25, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
-				{ 26, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "#ACHIEVEMENTID:6322#"};
-				{ 27, 85785, "", "=q4=Cataclysmic Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
-				{ 28, 95041, "", "=q4=Malevolent Gladiator's Cloud Serpent", "#ACHIEVEMENTID:8216#"};
+				{ 14, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 15, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#"};
+				{ 16, 34092, "", "=q4=Merciless Nether Drake", "#ACHIEVEMENTID:887#"};
+				{ 17, 37676, "", "=q4=Vengeful Nether Drake", "#ACHIEVEMENTID:888#"};
+				{ 18, 43516, "", "=q4=Brutal Nether Drake", "#ACHIEVEMENTID:2316#"};
+				{ 19, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3096#"};
+				{ 20, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3756#"};
+				{ 21, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3757#"};
+				{ 22, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
+				{ 23, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
+				{ 24, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "#ACHIEVEMENTID:6322#"};
+				{ 25, 85785, "", "=q4=Cataclysmic Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
+				{ 26, 95041, "", "=q4=Malevolent Gladiator's Cloud Serpent", "#ACHIEVEMENTID:8216#"};
+				{ 27, 104325, "", "=q4=Tyrannical Gladiator's Cloud Serpent", "#ACHIEVEMENTID:8678#"};
+				{ 28, 104326, "", "=q4=Grievous Gladiator's Cloud Serpent", "#ACHIEVEMENTID:8705#"};
+				{ 29, 104327, "", "=q4=Prideful Gladiator's Cloud Serpent", "=ds=#e27#", "#ACHIEVEMENTID:8707#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
@@ -12692,21 +12707,32 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MountsNEW"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..ALIL["Bizmo's Brawlpub"].." / "..ALIL["Brawl'gar Arena"], ""};
-				{ 2, 98405, "", "=q4=Brawler's Burly Mushan Beast", "=ds=#e26#", string.format(AL["Rank %d"], 10)..", 1500 #gold#" },
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"]};
-				{
-					{ 5, 98104, "", "=q4=Armored Red Dragonhawk", "#ACHIEVEMENTID:8302#, =ec1=#m6#"};
-					{ 5, 98259, "", "=q4=Armored Blue Dragonhawk", "#ACHIEVEMENTID:8304#, =ec1=#m7#"};
-				};
-				{ 7, 0, "INV_Box_01", "=q6="..AL["Promotional"], ""};
-				{ 8, 98618, "", "=q4=Hearthsteed", "#ACHIEVEMENTID:8345#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
-				{ 17, 97989, "", "=q4=Enchanted Fey Dragon", "=ds=#e27#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
+				{ 2, 104208, "", "=q4=Reins of Galakras", "=ds=#e27#", "#ACHIEVEMENTID:8454#"};
+				{ 3, 104246, "", "=q4=Reins of the Kor'kron War Wolf", "=ds=#e26#", "#ACHIEVEMENTID:8398#"};
+				{ 4, 102533, "", "=q4=Reins of the Vicious Skeletal Warhorse", "#ACHIEVEMENTID:8484#, =ec1=#m6#"};
+				{ 5, 102514, "", "=q4=Reins of the Vicious Warsaber", "#ACHIEVEMENTID:8485#, =ec1=#m7#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 8, 104326, "", "=q4=Grievous Gladiator's Cloud Serpent", "=ds=#e27#", "#ACHIEVEMENTID:8705#"};
+				{ 9, 104327, "", "=q4=Prideful Gladiator's Cloud Serpent", "=ds=#e27#", "#ACHIEVEMENTID:8707#"};
+				{ 10, 104325, "", "=q4=Tyrannical Gladiator's Cloud Serpent", "=ds=#e27#", "#ACHIEVEMENTID:8678#"};
+				{ 12, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
+				{ 13, 95416, "", "=q4=Sky Golem", "=ds=#e27#", "=ds=#p5#" };
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Neutral Faction Mounts"], ""};
+				{ 17, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
+				{ 20, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 23, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
+				{ 24, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
+				{ 27, 103630, "", "=q4=Lucky Riding Turtle", "=ds=#e26#" };
+				{ 28, 104011, "", "=q4=Stormcrow", "=ds=" };
+
 			};
 		};
 		info = {
-			name = AL["New Mounts"].." - Patch 5.3",
+			name = AL["New Mounts"].." - Patch 5.4",
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
@@ -13883,7 +13909,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 103982, "", "=q4=Burden of Eternity", "=ds=", "#TIMELESSCOIN:50000#"};
 				{ 11, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
 				{ 12, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
-				{ 14, 102467, "", "=q3=Censer of Eternal Agony", "=ds=", "#TIMELESSCOIN:2500#"};
+				{ 14, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=", "#VALOR:500#"};
 				{ 16, 105921, "", "=q4=Cloudscorcher Greatstaff", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
 				{ 17, 105923, "", "=q4=Contemplation of Shaohao", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
 				{ 18, 105927, "", "=q4=Featherdraw Longbow", "=ds=#w2#", "#TIMELESSCOIN:20000#"};
@@ -13902,11 +13928,11 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=", "#TIMELESSCOIN:2500#"};
 				{ 2, 101538, "", "=q3=Kukuru's Cache Key", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 3, 103683, "", "=q3=Mask of Anger", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 4, 103681, "", "=q3=Mask of Doubt", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 5, 103679, "", "=q3=Mask of Fear", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 6, 103680, "", "=q3=Mask of Hatred", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 7, 103682, "", "=q3=Mask of Violence", "=ds=", "#TIMELESSCOIN:500#"};
+				{ 3, 103683, "", "=q3=Mask of Anger", "=ds=", "#TIMELESSCOIN:100#"};
+				{ 4, 103681, "", "=q3=Mask of Doubt", "=ds=", "#TIMELESSCOIN:100#"};
+				{ 5, 103679, "", "=q3=Mask of Fear", "=ds=", "#TIMELESSCOIN:100#"};
+				{ 6, 103680, "", "=q3=Mask of Hatred", "=ds=", "#TIMELESSCOIN:100#"};
+				{ 7, 103682, "", "=q3=Mask of Violence", "=ds=", "#TIMELESSCOIN:100#"};
 				{ 8, 103684, "", "=q3=Scroll of Challenge", "=ds=", "#TIMELESSCOIN:500#"};
 				{ 9, 103786, "", "=q2=\"Dapper Gentleman\" Costume", "=ds=", "#TIMELESSCOIN:500#"};
 				{ 10, 103795, "", "=q2=\"Dread Pirate\" Costume", "=ds=", "#TIMELESSCOIN:500#"};
@@ -13914,15 +13940,16 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 103797, "", "=q2=Big Pink Bow", "=ds=", "#TIMELESSCOIN:500#"};
 				{ 13, 71153, "", "=q2=Magical Pet Biscuit", "=ds=", "#TIMELESSCOIN:500#"};
 				{ 14, 103977, "", "=q1=Time-Worn Journal", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 16, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
-				{ 17, 103639, "", "=q4=Pouch of White Ash", "=ds=#s14#", "#BLOODYCOIN:20#"};
-				{ 18, 103637, "", "=q3=Vengeful Porcupette", "=ds=#e13#", "#BLOODYCOIN:100#"};
-				{ 19, 102463, "", "=q3=Fire-Watcher's Oath", "=ds=", "#BLOODYCOIN:50#"};
-				{ 20, 102464, "", "=q2=Black Ash", "=ds=", "#BLOODYCOIN:1#"};
+				{ 16, 102467, "", "=q3=Censer of Eternal Agony", "=ds=", "#TIMELESSCOIN:2500#"};
+				{ 18, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
+				{ 19, 103639, "", "=q4=Pouch of White Ash", "=ds=#s14#", "#BLOODYCOIN:20#"};
+				{ 20, 103637, "", "=q3=Vengeful Porcupette", "=ds=#e13#", "#BLOODYCOIN:100#"};
+				{ 21, 102463, "", "=q3=Fire-Watcher's Oath", "=ds=", "#BLOODYCOIN:50#"};
+				{ 22, 102464, "", "=q2=Black Ash", "=ds=", "#BLOODYCOIN:1#"};
 			};
 		};
 		info = {
-			name = ALIL["Timeless Isle"].." "..AL["Rewards"],
+			name = ALIL["Timeless Isle"].." - "..AL["Rewards"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}

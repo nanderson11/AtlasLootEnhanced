@@ -134,6 +134,9 @@ AtlasLoot_IngameLocales = {
 	["Spirit of Warlord Teng"] = GetAchievementCriteriaInfo(8101,1),
 	["Windweaver Akil'amon"] = GetAchievementCriteriaInfo(8101,7),
 
+	--- Mists of Pandaria - Timeless Isle: Timeless Champion
+	["Huolon"] = GetAchievementCriteriaInfo(8714,27),
+
 	--- Other Rares
 	["Darkmoon Rabbit"] = GetItemInfo(80008),
 
@@ -251,6 +254,7 @@ AtlasLoot_IngameLocales = {
 	["Brawl'gar Arena"] = GetFactionInfoByID(1374),
 	["Darkspear Rebellion"] = GetFactionInfoByID(1440),
 	["Dominance Offensive"] = GetFactionInfoByID(1375),
+	["Emperor Shaohao"] = GetFactionInfoByID(1492),
 	["Golden Lotus"] = GetFactionInfoByID(1269),
 	["Huojin Pandaren"] = GetFactionInfoByID(1352),
 	["Nat Pagle"] = GetFactionInfoByID(1358),

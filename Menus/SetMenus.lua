@@ -9,11 +9,11 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
-				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..ALIL["Spirit of Harmony"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 4, "TimelessIsle", "spell_mage_altertime", "=ds="..ALIL["Timless Isle"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 5, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..ALIL["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." - "..AL["Rewards"], ""};
+				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..ALIL["Spirit of Harmony"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 4, "TimelessIsle", "spell_mage_altertime", "=ds="..ALIL["Timless Isle"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 5, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..ALIL["Molten Front"].." - "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 8, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 9, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 10, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
@@ -48,13 +48,14 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 2, "ValorPointsMoP", "inv_helmet_cloth_reputation_c_01", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "ValorPointsMoP#2", "inv_helm_mail_reputation_c_01", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "ValorPointsMoP#4", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"], ""};
+				{ 7, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=", "#VALOR:500#"};
 				{ 17, "ValorPointsMoP", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "ValorPointsMoP#3", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
-				{ 20, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
+				{ 22, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
 			};
 		};
 		info = {
-			name = AL["Valor Points"].." "..AL["Rewards"],
+			name = AL["Valor Points"].." - "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}
@@ -74,7 +75,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Justice Points"].." - "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}
@@ -99,7 +100,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Justice Points"].." - "..AL["Rewards"],
 			menu = "JUSTICEPOINTSMENU",
 		};
 	}
@@ -122,7 +123,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Justice Points"].." - "..AL["Rewards"],
 			menu = "JUSTICEPOINTSMENU",
 		};
 	}
@@ -142,7 +143,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Justice Points"].." - "..AL["Rewards"],
 			menu = "JUSTICEPOINTSMENU",
 		};
 	}
@@ -172,7 +173,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 			};
 		};
 		info = {
-			name = ALIL["Spirit of Harmony"].." "..AL["Rewards"],
+			name = ALIL["Spirit of Harmony"].." - "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}
@@ -208,7 +209,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 10, "MountsCraftQuest", "ability_mount_gyrocoptorelite", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted Mounts"], ""};
 				{ 11, "MountsEvent", "achievement_halloween_witch_01", "=ds="..AL["World Events"], ""};
 				{ 12, "MountsPromotional", "inv_misc_reforgedarchstone_01", "=ds="..AL["Promotional Mounts"], ""};
-				{ 13, "MountsNEW", "inv_pandarenserpentmount_green", "=ds="..AL["New Mounts"], "=q5=Patch 5.3"};
+				{ 13, "MountsNEW", "ability_mount_shreddermount", "=ds="..AL["New Mounts"], "=q5=Patch 5.4"};
 				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..ALIL["Orgrimmar"].." / "..ALIL["Silvermoon City"], "=ec1="..FACTION_HORDE};
 				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..ALIL["Darkspear Trolls"].." / "..ALIL["Thunder Bluff"].." / "..ALIL["Undercity"], "=ec1="..FACTION_HORDE};
 				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..ALIL["Huojin Pandaren"].." / "..ALIL["Bilgewater Cartel"], "=ec1="..FACTION_HORDE};
@@ -1018,6 +1019,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 20, "AugustCelestialsWorldBosses#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 				{ 21, "AugustCelestialsWorldBosses#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 				{ 24, "AugustCelestialsWorldBosses#9", "inv_boots_mail_pvphunter_g_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
+				{ 27, 104272, "", "=q4=Celestial Treasure Box", "=ds=#m20#"  },
 			};
 		};
 		info = {

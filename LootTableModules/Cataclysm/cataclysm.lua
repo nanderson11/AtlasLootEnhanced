@@ -6690,7 +6690,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = ALIL["Molten Front"].." "..AL["Rewards"],
+			name = ALIL["Molten Front"].." - "..AL["Rewards"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}
