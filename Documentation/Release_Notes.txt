@@ -12,6 +12,7 @@ Added Tier 16 Raid Set.
 Added PvP Season 14 Set.
 Added loot for Siege of Orgrimmar.
 Added Timeless Isle Rewards.
+Added new faction - Emperor Shaohao.
 Updated Mount & Companion menus.
 Minor fixes, additions and translations.
 

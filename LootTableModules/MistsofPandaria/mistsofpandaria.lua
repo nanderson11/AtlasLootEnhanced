@@ -46,6 +46,7 @@ local moduleName = "AtlasLootMoP"
 ---- Bizmo's Brawlpub / Brawl'gar Arena
 ---- Dominance Offensive
 ---- Golden Lotus
+---- Emperor Shaohao
 ---- Kirin Tor Offensive
 ---- The Klaxxi
 ---- The Lorewalkers
@@ -6634,6 +6635,36 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+		-----------------------
+		--- Emperor Shaohao ---
+		-----------------------
+
+	AtlasLoot_Data["EmperorShaohao"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_monk_quipunch", "=q6=#r2#", ""};
+				{ 2, 103683, "", "=q3=Mask of Anger", "=ds=#m20#"};
+				{ 3, 103681, "", "=q3=Mask of Doubt", "=ds=#m20#"};
+				{ 4, 103679, "", "=q3=Mask of Fear", "=ds=#m20#"};
+				{ 5, 103680, "", "=q3=Mask of Hatred", "=ds=#m20#"};
+				{ 6, 103682, "", "=q3=Mask of Violence", "=ds=#m20#"};
+				{ 8, 0, "ability_monk_quipunch", "=q6=#r3#", ""};
+				{ 9, 104013, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
+				{ 10, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
+				{ 11, 103684, "", "=q3=Scroll of Challenge", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 16, 0, "ability_monk_quipunch", "=q6=#r4#", ""};
+				{ 17, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=#m20#"};
+				{ 18, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
+				{ 20, 0, "ability_monk_quipunch", "=q6=#r5#", ""};
+				{ 21, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e12#", "#TIMELESSCOIN:100000#"};
+			};
+		};
+		info = {
+			name = ALIL["Emperor Shaohao"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 		---------------------------
 		--- Kirin Tor Offensive ---
 		---------------------------
@@ -11623,7 +11654,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsFaction"] = {
 		["Normal"] = {
 			{
-				{ 2, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#"..ALIL["Emperor Shaohao"]};
+				{ 2, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#=q2="..ALIL["Emperor Shaohao"]};
 				{ 3, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#", "=ds="..ALIL["Sha'tari Skyguard"]};
 				{ 4, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#", "=ds="..ALIL["The Kalu'ak"]};
 				{ 5, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..ALIL["Sho"].." - "..AL["Best Friend"]};
