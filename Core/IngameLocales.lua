@@ -134,8 +134,23 @@ AtlasLoot_IngameLocales = {
 	["Spirit of Warlord Teng"] = GetAchievementCriteriaInfo(8101,1),
 	["Windweaver Akil'amon"] = GetAchievementCriteriaInfo(8101,7),
 
+	--- Mists of Pandaria - Timeless Isle: Eyes On The Ground
+	["Crane Nest"] = GetAchievementCriteriaInfo(8725,3),
+
+	--- Mists of Pandaria - Timeless Isle: Killing Time
+	["Foreboding Flame"] = GetAchievementCriteriaInfo(8712,13),
+	["Jademist Dancer"] = GetAchievementCriteriaInfo(8712,14),
+
 	--- Mists of Pandaria - Timeless Isle: Timeless Champion
+	["Bufo"] = GetAchievementCriteriaInfo(8714,14),
+	["Garnia"] = GetAchievementCriteriaInfo(8714,15),
+	["Gu'chi the Swarmbringer"] = GetAchievementCriteriaInfo(8714,4),
 	["Huolon"] = GetAchievementCriteriaInfo(8714,27),
+	["Imperial Python"] = GetAchievementCriteriaInfo(8714,18),
+	["Leafmender"] = GetAchievementCriteriaInfo(8714,13),
+	["Monstrous Spineclaw"] = GetAchievementCriteriaInfo(8714,17),
+	["Spirit of Jadefire"] = GetAchievementCriteriaInfo(8714,12),
+	["Zhu-Gon the Sour"] = GetAchievementCriteriaInfo(8714,6),
 
 	--- Other Rares
 	["Darkmoon Rabbit"] = GetItemInfo(80008),

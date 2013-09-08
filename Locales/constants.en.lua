@@ -1039,8 +1039,10 @@ if AL then
 	AL["Auntie Stormstout"] = true;
 	AL["Luo Luo"] = true;
 	AL["Meng Meng"] = true;
+	AL["Moonfang"] = true;
 	AL["Ongrom Black Tooth"] = true;
 	AL["Proveditor Grantley"] = true;
+	AL["Scary Sprite"] = true;
 	--- World Events
 	AL["Crimson Templar"] = true;  --- mob removed from game?
 	AL["Azure Templar"] = true;  --- mob removed from game?
@@ -1100,6 +1102,7 @@ if AL then
 	AL["Overcharged Manacell"] = true; --- If still in game, should be used in IngameLocales
 	AL["Shellfish Trap"] = true;
 	AL["Fishing Pools"] = true;
+	AL["Timeless Chest"] = true;
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = true;

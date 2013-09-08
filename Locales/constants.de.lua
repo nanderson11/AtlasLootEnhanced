@@ -1036,8 +1036,10 @@ if AL then
 	AL["Auntie Stormstout"] = "Tantchen Sturmbräu";
 	-- AL["Luo Luo"] = true;
 	-- AL["Meng Meng"] = true;
+	AL["Moonfang"] = "Mondfang";
 	AL["Ongrom Black Tooth"] = "Ongrom Schwarzzahn";
 	AL["Proveditor Grantley"] = "Administrator Grantley";
+	AL["Scary Sprite"] = "Schauriger Geist";
 	--- World Events
 	AL["Crimson Templar"] = "Purpurroter Templer";
 	AL["Azure Templar"] = "Azurblauer Templer";
@@ -1097,6 +1099,7 @@ if AL then
 	AL["Overcharged Manacell"] = "Überladene Manazelle";
 	AL["Shellfish Trap"] = "Schalentierfalle";
 	AL["Fishing Pools"] = "Fischschwärme";
+	AL["Timeless Chest"] = "Zeitlose Truhe";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Jahrespass";

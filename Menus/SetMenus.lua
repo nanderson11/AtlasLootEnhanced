@@ -12,7 +12,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." - "..AL["Rewards"], ""};
 				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..ALIL["Spirit of Harmony"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 4, "TimelessIsle", "spell_mage_altertime", "=ds="..ALIL["Timless Isle"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 4, "TimelessIsle", "spell_mage_altertime", "=ds="..ALIL["Timeless Isle"].." - "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 5, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..ALIL["Molten Front"].." - "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 8, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 9, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
@@ -237,7 +237,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 5, "PetsFaction", "ability_hunter_pet_sporebat", "=ds="..AL["Faction Companions"], ""};
 				{ 6, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
 				{ 7, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
-				{ 8, "PetsNEW", "inv_pet_babycloudserpent", "=ds="..AL["New Companions"], "=q5=Patch 5.3"};
+				{ 8, "PetsNEW", "inv_worserobot", "=ds="..AL["New Companions"], "=q5=Patch 5.4"};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
 				{ 18, "PetsAchievement", "inv_misc_darkphoenixpet_01", "=ds="..AL["Achievement Reward"], ""};
 				{ 19, "PetsPromotional", "inv_netherwhelp", "=ds="..AL["Promotional Companions"], ""};
