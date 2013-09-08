@@ -45,8 +45,8 @@ local moduleName = "AtlasLootMoP"
 ---- The August Celestials
 ---- Bizmo's Brawlpub / Brawl'gar Arena
 ---- Dominance Offensive
----- Golden Lotus
 ---- Emperor Shaohao
+---- Golden Lotus
 ---- Kirin Tor Offensive
 ---- The Klaxxi
 ---- The Lorewalkers
@@ -4410,16 +4410,6 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 105836, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#" },
 			};
 		};
-		["Normal"] = {
-			{
-
-			};
-		};
-		["Heroic"] = {
-			{
-
-			};
-		};
 		info = {
 			name = AL["Shared Boss Loot"],
 			module = moduleName, instance = "SiegeofOrgrimmar",
@@ -6574,6 +6564,36 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+		-----------------------
+		--- Emperor Shaohao ---
+		-----------------------
+
+	AtlasLoot_Data["EmperorShaohao"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_monk_quipunch", "=q6=#r2#", ""};
+				{ 2, 103683, "", "=q3=Mask of Anger", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 3, 103681, "", "=q3=Mask of Doubt", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 4, 103679, "", "=q3=Mask of Fear", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 5, 103680, "", "=q3=Mask of Hatred", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 6, 103682, "", "=q3=Mask of Violence", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 8, 0, "ability_monk_quipunch", "=q6=#r3#", ""};
+				{ 9, 104013, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
+				{ 10, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
+				{ 11, 103684, "", "=q3=Scroll of Challenge", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 16, 0, "ability_monk_quipunch", "=q6=#r4#", ""};
+				{ 17, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=#m20#", "#TIMELESSCOIN:2500#"};
+				{ 18, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
+				{ 20, 0, "ability_monk_quipunch", "=q6=#r5#", ""};
+				{ 21, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
+			};
+		};
+		info = {
+			name = ALIL["Emperor Shaohao"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 		--------------------
 		--- Golden Lotus ---
 		--------------------
@@ -6631,36 +6651,6 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = ALIL["Golden Lotus"],
-			module = moduleName, menu = "REPMENU",
-		};
-	}
-
-		-----------------------
-		--- Emperor Shaohao ---
-		-----------------------
-
-	AtlasLoot_Data["EmperorShaohao"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "ability_monk_quipunch", "=q6=#r2#", ""};
-				{ 2, 103683, "", "=q3=Mask of Anger", "=ds=#m20#"};
-				{ 3, 103681, "", "=q3=Mask of Doubt", "=ds=#m20#"};
-				{ 4, 103679, "", "=q3=Mask of Fear", "=ds=#m20#"};
-				{ 5, 103680, "", "=q3=Mask of Hatred", "=ds=#m20#"};
-				{ 6, 103682, "", "=q3=Mask of Violence", "=ds=#m20#"};
-				{ 8, 0, "ability_monk_quipunch", "=q6=#r3#", ""};
-				{ 9, 104013, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
-				{ 10, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
-				{ 11, 103684, "", "=q3=Scroll of Challenge", "=ds=#m20#", "#TIMELESSCOIN:500#"};
-				{ 16, 0, "ability_monk_quipunch", "=q6=#r4#", ""};
-				{ 17, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=#m20#"};
-				{ 18, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
-				{ 20, 0, "ability_monk_quipunch", "=q6=#r5#", ""};
-				{ 21, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e12#", "#TIMELESSCOIN:100000#"};
-			};
-		};
-		info = {
-			name = ALIL["Emperor Shaohao"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -13977,11 +13967,11 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 103990, "", "=q4=Resolve of Niuzao", "=ds=#s14#", "#TIMELESSCOIN:50000#"};
 				{ 5, 103987, "", "=q4=Yu'lon's Bite", "=ds=#s14#", "#TIMELESSCOIN:50000#"};
 				{ 7, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
-				{ 9, 103982, "", "=q4=Burden of Eternity", "=ds=", "#TIMELESSCOIN:50000#"};
+				{ 9, 103982, "", "=q4=Burden of Eternity", "=ds=#m20#", "#TIMELESSCOIN:50000#"};
 				{ 11, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
 				{ 12, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
 				{ 13, 104332, "", "=q3=Sky Lantern", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
-				{ 15, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=", "#VALOR:500#"};
+				{ 15, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
 				{ 16, 105921, "", "=q4=Cloudscorcher Greatstaff", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
 				{ 17, 105923, "", "=q4=Contemplation of Shaohao", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
 				{ 18, 105927, "", "=q4=Featherdraw Longbow", "=ds=#w2#", "#TIMELESSCOIN:20000#"};
@@ -13992,32 +13982,39 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 105925, "", "=q4=Yak-Herder's Longstaff", "=ds=#w7#", "#TIMELESSCOIN:20000#"};
 				{ 24, 105919, "", "=q4=Daylight Protectorate", "=ds=#w8#", "#TIMELESSCOIN:10000#"};
 				{ 25, 105922, "", "=q4=Shield of the Eternal Noon", "=ds=#w8#", "#TIMELESSCOIN:10000#"};
-				{ 27, 104013, "", "=q4=Timeless Cloth Armor Cache", "=ds=", "#TIMELESSCOIN:7500#"};
-				{ 28, 104012, "", "=q4=Timeless Leather Armor Cache", "=ds=", "#TIMELESSCOIN:7500#"};
-				{ 29, 104010, "", "=q4=Timeless Mail Armor Cache", "=ds=", "#TIMELESSCOIN:7500#"};
-				{ 30, 104009, "", "=q4=Timeless Plate Armor Cache", "=ds=", "#TIMELESSCOIN:7500#"};
+				{ 27, 104013, "", "=q4=Timeless Cloth Armor Cache", "=ds=#a1#", "#TIMELESSCOIN:7500#"};
+				{ 28, 104012, "", "=q4=Timeless Leather Armor Cache", "=ds=#a2#", "#TIMELESSCOIN:7500#"};
+				{ 29, 104010, "", "=q4=Timeless Mail Armor Cache", "=ds=#a3#", "#TIMELESSCOIN:7500#"};
+				{ 30, 104009, "", "=q4=Timeless Plate Armor Cache", "=ds=#a4#", "#TIMELESSCOIN:7500#"};
 			};
 			{
-				{ 1, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=", "#TIMELESSCOIN:2500#"};
-				{ 2, 101538, "", "=q3=Kukuru's Cache Key", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 3, 103683, "", "=q3=Mask of Anger", "=ds=", "#TIMELESSCOIN:100#"};
-				{ 4, 103681, "", "=q3=Mask of Doubt", "=ds=", "#TIMELESSCOIN:100#"};
-				{ 5, 103679, "", "=q3=Mask of Fear", "=ds=", "#TIMELESSCOIN:100#"};
-				{ 6, 103680, "", "=q3=Mask of Hatred", "=ds=", "#TIMELESSCOIN:100#"};
-				{ 7, 103682, "", "=q3=Mask of Violence", "=ds=", "#TIMELESSCOIN:100#"};
-				{ 8, 103684, "", "=q3=Scroll of Challenge", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 9, 103786, "", "=q2=\"Dapper Gentleman\" Costume", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 10, 103795, "", "=q2=\"Dread Pirate\" Costume", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 11, 103789, "", "=q2=\"Little Princess\" Costume", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 12, 103797, "", "=q2=Big Pink Bow", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 13, 71153, "", "=q2=Magical Pet Biscuit", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 14, 103977, "", "=q1=Time-Worn Journal", "=ds=", "#TIMELESSCOIN:500#"};
-				{ 16, 102467, "", "=q3=Censer of Eternal Agony", "=ds=", "#TIMELESSCOIN:2500#"};
+				{ 1, 103685, "", "=q3=Celestial Defender's Medallion", "=ds=#m20#", "#TIMELESSCOIN:2500#"};
+				{ 2, 101538, "", "=q3=Kukuru's Cache Key", "=ds=#e9#", "#TIMELESSCOIN:500#"};
+				{ 3, 103683, "", "=q3=Mask of Anger", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 4, 103681, "", "=q3=Mask of Doubt", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 5, 103679, "", "=q3=Mask of Fear", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 6, 103680, "", "=q3=Mask of Hatred", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 7, 103682, "", "=q3=Mask of Violence", "=ds=#m20#", "#TIMELESSCOIN:100#"};
+				{ 8, 103684, "", "=q3=Scroll of Challenge", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 9, 103786, "", "=q2=\"Dapper Gentleman\" Costume", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 10, 103795, "", "=q2=\"Dread Pirate\" Costume", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 11, 103789, "", "=q2=\"Little Princess\" Costume", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 12, 103797, "", "=q2=Big Pink Bow", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 13, 71153, "", "=q2=Magical Pet Biscuit", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 14, 103977, "", "=q1=Time-Worn Journal", "=ds=#m20#", "#TIMELESSCOIN:500#"};
+				{ 16, 102467, "", "=q3=Censer of Eternal Agony", "=ds=#m20#", "#TIMELESSCOIN:2500#"};
 				{ 18, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
 				{ 19, 103639, "", "=q4=Pouch of White Ash", "=ds=#s14#", "#BLOODYCOIN:20#"};
 				{ 20, 103637, "", "=q3=Vengeful Porcupette", "=ds=#e13#", "#BLOODYCOIN:100#"};
-				{ 21, 102463, "", "=q3=Fire-Watcher's Oath", "=ds=", "#BLOODYCOIN:50#"};
-				{ 22, 102464, "", "=q2=Black Ash", "=ds=", "#BLOODYCOIN:1#"};
+				{ 21, 102463, "", "=q3=Fire-Watcher's Oath", "=ds=#m20#", "#BLOODYCOIN:50#"};
+				{ 22, 102464, "", "=q2=Black Ash", "=ds=#m20#", "#BLOODYCOIN:1#"};
+				{ 24, 102145, "", "=q3=Chi-Chi, Hatchling of Chi-Ji", "=ds=#e13#", "#ITEM:101529:3#"};
+				{ 25, 101771, "", "=q3=Xu-Fu, Cub of Xuen", "=ds=#e13#", "#ITEM:101529:3#"};
+				{ 26, 102147, "", "=q3=Yu'la, Broodling of Yu'lon", "=ds=#e13#", "#ITEM:101529:3#"};
+				{ 27, 102146, "", "=q3=Zao, Calfling of Niuzao", "=ds=#e13#", "#ITEM:101529:3#"};
+				{ 28, 98715, "", "=q3=Marked Flawless Battle-Stone", "=ds=#m20#", "#ITEM:101529:3#"},
+				{ 29, 86143, "", "=q2=Battle Pet Bandage", "=ds=#m20#", "#ITEM:101529:1#"},
+				{ 30, 98114, "", "=q2=Pet Treat", "=ds=#m20#", "#ITEM:101529:1#"},
 			};
 		};
 		info = {

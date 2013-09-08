@@ -48,7 +48,7 @@ local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 				{ 2, "ValorPointsMoP", "inv_helmet_cloth_reputation_c_01", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "ValorPointsMoP#2", "inv_helm_mail_reputation_c_01", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "ValorPointsMoP#4", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"], ""};
-				{ 7, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=", "#VALOR:500#"};
+				{ 7, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
 				{ 17, "ValorPointsMoP", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "ValorPointsMoP#3", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
 				{ 22, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
