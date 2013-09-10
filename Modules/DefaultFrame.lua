@@ -639,7 +639,7 @@ do
 		if not mapname or not mapRegister[mapname] then return end
 		
 		if type(mapRegister[mapname][2]) == "table" then
-			if UnitLevel("player") == 85 then
+			if UnitLevel("player") >= 85 and mapRegister[mapname][2][2] then
 				db.module = mapRegister[mapname][2][2]
 			else
 				db.module = mapRegister[mapname][2][1]

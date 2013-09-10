@@ -168,7 +168,7 @@ StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
 	hideOnEscape = 1
 };
 
-AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder"}
+AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder", "Flexible"}
 
 local function CopyTable(t)
 	local new = {}
@@ -538,6 +538,8 @@ function AtlasLoot:GetLocInstanceType(instanceType)
 			instanceType = AL["25 Man Heroic"]
 		elseif instanceType == "RaidFinder" then
 			instanceType = AL["Raid Finder"]
+		elseif instanceType == "Flexible" then
+			instanceType = AL["Flexible"]
 		else
 			instanceType = nil
 		end
@@ -667,11 +669,12 @@ end
 do
 	local lootTableTypes = AtlasLoot.lootTableTypes
 	local lootTableTypesCheck = {
-		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "RaidFinder" },
-		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "RaidFinder" },
-		["25Man"] = { "25ManHeroic", "Normal", "Heroic", "RaidFinder" },
-		["25ManHeroic"] = { "25Man", "Heroic", "Normal", "RaidFinder" },
-		["RaidFinder"] = { "Normal", "Heroic", "25Man", "25ManHeroic" },
+		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "RaidFinder", "Flexible" },
+		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "RaidFinder", "Flexible" },
+		["25Man"] = { "25ManHeroic", "Normal", "Heroic", "RaidFinder", "Flexible" },
+		["25ManHeroic"] = { "25Man", "Heroic", "Normal", "RaidFinder", "Flexible" },
+		["RaidFinder"] = { "Normal", "Heroic", "25Man", "25ManHeroic", "Flexible" },
+		["Flexible"] = { "Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder" },
 	}
 	
 	function AtlasLoot:GetLootTableTypeFromDataID(dataID)
@@ -1048,16 +1051,39 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Back:Show()
 	end
 	
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info then
+		if AtlasLoot_Data[dataID].info.instance == "ThroneofThunder" then
+			_G[self.ItemFrame.Thunderforged:GetName().."Text"]:SetText(AL["Thunderforged"])
+		elseif AtlasLoot_Data[dataID].info.instance == "SiegeofOrgrimmar" then
+			_G[self.ItemFrame.Thunderforged:GetName().."Text"]:SetText(AL["Warforged"])
+		end
+	end
+
+	
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
 		self.ItemFrame.RaidFinder:Show()
 		self.ItemFrame.RaidFinder:SetChecked(false)
 		self.ItemFrame.RaidFinder:Enable()
+	end
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["Flexible"] and lootTableType ~= "Flexible" then
+		self.ItemFrame.Flexible:Show()
+		self.ItemFrame.Flexible:SetChecked(false)
+		self.ItemFrame.Flexible:Enable()
 	end
 	
 	if lootTableType == "RaidFinder" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["RaidFinder"] then
 		self.ItemFrame.RaidFinder:Show()
 		self.ItemFrame.RaidFinder:SetChecked(true)
 		self.ItemFrame.RaidFinder:Enable()
+		if AtlasLoot_Data[dataID]["Heroic"] then
+			self.ItemFrame.Heroic:Show()
+			self.ItemFrame.Heroic:SetChecked(false)
+			self.ItemFrame.Heroic:Enable()
+		end --"Flexible"
+	elseif lootTableType == "Flexible" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["Flexible"] then
+		self.ItemFrame.Flexible:Show()
+		self.ItemFrame.Flexible:SetChecked(true)
+		self.ItemFrame.Flexible:Enable()
 		if AtlasLoot_Data[dataID]["Heroic"] then
 			self.ItemFrame.Heroic:Show()
 			self.ItemFrame.Heroic:SetChecked(false)
@@ -1093,7 +1119,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		end
 	end
 	
-	if lootTableType == "RaidFinder" then
+	if lootTableType == "RaidFinder" or lootTableType == "Flexible" then
 		-- do nothing
 	elseif ( lootTableType == "Normal" or lootTableType == "Heroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 25 Man Loot"])
