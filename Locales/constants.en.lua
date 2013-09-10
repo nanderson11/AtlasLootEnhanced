@@ -612,6 +612,7 @@ if AL then
 	AL["Flexible"] = true;
 	AL["Raid Finder"] = true;
 	AL["Thunderforged"] = true;
+	AL["Warforged"] = true;
 	AL["Pandaria World Bosses"] = true;
 	AL["Elite"] = true;
 	AL["Vegetables"] = true;

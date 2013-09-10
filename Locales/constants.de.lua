@@ -609,6 +609,7 @@ if AL then
 	AL["Flexible"] = "Flexibel";
 	AL["Raid Finder"] = "Schlachtzugsbrowser";
 	AL["Thunderforged"] = "Donnergeschmiedet";
+	AL["Warforged"] = "Kriegsgeschmiedet";
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
 	-- AL["Elite"] = true;
 	AL["Vegetables"] = "Gemüse";
