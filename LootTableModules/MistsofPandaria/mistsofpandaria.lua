@@ -4155,8 +4155,8 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 99676, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
 				{ 18, 99674, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
 				{ 20, 105125, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
-				{ 21, 105135, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
-				{ 22, 105127, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 21, 105135, "", "=q4=Kil'ruk's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 105127, "", "=q4=Korven's Crimson Crescent", "=ds=#h1#, #w1#" },
 				{ 23, 105129, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
 				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
@@ -4174,8 +4174,8 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 99753, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
 				{ 18, 99751, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
 				{ 20, 104876, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#" },
-				{ 21, 104886, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#" },
-				{ 22, 104878, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#" },
+				{ 21, 104886, "", "=q4=Kil'ruk's Furious Blade", "=ds=#h1#, #w10#" },
+				{ 22, 104878, "", "=q4=Korven's Crimson Crescent", "=ds=#h1#, #w1#" },
 				{ 23, 104880, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#" },
 				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
@@ -4193,8 +4193,8 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 99693, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
 				{ 18, 99684, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
 				{ 20, 103886, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#", tf=105374 },
-				{ 21, 103972, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#", tf=105384 },
-				{ 22, 103971, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#", tf=105376 },
+				{ 21, 103972, "", "=q4=Kil'ruk's Furious Blade", "=ds=#h1#, #w10#", tf=105384 },
+				{ 22, 103971, "", "=q4=Korven's Crimson Crescent", "=ds=#h1#, #w1#", tf=105376 },
 				{ 23, 103973, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#", tf=105378 },
 				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
@@ -4212,8 +4212,8 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 99713, "", "=q4=Leggings of the Cursed Protector", "=ds=#e15#, #m42#" },
 				{ 18, 99726, "", "=q4=Leggings of the Cursed Vanquisher", "=ds=#e15#, #m42#" },
 				{ 20, 104627, "", "=q4=Hisek's Reserve Longbow", "=ds=#w2#", tf=105623 },
-				{ 21, 104637, "", "=q4=Kaz'tik's Furious Blade", "=ds=#h1#, #w10#", tf=105633 },
-				{ 22, 104629, "", "=q4=Kil'ruk's Windcrescent", "=ds=#h1#, #w1#", tf=105625 },
+				{ 21, 104637, "", "=q4=Kil'ruk's Furious Blade", "=ds=#h1#, #w10#", tf=105633 },
+				{ 22, 104629, "", "=q4=Korven's Crimson Crescent", "=ds=#h1#, #w1#", tf=105625 },
 				{ 23, 104631, "", "=q4=Rik'kal's Bloody Scalpel", "=ds=#h1#, #w4#", tf=105627 },
 				{ 25, 104165, "", "=q3=Kovok", "=ds=#e13#" },
 			};
@@ -4377,7 +4377,7 @@ local moduleName = "AtlasLootMoP"
 		["RaidFinder"] = {
 			{
 				{ 1, 105824, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
-				{ 2, 105075, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
+				{ 2, 105816, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
 				{ 3, 105812, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
 				{ 4, 105815, "", "=q4=Drape of the Omega", "=ds=#s4#" },
 				{ 5, 105825, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
