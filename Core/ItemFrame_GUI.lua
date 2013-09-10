@@ -107,7 +107,8 @@ function AtlasLoot:CreateItemFrame()
 	Frame.Flexible:Hide()
 	
 	Frame.Thunderforged = CreateFrame("CheckButton", "AtlasLootItemsFrame_Thunderforged", Frame, "OptionsCheckButtonTemplate")
-	Frame.Thunderforged:SetPoint("TOPLEFT", Frame.RaidFinder, "TOPRIGHT", Frame.RaidFinder:GetWidth()+_G[Frame.RaidFinder:GetName().."Text"]:GetWidth()+Frame.Flexible:GetWidth()+_G[Frame.Flexible:GetName().."Text"]:GetWidth()+10, 0) --_G[Frame.RaidFinder:GetName().."Text"]
+	--Frame.Thunderforged:SetPoint("TOPLEFT", Frame.RaidFinder, "TOPRIGHT", Frame.RaidFinder:GetWidth()+_G[Frame.RaidFinder:GetName().."Text"]:GetWidth()+Frame.Flexible:GetWidth()+_G[Frame.Flexible:GetName().."Text"]:GetWidth()+10, 0) --_G[Frame.RaidFinder:GetName().."Text"]
+	Frame.Thunderforged:SetPoint("TOPLEFT", Frame.Flexible, "TOPRIGHT", Frame.Flexible:GetWidth()+_G[Frame.Flexible:GetName().."Text"]:GetWidth()+5, 0)
 	Frame.Thunderforged:SetWidth(25)
 	Frame.Thunderforged:SetHeight(25)
 	_G[Frame.Thunderforged:GetName().."Text"]:SetText(AL["Thunderforged"])
