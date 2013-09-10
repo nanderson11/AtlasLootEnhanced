@@ -597,10 +597,11 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 	local instanceTypeOld = instanceType
 	instanceType = self:GetLocInstanceType(instanceType)
 	if isThunderforged then
+		local name = _G[self.ItemFrame.Thunderforged:GetName().."Text"]:GetText()
 		if instanceType == "" then
-			instanceType = AL["Thunderforged"]
+			instanceType = name
 		else
-			instanceType = instanceType.." "..AL["Thunderforged"]
+			instanceType = instanceType.." "..name
 		end
 	end
 	
