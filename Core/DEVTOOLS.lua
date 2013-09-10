@@ -499,6 +499,7 @@ local instanceList = {
 	320, -- Terasse
 	330, -- HoF
 	362, -- Throne
+	369, -- OG
 }
 local numClasses = GetNumClasses()
 local function startBonusRollScan()
