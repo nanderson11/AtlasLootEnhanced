@@ -1039,8 +1039,10 @@ if AL then
 	AL["Auntie Stormstout"] = "风暴烈酒大婶";
 	AL["Luo Luo"] = "洛洛";
 	AL["Meng Meng"] = "萌萌";
+	AL["Moonfang"] = "月牙";
 	AL["Ongrom Black Tooth"] = "奥格罗姆·黑牙";
 	AL["Proveditor Grantley"] = "普凡迪特·格兰特利";
+	AL["Scary Sprite"] = "惊悚之灵";
 	--- World Events
 	AL["Crimson Templar"] = "赤红圣殿骑士";
 	AL["Azure Templar"] = "碧蓝圣殿骑士";
@@ -1100,6 +1102,7 @@ if AL then
 	AL["Overcharged Manacell"] = "超载的魔法晶格";
 	AL["Shellfish Trap"] = "贝壳陷阱";
 	AL["Fishing Pools"] = "钓鱼场所";
+	AL["Timeless Chest"] = "永恒宝箱";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
