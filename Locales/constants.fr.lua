@@ -612,6 +612,7 @@ if AL then
 	--AL["Flexible"] = true;
 	AL["Raid Finder"] = "Recherche de raid";
 	AL["Thunderforged"] = "Foudroyant";
+	--AL["Warforged"] = true; -- à traduire
 	AL["Pandaria World Bosses"] = "World Boss de Pandarie";
 	--AL["Elite"] = true;
 	AL["Vegetables"] = "Légumes";
@@ -1039,8 +1040,10 @@ if AL then
 	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
 	--AL["Luo Luo"] = true;
 	--AL["Meng Meng"] = true;
+	--AL["Moonfang"] = true; -- à traduire
 	AL["Ongrom Black Tooth"] = "Ongrom Dent-Noire";
 	AL["Proveditor Grantley"] = "Provéditeur Grantley";
+	--AL["Scary Sprite"] = true; -- à traduire
 	--- World Events
 	AL["Crimson Templar"] = "Templier cramoisi";  --- mob removed from game?
 	AL["Azure Templar"] = "Templier d'azur";  --- mob removed from game?
@@ -1100,6 +1103,7 @@ if AL then
 	AL["Overcharged Manacell"] = "Cellule de mana surchargée"; --- If still in game, should be used in IngameLocales
 	AL["Shellfish Trap"] = "Casier à crustacés";
 	AL["Fishing Pools"] = "Bancs de poissons";
+	--AL["Timeless Chest"] = true; -- à traduire
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Pass annuel";
