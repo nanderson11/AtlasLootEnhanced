@@ -12789,7 +12789,6 @@ local moduleName = "AtlasLootMoP"
 				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
 				{ 27, 103630, "", "=q4=Lucky Riding Turtle", "=ds=#e26#" };
 				{ 28, 104011, "", "=q4=Stormcrow", "=ds=" };
-
 			};
 		};
 		info = {

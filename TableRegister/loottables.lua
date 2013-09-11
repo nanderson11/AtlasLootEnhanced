@@ -173,7 +173,6 @@ AtlasLoot_LootTableRegister = {
 				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677, BonusLootID = 132193 },
 				{ "MoguShanVaultsTrash", 20 },
 				{ "Patternsilvl496", 21 },
-	
 			},
 			["Info"] = { ALIL["Mogu'shan Vaults"], "AtlasLootMoP", mapname = "MoguShanVaults", raid = true, EncounterJournalID = 317 },
 		},
@@ -189,6 +188,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
+
 		["SiegeofOrgrimmarA"] = "SiegeofOrgrimmar",
 		["SiegeofOrgrimmarB"] = "SiegeofOrgrimmar",
 		["SiegeofOrgrimmarC"] = "SiegeofOrgrimmar",
@@ -1916,7 +1916,6 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsPetStore" },
 				{ "PetsRemoved" },
 				{ "PetsNEW" },
-				{ "PetsNEW2" },
 				{ "PetsAccessories" },
 			},
 			["Info"] = { BabbleInventory["Companions"], "AtlasLootMoP"},
@@ -1935,7 +1934,6 @@ AtlasLoot_LootTableRegister = {
 				{ "MountsEvent" },
 				{ "MountsRemoved" },
 				{ "MountsNEW" },
-				{ "MountsNEW2" },
 			},
 			["Info"] = { BabbleInventory["Mounts"], "AtlasLootMoP"},
 		},
@@ -1991,7 +1989,6 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { AL["Tier Sets"], "AtlasLootMoP"},
 		},
 	},
-
 }
 
 AtlasLoot_LootTableRegister["Instances"]["EmptyPage"] = {
