@@ -10702,7 +10702,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 99623, "", "=q4=Handguards of the Shattered Vale", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
 				{ 13, 99610, "", "=q4=Breeches of the Shattered Vale", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)};
 				{ 16, 0, "ability_racial_bearform", "=q6=#t16s1_4#", "=q5="..string.format(AL["Tier %d"], 16).." - "..AL["Normal"]};
-				{ 17, 99163, "", "=q4=Headguard of the Shattered Vale", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
+				{ 17, 99164, "", "=q4=Headguard of the Shattered Vale", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Thok the Bloodthirsty", 851)};
 				{ 18, 99166, "", "=q4=Shoulderguards of the Shattered Vale", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)};
 				{ 19, 99170, "", "=q4=Tunic of the Shattered Vale", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Pride", 867)};
 				{ 20, 99163, "", "=q4=Handguards of the Shattered Vale", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("General Nazgrim", 850)};
