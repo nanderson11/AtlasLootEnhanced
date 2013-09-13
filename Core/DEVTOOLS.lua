@@ -501,6 +501,7 @@ local instanceList = {
 	362, -- Throne
 	369, -- OG
 }
+local difficultys = {7,3,5,4,6,14}
 local numClasses = GetNumClasses()
 local function startBonusRollScan()
 	local tab = {}
@@ -514,7 +515,7 @@ local function startBonusRollScan()
 
 	--EncounterJournal_DisplayInstance(
 	for _,iniId in ipairs(instanceList) do
-		for diff=1,5 do 
+		for _,diff in ipairs(difficultys) do --for diff=1,6 do  
 			EncounterJournal_ListInstances()
 			EncounterJournal_DisplayInstance(iniId)
 			EJ_SetDifficulty(diff)

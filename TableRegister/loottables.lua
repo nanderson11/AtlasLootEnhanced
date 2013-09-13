@@ -179,8 +179,8 @@ AtlasLoot_LootTableRegister = {
 
 		["Pandaria"] = {
 			["Bosses"] = {
-				{ "AUGUSTCELESTIALSWORLDBOSSES", 8, EncounterJournalID = 857 },
-				{ "Ordos", 7, EncounterJournalID = 861 },
+				{ "AUGUSTCELESTIALSWORLDBOSSES", 8, EncounterJournalID = 857, BonusLootID = 1 },
+				{ "Ordos", 7, EncounterJournalID = 861, BonusLootID = 1 },
 				{ "NALAK", 1, EncounterJournalID = 814, BonusLootID = 136381 },
 				{ "Oondasta", 2, EncounterJournalID = 826, BonusLootID = 137554 },
 				{ "SHAOFANGER", 3, EncounterJournalID = 691, BonusLootID = 132205 },
