@@ -4376,11 +4376,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SoOShared"] = {
 		["RaidFinder"] = {
 			{
-				{ 1, 105824, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
-				{ 2, 105816, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
-				{ 3, 105812, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
-				{ 4, 105815, "", "=q4=Drape of the Omega", "=ds=#s4#" },
-				{ 5, 105825, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
+				{ 1, 104271, "", "=q4=Coalesced Turmoil", "=ds=#m20#" },
+				{ 2, 104275, "", "=q4=Twisted Treasures of the Vale", "=ds=#m20#" },
+				{ 3, 105824, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
+				{ 4, 105816, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
+				{ 5, 105812, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
+				{ 6, 105815, "", "=q4=Drape of the Omega", "=ds=#s4#" },
+				{ 7, 105825, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
 				{ 16, 105813, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#" },
 				{ 17, 105814, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#" },
 				{ 18, 105818, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#" },
@@ -4394,11 +4396,13 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Flexible"] = {
 			{
-				{ 1, 105838, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
-				{ 2, 105830, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
-				{ 3, 105826, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
-				{ 4, 105829, "", "=q4=Drape of the Omega", "=ds=#s4#" },
-				{ 5, 105839, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
+				{ 1, 105714, "", "=q4=Coalesced Turmoil", "=ds=#m20#" },
+				{ 2, 105713, "", "=q4=Twisted Treasures of the Vale", "=ds=#m20#" },
+				{ 3, 105838, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
+				{ 4, 105830, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
+				{ 5, 105826, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
+				{ 6, 105829, "", "=q4=Drape of the Omega", "=ds=#s4#" },
+				{ 7, 105839, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
 				{ 16, 105827, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#" },
 				{ 17, 105828, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#" },
 				{ 18, 105832, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#" },
@@ -4417,22 +4421,22 @@ local moduleName = "AtlasLootMoP"
 	};
 
 	AtlasLoot_Data["SoOTrash"] = {
-		["Normal"] = {
+		["Flexible"] = {
 			{
-				{ 1, 103846, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
-				{ 2, 103960, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
-				{ 3, 103935, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
-				{ 4, 103770, "", "=q4=Drape of the Omega", "=ds=#s4#" },
-				{ 5, 103800, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
-				{ 6, 103854, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#" },
-				{ 7, 103753, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#" },
-				{ 8, 103859, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#" },
-				{ 9, 103832, "", "=q4=Siid's Silent Stranglers", "=ds=#s9#, #a2#" },
-				{ 10, 103781, "", "=q4=Keengrip Arrowpullers", "=ds=#s9#, #a3#" },
-				{ 11, 103764, "", "=q4=Marco's Crackling Gloves", "=ds=#s9#, #a3#" },
-				{ 12, 103791, "", "=q4=Gauntlets of Discarded Time", "=ds=#s9#, #a4#" },
-				{ 13, 103818, "", "=q4=Romy's Reliable Grips", "=ds=#s9#, #a4#" },
-				{ 14, 103734, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#" },
+				{ 1, 105838, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
+				{ 2, 105830, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
+				{ 3, 105826, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
+				{ 4, 105829, "", "=q4=Drape of the Omega", "=ds=#s4#" },
+				{ 5, 105839, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
+				{ 7, 105827, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#" },
+				{ 8, 105828, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#" },
+				{ 9, 105832, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#" },
+				{ 10, 105831, "", "=q4=Siid's Silent Stranglers", "=ds=#s9#, #a2#" },
+				{ 11, 105833, "", "=q4=Keengrip Arrowpullers", "=ds=#s9#, #a3#" },
+				{ 12, 105834, "", "=q4=Marco's Crackling Gloves", "=ds=#s9#, #a3#" },
+				{ 13, 105837, "", "=q4=Gauntlets of Discarded Time", "=ds=#s9#, #a4#" },
+				{ 14, 105835, "", "=q4=Romy's Reliable Grips", "=ds=#s9#, #a4#" },
+				{ 15, 105836, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#" },
 				{ 16, 105745, "", "=q4=Kor'kron Dark Shaman Cowl", "=ds=#s1#" },
 				{ 17, 105747, "", "=q4=Kor'kron Dark Shaman Shoulder", "=ds=#s3#" },
 				{ 18, 105743, "", "=q4=Kor'kron Dark Shaman Vestment", "=ds=#s5#" },
@@ -4443,16 +4447,30 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 105742, "", "=q4=Kor'kron Dark Shaman Treads", "=ds=#s12#" },
 			};
 		};
-		["Flexible"] = {
+		["Normal"] = {
 			{
-				{ 1, 105745, "", "=q4=Kor'kron Dark Shaman Cowl", "=ds=#s1#" },
-				{ 2, 105747, "", "=q4=Kor'kron Dark Shaman Shoulder", "=ds=#s3#" },
-				{ 3, 105743, "", "=q4=Kor'kron Dark Shaman Vestment", "=ds=#s5#" },
-				{ 4, 105748, "", "=q4=Kor'kron Dark Shaman Bracers", "=ds=#s8#" },
-				{ 5, 105744, "", "=q4=Kor'kron Dark Shaman Gloves", "=ds=#s9#" },
-				{ 6, 105741, "", "=q4=Kor'kron Dark Shaman Belt", "=ds=#s10#" },
-				{ 7, 105746, "", "=q4=Kor'kron Dark Shaman Kilt", "=ds=#s11#" },
-				{ 8, 105742, "", "=q4=Kor'kron Dark Shaman Treads", "=ds=#s12#" },
+				{ 1, 103846, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#" },
+				{ 2, 103960, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#" },
+				{ 3, 103935, "", "=q4=Cape of the Alpha", "=ds=#s4#" },
+				{ 4, 103770, "", "=q4=Drape of the Omega", "=ds=#s4#" },
+				{ 5, 103800, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#" },
+				{ 7, 103854, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#" },
+				{ 8, 103753, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#" },
+				{ 9, 103859, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#" },
+				{ 10, 103832, "", "=q4=Siid's Silent Stranglers", "=ds=#s9#, #a2#" },
+				{ 11, 103781, "", "=q4=Keengrip Arrowpullers", "=ds=#s9#, #a3#" },
+				{ 12, 103764, "", "=q4=Marco's Crackling Gloves", "=ds=#s9#, #a3#" },
+				{ 13, 103791, "", "=q4=Gauntlets of Discarded Time", "=ds=#s9#, #a4#" },
+				{ 14, 103818, "", "=q4=Romy's Reliable Grips", "=ds=#s9#, #a4#" },
+				{ 15, 103734, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 105745, "", "=q4=Kor'kron Dark Shaman Cowl", "=ds=#s1#" },
+				{ 17, 105747, "", "=q4=Kor'kron Dark Shaman Shoulder", "=ds=#s3#" },
+				{ 18, 105743, "", "=q4=Kor'kron Dark Shaman Vestment", "=ds=#s5#" },
+				{ 19, 105748, "", "=q4=Kor'kron Dark Shaman Bracers", "=ds=#s8#" },
+				{ 20, 105744, "", "=q4=Kor'kron Dark Shaman Gloves", "=ds=#s9#" },
+				{ 21, 105741, "", "=q4=Kor'kron Dark Shaman Belt", "=ds=#s10#" },
+				{ 22, 105746, "", "=q4=Kor'kron Dark Shaman Kilt", "=ds=#s11#" },
+				{ 23, 105742, "", "=q4=Kor'kron Dark Shaman Treads", "=ds=#s12#" },
 			};
 		};
 		info = {
