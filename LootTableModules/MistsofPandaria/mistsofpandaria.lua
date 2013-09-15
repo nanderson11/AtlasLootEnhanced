@@ -13300,11 +13300,10 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "85-89"), "=q1="..AL["Mists of Pandaria"]};
 				{ 2, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
-				{ 3, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
-				{ 4, 89611, "", "=q3=Quilen Statuette", "=ds=#s14#"};
-				{ 6, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
-				{ 7, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#s13#"};
-				{ 8, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
+				{ 3, 89611, "", "=q3=Quilen Statuette", "=ds=#s14#"};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
+				{ 6, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#s13#"};
+				{ 7, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
 				{ 16, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "60-69"), ""};
 				{ 17, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#s1#, #a3#"};
 				{ 19, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "50-60"), ""};
