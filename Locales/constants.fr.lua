@@ -487,7 +487,7 @@ if AL then
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
 	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
 	AL["Mists of Pandaria Vendor Sold Plans"] = "Vendeur de plans à Mist of Pandoria";
-	--AL["Training Projects"] = true; -- à traduire
+	AL["Training Projects"] = "Ouvrages";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Banquets / Festins";
@@ -612,7 +612,7 @@ if AL then
 	--AL["Flexible"] = true;
 	AL["Raid Finder"] = "Recherche de raid";
 	AL["Thunderforged"] = "Foudroyant";
-	--AL["Warforged"] = true; -- à traduire
+	AL["Warforged"] = "De guerre";
 	AL["Pandaria World Bosses"] = "World Boss de Pandarie";
 	--AL["Elite"] = true;
 	AL["Vegetables"] = "Légumes";
