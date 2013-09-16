@@ -16,8 +16,9 @@ local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
+local compStr = string.format(AL["Please note that AtlasLoot v%s is only compatible with Atlas v%s. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled."], ATLASLOOT_VERSION_NUM, ATLASLOOT_MIN_ATLAS);
 StaticPopupDialogs["ATLASLOOT_INCOMPATIBLE_ATLAS"] = {
-	text = "Please note that AtlasLoot v6.05.01 is only compatible with Atlas 1.21.0. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled.",
+	text = compStr,
 	button1 = AL["OK"],
 	OnAccept = function()
 		
