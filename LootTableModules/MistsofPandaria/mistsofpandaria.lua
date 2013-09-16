@@ -2642,12 +2642,12 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 105759, "", "=q4=Magmaplates of Jian Wu Xi Feng", "=ds=#s11#, #a4#" },
 				{ 5, 105761, "", "=q4=Partik's Purified Legplates", "=ds=#s11#, #a4#" },
 				{ 6, 105756, "", "=q4=Poxleitner's Leggings of Lights", "=ds=#s11#, #a4#" },
+				{ 8, 104273, "", "=q4=Flame-Scarred Cache of Offerings", "=ds=#m20#" },
 				{ 16, 105766, "", "=q4=Anafielle's Spiked Choker", "=ds=#s2#" },
 				{ 17, 105765, "", "=q4=Bladeforger Necklace", "=ds=#s2#" },
 				{ 18, 105763, "", "=q4=Penate's Perilous Pendant", "=ds=#s2#" },
 				{ 19, 105764, "", "=q4=Rising New Moon Talisman", "=ds=#s2#" },
 				{ 20, 105762, "", "=q4=Smoldering Eye", "=ds=#s2#" },
-				{ 22, 104273, "", "=q4=Flame-Scarred Cache of Offerings", "=ds=#m20#" },
 			}
 		};
 		info = {

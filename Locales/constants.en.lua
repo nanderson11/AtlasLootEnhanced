@@ -83,7 +83,7 @@ if AL then
 
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = true;
-	
+
 	-- Atlas Incompatible
 	AL["Please note that AtlasLoot v%s is only compatible with Atlas v%s. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled."] = true;
 
