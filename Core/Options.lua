@@ -339,6 +339,7 @@ end
 --- Shows the AtlasLoot Options
 function AtlasLoot:OptionsToggle()
 	InterfaceOptionsFrame_OpenToCategory("AtlasLoot")
+	InterfaceOptionsFrame_OpenToCategory("AtlasLoot") -- Silly fix. Call it twice to force the expected category to be opened.
 end
 -- Hides the AtlasLoot Panel
 function AtlasLoot:OptionsHidePanel()
