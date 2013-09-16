@@ -290,6 +290,15 @@ function AtlasLoot:AtlasRefreshHook()
 			end
 		end
 	end
+	-- Below try to add the series maps into switch button's map list
+	if (not matchFound[1]) then
+		for k, v in pairs(Atlas_MapSeries) do
+			if (k == zoneID) then
+				matchFound = v;
+				sayEntrance = false;
+			end
+		end
+	end
 	
 	--set the button's text, populate the dropdown menu, and show or hide the button
 	if ( matchFound[1] ~= nil ) then
