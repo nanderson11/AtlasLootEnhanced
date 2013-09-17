@@ -4426,6 +4426,25 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 105836, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#" },
 			};
 		};
+		["Heroic"] = {
+			{
+				{ 1, 105856, "", "=q4=Echoes of War", "=ds=#m17#" },
+				{ 3, 105852, "", "=q4=Aeth's Swiftcinder Cloak", "=ds=#s4#, #ITEMID:103846#" },
+				{ 4, 105844, "", "=q4=Brave Niunai's Cloak", "=ds=#s4#, #ITEMID:103960#" },
+				{ 5, 105840, "", "=q4=Cape of the Alpha", "=ds=#s4#, #ITEMID:103935#" },
+				{ 6, 105843, "", "=q4=Drape of the Omega", "=ds=#s4#, #ITEMID:103770#" },
+				{ 7, 105853, "", "=q4=Turtleshell Greatcloak", "=ds=#s4#, #ITEMID:103800#" },
+				{ 18, 105841, "", "=q4=Kalaena's Arcane Handwraps", "=ds=#s9#, #a1#, #ITEMID:103854#" },
+				{ 19, 105842, "", "=q4=Seebo's Sainted Touch", "=ds=#s9#, #a1#, #ITEMID:103753#" },
+				{ 20, 105846, "", "=q4=Crimson Gauntlets of Death", "=ds=#s9#, #a2#, #ITEMID:103859#" },
+				{ 21, 105845, "", "=q4=Siid's Silent Stranglers", "=ds=#s9#, #a2#, #ITEMID:103832#" },
+				{ 22, 105847, "", "=q4=Keengrip Arrowpullers", "=ds=#s9#, #a3#, #ITEMID:103781#" },
+				{ 23, 105848, "", "=q4=Marco's Crackling Gloves", "=ds=#s9#, #a3#, #ITEMID:103764#" },
+				{ 24, 105851, "", "=q4=Gauntlets of Discarded Time", "=ds=#s9#, #a4#, #ITEMID:103791#" },
+				{ 25, 105849, "", "=q4=Romy's Reliable Grips", "=ds=#s9#, #a4#, #ITEMID:103818#" },
+				{ 26, 105850, "", "=q4=Zoid's Molten Gauntlets", "=ds=#s9#, #a4#, #ITEMID:103734#" },
+			};
+		};
 		info = {
 			name = AL["Shared Boss Loot"],
 			module = moduleName, instance = "SiegeofOrgrimmar",
