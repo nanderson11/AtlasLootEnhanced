@@ -84,6 +84,9 @@ if AL then
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé.\nVeuillez le supprimer de votre dossier AddOns.";
 
+	-- Atlas Incompatible
+	AL["Please note that AtlasLoot v%s is only compatible with Atlas v%s. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled."] = "Veuillez noter que AtlasLoot v%s est compatible uniquement avec Atlas v%s. AtlasLoot a détecté que vous utilisez une ancienne version d'Atlas, donc l'intégration d'AtlasLoot a été désactivé.";
+
 	-- Options
 	--AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = "Charger les modules de loot au démarrage";
@@ -103,7 +106,7 @@ if AL then
 	AL["Reset"] = "Réinitialiser";
 	AL["Reset Frames"] = "Réinitialiser les frames";
 	--AL["Profiles"] = true;
-	--AL["Item Buttons"] = true; -- à traduire
+	AL["Item Buttons"] = "Options des boutons"
 	AL["Loot Table"] = "Table de loot";
 	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
 	AL["Upgrade Level:"] = "Niveau d'amélioration :";
@@ -1040,7 +1043,7 @@ if AL then
 	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
 	--AL["Luo Luo"] = true;
 	--AL["Meng Meng"] = true;
-	--AL["Moonfang"] = true; -- à traduire
+	AL["Moonfang"] = "Croc-de-Lune";
 	AL["Ongrom Black Tooth"] = "Ongrom Dent-Noire";
 	AL["Proveditor Grantley"] = "Provéditeur Grantley";
 	--AL["Scary Sprite"] = true; -- à traduire
