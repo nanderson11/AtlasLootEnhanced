@@ -6627,7 +6627,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 103680, "", "=q3=Mask of Hatred", "=ds=#m20#", "#TIMELESSCOIN:100#"};
 				{ 6, 103682, "", "=q3=Mask of Violence", "=ds=#m20#", "#TIMELESSCOIN:100#"};
 				{ 8, 0, "ability_monk_quipunch", "=q6=#r3#", ""};
-				{ 9, 104013, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
+				{ 9, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
 				{ 10, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
 				{ 11, 103684, "", "=q3=Scroll of Challenge", "=ds=#m20#", "#TIMELESSCOIN:500#"};
 				{ 16, 0, "ability_monk_quipunch", "=q6=#r4#", ""};
