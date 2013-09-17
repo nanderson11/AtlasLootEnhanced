@@ -3219,3 +3219,16 @@ AtlasLoot_BonusRoll_Items[91139]={[11]={true,false,false,false},[7]={true,false,
 AtlasLoot_BonusRoll_Items[85331]={[1]={true,true,false},}
 AtlasLoot_BonusRoll_Items[86147]={[11]={false,false,false,true},[7]={false,false,true},[10]={false,true,false},[5]={true,true,false},[2]={true,false,false},}
 AtlasLoot_BonusRoll_Items[87043]={[2]={true,false,false},}
+-- Garrosh T16 Tokens, manually added
+AtlasLoot_BonusRoll_Items[105861]={[5]={true,true,true},[2]={true,true,true},[9]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105864]={[5]={true,true,true},[2]={true,true,true},[9]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105858]={[5]={true,true,true},[2]={true,true,true},[9]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105867]={[5]={true,true,true},[2]={true,true,true},[9]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105860]={[1]={true,true,true},[3]={true,true,true},[10]={true,true,true},[7]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105863]={[1]={true,true,true},[3]={true,true,true},[10]={true,true,true},[7]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105857]={[1]={true,true,true},[3]={true,true,true},[10]={true,true,true},[7]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105866]={[1]={true,true,true},[3]={true,true,true},[10]={true,true,true},[7]={true,true,true},}
+AtlasLoot_BonusRoll_Items[105862]={[8]={true,true,true},[6]={true,true,true},[4]={true,true,true},[11]={true,true,true,true},}
+AtlasLoot_BonusRoll_Items[105865]={[8]={true,true,true},[6]={true,true,true},[4]={true,true,true},[11]={true,true,true,true},}
+AtlasLoot_BonusRoll_Items[105859]={[8]={true,true,true},[6]={true,true,true},[4]={true,true,true},[11]={true,true,true,true},}
+AtlasLoot_BonusRoll_Items[105868]={[8]={true,true,true},[6]={true,true,true},[4]={true,true,true},[11]={true,true,true,true},}
