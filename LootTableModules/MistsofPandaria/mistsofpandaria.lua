@@ -2057,7 +2057,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 99134, "", "=q4=Gloves of Winged Triumph", "=ds=#s9#, #a4#"};
 				{ 3, 99124, "", "=q4=Greaves of Winged Triumph", "=ds=#s11#, #a4#"};
 				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Retribution"]};
-				{ 6, 99134, "", "=q4=Gauntlets of Winged Triumph", "=ds=#s9#, #a4#"};
+				{ 6, 99137, "", "=q4=Gauntlets of Winged Triumph", "=ds=#s9#, #a4#"};
 				{ 7, 99139, "", "=q4=Legplates of Winged Triumph", "=ds=#s11#, #a4#"};
 				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..ALIL["Protection"]};
 				{ 10, 99127, "", "=q4=Handguards of Winged Triumph", "=ds=#s9#, #a4#"};
