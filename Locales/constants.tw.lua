@@ -84,6 +84,9 @@ if AL then
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu 已不再包含在 AtlasLoot 裡, \n請將其從 Addons 目錄移除.";
 
+	-- Atlas Incompatible
+	AL["Please note that AtlasLoot v%s is only compatible with Atlas v%s. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled."] = "請注意，AAtlasLoot v%s 僅支援 Atlas v%s 。我們偵測到您目前的 Atlas 版本太舊，因此關於 Atlas 的整合將會被停用。";
+
 	-- Options
 	AL["Options"] = "選項";
 	AL["Load Loot Modules at Startup"] = "在起始時載入所有模組";
