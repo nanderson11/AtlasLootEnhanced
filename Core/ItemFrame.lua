@@ -264,6 +264,7 @@ function AtlasLoot:ItemFrame_IconList_Refresh()
 	for k,v in ipairs(ICON_LIST) do
 		if v then
 			if v:IsShown() then
+				v:ClearAllPoints()
 				if not last then
 					if AtlasLoot.ItemFrame.CloseButton:IsShown() then
 						v:SetPoint("RIGHT", AtlasLoot.ItemFrame.CloseButton, "LEFT", 0, 0)
@@ -271,7 +272,7 @@ function AtlasLoot:ItemFrame_IconList_Refresh()
 						v:SetPoint("TOPRIGHT", AtlasLoot.ItemFrame, "TOPRIGHT", -5, -5)
 					end
 				else
-					AtlasLoot.ItemFrame.BonusRoll:SetPoint("RIGHT", last, "LEFT", 0, 0)
+					v:SetPoint("RIGHT", last, "LEFT", 0, 0)
 				end
 				last = v
 			end

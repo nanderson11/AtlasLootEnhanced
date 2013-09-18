@@ -878,8 +878,22 @@ function AtlasLoot:GetLootPageFromDataID(dataID)
 	local dataIDOri = dataID
 	dataID, instancePage = self:FormatDataID(dataID)
 	lootTableType = self:GetLootTableType(dataIDOri) or "Normal"
-	if not AtlasLoot_Data[dataID] or not AtlasLoot_Data[dataID][lootTableType] or not AtlasLoot_Data[dataID][lootTableType][instancePage] then
+	
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][lootTableType] then
+		if AtlasLoot_Data[dataID][lootTableType][instancePage] then
+			-- do nothing ...
+		elseif AtlasLoot_Data[dataID][lootTableType][1] then
+			instancePage = 1
+		else
+			return
+		end
+	else
 		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found. (%s)", dataID or "nil", lootTableType or "nil", instancePage or "nil", dataIDOri or "nil"))
+		return
+	end
+	
+	if not AtlasLoot_Data[dataID] or not AtlasLoot_Data[dataID][lootTableType] or not AtlasLoot_Data[dataID][lootTableType][instancePage] then
+
 		return
 	end
 	lootTable = AtlasLoot_Data[dataID][lootTableType][instancePage]
@@ -1080,7 +1094,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 			self.ItemFrame.Heroic:Show()
 			self.ItemFrame.Heroic:SetChecked(false)
 			self.ItemFrame.Heroic:Enable()
-		end --"Flexible"
+		end
 	elseif lootTableType == "Flexible" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["Flexible"] then
 		self.ItemFrame.Flexible:Show()
 		self.ItemFrame.Flexible:SetChecked(true)

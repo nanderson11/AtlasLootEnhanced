@@ -24,7 +24,7 @@ AtlasLoot.AddonInfo = {
 		},
 		["Lag"] = {
 			email = "lag@atlasloot.net",
-			ingame = {"Lág@Ysera", "Calî@Ysera", "Shijera@Ysera", "Làg@Ysera", "Terija@Ysera"},
+			ingame = {"Lág@Ysera", "Calî@Ysera", "Shijera@Ysera", "Làg@Ysera", "Terija@Ysera", "Choreria@Ysera"},
 			friends = {"Meena@Ysera", "Purzlschn@Ysera"},
 		},
 		["Celellach"] = {
