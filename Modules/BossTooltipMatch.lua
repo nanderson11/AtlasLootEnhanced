@@ -11,6 +11,22 @@ AtlasLoot_BossTooltipMatch = {}
 -----------------------
 -- Mists Raids
 -----------------------
+AtlasLoot_BossTooltipMatch[71153]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71160]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71154]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71156]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71161]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71155]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71158]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71152]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71157]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch[71889]					= AtlasLoot:EJ_GetBossName("Spoils of Pandaria", 870)
+AtlasLoot_BossTooltipMatch[71859]					= AtlasLoot:EJ_GetBossName("Kor'kron Dark Shaman", 856)
+AtlasLoot_BossTooltipMatch[71858]					= AtlasLoot:EJ_GetBossName("Kor'kron Dark Shaman", 856)
+AtlasLoot_BossTooltipMatch[72276]					= AtlasLoot:EJ_GetBossName("Norushen", 866)
+AtlasLoot_BossTooltipMatch[71479]					= AtlasLoot:EJ_GetBossName("The Fallen Protectors", 849)
+AtlasLoot_BossTooltipMatch[71475]					= AtlasLoot:EJ_GetBossName("The Fallen Protectors", 849)
+AtlasLoot_BossTooltipMatch[71480]					= AtlasLoot:EJ_GetBossName("The Fallen Protectors", 849)
 AtlasLoot_BossTooltipMatch[68905]					= AtlasLoot:EJ_GetBossName("Twin Consorts", 829)
 AtlasLoot_BossTooltipMatch[68904]					= AtlasLoot:EJ_GetBossName("Twin Consorts", 829)
 AtlasLoot_BossTooltipMatch[70247]					= AtlasLoot:EJ_GetBossName("Megaera", 821)
