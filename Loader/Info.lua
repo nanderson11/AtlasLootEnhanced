@@ -14,7 +14,7 @@ AtlasLoot.AddonInfo = {
 	support = {
 		email = "manager@atlasloot.net",
 		forum = "http://www.atlasloot.net/",
-		curse = "http://wow.curse.com/downloads/wow-addons/details/atlasloot-enhanced.aspx",
+		curse = "http://www.curse.com/addons/wow/atlasloot-enhanced",
 		wowinterface = "http://www.wowinterface.com/downloads/info5541-AtlasLootEnhanced.html",
 	},
 	authors = {
