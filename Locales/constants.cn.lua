@@ -84,6 +84,9 @@ if AL then
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu 已经没有任何用处。\n请将其从 AddOns 文件夹移除。";
 
+	-- Atlas Incompatible
+	AL["Please note that AtlasLoot v%s is only compatible with Atlas v%s. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled."] = "请注意，AtlasLoot v%s 仅支持 Atlas v%s 。我們检测到您当前的 Atlas 版本太旧，因此关于 Atlas 的整合将会被停用。";
+
 	-- Options
 	AL["Options"] = "选项";
 	AL["Load Loot Modules at Startup"] = "在启动时载入掉落物品模块";
@@ -612,6 +615,7 @@ if AL then
 	AL["Flexible"] = "弹性";
 	AL["Raid Finder"] = "团队查找器";
 	AL["Thunderforged"] = "雷霆";
+	AL["Warforged"] = "战火";
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
 	AL["Elite"] = "精锐";
 	AL["Vegetables"] = "蔬菜";
