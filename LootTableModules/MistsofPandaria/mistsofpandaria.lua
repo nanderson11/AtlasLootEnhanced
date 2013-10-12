@@ -11965,8 +11965,9 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 85871, "", "=q3=Lucky Quilen Cub", "=ds=#e13#", "#ACHIEVEMENTID:6848#"};
 				{ 11, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#", "=q2="..AL["Burning Crusade"].." "..AL["Collector's Edition"]};
 				{ 17, 56806, "", "=q3=Mini Thor", "=ds=#e13#", "#ACHIEVEMENTID:4824#"};
-				{ 18, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#", "#ACHIEVEMENTID:3618#"};
-				{ 19, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""}; -- ACM not yet on PTR
+				{ 18, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
+				{ 19, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#", "#ACHIEVEMENTID:3618#"};
+				---{ 19, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""}; NOT AVAILABLE TO PLAYERS
 				{ 20, 71726, "", "=q3=Murky's Little Soulstone", "=ds=#e13#", "#ACHIEVEMENTID:6185#"};
 				{ 21, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#", "#ACHIEVEMENTID:665#"};
 				{ 22, 13583, "", "=q3=Panda Collar", "=ds=#e13#", "#ACHIEVEMENTID:663#"};
@@ -12147,6 +12148,18 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+	AtlasLoot_Data["PetsUNKNOWN"] = {
+		["Normal"] = {
+			{
+				{ 2, 106240, "", "=q3=Bernard's Brandy", "=ds=#e13#"};
+			};
+		};
+		info = {
+			name = AL["New Companions"].." - Unknown Source",
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+		
 		--------------
 		--- Mounts ---
 		--------------
@@ -12677,13 +12690,14 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 2, 83086, "", "=q4=Heart of the Nightwing", "#ACHIEVEMENTID:8213#"};
-				{ 3, 98618, "", "=q4=Hearthsteed", "#ACHIEVEMENTID:8345#"};
-				{ 4, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
-				{ 5, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
-				{ 6, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
-				{ 7, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
-				{ 9, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 2, 106246, "", "=q4=Emerald Hippogryph", "#ACHIEVEMENTID:8794#"};
+				{ 3, 83086, "", "=q4=Heart of the Nightwing", "#ACHIEVEMENTID:8213#"};
+				{ 4, 98618, "", "=q4=Hearthsteed", "#ACHIEVEMENTID:8345#"};
+				{ 5, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
+				{ 6, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 7, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 8, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 10, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 95341, "", "=q4=Armored Bloodwing", "=ds=#e27#"};
 				{ 18, 54811, "", "=q4=Celestial Steed", "=ds=#e27#"};
