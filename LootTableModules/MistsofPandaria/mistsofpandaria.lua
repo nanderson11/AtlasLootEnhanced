@@ -6483,9 +6483,10 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 84660, "", "=q2=Pandaren Fishing Pole", "=ds=#e20#", "=ds=25 #gold#"};
 				{ 9, 0, "achievement_faction_anglers", "=q6=#r4#", ""};
 				{ 10, 85500, "", "=q3=Anglers Fishing Raft", "=ds=#p24# (525)", "=ds=1,000 #gold#"};
-				{ 11, 84661, "", "=q3=Dragon Fishing Pole", "=ds=#e20#", "=ds=500 #gold#"};
-				{ 12, 88535, "", "=q3=Sharpened Tuskarr Spear", "=ds=#h3#", "=ds=1,500 #gold#"};
-				{ 13, 93225, "", "=q7=Grand Commendation of the Anglers", "=ds=", "=ds=45 #gold#"};
+				{ 11, 107950, "", "=q3=Bipsi's Bobbing Berg", "=ds=#p24# (525), =q1=#m1# =ds=#c3#", "=ds=1,000 #gold#"};
+				{ 12, 84661, "", "=q3=Dragon Fishing Pole", "=ds=#e20#", "=ds=500 #gold#"};
+				{ 13, 88535, "", "=q3=Sharpened Tuskarr Spear", "=ds=#h3#", "=ds=1,500 #gold#"};
+				{ 14, 93225, "", "=q7=Grand Commendation of the Anglers", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_anglers", "=q6=#r5#", ""};
 				{ 17, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e12#", "=ds=5,000 #gold#"};
 				{ 18, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#", "=ds=10 #gold#"};
@@ -11958,23 +11959,24 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 20371, "", "=q3=Blue Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:411#"};
 				{ 4, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#", "=ds=#e13#"};
 				{ 5, 13584, "", "=q3=Diablo Stone", "=ds=#e13#", "#ACHIEVEMENTID:662#"};
-				{ 6, 76062, "", "=q3=Fetish Shaman's Spear", "=ds=#e13#", "#ACHIEVEMENTID:7412#"};
-				{ 7, 39286, "", "=q3=Frosty's Collar", "=ds=#e13#", "#ACHIEVEMENTID:683#"};
-				{ 8, 46802, "", "=q3=Heavy Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:3536#"};
-				{ 9, 62540, "", "=q3=Lil' Deathwing", "=ds=#e13#", "#ACHIEVEMENTID:5377#"};
-				{ 10, 85871, "", "=q3=Lucky Quilen Cub", "=ds=#e13#", "#ACHIEVEMENTID:6848#"};
-				{ 11, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#", "=q2="..AL["Burning Crusade"].." "..AL["Collector's Edition"]};
+				{ 6, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#"};
+				{ 7, 76062, "", "=q3=Fetish Shaman's Spear", "=ds=#e13#", "#ACHIEVEMENTID:7412#"};
+				{ 8, 39286, "", "=q3=Frosty's Collar", "=ds=#e13#", "#ACHIEVEMENTID:683#"};
+				{ 9, 46802, "", "=q3=Heavy Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:3536#"};
+				{ 10, 62540, "", "=q3=Lil' Deathwing", "=ds=#e13#", "#ACHIEVEMENTID:5377#"};
+				{ 11, 85871, "", "=q3=Lucky Quilen Cub", "=ds=#e13#", "#ACHIEVEMENTID:6848#"};
+				{ 12, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#", "=q2="..AL["Burning Crusade"].." "..AL["Collector's Edition"]};
 				{ 17, 56806, "", "=q3=Mini Thor", "=ds=#e13#", "#ACHIEVEMENTID:4824#"};
 				{ 18, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
 				{ 19, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#", "#ACHIEVEMENTID:3618#"};
-				---{ 19, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""}; NOT AVAILABLE TO PLAYERS
 				{ 20, 71726, "", "=q3=Murky's Little Soulstone", "=ds=#e13#", "#ACHIEVEMENTID:6185#"};
 				{ 21, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#", "#ACHIEVEMENTID:665#"};
 				{ 22, 13583, "", "=q3=Panda Collar", "=ds=#e13#", "#ACHIEVEMENTID:663#"};
 				{ 23, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#", "=ds=#e13#"};
 				{ 24, 67418, "", "=q3=Smoldering Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:5378#"};
-				{ 25, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#", "#ACHIEVEMENTID:414#"};
-				{ 26, 13582, "", "=q3=Zergling Leash", "=ds=#e13#", "#ACHIEVEMENTID:664#"};
+				{ 25, 106256, "", "=q3=Treasure Goblin's Pack", "=ds=#e13#", "#ACHIEVEMENTID:8795#"};
+				{ 26, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#", "#ACHIEVEMENTID:414#"};
+				{ 27, 13582, "", "=q3=Zergling Leash", "=ds=#e13#", "#ACHIEVEMENTID:664#"};
 			};
 		};
 		info = {
@@ -12013,8 +12015,9 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 2, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
-				{ 3, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
-				{ 4, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#", "#ACHIEVEMENTID:2456#, =q1="..ALIL["Karazhan"]};
+				{ 3, 100870, "", "=q3=Murkimus' Tyrannical Spear", "=ds=#e13#", ""};
+				{ 4, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
+				{ 5, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#", "#ACHIEVEMENTID:2456#, =q1="..ALIL["Karazhan"]};
 				{ 17, 44819, "", "=q1=Baby Blizzard Bear", "=ds=#e13#", "#ACHIEVEMENTID:2398#"};
 				{ 18, 49362, "", "=q1=Onyxian Whelpling", "=ds=#e13#", "#ACHIEVEMENTID:4400#"};
 			};
@@ -12028,18 +12031,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsPetStore"] = {
 		["Normal"] = {
 			{
-				{ 2, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
-				{ 3, 70099, "", "=q3=Cenarion Hatchling", "=ds=#e13#"};
-				{ 4, 92707, "", "=q3=Cinder Kitten", "=ds=#e13#"};
-				{ 5, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 6, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
-				{ 7, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 2, 106240, "", "=q3=Alterac Brandy", "=ds=#e13#"};
+				{ 3, 98550, "", "=q3=Blossoming Ancient", "=ds=#e13#"};
+				{ 4, 70099, "", "=q3=Cenarion Hatchling", "=ds=#e13#"};
+				{ 5, 92707, "", "=q3=Cinder Kitten", "=ds=#e13#"};
+				{ 6, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+				{ 7, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
+				{ 8, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
 				{ 17, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
 				{ 18, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
-				{
-					{ 19, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
-					{ 19, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
-				};
+				{ 19, 108438, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
 				{ 20, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
 				{ 21, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
 				{ 22, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
@@ -12130,16 +12131,22 @@ local moduleName = "AtlasLootMoP"
 				{ 30, 104164, "", "=q3=Jademist Dancer", "=ds=#e13#", "=q2="..ALIL["Jademist Dancer"]..", =q1="..ALIL["Timeless Isle"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
-				{ 2, 104165, "", "=q3=Kovok", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)..", =q1="..ALIL["Siege of Orgrimmar"]};
-				{ 3, 104166, "", "=q3=Ominous Flame", "=ds=#e13#", "=q2="..ALIL["Foreboding Flame"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 4, 104159, "", "=q3=Ruby Droplet", "=ds=#e13#", "=q2="..ALIL["Garnia"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 5, 104167, "", "=q3=Skunky Alemental", "=ds=#e13#", "=q2="..ALIL["Zhu-Gon the Sour"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 6, 104168, "", "=q3=Spineclaw Crab", "=ds=#e13#", "=q2="..ALIL["Monstrous Spineclaw"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 7, 104291, "", "=q3=Swarmling of Gu'chi", "=ds=#e13#", "=q2="..ALIL["Gu'chi the Swarmbringer"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
-				{ 17, 101570, "", "=q3=Moon Moon", "=ds=#e13#", "=q2="..AL["Drop"]..": "..AL["Moonfang"]..", =q1="..AL["Darkmoon Island"]};
-				{ 18, 104317, "", "=q3=Rotten Helper Box", "=ds=#e13#", "=ds="..AL["Feast of Winter Veil"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 2, 106240, "", "=q3=Alterac Brandy", "=ds=#e13#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
+				{ 5, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#"};
+				{ 6, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
+				{ 7, 106256, "", "=q3=Treasure Goblin's Pack", "=ds=#e13#", "#ACHIEVEMENTID:8795#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
+				{ 17, 104165, "", "=q3=Kovok", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)..", =q1="..ALIL["Siege of Orgrimmar"]};
+				{ 18, 104166, "", "=q3=Ominous Flame", "=ds=#e13#", "=q2="..ALIL["Foreboding Flame"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 19, 104159, "", "=q3=Ruby Droplet", "=ds=#e13#", "=q2="..ALIL["Garnia"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 20, 104167, "", "=q3=Skunky Alemental", "=ds=#e13#", "=q2="..ALIL["Zhu-Gon the Sour"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 21, 104168, "", "=q3=Spineclaw Crab", "=ds=#e13#", "=q2="..ALIL["Monstrous Spineclaw"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 22, 104291, "", "=q3=Swarmling of Gu'chi", "=ds=#e13#", "=q2="..ALIL["Gu'chi the Swarmbringer"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 24, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
+				{ 25, 101570, "", "=q3=Moon Moon", "=ds=#e13#", "=q2="..AL["Drop"]..": "..AL["Moonfang"]..", =q1="..AL["Darkmoon Island"]};
+				{ 26, 104317, "", "=q3=Rotten Helper Box", "=ds=#e13#", "=ds="..AL["Feast of Winter Veil"]};
 			};
 		};
 		info = {
@@ -12148,18 +12155,6 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
-	AtlasLoot_Data["PetsUNKNOWN"] = {
-		["Normal"] = {
-			{
-				{ 2, 106240, "", "=q3=Bernard's Brandy", "=ds=#e13#"};
-			};
-		};
-		info = {
-			name = AL["New Companions"].." - Unknown Source",
-			module = moduleName, menu = "PETMENU", instance = "Pets",
-		};
-	}
-		
 		--------------
 		--- Mounts ---
 		--------------
@@ -12701,9 +12696,11 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 95341, "", "=q4=Armored Bloodwing", "=ds=#e27#"};
 				{ 18, 54811, "", "=q4=Celestial Steed", "=ds=#e27#"};
-				{ 19, 78924, "", "=q4=Heart of the Aspects", "=ds=#e27#"};
-				{ 20, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 21, 69846, "", "=q4=Winged Guardian", "=ds=#e27#"};
+				{ 19, 97989, "", "=q4=Enchanted Fey Dragon", "=ds=#e27#"};
+				{ 20, 78924, "", "=q4=Heart of the Aspects", "=ds=#e27#"};
+				{ 21, 107951, "", "=q4=Iron Skyreaver", "=ds=#e27#"};
+				{ 22, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
+				{ 23, 69846, "", "=q4=Winged Guardian", "=ds=#e27#"};
 			};
 		};
 		info = {
@@ -12811,15 +12808,16 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 12302, "", "=q4=Reins of the Ancient Frostsaber", "#e26#"};
 				{ 13, 12303, "", "=q4=Reins of the Nightsaber", "#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 17, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
-				{ 18, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
-				{ 20, 0, "INV_Box_01", "=q6="..FACTION_HORDE, "#ACHIEVEMENTID:879#"};
-				{ 21, 12351, "", "=q4=Horn of the Arctic Wolf", "#e26#"};
-				{ 22, 12330, "", "=q4=Horn of the Red Wolf", "#e26#"};
-				{ 23, 15292, "", "=q4=Green Kodo", "#e26#"};
-				{ 24, 15293, "", "=q4=Teal Kodo", "#e26#"};
-				{ 25, 13317, "", "=q4=Whistle of the Ivory Raptor", "#e26#"};
-				{ 26, 8586, "", "=q4=Whistle of the Mottled Red Raptor", "#e26#"};
+				{ 17, 103630, "", "=q4=Lucky Riding Turtle", "=ds=#e26#" };
+				{ 18, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
+				{ 19, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 21, 0, "INV_Box_01", "=q6="..FACTION_HORDE, "#ACHIEVEMENTID:879#"};
+				{ 22, 12351, "", "=q4=Horn of the Arctic Wolf", "#e26#"};
+				{ 23, 12330, "", "=q4=Horn of the Red Wolf", "#e26#"};
+				{ 24, 15292, "", "=q4=Green Kodo", "#e26#"};
+				{ 25, 15293, "", "=q4=Teal Kodo", "#e26#"};
+				{ 26, 13317, "", "=q4=Whistle of the Ivory Raptor", "#e26#"};
+				{ 27, 8586, "", "=q4=Whistle of the Mottled Red Raptor", "#e26#"};
 			};
 		};
 		info = {
@@ -12844,14 +12842,19 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 95416, "", "=q4=Sky Golem", "=ds=#e27#", "=ds=#p5#" };
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Neutral Faction Mounts"], ""};
 				{ 17, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
-				{ 20, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
-				{ 22, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 23, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
-				{ 24, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
-				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
-				{ 27, 103630, "", "=q4=Lucky Riding Turtle", "=ds=#e26#" };
-				{ 28, 104011, "", "=q4=Stormcrow", "=ds=" };
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
+				{ 20, 106246, "", "=q4=Emerald Hippogryph", "#ACHIEVEMENTID:8794#"};
+				{ 21, 107951, "", "=q4=Iron Skyreaver", "=ds=#e27#"};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
+				{ 24, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 27, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
+				{ 28, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
+				{ 2, 109013, "", "=q4=Reins of the Dread Raven", "=ds=#e27#"};
+				{ 3, 104011, "", "=q4=Stormcrow", "=ds=" };
 			};
 		};
 		info = {
