@@ -11,6 +11,11 @@ AtlasLoot_BossTooltipMatch = {}
 -----------------------
 -- Mists Raids
 -----------------------
+AtlasLoot_BossTooltipMatch[71952]					= AtlasLoot_IngameLocales["The August Celestials"]
+AtlasLoot_BossTooltipMatch[71955]					= AtlasLoot_IngameLocales["The August Celestials"]
+AtlasLoot_BossTooltipMatch[71954]					= AtlasLoot_IngameLocales["The August Celestials"]
+AtlasLoot_BossTooltipMatch[71953]					= AtlasLoot_IngameLocales["The August Celestials"]
+AtlasLoot_BossTooltipMatch[72057]					= AtlasLoot:EJ_GetBossName("Ordos, Fire-God of the Yaungol", 861)
 AtlasLoot_BossTooltipMatch[71153]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
 AtlasLoot_BossTooltipMatch[71160]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
 AtlasLoot_BossTooltipMatch[71154]					= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
@@ -151,6 +156,15 @@ AtlasLoot_BossTooltipMatch[15511]					= BabbleBoss["The Bug Family"]
 ---------------------------------------------------------------
 -- These matches uses Object Names and need to be translated
 ---------------------------------------------------------------
+
+-----------------------
+-- Mists Raids
+-----------------------
+AtlasLoot_BossTooltipMatch["Legacy of the Clan Leaders"]	= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch["Mantid Amber"]			= AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)
+AtlasLoot_BossTooltipMatch["Secured Stockpile of Pandaren Spoils"]	= AtlasLoot:EJ_GetBossName("Spoils of Pandaria", 870)
+AtlasLoot_BossTooltipMatch["Vault of Forbidden Treasures"]	= AtlasLoot:EJ_GetBossName("Sha of Pride", 867)
+AtlasLoot_BossTooltipMatch["Tears of the Vale"]			= AtlasLoot:EJ_GetBossName("Immerseus", 852)
 
 -----------------------
 -- Mists Dungeons
