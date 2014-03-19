@@ -105,7 +105,7 @@ if AL then
 	AL["As Items"] = "comme des objets";
 	AL["Reset"] = "Réinitialiser";
 	AL["Reset Frames"] = "Réinitialiser les frames";
-	--AL["Profiles"] = true;
+	AL["Profiles"] = "Profils";
 	AL["Item Buttons"] = "Options des boutons"
 	AL["Loot Table"] = "Table de loot";
 	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
