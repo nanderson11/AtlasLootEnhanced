@@ -11955,7 +11955,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 20371, "", "=q3=Blue Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:411#"};
 				{ 4, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#", "=ds=#e13#"};
 				{ 5, 13584, "", "=q3=Diablo Stone", "=ds=#e13#", "#ACHIEVEMENTID:662#"};
-				{ 6, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#"};
+				{ 6, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:8915#"};
 				{ 7, 76062, "", "=q3=Fetish Shaman's Spear", "=ds=#e13#", "#ACHIEVEMENTID:7412#"};
 				{ 8, 39286, "", "=q3=Frosty's Collar", "=ds=#e13#", "#ACHIEVEMENTID:683#"};
 				{ 9, 46802, "", "=q3=Heavy Murloc Egg", "=ds=#e13#", "#ACHIEVEMENTID:3536#"};
@@ -12130,7 +12130,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 2, 106240, "", "=q3=Alterac Brandy", "=ds=#e13#"};
 				{ 4, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 5, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#"};
+				{ 5, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:8915#"};
 				{ 6, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
 				{ 7, 106256, "", "=q3=Treasure Goblin's Pack", "=ds=#e13#", "#ACHIEVEMENTID:8795#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
@@ -12685,10 +12685,11 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 83086, "", "=q4=Heart of the Nightwing", "#ACHIEVEMENTID:8213#"};
 				{ 4, 98618, "", "=q4=Hearthsteed", "#ACHIEVEMENTID:8345#"};
 				{ 5, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
-				{ 6, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
-				{ 7, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
-				{ 8, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
-				{ 10, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 6, 109013, "", "=q4=Reins of the Dread Raven", "=ds=#e27#", "#ACHIEVEMENTID:8913#"};
+				{ 7, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 8, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 9, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 11, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 95341, "", "=q4=Armored Bloodwing", "=ds=#e27#"};
 				{ 18, 54811, "", "=q4=Celestial Steed", "=ds=#e27#"};
@@ -12841,16 +12842,18 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 20, 106246, "", "=q4=Emerald Hippogryph", "#ACHIEVEMENTID:8794#"};
 				{ 21, 107951, "", "=q4=Iron Skyreaver", "=ds=#e27#"};
-				{ 23, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
-				{ 24, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 27, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
-				{ 28, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
+				{ 22, 109013, "", "=q4=Reins of the Dread Raven", "=ds=#e27#", "#ACHIEVEMENTID:8913#"};
+				{ 24, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
+				{ 25, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 28, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
+				{ 29, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
-				{ 2, 109013, "", "=q4=Reins of the Dread Raven", "=ds=#e27#"};
+				{ 2, 112327, "", "=q4=Grinning Reaver", "=ds=" };
 				{ 3, 104011, "", "=q4=Stormcrow", "=ds=" };
+				{ 4, 112326, "", "=q4=Warforged Nightmare", "=ds=" };
 			};
 		};
 		info = {
@@ -14026,11 +14029,12 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 103986, "", "=q4=Discipline of Xuen", "=ds=#s14#", "#TIMELESSCOIN:50000#"};
 				{ 4, 103990, "", "=q4=Resolve of Niuzao", "=ds=#s14#", "#TIMELESSCOIN:50000#"};
 				{ 5, 103987, "", "=q4=Yu'lon's Bite", "=ds=#s14#", "#TIMELESSCOIN:50000#"};
-				{ 7, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
-				{ 9, 103982, "", "=q4=Burden of Eternity", "=ds=#m20#", "#TIMELESSCOIN:50000#"};
-				{ 11, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
-				{ 12, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
-				{ 13, 104332, "", "=q3=Sky Lantern", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
+				{ 6, 103678, "", "=q4=Time-Lost Artifact", "=ds=#s14#", "#TIMELESSCOIN:7500#"};
+				{ 8, 103982, "", "=q4=Burden of Eternity", "=ds=#m20#", "#TIMELESSCOIN:50000#"};
+				{ 10, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", "#TIMELESSCOIN:100000#"};
+				{ 11, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
+				{ 12, 104332, "", "=q3=Sky Lantern", "=ds=#e13#", "#TIMELESSCOIN:7500#"};
+				{ 14, 112353, "", "=q4=Deeds of Valor", "=ds=#m17#", "#TIMELESSCOIN:3000#"};
 				{ 15, 104014, "", "=q4=Pouch of Timeless Coins", "=ds=#m17#", "#VALOR:500#"};
 				{ 16, 105921, "", "=q4=Cloudscorcher Greatstaff", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
 				{ 17, 105923, "", "=q4=Contemplation of Shaohao", "=ds=#w9#", "#TIMELESSCOIN:20000#"};
