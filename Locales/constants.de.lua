@@ -1041,9 +1041,9 @@ if AL then
 	-- AL["Luo Luo"] = true;
 	-- AL["Meng Meng"] = true;
 	AL["Moonfang"] = "Mondfang";
+	AL["Nice Sprite"] = "Netter Geist";
 	AL["Ongrom Black Tooth"] = "Ongrom Schwarzzahn";
 	AL["Proveditor Grantley"] = "Administrator Grantley";
-	AL["Scary Sprite"] = "Schauriger Geist";
 	--- World Events
 	AL["Crimson Templar"] = "Purpurroter Templer";
 	AL["Azure Templar"] = "Azurblauer Templer";

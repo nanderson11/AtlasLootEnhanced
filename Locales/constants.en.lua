@@ -1044,9 +1044,9 @@ if AL then
 	AL["Luo Luo"] = true;
 	AL["Meng Meng"] = true;
 	AL["Moonfang"] = true;
+	AL["Nice Sprite"] = true;
 	AL["Ongrom Black Tooth"] = true;
 	AL["Proveditor Grantley"] = true;
-	AL["Scary Sprite"] = true;
 	--- World Events
 	AL["Crimson Templar"] = true;  --- mob removed from game?
 	AL["Azure Templar"] = true;  --- mob removed from game?

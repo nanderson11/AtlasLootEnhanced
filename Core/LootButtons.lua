@@ -24,6 +24,8 @@ local function canUpgradeItem(itemId)
 	if itemLevel and itemLevel >= 458 and itemRarity and itemRarity >= 3 then
 		if itemRarity == 3 then 	-- Rare
 			return 451, { 452 }
+		elseif itemRarity == 4 and itemId >= 98599 then	-- Epic & 4 times upgradeable
+			return 458, { 459, 460, 461, 462 }
 		elseif itemRarity == 4 then	-- Epic
 			return 445, { 446, 447 }
 		end

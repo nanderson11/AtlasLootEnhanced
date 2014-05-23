@@ -1046,7 +1046,6 @@ if AL then
 	AL["Moonfang"] = "月牙";
 	AL["Ongrom Black Tooth"] = "『黑齒』歐格姆";
 	AL["Proveditor Grantley"] = "供應商格蘭特雷";
-	AL["Scary Sprite"] = "駭人的妖精";
 	--- World Events
 	AL["Crimson Templar"] = "赤紅聖殿騎士";
 	AL["Azure Templar"] = "碧藍聖殿騎士";

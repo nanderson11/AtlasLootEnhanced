@@ -145,7 +145,7 @@ do
 										type = "range",
 										name = AL["Upgrade Level:"],
 										--desc = ,
-										min = 0, max = 2, bigStep = 1,
+										min = 0, max = 4, bigStep = 1,
 										get = getOpt,
 										set = function(info, value)
 											setOpt(info, value)

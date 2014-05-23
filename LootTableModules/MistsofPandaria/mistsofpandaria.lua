@@ -6268,6 +6268,91 @@ local moduleName = "AtlasLootMoP"
 	}
 
 		---------------------
+		--- Timeless Isle ---
+		---------------------
+
+	AtlasLoot_Data["RaresMOPMobsTimelessIsle"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..ALIL["Archiereus of Flame"], ""};
+				{ 3, 86574, "", "=q3=Elixir of Ancient Knowledge", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..ALIL["Bufo"], ""};
+				{ 6, 104169, "", "=q3=Gulp Froglet", "=ds=#e13#"};
+				{ 8, 0, "inv_box_04", "=q6="..ALIL["Champion of the Black Flame"], ""};
+				{ 9, 104302, "", "=q3=Blackflame Daggers", "=ds="};
+				{ 11, 0, "inv_box_04", "=q6="..ALIL["Chelon"].." & "..ALIL["Great Turtle Furyshell"], ""};
+				{ 12, 86584, "", "=q3=Hardened Shell", "=ds="};
+				{ 14, 0, "inv_box_04", "=q6="..ALIL["Cinderfall"], ""};
+				{ 15, 104299, "", "=q3=Falling Flame", "=ds="};
+				{ 17, 0, "inv_box_04", "=q6="..ALIL["Cranegnasher"], ""};
+				{ 18, 104268, "", "=q3=Pristine Stalker Hide", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..ALIL["Dread Ship Vazuvius"], "=q1="..AL["Summon"]};
+				{ 21, 104294, "", "=q3=Rime of the Time-Lost Mariner", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..ALIL["Emerald Gander"], ""};
+				{ 24, 104287, "", "=q2=Windfeather Plume", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..ALIL["Evermaw"], ""};
+				{ 27, 104115, "", "=q1=Mist-Filled Spirit Lantern", "=ds="};
+				{ 29, 0, "inv_box_04", "=q6="..ALIL["Flintlord Gairan"], ""};
+				{ 30, 104298, "", "=q4=Ordon Death Chime", "=ds=#s14#"};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..ALIL["Garnia"], ""};
+				{ 3, 104159, "", "=q3=Ruby Droplet", "=ds=#e13#"};
+				{ 5, 0, "inv_box_04", "=q6="..ALIL["Golganarr"], ""};
+				{ 6, 104262, "", "=q3=Odd Polished Stone", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6="..ALIL["Gu'chi the Swarmbringer"], ""};
+				{ 9, 104291, "", "=q3=Swarmling of Gu'chi", "=ds=#e13#"};
+				{ 11, 0, "inv_box_04", "=q6="..ALIL["Huolon"], ""};
+				{ 12, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#"};
+				{ 13, 104286, "", "=q1=Quivering Firestorm Egg", "=ds="};
+				{ 17, 0, "inv_box_04", "=q6="..ALIL["Ironfur Steelhorn"], ""};
+				{ 18, 89770, "", "=q2=Tuft of Yak Fur", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..ALIL["Imperial Python"], ""};
+				{ 21, 104161, "", "=q3=Death Adder Hatchling", "=ds=#e13#"};
+				{ 23, 0, "inv_box_04", "=q6="..ALIL["Jakur of Ordon"], ""};
+				{ 24, 104331, "", "=q3=Warning Sign", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..ALIL["Karkanos"], ""};
+				{ 27, 104035, "", "=q1=Giant Purse of Timeless Coins", "=ds="};
+				{ 29, 0, "inv_box_04", "=q6="..ALIL["Leafmender"], ""};
+				{ 30, 104156, "", "=q3=Ashleaf Spriteling", "=ds=#e13#"};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..ALIL["Molten Guardian"], ""};
+				{ 3, 104328, "", "=q3=Cauterizing Core", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..ALIL["Monstrous Spineclaw"], ""};
+				{ 6, 104168, "", "=q3=Spineclaw Crab", "=ds=#e13#"};
+				{ 8, 0, "inv_box_04", "=q6="..AL["Nice Sprite"], ""};
+				{ 9, 104160, "", "=q3=Dandelion Frolicker", "=ds=#e13#"};
+				{ 11, 0, "inv_box_04", "=q6="..ALIL["Rattleskew"], ""};
+				{ 12, 104321, "", "=q4=Captain Zvezdan's Lost Leg", "=ds=#s14#"};
+				{ 14, 0, "inv_box_04", "=q6="..ALIL["Rock Moss"], ""};
+				{ 15, 104313, "", "=q3=Golden Moss", "=ds=#s14#"};
+				{ 17, 0, "inv_box_04", "=q6="..ALIL["Spelurk"], ""};
+				{ 18, 104320, "", "=q2=Cursed Talisman", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..ALIL["Spirit of Jadefire"], ""};
+				{ 21, 104258, "", "=q3=Glowing Green Ash", "=ds="};
+				{ 22, 104307, "", "=q3=Jadefire Spirit", "=ds=#e13#"};
+				{ 24, 0, "inv_box_04", "=q6="..ALIL["Tsavo'ka"], ""};
+				{ 25, 104268, "", "=q3=Pristine Stalker Hide", "=ds="};
+				{ 27, 0, "inv_box_04", "=q6="..ALIL["Urdur the Cauterizer"], ""};
+				{ 28, 104306, "", "=q3=Sunset Stone", "=ds="};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..ALIL["Watcher Osu"], ""};
+				{ 3, 104305, "", "=q3=Ashen Stone", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..ALIL["Zesqua"], ""};
+				{ 6, 104303, "", "=q3=Rain Stone", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6="..ALIL["Zhu-Gon the Sour"], "=q1="..AL["Summon"]};
+				{ 9, 104167, "", "=q3=Skunky Alemental", "=ds=#e13#"};
+			};
+		};
+		info = {
+			name = ALIL["Timeless Isle"],
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		---------------------
 		--- Miscellaneous ---
 		---------------------
 
@@ -11737,7 +11822,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 104156, "", "=q3=Ashleaf Spriteling", "=ds=#e13#", "=q2="..ALIL["Leafmender"]..", =q1="..ALIL["Timeless Isle"]};
 				{ 4, 104157, "", "=q3=Azure Crane Chick", "=ds=#e13#", "=q2="..ALIL["Crane Nest"]..", =q1="..ALIL["Timeless Isle"]};
 				{ 5, 104202, "", "=q3=Bonkers", "=ds=#e13#", "=q2="..AL["Timeless Chest"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 6, 104160, "", "=q3=Dandelion Frolicker", "=ds=#e13#", "=q2="..AL["Scary Sprite"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 6, 104160, "", "=q3=Dandelion Frolicker", "=ds=#e13#", "=q2="..AL["Nice Sprite"]..", =q1="..ALIL["Timeless Isle"]};
 				{ 7, 104161, "", "=q3=Death Adder Hatchling", "=ds=#e13#", "=q2="..ALIL["Imperial Python"]..", =q1="..ALIL["Timeless Isle"]};
 				{ 8, 64403, "", "=q3=Fox Kit", "=ds=#e13#", "=q2="..AL["Baradin Fox"]..", =q1="..ALIL["Tol Barad Peninsula"]};
 				{ 9, 97821, "", "=q3=Gahz'rooki's Summoning Stone", "=ds=#e13#", "=q2="..ALIL["Darkspear Rebellion"]..", =q1="..ALIL["Northern Barrens"]};
@@ -12099,50 +12184,49 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsNEW"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
-				{ 2, 94903, "", "=q3=Pierre", "=ds=#e13#", "=ds=#p5#" };
-				{ 3, 100905, "", "=q3=Rascal-Bot", "=ds=#e13#", "=ds=#p5#" };
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
-				{ 6, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#"..ALIL["Emperor Shaohao"]};
-				{ 8, 0, "INV_Box_01", "=q6="..AL["Merchant Sold Companions"], ""};
-				{ 9, 102145, "", "=q3=Chi-Chi, Hatchling of Chi-Ji", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
-				{ 10, 104332, "", "=q3=Sky Lantern", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#=q1="..ALIL["Timeless Isle"]};
-				{ 11, 103637, "", "=q3=Vengeful Porcupette", "=ds=#e13#", "=ds=#BLOODYCOIN:100#=q1="..ALIL["Timeless Isle"]};
-				{ 12, 101771, "", "=q3=Xu-Fu, Cub of Xuen", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
-				{ 13, 102147, "", "=q3=Yu'la, Broodling of Yu'lon", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
-				{ 14, 102146, "", "=q3=Zao, Calfling of Niuzao", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
-				{ 17, 103670, "", "=q3=Lil' Bling", "=ds=#e13#", "=q1="..AL["Daily Reward"]..": #QUESTID:31752#"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
-				{ 20, 104156, "", "=q3=Ashleaf Spriteling", "=ds=#e13#", "=q2="..ALIL["Leafmender"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 21, 104157, "", "=q3=Azure Crane Chick", "=ds=#e13#", "=q2="..ALIL["Crane Nest"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 22, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)..", =q1="..ALIL["Siege of Orgrimmar"]};
-				{ 23, 104202, "", "=q3=Bonkers", "=ds=#e13#", "=q2="..AL["Timeless Chest"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 24, 104160, "", "=q3=Dandelion Frolicker", "=ds=#e13#", "=q2="..AL["Scary Sprite"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 25, 104161, "", "=q3=Death Adder Hatchling", "=ds=#e13#", "=q2="..ALIL["Imperial Python"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 26, 104162, "", "=q3=Droplet of Y'Shaarj", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Pride", 867).." - "..AL["Flexible"].."/"..AL["Normal"].."/"..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"]};
-				{ 27, 104163, "", "=q3=Gooey Sha-ling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Pride", 867).." - "..AL["Raid Finder"].."/"..AL["Flexible"]..", =q1="..ALIL["Siege of Orgrimmar"]};
-				{ 28, 104169, "", "=q3=Gulp Froglet", "=ds=#e13#", "=q2="..ALIL["Bufo"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 29, 104307, "", "=q3=Jadefire Spirit", "=ds=#e13#", "=q2="..ALIL["Spirit of Jadefire"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 30, 104164, "", "=q3=Jademist Dancer", "=ds=#e13#", "=q2="..ALIL["Jademist Dancer"]..", =q1="..ALIL["Timeless Isle"]};
-			};
-			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 2, 106240, "", "=q3=Alterac Brandy", "=ds=#e13#"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 5, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:8915#"};
-				{ 6, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
-				{ 7, 106256, "", "=q3=Treasure Goblin's Pack", "=ds=#e13#", "#ACHIEVEMENTID:8795#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
-				{ 17, 104165, "", "=q3=Kovok", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)..", =q1="..ALIL["Siege of Orgrimmar"]};
-				{ 18, 104166, "", "=q3=Ominous Flame", "=ds=#e13#", "=q2="..ALIL["Foreboding Flame"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 19, 104159, "", "=q3=Ruby Droplet", "=ds=#e13#", "=q2="..ALIL["Garnia"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 20, 104167, "", "=q3=Skunky Alemental", "=ds=#e13#", "=q2="..ALIL["Zhu-Gon the Sour"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 21, 104168, "", "=q3=Spineclaw Crab", "=ds=#e13#", "=q2="..ALIL["Monstrous Spineclaw"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 22, 104291, "", "=q3=Swarmling of Gu'chi", "=ds=#e13#", "=q2="..ALIL["Gu'chi the Swarmbringer"]..", =q1="..ALIL["Timeless Isle"]};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
-				{ 25, 101570, "", "=q3=Moon Moon", "=ds=#e13#", "=q2="..AL["Drop"]..": "..AL["Moonfang"]..", =q1="..AL["Darkmoon Island"]};
-				{ 26, 104317, "", "=q3=Rotten Helper Box", "=ds=#e13#", "=ds="..AL["Feast of Winter Veil"]};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
+				{ 5, 94903, "", "=q3=Pierre", "=ds=#e13#", "=ds=#p5#" };
+				{ 6, 100905, "", "=q3=Rascal-Bot", "=ds=#e13#", "=ds=#p5#" };
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
+				{ 9, 104295, "", "=q3=Harmonious Porcupette", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#"..ALIL["Emperor Shaohao"]};
+				{ 11, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
+				{ 12, 109014, "", "=q3=Dread Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:8915#"};
+				{ 13, 106244, "", "=q3=Murkalot's Flail", "=ds=#e13#", "#ACHIEVEMENTID:8793#"};
+				{ 14, 106256, "", "=q3=Treasure Goblin's Pack", "=ds=#e13#", "#ACHIEVEMENTID:8795#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
+				{ 17, 103670, "", "=q3=Lil' Bling", "=ds=#e13#", "=q1="..AL["Daily Reward"]..": #QUESTID:31752#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Merchant Sold Companions"], ""};
+				{ 20, 102145, "", "=q3=Chi-Chi, Hatchling of Chi-Ji", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
+				{ 21, 104332, "", "=q3=Sky Lantern", "=ds=#e13#", "=ds=#TIMELESSCOIN:7500#=q1="..ALIL["Timeless Isle"]};
+				{ 22, 103637, "", "=q3=Vengeful Porcupette", "=ds=#e13#", "=ds=#BLOODYCOIN:100#=q1="..ALIL["Timeless Isle"]};
+				{ 23, 101771, "", "=q3=Xu-Fu, Cub of Xuen", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
+				{ 24, 102147, "", "=q3=Yu'la, Broodling of Yu'lon", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
+				{ 25, 102146, "", "=q3=Zao, Calfling of Niuzao", "=ds=#e13#", "=ds=#ITEM:101529:3#=q1="..ALIL["Timeless Isle"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
+				{ 28, 101570, "", "=q3=Moon Moon", "=ds=#e13#", "=q2="..AL["Drop"]..": "..AL["Moonfang"]..", =q1="..AL["Darkmoon Island"]};
+				{ 29, 104317, "", "=q3=Rotten Helper Box", "=ds=#e13#", "=ds="..AL["Feast of Winter Veil"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
+				{ 2, 104156, "", "=q3=Ashleaf Spriteling", "=ds=#e13#", "=q2="..ALIL["Leafmender"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 3, 104157, "", "=q3=Azure Crane Chick", "=ds=#e13#", "=q2="..ALIL["Crane Nest"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 4, 104158, "", "=q3=Blackfuse Bombling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Siegecrafter Blackfuse", 865)..", =q1="..ALIL["Siege of Orgrimmar"]};
+				{ 5, 104202, "", "=q3=Bonkers", "=ds=#e13#", "=q2="..AL["Timeless Chest"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 6, 104160, "", "=q3=Dandelion Frolicker", "=ds=#e13#", "=q2="..AL["Nice Sprite"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 7, 104161, "", "=q3=Death Adder Hatchling", "=ds=#e13#", "=q2="..ALIL["Imperial Python"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 8, 104162, "", "=q3=Droplet of Y'Shaarj", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Pride", 867).." - "..AL["Flexible"].."/"..AL["Normal"].."/"..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"]};
+				{ 9, 104163, "", "=q3=Gooey Sha-ling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Pride", 867).." - "..AL["Raid Finder"].."/"..AL["Flexible"]..", =q1="..ALIL["Siege of Orgrimmar"]};
+				{ 10, 104169, "", "=q3=Gulp Froglet", "=ds=#e13#", "=q2="..ALIL["Bufo"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 11, 104307, "", "=q3=Jadefire Spirit", "=ds=#e13#", "=q2="..ALIL["Spirit of Jadefire"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 12, 104164, "", "=q3=Jademist Dancer", "=ds=#e13#", "=q2="..ALIL["Jademist Dancer"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 13, 104165, "", "=q3=Kovok", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Paragons of the Klaxxi", 853)..", =q1="..ALIL["Siege of Orgrimmar"]};
+				{ 14, 104166, "", "=q3=Ominous Flame", "=ds=#e13#", "=q2="..ALIL["Foreboding Flame"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 15, 104159, "", "=q3=Ruby Droplet", "=ds=#e13#", "=q2="..ALIL["Garnia"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 17, 104167, "", "=q3=Skunky Alemental", "=ds=#e13#", "=q2="..ALIL["Zhu-Gon the Sour"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 18, 104168, "", "=q3=Spineclaw Crab", "=ds=#e13#", "=q2="..ALIL["Monstrous Spineclaw"]..", =q1="..ALIL["Timeless Isle"]};
+				{ 19, 104291, "", "=q3=Swarmling of Gu'chi", "=ds=#e13#", "=q2="..ALIL["Gu'chi the Swarmbringer"]..", =q1="..ALIL["Timeless Isle"]};
 			};
 		};
 		info = {

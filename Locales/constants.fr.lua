@@ -1044,9 +1044,9 @@ if AL then
 	--AL["Luo Luo"] = true;
 	--AL["Meng Meng"] = true;
 	AL["Moonfang"] = "Croc-de-Lune";
+	AL["Nice Sprite"] = "Charmant lutin";
 	AL["Ongrom Black Tooth"] = "Ongrom Dent-Noire";
 	AL["Proveditor Grantley"] = "Provéditeur Grantley";
-	--AL["Scary Sprite"] = true; -- à traduire
 	--- World Events
 	AL["Crimson Templar"] = "Templier cramoisi";  --- mob removed from game?
 	AL["Azure Templar"] = "Templier d'azur";  --- mob removed from game?
