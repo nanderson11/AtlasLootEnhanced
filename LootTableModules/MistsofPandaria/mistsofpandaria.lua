@@ -12781,7 +12781,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 78924, "", "=q4=Heart of the Aspects", "=ds=#e27#"};
 				{ 21, 107951, "", "=q4=Iron Skyreaver", "=ds=#e27#"};
 				{ 22, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 23, 69846, "", "=q4=Winged Guardian", "=ds=#e27#"};
+				{ 23, 112326, "", "=q4=Warforged Nightmare", "=ds=#e27#"};
+				{ 24, 69846, "", "=q4=Winged Guardian", "=ds=#e27#"};
 			};
 		};
 		info = {
@@ -12927,17 +12928,17 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 106246, "", "=q4=Emerald Hippogryph", "#ACHIEVEMENTID:8794#"};
 				{ 21, 107951, "", "=q4=Iron Skyreaver", "=ds=#e27#"};
 				{ 22, 109013, "", "=q4=Reins of the Dread Raven", "=ds=#e27#", "#ACHIEVEMENTID:8913#"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
-				{ 25, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
-				{ 27, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 28, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
-				{ 29, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
+				{ 23, 112326, "", "=q4=Warforged Nightmare", "=ds=#e27#"};
+				{ 25, 0, "INV_Box_01", "=q6="..AL["PvP Mounts"], ""};
+				{ 26, 103638, "", "=q4=Reins of the Ashhide Mushan Beast", "=ds=#e26#", "#BLOODYCOIN:500#"};
+				{ 28, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 29, 104253, "", "=q4=Kor'kron Juggernaut", "=ds=#e26#", "=q2="..AtlasLoot:EJ_GetBossName("Garrosh Hellscream", 869).." - "..AL["Heroic"]..", =q1="..ALIL["Siege of Orgrimmar"] };
+				{ 30, 104269, "", "=q4=Reins of the Thundering Onyx Cloud Serpent", "=ds=#e27#", "=q2="..ALIL["Huolon"]..", =q1="..ALIL["Timeless Isle"] };
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
 				{ 2, 112327, "", "=q4=Grinning Reaver", "=ds=" };
 				{ 3, 104011, "", "=q4=Stormcrow", "=ds=" };
-				{ 4, 112326, "", "=q4=Warforged Nightmare", "=ds=" };
 			};
 		};
 		info = {
