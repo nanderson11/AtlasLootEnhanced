@@ -32,8 +32,10 @@ function AtlasLoot_hook(tooltip)
 								ALinstanceDifficulty = "Heroic"
 							elseif ALdifficultyIndex == 7 then
 								ALinstanceDifficulty = "RaidFinder"
-							elseif ALdifficultyIndex == 14 then
-								ALinstanceDifficulty = "Flexible"
+							elseif ALdifficultyIndex == 15 then
+								ALinstanceDifficulty = "Heroic"
+							elseif ALdifficultyIndex == 16 then
+								ALinstanceDifficulty = "Mythic"
 							end
 							if ALindexBoss == ALbossHandle and ALinstanceDifficulty == ALitemDifficulty then
 								local ALitemName, _, ALitemQuality, _, _, _, _, _, ALequipSlot = GetItemInfo(ALvalueWishlistItem[2])
