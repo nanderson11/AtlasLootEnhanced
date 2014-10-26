@@ -3,7 +3,7 @@
 ## Version: v8.00.00beta
 ## SavedVariables: AtlasLootDB
 ## SavedVariablesPerCharacter: AtlasLootCharDB
-## OptionalDeps: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0
+## OptionalDeps: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
 
 ## Title: AtlasLoot
 ## Title-deDE: AtlasLoot Enhanced
@@ -29,7 +29,7 @@
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net
-## X-Embeds: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0
+## X-Embeds: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
 ## X-Localizations: enUS, deDE, frFR, esES, koKR, zhCN, zhTW, esMX, ptBR, ruRU
 
 embeds.xml
