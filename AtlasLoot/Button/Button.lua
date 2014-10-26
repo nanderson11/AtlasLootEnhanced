@@ -300,10 +300,12 @@ function Proto:Clear()
 		self.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 		self.name:SetText("")
 		self.extra:SetText("")
+		self.overlay:SetSize(self.icon:GetWidth(), self.icon:GetHeight())
 		self:Hide()
 	end
 	if self.secButton then
 		self.secButton:SetNormalTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+		self.secButton.overlay:SetSize(self.secButton:GetWidth(), self.secButton:GetHeight())
 		self.secButton:Hide()
 	end
 	
