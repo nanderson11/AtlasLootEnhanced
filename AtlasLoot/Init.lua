@@ -13,6 +13,9 @@ local MainMT = {
 }
 setmetatable(_G.AtlasLoot, MainMT)
 
+-- DB
+AtlasLootDB = {}
+
 -- Translations
 _G.AtlasLoot.Locale = {}
 
@@ -24,3 +27,4 @@ _G.AtlasLoot.Data = {}
 
 -- Image path
 _G.AtlasLoot.IMAGE_PATH = "Interface\\AddOns\\"..addonname.."\\Images\\"
+
