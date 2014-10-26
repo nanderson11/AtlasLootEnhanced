@@ -1,0 +1,20 @@
+﻿## Interface: 60000
+## Author: Hegarol	
+## Version: @project-version@
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+## Title: AtlasLoot |cFF0099FF[Crafting]|r
+## Title-deDE: AtlasLoot |cFF0099FF[Berufe]|r
+
+## Notes: AtlasLoot loot tables of Crafting Items
+## Notes-deDE: AtlasLoot Verzeichnisse der Berufsgegenstände
+
+## X-eMail: manager@atlasloot.net
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+
+## X-AtlasLoot-LootModule: 1
+
+data.lua
