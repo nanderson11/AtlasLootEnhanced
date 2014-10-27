@@ -6,9 +6,11 @@
 
 ## Title: AtlasLoot |cFF0099FF[Classic]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Classic]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[经典旧世]|r
 
 ## Notes: AtlasLoot loot tables from Classic
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Classic
+## Notes-zhCN: AtlasLoot 《经典旧世》物品信息
 
 ## X-eMail: manager@atlasloot.net
 ## X-Category: Map

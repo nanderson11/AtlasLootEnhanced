@@ -6,9 +6,11 @@
 
 ## Title: AtlasLoot |cFF0099FF[World Events]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Weltereignisse]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[世界事件]|r
 
 ## Notes: AtlasLoot loot tables from world events
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Weltereignisse
+## Notes-zhCN: AtlasLoot 《世界事件》物品信息
 
 ## X-eMail: manager@atlasloot.net
 ## X-Category: Map

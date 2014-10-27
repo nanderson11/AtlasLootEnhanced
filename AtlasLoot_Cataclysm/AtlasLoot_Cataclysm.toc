@@ -6,9 +6,11 @@
 
 ## Title: AtlasLoot |cFF0099FF[Cataclysm]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Cataclysm]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[大地的裂变]|r
 
 ## Notes: AtlasLoot loot tables from Cataclysm
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Cataclysm
+## Notes-zhCN: AtlasLoot 《大地的裂变》物品信息
 
 ## X-eMail: manager@atlasloot.net
 ## X-Category: Map
