@@ -1,0 +1,20 @@
+﻿## Interface: 60000
+## Author: Hegarol	
+## Version: @project-version@
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+## Title: AtlasLoot |cFF0099FF[Collections]|r
+## Title-deDE: AtlasLoot |cFF0099FF[Sammlungen]|r
+
+## Notes: AtlasLoot collections loot tables (e.g. Mounts & Pets)
+## Notes-deDE: AtlasLoot Sammlungs-Beuteverzeichnisse (z.B. Reit- und Haustiere)
+
+## X-eMail: manager@atlasloot.net
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+
+## X-AtlasLoot-LootModule: 1
+
+data.lua

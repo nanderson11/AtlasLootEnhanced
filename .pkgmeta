@@ -18,12 +18,14 @@ ignore:
 	
 move-folders:
 	AtlasLoot/AtlasLoot: AtlasLoot
-	AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic 
-	AtlasLoot/AtlasLoot_BurningCrusade: AtlasLoot_BurningCrusade 
-	AtlasLoot/AtlasLoot_WrathoftheLichKing: AtlasLoot_WrathoftheLichKing 
-	AtlasLoot/AtlasLoot_Cataclysm: AtlasLoot_Cataclysm 
-	AtlasLoot/AtlasLoot_MistsofPandaria: AtlasLoot_MistsofPandaria 
-    AtlasLoot/AtlasLoot_WarlordsofDraenor: AtlasLoot_WarlordsofDraenor 
-	AtlasLoot/AtlasLoot_Crafting: AtlasLoot_Crafting 
-	AtlasLoot/AtlasLoot_PvP: AtlasLoot_PvP 
-	AtlasLoot/AtlasLoot_WorldEvents: AtlasLoot_WorldEvents 
+	AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic
+	AtlasLoot/AtlasLoot_BurningCrusade: AtlasLoot_BurningCrusade
+	AtlasLoot/AtlasLoot_WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
+	AtlasLoot/AtlasLoot_Cataclysm: AtlasLoot_Cataclysm
+	AtlasLoot/AtlasLoot_MistsofPandaria: AtlasLoot_MistsofPandaria
+	AtlasLoot/AtlasLoot_WarlordsofDraenor: AtlasLoot_WarlordsofDraenor
+	AtlasLoot/AtlasLoot_Collections: AtlasLoot_Collections
+	AtlasLoot/AtlasLoot_Crafting: AtlasLoot_Crafting
+	AtlasLoot/AtlasLoot_Factions: AtlasLoot_Factions
+	AtlasLoot/AtlasLoot_PvP: AtlasLoot_PvP
+	AtlasLoot/AtlasLoot_WorldEvents: AtlasLoot_WorldEvents

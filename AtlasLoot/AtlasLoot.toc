@@ -105,6 +105,7 @@ GUI\ModelFrame.lua
 GUI\SoundFrame.lua
 GUI\QuickLootFrame.lua
 GUI\SetViewFrame.lua
+GUI\Styler.lua
 
 Addons\Addons.lua
 Addons\BonusRoll.lua
