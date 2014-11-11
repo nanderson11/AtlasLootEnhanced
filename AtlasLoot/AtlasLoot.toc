@@ -1,6 +1,6 @@
 ﻿## Interface: 60000
 ## Author: Hegarol
-## Version: v8.00.00beta
+## Version: v8.00.00beta3
 ## SavedVariables: AtlasLootDB
 ## SavedVariablesPerCharacter: AtlasLootCharDB
 ## OptionalDeps: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
