@@ -29,3 +29,4 @@ move-folders:
 	AtlasLoot/AtlasLoot_Factions: AtlasLoot_Factions
 	AtlasLoot/AtlasLoot_PvP: AtlasLoot_PvP
 	AtlasLoot/AtlasLoot_WorldEvents: AtlasLoot_WorldEvents
+	AtlasLoot/AtlasLoot_Options: AtlasLoot_Options

@@ -21,4 +21,7 @@
 
 ## X-AtlasLoot-LootModule: 1
 
+libs\LibBabble-ItemSet-3.0\lib.xml
+
 data.lua
+sets.lua
