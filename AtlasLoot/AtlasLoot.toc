@@ -1,9 +1,9 @@
 ﻿## Interface: 60000
 ## Author: Hegarol
-## Version: v8.00.00beta6
+## Version: v8.00.00beta7
 ## SavedVariables: AtlasLootDB
 ## SavedVariablesPerCharacter: AtlasLootCharDB
-## OptionalDeps: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
+## OptionalDeps: Ace3, LibStub, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
 
 ## Title: AtlasLoot
 ## Title-deDE: AtlasLoot Enhanced
@@ -29,7 +29,7 @@
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net
-## X-Embeds: Ace3, LibStub, AceDB-3.0, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
+## X-Embeds: LibStub, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
 ## X-Localizations: enUS, deDE, frFR, esES, koKR, zhCN, zhTW, esMX, ptBR, ruRU
 
 embeds.xml
@@ -58,7 +58,6 @@ Loader.lua
 
 Core\StaticPopupDialogs.lua
 Core\SlashCommands.lua
-Core\ChatLink.lua
 Core\ClickHandler.lua
 Core\Tooltip.lua
 Core\ItemInfo.lua
@@ -66,6 +65,7 @@ Core\TooltipScan.lua
 Core\EncounterJournal.lua
 Core\ItemQuery.lua
 Core\ItemString.lua
+Core\MapPOI.lua
 
 MiniMapButton.lua
 
@@ -74,7 +74,6 @@ Data\Token.lua
 Data\Sets.lua
 
 ItemDB\ItemDB.lua
-ItemDB\NpcData.lua
 ItemDB\SoundData.lua
 
 Button\Button.lua
@@ -105,7 +104,6 @@ GUI\ModelFrame.lua
 GUI\SoundFrame.lua
 GUI\QuickLootFrame.lua
 GUI\SetViewFrame.lua
-GUI\Styler.lua
 
 Addons\Addons.lua
 Addons\BonusRoll.lua

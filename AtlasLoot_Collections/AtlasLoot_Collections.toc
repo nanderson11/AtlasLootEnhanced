@@ -3,6 +3,7 @@
 ## Version: @project-version@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
+## OptionalDeps: LibBabble-ItemSet-3.0
 
 ## Title: AtlasLoot |cFF0099FF[Collections]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Sammlungen]|r
@@ -18,10 +19,11 @@
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net
+## X-Embeds: LibBabble-ItemSet-3.0
 
 ## X-AtlasLoot-LootModule: 1
 
-libs\LibBabble-ItemSet-3.0\lib.xml
+embeds.xml
 
 data.lua
 sets.lua
