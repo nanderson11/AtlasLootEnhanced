@@ -1172,7 +1172,8 @@ data["TABARDS"] = {
 				{ 19, 35279, [QUEST_EXTRA_ITTYPE] = 11972 },	-- Tabard of Summer Skies
 				{ 21, 31405, [QUEST_EXTRA_ITTYPE] = 10781 },	-- Purple Trophy Tabard of the Illidari
 				{ 22, 31404, [QUEST_EXTRA_ITTYPE] = 10781 },	-- Green Trophy Tabard of the Illidari
-				{ 24, 86468, [QUEST_EXTRA_ITTYPE] = 31820 },	-- Apron	-- NEUTRAL
+				{ 24, 52252, [QUEST_EXTRA_ITTYPE] = 24919 },	-- Tabard of the Lightbringer
+				{ 26, 86468, [QUEST_EXTRA_ITTYPE] = 31820 },	-- Apron	-- NEUTRAL
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
