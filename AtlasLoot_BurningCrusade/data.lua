@@ -14,7 +14,7 @@ local ALLIANCE_DIFF = data:AddDifficulty(FACTION_ALLIANCE, "alliance", nil, 1)
 local HORDE_DIFF = data:AddDifficulty(FACTION_HORDE, "horde", nil, 1)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
-local AC_ITTYPE = data:AddItemTableType("Achievement")
+local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")

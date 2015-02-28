@@ -38,6 +38,10 @@ AL["Reset position of the |cff33ff99\"Minimap button\"|r."] = true
 
 AL["Set View"] = true
 
+-- General
+AL["Use GameTooltip"] = true
+AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true
+
 -- Buttons
 AL["Always show item comparison."] = true
 AL["Always show quick preview."] = true

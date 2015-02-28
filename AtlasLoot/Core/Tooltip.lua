@@ -28,4 +28,7 @@ function Tooltip:AddTooltipSource(src)
 	TooltipList[#TooltipList+1] = src
 end
 
+function Tooltip:Refresh()
+	AtlasLoot.db.Tooltip.tooltip = AtlasLoot.db.Tooltip.useGameTooltip and "GameTooltip" or "AtlasLootTooltip"
+end
 

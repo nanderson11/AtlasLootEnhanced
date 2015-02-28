@@ -9,8 +9,8 @@ local function ShowTestSet()
 	AtlasLoot.GUI.SetViewFrame:SetAtlasLootItemSet("GMTESTSET", "global")
 end
 
--- windows
-local function windows(gui, content)
+-- atlasloot
+local function atlasloot(gui, content)
 	local last
 	
 	last = gui:Add("CheckBox")
@@ -24,6 +24,18 @@ local function windows(gui, content)
 		:Size("full")
 		:Text(AL["Always show quick preview."])
 		:DB(db.Button.Item, "alwaysShowPreviewTT")
+		
+	last = gui:Add("CheckBox")
+		:Point("TOP", last, "BOTTOM")
+		:Size("full")
+		:Text(AL["Use GameTooltip"])
+		:Tooltip("text", AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"])
+		:DB(db.Tooltip, "useGameTooltip", AtlasLoot.Tooltip.Refresh)
+end
+
+-- windows
+local function windows(gui, content)
+
 end
 
 -- windows -> atlasloot
@@ -427,10 +439,16 @@ local function addons_bonusloot(gui, content)
 end
 
 local ALOptions = LibStub("ALOptions-1.0"):Register(AL["AtlasLoot"], AL["AtlasLoot Options"], AtlasLoot.__addonrevision, AtlasLoot.db.profile, {
+	{	
+		title = AL["AtlasLoot"],
+		--desc = "",
+		quickSelect = "start",
+		clickFunc = atlasloot,
+	},
 	{
 		title = AL["Windows"],
 		--desc = "",
-		quickSelect = "start",
+		quickSelect = "windows",
 		clickFunc = windows,
 		content = {
 			{

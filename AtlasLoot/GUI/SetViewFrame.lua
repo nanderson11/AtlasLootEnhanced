@@ -602,20 +602,10 @@ function SVF:Create()
 	frame.title:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -28, -20)
 	frame.title.text:SetText(AL["AtlasLoot Set View"])
 	
-	frame.modelFrame = CreateFrame("DressUpModel", SVF_FRAME_NAME.."-ModelFrame", frame, "ModelWithControlsTemplate")
-	frame.modelFrame:ClearAllPoints()
-	frame.modelFrame:SetParent(frame)
+	frame.modelFrame = GUI.CreateModelFrame(true, SVF_FRAME_NAME.."-ModelFrame", frame)
 	frame.modelFrame:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -5, -25)
 	frame.modelFrame:SetSize(MODEL_FRAME_WIDTH, MODEL_FRAME_HEIGHT)
-	frame.modelFrame:SetRotation(MODELFRAME_DEFAULT_ROTATION)
 	frame.modelFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background"})
-	--frame.modelFrame:SetBackdropColor(1,1,1,1)
-	frame.modelFrame:SetUnit("player")
-	frame.modelFrame.minZoom = 0
-	frame.modelFrame.maxZoom = 1.0
-	frame.modelFrame.zoomLevel = frame.modelFrame.minZoom
-	frame.modelFrame:SetPortraitZoom(frame.modelFrame.zoomLevel)
-	frame.modelFrame.Reset = _G.Model_Reset
 	
 	frame.containerFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame")
 	frame.containerFrame:ClearAllPoints()

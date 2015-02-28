@@ -15,7 +15,7 @@ local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
 local REMOVED_DIFF = data:AddDifficulty(AL["Removed"], "removed")
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
-local AC_ITTYPE = data:AddItemTableType("Achievement")
+local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 local REMOVED_ITTYPE = data:AddItemTableType("Item", "Droprate")
 
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")

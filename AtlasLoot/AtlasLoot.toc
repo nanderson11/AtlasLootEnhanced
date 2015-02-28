@@ -1,4 +1,4 @@
-﻿## Interface: 60000
+﻿## Interface: 60100
 ## Author: Hegarol
 ## Version: v8.00.00beta7
 ## SavedVariables: AtlasLootDB
@@ -72,6 +72,7 @@ MiniMapButton.lua
 Data\Mount.lua
 Data\Token.lua
 Data\Sets.lua
+Data\NPC.lua
 
 ItemDB\ItemDB.lua
 ItemDB\SoundData.lua
@@ -99,12 +100,13 @@ GUI\Template_Button.lua
 GUI\Template_Select.lua
 GUI\Template_DropDown.lua
 GUI\Template_TextWithBg.lua
+GUI\Template_Model.lua
 GUI\ItemFrame.lua
 GUI\ModelFrame.lua
 GUI\SoundFrame.lua
 GUI\QuickLootFrame.lua
 GUI\SetViewFrame.lua
+GUI\ItemWithSetFrame.lua
 
 Addons\Addons.lua
 Addons\BonusRoll.lua
-Addons\Search.lua

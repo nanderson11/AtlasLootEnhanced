@@ -109,16 +109,17 @@ data["WODFACTIONS"] = {
 				{ 9, 116665, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Armored Irontusk
 				{ 10, 119140, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Sha'tari Defense Tabard
 				{ 16, "f1710rep7" },
-				{ 17, 119421 },	-- Sha'tari Defender's Medallion
-				{ 18, 119428, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Greathelm of the Sha'tari Defense
-				{ 19, 119427, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Shoulderguards of the Sha'tari Defense
-				{ 20, 119422, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Breastplate of the Sha'tari Defense
-				{ 21, 119429, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Bracers of the Sha'tari Defense
-				{ 22, 119426, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Gauntlets of the Sha'tari Defense
-				{ 23, 119425, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Belt of the Sha'tari Defense
-				{ 24, 119424, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Legplates of the Sha'tari Defense
-				{ 25, 119423, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Boots of the Sha'tari Defense
-				{ 26, 119167, [PRICE_EXTRA_ITTYPE] = "money:50000000" },	-- Contract: Vindicator Heluun
+				{ 17, 119150, "pet1575", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Sky Fry
+				{ 18, 119421 },	-- Sha'tari Defender's Medallion
+				{ 19, 119428, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Greathelm of the Sha'tari Defense
+				{ 20, 119427, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Shoulderguards of the Sha'tari Defense
+				{ 21, 119422, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Breastplate of the Sha'tari Defense
+				{ 22, 119429, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Bracers of the Sha'tari Defense
+				{ 23, 119426, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Gauntlets of the Sha'tari Defense
+				{ 24, 119425, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Belt of the Sha'tari Defense
+				{ 25, 119424, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Legplates of the Sha'tari Defense
+				{ 26, 119423, [PRICE_EXTRA_ITTYPE] = "money:10000000" },	-- Boots of the Sha'tari Defense
+				{ 27, 119167, [PRICE_EXTRA_ITTYPE] = "money:50000000" },	-- Contract: Vindicator Heluun
 			},
 		},
 		{	--SteamwheedlePreservationSociety

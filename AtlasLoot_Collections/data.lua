@@ -535,6 +535,196 @@ data["DUNGEONSETS"] = {
 	},
 }
 
+data["GARRISON"] = {
+	name = AL["Garrison"],
+	ContentType = COLLECTION_CONTENT,
+	items = {
+		{	-- Dwarven Bunker / War Mill
+			name = ALIL["DBWM"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 114746 },	-- Goredrenched Armor Set
+				{ 2, 114622 },	-- Goredrenched Weaponry
+				{ 3, 114806 },	-- Blackrock Armor Set
+				{ 4, 114081 },	-- Blackrock Weaponry
+				{ 5, 114807 },	-- War Ravaged Armor Set
+				{ 6, 114616 },	-- War Ravaged Weaponry
+				{ 7, 120301 },	-- Armor Enhancement Token
+				{ 8, 120302 },	-- Weapon Enhancement Token
+				{ 10, 113681 },	-- Iron Horde Scraps
+				{ 12, 118365, [QUEST_EXTRA_ITTYPE] = 37092 },	-- Stormwind Tabard
+				{ 16, "setDBWMSets:stormwindset:n" },	-- SW Set
+				{ 18, "setDBWMSets:clothset:n" },	-- Cloth Set
+				{ 19, "setDBWMSets:leatherset:n" },	-- Leather Set
+				{ 20, "setDBWMSets:mailset:n" },	-- Mail Set
+				{ 21, "setDBWMSets:plateset:n" },	-- Plate Set
+				{ 23, "ac9129" },	-- Filling the Ranks
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 12, 118372, [QUEST_EXTRA_ITTYPE] = 37043 },	-- Orgrimmar Tabard
+				{ 16, "setDBWMSets:orgrimmarset:n" },	-- OG Set
+			},
+		},
+		{
+			name = ALIL["Enchanter's Study"],
+			[NORMAL_DIFF] = {
+				{ 1, "prof173716" },	-- Illusion: Agility
+				{ 2, "prof173717" },	-- Illusion: Battlemaster
+				{ 3, "prof173718" },	-- Illusion: Berserking
+				{ 4, "prof174979" },	-- Illusion: Blood Draining
+				{ 5, "prof173720" },	-- Illusion: Crusader
+				{ 6, "prof173721" },	-- Illusion: Elemental Force
+				{ 7, "prof173722" },	-- Illusion: Executioner
+				{ 8, "prof173723" },	-- Illusion: Fiery Weapon
+				{ 9, "prof173719" },	-- Illusion: Greater Spellpower
+				{ 10, "prof173724" },	-- Illusion: Hidden
+				{ 11, "prof175070" },	-- Illusion: Jade Spirit
+				{ 12, "prof173725" },	-- Illusion: Landslide
+				{ 13, "prof173726" },	-- Illusion: Lifestealing
+				{ 14, "prof175085" },	-- Illusion: Mending
+				{ 15, "prof173727" },	-- Illusion: Mongoose
+				{ 16, "prof173729" },	-- Illusion: Power Torrent
+				{ 17, "prof175086" },	-- Illusion: River's Song
+				{ 18, "prof173730" },	-- Illusion: Spellsurge
+				{ 19, "prof173731" },	-- Illusion: Striking
+				{ 20, "prof173732" },	-- Illusion: Unholy
+				{ 22, "ICON_inv_throwingknife_04", nil, LOCALIZED_CLASS_NAMES_MALE["ROGUE"], nil },
+				{ 23, "prof173728" },	-- Illusion: Poisoned
+				{ 25, "ICON_Spell_Nature_BloodLust", nil, LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], nil },
+				{ 26, "prof175076" },	-- Illusion: Earthliving
+				{ 27, "prof175072" },	-- Illusion: Flametongue
+				{ 28, "prof175071" },	-- Illusion: Frostbrand
+				{ 29, "prof175078" },	-- Illusion: Rockbiter
+				{ 30, "prof175074" },	-- Illusion: Windfury
+			},
+		},
+		{
+			name = ALIL["Engineering Works"],
+			[NORMAL_DIFF] = {
+				{ 1, 109644, [PRICE_EXTRA_ITTYPE] = "money:16000" },	-- Walter
+				{ 2, 109574, [PRICE_EXTRA_ITTYPE] = "money:16000" },	-- GUMM-E
+				{ 16, 117438, [PRICE_EXTRA_ITTYPE] = "money:13260" },	-- Gnomish Net Launcher
+				{ 17, 117403, [PRICE_EXTRA_ITTYPE] = "money:12220" },	-- Gyro-Radiant Reflector
+				{ 18, 117402, [PRICE_EXTRA_ITTYPE] = "money:12181" },	-- Ultra-Electrified Reflector
+			},
+		},
+		{
+			name = ALIL["Fishing Shack"],
+			[NORMAL_DIFF] = {
+				{ 1, "ICON_achievement_faction_anglers", nil, ALIL["Nat Pagle"], AL["Best Friend"] },
+				{ 2, 87791, "mount", [PRICE_EXTRA_ITTYPE] = "117397:100" },	-- Reins of the Crimson Water Strider
+				{ 4, "ICON_achievement_faction_anglers", nil, ALIL["Nat Pagle"], AL["Good Friend"] },
+				{ 5, 117404, "pet115", [PRICE_EXTRA_ITTYPE] = "117397:50" },	-- Land Shark
+				{ 7, "ICON_achievement_faction_anglers", nil, ALIL["Nat Pagle"], AL["Friend"] },
+				{ 8, 117405, [PRICE_EXTRA_ITTYPE] = "117397:25" },	-- Nat's Drinking Hat
+				{ 9, [ATLASLOOT_IT_ALLIANCE] = 116826, [ATLASLOOT_IT_HORDE] = 116825, [PRICE_EXTRA_ITTYPE] = "117397:25" },	-- Draenic Fishing Pole / Savage Fishing Pole
+				{ 16, 117401, [PRICE_EXTRA_ITTYPE] = "117397:25" },	-- Nat's Draenic Fishing Journal
+				{ 18, "ac9462" },	-- Draenor Angler
+			},
+		},
+		{	-- Gnomish Gearworks / Goblin Workshop
+			name = ALIL["GGGW"],
+			[NORMAL_DIFF] = {
+				{ 1, 114246 },	-- "Skyterror" Personal Delivery System
+				{ 2, 114974 },	-- Pneumatic Power Gauntlet
+				{ 3, 114975 },	-- Pneumatic Power Gauntlet
+				{ 4, 119158 },	-- Robo-Rooster
+				{ 5, 114983 },	-- Sticky Grenade Launcher
+				{ 16, 114244 },	-- GG-117 Micro-Jetpack
+				{ 17, 115530 },	-- N.U.K.U.L.A.R. Target Painter
+				{ 18, [ATLASLOOT_IT_ALLIANCE] = 114924, [ATLASLOOT_IT_HORDE] = 114925 },	-- Prototype Mekgineer's Chopper / Prototype Mechano-Hog
+				{ 19, 114744 },	-- Sentry Turret Dispensor
+				{ 20, 114633 },	-- XD-57 "Bullseye" Guided Rocket Kit
+				{ 22, "ac9527" },	-- Terrific Technology
+			},
+		},
+		{	-- Lunarfall Inn / Frostwall Tavern
+			name = ALIL["LIFT"],
+			[NORMAL_DIFF] = {
+				{ 1, 118921, "pet1566", [QUEST_EXTRA_ITTYPE] = 37150 },	-- Everbloom Peachick
+				{ 2, 118923, "pet1567", [QUEST_EXTRA_ITTYPE] = 37164 },	-- Sentinel's Companion
+				{ 4, 119083, [QUEST_EXTRA_ITTYPE] = 37152 },	-- Fruit Basket
+				{ 5, 118937, [QUEST_EXTRA_ITTYPE] = 37160 },	-- Gamon's Braid
+				{ 6, 119039, [QUEST_EXTRA_ITTYPE] = 37156 },	-- Lilian's Warning Sign
+				{ 7, 118938, [QUEST_EXTRA_ITTYPE] = 37179 },	-- Manastorm's Duplicator
+				{ 8, 119003, [QUEST_EXTRA_ITTYPE] = 37163 },	-- Void Totem
+				{ 10, 119093, [QUEST_EXTRA_ITTYPE] = 37159 },	-- Aviana's Feather
+				{ 11, 118935, [QUEST_EXTRA_ITTYPE] = 37165 },	-- Ever-Blooming Frond
+				{ 12, 118936, [QUEST_EXTRA_ITTYPE] = 37149 },	-- Manual of Void-Calling
+				{ 13, 119092, [QUEST_EXTRA_ITTYPE] = 37157 },	-- Moroes' Famous Polish
+				{ 14, 118922, [QUEST_EXTRA_ITTYPE] = 37148 },	-- Oralius' Whispering Crystal
+				{ 16, 118930, [QUEST_EXTRA_ITTYPE] = 37166 },	-- Bag of Everbloom Herbs
+				{ 17, 118924, [QUEST_EXTRA_ITTYPE] = 37167 },	-- Cache of Arms
+				{ 18, 118928, [QUEST_EXTRA_ITTYPE] = 37158 },	-- Faintly-Sparkling Cache
+				{ 19, 118926, [QUEST_EXTRA_ITTYPE] = 37161 },	-- Huge Pile of Skins
+				{ 20, 118931, [QUEST_EXTRA_ITTYPE] = 37154 },	-- Leonid's Bag of Supplies
+				{ 21, 118927, [QUEST_EXTRA_ITTYPE] = 37162 },	-- Maximillian's Laundry
+				{ 22, 118925, [QUEST_EXTRA_ITTYPE] = 37155 },	-- Plundered Booty
+				{ 23, 118929, [QUEST_EXTRA_ITTYPE] = 37153 },	-- Sack of Mined Ore
+				{ 25, 118918, [QUEST_EXTRA_ITTYPE] = 37151 },	-- Bloody Bandanna
+				{ 27, 119207, [PRICE_EXTRA_ITTYPE] = "money:50000000" },	-- Meat Cleaver
+				{ 29, "ac9703" },	-- Stay Awhile and Listen
+			},
+		},
+		{
+			name = AL["Primal Trader"],
+			[NORMAL_DIFF] = {
+				{ 1, 110611, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Burnished Leather
+				{ 2, 111366, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Gearspring Parts
+				{ 3, 111556, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Hexweave Cloth
+				{ 4, 115524, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Taladite Crystal
+				{ 5, 108257, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Truesteel Ingot
+				{ 6, 112377, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- War Paints
+				{ 16, 108996, [PRICE_EXTRA_ITTYPE] = "120945:10" },	-- Alchemical Catalyst
+				{ 17, 118472, [PRICE_EXTRA_ITTYPE] = "120945:50" },	-- Savage Blood
+				{ 18, 113264, [PRICE_EXTRA_ITTYPE] = "120945:25" },	-- Sorcerous Air
+				{ 19, 113263, [PRICE_EXTRA_ITTYPE] = "120945:25" },	-- Sorcerous Earth
+				{ 20, 113261, [PRICE_EXTRA_ITTYPE] = "120945:25" },	-- Sorcerous Fire
+				{ 21, 113262, [PRICE_EXTRA_ITTYPE] = "120945:25" },	-- Sorcerous Water
+			},
+		},
+		{
+			name = ALIL["Stables"],
+			[NORMAL_DIFF] = {
+				{ 1, 116656, "mount" },	-- Trained Icehoof
+				{ 2, 116662, "mount" },	-- Trained Meadowstomper
+				{ 3, 116676, "mount" },	-- Trained Riverwallow
+				{ 4, 116675, "mount" },	-- Trained Rocktusk
+				{ 5, 116774, "mount" },	-- Trained Silverpelt
+				{ 6, 116784, "mount" },	-- Trained Snarler
+				{ 16, [ATLASLOOT_IT_ALLIANCE] = { "ac9539", "mount171629" }, [ATLASLOOT_IT_HORDE] = { "ac9705", "mount171629" } },	-- Armored Frostboar
+				{ 17, "ac9526" },	-- Master of Mounts
+				{ 18, [ATLASLOOT_IT_ALLIANCE] = { "ac9540", "mount171838" }, [ATLASLOOT_IT_HORDE] = { "ac9706", "mount171838" } },	-- Armored Frostwolf
+			},
+		},
+		{
+			name = ALIL["The Tannery"],
+			[NORMAL_DIFF] = {
+				{ 1, 116993, "prof176408" },	-- Archmage's Tent
+				{ 2, 116994, "prof176409" },	-- Brute's Tent
+				{ 3, 116996, "prof176412" },	-- Crusader's Tent
+				{ 4, 117000, "prof176415" },	-- Deathweaver's Hovel
+				{ 5, 117005, "prof176421" },	-- Distressingly Furry Tent
+				{ 6, 116991, "prof176404" },	-- Enchanter's Tent
+				{ 7, 116986, "prof176392" },	-- Fine Blue and Gold Tent
+				{ 8, 116988, "prof176399" },	-- Fine Blue and Green Tent
+				{ 9, 116987, "prof176397" },	-- Fine Blue and Purple Tent
+				{ 10, 116989, "prof176401" },	-- Ironskin Tent
+				{ 11, 117009, "prof176426" },	-- Nomad's Spiked Tent
+				{ 12, 116990, "prof176402" },	-- Outcast's Tent
+				{ 13, 117001, "prof176416" },	-- Patchwork Hut
+				{ 14, 116992, "prof176405" },	-- Savage Leather Tent
+				{ 15, 117004, "prof176420" },	-- Simple Tent
+				{ 16, 116995, "prof176411" },	-- Sturdy Tent
+				{ 17, 117008, "prof176425" },	-- Voodoo Doctor's Hovel
+				{ 19, [ATLASLOOT_IT_ALLIANCE] = { 117002, "prof176417" }, [ATLASLOOT_IT_HORDE] = { 116997, "prof176413" } },	-- Elune's Retreat / Blood Elven Tent
+				{ 20, [ATLASLOOT_IT_ALLIANCE] = { 116998, "prof176414" }, [ATLASLOOT_IT_HORDE] = { 117003, "prof176418" } },	-- High Elven Tent / Orgrimmar's Reach
+				{ 21, [ATLASLOOT_IT_ALLIANCE] = { 117006, "prof176422" }, [ATLASLOOT_IT_HORDE] = { 117007, "prof176424" } },	-- Ornate Alliance Tent / Ornate Horde Tent
+			},
+		},
+	},
+}
+
 data["HEIRLOOM"] = {
 	name = AL["Heirloom"],
 	ContentType = COLLECTION_CONTENT,

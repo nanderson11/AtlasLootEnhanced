@@ -310,12 +310,12 @@ local SetTable = {
 			subSetName = "chainofthescarletcrusade",
 			icon = "warri",
 			[NORMAL_DIFF] = {
-				{ 10328, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Chestpiece
-				{ 10333, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Wristguards
-				{ 10331, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Gauntlets
-				{ 10329, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Belt
-				{ 10330, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Leggings
-				{ 10332, [SOURCE_INFO] = AL["Salvage Yard"] },	-- Scarlet Boots
+				{ 10328, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Chestpiece
+				{ 10333, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Wristguards
+				{ 10331, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Gauntlets
+				{ 10329, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Belt
+				{ 10330, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Leggings
+				{ 10332, [SOURCE_INFO] = ALIL["Salvage Yard"] },	-- Scarlet Boots
 			},
 		},
 		{	-- Embrace of the Viper
@@ -1006,6 +1006,110 @@ local SetTable = {
 				16736,	-- Belt of Valor
 				16732,	-- Legplates of Valor
 				16734,	-- Boots of Valor
+			},
+		},
+	},
+
+	["DBWMSets"] = {	-- Dwarven Bunker / War Mill Sets
+		name = ALIL["DBWM"].." "..AL["Sets"],
+		sourceTemplate = {
+			ALIL["DBWM"],	-- Head [PRICE_EXTRA_ITTYPE] = "113681:50:113821:1"
+			ALIL["DBWM"],	-- Shoulder [PRICE_EXTRA_ITTYPE] = "113681:50:113823:1"
+			ALIL["DBWM"],	-- Chest [PRICE_EXTRA_ITTYPE] = "113681:80"
+			ALIL["DBWM"],	-- Hands [PRICE_EXTRA_ITTYPE] = "113681:50"
+			ALIL["DBWM"],	-- Waist [PRICE_EXTRA_ITTYPE] = "113681:50:113822:1"
+			ALIL["DBWM"],	-- Legs [PRICE_EXTRA_ITTYPE] = "113681:80"
+			ALIL["DBWM"],	-- Feet [PRICE_EXTRA_ITTYPE] = "113681:50"
+			ALIL["DBWM"],	-- Shield [PRICE_EXTRA_ITTYPE] = "113681:80"
+		},
+		{	-- Stormwind Set
+			name = ALIL["Stormwind City"].." "..AL["Set"],
+			subSetName = "stormwindset",
+			icon = "Interface\\Icons\\inv_misc_tabardpvp_03",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				117406,	-- Stormwind Helm
+				117407,	-- Stormwind Shoulderguards
+				117408,	-- Stormwind Chestguard
+				117409,	-- Stormwind Grips
+				117410,	-- Stormwind Belt
+				117411,	-- Stormwind Leggings
+				117412,	-- Stormwind Boots
+				117413,	-- Stormwind Shield
+			},
+		},
+		{	-- Orgrimmar Set
+			name = ALIL["Orgrimmar"].." "..AL["Set"],
+			subSetName = "orgrimmarset",
+			icon = "Interface\\Icons\\inv_misc_tabardpvp_04",
+			[NORMAL_DIFF] = {
+				118366,	-- Orgrimmar Spaulders [PRICE_EXTRA_ITTYPE] = "113681:50:113823:1"
+				118367,	-- Orgrimmar Chestguard [PRICE_EXTRA_ITTYPE] = "113681:80"
+				118368,	-- Orgrimmar Gloves [PRICE_EXTRA_ITTYPE] = "113681:50"
+				118369,	-- Orgrimmar Belt [PRICE_EXTRA_ITTYPE] = "113681:50:113822:1"
+				118370,	-- Orgrimmar Leggings [PRICE_EXTRA_ITTYPE] = "113681:80"
+				118371,	-- Orgrimmar Boots [PRICE_EXTRA_ITTYPE] = "113681:50"
+				118400,	-- Orgrimmar Axe [PRICE_EXTRA_ITTYPE] = "113681:80"
+			},
+		},
+		{	-- Cloth Set
+			name = ALIL["Cloth"].." "..AL["Set"],
+			subSetName = "clothset",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				113801,	-- Shadowmoon Cowl
+				113803,	-- Shadowmoon Shoulderguards
+				113799,	-- Shadowmoon Robes
+				113800,	-- Shadowmoon Grips
+				113797,	-- Shadowmoon Sash
+				113802,	-- Shadowmoon Leggings
+				113798,	-- Shadowmoon Treads
+			},
+		},
+		{	-- Leather Set
+			name = ALIL["Leather"].." "..AL["Set"],
+			subSetName = "leatherset",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				113793,	-- Thunderlord Helm
+				113795,	-- Thunderlord Shoulderguards
+				113791,	-- Thunderlord Chestguard
+				113792,	-- Thunderlord Gloves
+				113789,	-- Thunderlord Girdle
+				113794,	-- Thunderlord Leggings
+				113790,	-- Thunderlord Sabatons
+			},
+		},
+		{	-- Mail Set
+			name = ALIL["Mail"].." "..AL["Set"],
+			subSetName = "mailset",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				113817,	-- Warsong Hood
+				113819,	-- Warsong Spaulders
+				113815,	-- Warsong Wraps
+				113816,	-- Warsong Gloves
+				113813,	-- Warsong Cord
+				113818,	-- Warsong Leggings
+				113814,	-- Warsong Boots
+			},
+		},
+		{	-- Plate Set
+			name = ALIL["Plate"].." "..AL["Set"],
+			subSetName = "plateset",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				113809,	-- Blackrock Greathelm
+				113811,	-- Blackrock Pauldrons
+				113807,	-- Blackrock Chestplate
+				113808,	-- Blackrock Gauntlets
+				113805,	-- Blackrock Girth
+				113810,	-- Blackrock Legplates
+				113806,	-- Blackrock Greaves
 			},
 		},
 	},

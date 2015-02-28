@@ -94,12 +94,6 @@ local ATLASLOOT_MODULE_LIST = {
 		tt_title = nil,		-- ToolTip title
 		tt_text = nil,		-- ToolTip text
 	},
-	{
-		addonName = "AtlasLoot_Map",
-		name = AL["Map"],
-		tt_title = nil,		-- ToolTip title
-		tt_text = nil,		-- ToolTip text
-	},
 	--]]
 }
 local ATLASLOOT_MODULE_LIST_NAMES = {}

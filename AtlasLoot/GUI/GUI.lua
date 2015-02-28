@@ -202,6 +202,7 @@ local function MapButtonOnClick(self)
 end
 
 local function ClassFilterButton_Refresh(self)
+	-- insert class selection?
 	self.texture:SetDesaturated(not db.classFilter)
 	if self.selectionFrame and self.selectionFrame:IsShown() then self.selectionFrame:Hide() end
 	

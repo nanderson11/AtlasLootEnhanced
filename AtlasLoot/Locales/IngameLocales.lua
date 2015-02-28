@@ -5,7 +5,7 @@ local rawget = rawget
 local _, tmp1
 local months = {CalendarGetMonthNames()}
 
-local GetAchievementInfo = GetAchievementInfo
+local GetAchievementInfo, GetAchievementCriteriaInfo = GetAchievementInfo, GetAchievementCriteriaInfo
 local GetMapNameByID = GetMapNameByID
 
 local function GetSpecNameById(id)
@@ -15,6 +15,11 @@ end
 
 local function GetAchievementName(id)
 	_, tmp1 = GetAchievementInfo(id)
+	return tmp1
+end
+
+local function GetBuildingName(id)
+	_, tmp1 = C_Garrison.GetBuildingInfo(id)
 	return tmp1
 end
 
@@ -118,6 +123,19 @@ local IngameLocales = {
 	-- Mists of Pandaria
 	["Scarlet Monastery"] = GetMapNameByID(874),
 	["Timeless Isle"] = GetMapNameByID(951),
+
+	-- ######################################################################
+	-- Garrison Buildings
+	-- ######################################################################
+	["DBWM"] = GetBuildingName(10),	-- Client autoselection
+	["Enchanter's Study"] = GetBuildingName(126),
+	["Engineering Works"] = GetBuildingName(124),
+	["Fishing Shack"] = GetBuildingName(135),
+	["GGGW"] = GetBuildingName(164),	-- Client autoselection
+	["LIFT"] = GetBuildingName(36),	-- Client autoselection
+	["Salvage Yard"] = GetBuildingName(141),
+	["Stables"] = GetBuildingName(67),
+	["The Tannery"] = GetBuildingName(122),
 	
 	-- data from Core/ItemInfo.lua is generated after loading
 }

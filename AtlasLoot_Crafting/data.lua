@@ -1858,37 +1858,6 @@ data["Enchanting"] = {
 				{ 19, 11287, 14293 },	-- Lesser Magic Wand : =ds=#sr# 10 : =ds=AtlasLoot["Trainer"]
 			},
 		},
---[[		{	--EnchantingIllusions
-			name = AL["Illusions"],
-			[WOD_DIFF] = {--Should be added to building later
-				{ 1, 118161, 173716 },	-- Enchanter's Illusion - Agility
-				{ 2, 118162, 173717 },	-- Enchanter's Illusion - Battlemaster
-				{ 3, 118163, 173718 },	-- Enchanter's Illusion - Berserking
-				{ 4, 118526, 174979 },	-- Enchanter's Illusion - Blood Draining
-				{ 5, 118164, 173719 },	-- Enchanter's Illusion - Butterflies
-				{ 6, 118165, 173720 },	-- Enchanter's Illusion - Crusader
-				{ 7, 118166, 173721 },	-- Enchanter's Illusion - Elemental Force
-				{ 8, 118167, 173722 },	-- Enchanter's Illusion - Executioner
-				{ 9, 118168, 173723 },	-- Enchanter's Illusion - Fiery Weapon
-				{ 10, 118169, 173724 },	-- Enchanter's Illusion - Hidden
-				{ 11, 118548, 175070 },	-- Enchanter's Illusion - Jade Spirit
-				{ 12, 118170, 173725 },	-- Enchanter's Illusion - Landslide
-				{ 13, 118171, 173726 },	-- Enchanter's Illusion - Lifestealing
-				{ 14, 118556, 175085 },	-- Enchanter's Illusion - Mending
-				{ 15, 118172, 173727 },	-- Enchanter's Illusion - Mongoose
-				{ 16, 118174, 173729 },	-- Enchanter's Illusion - Power Torrent
-				{ 17, 118557, 175086 },	-- Enchanter's Illusion - River's Song
-				{ 18, 118175, 173730 },	-- Enchanter's Illusion - Spellsurge
-				{ 19, 118176, 173731 },	-- Enchanter's Illusion - Striking
-				{ 20, 118177, 173732 },	-- Enchanter's Illusion - Unholy
-				{ 22, 118173, 173728 },	-- Enchanter's Illusion - Poisoned
-				{ 24, 118552, 175076 },	-- Enchanter's Illusion - Earthliving
-				{ 25, 118550, 175072 },	-- Enchanter's Illusion - Flametongue
-				{ 26, 118549, 175071 },	-- Enchanter's Illusion - Frostbrand
-				{ 27, 118553, 175078 },	-- Enchanter's Illusion - Rockbiter
-				{ 28, 118551, 175074 },	-- Enchanter's Illusion - Windfury
-			},
-		},]]--
 	}
 }
 

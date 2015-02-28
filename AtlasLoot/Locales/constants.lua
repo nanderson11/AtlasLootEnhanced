@@ -200,13 +200,14 @@ AL["Defias Overseer"] = true
 AL["Druid of the Fang"] = true
 AL["Dungeon Sets"] = true
 AL["Dungeon %d Sets"] = true
+AL["Garrison"] = true
 AL["Guild"] = true
 AL["Heirloom"] = true
 AL["Legendary Items"] = true
 AL["Mounts"] = true
 AL["Pets"] = true
+AL["Primal Trader"] = true
 AL["Replica available at Darkmoon Faire"] = true
-AL["Salvage Yard"] = true
 AL["Tabards"] = true
 AL["Tier Sets"] = true
 AL["Tier %d Sets"] = true
@@ -287,6 +288,7 @@ AL["Yellow Gems"] = true
 
 -- Factions strings
 AL["Best Friend"] = true
+AL["Friend"] = true
 AL["Good Friend"] = true
 AL["Rank %d"] = true
 
