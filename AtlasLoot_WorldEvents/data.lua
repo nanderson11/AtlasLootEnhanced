@@ -812,34 +812,46 @@ data["LunarFestival"] = {
 			name = AL["Vendor"],
 			[NORMAL_DIFF] = {
 				{ 1, 74611, "pet342", [PRICE_EXTRA_ITTYPE] = "ancestrycoin:50" },	-- Festival Lantern
-				{ 2, 74610, "pet341", [PRICE_EXTRA_ITTYPE] = "ancestrycoin:50" },	-- Lunar Lantern
-				{ 3, 21157, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Green Dress
-				{ 4, 21538, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Pink Dress
-				{ 5, 21539, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Purple Dress
-				{ 6, 21541, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Black Pant Suit
-				{ 7, 21544, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Blue Pant Suit
-				{ 8, 21543, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Teal Pant Suit
-				{ 9, 21537, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },	-- Festival Dumplings
-				{ 10, 21721, [PRICE_EXTRA_ITTYPE] = "money:15" },	-- Moonglow
-				{ 11, 21713, [PRICE_EXTRA_ITTYPE] = "money:1000" },	-- Elune's Candle
-				{ 12, 21747, [PRICE_EXTRA_ITTYPE] = "money:300" },	-- Festival Firecracker
-				{ 13, 21558, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Blue Rocket
-				{ 14, 21559, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Green Rocket
-				{ 15, 21557, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Red Rocket
-				{ 16, 21571, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Blue Rocket Cluster
-				{ 17, 21574, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Green Rocket Cluster
-				{ 18, 21576, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Red Rocket Cluster
-				{ 20, 21640, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Lunar Festival Fireworks Pack
-				{ 21, 21558 },	-- Small Blue Rocket
-				{ 22, 21559 },	-- Small Green Rocket
-				{ 23, 21557 },	-- Small Red Rocket
-				{ 24, 21561 },	-- Small White Rocket
-				{ 25, 21562 },	-- Small Yellow Rocket
-				{ 26, 21589 },	-- Large Blue Rocket
-				{ 27, 21590 },	-- Large Green Rocket
-				{ 28, 21592 },	-- Large Red Rocket
-				{ 29, 21593 },	-- Large White Rocket
-				{ 30, 21595 },	-- Large Yellow Rocket
+				{ 16, 74610, "pet341", [PRICE_EXTRA_ITTYPE] = "ancestrycoin:50" },	-- Lunar Lantern
+				
+				{ 3, 89999, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },	-- Everlasting Alliance Firework
+				{ 18, 90000, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },	-- Everlasting Horde Firework
+				
+				{ 5, 122338, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:40" },	-- Ancient Heirloom Armor Casing
+				{ 20, 122340, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },	-- Timeworn Heirloom Armor Casing
+				
+				{ 7, 116172, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },	-- Perky Blaster
+				
+				{ 9, 21157, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Green Dress
+				{ 10, 21538, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Pink Dress
+				{ 11, 21539, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Purple Dress
+				{ 24, 21541, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Black Pant Suit
+				{ 25, 21544, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Blue Pant Suit
+				{ 26, 21543, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Festive Teal Pant Suit
+				
+				{ 13, 21537, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },	-- Festival Dumplings
+				{ 14, 21721, [PRICE_EXTRA_ITTYPE] = "money:15" },	-- Moonglow
+				{ 28, 21713, [PRICE_EXTRA_ITTYPE] = "money:1000" },	-- Elune's Candle
+				{ 29, 21747, [PRICE_EXTRA_ITTYPE] = "money:300" },	-- Festival Firecracker
+				-- Page 2
+				{ 101, 21640, [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },	-- Lunar Festival Fireworks Pack
+				{ 102, 21558 },	-- Small Blue Rocket
+				{ 103, 21559 },	-- Small Green Rocket
+				{ 104, 21557 },	-- Small Red Rocket
+				{ 105, 21561 },	-- Small White Rocket
+				{ 106, 21562 },	-- Small Yellow Rocket
+				{ 117, 21589 },	-- Large Blue Rocket
+				{ 118, 21590 },	-- Large Green Rocket
+				{ 119, 21592 },	-- Large Red Rocket
+				{ 120, 21593 },	-- Large White Rocket
+				{ 121, 21595 },	-- Large Yellow Rocket
+				
+				{ 108, 21558, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Blue Rocket
+				{ 109, 21559, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Green Rocket
+				{ 110, 21557, [PRICE_EXTRA_ITTYPE] = "money:25" },	-- Small Red Rocket
+				{ 123, 21571, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Blue Rocket Cluster
+				{ 124, 21574, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Green Rocket Cluster
+				{ 125, 21576, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Red Rocket Cluster
 			},
 		},
 		{	--LunarFestivalRecipes
