@@ -44,8 +44,10 @@ local ITEM_BONUS_PRESET = {
 	["Stage1"]			= { 525 },
 	["Stage2"]			= { 526 },
 	["Stage3"]			= { 527 },
+	["Stage4"]			= { 593 },
 	["Stage2W"]			= { 558 },
 	["Stage3W"]			= { 559 },
+	["Stage4W"]			= { 594 },
 }
 
 
