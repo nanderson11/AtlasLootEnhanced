@@ -1,10 +1,10 @@
 ﻿## Interface: 60100
 ## Author: Hegarol	
-## Version: v8.00.00beta8_Fanupdate
+## Version: v8.00.00beta8_1
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
 ## OptionalDeps: LibBabble-ItemSet-3.0
-## X-Curse-Packaged-Version: v8.00.00beta8_Fanupdate
+## X-Curse-Packaged-Version: v8.00.00beta8_1
 ## X-Curse-Project-Name: AtlasLoot Enhanced
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
