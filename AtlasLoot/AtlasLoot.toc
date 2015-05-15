@@ -1,10 +1,10 @@
 ﻿## Interface: 60100
 ## Author: Hegarol
-## Version: v8.00.00beta8_1
+## Version: v8.00.00beta8_2
 ## SavedVariables: AtlasLootDB
 ## SavedVariablesPerCharacter: AtlasLootCharDB
 ## OptionalDeps: Ace3, LibStub, LibBabble-Boss-3.0, CallbackHandler-1.0, LibDataBroker-1.1
-## X-Curse-Packaged-Version: v8.00.00beta8_1
+## X-Curse-Packaged-Version: v8.00.00beta8_2
 ## X-Curse-Project-Name: AtlasLoot Enhanced
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline

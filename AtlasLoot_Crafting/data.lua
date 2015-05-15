@@ -6395,9 +6395,10 @@ data["Cooking"] = {
 		{	--CookingAttributes
 			name = AL["Attributes"],
 			[WOD_DIFF] = {
-				{ 1, 111447, 160984, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Talador Surf and Turf (Learnt by tasting or cooking)
-				{ 2, 111431, 160958, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Hearty Elekk Steak (Learnt by tasting or cooking)
-				{ 3, 111439, 160973, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Steamed Scorpion (Learnt by tasting or cooking)
+				{ 1, 122347, 180760 }, -- Whiptail Fillet (Sold, Garrison)
+				{ 2, 111447, 160984, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Talador Surf and Turf (Learnt by tasting or cooking)
+				{ 3, 111431, 160958, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Hearty Elekk Steak (Learnt by tasting or cooking)
+				{ 4, 111439, 160973, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Steamed Scorpion (Learnt by tasting or cooking)
 			},
 			[MOP_DIFF] = {
 				{ 1, 74648, 104303, [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Sea Mist Rice Noodles : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Wok"]
@@ -6463,21 +6464,26 @@ data["Cooking"] = {
 		{	--CookingRatings
 			name = AL["Ratings"],
 			[WOD_DIFF] = {
-				{ 1, 111449, 160986, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackrock Barbecue (Learnt by tasting or cooking)
-				{ 2, 111433, 160962, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackrock Ham (Learnt by tasting or cooking)
-				{ 3, 111441, 160978, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Grilled Gulper (Learnt by tasting or cooking)
-				{ 5, 111450, 160987, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Frosty Stew (Learnt by tasting or cooking)
-				{ 6, 111434, 160966, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Pan-Seared Talbuk (Learnt by tasting or cooking)
-				{ 7, 111442, 160979, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Sturgeon Stew (Learnt by tasting or cooking)
-				{ 9, 111452, 160989, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Sleeper Surprise (Learnt by tasting or cooking)
-				{ 10, 111436, 160968, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Braised Riverbeast (Learnt by tasting or cooking)
-				{ 11, 111444, 160981, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fat Sleeper Cakes (Learnt by tasting or cooking)
-				{ 16, 111453, 160999, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Calamari Crepes (Learnt by tasting or cooking)
-				{ 17, 111445, 160982, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fiery Calamari (Learnt by tasting or cooking)
-				{ 18, 111437, 160969, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Rylak Crepes (Learnt by tasting or cooking)
-				{ 20, 111454, 161000, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Gorgrond Chowder (Learnt by tasting or cooking)
-				{ 21, 111438, 160971, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Clefthoof Sausages (Learnt by tasting or cooking)
-				{ 22, 111446, 160983, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Skulker Chowder (Learnt by tasting or cooking)
+				{ 1, 122345, 180758 },	-- Pickled Eel (Sold, Garrison)
+				{ 2, 111449, 160986, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackrock Barbecue (Learnt by tasting or cooking)
+				{ 3, 111433, 160962, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackrock Ham (Learnt by tasting or cooking)
+				{ 4, 111441, 160978, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Grilled Gulper (Learnt by tasting or cooking)
+				{ 6, 122348, 180761 },	-- Buttered Sturgeon (Sold, Garrison)
+				{ 7, 111450, 160987, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Frosty Stew (Learnt by tasting or cooking)
+				{ 8, 111434, 160966, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Pan-Seared Talbuk (Learnt by tasting or cooking)
+				{ 9, 111442, 160979, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Sturgeon Stew (Learnt by tasting or cooking)
+				{ 11, 122343, 180762 },	-- Sleeper Sushi (Sold, Garrison)
+				{ 12, 111452, 160989, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Sleeper Surprise (Learnt by tasting or cooking)
+				{ 13, 111436, 160968, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Braised Riverbeast (Learnt by tasting or cooking)
+				{ 14, 111444, 160981, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fat Sleeper Cakes (Learnt by tasting or cooking)
+				{ 16, 122344, 180757 }, -- Salty Squid Roll (Sold, Garrison)
+				{ 17, 111453, 160999, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Calamari Crepes (Learnt by tasting or cooking)
+				{ 18, 111445, 160982, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fiery Calamari (Learnt by tasting or cooking)
+				{ 19, 111437, 160969, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Rylak Crepes (Learnt by tasting or cooking)
+				{ 21, 122346, 180759 },	-- Jumbo Sea Dog (Sold, Garrison)
+				{ 22, 111454, 161000, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Gorgrond Chowder (Learnt by tasting or cooking)
+				{ 23, 111438, 160971, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Clefthoof Sausages (Learnt by tasting or cooking)
+				{ 24, 111446, 160983, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Skulker Chowder (Learnt by tasting or cooking)
 			},
 			[MOP_DIFF] = {
 				{ 1, 81410, 124231, [ATLASLOOT_IT_AMOUNT1] = "2-3" },	-- Green Curry Fish : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
