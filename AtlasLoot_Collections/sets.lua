@@ -1180,11 +1180,19 @@ local SetTable = {
 	["Tier17"] = {	-- T17 Sets
 		name = format(AL["Tier %d Sets"], 17),
 		sourceTemplate = {
-			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1162),	-- Head
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1162),	-- Head (Kromog)
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1147),	-- Shoulder (Thogar)
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1123),	-- Chest (Ka'graz)
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1203),	-- Hands (Maidens)
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1154),	-- Legs (Furnance)
+		},
+		sourceTemplateLFR = {
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(959),	-- Head 
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1147),	-- Shoulder
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1123),	-- Chest
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1203),	-- Hands
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1154),	-- Legs
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1162),	-- Feed
 		},
 		{	-- Deathknight
 			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
@@ -1355,6 +1363,7 @@ local SetTable = {
 			name = ALIL["Cloth"].." "..AL["Armor"],
 			subSetName = "rfcloth",
 			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplateLFR",
 			[RF_DIFF] = {
 				120373,	-- Ebonflame Hood
 				120376,	-- Ebonflame Spaulders
@@ -1368,6 +1377,7 @@ local SetTable = {
 			name = ALIL["Leather"].." "..AL["Armor"],
 			subSetName = "rfleather",
 			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplateLFR",
 			[RF_DIFF] = {
 				120382,	-- Sootfur Cap
 				120381,	-- Sootfur Shoulderguards
@@ -1381,6 +1391,7 @@ local SetTable = {
 			name = ALIL["Mail"].." "..AL["Armor"],
 			subSetName = "rfmail",
 			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplateLFR",
 			[RF_DIFF] = {
 				120390,	-- Ashlink Coif
 				120388,	-- Ashlink Pauldrons
@@ -1394,6 +1405,7 @@ local SetTable = {
 			name = ALIL["Plate"].." "..AL["Armor"],
 			subSetName = "rfplate",
 			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplateLFR",
 			[RF_DIFF] = {
 				120396,	-- Blacksteel Casque
 				120395,	-- Blacksteel Shoulderplates

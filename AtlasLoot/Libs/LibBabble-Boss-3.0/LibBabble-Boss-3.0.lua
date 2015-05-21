@@ -8399,7 +8399,7 @@ elseif GAME_LOCALE == "ruRU" then
 	Murmur = "Бормотун",
 	Murozond = "Дорнозму",
 	["Murta Grimgut"] = "Мурта Мрачнобрюх",
-	["M'uru"] = "М'ару",
+	["M'uru"] = "М'ууру",
 	Mushgog = "Мушгог",
 	["Mutanus the Devourer"] = "Мутанус Пожиратель",
 	["Nalak, The Storm Lord"] = "Налак, Повелитель Гроз",

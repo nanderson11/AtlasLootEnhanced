@@ -2047,6 +2047,7 @@ data["BlackTemple"] = {
 				{ 19, 32237 },	-- The Maelstrom's Fury
 				{ 20, 32236 },	-- Rising Tide
 				{ 21, 32248 },	-- Halberd of Desolation
+				{ 23, 122104, "pet1623" },	-- Leviathan Hatchling
 			},
 		},
 		{	--BTSupremus
@@ -2065,6 +2066,7 @@ data["BlackTemple"] = {
 				{ 17, 32262 },	-- Syphon of the Nathrezim
 				{ 18, 32255 },	-- Felstone Bulwark
 				{ 19, 32253 },	-- Legionkiller
+				{ 21, 122106, "pet1624" },	-- Abyssius
 			},
 		},
 		{	--BTAkama
@@ -2123,6 +2125,9 @@ data["BlackTemple"] = {
 				{ 19, 32332 },	-- Torch of the Damned
 				{ 20, 32363 },	-- Naaru-Blessed Life Rod
 				{ 21, 32350 },	-- Touch of Inspiration
+				{ 23, 122107, "pet1625" },	-- Fragment of Anger
+				{ 24, 122108, "pet1626" },	-- Fragment of Suffering				
+				{ 25, 122109, "pet1627" },	-- Fragment of Desire
 			},
 		},
 		{	--BTGorefiend
@@ -2153,6 +2158,7 @@ data["BlackTemple"] = {
 				{ 16, 31101 },	-- Pauldrons of the Forgotten Conqueror
 				{ 17, 31103 },	-- Pauldrons of the Forgotten Protector
 				{ 18, 31102 },	-- Pauldrons of the Forgotten Vanquisher
+				{ 20, 122110, "pet1628" },	-- Sister of Temptation
 			},
 		},
 		{	--BTCouncil
@@ -2347,6 +2353,7 @@ data["CoTHyjal"] = {
 				{ 17, 30881 },	-- Blade of Infamy
 				{ 18, 30883 },	-- Pillar of Ferocity
 				{ 19, 30882 },	-- Bastion of Light
+				{ 21, 122111, "pet1629" },	-- Stinkrot
 			},
 		},
 		{	--MountHyjalKazrogal
@@ -2378,6 +2385,7 @@ data["CoTHyjal"] = {
 				{ 16, 31092 },	-- Gloves of the Forgotten Conqueror
 				{ 17, 31094 },	-- Gloves of the Forgotten Protector
 				{ 18, 31093 },	-- Gloves of the Forgotten Vanquisher
+				{ 20, 122105, "pet1622" },	-- Grotesque
 			},
 		},
 		{	--MountHyjalArchimonde
@@ -2398,7 +2406,8 @@ data["CoTHyjal"] = {
 				{ 16, 31097 },	-- Helm of the Forgotten Conqueror
 				{ 17, 31095 },	-- Helm of the Forgotten Protector
 				{ 18, 31096 },	-- Helm of the Forgotten Vanquisher
-				{ 20, "ac695" },
+				{ 20, 122112, "pet1631" },	-- Hyjal Wisp
+				{ 22, "ac695" },
 			},
 		},
 		{	--MountHyjalTrash
@@ -2941,6 +2950,7 @@ data["SunwellPlateau"] = {
 				{ 16, 34853 },	-- Belt of the Forgotten Conqueror
 				{ 17, 34854 },	-- Belt of the Forgotten Protector
 				{ 18, 34855 },	-- Belt of the Forgotten Vanquisher
+				{ 20, 122113, "pet1632" },	-- Sunblade Micro-Defender
 			},
 		},
 		{	--SPFelmyst
@@ -2989,6 +2999,7 @@ data["SunwellPlateau"] = {
 				{ 26, 34198 },	-- Stanchion of Primal Instinct
 				{ 27, 34196 },	-- Golden Bow of Quel'Thalas
 				{ 28, 34206 },	-- Book of Highborne Hymns
+				{ 30, 122115, "pet1634" },	-- Wretched Servant
 			},
 		},
 		{	--SPMuru
@@ -3022,6 +3033,7 @@ data["SunwellPlateau"] = {
 				{ 26, 34428 },	-- Steely Naaru Sliver
 				{ 27, 34214 },	-- Muramasa
 				{ 28, 34231 },	-- Aegis of Angelic Fortune
+				{ 30, 122114, "pet1633" },	-- Chaos Pup
 			},
 		},
 		{	--SPKiljaeden

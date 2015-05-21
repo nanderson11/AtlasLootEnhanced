@@ -2286,7 +2286,11 @@ data["BlackrockFoundry"] = {
 				{ 17, 116316 },	-- Captured Flickerspark
 				{ 19, 116385 },	-- Magma Monsoon Mace
 				{ 20, 116384 },	-- Steelbringer's Polished Shield
-				{ 22, 115493, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Flamebender's Tome
+				{ 22, 120393 },	-- Blacksteel Chestplate
+				{ 23, 120389 },	-- Ashlink Hauberk
+				{ 24, 120380 },	-- Sootfur Harness
+				{ 25, 120375 },	-- Ebonflame Robes
+				{ 27, 115493, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Flamebender's Tome
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113916 },	-- Charbreath Firecloak
@@ -2363,6 +2367,10 @@ data["BlackrockFoundry"] = {
 				{ 16, 116301 },	-- Lava Shock Seal
 				{ 18, 116388 },	-- Crack-Shot Longrifle
 				{ 19, 116389 },	-- Thogar's Imperialistic Spire
+				{ 21, 120395 },	-- Blacksteel Shoulderplates
+				{ 22, 120388 },	-- Ashlink Pauldrons
+				{ 23, 120381 },	-- Sootfur Shoulderguards
+				{ 24, 120376 },	-- Ebonflame Spaulders
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113958 },	-- Woundsear Robes
@@ -2402,7 +2410,11 @@ data["BlackrockFoundry"] = {
 				{ 17, 116315 },	-- Heart of the Fury [Needs Name Change]
 				{ 19, 116382 },	-- Spire of Pyroclastic Flame
 				{ 20, 116379 },	-- Flickering Lantern Wisp
-				{ 22, 115479, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Heart of the Fury
+				{ 22, 120391 },	-- Blacksteel Legplates
+				{ 23, 120385 },	-- Ashlink Legguards
+				{ 24, 120379 },	-- Sootfur Legwraps
+				{ 25, 120377 },	-- Ebonflame Leggings
+				{ 27, 115479, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Heart of the Fury
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113887 },	-- Bracers of Spattered Steel
@@ -2444,6 +2456,10 @@ data["BlackrockFoundry"] = {
 				{ 17, 116318 },	-- Stoneheart Idol
 				{ 19, 116387 },	-- Axe of the Stone Geyser
 				{ 20, 116386 },	-- Earthbound Shield
+				{ 22, 120394 },	-- Blacksteel Greatboots
+				{ 23, 120387 },	-- Ashlink Treads
+				{ 24, 120383 },	-- Sootfur Stompers
+				{ 25, 120378 },	-- Ebonflame Sandals
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113929 },	-- Cloak of Delving Secrets
@@ -2484,7 +2500,11 @@ data["BlackrockFoundry"] = {
 				{ 16, 116312 },	-- Sorka's Ear Collection
 				{ 17, 116314 },	-- Blackheart Enforcer's Medallion
 				{ 19, 116390 },	-- Battle Medic's Wand
-				{ 21, 115494, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Draenic Thaumaturgical Orb
+				{ 21, 120392 },	-- Blacksteel Gauntlets
+				{ 22, 120386 },	-- Ashlink Gloves
+				{ 23, 120384 },	-- Sootfur Gauntletss
+				{ 24, 120374 },	-- Ebonflame Grips
+				{ 26, 115494, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Draenic Thaumaturgical Orb
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113972 },	-- Cloak of Sanguine Terror
@@ -2528,7 +2548,11 @@ data["BlackrockFoundry"] = {
 				{ 17, 116317 },	-- Storage House Key
 				{ 19, 116391 },	-- Blackhand Forgehammer
 				{ 20, 116393 },	-- Dagger of the Shattered Crucible
-				{ 22, "ac8992" },
+				{ 22, 120396 },	-- Blacksteel Casque
+				{ 23, 120390 },	-- Ashlink Coif
+				{ 24, 120382 },	-- Sootfur Cap
+				{ 25, 120373 },	-- Ebonflame Hood
+				{ 27, "ac8992" },
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 113981 },	-- Slagbomber's Hood

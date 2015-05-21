@@ -769,12 +769,12 @@ function Pet.OnMouseAction(button, mouseButton)
 	if not mouseButton then return end
 	mouseButton = PetClickHandler:Get(mouseButton)
 	if mouseButton == "GoTo" then
-		if not IsAddOnLoaded("Blizzard_PetJournal") then
-			LoadAddOn("Blizzard_PetJournal")
+		if not IsAddOnLoaded("Blizzard_Collections") then
+			LoadAddOn("Blizzard_Collections")
 		end
 		
-		ShowUIPanel(PetJournalParent)
-		PetJournalParent_SetTab(PetJournalParent, 2) -- 1 = Mounts
+		ShowUIPanel(CollectionsJournal)
+		CollectionsJournal_SetTab(CollectionsJournal, 2) -- 1 = Mounts
 		PetJournal_ShowPetCardBySpeciesID(button.PetID)
 	end
 end

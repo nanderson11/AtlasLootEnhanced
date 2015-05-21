@@ -95,12 +95,12 @@ function Mount.OnMouseAction(button, mouseButton)
 	if not mouseButton then return end
 	mouseButton = MountClickHandler:Get(mouseButton)
 	if mouseButton == "GoTo" then
-		if not IsAddOnLoaded("Blizzard_PetJournal") then
-			LoadAddOn("Blizzard_PetJournal")
+		if not IsAddOnLoaded("Blizzard_Collections") then
+			LoadAddOn("Blizzard_Collections")
 		end
 		
-		ShowUIPanel(PetJournalParent)
-		PetJournalParent_SetTab(PetJournalParent, 1)
+		ShowUIPanel(CollectionsJournal)
+		CollectionsJournal_SetTab(CollectionsJournal, 1)
 		MountJournal_Select(MountData.GetIndexFromSpellID(button.MountID))
 	end
 end

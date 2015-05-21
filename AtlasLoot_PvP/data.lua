@@ -1503,3 +1503,81 @@ data["MOPS15SETS"] = {
 		},
 	},
 }
+--[[
+-- Classic Season 1
+
+data["S1SETS"] = {
+	name = string.format(AL["Season %d"], 1).." "..AL["Class Sets"].." ("..AL["Classic"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 24545 },	-- Gladiator's Plate Helm
+				{ 2, 24546 },	-- Gladiator's Plate Shoulders
+				{ 3, 24544 },	-- Gladiator's Plate Chestpiece
+				{ 4, 24549 },	-- Gladiator's Plate Gauntlets
+				{ 5, 24547 },	-- Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." / "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				-- Retribution
+				{ 1, 27704 },	-- Gladiator's Lamellar Helm
+				{ 2, 27706 },	-- Gladiator's Lamellar Shoulders
+				{ 3, 27702 },	-- Gladiator's Lamellar Chestpiece
+				{ 4, 27703 },	-- Gladiator's Lamellar Gauntlets
+				{ 5, 27705 },	-- Gladiator's Lamellar Legguards
+				-- 
+				{ 7, 27881 },	-- Gladiator's Scaled Helm
+				{ 8, 27883 },	-- Gladiator's Scaled Shoulders
+				{ 9, 27879 },	-- Gladiator's Scaled Chestpiece
+				{ 10, 27880 },	-- Gladiator's Scaled Gauntlets
+				{ 11, 27882 },	-- Gladiator's Scaled Legguards
+				-- Holy
+				{ 16, 31616 },	-- Gladiator's Ornamented Headcover
+				{ 17, 31619 },	-- Gladiator's Ornamented Spaulders				
+				{ 18, 31613 },	-- Gladiator's Ornamented Chestguard
+				{ 19, 31614 },	-- Gladiator's Ornamented Gloves
+				{ 20, 31618 },	-- Gladiator's Ornamented Legplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Enhancment
+				{ 1, 25998 },  -- Gladiator's Linked Helm
+				{ 2, 25999 },  -- Gladiator's Linked Spaulders
+				{ 3, 25997 },  -- Gladiator's Linked Armor
+				{ 4, 26000 },  -- Gladiator's Linked Gauntlets
+				{ 5, 26001 },  -- Gladiator's Linked Leggings
+				-- Elemental
+				{ 7, 27471 },  -- Gladiator's Mail Helm
+				{ 8, 27473 },  -- Gladiator's Mail Spaulders
+				{ 9, 27469 },  -- Gladiator's Mail Armor
+				{ 10, 27470 },  -- Gladiator's Mail Gauntlets
+				{ 11, 27472 },  -- Gladiator's Mail Leggings
+				-- Restoration
+				{ 16, 31400 },  -- Gladiator's Ringmail Helm
+				{ 17, 31407 },  -- Gladiator's Ringmail Spaulders
+				{ 18, 31396 },  -- Gladiator's Ringmail Armor
+				{ 19, 31397 },  -- Gladiator's Ringmail Gauntlets
+				{ 20, 31406 },  -- Gladiator's Ringmail Leggings
+
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				--
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				--			
+			},
+		},
+	},
+}
+--]]
