@@ -1,4 +1,4 @@
-﻿## Interface: 60000
+﻿## Interface: 60100
 ## LoadOnDemand: 1
 ## Title: Lib: Babble-ItemSet-3.0
 ## Notes: A library to help with localization of in-game item sets.
@@ -11,7 +11,7 @@
 ## X-Curse-Project-Name: LibBabble-ItemSet-3.0
 ## X-Curse-Project-ID: libbabble-itemset-3-0
 ## X-Curse-Repository-ID: wow/libbabble-itemset-3-0/mainline
-## X-Curse-Packaged-Version: v8.00.00beta8
+## X-Curse-Packaged-Version: v8.00.00
 ## X-Curse-Project-Name: AtlasLoot Enhanced
 ## X-Curse-Project-ID: atlasloot-enhanced
 ## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
