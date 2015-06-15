@@ -1,12 +1,8 @@
-﻿## Interface: 60100
+﻿## Interface: 60200
 ## Author: Hegarol	
-## Version: v8.00.00
+## Version: @project-version@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
-## X-Curse-Packaged-Version: v8.00.00
-## X-Curse-Project-Name: AtlasLoot Enhanced
-## X-Curse-Project-ID: atlasloot-enhanced
-## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
 
 ## Title: AtlasLoot |cFF0099FF[Factions]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Fraktionen]|r

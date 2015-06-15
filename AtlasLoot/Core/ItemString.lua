@@ -45,9 +45,13 @@ local ITEM_BONUS_PRESET = {
 	["Stage2"]			= { 526 },
 	["Stage3"]			= { 527 },
 	["Stage4"]			= { 593 },
+	["Stage5"]			= { 617 },
+	["Stage6"]			= { 618 },
 	["Stage2W"]			= { 558 },
 	["Stage3W"]			= { 559 },
 	["Stage4W"]			= { 594 },
+	["Stage5W"]			= { 619 },
+	["Stage6W"]			= { 620 },
 	-- Heirloom
 	["Stage2H"]			= { 582 },
 	["Stage3H"]			= { 583 }

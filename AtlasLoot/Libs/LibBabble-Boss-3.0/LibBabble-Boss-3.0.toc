@@ -1,4 +1,4 @@
-﻿## Interface: 60100
+﻿## Interface: 60200
 ## LoadOnDemand: 1
 ## Title: Lib: Babble-Boss-3.0
 ## Notes: A library to help with localization of bosses.
@@ -11,10 +11,6 @@
 ## X-eMail: ckknight@gmail.com
 ## X-Category: Library
 ## X-License: MIT
-## X-Curse-Packaged-Version: v8.00.00
-## X-Curse-Project-Name: AtlasLoot Enhanced
-## X-Curse-Project-ID: atlasloot-enhanced
-## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
 
 LibStub\LibStub.lua
 lib.xml
