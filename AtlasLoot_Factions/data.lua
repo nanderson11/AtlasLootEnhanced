@@ -20,6 +20,91 @@ data["WODFACTIONS"] = {
 	name = AL["Warlords of Draenor"],
 	ContentType = FACTION_CONTENT,
 	items = {
+		{	--Vol'jin's Headhunters
+			FactionID = 1848,
+			CoinTexture = "Reputation",
+			[HORDE_DIFF] = {
+				{ 1, "f1848rep5" },
+				{ 2, 128451, [PRICE_EXTRA_ITTYPE] = "money:300000" },	-- Vol'jin's Headhunters Battle Standard
+				{ 4, "f1848rep6" },
+				{ 5, 128440, [PRICE_EXTRA_ITTYPE] = "money:6000000" },	-- Contract: Dowser Goodwell
+				{ 6, 128251, [PRICE_EXTRA_ITTYPE] = "money:2200000" },	-- Equipment Blueprint: Tuskarr Fishing Net
+				{ 7, 127269, [PRICE_EXTRA_ITTYPE] = "money:5500000" },	-- Ship Blueprint: Battleship
+				{ 8, 113212, [PRICE_EXTRA_ITTYPE] = "money:600000" },	-- Treasure Map: Tanaan Jungle
+				{ 10, "f1848rep7" },
+				{ 11, 128490, [PRICE_EXTRA_ITTYPE] = "money:12000000" },	-- Blueprint: Oil Rig
+				{ 12, 128489, [PRICE_EXTRA_ITTYPE] = "money:9000000" },	-- Equipment Blueprint: Unsinkable
+				{ 13, 128471, [PRICE_EXTRA_ITTYPE] = "money:2500000" },	-- Frostwolf Grunt's Battlegear
+				{ 14, 128472, [PRICE_EXTRA_ITTYPE] = "" },	-- Battlegear of the Frostwolves
+				{ 16, "f1848rep8" },
+				{ 17, 128527, "mount", [PRICE_EXTRA_ITTYPE] = "money:26315789" },	-- Deathtusk Felboar
+				{ 18, 128475, [PRICE_EXTRA_ITTYPE] = "money:60000000" },	-- Empowered Augment Rune
+				{ 19, 128447, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Frostwolf Grunt's Battlegear
+			},
+		},
+		{	--Hand of the Prophet
+			FactionID = 1847,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1, "f1847rep5" },
+				{ 2, 128452, [PRICE_EXTRA_ITTYPE] = "money:300000" },	-- Hand of the Prophet Battle Standard
+				{ 4, "f1847rep6" },
+				{ 5, 128445, [PRICE_EXTRA_ITTYPE] = "money:6000000" },	-- Contract: Dowser Bigspark
+				{ 6, 128491, [PRICE_EXTRA_ITTYPE] = "money:2200000" },	-- Equipment Blueprint: Tuskarr Fishing Net
+				{ 7, 128492, [PRICE_EXTRA_ITTYPE] = "money:5500000" },	-- Ship Blueprint: Battleship
+				{ 8, 128474, [PRICE_EXTRA_ITTYPE] = "money:600000" },	-- Treasure Map: Tanaan Jungle
+				{ 10, "f1847rep7" },
+				{ 11, 128444, [PRICE_EXTRA_ITTYPE] = "money:12000000" },	-- Blueprint: Oil Rig
+				{ 12, 128250, [PRICE_EXTRA_ITTYPE] = "money:9000000" },	-- Equipment Blueprint: Unsinkable
+				{ 13, 128462, [PRICE_EXTRA_ITTYPE] = "money:2500000" },	-- Karabor Councilor's Attire
+				{ 14, 128473, [PRICE_EXTRA_ITTYPE] = "" },	-- Packaged Ceremonial Karabor Finery
+				{ 16, "f1847rep8" },
+				{ 17, 128527, "mount", [PRICE_EXTRA_ITTYPE] = "money:26315789" },	-- Deathtusk Felboar
+				{ 18, 128482, [PRICE_EXTRA_ITTYPE] = "money:60000000" },	-- Empowered Augment Rune
+				{ 19, 128448, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Hand of the Prophet Tabard
+			},
+		},
+		{	--Order of the Awakened
+			FactionID = 1849,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1, "f1849rep5" },
+				{ 2, 128454, [PRICE_EXTRA_ITTYPE] = "money:500000" },	-- Order of the Awakened Battle Standard
+				{ 3, 123974, "mount", [PRICE_EXTRA_ITTYPE] = "apexis:150000" },	-- Reins of the Corrupted Dreadwing
+				{ 5, "f1849rep6" },
+				{ 6, 128441, [PRICE_EXTRA_ITTYPE] = "apexis:1000" }, -- Contract: Solar Priest Vayx
+				{ 7, 127774, [PRICE_EXTRA_ITTYPE] = "money:30000000:apexis:3000" }, -- Gemcutter Module: Multistrike
+				{ 8, 128502, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Hunter's Seeking Crystal
+				{ 10, "f1849rep7" },
+				{ 11, 122283, [PRICE_EXTRA_ITTYPE] = "apexis:50000" },	-- Rukhmar's Sacred Memory
+				{ 12, 128503, [PRICE_EXTRA_ITTYPE] = "money:50000000:128502:1" },	-- Master Hunter's Seeking Crystal
+				{ 16, "f1849rep8" },
+				{ 17, 128478, "pet1693", [PRICE_EXTRA_ITTYPE] = "apexis:2000" },	-- Blazing Firehawk
+				{ 18, 128450, [PRICE_EXTRA_ITTYPE] = "money:300000" },	-- Order of the Awakened Tabard
+				{ 19, 128487, [PRICE_EXTRA_ITTYPE] = "money:2000000" },	-- Ship: The Awakener
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 19, 128488, [PRICE_EXTRA_ITTYPE] = "money:2000000" },	-- Ship: The Awakener
+			},
+		},
+		{	--The Saberstalkers
+			FactionID = 1850,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f1850rep5" },
+				{ 2, 128453, [PRICE_EXTRA_ITTYPE] = "money:300000" },	-- Saberstalkers Battle Standard
+				{ 4, "f1850rep6" },
+				{ 5, 128439, [PRICE_EXTRA_ITTYPE] = "bfclaw:100" },	-- Contract: Pallas
+				{ 6, 116671, "mount", [PRICE_EXTRA_ITTYPE] = "bfclaw:1000" },	-- Wild Goretusk
+				{ 8, "f1850rep7" },
+				{ 9, 128446, [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Saberstalker Teachings: Trailblazer
+				{ 10, 128477, "pet1692", [PRICE_EXTRA_ITTYPE] = "bfclaw:1500" },	-- Savage Cub
+				{ 16, "f1850rep8" },
+				{ 17, 128481, "mount", [PRICE_EXTRA_ITTYPE] = "bfclaw:5000" },	-- Bristling Hellboar
+				{ 18, 128449, [PRICE_EXTRA_ITTYPE] = "money:100000" },	-- Saberstalkers Tabard
+			},
+		},
 		{	--ArakkoaOutcasts
 			FactionID = 1515,
 			CoinTexture = "Reputation",

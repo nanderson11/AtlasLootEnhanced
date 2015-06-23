@@ -207,9 +207,15 @@ data["Alchemy"] = {
 			name = AL["Miscellaneous"],
 			[WOD_DIFF] = {
 				{ 1, 109262, 156560, [PRICE_EXTRA_ITTYPE] = "118700:1" },	-- Draenic Philosopher's Stone (Sold, Ashran)
-				{ 3, 108996, 156587, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Alchemical Catalyst (Learnt by item 109558)
+				{ 3, 108996, 156587, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Alchemical Catalyst (Learnt by item 109558)
 				{ 5, 118700, 175880 },	-- Secrets of Draenor Alchemy (Learnt by item 109558)
 				{ 7, 109123, 156585 },	-- Crescent Oil (Learnt by item 109558)
+				{ 16, 128024, 188676 },	-- Stone of the Elements
+				{ 17, 128023, 188674 },	-- Stone of the Wilds
+				{ 18, 122604, 181650 },	-- Stone of Fire
+				{ 19, 122603, 181649 },	-- Stone of the Waters
+				{ 20, 122602, 181648 },	-- Stone of the Earth
+				{ 21, 122601, 181647 },	-- Stone of Wind
 			},
 			[MOP_DIFF] = {
 				{ 1, 75274, 136197 },	-- Zen Alchemist Stone : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
@@ -472,49 +478,65 @@ data["Blacksmithing"] = {
 		{	--SmithingArmor
 			name = AL["Armor"],
 			[WOD_DIFF] = {
-				{ 1, "114230:Stage4", 181417 },		-- Truesteel Helm (Stage 4)
-				{ 10, "114230:Stage3", 171709 },	-- Truesteel Helm (Stage 3)
-				{ 19, "114230:Stage2", 171708 },	-- Truesteel Helm (Stage 2)
-				{ 101, "114230:Stage1", 171701, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Helm (Stage 1) (Sold, Ashran)
-				
-				{ 2, "114231:Stage4", 181417 },		-- Truesteel Pauldrons (Stage 4)
-				{ 11, "114231:Stage3", 171709 },	-- Truesteel Pauldrons (Stage 3)
-				{ 20, "114231:Stage2", 171708 },	-- Truesteel Pauldrons (Stage 2)
-				{ 102, "114231:Stage1", 171700, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Pauldrons (Stage 1) (Sold, Ashran)
+				{ 1, "114230:Stage6", 187515 },		-- Truesteel Helm (Stage 6)
+				{ 10, "114230:Stage5", 187491 },	-- Truesteel Helm (Stage 5)
+				{ 19, "114230:Stage4", 171708 },	-- Truesteel Helm (Stage 4)
+				{ 101, "114230:Stage3", 171708 },	-- Truesteel Helm (Stage 3)
+				{ 110, "114230:Stage2", 171708 },	-- Truesteel Helm (Stage 2)
+				{ 119, "114230:Stage1", 171701, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Helm (Stage 1) (Sold, Ashran)
 
-				{ 3, "114232:Stage4", 181417 },		-- Truesteel Breastplate (Stage 4)
-				{ 12, "114232:Stage3", 171709 },	-- Truesteel Breastplate (Stage 3)
-				{ 21, "114232:Stage2", 171708 },	-- Truesteel Breastplate (Stage 2)
-				{ 103, "114232:Stage1", 171704, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Breastplate (Stage 1) (Sold, Ashran)
+				{ 2, "114231:Stage6", 187515 },		-- Truesteel Pauldrons (Stage 6)
+				{ 11, "114231:Stage5", 187491 },	-- Truesteel Pauldrons (Stage 5)
+				{ 20, "114231:Stage4", 171708 },	-- Truesteel Pauldrons (Stage 4)
+				{ 102, "114231:Stage3", 171708 },	-- Truesteel Pauldrons (Stage 3)
+				{ 111, "114231:Stage2", 171708 },	-- Truesteel Pauldrons (Stage 2)
+				{ 120, "114231:Stage1", 171700, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Pauldrons (Stage 1) (Sold, Ashran)
+
+				{ 3, "114232:Stage6", 187515 },		-- Truesteel Breastplate (Stage 6)
+				{ 12, "114232:Stage5", 187491 },	-- Truesteel Breastplate (Stage 5)
+				{ 21, "114232:Stage4", 171708 },	-- Truesteel Breastplate (Stage 4)
+				{ 103, "114232:Stage3", 171708 },	-- Truesteel Breastplate (Stage 3)
+				{ 112, "114232:Stage2", 171708 },	-- Truesteel Breastplate (Stage 2)
+				{ 121, "114232:Stage1", 171704, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Breastplate (Stage 1) (Sold, Ashran)
+
+				{ 4, "114236:Stage6", 187515 },		-- Truesteel Armguards (Stage 6)
+				{ 13, "114236:Stage5", 187491 },	-- Truesteel Armguards (Stage 5)				
+				{ 22, "114236:Stage4", 171708 },	-- Truesteel Armguards (Stage 4)
+				{ 104, "114236:Stage3", 171708 },	-- Truesteel Armguards (Stage 3)
+				{ 113, "114236:Stage2", 171708 },	-- Truesteel Armguards (Stage 2)
+				{ 122, "114236:Stage1", 171705, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Armguards (Stage 1) (Sold, Ashran)
+
+				{ 5, "114237:Stage6", 187515 },		-- Truesteel Gauntlets (Stage 6)
+				{ 14, "114237:Stage5", 187491 },	-- Truesteel Gauntlets (Stage 5)				
+				{ 23, "114237:Stage4", 171708 },	-- Truesteel Gauntlets (Stage 4)
+				{ 105, "114237:Stage3", 171708 },	-- Truesteel Gauntlets (Stage 3)
+				{ 114, "114237:Stage2", 171708 },	-- Truesteel Gauntlets (Stage 2)
+				{ 123, "114237:Stage1", 171703, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Gauntlets (Stage 1) (Sold, Ashran)
+
+				{ 6, "114233:Stage6", 187515 },		-- Truesteel Waistguard (Stage 6)
+				{ 15, "114233:Stage5", 187491 },	-- Truesteel Waistguard (Stage 5)				
+				{ 24, "114233:Stage4", 171708 },	-- Truesteel Waistguard (Stage 4)
+				{ 106, "114233:Stage3", 171708 },	-- Truesteel Waistguard (Stage 3)
+				{ 115, "114233:Stage2", 171708 },	-- Truesteel Waistguard (Stage 2)
+				{ 124, "114233:Stage1", 171707, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Waistguard (Stage 1) (Sold, Ashran)
+
+				{ 7, "114234:Stage6", 187515 },		-- Truesteel Greaves (Stage 6)
+				{ 16, "114234:Stage5", 187491 },	-- Truesteel Greaves (Stage 5)				
+				{ 25, "114234:Stage4", 171708 },	-- Truesteel Greaves (Stage 4)
+				{ 107, "114234:Stage3", 171708 },	-- Truesteel Greaves (Stage 3)
+				{ 116, "114234:Stage2", 171708 },	-- Truesteel Greaves (Stage 2)
+				{ 125, "114234:Stage1", 171702, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Greaves (Stage 1) (Sold, Ashran)
 				
-				{ 4, "114236:Stage4", 181417 },		-- Truesteel Armguards (Stage 4)
-				{ 13, "114236:Stage3", 171709 },	-- Truesteel Armguards (Stage 3)
-				{ 22, "114236:Stage2", 171708 },	-- Truesteel Armguards (Stage 2)
-				{ 104, "114236:Stage1", 171705, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Armguards (Stage 1) (Sold, Ashran)
+				{ 8, "114235:Stage6", 187515 },		-- Truesteel Boots (Stage 6)
+				{ 17, "114235:Stage5", 187491 },	-- Truesteel Boots (Stage 5)
+				{ 26, "114235:Stage4", 171708 },	-- Truesteel Boots (Stage 4)
+				{ 108, "114235:Stage3", 171708 },	-- Truesteel Boots (Stage 3)
+				{ 117, "114235:Stage2", 171708 },	-- Truesteel Boots (Stage 2)
+				{ 126, "114235:Stage1", 171706, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Boots (Stage 1) (Sold, Ashran)
 				
-				{ 5, "114237:Stage4", 181417 },		-- Truesteel Gauntlets (Stage 4)
-				{ 14, "114237:Stage3", 171709 },	-- Truesteel Gauntlets (Stage 3)
-				{ 23, "114237:Stage2", 171708 },	-- Truesteel Gauntlets (Stage 2)
-				{ 105, "114237:Stage1", 171703, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Gauntlets (Stage 1) (Sold, Ashran)
-				
-				{ 6, "114233:Stage4", 181417 },		-- Truesteel Waistguard (Stage 4)
-				{ 15, "114233:Stage3", 171709 },	-- Truesteel Waistguard (Stage 3)
-				{ 24, "114233:Stage2", 171708 },	-- Truesteel Waistguard (Stage 2)
-				{ 106, "114233:Stage1", 171707, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Waistguard (Stage 1) (Sold, Ashran)
-				
-				{ 7, "114234:Stage4", 181417 },		-- Truesteel Greaves (Stage 4)
-				{ 16, "114234:Stage3", 171709 },	-- Truesteel Greaves (Stage 3)
-				{ 25, "114234:Stage2", 171708 },	-- Truesteel Greaves (Stage 2)
-				{ 107, "114234:Stage1", 171702, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Greaves (Stage 1) (Sold, Ashran)
-				
-				{ 8, "114235:Stage4", 181417 },		-- Truesteel Boots (Stage 4)
-				{ 17, "114235:Stage3", 171709 },	-- Truesteel Boots (Stage 3)
-				{ 26, "114235:Stage2", 171708 },	-- Truesteel Boots (Stage 2)
-				{ 108, "114235:Stage1", 171706, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Boots (Stage 1) (Sold, Ashran)
-				
-				{ 111, 116426, 171691 },	-- Smoldering Helm (Learnt by item 115356)
-				{ 112, 116427, 171692 },	-- Smoldering Breastplate (Learnt by item 115356)
-				{ 113, 116425, 171693 },	-- Smoldering Greaves (Learnt by item 115356)
+				{ 128, 116426, 171691 },	-- Smoldering Helm (Learnt by item 115356)
+				{ 129, 116427, 171692 },	-- Smoldering Breastplate (Learnt by item 115356)
+				{ 130, 116425, 171693 },	-- Smoldering Greaves (Learnt by item 115356)
 			},
 			[MOP_DIFF] = {
 				{ 1, 98616, 142968 },	-- Avenger's Trillium Waistplate : =ds=#s10#, #a4# / =q1=#sk# 600 : =ds=AtlasLoot["Discovery"]: spell143255
@@ -981,40 +1003,54 @@ data["Blacksmithing"] = {
 		{	--SmithingWeaponsShields
 			name = AL["Weapons"].." & "..AL["Shields"],
 			[WOD_DIFF] = {
-				{ 1, "120259:Stage4W", 181416 },	-- Steelforged Axe (Stage 4),
-				{ 9, "120259:Stage3W", 171711 }, 	-- Steelforged Axe (Stage 3),
-				{ 16, "120259:Stage2W", 171710 },	-- Steelforged Axe (Stage 2)
-				{ 24, "120259:Stage1", 178243, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Axe (Stage 1) (Sold Ashran)
+				{ 1, "120259:Stage6W", 187514 },	-- Steelforged Axe (Stage 6),
+				{ 9, "120259:Stage5W", 187490 }, 	-- Steelforged Axe (Stage 5),
+				{ 16, "120259:Stage4W", 171710 },	-- Steelforged Axe (Stage 4),
+				{ 24, "120259:Stage3W", 171710 }, 	-- Steelforged Axe (Stage 3),
+				{ 101, "120259:Stage2W", 171710 },	-- Steelforged Axe (Stage 2)
+				{ 109, "120259:Stage1", 178243, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Axe (Stage 1) (Sold Ashran)
 
-				{ 2, "116644:Stage4W", 181416 },	-- Steelforged Dagger (Stage 4)
-				{ 10, "116644:Stage3W", 171711 },	-- Steelforged Dagger (Stage 3)
-				{ 17, "116644:Stage2W", 171710 },	-- Steelforged Dagger (Stage 2)
-				{ 25, "116644:Stage1", 171696, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Dagger (Stage 1) (Sold Ashran)
+				{ 2, "116644:Stage6W", 187514 },	-- Steelforged Dagger (Stage 6)
+				{ 10, "116644:Stage5W", 187490 },	-- Steelforged Dagger (Stage 5)
+				{ 17, "116644:Stage4W", 171710 },	-- Steelforged Dagger (Stage 4)
+				{ 25, "116644:Stage3W", 171710 },	-- Steelforged Dagger (Stage 3)
+				{ 102, "116644:Stage2W", 171710 },	-- Steelforged Dagger (Stage 2)
+				{ 110, "116644:Stage1", 171696, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Dagger (Stage 1) (Sold Ashran)
 
-				{ 3, "116646:Stage4W", 181416 },	-- Steelforged Hammer (Stage 4)
-				{ 11, "116646:Stage3W", 171711 },	-- Steelforged Hammer (Stage 3)
-				{ 18, "116646:Stage2W", 171710 },	-- Steelforged Hammer (Stage 2)
-				{ 26, "116646:Stage1", 171697, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Hammer (Stage 1) (Sold Ashran)
+				{ 3, "116646:Stage6W", 187514 },	-- Steelforged Hammer (Stage 6)
+				{ 11, "116646:Stage5W", 187490 },	-- Steelforged Hammer (Stage 5)
+				{ 18, "116646:Stage4W", 171710 },	-- Steelforged Hammer (Stage 4)
+				{ 26, "116646:Stage3W", 171710 },	-- Steelforged Hammer (Stage 3)
+				{ 103, "116646:Stage2W", 171710 },	-- Steelforged Hammer (Stage 2)
+				{ 111, "116646:Stage1", 171697, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Hammer (Stage 1) (Sold Ashran)
 
-				{ 4, "116454:Stage4W", 181416 },	-- Steelforged Saber (Stage 4)
-				{ 12, "116454:Stage3W", 171711 },	-- Steelforged Saber (Stage 3)
-				{ 19, "116454:Stage2W", 171710 },	-- Steelforged Saber (Stage 2)
-				{ 27, "116454:Stage1", 171695, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Saber (Stage 1) (Sold Ashran)
+				{ 4, "116454:Stage6W", 187514 },	-- Steelforged Saber (Stage 6)
+				{ 12, "116454:Stage5W", 187490 },	-- Steelforged Saber (Stage 5)
+				{ 19, "116454:Stage4W", 171710 },	-- Steelforged Saber (Stage 4)
+				{ 27, "116454:Stage3W", 171710 },	-- Steelforged Saber (Stage 3)
+				{ 104, "116454:Stage2W", 171710 },	-- Steelforged Saber (Stage 2)
+				{ 112, "116454:Stage1", 171695, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Saber (Stage 1) (Sold Ashran)
 
-				{ 5, "116453:Stage4W", 181416 },	-- Steelforged Greataxe (Stage 4)
-				{ 13, "116453:Stage3W", 171711 },	-- Steelforged Greataxe (Stage 3)
-				{ 20, "116453:Stage2W", 171710 },	-- Steelforged Greataxe (Stage 2)
-				{ 28, "116453:Stage1", 171694, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Greataxe (Stage 1) (Sold Ashran)
+				{ 5, "116453:Stage6W", 187514 },	-- Steelforged Greataxe (Stage 6)
+				{ 13, "116453:Stage5W", 187490 },	-- Steelforged Greataxe (Stage 5)
+				{ 20, "116453:Stage4W", 171710 },	-- Steelforged Greataxe (Stage 4)
+				{ 28, "116453:Stage3W", 171710 },	-- Steelforged Greataxe (Stage 3)
+				{ 105, "116453:Stage2W", 171710 },	-- Steelforged Greataxe (Stage 2)
+				{ 113, "116453:Stage1", 171694, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Greataxe (Stage 1) (Sold Ashran)
 			
-				{ 6, "120261:Stage4W", 181416 },	-- Steelforged Aegis (Stage 4)
-				{ 14, "120261:Stage3W", 171711 },	-- Steelforged Aegis (Stage 3)
-				{ 21, "120261:Stage2W", 171710 },	-- Steelforged Aegis (Stage 2)
-				{ 29, "120261:Stage1", 178245, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Aegis (Stage 1) (Sold Ashran)
+				{ 6, "120261:Stage6W", 187514 },	-- Steelforged Aegis (Stage 6)
+				{ 14, "120261:Stage5W", 187490 },	-- Steelforged Aegis (Stage 5)
+				{ 21, "120261:Stage4W", 171710 },	-- Steelforged Aegis (Stage 4)
+				{ 29, "120261:Stage3W", 171710 },	-- Steelforged Aegis (Stage 3)
+				{ 106, "120261:Stage2W", 171710 },	-- Steelforged Aegis (Stage 2)
+				{ 114, "120261:Stage1", 178245, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Aegis (Stage 1) (Sold Ashran)
 
-				{ 7, "116647:Stage4W", 181416 },	-- Steelforged Shield (Stage 4)
-				{ 15, "116647:Stage3W", 171711 },	-- Steelforged Shield (Stage 3)
-				{ 22, "116647:Stage2W", 171710 },	-- Steelforged Shield (Stage 2)
-				{ 30, "116647:Stage1", 171698, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Shield (Stage 1) (Sold Ashran)
+				{ 7, "116647:Stage6W", 187514 },	-- Steelforged Shield (Stage 6)
+				{ 15, "116647:Stage5W", 187490 },	-- Steelforged Shield (Stage 5)
+				{ 22, "116647:Stage4W", 171710 },	-- Steelforged Shield (Stage 4)
+				{ 30, "116647:Stage3W", 171710 },	-- Steelforged Shield (Stage 3)
+				{ 107, "116647:Stage2W", 171710 },	-- Steelforged Shield (Stage 2)
+				{ 115, "116647:Stage1", 171698, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Steelforged Shield (Stage 1) (Sold Ashran)
 
 			},
 			[MOP_DIFF] = {
@@ -1221,9 +1257,9 @@ data["Blacksmithing"] = {
 		{	--SmithingArmorEnhancement
 			name = AL["Armor Enhancements"],
 			[NORMAL_DIFF] = {
-				{ 1, 122539, 181417, [PRICE_EXTRA_ITTYPE] = "109119:60"},	-- Powerful Truesteel Essence (Sold, Garrison)
-				{ 2, 116649, 171708, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Truesteel Essence (Sold, Ashran)
-				{ 3, 116650, 171709, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Greater Truesteel Essence (Sold, Ashran)
+				{ 1, 127732, 187515, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Savage Truesteel Essence (Sold, Garrison)
+				{ 2, 127714, 187491, [PRICE_EXTRA_ITTYPE] = "109119:60"},	-- Mighty Truesteel Essence (Sold, Garrison)
+				{ 3, 128015, 171708, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Truesteel Essence (Sold, Ashran)
 				{ 4, 116428, 173355, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Reshaper (Sold, Ashran)
 				{ 6, 90046, 122632 },	-- Living Steel Belt Buckle : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
 				{ 7, 55054, 76439 },	-- Ebonsteel Belt Buckle : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "5 #pyriumbar#"
@@ -1247,9 +1283,9 @@ data["Blacksmithing"] = {
 		{	--SmithingWeaponEnhancement
 			name = AL["Weapon Enhancements"],
 			[NORMAL_DIFF] = {
-				{ 1, 122538, 181416, [PRICE_EXTRA_ITTYPE] = "109118:60"},	-- Powerful Steelforged Essence
-				{ 2, 116652, 171710, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Steelforged Essence (Sold, Ashran)
-				{ 3, 116653, 171711, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Greater Steelforged Essence (Sold, Ashran)
+				{ 1, 127731, 187514, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Savage Steelforged Essence (Sold, Ashran)
+				{ 2, 127713, 187490, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Mighty Steelforged Essence (Sold, Ashran)
+				{ 3, 128016, 171710, [PRICE_EXTRA_ITTYPE] = "118720:5" },	-- Steelforged Essence (Sold, Ashran)		
 				{ 4, 116654, 171699, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Truesteel Grinder (Sold, Ashran)
 				{ 6, 86597, 131929 },	-- Living Steel Weapon Chain : =ds=#sr# 540 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
 				{ 7, 55057, 76442 },	-- Pyrium Weapon Chain : =ds=#sr# 500 : =ds=AtlasLoot["Vendor"] "20 #elementiumbar#"
@@ -1278,7 +1314,7 @@ data["Blacksmithing"] = {
 			name = AL["Miscellaneous"],
 			[NORMAL_DIFF] = {
 				{ 1, 119328, 177169, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Soul of the Forge (Sold, Ashran)
-				{ 3, 108257, 171690, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Truesteel Ingot (Learnt by item 115356)
+				{ 3, 108257, 171690, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Truesteel Ingot (Learnt by item 115356)
 				{ 4, 108257, 182116, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Truesteel Ingot (Sold in Garrison)
 				{ 6, 118720, 176090 },	-- Secrets of Draenor Blacksmithing (Learnt by item 115356)
 				{ 8, 98717, 146921 },	-- Accelerated Balanced Trillium Ingot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
@@ -1918,26 +1954,40 @@ data["Engineering"] = {
 		{	--EngineeringArmorWeapons
 			name = AL["Armor"].." & "..AL["Weapons"],
 			[WOD_DIFF] = {
-				{ 1, "109172:Stage4", 181423 },	-- Plasma Mechshades (Stage 4)				
-				{ 2, "109172:Stage3", 169077 },	-- Plasma Mechshades (Stage 3)
-				{ 3, "109172:Stage2", 169076 },	-- Plasma Mechshades (Stage 2)
-				{ 4, "109172:Stage1", 162197, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Plasma Mechshades (Stage 1) (Sold, Ashran)
-				{ 6, "109171:Stage4", 181423 },	-- Night-Vision Mechshades (Stage 4)
-				{ 7, "109171:Stage3", 169077 },	-- Night-Vision Mechshades (Stage 3)
-				{ 8, "109171:Stage2", 169076 },	-- Night-Vision Mechshades (Stage 2)
-				{ 9, "109171:Stage1", 162196, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Night-Vision Mechshades (Stage 1) (Sold, Ashran)
-				{ 16, "109173:Stage4", 181423 },	-- Cybergenetic Mechshades (Stage 4)
-				{ 17, "109173:Stage3", 169077 },	-- Cybergenetic Mechshades (Stage 3)
-				{ 18, "109173:Stage2", 169076 },	-- Cybergenetic Mechshades (Stage 2)
-				{ 19, "109173:Stage1", 162195, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Cybergenetic Mechshades (Stage 1) (Sold, Ashran)
-				{ 21, "109174:Stage4", 181423 },	-- Razorguard Mechshades (Stage 4)
-				{ 22, "109174:Stage3", 169077 },	-- Razorguard Mechshades (Stage 3)
-				{ 23, "109174:Stage2", 169076 },	-- Razorguard Mechshades (Stage 2)
-				{ 24, "109174:Stage1", 162198, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Razorguard Mechshades (Stage 1) (Sold, Ashran)
-				{ 11, "109168:Stage4W", 181422 },	-- Shrediron's Shredder (Stage 4)
-				{ 12, "109168:Stage3W", 177364 },	-- Shrediron's Shredder (Stage 3)
-				{ 13, "109168:Stage2W", 177363 },	-- Shrediron's Shredder (Stage 2)
-				{ 14, "109168:Stage1", 162199, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Shrediron's Shredder (Stage 1) (Sold, Ashran)
+				{ 1, "109172:Stage6", 187521 },	-- Plasma Mechshades (Stage 6)				
+				{ 2, "109172:Stage5", 187497 },	-- Plasma Mechshades (Stage 5)
+				{ 3, "109172:Stage4", 169076 },	-- Plasma Mechshades (Stage 4)				
+				{ 4, "109172:Stage3", 169076 },	-- Plasma Mechshades (Stage 3)
+				{ 5, "109172:Stage2", 169076 },	-- Plasma Mechshades (Stage 2)
+				{ 6, "109172:Stage1", 162197, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Plasma Mechshades (Stage 1) (Sold, Ashran)
+
+				{ 8, "109171:Stage6", 187521 },	-- Night-Vision Mechshades (Stage 6)
+				{ 9, "109171:Stage5", 187497 },	-- Night-Vision Mechshades (Stage 5)
+				{ 10, "109171:Stage4", 169076 },	-- Night-Vision Mechshades (Stage 4)
+				{ 11, "109171:Stage3", 169076 },	-- Night-Vision Mechshades (Stage 3)
+				{ 12, "109171:Stage2", 169076 },	-- Night-Vision Mechshades (Stage 2)
+				{ 13, "109171:Stage1", 162196, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Night-Vision Mechshades (Stage 1) (Sold, Ashran)
+
+				{ 16, "109173:Stage6", 187521 },	-- Cybergenetic Mechshades (Stage 6)
+				{ 17, "109173:Stage5", 187497 },	-- Cybergenetic Mechshades (Stage 5)
+				{ 18, "109173:Stage4", 169076 },	-- Cybergenetic Mechshades (Stage 4)
+				{ 19, "109173:Stage3", 169076 },	-- Cybergenetic Mechshades (Stage 3)
+				{ 20, "109173:Stage2", 169076 },	-- Cybergenetic Mechshades (Stage 2)
+				{ 21, "109173:Stage1", 162195, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Cybergenetic Mechshades (Stage 1) (Sold, Ashran)
+
+				{ 23, "109174:Stage6", 187521 },	-- Razorguard Mechshades (Stage 6)
+				{ 24, "109174:Stage5", 187497 },	-- Razorguard Mechshades (Stage 5)
+				{ 25, "109174:Stage4", 169076 },	-- Razorguard Mechshades (Stage 4)
+				{ 26, "109174:Stage3", 169076 },	-- Razorguard Mechshades (Stage 3)
+				{ 27, "109174:Stage2", 169076 },	-- Razorguard Mechshades (Stage 2)
+				{ 28, "109174:Stage1", 162198, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Razorguard Mechshades (Stage 1) (Sold, Ashran)
+
+				{ 101, "109168:Stage6W", 187520 },	-- Shrediron's Shredder (Stage 6)
+				{ 102, "109168:Stage5W", 187496 },	-- Shrediron's Shredder (Stage 5)
+				{ 103, "109168:Stage4W", 177363 },	-- Shrediron's Shredder (Stage 4)
+				{ 104, "109168:Stage3W", 177363 },	-- Shrediron's Shredder (Stage 3)
+				{ 105, "109168:Stage2W", 177363 },	-- Shrediron's Shredder (Stage 2)
+				{ 106, "109168:Stage1", 162199, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Shrediron's Shredder (Stage 1) (Sold, Ashran)
 			},
 			[MOP_DIFF] = {
 				{ 1, 77533, 127117 },	-- Lightweight Retinal Armor : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
@@ -2252,7 +2302,7 @@ data["Engineering"] = {
 		{	--EngineeringReagents
 			name = AL["Reagents"],
 			[WOD_DIFF] = {
-				{ 1, 111366, 169080, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Gearspring Parts (Learnt by item 111921)
+				{ 1, 111366, 169080, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Gearspring Parts (Learnt by item 111921)
 				{ 2, 111366, 182120 },	-- Gearspring Parts (Learnt by item 111921)
 				{ 4, 119299, 177054 },	-- Secrets of Draenor Engineering (Learnt by item 111921)
 			},
@@ -2394,12 +2444,12 @@ data["Engineering"] = {
 				{ 6, 109183, 162206, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- World Shrinker (Sold, Ashran)
 				{ 7, 112059, 162216, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Wormhole Centrifuge (Sold, Ashran)
 				{ 8, 109253, 162208 },	-- Ultimate Gnomish Army Knife (Learnt by item 111921)
-				{ 16, 114050, 169076, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- Linkgrease Locksprocket (Sold, Ashran)
-				{ 17, 114055, 169077, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- Morden's Magnificent Contraption (Sold, Ashran)
-				{ 18, 122545, 181423, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Oglethorpe's Octagonal Lenses (Sold, Garrison)
-				{ 20, 119822, 177363, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- True Iron Trigger (Sold, Ashran)
-				{ 21, 119823, 177364, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- Blackrock Rifling (Sold, Ashran)
-				{ 22, 122544, 181422, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Blackrock Rifling (Sold, Ashran)
+				{ 16, 128011, 169076, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- Linkgrease Locksprocket (Sold, Ashran)
+				{ 17, 127720, 187497, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Bi-Directional Fizzle Reducer (Sold, Ashran)
+				{ 18, 127738, 187521, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Infrablue-Blocker Lenses (Sold, Garrison)
+				{ 20, 128017, 177363, [PRICE_EXTRA_ITTYPE] = "119299:5" },	-- True Iron Trigger (Sold, Ashran)
+				{ 21, 127719, 187496, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Advanced Muzzlesprocket (Sold, Ashran)
+				{ 22, 127737, 187520, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Taladite Firing Pin (Sold, Ashran)
 				{ 24, 114056, 169078, [PRICE_EXTRA_ITTYPE] = "119299:1" },	-- Didi's Delicate Assembly (Sold, Ashran)
 			},
 			[MOP_DIFF] = {
@@ -2905,88 +2955,111 @@ data["Inscription"] = {
 		{	--InscriptionOffHand
 			name = AL["Off-Hands"],
 			[NORMAL_DIFF] = {
-				{ 1, "113270:Stage4W", 181421 },	-- Shadowtome (Stage 4)
-				{ 2, "113270:Stage3W", 166367 },	-- Shadowtome (Stage 3)
-				{ 3, "113270:Stage2W", 166366 },	-- Shadowtome (Stage 2)
-				{ 4, "113270:Stage1", 166363, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Shadowtome (Stage 1) (Sold, Ashran)
-				{ 6, 79334, 111909 },	-- Inscribed Jade Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 7, 79335, 111910 },	-- Inscribed Red Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 8, 79333, 111908 },	-- Inscribed Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 9, 62236, 86643 },	-- Battle Tome : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 10, 62235, 86642 },	-- Divine Companion : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 11, 62234, 86641 },	-- Dungeoneering Guide : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 12, 62231, 86616 },	-- Book of Blood : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 13, 62233, 86640 },	-- Lord Rottington's Pressed Wisp Book : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 14, 44210, 59498 },	-- Faces of Doom : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 16, 38322, 59497 },	-- Iron-bound Tome : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 16, 45854, 64051 },	-- Rituals of the New Moon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 17, 45849, 64053 },	-- Twilight Tome : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 18, 43667, 59496 },	-- Book of Clever Tricks : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 19, 43666, 59495 },	-- Hellfire Tome : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 20, 43664, 59494 },	-- Manual of Clouds : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 21, 43663, 59493 },	-- Stormbound Tome : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 22, 43661, 59490 },	-- Book of Stars : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 23, 43660, 59489 },	-- Fire Eater's Guide : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 24, 43657, 59486 },	-- Royal Guide of Escape Routes : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 25, 43656, 59484 },	-- Tome of Kings : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 26, 43655, 59478 },	-- Book of Survival : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 27, 43654, 59475 },	-- Tome of the Dawn : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 28, 43515, 58565 },	-- Mystic Tome : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+				{ 1, "113270:Stage6W", 187519 },	-- Shadowtome (Stage 6)
+				{ 2, "113270:Stage5W", 187495 },	-- Shadowtome (Stage 5)
+				{ 3, "113270:Stage4W", 166366 },	-- Shadowtome (Stage 4)
+				{ 4, "113270:Stage3W", 166366 },	-- Shadowtome (Stage 3)
+				{ 5, "113270:Stage2W", 166366 },	-- Shadowtome (Stage 2)
+				{ 6, "113270:Stage1", 166363, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Shadowtome (Stage 1) (Sold, Ashran)
+				{ 8, 79334, 111909 },	-- Inscribed Jade Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 9, 79335, 111910 },	-- Inscribed Red Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 10, 79333, 111908 },	-- Inscribed Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 11, 62236, 86643 },	-- Battle Tome : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 12, 62235, 86642 },	-- Divine Companion : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 13, 62234, 86641 },	-- Dungeoneering Guide : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 14, 62231, 86616 },	-- Book of Blood : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 15, 62233, 86640 },	-- Lord Rottington's Pressed Wisp Book : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 16, 44210, 59498 },	-- Faces of Doom : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 17, 38322, 59497 },	-- Iron-bound Tome : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 18, 45854, 64051 },	-- Rituals of the New Moon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 19, 45849, 64053 },	-- Twilight Tome : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 20, 43667, 59496 },	-- Book of Clever Tricks : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 21, 43666, 59495 },	-- Hellfire Tome : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 22, 43664, 59494 },	-- Manual of Clouds : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 23, 43663, 59493 },	-- Stormbound Tome : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 24, 43661, 59490 },	-- Book of Stars : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 25, 43660, 59489 },	-- Fire Eater's Guide : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 26, 43657, 59486 },	-- Royal Guide of Escape Routes : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 27, 43656, 59484 },	-- Tome of Kings : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 28, 43655, 59478 },	-- Book of Survival : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 29, 43654, 59475 },	-- Tome of the Dawn : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 30, 43515, 58565 },	-- Mystic Tome : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{	--InscriptionStaves
 			name = AL["Staves"],
 			[NORMAL_DIFF] = {
-				{ 1, "113134:Stage4W", 181420 },	-- Crystalfire Spellstaff (Stage 4)
-				{ 2, "113134:Stage3W", 166367 },	-- Crystalfire Spellstaff (Stage 3)
-				{ 3, "113134:Stage2W", 166366 },	-- Crystalfire Spellstaff (Stage 2)
-				{ 4, "113134:Stage1", 166356, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Crystalfire Spellstaff (Stage 1) (Sold, Ashran)
-				{ 6, "111526:Stage4W", 181420 },	-- Etched-Blade Warstaff (Stage 4)
-				{ 7, "111526:Stage3W", 166367 },	-- Etched-Blade Warstaff (Stage 3)
-				{ 8, "111526:Stage2W", 166366 },	-- Etched-Blade Warstaff (Stage 2)
-				{ 9, "111526:Stage1", 166359, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Etched-Blade Warstaff (Stage 1) (Sold, Ashran)
-				{ 11, "113131:Stage4W", 181420 },	-- Warmaster's Firestick (Stage 4)
-				{ 12, "113131:Stage3W", 166367 },	-- Warmaster's Firestick (Stage 3)
-				{ 13, "113131:Stage2W", 166366 },	-- Warmaster's Firestick (Stage 2)
-				{ 14, "113131:Stage1", 165804, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Warmaster's Firestick (Stage 1) (Sold, Ashran)
-				{ 16, 79340, 111918 },	-- Inscribed Crane Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 17, 79341, 111919 },	-- Inscribed Serpent Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 18, 79343, 111921 },	-- Inscribed Tiger Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 19, 79342, 111920 },	-- Ghost Iron Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 20, 79339, 111917 },	-- Rain Poppy Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 21, 87562, 86652 },	-- Rosethorn Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
-				{ 22, 87561, 86653 },	-- Silver Inlaid Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
-				{ 23, 87566, 86649 },	-- Runed Staff : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
-				{ 24, 87565, 86648 },	-- Key to the Planes : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
+				{ 1, "113134:Stage6W", 187518 },	-- Crystalfire Spellstaff (Stage 6)
+				{ 2, "113134:Stage5W", 187494 },	-- Crystalfire Spellstaff (Stage 5)
+				{ 3, "113134:Stage4W", 166366 },	-- Crystalfire Spellstaff (Stage 4)
+				{ 4, "113134:Stage3W", 166366 },	-- Crystalfire Spellstaff (Stage 3)
+				{ 5, "113134:Stage2W", 166366 },	-- Crystalfire Spellstaff (Stage 2)
+				{ 6, "113134:Stage1", 166356, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Crystalfire Spellstaff (Stage 1) (Sold, Ashran)
+				
+				{ 8, "111526:Stage6W", 187518 },	-- Etched-Blade Warstaff (Stage 6)
+				{ 9, "111526:Stage5W", 187494 },	-- Etched-Blade Warstaff (Stage 5)
+				{ 10, "111526:Stage4W", 166366 },	-- Etched-Blade Warstaff (Stage 4)
+				{ 11, "111526:Stage3W", 166366 },	-- Etched-Blade Warstaff (Stage 3)
+				{ 12, "111526:Stage2W", 166366 },	-- Etched-Blade Warstaff (Stage 2)
+				{ 13, "111526:Stage1", 166359, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Etched-Blade Warstaff (Stage 1) (Sold, Ashran)
+
+				{ 16, "113131:Stage6W", 187518 },	-- Warmaster's Firestick (Stage 6)
+				{ 17, "113131:Stage5W", 187494 },	-- Warmaster's Firestick (Stage 5)
+				{ 18, "113131:Stage4W", 166366 },	-- Warmaster's Firestick (Stage 4)
+				{ 19, "113131:Stage3W", 166366 },	-- Warmaster's Firestick (Stage 3)
+				{ 20, "113131:Stage2W", 166366 },	-- Warmaster's Firestick (Stage 2)
+				{ 21, "113131:Stage1", 165804, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Warmaster's Firestick (Stage 1) (Sold, Ashran)
+				{ 101, 79340, 111918 },	-- Inscribed Crane Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 102, 79341, 111919 },	-- Inscribed Serpent Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 103, 79343, 111921 },	-- Inscribed Tiger Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 104, 79342, 111920 },	-- Ghost Iron Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 105, 79339, 111917 },	-- Rain Poppy Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 106, 87562, 86652 },	-- Rosethorn Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 107, 87561, 86653 },	-- Silver Inlaid Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 108, 87566, 86649 },	-- Runed Staff : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
+				{ 109, 87565, 86648 },	-- Key to the Planes : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{	--InscriptionTrinketsDarkmoonFaireCards
 			name = AL["Trinkets"].." / "..AL["Darkmoon Cards"],
 			[WOD_DIFF] = {
-				{ 1, 112270, 163294, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Darkmoon Card of Draenor (Sold, Ashran)
-				{ 3, 112303 },	-- Iron Deck
-				{ 4, "112319:Stage4", 181421 },	-- Knight's Badge (Stage 4)
-				{ 5, "112319:Stage3", 178249 },	-- Knight's Badge (Stage 3)
-				{ 6, "112319:Stage2", 178248 },	-- Knight's Badge (Stage 2)
-				{ 7, "112319:Stage1" },	-- Knight's Badge (Stage 1)
+				{ 101, 112270, 163294, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Darkmoon Card of Draenor (Sold, Ashran)
+
+				{ 1, 112303 },	-- Iron Deck
+				{ 2, "112319:Stage6", 187519 },		-- Knight's Badge (Stage 6)
+				{ 3, "112319:Stage5", 187495 },		-- Knight's Badge (Stage 5)
+				{ 4, "112319:Stage4", 178248 },		-- Knight's Badge (Stage 4)
+				{ 5, "112319:Stage3", 178248 },		-- Knight's Badge (Stage 3)
+				{ 6, "112319:Stage2", 178248 },		-- Knight's Badge (Stage 2)
+				{ 7, "112319:Stage1" },			-- Knight's Badge (Stage 1)
+				
 				{ 9, 112304 },	-- Moon Deck
-				{ 10, "112320:Stage4", 181421},	-- Sandman's Pouch (Stage 4)
-				{ 11, "112320:Stage3", 178249 },	-- Sandman's Pouch (Stage 3)
-				{ 12, "112320:Stage2", 178248 },	-- Sandman's Pouch (Stage 2)
-				{ 13, "112320:Stage1" },	-- Sandman's Pouch (Stage 1)
+				{ 10, "112320:Stage6", 187519},		-- Sandman's Pouch (Stage 6)
+				{ 11, "112320:Stage5", 187495 },	-- Sandman's Pouch (Stage 5)
+				{ 12, "112320:Stage4", 178248 },	-- Sandman's Pouch (Stage 4)
+				{ 13, "112320:Stage3", 178248 },	-- Sandman's Pouch (Stage 3)
+				{ 14, "112320:Stage2", 178248 },	-- Sandman's Pouch (Stage 2)
+				{ 15, "112320:Stage1" },		-- Sandman's Pouch (Stage 1)
+				
 				{ 16, 112305 },	-- Visions Deck
-				{ 17, "112317:Stage4", 181421 },	-- Winged Hourglass (Stage 4)
-				{ 18, "112317:Stage3", 178249 },	-- Winged Hourglass (Stage 3)
-				{ 19, "112317:Stage2", 178248 },	-- Winged Hourglass (Stage 2)
-				{ 20, "112317:Stage1" },	-- Winged Hourglass (Stage 1)
-				{ 22, 112306 },	-- War Deck
-				{ 23, "112318:Stage4", 181421 },	-- Skull of War (Stage 4)
-				{ 24, "112318:Stage3", 178249 },	-- Skull of War (Stage 3)
-				{ 25, "112318:Stage2", 178248 },	-- Skull of War (Stage 2)
-				{ 26, "112318:Stage1" },	-- Skull of War (Stage 1)
-				{ 28, 118603, 175392 },	-- Savage Tarot (Learnt by item 111923)
-				{ 29, 118602, 175390 },	-- Laughing Tarot (Learnt by item 111923)
-				{ 30, 118601, 175389 },	-- Ocean Tarot (Learnt by item 111923)
+				{ 17, "112317:Stage6", 187519 },	-- Winged Hourglass (Stage 6)
+				{ 18, "112317:Stage5", 187495 },	-- Winged Hourglass (Stage 5)
+				{ 19, "112317:Stage4", 178248 },	-- Winged Hourglass (Stage 4)
+				{ 20, "112317:Stage3", 178248 },	-- Winged Hourglass (Stage 3)
+				{ 21, "112317:Stage2", 178248 },	-- Winged Hourglass (Stage 2)
+				{ 22, "112317:Stage1" },		-- Winged Hourglass (Stage 1)
+				
+				{ 24, 112306 },	-- War Deck
+				{ 25, "112318:Stage6", 187519 },	-- Skull of War (Stage 6)
+				{ 26, "112318:Stage5", 187495 },	-- Skull of War (Stage 5)
+				{ 27, "112318:Stage4", 178248 },	-- Skull of War (Stage 4)
+				{ 28, "112318:Stage3", 178248 },	-- Skull of War (Stage 3)
+				{ 29, "112318:Stage2", 178248 },	-- Skull of War (Stage 2)
+				{ 30, "112318:Stage1" },		-- Skull of War (Stage 1)
+				
+				{ 103, 118603, 175392 },	-- Savage Tarot (Learnt by item 111923)
+				{ 104, 118602, 175390 },	-- Laughing Tarot (Learnt by item 111923)
+				{ 105, 118601, 175389 },	-- Ocean Tarot (Learnt by item 111923)
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 79318, 111830 },	-- Darkmoon Card of Mists : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
@@ -3004,12 +3077,12 @@ data["Inscription"] = {
 		{	--InscriptionItemEnhancements
 			name = AL["Item Enhancements"],
 			[NORMAL_DIFF] = {
-				{ 1, 120263, 178248, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Inferno Tarot (Sold, Ashran)
-				{ 2, 120264, 178249, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Molten Tarot (Sold, Ashran)
-				{ 3, 122543, 181421, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Powerful Ensorcelled Tarot (Sold, Garrison)
-				{ 5, 113144, 166366, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Mystical Crystal (Sold, Ashran)
-				{ 6, 113183, 166367, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Glorious Crystal (Sold, Ashran)
-				{ 7, 122542, 181420, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Powerful Ensorcelled Tarot (Sold, Garrison)
+				{ 1, 128018, 178248, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Ensorcelled Tarot (Sold, Ashran)
+				{ 2, 127718, 187495, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Mighty Ensorcelled Tarot (Sold, Ashran)
+				{ 3, 127736, 187519, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Savage Ensorcelled Tarot (Sold, Garrison)
+				{ 5, 128010, 166366, [PRICE_EXTRA_ITTYPE] = "119297:5" },	-- Weapon Crystal (Sold, Ashran)
+				{ 6, 127717, 187494, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Mighty Weapon Crystal (Sold, Ashran)
+				{ 7, 127735, 187518, [PRICE_EXTRA_ITTYPE] = "114931:20" },	-- Savage Weapon Crystal (Sold, Garrison)
 				{ 9, 113289, 166432, [PRICE_EXTRA_ITTYPE] = "119297:1" },	-- Volatile Crystal (Sold, Ashran)
 				{ 16, 87582, 127023 },	-- Secret Crane Wing Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
 				{ 17, 87581, 127024 },	-- Secret Ox Horn Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
@@ -3036,7 +3109,7 @@ data["Inscription"] = {
 		{	--InscriptionReagents
 			name = AL["Reagents"],
 			[NORMAL_DIFF] = {
-				{ 1, 112377, 169081, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- War Paints (Learnt by item 111923)
+				{ 1, 112377, 169081, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- War Paints (Learnt by item 111923)
 				{ 2, 112377, 182125, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- War Paints (Sold, Garrison)
 				{ 4, 113111, 178497 },	-- Warbinder's Ink (Learnt by item 111923)
 				{ 5, 79255, 111646 },	-- Starlight Ink : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
@@ -3156,42 +3229,59 @@ data["Jewelcrafting"] = {
 		{	--JewelPrismatic
 			name = AL["Prismatic Gems"],
 			[NORMAL_DIFF] = {
-				{ 1, 115809, 170725, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Critical Strike Taladite (Sold, Ashran)
-				{ 2, 115811, 170726, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Haste Taladite (Sold, Ashran)
-				{ 3, 115812, 170727, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Mastery Taladite (Sold, Ashran)
-				{ 4, 115813, 170728, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Multistrike Taladite (Sold, Ashran)
-				{ 5, 115815, 170730, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Stamina Taladite (Sold, Ashran)
-				{ 6, 115814, 170729, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Versatility Taladite (Sold, Ashran)
-				{ 8, 49110, 68253 },	-- Nightmare Tear : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 9, 42702, 56531 },	-- Enchanted Tear : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 16, 115803, 170719, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Critical Strike Taladite (Sold, Ashran)
-				{ 17, 115804, 170720, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Haste Taladite (Sold, Ashran)
-				{ 18, 115805, 170721, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Mastery Taladite (Sold, Ashran)
-				{ 19, 115806, 170722, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Multistrike Taladite (Sold, Ashran)
-				{ 20, 115808, 170724, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Stamina Taladite (Sold, Ashran)
-				{ 21, 115807, 170723, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Versatility Taladite (Sold, Ashran)
-				{ 23, 42701, 56530 },	-- Enchanted Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 24, 45054, 62941 },	-- Prismatic Black Diamond : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 1, 127760, 187634, [PRICE_EXTRA_ITTYPE] = "127771:1" },	-- Immaculate Critical Strike Taladite (Learnd by Item 127771)
+				{ 2, 127761, 187635, [PRICE_EXTRA_ITTYPE] = "127772:1" },	-- Immaculate Haste Taladite (Learnd by Item 127772)
+				{ 3, 127762, 187636, [PRICE_EXTRA_ITTYPE] = "127773:1" },	-- Immaculate Mastery Taladite (Learnd by Item 127773)
+				{ 4, 127763, 187637, [PRICE_EXTRA_ITTYPE] = "127774:1" },	-- Immaculate Multistrike Taladite (Learnd by Item 127774)
+				{ 5, 127765, 187640, [PRICE_EXTRA_ITTYPE] = "127775:1" },	-- Immaculate Stamina Taladite (Learnd by Item 127775)
+				{ 6, 127764, 187639, [PRICE_EXTRA_ITTYPE] = "127776:1" },	-- Immaculate Versatility Taladite (Learnd by Item 127776)
+
+				{ 16, 115809, 170725, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Critical Strike Taladite (Sold, Ashran)
+				{ 17, 115811, 170726, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Haste Taladite (Sold, Ashran)
+				{ 18, 115812, 170727, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Mastery Taladite (Sold, Ashran)
+				{ 19, 115813, 170728, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Multistrike Taladite (Sold, Ashran)
+				{ 20, 115815, 170730, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Stamina Taladite (Sold, Ashran)
+				{ 21, 115814, 170729, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Versatility Taladite (Sold, Ashran)
+
+				{ 23, 115803, 170719, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Critical Strike Taladite (Sold, Ashran)
+				{ 24, 115804, 170720, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Haste Taladite (Sold, Ashran)
+				{ 25, 115805, 170721, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Mastery Taladite (Sold, Ashran)
+				{ 26, 115806, 170722, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Multistrike Taladite (Sold, Ashran)
+				{ 27, 115808, 170724, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Stamina Taladite (Sold, Ashran)
+				{ 28, 115807, 170723, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Versatility Taladite (Sold, Ashran)
+
+				{ 11, 49110, 68253 },	-- Nightmare Tear : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 12, 42702, 56531 },	-- Enchanted Tear : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]				
+				{ 14, 42701, 56530 },	-- Enchanted Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 15, 45054, 62941 },	-- Prismatic Black Diamond : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{	--JewelNecks
 			name = AL["Necklaces"],
 			[WOD_DIFF] = {
-				{ 1, "115799:Stage4", 181419 },	-- Glowing Taladite Pendant (Stage 4)
-				{ 2, "115799:Stage3", 170703 },	-- Glowing Taladite Pendant (Stage 3)
-				{ 3, "115799:Stage2", 170702 },	-- Glowing Taladite Pendant (Stage 2)
-				{ 4, "115799:Stage1", 170716, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Glowing Taladite Pendant (Stage 1) (Sold, Ashran)
-				{ 6, "115800:Stage4", 181419 },	-- Shifting Taladite Pendant (Stage 4)
-				{ 7, "115800:Stage3", 170703 },	-- Shifting Taladite Pendant (Stage 3)
-				{ 8, "115800:Stage2", 170702 },	-- Shifting Taladite Pendant (Stage 2)
-				{ 9, "115800:Stage1", 170717, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Shifting Taladite Pendant (Stage 1) (Sold, Ashran)
-				{ 11, "115801:Stage4", 181419 },	-- Whispering Taladite Pendant (Stage 4)
-				{ 12, "115801:Stage3", 170703 },	-- Whispering Taladite Pendant (Stage 3)
-				{ 13, "115801:Stage2", 170702 },	-- Whispering Taladite Pendant (Stage 2)
-				{ 14, "115801:Stage1", 170718, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Whispering Taladite Pendant (Stage 1) (Sold, Ashran)
-				{ 16, 115990, 170707 },	-- Glowing Iron Choker (Learnt by item 115359)
-				{ 17, 115991, 170708 },	-- Shifting Iron Choker (Learnt by item 115359)
-				{ 18, 115992, 170709 },	-- Whispering Iron Choker (Learnt by item 115359)
+				{ 1, "115799:Stage6", 187517 },	-- Glowing Taladite Pendant (Stage 6)
+				{ 2, "115799:Stage5", 187493 },	-- Glowing Taladite Pendant (Stage 5)
+				{ 3, "115799:Stage4", 170702 },	-- Glowing Taladite Pendant (Stage 4)
+				{ 4, "115799:Stage3", 170702 },	-- Glowing Taladite Pendant (Stage 3)
+				{ 5, "115799:Stage2", 170702 },	-- Glowing Taladite Pendant (Stage 2)
+				{ 6, "115799:Stage1", 170716, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Glowing Taladite Pendant (Stage 1) (Sold, Ashran)
+
+				{ 8, "115800:Stage6", 187517 },	-- Shifting Taladite Pendant (Stage 6)
+				{ 9, "115800:Stage5", 187493 },	-- Shifting Taladite Pendant (Stage 5)
+				{ 10, "115800:Stage4", 170702 },	-- Shifting Taladite Pendant (Stage 4)
+				{ 11, "115800:Stage3", 170702 },	-- Shifting Taladite Pendant (Stage 3)
+				{ 12, "115800:Stage2", 170702 },	-- Shifting Taladite Pendant (Stage 2)
+				{ 13, "115800:Stage1", 170717, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Shifting Taladite Pendant (Stage 1) (Sold, Ashran)
+
+				{ 16, "115801:Stage6", 187517 },	-- Whispering Taladite Pendant (Stage 6)
+				{ 17, "115801:Stage5", 187493 },	-- Whispering Taladite Pendant (Stage 5)
+				{ 18, "115801:Stage4", 170702 },	-- Whispering Taladite Pendant (Stage 4)
+				{ 19, "115801:Stage3", 170702 },	-- Whispering Taladite Pendant (Stage 3)
+				{ 20, "115801:Stage2", 170702 },	-- Whispering Taladite Pendant (Stage 2)
+				{ 21, "115801:Stage1", 170718, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Whispering Taladite Pendant (Stage 1) (Sold, Ashran)
+				{ 23, 115990, 170707 },	-- Glowing Iron Choker (Learnt by item 115359)
+				{ 24, 115991, 170708 },	-- Shifting Iron Choker (Learnt by item 115359)
+				{ 25, 115992, 170709 },	-- Whispering Iron Choker (Learnt by item 115359)
 			},
 			[MOP_DIFF] = {
 				{ 1, 83803, 122670 },	-- Golembreaker Amulet : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
@@ -3265,24 +3355,32 @@ data["Jewelcrafting"] = {
 		{	--JewelRings
 			name = AL["Rings"],
 			[WOD_DIFF] = {
-				{ 1, "115794:Stage4", 181419 },	-- Glowing Taladite Ring (Stage 4)
-				{ 2, "115794:Stage3", 170703 },	-- Glowing Taladite Ring (Stage 3)
-				{ 3, "115794:Stage2", 170702 },	-- Glowing Taladite Ring (Stage 2)
-				{ 4, "115794:Stage1", 170713, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Glowing Taladite Ring (Stage 1) (Sold, Ashran)
-				{ 6, "115796:Stage4", 181419 },	-- Shifting Taladite Ring (Stage 4)
-				{ 7, "115796:Stage3", 170703 },	-- Shifting Taladite Ring (Stage 3)
-				{ 8, "115796:Stage2", 170702 },	-- Shifting Taladite Ring (Stage 2)
-				{ 9, "115796:Stage1", 170714, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Shifting Taladite Ring (Stage 1) (Sold, Ashran)
-				{ 11, "115798:Stage4", 181419 },	-- Whispering Taladite Ring (Stage 4)
-				{ 12, "115798:Stage3", 170703 },	-- Whispering Taladite Ring (Stage 3)
-				{ 13, "115798:Stage2", 170702 },	-- Whispering Taladite Ring (Stage 2)
-				{ 14, "115798:Stage1", 170715, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Whispering Taladite Ring (Stage 1) (Sold, Ashran)
-				{ 16, 115993, 170710 },	-- Glowing Blackrock Band (Learnt by item 115359)
-				{ 17, 115994, 170711 },	-- Shifting Blackrock Band (Learnt by item 115359)
-				{ 18, 115995, 170712 },	-- Whispering Blackrock Band (Learnt by item 115359)
-				{ 19, 115987, 170704 },	-- Glowing Iron Band (Learnt by item 115359)
-				{ 20, 115988, 170705 },	-- Shifting Iron Band (Learnt by item 115359)
-				{ 21, 115989, 170706 },	-- Whispering Iron Band (Learnt by item 115359)
+				{ 1, "115794:Stage6", 187517 },	-- Glowing Taladite Ring (Stage 6)
+				{ 2, "115794:Stage5", 187493 },	-- Glowing Taladite Ring (Stage 5)
+				{ 3, "115794:Stage4", 170702 },	-- Glowing Taladite Ring (Stage 4)
+				{ 4, "115794:Stage3", 170702 },	-- Glowing Taladite Ring (Stage 3)
+				{ 5, "115794:Stage2", 170702 },	-- Glowing Taladite Ring (Stage 2)
+				{ 6, "115794:Stage1", 170713, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Glowing Taladite Ring (Stage 1) (Sold, Ashran)
+				
+				{ 8, "115796:Stage6", 187517 },	-- Shifting Taladite Ring (Stage 6)
+				{ 9, "115796:Stage5", 187493 },	-- Shifting Taladite Ring (Stage 5)
+				{ 10, "115796:Stage4", 170702 },	-- Shifting Taladite Ring (Stage 4)
+				{ 11, "115796:Stage3", 170702 },	-- Shifting Taladite Ring (Stage 3)
+				{ 12, "115796:Stage2", 170702 },	-- Shifting Taladite Ring (Stage 2)
+				{ 13, "115796:Stage1", 170714, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Shifting Taladite Ring (Stage 1) (Sold, Ashran)
+
+				{ 16, "115798:Stage6", 187517 },	-- Whispering Taladite Ring (Stage 6)				{ 11, "115798:Stage4", 181419 },	-- Whispering Taladite Ring (Stage 4)
+				{ 17, "115798:Stage5", 187493 },	-- Whispering Taladite Ring (Stage 5)
+				{ 18, "115798:Stage4", 170702 },	-- Whispering Taladite Ring (Stage 4)				{ 11, "115798:Stage4", 181419 },	-- Whispering Taladite Ring (Stage 4)
+				{ 19, "115798:Stage3", 170702 },	-- Whispering Taladite Ring (Stage 3)
+				{ 20, "115798:Stage2", 170702 },	-- Whispering Taladite Ring (Stage 2)
+				{ 21, "115798:Stage1", 170715, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Whispering Taladite Ring (Stage 1) (Sold, Ashran)
+				{ 23, 115993, 170710 },	-- Glowing Blackrock Band (Learnt by item 115359)
+				{ 24, 115994, 170711 },	-- Shifting Blackrock Band (Learnt by item 115359)
+				{ 25, 115995, 170712 },	-- Whispering Blackrock Band (Learnt by item 115359)
+				{ 26, 115987, 170704 },	-- Glowing Iron Band (Learnt by item 115359)
+				{ 27, 115988, 170705 },	-- Shifting Iron Band (Learnt by item 115359)
+				{ 28, 115989, 170706 },	-- Whispering Iron Band (Learnt by item 115359)
 			},
 			[MOP_DIFF] = {
 				{ 1, 83801, 122668 },	-- Band of Blood : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
@@ -3388,14 +3486,14 @@ data["Jewelcrafting"] = {
 		{	--JewelMisc
 			name = AL["Miscellaneous"],
 			[WOD_DIFF] = {
-				{ 1, 115524, 170700, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Taladite Crystal (Learnt by item 115359)
-				{ 2, 115524, 182127, [PRICE_EXTRA_ITTYPE] = "109119:60" },	--  Taladite Crystal (Sold, Garrison)
+				{ 1, 115524, 170700, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Taladite Crystal (Learnt by item 115359)
+				{ 2, 115524, 182127, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Taladite Crystal (Sold, Garrison)
 				{ 4, 112498, 170732, [PRICE_EXTRA_ITTYPE] = "118723:3" },	-- Prismatic Focusing Lens (Sold, Ashran)
 				{ 5, 112384, 170731, [PRICE_EXTRA_ITTYPE] = "118723:3" },	-- Reflecting Prism (Sold, Ashran)
 				{ 7, 118723, 176087 },	-- Secrets of Draenor Jewelcrafting (Learnt by item 115359)
-				{ 16, 115527, 170702, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Taladite Amplifier (Sold, Ashran)
-				{ 17, 115529, 170703, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Greater Taladite Amplifier (Sold, Ashran)
-				{ 18, 122541, 181419, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Powerful Taladite Amplifier (Sold, Garrison)
+				{ 16, 128013, 170702, [PRICE_EXTRA_ITTYPE] = "118723:5" },	-- Taladite Amplifier (Sold, Ashran)
+				{ 17, 127716, 187493, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Mighty Taladite Amplifier (Sold, Ashran)
+				{ 18, 127734, 187517, [PRICE_EXTRA_ITTYPE] = "109118:60" },	-- Savage Taladite Amplifier (Sold, Garrison)
 				{ 20, 115526, 170701, [PRICE_EXTRA_ITTYPE] = "118723:1" },	-- Taladite Recrystalizer (Sold, Ashran)
 			},
 			[MOP_DIFF] = {
@@ -4233,49 +4331,65 @@ data["Leatherworking"] = {
 		{	--LeatherLeatherArmor
 			name = ALIL["Leather"].." "..AL["Armor"],
 			[WOD_DIFF] = {
-				{ 1, "116177:Stage4", 181415 },	-- Supple Helm (Stage 4)
-				{ 10, "116177:Stage3", 171287 },	-- Supple Helm (Stage 3)
-				{ 19, "116177:Stage2", 171286 },	-- Supple Helm (Stage 2)
-				{ 101, "116177:Stage1", 171271, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Helm (Stage 1) (Sold, Ashran)
+				{ 1, "116177:Stage6", 187513 },	-- Supple Helm (Stage 6)
+				{ 10, "116177:Stage5", 187489 },	-- Supple Helm (Stage 5)
+				{ 19, "116177:Stage4", 171286 },	-- Supple Helm (Stage 4)
+				{ 101, "116177:Stage3", 171286 },	-- Supple Helm (Stage 3)
+				{ 110, "116177:Stage2", 171286 },	-- Supple Helm (Stage 2)
+				{ 119, "116177:Stage1", 171271, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Helm (Stage 1) (Sold, Ashran)
 
-				{ 2, "116176:Stage4", 181415 },	-- Supple Shoulderguards (Stage 4)
-				{ 11, "116176:Stage3", 171287 },	-- Supple Shoulderguards (Stage 3)
-				{ 20, "116176:Stage2", 171286 },	-- Supple Shoulderguards (Stage 2)
-				{ 102, "116176:Stage1", 171270, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Shoulderguards (Stage 1) (Sold, Ashran)
+				{ 2, "116176:Stage6", 187513 },	-- Supple Shoulderguards (Stage 6)
+				{ 11, "116176:Stage5", 187489 },	-- Supple Shoulderguards (Stage 5)
+				{ 20, "116176:Stage4", 171286 },	-- Supple Shoulderguards (Stage 4)
+				{ 102, "116176:Stage3", 171286 },	-- Supple Shoulderguards (Stage 3)
+				{ 111, "116176:Stage2", 171286 },	-- Supple Shoulderguards (Stage 2)
+				{ 120, "116176:Stage1", 171270, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Shoulderguards (Stage 1) (Sold, Ashran)
 
-				{ 3, "116180:Stage4", 181415 },	-- Supple Vest (Stage 4)
-				{ 12, "116180:Stage3", 171287 },	-- Supple Vest (Stage 3)
-				{ 21, "116180:Stage2", 171286 },	-- Supple Vest (Stage 2)
-				{ 103, "116180:Stage1", 171274, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Vest (Stage 1) (Sold, Ashran)
+				{ 3, "116180:Stage6", 187513 },	-- Supple Vest (Stage 6)
+				{ 12, "116180:Stage5", 187489 },	-- Supple Vest (Stage 5)
+				{ 21, "116180:Stage4", 171286 },	-- Supple Vest (Stage 4)
+				{ 103, "116180:Stage3", 171286 },	-- Supple Vest (Stage 3)
+				{ 112, "116180:Stage2", 171286 },	-- Supple Vest (Stage 2)
+				{ 121, "116180:Stage1", 171274, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Vest (Stage 1) (Sold, Ashran)
 
-				{ 4, "116181:Stage4", 181415 },	-- Supple Bracers (Stage 4)
-				{ 13, "116181:Stage3", 171287 },	-- Supple Bracers (Stage 3)
-				{ 22, "116181:Stage2", 171286 },	-- Supple Bracers (Stage 2)
-				{ 104, "116181:Stage1", 171275, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Bracers (Stage 1) (Sold, Ashran)
+				{ 4, "116181:Stage6", 187513 },	-- Supple Bracers (Stage 6)
+				{ 13, "116181:Stage5", 187489 },	-- Supple Bracers (Stage 5)
+				{ 22, "116181:Stage4", 171286 },	-- Supple Bracers (Stage 4)
+				{ 104, "116181:Stage3", 171286 },	-- Supple Bracers (Stage 3)
+				{ 113, "116181:Stage2", 171286 },	-- Supple Bracers (Stage 2)
+				{ 122, "116181:Stage1", 171275, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Bracers (Stage 1) (Sold, Ashran)
 
-				{ 5, "116179:Stage4", 181415 },	-- Supple Gloves (Stage 4)
-				{ 14, "116179:Stage3", 171287 },	-- Supple Gloves (Stage 3)
-				{ 23, "116179:Stage2", 171286 },	-- Supple Gloves (Stage 2)
-				{ 105, "116179:Stage1", 171273, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Gloves (Stage 1) (Sold, Ashran)
+				{ 5, "116179:Stage6", 187513 },	-- Supple Gloves (Stage 6)
+				{ 14, "116179:Stage5", 187489 },	-- Supple Gloves (Stage 5)
+				{ 23, "116179:Stage4", 171286 },	-- Supple Gloves (Stage 4)
+				{ 105, "116179:Stage3", 171286 },	-- Supple Gloves (Stage 3)
+				{ 114, "116179:Stage2", 171286 },	-- Supple Gloves (Stage 2)
+				{ 123, "116179:Stage1", 171273, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Gloves (Stage 1) (Sold, Ashran)
 
-				{ 6, "116183:Stage4", 181415 },	-- Supple Waistguard (Stage 4)
-				{ 15, "116183:Stage3", 171287 },	-- Supple Waistguard (Stage 3)
-				{ 24, "116183:Stage2", 171286 },	-- Supple Waistguard (Stage 2)
-				{ 106, "116183:Stage1", 171277, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Waistguard (Stage 1) (Sold, Ashran)
+				{ 6, "116183:Stage6", 187513 },	-- Supple Waistguard (Stage 6)
+				{ 15, "116183:Stage5", 187489 },	-- Supple Waistguard (Stage 5)
+				{ 24, "116183:Stage4", 171286 },	-- Supple Waistguard (Stage 4)
+				{ 106, "116183:Stage3", 171286 },	-- Supple Waistguard (Stage 3)
+				{ 115, "116183:Stage2", 171286 },	-- Supple Waistguard (Stage 2)
+				{ 124, "116183:Stage1", 171277, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Waistguard (Stage 1) (Sold, Ashran)
 
-				{ 7, "116178:Stage4", 181415 },	-- Supple Leggings (Stage 4)
-				{ 16, "116178:Stage3", 171287 },	-- Supple Leggings (Stage 3)
-				{ 25, "116178:Stage2", 171286 },	-- Supple Leggings (Stage 2)
-				{ 107, "116178:Stage1", 171272, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Leggings (Stage 1) (Sold, Ashran)
+				{ 7, "116178:Stage6", 187513 },	-- Supple Leggings (Stage 6)
+				{ 16, "116178:Stage5", 187489 },	-- Supple Leggings (Stage 5)
+				{ 25, "116178:Stage4", 171286 },	-- Supple Leggings (Stage 4)
+				{ 107, "116178:Stage3", 171286 },	-- Supple Leggings (Stage 3)
+				{ 116, "116178:Stage2", 171286 },	-- Supple Leggings (Stage 2)
+				{ 125, "116178:Stage1", 171272, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Leggings (Stage 1) (Sold, Ashran)
 
-				{ 8, "116182:Stage4", 181415 },	-- Supple Boots (Stage 4)
-				{ 17, "116182:Stage3", 171287 },	-- Supple Boots (Stage 3)
-				{ 26, "116182:Stage2", 171286 },	-- Supple Boots (Stage 2)
-				{ 108, "116182:Stage1", 171276, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Boots (Stage 1) (Sold, Ashran)
+				{ 8, "116182:Stage6", 187513 },	-- Supple Boots (Stage 6)
+				{ 17, "116182:Stage5", 187489 },	-- Supple Boots (Stage 5)
+				{ 26, "116182:Stage4", 171286 },	-- Supple Boots (Stage 4)
+				{ 108, "116182:Stage3", 171286 },	-- Supple Boots (Stage 3)
+				{ 117, "116182:Stage2", 171286 },	-- Supple Boots (Stage 2)
+				{ 126, "116182:Stage1", 171276, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Supple Boots (Stage 1) (Sold, Ashran)
 
-				{ 116, 116164, 171260 },	-- Journeying Helm (Learnt by item 115358)
-				{ 117, 116165, 171261 },	-- Journeying Robes (Learnt by item 115358)
-				{ 118, 116166, 171262 },	-- Journeying Slacks (Learnt by item 115358)
+				{ 128, 116164, 171260 },	-- Journeying Helm (Learnt by item 115358)
+				{ 129, 116165, 171261 },	-- Journeying Robes (Learnt by item 115358)
+				{ 130, 116166, 171262 },	-- Journeying Slacks (Learnt by item 115358)
 			},
 			[MOP_DIFF] = {
 				{ 1, 98609, 142961 },	-- Pennyroyal Belt : =ds=#s10#, #a2# / =q1=#sk# 600 : =ds=AtlasLoot["Discovery"]: spell142976
@@ -4729,49 +4843,65 @@ data["Leatherworking"] = {
 		{	--LeatherMailArmor
 			name = ALIL["Mail"].." "..AL["Armor"],
 			[WOD_DIFF] = {
-				{ 1, "116188:Stage4", 181415 },	-- Wayfaring Helm (Stage 4)
-				{ 10, "116188:Stage3", 171287 },	-- Wayfaring Helm (Stage 3)
-				{ 19, "116188:Stage2", 171286 },	-- Wayfaring Helm (Stage 2)
-				{ 101, "116188:Stage1", 171279, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Helm (Stage 1) (Sold, Ashran)
+				{ 1, "116188:Stage6", 187513 },	-- Wayfaring Helm (Stage 6)
+				{ 10, "116188:Stage5", 187489 },	-- Wayfaring Helm (Stage 5)
+				{ 19, "116188:Stage4", 171286 },	-- Wayfaring Helm (Stage 4)
+				{ 101, "116188:Stage3", 171286 },	-- Wayfaring Helm (Stage 3)
+				{ 110, "116188:Stage2", 171286 },	-- Wayfaring Helm (Stage 2)
+				{ 119, "116188:Stage1", 171279, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Helm (Stage 1) (Sold, Ashran)
 
-				{ 2, "116187:Stage4", 181415 },	-- Wayfaring Shoulderguards (Stage 4)
-				{ 11, "116187:Stage3", 171287 },	-- Wayfaring Shoulderguards (Stage 3)
-				{ 8, "116187:Stage2", 171286 },	-- Wayfaring Shoulderguards (Stage 2)
-				{ 102, "116187:Stage1", 171278, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Shoulderguards (Stage 1) (Sold)
+				{ 2, "116187:Stage6", 187513 },	-- Wayfaring Shoulderguards (Stage 6)
+				{ 11, "116187:Stage5", 187489 },	-- Wayfaring Shoulderguards (Stage 5)
+				{ 20, "116187:Stage4", 171286 },	-- Wayfaring Shoulderguards (Stage 4)
+				{ 102, "116187:Stage3", 171286 },	-- Wayfaring Shoulderguards (Stage 3)
+				{ 111, "116187:Stage2", 171286 },	-- Wayfaring Shoulderguards (Stage 2)
+				{ 120, "116187:Stage1", 171278, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Shoulderguards (Stage 1) (Sold)
 
-				{ 3, "116191:Stage4", 181415 },	-- Wayfaring Tunic (Stage 4)
-				{ 12, "116191:Stage3", 171287 },	-- Wayfaring Tunic (Stage 3)
-				{ 20, "116191:Stage2", 171286 },	-- Wayfaring Tunic (Stage 2)
-				{ 103, "116191:Stage1", 171282, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Tunic (Stage 1) (Sold, Ashran)
+				{ 3, "116191:Stage6", 187513 },	-- Wayfaring Tunic (Stage 6)
+				{ 12, "116191:Stage5", 187489 },	-- Wayfaring Tunic (Stage 5)
+				{ 21, "116191:Stage4", 171286 },	-- Wayfaring Tunic (Stage 4)
+				{ 103, "116191:Stage3", 171286 },	-- Wayfaring Tunic (Stage 3)
+				{ 112, "116191:Stage2", 171286 },	-- Wayfaring Tunic (Stage 2)
+				{ 121, "116191:Stage1", 171282, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Tunic (Stage 1) (Sold, Ashran)
 
-				{ 4, "116192:Stage4", 181415 },	-- Wayfaring Bracers (Stage 4)
-				{ 13, "116192:Stage3", 171287 },	-- Wayfaring Bracers (Stage 3)
-				{ 21, "116192:Stage2", 171286 },	-- Wayfaring Bracers (Stage 2)
-				{ 104, "116192:Stage1", 171283, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Bracers (Stage 1) (Sold, Ashran)
+				{ 4, "116192:Stage6", 187513 },	-- Wayfaring Bracers (Stage 6)
+				{ 13, "116192:Stage5", 187489 },	-- Wayfaring Bracers (Stage 5)
+				{ 22, "116192:Stage4", 171286 },	-- Wayfaring Bracers (Stage 4)
+				{ 104, "116192:Stage3", 171286 },	-- Wayfaring Bracers (Stage 3)
+				{ 113, "116192:Stage2", 171286 },	-- Wayfaring Bracers (Stage 2)
+				{ 122, "116192:Stage1", 171283, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Bracers (Stage 1) (Sold, Ashran)
 
-				{ 5, "116190:Stage4", 181415 },	-- Wayfaring Gloves (Stage 4)
-				{ 14, "116190:Stage3", 171287 },	-- Wayfaring Gloves (Stage 3)
-				{ 22, "116190:Stage2", 171286 },	-- Wayfaring Gloves (Stage 2)
-				{ 105, "116190:Stage1", 171281, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Gloves (Stage 1) (Sold, Ashran)
+				{ 5, "116190:Stage6", 187513 },	-- Wayfaring Gloves (Stage 6)
+				{ 14, "116190:Stage5", 187489 },	-- Wayfaring Gloves (Stage 5)				{ 5, "116190:Stage4", 181415 },	-- Wayfaring Gloves (Stage 4)
+				{ 23, "116190:Stage4", 171286 },	-- Wayfaring Gloves (Stage 4)
+				{ 105, "116190:Stage3", 171286 },	-- Wayfaring Gloves (Stage 3)
+				{ 114, "116190:Stage2", 171286 },	-- Wayfaring Gloves (Stage 2)
+				{ 123, "116190:Stage1", 171281, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Gloves (Stage 1) (Sold, Ashran)
 
-				{ 6, "116194:Stage4", 181415 },	-- Wayfaring Belt (Stage 4)
-				{ 15, "116194:Stage3", 171287 },	-- Wayfaring Belt (Stage 3)
-				{ 23, "116194:Stage2", 171286 },	-- Wayfaring Belt (Stage 2)
-				{ 106, "116194:Stage1", 171285, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Belt (Stage 1) (Sold, Ashran)
+				{ 6, "116194:Stage6", 187513 },	-- Wayfaring Belt (Stage 6)
+				{ 15, "116194:Stage5", 187489 },	-- Wayfaring Belt (Stage 5)
+				{ 24, "116194:Stage4", 171286 },	-- Wayfaring Belt (Stage 4)
+				{ 106, "116194:Stage3", 171286 },	-- Wayfaring Belt (Stage 3)
+				{ 115, "116194:Stage2", 171286 },	-- Wayfaring Belt (Stage 2)
+				{ 124, "116194:Stage1", 171285, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Belt (Stage 1) (Sold, Ashran)
 
-				{ 7, "116189:Stage4", 181415 },	-- Wayfaring Leggings (Stage 4)
-				{ 16, "116189:Stage3", 171287 },	-- Wayfaring Leggings (Stage 3)
-				{ 24, "116189:Stage2", 171286 },	-- Wayfaring Leggings (Stage 2)
-				{ 107, "116189:Stage1", 171280, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Leggings (Stage 1) (Sold, Ashran)
+				{ 7, "116189:Stage6", 187513 },	-- Wayfaring Leggings (Stage 6)
+				{ 16, "116189:Stage5", 187489 },	-- Wayfaring Leggings (Stage 5)				{ 7, "116189:Stage4", 181415 },	-- Wayfaring Leggings (Stage 4)
+				{ 25, "116189:Stage4", 171286 },	-- Wayfaring Leggings (Stage 4)
+				{ 107, "116189:Stage3", 171286 },	-- Wayfaring Leggings (Stage 3)
+				{ 116, "116189:Stage2", 171286 },	-- Wayfaring Leggings (Stage 2)
+				{ 125, "116189:Stage1", 171280, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Leggings (Stage 1) (Sold, Ashran)
 
-				{ 8, "116193:Stage4", 181415 },	-- Wayfaring Boots (Stage 4)
-				{ 17, "116193:Stage3", 171287 },	-- Wayfaring Boots (Stage 3)
-				{ 25, "116193:Stage2", 171286 },	-- Wayfaring Boots (Stage 2)
-				{ 108, "116193:Stage1", 171284, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Boots (Stage 1) (Sold, Ashran)
+				{ 8, "116193:Stage6", 187513 },	-- Wayfaring Boots (Stage 6)
+				{ 17, "116193:Stage5", 187489 },	-- Wayfaring Boots (Stage 5)
+				{ 26, "116193:Stage4", 171286 },	-- Wayfaring Boots (Stage 4)
+				{ 108, "116193:Stage3", 171286 },	-- Wayfaring Boots (Stage 3)
+				{ 117, "116193:Stage2", 171286 },	-- Wayfaring Boots (Stage 2)
+				{ 126, "116193:Stage1", 171284, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Wayfaring Boots (Stage 1) (Sold, Ashran)
 
-				{ 116, 116167, 171263 },	-- Traveling Helm (Learnt by item 115358)
-				{ 117, 116168, 171264 },	-- Traveling Tunic (Learnt by item 115358)
-				{ 118, 116169, 171265 },	-- Traveling Leggings (Learnt by item 115358)
+				{ 128, 116167, 171263 },	-- Traveling Helm (Learnt by item 115358)
+				{ 129, 116168, 171264 },	-- Traveling Tunic (Learnt by item 115358)
+				{ 130, 116169, 171265 },	-- Traveling Leggings (Learnt by item 115358)
 			},
 			[MOP_DIFF] = {
 				{ 1, 98614, 142966 },	-- Gorge Stalker Belt : =ds=#s10#, #a3# / =q1=#sk# 600 : =ds=AtlasLoot["Discovery"]: spell142976
@@ -5092,18 +5222,26 @@ data["Leatherworking"] = {
 		{	--LeatherCloaks
 			name = AL["Cloaks"],
 			[WOD_DIFF] = {
-				{ 1, "116175:Stage4", 181415 },	-- Brilliant Burnished Cloak (Stage 4)
-				{ 2, "116175:Stage3", 171287 },	-- Brilliant Burnished Cloak (Stage 3)
-				{ 3, "116175:Stage2", 171286 },	-- Brilliant Burnished Cloak (Stage 2)
-				{ 4, "116175:Stage1", 171269, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Brilliant Burnished Cloak (Stage 1) (Sold, Ashran)
-				{ 6, "116174:Stage4", 181415 },	-- Nimble Burnished Cloak (Stage 4)
-				{ 7, "116174:Stage3", 171287 },	-- Nimble Burnished Cloak (Stage 3)
-				{ 8, "116174:Stage2", 171286 },	-- Nimble Burnished Cloak (Stage 2)
-				{ 9, "116174:Stage1", 171268, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Nimble Burnished Cloak (Stage 1) (Sold, Ashran)
-				{ 11, "116171:Stage4", 181415 },	-- Powerful Burnished Cloak (Stage 4)
-				{ 12, "116171:Stage3", 171287 },	-- Powerful Burnished Cloak (Stage 3)
-				{ 13, "116171:Stage2", 171286 },	-- Powerful Burnished Cloak (Stage 2)
-				{ 14, "116171:Stage1", 171267, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Powerful Burnished Cloak (Stage 1) (Sold, Ashran)
+				{ 1, "116175:Stage6", 187513 },	-- Brilliant Burnished Cloak (Stage 6)
+				{ 2, "116175:Stage5", 187489 },	-- Brilliant Burnished Cloak (Stage 5)
+				{ 3, "116175:Stage4", 171286 },	-- Brilliant Burnished Cloak (Stage 4)
+				{ 4, "116175:Stage3", 171286 },	-- Brilliant Burnished Cloak (Stage 3)
+				{ 5, "116175:Stage2", 171286 },	-- Brilliant Burnished Cloak (Stage 2)
+				{ 6, "116175:Stage1", 171269, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Brilliant Burnished Cloak (Stage 1) (Sold, Ashran)
+				
+				{ 8, "116174:Stage6", 187513 },	-- Nimble Burnished Cloak (Stage 6)
+				{ 9, "116174:Stage5", 187489 },	-- Nimble Burnished Cloak (Stage 5)
+				{ 10, "116174:Stage4", 171286 },	-- Nimble Burnished Cloak (Stage 4)
+				{ 11, "116174:Stage3", 171286 },	-- Nimble Burnished Cloak (Stage 3)
+				{ 12, "116174:Stage2", 171286 },	-- Nimble Burnished Cloak (Stage 2)
+				{ 13, "116174:Stage1", 171268, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Nimble Burnished Cloak (Stage 1) (Sold, Ashran)
+				
+				{ 16, "116171:Stage6", 187513 },	-- Powerful Burnished Cloak (Stage 6)
+				{ 17, "116171:Stage5", 187489 },	-- Powerful Burnished Cloak (Stage 5)
+				{ 18, "116171:Stage4", 171286 },	-- Powerful Burnished Cloak (Stage 4)
+				{ 19, "116171:Stage3", 171286 },	-- Powerful Burnished Cloak (Stage 3)
+				{ 20, "116171:Stage2", 171286 },	-- Powerful Burnished Cloak (Stage 2)
+				{ 21, "116171:Stage1", 171267, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Powerful Burnished Cloak (Stage 1) (Sold, Ashran)
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 85852, 124637 },	-- Quick Strike Cloak : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
@@ -5140,9 +5278,9 @@ data["Leatherworking"] = {
 		{	--LeatherArmorEnhancements
 			name = AL["Armor Enhancements"],
 			[WOD_DIFF] = {
-				{ 1, 116203, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" },	-- Burnished Essence (Sold, Ashran)
-				{ 2, 116204, 171287, [PRICE_EXTRA_ITTYPE] = "118721:5" },	-- Greater Burnished Essence (Sold, Ashran)
-				{ 3, 122537, 181415, [PRICE_EXTRA_ITTYPE] = "110609:60" },	-- Powerful Burnished Essence (Sold, Garrison)
+				{ 1, 128014, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" },	-- Burnished Essence (Sold, Ashran)
+				{ 2, 127712, 187489, [PRICE_EXTRA_ITTYPE] = "110609:60" },	-- Mighty Burnished Essence (Sold, Ashran)
+				{ 3, 127730, 187513, [PRICE_EXTRA_ITTYPE] = "110609:60" },	-- Savage Burnished Essence (Sold, Garrison)
 				{ 5, 116170, 171266, [PRICE_EXTRA_ITTYPE] = "118721:1" },	-- Leather Refurbishing Kit (Sold, Ashran)
 			},
 			[MOP_DIFF] = {
@@ -5232,7 +5370,7 @@ data["Leatherworking"] = {
 		{	--LeatherLeather
 			name = ALIL["Leather"],
 			[NORMAL_DIFF] = {
-				{ 1, 110611, 171391, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Burnished Leather (Learnt by item 115358)
+				{ 1, 110611, 171391, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Burnished Leather (Learnt by item 115358)
 				{ 2, 110611, 182121, [PRICE_EXTRA_ITTYPE] = "110609:60" },	-- Burnished Leather (Sold, Garrison)
 				{ 4, 98617, 146923 },	-- Accelerated Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
 				{ 5, 98617, 142976 },	-- Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
@@ -5314,53 +5452,82 @@ data["Tailoring"] = {
 		{	--TailoringArmor
 			name = AL["Armor"],
 			[WOD_DIFF] = {
-				{ 1, "114810:Stage4", 181418 },		-- Hexweave Cowl (Stage 4)
-				{ 2, "114809:Stage4", 181418},		-- Hexweave Mantle (Stage 4)
-				{ 3, "114813:Stage4", 181418 },		-- Hexweave Robe (Stage 4)
-				{ 4, "114814:Stage4", 181418 },		-- Hexweave Bracers (Stage 4)
-				{ 5, "114812:Stage4", 181418 },		-- Hexweave Gloves (Stage 4)
-				{ 6, "114816:Stage4", 181418 },		-- Hexweave Belt (Stage 4)
-				{ 7, "114811:Stage4", 181418 },		-- Hexweave Leggings (Stage 4)
-				{ 8, "114815:Stage4", 181418 },		-- Hexweave Slippers (Stage 4)
-				{ 10, "114810:Stage3", 168856 },	-- Hexweave Cowl (Stage 3)
-				{ 11, "114809:Stage3", 168856 },	-- Hexweave Mantle (Stage 3)
-				{ 12, "114813:Stage3", 168856 },	-- Hexweave Robe (Stage 3)
-				{ 13, "114814:Stage3", 168856 },	-- Hexweave Bracers (Stage 3)
-				{ 14, "114812:Stage3", 168856 },	-- Hexweave Gloves (Stage 3)
-				{ 15, "114816:Stage3", 168856 },	-- Hexweave Belt (Stage 3)
-				{ 16, "114811:Stage3", 168856 },	-- Hexweave Leggings (Stage 3)
-				{ 17, "114815:Stage3", 168856 },	-- Hexweave Slippers (Stage 3)
-				{ 19, "114810:Stage2", 168855 },	-- Hexweave Cowl (Stage 2)
-				{ 20, "114809:Stage2", 168855 },	-- Hexweave Mantle (Stage 2)
-				{ 21, "114813:Stage2", 168855 },	-- Hexweave Robe (Stage 2)
-				{ 22, "114814:Stage2", 168855 },	-- Hexweave Bracers (Stage 2)
-				{ 23, "114812:Stage2", 168855 },	-- Hexweave Gloves (Stage 2)
-				{ 24, "114816:Stage2", 168855 },	-- Hexweave Belt (Stage 2)
-				{ 25, "114811:Stage2", 168855 },	-- Hexweave Leggings (Stage 2)
-				{ 26, "114815:Stage2", 168855 },	-- Hexweave Slippers (Stage 2)
-				{ 101, "114810:Stage1", 168838, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Cowl (Stage 1) (Sold, Ashran)
-				{ 102, "114809:Stage1", 168837, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Mantle (Stage 1) (Sold, Ashran)
-				{ 103, "114813:Stage1", 168841, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Robe (Stage 1) (Sold, Ashran)
-				{ 104, "114814:Stage1", 168842, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Bracers (Stage 1) (Sold, Ashran)
-				{ 105, "114812:Stage1", 168840, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Gloves (Stage 1) (Sold, Ashran)
-				{ 106, "114816:Stage1", 168844, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Belt (Stage 1) (Sold, Ashran)
-				{ 107, "114811:Stage1", 168839, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Leggings (Stage 1) (Sold, Ashran)
-				{ 108, "114815:Stage1", 168843, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Slippers (Stage 1) (Sold, Ashran)
-				{ 116, "114819:Stage4", 181418 },	-- Brilliant Hexweave Cloak (Stage 4)
-				{ 117, "114819:Stage3", 168856 },	-- Brilliant Hexweave Cloak (Stage 3)
-				{ 118, "114819:Stage2", 168855 },	-- Brilliant Hexweave Cloak (Stage 2)
-				{ 119, "114819:Stage1", 168847, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Brilliant Hexweave Cloak (Stage 1) (Sold, Ashran)
-				{ 121, "114818:Stage4", 181418 },	-- Nimble Hexweave Cloak (Stage 4)
-				{ 122, "114818:Stage3", 168856 },	-- Nimble Hexweave Cloak (Stage 3)
-				{ 123, "114818:Stage2", 168855 },	-- Nimble Hexweave Cloak (Stage 2)
-				{ 124, "114818:Stage1", 168846, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Nimble Hexweave Cloak (Stage 1) (Sold, Ashran)
-				{ 126, "114817:Stage4", 181418 },	-- Powerful Hexweave Cloak (Stage 4)
-				{ 127, "114817:Stage3", 168856 },	-- Powerful Hexweave Cloak (Stage 3)
-				{ 128, "114817:Stage2", 168855 },	-- Powerful Hexweave Cloak (Stage 2)
-				{ 129, "114817:Stage1", 168845, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Powerful Hexweave Cloak (Stage 1) (Sold, Ashran)
-				{ 110, 114828, 168852 },	-- Sumptuous Cowl (Learnt by item 115357)
-				{ 111, 114829, 168853 },	-- Sumptuous Robes (Learnt by item 115357)
-				{ 112, 114831, 168854 },	-- Sumptuous Leggings (Learnt by item 115357)
+				{ 1, "114810:Stage6", 187516 },		-- Hexweave Cowl (Stage 6)
+				{ 2, "114809:Stage6", 187516 },		-- Hexweave Mantle (Stage 6)
+				{ 3, "114813:Stage6", 187516 },		-- Hexweave Robe (Stage 6)
+				{ 4, "114814:Stage6", 187516 },		-- Hexweave Bracers (Stage 6)
+				{ 5, "114812:Stage6", 187516 },		-- Hexweave Gloves (Stage 6)
+				{ 6, "114816:Stage6", 187516 },		-- Hexweave Belt (Stage 4)
+				{ 7, "114811:Stage6", 187516 },		-- Hexweave Leggings (Stage 6)
+				{ 8, "114815:Stage6", 187516 },		-- Hexweave Slippers (Stage 6)
+
+				{ 10, "114810:Stage5", 187492 },		-- Hexweave Cowl (Stage 5)
+				{ 11, "114809:Stage5", 187492 },		-- Hexweave Mantle (Stage 5)
+				{ 12, "114813:Stage5", 187492 },		-- Hexweave Robe (Stage 5)
+				{ 13, "114814:Stage5", 187492 },		-- Hexweave Bracers (Stage 5)
+				{ 14, "114812:Stage5", 187492 },		-- Hexweave Gloves (Stage 5)
+				{ 15, "114816:Stage5", 187492 },		-- Hexweave Belt (Stage 5)
+				{ 16, "114811:Stage5", 187492 },		-- Hexweave Leggings (Stage 5)
+				{ 17, "114815:Stage5", 187492 },		-- Hexweave Slippers (Stage 5)
+				
+				{ 19, "114810:Stage4", 168855 },		-- Hexweave Cowl (Stage 4)
+				{ 20, "114809:Stage4", 168855 },		-- Hexweave Mantle (Stage 4)
+				{ 21, "114813:Stage4", 168855 },		-- Hexweave Robe (Stage 4)
+				{ 22, "114814:Stage4", 168855 },		-- Hexweave Bracers (Stage 4)
+				{ 23, "114812:Stage4", 168855 },		-- Hexweave Gloves (Stage 4)
+				{ 24, "114816:Stage4", 168855 },		-- Hexweave Belt (Stage 4)
+				{ 25, "114811:Stage4", 168855 },		-- Hexweave Leggings (Stage 4)
+				{ 26, "114815:Stage4", 168855 },		-- Hexweave Slippers (Stage 4)
+				
+				{ 101, "114810:Stage3", 168855 },	-- Hexweave Cowl (Stage 3)
+				{ 102, "114809:Stage3", 168855 },	-- Hexweave Mantle (Stage 3)
+				{ 103, "114813:Stage3", 168855 },	-- Hexweave Robe (Stage 3)
+				{ 104, "114814:Stage3", 168855 },	-- Hexweave Bracers (Stage 3)
+				{ 105, "114812:Stage3", 168855 },	-- Hexweave Gloves (Stage 3)
+				{ 106, "114816:Stage3", 168855 },	-- Hexweave Belt (Stage 3)
+				{ 107, "114811:Stage3", 168855 },	-- Hexweave Leggings (Stage 3)
+				{ 108, "114815:Stage3", 168855 },	-- Hexweave Slippers (Stage 3)
+				{ 110, "114810:Stage2", 168855 },	-- Hexweave Cowl (Stage 2)
+				{ 111, "114809:Stage2", 168855 },	-- Hexweave Mantle (Stage 2)
+				{ 112, "114813:Stage2", 168855 },	-- Hexweave Robe (Stage 2)
+				{ 113, "114814:Stage2", 168855 },	-- Hexweave Bracers (Stage 2)
+				{ 114, "114812:Stage2", 168855 },	-- Hexweave Gloves (Stage 2)
+				{ 115, "114816:Stage2", 168855 },	-- Hexweave Belt (Stage 2)
+				{ 116, "114811:Stage2", 168855 },	-- Hexweave Leggings (Stage 2)
+				{ 117, "114815:Stage2", 168855 },	-- Hexweave Slippers (Stage 2)
+				
+				{ 119, "114810:Stage1", 168838, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Cowl (Stage 1) (Sold, Ashran)
+				{ 120, "114809:Stage1", 168837, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Mantle (Stage 1) (Sold, Ashran)
+				{ 121, "114813:Stage1", 168841, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Robe (Stage 1) (Sold, Ashran)
+				{ 122, "114814:Stage1", 168842, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Bracers (Stage 1) (Sold, Ashran)
+				{ 123, "114812:Stage1", 168840, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Gloves (Stage 1) (Sold, Ashran)
+				{ 124, "114816:Stage1", 168844, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Belt (Stage 1) (Sold, Ashran)
+				{ 125, "114811:Stage1", 168839, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Leggings (Stage 1) (Sold, Ashran)
+				{ 126, "114815:Stage1", 168843, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Slippers (Stage 1) (Sold, Ashran)
+
+				{ 201, "114819:Stage6", 187516 },	-- Brilliant Hexweave Cloak (Stage 6)
+				{ 202, "114819:Stage5", 187492 },	-- Brilliant Hexweave Cloak (Stage 5)				
+				{ 203, "114819:Stage4", 168855 },	-- Brilliant Hexweave Cloak (Stage 4)
+				{ 204, "114819:Stage3", 168855 },	-- Brilliant Hexweave Cloak (Stage 3)
+				{ 205, "114819:Stage2", 168855 },	-- Brilliant Hexweave Cloak (Stage 2)
+				{ 206, "114819:Stage1", 168847, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Brilliant Hexweave Cloak (Stage 1) (Sold, Ashran)
+				
+				{ 208, "114818:Stage6", 187516 },	-- Nimble Hexweave Cloak (Stage 6)
+				{ 209, "114818:Stage5", 187492 },	-- Nimble Hexweave Cloak (Stage 5)
+				{ 210, "114818:Stage4", 168855 },	-- Nimble Hexweave Cloak (Stage 4)
+				{ 211, "114818:Stage3", 168855 },	-- Nimble Hexweave Cloak (Stage 3)
+				{ 212, "114818:Stage2", 168855 },	-- Nimble Hexweave Cloak (Stage 2)
+				{ 213, "114818:Stage1", 168846, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Nimble Hexweave Cloak (Stage 1) (Sold, Ashran)
+
+				{ 216, "114817:Stage6", 187516 },	-- Powerful Hexweave Cloak (Stage 6)
+				{ 217, "114817:Stage5", 187492 },	-- Powerful Hexweave Cloak (Stage 5)				
+				{ 218, "114817:Stage4", 168855 },	-- Powerful Hexweave Cloak (Stage 4)
+				{ 219, "114817:Stage3", 168855 },	-- Powerful Hexweave Cloak (Stage 3)
+				{ 220, "114817:Stage2", 168855 },	-- Powerful Hexweave Cloak (Stage 2)
+				{ 221, "114817:Stage1", 168845, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Powerful Hexweave Cloak (Stage 1) (Sold, Ashran)
+				{ 128, 114828, 168852 },	-- Sumptuous Cowl (Learnt by item 115357)
+				{ 129, 114829, 168853 },	-- Sumptuous Robes (Learnt by item 115357)
+				{ 130, 114831, 168854 },	-- Sumptuous Leggings (Learnt by item 115357)
 			},
 			[MOP_DIFF] = {
 				{ 1, 98612, 142964 },	-- Belt of the Night Sky : =ds=#s10#, #a1# / =q1=#sk# 600 : =ds=AtlasLoot["Discovery"]: spell143011
@@ -5903,16 +6070,16 @@ data["Tailoring"] = {
 		{	--TailoringArmorEnhancements
 			name = AL["Armor Enhancements"],
 			[NORMAL_DIFF] = {
-				{ 1, 122540, 181418, [PRICE_EXTRA_ITTYPE] = "111557:60" },	-- Powerful Hexweave Essence (Sold, Garrison)
-				{ 2, 114837, 168855, [PRICE_EXTRA_ITTYPE] = "118722:5" },	-- Hexweave Essence (Sold, Ashran)
-				{ 3, 114838, 168856, [PRICE_EXTRA_ITTYPE] = "118722:5" },	-- Greater Hexweave Essence (Sold, Ashran)
-				{ 4, 114836, 168836, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Embroidery (Sold, Ashran)
-				{ 6, "prof125496" },	-- Master's Spellthread - Rank 3 : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 7, "prof75154" },	-- Master's Spellthread - Rank 2 : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 8, "prof56034" },	-- Master's Spellthread - Rank 1 : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
-				{ 9, "prof125497" },	-- Sanctified Spellthread - Rank 3 : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 10, "prof75155" },	-- Sanctified Spellthread - Rank 2 : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 11, "prof56039" },	-- Sanctified Spellthread - Rank 1 : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
+				{ 1, 128012, 168855, [PRICE_EXTRA_ITTYPE] = "118722:5" },	-- Hexweave Essence (Sold, Ashran)
+				{ 2, 127715, 187492, [PRICE_EXTRA_ITTYPE] = "111557:60" },	-- Mighty Hexweave Essence (Sold, Garrison)
+				{ 3, 127733, 187516, [PRICE_EXTRA_ITTYPE] = "111557:60" },	-- Savage Hexweave Essence (Sold, Garrison)
+				{ 5, 114836, 168836, [PRICE_EXTRA_ITTYPE] = "118722:1" },	-- Hexweave Embroidery (Sold, Ashran)
+				{ 7, "prof125496" },	-- Master's Spellthread - Rank 3 : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 8, "prof75154" },	-- Master's Spellthread - Rank 2 : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 9, "prof56034" },	-- Master's Spellthread - Rank 1 : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
+				{ 10, "prof125497" },	-- Sanctified Spellthread - Rank 3 : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 11, "prof75155" },	-- Sanctified Spellthread - Rank 2 : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 12, "prof56039" },	-- Sanctified Spellthread - Rank 1 : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
 				{ 16, 82445, 125555 },	-- Greater Cerulean Spellthread : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
 				{ 17, 82444, 125554 },	-- Greater Pearlescent Spellthread : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
 				{ 18, 82443, 125553 },	-- Cerulean Spellthread : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
@@ -5950,7 +6117,7 @@ data["Tailoring"] = {
 		{	--TailoringCloth
 			name = ALIL["Cloth"],
 			[WOD_DIFF] = {
-				{ 1, 111556, 168835, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Hexweave Cloth (Learnt by item 115357)
+				{ 1, 111556, 168835, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Hexweave Cloth (Learnt by item 115357)
 				{ 2, 111556, 182123, [PRICE_EXTRA_ITTYPE] = "111557:60" }	-- Hexweave Cloth (Sold in Garrison)	
 			},
 			[MOP_DIFF] = {

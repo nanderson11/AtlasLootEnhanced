@@ -136,6 +136,23 @@ name = select(2, GetAchievementInfo(8985)),
 	},
 }
 
+local WOD_RAID2_AC_TABLE = {	-- [Glory of the Hellfire Raider]
+name = select(2, GetAchievementInfo(10149)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[NORMAL_DIFF] = {
+		{ 1, 10149, "mount186305" },
+		{ 2, 10026 },			{ 17, 10057 },
+		{ 3, 10013 },			{ 18, 10054 },
+		{ 4, 9972 },			{ 19, 9979 },
+		{ 5, 9988 },			{ 20, 10086 },
+		{ 6, 10012 },			{ 21, 10087 },
+		{ 7, 9989 },			{ 22, 10030 },
+		{ 8, 10073 },
+	},
+}
+
 data["Auchindoun"] = {
 	EncounterJournalID = 547,
 	MapID = 984,
@@ -2672,7 +2689,601 @@ data["Draenor"] = {
 		},
 	}
 }
+data["HellfireCitadel"] = {
+	EncounterJournalID = 669,
+	MapID = 1026,
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{	--HFCMar'tak
+			EncounterJournalID = 1426,
+			[RF_DIFF] = {
+				{ 1, 128028 }, -- Sooty Felcult Robes
+				{ 2, 128029 }, -- Manacles of Enforced Labor
+				{ 3, 128030 }, -- Fel Mechanic's Sparkguard Bracers
+				{ 4, 128071 }, -- Blackfuse Company Tool Belt
+				{ 5, 128081 }, -- Iron Dragoon's Coif
+				{ 6, 128031 }, -- Siegesmith's Chain Leggings
+				{ 7, 128073 }, -- Ironspike Knuckled Gauntlets
+				{ 8, 128050 }, -- Engine-Kicking Boots
+				{ 16, 128110 }, -- Fel Iron Roller Chain
+				{ 17, 128111 }, -- Hand-Welded Gorget
+				{ 18, 128142 }, -- Pledge of Iron Loyalty
+				{ 20, 128092 }, -- Wicked Bonecarver's Knife
+				{ 21, 128098 }, -- Snub-Nosed Iron Rifle
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124132 }, -- Forward Observer's Camouflage Cloak
+				{ 2, 124136 }, -- Sparkburnt Welder's Cloak
+				{ 3, 124168 }, -- Felgrease-Smudged Robes
+				{ 4, 124183 }, -- Powder-Singed Bracers
+				{ 5, 124270 }, -- Rangefinder's Spaulders
+				{ 6, 124278 }, -- Gorebound Wristguards
+				{ 7, 124289 }, -- Hand Loader Gauntlets
+				{ 8, 124298 }, -- Iron Dragoon's Pantaloons
+				{ 9, 124324 }, -- Flamebelcher's Insulated Mitts
+				{ 10, 124335 }, -- Blastproof Legguards
+				{ 11, 124320 }, -- Shell-Resistant Stompers
+				{ 16, 124190 }, -- Sootstained Felsworn Signet
+				{ 17, 124201 }, -- Mar'tak's Rugged Seal
+				{ 18, 124207 }, -- Faulty Detonator Cord
+				{ 19, 124216 }, -- Bolt-Latched Felsteel Gorget
+				{ 20, 124231 }, -- Flickering Felspark
+				{ 22, 124356 }, -- Smoldercore Bulwark
+				{ 23, 124365 }, -- Blackfuse Company Utility Knife
+				{ 24, 124370 }, -- Felfire Munitions Launcher
+				{ 26, "ac10026" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 27, "ac10027" },
+			},
+		},
+		{	--HFCIron Reaver
+			EncounterJournalID = 1425,
+			[RF_DIFF] = {
+				{ 1, 128102 }, -- Unfired Ejection Parachute
+				{ 2, 128105 }, -- Commander's Seat Cushion Cover
+				{ 3, 128053 }, -- Liquid-Cooled Mantle
+				{ 4, 128075 }, -- Double-Padded Slippers
+				{ 5, 128076 }, -- Fel-Steamed Leather Tunic
+				{ 6, 128168 }, -- Shrapnel-Studded Boots
+				{ 7, 128060 }, -- Double-Polished Chain Pauldrons
+				{ 8, 128067 }, -- Pulley Chain Wristwraps
+				{ 9, 128058 }, -- Roughly Soldered Wristclamps
+				{ 10, 128033 }, -- Assembly Worker's Legguards
+				{ 16, 128141 }, -- Crackling Fel-Spark Plug
+				{ 18, 128094 }, -- Spiked Torque Wrench
+				{ 19, 128118 }, -- Demonhorn Buckler
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124145 }, -- Ironthread Greatcloak
+				{ 2, 124174 }, -- Pilot's Pauldrons
+				{ 3, 124148 }, -- Pedal-Pushing Sandals
+				{ 4, 124253 }, -- Insulated Wirer's Gloves
+				{ 5, 124264 }, -- Rivet-Studded Leggings
+				{ 6, 124249 }, -- Spiked Irontoe Slippers
+				{ 7, 124309 }, -- Torch-Brazed Waistguard
+				{ 8, 124285 }, -- Die-Cast Ringmail Sabatons
+				{ 9, 124315 }, -- Stamped Felsteel Chestplate
+				{ 10, 124351 }, -- Hot-Rolled Iron Bracers
+				{ 16, 124196 }, -- Flanged Gasket
+				{ 17, 124213 }, -- Voltage Regulation Diode
+				{ 18, 124223 }, -- Fel-Spring Coil
+				{ 19, 124227 }, -- Iron Reaver Piston
+				{ 21, 124373 }, -- Iron Skullcrusher
+				{ 22, 124354 }, -- Felforged Aegis
+				{ 24, "ac10057" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 25, "ac10032" },
+			},
+		},
+		{	--HFCKormrok
+			EncounterJournalID = 1392,
+			[RF_DIFF] = {
+				{ 1, 128103 }, -- Sigil-Stitched Drape
+				{ 2, 128104 }, -- Splashcover Cloak
+				{ 3, 128059 }, -- Goop-Proof Gloves
+				{ 4, 128064 }, -- Sludge-Resistant Waders
+				{ 5, 128056 }, -- Industrial Lifting Belt
+				{ 6, 128057 }, -- Chestplate of Potential Energy
+				{ 16, 128128 }, -- Felfume Hood
+				{ 17, 128130 }, -- Ironpelt Helm
+				{ 18, 128132 }, -- Rancorbite Hood
+				{ 19, 128134 }, -- Demonbreaker Helm
+				{ 21, 128107 }, -- Glowing String of Pebbles
+				{ 22, 128117 }, -- Stone Runeband
+				{ 23, 128143 }, -- Fragmented Runestone Etching
 
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124139 }, -- Polymorphic Cloak of Absorption
+				{ 2, 124151 }, -- Craggy Gloves of Grasping
+				{ 3, 124180 }, -- Sludge-Soaked Waistband
+				{ 4, 124243 }, -- Tunic of Reformative Runes
+				{ 5, 124304 }, -- Rugged Stoneshaped Pauldrons
+				{ 6, 124341 }, -- Fel-Inscribed Shoulderplates
+				{ 8, 124187 }, -- Pit-Extracted Stone Signet
+				{ 9, 124211 }, -- Glowing Firestone
+				{ 10, 124217 }, -- Shadowgorged Iron Choker
+				{ 11, 124235 }, -- Rumbling Pebble
+				{ 12, 124239 }, -- Imbued Stone Sigil
+				{ 16, 127956, false },	-- Helm of Hellfire's Conqueror
+				{ 17, 127966, false },	-- Helm of Hellfire's Protector
+				{ 18, 127959, false },	-- Helm of Hellfire's Vanquisher
+				{ 20, 124358 }, -- Runeaxe of the Breaker
+				{ 21, 124363 }, -- Runic Magnaron Tooth
+				{ 22, 124377 }, -- Rune Infused Spear
+				{ 24, "ac10013" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 25, "ac10033" },
+			},
+		},
+		{	--HFCCouncil
+			EncounterJournalID = 1432,
+			[RF_DIFF] = {
+				{ 1, 128089 }, -- Sash of Guttural Intonation
+				{ 2, 128062 }, -- Void-Pact Leggings
+				{ 3, 128065 }, -- Fel-Crazed Pauldrons
+				{ 4, 128077 }, -- Gauntlets of Reckless Assault
+				{ 5, 128040 }, -- Bladewalk Boots
+				{ 6, 128061 }, -- Wailing Woe Pauldrons
+				{ 7, 128068 }, -- Blade-Chipped Waistguard
+				{ 9, 128115 }, -- Shadowmoon Ancestry Ring
+				{ 10, 128140 }, -- Smoldering Felblade Remnant
+				{ 11, 128184 }, -- Gorget of Induced Madness
+				{ 12, 128114 }, -- Hazy Voidstone Band
+				{ 16, 128095 }, -- Viscera-Stained Longsword
+				{ 17, 128191 }, -- Hellfire Mindblade
+				{ 18, 128100 }, -- Spring-Loaded Jawstaff
+				{ 19, 128097 }, -- Rivetspike Cleaver
+				-- { 27, 115493, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Flamebender's Tome
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124133 }, -- Windswept Wanderer's Drape
+				{ 2, 124142 }, -- Rugged Bloodcaked Drape
+				{ 3, 124184 }, -- Cursed Blood Bracers
+				{ 4, 124163 }, -- Dia's Nightmarish Leggings
+				{ 5, 124258 }, -- Gurtogg's Discarded Hood
+				{ 6, 124271 }, -- Blood-Tanned Pauldrons
+				{ 7, 124312 }, -- Bloody Berserker's Bracers
+				{ 8, 124299 }, -- Kilt of Self-Reflection
+				{ 9, 124347 }, -- Girdle of Savage Resolve
+				{ 10, 124336 }, -- Acid-Etched Legplates
+				{ 16, 124193 }, -- Shimmering Voidstone Band
+				{ 17, 124220 }, -- Spiked Bloodstone Pendant
+				{ 18, 124224 }, -- Mirror of the Blademaster
+				{ 19, 124228 }, -- Desecrated Shadowmoon Insignia
+				{ 21, 124383 }, -- Mindbender's Flameblade
+				{ 22, 124385 }, -- Blazing Demonhilt Sword
+				{ 23, 124388 }, -- Fel-Burning Blade
+				--{ 24, 115493, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Flamebender's Tome
+				{ 25, "ac10054" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, "ac10034" },
+			},
+		},
+		{	--HFCKilrogg
+			EncounterJournalID = 1396,
+			[RF_DIFF] = {
+				{ 8, 128042 }, -- Ribwrencher Gauntlets
+				{ 3, 128047 }, -- Cinch of the Bleeding Hollow
+				{ 5, 128049 }, -- Pauldrons of Perceived Depths
+				{ 4, 128070 }, -- Boots of Final Salvation
+				{ 7, 128074 }, -- Hollowheart Helm
+				{ 1, 128078 }, -- Goresoaked Ritual Robes
+				{ 6, 128087 }, -- Bloodsurge Bracers
+				{ 23, 128093 }, -- Demonhorn Spike
+				{ 16, 128109 }, -- Pendant of Precognition
+				{ 17, 128113 }, -- Ring of Fortuitous Foresight
+				{ 18, 128116 }, -- Band of Impending Doom
+				{ 19, 128144 }, -- Vial of Vile Viscera
+				{ 20, 128147 }, -- Teardrop of Blood
+				{ 2, 128167 }, -- Sandals of Sanguine Supplication
+				{ 22, 128192 }, -- Balanced Machete
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124137 }, -- Shawl of Sanguinary Ritual
+				{ 3, 124152 }, -- Velvet Bloodweaver Gloves
+				{ 2, 124169 }, -- Ancient Gorestained Wrap
+				{ 16, 124197 }, -- Congealed Globule Loop
+				{ 17, 124208 }, -- Heartseeking Skull Pendant
+				{ 18, 124232 }, -- Intuition's Gift
+				{ 19, 124240 }, -- Warlord's Unseeing Eye
+				{ 5, 124250 }, -- Toxicologist's Treated Boots
+				{ 4, 124279 }, -- Bloodcult Bracers
+				{ 7, 124281 }, -- Jungle Flayer's Chestguard
+				{ 6, 124305 }, -- Pauldrons of Rapid Coagulation
+				{ 10, 124321 }, -- Stompers of Brazen Terror
+				{ 9, 124325 }, -- Crimson Throatgrabbers
+				{ 8, 124330 }, -- Helm of Precognition
+				{ 21, 124364 }, -- Fallen Warlord's Mindcarver
+				{ 22, 124366 }, -- Ruinous Gutripper
+				{ 23, 124379 }, -- Bite of the Bleeding Hollow
+				{ 25, "ac9972" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, "ac10035" },
+			},
+		},
+		{	--HFCGorefiend
+			EncounterJournalID = 1372,
+			[RF_DIFF] = {
+				{ 1, 128106 }, -- Greatcloak of the Terrible Feast
+				{ 2, 128069 }, -- Gloves of Great Engorgement
+				{ 3, 128079 }, -- Boisterous Bellower's Hood
+				{ 4, 128072 }, -- Bulging Chain Vest
+				{ 6, 128200 }, -- Deserter's Honor
+				{ 7, 128148 }, -- Fetid Salivation
+				{ 8, 128101 }, -- Soulcult Ritual Staff
+				{ 16, 128129 }, -- Felfume Pantaloons
+				{ 17, 128131 }, -- Ironpelt Leggings
+				{ 18, 128133 }, -- Rancorbite Leggings
+				{ 19, 128135 }, -- Demonbreaker Legplates
+				{ 21, 128196 }, -- Limbcarver Hatchet
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124140 }, -- Cloak of Insatiable Greed
+				{ 2, 124146 }, -- Drape of Gluttony
+				{ 3, 124157 }, -- Cowl of a Thousand Hungers
+				{ 4, 124244 }, -- Chestguard of Gnawing Desire
+				{ 5, 124290 }, -- Mitts of Eternal Famishment
+				{ 6, 124342 }, -- Soulgorged Pauldrons
+				{ 7, 124348 }, -- Ravenous Girdle
+				{ 9, 124205 }, -- Gibbering Madness
+				{ 10, 124359 }, -- Voracious Souleater
+				{ 11, 124380 }, -- Spur of the Great Devourer
+				{ 16, 127955, false },	-- Leggings of Hellfire's Conqueror
+				{ 17, 127965, false },	-- Leggings of Hellfire's Protector
+				{ 18, 127960, false },	-- Leggings of Hellfire's Vanquisher
+				{ 20, 124188 }, -- Serrated Demontooth Ring
+				{ 21, 124236 }, -- Unending Hunger
+				{ 22, 124391 }, -- Choker of Forbidden Indulgence
+				{ 24, "ac9979" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 25, "ac10253" },
+			},
+		},
+		{	--HFCIskar
+			EncounterJournalID = 1433,
+			[RF_DIFF] = {
+				{ 1, 128186 }, -- Cursefeather Cloak
+				{ 2, 128063 }, -- Phantasmal Cummerbund
+				{ 3, 128086 }, -- Bracers of Supreme Despair
+				{ 4, 128055 }, -- Chakram-Gripping Gloves
+				{ 5, 128041 }, -- Beaked Hood of Betrayal
+				{ 6, 128082 }, -- Corrupted Talonguard Chestplate
+				{ 7, 128083 }, -- Feather-Embellished Wristclamps
+				{ 16, 128179 }, -- Talon-Link Loop
+				{ 17, 128180 }, -- Flickering Nightstone Band
+				{ 18, 128296 }, -- Soul Prison Solitaire
+				{ 19, 128146 }, -- Ensnared Orb of the Sky
+				{ 21, 128096 }, -- Demonspine Wand
+				{ 23, 127749, "pet1672", false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Corrupted Nest Guardian
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124134 }, -- Cloak of Desperate Temerity
+				{ 3, 124170 }, -- Raiment of Divine Clarity
+				{ 2, 124175 }, -- Amice of Phantasmal Power
+				{ 16, 124194 }, -- Ring of Foul Temptation
+				{ 17, 124198 }, -- Band of Enthralling Delusion
+				{ 18, 124202 }, -- Filigreed Loop of Zealotry
+				{ 19, 124218 }, -- Corrupted Talonguard Pendant
+				{ 20, 124229 }, -- Unblinking Gaze of Sethe
+				{ 21, 124241 }, -- Anzu's Cursed Plume
+				{ 4, 124259 }, -- Helm of Imagined Horrors
+				{ 5, 124275 }, -- Belt of Misconceived Loyalty
+				{ 7, 124282 }, -- Vestment of Illusory Might
+				{ 8, 124286 }, -- Surefooted Chain Treads
+				{ 6, 124294 }, -- Coif of Untrue Sight
+				{ 9, 124316 }, -- Chestguard of Ill Fate
+				{ 10, 124352 }, -- Wristplate of the Wretched
+				{ 23, 124387 }, -- Shadowrend Talonblade
+				{ 24, 124390 }, -- Deceiver's Felbeak Wand
+				{ 26, 127749, "pet1672", false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Corrupted Nest Guardian
+				{ 28, "ac9988" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 29, "ac10037" },
+			},
+		},
+		{	--HFCSocrethar
+			EncounterJournalID = 1427,
+			[RF_DIFF] = {
+				{ 1, 128190 }, -- Haunting Nightmare Cloak
+				{ 2, 128036 }, -- Hood of Unhealthy Fixation
+				{ 3, 128084 }, -- Socrethar's Ceremonial Cuffs
+				{ 4, 128046 }, -- Shoulderpads of Wrought Destruction
+				{ 5, 128085 }, -- Constructbreaker's Chestguard
+				{ 6, 128035 }, -- Crystal-Buckle Belt
+				{ 7, 128051 }, -- Automated Shoulderplates
+				{ 8, 128088 }, -- Girdle of Bound Agony
+				{ 16, 128145 }, -- Howling Soul Gem
+				{ 17, 128182 }, -- Tenacious Dominator's Gorget
+				{ 19, 128119 }, -- Decaying Draenic Shield
+				{ 21, 128195 }, -- Toxin-Tipped Bolt Launcher
+				{ 20, 128197 }, -- Felgore Double Blade
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124141 }, -- Drape of Beckoned Souls
+				{ 2, 124143 }, -- Soulbinder's Greatcloak
+				{ 3, 124185 }, -- Pristine Man'ari Cuffs
+				{ 4, 124245 }, -- Tunic of the Soulbinder
+				{ 5, 124313 }, -- Chain Wristguards of the Stricken
+				{ 6, 124331 }, -- Casque of Foul Concentration
+				{ 8, 124191 }, -- Seal of the Traitorous Councilor
+				{ 9, 124221 }, -- Contained Fel Orb Locket
+				{ 10, 124225 }, -- Soul Capacitor
+				{ 11, 124233 }, -- Demonic Phylactery
+				{ 16, 127954, false },	-- Gauntlets of Hellfire's Conqueror
+				{ 17, 127964, false },	-- Gauntlets of Hellfire's Protector
+				{ 18, 127958, false },	-- Gauntlets of Hellfire's Vanquisher
+				{ 20, 124357 }, -- Soulwarped Tower Shield
+				{ 21, 124362 }, -- Felcrystal Impaler
+				{ 22, 124384 }, -- Saber of Twisted Virtue
+				{ 23, 124386 }, -- Felstricken Sha'tari Crystalsword
+				{ 25, "ac10086" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, "ac10040" },
+			},
+		},
+		{	--HFCZakuum
+			EncounterJournalID = 1391,
+			[RF_DIFF] = {
+				{ 1, 128189 }, -- Bloodcrystal Chaincloak
+				{ 2, 128174 }, -- Bindings of Imminent Fury
+				{ 3, 128175 }, -- Manacles of the Demon General
+				{ 4, 128038 }, -- Brittleskin Wraps
+				{ 5, 128299 }, -- Withering Waistwrap
+				{ 6, 128066 }, -- Imp-Infested Legplates
+				{ 7, 128043 }, -- Gaze of Superiority
+				{ 8, 128300 }, -- Befouled Demonhide Belt
+				{ 16, 128178 }, -- Zakuun's Smoldering Seal
+				{ 17, 128183 }, -- Chain of Agonizing Woe
+				{ 18, 128185 }, -- Voidswirling Throat-Globe
+				{ 20, 128202 }, -- Ironblade Knuckles
+				--{ 26, 115494, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Draenic Thaumaturgical Orb
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124138 }, -- Cloak of Hideous Unity
+				{ 3, 124149 }, -- Bloody Dagger-Heeled Pumps
+				{ 2, 124181 }, -- Sash of Unending Anguish
+				{ 16, 124203 }, -- Zakuun's Signet of Command
+				{ 17, 124209 }, -- Chain of Lidless Eyes
+				{ 18, 124214 }, -- Choker of Whispered Promises
+				{ 19, 124237 }, -- Discordant Chorus
+				{ 5, 124265 }, -- Leggings of Eternal Terror
+				{ 4, 124280 }, -- Manacles of the Multitudes
+				{ 6, 124283 }, -- Ringmail of Madness Accordant
+				{ 7, 124310 }, -- Girdle of the Legion General
+				{ 8, 124337 }, -- Legguards of Grievous Consonances
+				{ 21, 124360 }, -- Hellrender
+				{ 22, 124368 }, -- Demonblade Eviscerator
+				{ 23, 124369 }, -- Mindscythe of the Legion
+				--{ 24, 115494, false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Draenic Thaumaturgical Orb
+				{ 25, "ac10012" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, "ac10038" },
+			},
+		},
+		{	--HFCXhulhorac
+			EncounterJournalID = 1447,
+			[RF_DIFF] = {
+				{ 1, 128187 }, -- Voidthread Spineguard
+				{ 2, 128295 }, -- Shadowfel Cord
+				{ 3, 128298 }, -- Girdle of Volatile Duality
+				{ 4, 128176 }, -- Bracers of Tainted Magic
+				{ 5, 128091 }, -- Stoic Netherfel Legplates
+				{ 19, 128032 }, -- Demonbreaker Crushers
+				{ 16, 128052 }, -- Felfume Slippers
+				{ 17, 128054 }, -- Ironpelt Boots
+				{ 18, 128080 }, -- Rancorbite Sabatons
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124147 }, -- Void Lord's Wizened Cloak
+				{ 2, 124158 }, -- Countenance of the Revenant
+				{ 7, 124189 }, -- Portal Key Signet
+				{ 8, 124199 }, -- Loop of Beckoned Shadows
+				{ 9, 124212 }, -- Vial of Immiscible Liquid
+				{ 10, 124234 }, -- Unstable Felshadow Emulsion
+				{ 3, 124260 }, -- Hood of Unknowable Secrets
+				{ 4, 124295 }, -- Sinister Felborne Helmet
+				{ 5, 124353 }, -- Breach-Scarred Wristplates
+				{ 20, 124371 }, -- Hammer of Wicked Infusion
+				{ 21, 124374 }, -- Fiendsbreath Warmace
+				{ 22, 124381 }, -- Voidcore Greatstaff
+
+				{ 16, 127957, false },	-- Shoulders of Hellfire's Conqueror
+				{ 17, 127967, false },	-- Shoulders of Hellfire's Protector
+				{ 18, 127961, false },	-- Shoulders of Hellfire's Vanquisher
+				{ 24, "ac10087" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 25, "ac10039" },
+			},
+		},
+		{	--HFCVelhari
+			EncounterJournalID = 1394,
+			[RF_DIFF] = {
+				{ 1, 128188 }, -- Impertinent Student's Cloak
+				{ 2, 128045 }, -- Mantle of Unrestrained Contempt
+				{ 3, 128090 }, -- Harbinger's Desecrated Chain Shirt
+				{ 5, 128108 }, -- Willbreaker Brooch
+				{ 6, 128181 }, -- Thorny Choker of Suffering
+				{ 7, 128149 }, -- Accusation of Inferiority
+				{ 16, 128136 }, -- Felfume Gloves
+				{ 17, 128137 }, -- Ironpelt Mitts
+				{ 18, 128138 }, -- Rancorbite Grips
+				{ 19, 128139 }, -- Demonbreaker Gauntlets
+				{ 21, 128099 }, -- Spiked Gnarlroot Greatclub
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124186 }, -- Contemptuous Wristguards
+				{ 2, 124153 }, -- Satin Gloves of Injustice
+				{ 3, 124251 }, -- Oppressor's Merciless Treads
+				{ 4, 124306 }, -- Pauldrons of Contempt
+				{ 5, 124300 }, -- Haughty Chain Legguards
+				{ 6, 124287 }, -- Spiked Throatcrusher Boots
+				{ 7, 124326 }, -- Gauntlets of Derision
+				{ 16, 124192 }, -- Loathful Encrusted Band
+				{ 17, 124195 }, -- Pompous Ceremonial Ring
+				{ 18, 124219 }, -- Choker of Sneering Superiority
+				{ 19, 124226 }, -- Malicious Censer
+				{ 20, 124242 }, -- Tyrant's Decree
+				{ 22, 124355 }, -- Fallen Defender of Argus
+				{ 23, 124375 }, -- Maul of Tyranny
+				{ 24, 124376 }, -- Warhammer of Arrogance
+				{ 26, "ac9989" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 27, "ac10041" },
+			},
+		},
+		{	--HFCMannoroth
+			EncounterJournalID = 1395,
+			[RF_DIFF] = {
+				{ 1, 128037 }, -- Leggings of Wasted Flesh
+				{ 2, 128034 }, -- Pit Lord's Cowl
+				{ 3, 128170 }, -- Hellstorm Sabatons
+				{ 4, 128177 }, -- Demonforged Iron Bracers
+				{ 6, 128297 }, -- Mark of the Destructor
+				{ 16, 128120 }, -- Felfume Mantle
+				{ 17, 128121 }, -- Ironpelt Pauldrons
+				{ 18, 128122 }, -- Rancorbite Spaulders
+				{ 19, 128123 }, -- Demonbreaker Pauldrons
+				{ 21, 128112 }, -- Fel-Light Lantern
+				{ 22, 128193 }, -- Serrated Bloodritual Dagger
+				{ 23, 128194 }, -- Snarlwood Recurve Bow
+				{ 24, 128198 }, -- Irontalon Staff
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124135 }, -- Cloak of Tangible Dread
+				{ 2, 124164 }, -- Leggings of the Iron Summoner
+				{ 3, 124266 }, -- Empowered Demonskin Kilt
+				{ 4, 124314 }, -- Bracers of Fel Empowerment
+				{ 5, 124349 }, -- Annihilan's Waistplate
+				{ 7, 124204 }, -- Mannoroth's Calcified Eye
+				{ 8, 124215 }, -- Locket of Unholy Reconstitution
+				{ 9, 124230 }, -- Prophecy of Fear
+				{ 10, 124238 }, -- Empty Drinking Horn
+				{ 16, 127953, false },	-- Chest of Hellfire's Conqueror
+				{ 17, 127963, false },	-- Chest of Hellfire's Protector
+				{ 18, 127962, false },	-- Chest of Hellfire's Vanquisher
+				{ 20, 124206 }, -- Thumping Demonheart Fetish
+				{ 21, 124361 }, -- Cursed Demonbone Longbow
+				{ 22, 124367 }, -- Fang of the Pit
+				{ 23, 124378 }, -- Xu'tenash, Glaive of Ruin
+				{ 25, "ac10030" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, "ac10042" },
+			},
+		},
+		{	--HFCArchimonde
+			EncounterJournalID = 1438,
+			[RF_DIFF] = {
+				{ 1, 128044 }, -- Voidsight Hood
+				{ 2, 128039 }, -- Shadeflesh Legguards
+				{ 3, 128048 }, -- Vintage Draenic Handguards
+				{ 4, 128171 }, -- Stompers of Echoing Doom
+				{ 6, 128150 }, -- Pressure-Compressed Loop
+				{ 7, 128151 }, -- Portent of Disaster
+				{ 8, 128152 }, -- Decree of Demonic Sovereignty
+				{ 9, 128153 }, -- Unquenchable Doomfire Censer
+				{ 10, 128154 }, -- Grasp of the Defiler
+				{ 16, 128124 }, -- Felfume Robes
+				{ 17, 128125 }, -- Ironpelt Jerkin
+				{ 18, 128126 }, -- Rancorbite Chain Shirt
+				{ 19, 128127 }, -- Demonbreaker Chestplate
+				{ 21, 128199 }, -- Fractured Soulgem Staff
+				{ 22, 128201 }, -- Greatsword of Chaos
+				--{ 27, "ac8992" },
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 124144 }, -- Cloak of Incendiary Wrath
+				{ 2, 124159 }, -- Demon Prince's Ascendant Crown
+				{ 3, 124176 }, -- Mantle of the Eredar Lord
+				{ 4, 124200 }, -- Demonbuckle Sash of Argus
+				{ 5, 124254 }, -- Felfinger Runegloves
+				{ 6, 124276 }, -- Waistwrap of Banishment
+				{ 7, 124291 }, -- Eredar Fel-Chain Gloves
+				{ 8, 124343 }, -- Doomcrier's Shoulderplates
+				{ 9, 124322 }, -- Treads of the Defiler
+				{ 11, 124210 }, -- Choker of the Great Betrayer
+				{ 12, 124222 }, -- World Ender's Gorget
+				{ 16, 127969, false },	-- Badge of Hellfire's Conqueror
+				{ 17, 127970, false },	-- Badge of Hellfire's Protector
+				{ 18, 127968, false },	-- Badge of Hellfire's Vanquisher
+				{ 20, 124372 }, -- Gavel of the Eredar
+				{ 21, 124382 }, -- Edict of Argus
+				{ 22, 124389 }, -- Calamity's Edge
+				--{ 24, "ac8952" },
+				{ 24, "ac10073" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 14, "123890:0", "mount" },	-- Felsteel Annihilator
+				{ 25, "ac10043" },
+			},
+		},
+--[[		{	--HFCTrash
+			name = AL["Trash Mobs"],
+			ExtraList = true,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 119332 },	-- Bracers of Darkened Skies
+				{ 2, 119342 },	-- Furnace Stoker's Footwraps
+				{ 3, 119333 },	-- Bracers of Shattered Limbs
+				{ 4, 119340 },	-- Iron-Flecked Sandals
+				{ 5, 119334 },	-- Bracers of Callous Disregard
+				{ 6, 119339 },	-- Treads of the Veteran Smith
+				{ 7, 119331 },	-- Bracers of Visceral Force
+				{ 8, 119341 },	-- Doomslag Greatboots
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+		},
+]]
+		{	--Tier 18 Sets
+			name = format(AL["Tier %d Sets"], 18),
+			ExtraList = true,
+			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:1:rf",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:1:n",
+			[HEROIC_PRE_DIFF] = "AtlasLoot_Collections:TIERSETS:1:h",
+			[MYTHIC_PRE_DIFF] = "AtlasLoot_Collections:TIERSETS:1:m",
+		},
+		WOD_RAID2_AC_TABLE,
+	},
+}
 data["Highmaul"] = {
 	EncounterJournalID = 477,
 	MapID = 994,

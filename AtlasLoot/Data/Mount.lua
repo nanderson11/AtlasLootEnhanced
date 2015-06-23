@@ -16,6 +16,13 @@ local NO_ITEM_ID = 0
 -- save all mountinfos
 local MOUNT_INFO = {
 	["spells"] = { -- [spellID] = itemID
+		[182912] = 123890, --Felsteel Annihilator
+		[186305] = 127140,	--Infernal Direwolf
+		[190977] = 128527,	--Deathtusk Felboar
+		--[190977] = 128526,	--Deathtusk Felboar
+		[171633] = 116671,	--Wild Goretusk
+		[190690] = 128481,	--Bristling Hellboar
+		[183117] = 123974,	--Corrupted Dreadwing
 		[171846] = 116789,	--Champion's Treadblade
 		[17453] = 13321,	--Green Mechanostrider
 		[98204] = 69747,	--Amani Battle Bear

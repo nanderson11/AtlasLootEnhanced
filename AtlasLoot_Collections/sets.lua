@@ -1176,6 +1176,245 @@ local SetTable = {
 			},
 		},
 	},
+	["Tier18"] = {	-- T18 Sets
+		name = format(AL["Tier %d Sets"], 18),
+		sourceTemplate = {
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1392),	-- Head (Kormrok)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1447),	-- Shoulder (Xhul'horac)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1395),	-- Chest (Mannoroth)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1427),	-- Hands (Socrethar)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1372),	-- Legs (Gorefiend)
+		},
+		sourceTemplateLFR = {
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1392),	-- Head (Kormrok)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1395),	-- Shoulder (Mannoroth)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1438),	-- Chest (Archimonde)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1394),	-- Hands (Velhari)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1372),	-- Legs (Gorefiend)
+			EJ_GetInstanceInfo(669).." - "..EJ_GetEncounterInfo(1447),	-- Feet (Xhul'horac)
+		},
+		{	-- Deathknight
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			subSetName = "dk",
+			icon = "dk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124332,	-- Demongaze Helm
+				124344,	-- Demongaze Pauldrons
+				124317,	-- Demongaze Chestplate
+				124327,	-- Demongaze Gauntlets
+				124338,	-- Demongaze Legplates
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Druid
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			subSetName = "druid",
+			icon = "druid",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124261,	-- Oathclaw Helm
+				124272,	-- Oathclaw Mantle
+				124246,	-- Oathclaw Vestment
+				124255,	-- Oathclaw Gauntlets
+				124267,	-- Oathclaw Leggings
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Hunter
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			subSetName = "hunter",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124296,	-- Hood of the Savage Hunt
+				124307,	-- Pauldrons of the Savage Hunt
+				124284,	-- Hauberk of the Savage Hunt
+				124292,	-- Gloves of the Savage Hunt
+				124301,	-- Leggings of the Savage Hunt
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Mage
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			subSetName = "mage",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124160,	-- Cowl of the Arcanic Conclave
+				124177,	-- Mantle of the Arcanic Conclave
+				124171,	-- Robe of the Arcanic Conclave
+				124154,	-- Gloves of the Arcanic Conclave
+				124165,	-- Pantaloons of the Arcanic Conclave
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Monk
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+			subSetName = "monk",
+			icon = "monk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124262,	-- Mask of the Hurricane's Eye
+				124273,	-- Mantle of the Hurricane's Eye
+				124247,	-- Robe of the Hurricane's Eye
+				124256,	-- Fistwraps of the Hurricane's Eye
+				124268,	-- Legwraps of the Hurricane's Eye
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Paladin
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			subSetName = "paladin",
+			icon = "pala",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124333,	-- Helm of the Ceaseless Vigil
+				124345,	-- Shoulderplates of the Ceaseless Vigil
+				124318,	-- Cuirass of the Ceaseless Vigil
+				124328,	-- Gauntlets of the Ceaseless Vigil
+				124339,	-- Greaves of the Ceaseless Vigil
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Priest
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			subSetName = "priest",
+			icon = "priest",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124161,	-- Pious Cowl
+				124178,	-- Pious Mantle
+				124172,	-- Pious Raiment
+				124155,	-- Pious Handwraps
+				124166,	-- Pious Leggings
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Rogue
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			subSetName = "rogue",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124263,	-- Felblade Hood
+				124274,	-- Felblade Spaulders
+				124248,	-- Felblade Chestguard
+				124257,	-- Felblade Gloves
+				124269,	-- Felblade Leggings
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Shaman
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			subSetName = "shaman",
+			icon = "shaman",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124297,	-- Crown of the Living Mountain
+				124308,	-- Pauldrons of the Living Mountain
+				124303,	-- Robe of the Living Mountain
+				124293,	-- Gauntlets of the Living Mountain
+				124302,	-- Leggings of the Living Mountain
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Warlock
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			subSetName = "warlock",
+			icon = "warlock",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124162,	-- Deathrattle Mask
+				124179,	-- Deathrattle Shoulderpads
+				124173,	-- Deathrattle Robe
+				124156,	-- Deathrattle Gloves
+				124167,	-- Deathrattle Leggings
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Warrior
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			subSetName = "warrior",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[NORMAL_DIFF] = {
+				124334,	-- Faceguard of Iron Wrath
+				124346,	-- Pauldrons of Iron Wrath
+				124319,	-- Breastplate of Iron Wrath
+				124329,	-- Gauntlets of Iron Wrath
+				124340,	-- Legplates of Iron Wrath
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- LFR Cloth
+			name = ALIL["Cloth"].." "..AL["Armor"],
+			subSetName = "rfcloth",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplateLFR",
+			[RF_DIFF] = {
+				128128,	-- Felfume Hood
+				128120,	-- Felfume Mantle
+				128124,	-- Felfume Robess
+				128136,	-- Felfume Gloves
+				128129,	-- Felfume Pantaloons
+				128052,	-- Felfume Slippers
+			},
+		},
+		{	-- LFR Leather
+			name = ALIL["Leather"].." "..AL["Armor"],
+			subSetName = "rfleather",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplateLFR",
+			[RF_DIFF] = {
+				128130,	-- Ironpelt Helm
+				128121,	-- Ironpelt Pauldrons
+				128125,	-- Ironpelt Jerkin
+				128137,	-- Ironpelt Mitts
+				128131,	-- Ironpelt Leggings
+				128054,	-- Ironpelt Boots
+			},
+		},
+		{	-- LFR Mail
+			name = ALIL["Mail"].." "..AL["Armor"],
+			subSetName = "rfmail",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplateLFR",
+			[RF_DIFF] = {
+				128132,	-- Rancorbite Hood
+				128122,	-- Rancorbite Spaulders
+				128126,	-- Rancorbite Chain Shirt
+				128138,	-- Rancorbite Grips
+				128133,	-- Rancorbite Leggings
+				128080,	-- Rancorbite Sabatons
+			},
+		},
+		{	-- LFR Plate
+			name = ALIL["Plate"].." "..AL["Armor"],
+			subSetName = "rfplate",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplateLFR",
+			[RF_DIFF] = {
+				128134,	-- Demonbreaker Helm
+				128123,	-- Demonbreaker Pauldrons
+				128127,	-- Demonbreaker Chestplate
+				128139,	-- Demonbreaker Gauntlets
+				128135,	-- Demonbreaker Legplates
+				128032,	-- Demonbreaker Crushers
+			},
+		},
+	},
 
 	["Tier17"] = {	-- T17 Sets
 		name = format(AL["Tier %d Sets"], 17),

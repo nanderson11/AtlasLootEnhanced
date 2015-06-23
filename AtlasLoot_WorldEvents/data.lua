@@ -258,6 +258,7 @@ data["BrawlersGuild"] = {
 				{ 6, "ICON_warrior_talent_icon_furyintheblood", nil, string.format(AL["Rank %d"], 6), nil },
 				{ 7, 98080, [QUEST_EXTRA_ITTYPE] = 32839 },	-- Gorgeous Blouse
 				{ 8, 98091, [QUEST_EXTRA_ITTYPE] = 32851 },	-- Last Season's Shirt
+				{ 9, 127773, [PRICE_EXTRA_ITTYPE] = "money:8000000" }, -- Gemcutter Module: Mastery
 				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil, string.format(AL["Rank %d"], 7), nil },
 				{ 17, 98543, "ac9176" },	-- Wraps of the Blood-Soaked Brawler
 				{ 18, 98085, [QUEST_EXTRA_ITTYPE] = 32847 },	-- Brucehide Jersey
