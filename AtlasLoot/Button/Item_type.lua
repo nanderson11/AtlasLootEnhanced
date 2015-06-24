@@ -285,7 +285,12 @@ function Item.ShowQuickDressUp(itemLink, ttFrame)
 	frame = Item.previewTooltipFrame.modelFrame
 	frame:Reset()
 	frame:Undress()
-	frame:SetRotation(frame.curRotation)
+	local info = {GetItemInfo(itemLink)}
+	if not (info[9] == "INVTYPE_CLOAK") then
+		frame:SetRotation(frame.curRotation)
+	else
+		frame:SetRotation(frame.curRotation + math.pi)
+	end
 	frame:SetPortraitZoom(frame.zoomLevelNew)
 	frame:TryOn(itemLink)
 end
