@@ -7,9 +7,9 @@ local format = string.format
 local tbl_concat = table.concat
 
 -- itemID:enchant:gem1:gem2:gem3:gem4:suffixID:uniqueID:level:upgradeId:instanceDifficultyID:numBonusIDs:bonusID1:bonusID2
-local ITEM_FORMAT_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:0"
-local ITEM_FORMAT_ALL_STRING = "item:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%s"
-local ITEM_FORMAT_BONUS_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:%d:%s"
+local ITEM_FORMAT_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:0:0"
+local ITEM_FORMAT_ALL_STRING = "item:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%s"
+local ITEM_FORMAT_BONUS_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:0:%d:%s"
 
 ATLASLOOT_ITEM_BONUSIDS = {
 	-- Raid
