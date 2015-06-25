@@ -28,6 +28,8 @@ local ITEM_BONUS_PRESET = {
 	["Dungeon"]			= { 522 },
 	["HCDungeon"]			= { 524 },
 	["HCDungeonWarforged"]		= { 524, 448 },
+	["MDungeon"]			= { 642 },
+	["MDungeonWarforged"]		= { 642, 644 },
 	-- Raids
 	["LFR"]				= { 451 },
 	["SoOWarforged"]		= { 448 },

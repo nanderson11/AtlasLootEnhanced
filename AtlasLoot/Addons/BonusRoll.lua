@@ -80,6 +80,20 @@ local BONUS_ROLL_IDS = {
 	[177535] = "6:457:1162",		-- Kromog
 	[177538] = "6:457:1203",		-- The Iron Maidens
 	[177539] = "6:457:959",			-- Blackhand
+	-- HellfireCitadel
+	[188972] = "6:669:1426",		-- Mar'tak
+	[188973] = "6:669:1425",		-- Iron Reaver
+	[188974] = "6:669:1329",		-- Kormrok
+	[188975] = "6:669:1432",		-- Council
+	[188976] = "6:669:1369",		-- Kilrogg
+	[188977] = "6:669:1372",		-- Gorefiend
+	[188978] = "6:669:1433",		-- Iskar
+	[188979] = "6:669:1427",		-- Socrethar
+	[188980] = "6:669:1391",		-- Zakuum
+	[188981] = "6:669:1447",		-- Xhulhorac
+	[188982] = "6:669:1394",		-- Velhari
+	[188983] = "6:669:1395",		-- Mannoroth
+	[188984] = "6:669:1438",		-- Archimonde
 	-- Highmaul
 	[177521] = "6:477:1128",		-- Kargath Bladefist
 	[177522] = "6:477:971",			-- Butcher
@@ -92,7 +106,7 @@ local BONUS_ROLL_IDS = {
 	[178847] = "6:557:1291",		-- Drov the Ruiner
 	[178851] = "6:557:1262",		-- Rukhmar
 	[178849] = "6:557:1211",		-- Tarlna the Ageless
-	
+	[188985] = "6:557:1452",		-- Supreme Lord Kazzak	
 }
 
 local function LoadQuickLootFrame(self)

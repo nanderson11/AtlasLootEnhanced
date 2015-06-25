@@ -57,6 +57,14 @@ local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithP
 		autoCompleteItem2 = true,
 	},
 })
+local MYTHICD_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 3)
+local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
+	Item = {
+		item1bonus = "MDungeon",
+		item2bonus = "MDungeonWarforged",
+		autoCompleteItem2 = true,
+	},
+})
 local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 	Item = {
 		item1bonus = "HeroicRaid",
@@ -211,6 +219,9 @@ data["Auchindoun"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_AUCH_DIFF,
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+			},
 		},
 		{	--AuchNyami
 			EncounterJournalID = 1186,
@@ -262,6 +273,9 @@ data["Auchindoun"] = {
 				GetItemsFromDiff = NORMAL_AUCH_DIFF,
 				{ 125, "ac9023" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+			},
 		},
 		{	--AuchAzzakel
 			EncounterJournalID = 1216,
@@ -312,6 +326,9 @@ data["Auchindoun"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_AUCH_DIFF,
 				{ 120, "ac9551" },
+			},
+						[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_AUCH_DIFF,
 			},
 		},
 		{	--AuchTerongor
@@ -389,6 +406,10 @@ data["Auchindoun"] = {
 				{ 217, "ac9049" },
 				{ 218, "ac9552" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				{ 217, "ac10080" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -453,6 +474,9 @@ data["BloodmaulSlagMines"] = {
 				GetItemsFromDiff = NORMAL_BSM_DIFF,
 				{ 116, "ac8993" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_BSM_DIFF,
+			},
 		},
 		{	--BSMCrushto
 			EncounterJournalID = 888,
@@ -503,6 +527,9 @@ data["BloodmaulSlagMines"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_BSM_DIFF,
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_BSM_DIFF,
+			},
 		},
 		{	--BSMRoltall
 			EncounterJournalID = 887,
@@ -551,6 +578,9 @@ data["BloodmaulSlagMines"] = {
 				{ 118, 110041 },	-- Roltall's Brutal Crescent
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_BSM_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_BSM_DIFF,
 			},
 		},
@@ -634,6 +664,10 @@ data["BloodmaulSlagMines"] = {
 				{ 222, "ac9005" },
 				{ 223, "ac9008" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				{ 221, "ac10076" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -704,6 +738,9 @@ data["GrimrailDepot"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 129, "ac9024" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--GDThundertower
 			EncounterJournalID = 1163,
@@ -754,6 +791,9 @@ data["GrimrailDepot"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 126, "ac9007" },
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{	--GDTovra
@@ -829,6 +869,10 @@ data["GrimrailDepot"] = {
 				{ 206, "114107:0", false, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Core of Iron
 				{ 217, "ac9052" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 217, "ac10082" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -900,6 +944,9 @@ data["IronDocks"] = {
 				GetItemsFromDiff = NORMAL_ID_DIFF,
 				{ 130, "ac9083" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_ID_DIFF,
+			},
 		},
 		{	--IDEnforcers
 			EncounterJournalID = 1236,
@@ -948,6 +995,9 @@ data["IronDocks"] = {
 				{ 124, 110056 },	-- Black Iron Sniper Rifle
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_ID_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_ID_DIFF,
 			},
 		},
@@ -999,6 +1049,9 @@ data["IronDocks"] = {
 
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_ID_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_ID_DIFF,
 			},
 		},
@@ -1075,6 +1128,10 @@ data["IronDocks"] = {
 				{ 217, "ac9047" },
 				{ 218, "ac9082" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_ID_DIFF,
+				{ 217, "ac10079" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -1140,6 +1197,9 @@ data["ShadowmoonBurialGrounds"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 124, "ac9018" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--SBGNhallish
 			EncounterJournalID = 1168,
@@ -1188,6 +1248,9 @@ data["ShadowmoonBurialGrounds"] = {
 				{ 118, 110036 },	-- Nhallish's Bloody Polearm
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
@@ -1240,6 +1303,9 @@ data["ShadowmoonBurialGrounds"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 120, "ac9025" },
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{	--SBGNerzhul
@@ -1319,6 +1385,10 @@ data["ShadowmoonBurialGrounds"] = {
 				{ 220, "ac9054" },
 				{ 221, "ac9026" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 220, "ac10084" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -1384,6 +1454,9 @@ data["Skyreach"] = {
 				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
 				{ 118, "ac9033" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
+			},
 		},
 		{	--SkyreachAraknath
 			EncounterJournalID = 966,
@@ -1432,6 +1505,9 @@ data["Skyreach"] = {
 				{ 124, 110031 },	-- Spire of the Furious Construct
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
 			},
 		},
@@ -1484,6 +1560,9 @@ data["Skyreach"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
 				{ 120, "ac9035" },
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
 			},
 		},
 		{	--SkyreachViryx
@@ -1565,6 +1644,10 @@ data["Skyreach"] = {
 				{ 224, "ac8844" },
 				{ 225, "ac9036" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_SKYREACH_DIFF,
+				{ 224, "ac10081" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -1631,6 +1714,9 @@ data["TheEverbloom"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 120, "ac9017" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--EverbloomProtectors
 			EncounterJournalID = 1207,
@@ -1679,6 +1765,9 @@ data["TheEverbloom"] = {
 				{ 118, 119176 },	-- Interloper's Mossy Skull
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
@@ -1732,6 +1821,9 @@ data["TheEverbloom"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 120, "ac9493" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--EverbloomXeritac
 			EncounterJournalID = 1209,
@@ -1780,6 +1872,9 @@ data["TheEverbloom"] = {
 				{ 118, 119173 },	-- Dessicated Husk Shield
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
@@ -1862,6 +1957,10 @@ data["TheEverbloom"] = {
 				{ 223, "ac9053" },
 				{ 224, "ac9223" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 221, "ac10083" },
+			},
 		},
 		{	--Challenge Mode Gear
 			name = AL["Challenge Mode Gear"],
@@ -1928,6 +2027,9 @@ data["UpperBlackrockSpire"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 120, "ac9045" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--UBRSKyrak
 			EncounterJournalID = 1227,
@@ -1984,6 +2086,9 @@ data["UpperBlackrockSpire"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 130, "ac9058" },
 			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
 		},
 		{	--UBRSTharbek
 			EncounterJournalID = 1228,
@@ -2033,6 +2138,9 @@ data["UpperBlackrockSpire"] = {
 				{ 119, 118725 },	-- Tharbek's Unholy Charge
 			},
 			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
@@ -2085,6 +2193,9 @@ data["UpperBlackrockSpire"] = {
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 126, "ac9056" },
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{	--UBRSZaela
@@ -2160,6 +2271,10 @@ data["UpperBlackrockSpire"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 217, "ac9055" },
 				{ 218, "ac9057" },
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 217, "ac10085" },
 			},
 		},
 		{	--Challenge Mode Gear
@@ -2685,6 +2800,33 @@ data["Draenor"] = {
 				{ 11, 115428 },	-- Gauntlets of Impenetrability
 				{ 12, 115432 },	-- Waistplate of Bladed Force
 				{ 16, "ac9423" },
+			},
+		},
+		{	--Supreme Lord Kazzak	
+			EncounterJournalID = 1452,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 127971 }, -- Gossamer Felscorched Scarf
+				{ 2, 127972 }, -- Spellcloak of Suramar
+				{ 3, 127973 }, -- Nether-Touched Cloak
+				{ 4, 127974 }, -- Drape of the Doomguard
+				{ 5, 127975 }, -- Marked Cloak of Command
+				{ 7, 127981 }, -- Bracers of Perfect Discomfort
+				{ 8, 127982 }, -- Terrorweave Wristwraps
+				{ 9, 127983 }, -- Supreme Felchain Bracers
+				{ 10, 127984 }, -- Wristclasps of Righteous Reckoning
+				{ 16, 124545 }, -- Chipped Soul Prism
+				{ 17, 124546 }, -- Mark of Supreme Doom
+				{ 19, 127976 }, -- Choker of Reciprocity
+				{ 20, 127977 }, -- Insightful Void-Link Chain
+				{ 21, 127978 }, -- Necklace of Flowing Light
+				{ 22, 127979 }, -- Studded Choker of the Accursed
+				{ 23, 127980 }, -- Void-Sealed Gorget
+				-- { 16, "ac9423" },
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				-- { 27, "ac10027" },
 			},
 		},
 	}
