@@ -1461,8 +1461,8 @@ data["TIERSETS"] = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = SET_ITTYPE,
 	items = {
-		{	-- Tier 17 Sets
-			name = format(AL["Tier %d Sets"], 17).." ("..AL["Warlords of Draenor"]..")",
+		{	-- Tier 18 Sets
+			name = format(AL["Tier %d Sets"], 18).." ("..AL["Warlords of Draenor"]..")",
 			[RF_DIFF] = {
 				{ 1, "Tier18:rfcloth:rf" },
 				{ 3, "Tier18:rfleather:rf" },
