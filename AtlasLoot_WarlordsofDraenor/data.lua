@@ -2823,11 +2823,6 @@ data["Draenor"] = {
 				{ 23, 127980 }, -- Void-Sealed Gorget
 				-- { 16, "ac9423" },
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				-- { 27, "ac10027" },
-			},
 		},
 	}
 }
@@ -3398,23 +3393,22 @@ data["HellfireCitadel"] = {
 				{ 25, "ac10043" },
 			},
 		},
---[[		{	--HFCTrash
+		{	--HFCTrash
 			name = AL["Trash Mobs"],
 			ExtraList = true,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 119332 },	-- Bracers of Darkened Skies
-				{ 2, 119342 },	-- Furnace Stoker's Footwraps
-				{ 3, 119333 },	-- Bracers of Shattered Limbs
-				{ 4, 119340 },	-- Iron-Flecked Sandals
-				{ 5, 119334 },	-- Bracers of Callous Disregard
-				{ 6, 119339 },	-- Treads of the Veteran Smith
-				{ 7, 119331 },	-- Bracers of Visceral Force
-				{ 8, 119341 },	-- Doomslag Greatboots
+				{ 1, 124182 },	-- Cord of Unhinged Malice
+				{ 2, 124150 },	-- Dessicated Soulrender Slippers
+				{ 3, 124277 },	-- Flayed Demonskin Belt
+				{ 4, 124252 },	-- Jungle Assassin's Footpads
+				{ 5, 124311 },	-- Cursed Demonchain Belt
+				{ 6, 124288 },	-- Unhallowed Voidlink Boots
+				{ 7, 124350 },	-- Girdle of Demonic Wrath
+				{ 8, 124323 },	-- Cruel Hope Crushers
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 		},
-]]
 		{	--Tier 18 Sets
 			name = format(AL["Tier %d Sets"], 18),
 			ExtraList = true,

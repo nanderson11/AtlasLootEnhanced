@@ -36,6 +36,26 @@ data["APEXISCRYSTALGEAR"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
+			name = string.format(AL["ilvl %d"], 650).." "..AL["Armor"],
+			[NORMAL_DIFF] = {
+				{ 1, 128225, [PRICE_EXTRA_ITTYPE] = "apexis:20000" }, -- Empowered Apexis Fragment
+				{ 3, 124554, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Hood
+				{ 4, 124556, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Spaulders
+				{ 5, 124560, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Cloak
+				{ 6, 124551, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Tunic
+				{ 7, 124550, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Bracers
+				{ 8, 124553, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Gauntlets
+				{ 9, 124557, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Girdle
+				{ 10, 124555, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Leggings
+				{ 11, 124552, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Treads
+				{ 18, 124559, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Choker
+				{ 19, 124558, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Ring
+				{ 20, 124561, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Trinket
+				{ 22, 124562, [PRICE_EXTRA_ITTYPE] = "apexis:10000" }, -- Baleful Armament
+			},
+		},
+--[[
+		{
 			name = string.format(AL["ilvl %d"], 675).." "..AL["Armor"],
 			[NORMAL_DIFF] = {
 				{ 1, 122329, [PRICE_EXTRA_ITTYPE] = "116969:1:apexis:14500" }, -- Ethereal Crystal-Edged Bladecloak
@@ -176,34 +196,41 @@ data["APEXISCRYSTALGEAR"] = {
 				{ 29, 115377, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystal-Plated Legplates
 			},
 		},
+]]
 		{
 			name = AL["Miscellaneous"],
 			[NORMAL_DIFF] = {
-				{ 1, 116785, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Swift Frostwolf
-				{ 2, 116665, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Armored Irontusk
-				{ 3, 116775, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000:apexis:5000" },	-- Breezestrider Stallion
-				{ 4, 116672, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Domesticated Razorback
-				{ 5, 116664, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Dusty Rockhide
-				{ 6, 116782, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Ironside Warwolf
-				{ 7, 116768, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000000:apexis:5000" },	-- Mosshide Riverwallow
-				{ 8, 116776, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000:apexis:5000" },	-- Pale Thorngrazer
-				{ 9, 116772, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Shadowmane Charger
-				{ 11, 118673, [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:1000" },	-- Golden Visage of the Laughing Skull
-				{ 12, 118672, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Bloody Visage of the Laughing Skul
-				{ 13, 118671, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Frozen Visage of the Laughing Skull
-				{ 14, 118674, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Visage of the Laughing Skull
-				{ 16, 119146, "pet1458", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Bone Wasp
-				{ 17, 119149, "pet1430", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Captured Forest Sproutling
-				{ 18, 119142, "pet1450", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Draenei Micro Defender
-				{ 19, 119141, "pet1542", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Frostwolf Pup
-				{ 20, 119148, "pet1571", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Indentured Albino River Calf
-				{ 21, 119143, "pet1574", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Son of Sethe
-				{ 23, 118666, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Arakkoa Elixir
-				{ 24, 118665, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Exarch Elixir
-				{ 25, 118664, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Frostwolf Elixir
-				{ 26, 118668, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Laughing Skull Elixir
-				{ 27, 118669, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Sha'tari Elixir
-				{ 28, 118667, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Steamwheedle Elixir
+				{ 1, 123974, "mount", [PRICE_EXTRA_ITTYPE] = "apexis:150000" }, 	-- Reins of the Corrupted Dreadwing
+				{ 2, 116785, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Swift Frostwolf
+				{ 3, 116665, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Armored Irontusk
+				{ 4, 116775, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000:apexis:5000" },	-- Breezestrider Stallion
+				{ 5, 116672, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Domesticated Razorback
+				{ 6, 116664, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Dusty Rockhide
+				{ 7, 116782, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Ironside Warwolf
+				{ 8, 116768, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000000:apexis:5000" },	-- Mosshide Riverwallow
+				{ 9, 116776, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000:apexis:5000" },	-- Pale Thorngrazer
+				{ 10, 116772, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Shadowmane Charger
+				{ 16, 128478, "pet1693", [PRICE_EXTRA_ITTYPE] = "apexis:2000" },	-- Blazing Firehawk
+				{ 17, 119146, "pet1458", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Bone Wasp
+				{ 18, 119149, "pet1430", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Captured Forest Sproutling
+				{ 19, 119142, "pet1450", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Draenei Micro Defender
+				{ 20, 119141, "pet1542", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Frostwolf Pup
+				{ 21, 119148, "pet1571", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Indentured Albino River Calf
+				{ 22, 119143, "pet1574", [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:2000" },	-- Son of Sethe
+				{ 24, 127774, [PRICE_EXTRA_ITTYPE] = "apexis:3000" }, -- Gemcutter Module: Multistrike
+				{ 26, 128441, [PRICE_EXTRA_ITTYPE] = "apexis:1000" }, -- Contract: Solar Priest Vayx
+				{ 27, 119821, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Contract: Dawnseeker Rukaryx
+				{ 29, 122283, [PRICE_EXTRA_ITTYPE] = "apexis:50000" }, -- Rukhmar's Sacred Memory
+				{ 101, 118673, [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:1000" },	-- Golden Visage of the Laughing Skull
+				{ 102, 118672, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Bloody Visage of the Laughing Skul
+				{ 103, 118671, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Frozen Visage of the Laughing Skull
+				{ 104, 118674, [PRICE_EXTRA_ITTYPE] = "money:10000000:apexis:1000" },	-- Visage of the Laughing Skull
+				{ 106, 118666, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Arakkoa Elixir
+				{ 107, 118665, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Exarch Elixir
+				{ 108, 118664, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Frostwolf Elixir
+				{ 109, 118668, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Laughing Skull Elixir
+				{ 110, 118669, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Sha'tari Elixir
+				{ 111, 118667, [PRICE_EXTRA_ITTYPE] = "money:50000:apexis:1" },	-- Steamwheedle Elixir
 			},
 		},
 	},
