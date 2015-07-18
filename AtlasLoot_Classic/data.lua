@@ -2809,7 +2809,7 @@ data["BlackwingLair"] = {
 		{	--Tier 2 Sets
 			name = format(AL["Tier %d Sets"], 2),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:16",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:2",
 		},
 		CLASSIC_RAID_AC_TABLE,
 	}
@@ -3163,7 +3163,7 @@ data["MoltenCore"] = {
 		{	--Tier 1 Sets
 			name = format(AL["Tier %d Sets"], 1),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:17",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:1",
 		},
 		CLASSIC_RAID_AC_TABLE,
 	}
@@ -3672,9 +3672,9 @@ data["Naxxramas"] = {
 		{	--Tier 3 Sets
 			name = format(AL["Tier %d Sets"], 3),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[REMOVED_DIFF] = "AtlasLoot_Collections:TIERSETS:15:n",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[REMOVED_DIFF] = "AtlasLoot_Collections:TIERSETS:3:n",
 		},
 		{	-- WOTLK_RAID1_10_AC_TABLE
 			name = select(2, GetAchievementInfo(2137)),

@@ -1206,9 +1206,9 @@ data["HeartofFear"] = {
 		{	--Tier 14 Sets
 			name = format(AL["Tier %d Sets"], 14),
 			ExtraList = true,
-			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:4",
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:4:n",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:4:h",
+			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:14",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:14:n",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:14:h",
 		},
 		MOP_RAID1_AC_TABLE,
 	}
@@ -2326,17 +2326,17 @@ data["Pandaria"] = {
 		{	--Tier 16 Sets
 			name = format(AL["Tier %d Sets"], 16),
 			ExtraList = true,
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:2:h",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:16:h",
 		},
 		{	--Tier 15 Sets
 			name = format(AL["Tier %d Sets"], 15),
 			ExtraList = true,
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:3:n",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:15:n",
 		},
 		{	--Tier 14 Sets
 			name = format(AL["Tier %d Sets"], 14),
 			ExtraList = true,
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:4:n",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:14:n",
 		},
 	}
 }
@@ -3033,10 +3033,10 @@ data["SiegeofOrgrimmar"] = {
 		{	--Tier 16 Sets
 			name = format(AL["Tier %d Sets"], 16),
 			ExtraList = true,
-			[RF_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:2:rf",
-			[NORMAL_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:2:n",
-			[HEROIC_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:2:h",
-			[MYTHIC_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:2:m",
+			[RF_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:16:rf",
+			[NORMAL_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:16:n",
+			[HEROIC_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:16:h",
+			[MYTHIC_SOO_DIFF] = "AtlasLoot_Collections:TIERSETS:16:m",
 		},
 		{	--ACPage
 			name = AL["Achievements"],
@@ -3355,9 +3355,9 @@ data["TerraceofEndlessSpring"] = {
 		{	--Tier 14 Sets
 			name = format(AL["Tier %d Sets"], 14),
 			ExtraList = true,
-			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:4",
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:4:n",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:4:h",
+			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:14",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:14:n",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:14:h",
 		},
 		MOP_RAID1_AC_TABLE,
 	}
@@ -4371,9 +4371,9 @@ data["ThroneofThunder"] = {
 		{	--Tier 15 Sets
 			name = format(AL["Tier %d Sets"], 15),
 			ExtraList = true,
-			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:3",
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:3:n",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:3:h",
+			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:15",
+			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:15:n",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:15:h",
 		},
 		{	--ShadoPanAssault
 			FactionID = 1435,

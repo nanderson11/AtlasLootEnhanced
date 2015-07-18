@@ -2611,9 +2611,9 @@ data["IcecrownCitadel"] = {
 		{	--Tier 10 Sets
 			name = format(AL["Tier %d Sets"], 10),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
-			[P25H_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
+			[P25H_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
 		},
 		{	--TheAshenVerdict
 			FactionID = 1156,
@@ -3303,9 +3303,9 @@ data["Naxxramas"] = {
 		{	--Tier 7 Sets
 			name = format(AL["Tier %d Sets"], 7),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[REMOVED_DIFF] = "AtlasLoot_Collections:TIERSETS:15:n",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[REMOVED_DIFF] = "AtlasLoot_Collections:TIERSETS:3:n",
 		},
 		WOTLK_RAID1_10_AC_TABLE,
 		WOTLK_RAID1_25_AC_TABLE,
@@ -3565,8 +3565,8 @@ data["ObsidianSanctum"] = {
 		{	--Tier 7 Sets
 			name = format(AL["Tier %d Sets"], 7),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
 		},
 		WOTLK_RAID1_10_AC_TABLE,
 		WOTLK_RAID1_25_AC_TABLE,
@@ -4836,8 +4836,8 @@ data["Ulduar"] = {
 		{	--Tier 8 Sets
 			name = format(AL["Tier %d Sets"], 8),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
 		},
 		WOTLK_RAID2_10_AC_TABLE,
 		WOTLK_RAID2_25_AC_TABLE,
@@ -5962,14 +5962,14 @@ data["VaultofArchavon"] = {
 		{	--Tier 7 Sets
 			name = format(AL["Tier %d Sets"], 7),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
 		},
 		{	--Tier 8 Sets
 			name = format(AL["Tier %d Sets"], 8),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
 		},
 		{	--Tier 9 Sets
 			name = format(AL["Tier %d Sets"], 9),
@@ -5980,8 +5980,8 @@ data["VaultofArchavon"] = {
 		{	--Tier 10 Sets
 			name = format(AL["Tier %d Sets"], 10),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:8",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:10",
 		},
 	}
 }

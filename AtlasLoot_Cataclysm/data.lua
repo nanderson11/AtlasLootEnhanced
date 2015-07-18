@@ -2083,17 +2083,17 @@ data["BaradinHold"] = {
 		{	--Tier 11 Sets
 			name = format(AL["Tier %d Sets"], 11),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
 		},
 		{	--Tier 12 Sets
 			name = format(AL["Tier %d Sets"], 12),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:6",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:12",
 		},
 		{	--Tier 13 Sets
 			name = format(AL["Tier %d Sets"], 13),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:5",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:13",
 		},
 		{	--BaradinsWardens
 			FactionID = 1177,
@@ -2354,8 +2354,8 @@ data["BlackwingDescent"] = {
 		{	--Tier 11 Sets
 			name = format(AL["Tier %d Sets"], 11),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:7:h",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:11:h",
 		},
 		CATA_DEFENDER_AC_TABLE,
 		CATA_RAID1_AC_TABLE,
@@ -2810,9 +2810,9 @@ data["CoTDragonSoul"] = {
 		{	--Tier 13 Sets
 			name = format(AL["Tier %d Sets"], 13),
 			ExtraList = true,
-			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:5",
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:5",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:5:h",
+			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:13",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:13",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:13:h",
 		},
 		CATA_RAID3_AC_TABLE,
 	}
@@ -3188,8 +3188,8 @@ data["Firelands"] = {
 		{	--Tier 12 Sets
 			name = format(AL["Tier %d Sets"], 12),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:6",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:6:h",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:12",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:12:h",
 		},
 		{	--AvengersHyjal
 			FactionID = 1204,
@@ -3389,8 +3389,8 @@ data["TheBastionOfTwilight"] = {
 		{	--Tier 11 Sets
 			name = format(AL["Tier %d Sets"], 11),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:7:h",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:11:h",
 		},
 		CATA_DEFENDER_AC_TABLE,
 		CATA_RAID1_AC_TABLE,
@@ -3502,8 +3502,8 @@ data["ThroneOfTheFourWinds"] = {
 		{	--Tier 11 Sets
 			name = format(AL["Tier %d Sets"], 11),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:7",
-			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:7:h",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:11",
+			[HEROIC_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:11:h",
 		},
 		CATA_DEFENDER_AC_TABLE,
 		CATA_RAID1_AC_TABLE,

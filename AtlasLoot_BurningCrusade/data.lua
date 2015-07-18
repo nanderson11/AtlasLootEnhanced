@@ -2254,7 +2254,7 @@ data["BlackTemple"] = {
 		{	--Tier 6 Sets
 			name = format(AL["Tier %d Sets"], 6),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:12",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:6",
 		},
 		{	--Ashtongue
 			FactionID = 1012,
@@ -2309,7 +2309,7 @@ data["GruulsLair"] = {
 		{	--Tier 4 Sets
 			name = format(AL["Tier %d Sets"], 4),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:14:n",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:4:n",
 		},
 		BC_RAID_AC_TABLE,
 	}
@@ -2437,7 +2437,7 @@ data["CoTHyjal"] = {
 		{	--Tier 6 Sets
 			name = format(AL["Tier %d Sets"], 6),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:12",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:6",
 		},
 		{	--ScaleSands
 			FactionID = 990,
@@ -2706,7 +2706,7 @@ data["Karazhan"] = {
 		{	--Tier 4 Sets
 			name = format(AL["Tier %d Sets"], 4),
 			ExtraList = true,
-			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:14",
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:4",
 		},
 		{	--TheVioletEye
 			FactionID = 967,
@@ -2754,7 +2754,7 @@ data["HCMagtheridonsLair"] = {
 		{	--Tier 4 Sets
 			name = format(AL["Tier %d Sets"], 4),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:14:n",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:4:n",
 		},
 		BC_RAID_AC_TABLE,
 	}
@@ -2902,7 +2902,7 @@ data["CFRSerpentshrineCavern"] = {
 		{	--Tier 5 Sets
 			name = format(AL["Tier %d Sets"], 5),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:13",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:5",
 		},
 		{	--CExpedition
 			FactionID = 942,
@@ -3135,7 +3135,7 @@ data["SunwellPlateau"] = {
 		{	--Tier 6 Sets
 			name = format(AL["Tier %d Sets"], 6),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:12",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:6",
 		},
 		BC_RAID_AC_TABLE,
 	}
@@ -3261,7 +3261,7 @@ data["TempestKeepTheEye"] = {
 		{	--Tier 5 Sets
 			name = format(AL["Tier %d Sets"], 5),
 			ExtraList = true,
-			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:13",
+			[P25_DIFF] = "AtlasLoot_Collections:TIERSETS:5",
 		},
 		{	--Shatar
 			FactionID = 935,
