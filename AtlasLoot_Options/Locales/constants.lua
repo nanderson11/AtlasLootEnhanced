@@ -3,7 +3,7 @@
 AL["AtlasLoot Options"] = true
 
 AL["Use global settings"] = true
-AL["Saves the settings global so it can be used by every character on this account.\n(This can be changed per charakter)"] = true
+AL["Saves the settings global so it can be used by every character on this account.\n(This can be changed per character)"] = true
 
 AL["Font"] = true
 AL["Background"] = true
