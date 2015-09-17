@@ -21,6 +21,100 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
+data["WODS2SETS"] = {
+	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
 data["WODS1SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 1).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
