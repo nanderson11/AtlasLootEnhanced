@@ -821,28 +821,28 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122250:Stage3H", 122340 },	-- Tattered Dreadmist Mask  (Stage 3)
 				{ 2, "122250:Stage2H", 122338 },	-- Tattered Dreadmist Mask  (Stage 2)
-				{ 3, "122250:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tattered Dreadmist Mask
+				{ 3, "122250", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tattered Dreadmist Mask
 				{ 5, "122360:Stage3H", 122340 },	-- Tattered Dreadmist Mantle (Stage 3)
 				{ 6, "122360:Stage2H", 122338 },	-- Tattered Dreadmist Mantle (Stage 2)
-				{ 7, "122360:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Tattered Dreadmist Mantle
+				{ 7, "122360", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Tattered Dreadmist Mantle
 				{ 9, "122384:Stage3H", 122340 },	-- Tattered Dreadmist Robe (Stage 3)
 				{ 10, "122384:Stage2H", 122338 },	-- Tattered Dreadmist Robe (Stage 2)
-				{ 11, "122384:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Tattered Dreadmist Robe
+				{ 11, "122384", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Tattered Dreadmist Robe
 				{ 13, "122256:Stage3H", 122340 },	-- Tattered Dreadmist Leggings (Stage 3)
 				{ 14, "122256:Stage2H", 122338 },	-- Tattered Dreadmist Leggings (Stage 2)
-				{ 15, "122256:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tattered Dreadmist Leggings
+				{ 15, "122256", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tattered Dreadmist Leggings
 				{ 16, "122262:Stage3H", 122340 },	-- Ancient Bloodmoon Cloak (Stage 3)
 				{ 17, "122262:Stage2H", 122338 },	-- Ancient Bloodmoon Cloak (Stage 2)
-				{ 18, "122262:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Ancient Bloodmoon Cloak
+				{ 18, "122262", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Ancient Bloodmoon Cloak
 				{ 20, "122261:Stage3H", 122340 },	-- Inherited Cape of the Black Baron (Stage 3)
 				{ 21, "122261:Stage2H", 122338 },	-- Inherited Cape of the Black Baron (Stage 2)
-				{ 22, "122261:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Inherited Cape of the Black Baron
+				{ 22, "122261", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Inherited Cape of the Black Baron
 				{ 24, "122266:Stage3H", 122340 },	-- Ripped Sandstorm Cloak (Stage 3)
 				{ 25, "122266:Stage2H", 122338 },	-- Ripped Sandstorm Cloak (Stage 2)
-				{ 26, "122266:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Ripped Sandstorm Cloak
+				{ 26, "122266", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Ripped Sandstorm Cloak
 				{ 28, "122260:Stage3H", 122340 },	-- Worn Stoneskin Gargoyle Cape (Stage 3)
 				{ 29, "122260:Stage2H", 122338 },	-- Worn Stoneskin Gargoyle Cape (Stage 2)
-				{ 30, "122260:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Worn Stoneskin Gargoyle Cape
+				{ 30, "122260", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Worn Stoneskin Gargoyle Cape
 			},
 		},
 		{	--HeirloomLeather
@@ -850,28 +850,28 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122248:Stage3H", 122340 },	-- Stained Shadowcraft Cap  (Stage 3)
 				{ 2, "122248:Stage2H", 122338 },	-- Stained Shadowcraft Cap  (Stage 2)
-				{ 3, "122248:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Cap 
+				{ 3, "122248", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Cap 
 				{ 5, "122358:Stage3H", 122340 },	-- Stained Shadowcraft Spaulders (Stage 3)
 				{ 6, "122358:Stage2H", 122338 },	-- Stained Shadowcraft Spaulders (Stage 2)
-				{ 7, "122358:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Stained Shadowcraft Spaulders
+				{ 7, "122358", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Stained Shadowcraft Spaulders
 				{ 9, "122383:Stage3H", 122340 },	-- Stained Shadowcraft Tunic (Stage 3)
 				{ 10, "122383:Stage2H", 122338 },	-- Stained Shadowcraft Tunic (Stage 2)
-				{ 11, "122383:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Stained Shadowcraft Tunic
+				{ 11, "122383", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Stained Shadowcraft Tunic
 				{ 13, "122254:Stage3H", 122340 },	-- Stained Shadowcraft Pants (Stage 3)
 				{ 14, "122254:Stage2H", 122338 },	-- Stained Shadowcraft Pants (Stage 2)
-				{ 15, "122254:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Pants
+				{ 15, "122254", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Pants
 				{ 16, "122249:Stage3H", 122340 },	-- Preened Tribal War Feathers (Stage 3)
 				{ 17, "122249:Stage2H", 122338 },	-- Preened Tribal War Feathers (Stage 2)
-				{ 18, "122249:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Preened Tribal War Feathers
+				{ 18, "122249", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Preened Tribal War Feathers
 				{ 20, "122359:Stage3H", 122340 },	-- Preened Ironfeather Shoulders (Stage 3)
 				{ 21, "122359:Stage2H", 122338 },	-- Preened Ironfeather Shoulders (Stage 2)
-				{ 22, "122359:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Preened Ironfeather Shoulders
+				{ 22, "122359", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Preened Ironfeather Shoulders
 				{ 24, "122382:Stage3H", 122340 },	-- Preened Ironfeather Breastplate (Stage 3)
 				{ 25, "122382:Stage2H", 122338 },	-- Preened Ironfeather Breastplate (Stage 2)
-				{ 26, "122382:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Preened Ironfeather Breastplate
+				{ 26, "122382", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Preened Ironfeather Breastplate
 				{ 28, "122255:Stage3H", 122340 },	-- Preened Wildfeather Leggings (Stage 3)
 				{ 29, "122255:Stage2H", 122338 },	-- Preened Wildfeather Leggings (Stage 2)
-				{ 30, "122255:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Preened Wildfeather Leggings
+				{ 30, "122255", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Preened Wildfeather Leggings
 			},
 		},
 		{	--HeirloomMail
@@ -879,28 +879,28 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122246:Stage3H", 122340 },	-- Tarnished Raging Berserker's Helm (Stage 3)
 				{ 2, "122246:Stage2H", 122338 },	-- Tarnished Raging Berserker's Helm (Stage 2)
-				{ 3, "122246:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tarnished Raging Berserker's Helm
+				{ 3, "122246", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tarnished Raging Berserker's Helm
 				{ 5, "122356:Stage3H", 122340 },	-- Champion Herod's Shoulder (Stage 3)
 				{ 6, "122356:Stage2H", 122338 },	-- Champion Herod's Shoulder (Stage 2)
-				{ 7, "122356:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Champion Herod's Shoulder
+				{ 7, "122356", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Champion Herod's Shoulder
 				{ 9, "122379:Stage3H", 122340 },	-- Champion's Deathdealer Breastplate (Stage 3)
 				{ 10, "122379:Stage2H", 122338 },	-- Champion's Deathdealer Breastplate (Stage 2)
-				{ 11, "122379:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Champion's Deathdealer Breastplate
+				{ 11, "122379", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Champion's Deathdealer Breastplate
 				{ 13, "122252:Stage3H", 122340 },	-- Tarnished Leggings of Destruction (Stage 3)
 				{ 14, "122252:Stage2H", 122338 },	-- Tarnished Leggings of Destruction (Stage 2)
-				{ 15, "122252:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tarnished Leggings of Destruction
+				{ 15, "122252", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Tarnished Leggings of Destruction
 				{ 16, "122247:Stage3H", 122340 },	-- Mystical Coif of Elements (Stage 3)
 				{ 17, "122247:Stage2H", 122338 },	-- Mystical Coif of Elements (Stage 2)
-				{ 18, "122247:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Mystical Coif of Elements
+				{ 18, "122247", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Mystical Coif of Elements
 				{ 20, "122357:Stage3H", 122340 },	-- Mystical Pauldrons of Elements (Stage 3)
 				{ 21, "122357:Stage2H", 122338 },	-- Mystical Pauldrons of Elements (Stage 2)
-				{ 22, "122357:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Mystical Pauldrons of Elements
+				{ 22, "122357", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Mystical Pauldrons of Elements
 				{ 24, "122380:Stage3H", 122340 },	-- Mystical Vest of Elements (Stage 3)
 				{ 25, "122380:Stage2H", 122338 },	-- Mystical Vest of Elements (Stage 2)
-				{ 26, "122380:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Mystical Vest of Elements
+				{ 26, "122380", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Mystical Vest of Elements
 				{ 28, "122253:Stage3H", 122340 },	-- Mystical Kilt of Elements (Stage 3)
 				{ 29, "122253:Stage2H", 122338 },	-- Mystical Kilt of Elements (Stage 2)
-				{ 30, "122253:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Mystical Kilt of Elements
+				{ 30, "122253", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Mystical Kilt of Elements
 			},
 		},
 		{	--HeirloomPlate
@@ -908,28 +908,37 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122263:Stage3H", 122340 },	-- Burnished Helm of Might (Stage 3)
 				{ 2, "122263:Stage2H", 122338 },	-- Burnished Helm of Might (Stage 2)
-				{ 3, "122263:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Burnished Helm of Might
+				{ 3, "122263", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Burnished Helm of Might
 				{ 5, "122388:Stage3H", 122340 },	-- Burnished Pauldrons of Might (Stage 3)
 				{ 6, "122388:Stage2H", 122338 },	-- Burnished Pauldrons of Might (Stage 2)
-				{ 7, "122388:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Burnished Pauldrons of Might
+				{ 7, "122388", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Burnished Pauldrons of Might
 				{ 9, "122387:Stage3H", 122340 },	-- Burnished Breastplate of Might (Stage 3)
 				{ 10, "122387:Stage2H", 122338 },	-- Burnished Breastplate of Might (Stage 2)
-				{ 11, "122387:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Burnished Breastplate of Might
+				{ 11, "122387", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Burnished Breastplate of Might
 				{ 13, "122264:Stage3H", 122340 },	-- Burnished Legplates of Might (Stage 3)
 				{ 14, "122264:Stage2H", 122338 },	-- Burnished Legplates of Might (Stage 2)
-				{ 15, "122264:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Burnished Legplates of Might
+				{ 15, "122264", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Burnished Legplates of Might
 				{ 16, "122245:Stage3H", 122340 },	-- Polished Helm of Valor (Stage 3)
 				{ 17, "122245:Stage2H", 122338 },	-- Polished Helm of Valor (Stage 2)
-				{ 18, "122245:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Polished Helm of Valor
+				{ 18, "122245", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Polished Helm of Valor
 				{ 20, "122355:Stage3H", 122340 },	-- Polished Spaulders of Valor (Stage 3)
 				{ 21, "122355:Stage2H", 122338 },	-- Polished Spaulders of Valor (Stage 2)
-				{ 22, "122355:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Polished Spaulders of Valor
+				{ 22, "122355", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Polished Spaulders of Valor
 				{ 24, "122381:Stage3H", 122340 },	-- Polished Breastplate of Valor (Stage 3)
 				{ 25, "122381:Stage2H", 122338 },	-- Polished Breastplate of Valor (Stage 2)
-				{ 26, "122381:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Polished Breastplate of Valor
+				{ 26, "122381", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Polished Breastplate of Valor
 				{ 28, "122251:Stage3H", 122340 },	-- Polished Legplates of Valor (Stage 3)
 				{ 29, "122251:Stage2H", 122338 },	-- Polished Legplates of Valor (Stage 2)
-				{ 30, "122251:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Polished Legplates of Valor
+				{ 30, "122251", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Polished Legplates of Valor
+				{ 101, "127012:Stage3H", 122340 },	-- Pristine Lightforge Helm
+				{ 102, "127012:Stage2H", 122338},	-- Pristine Lightforge Helm
+				{ 103, "127012", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Pristine Lightforge Helm
+				{ 105, "127011:Stage3H", 122340 },	-- Pristine Lightforge Breastplate
+				{ 106, "127011:Stage2H", 122338 },	-- Pristine Lightforge Breastplate
+				{ 107, "127011", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Pristine Lightforge Breastplate
+				{ 109, "127012:Stage3H", 122340 },	-- Pristine Lightforge Legplates
+				{ 110, "127012:Stage2H", 122338 },	-- Pristine Lightforge Legplates
+				{ 111, "127012", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Pristine Lightforge Legplates
 			},
 		},
 		{	--HeirloomWeapons
@@ -937,46 +946,46 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122349:Stage3H", 122341 },	-- Bloodied Arcanite Reaper
 				{ 2, "122349:Stage2H", 122339 },	-- Bloodied Arcanite Reaper
-				{ 3, "122349:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Bloodied Arcanite Reaper
+				{ 3, "122349", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Bloodied Arcanite Reaper
 				{ 5, "122352:Stage3H", 122341 },	-- Charmed Ancient Bone Bow
 				{ 6, "122352:Stage2H", 122339 },	-- Charmed Ancient Bone Bow
-				{ 7, "122352:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Charmed Ancient Bone Bow
+				{ 7, "122352", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Charmed Ancient Bone Bow
 				{ 9, "122353:Stage3H", 122341 },	-- Dignified Headmaster's Charge
 				{ 10, "122353:Stage2H", 122339 },	-- Dignified Headmaster's Charge
-				{ 11, "122353:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Dignified Headmaster's Charge
+				{ 11, "122353", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Dignified Headmaster's Charge
 				{ 13, "122363:Stage3H", 122341 },	-- Burnished Warden Staff
 				{ 14, "122363:Stage2H", 122339 },	-- Burnished Warden Staff
-				{ 15, "122363:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Burnished Warden Staff
+				{ 15, "122363", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Burnished Warden Staff
 				{ 16, "122386:Stage3H", 122341 },	-- Repurposed Lava Dredger
 				{ 17, "122386:Stage2H", 122339 },	-- Repurposed Lava Dredger
-				{ 18, "122386:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Repurposed Lava Dredger
+				{ 18, "122386", [PRICE_EXTRA_ITTYPE] = "money:7500000-darkmoon:75-championsseal:40" },	-- Repurposed Lava Dredger
 				{ 20, "122391:Stage3H", 122340 },	-- Flamescarred Draconian Deflector
 				{ 21, "122391:Stage2H", 122338 },	-- Flamescarred Draconian Deflector
-				{ 22, "122391:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Flamescarred Draconian Deflector
+				{ 22, "122391", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Flamescarred Draconian Deflector
 				{ 24, "122392:Stage3H", 122340 },	-- Weathered Observer's Shield
 				{ 25, "122392:Stage2H", 122338 },	-- Weathered Observer's Shield
-				{ 26, "122392:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Weathered Observer's Shield
+				{ 26, "122392", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Weathered Observer's Shield
 				{ 28, "122390:Stage3H", 122340 },	-- Musty Tome of the Lost
 				{ 29, "122390:Stage2H", 122338 },	-- Musty Tome of the Lost
-				{ 30, "122390:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Musty Tome of the Lost
+				{ 30, "122390", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Musty Tome of the Lost
 				{ 101, "122350:Stage3H", 122341 },	-- Balanced Heartseeker
 				{ 102, "122350:Stage2H", 122339 },	-- Balanced Heartseeker
-				{ 103, "122350:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Balanced Heartseeker
+				{ 103, "122350", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Balanced Heartseeker
 				{ 105, "122351:Stage3H", 122341 },	-- Venerable Dal'Rend's Sacred Charge
 				{ 106, "122351:Stage2H", 122339 },	-- Venerable Dal'Rend's Sacred Charge
-				{ 107, "122351:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Venerable Dal'Rend's Sacred Charge
+				{ 107, "122351", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Venerable Dal'Rend's Sacred Charge
 				{ 109, "122354:Stage3H", 122341 },	-- Devout Aurastone Hammer
 				{ 110, "122354:Stage2H", 122339 },	-- Devout Aurastone Hammer
-				{ 111, "122354:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Devout Aurastone Hammer
+				{ 111, "122354", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Devout Aurastone Hammer
 				{ 113, "122385:Stage3H", 122341 },	-- Venerable Mass of McGowan
 				{ 114, "122385:Stage2H", 122339 },	-- Venerable Mass of McGowan
-				{ 115, "122385:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Venerable Mass of McGowan
+				{ 115, "122385", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Venerable Mass of McGowan
 				{ 116, "122389:Stage3H", 122341 },	-- Bloodsoaked Skullforge Reaver
 				{ 117, "122389:Stage2H", 122339 },	-- Bloodsoaked Skullforge Reaver
-				{ 118, "122389:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Bloodsoaked Skullforge Reaver
+				{ 118, "122389", [PRICE_EXTRA_ITTYPE] = "money:6500000-darkmoon:50-championsseal:25" },	-- Bloodsoaked Skullforge Reaver
 				{ 120, "122396:Stage3H", 122341 },	-- Brawler's Razor Claws
 				{ 121, "122396:Stage2H", 122339 },	-- Brawler's Razor Claws
-				{ 122, "122396:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:8000000" },	-- Brawler's Razor Claws
+				{ 122, "122396", [PRICE_EXTRA_ITTYPE] = "money:8000000" },	-- Brawler's Razor Claws
 			},
 		},
 		{	--HeirloomTrinketsNecklacesRings
@@ -984,31 +993,43 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122362:Stage3H", 122340 },	-- Discerning Eye of the Beast
 				{ 2, "122362:Stage2H", 122338 },	-- Discerning Eye of the Beast
-				{ 3, "122362:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:70-championsseal:35" },	-- Discerning Eye of the Beast
+				{ 3, "122362", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:70-championsseal:35" },	-- Discerning Eye of the Beast
 				{ 5, "122662:Stage3H", 122340 },	-- Eternal Talisman of Evasion
 				{ 6, "122662:Stage2H", 122338 },	-- Eternal Talisman of Evasion
-				{ 7, "122662:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Talisman of Evasion
+				{ 7, "122662", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Talisman of Evasion
 				{ 9, "122666:Stage3H", 122340 },	-- Eternal Woven Ivy Necklace
 				{ 10, "122666:Stage2H", 122338 },	-- Eternal Woven Ivy Necklace
-				{ 11, "122666:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Woven Ivy Necklace
+				{ 11, "122666", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Woven Ivy Necklace
 				{ 13, "122663:Stage3H", 122340 },	-- Eternal Amulet of the Redeemed
 				{ 14, "122663:Stage2H", 122338 },	-- Eternal Amulet of the Redeemed
-				{ 15, "122663:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Amulet of the Redeemed
+				{ 15, "122663", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Amulet of the Redeemed
 				{ 16, "122361:Stage3H", 122340 },	-- Swift Hand of Justice
 				{ 17, "122361:Stage2H", 122338 },	-- Swift Hand of Justice
-				{ 18, "122361:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:70-championsseal:35" },	-- Swift Hand of Justice
+				{ 18, "122361", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:70-championsseal:35" },	-- Swift Hand of Justice
 				{ 20, "122667:Stage3H", 122340 },	-- Eternal Emberfury Talisman
 				{ 21, "122667:Stage2H", 122338 },	-- Eternal Emberfury Talisman
-				{ 22, "122667:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Emberfury Talisman
+				{ 22, "122667", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Emberfury Talisman
 				{ 24, "122668:Stage3H", 122340 },	-- Eternal Will of the Martyr
 				{ 25, "122668:Stage2H", 122338 },	-- Eternal Will of the Martyr
-				{ 26, "122668:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Will of the Martyr
+				{ 26, "122668", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Will of the Martyr
 				{ 28, "122664:Stage3H", 122340 },	-- Eternal Horizon Choker
 				{ 29, "122664:Stage2H", 122338 },	-- Eternal Horizon Choker
-				{ 30, "122664:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Horizon Choker
+				{ 30, "122664", [PRICE_EXTRA_ITTYPE] = "money:7000000" },	-- Eternal Horizon Choker
 				{ 101, "122529:Stage3H", 122340 },	-- Dread Pirate Ring
 				{ 102, "122529:Stage2H", 122338 },	-- Dread Pirate Ring
-				{ 103, "122529:Stage1H", [QUEST_EXTRA_ITTYPE] = 8193 },	-- Dread Pirate Ring
+				{ 103, "122529", [QUEST_EXTRA_ITTYPE] = 8193 },	-- Dread Pirate Ring
+				{ 105, "128169:Stage3H", 122340 },	-- Signet of the Third Fleet
+				{ 106, "128169:Stage2H", 122338 },	-- Signet of the Third Fleet
+				{ 107, "128169" },	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Signet of the Third Fleet
+				{ 109, "128172:Stage3H", 122340 },	-- Captain Sander's Returned Band
+				{ 110, "128172:Stage2H", 122338 },	-- Captain Sander's Returned Band
+				{ 111, "128172" },	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Captain Sander's Returned Band
+				{ 113, "128173:Stage3H", 122340 },	-- Admiral Taylor's Loyalty Ring
+				{ 114, "128173:Stage2H", 122338 },	-- Admiral Taylor's Loyalty Ring
+				{ 115, "128173"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Admiral Taylor's Loyalty Ring
+				{ 116, "126948"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Defending Champion				
+				{ 118, "126949"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Returning Champion				
+				{ 120, "128318"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Touch of the Void
 			},
 		},		
 		{	--HeirloomPVPArmor
@@ -1016,25 +1037,25 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122372:Stage3H", 122340 },	-- Strengthened Stockade Pauldrons
 				{ 2, "122372:Stage2H", 122338 },	-- Strengthened Stockade Pauldrons
-				{ 3, "122372:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Strengthened Stockade Pauldrons
+				{ 3, "122372", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Strengthened Stockade Pauldrons
 				{ 16, "122373:Stage3H", 122340 },	-- Pristine Lightforge Spaulders
 				{ 17, "122373:Stage2H", 122338 },	-- Pristine Lightforge Spaulders
-				{ 18, "122373:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Pristine Lightforge Spaulders
+				{ 18, "122373", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Pristine Lightforge Spaulders
 				{ 5, "122374:Stage3H", 122340 },	-- Prized Beastmaster's Mantle
 				{ 6, "122374:Stage2H", 122338 },	-- Prized Beastmaster's Mantle
-				{ 7, "122374:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Prized Beastmaster's Mantle
+				{ 7, "122374", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Prized Beastmaster's Mantle
 				{ 20, "122375:Stage3H", 122340 },	-- Aged Pauldrons of The Five Thunders
 				{ 21, "122375:Stage2H", 122338 },	-- Aged Pauldrons of The Five Thunders
-				{ 22, "122375:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Aged Pauldrons of The Five Thunders
+				{ 22, "122375", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Aged Pauldrons of The Five Thunders
 				{ 9, "122376:Stage3H", 122340 },	-- Exceptional Stormshroud Shoulders
 				{ 10, "122376:Stage2H", 122338 },	-- Exceptional Stormshroud Shoulders
-				{ 11, "122376:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Exceptional Stormshroud Shoulders
+				{ 11, "122376", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Exceptional Stormshroud Shoulders
 				{ 24, "122377:Stage3H", 122340 },	-- Lasting Feralheart Spaulders
 				{ 25, "122377:Stage2H", 122338 },	-- Lasting Feralheart Spaulders
-				{ 26, "122377:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Lasting Feralheart Spaulders
+				{ 26, "122377", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Lasting Feralheart Spaulders
 				{ 13, "122378:Stage3H", 122340 },	-- Exquisite Sunderseer Mantle
 				{ 14, "122378:Stage2H", 122338 },	-- Exquisite Sunderseer Mantle
-				{ 15, "122378:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Exquisite Sunderseer Mantle
+				{ 15, "122378", [PRICE_EXTRA_ITTYPE] = "money:5000000-honor:1000" },	-- Exquisite Sunderseer Mantle
 			},
 		},
 		{	--HeirloomPVPWeapon
@@ -1042,22 +1063,22 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122364:Stage3H", 122341 },	-- Sharpened Scarlet Kris
 				{ 2, "122364:Stage2H", 122339 },	-- Sharpened Scarlet Kris
-				{ 3, "122364:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- Sharpened Scarlet Kris
+				{ 3, "122364", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- Sharpened Scarlet Kris
 				{ 5, "122367:Stage3H", 122341 },	-- The Blessed Hammer of Grace
 				{ 6, "122367:Stage2H", 122339 },	-- The Blessed Hammer of Grace
-				{ 7, "122367:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- The Blessed Hammer of Grace
+				{ 7, "122367", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- The Blessed Hammer of Grace
 				{ 9, "122369:Stage3H", 122341 },	-- Battleworn Thrash Blade
 				{ 10, "122369:Stage2H", 122339 },	-- Battleworn Thrash Blade
-				{ 11, "122369:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- Battleworn Thrash Blade
+				{ 11, "122369", [PRICE_EXTRA_ITTYPE] = "money:6500000-honor:1000" },	-- Battleworn Thrash Blade
 				{ 16, "122366:Stage3H", 122341 },	-- Upgraded Dwarven Hand Cannon
 				{ 17, "122366:Stage2H", 122339 },	-- Upgraded Dwarven Hand Cannon
-				{ 18, "122366:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Upgraded Dwarven Hand Cannon
+				{ 18, "122366", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Upgraded Dwarven Hand Cannon
 				{ 20, "122368:Stage3H", 122341 },	-- Grand Staff of Jordan
 				{ 21, "122368:Stage2H", 122339 },	-- Grand Staff of Jordan
-				{ 22, "122368:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Grand Staff of Jordan
+				{ 22, "122368", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Grand Staff of Jordan
 				{ 24, "122365:Stage3H", 122341 },	-- Reforged Truesilver Champion
 				{ 25, "122365:Stage2H", 122339 },	-- Reforged Truesilver Champion
-				{ 26, "122365:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Reforged Truesilver Champion
+				{ 26, "122365", [PRICE_EXTRA_ITTYPE] = "money:7500000-honor:1500" },	-- Reforged Truesilver Champion
 
 			},
 		},
@@ -1066,16 +1087,16 @@ data["HEIRLOOM"] = {
 			[ALLIANCE_DIFF] = {
 				{ 1, "122530:Stage3H", 122340 },	-- Inherited Mark of Tyranny
 				{ 2, "122530:Stage2H", 122338 },	-- Inherited Mark of Tyranny
-				{ 3, "122530:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Strengthened Stockade Pauldrons
+				{ 3, "122530", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Strengthened Stockade Pauldrons
 				{ 16, "122371:Stage3H", 122340 },	-- Inherited Insignia of the Alliance
 				{ 17, "122371:Stage2H", 122338 },	-- Inherited Insignia of the Alliance
-				{ 18, "122371:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Inherited Insignia of the Alliance
+				{ 18, "122371", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Inherited Insignia of the Alliance
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 16, "122370:Stage3H", 122340 },	-- Inherited Insignia of the Horde
 				{ 17, "122370:Stage2H", 122338 },	-- Inherited Insignia of the Horde
-				{ 18, "122370:Stage1H", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Inherited Insignia of the Horde
+				{ 18, "122370", [PRICE_EXTRA_ITTYPE] = "money:7000000-honor:1250" },	-- Inherited Insignia of the Horde
 			},
 		},
 		{	--HeirloomMiscellaneous
@@ -1093,7 +1114,21 @@ data["LEGENDARIES"] = {
 	items = {
 		{
 			name = AL["Warlords of Draenor"],
-			[NORMAL_DIFF] = {
+			[ALLIANCE_DIFF] = {
+				{ 1, 124634, "ac10021" },	-- Thorasus, the Stone Heart of Draenor
+				{ 2, 124635, "ac10021" },	-- Nithramus, the All-Seer
+				{ 3, 124636, "ac10021" },	-- Maalus, the Blood Drinker
+				{ 4, 124637, "ac10021" },	-- Sanctus, Sigil of the Unbroken
+				{ 5, 124638, "ac10021" },	-- Etheralus, the Eternal Reward
+				{ 16, 127785 },	-- Crystallized Fel
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 124634, "ac10148" },	-- Thorasus, the Stone Heart of Draenor
+				{ 2, 124635, "ac10148" },	-- Nithramus, the All-Seer
+				{ 3, 124636, "ac10148" },	-- Maalus, the Blood Drinker
+				{ 4, 124637, "ac10148" },	-- Sanctus, Sigil of the Unbroken
+				{ 5, 124638, "ac10148" },	-- Etheralus, the Eternal Reward
 			},
 		},
 		{

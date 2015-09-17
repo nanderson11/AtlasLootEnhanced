@@ -3385,6 +3385,18 @@ data["HellfireCitadel"] = {
 				{ 22, 124389 }, -- Calamity's Edge
 				--{ 24, "ac8952" },
 				{ 24, "ac10073" },
+				{ 26, 127785 },	-- Crystallized Fel
+				{ 101, 124513, false}, -- Reaper's Harvest
+				{ 102, 124514, false}, -- Seed of Creation
+				{ 103, 124515, false}, -- Talisman of the Master Tracker
+				{ 104, 124516, false}, -- Tome of Shifting Words
+				{ 105, 124517, false}, -- Sacred Draenic Incense
+				{ 106, 124518, false}, -- Libram of Vindication
+				{ 107, 124519, false}, -- Repudiation of War
+				{ 108, 124520, false}, -- Bleeding Hollow Toxin Vessel
+				{ 109, 124521, false}, -- Core of the Primal Elements
+				{ 110, 124522, false}, -- Fragment of the Dark Star
+				{ 111, 124523, false}, -- Worldbreaker's Resolve
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
