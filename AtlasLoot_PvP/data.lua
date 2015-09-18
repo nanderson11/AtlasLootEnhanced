@@ -28,89 +28,419 @@ data["WODS2SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124713, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Helm
+				{ 2, 124715, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dreadplate Shoulders
+				{ 3, 124711, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Chestpiece
+				{ 4, 124712, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dreadplate Gauntlets
+				{ 5, 124714, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Legguards
+				{ 7, 124915, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Helm
+				{ 8, 124917, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dreadplate Shoulders
+				{ 9, 124913, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Chestpiece
+				{ 10, 124914, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dreadplate Gauntlets
+				{ 11, 124916, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Legguards
+				{ 16, 125072  }, -- Wild Aspirant's Dreadplate Helm
+				{ 17, 125074  }, -- Wild Aspirant's Dreadplate Shoulders
+				{ 18, 125070  }, -- Wild Aspirant's Dreadplate Chestpiece
+				{ 19, 125071  }, -- Wild Aspirant's Dreadplate Gauntlets
+				{ 20, 125073  }, -- Wild Aspirant's Dreadplate Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125192, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Helm
+				{ 2, 125194, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dreadplate Shoulders
+				{ 3, 125190, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Chestpiece
+				{ 4, 125191, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dreadplate Gauntlets
+				{ 5, 125193, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dreadplate Legguards
+				{ 7, 125392, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Helm
+				{ 8, 125394, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dreadplate Shoulders
+				{ 9, 125390, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Chestpiece
+				{ 10, 125391, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dreadplate Gauntlets
+				{ 11, 125393, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dreadplate Legguards
+				{ 16, 125549  }, -- Wild Aspirant's Dreadplate Helm
+				{ 17, 125551  }, -- Wild Aspirant's Dreadplate Shoulders
+				{ 18, 125547  }, -- Wild Aspirant's Dreadplate Chestpiece
+				{ 19, 125548  }, -- Wild Aspirant's Dreadplate Gauntlets
+				{ 20, 125550  }, -- Wild Aspirant's Dreadplate Legguards
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124717, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Helm
+				{ 2, 124720, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dragonhide Spaulders
+				{ 3, 124719, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Robes
+				{ 4, 124716, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dragonhide Gloves
+				{ 5, 124718, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Legguards
+				{ 7, 124919, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Helm
+				{ 8, 124922, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dragonhide Spaulders
+				{ 9, 124921, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Tunic
+				{ 10, 124918, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dragonhide Gloves
+				{ 11, 124920, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Legguards
+				{ 16, 125076  }, -- Wild Aspirant's Dragonhide Helm
+				{ 17, 125079  }, -- Wild Aspirant's Dragonhide Spaulders
+				{ 18, 125078  }, -- Wild Aspirant's Dragonhide Tunic
+				{ 19, 125075  }, -- Wild Aspirant's Dragonhide Gloves
+				{ 20, 125077  }, -- Wild Aspirant's Dragonhide Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125196, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Helm
+				{ 2, 125199, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dragonhide Spaulders
+				{ 3, 125198, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Tunic
+				{ 4, 125195, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Dragonhide Gloves
+				{ 5, 125197, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Dragonhide Legguards
+				{ 7, 125396, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Helm
+				{ 8, 125399, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dragonhide Spaulders
+				{ 9, 125398, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Tunic
+				{ 10, 125395, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Dragonhide Gloves
+				{ 11, 125397, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Dragonhide Legguards
+				{ 16, 125553  }, -- Wild Aspirant's Dragonhide Helm
+				{ 17, 125556  }, -- Wild Aspirant's Dragonhide Spaulders
+				{ 18, 125555  }, -- Wild Aspirant's Dragonhide Tunic
+				{ 19, 125552  }, -- Wild Aspirant's Dragonhide Gloves
+				{ 20, 125554  }, -- Wild Aspirant's Dragonhide Legguards
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124723, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Helm
+				{ 2, 124725, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Chain Spaulders
+				{ 3, 124721, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Armor
+				{ 4, 124722, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Chain Gauntlets
+				{ 5, 124724, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Leggings
+				{ 7, 124925, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Helm
+				{ 8, 124927, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Chain Spaulders
+				{ 9, 124923, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Armor
+				{ 10, 124924, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Chain Gauntlets
+				{ 11, 124926, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Leggings
+				{ 16, 125082  }, -- Wild Aspirant's Chain Helm
+				{ 17, 125084  }, -- Wild Aspirant's Chain Spaulders
+				{ 18, 125080  }, -- Wild Aspirant's Chain Armor
+				{ 19, 125081  }, -- Wild Aspirant's Chain Gauntlets
+				{ 20, 125083  }, -- Wild Aspirant's Chain Leggings
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125202, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Helm
+				{ 2, 125204, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Chain Spaulders
+				{ 3, 125200, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Armor
+				{ 4, 125201, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Chain Gauntlets
+				{ 5, 125203, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chain Leggings
+				{ 7, 125402, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Helm
+				{ 8, 125404, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Chain Spaulders
+				{ 9, 125400, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Armor
+				{ 10, 125401, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Chain Gauntlets
+				{ 11, 125403, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Chain Leggings
+				{ 16, 125559  }, -- Wild Aspirant's Chain Helm
+				{ 17, 125561  }, -- Wild Aspirant's Chain Spaulders
+				{ 18, 125557  }, -- Wild Aspirant's Chain Armor
+				{ 19, 125558  }, -- Wild Aspirant's Chain Gauntlets
+				{ 20, 125560  }, -- Wild Aspirant's Chain Leggings
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124770, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Cowl
+				{ 2, 124773, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Silk Amice
+				{ 3, 124772, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Robe
+				{ 4, 124769, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Silk Handguards
+				{ 5, 124771, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Trousers
+				{ 7, 124964, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Cowl
+				{ 8, 124967, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Silk Amice
+				{ 9, 124966, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Robe
+				{ 10, 124963, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Silk Handguards
+				{ 11, 124965, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Trousers
+				{ 16, 125097  }, -- Wild Aspirant's Silk Cowl
+				{ 17, 125100  }, -- Wild Aspirant's Silk Amice
+				{ 18, 125099  }, -- Wild Aspirant's Silk Robe
+				{ 19, 125096  }, -- Wild Aspirant's Silk Handguards
+				{ 20, 125098  }, -- Wild Aspirant's Silk Trousers
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125249, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Cowl
+				{ 2, 125252, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Silk Amice
+				{ 3, 125251, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Robe
+				{ 4, 125248, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Silk Handguards
+				{ 5, 125250, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Silk Trousers
+				{ 7, 125441, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Cowl
+				{ 8, 125444, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Silk Amice
+				{ 9, 125443, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Robe
+				{ 10, 125440, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Silk Handguards
+				{ 11, 125442, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Silk Trousers
+				{ 16, 125574  }, -- Wild Aspirant's Silk Cowl
+				{ 17, 125577  }, -- Wild Aspirant's Silk Amice
+				{ 18, 125576  }, -- Wild Aspirant's Silk Robe
+				{ 19, 125573  }, -- Wild Aspirant's Silk Handguards
+				{ 20, 125575  }, -- Wild Aspirant's Silk Trousers
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124794, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Helm
+				{ 2, 124796, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ironskin Spaulders
+				{ 3, 124797, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Tunic
+				{ 4, 124793, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ironskin Gloves
+				{ 5, 124795, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Legguards
+				{ 7, 124980, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Helm
+				{ 8, 124982, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ironskin Spaulders
+				{ 9, 124983, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Tunic
+				{ 10, 124979, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ironskin Gloves
+				{ 11, 124981, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Legguards
+				{ 16, 125105  }, -- Wild Aspirant's Ironskin Helm
+				{ 17, 125107  }, -- Wild Aspirant's Ironskin Spaulders
+				{ 18, 125108  }, -- Wild Aspirant's Ironskin Tunic
+				{ 19, 125104  }, -- Wild Aspirant's Ironskin Gloves
+				{ 20, 125106  }, -- Wild Aspirant's Ironskin Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125273, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Helm
+				{ 2, 125275, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ironskin Spaulders
+				{ 3, 125276, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Tunic
+				{ 4, 125272, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ironskin Gloves
+				{ 5, 125274, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ironskin Legguards
+				{ 7, 125457, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Helm
+				{ 8, 125459, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ironskin Spaulders
+				{ 9, 125460, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Tunic
+				{ 10, 125456, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ironskin Gloves
+				{ 11, 125458, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ironskin Legguards
+				{ 16, 125582  }, -- Wild Aspirant's Ironskin Helm
+				{ 17, 125584  }, -- Wild Aspirant's Ironskin Spaulders
+				{ 18, 125585  }, -- Wild Aspirant's Ironskin Tunic
+				{ 19, 125581  }, -- Wild Aspirant's Ironskin Gloves
+				{ 20, 125583  }, -- Wild Aspirant's Ironskin Legguards
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124800, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Helm
+				{ 2, 124802, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Scaled Shoulders
+				{ 3, 124798, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Chestpiece
+				{ 4, 124799, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Scaled Gauntlets
+				{ 5, 124801, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Legguards
+				{ 7, 124986, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Helm
+				{ 8, 124988, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Scaled Shoulders
+				{ 9, 124984, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Chestpiece
+				{ 10, 124985, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Scaled Gauntlets
+				{ 11, 124987, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Legguards
+				{ 16, 125111  }, -- Wild Aspirant's Scaled Helm
+				{ 17, 125113  }, -- Wild Aspirant's Scaled Shoulders
+				{ 18, 125109  }, -- Wild Aspirant's Scaled Chestpiece
+				{ 19, 125110  }, -- Wild Aspirant's Scaled Gauntlets
+				{ 20, 125112  }, -- Wild Aspirant's Scaled Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125279, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Helm
+				{ 2, 125281, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Scaled Shoulders
+				{ 3, 125277, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Chestpiece
+				{ 4, 125278, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Scaled Gauntlets
+				{ 5, 125280, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Scaled Legguards
+				{ 7, 125463, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Helm
+				{ 8, 125465, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Scaled Shoulders
+				{ 9, 125461, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Chestpiece
+				{ 10, 125462, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Scaled Gauntlets
+				{ 11, 125464, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Scaled Legguards
+				{ 16, 125588  }, -- Wild Aspirant's Scaled Helm
+				{ 17, 125590  }, -- Wild Aspirant's Scaled Shoulders
+				{ 18, 125586  }, -- Wild Aspirant's Scaled Chestpiece
+				{ 19, 125587  }, -- Wild Aspirant's Scaled Gauntlets
+				{ 20, 125589  }, -- Wild Aspirant's Scaled Legguards
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124823, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Hood
+				{ 2, 124826, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Satin Mantle
+				{ 3, 124825, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Robe
+				{ 4, 124822, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Satin Gloves
+				{ 5, 124824, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Leggings
+				{ 7, 125001, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Hood
+				{ 8, 125004, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Satin Mantle
+				{ 9, 125003, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Robe
+				{ 10, 125000, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Satin Gloves
+				{ 11, 125002, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Leggings
+				{ 16, 125118  }, -- Wild Aspirant's Satin Hood
+				{ 17, 125121  }, -- Wild Aspirant's Satin Mantle
+				{ 18, 125120  }, -- Wild Aspirant's Satin Robe
+				{ 19, 125117  }, -- Wild Aspirant's Satin Gloves
+				{ 20, 125119  }, -- Wild Aspirant's Satin Leggings
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125302, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Hood
+				{ 2, 125305, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Satin Mantle
+				{ 3, 125304, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Robe
+				{ 4, 125301, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Satin Gloves
+				{ 5, 125303, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Satin Leggings
+				{ 7, 125478, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Hood
+				{ 8, 125481, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Satin Mantle
+				{ 9, 125480, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Robe
+				{ 10, 125477, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Satin Gloves
+				{ 11, 125479, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Satin Leggings
+				{ 16, 125595  }, -- Wild Aspirant's Satin Hood
+				{ 17, 125598  }, -- Wild Aspirant's Satin Mantle
+				{ 18, 125597  }, -- Wild Aspirant's Satin Robe
+				{ 19, 125594  }, -- Wild Aspirant's Satin Gloves
+				{ 20, 125596  }, -- Wild Aspirant's Satin Leggings
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124829, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Helm
+				{ 2, 124831, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Leather Spaulders
+				{ 3, 124827, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Tunic
+				{ 4, 124828, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Leather Gloves
+				{ 5, 124830, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Legguards
+				{ 7, 125007, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Helm
+				{ 8, 125009, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Leather Spaulders
+				{ 9, 125005, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Tunic
+				{ 10, 125006, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Leather Gloves
+				{ 11, 125008, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Legguards
+				{ 16, 125124  }, -- Wild Aspirant's Leather Helm
+				{ 17, 125126  }, -- Wild Aspirant's Leather Spaulders
+				{ 18, 125122  }, -- Wild Aspirant's Leather Tunic
+				{ 19, 125123  }, -- Wild Aspirant's Leather Gloves
+				{ 20, 125125  }, -- Wild Aspirant's Leather Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125308, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Helm
+				{ 2, 125310, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Leather Spaulders
+				{ 3, 125306, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Tunic
+				{ 4, 125307, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Leather Gloves
+				{ 5, 125309, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leather Legguards
+				{ 7, 125484, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Helm
+				{ 8, 125486, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Leather Spaulders
+				{ 9, 125482, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Tunic
+				{ 10, 125483, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Leather Gloves
+				{ 11, 125485, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Leather Legguards
+				{ 16, 125601  }, -- Wild Aspirant's Leather Helm
+				{ 17, 125603  }, -- Wild Aspirant's Leather Spaulders
+				{ 18, 125599  }, -- Wild Aspirant's Leather Tunic
+				{ 19, 125600  }, -- Wild Aspirant's Leather Gloves
+				{ 20, 125602  }, -- Wild Aspirant's Leather Legguards
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124834, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Helm
+				{ 2, 124836, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ringmail Spaulders
+				{ 3, 124832, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Armor
+				{ 4, 124833, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ringmail Gauntlets
+				{ 5, 124835, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Leggings
+				{ 7, 125012, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Helm
+				{ 8, 125014, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ringmail Spaulders
+				{ 9, 125010, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Armor
+				{ 10, 125011, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ringmail Gauntlets
+				{ 11, 125013, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Leggings
+				{ 16, 125129  }, -- Wild Aspirant's Ringmail Helm
+				{ 17, 125131  }, -- Wild Aspirant's Ringmail Spaulders
+				{ 18, 125127  }, -- Wild Aspirant's Ringmail Armor
+				{ 19, 125128  }, -- Wild Aspirant's Ringmail Gauntlets
+				{ 20, 125130  }, -- Wild Aspirant's Ringmail Leggings
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125313, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Helm
+				{ 2, 125315, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ringmail Spaulders
+				{ 3, 125311, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Armor
+				{ 4, 125312, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Ringmail Gauntlets
+				{ 5, 125314, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Ringmail Leggings
+				{ 7, 125489, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Helm
+				{ 8, 125491, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ringmail Spaulders
+				{ 9, 125487, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Armor
+				{ 10, 125488, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Ringmail Gauntlets
+				{ 11, 125490, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Ringmail Leggings
+				{ 16, 125606  }, -- Wild Aspirant's Ringmail Helm
+				{ 17, 125608  }, -- Wild Aspirant's Ringmail Spaulders
+				{ 18, 125604  }, -- Wild Aspirant's Ringmail Armor
+				{ 19, 125605  }, -- Wild Aspirant's Ringmail Gauntlets
+				{ 20, 125607  }, -- Wild Aspirant's Ringmail Leggings
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124876, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Cowl
+				{ 2, 124879, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Felweave Amice
+				{ 3, 124878, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Raiment
+				{ 4, 124875, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Felweave Handguards
+				{ 5, 124877, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Trousers
+				{ 7, 125054, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Cowl
+				{ 8, 125057, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Felweave Amice
+				{ 9, 125056, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Raiment
+				{ 10, 125053, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Felweave Handguards
+				{ 11, 125055, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Trousers
+				{ 16, 125145  }, -- Wild Aspirant's Felweave Cowl
+				{ 17, 125148  }, -- Wild Aspirant's Felweave Amice
+				{ 18, 125147  }, -- Wild Aspirant's Felweave Raiment
+				{ 19, 125144  }, -- Wild Aspirant's Felweave Handguards
+				{ 20, 125146  }, -- Wild Aspirant's Felweave Trousers
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125353, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Cowl
+				{ 2, 125356, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Felweave Amice
+				{ 3, 125355, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Raiment
+				{ 4, 125352, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Felweave Handguards
+				{ 5, 125354, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Felweave Trousers
+				{ 7, 125531, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Cowl
+				{ 8, 125534, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Felweave Amice
+				{ 9, 125533, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Raiment
+				{ 10, 125530, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Felweave Handguards
+				{ 11, 125532, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Felweave Trousers
+				{ 16, 125622  }, -- Wild Aspirant's Felweave Cowl
+				{ 17, 125625  }, -- Wild Aspirant's Felweave Amice
+				{ 18, 125624  }, -- Wild Aspirant's Felweave Raiment
+				{ 19, 125621  }, -- Wild Aspirant's Felweave Handguards
+				{ 20, 125623  }, -- Wild Aspirant's Felweave Trousers
 			},
 		},
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 124882, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Helm
+				{ 2, 124884, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Plate Shoulders
+				{ 3, 124880, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Chestpiece
+				{ 4, 124881, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Plate Gauntlets
+				{ 5, 124883, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Legguards
+				{ 7, 125060, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Helm
+				{ 8, 125062, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Plate Shoulders
+				{ 9, 125058, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Chestpiece
+				{ 10, 125059, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Plate Gauntlets
+				{ 11, 125061, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Legguards
+				{ 16, 125151  }, -- Wild Aspirant's Plate Helm
+				{ 17, 125153  }, -- Wild Aspirant's Plate Shoulders
+				{ 18, 125149  }, -- Wild Aspirant's Plate Chestpiece
+				{ 19, 125150  }, -- Wild Aspirant's Plate Gauntlets
+				{ 20, 125152  }, -- Wild Aspirant's Plate Legguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 125359, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Helm
+				{ 2, 125361, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Plate Shoulders
+				{ 3, 125357, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Chestpiece
+				{ 4, 125358, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Plate Gauntlets
+				{ 5, 125360, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Plate Legguards
+				{ 7, 125537, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Helm
+				{ 8, 125539, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Plate Shoulders
+				{ 9, 125535, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Chestpiece
+				{ 10, 125536, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Plate Gauntlets
+				{ 11, 125538, [PRICE_EXTRA_ITTYPE] = "honor:2250"  }, -- Wild Combatant's Plate Legguards
+				{ 16, 125628  }, -- Wild Aspirant's Plate Helm
+				{ 17, 125630  }, -- Wild Aspirant's Plate Shoulders
+				{ 18, 125626  }, -- Wild Aspirant's Plate Chestpiece
+				{ 19, 125627  }, -- Wild Aspirant's Plate Gauntlets
+				{ 20, 125629  }, -- Wild Aspirant's Plate Legguards
 			},
 		},
 	},
