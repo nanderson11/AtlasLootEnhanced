@@ -9,6 +9,7 @@ local match = string.match
 
 -- DB
 -- /run BonusRollFrame_StartBonusRoll(145917, "", 180, 738)
+-- /run BonusRollFrame_StartBonusRoll(190156, "", 180, 738)
 -- [BonusRollID] = "tierID:instanceID:encounterID"		<- new
 local BONUS_ROLL_IDS = {
 	-- ### MoP
@@ -117,7 +118,7 @@ local function LoadQuickLootFrame(self)
 end
 
 local function ClearQuickLootFrame(self)
-	if AtlasLoot.db.Addons.BonusRoll.enabled then
+	if AtlasLoot.db.Addons.BonusRoll.enabled and QLF.frame~=nil then
 		QLF:Clear()
 		QLF:Hide()
 	end
