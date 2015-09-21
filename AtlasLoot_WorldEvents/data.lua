@@ -1039,16 +1039,16 @@ data["Brewfest"] = {
 		{	--BrewfestCorenDirebrew
 			name = BB["Coren Direbrew"].." ("..ALIL["Blackrock Depths"]..")",
 			[NORMAL_DIFF] = {
-				{ 1, "117361:553" },	-- Bitterest Balebrew Charm
-				{ 2, "117357:553" },	-- Brawler's Statue
-				{ 3, "117391:553" },	-- Bubbliest Brightbrew Charm
-				{ 4, "117360:553" },	-- Coren's Cold Chromium Coaster
-				{ 5, "117358:553" },	-- Mithril Wristwatch
-				{ 6, "117359:553" },	-- Thousand-Year Pickled Egg
+				{ 1, "117361:557" },	-- Bitterest Balebrew Charm
+				{ 2, "117357:557" },	-- Brawler's Statue
+				{ 3, "117391:557" },	-- Bubbliest Brightbrew Charm
+				{ 4, "117360:557" },	-- Coren's Cold Chromium Coaster
+				{ 5, "117358:557" },	-- Mithril Wristwatch
+				{ 6, "117359:557" },	-- Thousand-Year Pickled Egg
 				{ 8, [ATLASLOOT_IT_ALLIANCE] = 38281, [ATLASLOOT_IT_HORDE] = 38280 },	-- Direbrew's Dire Brew
-				{ 16, 54535 },	-- Keg-Shaped Treasure Chest (Daily reward)
-				{ 17, "117378:553" },	-- Direbrew's Bloodied Shanker
-				{ 18, "117379:553" },	-- Tremendous Tankard O' Terror
+				{ 16, 117393 },	-- Keg-Shaped Treasure Chest (Daily reward)
+				{ 17, "117378:557" },	-- Direbrew's Bloodied Shanker
+				{ 18, "117379:557" },	-- Tremendous Tankard O' Terror
 				{ 19, 37828, "mount" },	-- Great Brewfest Kodo
 				{ 20, 33977, "mount" },	-- Swift Brewfest Ram
 				{ 21, 37863 },	-- Direbrew's Remote
@@ -1060,15 +1060,16 @@ data["Brewfest"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 46707, "pet166", [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Pint-Sized Pink Pachyderm
 				{ 2, 32233, "pet153", [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- Wolpertinger's Tankard
-				{ 4, 116758, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Banner
-				{ 5, 33927, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Pony Keg
-				{ 6, 71137, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- Brewfest Keg Pony
-				{ 7, 90427, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Pandaren Brewpack
-				{ 8, 116757, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- Steamworks Sausage Grill
-				{ 10, 37816, [PRICE_EXTRA_ITTYPE] = "brewfest:20" },	-- Preserved Brewfest Hops
-				{ 11, 90426, [PRICE_EXTRA_ITTYPE] = "brewfest:2" },	-- Brewhelm
-				{ 12, 37750, [PRICE_EXTRA_ITTYPE] = "brewfest:2" },	-- Fresh Brewfest Hops
-				{ 13, [ATLASLOOT_IT_ALLIANCE] = 39477, [ATLASLOOT_IT_HORDE] = 39476, [PRICE_EXTRA_ITTYPE] = "brewfest:5" },	-- Fresh Dwarven Brewfest Hops / Fresh Goblin Brewfest Hops
+				{ 3, 116756, "pet1518", [PRICE_EXTRA_ITTYPE] = "brewfest:200"}, -- Stout Alemental
+				{ 5, 116758, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Banner
+				{ 6, 33927, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Pony Keg
+				{ 7, 71137, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- Brewfest Keg Pony
+				{ 8, 90427, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Pandaren Brewpack
+				{ 9, 116757, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- Steamworks Sausage Grill
+				{ 11, 37816, [PRICE_EXTRA_ITTYPE] = "brewfest:20" },	-- Preserved Brewfest Hops
+				{ 12, 90426, [PRICE_EXTRA_ITTYPE] = "brewfest:2" },	-- Brewhelm
+				{ 13, 37750, [PRICE_EXTRA_ITTYPE] = "brewfest:2" },	-- Fresh Brewfest Hops
+				{ 14, [ATLASLOOT_IT_ALLIANCE] = 39477, [ATLASLOOT_IT_HORDE] = 39476, [PRICE_EXTRA_ITTYPE] = "brewfest:5" },	-- Fresh Dwarven Brewfest Hops / Fresh Goblin Brewfest Hops
 				{ 16, [ATLASLOOT_IT_ALLIANCE] = 33047, [ATLASLOOT_IT_HORDE] = 34008, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Belbi's Eyesight Enhancing Romance Goggles / Blix's Eyesight Enhancing Romance Goggles
 				{ 17, 33968, [PRICE_EXTRA_ITTYPE] = "brewfest:50" },	-- Blue Brewfest Hat
 				{ 18, 33864, [PRICE_EXTRA_ITTYPE] = "brewfest:50" },	-- Brown Brewfest Hat
@@ -1079,6 +1080,9 @@ data["Brewfest"] = {
 				{ 23, 33868, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Boots
 				{ 24, 33966, [PRICE_EXTRA_ITTYPE] = "brewfest:100" },	-- Brewfest Slippers
 				{ 26, 37599, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },	-- "Brew of the Month" Club Membership Form
+				{ 27, 119209, [PRICE_EXTRA_ITTYPE] = "brewfest:50" },	-- Angry Brewfest Letter
+				{ 29, 122339, [PRICE_EXTRA_ITTYPE] = "brewfest:300" },	-- Ancient Heirloom Scabbard
+				{ 30, 122341, [PRICE_EXTRA_ITTYPE] = "brewfest:500" },	-- Timeworn Heirloom Scabbard
 			},
 		},
 		{	--BrewfestFoodDrinks
