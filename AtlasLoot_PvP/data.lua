@@ -445,6 +445,167 @@ data["WODS2SETS"] = {
 		},
 	},
 }
+data["WODS2NONSETGEAR"] = {
+	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = ALIL["Cloth"],
+			[ALLIANCE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124702, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Hood of Prowess
+				{ 2, 124705, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Amice of Prowess
+				{ 3, 124704, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Robes of Prowess
+				{ 4, 124698, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Prowess
+				{ 5, 124701, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Gloves of Prowess
+				{ 6, 124693, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Prowess
+				{ 7, 124703, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leggings of Prowess
+				{ 8, 124696, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Prowess
+				{ 10, 124700, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Victory
+				{ 11, 124694, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Victory
+				{ 13, 124697, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Victory
+				{ 15, 124707, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Cowl of Cruelty
+				{ 16, 124710, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Mantle of Cruelty
+				{ 17, 124709, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Raiment of Cruelty
+				{ 18, 124699, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Cruelty
+				{ 19, 124706, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Handguards of Cruelty
+				{ 20, 124692, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Cruelty
+				{ 21, 124708, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Trousers of Cruelty
+				{ 22, 124695, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Cruelty
+				-- ilvl 670
+				{ 101, 124909  }, -- Wild Combatant's Hood of Prowess
+				{ 102, 124912  }, -- Wild Combatant's Amice of Prowess
+				{ 103, 124911  }, -- Wild Combatant's Robes of Prowess
+				{ 104, 124906, [PRICE_EXTRA_ITTYPE] = "honor:1250"  }, -- Wild Combatant's Cuffs of Prowess
+				{ 105, 124908  }, -- Wild Combatant's Gloves of Prowess				
+				{ 106, 124903, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Cord of Prowess
+				{ 107, 124910  }, -- Wild Combatant's Leggings of Prowess
+				{ 108, 124905, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Treads of Prowess
+				{ 110, 124907, [PRICE_EXTRA_ITTYPE] = "honor:1250"  }, -- Wild Combatant's Cuffs of Cruelty
+				{ 111, 124902, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Cord of Cruelty
+				{ 112, 124904, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Treads of Cruelty
+				-- ilvl 625
+				{ 115, 125069  }, -- Wild Aspirant's Cuffs of Prowess
+				{ 116, 125067  }, -- Wild Aspirant's Cord of Cruelty
+				{ 117, 125068  }, -- Wild Aspirant's Treads of Cruelty
+			},
+			[HORDE_DIFF] = {
+				-- ilvl 700
+				{ 1, 125181, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Hood of Prowess
+				{ 2, 125184, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Amice of Prowess
+				{ 3, 125183, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Robes of Prowess
+				{ 4, 125177, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Prowess
+				{ 5, 125180, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Gloves of Prowess
+				{ 6, 125172, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Prowess
+				{ 7, 125182, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leggings of Prowess
+				{ 8, 125175, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Prowess
+				{ 10, 125179, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Victory
+				{ 11, 125173, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Victory
+				{ 12, 125176, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Victory
+				{ 15, 125186, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Cowl of Cruelty
+				{ 16, 125189, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Mantle of Cruelty
+				{ 17, 125188, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Raiment of Cruelty
+				{ 18, 125178, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Cuffs of Cruelty
+				{ 19, 125185, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Handguards of Cruelty
+				{ 20, 125171, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Cord of Cruelty
+				{ 21, 125187, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Trousers of Cruelty
+				{ 22, 125174, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Treads of Cruelty
+				-- ilvl 670
+				{ 101, 125386  }, -- Wild Combatant's Hood of Prowess
+				{ 102, 125389  }, -- Wild Combatant's Amice of Prowess
+				{ 103, 125388  }, -- Wild Combatant's Robes of Prowess
+				{ 104, 125383, [PRICE_EXTRA_ITTYPE] = "honor:1250"  }, -- Wild Combatant's Cuffs of Prowess
+				{ 105, 125385  }, -- Wild Combatant's Gloves of Prowess
+				{ 106, 125380, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Cord of Prowess
+				{ 107, 125387  }, -- Wild Combatant's Leggings of Prowess
+				{ 108, 125382, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Treads of Prowess
+				{ 115, 125384, [PRICE_EXTRA_ITTYPE] = "honor:1250"  }, -- Wild Combatant's Cuffs of Cruelty
+				{ 116, 125379, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Cord of Cruelty
+				{ 117, 125381, [PRICE_EXTRA_ITTYPE] = "honor:1750"  }, -- Wild Combatant's Treads of Cruelty
+				-- ilvl 625
+				{ 115, 125546  }, -- Wild Aspirant's Cuffs of Prowess
+				{ 116, 125544  }, -- Wild Aspirant's Cord of Cruelty
+				{ 117, 125545  }, -- Wild Aspirant's Treads of Cruelty
+			},
+		},
+		{
+			name = ALIL["Leather"],
+			[ALLIANCE_DIFF] = {
+[[--			{ 1, 124761, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Helm
+{ 1, 124766, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Headcover
+{ 5, 124756, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Cruelty
+{ 5, 124757, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Prowess
+{ 5, 124758, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Victory
+{ 2, 124763, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Spaulders
+{ 2, 124768, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Pauldrons
+{ 3, 124759, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Tunic
+{ 3, 124764, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chestguard
+{ 6, 124750, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Prowess
+{ 6, 124751, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Cruelty
+{ 6, 124752, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Victory
+{ 4, 124760, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Gloves
+{ 4, 124765, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Grips
+{ 5, 124762, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Legguards
+{ 5, 124767, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leggings
+{ 8, 124753, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Boots of Cruelty
+{ 8, 124754, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Boots of Prowess
+--]]
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = ALIL["Mail"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = ALIL["Plate"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Amulets"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Cloaks"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Rings"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Trinkets"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Miscellaneous"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
 data["WODS1SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 1).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
@@ -1923,6 +2084,184 @@ data["MOPS15SETS"] = {
 				{ 24, 102829, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Chestguard
 				{ 25, 102919, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Ornamented Gloves
 				{ 26, 102965, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Legguards
+			},
+		},
+	},
+}
+-- Classic Season 4
+data["CLASSICS4SETS"] = {
+	name = string.format(AL["Season %d"], 4).." "..AL["Class Sets"].." ("..AL["Burning Crusade"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40442, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadplate Helm
+				{ 2, 40444, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dreadplate Shoulders
+				{ 3, 40440, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadplate Chestpiece
+				{ 4, 40441, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dreadplate Gauntlets
+				{ 5, 40443, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadplate Legguards
+				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 34999, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dragonhide Helm
+				{ 2, 35001, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dragonhide Spaulders
+				{ 3, 35002, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dragonhide Tunic
+				{ 4, 34998, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dragonhide Gloves
+				{ 5, 35000, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dragonhide Legguards
+				{ 7, 35023, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Kodohide Helm
+				{ 8, 35025, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Kodohide Spaulders
+				{ 9, 35026, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Kodohide Tunic
+				{ 10, 35022, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Kodohide Gloves
+				{ 11, 35024, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Kodohide Legguards
+				{ 16, 35112, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Wyrmhide Helm
+				{ 17, 35114, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Wyrmhide Spaulders
+				{ 18, 35115, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Wyrmhide Tunic
+				{ 19, 35111, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Wyrmhide Gloves
+				{ 20, 35113, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Wyrmhide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 34992, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Chain Helm
+				{ 2, 34994, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Chain Spaulders
+				{ 3, 34990, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Chain Armor
+				{ 4, 34991, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Chain Gauntlets
+				{ 5, 34993, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35097, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Silk Cowl
+				{ 2, 35096, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Silk Amice
+				{ 3, 35099, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Silk Raiment
+				{ 5, 35098, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Silk Handguards
+				{ 6, 35100, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35029, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Lamellar Helm
+				{ 2, 35031, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Lamellar Shoulders
+				{ 3, 35027, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Lamellar Chestpiece
+				{ 4, 35028, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Lamellar Gauntlets
+				{ 5, 35030, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Lamellar Legguards
+				{ 7, 35061, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ornamented Headcover
+				{ 8, 35063, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Ornamented Spaulders
+				{ 9, 35059, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ornamented Chestguard
+				{ 10, 35060, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Ornamented Gloves
+				{ 11, 35062, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ornamented Legplates
+				{ 16, 35090, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Scaled Helm
+				{ 17, 35092, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Scaled Shoulders
+				{ 18, 35088, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Scaled Chestpiece
+				{ 19, 35089, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Scaled Gauntlets
+				{ 20, 35091, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Scaled Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35054, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mooncloth Hood
+				{ 2, 35056, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Mooncloth Mantle
+				{ 3, 35057, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mooncloth Robe
+				{ 4, 35053, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Mooncloth Gloves
+				{ 5, 35055, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mooncloth Leggings
+				{ 16, 35084, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Satin Hood
+				{ 17, 35086, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Satin Mantle
+				{ 18, 35087, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Satin Robe
+				{ 19, 35083, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Satin Gloves
+				{ 20, 35085, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Satin Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35033, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Leather Helm
+				{ 2, 35035, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Leather Spaulders
+				{ 3, 35036, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Leather Tunic
+				{ 6, 35032, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Leather Gloves
+				{ 5, 35034, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35044, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Linked Helm
+				{ 2, 35046, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Linked Spaulders
+				{ 3, 35042, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Linked Armor
+				{ 4, 35043, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Linked Gauntlets
+				{ 5, 35045, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Linked Leggings
+				{ 7, 35050, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mail Helm
+				{ 8, 35052, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Mail Spaulders
+				{ 9, 35048, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mail Armor
+				{ 10, 35049, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Mail Gauntlets
+				{ 11, 35051, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Mail Leggings
+				{ 16, 35079, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ringmail Helm
+				{ 17, 35081, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Ringmail Spaulders
+				{ 18, 35077, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ringmail Armor
+				{ 19, 35078, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Ringmail Gauntlets
+				{ 20, 35080, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Ringmail Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35004, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadweave Hood
+				{ 2, 35006, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dreadweave Mantle
+				{ 3, 35007, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadweave Robe
+				{ 4, 35003, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Dreadweave Gloves
+				{ 5, 35005, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Dreadweave Leggings
+				{ 16, 35010, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Felweave Cowl
+				{ 17, 35009, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Felweave Amice
+				{ 18, 35012, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Felweave Raiment
+				{ 19, 35011, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Felweave Handguards
+				{ 20, 35013, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 35068, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Plate Helm
+				{ 2, 35070, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Plate Shoulders
+				{ 3, 35066, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Plate Chestpiece
+				{ 6, 35067, [PRICE_EXTRA_ITTYPE] = "honor:140"  }, -- Brutal Gladiator's Plate Gauntlets
+				{ 5, 35069, [PRICE_EXTRA_ITTYPE] = "honor:175"  }, -- Brutal Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
 	},
