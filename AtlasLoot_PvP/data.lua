@@ -1024,7 +1024,7 @@ data["WODS2NONSETGEAR"] = {
 				{ 117, 125545  }, -- Wild Aspirant's Treads of Cruelty
 			},
 		},
-		{
+--[[		{
 			name = ALIL["Leather"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 700
@@ -1110,13 +1110,131 @@ data["WODS2NONSETGEAR"] = {
 		{
 			name = ALIL["Mail"],
 			[ALLIANCE_DIFF] = {
+				-- 700
+				{ 1, 124785, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
+				{ 2, 124790, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Coif
+				{ 3, 124682, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Wild Gladiator's Rifle
+				{ 5, 124787, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Spaulders
+				{ 6, 124792, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pauldrons
+				{ 8, 124783, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Armor
+				{ 9, 124788, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Chestguard
+				{ 11, 124784, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gauntlets
+				{ 12, 124789, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gloves
+				{ 16, 124780, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Prowess
+				{ 17, 124781, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Cruelty
+				{ 18, 124782, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Victory
+				{ 19, 124786, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 20, 124791, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 22, 124774, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Cruelty
+				{ 23, 124775, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Prowess
+				{ 24, 124776, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Victory
+				{ 26, 124777, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Cruelty
+				{ 27, 124778, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Prowess
+				{ 28, 124779, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Victory
+				-- 670
+				{ 101, 124976 }, -- Wild Combatant's Helm
+				{ 102, 124892, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Wild Combatant's Rifle
+				{ 104, 124978 }, -- Wild Combatant's Spaulders
+				{ 106, 124974 }, -- Wild Combatant's Armor
+				{ 108, 124975 }, -- Wild Combatant's Gauntlets
+				{ 110, 124972, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armbands of Prowess
+				{ 111, 124973, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armbands of Cruelty
+				{ 113, 124977 }, -- Wild Combatant's Leggings
+				{ 115, 124968, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Waistguard of Cruelty
+				{ 116, 124969, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Waistguard of Prowess
+				{ 118, 124970, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Footguards of Cruelty
+				{ 119, 124971, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Footguards of Prowess
+				-- 625
+				{ 121, 125103 }, -- Wild Aspirant's Armbands of Prowess
+				{ 123, 125101 }, -- Wild Aspirant's Waistguard of Cruelty
+				{ 125, 125102 }, -- Wild Aspirant's Footguards of Cruelty
 			},
 			[HORDE_DIFF] = {
+				-- 700
+				{ 1, 125264, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
+				{ 2, 125269, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Coif
+				{ 3, 125161, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Wild Gladiator's Rifle
+				{ 5, 125266, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Spaulders
+				{ 6, 125271, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pauldrons
+				{ 8, 125262, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Armor
+				{ 9, 125267, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Chestguard
+				{ 11, 125263, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gauntlets
+				{ 12, 125268, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gloves
+				{ 16, 125259, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Prowess
+				{ 17, 125260, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Cruelty
+				{ 18, 125261, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armbands of Victory
+				{ 19, 125265, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 20, 125270, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 22, 125253, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Cruelty
+				{ 23, 125254, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Prowess
+				{ 24, 125255, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Waistguard of Victory
+				{ 26, 125256, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Cruelty
+				{ 27, 125257, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Prowess
+				{ 28, 125258, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Footguards of Victory
+				-- 670
+				{ 101, 125453 }, -- Wild Combatant's Helm
+				{ 102, 125369, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Wild Combatant's Rifle
+				{ 104, 125455 }, -- Wild Combatant's Spaulders
+				{ 106, 125451 }, -- Wild Combatant's Armor
+				{ 108, 125452 }, -- Wild Combatant's Gauntlets
+				{ 110, 125449, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armbands of Prowess
+				{ 111, 125450, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armbands of Cruelty
+				{ 113, 125454 }, -- Wild Combatant's Leggings
+				{ 115, 125445, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Waistguard of Cruelty
+				{ 116, 125446, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Waistguard of Prowess
+				{ 118, 125447, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Footguards of Cruelty
+				{ 119, 125448, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Footguards of Prowess
+				-- 625
+				{ 121, 125580 }, -- Wild Aspirant's Armbands of Prowess
+				{ 123, 125578 }, -- Wild Aspirant's Waistguard of Cruelty
+				{ 125, 125579 }, -- Wild Aspirant's Footguards of Cruelty
 			},
 		},
 		{
 			name = ALIL["Plate"],
 			[ALLIANCE_DIFF] = {
+				-- 700
+				{ 1, 124814, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Helmet
+				{ 2, 124819, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Visor
+				{ 3, 124678, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pummeler
+				{ 4, 124727, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Gavel
+				{ 5, 124839, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Bonecracker
+				{ 7, 124816, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Shoulderplates
+				{ 8, 124821, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Plate Pauldrons
+				{ 10, 124812, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Breastplate
+				{ 11, 124817, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Chestguard
+				{ 13, 124813, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Plate Gloves
+				{ 14, 124818, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Plate Grips
+				{ 16, 124809, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armplates of Cruelty
+				{ 17, 124810, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armplates of Prowess
+				{ 18, 124811, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Armplates of Victory
+				{ 19, 124815, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Legplates
+				{ 20, 124820, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Leggings
+				{ 22, 124803, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Girdle of Cruelty
+				{ 23, 124804, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Girdle of Prowess
+				{ 24, 124805, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Girdle of Victory
+				{ 26, 124806, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Warboots of Cruelty
+				{ 27, 124807, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Warboots of Prowess
+				{ 28, 124808, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Warboots of Victory
+				-- 670
+				{ 101, 124997 }, -- Wild Combatant's Plate Helmet
+				{ 102, 124888, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Pummeler
+				{ 103, 124929, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Wild Combatant's Gavel
+				{ 104, 125017, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Bonecracker
+				{ 106, 124999 }, -- Wild Combatant's Shoulderplates
+				{ 108, 124995 }, -- Wild Combatant's Plate Breastplate
+				{ 110, 124996 }, -- Wild Combatant's Plate Gloves
+				{ 112, 124993, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armplates of Cruelty
+				{ 113, 124994, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Armplates of Prowess
+				{ 115, 124998 }, -- Wild Combatant's Legplates
+				{ 117, 124989, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Girdle of Cruelty
+				{ 118, 124990, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Girdle of Prowess
+				{ 120, 124991, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Warboots of Cruelty
+				{ 121, 124992, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Warboots of Prowess
+				-- 625
+				{ 121, 125116 }, -- Wild Aspirant's Armplates of Cruelty
+				{ 123, 125114 }, -- Wild Aspirant's Girdle of Cruelty
+				{ 125, 125115 }, -- Wild Aspirant's Warboots of Cruelty
 			},
 			[HORDE_DIFF] = {
 			},
@@ -1157,6 +1275,7 @@ data["WODS2NONSETGEAR"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
+]]
 	},
 }
 data["WODS1SETS"] = {
