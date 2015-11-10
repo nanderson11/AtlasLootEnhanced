@@ -21,6 +21,502 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
+data["WODS3SETS"] = {
+	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125827 }, -- Warmongering Gladiator's Dreadplate Helm
+				{ 2, 125829 }, -- Warmongering Gladiator's Dreadplate Shoulders
+				{ 3, 125825 }, -- Warmongering Gladiator's Dreadplate Chestpiece
+				{ 4, 125826 }, -- Warmongering Gladiator's Dreadplate Gauntlets
+				{ 5, 125828 }, -- Warmongering Gladiator's Dreadplate Legguards
+				{ 7, 126029 }, -- Warmongering Combatant's Dreadplate Helm
+				{ 8, 126031 }, -- Warmongering Combatant's Dreadplate Shoulders
+				{ 9, 126027 }, -- Warmongering Combatant's Dreadplate Chestpiece
+				{ 10, 126028 }, -- Warmongering Combatant's Dreadplate Gauntlets
+				{ 11, 126030 }, -- Warmongering Combatant's Dreadplate Legguards
+				{ 16, 126186 }, -- Warmongering Aspirant's Dreadplate Helm
+				{ 17, 126188 }, -- Warmongering Aspirant's Dreadplate Shoulders
+				{ 18, 126184 }, -- Warmongering Aspirant's Dreadplate Chestpiece
+				{ 19, 126185 }, -- Warmongering Aspirant's Dreadplate Gauntlets
+				{ 20, 126187 }, -- Warmongering Aspirant's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126306 }, -- Warmongering Gladiator's Dreadplate Helm
+				{ 2, 126308 }, -- Warmongering Gladiator's Dreadplate Shoulders
+				{ 3, 126304 }, -- Warmongering Gladiator's Dreadplate Chestpiece
+				{ 4, 126305 }, -- Warmongering Gladiator's Dreadplate Gauntlets
+				{ 5, 126307 }, -- Warmongering Gladiator's Dreadplate Legguards
+				{ 7, 126506 }, -- Warmongering Combatant's Dreadplate Helm
+				{ 8, 126508 }, -- Warmongering Combatant's Dreadplate Shoulders
+				{ 9, 126504 }, -- Warmongering Combatant's Dreadplate Chestpiece
+				{ 10, 126505 }, -- Warmongering Combatant's Dreadplate Gauntlets
+				{ 11, 126507 }, -- Warmongering Combatant's Dreadplate Legguards
+				{ 16, 126663 }, -- Warmongering Aspirant's Dreadplate Helm
+				{ 17, 126665 }, -- Warmongering Aspirant's Dreadplate Shoulders
+				{ 18, 126661 }, -- Warmongering Aspirant's Dreadplate Chestpiece
+				{ 19, 126662 }, -- Warmongering Aspirant's Dreadplate Gauntlets
+				{ 20, 126664 }, -- Warmongering Aspirant's Dreadplate Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125831 }, -- Warmongering Gladiator's Dragonhide Helm
+				{ 2, 125834 }, -- Warmongering Gladiator's Dragonhide Spaulders
+				{ 3, 125833 }, -- Warmongering Gladiator's Dragonhide Robes
+				{ 4, 125830 }, -- Warmongering Gladiator's Dragonhide Gloves
+				{ 5, 125832 }, -- Warmongering Gladiator's Dragonhide Legguards
+				{ 7, 126033 }, -- Warmongering Combatant's Dragonhide Helm
+				{ 8, 126036 }, -- Warmongering Combatant's Dragonhide Spaulders
+				{ 9, 126035 }, -- Warmongering Combatant's Dragonhide Tunic
+				{ 10, 126032 }, -- Warmongering Combatant's Dragonhide Gloves
+				{ 11, 126034 }, -- Warmongering Combatant's Dragonhide Legguards
+				{ 16, 126190 }, -- Warmongering Aspirant's Dragonhide Helm
+				{ 17, 126193 }, -- Warmongering Aspirant's Dragonhide Spaulders
+				{ 18, 126192 }, -- Warmongering Aspirant's Dragonhide Tunic
+				{ 19, 126189 }, -- Warmongering Aspirant's Dragonhide Gloves
+				{ 20, 126191 }, -- Warmongering Aspirant's Dragonhide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126310 }, -- Warmongering Gladiator's Dragonhide Helm
+				{ 2, 126313 }, -- Warmongering Gladiator's Dragonhide Spaulders
+				{ 3, 126312 }, -- Warmongering Gladiator's Dragonhide Robes
+				{ 4, 126309 }, -- Warmongering Gladiator's Dragonhide Gloves
+				{ 5, 126311 }, -- Warmongering Gladiator's Dragonhide Legguards
+				{ 7, 126510 }, -- Warmongering Combatant's Dragonhide Helm
+				{ 8, 126513 }, -- Warmongering Combatant's Dragonhide Spaulders
+				{ 9, 126512 }, -- Warmongering Combatant's Dragonhide Tunic
+				{ 10, 126509 }, -- Warmongering Combatant's Dragonhide Gloves
+				{ 11, 126511 }, -- Warmongering Combatant's Dragonhide Legguards
+				{ 16, 126667 }, -- Warmongering Aspirant's Dragonhide Helm
+				{ 17, 126670 }, -- Warmongering Aspirant's Dragonhide Spaulders
+				{ 18, 126669 }, -- Warmongering Aspirant's Dragonhide Tunic
+				{ 19, 126666 }, -- Warmongering Aspirant's Dragonhide Gloves
+				{ 20, 126668 }, -- Warmongering Aspirant's Dragonhide Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125837 }, -- Warmongering Gladiator's Chain Helm
+				{ 2, 125839 }, -- Warmongering Gladiator's Chain Spaulders
+				{ 3, 125835 }, -- Warmongering Gladiator's Chain Armor
+				{ 4, 125836 }, -- Warmongering Gladiator's Chain Gauntlets
+				{ 5, 125838 }, -- Warmongering Gladiator's Chain Leggings
+				{ 7, 126039 }, -- Warmongering Combatant's Chain Helm
+				{ 8, 126041 }, -- Warmongering Combatant's Chain Spaulders
+				{ 9, 126037 }, -- Warmongering Combatant's Chain Armor
+				{ 10, 126038 }, -- Warmongering Combatant's Chain Gauntlets
+				{ 11, 126040 }, -- Warmongering Combatant's Chain Leggings
+				{ 16, 126196 }, -- Warmongering Aspirant's Chain Helm
+				{ 17, 126198 }, -- Warmongering Aspirant's Chain Spaulders
+				{ 18, 126194 }, -- Warmongering Aspirant's Chain Armor
+				{ 19, 126195 }, -- Warmongering Aspirant's Chain Gauntlets
+				{ 20, 126197 }, -- Warmongering Aspirant's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126316 }, -- Warmongering Gladiator's Chain Helm
+				{ 2, 126318 }, -- Warmongering Gladiator's Chain Spaulders
+				{ 3, 126314 }, -- Warmongering Gladiator's Chain Armor
+				{ 4, 126315 }, -- Warmongering Gladiator's Chain Gauntlets
+				{ 5, 126317 }, -- Warmongering Gladiator's Chain Leggings
+				{ 7, 126516 }, -- Warmongering Combatant's Chain Helm
+				{ 8, 126518 }, -- Warmongering Combatant's Chain Spaulders
+				{ 9, 126514 }, -- Warmongering Combatant's Chain Armor
+				{ 10, 126515 }, -- Warmongering Combatant's Chain Gauntlets
+				{ 11, 126517 }, -- Warmongering Combatant's Chain Leggings
+				{ 16, 126673 }, -- Warmongering Aspirant's Chain Helm
+				{ 17, 126675 }, -- Warmongering Aspirant's Chain Spaulders
+				{ 18, 126671 }, -- Warmongering Aspirant's Chain Armor
+				{ 19, 126672 }, -- Warmongering Aspirant's Chain Gauntlets
+				{ 20, 126674 }, -- Warmongering Aspirant's Chain Leggings
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125884 }, -- Warmongering Gladiator's Silk Cowl
+				{ 2, 125887 }, -- Warmongering Gladiator's Silk Amice
+				{ 3, 125886 }, -- Warmongering Gladiator's Silk Robe
+				{ 4, 125883 }, -- Warmongering Gladiator's Silk Handguards
+				{ 5, 125885 }, -- Warmongering Gladiator's Silk Trousers
+				{ 7, 126078 }, -- Warmongering Combatant's Silk Cowl
+				{ 8, 126081 }, -- Warmongering Combatant's Silk Amice
+				{ 9, 126080 }, -- Warmongering Combatant's Silk Robe
+				{ 10, 126077 }, -- Warmongering Combatant's Silk Handguards
+				{ 11, 126079 }, -- Warmongering Combatant's Silk Trousers
+				{ 16, 126211 }, -- Warmongering Aspirant's Silk Cowl
+				{ 17, 126214 }, -- Warmongering Aspirant's Silk Amice
+				{ 18, 126213 }, -- Warmongering Aspirant's Silk Robe
+				{ 19, 126210 }, -- Warmongering Aspirant's Silk Handguards
+				{ 20, 126212 }, -- Warmongering Aspirant's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126363 }, -- Warmongering Gladiator's Silk Cowl
+				{ 2, 126366 }, -- Warmongering Gladiator's Silk Amice
+				{ 3, 126365 }, -- Warmongering Gladiator's Silk Robe
+				{ 4, 126362 }, -- Warmongering Gladiator's Silk Handguards
+				{ 5, 126364 }, -- Warmongering Gladiator's Silk Trousers
+				{ 7, 126555 }, -- Warmongering Combatant's Silk Cowl
+				{ 8, 126558 }, -- Warmongering Combatant's Silk Amice
+				{ 9, 126557 }, -- Warmongering Combatant's Silk Robe
+				{ 10, 126554 }, -- Warmongering Combatant's Silk Handguards
+				{ 11, 126556 }, -- Warmongering Combatant's Silk Trousers
+				{ 16, 126688 }, -- Warmongering Aspirant's Silk Cowl
+				{ 17, 126691 }, -- Warmongering Aspirant's Silk Amice
+				{ 18, 126690 }, -- Warmongering Aspirant's Silk Robe
+				{ 19, 126687 }, -- Warmongering Aspirant's Silk Handguards
+				{ 20, 126689 }, -- Warmongering Aspirant's Silk Trousers
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125908 }, -- Warmongering Gladiator's Ironskin Helm
+				{ 2, 125910 }, -- Warmongering Gladiator's Ironskin Spaulders
+				{ 3, 125911 }, -- Warmongering Gladiator's Ironskin Tunic
+				{ 4, 125907 }, -- Warmongering Gladiator's Ironskin Gloves
+				{ 5, 125909 }, -- Warmongering Gladiator's Ironskin Legguards
+				{ 7, 126094 }, -- Warmongering Combatant's Ironskin Helm
+				{ 8, 126096 }, -- Warmongering Combatant's Ironskin Spaulders
+				{ 9, 126097 }, -- Warmongering Combatant's Ironskin Tunic
+				{ 10, 126093 }, -- Warmongering Combatant's Ironskin Gloves
+				{ 11, 126095 }, -- Warmongering Combatant's Ironskin Legguards
+				{ 16, 126219 }, -- Warmongering Aspirant's Ironskin Helm
+				{ 17, 126221 }, -- Warmongering Aspirant's Ironskin Spaulders
+				{ 18, 126222 }, -- Warmongering Aspirant's Ironskin Tunic
+				{ 19, 126218 }, -- Warmongering Aspirant's Ironskin Gloves
+				{ 20, 126220 }, -- Warmongering Aspirant's Ironskin Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126387 }, -- Warmongering Gladiator's Ironskin Helm
+				{ 2, 126389 }, -- Warmongering Gladiator's Ironskin Spaulders
+				{ 3, 126390 }, -- Warmongering Gladiator's Ironskin Tunic
+				{ 4, 126386 }, -- Warmongering Gladiator's Ironskin Gloves
+				{ 5, 126388 }, -- Warmongering Gladiator's Ironskin Legguards
+				{ 7, 126571 }, -- Warmongering Combatant's Ironskin Helm
+				{ 8, 126573 }, -- Warmongering Combatant's Ironskin Spaulders
+				{ 9, 126574 }, -- Warmongering Combatant's Ironskin Tunic
+				{ 10, 126570 }, -- Warmongering Combatant's Ironskin Gloves
+				{ 11, 126572 }, -- Warmongering Combatant's Ironskin Legguards
+				{ 16, 126696 }, -- Warmongering Aspirant's Ironskin Helm
+				{ 17, 126698 }, -- Warmongering Aspirant's Ironskin Spaulders
+				{ 18, 126699 }, -- Warmongering Aspirant's Ironskin Tunic
+				{ 19, 126695 }, -- Warmongering Aspirant's Ironskin Gloves
+				{ 20, 126697 }, -- Warmongering Aspirant's Ironskin Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125914 }, -- Warmongering Gladiator's Scaled Helm
+				{ 2, 125916 }, -- Warmongering Gladiator's Scaled Shoulders
+				{ 3, 125912 }, -- Warmongering Gladiator's Scaled Chestpiece
+				{ 4, 125913 }, -- Warmongering Gladiator's Scaled Gauntlets
+				{ 5, 125915 }, -- Warmongering Gladiator's Scaled Legguards
+				{ 7, 126100 }, -- Warmongering Combatant's Scaled Helm
+				{ 8, 126102 }, -- Warmongering Combatant's Scaled Shoulders
+				{ 9, 126098 }, -- Warmongering Combatant's Scaled Chestpiece
+				{ 10, 126099 }, -- Warmongering Combatant's Scaled Gauntlets
+				{ 11, 126101 }, -- Warmongering Combatant's Scaled Legguards
+				{ 16, 126225 }, -- Warmongering Aspirant's Scaled Helm
+				{ 17, 126227 }, -- Warmongering Aspirant's Scaled Shoulders
+				{ 18, 126223 }, -- Warmongering Aspirant's Scaled Chestpiece
+				{ 19, 126224 }, -- Warmongering Aspirant's Scaled Gauntlets
+				{ 20, 126226 }, -- Warmongering Aspirant's Scaled Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126393 }, -- Warmongering Gladiator's Scaled Helm
+				{ 2, 126395 }, -- Warmongering Gladiator's Scaled Shoulders
+				{ 3, 126391 }, -- Warmongering Gladiator's Scaled Chestpiece
+				{ 4, 126392 }, -- Warmongering Gladiator's Scaled Gauntlets
+				{ 5, 126394 }, -- Warmongering Gladiator's Scaled Legguards
+				{ 7, 126577 }, -- Warmongering Combatant's Scaled Helm
+				{ 8, 126579 }, -- Warmongering Combatant's Scaled Shoulders
+				{ 9, 126575 }, -- Warmongering Combatant's Scaled Chestpiece
+				{ 10, 126576 }, -- Warmongering Combatant's Scaled Gauntlets
+				{ 11, 126578 }, -- Warmongering Combatant's Scaled Legguards
+				{ 16, 126702 }, -- Warmongering Aspirant's Scaled Helm
+				{ 17, 126704 }, -- Warmongering Aspirant's Scaled Shoulders
+				{ 18, 126700 }, -- Warmongering Aspirant's Scaled Chestpiece
+				{ 19, 126701 }, -- Warmongering Aspirant's Scaled Gauntlets
+				{ 20, 126703 }, -- Warmongering Aspirant's Scaled Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125937 }, -- Warmongering Gladiator's Satin Hood
+				{ 2, 125940 }, -- Warmongering Gladiator's Satin Mantle
+				{ 3, 125939 }, -- Warmongering Gladiator's Satin Robe
+				{ 4, 125936 }, -- Warmongering Gladiator's Satin Gloves
+				{ 5, 125938 }, -- Warmongering Gladiator's Satin Leggings
+				{ 7, 126115 }, -- Warmongering Combatant's Satin Hood
+				{ 8, 126118 }, -- Warmongering Combatant's Satin Mantle
+				{ 9, 126117 }, -- Warmongering Combatant's Satin Robe
+				{ 10, 126114 }, -- Warmongering Combatant's Satin Gloves
+				{ 11, 126116 }, -- Warmongering Combatant's Satin Leggings
+				{ 16, 126232 }, -- Warmongering Aspirant's Satin Hood
+				{ 17, 126235 }, -- Warmongering Aspirant's Satin Mantle
+				{ 18, 126234 }, -- Warmongering Aspirant's Satin Robe
+				{ 19, 126231 }, -- Warmongering Aspirant's Satin Gloves
+				{ 20, 126233 }, -- Warmongering Aspirant's Satin Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126416 }, -- Warmongering Gladiator's Satin Hood
+				{ 2, 126419 }, -- Warmongering Gladiator's Satin Mantle
+				{ 3, 126418 }, -- Warmongering Gladiator's Satin Robe
+				{ 4, 126415 }, -- Warmongering Gladiator's Satin Gloves
+				{ 5, 126417 }, -- Warmongering Gladiator's Satin Leggings
+				{ 7, 126592 }, -- Warmongering Combatant's Satin Hood
+				{ 8, 126595 }, -- Warmongering Combatant's Satin Mantle
+				{ 9, 126594 }, -- Warmongering Combatant's Satin Robe
+				{ 10, 126591 }, -- Warmongering Combatant's Satin Gloves
+				{ 11, 126593 }, -- Warmongering Combatant's Satin Leggings
+				{ 16, 126709 }, -- Warmongering Aspirant's Satin Hood
+				{ 17, 126712 }, -- Warmongering Aspirant's Satin Mantle
+				{ 18, 126711 }, -- Warmongering Aspirant's Satin Robe
+				{ 19, 126708 }, -- Warmongering Aspirant's Satin Gloves
+				{ 20, 126710 }, -- Warmongering Aspirant's Satin Leggings
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125943 }, -- Warmongering Gladiator's Leather Helm
+				{ 2, 125945 }, -- Warmongering Gladiator's Leather Spaulders
+				{ 3, 125941 }, -- Warmongering Gladiator's Leather Tunic
+				{ 4, 125942 }, -- Warmongering Gladiator's Leather Gloves
+				{ 5, 125944 }, -- Warmongering Gladiator's Leather Legguards
+				{ 7, 126121 }, -- Warmongering Combatant's Leather Helm
+				{ 8, 126123 }, -- Warmongering Combatant's Leather Spaulders
+				{ 9, 126119 }, -- Warmongering Combatant's Leather Tunic
+				{ 10, 126120 }, -- Warmongering Combatant's Leather Gloves
+				{ 11, 126122 }, -- Warmongering Combatant's Leather Legguards
+				{ 16, 126238 }, -- Warmongering Aspirant's Leather Helm
+				{ 17, 126240 }, -- Warmongering Aspirant's Leather Spaulders
+				{ 18, 126236 }, -- Warmongering Aspirant's Leather Tunic
+				{ 19, 126237 }, -- Warmongering Aspirant's Leather Gloves
+				{ 20, 126239 }, -- Warmongering Aspirant's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126422 }, -- Warmongering Gladiator's Leather Helm
+				{ 2, 126424 }, -- Warmongering Gladiator's Leather Spaulders
+				{ 3, 126420 }, -- Warmongering Gladiator's Leather Tunic
+				{ 4, 126421 }, -- Warmongering Gladiator's Leather Gloves
+				{ 5, 126423 }, -- Warmongering Gladiator's Leather Legguards
+				{ 7, 126598 }, -- Warmongering Combatant's Leather Helm
+				{ 8, 126600 }, -- Warmongering Combatant's Leather Spaulders
+				{ 9, 126596 }, -- Warmongering Combatant's Leather Tunic
+				{ 10, 126597 }, -- Warmongering Combatant's Leather Gloves
+				{ 11, 126599 }, -- Warmongering Combatant's Leather Legguards
+				{ 16, 126715 }, -- Warmongering Aspirant's Leather Helm
+				{ 17, 126717 }, -- Warmongering Aspirant's Leather Spaulders
+				{ 18, 126713 }, -- Warmongering Aspirant's Leather Tunic
+				{ 19, 126714 }, -- Warmongering Aspirant's Leather Gloves
+				{ 20, 126716 }, -- Warmongering Aspirant's Leather Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125948 }, -- Warmongering Gladiator's Ringmail Helm
+				{ 2, 125950 }, -- Warmongering Gladiator's Ringmail Spaulders
+				{ 3, 125946 }, -- Warmongering Gladiator's Ringmail Armor
+				{ 4, 125947 }, -- Warmongering Gladiator's Ringmail Gauntlets
+				{ 5, 125949 }, -- Warmongering Gladiator's Ringmail Kilt
+				{ 7, 126126 }, -- Warmongering Combatant's Ringmail Helm
+				{ 8, 126128 }, -- Warmongering Combatant's Ringmail Spaulders
+				{ 9, 126124 }, -- Warmongering Combatant's Ringmail Armor
+				{ 10, 126125 }, -- Warmongering Combatant's Ringmail Gauntlets
+				{ 11, 126127 }, -- Warmongering Combatant's Ringmail Leggings
+				{ 16, 126243 }, -- Warmongering Aspirant's Ringmail Helm
+				{ 17, 126245 }, -- Warmongering Aspirant's Ringmail Spaulders
+				{ 18, 126241 }, -- Warmongering Aspirant's Ringmail Armor
+				{ 19, 126242 }, -- Warmongering Aspirant's Ringmail Gauntlets
+				{ 20, 126244 }, -- Warmongering Aspirant's Ringmail Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126427 }, -- Warmongering Gladiator's Ringmail Helm
+				{ 2, 126429 }, -- Warmongering Gladiator's Ringmail Spaulders
+				{ 3, 126425 }, -- Warmongering Gladiator's Ringmail Armor
+				{ 4, 126426 }, -- Warmongering Gladiator's Ringmail Gauntlets
+				{ 5, 126428 }, -- Warmongering Gladiator's Ringmail Kilt
+				{ 7, 126603 }, -- Warmongering Combatant's Ringmail Helm
+				{ 8, 126605 }, -- Warmongering Combatant's Ringmail Spaulders
+				{ 9, 126601 }, -- Warmongering Combatant's Ringmail Armor
+				{ 10, 126602 }, -- Warmongering Combatant's Ringmail Gauntlets
+				{ 11, 126604 }, -- Warmongering Combatant's Ringmail Leggings
+				{ 16, 126720 }, -- Warmongering Aspirant's Ringmail Helm
+				{ 17, 126722 }, -- Warmongering Aspirant's Ringmail Spaulders
+				{ 18, 126718 }, -- Warmongering Aspirant's Ringmail Armor
+				{ 19, 126719 }, -- Warmongering Aspirant's Ringmail Gauntlets
+				{ 20, 126721 }, -- Warmongering Aspirant's Ringmail Leggings
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125990 }, -- Warmongering Gladiator's Felweave Cowl
+				{ 2, 125993 }, -- Warmongering Gladiator's Felweave Amice
+				{ 3, 125992 }, -- Warmongering Gladiator's Felweave Raiment
+				{ 4, 125989 }, -- Warmongering Gladiator's Felweave Handguards
+				{ 5, 125991 }, -- Warmongering Gladiator's Felweave Trousers
+				{ 7, 126168 }, -- Warmongering Combatant's Felweave Cowl
+				{ 8, 126171 }, -- Warmongering Combatant's Felweave Amice
+				{ 9, 126170 }, -- Warmongering Combatant's Felweave Raiment
+				{ 10, 126167 }, -- Warmongering Combatant's Felweave Handguards
+				{ 11, 126169 }, -- Warmongering Combatant's Felweave Trousers
+				{ 16, 126259 }, -- Warmongering Aspirant's Felweave Cowl
+				{ 17, 126262 }, -- Warmongering Aspirant's Felweave Amice
+				{ 18, 126261 }, -- Warmongering Aspirant's Felweave Raiment
+				{ 19, 126258 }, -- Warmongering Aspirant's Felweave Handguards
+				{ 20, 126260 }, -- Warmongering Aspirant's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126467 }, -- Warmongering Gladiator's Felweave Cowl
+				{ 2, 126470 }, -- Warmongering Gladiator's Felweave Amice
+				{ 3, 126469 }, -- Warmongering Gladiator's Felweave Raiment
+				{ 4, 126466 }, -- Warmongering Gladiator's Felweave Handguards
+				{ 5, 126468 }, -- Warmongering Gladiator's Felweave Trousers
+				{ 7, 126645 }, -- Warmongering Combatant's Felweave Cowl
+				{ 8, 126648 }, -- Warmongering Combatant's Felweave Amice
+				{ 9, 126647 }, -- Warmongering Combatant's Felweave Raiment
+				{ 10, 126644 }, -- Warmongering Combatant's Felweave Handguards
+				{ 11, 126646 }, -- Warmongering Combatant's Felweave Trousers
+				{ 16, 126736 }, -- Warmongering Aspirant's Felweave Cowl
+				{ 17, 126739 }, -- Warmongering Aspirant's Felweave Amice
+				{ 18, 126738 }, -- Warmongering Aspirant's Felweave Raiment
+				{ 19, 126735 }, -- Warmongering Aspirant's Felweave Handguards
+				{ 20, 126737 }, -- Warmongering Aspirant's Felweave Trousers
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 125996 }, -- Warmongering Gladiator's Plate Helm
+				{ 2, 125998 }, -- Warmongering Gladiator's Plate Shoulders
+				{ 3, 125994 }, -- Warmongering Gladiator's Plate Chestpiece
+				{ 4, 125995 }, -- Warmongering Gladiator's Plate Gauntlets
+				{ 5, 125997 }, -- Warmongering Gladiator's Plate Legguards
+				{ 7, 126174 }, -- Warmongering Combatant's Plate Helm
+				{ 8, 126176 }, -- Warmongering Combatant's Plate Shoulders
+				{ 9, 126172 }, -- Warmongering Combatant's Plate Chestpiece
+				{ 10, 126173 }, -- Warmongering Combatant's Plate Gauntlets
+				{ 11, 126175 }, -- Warmongering Combatant's Plate Legguards
+				{ 16, 126265 }, -- Warmongering Aspirant's Plate Helm
+				{ 17, 126267 }, -- Warmongering Aspirant's Plate Shoulders
+				{ 18, 126263 }, -- Warmongering Aspirant's Plate Chestpiece
+				{ 19, 126264 }, -- Warmongering Aspirant's Plate Gauntlets
+				{ 20, 126266 }, -- Warmongering Aspirant's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 126473 }, -- Warmongering Gladiator's Plate Helm
+				{ 2, 126475 }, -- Warmongering Gladiator's Plate Shoulders
+				{ 3, 126471 }, -- Warmongering Gladiator's Plate Chestpiece
+				{ 4, 126472 }, -- Warmongering Gladiator's Plate Gauntlets
+				{ 5, 126474 }, -- Warmongering Gladiator's Plate Legguards
+				{ 7, 126651 }, -- Warmongering Combatant's Plate Helm
+				{ 8, 126653 }, -- Warmongering Combatant's Plate Shoulders
+				{ 9, 126649 }, -- Warmongering Combatant's Plate Chestpiece
+				{ 10, 126650 }, -- Warmongering Combatant's Plate Gauntlets
+				{ 11, 126652 }, -- Warmongering Combatant's Plate Legguards
+				{ 16, 126742 }, -- Warmongering Aspirant's Plate Helm
+				{ 17, 126744 }, -- Warmongering Aspirant's Plate Shoulders
+				{ 18, 126740 }, -- Warmongering Aspirant's Plate Chestpiece
+				{ 19, 126741 }, -- Warmongering Aspirant's Plate Gauntlets
+				{ 20, 126743 }, -- Warmongering Aspirant's Plate Legguards
+			},
+		},
+	},
+}
+--[[
+data["WODS3NONSETGEAR"] = {
+	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = ALIL["Cloth"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = ALIL["Leather"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = ALIL["Mail"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = ALIL["Plate"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Amulets"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Cloaks"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Rings"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Trinkets"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Miscellaneous"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+]]
 data["WODS2SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
@@ -531,27 +1027,84 @@ data["WODS2NONSETGEAR"] = {
 		{
 			name = ALIL["Leather"],
 			[ALLIANCE_DIFF] = {
-[[--			{ 1, 124761, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Helm
-{ 1, 124766, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Headcover
-{ 5, 124756, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Cruelty
-{ 5, 124757, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Prowess
-{ 5, 124758, [PRICE_EXTRA_ITTYPE] = "conquest:1250"  }, -- Wild Gladiator's Bindings of Victory
-{ 2, 124763, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Spaulders
-{ 2, 124768, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Pauldrons
-{ 3, 124759, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Tunic
-{ 3, 124764, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Chestguard
-{ 6, 124750, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Prowess
-{ 6, 124751, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Cruelty
-{ 6, 124752, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Belt of Victory
-{ 4, 124760, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Gloves
-{ 4, 124765, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Grips
-{ 5, 124762, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Legguards
-{ 5, 124767, [PRICE_EXTRA_ITTYPE] = "conquest:2250"  }, -- Wild Gladiator's Leggings
-{ 8, 124753, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Boots of Cruelty
-{ 8, 124754, [PRICE_EXTRA_ITTYPE] = "conquest:1750"  }, -- Wild Gladiator's Boots of Prowess
---]]
+				-- ilvl 700
+				{ 1, 124761, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
+				{ 2, 124766, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Headcover
+				{ 3, 124680, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Wild Gladiator's Longbow
+				{ 5, 124763, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Spaulders
+				{ 6, 124768, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pauldrons
+				{ 8, 124759, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Tunic
+				{ 8, 124764, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Chestguard
+				{ 10, 124760, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gloves
+				{ 10, 124765, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Grips
+				{ 16, 124762, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Legguards
+				{ 17, 124767, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 18, 124756, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Cruelty
+				{ 19, 124757, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Prowess
+				{ 20, 124758, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Victory
+				{ 22, 124750, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Prowess
+				{ 23, 124751, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Cruelty
+				{ 24, 124752, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Victory
+				{ 26, 124753, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Cruelty
+				{ 27, 124754, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Prowess
+				{ 28, 124755, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Victory
+				-- 670
+				{ 101, 124960 }, -- Wild Combatant's Helm
+				{ 102, 124890, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Wild Combatant's Longbow
+				{ 104, 124962 }, -- Wild Combatant's Spaulders
+				{ 106, 124958 }, -- Wild Combatant's Tunic
+				{ 108, 124959 }, -- Wild Combatant's Gloves
+				{ 110, 124956, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Cruelty
+				{ 111, 124957, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Prowess
+				{ 113, 124961 }, -- Wild Combatant's Legguards
+				{ 115, 124952, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Prowess
+				{ 116, 124953, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Cruelty
+				{ 118, 124954, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Cruelty
+				{ 119, 124955, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Prowess
+				-- 625
+				{ 121, 125095 }, -- Wild Aspirant's Bindings of Cruelty
+				{ 123, 125093 }, -- Wild Aspirant's Belt of Prowess
+				{ 125, 125094 }, -- Wild Aspirant's Boots of Cruelty
 			},
 			[HORDE_DIFF] = {
+				-- 700
+				{ 1, 125240, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
+				{ 2, 125245, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Headcover
+				{ 3, 125159, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Wild Gladiator's Longbow
+				{ 5, 125242, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Spaulders
+				{ 6, 125247, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pauldrons
+				{ 8, 125238, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Tunic
+				{ 9, 125243, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Chestguard
+				{ 11, 125239, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gloves
+				{ 12, 125244, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Grips
+				{ 16, 125235, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Cruelty
+				{ 17, 125236, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Prowess
+				{ 18, 125237, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Victory
+				{ 19, 125241, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Legguards
+				{ 20, 125246, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 22, 125229, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Prowess
+				{ 23, 125230, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Cruelty
+				{ 24, 125231, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Victory
+				{ 26, 125232, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Cruelty
+				{ 27, 125233, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Prowess
+				{ 28, 125234, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Victory
+				-- 670
+				{ 101, 125437 }, -- Wild Combatant's Helm
+				{ 102, 125367, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Wild Combatant's Longbow
+				{ 104, 125439 }, -- Wild Combatant's Spaulders
+				{ 106, 125435 }, -- Wild Combatant's Tunic
+				{ 108, 125436 }, -- Wild Combatant's Gloves
+				{ 110, 125433, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Cruelty
+				{ 111, 125434, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Prowess
+				{ 113, 125438 }, -- Wild Combatant's Legguards
+				{ 115, 125429, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Prowess
+				{ 116, 125430, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Cruelty
+				{ 118, 125431, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Cruelty
+				{ 119, 125432, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Prowess
+				-- 625
+				{ 121, 125572 }, -- Wild Aspirant's Bindings of Cruelty
+				{ 123, 125570 }, -- Wild Aspirant's Belt of Prowess
+				{ 125, 125571 }, -- Wild Aspirant's Boots of Cruelty
 			},
 		},
 		{
