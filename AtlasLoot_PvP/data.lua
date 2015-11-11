@@ -1261,43 +1261,323 @@ data["WODS2NONSETGEAR"] = {
 				{ 123, 125592 }, -- Wild Aspirant's Warboots of Cruelty
 			},
 		},
---[[		{
+		{
 			name = AL["Amulets"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124687, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Necklace of Cruelty
+				{ 2, 124688, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Necklace of Prowess
+				{ 3, 124737, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Cruelty
+				{ 4, 124738, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Prowess
+				{ 5, 124739, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Meditation
+				{ 6, 124740, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Contemplation
+				{ 7, 124846, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Cruelty
+				{ 8, 124847, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Prowess
+				{ 9, 124853, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Endurance
+				-- ilvl 670
+				{ 16, 124897, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Necklace of Cruelty
+				{ 17, 124898, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Necklace of Prowess
+				{ 18, 124939, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Cruelty
+				{ 19, 124940, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Prowess
+				{ 20, 124941, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Meditation
+				{ 21, 124942, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Contemplation
+				{ 22, 125024, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Cruelty
+				{ 23, 125025, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Prowess
+				{ 24, 125050, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Endurance
+				-- ilvl 625
+				{ 26, 125064 }, -- Wild Aspirant's Necklace of Cruelty
+				{ 27, 125087 }, -- Wild Aspirant's Pendant of Cruelty
+				{ 28, 125088 }, -- Wild Aspirant's Pendant of Meditation
+				{ 29, 125133 }, -- Wild Aspirant's Choker of Cruelty
+				{ 30, 125136 }, -- Wild Aspirant's Choker of Endurance
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 700
+				{ 1, 125166, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Necklace of Cruelty
+				{ 2, 125167, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Necklace of Prowess
+				{ 3, 125216, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Cruelty
+				{ 4, 125217, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Prowess
+				{ 5, 125218, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Meditation
+				{ 6, 125219, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Pendant of Contemplation
+				{ 7, 125325, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Cruelty
+				{ 8, 125326, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Prowess
+				{ 9, 125332, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Choker of Endurance
+				-- ilvl 670
+				{ 16, 125374, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Necklace of Cruelty
+				{ 17, 125375, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Necklace of Prowess
+				{ 18, 125416, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Cruelty
+				{ 19, 125417, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Prowess
+				{ 20, 125418, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Meditation
+				{ 21, 125419, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Pendant of Contemplation
+				{ 22, 125501, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Cruelty
+				{ 23, 125502, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Prowess
+				{ 24, 125527, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Choker of Endurance
+				-- ilvl 625
+				{ 26, 125541 }, -- Wild Aspirant's Necklace of Cruelty
+				{ 27, 125564 }, -- Wild Aspirant's Pendant of Cruelty
+				{ 28, 125565 }, -- Wild Aspirant's Pendant of Meditation
+				{ 29, 125610 }, -- Wild Aspirant's Choker of Cruelty
+				{ 30, 125613 }, -- Wild Aspirant's Choker of Endurance
 			},
 		},
 		{
 			name = AL["Cloaks"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124685, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cape of Cruelty
+				{ 2, 124686, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cape of Prowess
+				{ 3, 124733, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Cruelty
+				{ 4, 124734, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Prowess
+				{ 5, 124735, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Meditation
+				{ 6, 124736, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Contemplation
+				{ 7, 124844, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Cruelty
+				{ 8, 124845, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Prowess
+				{ 9, 124852, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Endurance
+				-- ilvl 650
+				{ 16, 124895, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cape of Cruelty
+				{ 17, 124896, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cape of Prowess
+				{ 18, 124935, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Cruelty
+				{ 19, 124936, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Prowess
+				{ 20, 124937, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Meditation
+				{ 21, 124938, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Contemplation
+				{ 22, 125022, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Cruelty
+				{ 23, 125023, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Prowess
+				{ 24, 125049, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Endurance
+				-- ilvl 625
+				{ 11, 125063 }, -- Wild Aspirant's Cape of Cruelty
+				{ 12, 125085 }, -- Wild Aspirant's Drape of Cruelty
+				{ 13, 125086 }, -- Wild Aspirant's Drape of Meditation
+				{ 14, 125132 }, -- Wild Aspirant's Cloak of Cruelty
+				{ 15, 125135 }, -- Wild Aspirant's Cloak of Endurance
+				-- ilvl 100
+				{ 26, 127375 }, -- Wild Gladiator's Greatcloak
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 700
+				{ 1, 125164, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cape of Cruelty
+				{ 2, 125165, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cape of Prowess
+				{ 3, 125212, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Cruelty
+				{ 4, 125213, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Prowess
+				{ 5, 125214, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Meditation
+				{ 6, 125215, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Drape of Contemplation
+				{ 7, 125323, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Cruelty
+				{ 8, 125324, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Prowess
+				{ 9, 125331, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Cloak of Endurance
+				-- ilvl 670
+				{ 16, 125372, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cape of Cruelty
+				{ 17, 125373, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cape of Prowess
+				{ 18, 125412, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Cruelty
+				{ 19, 125413, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Prowess
+				{ 20, 125414, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Meditation
+				{ 21, 125415, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Drape of Contemplation
+				{ 22, 125499, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Cruelty
+				{ 23, 125500, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Prowess
+				{ 24, 125526, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Cloak of Endurance
+				-- ilvl 625
+				{ 11, 125540 }, -- Wild Aspirant's Cape of Cruelty
+				{ 12, 125562 }, -- Wild Aspirant's Drape of Cruelty
+				{ 13, 125563 }, -- Wild Aspirant's Drape of Meditation
+				{ 14, 125609 }, -- Wild Aspirant's Cloak of Cruelty
+				{ 15, 125612 }, -- Wild Aspirant's Cloak of Endurance
+				-- ilvl 100
+				{ 26, 127374 }, -- Wild Gladiator's Greatcloak
 			},
 		},
 		{
 			name = AL["Rings"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124689, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Cruelty
+				{ 2, 124690, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Prowess
+				{ 3, 124691, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Triumph
+				{ 4, 124743, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Cruelty
+				{ 5, 124744, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Prowess
+				{ 6, 124745, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Victory
+				{ 7, 124746, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Meditation
+				{ 8, 124747, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Contemplation
+				{ 9, 124848, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Cruelty
+				{ 10, 124849, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Accuracy
+				{ 11, 124850, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Ruthlessness
+				{ 12, 124854, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Dedication
+				{ 13, 124855, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Endurance
+				-- ilvl 670
+				{ 16, 124899, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Cruelty
+				{ 17, 124900, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Prowess
+				{ 18, 124901, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Triumph
+				{ 19, 124945, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Cruelty
+				{ 20, 124946, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Prowess
+				{ 21, 124947, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Victory
+				{ 22, 124948, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Meditation
+				{ 23, 124949, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Contemplation
+				{ 24, 125026, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Cruelty
+				{ 25, 125027, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Accuracy
+				{ 26, 125028, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Ruthlessness
+				{ 27, 125051, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Dedication
+				{ 28, 125052, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Endurance
+				-- ilvl 625
+				{ 101, 125065 }, -- Wild Aspirant's Ring of Cruelty
+				{ 102, 125066 }, -- Wild Aspirant's Ring of Prowess
+				{ 103, 125089 }, -- Wild Aspirant's Band of Cruelty
+				{ 104, 125090 }, -- Wild Aspirant's Band of Prowess
+				{ 105, 125091 }, -- Wild Aspirant's Band of Meditation
+				{ 106, 125092 }, -- Wild Aspirant's Band of Contemplation
+				{ 107, 125134 }, -- Wild Aspirant's Signet of Cruelty
+				{ 108, 125137 }, -- Wild Aspirant's Signet of Dedication
+				{ 109, 125138 }, -- Wild Aspirant's Signet of Endurance
+				{ 110, 127118 }, -- Wild Aspirant's Signet of Accuracy
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 700
+				{ 1, 125168, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Cruelty
+				{ 2, 125169, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Prowess
+				{ 3, 125170, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Ring of Triumph
+				{ 4, 125222, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Cruelty
+				{ 5, 125223, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Prowess
+				{ 6, 125224, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Victory
+				{ 7, 125225, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Meditation
+				{ 8, 125226, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Band of Contemplation
+				{ 9, 125327, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Cruelty
+				{ 10, 125328, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Accuracy
+				{ 11, 125329, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Ruthlessness
+				{ 12, 125333, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Dedication
+				{ 13, 125334, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Signet of Endurance
+				-- ilvl 670
+				{ 16, 125376, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Cruelty
+				{ 17, 125377, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Prowess
+				{ 18, 125378, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Ring of Triumph
+				{ 19, 125422, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Cruelty
+				{ 20, 125423, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Prowess
+				{ 21, 125424, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Victory
+				{ 22, 125425, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Meditation
+				{ 23, 125426, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Band of Contemplation
+				{ 24, 125503, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Cruelty
+				{ 25, 125504, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Accuracy
+				{ 26, 125505, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Ruthlessness
+				{ 27, 125528, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Dedication
+				{ 28, 125529, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Signet of Endurance
+				-- ilvl 625
+				{ 101, 125542 }, -- Wild Aspirant's Ring of Cruelty
+				{ 102, 125543 }, -- Wild Aspirant's Ring of Prowess
+				{ 103, 125566 }, -- Wild Aspirant's Band of Cruelty
+				{ 104, 125567 }, -- Wild Aspirant's Band of Prowess
+				{ 105, 125568 }, -- Wild Aspirant's Band of Meditation
+				{ 106, 125569 }, -- Wild Aspirant's Band of Contemplation
+				{ 107, 125611 }, -- Wild Aspirant's Signet of Cruelty
+				{ 108, 125614 }, -- Wild Aspirant's Signet of Dedication
+				{ 109, 125615 }, -- Wild Aspirant's Signet of Endurance
+				{ 110, 127119 }, -- Wild Aspirant's Signet of Accuracy
 			},
 		},
 		{
 			name = AL["Trinkets"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124856, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Conquest
+				{ 2, 124857, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Conquest
+				{ 3, 124858, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Cruelty
+				{ 4, 124859, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Tenacity
+				{ 5, 124860, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Meditation
+				{ 6, 124861, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Dominance
+				{ 7, 124862, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Dominance
+				{ 8, 124863, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Cruelty
+				{ 9, 124865, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Tenacity
+				{ 10, 124866, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Meditation
+				{ 16, 124867, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Victory
+				{ 17, 124868, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Victory
+				{ 18, 124869, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Adaptation
+				{ 19, 124870 }, -- Wild Gladiator's Accolade of Conquest
+				{ 20, 124871 }, -- Wild Gladiator's Accolade of Dominance
+				{ 21, 124872 }, -- Wild Gladiator's Accolade of Victory
+				{ 22, 124873 }, -- Wild Gladiator's Accolade of Meditation
+				{ 23, 124874 }, -- Wild Gladiator's Accolade of Endurance
+				{ 24, 127123, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Adaptation
+				-- ilvl 670
+				{ 101, 125030, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Conquest
+				{ 102, 125031, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Conquest
+				{ 103, 125032, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Cruelty
+				{ 104, 125033, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Tenacity
+				{ 105, 125034, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Meditation
+				{ 106, 125035, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Dominance
+				{ 107, 125036, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Dominance
+				{ 108, 125037, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Cruelty
+				{ 109, 125038, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Adaptation
+				{ 110, 125039, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Tenacity
+				{ 111, 125040, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Meditation
+				{ 112, 125041, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Victory
+				{ 113, 125042, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Victory
+				{ 114, 125043, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Adaptation
+				{ 115, 125044 }, -- Wild Combatant's Accolade of Conquest
+				{ 116, 125045 }, -- Wild Combatant's Accolade of Dominance
+				{ 117, 125046 }, -- Wild Combatant's Accolade of Victory
+				{ 118, 125047 }, -- Wild Combatant's Accolade of Meditation
+				{ 119, 125048 }, -- Wild Combatant's Accolade of Endurance
+				-- ilvl 625
+				{ 121, 125139 }, -- Wild Aspirant's Accolade of Conquest
+				{ 122, 125140 }, -- Wild Aspirant's Accolade of Dominance
+				{ 123, 125141 }, -- Wild Aspirant's Accolade of Victory
+				{ 124, 125142 }, -- Wild Aspirant's Accolade of Meditation
+				{ 125, 125143 }, -- Wild Aspirant's Accolade of Endurance
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 700
+				{ 1, 124864, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Adaptation
+				{ 2, 125335, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Conquest
+				{ 3, 125336, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Conquest
+				{ 4, 125337, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Cruelty
+				{ 5, 125338, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Tenacity
+				{ 6, 125339, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Emblem of Meditation
+				{ 7, 125340, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Dominance
+				{ 8, 125341, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Dominance
+				{ 9, 125342, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Tenacity
+				{ 10, 125343, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Meditation
+				{ 16, 125344, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Victory
+				{ 17, 125345, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Insignia of Victory
+				{ 18, 125346, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Badge of Adaptation
+				{ 19, 125347 }, -- Wild Gladiator's Accolade of Conquest
+				{ 20, 125348 }, -- Wild Gladiator's Accolade of Dominance
+				{ 21, 125349 }, -- Wild Gladiator's Accolade of Victory
+				{ 22, 125350 }, -- Wild Gladiator's Accolade of Meditation
+				{ 23, 125351 }, -- Wild Gladiator's Accolade of Endurance
+				{ 24, 127124, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Medallion of Cruelty
+				-- ilvl 670
+				{ 101, 125507, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Conquest
+				{ 102, 125508, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Conquest
+				{ 103, 125509, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Cruelty
+				{ 104, 125510, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Tenacity
+				{ 105, 125511, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Emblem of Meditation
+				{ 106, 125512, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Dominance
+				{ 107, 125513, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Dominance
+				{ 108, 125514, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Cruelty
+				{ 109, 125515, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Adaptation
+				{ 110, 125516, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Tenacity
+				{ 111, 125517, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Medallion of Meditation
+				{ 112, 125518, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Victory
+				{ 113, 125519, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Insignia of Victory
+				{ 114, 125520, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Badge of Adaptation
+				{ 115, 125521 }, -- Wild Combatant's Accolade of Conquest
+				{ 116, 125522 }, -- Wild Combatant's Accolade of Dominance
+				{ 117, 125523 }, -- Wild Combatant's Accolade of Victory
+				{ 118, 125524 }, -- Wild Combatant's Accolade of Meditation
+				{ 119, 125525 }, -- Wild Combatant's Accolade of Endurance
+				-- ilvl 625
+				{ 121, 125616 }, -- Wild Aspirant's Accolade of Conquest
+				{ 122, 125617 }, -- Wild Aspirant's Accolade of Dominance
+				{ 123, 125618 }, -- Wild Aspirant's Accolade of Victory
+				{ 124, 125619 }, -- Wild Aspirant's Accolade of Meditation
+				{ 125, 125620 }, -- Wild Aspirant's Accolade of Endurance
 			},
 		},
 		{
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 127366 }, -- Wild Gladiator's Tabard
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 127365 }, -- Wild Gladiator's Tabard
 			},
 		},
-]]
+
 	},
 }
 data["WODS1SETS"] = {
