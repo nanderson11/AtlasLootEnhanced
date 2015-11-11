@@ -517,6 +517,36 @@ data["WODS3NONSETGEAR"] = {
 	},
 }
 ]]
+--[[
+data["WODS3WEAPONS"] = {
+	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Weapons"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["ilvl %d"], 705).." "..AL["Elite"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["ilvl %d"], 705).." (735)",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = string.format(AL["ilvl %d"], 680).." (710)",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+	},
+}
+]]
 data["WODS2SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
@@ -1580,6 +1610,36 @@ data["WODS2NONSETGEAR"] = {
 
 	},
 }
+--[[
+data["WODS2WEAPONS"] = {
+	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Weapons"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["ilvl %d"], 700).." "..AL["Elite"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["ilvl %d"], 700).." (730)",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = string.format(AL["ilvl %d"], 670).." (715)",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+	},
+}
+]]
 data["WODS1SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 1).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
