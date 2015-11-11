@@ -1048,12 +1048,59 @@ data["WODS2NONSETGEAR"] = {
 				{ 27, 124754, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Prowess
 				{ 28, 124755, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Victory
 				-- ilvl 670
+				{ 101, 124960 }, -- Wild Combatant's Helm
+				{ 103, 124962 }, -- Wild Combatant's Spaulders
+				{ 105, 124958 }, -- Wild Combatant's Tunic
+				{ 107, 124959 }, -- Wild Combatant's Gloves
+				{ 109, 124956, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Cruelty
+				{ 110, 124957, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Prowess
+				{ 112, 124961 }, -- Wild Combatant's Legguards
+				{ 114, 124952, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Prowess
+				{ 115, 124953, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Cruelty
+				{ 116, 124954, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Cruelty
+				{ 117, 124955, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Prowess
 				-- ilvl 625
+				{ 119, 125095 }, -- Wild Aspirant's Bindings of Cruelty
+				{ 121, 125093 }, -- Wild Aspirant's Belt of Prowess
+				{ 123, 125094 }, -- Wild Aspirant's Boots of Cruelty
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 700
+				{ 1, 125240, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
+				{ 2, 125245, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Headcover
+				{ 4, 125242, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Spaulders
+				{ 5, 125247, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Pauldrons
+				{ 7, 125238, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Tunic
+				{ 8, 125243, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Chestguard
+				{ 10, 125239, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Gloves
+				{ 11, 125244, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Grips
+				{ 16, 125235, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Cruelty
+				{ 17, 125236, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Prowess
+				{ 18, 125237, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Wild Gladiator's Bindings of Victory
+				{ 19, 125241, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Legguards
+				{ 20, 125246, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Leggings
+				{ 22, 125229, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Prowess
+				{ 23, 125230, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Cruelty
+				{ 24, 125231, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Belt of Victory
+				{ 26, 125232, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Cruelty
+				{ 27, 125233, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Prowess
+				{ 28, 125234, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Wild Gladiator's Boots of Victory
 				-- ilvl 670
+				{ 101, 125437 }, -- Wild Combatant's Helm
+				{ 103, 125439 }, -- Wild Combatant's Spaulders
+				{ 105, 125435 }, -- Wild Combatant's Tunic
+				{ 107, 125436 }, -- Wild Combatant's Gloves
+				{ 109, 125433, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Cruelty
+				{ 110, 125434, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Wild Combatant's Bindings of Prowess
+				{ 112, 125438 }, -- Wild Combatant's Legguards
+				{ 114, 125429, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Prowess
+				{ 115, 125430, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Belt of Cruelty
+				{ 116, 125431, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Cruelty
+				{ 117, 125432, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Wild Combatant's Boots of Prowess
 				-- ilvl 625
+				{ 119, 125572 }, -- Wild Aspirant's Bindings of Cruelty
+				{ 121, 125570 }, -- Wild Aspirant's Belt of Prowess
+				{ 123, 125571 }, -- Wild Aspirant's Boots of Cruelty
 			},
 		},
 --[[		{
