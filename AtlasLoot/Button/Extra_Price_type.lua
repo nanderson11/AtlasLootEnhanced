@@ -39,6 +39,7 @@ local PRICE_INFO = {
 	["tolbarad"] = { currencyID = 391 },
 	["trickytreat"] = { itemID = 33226 },
 	["worldtree"] = { currencyID = 416 },
+	["valor"] = {currencyID = 1191},
 }
 
 local Cache = {}

@@ -445,7 +445,6 @@ data["WODS3SETS"] = {
 		},
 	},
 }
---[[
 data["WODS3NONSETGEAR"] = {
 	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Non-Set Gear"],
 	ContentType = NORMAL_ITTYPE,
@@ -453,70 +452,190 @@ data["WODS3NONSETGEAR"] = {
 		{
 			name = ALIL["Cloth"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				{ 1, 125816 }, -- Warmongering Gladiator's Hood of Prowess
+				{ 2, 125821 }, -- Warmongering Gladiator's Cowl of Cruelty
+				{ 4, 125819 }, -- Warmongering Gladiator's Amice of Prowess
+				{ 5, 125824 }, -- Warmongering Gladiator's Mantle of Cruelty
+				{ 7, 125818 }, -- Warmongering Gladiator's Robes of Prowess
+				{ 8, 125823 }, -- Warmongering Gladiator's Raiment of Cruelty
+				{ 10, 125815 }, -- Warmongering Gladiator's Gloves of Prowess
+				{ 11, 125820 }, -- Warmongering Gladiator's Handguards of Cruelty
+				{ 16, 125812 }, -- Warmongering Gladiator's Cuffs of Prowess
+				{ 17, 125813 }, -- Warmongering Gladiator's Cuffs of Cruelty
+				{ 18, 125814 }, -- Warmongering Gladiator's Cuffs of Victory
+				{ 19, 125817 }, -- Warmongering Gladiator's Leggings of Prowess
+				{ 20, 125822 }, -- Warmongering Gladiator's Trousers of Cruelty
+				{ 22, 125806 }, -- Warmongering Gladiator's Cord of Cruelty
+				{ 23, 125807 }, -- Warmongering Gladiator's Cord of Prowess
+				{ 24, 125808 }, -- Warmongering Gladiator's Cord of Victory
+				{ 26, 125809 }, -- Warmongering Gladiator's Treads of Cruelty
+				{ 27, 125810 }, -- Warmongering Gladiator's Treads of Prowess
+				{ 28, 125811 }, -- Warmongering Gladiator's Treads of Victory
+				-- ilvl 680
+				{ 101, 126023 }, -- Warmongering Combatant's Hood of Prowess
+				{ 103, 126026 }, -- Warmongering Combatant's Amice of Prowess
+				{ 105, 126025 }, -- Warmongering Combatant's Robes of Prowess
+				{ 107, 126022 }, -- Warmongering Combatant's Gloves of Prowess
+				{ 109, 126020 }, -- Warmongering Combatant's Cuffs of Prowess
+				{ 110, 126021 }, -- Warmongering Combatant's Cuffs of Cruelty
+				{ 112, 126024 }, -- Warmongering Combatant's Leggings of Prowess
+				{ 114, 126016 }, -- Warmongering Combatant's Cord of Cruelty
+				{ 115, 126017 }, -- Warmongering Combatant's Cord of Prowess
+				{ 116, 126018 }, -- Warmongering Combatant's Treads of Cruelty
+				{ 117, 126019 }, -- Warmongering Combatant's Treads of Prowess
+				-- ilvl 625
+				{ 119, 126183 }, -- Warmongering Aspirant's Cuffs of Prowess
+				{ 121, 126181 }, -- Warmongering Aspirant's Cord of Cruelty
+				{ 123, 126182 }, -- Warmongering Aspirant's Treads of Cruelty
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				{ 1, 126295 }, -- Warmongering Gladiator's Hood of Prowess
+				{ 2, 126300 }, -- Warmongering Gladiator's Cowl of Cruelty
+				{ 4, 126298 }, -- Warmongering Gladiator's Amice of Prowess
+				{ 5, 126303 }, -- Warmongering Gladiator's Mantle of Cruelty
+				{ 7, 126297 }, -- Warmongering Gladiator's Robes of Prowess
+				{ 8, 126302 }, -- Warmongering Gladiator's Raiment of Cruelty
+				{ 10, 126294 }, -- Warmongering Gladiator's Gloves of Prowess
+				{ 11, 126299 }, -- Warmongering Gladiator's Handguards of Cruelty
+				{ 16, 126291 }, -- Warmongering Gladiator's Cuffs of Prowess
+				{ 17, 126292 }, -- Warmongering Gladiator's Cuffs of Cruelty
+				{ 18, 126293 }, -- Warmongering Gladiator's Cuffs of Victory
+				{ 19, 126296 }, -- Warmongering Gladiator's Leggings of Prowess
+				{ 20, 126301 }, -- Warmongering Gladiator's Trousers of Cruelty
+				{ 22, 126285 }, -- Warmongering Gladiator's Cord of Cruelty
+				{ 23, 126286 }, -- Warmongering Gladiator's Cord of Prowess
+				{ 24, 126287 }, -- Warmongering Gladiator's Cord of Victory
+				{ 26, 126288 }, -- Warmongering Gladiator's Treads of Cruelty
+				{ 27, 126289 }, -- Warmongering Gladiator's Treads of Prowess
+				{ 28, 126290 }, -- Warmongering Gladiator's Treads of Victory
+				-- ilvl 680
+				{ 101, 126500 }, -- Warmongering Combatant's Hood of Prowess
+				{ 103, 126503 }, -- Warmongering Combatant's Amice of Prowess
+				{ 105, 126502 }, -- Warmongering Combatant's Robes of Prowess
+				{ 107, 126499 }, -- Warmongering Combatant's Gloves of Prowess
+				{ 109, 126497 }, -- Warmongering Combatant's Cuffs of Prowess
+				{ 110, 126498 }, -- Warmongering Combatant's Cuffs of Cruelty
+				{ 112, 126501 }, -- Warmongering Combatant's Leggings of Prowess
+				{ 114, 126493 }, -- Warmongering Combatant's Cord of Cruelty
+				{ 115, 126494 }, -- Warmongering Combatant's Cord of Prowess
+				{ 116, 126495 }, -- Warmongering Combatant's Treads of Cruelty
+				{ 117, 126496 }, -- Warmongering Combatant's Treads of Prowess
+				-- ilvl 625
+				{ 119, 126660 }, -- Warmongering Aspirant's Cuffs of Prowess
+				{ 121, 126658 }, -- Warmongering Aspirant's Cord of Cruelty
+				{ 123, 126659 }, -- Warmongering Aspirant's Treads of Cruelty
 			},
 		},
-		{
+--[[		{
 			name = ALIL["Leather"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = ALIL["Mail"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = ALIL["Plate"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = AL["Amulets"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = AL["Cloaks"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = AL["Rings"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = AL["Trinkets"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 		},
 		{
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- ilvl 710
+				-- ilvl 680
+				-- ilvl 625
 			},
-		},
+		},]]
 	},
 }
-]]
+
 --[[
 data["WODS3WEAPONS"] = {
 	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Weapons"],

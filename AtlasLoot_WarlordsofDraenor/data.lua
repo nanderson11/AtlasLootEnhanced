@@ -3398,11 +3398,15 @@ data["HellfireCitadel"] = {
 				{ 110, 124522, false}, -- Fragment of the Dark Star
 				{ 111, 124523, false}, -- Worldbreaker's Resolve
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 28, 133762 },	-- Remnant of Chaos
+			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 14, "123890:0", "mount" },	-- Felsteel Annihilator
 				{ 25, "ac10043" },
+				{ 28, 133762 },	-- Remnant of Chaos
 			},
 		},
 		{	--HFCTrash
