@@ -175,6 +175,15 @@ function Item.Refresh(button)
 		return false
 	end
 	
+	-- workaround for the missing array
+	local LOOT_BORDER_QUALITY_COORDS = {
+		{0,0,0,0}, --//POOR was moved, so we need a dummy
+		{0.17968750, 0.23632813, 0.74218750, 0.96875000},
+		{0.86718750, 0.92382813, 0.00390625, 0.23046875},
+		{0.92578125, 0.98242188, 0.00390625, 0.23046875},
+		{0.80859375, 0.86523438, 0.00390625, 0.23046875},
+	};
+	
 	local borderTexCoord = LOOT_BORDER_QUALITY_COORDS[itemQuality]
 	if borderTexCoord then
 		button.overlay:Show()

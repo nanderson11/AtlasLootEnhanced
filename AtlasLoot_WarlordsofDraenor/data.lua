@@ -3385,7 +3385,7 @@ data["HellfireCitadel"] = {
 				{ 22, 124389 }, -- Calamity's Edge
 				--{ 24, "ac8952" },
 				{ 24, "ac10073" },
-				{ 26, 127785 },	-- Crystallized Fel
+				{ 26, 127785, false},	-- Crystallized Fel
 				{ 101, 124513, false}, -- Reaper's Harvest
 				{ 102, 124514, false}, -- Seed of Creation
 				{ 103, 124515, false}, -- Talisman of the Master Tracker
@@ -3400,13 +3400,13 @@ data["HellfireCitadel"] = {
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 28, 133762 },	-- Remnant of Chaos
+				{ 28, 133762, false},	-- Remnant of Chaos
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 14, "123890:0", "mount" },	-- Felsteel Annihilator
 				{ 25, "ac10043" },
-				{ 28, 133762 },	-- Remnant of Chaos
+				{ 28, 133762, false},	-- Remnant of Chaos
 			},
 		},
 		{	--HFCTrash
