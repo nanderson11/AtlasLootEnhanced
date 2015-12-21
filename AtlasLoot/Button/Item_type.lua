@@ -24,7 +24,6 @@ local GetItemStringWithBonus = AtlasLoot.ItemString.AddBonus
 
 local ITEM_COLORS = {}
 
-
 local ItemClickHandler = nil
 local itemIsOnEnter = nil
 
@@ -175,25 +174,10 @@ function Item.Refresh(button)
 		return false
 	end
 	
-	-- workaround for the missing array
-	local LOOT_BORDER_QUALITY_COORDS = {
-		{0,0,0,0}, --//POOR was moved, so we need a dummy
-		{0.17968750, 0.23632813, 0.74218750, 0.96875000},
-		{0.86718750, 0.92382813, 0.00390625, 0.23046875},
-		{0.92578125, 0.98242188, 0.00390625, 0.23046875},
-		{0.80859375, 0.86523438, 0.00390625, 0.23046875},
-	};
-	
-	local borderTexCoord = LOOT_BORDER_QUALITY_COORDS[itemQuality]
-	if borderTexCoord then
-		button.overlay:Show()
-		button.overlay:SetTexture("Interface\\LootFrame\\LootToast")
-		button.overlay:SetTexCoord(borderTexCoord[1], borderTexCoord[2], borderTexCoord[3], borderTexCoord[4])
-	else
-		borderTexCoord = LOOT_BORDER_QUALITY_COORDS[2]
-		button.overlay:Show()
-		button.overlay:SetTexture("Interface\\LootFrame\\LootToast")
-		button.overlay:SetTexCoord(borderTexCoord[1], borderTexCoord[2], borderTexCoord[3], borderTexCoord[4])
+	button.overlay:Show()
+	button.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
+	button.overlay:SetAtlas(LOOT_BORDER_BY_QUALITY[itemQuality] or LOOT_BORDER_BY_QUALITY[LE_ITEM_QUALITY_UNCOMMON])
+	if not LOOT_BORDER_BY_QUALITY[itemQuality] then
 		button.overlay:SetDesaturated(true)
 	end
 
