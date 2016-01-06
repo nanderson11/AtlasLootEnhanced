@@ -214,6 +214,7 @@ AL["Tier %d Sets"] = true
 AL["Unobtainable Tabards"] = true
 AL["Varlan Highbough"] = true
 AL["Zen'Vorka"] = true
+AL["Timewalking Dungeon Event"] = true
 
 -- Crafting strings
 AL["Arakkoa"] = true

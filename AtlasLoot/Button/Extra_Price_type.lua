@@ -40,6 +40,7 @@ local PRICE_INFO = {
 	["trickytreat"] = { itemID = 33226 },
 	["worldtree"] = { currencyID = 416 },
 	["valor"] = {currencyID = 1191},
+	["timewarped"] = {currencyID = 1166}, -- Timewarped Badge
 }
 
 local Cache = {}

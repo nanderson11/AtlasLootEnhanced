@@ -521,6 +521,8 @@ local MOUNT_INFO = {
 		[88335] = 62901,	--Drake of the East Wind
 		[8395] = 8588,	--Emerald Raptor
 		[171638] = 116676,	--Trained Riverwallow
+		[142910] = 129922, --Ironbound Wraithcharger
+		[194464] = 129923, -- Eclipse Dragonhawk
 	},
 	["items"] = {
 		[31830] = 39315,	--Cobalt Riding Talbuk
