@@ -242,6 +242,7 @@ AL["Thomas Yance"] = "湯瑪斯·陽斯"
 AL["Tier %d Sets"] = "T%d 套裝"
 AL["Tier Sets"] = "職業套裝" -- Needs review
 AL["Timed Reward Chest"] = "限時任務獎勵箱子"
+AL["Timewalking Dungeon Event"] = "時光漫遊地城事件"
 AL["Tinker"] = "工具" -- Needs review
 AL["Toggle AtlasLoot"] = "切換 AtlasLoot"
 AL["Toggle Minimap Button"] = "切換小地圖按鈕"
