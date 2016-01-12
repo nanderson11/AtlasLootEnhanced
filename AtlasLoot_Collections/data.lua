@@ -1362,7 +1362,71 @@ data["MOLTENFRONT"] = {
 		},
 	},
 }
-
+--[[
+data["MOUNTS"] = {
+	name = AL["Mounts"],
+	ContentType = COLLECTION_CONTENT,
+	TableType = I_A_ITTYPE,
+	items = {
+		{
+			name = AL["Achievements"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Black Market Auction House"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Crafting"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Dungeons"].." & "..AL["Raids"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Shop"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["Vendor"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+		{
+			name = AL["No longer available"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+			},
+		},
+	},
+}
+]]
 data["TABARDS"] = {
 	name = AL["Tabards"],
 	ContentType = COLLECTION_CONTENT,
