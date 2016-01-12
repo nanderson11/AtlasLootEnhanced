@@ -143,6 +143,7 @@ AL["Set"] = true
 AL["Sets"] = true
 AL["Shared"] = true
 AL["Shared Boss Loot"] = true
+AL["Shop"] = true
 AL["Summon"] = true
 AL["Trash Mobs"] = true
 
