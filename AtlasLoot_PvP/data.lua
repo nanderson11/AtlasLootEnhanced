@@ -28,16 +28,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125827 }, -- Warmongering Gladiator's Dreadplate Helm
-				{ 2, 125829 }, -- Warmongering Gladiator's Dreadplate Shoulders
-				{ 3, 125825 }, -- Warmongering Gladiator's Dreadplate Chestpiece
-				{ 4, 125826 }, -- Warmongering Gladiator's Dreadplate Gauntlets
-				{ 5, 125828 }, -- Warmongering Gladiator's Dreadplate Legguards
-				{ 7, 126029 }, -- Warmongering Combatant's Dreadplate Helm
-				{ 8, 126031 }, -- Warmongering Combatant's Dreadplate Shoulders
-				{ 9, 126027 }, -- Warmongering Combatant's Dreadplate Chestpiece
-				{ 10, 126028 }, -- Warmongering Combatant's Dreadplate Gauntlets
-				{ 11, 126030 }, -- Warmongering Combatant's Dreadplate Legguards
+				{ 1, 125827, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Helm
+				{ 2, 125829, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dreadplate Shoulders
+				{ 3, 125825, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Chestpiece
+				{ 4, 125826, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dreadplate Gauntlets
+				{ 5, 125828, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Legguards
+				{ 7, 126029, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Helm
+				{ 8, 126031, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dreadplate Shoulders
+				{ 9, 126027, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Chestpiece
+				{ 10, 126028, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dreadplate Gauntlets
+				{ 11, 126030, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Legguards
 				{ 16, 126186 }, -- Warmongering Aspirant's Dreadplate Helm
 				{ 17, 126188 }, -- Warmongering Aspirant's Dreadplate Shoulders
 				{ 18, 126184 }, -- Warmongering Aspirant's Dreadplate Chestpiece
@@ -46,16 +46,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126306 }, -- Warmongering Gladiator's Dreadplate Helm
-				{ 2, 126308 }, -- Warmongering Gladiator's Dreadplate Shoulders
-				{ 3, 126304 }, -- Warmongering Gladiator's Dreadplate Chestpiece
-				{ 4, 126305 }, -- Warmongering Gladiator's Dreadplate Gauntlets
-				{ 5, 126307 }, -- Warmongering Gladiator's Dreadplate Legguards
-				{ 7, 126506 }, -- Warmongering Combatant's Dreadplate Helm
-				{ 8, 126508 }, -- Warmongering Combatant's Dreadplate Shoulders
-				{ 9, 126504 }, -- Warmongering Combatant's Dreadplate Chestpiece
-				{ 10, 126505 }, -- Warmongering Combatant's Dreadplate Gauntlets
-				{ 11, 126507 }, -- Warmongering Combatant's Dreadplate Legguards
+				{ 1, 126306, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Helm
+				{ 2, 126308, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dreadplate Shoulders
+				{ 3, 126304, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Chestpiece
+				{ 4, 126305, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dreadplate Gauntlets
+				{ 5, 126307, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dreadplate Legguards
+				{ 7, 126506, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Helm
+				{ 8, 126508, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dreadplate Shoulders
+				{ 9, 126504, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Chestpiece
+				{ 10, 126505, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dreadplate Gauntlets
+				{ 11, 126507, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dreadplate Legguards
 				{ 16, 126663 }, -- Warmongering Aspirant's Dreadplate Helm
 				{ 17, 126665 }, -- Warmongering Aspirant's Dreadplate Shoulders
 				{ 18, 126661 }, -- Warmongering Aspirant's Dreadplate Chestpiece
@@ -66,16 +66,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125831 }, -- Warmongering Gladiator's Dragonhide Helm
-				{ 2, 125834 }, -- Warmongering Gladiator's Dragonhide Spaulders
-				{ 3, 125833 }, -- Warmongering Gladiator's Dragonhide Robes
-				{ 4, 125830 }, -- Warmongering Gladiator's Dragonhide Gloves
-				{ 5, 125832 }, -- Warmongering Gladiator's Dragonhide Legguards
-				{ 7, 126033 }, -- Warmongering Combatant's Dragonhide Helm
-				{ 8, 126036 }, -- Warmongering Combatant's Dragonhide Spaulders
-				{ 9, 126035 }, -- Warmongering Combatant's Dragonhide Tunic
-				{ 10, 126032 }, -- Warmongering Combatant's Dragonhide Gloves
-				{ 11, 126034 }, -- Warmongering Combatant's Dragonhide Legguards
+				{ 1, 125831, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Helm
+				{ 2, 125834, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dragonhide Spaulders
+				{ 3, 125833, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Robes
+				{ 4, 125830, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dragonhide Gloves
+				{ 5, 125832, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Legguards
+				{ 7, 126033, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Helm
+				{ 8, 126036, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dragonhide Spaulders
+				{ 9, 126035, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Tunic
+				{ 10, 126032, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dragonhide Gloves
+				{ 11, 126034, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Legguards
 				{ 16, 126190 }, -- Warmongering Aspirant's Dragonhide Helm
 				{ 17, 126193 }, -- Warmongering Aspirant's Dragonhide Spaulders
 				{ 18, 126192 }, -- Warmongering Aspirant's Dragonhide Tunic
@@ -84,16 +84,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126310 }, -- Warmongering Gladiator's Dragonhide Helm
-				{ 2, 126313 }, -- Warmongering Gladiator's Dragonhide Spaulders
-				{ 3, 126312 }, -- Warmongering Gladiator's Dragonhide Robes
-				{ 4, 126309 }, -- Warmongering Gladiator's Dragonhide Gloves
-				{ 5, 126311 }, -- Warmongering Gladiator's Dragonhide Legguards
-				{ 7, 126510 }, -- Warmongering Combatant's Dragonhide Helm
-				{ 8, 126513 }, -- Warmongering Combatant's Dragonhide Spaulders
-				{ 9, 126512 }, -- Warmongering Combatant's Dragonhide Tunic
-				{ 10, 126509 }, -- Warmongering Combatant's Dragonhide Gloves
-				{ 11, 126511 }, -- Warmongering Combatant's Dragonhide Legguards
+				{ 1, 126310, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Helm
+				{ 2, 126313, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dragonhide Spaulders
+				{ 3, 126312, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Robes
+				{ 4, 126309, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Dragonhide Gloves
+				{ 5, 126311, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Dragonhide Legguards
+				{ 7, 126510, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Helm
+				{ 8, 126513, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dragonhide Spaulders
+				{ 9, 126512, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Tunic
+				{ 10, 126509, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Dragonhide Gloves
+				{ 11, 126511, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Dragonhide Legguards
 				{ 16, 126667 }, -- Warmongering Aspirant's Dragonhide Helm
 				{ 17, 126670 }, -- Warmongering Aspirant's Dragonhide Spaulders
 				{ 18, 126669 }, -- Warmongering Aspirant's Dragonhide Tunic
@@ -104,16 +104,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125837 }, -- Warmongering Gladiator's Chain Helm
-				{ 2, 125839 }, -- Warmongering Gladiator's Chain Spaulders
-				{ 3, 125835 }, -- Warmongering Gladiator's Chain Armor
-				{ 4, 125836 }, -- Warmongering Gladiator's Chain Gauntlets
-				{ 5, 125838 }, -- Warmongering Gladiator's Chain Leggings
-				{ 7, 126039 }, -- Warmongering Combatant's Chain Helm
-				{ 8, 126041 }, -- Warmongering Combatant's Chain Spaulders
-				{ 9, 126037 }, -- Warmongering Combatant's Chain Armor
-				{ 10, 126038 }, -- Warmongering Combatant's Chain Gauntlets
-				{ 11, 126040 }, -- Warmongering Combatant's Chain Leggings
+				{ 1, 125837, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Helm
+				{ 2, 125839, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Chain Spaulders
+				{ 3, 125835, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Armor
+				{ 4, 125836, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Chain Gauntlets
+				{ 5, 125838, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Leggings
+				{ 7, 126039, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Helm
+				{ 8, 126041, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chain Spaulders
+				{ 9, 126037, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Armor
+				{ 10, 126038, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chain Gauntlets
+				{ 11, 126040, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Leggings
 				{ 16, 126196 }, -- Warmongering Aspirant's Chain Helm
 				{ 17, 126198 }, -- Warmongering Aspirant's Chain Spaulders
 				{ 18, 126194 }, -- Warmongering Aspirant's Chain Armor
@@ -122,16 +122,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126316 }, -- Warmongering Gladiator's Chain Helm
-				{ 2, 126318 }, -- Warmongering Gladiator's Chain Spaulders
-				{ 3, 126314 }, -- Warmongering Gladiator's Chain Armor
-				{ 4, 126315 }, -- Warmongering Gladiator's Chain Gauntlets
-				{ 5, 126317 }, -- Warmongering Gladiator's Chain Leggings
-				{ 7, 126516 }, -- Warmongering Combatant's Chain Helm
-				{ 8, 126518 }, -- Warmongering Combatant's Chain Spaulders
-				{ 9, 126514 }, -- Warmongering Combatant's Chain Armor
-				{ 10, 126515 }, -- Warmongering Combatant's Chain Gauntlets
-				{ 11, 126517 }, -- Warmongering Combatant's Chain Leggings
+				{ 1, 126316, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Helm
+				{ 2, 126318, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Chain Spaulders
+				{ 3, 126314, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Armor
+				{ 4, 126315, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Chain Gauntlets
+				{ 5, 126317, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chain Leggings
+				{ 7, 126516, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Helm
+				{ 8, 126518, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chain Spaulders
+				{ 9, 126514, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Armor
+				{ 10, 126515, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chain Gauntlets
+				{ 11, 126517, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Chain Leggings
 				{ 16, 126673 }, -- Warmongering Aspirant's Chain Helm
 				{ 17, 126675 }, -- Warmongering Aspirant's Chain Spaulders
 				{ 18, 126671 }, -- Warmongering Aspirant's Chain Armor
@@ -142,16 +142,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125884 }, -- Warmongering Gladiator's Silk Cowl
-				{ 2, 125887 }, -- Warmongering Gladiator's Silk Amice
-				{ 3, 125886 }, -- Warmongering Gladiator's Silk Robe
-				{ 4, 125883 }, -- Warmongering Gladiator's Silk Handguards
-				{ 5, 125885 }, -- Warmongering Gladiator's Silk Trousers
-				{ 7, 126078 }, -- Warmongering Combatant's Silk Cowl
-				{ 8, 126081 }, -- Warmongering Combatant's Silk Amice
-				{ 9, 126080 }, -- Warmongering Combatant's Silk Robe
-				{ 10, 126077 }, -- Warmongering Combatant's Silk Handguards
-				{ 11, 126079 }, -- Warmongering Combatant's Silk Trousers
+				{ 1, 125884, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Cowl
+				{ 2, 125887, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Silk Amice
+				{ 3, 125886, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Robe
+				{ 4, 125883, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Silk Handguards
+				{ 5, 125885, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Trousers
+				{ 7, 126078, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Cowl
+				{ 8, 126081, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Silk Amice
+				{ 9, 126080, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Robe
+				{ 10, 126077, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Silk Handguards
+				{ 11, 126079, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Trousers
 				{ 16, 126211 }, -- Warmongering Aspirant's Silk Cowl
 				{ 17, 126214 }, -- Warmongering Aspirant's Silk Amice
 				{ 18, 126213 }, -- Warmongering Aspirant's Silk Robe
@@ -160,16 +160,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126363 }, -- Warmongering Gladiator's Silk Cowl
-				{ 2, 126366 }, -- Warmongering Gladiator's Silk Amice
-				{ 3, 126365 }, -- Warmongering Gladiator's Silk Robe
-				{ 4, 126362 }, -- Warmongering Gladiator's Silk Handguards
-				{ 5, 126364 }, -- Warmongering Gladiator's Silk Trousers
-				{ 7, 126555 }, -- Warmongering Combatant's Silk Cowl
-				{ 8, 126558 }, -- Warmongering Combatant's Silk Amice
-				{ 9, 126557 }, -- Warmongering Combatant's Silk Robe
-				{ 10, 126554 }, -- Warmongering Combatant's Silk Handguards
-				{ 11, 126556 }, -- Warmongering Combatant's Silk Trousers
+				{ 1, 126363, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Cowl
+				{ 2, 126366, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Silk Amice
+				{ 3, 126365, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Robe
+				{ 4, 126362, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Silk Handguards
+				{ 5, 126364, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Silk Trousers
+				{ 7, 126555, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Cowl
+				{ 8, 126558, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Silk Amice
+				{ 9, 126557, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Robe
+				{ 10, 126554, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Silk Handguards
+				{ 11, 126556, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Silk Trousers
 				{ 16, 126688 }, -- Warmongering Aspirant's Silk Cowl
 				{ 17, 126691 }, -- Warmongering Aspirant's Silk Amice
 				{ 18, 126690 }, -- Warmongering Aspirant's Silk Robe
@@ -180,16 +180,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125908 }, -- Warmongering Gladiator's Ironskin Helm
-				{ 2, 125910 }, -- Warmongering Gladiator's Ironskin Spaulders
-				{ 3, 125911 }, -- Warmongering Gladiator's Ironskin Tunic
-				{ 4, 125907 }, -- Warmongering Gladiator's Ironskin Gloves
-				{ 5, 125909 }, -- Warmongering Gladiator's Ironskin Legguards
-				{ 7, 126094 }, -- Warmongering Combatant's Ironskin Helm
-				{ 8, 126096 }, -- Warmongering Combatant's Ironskin Spaulders
-				{ 9, 126097 }, -- Warmongering Combatant's Ironskin Tunic
-				{ 10, 126093 }, -- Warmongering Combatant's Ironskin Gloves
-				{ 11, 126095 }, -- Warmongering Combatant's Ironskin Legguards
+				{ 1, 125908, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Helm
+				{ 2, 125910, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ironskin Spaulders
+				{ 3, 125911, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Tunic
+				{ 4, 125907, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ironskin Gloves
+				{ 5, 125909, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Legguards
+				{ 7, 126094, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Helm
+				{ 8, 126096, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ironskin Spaulders
+				{ 9, 126097, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Tunic
+				{ 10, 126093, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ironskin Gloves
+				{ 11, 126095, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Legguards
 				{ 16, 126219 }, -- Warmongering Aspirant's Ironskin Helm
 				{ 17, 126221 }, -- Warmongering Aspirant's Ironskin Spaulders
 				{ 18, 126222 }, -- Warmongering Aspirant's Ironskin Tunic
@@ -198,16 +198,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126387 }, -- Warmongering Gladiator's Ironskin Helm
-				{ 2, 126389 }, -- Warmongering Gladiator's Ironskin Spaulders
-				{ 3, 126390 }, -- Warmongering Gladiator's Ironskin Tunic
-				{ 4, 126386 }, -- Warmongering Gladiator's Ironskin Gloves
-				{ 5, 126388 }, -- Warmongering Gladiator's Ironskin Legguards
-				{ 7, 126571 }, -- Warmongering Combatant's Ironskin Helm
-				{ 8, 126573 }, -- Warmongering Combatant's Ironskin Spaulders
-				{ 9, 126574 }, -- Warmongering Combatant's Ironskin Tunic
-				{ 10, 126570 }, -- Warmongering Combatant's Ironskin Gloves
-				{ 11, 126572 }, -- Warmongering Combatant's Ironskin Legguards
+				{ 1, 126387, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Helm
+				{ 2, 126389, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ironskin Spaulders
+				{ 3, 126390, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Tunic
+				{ 4, 126386, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ironskin Gloves
+				{ 5, 126388, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ironskin Legguards
+				{ 7, 126571, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Helm
+				{ 8, 126573, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ironskin Spaulders
+				{ 9, 126574, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Tunic
+				{ 10, 126570, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ironskin Gloves
+				{ 11, 126572, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ironskin Legguards
 				{ 16, 126696 }, -- Warmongering Aspirant's Ironskin Helm
 				{ 17, 126698 }, -- Warmongering Aspirant's Ironskin Spaulders
 				{ 18, 126699 }, -- Warmongering Aspirant's Ironskin Tunic
@@ -218,16 +218,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125914 }, -- Warmongering Gladiator's Scaled Helm
-				{ 2, 125916 }, -- Warmongering Gladiator's Scaled Shoulders
-				{ 3, 125912 }, -- Warmongering Gladiator's Scaled Chestpiece
-				{ 4, 125913 }, -- Warmongering Gladiator's Scaled Gauntlets
-				{ 5, 125915 }, -- Warmongering Gladiator's Scaled Legguards
-				{ 7, 126100 }, -- Warmongering Combatant's Scaled Helm
-				{ 8, 126102 }, -- Warmongering Combatant's Scaled Shoulders
-				{ 9, 126098 }, -- Warmongering Combatant's Scaled Chestpiece
-				{ 10, 126099 }, -- Warmongering Combatant's Scaled Gauntlets
-				{ 11, 126101 }, -- Warmongering Combatant's Scaled Legguards
+				{ 1, 125914, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Helm
+				{ 2, 125916, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Scaled Shoulders
+				{ 3, 125912, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Chestpiece
+				{ 4, 125913, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Scaled Gauntlets
+				{ 5, 125915, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Legguards
+				{ 7, 126100, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Helm
+				{ 8, 126102, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Scaled Shoulders
+				{ 9, 126098, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Chestpiece
+				{ 10, 126099, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Scaled Gauntlets
+				{ 11, 126101, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Legguards
 				{ 16, 126225 }, -- Warmongering Aspirant's Scaled Helm
 				{ 17, 126227 }, -- Warmongering Aspirant's Scaled Shoulders
 				{ 18, 126223 }, -- Warmongering Aspirant's Scaled Chestpiece
@@ -236,16 +236,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126393 }, -- Warmongering Gladiator's Scaled Helm
-				{ 2, 126395 }, -- Warmongering Gladiator's Scaled Shoulders
-				{ 3, 126391 }, -- Warmongering Gladiator's Scaled Chestpiece
-				{ 4, 126392 }, -- Warmongering Gladiator's Scaled Gauntlets
-				{ 5, 126394 }, -- Warmongering Gladiator's Scaled Legguards
-				{ 7, 126577 }, -- Warmongering Combatant's Scaled Helm
-				{ 8, 126579 }, -- Warmongering Combatant's Scaled Shoulders
-				{ 9, 126575 }, -- Warmongering Combatant's Scaled Chestpiece
-				{ 10, 126576 }, -- Warmongering Combatant's Scaled Gauntlets
-				{ 11, 126578 }, -- Warmongering Combatant's Scaled Legguards
+				{ 1, 126393, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Helm
+				{ 2, 126395, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Scaled Shoulders
+				{ 3, 126391, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Chestpiece
+				{ 4, 126392, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Scaled Gauntlets
+				{ 5, 126394, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Scaled Legguards
+				{ 7, 126577, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Helm
+				{ 8, 126579, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Scaled Shoulders
+				{ 9, 126575, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Chestpiece
+				{ 10, 126576, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Scaled Gauntlets
+				{ 11, 126578, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Scaled Legguards
 				{ 16, 126702 }, -- Warmongering Aspirant's Scaled Helm
 				{ 17, 126704 }, -- Warmongering Aspirant's Scaled Shoulders
 				{ 18, 126700 }, -- Warmongering Aspirant's Scaled Chestpiece
@@ -256,16 +256,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125937 }, -- Warmongering Gladiator's Satin Hood
-				{ 2, 125940 }, -- Warmongering Gladiator's Satin Mantle
-				{ 3, 125939 }, -- Warmongering Gladiator's Satin Robe
-				{ 4, 125936 }, -- Warmongering Gladiator's Satin Gloves
-				{ 5, 125938 }, -- Warmongering Gladiator's Satin Leggings
-				{ 7, 126115 }, -- Warmongering Combatant's Satin Hood
-				{ 8, 126118 }, -- Warmongering Combatant's Satin Mantle
-				{ 9, 126117 }, -- Warmongering Combatant's Satin Robe
-				{ 10, 126114 }, -- Warmongering Combatant's Satin Gloves
-				{ 11, 126116 }, -- Warmongering Combatant's Satin Leggings
+				{ 1, 125937, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Hood
+				{ 2, 125940, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Satin Mantle
+				{ 3, 125939, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Robe
+				{ 4, 125936, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Satin Gloves
+				{ 5, 125938, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Leggings
+				{ 7, 126115, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Hood
+				{ 8, 126118, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Satin Mantle
+				{ 9, 126117, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Robe
+				{ 10, 126114, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Satin Gloves
+				{ 11, 126116, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Leggings
 				{ 16, 126232 }, -- Warmongering Aspirant's Satin Hood
 				{ 17, 126235 }, -- Warmongering Aspirant's Satin Mantle
 				{ 18, 126234 }, -- Warmongering Aspirant's Satin Robe
@@ -274,16 +274,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126416 }, -- Warmongering Gladiator's Satin Hood
-				{ 2, 126419 }, -- Warmongering Gladiator's Satin Mantle
-				{ 3, 126418 }, -- Warmongering Gladiator's Satin Robe
-				{ 4, 126415 }, -- Warmongering Gladiator's Satin Gloves
-				{ 5, 126417 }, -- Warmongering Gladiator's Satin Leggings
-				{ 7, 126592 }, -- Warmongering Combatant's Satin Hood
-				{ 8, 126595 }, -- Warmongering Combatant's Satin Mantle
-				{ 9, 126594 }, -- Warmongering Combatant's Satin Robe
-				{ 10, 126591 }, -- Warmongering Combatant's Satin Gloves
-				{ 11, 126593 }, -- Warmongering Combatant's Satin Leggings
+				{ 1, 126416, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Hood
+				{ 2, 126419, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Satin Mantle
+				{ 3, 126418, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Robe
+				{ 4, 126415, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Satin Gloves
+				{ 5, 126417, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Satin Leggings
+				{ 7, 126592, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Hood
+				{ 8, 126595, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Satin Mantle
+				{ 9, 126594, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Robe
+				{ 10, 126591, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Satin Gloves
+				{ 11, 126593, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Satin Leggings
 				{ 16, 126709 }, -- Warmongering Aspirant's Satin Hood
 				{ 17, 126712 }, -- Warmongering Aspirant's Satin Mantle
 				{ 18, 126711 }, -- Warmongering Aspirant's Satin Robe
@@ -294,16 +294,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125943 }, -- Warmongering Gladiator's Leather Helm
-				{ 2, 125945 }, -- Warmongering Gladiator's Leather Spaulders
-				{ 3, 125941 }, -- Warmongering Gladiator's Leather Tunic
-				{ 4, 125942 }, -- Warmongering Gladiator's Leather Gloves
-				{ 5, 125944 }, -- Warmongering Gladiator's Leather Legguards
-				{ 7, 126121 }, -- Warmongering Combatant's Leather Helm
-				{ 8, 126123 }, -- Warmongering Combatant's Leather Spaulders
-				{ 9, 126119 }, -- Warmongering Combatant's Leather Tunic
-				{ 10, 126120 }, -- Warmongering Combatant's Leather Gloves
-				{ 11, 126122 }, -- Warmongering Combatant's Leather Legguards
+				{ 1, 125943, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Helm
+				{ 2, 125945, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Leather Spaulders
+				{ 3, 125941, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Tunic
+				{ 4, 125942, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Leather Gloves
+				{ 5, 125944, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Legguards
+				{ 7, 126121, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Helm
+				{ 8, 126123, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Leather Spaulders
+				{ 9, 126119, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Tunic
+				{ 10, 126120, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Leather Gloves
+				{ 11, 126122, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Legguards
 				{ 16, 126238 }, -- Warmongering Aspirant's Leather Helm
 				{ 17, 126240 }, -- Warmongering Aspirant's Leather Spaulders
 				{ 18, 126236 }, -- Warmongering Aspirant's Leather Tunic
@@ -312,16 +312,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126422 }, -- Warmongering Gladiator's Leather Helm
-				{ 2, 126424 }, -- Warmongering Gladiator's Leather Spaulders
-				{ 3, 126420 }, -- Warmongering Gladiator's Leather Tunic
-				{ 4, 126421 }, -- Warmongering Gladiator's Leather Gloves
-				{ 5, 126423 }, -- Warmongering Gladiator's Leather Legguards
-				{ 7, 126598 }, -- Warmongering Combatant's Leather Helm
-				{ 8, 126600 }, -- Warmongering Combatant's Leather Spaulders
-				{ 9, 126596 }, -- Warmongering Combatant's Leather Tunic
-				{ 10, 126597 }, -- Warmongering Combatant's Leather Gloves
-				{ 11, 126599 }, -- Warmongering Combatant's Leather Legguards
+				{ 1, 126422, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Helm
+				{ 2, 126424, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Leather Spaulders
+				{ 3, 126420, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Tunic
+				{ 4, 126421, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Leather Gloves
+				{ 5, 126423, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leather Legguards
+				{ 7, 126598, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Helm
+				{ 8, 126600, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Leather Spaulders
+				{ 9, 126596, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Tunic
+				{ 10, 126597, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Leather Gloves
+				{ 11, 126599, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Leather Legguards
 				{ 16, 126715 }, -- Warmongering Aspirant's Leather Helm
 				{ 17, 126717 }, -- Warmongering Aspirant's Leather Spaulders
 				{ 18, 126713 }, -- Warmongering Aspirant's Leather Tunic
@@ -332,16 +332,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125948 }, -- Warmongering Gladiator's Ringmail Helm
-				{ 2, 125950 }, -- Warmongering Gladiator's Ringmail Spaulders
-				{ 3, 125946 }, -- Warmongering Gladiator's Ringmail Armor
-				{ 4, 125947 }, -- Warmongering Gladiator's Ringmail Gauntlets
-				{ 5, 125949 }, -- Warmongering Gladiator's Ringmail Kilt
-				{ 7, 126126 }, -- Warmongering Combatant's Ringmail Helm
-				{ 8, 126128 }, -- Warmongering Combatant's Ringmail Spaulders
-				{ 9, 126124 }, -- Warmongering Combatant's Ringmail Armor
-				{ 10, 126125 }, -- Warmongering Combatant's Ringmail Gauntlets
-				{ 11, 126127 }, -- Warmongering Combatant's Ringmail Leggings
+				{ 1, 125948, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Helm
+				{ 2, 125950, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ringmail Spaulders
+				{ 3, 125946, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Armor
+				{ 4, 125947, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ringmail Gauntlets
+				{ 5, 125949, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Kilt
+				{ 7, 126126, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Helm
+				{ 8, 126128, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ringmail Spaulders
+				{ 9, 126124, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Armor
+				{ 10, 126125, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ringmail Gauntlets
+				{ 11, 126127, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Leggings
 				{ 16, 126243 }, -- Warmongering Aspirant's Ringmail Helm
 				{ 17, 126245 }, -- Warmongering Aspirant's Ringmail Spaulders
 				{ 18, 126241 }, -- Warmongering Aspirant's Ringmail Armor
@@ -350,16 +350,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126427 }, -- Warmongering Gladiator's Ringmail Helm
-				{ 2, 126429 }, -- Warmongering Gladiator's Ringmail Spaulders
-				{ 3, 126425 }, -- Warmongering Gladiator's Ringmail Armor
-				{ 4, 126426 }, -- Warmongering Gladiator's Ringmail Gauntlets
-				{ 5, 126428 }, -- Warmongering Gladiator's Ringmail Kilt
-				{ 7, 126603 }, -- Warmongering Combatant's Ringmail Helm
-				{ 8, 126605 }, -- Warmongering Combatant's Ringmail Spaulders
-				{ 9, 126601 }, -- Warmongering Combatant's Ringmail Armor
-				{ 10, 126602 }, -- Warmongering Combatant's Ringmail Gauntlets
-				{ 11, 126604 }, -- Warmongering Combatant's Ringmail Leggings
+				{ 1, 126427, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Helm
+				{ 2, 126429, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ringmail Spaulders
+				{ 3, 126425, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Armor
+				{ 4, 126426, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ringmail Gauntlets
+				{ 5, 126428, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Ringmail Kilt
+				{ 7, 126603, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Helm
+				{ 8, 126605, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ringmail Spaulders
+				{ 9, 126601, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Armor
+				{ 10, 126602, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ringmail Gauntlets
+				{ 11, 126604, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Ringmail Leggings
 				{ 16, 126720 }, -- Warmongering Aspirant's Ringmail Helm
 				{ 17, 126722 }, -- Warmongering Aspirant's Ringmail Spaulders
 				{ 18, 126718 }, -- Warmongering Aspirant's Ringmail Armor
@@ -370,16 +370,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125990 }, -- Warmongering Gladiator's Felweave Cowl
-				{ 2, 125993 }, -- Warmongering Gladiator's Felweave Amice
-				{ 3, 125992 }, -- Warmongering Gladiator's Felweave Raiment
-				{ 4, 125989 }, -- Warmongering Gladiator's Felweave Handguards
-				{ 5, 125991 }, -- Warmongering Gladiator's Felweave Trousers
-				{ 7, 126168 }, -- Warmongering Combatant's Felweave Cowl
-				{ 8, 126171 }, -- Warmongering Combatant's Felweave Amice
-				{ 9, 126170 }, -- Warmongering Combatant's Felweave Raiment
-				{ 10, 126167 }, -- Warmongering Combatant's Felweave Handguards
-				{ 11, 126169 }, -- Warmongering Combatant's Felweave Trousers
+				{ 1, 125990, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Cowl
+				{ 2, 125993, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Felweave Amice
+				{ 3, 125992, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Raiment
+				{ 4, 125989, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Felweave Handguards
+				{ 5, 125991, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Trousers
+				{ 7, 126168, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Cowl
+				{ 8, 126171, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Felweave Amice
+				{ 9, 126170, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Raiment
+				{ 10, 126167, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Felweave Handguards
+				{ 11, 126169, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Trousers
 				{ 16, 126259 }, -- Warmongering Aspirant's Felweave Cowl
 				{ 17, 126262 }, -- Warmongering Aspirant's Felweave Amice
 				{ 18, 126261 }, -- Warmongering Aspirant's Felweave Raiment
@@ -388,16 +388,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126467 }, -- Warmongering Gladiator's Felweave Cowl
-				{ 2, 126470 }, -- Warmongering Gladiator's Felweave Amice
-				{ 3, 126469 }, -- Warmongering Gladiator's Felweave Raiment
-				{ 4, 126466 }, -- Warmongering Gladiator's Felweave Handguards
-				{ 5, 126468 }, -- Warmongering Gladiator's Felweave Trousers
-				{ 7, 126645 }, -- Warmongering Combatant's Felweave Cowl
-				{ 8, 126648 }, -- Warmongering Combatant's Felweave Amice
-				{ 9, 126647 }, -- Warmongering Combatant's Felweave Raiment
-				{ 10, 126644 }, -- Warmongering Combatant's Felweave Handguards
-				{ 11, 126646 }, -- Warmongering Combatant's Felweave Trousers
+				{ 1, 126467, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Cowl
+				{ 2, 126470, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Felweave Amice
+				{ 3, 126469, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Raiment
+				{ 4, 126466, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Felweave Handguards
+				{ 5, 126468, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Felweave Trousers
+				{ 7, 126645, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Cowl
+				{ 8, 126648, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Felweave Amice
+				{ 9, 126647, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Raiment
+				{ 10, 126644, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Felweave Handguards
+				{ 11, 126646, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Felweave Trousers
 				{ 16, 126736 }, -- Warmongering Aspirant's Felweave Cowl
 				{ 17, 126739 }, -- Warmongering Aspirant's Felweave Amice
 				{ 18, 126738 }, -- Warmongering Aspirant's Felweave Raiment
@@ -408,16 +408,16 @@ data["WODS3SETS"] = {
 		{
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 125996 }, -- Warmongering Gladiator's Plate Helm
-				{ 2, 125998 }, -- Warmongering Gladiator's Plate Shoulders
-				{ 3, 125994 }, -- Warmongering Gladiator's Plate Chestpiece
-				{ 4, 125995 }, -- Warmongering Gladiator's Plate Gauntlets
-				{ 5, 125997 }, -- Warmongering Gladiator's Plate Legguards
-				{ 7, 126174 }, -- Warmongering Combatant's Plate Helm
-				{ 8, 126176 }, -- Warmongering Combatant's Plate Shoulders
-				{ 9, 126172 }, -- Warmongering Combatant's Plate Chestpiece
-				{ 10, 126173 }, -- Warmongering Combatant's Plate Gauntlets
-				{ 11, 126175 }, -- Warmongering Combatant's Plate Legguards
+				{ 1, 125996, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Helm
+				{ 2, 125998, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Shoulders
+				{ 3, 125994, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Chestpiece
+				{ 4, 125995, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Gauntlets
+				{ 5, 125997, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Legguards
+				{ 7, 126174, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Helm
+				{ 8, 126176, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Plate Shoulders
+				{ 9, 126172, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Chestpiece
+				{ 10, 126173, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Plate Gauntlets
+				{ 11, 126175, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Legguards
 				{ 16, 126265 }, -- Warmongering Aspirant's Plate Helm
 				{ 17, 126267 }, -- Warmongering Aspirant's Plate Shoulders
 				{ 18, 126263 }, -- Warmongering Aspirant's Plate Chestpiece
@@ -426,16 +426,16 @@ data["WODS3SETS"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 126473 }, -- Warmongering Gladiator's Plate Helm
-				{ 2, 126475 }, -- Warmongering Gladiator's Plate Shoulders
-				{ 3, 126471 }, -- Warmongering Gladiator's Plate Chestpiece
-				{ 4, 126472 }, -- Warmongering Gladiator's Plate Gauntlets
-				{ 5, 126474 }, -- Warmongering Gladiator's Plate Legguards
-				{ 7, 126651 }, -- Warmongering Combatant's Plate Helm
-				{ 8, 126653 }, -- Warmongering Combatant's Plate Shoulders
-				{ 9, 126649 }, -- Warmongering Combatant's Plate Chestpiece
-				{ 10, 126650 }, -- Warmongering Combatant's Plate Gauntlets
-				{ 11, 126652 }, -- Warmongering Combatant's Plate Legguards
+				{ 1, 126473, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Helm
+				{ 2, 126475, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Shoulders
+				{ 3, 126471, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Chestpiece
+				{ 4, 126472, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Gauntlets
+				{ 5, 126474, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Legguards
+				{ 7, 126651, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Helm
+				{ 8, 126653, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Plate Shoulders
+				{ 9, 126649, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Chestpiece
+				{ 10, 126650, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Plate Gauntlets
+				{ 11, 126652, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Plate Legguards
 				{ 16, 126742 }, -- Warmongering Aspirant's Plate Helm
 				{ 17, 126744 }, -- Warmongering Aspirant's Plate Shoulders
 				{ 18, 126740 }, -- Warmongering Aspirant's Plate Chestpiece
@@ -453,37 +453,37 @@ data["WODS3NONSETGEAR"] = {
 			name = ALIL["Cloth"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
-				{ 1, 125816 }, -- Warmongering Gladiator's Hood of Prowess
-				{ 2, 125821 }, -- Warmongering Gladiator's Cowl of Cruelty
-				{ 4, 125819 }, -- Warmongering Gladiator's Amice of Prowess
-				{ 5, 125824 }, -- Warmongering Gladiator's Mantle of Cruelty
-				{ 7, 125818 }, -- Warmongering Gladiator's Robes of Prowess
-				{ 8, 125823 }, -- Warmongering Gladiator's Raiment of Cruelty
-				{ 10, 125815 }, -- Warmongering Gladiator's Gloves of Prowess
-				{ 11, 125820 }, -- Warmongering Gladiator's Handguards of Cruelty
-				{ 16, 125812 }, -- Warmongering Gladiator's Cuffs of Prowess
-				{ 17, 125813 }, -- Warmongering Gladiator's Cuffs of Cruelty
-				{ 18, 125814 }, -- Warmongering Gladiator's Cuffs of Victory
-				{ 19, 125817 }, -- Warmongering Gladiator's Leggings of Prowess
-				{ 20, 125822 }, -- Warmongering Gladiator's Trousers of Cruelty
-				{ 22, 125806 }, -- Warmongering Gladiator's Cord of Cruelty
-				{ 23, 125807 }, -- Warmongering Gladiator's Cord of Prowess
-				{ 24, 125808 }, -- Warmongering Gladiator's Cord of Victory
-				{ 26, 125809 }, -- Warmongering Gladiator's Treads of Cruelty
-				{ 27, 125810 }, -- Warmongering Gladiator's Treads of Prowess
-				{ 28, 125811 }, -- Warmongering Gladiator's Treads of Victory
+				{ 1, 125816, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Hood of Prowess
+				{ 2, 125821, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Cowl of Cruelty
+				{ 4, 125819, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Amice of Prowess
+				{ 5, 125824, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Mantle of Cruelty
+				{ 7, 125818, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Robes of Prowess
+				{ 8, 125823, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Raiment of Cruelty
+				{ 10, 125815, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves of Prowess
+				{ 11, 125820, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Handguards of Cruelty
+				{ 16, 125812, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Prowess
+				{ 17, 125813, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Cruelty
+				{ 18, 125814, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Victory
+				{ 20, 125817, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings of Prowess
+				{ 21, 125822, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Trousers of Cruelty
+				{ 23, 125806, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Cruelty
+				{ 24, 125807, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Prowess
+				{ 25, 125808, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Victory
+				{ 27, 125809, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Cruelty
+				{ 28, 125810, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Prowess
+				{ 29, 125811, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Victory
 				-- ilvl 680
 				{ 101, 126023 }, -- Warmongering Combatant's Hood of Prowess
 				{ 103, 126026 }, -- Warmongering Combatant's Amice of Prowess
 				{ 105, 126025 }, -- Warmongering Combatant's Robes of Prowess
 				{ 107, 126022 }, -- Warmongering Combatant's Gloves of Prowess
-				{ 109, 126020 }, -- Warmongering Combatant's Cuffs of Prowess
-				{ 110, 126021 }, -- Warmongering Combatant's Cuffs of Cruelty
+				{ 109, 126020, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cuffs of Prowess
+				{ 110, 126021, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cuffs of Cruelty
 				{ 112, 126024 }, -- Warmongering Combatant's Leggings of Prowess
-				{ 114, 126016 }, -- Warmongering Combatant's Cord of Cruelty
-				{ 115, 126017 }, -- Warmongering Combatant's Cord of Prowess
-				{ 116, 126018 }, -- Warmongering Combatant's Treads of Cruelty
-				{ 117, 126019 }, -- Warmongering Combatant's Treads of Prowess
+				{ 114, 126016, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cord of Cruelty
+				{ 115, 126017, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cord of Prowess
+				{ 116, 126018, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Treads of Cruelty
+				{ 117, 126019, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Treads of Prowess
 				-- ilvl 625
 				{ 119, 126183 }, -- Warmongering Aspirant's Cuffs of Prowess
 				{ 121, 126181 }, -- Warmongering Aspirant's Cord of Cruelty
@@ -491,148 +491,600 @@ data["WODS3NONSETGEAR"] = {
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
-				{ 1, 126295 }, -- Warmongering Gladiator's Hood of Prowess
-				{ 2, 126300 }, -- Warmongering Gladiator's Cowl of Cruelty
-				{ 4, 126298 }, -- Warmongering Gladiator's Amice of Prowess
-				{ 5, 126303 }, -- Warmongering Gladiator's Mantle of Cruelty
-				{ 7, 126297 }, -- Warmongering Gladiator's Robes of Prowess
-				{ 8, 126302 }, -- Warmongering Gladiator's Raiment of Cruelty
-				{ 10, 126294 }, -- Warmongering Gladiator's Gloves of Prowess
-				{ 11, 126299 }, -- Warmongering Gladiator's Handguards of Cruelty
-				{ 16, 126291 }, -- Warmongering Gladiator's Cuffs of Prowess
-				{ 17, 126292 }, -- Warmongering Gladiator's Cuffs of Cruelty
-				{ 18, 126293 }, -- Warmongering Gladiator's Cuffs of Victory
-				{ 19, 126296 }, -- Warmongering Gladiator's Leggings of Prowess
-				{ 20, 126301 }, -- Warmongering Gladiator's Trousers of Cruelty
-				{ 22, 126285 }, -- Warmongering Gladiator's Cord of Cruelty
-				{ 23, 126286 }, -- Warmongering Gladiator's Cord of Prowess
-				{ 24, 126287 }, -- Warmongering Gladiator's Cord of Victory
-				{ 26, 126288 }, -- Warmongering Gladiator's Treads of Cruelty
-				{ 27, 126289 }, -- Warmongering Gladiator's Treads of Prowess
-				{ 28, 126290 }, -- Warmongering Gladiator's Treads of Victory
+				{ 1, 126295, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Hood of Prowess
+				{ 2, 126300, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Cowl of Cruelty
+				{ 4, 126298, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Amice of Prowess
+				{ 5, 126303, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Mantle of Cruelty
+				{ 7, 126297, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Robes of Prowess
+				{ 8, 126302, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Raiment of Cruelty
+				{ 10, 126294, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves of Prowess
+				{ 11, 126299, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Handguards of Cruelty
+				{ 16, 126291, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Prowess
+				{ 17, 126292, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Cruelty
+				{ 18, 126293, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cuffs of Victory
+				{ 20, 126296, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings of Prowess
+				{ 21, 126301, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Trousers of Cruelty
+				{ 23, 126285, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Cruelty
+				{ 24, 126286, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Prowess
+				{ 25, 126287, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cord of Victory
+				{ 27, 126288, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Cruelty
+				{ 28, 126289, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Prowess
+				{ 29, 126290, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Treads of Victory
 				-- ilvl 680
 				{ 101, 126500 }, -- Warmongering Combatant's Hood of Prowess
 				{ 103, 126503 }, -- Warmongering Combatant's Amice of Prowess
 				{ 105, 126502 }, -- Warmongering Combatant's Robes of Prowess
 				{ 107, 126499 }, -- Warmongering Combatant's Gloves of Prowess
-				{ 109, 126497 }, -- Warmongering Combatant's Cuffs of Prowess
-				{ 110, 126498 }, -- Warmongering Combatant's Cuffs of Cruelty
+				{ 109, 126497, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cuffs of Prowess
+				{ 110, 126498, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cuffs of Cruelty
 				{ 112, 126501 }, -- Warmongering Combatant's Leggings of Prowess
-				{ 114, 126493 }, -- Warmongering Combatant's Cord of Cruelty
-				{ 115, 126494 }, -- Warmongering Combatant's Cord of Prowess
-				{ 116, 126495 }, -- Warmongering Combatant's Treads of Cruelty
-				{ 117, 126496 }, -- Warmongering Combatant's Treads of Prowess
+				{ 114, 126493, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cord of Cruelty
+				{ 115, 126494, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cord of Prowess
+				{ 116, 126495, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Treads of Cruelty
+				{ 117, 126496, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Treads of Prowess
 				-- ilvl 625
 				{ 119, 126660 }, -- Warmongering Aspirant's Cuffs of Prowess
 				{ 121, 126658 }, -- Warmongering Aspirant's Cord of Cruelty
 				{ 123, 126659 }, -- Warmongering Aspirant's Treads of Cruelty
 			},
 		},
---[[		{
+		{
 			name = ALIL["Leather"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125875, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
+				{ 2, 125880, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Headcover
+				{ 4, 125877, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Spaulders
+				{ 5, 125882, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pauldrons
+				{ 7, 125873, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Tunic
+				{ 8, 125878, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chestguard
+				{ 10, 125874, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves
+				{ 11, 125879, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Grips
+				{ 16, 125870, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Cruelty
+				{ 17, 125871, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Prowess
+				{ 18, 125872, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Victory
+				{ 20, 125876, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Legguards
+				{ 21, 125881, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 23, 125864, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Prowess
+				{ 24, 125865, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Cruelty
+				{ 25, 125866, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Victory
+				{ 27, 125867, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Cruelty
+				{ 28, 125868, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Prowess
+				{ 29, 125869, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Victory
 				-- ilvl 680
+				{ 101, 126074 }, -- Warmongering Combatant's Helm
+				{ 103, 126076 }, -- Warmongering Combatant's Spaulders
+				{ 105, 126072 }, -- Warmongering Combatant's Tunic
+				{ 107, 126073 }, -- Warmongering Combatant's Gloves
+				{ 109, 126070, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Bindings of Cruelty
+				{ 110, 126071, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Bindings of Prowess
+				{ 112, 126075 }, -- Warmongering Combatant's Legguards
+				{ 114, 126066, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Belt of Prowess
+				{ 115, 126067, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Belt of Cruelty
+				{ 116, 126068, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Boots of Cruelty
+				{ 117, 126069, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Boots of Prowess
 				-- ilvl 625
+				{ 119, 126209 }, -- Warmongering Aspirant's Bindings of Cruelty
+				{ 121, 126207 }, -- Warmongering Aspirant's Belt of Prowess
+				{ 123, 126208 }, -- Warmongering Aspirant's Boots of Cruelty
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126354, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
+				{ 2, 126359, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Headcover
+				{ 4, 126356, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Spaulders
+				{ 5, 126361, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pauldrons
+				{ 7, 126352, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Tunic
+				{ 8, 126357, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chestguard
+				{ 10, 126353, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves
+				{ 11, 126358, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Grips
+				{ 16, 126349, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Cruelty
+				{ 17, 126350, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Prowess
+				{ 18, 126351, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Bindings of Victory
+				{ 20, 126355, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Legguards
+				{ 21, 126360, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 23, 126343, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Prowess
+				{ 24, 126344, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Cruelty
+				{ 25, 126345, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Belt of Victory
+				{ 27, 126346, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Cruelty
+				{ 28, 126347, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Prowess
+				{ 29, 126348, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Boots of Victory
 				-- ilvl 680
+				{ 101, 126551 }, -- Warmongering Combatant's Helm
+				{ 103, 126553 }, -- Warmongering Combatant's Spaulders
+				{ 105, 126549 }, -- Warmongering Combatant's Tunic
+				{ 107, 126550 }, -- Warmongering Combatant's Gloves
+				{ 109, 126547, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Bindings of Cruelty
+				{ 110, 126548, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Bindings of Prowess
+				{ 112, 126552 }, -- Warmongering Combatant's Legguards
+				{ 114, 126543, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Belt of Prowess
+				{ 115, 126544, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Belt of Cruelty
+				{ 116, 126545, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Boots of Cruelty
+				{ 117, 126546, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Boots of Prowess
 				-- ilvl 625
+				{ 119, 126686 }, -- Warmongering Aspirant's Bindings of Cruelty
+				{ 121, 126684 }, -- Warmongering Aspirant's Belt of Prowess
+				{ 123, 126685 }, -- Warmongering Aspirant's Boots of Cruelty
 			},
 		},
 		{
 			name = ALIL["Mail"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125899, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
+				{ 2, 125904, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Coif
+				{ 4, 125901, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Spaulders
+				{ 5, 125906, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pauldrons
+				{ 7, 125897, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Armor
+				{ 8, 125902, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chestguard
+				{ 10, 125898, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gauntlets
+				{ 11, 125903, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves
+				{ 16, 125894, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Prowess
+				{ 17, 125895, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Cruelty
+				{ 18, 125896, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Victory
+				{ 20, 125900, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 21, 125905, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 23, 125888, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Cruelty
+				{ 24, 125889, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Prowess
+				{ 25, 125890, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Victory
+				{ 27, 125891, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Cruelty
+				{ 28, 125892, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Prowess
+				{ 29, 125893, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Victory
 				-- ilvl 680
+				{ 101, 126090 }, -- Warmongering Combatant's Helm
+				{ 103, 126092 }, -- Warmongering Combatant's Spaulders
+				{ 105, 126088 }, -- Warmongering Combatant's Armor
+				{ 107, 126089 }, -- Warmongering Combatant's Gauntlets
+				{ 109, 126086, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armbands of Prowess
+				{ 110, 126087, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armbands of Cruelty
+				{ 112, 126091 }, -- Warmongering Combatant's Leggings
+				{ 114, 126082, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Waistguard of Cruelty
+				{ 115, 126083, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Waistguard of Prowess
+				{ 116, 126084, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Footguards of Cruelty
+				{ 117, 126085, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Footguards of Prowess
 				-- ilvl 625
+				{ 119, 126217 }, -- Warmongering Aspirant's Armbands of Prowess
+				{ 121, 126215 }, -- Warmongering Aspirant's Waistguard of Cruelty
+				{ 123, 126216 }, -- Warmongering Aspirant's Footguards of Cruelty
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126378, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
+				{ 2, 126383, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Coif
+				{ 4, 126380, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Spaulders
+				{ 5, 126385, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pauldrons
+				{ 7, 126376, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Armor
+				{ 8, 126381, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Chestguard
+				{ 10, 126377, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gauntlets
+				{ 11, 126382, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Gloves
+				{ 16, 126373, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Prowess
+				{ 17, 126374, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Cruelty
+				{ 18, 126375, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armbands of Victory
+				{ 20, 126379, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 21, 126384, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Leggings
+				{ 23, 126367, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Cruelty
+				{ 24, 126368, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Prowess
+				{ 25, 126369, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Waistguard of Victory
+				{ 27, 126370, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Cruelty
+				{ 28, 126371, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Prowess
+				{ 29, 126372, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Footguards of Victory
 				-- ilvl 680
+				{ 101, 126567 }, -- Warmongering Combatant's Helm
+				{ 103, 126569 }, -- Warmongering Combatant's Spaulders
+				{ 105, 126565 }, -- Warmongering Combatant's Armor
+				{ 107, 126566 }, -- Warmongering Combatant's Gauntlets
+				{ 109, 126563, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armbands of Prowess
+				{ 110, 126564, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armbands of Cruelty
+				{ 112, 126568 }, -- Warmongering Combatant's Leggings
+				{ 114, 126559, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Waistguard of Cruelty
+				{ 115, 126560, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Waistguard of Prowess
+				{ 116, 126561, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Footguards of Cruelty
+				{ 117, 126562, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Footguards of Prowess
 				-- ilvl 625
+				{ 119, 126694 }, -- Warmongering Aspirant's Armbands of Prowess
+				{ 121, 126692 }, -- Warmongering Aspirant's Waistguard of Cruelty
+				{ 123, 126693 }, -- Warmongering Aspirant's Footguards of Cruelty
 			},
 		},
 		{
 			name = ALIL["Plate"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125928, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Helmet
+				{ 2, 125933, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Visor
+				{ 4, 125930, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Shoulderplates
+				{ 5, 125935, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Pauldrons
+				{ 7, 125926, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Breastplate
+				{ 8, 125931, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Chestguard
+				{ 10, 125927, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Gloves
+				{ 11, 125932, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Grips
+				{ 16, 125923, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Cruelty
+				{ 17, 125924, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Prowess
+				{ 18, 125925, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Victory
+				{ 20, 125929, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Legplates
+				{ 21, 125934, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Leggings
+				{ 22, 125917, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Cruelty
+				{ 23, 125918, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Prowess
+				{ 24, 125919, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Victory
+				{ 26, 125920, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Cruelty
+				{ 27, 125921, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Prowess
+				{ 28, 125922, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Victory
 				-- ilvl 680
+				{ 101, 126111 }, -- Warmongering Combatant's Plate Helmet
+				{ 103, 126113 }, -- Warmongering Combatant's Shoulderplates
+				{ 105, 126109 }, -- Warmongering Combatant's Plate Breastplate
+				{ 107, 126110 }, -- Warmongering Combatant's Plate Gloves
+				{ 109, 126107, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armplates of Cruelty
+				{ 110, 126108, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armplates of Prowess
+				{ 112, 126112 }, -- Warmongering Combatant's Legplates
+				{ 114, 126103, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Girdle of Cruelty
+				{ 115, 126104, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Girdle of Prowess
+				{ 116, 126105, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Warboots of Cruelty
+				{ 117, 126106, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Warboots of Prowess
 				-- ilvl 625
+				{ 119, 126230 }, -- Warmongering Aspirant's Armplates of Cruelty
+				{ 121, 126228 }, -- Warmongering Aspirant's Girdle of Cruelty
+				{ 123, 126229 }, -- Warmongering Aspirant's Warboots of Cruelty
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126407, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Helmet
+				{ 2, 126412, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Visor
+				{ 4, 126409, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Shoulderplates
+				{ 5, 126414, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Pauldrons
+				{ 7, 126405, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Breastplate
+				{ 8, 126410, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Chestguard
+				{ 10, 126406, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Gloves
+				{ 11, 126411, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Plate Grips
+				{ 16, 126402, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Cruelty
+				{ 17, 126403, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Prowess
+				{ 18, 126404, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Armplates of Victory
+				{ 20, 126408, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Legplates
+				{ 21, 126413, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Leggings
+				{ 23, 126396, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Cruelty
+				{ 24, 126397, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Prowess
+				{ 25, 126398, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Girdle of Victory
+				{ 27, 126399, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Cruelty
+				{ 28, 126400, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Prowess
+				{ 29, 126401, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Warboots of Victory
 				-- ilvl 680
+				{ 101, 126588 }, -- Warmongering Combatant's Plate Helmet
+				{ 103, 126590 }, -- Warmongering Combatant's Shoulderplates
+				{ 105, 126586 }, -- Warmongering Combatant's Plate Breastplate
+				{ 107, 126587 }, -- Warmongering Combatant's Plate Gloves
+				{ 109, 126584, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armplates of Cruelty
+				{ 110, 126585, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Armplates of Prowess
+				{ 112, 126589 }, -- Warmongering Combatant's Legplates
+				{ 114, 126580, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Girdle of Cruelty
+				{ 115, 126581, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Girdle of Prowess
+				{ 116, 126582, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Warboots of Cruelty
+				{ 117, 126583, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Warboots of Prowess
 				-- ilvl 625
+				{ 119, 126707 }, -- Warmongering Aspirant's Armplates of Cruelty
+				{ 121, 126705 }, -- Warmongering Aspirant's Girdle of Cruelty
+				{ 123, 126706 }, -- Warmongering Aspirant's Warboots of Cruelty
 			},
 		},
 		{
 			name = AL["Amulets"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125801, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Necklace of Cruelty
+				{ 2, 125802, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Necklace of Prowess
+				{ 3, 125851, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Cruelty
+				{ 4, 125852, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Prowess
+				{ 5, 125853, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Meditation
+				{ 6, 125854, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Contemplation
+				{ 7, 125960, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Cruelty
+				{ 8, 125961, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Prowess
+				{ 9, 125967, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Endurance
 				-- ilvl 680
+				{ 16, 126011, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Necklace of Cruelty
+				{ 17, 126012, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Necklace of Prowess
+				{ 18, 126053, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Cruelty
+				{ 19, 126054, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Prowess
+				{ 20, 126055, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Meditation
+				{ 21, 126056, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Contemplation
+				{ 22, 126138, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Cruelty
+				{ 23, 126139, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Prowess
+				{ 24, 126164, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Endurance
 				-- ilvl 625
+				{ 11, 126178 }, -- Warmongering Aspirant's Necklace of Cruelty
+				{ 12, 126201 }, -- Warmongering Aspirant's Pendant of Cruelty
+				{ 13, 126202 }, -- Warmongering Aspirant's Pendant of Meditation
+				{ 14, 126247 }, -- Warmongering Aspirant's Choker of Cruelty
+				{ 15, 126250 }, -- Warmongering Aspirant's Choker of Endurance
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126280, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Necklace of Cruelty
+				{ 2, 126281, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Necklace of Prowess
+				{ 3, 126330, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Cruelty
+				{ 4, 126331, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Prowess
+				{ 5, 126332, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Meditation
+				{ 6, 126333, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Pendant of Contemplation
+				{ 7, 126439, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Cruelty
+				{ 8, 126440, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Prowess
+				{ 9, 126446, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Choker of Endurance
 				-- ilvl 680
+				{ 16, 126488, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Necklace of Cruelty
+				{ 17, 126489, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Necklace of Prowess
+				{ 18, 126530, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Cruelty
+				{ 19, 126531, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Prowess
+				{ 20, 126532, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Meditation
+				{ 21, 126533, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Pendant of Contemplation
+				{ 22, 126615, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Cruelty
+				{ 23, 126616, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Prowess
+				{ 24, 126641, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Choker of Endurance
 				-- ilvl 625
+				{ 11, 126655 }, -- Warmongering Aspirant's Necklace of Cruelty
+				{ 12, 126678 }, -- Warmongering Aspirant's Pendant of Cruelty
+				{ 13, 126679 }, -- Warmongering Aspirant's Pendant of Meditation
+				{ 14, 126724 }, -- Warmongering Aspirant's Choker of Cruelty
+				{ 15, 126727 }, -- Warmongering Aspirant's Choker of Endurance
 			},
 		},
 		{
 			name = AL["Cloaks"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125799, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cape of Cruelty
+				{ 2, 125800, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cape of Prowess
+				{ 3, 125847, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Cruelty
+				{ 4, 125848, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Prowess
+				{ 5, 125849, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Meditation
+				{ 6, 125850, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Contemplation
+				{ 7, 125958, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Cruelty
+				{ 8, 125959, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Prowess
+				{ 9, 125966, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Endurance
 				-- ilvl 680
+				{ 16, 126009, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cape of Cruelty
+				{ 17, 126010, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cape of Prowess
+				{ 18, 126049, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Cruelty
+				{ 19, 126050, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Prowess
+				{ 20, 126051, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Meditation
+				{ 21, 126052, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Contemplation
+				{ 22, 126136, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Cruelty
+				{ 23, 126137, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Prowess
+				{ 24, 126163, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Endurance
 				-- ilvl 625
+				{ 11, 126177 }, -- Warmongering Aspirant's Cape of Cruelty
+				{ 12, 126199 }, -- Warmongering Aspirant's Drape of Cruelty
+				{ 13, 126200 }, -- Warmongering Aspirant's Drape of Meditation
+				{ 14, 126246 }, -- Warmongering Aspirant's Cloak of Cruelty
+				{ 15, 126249 }, -- Warmongering Aspirant's Cloak of Endurance
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126278, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cape of Cruelty
+				{ 2, 126279, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cape of Prowess
+				{ 3, 126326, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Cruelty
+				{ 4, 126327, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Prowess
+				{ 5, 126328, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Meditation
+				{ 6, 126329, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Drape of Contemplation
+				{ 7, 126437, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Cruelty
+				{ 8, 126438, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Prowess
+				{ 9, 126445, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Cloak of Endurance
 				-- ilvl 680
+				{ 16, 126486, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cape of Cruelty
+				{ 17, 126487, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cape of Prowess
+				{ 18, 126526, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Cruelty
+				{ 19, 126527, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Prowess
+				{ 20, 126528, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Meditation
+				{ 21, 126529, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Drape of Contemplation
+				{ 22, 126613, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Cruelty
+				{ 23, 126614, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Prowess
+				{ 24, 126640, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Cloak of Endurance
 				-- ilvl 625
+				{ 11, 126654 }, -- Warmongering Aspirant's Cape of Cruelty
+				{ 12, 126676 }, -- Warmongering Aspirant's Drape of Cruelty
+				{ 13, 126677 }, -- Warmongering Aspirant's Drape of Meditation
+				{ 14, 126723 }, -- Warmongering Aspirant's Cloak of Cruelty
+				{ 15, 126726 }, -- Warmongering Aspirant's Cloak of Endurance
 			},
 		},
 		{
 			name = AL["Rings"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125803, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Cruelty
+				{ 2, 125804, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Prowess
+				{ 3, 125805, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Triumph
+				{ 4, 125857, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Cruelty
+				{ 5, 125858, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Prowess
+				{ 6, 125859, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Victory
+				{ 7, 125860, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Meditation
+				{ 8, 125861, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Contemplation
+				{ 9, 125962, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Cruelty
+				{ 10, 125963, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Accuracy
+				{ 11, 125964, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Ruthlessness
+				{ 12, 125968, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Dedication
+				{ 13, 125969, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Endurance
 				-- ilvl 680
+				{ 16, 126013, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Cruelty
+				{ 17, 126014, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Prowess
+				{ 18, 126015, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Triumph
+				{ 19, 126059, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Cruelty
+				{ 20, 126060, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Prowess
+				{ 21, 126061, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Victory
+				{ 22, 126062, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Meditation
+				{ 23, 126063, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Contemplation
+				{ 24, 126140, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Cruelty
+				{ 25, 126141, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Accuracy
+				{ 26, 126142, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Ruthlessness
+				{ 27, 126165, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Dedication
+				{ 28, 126166, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Endurance
 				-- ilvl 625
+				{ 101, 126179 }, -- Warmongering Aspirant's Ring of Cruelty
+				{ 102, 126180 }, -- Warmongering Aspirant's Ring of Prowess
+				{ 103, 126203 }, -- Warmongering Aspirant's Band of Cruelty
+				{ 104, 126204 }, -- Warmongering Aspirant's Band of Prowess
+				{ 105, 126205 }, -- Warmongering Aspirant's Band of Meditation
+				{ 106, 126206 }, -- Warmongering Aspirant's Band of Contemplation
+				{ 107, 126248 }, -- Warmongering Aspirant's Signet of Cruelty
+				{ 108, 126251 }, -- Warmongering Aspirant's Signet of Dedication
+				{ 109, 126252 }, -- Warmongering Aspirant's Signet of Endurance
+				{ 110, 127120 }, -- Warmongering Aspirant's Signet of Accuracy
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126282, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Cruelty
+				{ 2, 126283, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Prowess
+				{ 3, 126284, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Ring of Triumph
+				{ 4, 126336, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Cruelty
+				{ 5, 126337, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Prowess
+				{ 6, 126338, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Victory
+				{ 7, 126339, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Meditation
+				{ 8, 126340, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Band of Contemplation
+				{ 9, 126441, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Cruelty
+				{ 10, 126442, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Accuracy
+				{ 11, 126443, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Ruthlessness
+				{ 12, 126447, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Dedication
+				{ 13, 126448, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Signet of Endurance
 				-- ilvl 680
+				{ 16, 126490, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Cruelty
+				{ 17, 126491, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Prowess
+				{ 18, 126492, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Ring of Triumph
+				{ 19, 126536, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Cruelty
+				{ 20, 126537, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Prowess
+				{ 21, 126538, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Victory
+				{ 22, 126539, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Meditation
+				{ 23, 126540, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Band of Contemplation
+				{ 24, 126617, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Cruelty
+				{ 25, 126618, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Accuracy
+				{ 26, 126619, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Ruthlessness
+				{ 27, 126642, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Dedication
+				{ 28, 126643, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Signet of Endurance
 				-- ilvl 625
+				{ 101, 126656 }, -- Warmongering Aspirant's Ring of Cruelty
+				{ 102, 126657 }, -- Warmongering Aspirant's Ring of Prowess
+				{ 103, 126680 }, -- Warmongering Aspirant's Band of Cruelty
+				{ 104, 126681 }, -- Warmongering Aspirant's Band of Prowess
+				{ 105, 126682 }, -- Warmongering Aspirant's Band of Meditation
+				{ 106, 126683 }, -- Warmongering Aspirant's Band of Contemplation
+				{ 107, 126725 }, -- Warmongering Aspirant's Signet of Cruelty
+				{ 108, 126728 }, -- Warmongering Aspirant's Signet of Dedication
+				{ 109, 126729 }, -- Warmongering Aspirant's Signet of Endurance
+				{ 110, 127121 }, -- Warmongering Aspirant's Signet of Accuracy
 			},
 		},
 		{
 			name = AL["Trinkets"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 125970, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Conquest
+				{ 2, 125975, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Dominance
+				{ 3, 125981, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Victory
+				{ 4, 125983, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Adaptation
+				{ 6, 125972, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Cruelty
+				{ 7, 125973, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Tenacity
+				{ 8, 125974, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Meditation
+				{ 10, 125971, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Conquest
+				{ 11, 125976, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Dominance
+				{ 12, 125982, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Victory
+				{ 16, 125977, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Cruelty
+				{ 17, 125979, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Tenacity
+				{ 18, 125980, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Meditation
+				{ 19, 127125, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Adaptation
+				{ 21, 125984 }, -- Warmongering Gladiator's Accolade of Conquest
+				{ 22, 125985 }, -- Warmongering Gladiator's Accolade of Dominance
+				{ 23, 125986 }, -- Warmongering Gladiator's Accolade of Victory
+				{ 24, 125987 }, -- Warmongering Gladiator's Accolade of Meditation
+				{ 25, 125988 }, -- Warmongering Gladiator's Accolade of Endurance
 				-- ilvl 680
+				{ 101, 126144, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Conquest
+				{ 102, 126149, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Dominance
+				{ 103, 126155, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Victory
+				{ 104, 126157, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Adaptation
+				{ 106, 126146, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Cruelty
+				{ 107, 126147, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Tenacity
+				{ 108, 126148, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Meditation
+				{ 110, 126145, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Conquest
+				{ 111, 126150, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Dominance
+				{ 112, 126156, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Victory
+				{ 116, 126151, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Cruelty
+				{ 117, 126153, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Tenacity
+				{ 118, 126154, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Meditation
+				{ 119, 126152, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Adaptation
+				{ 121, 126158 }, -- Warmongering Combatant's Accolade of Conquest
+				{ 122, 126159 }, -- Warmongering Combatant's Accolade of Dominance
+				{ 123, 126160 }, -- Warmongering Combatant's Accolade of Victory
+				{ 124, 126161 }, -- Warmongering Combatant's Accolade of Meditation
+				{ 125, 126162 }, -- Warmongering Combatant's Accolade of Endurance
 				-- ilvl 625
+				{ 114, 126253 }, -- Warmongering Aspirant's Accolade of Conquest
+				{ 115, 126254 }, -- Warmongering Aspirant's Accolade of Dominance
+				{ 127, 126255 }, -- Warmongering Aspirant's Accolade of Victory
+				{ 128, 126256 }, -- Warmongering Aspirant's Accolade of Meditation
+				{ 129, 126257 }, -- Warmongering Aspirant's Accolade of Endurance
 			},
 			[HORDE_DIFF] = {
 				-- ilvl 710
+				{ 1, 126449, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Conquest
+				{ 2, 126454, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Dominance
+				{ 3, 126458, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Victory
+				{ 4, 126460, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Badge of Adaptation
+				{ 6, 126451, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Cruelty
+				{ 7, 126452, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Tenacity
+				{ 8, 126453, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Emblem of Meditation
+				{ 10, 126450, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Conquest
+				{ 11, 126455, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Dominance
+				{ 12, 126459, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Insignia of Victory
+				{ 16, 127126, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Cruelty
+				{ 17, 126456, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Tenacity
+				{ 18, 126457, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Meditation
+				{ 19, 125978, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Medallion of Adaptation
+				{ 21, 126461 }, -- Warmongering Gladiator's Accolade of Conquest
+				{ 22, 126462 }, -- Warmongering Gladiator's Accolade of Dominance
+				{ 23, 126463 }, -- Warmongering Gladiator's Accolade of Victory
+				{ 24, 126464 }, -- Warmongering Gladiator's Accolade of Meditation
+				{ 25, 126465 }, -- Warmongering Gladiator's Accolade of Endurance
 				-- ilvl 680
+				{ 101, 126621, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Conquest
+				{ 102, 126626, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Dominance
+				{ 103, 126632, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Victory
+				{ 104, 126634, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Badge of Adaptation
+				{ 106, 126623, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Cruelty
+				{ 107, 126624, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Tenacity
+				{ 108, 126625, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Emblem of Meditation
+				{ 110, 126622, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Conquest
+				{ 111, 126627, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Dominance
+				{ 112, 126633, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Insignia of Victory
+				{ 116, 126628, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Cruelty
+				{ 117, 126629, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Adaptation
+				{ 118, 126630, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Tenacity
+				{ 119, 126631, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Medallion of Meditation
+				{ 121, 126635 }, -- Warmongering Combatant's Accolade of Conquest
+				{ 122, 126636 }, -- Warmongering Combatant's Accolade of Dominance
+				{ 123, 126637 }, -- Warmongering Combatant's Accolade of Victory
+				{ 124, 126638 }, -- Warmongering Combatant's Accolade of Meditation
+				{ 125, 126639 }, -- Warmongering Combatant's Accolade of Endurance
 				-- ilvl 625
+				{ 114, 126730 }, -- Warmongering Aspirant's Accolade of Conquest
+				{ 115, 126731 }, -- Warmongering Aspirant's Accolade of Dominance
+				{ 127, 126732 }, -- Warmongering Aspirant's Accolade of Victory
+				{ 128, 126733 }, -- Warmongering Aspirant's Accolade of Meditation
+				{ 129, 126734 }, -- Warmongering Aspirant's Accolade of Endurance
 			},
 		},
 		{
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
+				{ 1, 127369, [PRICE_EXTRA_ITTYPE] = "conquest:1000" }, -- Warmongering Gladiator's Tabard
+				{ 3, 120286, [PRICE_EXTRA_ITTYPE] = "conquest:2500" }, -- Enchanter's Illusion - Glorious Tyranny
+				{ 4, 120287, [PRICE_EXTRA_ITTYPE] = "conquest:2500" }, -- Enchanter's Illusion - Primal Victory
 				-- ilvl 680
 				-- ilvl 625
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				-- ilvl 710
+				{ 1, 127371, [PRICE_EXTRA_ITTYPE] = "conquest:1000" }, -- Warmongering Gladiator's Tabard
 				-- ilvl 680
 				-- ilvl 625
 			},
-		},]]
+		},
 	},
 }
 
@@ -2822,7 +3274,6 @@ data["WODS1WEAPONS"] = {
 				{ 24, 115910, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Pike (r2000)
 				{ 26, 115833, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Battle Staff (r2000)
 				{ 27, 115865, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Energy Staff (r2000)
-				{ 28, 115854, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Staff (r2000)
 				{ 101, 115831, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Barrier (r2000)
 				{ 102, 115864, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Redoubt (r2000)
 				{ 103, 115955, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Shield Wall (r2000)
@@ -2859,7 +3310,6 @@ data["WODS1WEAPONS"] = {
 				{ 24, 115602, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Pike
 				{ 26, 115649, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Battle Staff
 				{ 27, 115650, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Energy Staff
-				{ 28, 115603, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Staff
 				{ 101, 115667, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Barrier
 				{ 102, 115666, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Redoubt
 				{ 103, 115748, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Shield Wall
@@ -2890,7 +3340,6 @@ data["WODS1WEAPONS"] = {
 				{ 24, 111075, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Pike
 				{ 26, 111122, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Battle Staff
 				{ 27, 111123, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Energy Staff
-				{ 28, 111076, [PRICE_EXTRA_ITTYPE] = "conquest:3500" },	-- Primal Gladiator's Staff
 				{ 101, 111140, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Barrier
 				{ 102, 111139, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Redoubt
 				{ 103, 111221, [PRICE_EXTRA_ITTYPE] = "conquest:1250" },	-- Primal Gladiator's Shield Wall
