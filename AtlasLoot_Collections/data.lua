@@ -1362,7 +1362,7 @@ data["MOLTENFRONT"] = {
 		},
 	},
 }
---[[
+
 data["MOUNTS"] = {
 	name = AL["Mounts"],
 	ContentType = COLLECTION_CONTENT,
@@ -1371,12 +1371,62 @@ data["MOUNTS"] = {
 		{
 			name = AL["Achievements"],
 			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-			},
-			[HORDE_DIFF] = {
+			[NORMAL_DIFF] = {
+				{ 1, 128282, "ac10110" }, -- Warmongering Gladiator's Felblood Gronnling
+				{ 2, 120968, "ac9909" }, -- Chauffeured Chopper
+				{ 3, 122703, "ac9909" }, -- Chauffeured Chopper
+				{ 4, 128277, "ac9239" }, -- Primal Gladiator's Felblood Gronnling
+				{ 5, 128281, "ac10098" }, -- Wild Gladiator's Felblood Gronnling
+				{ 6, 87769, "ac6927" }, -- Reins of the Crimson Cloud Serpent
+				{ 7, 87773, "ac6932" }, -- Reins of the Heavenly Crimson Cloud Serpent
+				{ 8, 104208, "ac8454" }, -- Reins of Galakras
+				{ 9, 77068, "ac6169" }, -- Reins of the Twilight Harbinger
+				{ 10, 93385, "ac7928" }, -- Grand Gryphon
+				{ 11, 93386, "ac7929" }, -- Grand Wyvern
+				{ 12, 93662, "ac8124" }, -- Reins of the Armored Skyscreamer
+				{ 13, 44160, "ac2136" }, -- Reins of the Red Proto-Drake
+				{ 14, 44177, "ac2144" }, -- Reins of the Violet Proto-Drake
+				{ 15, 44178, "ac2143" }, -- Reins of the Albino Drake
+				{ 16, 44842, "ac2537" }, -- Red Dragonhawk
+				{ 17, 44843, "ac2536" }, -- Blue Dragonhawk
+				{ 18, 45801, "ac2958" }, -- Reins of the Ironbound Proto-Drake
+				{ 19, 45802, "ac2957" }, -- Reins of the Rusted Proto-Drake
+				{ 20, 51954, "ac4602" }, -- Reins of the Bloodbathed Frostbrood Vanquisher
+				{ 21, 51955, "ac4603" }, -- Reins of the Icebound Frostbrood Vanquisher
+				{ 22, 62900, "ac4845" }, -- Reins of the Volcanic Stone Drake
+				{ 23, 62901, "ac4853" }, -- Reins of the Drake of the East Wind
+				{ 24, 63125, "ac4988" }, -- Reins of the Dark Phoenix
+				{ 25, 69213, "ac5866" }, -- Flameward Hippogryph
+				{ 26, 69226, "ac9599" }, -- Felfire Hawk
+				{ 27, 69230, "ac5828" }, -- Corrupted Egg of Millagazor
+				{ 28, 81559, "ac6827" }, -- Pandaren Kite String
+				{ 29, 85666, "ac6682" }, -- Reins of the Thundering Jade Cloud Serpent
+				{ 30, 89785, "ac6828" }, -- Pandaren Kite String
+				{ 101, 91802, "ac7862" }, -- Jade Pandaren Kite String
+				{ 102, 98104, "ac8302" }, -- Armored Red Dragonhawk
+				{ 103, 98259, "ac8304" }, -- Armored Blue Dragonhawk
+				{ 104, 118676, "ac9713" }, -- Reins of the Emerald Drake
+				{ 105, 44223, "ac614" }, -- Reins of the Black War Bear
+				{ 106, 44224, "ac619" }, -- Reins of the Black War Bear
+				{ 107, 49096, "ac4156" }, -- Crusader's White Warhorse
+				{ 108, 49098, "ac4079" }, -- Crusader's Black Warhorse
+				{ 109, 70909, "ac5328" }, -- Reins of the Vicious War Steed
+				{ 110, 70910, "ac5325" }, -- Horn of the Vicious War Wolf
+				{ 111, 115484, "ac9550" }, -- Core Hound Chain
+				{ 116, 116383, "ac8985" }, -- Gorestrider Gronnling
+				{ 117, 116788, "ac9496" }, -- Warlord's Deathwheel
+				{ 118, 127140, "ac10149" }, -- Infernal Direwolf
+				{ 119, 116666, "ac9669" }, -- Blacksteel Battleboar
+				{ 120, 116668, "ac9539" }, -- Armored Frostboar
+				{ 121, 116670, "ac9396" }, -- Frostplains Battleboar
+				{ 122, 116781, "ac9540" }, -- Armored Frostwolf
+				{ 123, 116791, "ac8898" }, -- Challenger's War Yeti
+				{ 124, 62298, "ac4912" }, -- Reins of the Golden King
+				{ 125, 67107, "ac5492" }, -- Reins of the Kor'kron Annihilator
+				{ 126, 98618, "ac8345" }, -- Hearthsteed
 			},
 		},
-		{
+--[[		{
 			name = AL["Black Market Auction House"],
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -1384,15 +1434,35 @@ data["MOUNTS"] = {
 			[HORDE_DIFF] = {
 			},
 		},
+]]
 		{
 			name = AL["Crafting"],
 			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-			},
-			[HORDE_DIFF] = {
+			[NORMAL_DIFF] = {
+				{ 1, 65891, "mount" }, -- Vial of the Sands
+				{ 3, 60954, "mount" }, -- Fossilized Raptor
+				{ 4, 64883, "mount" }, -- Scepter of Azj'Aqir
+				{ 6, 95416, "mount" }, -- Sky Golem
+				{ 7, 41508, "mount" }, -- Mechano-Hog
+				{ 8, 44413, "mount" }, -- Mekgineer's Chopper
+				{ 9, 34061, "mount" }, -- Turbo-Charged Flying Machine
+				{ 10, 34060, "mount" }, -- Flying Machine
+				{ 11, 87250, "mount" }, -- Depleted-Kyparium Rocket
+				{ 12, 87251, "mount" }, -- Geosynchronous World Spinner
+				{ 14, 108883, "mount" }, -- Riding Harness
+				-- { 1, 129962, "mount" }, -- [NYI] Leather Riding Harness
+				{ 16, 82453, "mount" }, -- Jeweled Onyx Panther
+				{ 17, 83087, "mount" }, -- Ruby Panther
+				{ 18, 83088, "mount" }, -- Jade Panther
+				{ 19, 83089, "mount" }, -- Sunstone Panther
+				{ 20, 83090, "mount" }, -- Sapphire Panther
+				{ 22, 115363, "mount" }, -- Creeping Carpet
+				{ 23, 44558, "mount" }, -- Magnificent Flying Carpet
+				{ 24, 54797, "mount" }, -- Frosty Flying Carpet
+				{ 25, 44554, "mount" }, -- Flying Carpet
 			},
 		},
-		{
+--[[		{
 			name = AL["Dungeons"].." & "..AL["Raids"],
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -1424,9 +1494,10 @@ data["MOUNTS"] = {
 			[HORDE_DIFF] = {
 			},
 		},
+]]
 	},
 }
-]]
+
 data["TABARDS"] = {
 	name = AL["Tabards"],
 	ContentType = COLLECTION_CONTENT,

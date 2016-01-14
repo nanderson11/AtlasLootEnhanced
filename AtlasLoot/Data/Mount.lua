@@ -16,6 +16,7 @@ local NO_ITEM_ID = 0
 -- save all mountinfos
 local MOUNT_INFO = {
 	["spells"] = { -- [spellID] = itemID
+		[189044] = 128282, --Warmongering Gladiator's Felblood Gronnling
 		[182912] = 123890, --Felsteel Annihilator
 		[186305] = 127140,	--Infernal Direwolf
 		[190977] = 128527,	--Deathtusk Felboar
