@@ -12,6 +12,13 @@ local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
 local P25H_DIFF = data:AddDifficulty(AL["25 Player Heroic"], "p25h", nil, 6)
 local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 
+local WOD_DIFF = data:AddDifficulty(AL["Warlords of Draenor"])
+local MOP_DIFF = data:AddDifficulty(AL["Mists of Pandaria"])
+local CATA_DIFF = data:AddDifficulty(AL["Cataclysm"])
+local WOTLK_DIFF = data:AddDifficulty(AL["Wrath of the Lich King"])
+local BC_DIFF = data:AddDifficulty(AL["Burning Crusade"])
+local CLASSIC_DIFF = data:AddDifficulty(AL["Classic"])
+
 local HORDE_DIFF, ALLIANCE_DIFF
 if UnitFactionGroup("player") == "Horde" then
 	HORDE_DIFF = data:AddDifficulty(FACTION_HORDE)
@@ -1370,7 +1377,7 @@ data["MOUNTS"] = {
 	items = {
 		{
 			name = AL["Achievements"],
-			CoinTexture = "Reputation",
+			CoinTexture = "Achievement",
 			[NORMAL_DIFF] = {
 				{ 1, 128282, "ac10110" }, -- Warmongering Gladiator's Felblood Gronnling
 				{ 2, 120968, "ac9909" }, -- Chauffeured Chopper
@@ -1437,7 +1444,6 @@ data["MOUNTS"] = {
 ]]
 		{
 			name = AL["Crafting"],
-			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1, 65891, "mount" }, -- Vial of the Sands
 				{ 3, 60954, "mount" }, -- Fossilized Raptor
@@ -1462,15 +1468,114 @@ data["MOUNTS"] = {
 				{ 25, 44554, "mount" }, -- Flying Carpet
 			},
 		},
---[[		{
+		{
 			name = AL["Dungeons"].." & "..AL["Raids"],
-			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
+			[CLASSIC_DIFF] = {
+				{ 1, 19872, "mount" }, -- Swift Razzashi Raptor
+				{ 2, 19902, "mount" }, -- Swift Zulian Tiger
+				{ 4, 13335, "mount" }, -- Deathcharger's Reins
+				{ 16, 21218, "mount" }, -- Blue Qiraji Resonating Crystal
+				{ 17, 21321, "mount" }, -- Red Qiraji Resonating Crystal
+				{ 18, 21323, "mount" }, -- Green Qiraji Resonating Crystal
+				{ 19, 21324, "mount" }, -- Yellow Qiraji Resonating Crystal
 			},
-			[HORDE_DIFF] = {
+			[BC_DIFF] = {
+				{ 1, 32458, "mount" }, -- Ashes of Al'ar
+				{ 3, 32768, "mount" }, -- Reins of the Raven Lord
+				{ 5, 30480, "mount" }, -- Fiery Warhorse's Reins
+				{ 7, 35513, "mount" }, -- Swift White Hawkstrider
+				-- { 16, 33176 }, -- Flying Broom
+				{ 16, 37828, "mount" }, -- Great Brewfest Kodo
+				{ 18, 37012, "mount" }, -- The Horseman's Reins
+			},
+			[WOTLK_DIFF] = {
+				{ 1, 43952, "mount" }, -- Reins of the Azure Drake
+				{ 2, 43953, "mount" }, -- Reins of the Blue Drake
+				{ 4, 43954, "mount" }, -- Reins of the Twilight Drake
+				{ 5, 43986, "mount" }, -- Reins of the Black Drake
+				{ 7, 44168, "mount" }, -- Reins of the Time-Lost Proto-Drake
+				{ 8, 43962, "mount" }, -- Reins of the White Polar Bear
+				{ 10, 45693, "mount" }, -- Mimiron's Head
+				{ 12, 49636, "mount" }, -- Reins of the Onyxian Drake
+				{ 14, 50818, "mount" }, -- Invincible's Reins
+				{ 15, [ATLASLOOT_IT_ALLIANCE] = 43959, "mount", [ATLASLOOT_IT_HORDE] = 44083, "mount" }, -- Reins of the Grand Black War Mammoth
+				-- Horde{ 1, 44083, "mount" }, -- Reins of the Grand Black War Mammoth
+				{ 16, 43951, "mount" }, -- Reins of the Bronze Drake
+				{ 18, 44151, "mount" }, -- Reins of the Blue Proto-Drake
+				-- Legacy { 1, 44175, "mount" }, -- Reins of the Plagued Proto-Drake
+				{ 20, 46109, "mount" }, -- Sea Turtle
+				-- Legacy { 1, 49044, "mount" }, -- Swift Alliance Steed
+				-- Legacy { 1, 49046, "mount" }, -- Swift Horde Wolf
+				{ 21, 44707, "mount" }, -- Reins of the Green Proto-Drake
+				{ 22, 50250, "mount" }, -- Big Love Rocket
+			},
+			[CATA_DIFF] = {
+				{ 1, 77067, "mount" }, -- Reins of the Blazing Drake
+				{ 2, 77069, "mount" }, -- Life-Binder's Handmaiden
+				{ 3, 78919, "mount" }, -- Experiment 12-B
+				{ 5, 71665, "mount" }, -- Flametalon of Alysrazor
+				{ 6, 69224, "mount" }, -- Smoldering Egg of Millagazor
+				{ 8, 63041, "mount" }, -- Reins of the Drake of the South Wind
+				{ 16, 63040, "mount" }, -- Reins of the Drake of the North Wind
+				{ 18, 63043, "mount" }, -- Reins of the Vitreous Stone Drake
+				{ 20, 68823, "mount" }, -- Armored Razzashi Raptor
+				{ 21, 68824, "mount" }, -- Swift Zulian Panther
+				{ 22, 69747, "mount" }, -- Amani Battle Bear
+				{ 24, 63042, "mount" }, -- Reins of the Phosphorescent Stone Drake
+				{ 25, 63046, "mount" }, -- Reins of the Grey Riding Camel
+				{ 26, 67151, "mount" }, -- Reins of Poseidus
+			},
+			[MOP_DIFF] = {
+				{ 1, 87777, "mount" }, -- Reins of the Astral Cloud Serpent
+				{ 3, 93666, "mount" }, -- Spawn of Horridon
+				{ 4, 95059, "mount" }, -- Clutch of Ji-Kun
+				{ 6, 87771, "mount" }, -- Reins of the Heavenly Onyx Cloud Serpent
+				{ 8, 104253, "mount" }, -- Kor'kron Juggernaut
+				{ 10, 89783, "mount" }, -- Son of Galleon's Saddle
+				{ 11, 90655, "mount" }, -- Reins of the Thundering Ruby Cloud Serpent
+				{ 12, 104269, "mount" }, -- Reins of the Thundering Onyx Cloud Serpent
+				{ 13, 95057, "mount" }, -- Reins of the Thundering Cobalt Cloud Serpent
+				{ 16, 94228, "mount" }, -- Reins of the Cobalt Primordial Direhorn
+				{ 17, 94229, "mount" }, -- Reins of the Slate Primordial Direhorn
+				{ 18, 94230, "mount" }, -- Reins of the Amber Primordial Direhorn
+				{ 19, 94231, "mount" }, -- Reins of the Jade Primordial Direhorn
+				{ 21, 94291, "mount" }, -- Reins of the Red Primal Raptor
+				{ 22, 94292, "mount" }, -- Reins of the Black Primal Raptor
+				{ 23, 94293, "mount" }, -- Reins of the Green Primal Raptor
+				{ 25, 101675 }, -- Shimmering Moonstone
+				{ 26, 89697 }, -- Bag of Kafa Beans
+				{ 27, 89770 }, -- Tuft of Yak Fur
+				{ 28, 89682 }, -- Oddly-Shaped Horn
+				{ 29, 104329 }, -- Ash-Covered Horn
+			},
+			[WOD_DIFF] = {
+				{ 1, 123890, "mount" }, -- Felsteel Annihilator
+				{ 3, 116660, "mount" }, -- Ironhoof Destroyer
+				{ 5, 133543, "mount" }, -- Reins of the Infinite Timereaver
+				-- Tanaan Jungle
+				{ 7, 116658, "mount" }, -- Tundra Icehoof
+				{ 8, 116669, "mount" }, -- Armored Razorback
+				{ 9, 116780, "mount" }, -- Warsong Direfang
+				-- Garrison
+				{ 11, 116663, "mount" }, -- Shadowhide Pearltusk
+				{ 12, 116673, "mount" }, -- Giant Coldsnout
+				{ 13, 116786, "mount" }, -- Smoky Direwolf
+				{ 14, 116779, "mount" }, -- Garn Steelmaw
+				{ 15, 128671, "mount" }, -- Minion of Grumpus
+				-- World
+				{ 16, 116771, "mount" }, -- Solar Spirehawk
+				{ 17, 116659, "mount" }, -- Bloodhoof Bull
+				{ 18, 116661, "mount" }, -- Mottled Meadowstomper
+				{ 19, 116674, "mount" }, -- Great Greytusk
+				{ 20, 116767, "mount" }, -- Sapphire Riverbeast
+				{ 21, 116773, "mount" }, -- Swift Breezestrider
+				{ 22, 116792, "mount" }, -- Sunhide Gronnling
+				{ 23, 116794, "mount" }, -- Garn Nighthowl
+				{ 25, 119180 }, -- Goren \"Log\" Roller
+				{ 26, 113543 }, -- Spirit of Shinri
 			},
 		},
-		{
+--[[		{
 			name = AL["Shop"],
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
