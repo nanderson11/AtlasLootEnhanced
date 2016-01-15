@@ -16,7 +16,12 @@ local NO_ITEM_ID = 0
 -- save all mountinfos
 local MOUNT_INFO = {
 	["spells"] = { -- [spellID] = itemID
+		[201098] = 133543, --Infinite Timereaver
+		[171619] = 116658, --Tundra Icehoof
+		[171630] = 116669, --Armored Razorback
+		[171837] = 116780, --Warsong Direfang
 		[189044] = 128282, --Warmongering Gladiator's Felblood Gronnling
+		[191314] = 128671, --Minion of Grumpus
 		[182912] = 123890, --Felsteel Annihilator
 		[186305] = 127140,	--Infernal Direwolf
 		[190977] = 128527,	--Deathtusk Felboar
@@ -75,7 +80,7 @@ local MOUNT_INFO = {
 		[16084] = 8586,	--Mottled Red Raptor
 		[75596] = 54797,	--Frosty Flying Carpet
 		[23243] = 18790,	--Swift Orange Raptor
-		[127271] = NO_ITEM_ID,	--Crimson Water Strider
+		[127271] = 87791,	--Crimson Water Strider
 		[17454] = 13322,	--Unpainted Mechanostrider
 		[171632] = 116670,	--Frostplains Battleboar
 		[32289] = 25527,	--Swift Red Gryphon
