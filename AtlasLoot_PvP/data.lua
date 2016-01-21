@@ -1088,12 +1088,12 @@ data["WODS3NONSETGEAR"] = {
 	},
 }
 
---[[
+
 data["WODS3WEAPONS"] = {
 	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Weapons"],
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+--[[		{
 			name = string.format(AL["ilvl %d"], 705).." "..AL["Elite"],
 			[ALLIANCE_DIFF] = {
 			},
@@ -1101,23 +1101,158 @@ data["WODS3WEAPONS"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
+]]
 		{
-			name = string.format(AL["ilvl %d"], 705).." (735)",
+			name = string.format(AL["ilvl %d"], 710).." (740)",
 			[ALLIANCE_DIFF] = {
+				{ 1, 125789, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cleaver
+				{ 2, 125951, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Hacker
+				{ 3, 125792, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pummeler
+				{ 4, 125841, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Gavel
+				{ 5, 125953, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Bonecracker
+				{ 6, 125793, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Quickblade
+				{ 7, 125842, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Mageblade
+				{ 8, 125954, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Slicer
+				{ 9, 125791, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ripper
+				{ 10, 125952, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Render
+				{ 11, 125790, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Shanker
+				{ 12, 125840, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Spellblade
+				-- Two-Hand
+				{ 16, 125955, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Decapitator
+				{ 17, 125956, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Bonegrinder
+				{ 18, 125797, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Pike
+				{ 19, 125957, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Greatsword
+				{ 20, 125798, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Staff
+				{ 21, 125845, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Battle Staff
+				{ 22, 125846, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Energy Staff
+				-- Ranged
+				{ 24, 125794, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Longbow
+				{ 25, 125796, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Rifle
+				{ 26, 125795, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Heavy Crossbow
+				{ 27, 125843, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Baton of Light
+				{ 28, 125844, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Touch of Defeat
+				-- Shield
+				{ 101, 125862, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Redoubt
+				{ 102, 125863, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Barrier
+				{ 103, 125965, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Shield Wall
+				-- Off-Hand
+				{ 116, 125855, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Endgame
+				{ 117, 125856, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Reprieve
 			},
 			[HORDE_DIFF] = {
+				{ 1, 126268, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Cleaver
+				{ 2, 126430, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Hacker
+				{ 3, 126271, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Pummeler
+				{ 4, 126320, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Gavel
+				{ 5, 126432, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Bonecracker
+				{ 6, 126272, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Quickblade
+				{ 7, 126321, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Mageblade
+				{ 8, 126433, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Slicer
+				{ 9, 126270, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Ripper
+				{ 10, 126431, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Render
+				{ 11, 126269, [PRICE_EXTRA_ITTYPE] = "conquest:1750" }, -- Warmongering Gladiator's Shanker
+				{ 12, 126319, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Spellblade
+				-- Two Hand
+				{ 16, 126434, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Decapitator
+				{ 17, 126435, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Bonegrinder
+				{ 18, 126276, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Pike
+				{ 19, 126436, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Greatsword
+				{ 20, 126277, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Staff
+				{ 21, 126324, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Battle Staff
+				{ 22, 126325, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Energy Staff
+				-- Ranged
+				{ 24, 126273, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Longbow
+				{ 25, 126275, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Rifle
+				{ 26, 126274, [PRICE_EXTRA_ITTYPE] = "conquest:3500" }, -- Warmongering Gladiator's Heavy Crossbow
+				{ 27, 126322, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Baton of Light
+				{ 28, 126323, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Touch of Defeat
+				-- Shield
+				{ 101, 126341, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Redoubt
+				{ 102, 126342, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Barrier
+				{ 103, 126444, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Shield Wall
+				-- Off-Hand
+				{ 116, 126334, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Endgame
+				{ 117, 126335, [PRICE_EXTRA_ITTYPE] = "conquest:1250" }, -- Warmongering Gladiator's Reprieve
 			},
 		},
 		{
-			name = string.format(AL["ilvl %d"], 680).." (710)",
+			name = string.format(AL["ilvl %d"], 700).." (730)",
 			[ALLIANCE_DIFF] = {
+				{ 1, 125999, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cleaver
+				{ 2, 126129, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Hacker
+				{ 3, 127379, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chopper
+				{ 4, 126002, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Pummeler
+				{ 5, 126043, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Gavel
+				{ 6, 126131, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Bonecracker
+				{ 7, 126003, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Quickblade
+				{ 8, 126044, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Mageblade
+				{ 9, 126132, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Slicer
+				{ 10, 126001, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ripper
+				{ 11, 126130, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Render
+				{ 12, 126000, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Shanker
+				{ 13, 126042, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Spellblade
+				-- Two Hand
+				{ 16, 126133, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Decapitator
+				{ 17, 126134, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Bonegrinder
+				{ 18, 126007, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Pike
+				{ 19, 126135, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Greatsword
+				{ 20, 126008, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Staff
+				{ 21, 126047, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Battle Staff
+				{ 22, 126048, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Energy Staff
+				-- Ranged
+				{ 24, 126004, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Longbow
+				{ 25, 126006, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Rifle
+				{ 26, 126005, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Heavy Crossbow
+				{ 27, 126045, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Baton of Light
+				{ 28, 126046, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Touch of Defeat
+				-- Shield
+				{ 101, 126064, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Redoubt
+				{ 102, 126065, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Barrier
+				{ 103, 126143, [PRICE_EXTRA_ITTYPE] = "honor:1000" }, -- Warmongering Combatant's Shield Wall
+				-- Off-Hand
+				{ 116, 126057, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Endgame
+				{ 117, 126058, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Reprieve
 			},
 			[HORDE_DIFF] = {
+				{ 1, 126476, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Cleaver
+				{ 2, 126606, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Hacker
+				{ 3, 127378, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Chopper
+				{ 4, 126479, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Pummeler
+				{ 5, 126520, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Gavel
+				{ 6, 126608, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Bonecracker
+				{ 7, 126480, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Quickblade
+				{ 8, 126521, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Mageblade
+				{ 9, 126609, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Slicer
+				{ 10, 126478, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Ripper
+				{ 11, 126607, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Render
+				{ 12, 126477, [PRICE_EXTRA_ITTYPE] = "honor:1750" }, -- Warmongering Combatant's Shanker
+				{ 13, 126519, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Spellblade
+				-- Two Hand
+				{ 16, 126610, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Decapitator
+				{ 17, 126611, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Bonegrinder
+				{ 18, 126484, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Pike
+				{ 19, 126612, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Greatsword
+				{ 20, 126485, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Staff
+				{ 21, 126524, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Battle Staff
+				{ 22, 126525, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Energy Staff
+				-- Ranged
+				{ 24, 126481, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Longbow
+				{ 25, 126483, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Rifle
+				{ 26, 126482, [PRICE_EXTRA_ITTYPE] = "honor:3500" }, -- Warmongering Combatant's Heavy Crossbow
+				{ 27, 126522, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Baton of Light
+				{ 28, 126523, [PRICE_EXTRA_ITTYPE] = "honor:2250" }, -- Warmongering Combatant's Touch of Defeat
+				-- Shield
+				{ 101, 126541, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Redoubt
+				{ 102, 126542, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Barrier
+				{ 103, 126620, [PRICE_EXTRA_ITTYPE] = "honor:1000" }, -- Warmongering Combatant's Shield Wall
+				-- Off-Hand
+				{ 116, 126534, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Endgame
+				{ 117, 126535, [PRICE_EXTRA_ITTYPE] = "honor:1250" }, -- Warmongering Combatant's Reprieve
 			},
 		},
 	},
 }
-]]
+
 data["WODS2SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 2).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
