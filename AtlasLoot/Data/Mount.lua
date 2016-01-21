@@ -16,6 +16,10 @@ local NO_ITEM_ID = 0
 -- save all mountinfos
 local MOUNT_INFO = {
 	["spells"] = { -- [spellID] = itemID
+		--[33809] = 43688,
+		[171616] = 116655, --Witherhide Cliffstomper
+		[171628] = 116667, --Rocktusk Battleboar
+		[180545] = 122469, --Mystic Runesaber
 		[201098] = 133543, --Infinite Timereaver
 		[171619] = 116658, --Tundra Icehoof
 		[171630] = 116669, --Armored Razorback
@@ -506,7 +510,7 @@ local MOUNT_INFO = {
 		[44151] = 34061,	--Turbo-Charged Flying Machine
 		[102514] = 72582,	--Corrupted Hippogryph
 		[148626] = 104329,	--Furious Ashhide Mushan
-		[43688] = NO_ITEM_ID,	--Amani War Bear
+		[43688] = 33809,	--Amani War Bear
 		[69395] = 49636,	--Onyxian Drake
 		[127170] = 87777,	--Astral Cloud Serpent
 		[171625] = 116664,	--Dusty Rockhide

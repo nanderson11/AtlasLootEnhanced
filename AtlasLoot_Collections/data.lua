@@ -1379,69 +1379,99 @@ data["MOUNTS"] = {
 			name = AL["Achievements"],
 			CoinTexture = "Achievement",
 			[NORMAL_DIFF] = {
-				{ 1, 128282, "ac10110" }, -- Warmongering Gladiator's Felblood Gronnling
+				-- Alliance
+				{ 1, 93385, "ac7928" }, -- Grand Gryphon1
 				{ 2, 120968, "ac9909" }, -- Chauffeured Chopper
-				{ 3, 122703, "ac9909" }, -- Chauffeured Chopper
-				{ 4, 128277, "ac9239" }, -- Primal Gladiator's Felblood Gronnling
-				{ 5, 128281, "ac10098" }, -- Wild Gladiator's Felblood Gronnling
-				{ 6, 87769, "ac6927" }, -- Reins of the Crimson Cloud Serpent
-				{ 7, 87773, "ac6932" }, -- Reins of the Heavenly Crimson Cloud Serpent
-				{ 8, 104208, "ac8454" }, -- Reins of Galakras
-				{ 9, 77068, "ac6169" }, -- Reins of the Twilight Harbinger
-				{ 10, 93385, "ac7928" }, -- Grand Gryphon
-				{ 11, 93386, "ac7929" }, -- Grand Wyvern
-				{ 12, 93662, "ac8124" }, -- Reins of the Armored Skyscreamer
-				{ 13, 44160, "ac2136" }, -- Reins of the Red Proto-Drake
-				{ 14, 44177, "ac2144" }, -- Reins of the Violet Proto-Drake
-				{ 15, 44178, "ac2143" }, -- Reins of the Albino Drake
-				{ 16, 44842, "ac2537" }, -- Red Dragonhawk
-				{ 17, 44843, "ac2536" }, -- Blue Dragonhawk
-				{ 18, 45801, "ac2958" }, -- Reins of the Ironbound Proto-Drake
-				{ 19, 45802, "ac2957" }, -- Reins of the Rusted Proto-Drake
-				{ 20, 51954, "ac4602" }, -- Reins of the Bloodbathed Frostbrood Vanquisher
-				{ 21, 51955, "ac4603" }, -- Reins of the Icebound Frostbrood Vanquisher
-				{ 22, 62900, "ac4845" }, -- Reins of the Volcanic Stone Drake
-				{ 23, 62901, "ac4853" }, -- Reins of the Drake of the East Wind
-				{ 24, 63125, "ac4988" }, -- Reins of the Dark Phoenix
-				{ 25, 69213, "ac5866" }, -- Flameward Hippogryph
-				{ 26, 69226, "ac9599" }, -- Felfire Hawk
-				{ 27, 69230, "ac5828" }, -- Corrupted Egg of Millagazor
-				{ 28, 81559, "ac6827" }, -- Pandaren Kite String
-				{ 29, 85666, "ac6682" }, -- Reins of the Thundering Jade Cloud Serpent
-				{ 30, 89785, "ac6828" }, -- Pandaren Kite String
-				{ 101, 91802, "ac7862" }, -- Jade Pandaren Kite String
-				{ 102, 98104, "ac8302" }, -- Armored Red Dragonhawk
-				{ 103, 98259, "ac8304" }, -- Armored Blue Dragonhawk
-				{ 104, 118676, "ac9713" }, -- Reins of the Emerald Drake
-				{ 105, 44223, "ac614" }, -- Reins of the Black War Bear
-				{ 106, 44224, "ac619" }, -- Reins of the Black War Bear
-				{ 107, 49096, "ac4156" }, -- Crusader's White Warhorse
-				{ 108, 49098, "ac4079" }, -- Crusader's Black Warhorse
-				{ 109, 70909, "ac5328" }, -- Reins of the Vicious War Steed
-				{ 110, 70910, "ac5325" }, -- Horn of the Vicious War Wolf
-				{ 111, 115484, "ac9550" }, -- Core Hound Chain
-				{ 116, 116383, "ac8985" }, -- Gorestrider Gronnling
-				{ 117, 116788, "ac9496" }, -- Warlord's Deathwheel
-				{ 118, 127140, "ac10149" }, -- Infernal Direwolf
-				{ 119, 116666, "ac9669" }, -- Blacksteel Battleboar
-				{ 120, 116668, "ac9539" }, -- Armored Frostboar
-				{ 121, 116670, "ac9396" }, -- Frostplains Battleboar
-				{ 122, 116781, "ac9540" }, -- Armored Frostwolf
-				{ 123, 116791, "ac8898" }, -- Challenger's War Yeti
-				{ 124, 62298, "ac4912" }, -- Reins of the Golden King
-				{ 125, 67107, "ac5492" }, -- Reins of the Kor'kron Annihilator
-				{ 126, 98618, "ac8345" }, -- Hearthsteed
+				{ 3, 44843, "ac2536" }, -- Blue Dragonhawk1
+				{ 4, 89785, "ac6828" }, -- Pandaren Kite String1
+				{ 5, 44223, "ac614" }, -- Reins of the Black War Bear1
+				{ 6, 98259, "ac8304" }, -- Armored Blue Dragonhawk1
+				{ 7, 62298, "ac4912" }, -- Reins of the Golden King1
+				{ 8, 69226, "ac9598" }, -- Felfirehawk1
+				{ 9, 91802, "ac7860" }, -- Jade Pandaren Kite String1
+				{ 10, 70909, "ac5328" }, -- Reins of the Vicious War Steed1
+				-- Horde
+				{ 16, 93386, "ac7929" }, -- Grand Wyvern2
+				{ 17, 122703, "ac9909" }, -- Chauffeured Chopper
+				{ 18, 44842, "ac2537" }, -- Red Dragonhawk2
+				{ 19, 81559, "ac6827" }, -- Pandaren Kite String2
+				{ 20, 44224, "ac619" }, -- Reins of the Black War Bear2
+				{ 21, 98104, "ac8302" }, -- Armored Red Dragonhawk2
+				{ 22, 67107, "ac5492" }, -- Reins of the Kor'kron Annihilator2
+				{ 23, 69226, "ac959" }, -- Felfirehawk2
+				{ 24, 91802, "ac7862" }, -- Jade Pandaren Kite String2
+				{ 25, 70910, "ac5325" }, -- Horn of the Vicious War Wolf2
+				
+				{ 12, 87769, "ac6927" }, -- Reins of the Crimson Cloud Serpent
+				{ 13, 87773, "ac6932" }, -- Reins of the Heavenly Crimson Cloud Serpent
+				{ 14, 93662, "ac8124" }, -- Reins of the Armored Skyscreamer
+				{ 15, 104208, "ac8454" }, -- Reins of Galakras
+				{ 27, 44178, "ac2143" }, -- Reins of the Albino Drake
+				{ 28, 77068, "ac6169" }, -- Reins of the Twilight Harbinger
+				{ 29, 44160, "ac2136" }, -- Reins of the Red Proto-Drake
+				{ 101, 128282, "ac10110" }, -- Warmongering Gladiator's Felblood Gronnling
+				{ 102, 44177, "ac2144" }, -- Reins of the Violet Proto-Drake
+				{ 116, 45801, "ac2958" }, -- Reins of the Ironbound Proto-Drake
+				{ 117, 45802, "ac2957" }, -- Reins of the Rusted Proto-Drake
+				{ 118, 51954, "ac4602" }, -- Reins of the Bloodbathed Frostbrood Vanquisher
+				{ 119, 51955, "ac4603" }, -- Reins of the Icebound Frostbrood Vanquisher
+				{ 104, 62900, "ac4845" }, -- Reins of the Volcanic Stone Drake
+				{ 105, 62901, "ac4853" }, -- Reins of the Drake of the East Wind
+				{ 106, 69213, "ac5866" }, -- Flameward Hippogryph
+				{ 107, 69230, "ac5828" }, -- Corrupted Egg of Millagazor
+				{ 109, 63125, "ac4988" }, -- Reins of the Dark Phoenix
+				{ 110, 85666, "ac6682" }, -- Reins of the Thundering Jade Cloud Serpent
+				{ 111, 118676, "ac9713" }, -- Reins of the Emerald Drake
+				{ 112, 115484, "ac9550" }, -- Core Hound Chain
+				{ 113, 116383, "ac8985" }, -- Gorestrider Gronnling
+				{ 121, 127140, "ac10149" }, -- Infernal Direwolf
+				{ 122, 116666, "ac9669" }, -- Blacksteel Battleboar
+				{ 123, 116668, "ac9539" }, -- Armored Frostboar
+				{ 124, 116670, "ac9396" }, -- Frostplains Battleboar
+				{ 125, 116781, "ac9540" }, -- Armored Frostwolf
+				{ 126, 116791, "ac8898" }, -- Challenger's War Yeti
+				{ 127, 98618, "ac8345" }, -- Hearthsteed
 			},
 		},
---[[		{
+		{
 			name = AL["Black Market Auction House"],
-			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-			},
-			[HORDE_DIFF] = {
+			[NORMAL_DIFF] = {
+				{ 1, 13335, "mount" }, -- Deathcharger's Reins
+				{ 2, 19872, "mount" }, -- Swift Razzashi Raptor
+				{ 3, 19902, "mount" }, -- Swift Zulian Tiger
+				{ 4, 30480, "mount" }, -- Fiery Warhorse's Reins
+				{ 5, 32458, "mount" }, -- Ashes of Al'ar
+				{ 6, 32768, "mount" }, -- Reins of the Raven Lord
+				{ 7, 35513, "mount" }, -- Swift White Hawkstrider
+				{ 8, 43952, "mount" }, -- Reins of the Azure Drake
+				{ 9, 43953, "mount" }, -- Reins of the Blue Drake
+				{ 10, 43962, "mount" }, -- Reins of the White Polar Bear
+				{ 11, 44151, "mount" }, -- Reins of the Blue Proto-Drake
+				{ 12, 44175, "mount" }, -- Reins of the Plagued Proto-Drake
+				{ 13, 44707, "mount" }, -- Reins of the Green Proto-Drake
+				{ 14, 45693, "mount" }, -- Mimiron's Head
+				{ 15, 45802, "mount" }, -- Reins of the Rusted Proto-Drake
+				{ 16, 49636, "mount" }, -- Reins of the Onyxian Drake
+				{ 17, 50818, "mount" }, -- Invincible's Reins
+				{ 18, 63040, "mount" }, -- Reins of the Drake of the North Wind
+				{ 19, 63041, "mount" }, -- Reins of the Drake of the South Wind
+				{ 20, 63043, "mount" }, -- Reins of the Vitreous Stone Drake
+				{ 21, 69224, "mount" }, -- Smoldering Egg of Millagazor
+				{ 22, 71665, "mount" }, -- Flametalon of Alysrazor
+				{ 23, 77067, "mount" }, -- Reins of the Blazing Drake
+				{ 24, 77069, "mount" }, -- Life-Binder's Handmaiden
+				{ 25, 78919, "mount" }, -- Experiment 12-B
+				{ 26, 87771, "mount" }, -- Reins of the Heavenly Onyx Cloud Serpent
+				{ 27, 87777, "mount" }, -- Reins of the Astral Cloud Serpent
+				{ 28, 89783, "mount" }, -- Son of Galleon's Saddle
+				{ 29, 90655, "mount" }, -- Reins of the Thundering Ruby Cloud Serpent
+				{ 30, 95057, "mount" }, -- Reins of the Thundering Cobalt Cloud Serpent
+				{ 101, 95059, "mount" }, -- Clutch of Ji-Kun
+				{ 102, 104253, "mount" }, -- Kor'kron Juggernaut
+				{ 103, 104269, "mount" }, -- Reins of the Thundering Onyx Cloud Serpent
+				{ 104, 115484, "mount" }, -- Core Hound Chain
 			},
 		},
-]]
 		{
 			name = AL["Crafting"],
 			[NORMAL_DIFF] = {
@@ -1502,10 +1532,7 @@ data["MOUNTS"] = {
 				-- Horde{ 1, 44083, "mount" }, -- Reins of the Grand Black War Mammoth
 				{ 16, 43951, "mount" }, -- Reins of the Bronze Drake
 				{ 18, 44151, "mount" }, -- Reins of the Blue Proto-Drake
-				-- Legacy { 1, 44175, "mount" }, -- Reins of the Plagued Proto-Drake
 				{ 20, 46109, "mount" }, -- Sea Turtle
-				-- Legacy { 1, 49044, "mount" }, -- Swift Alliance Steed
-				-- Legacy { 1, 49046, "mount" }, -- Swift Horde Wolf
 				{ 21, 44707, "mount" }, -- Reins of the Green Proto-Drake
 				{ 22, 50250, "mount" }, -- Big Love Rocket
 			},
@@ -1575,31 +1602,337 @@ data["MOUNTS"] = {
 				{ 26, 113543 }, -- Spirit of Shinri
 			},
 		},
---[[		{
+		{
 			name = AL["Shop"],
-			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-			},
-			[HORDE_DIFF] = {
+			[NORMAL_DIFF] = {
+				{ 1, 54811, "mount" }, -- Celestial Steed
+				{ 2, 69846, "mount" }, -- Winged Guardian
+				{ 3, 78924, "mount" }, -- Heart of the Aspects
+				{ 4, 92724, "mount" }, -- Swift Windsteed
+				{ 5, 95341, "mount" }, -- Armored Bloodwing
+				{ 6, 97989, "mount" }, -- Enchanted Fey Dragon
+				{ 7, 107951, "mount" }, -- Iron Skyreaver
+				{ 8, 112326, "mount" }, -- Warforged Nightmare
+				{ 9, 112327, "mount" }, -- Grinning Reaver
+				{ 10, 122469, "mount" }, -- Mystic Runesaber
 			},
 		},
-		{
+--[[		{
 			name = AL["Vendor"],
-			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
+				{ 1, 18785, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Ram
+				{ 2, 18786, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Brown Ram
+				{ 3, 18787, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Gray Ram
+				{ 4, 5864, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Gray Ram
+				{ 5, 5872, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Ram
+				{ 6, 5873, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- White Ram
+				{ 7, 47100, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Dawnsaber
+				{ 8, 18766, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Frostsaber
+				{ 9, 8631, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Frostsaber
+				{ 10, 8632, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Spotted Frostsaber
+				{ 11, 18767, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Mistsaber
+				{ 12, 8629, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Nightsaber
+				{ 13, 18902, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Stormsaber
+				{ 14, 13086, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Winterspring Frostsaber				
+				{ 15, 18772, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Green Mechanostrider
+				{ 16, 18773, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Mechanostrider
+				{ 17, 18774, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Yellow Mechanostrider
+				{ 18, 8563, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Red Mechanostrider
+				{ 19, 8595, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Blue Mechanostrider
+				{ 20, 13321, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Green Mechanostrider
+				{ 21, 13322, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Unpainted Mechanostrider
+				{ 22, 29745, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Blue Elekk
+				{ 23, 29746, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Green Elekk
+				{ 24, 29747, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Purple Elekk
+				{ 25, 28481, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Elekk
+				{ 26, 29743, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Purple Elekk
+				{ 27, 29744, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Gray Elekk
+				{ 101, 29227, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Cobalt War Talbuk
+				{ 102, 29229, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Silver War Talbuk
+				{ 103, 29230, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Tan War Talbuk
+				{ 104, 29231, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the White War Talbuk
+				{ 105, 31830, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Cobalt Riding Talbuk
+				{ 106, 31832, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Silver Riding Talbuk
+				{ 107, 31834, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Tan Riding Talbuk
+				{ 108, 31836, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the White Riding Talbuk
+				{ 109, 44225, "mount", [PRICE_EXTRA_ITTYPE] = "money:7500000" }, -- Reins of the Armored Brown Bear
+				{ 110, 44689, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Armored Snowy Gryphon
+				{ 111, 44230, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Wooly Mammoth
+				{ 112, 44235, "mount", [PRICE_EXTRA_ITTYPE] = "money:200000000" }, -- Reins of the Traveler's Tundra Mammoth
+				{ 113, 43958, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Reins of the Ice Mammoth
+				{ 114, 43961, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Grand Ice Mammoth
+				{ 115, 73839, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Mountain Horse
+				{ 116, 73838, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Mountain Horse
+				{ 117, 93168, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Grand Armored Gryphon
+				{ 118, 62298, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Golden King
+				{ 119, 2411, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Black Stallion Bridle
+				{ 120, 2414, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Pinto Bridle
+				{ 121, 5655, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Chestnut Mare Bridle
+				{ 122, 5656, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Horse Bridle
+				{ 123, 25473, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Blue Gryphon
+				{ 124, 25527, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Red Gryphon
+				{ 125, 25528, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Green Gryphon
+				{ 126, 25529, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Purple Gryphon
+				{ 127, 25470, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Golden Gryphon
+				{ 128, 25471, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Ebon Gryphon
+				{ 129, 25472, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Snowy Gryphon
+				{ 130, 95564, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Golden Primal Direhorn
+				{ 201, 18776, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Palomino
+				{ 202, 18777, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Brown Steed
+				{ 203, 18778, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Steed
+				--Both
+				{ 205, 33999, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Cenarion War Hippogryph
+				{ 206, 32314, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Green Riding Nether Ray
+				{ 207, 32316, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Purple Riding Nether Ray
+				{ 208, 32317, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Red Riding Nether Ray
+				{ 209, 32318, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Silver Riding Nether Ray
+				{ 210, 32319, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Blue Riding Nether Ray
+				{ 211, 32857, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Onyx Netherwing Drake
+				{ 212, 32858, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Azure Netherwing Drake
+				{ 213, 32859, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Cobalt Netherwing Drake
+				{ 214, 32860, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Purple Netherwing Drake
+				{ 215, 32861, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Veridian Netherwing Drake
+				{ 216, 32862, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Reins of the Violet Netherwing Drake
+				{ 217, 40775, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Winged Steed of the Ebon Blade
+				{ 218, 43955, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Reins of the Red Drake
+				{ 219, 63044, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Brown Riding Camel
+				{ 220, 63045, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Tan Riding Camel
+				{ 221, 79802, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Jade Cloud Serpent
+				{ 222, 85429, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Golden Cloud Serpent
+				{ 223, 85430, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Azure Cloud Serpent
+				{ 224, 89362, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Reins of the Brown Riding Goat
+				{ 225, 89390, "mount", [PRICE_EXTRA_ITTYPE] = "money:32500000" }, -- Reins of the White Riding Goat
+				{ 226, 89391, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Black Riding Goat
+				{ 227, 87781, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Reins of the Azure Riding Crane
+				{ 228, 87782, "mount", [PRICE_EXTRA_ITTYPE] = "money:25000000" }, -- Reins of the Golden Riding Crane
+				{ 229, 87783, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Regal Riding Crane
+				{ 230, 81354, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000" }, -- Reins of the Azure Water Strider
+				{ 301, 84101, "mount", [PRICE_EXTRA_ITTYPE] = "money:1200000000" }, -- Reins of the Grand Expedition Yak
+				{ 302, 87788, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Grey Riding Yak
+				{ 303, 87789, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Blonde Riding Yak
+				{ 304, 89305, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Green Shado-Pan Riding Tiger
+				{ 305, 89306, "mount", [PRICE_EXTRA_ITTYPE] = "money:25000000" }, -- Reins of the Red Shado-Pan Riding Tiger
+				{ 306, 89307, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Reins of the Blue Shado-Pan Riding Tiger
+				{ 307, 85262, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Amber Scorpion
+				{ 308, 89363, "mount", [PRICE_EXTRA_ITTYPE] = "money:6000000" }, -- Disc of the Red Flying Cloud
+				{ 309, 116789, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000000" }, -- Champion's Treadblade
+				{ 310, 63125, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Dark Phoenix
+				{ 311, 85666, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Thundering Jade Cloud Serpent
+				{ 312, 116666, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000" }, -- Blacksteel Battleboar
+				{ 313, 116667, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Rocktusk Battleboar
+				{ 314, 98405, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Brawler's Burly Mushan Beast
+				{ 315, 116655, "mount", [PRICE_EXTRA_ITTYPE] = "money:200000000" }, -- Witherhide Cliffstomper
+				{ 316, 33977, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Brewfest Ram
+				{ 317, 33976, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Brewfest Ram
+				{ 318, 89304, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Thundering August Cloud Serpent
+				{ 319, 82811, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Red Dragon Turtle
+				{ 320, 87801, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Green Dragon Turtle
+				{ 321, 87802, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Black Dragon Turtle
+				{ 322, 87803, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Blue Dragon Turtle
+				{ 323, 87804, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Brown Dragon Turtle
+				{ 324, 87805, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Purple Dragon Turtle
+				{ 325, 91010, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Red Dragon Turtle
+				{ 326, 91011, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Black Dragon Turtle
+				{ 327, 91012, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Green Dragon Turtle
+				{ 328, 91013, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Blue Dragon Turtle
+				{ 329, 91014, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Brown Dragon Turtle
+				{ 330, 91015, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Great Purple Dragon Turtle
+				{ 401, 82765, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Green Dragon Turtle
+				{ 402, 87795, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Black Dragon Turtle
+				{ 403, 87796, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Blue Dragon Turtle
+				{ 404, 87797, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Brown Dragon Turtle
+				{ 405, 87799, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Purple Dragon Turtle
+				{ 406, 87800, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Red Dragon Turtle
+				{ 407, 91004, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Green Dragon Turtle
+				{ 408, 91005, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Brown Dragon Turtle
+				{ 409, 91006, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Purple Dragon Turtle
+				{ 410, 91007, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Red Dragon Turtle
+				{ 411, 91008, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Black Dragon Turtle
+				{ 412, 91009, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Blue Dragon Turtle
+				--ALLIANCE
+				{ 416, 46747, "mount" }, -- Turbostrider
+				{ 417, 63039, "mount" }, -- Reins of the Drake of the West Wind
+				{ 418, 45590, "mount" }, -- Exodar Elekk
+				{ 419, 46745, "mount" }, -- Great Red Elekk
+				{ 420, 46813, "mount" }, -- Silver Covenant Hippogryph
+				{ 421, 116665, "mount" }, -- Armored Irontusk
+				{ 422, 45589, "mount" }, -- Gnomeregan Mechanostrider
+				{ 423, 124089, "mount" }, -- Vicious War Mechanostrider
+				{ 424, 46744, "mount" }, -- Swift Moonsaber
+				{ 425, 45591, "mount" }, -- Darnassian Nightsaber
+				{ 426, 45586, "mount" }, -- Ironforge Ram
+				{ 427, 46748, "mount" }, -- Swift Violet Ram
+				{ 428, 116777, "mount" }, -- Vicious War Ram
+				{ 429, 116664, "mount" }, -- Dusty Rockhide
+				{ 430, 45125, "mount" }, -- Stormwind Steed
+				{ 501, 46752, "mount" }, -- Swift Gray Steed
+				{ 502, 46815, "mount" }, -- Quel'dorei Steed
+				{ 503, 64998, "mount" }, -- Reins of the Spectral Steed
+				{ 504, 116776, "mount" }, -- Pale Thorngrazer
+				{ 505, 102514, "mount" }, -- Reins of the Vicious Warsaber
+				--Both
+				{ 507, 73766, "mount" }, -- Darkmoon Dancing Bear
+				{ 508, 103638, "mount" }, -- Reins of the Ashhide Mushan Beast
+				{ 509, 37011, "mount" }, -- Magic Broom
+				{ 510, 47179, "mount" }, -- Argent Charger
+				{ 511, 116772, "mount" }, -- Shadowmane Charger
+				{ 512, 129923, "mount" }, -- Reins of the Eclipse Dragonhawk
+				{ 513, 123974, "mount" }, -- Reins of the Corrupted Dreadwing
+				{ 514, 128527, "mount" }, -- Deathtusk Felboar
+				{ 515, 128526, "mount" }, -- Deathtusk Felboar
+				{ 516, 116671, "mount" }, -- Wild Goretusk
+				{ 517, 128481, "mount" }, -- Bristling Hellboar
+				{ 518, 45725, "mount" }, -- Argent Hippogryph
+				{ 519, 72146, "mount" }, -- Swift Lovebird
+				{ 520, 116672, "mount" }, -- Domesticated Razorback
+				{ 521, 116768, "mount" }, -- Mosshide Riverwallow
+				{ 522, 87774, "mount" }, -- Reins of the Heavenly Golden Cloud Serpent
+				{ 523, 72145, "mount" }, -- Swift Springstrider
+				{ 524, 72140, "mount" }, -- Swift Forest Strider
+				{ 525, 87791, "mount" }, -- Reins of the Crimson Water Strider
+				{ 526, 47180, "mount" }, -- Argent Warhorse
+				{ 527, 129922, "mount" }, -- Bridle of the Ironbound Wraithcharger
 			},
 			[HORDE_DIFF] = {
-			},
-		},
-		{
-			name = AL["No longer available"],
-			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-			},
-			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 18796, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Horn of the Swift Brown Wolf
+				{ 2, 18797, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Horn of the Swift Timber Wolf
+				{ 3, 18798, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Horn of the Swift Gray Wolf
+				{ 4, 1132, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Horn of the Timber Wolf
+				{ 5, 5665, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Horn of the Dire Wolf
+				{ 6, 5668, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Horn of the Brown Wolf
+				{ 7, 46099, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Horn of the Black Wolf
+				{ 8, 18793, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great White Kodo
+				{ 9, 18794, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Brown Kodo
+				{ 10, 18795, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Gray Kodo
+				{ 11, 15277, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Gray Kodo
+				{ 12, 15290, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Kodo
+				{ 13, 46100, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- White Kodo
+				{ 14, 13331, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Red Skeletal Horse
+				{ 15, 13332, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Blue Skeletal Horse
+				{ 16, 13333, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Skeletal Horse
+				{ 17, 46308, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Black Skeletal Horse
+				{ 18, 13334, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Green Skeletal Warhorse
+				{ 19, 18791, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Purple Skeletal Warhorse
+				{ 20, 47101, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Ochre Skeletal Warhorse
+				{ 21, 18788, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Blue Raptor
+				{ 22, 18789, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Olive Raptor
+				{ 23, 18790, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Orange Raptor
+				{ 24, 8588, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Whistle of the Emerald Raptor
+				{ 25, 8591, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Whistle of the Turquoise Raptor
+				{ 26, 8592, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Whistle of the Violet Raptor
+				{ 27},
+				{ 101, 28936, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Pink Hawkstrider
+				{ 102, 29223, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Green Hawkstrider
+				{ 103, 29224, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Purple Hawkstrider
+				{ 104, 28927, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Red Hawkstrider
+				{ 105, 29220, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Blue Hawkstrider
+				{ 106, 29221, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Black Hawkstrider
+				{ 107, 29222, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Purple Hawkstrider
+				{ 108, 29102, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Cobalt War Talbuk
+				{ 109, 29103, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the White War Talbuk
+				{ 110, 29104, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Silver War Talbuk
+				{ 111, 29105, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Tan War Talbuk
+				{ 112, 31829, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Cobalt Riding Talbuk
+				{ 113, 31831, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Silver Riding Talbuk
+				{ 114, 31833, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Tan Riding Talbuk
+				{ 115, 31835, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the White Riding Talbuk
+				{ 116, 44226, "mount", [PRICE_EXTRA_ITTYPE] = "money:7500000" }, -- Reins of the Armored Brown Bear
+				{ 117, 44231, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Wooly Mammoth
+				{ 118, 44234, "mount", [PRICE_EXTRA_ITTYPE] = "money:200000000" }, -- Reins of the Traveler's Tundra Mammoth
+				{ 119, 44690, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Armored Blue Wind Rider
+				{ 120, 44080, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Reins of the Ice Mammoth
+				{ 121, 44086, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Grand Ice Mammoth
+				{ 122, 62462, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Goblin Turbo-Trike Key
+				{ 123, 62461, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Goblin Trike Key
+				{ 124, 93169, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Grand Armored Wyvern
+				{ 125, 67107, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Kor'kron Annihilator
+				{ 126, 25477, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Red Wind Rider
+				{ 127, 25531, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Green Wind Rider
+				{ 128, 25532, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Yellow Wind Rider
+				{ 129, 25533, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Purple Wind Rider
+				{ 130, 95565, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Crimson Primal Direhorn
+				{ 201, 25474, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Tawny Wind Rider
+				{ 202, 25475, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Blue Wind Rider
+				{ 203, 25476, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Green Wind Rider
+				{ 416, 65356, "mount" }, -- Reins of the Drake of the West Wind
+				{ 417, 46814, "mount" }, -- Sunreaver Dragonhawk
+				{ 418, 116785, "mount" }, -- Swift Frostwolf
+				{ 419, 45596, "mount" }, -- Silvermoon Hawkstrider
+				{ 420, 46751, "mount" }, -- Swift Red Hawkstrider
+				{ 421, 46816, "mount" }, -- Sunreaver Hawkstrider
+				{ 422, 45592, "mount" }, -- Thunder Bluff Kodo
+				{ 423, 46750, "mount" }, -- Great Golden Kodo
+				{ 424, 124540, "mount" }, -- Vicious War Kodo
+				{ 425, 45593, "mount" }, -- Darkspear Raptor
+				{ 426, 46743, "mount" }, -- Swift Purple Raptor
+				{ 427, 116778, "mount" }, -- Vicious War Raptor
+				{ 428, 116775, "mount" }, -- Breezestrider Stallion
+				{ 429, 45597, "mount" }, -- Forsaken Warhorse
+				{ 430, 46746, "mount" }, -- White Skeletal Warhorse
+				{ 431, 102533, "mount" }, -- Reins of the Vicious Skeletal Warhorse
+				{ 432, 116782, "mount" }, -- Ironside Warwolf
+				{ 433, 45595, "mount" }, -- Orgrimmar Wolf
+				{ 434, 46749, "mount" }, -- Swift Burgundy Wolf
+				{ 435, 64999, "mount" }, -- Reins of the Spectral Wolf
 			},
 		},
 ]]
+		{
+			name = AL["No longer available"],
+			[NORMAL_DIFF] = {
+				{ 1, 128281, "ac10098" }, -- Wild Gladiator's Felblood Gronnling
+				{ 2, 128277, "ac9239" }, -- Primal Gladiator's Felblood Gronnling
+				{ 3, 89154, "mount" }, -- Reins of the Crimson Pandaren Phoenix
+				{ 4, 90710, "mount" }, -- Reins of the Ashen Pandaren Phoenix
+				{ 5, 90711, "mount" }, -- Reins of the Emerald Pandaren Phoenix
+				{ 6, 90712, "mount" }, -- Reins of the Violet Pandaren Phoenix
+				{ 7, 95041, "mount" }, -- Malevolent Gladiator's Cloud Serpent
+				{ 8, 104246, "mount" }, -- Reins of the Kor'kron War Wolf
+				{ 9, 104325, "mount" }, -- Tyrannical Gladiator's Cloud Serpent
+				{ 10, 104326, "mount" }, -- Grievous Gladiator's Cloud Serpent
+				{ 11, 104327, "mount" }, -- Prideful Gladiator's Cloud Serpent
+				{ 12, 30609, "mount" }, -- Swift Nether Drake
+				{ 13, 33809, "mount" }, -- Amani War Bear
+				{ 14, 34092, "mount" }, -- Merciless Nether Drake
+				{ 15, 37676, "mount" }, -- Vengeful Nether Drake
+				{ 16, 43516, "mount" }, -- Brutal Nether Drake
+				{ 17, 44164, "mount" }, -- Reins of the Black Proto-Drake
+				{ 18, 46171, "mount" }, -- Furious Gladiator's Frost Wyrm
+				{ 19, 46708, "mount" }, -- Deadly Gladiator's Frost Wyrm
+				{ 20, 47840, "mount" }, -- Relentless Gladiator's Frost Wyrm
+				{ 21, 50435, "mount" }, -- Wrathful Gladiator's Frost Wyrm
+				{ 22, 71339, "mount" }, -- Vicious Gladiator's Twilight Drake
+				{ 23, 71954, "mount" }, -- Ruthless Gladiator's Twilight Drake
+				{ 24, 85785, "mount" }, -- Cataclysmic Gladiator's Twilight Drake
+				{ 25, 76889, "mount" }, -- Spectral Gryphon
+				{ 26, 76902, "mount" }, -- Spectral Wind Rider
+				{ 28, 21176, "mount" }, -- Black Qiraji Resonating Crystal
+				{ 29, 8586, "mount" }, -- Whistle of the Mottled Red Raptor
+				{ 30, 12302, "mount" }, -- Reins of the Ancient Frostsaber
+				{ 101, 12303, "mount" }, -- Reins of the Nightsaber
+				{ 102, 12330, "mount" }, -- Horn of the Red Wolf
+				{ 103, 12351, "mount" }, -- Horn of the Arctic Wolf
+				{ 104, 12353, "mount" }, -- White Stallion Bridle
+				{ 105, 12354, "mount" }, -- Palomino Bridle
+				{ 106, 13317, "mount" }, -- Whistle of the Ivory Raptor
+				{ 107, 13326, "mount" }, -- White Mechanostrider Mod B
+				{ 108, 13327, "mount" }, -- Icy Blue Mechanostrider Mod A
+				{ 109, 13328, "mount" }, -- Black Ram
+				{ 110, 13329, "mount" }, -- Frost Ram
+				{ 111, 15292, "mount" }, -- Green Kodo
+				{ 112, 15293, "mount" }, -- Teal Kodo
+				{ 113, 49044, "mount" }, -- Swift Alliance Steed
+				{ 114, 49046, "mount" }, -- Swift Horde Wolf
+				{ 115, 49096, "mount" }, -- Crusader's White Warhorse
+				{ 116, 49098, "mount" }, -- Crusader's Black Warhorse
+				{ 117, 76755, "mount" }, -- Tyrael's Charger
+				-- { 118, 33182 }, -- Swift Flying Broom
+				-- { 119, 33184 }, -- Swift Magic Broom
+				-- { 120, 33183 }, -- Old Magic Broom
+				{ 118, 116788, "ac9496" }, -- Warlord's Deathwheel
+			},
+		},
 	},
 }
 
