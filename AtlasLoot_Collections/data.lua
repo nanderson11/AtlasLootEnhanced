@@ -1398,7 +1398,7 @@ data["MOUNTS"] = {
 				{ 20, 44224, "ac619" }, -- Reins of the Black War Bear2
 				{ 21, 98104, "ac8302" }, -- Armored Red Dragonhawk2
 				{ 22, 67107, "ac5492" }, -- Reins of the Kor'kron Annihilator2
-				{ 23, 69226, "ac959" }, -- Felfirehawk2
+				{ 23, 69226, "ac9599" }, -- Felfirehawk2
 				{ 24, 91802, "ac7862" }, -- Jade Pandaren Kite String2
 				{ 25, 70910, "ac5325" }, -- Horn of the Vicious War Wolf2
 				
