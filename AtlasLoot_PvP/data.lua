@@ -3827,7 +3827,7 @@ data["MOPS15SETS"] = {
 }
 -- Classic Season 13
 data["CLASSICS13SETS"] = {
-	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..AL["Mist of Pandaria"]..")",
+	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -4192,7 +4192,7 @@ data["CLASSICS13SETS"] = {
 }
 -- Classic Season 12
 data["CLASSICS12SETS"] = {
-	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..AL["Mist of Pandaria"]..")",
+	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
