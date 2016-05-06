@@ -185,9 +185,9 @@ function Item.Refresh(button)
 	if not itemEquipLoc or itemEquipLoc == "" then
 		--button.ItemString = nil  -- this would remove bonusIds also :/
 		if button.type == "secButton" then
-			button.ItemString = GetItemStringWithBonus(button.ItemID, button.__atlaslootinfo.preSet.Item.item2bonus)
+			button.ItemString = GetItemStringWithBonus(button.ItemID, button.obj.__atlaslootinfo.preSet.Item.item2bonus)
 		else
-			button.ItemString = GetItemStringWithBonus(button.ItemID, button.obj.__atlaslootinfo.preSet.Item.item1bonus)
+			button.ItemString = GetItemStringWithBonus(button.ItemID, button.__atlaslootinfo.preSet.Item.item1bonus)
 		end
 	end
 
