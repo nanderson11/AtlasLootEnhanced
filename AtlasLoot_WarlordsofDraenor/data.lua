@@ -17,7 +17,6 @@ local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset"
 		item1bonus = nil,
 		item2bonus = "RaidWarforged",
 		autoCompleteItem2 = true,
-		upgradeChainID = 133,
 	},
 }, 14)
 local NORMAL_AUCH_DIFF = data:AddDifficulty(AL["Normal"], "AuchWithPreset", {
