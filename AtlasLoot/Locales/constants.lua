@@ -31,6 +31,7 @@ AL["Toggles the display of the minimap icon."] = true
 AL["Module %s is deactivated."] = true
 AL["Module %s is not installed."] = true
 AL["%s will finish loading after combat."] = true
+AL["Legion"] = true
 AL["Warlords of Draenor"] = true
 AL["Mists of Pandaria"] = true
 AL["Cataclysm"] = true

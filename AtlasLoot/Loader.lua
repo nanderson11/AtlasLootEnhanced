@@ -22,6 +22,12 @@ local GetTime = GetTime
 -- A list of officiel AtlasLoot modules
 local ATLASLOOT_MODULE_LIST = {
 	{
+		addonName = "AtlasLoot_Legion",
+		name = AL["Legion"],
+		tt_title = nil,		-- ToolTip title
+		tt_text = nil,		-- ToolTip text
+	},
+	{
 		addonName = "AtlasLoot_WarlordsofDraenor",
 		name = AL["Warlords of Draenor"],
 		tt_title = nil,		-- ToolTip title

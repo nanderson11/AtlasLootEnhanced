@@ -9,7 +9,7 @@ local SVF
 local db
 
 -- lua
-local tonumber = tonumber
+local tonumber, type = tonumber, type
 local assert = assert
 local next, wipe, tab_remove = next, wipe, table.remove
 local format, split = string.format, string.split
@@ -82,7 +82,7 @@ function Set.OnMouseAction(button, mouseButton)
 		--AtlasLoot.Button:AddChatLink(itemLink or "item:"..button.ItemID)
 	elseif mouseButton == "DressUp" then
 		for i = 1, #button.Items do
-			DressUpItemLink(button.Items[i])
+			DressUpItemLink(type(button.Items[i]) == "string" and button.Items[i] or "item:"..button.Items[i])
 		end
 	elseif mouseButton == "OpenSet" then
 		SVF:SetAtlasLootItemSet(button.SetName, button.SetAddonName or AtlasLoot.db.GUI.selected[1], button.SubSetName, button.SetDiff)
@@ -197,7 +197,7 @@ function Set.ShowToolTipFrame(button)
 	frame:SetRotation(frame.curRotation)
 	frame:SetPortraitZoom(frame.zoomLevelNew)
 	for i = 1, #button.Items do
-		frame:TryOn(button.Items[i])
+		frame:TryOn(type(button.Items[i]) == "string" and button.Items[i] or "item:"..button.Items[i])
 	end
 	
 	

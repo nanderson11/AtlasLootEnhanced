@@ -6,7 +6,7 @@ local AL = AtlasLoot.Locales
 local IngameLocales = AtlasLoot.IngameLocales
 
 local type, rawset, rawget, setmetatable = type, rawset, rawget, setmetatable
-local GetAuctionItemClasses, GetAuctionItemSubClasses = GetAuctionItemClasses, GetAuctionItemSubClasses
+-- local GetAuctionItemClasses, GetAuctionItemSubClasses = GetAuctionItemClasses, GetAuctionItemSubClasses
 
 local LOC_DATA = {
 	{
@@ -354,10 +354,14 @@ preMt = {
 }
 setmetatable(PreSave, preMt)
 
+local function GetAuctionItemClasses()
+return 'Weapon', 'Armor', 'Container', 'Consumable', 'Glyph', 'Trade Goods', 'Recipe', 'Gem', 'Miscellaneous', 'Quest', 'Battle Pets'
+end
+
 local function Init()
 	-- replace strings
 	LOC_DATA.translation = {}
-	local itemClasses = { GetAuctionItemClasses() }
+	local itemClasses = { AuctionCategories }
 	for i = 1, #itemClasses do
 		local itemSubClasses = { GetAuctionItemSubClasses(i) }
 		local iTab = ITEM_DESC_INFO[ LOC_DATA[i]["__name"] ]

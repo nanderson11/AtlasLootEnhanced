@@ -17,31 +17,49 @@ ATLASLOOT_ITEM_BONUSIDS = {
 	["SoOWarforged"] = 448,
 	["HeroicRaid"] = 566,
 	["MythicRaid"] = 567,
+	["LegionLFR"] = 3379,
+	["LegionHeroicRaid"] = 1805,
+	["LegionMythicRaid"] = 1806,
 }
 
 local ITEM_BONUS_PRESET = {
 	-- Dungeons
-	["BSM"]				= { 518 },
-	["ID"]				= { 519 },
-	["Auch"]			= { 520 },
+	["BSM"]					= { 518 },
+	["ID"]					= { 519 },
+	["Auch"]				= { 520 },
 	["Skyreach"]			= { 521 },
-	["Dungeon"]			= { 522 },
+	["Dungeon"]				= { 522 },
 	["HCDungeon"]			= { 524 },
-	["HCDungeonWarforged"]		= { 524, 448 },
+	["HCDungeonWarforged"]	= { 524, 448 },
 	["MDungeon"]			= { 642 },
-	["MDungeonWarforged"]		= { 642, 644 },
+	["MDungeonWarforged"]	= { 642, 644 },
+	-- ## Legion
+	["LegionDungeon"]		= { 1826 },
+	["LegionDungeonTitanforged"] = { 1826, 1552 },
+	["LegionHCDungeon"]		= { 1726 },
+	["LegionHCDungeonTitanforged"]= { 1726, 1552 },
+	["LegionMDungeon"] 		= { 1727 },
+	["LegionMDungeonTitanforged"]	= { 1727, 1552 },
 	-- Raids
-	["LFR"]				= { 451 },
+	["LFR"]					= { 451 },
 	["SoOWarforged"]		= { 448 },
 	["HeroicSoO"] 			= { 449 },
-	["HeroicSoOWarforged"]		= { 449, 448 },
+	["HeroicSoOWarforged"]	= { 449, 448 },
 	["MythicSoO"] 			= { 450 },
-	["MythicSoOWarforged"]		= { 450, 448 },
+	["MythicSoOWarforged"]	= { 450, 448 },
 	["RaidWarforged"]		= { 560 },
 	["HeroicRaid"] 			= { 566 },
-	["HeroicRaidWarforged"] 	= { 566, 561 },
+	["HeroicRaidWarforged"] = { 566, 561 },
 	["MythicRaid"] 			= { 567 },
-	["MythicRaidWarforged"]		= { 567, 562 },
+	["MythicRaidWarforged"]	= { 567, 562 },
+	["LegionLFR"] 						= { 3379 },
+	["LegionLFRTitanforged"] 			= { 3379 },
+	["LegionRaid"]						= { 1807 },
+	["LegionRaidTitanforged"]			= { 1552 },
+	["LegionHeroicRaid"] 				= { 1805 },
+	["LegionHeroicRaidTitanforged"] 	= { 1805, 1552 },
+	["LegionMythicRaid"] 				= { 1806 },
+	["LegionMythicRaidTitanforged"] 	= { 1806, 1552 },
 	-- Crafting
 	["Stage1"]			= { 525 },
 	["Stage2"]			= { 526 },
@@ -58,6 +76,7 @@ local ITEM_BONUS_PRESET = {
 	["Stage2H"]			= { 582 },
 	["Stage3H"]			= { 583 }
 }
+
 
 function ItemString.Create(itemID, extra)
 	if extra then
@@ -85,6 +104,7 @@ end
 
 function ItemString.AddBonus(itemID, bonus)
 	bonus = bonus and (ITEM_BONUS_PRESET[bonus] or ITEM_BONUS_PRESET[bonus[1]]) or bonus
+	if type(bonus) == "string" then print(bonus) end
 	return format( ITEM_FORMAT_BONUS_STRING,
 			itemID,
 			bonus and #bonus or 0,

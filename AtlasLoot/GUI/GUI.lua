@@ -967,11 +967,11 @@ function GUI.RefreshContentBackGround()
 
 	-- top Bg
 	if db.contentTopBar.useContentColor and ( frame.topBG.curAlpha ~= db.contentTopBar.bgColor[4] or frame.topBG.curColor ~= GUI.curBgInfo[1]) then
-		frame.topBG:SetTexture(GUI.curBgInfo[1][1], GUI.curBgInfo[1][2], GUI.curBgInfo[1][3], db.contentTopBar.bgColor[4])
+		frame.topBG:SetColorTexture(GUI.curBgInfo[1][1], GUI.curBgInfo[1][2], GUI.curBgInfo[1][3], db.contentTopBar.bgColor[4])
 		frame.topBG.curColor = GUI.curBgInfo[1]
 		frame.topBG.curAlpha = db.contentTopBar.bgColor[4]
 	elseif not db.contentTopBar.useContentColor and frame.topBG.curColor ~= db.contentTopBar.bgColor then
-		frame.topBG:SetTexture(db.contentTopBar.bgColor[1], db.contentTopBar.bgColor[2], db.contentTopBar.bgColor[3], db.contentTopBar.bgColor[4])
+		frame.topBG:SetColorTexture(db.contentTopBar.bgColor[1], db.contentTopBar.bgColor[2], db.contentTopBar.bgColor[3], db.contentTopBar.bgColor[4])
 		frame.topBG.curColor = db.contentTopBar.bgColor
 	end
 	
@@ -981,16 +981,16 @@ function GUI.RefreshContentBackGround()
 		GUI.frame.contentFrame.itemBG:SetAlpha(db.content.bgColor[4])
 	elseif not db.content.showBgImage or not GUI.curBgInfo[2] then
 		GUI.frame.contentFrame.itemBG:SetAlpha(1)
-		GUI.frame.contentFrame.itemBG:SetTexture(db.content.bgColor[1], db.content.bgColor[2], db.content.bgColor[3], db.content.bgColor[4])
+		GUI.frame.contentFrame.itemBG:SetColorTexture(db.content.bgColor[1], db.content.bgColor[2], db.content.bgColor[3], db.content.bgColor[4])
 	end
 	
 	-- bottom Bg
 	if db.contentBottomBar.useContentColor and ( frame.downBG.curAlpha ~= db.contentBottomBar.bgColor[4] or frame.downBG.curColor ~= GUI.curBgInfo[1]) then
-		frame.downBG:SetTexture(GUI.curBgInfo[1][1], GUI.curBgInfo[1][2], GUI.curBgInfo[1][3], db.contentBottomBar.bgColor[4])
+		frame.downBG:SetColorTexture(GUI.curBgInfo[1][1], GUI.curBgInfo[1][2], GUI.curBgInfo[1][3], db.contentBottomBar.bgColor[4])
 		frame.downBG.curColor = GUI.curBgInfo[1]
 		frame.downBG.curAlpha = db.contentBottomBar.bgColor[4]
 	elseif not db.contentBottomBar.useContentColor and frame.downBG.curColor ~= db.contentBottomBar.bgColor then
-		frame.downBG:SetTexture(db.contentBottomBar.bgColor[1], db.contentBottomBar.bgColor[2], db.contentBottomBar.bgColor[3], db.contentBottomBar.bgColor[4])
+		frame.downBG:SetColorTexture(db.contentBottomBar.bgColor[1], db.contentBottomBar.bgColor[2], db.contentBottomBar.bgColor[3], db.contentBottomBar.bgColor[4])
 		frame.downBG.curColor = db.contentBottomBar.bgColor
 	end
 end

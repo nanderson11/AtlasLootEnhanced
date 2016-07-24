@@ -11,7 +11,7 @@ local tonumber = tonumber
 local str_match = string.match
 
 -- WoW
-local C_MountJournal_GetMountInfo, C_MountJournal_GetMountInfoExtra = C_MountJournal.GetMountInfo, C_MountJournal.GetMountInfoExtra
+local C_MountJournal_GetMountInfo, C_MountJournal_GetMountInfoExtra = C_MountJournal.GetMountInfoByID, C_MountJournal.GetMountInfoExtraByID
 
 local MOUNT_FACTION_TEXTURES = {
     [0] = "MountJournalIcons-Horde",

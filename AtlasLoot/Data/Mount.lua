@@ -6,7 +6,7 @@ local AL = AtlasLoot.Locales
 -- lua
 
 -- WoW
-local C_MountJournal_GetNumMounts, C_MountJournal_GetMountInfo, C_MountJournal_GetMountInfoExtra = C_MountJournal.GetNumMounts, C_MountJournal.GetMountInfo, C_MountJournal.GetMountInfoExtra
+local C_MountJournal_GetMountInfo, C_MountJournal_GetMountInfoExtra, C_MountJournal_GetMountIDs = C_MountJournal.GetMountInfoByID, C_MountJournal.GetMountInfoExtra, C_MountJournal.GetMountIDs
 
 
 local ALL_DATA_LOADED = false
@@ -16,16 +16,6 @@ local NO_ITEM_ID = 0
 -- save all mountinfos
 local MOUNT_INFO = {
 	["spells"] = { -- [spellID] = itemID
-		--[33809] = 43688,
-		[171616] = 116655, --Witherhide Cliffstomper
-		[171628] = 116667, --Rocktusk Battleboar
-		[180545] = 122469, --Mystic Runesaber
-		[201098] = 133543, --Infinite Timereaver
-		[171619] = 116658, --Tundra Icehoof
-		[171630] = 116669, --Armored Razorback
-		[171837] = 116780, --Warsong Direfang
-		[189044] = 128282, --Warmongering Gladiator's Felblood Gronnling
-		[191314] = 128671, --Minion of Grumpus
 		[182912] = 123890, --Felsteel Annihilator
 		[186305] = 127140,	--Infernal Direwolf
 		[190977] = 128527,	--Deathtusk Felboar
@@ -84,7 +74,7 @@ local MOUNT_INFO = {
 		[16084] = 8586,	--Mottled Red Raptor
 		[75596] = 54797,	--Frosty Flying Carpet
 		[23243] = 18790,	--Swift Orange Raptor
-		[127271] = 87791,	--Crimson Water Strider
+		[127271] = NO_ITEM_ID,	--Crimson Water Strider
 		[17454] = 13322,	--Unpainted Mechanostrider
 		[171632] = 116670,	--Frostplains Battleboar
 		[32289] = 25527,	--Swift Red Gryphon
@@ -510,7 +500,7 @@ local MOUNT_INFO = {
 		[44151] = 34061,	--Turbo-Charged Flying Machine
 		[102514] = 72582,	--Corrupted Hippogryph
 		[148626] = 104329,	--Furious Ashhide Mushan
-		[43688] = 33809,	--Amani War Bear
+		[43688] = NO_ITEM_ID,	--Amani War Bear
 		[69395] = 49636,	--Onyxian Drake
 		[127170] = 87777,	--Astral Cloud Serpent
 		[171625] = 116664,	--Dusty Rockhide
@@ -558,14 +548,15 @@ local function LoadAllData()
 	if ALL_DATA_LOADED then return end
 	
 	local _, spellID
-	for i=1,C_MountJournal_GetNumMounts() do
-		_, spellID = C_MountJournal_GetMountInfo(i)
+	local mountIDs = C_MountJournal_GetMountIDs()
+	for i=1,#mountIDs do
+		_, spellID = C_MountJournal_GetMountInfo(mountIDs[i])
 		if MOUNT_INFO["spells"][spellID] then
 			MOUNT_INFO["items"][ MOUNT_INFO["spells"][spellID] ] = spellID
 		else
 			MOUNT_INFO["spells"][spellID] = NO_ITEM_ID
 		end
-		MOUNT_INFO["index"][spellID] = i
+		MOUNT_INFO["index"][spellID] = mountIDs[i]
 	end
 	
 	ALL_DATA_LOADED = true

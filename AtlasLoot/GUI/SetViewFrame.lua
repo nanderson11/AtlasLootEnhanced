@@ -178,7 +178,7 @@ local function SetItemFrameItem(self, itemID, itemLink)
 	--self:SetContentTable({ 0, itemID}, {"Item", "Item"}, true)
 	self.__atlaslootinfo.type = {}
 	self:SetType("Item", {itemID = itemID, itemString = self.itemLink})
-	SVF.frame.modelFrame:TryOn(itemLink or itemID)
+	SVF.frame.modelFrame:TryOn("item:"..itemID)
 end
 
 local function GetNextItemFrame()

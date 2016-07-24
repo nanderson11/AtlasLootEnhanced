@@ -61,7 +61,7 @@ local function OnEvent(self, event, arg1)
 	
 	local _, itemID, link
 	for i = 1, EJ_GetNumLoot() do
-		_, _, _, _, itemID, link = EJ_GetLootInfoByIndex(i) --name, icon, slot, armorType, itemID, link, encounterID
+		itemID, _, _, _, _, _, link = EJ_GetLootInfoByIndex(i) --itemID, encounterID, name, icon, slot, armorType, link
 		itemList[i] = { itemID, link }
 		itemList[itemID] = i
 	end
@@ -99,7 +99,7 @@ function EJ:SetLootQuery(instanceID, encounterID, difficultyID, tier, classIDFil
 
 	local _, itemID, link
 	for i = 1, EJ_GetNumLoot() do
-		_, _, _, _, itemID, link = EJ_GetLootInfoByIndex(i) --name, icon, slot, armorType, itemID, link, encounterID
+		itemID, _, _, _, _, _, link = EJ_GetLootInfoByIndex(i) --itemID, encounterID, name, icon, slot, armorType, link
 		itemList[i] = { itemID, link }
 		itemList[itemID] = i
 	end
