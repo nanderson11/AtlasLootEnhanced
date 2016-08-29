@@ -26,6 +26,7 @@ move-folders:
     AtlasLoot/AtlasLoot_Cataclysm: AtlasLoot_Cataclysm
     AtlasLoot/AtlasLoot_MistsofPandaria: AtlasLoot_MistsofPandaria
     AtlasLoot/AtlasLoot_WarlordsofDraenor: AtlasLoot_WarlordsofDraenor
+    AtlasLoot/AtlasLoot_Legion: AtlasLoot_Legion
     AtlasLoot/AtlasLoot_Collections: AtlasLoot_Collections
     AtlasLoot/AtlasLoot_Crafting: AtlasLoot_Crafting
     AtlasLoot/AtlasLoot_Factions: AtlasLoot_Factions
