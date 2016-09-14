@@ -1762,6 +1762,26 @@ data["Enchanting"] = {
 		},
 		{	--EnchantingCloak
 			name = AL["Cloak"],
+			[LEGION_DIFF] = {
+				{ 1, 128549, 190878 }, -- Binding of Agility
+				{ 2, 128549, 191004 }, -- Binding of Agility
+				{ 3, 128549, 191021 }, -- Binding of Agility
+				{ 5, 128550, 190879 }, -- Binding of Intellect
+				{ 6, 128550, 191005 }, -- Binding of Intellect
+				{ 7, 128550, 191022 }, -- Binding of Intellect
+				{ 9, 128548, 190877 }, -- Binding of Strength
+				{ 10, 128548, 191003 }, -- Binding of Strength
+				{ 11, 128548, 191020 }, -- Binding of Strength
+				{ 16, 128546, 190875 }, -- Word of Agility
+				{ 17, 128546, 191001 }, -- Word of Agility
+				{ 18, 128546, 191018 }, -- Word of Agility
+				{ 20, 128547, 190876 }, -- Word of Intellect
+				{ 21, 128547, 191002 }, -- Word of Intellect
+				{ 22, 128547, 191019 }, -- Word of Intellect
+				{ 24, 128545, 190874 }, -- Word of Strength
+				{ 25, 128545, 191000 }, -- Word of Strength
+				{ 26, 128545, 191017 }, -- Word of Strength
+			},
 			[WOD_DIFF] = {
 				{ 1, 110652, 158884, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Cloak - Gift of Critical Strike (Sold, Ashran)
 				{ 2, 110653, 158885, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Cloak - Gift of Haste (Sold, Ashran)
@@ -1820,6 +1840,12 @@ data["Enchanting"] = {
 		},
 		{	--EnchantingGloves
 			name = AL["Gloves"],
+			[LEGION_DIFF] = {
+				{ 1, 128558, 190988 }, -- Legion Herbalism
+				{ 2, 128559, 190989 }, -- Legion Mining
+				{ 3, 128560, 190990 }, -- Legion Skinning
+				{ 4, 128561, 190991 }, -- Legion Surveying
+			},
 			[MOP_DIFF] = {
 				{ 1, 74721, 104419 },	-- Enchant Gloves - Super Strength : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
 				{ 2, 74722, 104420 },	-- Enchant Gloves - Superior Mastery : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
@@ -1876,6 +1902,26 @@ data["Enchanting"] = {
 		},
 		{	--EnchantingNeck
 			name = AL["Neck"],
+			[LEGION_DIFF] = {
+				{ 1, 141910, 228408 }, -- Mark of the Ancient Priestess
+				{ 2, 141910, 228409 }, -- Mark of the Ancient Priestess
+				{ 3, 141910, 228410 }, -- Mark of the Ancient Priestess
+				{ 5, 128551, 190892 }, -- Mark of the Claw
+				{ 6, 128551, 191006 }, -- Mark of the Claw
+				{ 7, 128551, 191023 }, -- Mark of the Claw
+				{ 8, 128552, 190893 }, -- Mark of the Distant Army
+				{ 10, 128552, 191007 }, -- Mark of the Distant Army
+				{ 11, 128552, 191024 }, -- Mark of the Distant Army
+				{ 16, 141908, 228402 }, -- Mark of the Heavy Hide
+				{ 17, 141908, 228403 }, -- Mark of the Heavy Hide
+				{ 18, 141908, 228404 }, -- Mark of the Heavy Hide
+				{ 20, 128553, 190894 }, -- Mark of the Hidden Satyr
+				{ 21, 128553, 191008 }, -- Mark of the Hidden Satyr
+				{ 22, 128553, 191025 }, -- Mark of the Hidden Satyr
+				{ 24, 141909, 228405 }, -- Mark of the Trained Soldier
+				{ 25, 141909, 228406 }, -- Mark of the Trained Soldier
+				{ 26, 141909, 228407 }, -- Mark of the Trained Soldier
+			},
 			[WOD_DIFF] = {
 				{ 1, 110645, 158899, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Neck - Gift of Critical Strike (Sold, Ashran)
 				{ 2, 110646, 158900, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Neck - Gift of Haste (Sold, Ashran)
@@ -1889,8 +1935,41 @@ data["Enchanting"] = {
 				{ 20, 110628, 158896, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Neck - Breath of Versatility (Sold, Ashran)
 			},
 		},
+		{	--EnchantingRelic
+			name = AL["Relic"],
+			[LEGION_DIFF] = {
+				{ 1, 136689, 209507 }, -- Soul Fibril
+				{ 2, 136691, 209509 }, -- Immaculate Fibril
+			},
+		},
 		{	--EnchantingRing
 			name = AL["Ring"],
+			[LEGION_DIFF] = {
+				{ 1, 128541, 190870 }, -- Binding of Critical Strike
+				{ 2, 128541, 190996 }, -- Binding of Critical Strike
+				{ 3, 128541, 191013 }, -- Binding of Critical Strike
+				{ 5, 128542, 190871 }, -- Binding of Haste
+				{ 6, 128542, 190997 }, -- Binding of Haste
+				{ 7, 128542, 191014 }, -- Binding of Haste
+				{ 8, 128543, 190872 }, -- Binding of Mastery
+				{ 10, 128543, 190998 }, -- Binding of Mastery
+				{ 11, 128543, 191015 }, -- Binding of Mastery
+				{ 13, 128544, 190873 }, -- Binding of Versatility
+				{ 14, 128544, 190999 }, -- Binding of Versatility
+				{ 15, 128544, 191016 }, -- Binding of Versatility
+				{ 16, 128537, 190866 }, -- Word of Critical Strike
+				{ 17, 128537, 190992 }, -- Word of Critical Strike
+				{ 18, 128537, 191009 }, -- Word of Critical Strike
+				{ 20, 128538, 190867 }, -- Word of Haste
+				{ 21, 128538, 190993 }, -- Word of Haste
+				{ 22, 128538, 191010 }, -- Word of Haste
+				{ 24, 128539, 190868 }, -- Word of Mastery
+				{ 25, 128539, 190994 }, -- Word of Mastery
+				{ 26, 128539, 191011 }, -- Word of Mastery
+				{ 28, 128540, 190869 }, -- Word of Versatility
+				{ 29, 128540, 190995 }, -- Word of Versatility
+				{ 30, 128540, 191012 }, -- Word of Versatility
+			},
 			[WOD_DIFF] = {
 				{ 1, 110638, 158914, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Ring - Gift of Critical Strike (Sold, Ashran)
 				{ 2, 110639, 158915, [PRICE_EXTRA_ITTYPE] = "119293:1" },	-- Enchant Ring - Gift of Haste (Sold, Ashran)
@@ -1929,6 +2008,12 @@ data["Enchanting"] = {
 				{ 20, 38792, 13485 },	-- Enchant Shield - Lesser Spirit : =ds=#sr# 130 : =ds=AtlasLoot["Trainer"]
 				{ 21, 38791, 13464 },	-- Enchant Shield - Lesser Protection : =ds=#sr# 115 : =ds=AtlasLoot["World Drop"]
 				{ 22, 38787, 13378 },	-- Enchant Shield - Minor Stamina : =ds=#sr# 105 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{	--EnchantingShoulder
+			name = AL["Shoulder"],
+			[NORMAL_DIFF] = {
+				{ 1, 128554, 190954 }, -- Enchant Shoulder - Boon of the Scavenger
 			},
 		},
 		{	--EnchantingWeapon
@@ -2035,6 +2120,13 @@ data["Enchanting"] = {
 		},
 		{	--EnchantingMisc
 			name = AL["Miscellaneous"],
+			[LEGION_DIFF] = {
+				{ 1, 128533, 191074 }, -- Enchanted Cauldron
+				{ 2, 128534, 191075 }, -- Enchanted Torch
+				{ 3, 128535, 191076 }, -- Enchanted Pen
+				{ 5, 128536, 191078 }, -- Leylight Brazier
+				{ 16, 124440, 224199 }, -- Ley Shatter
+			},
 			[WOD_DIFF] = {
 				{ 1, 112321, 162948 },	-- Enchanted Dust (Learnt by item 111922)
 				{ 3, 113588, 169092 },	-- Temporal Crystal (Learnt by item 111922)
@@ -2043,6 +2135,7 @@ data["Enchanting"] = {
 				{ 7, 111245, 169091 },	-- Luminous Shard (Learnt by item 111922)
 				{ 8, 115502, 170440 },	-- Small Luminous Shard
 				{ 10, 119293, 177043 },	-- Secrets of Draenor Enchanting (Learnt by item 111922)
+				{ 16, 138795, 217655 }, -- Tome of Illusions: Draenor
 			},
 			[MOP_DIFF] = {
 				{ 1, 74248, 116499 },	-- Sha Crystal : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
@@ -2051,14 +2144,19 @@ data["Enchanting"] = {
 				{ 4, 74247, 116498 },	-- Ethereal Shard : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
 				{ 5, 74249, 118237, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Mysterious Diffusion : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
 				{ 6, 74250, 116497 },	-- Mysterious Essence : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 8, 138793, 217650 }, -- Tome of Illusions: Pandaria
+				{ 9, 138794, 217651 }, -- Tome of Illusions: Secrets of the Shado-Pan
 			},
 			[CATA_DIFF] = {
 				{ 1, 67275, 93843 },	-- Magic Lamp : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"], ALLIANCE "20 #hypnoticdust#"
 				{ 2, 67274, 93841 },	-- Enchanted Lantern : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"], HORDE "20 #hypnoticdust#"
 				{ 4, 52721, 104698, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Maelstrom Shatter : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 6, 138791, 217645 }, -- Tome of Illusions: Cataclysm
+				{ 7, 138792, 217649 }, -- Tome of Illusions: Elemental Lords
 			},
 			[WOTLK_DIFF] = {
 				{ 1, 89738, 69412 },	-- Abyssal Shatter : =ds=#sr# 445 : =ds=AtlasLoot["Trainer"]
+				{ 3, 138790, 217644 }, -- Tome of Illusions: Northrend
 			},
 			[BC_DIFF] = {
 				{ 1, 22449, 45765, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Void Shatter : =ds=#sr# 360 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Isle of Quel'Danas"]
@@ -2066,6 +2164,7 @@ data["Enchanting"] = {
 				{ 3, 22448, 42615, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Small Prismatic Shard : =ds=#sr# 335 : =ds=AtlasLoot["Trainer"]
 				{ 5, 22459, 28028 },	-- Void Sphere : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
 				{ 6, 22460, 28027 },	-- Prismatic Sphere : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 8, 138789, 217641 }, -- Tome of Illusions: Outland
 				{ 16, 22522, 28019 },	-- Superior Wizard Oil : =ds=#sr# 340 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Shattrath City"]
 				{ 17, 22521, 28016 },	-- Superior Mana Oil : =ds=#sr# 310 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Shattrath City"]
 			},
@@ -2084,6 +2183,7 @@ data["Enchanting"] = {
 				{ 17, 11289, 14809 },	-- Lesser Mystic Wand : =ds=#sr# 155 : =ds=AtlasLoot["Trainer"]
 				{ 18, 11288, 14807 },	-- Greater Magic Wand : =ds=#sr# 70 : =ds=AtlasLoot["Trainer"]
 				{ 19, 11287, 14293 },	-- Lesser Magic Wand : =ds=#sr# 10 : =ds=AtlasLoot["Trainer"]
+				{ 21, 138787, 217637 }, -- Tome of Illusions: Azeroth
 			},
 		},
 	}

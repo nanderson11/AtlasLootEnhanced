@@ -277,6 +277,7 @@ AL["Scrolls"] = true
 AL["Secondary Professions"] = true
 AL["Shields"] = true
 AL["Shirts"] = true
+AL["Shoulder"] = true
 AL["Special"] = true
 AL["Staves"] = true
 AL["Tinker"] = true
