@@ -42,6 +42,14 @@ local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWith
 		autoCompleteItem2 = true,
 	},
 })
+local MYTHICD2_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 3)
+local MYTHICD2_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeon2WithPreset", {
+	Item = {
+		item1bonus = "LegionMDungeon2",
+		item2bonus = "LegionMDungeon2Titanforged",
+		autoCompleteItem2 = true,
+	},
+})
 local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 	Item = {
 		item1bonus = "LegionHeroicRaid",
@@ -1121,6 +1129,142 @@ data["Neltharion'sLair"] = {
 	}
 }
 
+data["ReturnToKarazhan"] = {
+	EncounterJournalID = 860,
+	MapID = 1115,
+	ContentType = DUNGEON_CONTENT,
+	items = {
+		{	--The Curator
+			EncounterJournalID = 1836,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142149 }, -- Gloves of Arcane Confluence
+				{ 2, 142181 }, -- Seeping Corruption
+				{ 3, 142125 }, -- Repurposed Golem Grips
+				{ 4, 142172 }, -- Terestian's Signet Ring
+				{ 5, 142309 }, -- Fauna Analysis Widget
+				{ 6, 142176 }, -- Arcing Static Charge
+				{ 7, 142133 }, -- Gauntlets of Confinement
+				{ 8, 142165 }, -- Deteriorated Construct Core
+				{ 9, 142141 }, -- Custodian's Soothing Touch
+				{ 10, 142130 }, -- Bite-Marked Wristplates
+			},
+		},
+		{	--Opera Hall: Wikket
+			EncounterJournalID = 1820,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142179 }, -- Memory of Betrayal
+				{ 2, 142198 }, -- Inordinately Wonderous Wristguards
+				{ 3, 142204 }, -- Boots of False Promises
+				{ 4, 142296 }, -- Wikket Witch's Hat
+				{ 5, 142298 }, -- Astonishingly Scarlet Slippers
+				{ 6, 142300 }, -- Greaves of Miraculous Magnificence
+				{ 7, 142137 }, -- Short Jibbet Waistguard
+				{ 8, 142175 }, -- Arcanum of Weightlessness
+				{ 9, 142194 }, -- Gloomy Vortex
+				{ 10, 142205 }, -- Jabber Grookin' Gauntlets
+				{ 11, 142299 }, -- Horkin' Stuff-Lobbers
+			},
+		},
+		{	--Opera Hall: Beautiful Beast
+			EncounterJournalID = 1827,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142192 }, -- Ghastly Curse
+				{ 2, 142196 }, -- Cinch of Improbable Desire
+				{ 3, 142168 }, -- Majordomo's Dinner Bell
+				{ 4, 142202 }, -- Trousers of Royal Vanity
+				{ 5, 142206 }, -- Cloak of Sweltering Flame
+				{ 6, 142197 }, -- Legguards of Imprisonment
+				{ 7, 142304 }, -- Visage of Brutish Iron
+				{ 8, 142188 }, -- Spellbound Rose Petal
+				{ 9, 142184 }, -- Candle of Flickering Lumens
+			},
+		},
+		{	--Opera Hall: Westfall Story
+			EncounterJournalID = 1826,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142164 }, -- Toe Knee's Promise
+				{ 2, 142146 }, -- Blackfin Wristband
+				{ 3, 142178 }, -- Ruffian's Poisoned Blade
+				{ 4, 142302 }, -- Armguards of Burning Passion
+				{ 5, 142154 }, -- Bracelets of the Sorrowful Bride
+				{ 6, 142201 }, -- Mantle of Conflicted Loyalties
+				{ 7, 142190 }, -- Love's Intermission
+				{ 8, 142160 }, -- Mrrgria's Favor
+				{ 9, 142186 }, -- Mrrmgmrl Grmmlmglrg
+			},
+		},
+		{	--Attumen the Huntsman
+			EncounterJournalID = 1835,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142136 }, -- Mantle of Hideous Trophies
+				{ 2, 142183 }, -- Lava-Quenched Hoofplate
+				{ 3, 142185 }, -- Fear of Predation
+				{ 4, 142174 }, -- Choker of Barbed Reins
+				{ 5, 142191 }, -- Dirge of the Hunted
+				{ 6, 142148 }, -- Wilderness Stalker's Softsoles
+				{ 7, 142126 }, -- Helm of Phantasmal Scars
+				{ 8, 142236 }, -- Midnight's Eternal Reins
+				{ 9, 142140 }, -- Calliard's Galoshes
+				{ 10, 142161 }, -- Inescapable Dread
+			},
+		},
+		{	--Maiden of Virtue
+			EncounterJournalID = 1825,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142193 }, -- Begrudging Confessions
+				{ 2, 142187 }, -- Virtuous Directive
+				{ 3, 142139 }, -- Vest of Wanton Deeds
+				{ 4, 142138 }, -- Confiscated Manacles
+				{ 5, 142153 }, -- Cord of the Penitent
+				{ 6, 142170 }, -- Drape of Shame
+				{ 7, 142124 }, -- Treads of the Depraved
+				{ 8, 142158 }, -- Faith's Crucible
+			},
+		},
+		{	--Moroes
+			EncounterJournalID = 1837,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142147 }, -- Robes of Wicked Modesty
+				{ 2, 142134 }, -- Castellan's Blinders
+				{ 3, 142123 }, -- Breastplate of Obligation
+				{ 4, 138797 }, -- Illusion: Mongoose
+				{ 5, 142189 }, -- Perfectly Preserved Apple
+				{ 6, 142171 }, -- Seal of Darkshire Nobility
+				{ 7, 142143 }, -- Willbreaker Legguards
+				{ 8, 142177 }, -- Jagged Emerald
+				{ 9, 142159 }, -- Bloodstained Handkerchief
+			},
+		},
+		{	--Mana Devourer
+			EncounterJournalID = 1818,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142162 }, -- Fluctuating Energy
+				{ 2, 142305 }, -- Suffused Manapearl
+				{ 3, 142307 }, -- Miniature Bonfire
+				{ 4, 142144 }, -- Unending Horizon Spaulders
+				{ 5, 142150 }, -- Hood of Uncanny Perspectives
+				{ 6, 142135 }, -- Legguards of Countless Hours
+				{ 7, 142128 }, -- Pauldrons of Encroaching Limits
+				{ 8, 142215 }, -- Wine-Stained Mantle
+				{ 9, 142180 }, -- Grisly Schism
+			},
+		},
+		{	--Viz'aduum the Watcher
+			EncounterJournalID = 1838,
+			[MYTHICD2_DUNGEON_DIFF] = {
+				{ 1, 142151 }, -- Leggings of Countless Worlds
+				{ 2, 142306 }, -- Rift Stabilization Shard
+				{ 3, 142132 }, -- Doomstride Footguards
+				{ 4, 142182 }, -- Viz'aduum's Mindstone
+				{ 5, 142127 }, -- Tassets of Perpetual Despair
+				{ 6, 142142 }, -- Unbound Reality Mask
+				{ 7, 142173 }, -- Ring of Collapsing Futures
+				{ 8, 142167 }, -- Eye of Command
+			},
+		},
+	}
+}
+
 data["TheArcway"] = {
 	EncounterJournalID = 726,
 	MapID = 1079,
@@ -2076,4 +2220,88 @@ data["TheNighthold"] = {
 ]]		
 		LEGION_RAID1_AC_TABLE,
 	},
+}
+
+data["TrialOfValor"] = {
+	EncounterJournalID = 861,
+	MapID = 1114,
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{	--Helya
+			EncounterJournalID = 1829,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142507 }, -- Brinewater Slime in a Bottle
+				{ 2, 142518 }, -- Fury of the Sea
+				{ 3, 142513 }, -- Token of the Lightning Keeper
+				{ 4, 142427 }, -- Calcareous Wristclamps
+				{ 5, 142517 }, -- Swell of the Tides
+				{ 6, 142429 }, -- Oiled Rigger's Handwraps
+				{ 7, 142521 }, -- Drape of the Unworthy
+				{ 8, 142418 }, -- Sucker-Scarred Leggings
+				{ 9, 142510 }, -- Phylactery of Unwilling Servitude
+				{ 10, 142416 }, -- Strand of Whelk Shells
+				{ 11, 142424 }, -- Krakenbone Waistplate
+				{ 12, 142420 }, -- Anchor Chain Waistguard
+				{ 13, 142428 }, -- Sea Fan Pendant
+				{ 14, 142433 }, -- Corroded Val'kyr Chainmail
+				{ 15, 142414 }, -- Treads of the Drowned
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{	--Odyn
+			EncounterJournalID = 1819,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142419 }, -- Sky-Valiant's Wristguards
+				{ 2, 142511 }, -- Unforged Titansteel
+				{ 3, 142410 }, -- Robes of Celestial Adornment
+				{ 4, 142425 }, -- Goldrune Legplates
+				{ 5, 142519 }, -- Favor of the Prime Designate
+				{ 6, 142431 }, -- Gleaming Val'kyr Cuirass
+				{ 7, 142508 }, -- Chains of the Valorous
+				{ 8, 142540 }, -- Mantle of the Victorious Dead
+				{ 9, 142422 }, -- Radiant Soul Sabatons
+				{ 10, 142514 }, -- Ravens' Sight
+				{ 11, 142411 }, -- Cinch of Light
+				{ 12, 142430 }, -- Gloves of Issued Challenge
+				{ 13, 142520 }, -- Ring of Ascended Glory
+				{ 14, 142421 }, -- Leggings of the Undaunted
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{	--Guarm
+			EncounterJournalID = 1830,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142432 }, -- Helbeast Skin Tunic
+				{ 2, 142434 }, -- Kvaldir Exult's Grips
+				{ 3, 142423 }, -- Bite-Resistant Wristclamps
+				{ 4, 142515 }, -- Chilled Incisor
+				{ 5, 142412 }, -- Windwhipped Sailcloth
+				{ 6, 142506 }, -- Eye of Guarm
+				{ 7, 142435 }, -- Reinforced Hound-Handler's Gauntlets
+				{ 8, 142512 }, -- Accursed Cuspid
+				{ 9, 142426 }, -- Lead-Soled Seabed Striders
+				{ 10, 142516 }, -- Sizzling Fang
+				{ 11, 142413 }, -- Leggings of the Lower Planes
+				{ 12, 142415 }, -- Helhound Hair Bracers
+				{ 13, 142417 }, -- Moccasins of Silent Passage
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+	}
 }
