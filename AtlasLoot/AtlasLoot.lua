@@ -69,7 +69,8 @@ function AtlasLoot:OnInitialize()
 
 	
 --scan for pet IDs
---[[	self.db.PETINFO = {}
+--[[
+	self.db.PETINFO = {}
 	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
 	local numPets = C_PetJournal.GetNumPets()
 	
@@ -81,7 +82,7 @@ function AtlasLoot:OnInitialize()
 	end
 ]]	
 --[[
-self.db.MOUNTINFO = {}
+	self.db.MOUNTINFO = {}
 	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
 	local numMounts = C_MountJournal.GetNumMounts()
 
@@ -92,8 +93,9 @@ self.db.MOUNTINFO = {}
 			self.db.MOUNTINFO[creatureName] = mountID
 		end
 	end
-end
 ]]
+end
+
 function AtlasLoot:AddInitFunc(func, module)
 	assert(type(func) == "function", "'func' must be a function.")
 	if not EventFrame:IsEventRegistered("ADDON_LOADED") then
