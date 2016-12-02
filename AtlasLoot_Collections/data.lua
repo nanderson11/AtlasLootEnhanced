@@ -1306,9 +1306,9 @@ data["GARRISON"] = {
 				{ 18, "prof173730" },	-- Illusion: Spellsurge
 				{ 19, "prof173731" },	-- Illusion: Striking
 				{ 20, "prof173732" },	-- Illusion: Unholy
-				{ 22, "ICON_inv_throwingknife_04", nil, LOCALIZED_CLASS_NAMES_MALE["ROGUE"], nil },
+				{ 22, "ICON_inv_throwingknife_04", nil, ALIL["ROGUE"], nil },
 				{ 23, "prof173728" },	-- Illusion: Poisoned
-				{ 25, "ICON_Spell_Nature_BloodLust", nil, LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], nil },
+				{ 25, "ICON_Spell_Nature_BloodLust", nil, ALIL["SHAMAN"], nil },
 				{ 26, "prof175076" },	-- Illusion: Earthliving
 				{ 27, "prof175072" },	-- Illusion: Flametongue
 				{ 28, "prof175071" },	-- Illusion: Frostbrand
