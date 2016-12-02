@@ -217,6 +217,7 @@ AL["Unobtainable Tabards"] = true
 AL["Varlan Highbough"] = true
 AL["Zen'Vorka"] = true
 AL["Timewalking Dungeon Event"] = true
+AL["Artifacts"] = true
 
 -- Crafting strings
 AL["Arakkoa"] = true

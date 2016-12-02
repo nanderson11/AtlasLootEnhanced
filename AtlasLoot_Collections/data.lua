@@ -38,6 +38,109 @@ local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
 
 local COLLECTION_CONTENT = data:AddContentType(AL["Collections"], ATLASLOOT_COLLECTION_COLOR)
 
+data["ARTIFACTS"] = {
+	name = AL["Artifacts"],
+	ContentType = COLLECTION_CONTENT,
+	items = {
+		{
+			name = ALIL["DEATHKNIGHT"],
+			[NORMAL_DIFF] = {
+				{ 1, 128292 },
+				{ 2, 128402 },
+				{ 3, 128403 },
+			},
+		},
+		{
+			name = ALIL["DEMONHUNTER"],
+			[NORMAL_DIFF] = {
+				{ 1, 127829 },
+				{ 2, 128832 },
+			},
+		},
+		{
+			name = ALIL["DRUID"],
+			[NORMAL_DIFF] = {
+				{ 1, 128306 },
+				{ 2, 128821 },
+				{ 3, 128860 },
+				{ 4, 128858 },
+			},
+		},
+		{
+			name = ALIL["HUNTER"],
+			[NORMAL_DIFF] = {
+				{ 1, 128808 },
+				{ 2, 128826 },
+				{ 3, 128861 },
+			},
+		},
+		{
+			name = ALIL["MAGE"],
+			[NORMAL_DIFF] = {
+				{ 1, 127857 },
+				{ 2, 128862 },
+				{ 3, 128820 },
+			},
+		},
+		{
+			name = ALIL["MONK"],
+			[NORMAL_DIFF] = {
+				{ 1, 128940 },
+				{ 2, 128937 },
+				{ 3, 128938 },
+			},
+		},
+		{
+			name = ALIL["PALADIN"],
+			[NORMAL_DIFF] = {
+				{ 1, 120978 },
+				{ 2, 128823 },
+				{ 3, 128866 },
+			},
+		},
+		{
+			name = ALIL["PRIEST"],
+			[NORMAL_DIFF] = {
+				{ 1, 128825 },
+				{ 2, 128868 },
+				{ 3, 128827 },
+			},
+		},
+		{
+			name = ALIL["ROGUE"],
+			[NORMAL_DIFF] = {
+				{ 1, 128476 },
+				{ 2, 128870 },
+				{ 3, 128872 },
+			},
+		},
+		{
+			name = ALIL["SHAMAN"],
+			[NORMAL_DIFF] = {
+				{ 1, 128935 },
+				{ 2, 128819 },
+				{ 3, 128911 },
+			},
+		},
+		{
+			name = ALIL["WARLOCK"],
+			[NORMAL_DIFF] = {
+				{ 1, 128943 },
+				{ 2, 128941 },
+				{ 3, 128942 },
+			},
+		},
+		{
+			name = ALIL["WARRIOR"],
+			[NORMAL_DIFF] = {
+				{ 1, 128289 },
+				{ 2, 128908 },
+				{ 3, 128910 },
+			},
+		},
+	},
+}
+
 data["APEXISCRYSTALGEAR"] = {
 	name = AL["Apexis Crystal"].." "..AL["Vendors"],
 	ContentType = COLLECTION_CONTENT,
