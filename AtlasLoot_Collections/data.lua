@@ -1064,18 +1064,18 @@ data["MOUNTS"] = {
 			},
 			[WOD_DIFF] = {
 				{ 1, 123890, "mount" }, -- Felsteel Annihilator
-				{ 3, 116660, "mount" }, -- Ironhoof Destroyer
-				{ 5, 133543, "mount" }, -- Reins of the Infinite Timereaver
+				{ 2, 116660, "mount" }, -- Ironhoof Destroyer
+				-- { 5, 133543, "mount" }, -- Reins of the Infinite Timereaver
 				-- Tanaan Jungle
-				{ 7, 116658, "mount" }, -- Tundra Icehoof
-				{ 8, 116669, "mount" }, -- Armored Razorback
-				{ 9, 116780, "mount" }, -- Warsong Direfang
+				{ 4, 116658, "mount" }, -- Tundra Icehoof
+				{ 5, 116669, "mount" }, -- Armored Razorback
+				{ 6, 116780, "mount" }, -- Warsong Direfang
 				-- Garrison
-				{ 11, 116663, "mount" }, -- Shadowhide Pearltusk
-				{ 12, 116673, "mount" }, -- Giant Coldsnout
-				{ 13, 116786, "mount" }, -- Smoky Direwolf
-				{ 14, 116779, "mount" }, -- Garn Steelmaw
-				{ 15, 128671, "mount" }, -- Minion of Grumpus
+				{ 8, 116663, "mount" }, -- Shadowhide Pearltusk
+				{ 9, 116673, "mount" }, -- Giant Coldsnout
+				{ 10, 116786, "mount" }, -- Smoky Direwolf
+				{ 11, 116779, "mount" }, -- Garn Steelmaw
+				{ 12, 128671, "mount" }, -- Minion of Grumpus
 				-- World
 				{ 16, 116771, "mount" }, -- Solar Spirehawk
 				{ 17, 116659, "mount" }, -- Bloodhoof Bull
@@ -1394,30 +1394,30 @@ data["MOUNTS"] = {
 				{ 24, 85785, "mount" }, -- Cataclysmic Gladiator's Twilight Drake
 				{ 25, 76889, "mount" }, -- Spectral Gryphon
 				{ 26, 76902, "mount" }, -- Spectral Wind Rider
-				{ 28, 21176, "mount" }, -- Black Qiraji Resonating Crystal
-				{ 29, 8586, "mount" }, -- Whistle of the Mottled Red Raptor
-				{ 30, 12302, "mount" }, -- Reins of the Ancient Frostsaber
-				{ 101, 12303, "mount" }, -- Reins of the Nightsaber
-				{ 102, 12330, "mount" }, -- Horn of the Red Wolf
-				{ 103, 12351, "mount" }, -- Horn of the Arctic Wolf
-				{ 104, 12353, "mount" }, -- White Stallion Bridle
-				{ 105, 12354, "mount" }, -- Palomino Bridle
-				{ 106, 13317, "mount" }, -- Whistle of the Ivory Raptor
-				{ 107, 13326, "mount" }, -- White Mechanostrider Mod B
-				{ 108, 13327, "mount" }, -- Icy Blue Mechanostrider Mod A
-				{ 109, 13328, "mount" }, -- Black Ram
-				{ 110, 13329, "mount" }, -- Frost Ram
-				{ 111, 15292, "mount" }, -- Green Kodo
-				{ 112, 15293, "mount" }, -- Teal Kodo
-				{ 113, 49044, "mount" }, -- Swift Alliance Steed
-				{ 114, 49046, "mount" }, -- Swift Horde Wolf
-				{ 115, 49096, "mount" }, -- Crusader's White Warhorse
-				{ 116, 49098, "mount" }, -- Crusader's Black Warhorse
-				{ 117, 76755, "mount" }, -- Tyrael's Charger
+				{ 27, 21176, "mount" }, -- Black Qiraji Resonating Crystal
+				{ 28, 8586, "mount" }, -- Whistle of the Mottled Red Raptor
+				{ 29, 12302, "mount" }, -- Reins of the Ancient Frostsaber
+				{ 30, 12303, "mount" }, -- Reins of the Nightsaber
+				{ 101, 12330, "mount" }, -- Horn of the Red Wolf
+				{ 102, 12351, "mount" }, -- Horn of the Arctic Wolf
+				{ 103, 12353, "mount" }, -- White Stallion Bridle
+				{ 104, 12354, "mount" }, -- Palomino Bridle
+				{ 105, 13317, "mount" }, -- Whistle of the Ivory Raptor
+				{ 106, 13326, "mount" }, -- White Mechanostrider Mod B
+				{ 107, 13327, "mount" }, -- Icy Blue Mechanostrider Mod A
+				{ 108, 13328, "mount" }, -- Black Ram
+				{ 109, 13329, "mount" }, -- Frost Ram
+				{ 110, 15292, "mount" }, -- Green Kodo
+				{ 111, 15293, "mount" }, -- Teal Kodo
+				{ 112, 49044, "mount" }, -- Swift Alliance Steed
+				{ 113, 49046, "mount" }, -- Swift Horde Wolf
+				{ 114, 49096, "mount" }, -- Crusader's White Warhorse
+				{ 115, 49098, "mount" }, -- Crusader's Black Warhorse
+				{ 116, 76755, "mount" }, -- Tyrael's Charger
 				-- { 118, 33182 }, -- Swift Flying Broom
 				-- { 119, 33184 }, -- Swift Magic Broom
 				-- { 120, 33183 }, -- Old Magic Broom
-				{ 118, 116788, "ac9496" }, -- Warlord's Deathwheel
+				{ 117, 116788, "ac9496" }, -- Warlord's Deathwheel
 			},
 		},
 	},
