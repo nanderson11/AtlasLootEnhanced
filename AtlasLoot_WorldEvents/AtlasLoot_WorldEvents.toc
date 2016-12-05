@@ -4,6 +4,31 @@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
 
+#@non-debug@
+## Title: @localization(locale="enUS", key="Title-WorldEvents", namespace="ToC")@
+## Title-deDE: @localization(locale="deDE", key="Title-WorldEvents", namespace="ToC")@
+## Title-esES: @localization(locale="esES", key="Title-WorldEvents", namespace="ToC")@
+## Title-esMX: @localization(locale="esMX", key="Title-WorldEvents", namespace="ToC")@
+## Title-frFR: @localization(locale="frFR", key="Title-WorldEvents", namespace="ToC")@
+## Title-itIT: @localization(locale="itIT", key="Title-WorldEvents", namespace="ToC")@
+## Title-koKR: @localization(locale="koKR", key="Title-WorldEvents", namespace="ToC")@
+## Title-ptBR: @localization(locale="ptBR", key="Title-WorldEvents", namespace="ToC")@
+## Title-ruRU: @localization(locale="ruRU", key="Title-WorldEvents", namespace="ToC")@
+## Title-zhCN: @localization(locale="zhCN", key="Title-WorldEvents", namespace="ToC")@
+## Title-zhTW: @localization(locale="zhTW", key="Title-WorldEvents", namespace="ToC")@
+## Notes: @localization(locale="enUS", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-deDE: @localization(locale="deDE", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-esES: @localization(locale="esES", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-esMX: @localization(locale="esMX", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-frFR: @localization(locale="frFR", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-itIT: @localization(locale="itIT", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-koKR: @localization(locale="koKR", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-ptBR: @localization(locale="ptBR", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-ruRU: @localization(locale="ruRU", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-zhCN: @localization(locale="zhCN", key="Notes-WorldEvents", namespace="ToC")@
+## Notes-zhTW: @localization(locale="zhTW", key="Notes-WorldEvents", namespace="ToC")@
+#@end-non-debug@
+#@debug@
 ## Title: AtlasLoot |cFF0099FF[World Events]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Weltereignisse]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[世界事件]|r
@@ -13,6 +38,7 @@
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Weltereignisse
 ## Notes-zhCN: AtlasLoot 《世界事件》物品信息
 ## Notes-zhTW: AtlasLoot 世界事件物品掉落資料庫
+#@end-debug@
 
 ## X-eMail: manager@atlasloot.net
 ## X-Category: Map

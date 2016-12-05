@@ -2,7 +2,9 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: http://www.wowace.com/addons/atlasloot-enhanced/localization
+-- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
+--@localization(locale="zhCN", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@do-not-package@
 AL["AtlasLoot Options"] = "AtlasLoot 选项"
 
 AL["Use global settings"] = "使用全局设置"
@@ -53,3 +55,4 @@ AL["Always show quick preview."] = "总是显示快速预览。"
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "当额外掷骰开始时显示一个可能被拾取的窗口。"
 
 
+--@end-do-not-package@
