@@ -148,6 +148,12 @@ AL["Shop"] = true
 AL["Summon"] = true
 AL["Trash Mobs"] = true
 
+-- Armor type
+AL["Cloth"] = true
+AL["Leather"] = true
+AL["Mail"] = true
+AL["Plate"] = true
+
 -- Classic strings
 AL["AQ Enchants"] = true
 AL["Dire Maul North Tribute Chest"] = true

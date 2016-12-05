@@ -43,7 +43,7 @@ data["ARTIFACTS"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = ALIL["DEATHKNIGHT"],
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[NORMAL_DIFF] = {
 				{ 1, 128292 },
 				{ 2, 128402 },
@@ -51,14 +51,14 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["DEMONHUNTER"],
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1, 127829 },
 				{ 2, 128832 },
 			},
 		},
 		{
-			name = ALIL["DRUID"],
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[NORMAL_DIFF] = {
 				{ 1, 128306 },
 				{ 2, 128821 },
@@ -67,7 +67,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["HUNTER"],
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1, 128808 },
 				{ 2, 128826 },
@@ -75,7 +75,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["MAGE"],
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[NORMAL_DIFF] = {
 				{ 1, 127857 },
 				{ 2, 128862 },
@@ -83,7 +83,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["MONK"],
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[NORMAL_DIFF] = {
 				{ 1, 128940 },
 				{ 2, 128937 },
@@ -91,7 +91,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["PALADIN"],
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[NORMAL_DIFF] = {
 				{ 1, 120978 },
 				{ 2, 128823 },
@@ -99,7 +99,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["PRIEST"],
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[NORMAL_DIFF] = {
 				{ 1, 128825 },
 				{ 2, 128868 },
@@ -107,7 +107,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["ROGUE"],
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[NORMAL_DIFF] = {
 				{ 1, 128476 },
 				{ 2, 128870 },
@@ -115,7 +115,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["SHAMAN"],
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[NORMAL_DIFF] = {
 				{ 1, 128935 },
 				{ 2, 128819 },
@@ -123,7 +123,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["WARLOCK"],
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[NORMAL_DIFF] = {
 				{ 1, 128943 },
 				{ 2, 128941 },
@@ -131,7 +131,7 @@ data["ARTIFACTS"] = {
 			},
 		},
 		{
-			name = ALIL["WARRIOR"],
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[NORMAL_DIFF] = {
 				{ 1, 128289 },
 				{ 2, 128908 },
@@ -1560,7 +1560,7 @@ data["HEIRLOOM"] = {
 			},
 		},
 		{	--HeirloomClothCloaks
-			name = ALIL["Cloth"].." / "..AL["Cloaks"],
+			name = AL["Cloth"].." / "..AL["Cloaks"],
 			[NORMAL_DIFF] = {
 				{ 1, "122250:Stage3H", 122340 },	-- Tattered Dreadmist Mask  (Stage 3)
 				{ 2, "122250:Stage2H", 122338 },	-- Tattered Dreadmist Mask  (Stage 2)
@@ -1589,7 +1589,7 @@ data["HEIRLOOM"] = {
 			},
 		},
 		{	--HeirloomLeather
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[NORMAL_DIFF] = {
 				{ 1, "122248:Stage3H", 122340 },	-- Stained Shadowcraft Cap  (Stage 3)
 				{ 2, "122248:Stage2H", 122338 },	-- Stained Shadowcraft Cap  (Stage 2)
@@ -1618,7 +1618,7 @@ data["HEIRLOOM"] = {
 			},
 		},
 		{	--HeirloomMail
-			name = ALIL["Mail"],
+			name = AL["Mail"],
 			[NORMAL_DIFF] = {
 				{ 1, "122246:Stage3H", 122340 },	-- Tarnished Raging Berserker's Helm (Stage 3)
 				{ 2, "122246:Stage2H", 122338 },	-- Tarnished Raging Berserker's Helm (Stage 2)
@@ -1647,7 +1647,7 @@ data["HEIRLOOM"] = {
 			},
 		},
 		{	--HeirloomPlate
-			name = ALIL["Plate"],
+			name = AL["Plate"],
 			[NORMAL_DIFF] = {
 				{ 1, "122263:Stage3H", 122340 },	-- Burnished Helm of Might (Stage 3)
 				{ 2, "122263:Stage2H", 122338 },	-- Burnished Helm of Might (Stage 2)

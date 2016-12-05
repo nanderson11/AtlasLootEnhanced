@@ -4570,7 +4570,7 @@ data["Leatherworking"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{	--LeatherLeatherArmor
-			name = ALIL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..AL["Armor"],
 			[LEGION_DIFF] ={
 				{ 1, 128891, 194719 }, -- Dreadleather Bindings
 				{ 2, 128891, 194727 }, -- Dreadleather Bindings
@@ -5132,7 +5132,7 @@ data["Leatherworking"] = {
 			},
 		},
 		{	--LeatherMailArmor
-			name = ALIL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..AL["Armor"],
 			[LEGION_DIFF] = {
 				{ 1, 128907, 194759 }, -- Gravenscale Armbands
 				{ 2, 128907, 194767 }, -- Gravenscale Armbands
@@ -5720,7 +5720,7 @@ data["Leatherworking"] = {
 			},
 		},
 		{	--LeatherLeather
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[NORMAL_DIFF] = {
 				{ 1, 110611, 171391, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Burnished Leather (Learnt by item 115358)
 				{ 2, 110611, 182121, [PRICE_EXTRA_ITTYPE] = "110609:60" },	-- Burnished Leather (Sold, Garrison)
@@ -6541,7 +6541,7 @@ data["Tailoring"] = {
 			},
 		},
 		{	--TailoringCloth
-			name = ALIL["Cloth"],
+			name = AL["Cloth"],
 			[LEGION_DIFF] = {
 				{ 1, 127004, 185962 }, -- Imbued Silkweave
 			},

@@ -267,7 +267,7 @@ local SetTable = {
 	["ClassicMisc"] = {	-- Miscellaneous Classic Sets
 		name = AL["Miscellaneous"].." "..AL["Sets"],
 		{	-- Ironweave Battlesuit
-			name = BIS["Ironweave Battlesuit"].." ("..ALIL["Cloth"]..")",
+			name = BIS["Ironweave Battlesuit"].." ("..AL["Cloth"]..")",
 			subSetName = "ironweavebattlesuit",
 			icon = "mage",
 			[NORMAL_DIFF] = {
@@ -282,7 +282,7 @@ local SetTable = {
 			},
 		},
 		{	-- The Gladiator
-			name = BIS["The Gladiator"].." ("..ALIL["Mail"]..")",
+			name = BIS["The Gladiator"].." ("..AL["Mail"]..")",
 			subSetName = "thegladiator",
 			icon = "hunter",
 			[NORMAL_DIFF] = {
@@ -294,7 +294,7 @@ local SetTable = {
 			},
 		},
 		{	-- The Postmaster
-			name = BIS["The Postmaster"].." ("..ALIL["Cloth"]..")",
+			name = BIS["The Postmaster"].." ("..AL["Cloth"]..")",
 			subSetName = "thepostmaster",
 			icon = "mage",
 			[NORMAL_DIFF] = {
@@ -306,7 +306,7 @@ local SetTable = {
 			},
 		},
 		{	-- Chain of the Scarlet Crusade
-			name = BIS["Chain of the Scarlet Crusade"].." ("..ALIL["Mail"]..")",
+			name = BIS["Chain of the Scarlet Crusade"].." ("..AL["Mail"]..")",
 			subSetName = "chainofthescarletcrusade",
 			icon = "warri",
 			[NORMAL_DIFF] = {
@@ -319,7 +319,7 @@ local SetTable = {
 			},
 		},
 		{	-- Embrace of the Viper
-			name = BIS["Embrace of the Viper"].." ("..ALIL["Leather"]..")",
+			name = BIS["Embrace of the Viper"].." ("..AL["Leather"]..")",
 			subSetName = "embraceoftheviper",
 			icon = "rogue",
 			[NORMAL_DIFF] = {
@@ -331,7 +331,7 @@ local SetTable = {
 			},
 		},
 		{	-- Defias Leather
-			name = BIS["Defias Leather"].." ("..ALIL["Leather"]..")",
+			name = BIS["Defias Leather"].." ("..AL["Leather"]..")",
 			subSetName = "defiasleather",
 			icon = "rogue",
 			[NORMAL_DIFF] = {
@@ -645,7 +645,7 @@ local SetTable = {
 			},
 		},
 		{	-- Mana-Etched Regalia
-			name = ALIL["Cloth"].." ("..BIS["Mana-Etched Regalia"]..")",
+			name = AL["Cloth"].." ("..BIS["Mana-Etched Regalia"]..")",
 			subSetName = "manaechedregalia",
 			icon = "Interface\\Icons\\inv_chest_cloth_42",
 			[NORMAL_DIFF] = {
@@ -657,7 +657,7 @@ local SetTable = {
 			},
 		},
 		{	-- Wastewalker Armor
-			name = ALIL["Leather"].." ("..BIS["Wastewalker Armor"]..")",
+			name = AL["Leather"].." ("..BIS["Wastewalker Armor"]..")",
 			subSetName = "wastewalkerarmor",
 			icon = "Interface\\Icons\\inv_chest_chain_17",
 			[NORMAL_DIFF] = {
@@ -669,7 +669,7 @@ local SetTable = {
 			},
 		},
 		{	-- Desolation Battlegear
-			name = ALIL["Mail"].." ("..BIS["Desolation Battlegear"]..")",
+			name = AL["Mail"].." ("..BIS["Desolation Battlegear"]..")",
 			subSetName = "desolationbattlegear",
 			icon = "Interface\\Icons\\inv_chest_chain_03",
 			[NORMAL_DIFF] = {
@@ -681,7 +681,7 @@ local SetTable = {
 			},
 		},
 		{	-- Doomplate Battlegear
-			name = ALIL["Plate"].." ("..BIS["Doomplate Battlegear"]..")",
+			name = AL["Plate"].." ("..BIS["Doomplate Battlegear"]..")",
 			subSetName = "doomplatebattlegear",
 			icon = "Interface\\Icons\\inv_chest_chain_15",
 			[NORMAL_DIFF] = {
@@ -1053,7 +1053,7 @@ local SetTable = {
 			},
 		},
 		{	-- Cloth Set
-			name = ALIL["Cloth"].." "..AL["Set"],
+			name = AL["Cloth"].." "..AL["Set"],
 			subSetName = "clothset",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1068,7 +1068,7 @@ local SetTable = {
 			},
 		},
 		{	-- Leather Set
-			name = ALIL["Leather"].." "..AL["Set"],
+			name = AL["Leather"].." "..AL["Set"],
 			subSetName = "leatherset",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1083,7 +1083,7 @@ local SetTable = {
 			},
 		},
 		{	-- Mail Set
-			name = ALIL["Mail"].." "..AL["Set"],
+			name = AL["Mail"].." "..AL["Set"],
 			subSetName = "mailset",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1098,7 +1098,7 @@ local SetTable = {
 			},
 		},
 		{	-- Plate Set
-			name = ALIL["Plate"].." "..AL["Set"],
+			name = AL["Plate"].." "..AL["Set"],
 			subSetName = "plateset",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1124,7 +1124,7 @@ local SetTable = {
 			AL["No longer available"],
 		},
 		{	-- Scholomance Cloth
-			name = BIS["Necropile Raiment"].." ("..ALIL["Cloth"]..")",
+			name = BIS["Necropile Raiment"].." ("..AL["Cloth"]..")",
 			subSetName = "scholocloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1137,7 +1137,7 @@ local SetTable = {
 			},
 		},
 		{	-- Scholomance Leather
-			name = BIS["Cadaverous Garb"].." ("..ALIL["Leather"]..")",
+			name = BIS["Cadaverous Garb"].." ("..AL["Leather"]..")",
 			subSetName = "schololeather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1150,7 +1150,7 @@ local SetTable = {
 			},
 		},
 		{	-- Scholomance Mail
-			name = BIS["Bloodmail Regalia"].." ("..ALIL["Mail"]..")",
+			name = BIS["Bloodmail Regalia"].." ("..AL["Mail"]..")",
 			subSetName = "scholomail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1163,7 +1163,7 @@ local SetTable = {
 			},
 		},
 		{	-- Scholomance Plate
-			name = BIS["Deathbone Guardian"].." ("..ALIL["Plate"]..")",
+			name = BIS["Deathbone Guardian"].." ("..AL["Plate"]..")",
 			subSetName = "scholoplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1359,7 +1359,7 @@ local SetTable = {
 			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
 		},
 		{	-- LFR Cloth
-			name = ALIL["Cloth"].." "..AL["Armor"],
+			name = AL["Cloth"].." "..AL["Armor"],
 			subSetName = "rfcloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1373,7 +1373,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Leather
-			name = ALIL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..AL["Armor"],
 			subSetName = "rfleather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1387,7 +1387,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Mail
-			name = ALIL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..AL["Armor"],
 			subSetName = "rfmail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1401,7 +1401,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Plate
-			name = ALIL["Plate"].." "..AL["Armor"],
+			name = AL["Plate"].." "..AL["Armor"],
 			subSetName = "rfplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1599,7 +1599,7 @@ local SetTable = {
 			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
 		},
 		{	-- LFR Cloth
-			name = ALIL["Cloth"].." "..AL["Armor"],
+			name = AL["Cloth"].." "..AL["Armor"],
 			subSetName = "rfcloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1613,7 +1613,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Leather
-			name = ALIL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..AL["Armor"],
 			subSetName = "rfleather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1627,7 +1627,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Mail
-			name = ALIL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..AL["Armor"],
 			subSetName = "rfmail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -1641,7 +1641,7 @@ local SetTable = {
 			},
 		},
 		{	-- LFR Plate
-			name = ALIL["Plate"].." "..AL["Armor"],
+			name = AL["Plate"].." "..AL["Armor"],
 			subSetName = "rfplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplateLFR",

@@ -973,7 +973,7 @@ data["WODS3NONSETGEAR"] = {
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
-			name = ALIL["Cloth"],
+			name = AL["Cloth"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
 				{ 1, 125816, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Hood of Prowess
@@ -1052,7 +1052,7 @@ data["WODS3NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
 				{ 1, 125875, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
@@ -1131,7 +1131,7 @@ data["WODS3NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Mail"],
+			name = AL["Mail"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
 				{ 1, 125899, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Helm
@@ -1210,7 +1210,7 @@ data["WODS3NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Plate"],
+			name = AL["Plate"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 710
 				{ 1, 125928, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Warmongering Gladiator's Plate Helmet
@@ -2205,7 +2205,7 @@ data["WODS2NONSETGEAR"] = {
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
-			name = ALIL["Cloth"],
+			name = AL["Cloth"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 700
 				{ 1, 124761, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
@@ -2284,7 +2284,7 @@ data["WODS2NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 700
 				{ 1, 124761, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
@@ -2363,7 +2363,7 @@ data["WODS2NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Mail"],
+			name = AL["Mail"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 700
 				{ 1, 124785, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Helm
@@ -2442,7 +2442,7 @@ data["WODS2NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Plate"],
+			name = AL["Plate"],
 			[ALLIANCE_DIFF] = {
 				-- ilvl 700
 				{ 1, 124814, [PRICE_EXTRA_ITTYPE] = "conquest:2250" }, -- Wild Gladiator's Plate Helmet
@@ -3376,7 +3376,7 @@ data["WODS1NONSETGEAR"] = {
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
-			name = ALIL["Cloth"],
+			name = AL["Cloth"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115611, [PRICE_EXTRA_ITTYPE] = "conquest:2250" },	-- Primal Gladiator's Hood of Prowess
 				{ 2, 115614, [PRICE_EXTRA_ITTYPE] = "conquest:1750" },	-- Primal Gladiator's Amice of Prowess
@@ -3449,7 +3449,7 @@ data["WODS1NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115775, [PRICE_EXTRA_ITTYPE] = "conquest:2250" },	-- Primal Gladiator's Helm
 				{ 2, 115777, [PRICE_EXTRA_ITTYPE] = "conquest:1750" },	-- Primal Gladiator's Spaulders
@@ -3522,7 +3522,7 @@ data["WODS1NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Mail"],
+			name = AL["Mail"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115780, [PRICE_EXTRA_ITTYPE] = "conquest:2250" },	-- Primal Gladiator's Helm
 				{ 2, 115782, [PRICE_EXTRA_ITTYPE] = "conquest:1750" },	-- Primal Gladiator's Spaulders
@@ -3595,7 +3595,7 @@ data["WODS1NONSETGEAR"] = {
 			},
 		},
 		{
-			name = ALIL["Plate"],
+			name = AL["Plate"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115738, [PRICE_EXTRA_ITTYPE] = "conquest:2250" },	-- Primal Gladiator's Plate Helm
 				{ 2, 115740, [PRICE_EXTRA_ITTYPE] = "conquest:1750" },	-- Primal Gladiator's Plate Shoulders
@@ -6075,28 +6075,28 @@ data["CLASSICS6SETS"] = {
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
-			name = ALIL["Cloth"],
+			name = AL["Cloth"],
 			[ALLIANCE_DIFF] = {
 			},
 			[HORDE_DIFF] = {
 			},
 		},
 		{
-			name = ALIL["Leather"],
+			name = AL["Leather"],
 			[ALLIANCE_DIFF] = {
 			},
 			[HORDE_DIFF] = {
 			},
 		},
 		{
-			name = ALIL["Mail"],
+			name = AL["Mail"],
 			[ALLIANCE_DIFF] = {
 			},
 			[HORDE_DIFF] = {
 			},
 		},
 		{
-			name = ALIL["Plate"],
+			name = AL["Plate"],
 			[ALLIANCE_DIFF] = {
 			},
 			[HORDE_DIFF] = {
