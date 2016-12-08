@@ -1844,6 +1844,7 @@ data["TheEmeraldNightmare"] = {
 				{ 14, 139238 }, -- Twice-Warped Azsharan Signet
 				{ 15, 139335 }, -- Grotesque Statuette
 				{ 16, 139269 }, -- Crystallized Drop of Eternity
+				{ 17, 141006 }, -- The First Satyr's Spaulders
 				--{ 25, "ac10054" },
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
@@ -2244,6 +2245,9 @@ data["TrialOfValor"] = {
 	items = {
 		{	--Odyn
 			EncounterJournalID = 1819,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142419 }, -- Sky-Valiant's Wristguards
 				{ 2, 142511 }, -- Unforged Titansteel
@@ -2269,6 +2273,9 @@ data["TrialOfValor"] = {
 		},
 		{	--Guarm
 			EncounterJournalID = 1830,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142432 }, -- Helbeast Skin Tunic
 				{ 2, 142434 }, -- Kvaldir Exult's Grips
@@ -2293,6 +2300,9 @@ data["TrialOfValor"] = {
 		},
 		{	--Helya
 			EncounterJournalID = 1829,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142507 }, -- Brinewater Slime in a Bottle
 				{ 2, 142518 }, -- Fury of the Sea
