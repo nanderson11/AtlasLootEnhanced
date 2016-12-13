@@ -130,6 +130,16 @@ name = select(2, GetAchievementInfo(11180)),
 	},
 }
 
+local LEGION_WORLD_BOSS_AC_TABLE = { -- Unleashed Monstrosities
+name = select(2, GetAchievementInfo(11160)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[NORMAL_DIFF] = {
+		{1, 11160 },
+	}
+}
+
 data["AssaultOnVioletHold"] = {
 	EncounterJournalID = 777,
 	MapID = 1066,
@@ -1641,6 +1651,7 @@ data["BrokenIsles"] = {
 				-- { 16, "ac9423" },
 			},
 		},
+		LEGION_WORLD_BOSS_AC_TABLE,
 	}
 }
 
@@ -1654,6 +1665,7 @@ data["TheEmeraldNightmare"] = {
 			EncounterJournalID = 1703,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Buggy Fight in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 139252 }, -- Preserved Worldseed
@@ -1670,18 +1682,19 @@ data["TheEmeraldNightmare"] = {
 				{ 12, 139236 }, -- Grubby Silver Ring
 				{ 13, 139250 }, -- Unwaking Slumber
 				{ 14, 139191 }, -- Ancient Dreamwoven Mantle
-				--{ 24, "ac10013" },
+				{ 16, "ac10555" }, -- AC: Buggy Fight
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 25, "ac10033" },
+				{ 17, "ac10821" }, -- AC: Mythic: Nythendra
 			},
 		},
 		{	--Il'gynoth, Heart of Corruption
 			EncounterJournalID = 1738,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, nil }, -- ignore the AC: Took the Red Eye Down in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 139237 }, -- Dreadful Cyclopean Signet
@@ -1700,18 +1713,19 @@ data["TheEmeraldNightmare"] = {
 				{ 14, 139233 }, -- Pauldrons of Shifting Runes
 				{ 15, 139325 }, -- Spontaneous Appendages
 				{ 16, 139187 }, -- Cinch of Cosmic Insignficance
-				--{ 25, "ac9972" },
+				{ 18, "ac10830" }, -- AC: Took the Red Eye Down
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 26, "ac10035" },
+				{ 19, "ac10823" }, -- AC: Mythic: Il'gynoth
 			},
 		},
 		{	--Elerethe Renferal
 			EncounterJournalID = 1744,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Webbing Crashers in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 138217 }, -- Pliable Spider Silk Cinch
@@ -1728,17 +1742,19 @@ data["TheEmeraldNightmare"] = {
 				{ 12, 139323 }, -- Twisting Wind
 				{ 13, 139190 }, -- Ragged Horrorweave Leggings
 				{ 14, 139254 }, -- Shrieking Bloodstone
+				{ 16, "ac10771" }, -- AC: Webbing Crashers
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 27, "ac10027" },
+				{ 17, "ac10822" }, -- AC: Mythic: Elerethe Renferal
 			},
 		},
 		{	--Ursoc
 			EncounterJournalID = 1667,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, nil }, -- ignore the AC: Scare Bear in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 139327 }, -- Unbridled Fury
@@ -1757,18 +1773,19 @@ data["TheEmeraldNightmare"] = {
 				{ 14, 139262 }, -- Reverberating Femur
 				{ 15, 139220 }, -- Scored Ironclaw Sabatons
 				{ 16, 139226 }, -- Primal Gauntlets of Rage
-				--{ 24, "ac10057" },
+				{ 18, "ac10753" }, -- AC: Scare Bear
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 25, "ac10032" },
+				{ 19, "ac10824" }, -- AC: Mythic: Ursoc
 			},
 		},
 		{	--Dragons of Nightmare
 			EncounterJournalID = 1704,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Imagined Dragons World Tour in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 138219 }, -- Dragonspur Wristguards
@@ -1786,18 +1803,19 @@ data["TheEmeraldNightmare"] = {
 				{ 13, 138228 }, -- Bioluminescent Mushroom
 				{ 14, 139205 }, -- Cowl of Fright
 				{ 15, 138226 }, -- Nightmare Engulfed Jewel
-				--{ 28, "ac9988" },
+				{ 16, "ac10663" }, -- AC: Imagined Dragons World Tour
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 29, "ac10037" },
+				{ 17, "ac10825" }, -- AC: Mythic: Dragons of Nightmare
 			},
 		},
 		{	--Cenarius
 			EncounterJournalID = 1750,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Use the Force(s) in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 139207 }, -- Tunic of the Grove Keeper
@@ -1814,18 +1832,19 @@ data["TheEmeraldNightmare"] = {
 				{ 12, 139218 }, -- Thorny Bramblemail Pauldrons
 				{ 13, 139265 }, -- Radiant Dragon Egg
 				{ 14, 139198 }, -- Forest-Lord's Waistwrap
-				--{ 24, "ac9979" },
+				{ 16, "ac10772" }, -- AC: Use the Force(s)
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 25, "ac10253" },
+				{ 17, "ac10826" }, -- AC: Mythic: Cenarius
 			},
 		},
 		{	--Xavius
 			EncounterJournalID = 1726,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 19, nil }, -- ignore the AC: I Attack the Darkness in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 139266 }, -- Fragment of Eternal Spite
@@ -1845,23 +1864,14 @@ data["TheEmeraldNightmare"] = {
 				{ 15, 139335 }, -- Grotesque Statuette
 				{ 16, 139269 }, -- Crystallized Drop of Eternity
 				{ 17, 141006 }, -- The First Satyr's Spaulders
-				--{ 25, "ac10054" },
+				{ 19, "ac10755" }, -- AC: I Attack the Darkness
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 26, "ac10034" },
+				{ 20, "ac10827" }, -- AC: Mythic: Xavius
 			},
 		},
---[[		{	--Tier 18 Sets
-			name = format(AL["Tier %d Sets"], 18),
-			ExtraList = true,
-			[RF_DIFF] = "AtlasLoot_Collections:TIERSETS:18:rf",
-			[NORMAL_RAID_DIFF] = "AtlasLoot_Collections:TIERSETS:18:n",
-			[HEROIC_PRE_DIFF] = "AtlasLoot_Collections:TIERSETS:18:h",
-			[MYTHIC_PRE_DIFF] = "AtlasLoot_Collections:TIERSETS:18:m",
-		},
-]]		
 		LEGION_RAID1_AC_TABLE,
 	},
 }
