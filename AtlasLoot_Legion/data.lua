@@ -1886,6 +1886,7 @@ data["TheNighthold"] = {
 			EncounterJournalID = 1706,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Cage Rematch in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140902 }, -- Jagged Carapace Wristclamps
@@ -1902,13 +1903,12 @@ data["TheNighthold"] = {
 				{ 12, 140898 }, -- Radiant String of Scorpid Eyes
 				{ 13, 140840 }, -- Chittering Mandible
 				{ 14, 140827 }, -- Manatoxin Gland
-				--{ 27, "ac8988" },
-				--{ 28, "ac8977" },
+				{ 16, "ac10678" }, -- AC: Cage Rematch
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 29, "ac8965" },
+				{ 17, "ac10840" }, -- AC: Mythic: Skorpyron
 			},
 		},
 		{	--Chronomatic Anomaly
@@ -1916,6 +1916,7 @@ data["TheNighthold"] = {
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 13, 138828, false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Illusion: Chronos
+				{ 16, nil }, -- ignore the AC: Grand Opening in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140872 }, -- Pauldrons of Warped Memory
@@ -1933,7 +1934,7 @@ data["TheNighthold"] = {
 				{ 13, 138828, false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Illusion: Chronos
 				{ 14, 140894 }, -- Zealous Timestone Pendant
 				{ 15, 140843 }, -- Flickering Timespark
-				--{ 22, "ac8976" },
+				{ 16, "ac10697" }, -- AC: Grand Opening
 			},
 			[HEROIC_PRE_DIFF] = {
 			GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1942,13 +1943,14 @@ data["TheNighthold"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 13, 138828, false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Illusion: Chronos
-				--{ 23, "ac8964" },
+				{ 17, "ac10842" }, -- AC: Mythic: Chronomatic Anomaly
 			},
 		},
 		{	--Trilliax
 			EncounterJournalID = 1731,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 27, nil }, -- ignore the AC: Gluten Free in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140812 }, -- Soggy Manascrubber Brush
@@ -1976,18 +1978,19 @@ data["TheNighthold"] = {
 				{ 23, 138374 }, -- Greatcloak of the Obsidian Aspect
 				{ 24, 140858 }, -- Cake Carrier's Girdle
 				{ 25, 140818 }, -- Foreign Contaminant
-				--{ 23, "ac8948" },
+				{ 27, "ac10742" }, -- AC: Gluten Free
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 24, "ac8949" },
+				{ 28, "ac10843" }, -- AC: Mythic: Trilliax
 			},
 		},
 		{	--Spellblade Aluriel
 			EncounterJournalID = 1751,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: A Change In Scenery in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140852 }, -- Master Warmage's Leggings
@@ -2004,18 +2007,19 @@ data["TheNighthold"] = {
 				{ 12, 140868 }, -- Emblazoned Duskwatch Belt
 				{ 13, 140795 }, -- Aluriel's Mirror
 				{ 14, 140850 }, -- Bracers of Harnessed Flame
-				--{ 24, "ac8958" },
+				{ 16, "ac10817" }, -- AC: A Change In Scenery
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 25, "ac8963" },
+				{ 17, "ac10844" }, -- AC: Mythic: Spellblade Aluriel
 			},
 		},
 		{	--Tichondrius
 			EncounterJournalID = 1762,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 23, nil }, -- ignore the AC: Not For You in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 138363 }, -- Shoulderplates of the Obsidian Aspect
@@ -2039,19 +2043,19 @@ data["TheNighthold"] = {
 				{ 19, 140859 }, -- Girdle of Nefarious Strategy
 				{ 20, 138347 }, -- Eagletalon Spaulders
 				{ 21, 140824 }, -- Writ of Subjugation
-				--{ 27, "ac8988" },
-				--{ 28, "ac8977" },
+				{ 23, "ac10704" }, -- AC: Not For You
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 29, "ac8965" },
+				{ 24, "ac10847" }, -- AC: Mythic: Tichondrius
 			},
 		},
 		{	--Krosus
 			EncounterJournalID = 1713,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 24, nil }, -- ignore the AC: Burning Bridges in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 138320 }, -- Finery of Azj'Aqir
@@ -2076,18 +2080,19 @@ data["TheNighthold"] = {
 				{ 20, 140799 }, -- Might of Krosus
 				{ 21, 138351 }, -- Chestplate of the Obsidian Aspect
 				{ 22, 138349 }, -- Dreadwyrm Breastplate
-				--{ 23, "ac8947" },
+				{ 24, "ac10575" }, -- AC: Burning Bridges
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 24, "ac8960" },
+				{ 25, "ac10848" }, -- AC: Mythic: Krosus
 			},
 		},
 		{	--High Botanist Tel'arn
 			EncounterJournalID = 1761,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Fruit of All Evil in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140874 }, -- Thistle-Proof Thorngrabbers
@@ -2103,18 +2108,19 @@ data["TheNighthold"] = {
 				{ 11, 140883 }, -- Shoulderguard of the Eclipse
 				{ 12, 140896 }, -- Ring of Braided Stems
 				{ 13, 140836 }, -- Sunflare Coal
-				--{ 19, "ac8974" },
+				{ 16, "ac10754" }, -- AC: Fruit of All Evil
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 20, "ac8961" },
+				{ 17, "ac10846" }, -- AC: Mythic: High Botanist Tel'arn
 			},
 		},
 		{	--Star Augur Etraeus
 			EncounterJournalID = 1732,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 24, nil }, -- ignore the AC: Elementalry! in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140804 }, -- Star Gate
@@ -2139,18 +2145,19 @@ data["TheNighthold"] = {
 				{ 20, 140885 }, -- Treads of Galactic Odyssey
 				{ 21, 138309 }, -- Gloves of Everburning Knowledge
 				{ 22, 138353 }, -- Gauntlets of the Highlord
-				--{ 23, "ac8975" },
+				{ 24, "ac10851" }, -- AC: Elementalry!
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 24, "ac8962" },
+				{ 25, "ac10845" }, -- AC: Mythic: Star Augur Etraeus
 			},
 		},
 		{	--Grand Magistrix Elisande
 			EncounterJournalID = 1743,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 25, nil }, -- ignore the AC: Infinitesimal in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140893 }, -- Eternally Recurring Bracers
@@ -2176,19 +2183,19 @@ data["TheNighthold"] = {
 				{ 21, 138312 }, -- Hood of Everburning Knowledge
 				{ 22, 138378 }, -- Mask of Second Sight
 				{ 23, 138357 }, -- Warhelm of the Obsidian Aspect
-				--{ 27, "ac8988" },
-				--{ 28, "ac8977" },
+				{ 25, "ac10699" }, -- AC: Infinitesimal
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 29, "ac8965" },
+				{ 26, "ac10849" }, -- AC: Mythic: Grand Magistrix Elisande
 			},
 		},
 		{	--Gul'dan
 			EncounterJournalID = 1737,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 26, nil }, -- ignore the AC: I've Got My Eyes On You in LFR
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 140897 }, -- Ring of the Scoured Clan
@@ -2215,13 +2222,12 @@ data["TheNighthold"] = {
 				{ 22, 140823 }, -- Warchief's Shattered Tusk
 				{ 23, 138316 }, -- Purifier's Leggings
 				{ 24, 140808 }, -- Draught of Souls
-				--{ 27, "ac8988" },
-				--{ 28, "ac8977" },
+				{ 26, "ac10696" }, -- AC: I've Got My Eyes On You
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				--{ 29, "ac8965" },
+				{ 27, "ac10850" }, -- AC: Mythic: Gul'dan
 			},
 		},
 --[[		
