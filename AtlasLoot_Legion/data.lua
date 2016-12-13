@@ -1768,7 +1768,7 @@ data["TheEmeraldNightmare"] = {
 		{	--Dragons of Nightmare
 			EncounterJournalID = 1704,
 			[RF_DIFF] = {
-
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 138219 }, -- Dragonspur Wristguards
