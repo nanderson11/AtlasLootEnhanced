@@ -130,6 +130,16 @@ name = select(2, GetAchievementInfo(11180)),
 	},
 }
 
+local LEGION_TRIAL_OF_VALOR_AC_TABLE = { -- Heroic: Trial of Valor
+name = select(2, GetAchievementInfo(11426)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[NORMAL_DIFF] = {
+		{1, 11426 },
+	}
+}
+
 local LEGION_WORLD_BOSS_AC_TABLE = { -- Unleashed Monstrosities
 name = select(2, GetAchievementInfo(11160)),
 	TableType = AC_ITTYPE,
@@ -2263,6 +2273,7 @@ data["TrialOfValor"] = {
 			EncounterJournalID = 1819,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: You Runed Everything!
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142419 }, -- Sky-Valiant's Wristguards
@@ -2279,18 +2290,21 @@ data["TrialOfValor"] = {
 				{ 12, 142430 }, -- Gloves of Issued Challenge
 				{ 13, 142520 }, -- Ring of Ascended Glory
 				{ 14, 142421 }, -- Leggings of the Undaunted
+				{ 16, "ac11337" }, -- AC: You Runed Everything!
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11396" }, -- AC: Mythic: Odyn
 			},
 		},
 		{	--Guarm
 			EncounterJournalID = 1830,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Boneafide Tri Tip
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142432 }, -- Helbeast Skin Tunic
@@ -2306,18 +2320,21 @@ data["TrialOfValor"] = {
 				{ 11, 142413 }, -- Leggings of the Lower Planes
 				{ 12, 142415 }, -- Helhound Hair Bracers
 				{ 13, 142417 }, -- Moccasins of Silent Passage
+				{ 16, "ac11386" }, -- AC: Boneafide Tri Tip
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11397" }, -- AC: Mythic: Guarm
 			},
 		},
 		{	--Helya
 			EncounterJournalID = 1829,
 			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Patient Zero
 			},
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 142507 }, -- Brinewater Slime in a Bottle
@@ -2335,13 +2352,18 @@ data["TrialOfValor"] = {
 				{ 13, 142428 }, -- Sea Fan Pendant
 				{ 14, 142433 }, -- Corroded Val'kyr Chainmail
 				{ 15, 142414 }, -- Treads of the Drowned
+				{ 16, "ac11377" }, -- AC: Patient Zero
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11387" }, -- AC: The Chosen
+				{ 18, "ac11398" }, -- AC: Mythic: Helya
+				
 			},
 		},
+		LEGION_TRIAL_OF_VALOR_AC_TABLE
 	}
 }
