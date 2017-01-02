@@ -4,38 +4,78 @@ AtlasLoot.MiniMapButton = MiniMapButton
 local SlashCommands = AtlasLoot.SlashCommands
 local AL = AtlasLoot.Locales
 local db
+--@alpha@
+local profile
+local ALButton = LibStub("LibDBIcon-1.0")
+--@end-alpha@
 
 -- lua
 local type = type
 local abs, sqrt = math.abs, math.sqrt
 
+--[===[@non-alpha@
 -- WoW
 local GetCursorPosition = GetCursorPosition
 
 -- AL
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
+--@end-non-alpha@]===]
+
+-- LDB
+if not LibStub:GetLibrary("LibDataBroker-1.1", true) then return end
+
+--Make an LDB object
+local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasLoot", {
+	type = "launcher",
+	text = AL["AtlasLoot"],
+	icon = "Interface\\Icons\\INV_Box_01",
+	OnTooltipShow = function(tooltip)
+		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
+		tooltip:AddLine(AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "]);
+	end
+})
 
 function MiniMapButton.Init()
+--[===[@non-alpha@
 	db = AtlasLoot.db.MiniMapButton
 	
 	MiniMapButton.Show()
+--@end-non-alpha@]===]
 	
-	SlashCommands:Add("mmb", MiniMapButton.Toggle, "/al mmb - Toggle MiniMapButton")
+	SlashCommands:Add("mmb", MiniMapButton.Toggle, AL["/al mmb - Toggle MiniMapButton"])
 	SlashCommands:AddResetFunction(MiniMapButton.ResetFrames, "frames", "mmb")
-	
+--@alpha@
+	profile = AtlasLoot.db
+	local defaults = {
+		shown = true,
+		unlock = false,
+		minimapPos = 218,
+	};
+	if (profile.minimap == nil) then
+		profile.minimap = defaults;
+	end
+	ALButton:Register("AtlasLoot", MiniMapLDB, profile.minimap);
+--@end-alpha@
 end
 AtlasLoot:AddInitFunc(MiniMapButton.Init)
 
 function MiniMapButton.ResetFrames()
+--[===[@non-alpha@
 	if MiniMapButton.frame then
 		db.point = { "CENTER", -65.35, -38.8 }
 		MiniMapButton.frame:SetPoint(db.point[1], db.point[2], db.point[3])
 	else
 		db.point = false
 	end
+--@end-non-alpha@]===]
+--@alpha@
+	profile.minimap.minimapPos = 218;
+	ALButton:Refresh("AtlasLoot");
+--@end-alpha@
 end
 
 function MiniMapButton.Toggle()
+--[===[@non-alpha@
 	if not MiniMapButton.frame then MiniMapButton.Show() end
 	db.shown = not db.shown
 	if db.shown then
@@ -45,9 +85,20 @@ function MiniMapButton.Toggle()
 			MiniMapButton.frame:Hide()
 		end
 	end
+--@end-non-alpha@]===]
+--@alpha@
+	profile.minimap.shown = not profile.minimap.shown
+	profile.minimap.hide = not profile.minimap.hide
+	if not profile.minimap.hide then
+		ALButton:Show("AtlasLoot")
+	else
+		ALButton:Hide("AtlasLoot")
+	end
+--@end-alpha@
 end
 
 function MiniMapButton.Options_Toggle()
+--[===[@non-alpha@
 	if not MiniMapButton.frame then MiniMapButton.Show() end
 	if db.shown then
 		MiniMapButton.Show()
@@ -56,8 +107,27 @@ function MiniMapButton.Options_Toggle()
 			MiniMapButton.frame:Hide()
 		end
 	end
+--@end-non-alpha@]===]
+--@alpha@
+	if profile.minimap.shown then
+		ALButton:Show("AtlasLoot")
+		profile.minimap.hide = nil
+	else
+		ALButton:Hide("AtlasLoot")
+		profile.minimap.hide = true
+	end
+--@end-alpha@
 end
 
+function MiniMapButton.Lock_Toggle()
+	if profile.minimap.unlock then
+		ALButton:Lock("AtlasLoot");
+	else
+		ALButton:Unlock("AtlasLoot");
+	end
+end
+
+--[===[@non-alpha@
 function MiniMapButton:Hide()
 	if self.frame then
 		self.frame:Hide()
@@ -93,6 +163,7 @@ end
 local function OnMouseUp(self)
 	self.icon:SetPoint("TOPLEFT", 7, -6)
 end
+--@end-non-alpha@]===]
 
 local function OnClick(self, button)
 	if button == "RightButton" then return end
@@ -106,6 +177,7 @@ local function OnClick(self, button)
 	end
 end
 
+--[===[@non-alpha@
 local function OnDragStart(self)
 	self:LockHighlight()
 	self:SetScript("OnUpdate", OnButtonMove)
@@ -185,20 +257,7 @@ function MiniMapButton.Show()
 		MiniMapButton.frame:Show()
 	end
 end
-
--- LDB
-if not LibStub:GetLibrary("LibDataBroker-1.1", true) then return end
-
---Make an LDB object
-local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasLoot", {
-    type = "launcher",
-	text = AL["AtlasLoot"],
-    icon = "Interface\\Icons\\INV_Box_01",
-	OnTooltipShow = function(tooltip)
-		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
-		tooltip:AddLine(AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "]);
-	end
-})
+--@end-non-alpha@]===]
 
 function MiniMapLDB:OnClick(button,down)
 	OnClick(nil, button)

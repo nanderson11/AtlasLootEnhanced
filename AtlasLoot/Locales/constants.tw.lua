@@ -9,6 +9,9 @@ AL["--- or ---"] = "--- 或 ---"
 AL["%s will finish loading after combat."] = "%s 將於脫離戰鬥後載入"
 AL["/al - Open the AtlasLoot window."] = "/al - 打開AtlasLoot視窗"
 AL["/al slash - Prints a list of all slash commands."] = "/al slash - 顯示所有指令"
+AL["/al mmb - Toggle MiniMapButton"] = "/al mmb - 切換小地圖按鈕顯示狀態"
+AL["/al togglebg - Toggle the background image on loottables."] = "/al togglebg - 切換物品掉落視窗的背景圖像"
+AL["/al options - Open AtlasLoot Options window."] = "/al options - 開啟 AtlasLoot 選項視窗"
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Right-Click:|r 改變專精"
 AL[ [=[|cffFF0000Click: |cffFFFFFFOpen AtlasLoot
 |cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options ]=] ] = [=[|cffFF0000Click: |cffFFFFFF開啓AtlasLoot

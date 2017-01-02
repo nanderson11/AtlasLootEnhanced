@@ -53,6 +53,9 @@ AL["Command %s not found. Use '/al slash' for a full list of commands"] = true
 AL["Slash commands:"] = true
 AL["/al - Open the AtlasLoot window."] = true
 AL["/al slash - Prints a list of all slash commands."] = true
+AL["/al mmb - Toggle MiniMapButton"] = true
+AL["/al togglebg - Toggle the background image on loottables."] = true
+AL["/al options - Open AtlasLoot Options window."] = true
 
 -- Core\ItemInfo.lua
 AL["One-Hand, Axe"] = true
