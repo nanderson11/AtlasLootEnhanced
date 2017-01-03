@@ -47,14 +47,13 @@ AL["Map"] = true
 
 -- MiniMapButton.lua
 AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = true
+AL["/al mmb - Toggle MiniMapButton"] = true
 
 -- Core\SlashCommands.lua
 AL["Command %s not found. Use '/al slash' for a full list of commands"] = true
 AL["Slash commands:"] = true
 AL["/al - Open the AtlasLoot window."] = true
 AL["/al slash - Prints a list of all slash commands."] = true
-AL["/al mmb - Toggle MiniMapButton"] = true
-AL["/al togglebg - Toggle the background image on loottables."] = true
 AL["/al options - Open AtlasLoot Options window."] = true
 
 -- Core\ItemInfo.lua
@@ -95,6 +94,7 @@ AL["|cff00ff00Right-Click:|r Change Spec"] = true
 AL["Shows items for all %s specializations."] = true
 AL["Required module %s is currently disabled."] = true
 AL["Required module %s is not installed."] = true
+AL["/al togglebg - Toggle the background image on loottables."] = true
 
 --GUI\SoundFrame.lua
 AL["Add sound into chat"] = true

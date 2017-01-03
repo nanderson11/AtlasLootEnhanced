@@ -408,31 +408,19 @@ local function minimapbutton(gui, content)
 		:Point("TOP", 0, -5)
 		:Size("full")
 		:Text(AL["Show minimap button."])
---[===[@non-alpha@
-		:DB(db.MiniMapButton, "shown", AtlasLoot.MiniMapButton.Options_Toggle)
---@end-non-alpha@]===]
---@alpha@
 		:DB(db.minimap, "shown", AtlasLoot.MiniMapButton.Options_Toggle)
---@end-alpha@
-		
---[===[@non-alpha@
+--[[
 	last = gui:Add("CheckBox")
 		:Point("TOP", last, "BOTTOM")
 		:Size("full")
 		:Text(AL["Lock minimap button around minimap."])
 		:DB(db.MiniMapButton, "lockedAroundMiniMap")			
---@end-non-alpha@]===]
-		
+]]
 	last = gui:Add("CheckBox")
 		:Point("TOP", last, "BOTTOM")
 		:Size("full")
 		:Text(AL["Lock minimap button."])
---[===[@non-alpha@
-		:DB(db.MiniMapButton, "locked")	
---@end-non-alpha@]===]
---@alpha@
-		:DB(db.minimap, "unlock", AtlasLoot.MiniMapButton.Lock_Toggle)	
---@end-alpha@
+		:DB(db.minimap, "locked", AtlasLoot.MiniMapButton.Lock_Toggle)	
 		
 	last = gui:Add("Button")
 		:Point("BOTTOMRIGHT", nil, "BOTTOMRIGHT", -2, 2)
