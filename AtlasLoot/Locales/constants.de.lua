@@ -3,15 +3,11 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="deDE", namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["--- or ---"] = "--- oder ---"
 AL["%s will finish loading after combat."] = "%s wird nach dem Kampfende geladen."
 AL["/al - Open the AtlasLoot window."] = "/al - Das AtlasLoot-Fenster öffnen."
 AL["/al slash - Prints a list of all slash commands."] = "/al slash - Zeigt eine Liste aller verfügbaren Slash-Befehle an."
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Rechtsklicken:|r Spezialisierung ändern"
-AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen
-|cffFF0000Shift+Klicken: |cffFFFFFFAtlasLoot-Optionen öffnen]=]
 AL["25 Player"] = "25 Spieler"
 AL["25 Player Heroic"] = "25 Spieler Heroisch"
 AL["Achievement & Quest Rewards"] = "Erfolgs- & Questbelohnungen"
@@ -29,14 +25,13 @@ AL["Arena Reward"] = "Arenabelohnung"
 AL["Argent Tournament"] = "Argentumturnier"
 AL["Armor"] = "Rüstung"
 AL["Armor Enhancements"] = "Rüstungsverbesserungen"
---Translation missing 
--- AL["Artifacts"] = "Artifacts"
 AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot-Module"
 AL["AtlasLoot Search"] = "AtlasLoot-Suche"
 AL["AtlasLoot Set View"] = "AtlasLoot-Setansicht"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader wird nicht mehr verwendet.
-Bitte aus dem Verzeichnis AddOns löschen]=]
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader wird nicht mehr verwendet.\\nBitte aus dem Verzeichnis AddOns löschen"
+AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen
+|cffFF0000Shift+Klicken: |cffFFFFFFAtlasLoot-Optionen öffnen]=]
 AL["Attack/Spell Power"] = "Angriffskraft/Zaubermacht"
 AL["Attributes"] = "Attribute"
 AL["Avatar of the Martyred"] = "Avatar des Gemarterten"
@@ -107,7 +102,6 @@ AL["Firestone Vendor"] = "Händler für Feuersteine"
 AL["Firework"] = "Feuerwerk"
 AL["First Fragment Guardian"] = "Wächter des ersten Teils"
 AL["First Prize"] = "Hauptpreis"
-AL["Fishing Contests"] = "Angelwettbewerbe"
 AL["Fishing Pole"] = "Angelrute"
 AL["Fist Weapon"] = "Faustwaffe"
 AL["Flasks"] = "Fläschchen"
@@ -176,12 +170,6 @@ AL["Orc"] = "Orcs"
 AL["Other Buffs"] = "Andere Stärkungszauber"
 AL["Overcharged Manacell"] = "Überladene Manazelle"
 AL["Pandaren"] = "Pandaren "
---Translation missing 
--- AL["Path of the Conqueror"] = "Path of the Conqueror"
---Translation missing 
--- AL["Path of the Invoker"] = "Path of the Invoker"
---Translation missing 
--- AL["Path of the Protector"] = "Path of the Protector"
 AL["Patterns/Plans"] = "Muster/Pläne"
 AL["Permanent/Recurring Events"] = "Dauerhafte/Wiederkehrende Ereignisse"
 AL["Pets"] = "Haustiere"
@@ -216,7 +204,6 @@ AL["Ring"] = "Ring"
 AL["Rings"] = "Ringe"
 AL["Rune"] = "Rune"
 AL["Runes"] = "Runen"
-AL["Salvage Yard"] = "Wiederverwertung"
 AL["Scopes"] = "Zielfernrohre"
 AL["Scrolls"] = "Rollen"
 AL["Season %d"] = "Saison %d"
@@ -298,4 +285,3 @@ AL["World Events"] = "Weltereignisse"
 AL["Wrath of the Lich King"] = "Wrath of the Lich King"
 AL["Yellow Gems"] = "Gelbe Edelsteine"
 AL["Zen'Vorka"] = "Zen'Vorka"
---@end-do-not-package@

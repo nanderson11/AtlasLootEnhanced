@@ -1,7 +1,5 @@
 ﻿local AL = _G.AtlasLoot.Locales
 
---@localization(locale="enUS", same-key-is-true=true, namespace="Options", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["AtlasLoot Options"] = true
 
 AL["Use global settings"] = true
@@ -49,5 +47,3 @@ AL["Always show quick preview."] = true
 -- Addons
 AL["A window with possible loot is shown if a Bonus Roll is started."] = true
 
-
---@end-do-not-package@

@@ -1,7 +1,5 @@
 ﻿local AL = _G.AtlasLoot.Locales
 
---@localization(locale="enUS", same-key-is-true=true, namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["AtlasLoot"] = true
 
 AL["Normal"] = true
@@ -356,4 +354,3 @@ AL["Transmoggable Replicas"] = true
 AL["Vanity Gear"] = true
 AL["Vendor"] = true
 AL["Wands"] = true
---@end-do-not-package@

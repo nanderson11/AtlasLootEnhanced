@@ -3,18 +3,14 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="zhTW", namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["--- or ---"] = "--- 或 ---"
 AL["%s will finish loading after combat."] = "%s 將於脫離戰鬥後載入"
 AL["/al - Open the AtlasLoot window."] = "/al - 打開AtlasLoot視窗"
-AL["/al slash - Prints a list of all slash commands."] = "/al slash - 顯示所有指令"
 AL["/al mmb - Toggle MiniMapButton"] = "/al mmb - 切換小地圖按鈕顯示狀態"
-AL["/al togglebg - Toggle the background image on loottables."] = "/al togglebg - 切換物品掉落視窗的背景圖像"
 AL["/al options - Open AtlasLoot Options window."] = "/al options - 開啟 AtlasLoot 選項視窗"
+AL["/al slash - Prints a list of all slash commands."] = "/al slash - 顯示所有指令"
+AL["/al togglebg - Toggle the background image on loottables."] = "/al togglebg - 切換物品掉落視窗的背景圖像"
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Right-Click:|r 改變專精"
-AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Click: |cffFFFFFF開啓AtlasLoot
-|cffFF0000Shift+Click: |cffFFFFFF開啓AtlasLoot選項]=]
 AL["25 Player"] = "25人"
 AL["25 Player Heroic"] = "25人英雄"
 AL["Achievement & Quest Rewards"] = "成就和任務獎勵"
@@ -39,6 +35,8 @@ AL["AtlasLoot Search"] = "AtlasLoot 搜索"
 AL["AtlasLoot Set View"] = "AtlasLoot 套裝檢視"
 AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader沒用了。
 請從你的AddOns目錄下刪除]=]
+AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Click: |cffFFFFFF開啓AtlasLoot
+|cffFF0000Shift+Click: |cffFFFFFF開啓AtlasLoot選項]=]
 AL["Attack/Spell Power"] = "攻強/法術能量"
 AL["Attributes"] = "屬性"
 AL["Avatar of the Martyred"] = "馬丁瑞德的化身"
@@ -110,7 +108,6 @@ AL["Firestone Vendor"] = "晶化火石商人"
 AL["Firework"] = "煙火"
 AL["First Fragment Guardian"] = "第一碎片守衛者"
 AL["First Prize"] = "頭獎"
-AL["Fishing Contests"] = "釣魚競賽"
 AL["Fishing Pole"] = "漁點"
 AL["Fist Weapon"] = "拳套"
 AL["Flasks"] = "精煉藥劑"
@@ -181,12 +178,6 @@ AL["Orc"] = "獸人"
 AL["Other Buffs"] = "其它增益"
 AL["Overcharged Manacell"] = "滿溢的法力容器"
 AL["Pandaren"] = "熊貓人"
---Translation missing 
--- AL["Path of the Conqueror"] = "Path of the Conqueror"
---Translation missing 
--- AL["Path of the Invoker"] = "Path of the Invoker"
---Translation missing 
--- AL["Path of the Protector"] = "Path of the Protector"
 AL["Patterns/Plans"] = "圖樣/設計圖"
 AL["Permanent/Recurring Events"] = "永久/週期事件"
 AL["Pets"] = "寵物"
@@ -222,7 +213,6 @@ AL["Ring"] = "戒指"
 AL["Rings"] = "戒指"
 AL["Rune"] = "符文"
 AL["Runes"] = "符文"
-AL["Salvage Yard"] = "回收站"
 AL["Scopes"] = "瞄準鏡"
 AL["Scrolls"] = "卷軸"
 AL["Season %d"] = "賽季 %d"
@@ -304,4 +294,3 @@ AL["World Events"] = "世界事件"
 AL["Wrath of the Lich King"] = "巫妖王之怒"
 AL["Yellow Gems"] = "黃色寶石"
 AL["Zen'Vorka"] = "贊沃卡"
---@end-do-not-package@
