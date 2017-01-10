@@ -4079,7 +4079,7 @@ data["WODS1WEAPONS"] = {
 }
 -- Mists of Pandaria Season 15
 data["MOPS15SETS"] = {
-	name = string.format(AL["Season %d"], 15).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
+	name = string.format(AL["Season %d"], 15).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -4348,7 +4348,7 @@ data["MOPS15SETS"] = {
 }
 -- Classic Season 13
 data["CLASSICS13SETS"] = {
-	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
+	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -4713,7 +4713,7 @@ data["CLASSICS13SETS"] = {
 }
 -- Classic Season 12
 data["CLASSICS12SETS"] = {
-	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
+	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -4988,7 +4988,7 @@ data["CLASSICS12SETS"] = {
 }
 -- Classic Season 11
 data["CLASSICS11SETS"] = {
-	name = string.format(AL["Season %d"], 11).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	name = string.format(AL["Season %d"], 11).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -5236,7 +5236,7 @@ data["CLASSICS11SETS"] = {
 }
 -- Classic Season 10
 data["CLASSICS10SETS"] = {
-	name = string.format(AL["Season %d"], 10).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	name = string.format(AL["Season %d"], 10).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -5404,7 +5404,7 @@ data["CLASSICS10SETS"] = {
 
 -- Classic Season 9
 data["CLASSICS9SETS"] = {
-	name = string.format(AL["Season %d"], 9).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	name = string.format(AL["Season %d"], 9).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 			{
@@ -5571,7 +5571,7 @@ data["CLASSICS9SETS"] = {
 }
 -- Classic Season 8
 data["CLASSICS8SETS"] = {
-	name = string.format(AL["Season %d"], 8).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	name = string.format(AL["Season %d"], 8).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 			{
@@ -5738,7 +5738,7 @@ data["CLASSICS8SETS"] = {
 }
 -- Classic Season 7
 data["CLASSICS7SETS"] = {
-	name = string.format(AL["Season %d"], 7).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	name = string.format(AL["Season %d"], 7).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -5905,7 +5905,7 @@ data["CLASSICS7SETS"] = {
 }
 -- Classic Season 6
 data["CLASSICS6SETS"] = {
-	name = string.format(AL["Season %d"], 6).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	name = string.format(AL["Season %d"], 6).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6071,7 +6071,7 @@ data["CLASSICS6SETS"] = {
 	},
 }
 --[[data["CLASSICS6NONSET"] = {
-	name = string.format(AL["Season %d"], 6).." "..AL["Non-Set Gear"].." ("..AL["Wrath of the Lich King"]..")",
+	name = string.format(AL["Season %d"], 6).." "..AL["Non-Set Gear"].." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6143,7 +6143,7 @@ data["CLASSICS6SETS"] = {
 ]]
 -- Classic Season 5
 data["CLASSICS5SETS"] = {
-	name = string.format(AL["Season %d"], 5).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	name = string.format(AL["Season %d"], 5).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6310,7 +6310,7 @@ data["CLASSICS5SETS"] = {
 }
 -- Classic Season 4
 data["CLASSICS4SETS"] = {
-	name = string.format(AL["Season %d"], 4).." "..AL["Class Sets"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 4).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6488,7 +6488,7 @@ data["CLASSICS4SETS"] = {
 }
 -- Classic Season 3
 data["CLASSICS3SETS"] = {
-	name = string.format(AL["Season %d"], 3).." "..AL["Class Sets"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 3).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6672,7 +6672,7 @@ data["CLASSICS3SETS"] = {
 	},
 }
 data["CLASSICS3WEAPONS"] = {
-	name = string.format(AL["Season %d"], 3).." "..AL["Weapons"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 3).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6724,7 +6724,7 @@ data["CLASSICS3WEAPONS"] = {
 }
 -- Classic Season 2
 data["CLASSICS2SETS"] = {
-	name = string.format(AL["Season %d"], 2).." "..AL["Class Sets"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 2).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6909,7 +6909,7 @@ data["CLASSICS2SETS"] = {
 	},
 }
 data["CLASSICS2WEAPONS"] = {
-	name = string.format(AL["Season %d"], 2).." "..AL["Weapons"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 2).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -6949,7 +6949,7 @@ data["CLASSICS2WEAPONS"] = {
 }
 -- Classic Season 1
 data["CLASSICS1SETS"] = {
-	name = string.format(AL["Season %d"], 1).." "..AL["Class Sets"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 1).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -7117,7 +7117,7 @@ data["CLASSICS1SETS"] = {
 	},
 }
 data["CLASSICS1WEAPONS"] = {
-	name = string.format(AL["Season %d"], 1).." "..AL["Weapons"].." ("..AL["Burning Crusade"]..")",
+	name = string.format(AL["Season %d"], 1).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
