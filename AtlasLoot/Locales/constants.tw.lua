@@ -3,7 +3,7 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="zhTW", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@localization(locale="zhTW", namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
 --@do-not-package@
 AL["--- or ---"] = "--- 或 ---"
 AL["%s will finish loading after combat."] = "%s 將於脫離戰鬥後載入"
@@ -38,7 +38,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot 模組"
 AL["AtlasLoot Search"] = "AtlasLoot 搜索"
 AL["AtlasLoot Set View"] = "AtlasLoot 套裝檢視"
-AL["AtlasLoot_Loader is no longer in use.\\nDelete it from your AddOns folder"] = "AtlasLoot_Loader沒用了。\\n請從你的AddOns目錄下刪除"
+AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLoot_Loader沒用了。\n請從你的AddOns目錄下刪除"
 AL["Attack/Spell Power"] = "攻強/法術能量"
 AL["Attributes"] = "屬性"
 AL["Avatar of the Martyred"] = "馬丁瑞德的化身"

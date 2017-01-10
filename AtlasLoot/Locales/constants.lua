@@ -1,5 +1,7 @@
 ﻿local AL = _G.AtlasLoot.Locales
 
+--@localization(locale="enUS", same-key-is-true=true, namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
+--@do-not-package@
 AL["AtlasLoot"] = true
 
 AL["Normal"] = true
@@ -18,7 +20,8 @@ AL["Achievements"] = true
 AL["Bonus Loot"] = true
 
 -- AtlasLoot.lua
-AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"] = true
+AL[ [=[AtlasLoot_Loader is no longer in use.
+Delete it from your AddOns folder]=] ] = true
 AL["Toggle AtlasLoot"] = true
 
 -- Options module
@@ -352,3 +355,4 @@ AL["Transmoggable Replicas"] = true
 AL["Vanity Gear"] = true
 AL["Vendor"] = true
 AL["Wands"] = true
+--@end-do-not-package@

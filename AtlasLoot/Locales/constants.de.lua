@@ -3,7 +3,7 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="deDE", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@localization(locale="deDE", namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
 --@do-not-package@
 AL["--- or ---"] = "--- oder ---"
 AL["%s will finish loading after combat."] = "%s wird nach dem Kampfende geladen."
@@ -36,7 +36,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot-Module"
 AL["AtlasLoot Search"] = "AtlasLoot-Suche"
 AL["AtlasLoot Set View"] = "AtlasLoot-Setansicht"
-AL["AtlasLoot_Loader is no longer in use.\\nDelete it from your AddOns folder"] = "AtlasLoot_Loader wird nicht mehr verwendet.\\nBitte aus dem Verzeichnis AddOns löschen"
+AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLoot_Loader wird nicht mehr verwendet.\nBitte aus dem Verzeichnis AddOns löschen"
 AL["Attack/Spell Power"] = "Angriffskraft/Zaubermacht"
 AL["Attributes"] = "Attribute"
 AL["Avatar of the Martyred"] = "Avatar des Gemarterten"

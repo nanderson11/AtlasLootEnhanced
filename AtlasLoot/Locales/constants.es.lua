@@ -3,4 +3,4 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="esES", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@localization(locale="esES", namespace="", format="lua_additive_table" table-name="AL", handle-unlocalized="ignore")@
