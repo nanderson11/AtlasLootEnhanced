@@ -20,8 +20,8 @@ AL["Achievements"] = true
 AL["Bonus Loot"] = true
 
 -- AtlasLoot.lua
-AL[ [=[AtlasLoot_Loader is no longer in use.
-Delete it from your AddOns folder]=] ] = true
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader is no longer in use.
+Delete it from your AddOns folder]=]
 AL["Toggle AtlasLoot"] = true
 
 -- Options module
@@ -49,7 +49,8 @@ AL["World Events"] = true
 AL["Map"] = true
 
 -- MiniMapButton.lua
-AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = true
+AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Click: |cffFFFFFFOpen AtlasLoot
+|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options ]=]
 AL["/al mmb - Toggle MiniMapButton"] = true
 
 -- Core\SlashCommands.lua

@@ -13,8 +13,7 @@ AL["/al mmb - Toggle MiniMapButton"] = "/al mmb - 切換小地圖按鈕顯示狀
 AL["/al togglebg - Toggle the background image on loottables."] = "/al togglebg - 切換物品掉落視窗的背景圖像"
 AL["/al options - Open AtlasLoot Options window."] = "/al options - 開啟 AtlasLoot 選項視窗"
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Right-Click:|r 改變專精"
-AL[ [=[|cffFF0000Click: |cffFFFFFFOpen AtlasLoot
-|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options ]=] ] = [=[|cffFF0000Click: |cffFFFFFF開啓AtlasLoot
+AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Click: |cffFFFFFF開啓AtlasLoot
 |cffFF0000Shift+Click: |cffFFFFFF開啓AtlasLoot選項]=]
 AL["25 Player"] = "25人"
 AL["25 Player Heroic"] = "25人英雄"
@@ -38,7 +37,8 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot 模組"
 AL["AtlasLoot Search"] = "AtlasLoot 搜索"
 AL["AtlasLoot Set View"] = "AtlasLoot 套裝檢視"
-AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLoot_Loader沒用了。\n請從你的AddOns目錄下刪除"
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader沒用了。
+請從你的AddOns目錄下刪除]=]
 AL["Attack/Spell Power"] = "攻強/法術能量"
 AL["Attributes"] = "屬性"
 AL["Avatar of the Martyred"] = "馬丁瑞德的化身"

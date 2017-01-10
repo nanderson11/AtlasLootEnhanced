@@ -8,7 +8,6 @@ if not AL then return end
 AL["AtlasLoot Options"] = "副本戰利品查詢選項"
 
 AL["Use global settings"] = "使用共用設定"
-AL["Saves the settings global so it can be used by every character on this account.\n(This can be changed per charakter)"] = "將設定儲存為共用，讓此帳號下的每個角色都可以使用。\n(仍可更改為使用角色個別設定)"
 
 AL["Font"] = "文字"
 AL["Background"] = "背景"
@@ -20,7 +19,6 @@ AL["Subtitle"] = "副標題"
 AL["Scale"] = "縮放大小"
 AL["Preview"] = "預覽"
 
-AL["|cffff0000WARNING|r\nThis resets all settings for the |cff33ff99\"%s\"|r window."] = "|cffff0000警告|r\n將會重置|cff33ff99\"%s\"|r視窗的所有設定。"
 AL["Reset position of the |cff33ff99\"%s\"|r window."] = "重置|cff33ff99\"%s\"|r的視窗位置"
 AL["Reset frame position"] = "重置框架位置"
 

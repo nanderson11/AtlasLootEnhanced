@@ -10,8 +10,7 @@ AL["%s will finish loading after combat."] = "%s wird nach dem Kampfende geladen
 AL["/al - Open the AtlasLoot window."] = "/al - Das AtlasLoot-Fenster öffnen."
 AL["/al slash - Prints a list of all slash commands."] = "/al slash - Zeigt eine Liste aller verfügbaren Slash-Befehle an."
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Rechtsklicken:|r Spezialisierung ändern"
-AL[ [=[|cffFF0000Click: |cffFFFFFFOpen AtlasLoot
-|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options ]=] ] = [=[|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen
+AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen
 |cffFF0000Shift+Klicken: |cffFFFFFFAtlasLoot-Optionen öffnen]=]
 AL["25 Player"] = "25 Spieler"
 AL["25 Player Heroic"] = "25 Spieler Heroisch"
@@ -36,7 +35,8 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot-Module"
 AL["AtlasLoot Search"] = "AtlasLoot-Suche"
 AL["AtlasLoot Set View"] = "AtlasLoot-Setansicht"
-AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLoot_Loader wird nicht mehr verwendet.\nBitte aus dem Verzeichnis AddOns löschen"
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader wird nicht mehr verwendet.
+Bitte aus dem Verzeichnis AddOns löschen]=]
 AL["Attack/Spell Power"] = "Angriffskraft/Zaubermacht"
 AL["Attributes"] = "Attribute"
 AL["Avatar of the Martyred"] = "Avatar des Gemarterten"

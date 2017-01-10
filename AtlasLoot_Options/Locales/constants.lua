@@ -5,7 +5,6 @@
 AL["AtlasLoot Options"] = true
 
 AL["Use global settings"] = true
-AL["Saves the settings global so it can be used by every character on this account.\n(This can be changed per character)"] = true
 
 AL["Font"] = true
 AL["Background"] = true
@@ -17,7 +16,6 @@ AL["Subtitle"] = true
 AL["Scale"] = true
 AL["Preview"] = true
 
-AL["|cffff0000WARNING|r\nThis resets all settings for the |cff33ff99\"%s\"|r window."] = true
 AL["Reset position of the |cff33ff99\"%s\"|r window."] = true
 AL["Reset frame position"] = true
 

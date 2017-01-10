@@ -58,7 +58,7 @@ function AtlasLoot:OnInitialize()
 	if reason ~=  "MISSING" then 
 		DisableAddOn("AtlasLoot_Loader") 
 		StaticPopupDialogs["ATLASLOOT_LOADER_ADDON_ERROR"] = {
-			text = AL["AtlasLoot_Loader is no longer in use.\nDelete it from your AddOns folder"],
+			text = AL["AtlasLoot_Loader_is_no_longer_in_use"],
 			button1 = OKAY,
 			timeout = 0,
 			exclusive = 1,
