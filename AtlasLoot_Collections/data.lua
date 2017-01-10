@@ -12,12 +12,12 @@ local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
 local P25H_DIFF = data:AddDifficulty(AL["25 Player Heroic"], "p25h", nil, 6)
 local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 
-local WOD_DIFF = data:AddDifficulty(AL["Warlords of Draenor"])
-local MOP_DIFF = data:AddDifficulty(AL["Mists of Pandaria"])
-local CATA_DIFF = data:AddDifficulty(AL["Cataclysm"])
-local WOTLK_DIFF = data:AddDifficulty(AL["Wrath of the Lich King"])
-local BC_DIFF = data:AddDifficulty(AL["Burning Crusade"])
-local CLASSIC_DIFF = data:AddDifficulty(AL["Classic"])
+local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
+local MOP_DIFF = data:AddDifficulty(EXPANSION_NAME4)
+local CATA_DIFF = data:AddDifficulty(EXPANSION_NAME3)
+local WOTLK_DIFF = data:AddDifficulty(EXPANSION_NAME2)
+local BC_DIFF = data:AddDifficulty(EXPANSION_NAME1)
+local CLASSIC_DIFF = data:AddDifficulty(EXPANSION_NAME0)
 
 local HORDE_DIFF, ALLIANCE_DIFF
 if UnitFactionGroup("player") == "Horde" then
@@ -527,7 +527,7 @@ data["TIMEWALKINGEVENT"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = AL["Burning Crusade"],
+			name = EXPANSION_NAME1,
 			[NORMAL_DIFF] = {
 				{ 1, 129923, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Eclipse Dragonhawk
 				{ 3, 129926, [PRICE_EXTRA_ITTYPE] = "timewarped:1250" }, -- Mark of the Ashtongue
@@ -548,7 +548,7 @@ data["TIMEWALKINGEVENT"] = {
 			},
 		},
 		{
-			name = AL["Wrath of the Lich King"],
+			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
 				{ 1, 129922, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger	
 				{ 3, 129938, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Will of Northrend
@@ -570,7 +570,7 @@ data["TIMEWALKINGEVENT"] = {
 			},
 		},
 		{
-			name = AL["Cataclysm"],
+			name = EXPANSION_NAME3,
 			[NORMAL_DIFF] = {
 				{ 1, 133511, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Gurboggle's Gleaming Bauble
 				{ 3, 67414, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Shiny Things
@@ -596,7 +596,7 @@ data["BOEWORLDEPICS"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = AL["Warlords of Draenor"],
+			name = EXPANSION_NAME5,
 			[NORMAL_DIFF] = {
 				{ 1, 118814 },	-- Berserker's Windwrap
 				{ 2, 118812 },	-- Flamelicked Cloak of Kaufebyrd
@@ -637,7 +637,7 @@ data["BOEWORLDEPICS"] = {
 			},
 		},
 		{
-			name = AL["Mists of Pandaria"],
+			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
 				{ 1, 90580 },	-- Cristof's Crushing Cloak
 				{ 2, 90589 },	-- Dirl's Drafty Drape
@@ -679,7 +679,7 @@ data["BOEWORLDEPICS"] = {
 			},
 		},
 		{
-			name = AL["Cataclysm"],
+			name = EXPANSION_NAME3,
 			[NORMAL_DIFF] = {
 				{ 1, 67134 },	-- Dory's Finery
 				{ 2, 67140 },	-- Drape of Inimitable Fate
@@ -709,7 +709,7 @@ data["BOEWORLDEPICS"] = {
 			},
 		},
 		{
-			name = AL["Wrath of the Lich King"],
+			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
 				{ 1, 44309 },	-- Sash of Jordan
 				{ 2, 44312 },	-- Wapach's Spaulders of Solidarity
@@ -724,7 +724,7 @@ data["BOEWORLDEPICS"] = {
 			},
 		},
 		{
-			name = AL["Burning Crusade"],
+			name = EXPANSION_NAME1,
 			[NORMAL_DIFF] = {
 				{ 1, 31329 },	-- Lifegiving Cloak
 				{ 2, 31340 },	-- Will of Edward the Odd
@@ -750,7 +750,7 @@ data["BOEWORLDEPICS"] = {
 			},
 		},
 		{
-			name = AL["Classic"],
+			name = EXPANSION_NAME0,
 			[NORMAL_DIFF] = {
 				{ 1, 3475 },	-- Cloak of Flames
 				{ 2, 14553 },	-- Sash of Mercy
@@ -814,7 +814,7 @@ data["CMGEAR"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = AL["Warlords of Draenor"],
+			name = EXPANSION_NAME5,
 			[NORMAL_DIFF] = {
 				{ 1, "ac8899" },	-- Challenge Warlord: Gold
 				{ 2, 118408 },	-- Elemental Crescent
@@ -840,7 +840,7 @@ data["CMGEAR"] = {
 			},
 		},
 		{
-			name = AL["Mists of Pandaria"],
+			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
 				{ 1, "setCMMoP:dk:n" },
 				{ 3, "setCMMoP:druid:n" },
@@ -1484,7 +1484,7 @@ data["DUNGEONSETS"] = {
 	TableType = SET_ITTYPE,
 	items = {
 		{
-			name = format(AL["Dungeon %d Sets"], 3).." ("..AL["Burning Crusade"]..")",
+			name = format(AL["Dungeon %d Sets"], 3).." ("..EXPANSION_NAME1..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Dungeon3:moongladeraiment:n" },
 				{ 3, "Dungeon3:beastlordarmor:n" },
@@ -1502,7 +1502,7 @@ data["DUNGEONSETS"] = {
 			},
 		},
 		{
-			name = format(AL["Dungeon %d Sets"], 2).." ("..AL["Classic"]..")",
+			name = format(AL["Dungeon %d Sets"], 2).." ("..EXPANSION_NAME0..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Dungeon2:druid:n" },
 				{ 3, "Dungeon2:hunter:n" },
@@ -1516,7 +1516,7 @@ data["DUNGEONSETS"] = {
 			},
 		},
 		{
-			name = format(AL["Dungeon %d Sets"], 1).." ("..AL["Classic"]..")",
+			name = format(AL["Dungeon %d Sets"], 1).." ("..EXPANSION_NAME0..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Dungeon1:druid:n" },
 				{ 3, "Dungeon1:hunter:n" },
@@ -2032,7 +2032,7 @@ data["LEGENDARIES"] = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = AL["Warlords of Draenor"],
+			name = EXPANSION_NAME5,
 			[ALLIANCE_DIFF] = {
 				{ 1, 124634, "ac10021" },	-- Thorasus, the Stone Heart of Draenor
 				{ 2, 124635, "ac10021" },	-- Nithramus, the All-Seer
@@ -2051,7 +2051,7 @@ data["LEGENDARIES"] = {
 			},
 		},
 		{
-			name = AL["Mists of Pandaria"],
+			name = EXPANSION_NAME4,
 			[ALLIANCE_DIFF] = {
 				{ 1, 102248, "ac8325" },	-- Fen-Yu, Fury of Xuen
 				{ 2, 102249, "ac8325" },	-- Gong-Lu, Strength of Xuen
@@ -2074,7 +2074,7 @@ data["LEGENDARIES"] = {
 			},
 		},
 		{
-			name = AL["Cataclysm"],
+			name = EXPANSION_NAME3,
 			[NORMAL_DIFF] = {
 				{ 1, 77949, "ac6181" },	-- Golad, Twilight of Aspects
 				{ 2, 77950, "ac6181" },	-- Tiriosh, Nightmare of Ages
@@ -2088,7 +2088,7 @@ data["LEGENDARIES"] = {
 			},
 		},
 		{
-			name = AL["Wrath of the Lich King"],
+			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
 				{ 1, 49623, "ac4623" },	-- Shadowmourne
 				{ 2, 49888 },	-- Shadow's Edge
@@ -2096,7 +2096,7 @@ data["LEGENDARIES"] = {
 			},
 		},
 		{
-			name = AL["Burning Crusade"],
+			name = EXPANSION_NAME1,
 			[NORMAL_DIFF] = {
 				{ 1, 34334, "ac725" },	-- Thori'dal, the Stars' Fury
 				{ 3, 32837, "ac426" },	-- Warglaive of Azzinoth
@@ -2111,7 +2111,7 @@ data["LEGENDARIES"] = {
 			},
 		},
 		{
-			name = AL["Classic"],
+			name = EXPANSION_NAME0,
 			[NORMAL_DIFF] = {
 				{ 1, 22632, "ac425" },	-- Atiesh, Greatstaff of the Guardian
 				{ 2, 22589, "ac425" },	-- Atiesh, Greatstaff of the Guardian
@@ -2283,7 +2283,7 @@ data["TABARDS"] = {
 	TableType = I_A_ITTYPE,
 	items = {
 		{
-			name = AL["Warlords of Draenor"],
+			name = EXPANSION_NAME5,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 119136, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Arakkoa Outcasts Tabard	-- NEUTRAL
@@ -2300,7 +2300,7 @@ data["TABARDS"] = {
 			},
 		},
 		{
-			name = AL["Mists of Pandaria"],
+			name = EXPANSION_NAME4,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 89401, [PRICE_EXTRA_ITTYPE] = "money:100000" },	-- Anglers Tabard	-- NEUTRAL
@@ -2320,7 +2320,7 @@ data["TABARDS"] = {
 			},
 		},
 		{
-			name = AL["Cataclysm"],
+			name = EXPANSION_NAME3,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 65904, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Tabard of Ramkahen	-- NEUTRAL
@@ -2337,7 +2337,7 @@ data["TABARDS"] = {
 			},
 		},
 		{
-			name = AL["Wrath of the Lich King"],
+			name = EXPANSION_NAME2,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 43155, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Tabard of the Ebon Blade	-- NEUTRAL
@@ -2347,7 +2347,7 @@ data["TABARDS"] = {
 			[HORDE_DIFF] = ALLIANCE_DIFF,
 		},
 		{
-			name = AL["Burning Crusade"],
+			name = EXPANSION_NAME1,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 31779, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Aldor Tabard	-- NEUTRAL
@@ -2371,7 +2371,7 @@ data["TABARDS"] = {
 			},
 		},
 		{
-			name = AL["Classic"],
+			name = EXPANSION_NAME0,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
 				{ 1, 43154, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Tabard of the Argent Crusade	-- NEUTRAL
@@ -2507,7 +2507,7 @@ data["TIERSETS"] = {
 	TableType = SET_ITTYPE,
 	items = {
 		{	-- Tier 1 Sets
-			name = format(AL["Tier %d Sets"], 1).." ("..AL["Classic"]..")",
+			name = format(AL["Tier %d Sets"], 1).." ("..EXPANSION_NAME0..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier1:druid:n" },
 				{ 3, "Tier1:hunter:n" },
@@ -2521,7 +2521,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 2 Sets
-			name = format(AL["Tier %d Sets"], 2).." ("..AL["Classic"]..")",
+			name = format(AL["Tier %d Sets"], 2).." ("..EXPANSION_NAME0..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier2:druid:n" },
 				{ 3, "Tier2:hunter:n" },
@@ -2535,7 +2535,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 3 Sets
-			name = format(AL["Tier %d Sets"], 3).." ("..AL["Classic"]..")",
+			name = format(AL["Tier %d Sets"], 3).." ("..EXPANSION_NAME0..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier3:druid:n" },
 				{ 3, "Tier3:hunter:n" },
@@ -2549,7 +2549,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 4 Sets
-			name = format(AL["Tier %d Sets"], 4).." ("..AL["Burning Crusade"]..")",
+			name = format(AL["Tier %d Sets"], 4).." ("..EXPANSION_NAME1..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier4:druidbalance:n" },
 				{ 2, "Tier4:druidferal:n" },
@@ -2571,7 +2571,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 5 Sets
-			name = format(AL["Tier %d Sets"], 5).." ("..AL["Burning Crusade"]..")",
+			name = format(AL["Tier %d Sets"], 5).." ("..EXPANSION_NAME1..")",
 			[P25_DIFF] = {
 				{ 1, "Tier5:druidbalance:p25" },
 				{ 2, "Tier5:druidferal:p25" },
@@ -2593,7 +2593,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 6 Sets
-			name = format(AL["Tier %d Sets"], 6).." ("..AL["Burning Crusade"]..")",
+			name = format(AL["Tier %d Sets"], 6).." ("..EXPANSION_NAME1..")",
 			[P25_DIFF] = {
 				{ 1, "Tier6:druidbalance:p25" },
 				{ 2, "Tier6:druidferal:p25" },
@@ -2615,7 +2615,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 7 Sets
-			name = format(AL["Tier %d Sets"], 7).." ("..AL["Wrath of the Lich King"]..")",
+			name = format(AL["Tier %d Sets"], 7).." ("..EXPANSION_NAME2..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier7:deathknightblood:n" },
 				{ 2, "Tier7:deathknightdps:n" },
@@ -2660,7 +2660,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 8 Sets
-			name = format(AL["Tier %d Sets"], 8).." ("..AL["Wrath of the Lich King"]..")",
+			name = format(AL["Tier %d Sets"], 8).." ("..EXPANSION_NAME2..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier8:deathknightblood:n" },
 				{ 2, "Tier8:deathknightdps:n" },
@@ -2705,7 +2705,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 9 Sets
-			name = format(AL["Tier %d Sets"], 9).." ("..AL["Wrath of the Lich King"]..")",
+			name = format(AL["Tier %d Sets"], 9).." ("..EXPANSION_NAME2..")",
 			[NORMAL_DIFF] = {
 				{ 1, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:n", [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:n" },
 				{ 2, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:n", [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:n" },
@@ -2771,7 +2771,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 10 Sets
-			name = format(AL["Tier %d Sets"], 10).." ("..AL["Wrath of the Lich King"]..")",
+			name = format(AL["Tier %d Sets"], 10).." ("..EXPANSION_NAME2..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier10:deathknightblood:n" },
 				{ 2, "Tier10:deathknightdps:n" },
@@ -2837,7 +2837,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 11 Sets
-			name = format(AL["Tier %d Sets"], 11).." ("..AL["Cataclysm"]..")",
+			name = format(AL["Tier %d Sets"], 11).." ("..EXPANSION_NAME3..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier11:deathknightblood:n" },
 				{ 2, "Tier11:deathknightdps:n" },
@@ -2882,7 +2882,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 12 Sets
-			name = format(AL["Tier %d Sets"], 12).." ("..AL["Cataclysm"]..")",
+			name = format(AL["Tier %d Sets"], 12).." ("..EXPANSION_NAME3..")",
 			[NORMAL_DIFF] = {
 				{ 1, "Tier12:deathknightblood:n" },
 				{ 2, "Tier12:deathknightdps:n" },
@@ -2927,7 +2927,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 13 Sets
-			name = format(AL["Tier %d Sets"], 13).." ("..AL["Cataclysm"]..")",
+			name = format(AL["Tier %d Sets"], 13).." ("..EXPANSION_NAME3..")",
 			[RF_DIFF] = {
 				{ 1, "Tier13:deathknightblood:rf" },
 				{ 2, "Tier13:deathknightdps:rf" },
@@ -2993,7 +2993,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 14 Sets
-			name = format(AL["Tier %d Sets"], 14).." ("..AL["Mists of Pandaria"]..")",
+			name = format(AL["Tier %d Sets"], 14).." ("..EXPANSION_NAME4..")",
 			[RF_DIFF] = {
 				{ 1, "Tier14:hunter:rf" },
 				{ 2, "Tier14:mage:rf" },
@@ -3071,7 +3071,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 15 Sets
-			name = format(AL["Tier %d Sets"], 15).." ("..AL["Mists of Pandaria"]..")",
+			name = format(AL["Tier %d Sets"], 15).." ("..EXPANSION_NAME4..")",
 			[RF_DIFF] = {
 				{ 1, "Tier15:hunter:rf" },
 				{ 2, "Tier15:mage:rf" },
@@ -3149,7 +3149,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 16 Sets
-			name = format(AL["Tier %d Sets"], 16).." ("..AL["Mists of Pandaria"]..")",
+			name = format(AL["Tier %d Sets"], 16).." ("..EXPANSION_NAME4..")",
 			[RF_DIFF] = {
 				{ 1, "Tier16:hunter:rf" },
 				{ 2, "Tier16:mage:rf" },
@@ -3252,7 +3252,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 17 Sets
-			name = format(AL["Tier %d Sets"], 17).." ("..AL["Warlords of Draenor"]..")",
+			name = format(AL["Tier %d Sets"], 17).." ("..EXPANSION_NAME5..")",
 			[RF_DIFF] = {
 				{ 1, "Tier17:rfcloth:rf" },
 				{ 3, "Tier17:rfleather:rf" },
@@ -3300,7 +3300,7 @@ data["TIERSETS"] = {
 			},
 		},
 		{	-- Tier 18 Sets
-			name = format(AL["Tier %d Sets"], 18).." ("..AL["Warlords of Draenor"]..")",
+			name = format(AL["Tier %d Sets"], 18).." ("..EXPANSION_NAME5..")",
 			[RF_DIFF] = {
 				{ 1, "Tier18:rfcloth:rf" },
 				{ 3, "Tier18:rfleather:rf" },

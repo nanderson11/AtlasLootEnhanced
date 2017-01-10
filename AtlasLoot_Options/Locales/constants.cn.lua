@@ -34,6 +34,6 @@ AL["Subtitle"] = "副标题"
 AL["Title"] = "标题"
 AL["Use content color if available."] = "可用时使用内容颜色。"
 AL["Use GameTooltip"] = "使用游戏提示信息"
-AL["Use global settings"] = "使用全局设置"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏提示信息而不是自定义的 AltasLoot 提示信息"
 AL["Windows"] = "窗口"
+

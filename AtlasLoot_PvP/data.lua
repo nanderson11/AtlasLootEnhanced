@@ -22,7 +22,7 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
 data["LEGION1SETS"] = {
-	name = string.format(AL["Legion"].." "..AL["Season %d"], 1).." "..AL["Class Sets"],
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 1).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{

@@ -5,13 +5,13 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local LEGION_DIFF = data:AddDifficulty(AL["Legion"])
-local WOD_DIFF = data:AddDifficulty(AL["Warlords of Draenor"])
-local MOP_DIFF = data:AddDifficulty(AL["Mists of Pandaria"])
-local CATA_DIFF = data:AddDifficulty(AL["Cataclysm"])
-local WOTLK_DIFF = data:AddDifficulty(AL["Wrath of the Lich King"])
-local BC_DIFF = data:AddDifficulty(AL["Burning Crusade"])
-local CLASSIC_DIFF = data:AddDifficulty(AL["Classic"])
+local LEGION_DIFF = data:AddDifficulty(EXPANSION_NAME6)
+local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
+local MOP_DIFF = data:AddDifficulty(EXPANSION_NAME4)
+local CATA_DIFF = data:AddDifficulty(EXPANSION_NAME3)
+local WOTLK_DIFF = data:AddDifficulty(EXPANSION_NAME2)
+local BC_DIFF = data:AddDifficulty(EXPANSION_NAME1)
+local CLASSIC_DIFF = data:AddDifficulty(EXPANSION_NAME0)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"])
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
