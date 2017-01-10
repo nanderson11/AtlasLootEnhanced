@@ -6,7 +6,7 @@ manual-changelog:
     
 license-output: Documentation/LICENSE.txt
 
-enable-nolib-creation: yes
+enable-nolib-creation: no
 
 externals:
     AtlasLoot/Libs/LibDataBroker-1.1: 
