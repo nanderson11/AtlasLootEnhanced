@@ -12,6 +12,9 @@ local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
 local P25H_DIFF = data:AddDifficulty(AL["25 Player Heroic"], "p25h", nil, 6)
 local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 
+local LEGENDARY_DIFF = data:AddDifficulty(ITEM_QUALITY5_DESC)
+
+local LEGION_DIFF = data:AddDifficulty(EXPANSION_NAME6)
 local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
 local MOP_DIFF = data:AddDifficulty(EXPANSION_NAME4)
 local CATA_DIFF = data:AddDifficulty(EXPANSION_NAME3)
@@ -50,7 +53,7 @@ data["ARTIFACTS"] = {
 				{  3, 128403 },
 				{  5, 140538, [PRICE_EXTRA_ITTYPE] = "money:1000000" },
 				{  6, 140554, [PRICE_EXTRA_ITTYPE] = "money:1000000" },
-				{  8, 136796, [PRICE_EXTRA_ITTYPE] = "money:500000" }, 
+				{  8, 136796, [PRICE_EXTRA_ITTYPE] = "money:500000" },
 				{ 16, 139673, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
 				{ 17, 139674, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
 				{ 18, 139675, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
@@ -59,7 +62,7 @@ data["ARTIFACTS"] = {
 				{ 21, 139678, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
 				{ 22, 139679, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
 				{ 23, 139680, [PRICE_EXTRA_ITTYPE] = "money:5000000"  },
-				{ 25, 140962, [PRICE_EXTRA_ITTYPE] = "orderresources:500" }, 
+				{ 25, 140962, [PRICE_EXTRA_ITTYPE] = "orderresources:500" },
 				{ 26, 140935, [PRICE_EXTRA_ITTYPE] = "orderresources:2000" },
 				{ 27, 140963, [PRICE_EXTRA_ITTYPE] = "orderresources:4000" },
 			},
@@ -78,7 +81,7 @@ data["ARTIFACTS"] = {
 				{ 21, 139720, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
 				{ 22, 139721, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
 				{ 23, 139722, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
-				{ 25, 140964, [PRICE_EXTRA_ITTYPE] = "orderresources:500" }, 
+				{ 25, 140964, [PRICE_EXTRA_ITTYPE] = "orderresources:500" },
 				{ 26, 140936, [PRICE_EXTRA_ITTYPE] = "orderresources:2000" },
 				{ 27, 140965, [PRICE_EXTRA_ITTYPE] = "orderresources:4000" },
 			},
@@ -106,7 +109,7 @@ data["ARTIFACTS"] = {
 				{ 21, 139728, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
 				{ 22, 139729, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
 				{ 23, 139730, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
-				{ 25, 140966, [PRICE_EXTRA_ITTYPE] = "orderresources:500" }, 
+				{ 25, 140966, [PRICE_EXTRA_ITTYPE] = "orderresources:500" },
 				{ 26, 140937, [PRICE_EXTRA_ITTYPE] = "orderresources:2000" },
 				{ 27, 140967, [PRICE_EXTRA_ITTYPE] = "orderresources:4000" },
 			},
@@ -299,19 +302,19 @@ data["ARTIFACTS"] = {
 				{  2, 128908 },
 				{  3, 128910 },
 				{  5, 140537, [PRICE_EXTRA_ITTYPE] = "money:1000000" },
-				{  6, 140557, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, 
-				{  7, 140559, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, 
-				{ 16, 139681, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 17, 139682, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 18, 139683, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 19, 139684, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 20, 139685, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 21, 139686, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 22, 139687, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 23, 139688, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, 
-				{ 25, 140984, [PRICE_EXTRA_ITTYPE] = "orderresources:500" }, 
-				{ 26, 140946, [PRICE_EXTRA_ITTYPE] = "orderresources:2000" }, 
-				{ 27, 140985, [PRICE_EXTRA_ITTYPE] = "orderresources:4000" }, 
+				{  6, 140557, [PRICE_EXTRA_ITTYPE] = "money:1000000" },
+				{  7, 140559, [PRICE_EXTRA_ITTYPE] = "money:1000000" },
+				{ 16, 139681, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 17, 139682, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 18, 139683, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 19, 139684, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 20, 139685, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 21, 139686, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 22, 139687, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 23, 139688, [PRICE_EXTRA_ITTYPE] = "money:5000000" },
+				{ 25, 140984, [PRICE_EXTRA_ITTYPE] = "orderresources:500" },
+				{ 26, 140946, [PRICE_EXTRA_ITTYPE] = "orderresources:2000" },
+				{ 27, 140985, [PRICE_EXTRA_ITTYPE] = "orderresources:4000" },
 			},
 		},
 	},
@@ -349,7 +352,7 @@ data["APEXISCRYSTALGEAR"] = {
 				{ 3, 122331, [PRICE_EXTRA_ITTYPE] = "116971:1:apexis:14500" }, -- Ethereal Refractory Heartcloak
 				{ 4, 122332, [PRICE_EXTRA_ITTYPE] = "116972:1:apexis:14500" }, -- Ethereal Crystal Reinforced Doomcloak
 				{ 5, 122328, [PRICE_EXTRA_ITTYPE] = "116951:1:apexis:14500" }, -- Ethereal Shard-Covered Dreadcloak
-				
+
 				{ 7, 122308, [PRICE_EXTRA_ITTYPE] = "115396:1:apexis:20000" }, -- Ethereal Windcrystal Hood
 				{ 8, 122309, [PRICE_EXTRA_ITTYPE] = "115397:1:apexis:20000" }, -- Ethereal Crystalhide Cowl
 				{ 9, 122310, [PRICE_EXTRA_ITTYPE] = "115398:1:apexis:20000" }, -- Ethereal Crystal-Leaf Helm
@@ -377,7 +380,7 @@ data["APEXISCRYSTALGEAR"] = {
 			},
 		},
 		{
-				
+
 			name = string.format(AL["ilvl %d"], 655).." "..AL["Armor"],
 			[NORMAL_DIFF] = {
 				{ 1, 116969, [PRICE_EXTRA_ITTYPE] = "115391:1:apexis:14500" },	-- Flawless Crystal-Edged Bladecloak
@@ -385,27 +388,27 @@ data["APEXISCRYSTALGEAR"] = {
 				{ 3, 116971, [PRICE_EXTRA_ITTYPE] = "115393:1:apexis:14500" },	-- Flawless Refractory Heartcloak
 				{ 4, 116972, [PRICE_EXTRA_ITTYPE] = "115394:1:apexis:14500" },	-- Flawless Crystal Reinforced Doomcloak
 				{ 5, 116951, [PRICE_EXTRA_ITTYPE] = "115395:1:apexis:14500" },	-- Flawless Shard-Covered Dreadcloak
-				
+
 				{ 7, 115396, [PRICE_EXTRA_ITTYPE] = "116957:1:apexis:20000" },	-- Flawless Windcrystal Hood
 				{ 8, 115397, [PRICE_EXTRA_ITTYPE] = "116958:1:apexis:20000" },	-- Flawless Crystalhide Cowl
 				{ 9, 115398, [PRICE_EXTRA_ITTYPE] = "116959:1:apexis:20000" },	-- Flawless Crystal-Leaf Helm
 				{ 10, 115399, [PRICE_EXTRA_ITTYPE] = "116960:1:apexis:20000" },	-- Flawless Crystal-Plated Greathelm
-				
+
 				{ 12, 115400, [PRICE_EXTRA_ITTYPE] = "116961:1:apexis:14500" },	-- Flawless Windcrystal Bracers
 				{ 13, 115401, [PRICE_EXTRA_ITTYPE] = "116962:1:apexis:14500" },	-- Flawless Crystalhide Bracers
 				{ 14, 115402, [PRICE_EXTRA_ITTYPE] = "116963:1:apexis:14500" },	-- Flawless Crystal-Leaf Bracers
 				{ 15, 115403, [PRICE_EXTRA_ITTYPE] = "116964:1:apexis:14500" },	-- Flawless Crystal-Plated Bracers
-				
+
 				{ 16, 116947, [PRICE_EXTRA_ITTYPE] = "115387:1:apexis:17000" },	-- Flawless Windcrystal Wraps
 				{ 17, 116948, [PRICE_EXTRA_ITTYPE] = "115388:1:apexis:17000" },	-- Flawless Crystalhide Grips
 				{ 18, 116949, [PRICE_EXTRA_ITTYPE] = "115389:1:apexis:17000" },	-- Flawless Crystal-Leaf Gloves
 				{ 19, 116950, [PRICE_EXTRA_ITTYPE] = "115390:1:apexis:17000" },	-- Flawless Crystal-Plated Gauntlets
-				
+
 				{ 21, 116939, [PRICE_EXTRA_ITTYPE] = "116935:1:apexis:17000" },	-- Flawless Windcrystal Cord
 				{ 22, 116940, [PRICE_EXTRA_ITTYPE] = "116936:1:apexis:17000" },	-- Flawless Crystalhide Belt
 				{ 23, 116941, [PRICE_EXTRA_ITTYPE] = "116937:1:apexis:17000" },	-- Flawless Crystal-Leaf Chain
-				{ 24, 116942, [PRICE_EXTRA_ITTYPE] = "116938:1:apexis:17000" },	-- Flawless Crystal-Plated Greatbelt				
-				
+				{ 24, 116942, [PRICE_EXTRA_ITTYPE] = "116938:1:apexis:17000" },	-- Flawless Crystal-Plated Greatbelt
+
 				{ 26, 116931, [PRICE_EXTRA_ITTYPE] = "116927:1:apexis:20000" },	-- Flawless Windcrystal Leggings
 				{ 27, 116932, [PRICE_EXTRA_ITTYPE] = "116928:1:apexis:20000" },	-- Flawless Crystalhide Legguards
 				{ 28, 116933, [PRICE_EXTRA_ITTYPE] = "116929:1:apexis:20000" },	-- Flawless Crystal-Leaf Legguards
@@ -420,27 +423,27 @@ data["APEXISCRYSTALGEAR"] = {
 				{ 3, 115393, [PRICE_EXTRA_ITTYPE] = "116975:1:apexis:9000" },	-- Exceptional Refractory Heartcloak
 				{ 4, 115394, [PRICE_EXTRA_ITTYPE] = "116976:1:apexis:9000" },	-- Exceptional Crystal Reinforced Doomcloak
 				{ 5, 115395, [PRICE_EXTRA_ITTYPE] = "116952:1:apexis:9000" },	-- Exceptional Shard-Covered Dreadcloak
-				
+
 				{ 7, 116957, [PRICE_EXTRA_ITTYPE] = "116953:1:apexis:11500" },	-- Exceptional Windcrystal Hood
 				{ 8, 116958, [PRICE_EXTRA_ITTYPE] = "116954:1:apexis:11500" },	-- Exceptional Crystalhide Cowl
 				{ 9, 116959, [PRICE_EXTRA_ITTYPE] = "116955:1:apexis:11500" },	-- Exceptional Crystal-Leaf Helm
 				{ 10, 116960, [PRICE_EXTRA_ITTYPE] = "116956:1:apexis:11500" },	-- Exceptional Crystal-Plated Greathelm
-				
+
 				{ 12, 116961, [PRICE_EXTRA_ITTYPE] = "116965:1:apexis:9000" },	-- Exceptional Windcrystal Bracers
 				{ 13, 116962, [PRICE_EXTRA_ITTYPE] = "116966:1:apexis:9000" },	-- Exceptional Crystalhide Bracers
 				{ 14, 116963, [PRICE_EXTRA_ITTYPE] = "116967:1:apexis:9000" },	-- Exceptional Crystal-Leaf Bracers
 				{ 15, 116964, [PRICE_EXTRA_ITTYPE] = "116968:1:apexis:9000" },	-- Exceptional Crystal-Plated Bracers
-				
+
 				{ 16, 115387, [PRICE_EXTRA_ITTYPE] = "116943:1:apexis:10500" },	-- Exceptional Windcrystal Wraps
 				{ 17, 115388, [PRICE_EXTRA_ITTYPE] = "116944:1:apexis:10500" },	-- Exceptional Crystalhide Grips
 				{ 18, 115389, [PRICE_EXTRA_ITTYPE] = "116945:1:apexis:10500" },	-- Exceptional Crystal-Leaf Gloves
 				{ 19, 115390, [PRICE_EXTRA_ITTYPE] = "116946:1:apexis:10500" },	-- Exceptional Crystal-Plated Gauntlets
-				
+
 				{ 21, 116935, [PRICE_EXTRA_ITTYPE] = "115378:1:apexis:10500" },	-- Exceptional Windcrystal Cord
 				{ 22, 116936, [PRICE_EXTRA_ITTYPE] = "115379:1:apexis:10500" },	-- Exceptional Crystalhide Belt
 				{ 23, 116937, [PRICE_EXTRA_ITTYPE] = "115380:1:apexis:10500" },	-- Exceptional Crystal-Leaf Chain
 				{ 24, 116938, [PRICE_EXTRA_ITTYPE] = "115381:1:apexis:10500" },	-- Exceptional Crystal-Plated Greatbelt
-				
+
 				{ 26, 116927, [PRICE_EXTRA_ITTYPE] = "115374:1:apexis:11500" },	-- Exceptional Windcrystal Leggings
 				{ 27, 116928, [PRICE_EXTRA_ITTYPE] = "115375:1:apexis:11500" },	-- Exceptional Crystalhide Legguards
 				{ 28, 116929, [PRICE_EXTRA_ITTYPE] = "115376:1:apexis:11500" },	-- Exceptional Crystal-Leaf Legguards
@@ -455,27 +458,27 @@ data["APEXISCRYSTALGEAR"] = {
 				{ 3, 116975, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Refractory Heartcloak
 				{ 4, 116976, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Crystal Reinforced Doomcloak
 				{ 5, 116952, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Shard-Covered Dreadcloa
-				
+
 				{ 7, 116953, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Windcrystal Hood
 				{ 8, 116954, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystalhide Cowl
 				{ 9, 116955, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystal-Leaf Helm
 				{ 10, 116956, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystal-Plated Greathelm
-				
+
 				{ 12, 116965, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Windcrystal Bracers
 				{ 13, 116966, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Crystalhide Bracers
 				{ 14, 116967, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Crystal-Leaf Bracers
 				{ 15, 116968, [PRICE_EXTRA_ITTYPE] = "apexis:3000" },	-- Crystal-Plated Bracers
-				
+
 				{ 16, 116943, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Windcrystal Wraps
 				{ 17, 116944, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystalhide Grips
 				{ 18, 116945, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystal-Leaf Gloves
 				{ 19, 116946, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystal-Plated Gauntlets
-				
+
 				{ 21, 115378, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Windcrystal Cord
 				{ 22, 115379, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystalhide Belt
 				{ 23, 115380, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystal-Leaf Chain
 				{ 24, 115381, [PRICE_EXTRA_ITTYPE] = "apexis:4000" },	-- Crystal-Plated Greatbelt
-				
+
 				{ 26, 115374, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Windcrystal Leggings
 				{ 27, 115375, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystalhide Legguards
 				{ 28, 115376, [PRICE_EXTRA_ITTYPE] = "apexis:5000" },	-- Crystal-Leaf Legguards
@@ -534,7 +537,7 @@ data["TIMEWALKINGEVENT"] = {
 				{ 5, 33857, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Crate of Meat
 				{ 6, 35348, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
 				{ 8, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 9, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing	
+				{ 9, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
 				{ 11, 129945, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Consortium
 				{ 12, 129946, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Sha'tar
 				{ 13, [ATLASLOOT_IT_HORDE] = 129947, [ATLASLOOT_IT_ALLIANCE] = 129948, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Honor Hold / Commendation of Thrallmar
@@ -550,14 +553,14 @@ data["TIMEWALKINGEVENT"] = {
 		{
 			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
-				{ 1, 129922, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger	
+				{ 1, 129922, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger
 				{ 3, 129938, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Will of Northrend
-				{ 5, 44113, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Small Spice Bag	
+				{ 5, 44113, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Small Spice Bag
 				{ 7, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 8, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing	
+				{ 8, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
 				{ 10, 129940, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Kirin Tor
 				{ 11, 129941, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ebon Blade
-				{ 12, [ATLASLOOT_IT_HORDE] = 129954, [ATLASLOOT_IT_ALLIANCE] = 129955, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Alliance Vanguard / Commendation of the Horde Expedition	
+				{ 12, [ATLASLOOT_IT_HORDE] = 129954, [ATLASLOOT_IT_ALLIANCE] = 129955, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Alliance Vanguard / Commendation of the Horde Expedition
 				{ 16, 129965, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Grizzlesnout's Fang
 				{ 18, 129952, [PRICE_EXTRA_ITTYPE] = "timewarped:2000" }, -- Hourglass of Eternity
 				{ 20, 46007, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
@@ -566,7 +569,7 @@ data["TIMEWALKINGEVENT"] = {
 				{ 25, 129942, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Argent Crusade
 				{ 26, 129943, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sons of Hodir
 				{ 27, 129944, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wyrmrest Accord
-				
+
 			},
 		},
 		{
@@ -575,12 +578,12 @@ data["TIMEWALKINGEVENT"] = {
 				{ 1, 133511, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Gurboggle's Gleaming Bauble
 				{ 3, 67414, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Shiny Things
 				{ 5, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 6, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing	
+				{ 6, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
 				{ 8, 133160, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Therazane
 				{ 9, 133154, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ramkahen
 				{ 10, [ATLASLOOT_IT_HORDE] = 133150, [ATLASLOOT_IT_ALLIANCE] = 133151, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wildhammer Clan / Commendation of the Dragonmaw Clan
 				{ 16, 133542, [PRICE_EXTRA_ITTYPE] = "timewarped:3000" }, -- Tosselwrench's Mega-Accurate Simulation Viewfinder
-				{ 18, [ATLASLOOT_IT_HORDE] = 133545, [ATLASLOOT_IT_ALLIANCE] = 49602, [PRICE_EXTRA_ITTYPE] = "timewarped:10" }, -- Earl Black Tea / "New!" Kaja'Cola	
+				{ 18, [ATLASLOOT_IT_HORDE] = 133545, [ATLASLOOT_IT_ALLIANCE] = 49602, [PRICE_EXTRA_ITTYPE] = "timewarped:10" }, -- Earl Black Tea / "New!" Kaja'Cola
 				{ 20, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
 				{ 21, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
 				{ 23, 133159, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Earthen Ring
@@ -589,7 +592,6 @@ data["TIMEWALKINGEVENT"] = {
 		},
 	},
 }
-
 
 data["BOEWORLDEPICS"] = {
 	name = AL["BoE World Epics"],
@@ -857,6 +859,7 @@ data["CMGEAR"] = {
 		},
 	},
 }
+
 data["MOUNTS"] = {
 	name = AL["Mounts"],
 	ContentType = COLLECTION_CONTENT,
@@ -888,7 +891,7 @@ data["MOUNTS"] = {
 				{ 23, 69226, "ac9599" }, -- Felfirehawk2
 				{ 24, 91802, "ac7862" }, -- Jade Pandaren Kite String2
 				{ 25, 70910, "ac5325" }, -- Horn of the Vicious War Wolf2
-				
+
 				{ 12, 87769, "ac6927" }, -- Reins of the Crimson Cloud Serpent
 				{ 13, 87773, "ac6932" }, -- Reins of the Heavenly Crimson Cloud Serpent
 				{ 14, 93662, "ac8124" }, -- Reins of the Armored Skyscreamer
@@ -1120,7 +1123,7 @@ data["MOUNTS"] = {
 				{ 11, 18767, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Mistsaber
 				{ 12, 8629, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Nightsaber
 				{ 13, 18902, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Stormsaber
-				{ 14, 13086, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Winterspring Frostsaber				
+				{ 14, 13086, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Winterspring Frostsaber
 				{ 15, 18772, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Green Mechanostrider
 				{ 16, 18773, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Mechanostrider
 				{ 17, 18774, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Yellow Mechanostrider
@@ -1422,6 +1425,7 @@ data["MOUNTS"] = {
 		},
 	},
 }
+
 data["CLASSICSETS"] = {
 	name = AL["Classic Sets"],
 	ContentType = COLLECTION_CONTENT,
@@ -1732,7 +1736,7 @@ data["HEIRLOOM"] = {
 				{ 1, 122338, [PRICE_EXTRA_ITTYPE] = "money:10000000-darkmoon:100-championsseal:55-honor:2000-ancestrycoin:40" },	-- Ancient Heirloom Armor Casing
 				{ 2, 122340, [PRICE_EXTRA_ITTYPE] = "money:20000000-ancestrycoin:75" },	-- Timeworn Heirloom Armor Casing
 				{ 16, 122339, [PRICE_EXTRA_ITTYPE] = "money:12000000-darkmoon:120-championsseal:65-honor:2400-lovetoken:200" },	-- Ancient Heirloom Scabbard
-				{ 17, 122341, [PRICE_EXTRA_ITTYPE] = "money:50000000-lovetoken:450" },	-- Timeworn Heirloom Scabbard			
+				{ 17, 122341, [PRICE_EXTRA_ITTYPE] = "money:50000000-lovetoken:450" },	-- Timeworn Heirloom Scabbard
 			},
 		},
 		{	--HeirloomClothCloaks
@@ -1769,7 +1773,7 @@ data["HEIRLOOM"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "122248:Stage3H", 122340 },	-- Stained Shadowcraft Cap  (Stage 3)
 				{ 2, "122248:Stage2H", 122338 },	-- Stained Shadowcraft Cap  (Stage 2)
-				{ 3, "122248", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Cap 
+				{ 3, "122248", [PRICE_EXTRA_ITTYPE] = "money:5000000" },	-- Stained Shadowcraft Cap
 				{ 5, "122358:Stage3H", 122340 },	-- Stained Shadowcraft Spaulders (Stage 3)
 				{ 6, "122358:Stage2H", 122338 },	-- Stained Shadowcraft Spaulders (Stage 2)
 				{ 7, "122358", [PRICE_EXTRA_ITTYPE] = "money:5000000-darkmoon:50-championsseal:25" },	-- Stained Shadowcraft Spaulders
@@ -1946,11 +1950,11 @@ data["HEIRLOOM"] = {
 				{ 113, "128173:Stage3H", 122340 },	-- Admiral Taylor's Loyalty Ring
 				{ 114, "128173:Stage2H", 122338 },	-- Admiral Taylor's Loyalty Ring
 				{ 115, "128173"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Admiral Taylor's Loyalty Ring
-				{ 116, "126948"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Defending Champion				
-				{ 118, "126949"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Returning Champion				
+				{ 116, "126948"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Defending Champion
+				{ 118, "126949"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Returning Champion
 				{ 120, "128318"},	--, [QUEST_EXTRA_ITTYPE] = 8193 },	-- Touch of the Void
 			},
-		},		
+		},
 		{	--HeirloomPVPArmor
 			name = AL["PvP"].." "..AL["Armor"],
 			[NORMAL_DIFF] = {
@@ -2027,11 +2031,314 @@ data["HEIRLOOM"] = {
 	},
 }
 
+data["LEGION_LEGENDARIES"] = {
+	name = AL["Legendary Items"].." - "..EXPANSION_NAME6,
+	ContentType = COLLECTION_CONTENT,
+	items = {
+		{
+			name = AL["Normal"],
+			[LEGENDARY_DIFF] = {
+				{ 1, 144249 }, -- Archimonde's Hatred Reborn
+				{ 2, 144258 }, -- Velen's Future Sight
+				{ 3, 144259 }, -- Kil'jaeden's Burning Wish
+				{ 4, 132444 }, -- Prydaz, Xavaric's Magnum Opus
+				{ 5, 132452 }, -- Sephuz's Secret
+				{ 16, 143613 }, -- Distilled Titan Essence
+			},
+		},
+		{
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132365 }, -- Shackles of Bryndaor
+				{ 2 , 137037 }, -- Uvanimor, the Unbeautiful
+				{ 3 , 137075 }, -- Tak'theritrix's Shoulderpads
+				{ 4 , 137223 }, -- Seal of Necrofantasia
+				{ 5 , 144280 }, -- Death March
+				{ 6 , 144281 }, -- Skullflower's Haemostasis
+				{ 7 , 144293 }, -- Consort's Cold Core
+				{ 8 , 133974 }, -- Lana'thel's Lament
+				{ 9 , 132459 }, -- Perseverance of the Ebon Martyr
+				{ 10, 132458 }, -- Toravon's Whiteout Bindings
+				{ 11, 132366 }, -- Koltira's Newfound Will
+				{ 12, 132367 }, -- Service of Gorefiend
+				{ 13, 132376 }, -- Acherus Drapes
+				{ 14, 132441 }, -- Draugr, Girdle of the Everlasting King
+				{ 15, 132448 }, -- The Instructor's Fourth Lesson
+				{ 16, 132453 }, -- Rattlegore Bone Legplates
+				{ 17, 144280 }, -- Death March
+				{ 18, 144281 }, -- Skullflower's Haemostasis
+				{ 19, 144293 }, -- Consort's Cold Core
+			},
+		},
+		{
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 144292 }, -- Spirit of the Darkness Flame
+				{ 2 , 144279 }, -- Delusions of Grandeur
+				{ 3 , 138949 }, -- Kirel Narak
+				{ 4 , 138854 }, -- Fragment of the Betrayer's Prison
+				{ 5 , 137091 }, -- The Defiler's Lost Vambraces
+				{ 6 , 137090 }, -- Mo'arg Bionic Stabilizers
+				{ 7 , 137071 }, -- Runemaster's Pauldrons
+				{ 8 , 137066 }, -- Cloak of Fel Flames
+				{ 9 , 137061 }, -- Raddon's Cascading Eyes
+				{ 10, 137038 }, -- Anger of the Half-Giants
+				{ 11, 137022 }, -- Loramus Thalipedes' Sacrifice
+				{ 12, 137014 }, -- Achor, the Eternal Hunger
+				{ 13, 133976 }, -- Cinidaria, the Symbiote
+				{ 14, 144279 }, -- Delusions of Grandeur
+				{ 15, 144292 }, -- Spirit of the Darkness Flame
+			},
+		},
+		{
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 137072 }, -- Aman'Thul's Wisdom
+				{ 2 , 137078 }, -- The Dark Titan's Advice
+				{ 3 , 137092 }, -- Oneth's Intuition
+				{ 4 , 137094 }, -- The Wildshaper's Clutch
+				{ 5 , 137095 }, -- Edraith, Bonds of Aglaya
+				{ 6 , 144242 }, -- X'oni's Caress
+				{ 7 , 144295 }, -- Lady and the Child
+				{ 8 , 144354 }, -- Fiery Red Maimers
+				{ 9 , 144432 }, -- Oakheart's Puny Quods
+				{ 10, 137067 }, -- Elize's Everlasting Encasement
+				{ 11, 137062 }, -- The Emerald Dreamcatcher
+				{ 12, 133976 }, -- Cinidaria, the Symbiote
+				{ 13, 137015 }, -- Ekowraith, Creator of Worlds
+				{ 14, 137023 }, -- Promise of Elune, the Moon Goddess
+				{ 15, 137024 }, -- Ailuro Pouncers
+				{ 16, 137025 }, -- Skysec's Hold
+				{ 17, 137026 }, -- Essence of Infusion
+				{ 18, 137039 }, -- Impeccable Fel Essence
+				{ 19, 137040 }, -- Chatoyant Signet
+				{ 20, 137041 }, -- Dual Determination
+				{ 21, 137042 }, -- Tearstone of Elune
+				{ 22, 137056 }, -- Luffa Wrappings
+				{ 23, 144242 }, -- X'oni's Caress
+				{ 24, 144295 }, -- Lady and the Child
+				{ 25, 144354 }, -- Fiery Red Maimers
+				{ 26, 144432 }, -- Oakheart's Puny Quods
+			},
+		},
+		{
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 137227 }, -- Qa'pla, Eredun War Order
+				{ 2 , 137382 }, -- The Apex Predator's Claw
+				{ 3 , 141353 }, -- Magnetized Blasting Cap Launcher
+				{ 4 , 144303 }, -- MKII Gyroscopic Stabilizer
+				{ 5 , 144326 }, -- The Mantle of Command
+				{ 6 , 144361 }, -- Butcher's Bone Apron
+				{ 7 , 137101 }, -- Call of the Wild
+				{ 8 , 137082 }, -- Helbrine, Rope of the Mist Marauder
+				{ 9 , 132466 }, -- Roots of Shaladrassil
+				{ 10, 137033 }, -- Ullr's Feather Snowshoes
+				{ 11, 137034 }, -- Nesingwary's Trapping Treads
+				{ 12, 137043 }, -- Frizzo's Fingertrap
+				{ 13, 137055 }, -- Zevrim's Hunger
+				{ 14, 137064 }, -- The Shadow Hunter's Voodoo Mask
+				{ 15, 137080 }, -- Roar of the Seven Lions
+				{ 16, 137081 }, -- War Belt of the Sentinel Army
+				{ 17, 144303 }, -- MKII Gyroscopic Stabilizer
+				{ 18, 144326 }, -- The Mantle of Command
+				{ 19, 144361 }, -- Butcher's Bone Apron
+			},
+		},
+		{
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132406 }, -- Marquee Bindings of the Sun King
+				{ 2 , 133977 }, -- Belo'vir's Final Stand
+				{ 3 , 138140 }, -- Magtheridon's Banished Bracers
+				{ 4 , 144260 }, -- Ice Time
+				{ 5 , 144274 }, -- Gravity Spiral
+				{ 6 , 144355 }, -- Pyrotex Ignition Cloth
+				{ 7 , 133970 }, -- Zann'esu Journey
+				{ 8 , 132863 }, -- Darckli's Dragonfire Diadem
+				{ 9 , 132455 }, -- Norgannon's Foresight
+				{ 10, 132410 }, -- Shard of the Exodar
+				{ 11, 132411 }, -- Lady Vashj's Grasp
+				{ 12, 132413 }, -- Rhonin's Assaulting Armwraps
+				{ 13, 132442 }, -- Cord of Infinity
+				{ 14, 132451 }, -- Mystic Kilt of the Rune Master
+				{ 15, 132454 }, -- Koralon's Burning Touch
+				{ 16, 144260 }, -- Ice Time
+				{ 17, 144274 }, -- Gravity Spiral
+				{ 18, 144355 }, -- Pyrotex Ignition Cloth
+			},
+		},
+		{
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 137079 }, -- Gai Plin's Soothing Sash
+				{ 2 , 137096 }, -- Petrichor Lagniappe
+				{ 3 , 137097 }, -- Drinking Horn Cover
+				{ 4 , 137220 }, -- March of the Legion
+				{ 5 , 138879 }, -- Ovyd's Winter Wrap
+				{ 6 , 144239 }, -- The Emperor's Capacitor
+				{ 7 , 144277 }, -- Anvil-Hardened Wristwraps
+				{ 8 , 144340 }, -- Shelter of Rin
+				{ 9 , 137073 }, -- Unison Spaulders
+				{ 10, 137068 }, -- Leggings of The Black Flame
+				{ 11, 133976 }, -- Cinidaria, the Symbiote
+				{ 12, 137016 }, -- Sal'salabim's Lost Tunic
+				{ 13, 137019 }, -- Cenedril, Reflector of Hatred
+				{ 14, 137027 }, -- Firestone Walkers
+				{ 15, 137028 }, -- Ei'thas, Lunar Glides of Eramas
+				{ 16, 137029 }, -- Katsuo's Eclipse
+				{ 17, 137044 }, -- Jewel of the Lost Abbey
+				{ 18, 137045 }, -- Eye of Collidus the Warp-Watcher
+				{ 19, 137057 }, -- Hidden Master's Forbidden Touch
+				{ 20, 137063 }, -- Fundamental Observation
+				{ 21, 144239 }, -- The Emperor's Capacitor
+				{ 22, 144277 }, -- Anvil-Hardened Wristwraps
+				{ 23, 144340 }, -- Shelter of Rin
+			},
+		},
+		{
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132443 }, -- Aggramar's Stride
+				{ 2 , 137086 }, -- Chain of Thrayn
+				{ 3 , 137105 }, -- Uther's Guard
+				{ 4 , 140846 }, -- Aegisjalmur, the Armguards of Awe
+				{ 5 , 144273 }, -- Maraad's Dying Breath
+				{ 6 , 144275 }, -- Saruan's Resolve
+				{ 7 , 144358 }, -- Ashes to Dust
+				{ 8 , 137076 }, -- Obsidian Stone Spaulders
+				{ 9 , 137070 }, -- Tyelca, Ferren Marcus's Stature
+				{ 10, 137017 }, -- Breastplate of the Golden Val'kyr
+				{ 11, 137020 }, -- Whisper of the Nathrezim
+				{ 12, 137046 }, -- Ilterendi, Crown Jewel of Silvermoon
+				{ 13, 137047 }, -- Heathcliff's Immortality
+				{ 14, 137048 }, -- Liadrin's Fury Unleashed
+				{ 15, 137059 }, -- Tyr's Hand of Faith
+				{ 16, 137065 }, -- Justice Gaze
+				{ 17, 144273 }, -- Maraad's Dying Breath
+				{ 18, 144275 }, -- Saruan's Resolve
+				{ 19, 144358 }, -- Ashes to Dust
+			},
+		},
+		{
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132409 }, -- Anund's Seared Shackles
+				{ 2 , 133971 }, -- Zenk'aram, Iridi's Anadem
+				{ 3 , 133973 }, -- The Twins' Painful Touch
+				{ 4 , 137109 }, -- X'anshi, Shroud of Archbishop Benedictus
+				{ 5 , 137276 }, -- N'ero, Band of Promises
+				{ 6 , 144244 }, -- Kam Xi'raff
+				{ 7 , 144247 }, -- Rammal's Ulterior Motive
+				{ 8 , 144438 }, -- Zeks Exterminatus
+				{ 9 , 133800 }, -- Cord of Maiev, Priestess of the Moon
+				{ 10, 132864 }, -- Mangaza's Madness
+				{ 11, 132861 }, -- Estel, Dejahna's Inspiration
+				{ 12, 132436 }, -- Skjoldr, Sanctuary of Ivagont
+				{ 13, 132437 }, -- Mother Shahraz's Seduction
+				{ 14, 132445 }, -- Al'maiesh, the Cord of Hope
+				{ 15, 132447 }, -- Entrancing Trousers of An'juna
+				{ 16, 132449 }, -- Phyrix's Embrace
+				{ 17, 132450 }, -- Muze's Unwavering Will
+				{ 18, 132455 }, -- Norgannon's Foresight
+				{ 19, 132461 }, -- Xalan the Feared's Clench
+				{ 20, 144244 }, -- Kam Xi'raff
+				{ 21, 144247 }, -- Rammal's Ulterior Motive
+				{ 22, 144438 }, -- Zeks Exterminatus
+			},
+		},
+		{
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 144236 }, -- Mantle of the Master Assassin
+				{ 2 , 141321 }, -- Shivarran Symmetry
+				{ 3 , 137100 }, -- Denial of the Half-Giants
+				{ 4 , 137099 }, -- Greenskin's Waterlogged Wristcuffs
+				{ 5 , 137098 }, -- Zoldyck Family Training Shackles
+				{ 6 , 137069 }, -- Will of Valeera
+				{ 7 , 137049 }, -- Insignia of Ravenholdt
+				{ 8 , 137032 }, -- Shadow Satyr's Walk
+				{ 9 , 137031 }, -- Thraxi's Tricksy Treads
+				{ 10, 137030 }, -- Duskwalker's Footpads
+				{ 11, 137021 }, -- The Dreadlord's Deceit
+				{ 12, 133976 }, -- Cinidaria, the Symbiote
+				{ 13, 144236 }, -- Mantle of the Master Assassin
+			},
+		},
+		{
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 137102 }, -- Al'Akir's Acrimony
+				{ 2 , 137103 }, -- Storm Tempests
+				{ 3 , 137104 }, -- Nobundo's Redemption
+				{ 4 , 137616 }, -- Emalon's Charged Core
+				{ 5 , 138117 }, -- Spiritual Journey
+				{ 6 , 143732 }, -- Uncertain Reminder
+				{ 7 , 137085 }, -- Intact Nazjatar Molting
+				{ 8 , 137084 }, -- Akainu's Absolute Justice
+				{ 9 , 132466 }, -- Roots of Shaladrassil
+				{ 10, 137035 }, -- The Deceiver's Blood Pact
+				{ 11, 137036 }, -- Elemental Rebalancers
+				{ 12, 137050 }, -- Eye of the Twisting Nether
+				{ 13, 137051 }, -- Focuser of Jonat, the Elder
+				{ 14, 137058 }, -- Praetorian's Tidecallers
+				{ 15, 137074 }, -- Echoes of the Great Sundering
+				{ 16, 137083 }, -- Pristine Proto-Scale Girdle
+				{ 17, 143732 }, -- Uncertain Reminder
+			},
+		},
+		{
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132357 }, -- Pillars of the Dark Portal
+				{ 2 , 132456 }, -- Feretory of Souls
+				{ 3 , 132457 }, -- Power Cord of Lethtendris
+				{ 4 , 132460 }, -- Alythess's Pyrogenics
+				{ 5 , 144364 }, -- Reap and Sow
+				{ 6 , 144369 }, -- Lessons of Space-Time
+				{ 7 , 144385 }, -- Wakener's Loyalty
+				{ 8 , 132455 }, -- Norgannon's Foresight
+				{ 9 , 132369 }, -- Wilfred's Sigil of Superior Summoning
+				{ 10, 132374 }, -- Kazzak's Final Curse
+				{ 11, 132375 }, -- Odr, Shawl of the Ymirjar
+				{ 12, 132378 }, -- Sacrolash's Dark Strike
+				{ 13, 132379 }, -- Sin'dorei Spite
+				{ 14, 132381 }, -- Streten's Sleepless Shackles
+				{ 15, 132393 }, -- Recurrent Ritual
+				{ 16, 132394 }, -- Hood of Eternal Disdain
+				{ 17, 132407 }, -- Magistrike Restraints
+				{ 18, 144364 }, -- Reap and Sow
+				{ 19, 144369 }, -- Lessons of Space-Time
+				{ 20, 144385 }, -- Wakener's Loyalty
+			},
+		},
+		{
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[LEGENDARY_DIFF] = {
+				{ 1 , 132443 }, -- Aggramar's Stride
+				{ 2 , 143728 }, -- Timeless Stratagem
+				{ 3 , 137108 }, -- Kakushan's Stormscale Gauntlets
+				{ 4 , 137107 }, -- Mannoroth's Bloodletting Manacles
+				{ 5 , 137089 }, -- Thundergod's Vigor
+				{ 6 , 137088 }, -- Ceann-Ar Charger
+				{ 7 , 137087 }, -- Naj'entus's Vertebrae
+				{ 8 , 137077 }, -- Weight of the Earth
+				{ 9 , 137018 }, -- Destiny Driver
+				{ 10, 137052 }, -- Ayala's Stone Heart
+				{ 11, 137053 }, -- Kazzalax, Fujieda's Fury
+				{ 12, 137054 }, -- The Walls Fell
+				{ 13, 137060 }, -- Archavon's Heavy Hand
+				{ 14, 143728 }, -- Timeless Stratagem
+			},
+		},
+	},
+}
+
 data["LEGENDARIES"] = {
 	name = AL["Legendary Items"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		{
+		{-- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[ALLIANCE_DIFF] = {
 				{ 1, 124634, "ac10021" },	-- Thorasus, the Stone Heart of Draenor
@@ -2050,7 +2357,7 @@ data["LEGENDARIES"] = {
 				{ 5, 124638, "ac10148" },	-- Etheralus, the Eternal Reward
 			},
 		},
-		{
+		{-- Mists of Pandaria
 			name = EXPANSION_NAME4,
 			[ALLIANCE_DIFF] = {
 				{ 1, 102248, "ac8325" },	-- Fen-Yu, Fury of Xuen
@@ -2073,7 +2380,7 @@ data["LEGENDARIES"] = {
 				{ 16, 93403, "ac8008" },	-- Eye of the Black Prince
 			},
 		},
-		{
+		{-- Cataclysm
 			name = EXPANSION_NAME3,
 			[NORMAL_DIFF] = {
 				{ 1, 77949, "ac6181" },	-- Golad, Twilight of Aspects
@@ -2087,7 +2394,7 @@ data["LEGENDARIES"] = {
 				{ 18, 71084 },	-- Branch of Nordrassil
 			},
 		},
-		{
+		{-- Wrath of the Lich King
 			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
 				{ 1, 49623, "ac4623" },	-- Shadowmourne
@@ -2095,7 +2402,7 @@ data["LEGENDARIES"] = {
 				{ 16, 46017, "ac3142" },	-- Val'anyr, Hammer of Ancient Kings
 			},
 		},
-		{
+		{-- The Burning Crusade
 			name = EXPANSION_NAME1,
 			[NORMAL_DIFF] = {
 				{ 1, 34334, "ac725" },	-- Thori'dal, the Stars' Fury
@@ -2110,7 +2417,7 @@ data["LEGENDARIES"] = {
 				{ 22, 30314 },	-- Phaseshift Bulwark
 			},
 		},
-		{
+		{-- Classic
 			name = EXPANSION_NAME0,
 			[NORMAL_DIFF] = {
 				{ 1, 22632, "ac425" },	-- Atiesh, Greatstaff of the Guardian
@@ -3346,7 +3653,7 @@ data["TIERSETS"] = {
 				{ 22, "Tier18:warlock:mB1" },
 				{ 24, "Tier18:warrior:mB1" },
 			},
-		},		
+		},
 	},
 }
 
