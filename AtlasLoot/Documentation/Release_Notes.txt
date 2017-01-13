@@ -7,6 +7,8 @@ Patch Notes
 
 v8.01.10 (Jan. XX, 2016)
 - added Legion legendary items
+- translation update:
+  Korean, Traditional Chinese
 
 v8.01.09 (Jan. 11, 2016)
 - added ACs to 'Trial of Valor'

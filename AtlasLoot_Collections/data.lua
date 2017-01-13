@@ -2049,286 +2049,256 @@ data["LEGION_LEGENDARIES"] = {
 		{
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132365 }, -- Shackles of Bryndaor
-				{ 2 , 137037 }, -- Uvanimor, the Unbeautiful
+				{ 1 , 144280 }, -- Death March
+				{ 2 , 132459 }, -- Perseverance of the Ebon Martyr
 				{ 3 , 137075 }, -- Tak'theritrix's Shoulderpads
-				{ 4 , 137223 }, -- Seal of Necrofantasia
-				{ 5 , 144280 }, -- Death March
-				{ 6 , 144281 }, -- Skullflower's Haemostasis
-				{ 7 , 144293 }, -- Consort's Cold Core
-				{ 8 , 133974 }, -- Lana'thel's Lament
-				{ 9 , 132459 }, -- Perseverance of the Ebon Martyr
-				{ 10, 132458 }, -- Toravon's Whiteout Bindings
-				{ 11, 132366 }, -- Koltira's Newfound Will
-				{ 12, 132367 }, -- Service of Gorefiend
-				{ 13, 132376 }, -- Acherus Drapes
-				{ 14, 132441 }, -- Draugr, Girdle of the Everlasting King
-				{ 15, 132448 }, -- The Instructor's Fourth Lesson
-				{ 16, 132453 }, -- Rattlegore Bone Legplates
-				{ 17, 144280 }, -- Death March
-				{ 18, 144281 }, -- Skullflower's Haemostasis
-				{ 19, 144293 }, -- Consort's Cold Core
+				{ 4 , 144281 }, -- Skullflower's Haemostasis
+				{ 5 , 132376 }, -- Acherus Drapes
+				{ 6 , 132366 }, -- Koltira's Newfound Will
+				{ 7 , 132367 }, -- Service of Gorefiend
+				{ 8 , 132441 }, -- Draugr, Girdle of the Everlasting King
+				{ 9 , 144293 }, -- Consort's Cold Core
+				{ 10, 132453 }, -- Rattlegore Bone Legplates
+				{ 11, 132365 }, -- Shackles of Bryndaor
+				{ 12, 132458 }, -- Toravon's Whiteout Bindings
+				{ 13, 132448 }, -- The Instructor's Fourth Lesson
+				{ 14, 137037 }, -- Uvanimor, the Unbeautiful
+				{ 15, 137223 }, -- Seal of Necrofantasia
+				{ 16, 133974 }, -- Lana'thel's Lament
 			},
 		},
 		{
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 144292 }, -- Spirit of the Darkness Flame
+				{ 1 , 137061 }, -- Raddon's Cascading Eyes
 				{ 2 , 144279 }, -- Delusions of Grandeur
-				{ 3 , 138949 }, -- Kirel Narak
-				{ 4 , 138854 }, -- Fragment of the Betrayer's Prison
-				{ 5 , 137091 }, -- The Defiler's Lost Vambraces
-				{ 6 , 137090 }, -- Mo'arg Bionic Stabilizers
-				{ 7 , 137071 }, -- Runemaster's Pauldrons
-				{ 8 , 137066 }, -- Cloak of Fel Flames
-				{ 9 , 137061 }, -- Raddon's Cascading Eyes
-				{ 10, 137038 }, -- Anger of the Half-Giants
-				{ 11, 137022 }, -- Loramus Thalipedes' Sacrifice
-				{ 12, 137014 }, -- Achor, the Eternal Hunger
-				{ 13, 133976 }, -- Cinidaria, the Symbiote
-				{ 14, 144279 }, -- Delusions of Grandeur
-				{ 15, 144292 }, -- Spirit of the Darkness Flame
+				{ 3 , 137071 }, -- Runemaster's Pauldrons
+				{ 4 , 137014 }, -- Achor, the Eternal Hunger
+				{ 5 , 137066 }, -- Cloak of Fel Flames
+				{ 6 , 133976 }, -- Cinidaria, the Symbiote
+				{ 7 , 138949 }, -- Kirel Narak
+				{ 8 , 137022 }, -- Loramus Thalipedes' Sacrifice
+				{ 9 , 137091 }, -- The Defiler's Lost Vambraces
+				{ 10, 137090 }, -- Mo'arg Bionic Stabilizers
+				{ 11, 144292 }, -- Spirit of the Darkness Flame
+				{ 12, 138854 }, -- Fragment of the Betrayer's Prison
+				{ 13, 137038 }, -- Anger of the Half-Giants
 			},
 		},
 		{
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 137072 }, -- Aman'Thul's Wisdom
-				{ 2 , 137078 }, -- The Dark Titan's Advice
-				{ 3 , 137092 }, -- Oneth's Intuition
-				{ 4 , 137094 }, -- The Wildshaper's Clutch
-				{ 5 , 137095 }, -- Edraith, Bonds of Aglaya
-				{ 6 , 144242 }, -- X'oni's Caress
-				{ 7 , 144295 }, -- Lady and the Child
+				{ 1 , 144432 }, -- Oakheart's Puny Quods
+				{ 2 , 137062 }, -- The Emerald Dreamcatcher
+				{ 3 , 137072 }, -- Aman'Thul's Wisdom
+				{ 4 , 144295 }, -- Lady and the Child
+				{ 5 , 137015 }, -- Ekowraith, Creator of Worlds
+				{ 6 , 137078 }, -- The Dark Titan's Advice
+				{ 7 , 133976 }, -- Cinidaria, the Symbiote
 				{ 8 , 144354 }, -- Fiery Red Maimers
-				{ 9 , 144432 }, -- Oakheart's Puny Quods
-				{ 10, 137067 }, -- Elize's Everlasting Encasement
-				{ 11, 137062 }, -- The Emerald Dreamcatcher
-				{ 12, 133976 }, -- Cinidaria, the Symbiote
-				{ 13, 137015 }, -- Ekowraith, Creator of Worlds
-				{ 14, 137023 }, -- Promise of Elune, the Moon Goddess
-				{ 15, 137024 }, -- Ailuro Pouncers
-				{ 16, 137025 }, -- Skysec's Hold
-				{ 17, 137026 }, -- Essence of Infusion
-				{ 18, 137039 }, -- Impeccable Fel Essence
-				{ 19, 137040 }, -- Chatoyant Signet
-				{ 20, 137041 }, -- Dual Determination
-				{ 21, 137042 }, -- Tearstone of Elune
-				{ 22, 137056 }, -- Luffa Wrappings
-				{ 23, 144242 }, -- X'oni's Caress
-				{ 24, 144295 }, -- Lady and the Child
-				{ 25, 144354 }, -- Fiery Red Maimers
-				{ 26, 144432 }, -- Oakheart's Puny Quods
+				{ 9 , 137067 }, -- Elize's Everlasting Encasement
+				{ 10, 137023 }, -- Promise of Elune, the Moon Goddess
+				{ 11, 137024 }, -- Ailuro Pouncers
+				{ 12, 137025 }, -- Skysec's Hold
+				{ 13, 137026 }, -- Essence of Infusion
+				{ 14, 137092 }, -- Oneth's Intuition
+				{ 15, 137095 }, -- Edraith, Bonds of Aglaya
+				{ 16, 137056 }, -- Luffa Wrappings
+				{ 17, 137094 }, -- The Wildshaper's Clutch
+				{ 18, 144242 }, -- X'oni's Caress
+				{ 19, 137039 }, -- Impeccable Fel Essence
+				{ 20, 137040 }, -- Chatoyant Signet
+				{ 21, 137041 }, -- Dual Determination
+				{ 22, 137042 }, -- Tearstone of Elune
 			},
 		},
 		{
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 137227 }, -- Qa'pla, Eredun War Order
-				{ 2 , 137382 }, -- The Apex Predator's Claw
-				{ 3 , 141353 }, -- Magnetized Blasting Cap Launcher
-				{ 4 , 144303 }, -- MKII Gyroscopic Stabilizer
-				{ 5 , 144326 }, -- The Mantle of Command
-				{ 6 , 144361 }, -- Butcher's Bone Apron
-				{ 7 , 137101 }, -- Call of the Wild
-				{ 8 , 137082 }, -- Helbrine, Rope of the Mist Marauder
-				{ 9 , 132466 }, -- Roots of Shaladrassil
-				{ 10, 137033 }, -- Ullr's Feather Snowshoes
-				{ 11, 137034 }, -- Nesingwary's Trapping Treads
-				{ 12, 137043 }, -- Frizzo's Fingertrap
-				{ 13, 137055 }, -- Zevrim's Hunger
-				{ 14, 137064 }, -- The Shadow Hunter's Voodoo Mask
-				{ 15, 137080 }, -- Roar of the Seven Lions
-				{ 16, 137081 }, -- War Belt of the Sentinel Army
-				{ 17, 144303 }, -- MKII Gyroscopic Stabilizer
-				{ 18, 144326 }, -- The Mantle of Command
-				{ 19, 144361 }, -- Butcher's Bone Apron
+				{ 1 , 137064 }, -- The Shadow Hunter's Voodoo Mask
+				{ 2 , 144326 }, -- The Mantle of Command
+				{ 3 , 144361 }, -- Butcher's Bone Apron
+				{ 4 , 137082 }, -- Helbrine, Rope of the Mist Marauder
+				{ 5 , 137080 }, -- Roar of the Seven Lions
+				{ 6 , 137081 }, -- War Belt of the Sentinel Army
+				{ 7 , 132466 }, -- Roots of Shaladrassil
+				{ 8 , 137227 }, -- Qa'pla, Eredun War Order
+				{ 9 , 137033 }, -- Ullr's Feather Snowshoes
+				{ 10, 137034 }, -- Nesingwary's Trapping Treads
+				{ 11, 141353 }, -- Magnetized Blasting Cap Launcher
+				{ 12, 137101 }, -- Call of the Wild
+				{ 13, 144303 }, -- MKII Gyroscopic Stabilizer
+				{ 14, 137382 }, -- The Apex Predator's Claw
+				{ 15, 137043 }, -- Frizzo's Fingertrap
+				{ 16, 137055 }, -- Zevrim's Hunger
 			},
 		},
 		{
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132406 }, -- Marquee Bindings of the Sun King
-				{ 2 , 133977 }, -- Belo'vir's Final Stand
-				{ 3 , 138140 }, -- Magtheridon's Banished Bracers
-				{ 4 , 144260 }, -- Ice Time
-				{ 5 , 144274 }, -- Gravity Spiral
-				{ 6 , 144355 }, -- Pyrotex Ignition Cloth
-				{ 7 , 133970 }, -- Zann'esu Journey
-				{ 8 , 132863 }, -- Darckli's Dragonfire Diadem
+				{ 1 , 144274 }, -- Gravity Spiral
+				{ 2 , 132863 }, -- Darckli's Dragonfire Diadem
+				{ 3 , 144260 }, -- Ice Time
+				{ 4 , 133977 }, -- Belo'vir's Final Stand
+				{ 5 , 133970 }, -- Zann'esu Journey
+				{ 6 , 132442 }, -- Cord of Infinity
+				{ 7 , 132454 }, -- Koralon's Burning Touch
+				{ 8 , 132451 }, -- Mystic Kilt of the Rune Master
 				{ 9 , 132455 }, -- Norgannon's Foresight
-				{ 10, 132410 }, -- Shard of the Exodar
-				{ 11, 132411 }, -- Lady Vashj's Grasp
-				{ 12, 132413 }, -- Rhonin's Assaulting Armwraps
-				{ 13, 132442 }, -- Cord of Infinity
-				{ 14, 132451 }, -- Mystic Kilt of the Rune Master
-				{ 15, 132454 }, -- Koralon's Burning Touch
-				{ 16, 144260 }, -- Ice Time
-				{ 17, 144274 }, -- Gravity Spiral
-				{ 18, 144355 }, -- Pyrotex Ignition Cloth
+				{ 10, 132406 }, -- Marquee Bindings of the Sun King
+				{ 11, 132413 }, -- Rhonin's Assaulting Armwraps
+				{ 12, 138140 }, -- Magtheridon's Banished Bracers
+				{ 13, 144355 }, -- Pyrotex Ignition Cloth
+				{ 14, 132411 }, -- Lady Vashj's Grasp
+				{ 15, 132410 }, -- Shard of the Exodar
 			},
 		},
 		{
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 137079 }, -- Gai Plin's Soothing Sash
-				{ 2 , 137096 }, -- Petrichor Lagniappe
-				{ 3 , 137097 }, -- Drinking Horn Cover
-				{ 4 , 137220 }, -- March of the Legion
-				{ 5 , 138879 }, -- Ovyd's Winter Wrap
-				{ 6 , 144239 }, -- The Emperor's Capacitor
-				{ 7 , 144277 }, -- Anvil-Hardened Wristwraps
-				{ 8 , 144340 }, -- Shelter of Rin
-				{ 9 , 137073 }, -- Unison Spaulders
+				{ 1 , 137063 }, -- Fundamental Observation
+				{ 2 , 137073 }, -- Unison Spaulders
+				{ 3 , 144239 }, -- The Emperor's Capacitor
+				{ 4 , 144340 }, -- Shelter of Rin
+				{ 5 , 137016 }, -- Sal'salabim's Lost Tunic
+				{ 6 , 137019 }, -- Cenedril, Reflector of Hatred
+				{ 7 , 137079 }, -- Gai Plin's Soothing Sash
+				{ 8 , 138879 }, -- Ovyd's Winter Wrap
+				{ 9 , 133976 }, -- Cinidaria, the Symbiote
 				{ 10, 137068 }, -- Leggings of The Black Flame
-				{ 11, 133976 }, -- Cinidaria, the Symbiote
-				{ 12, 137016 }, -- Sal'salabim's Lost Tunic
-				{ 13, 137019 }, -- Cenedril, Reflector of Hatred
-				{ 14, 137027 }, -- Firestone Walkers
-				{ 15, 137028 }, -- Ei'thas, Lunar Glides of Eramas
-				{ 16, 137029 }, -- Katsuo's Eclipse
-				{ 17, 137044 }, -- Jewel of the Lost Abbey
-				{ 18, 137045 }, -- Eye of Collidus the Warp-Watcher
-				{ 19, 137057 }, -- Hidden Master's Forbidden Touch
-				{ 20, 137063 }, -- Fundamental Observation
-				{ 21, 144239 }, -- The Emperor's Capacitor
-				{ 22, 144277 }, -- Anvil-Hardened Wristwraps
-				{ 23, 144340 }, -- Shelter of Rin
+				{ 11, 137027 }, -- Firestone Walkers
+				{ 12, 137028 }, -- Ei'thas, Lunar Glides of Eramas
+				{ 13, 137029 }, -- Katsuo's Eclipse
+				{ 14, 137096 }, -- Petrichor Lagniappe
+				{ 15, 137097 }, -- Drinking Horn Cover
+				{ 16, 144277 }, -- Anvil-Hardened Wristwraps
+				{ 17, 137057 }, -- Hidden Master's Forbidden Touch
+				{ 18, 137044 }, -- Jewel of the Lost Abbey
+				{ 19, 137220 }, -- March of the Legion
+				{ 20, 137045 }, -- Eye of Collidus the Warp-Watcher
 			},
 		},
 		{
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132443 }, -- Aggramar's Stride
-				{ 2 , 137086 }, -- Chain of Thrayn
-				{ 3 , 137105 }, -- Uther's Guard
-				{ 4 , 140846 }, -- Aegisjalmur, the Armguards of Awe
-				{ 5 , 144273 }, -- Maraad's Dying Breath
-				{ 6 , 144275 }, -- Saruan's Resolve
-				{ 7 , 144358 }, -- Ashes to Dust
-				{ 8 , 137076 }, -- Obsidian Stone Spaulders
+				{ 1 , 144275 }, -- Saruan's Resolve
+				{ 2 , 137065 }, -- Justice Gaze
+				{ 3 , 144358 }, -- Ashes to Dust
+				{ 4 , 137076 }, -- Obsidian Stone Spaulders
+				{ 5 , 137017 }, -- Breastplate of the Golden Val'kyr
+				{ 6 , 137020 }, -- Whisper of the Nathrezim
+				{ 7 , 144273 }, -- Maraad's Dying Breath
+				{ 8 , 137086 }, -- Chain of Thrayn
 				{ 9 , 137070 }, -- Tyelca, Ferren Marcus's Stature
-				{ 10, 137017 }, -- Breastplate of the Golden Val'kyr
-				{ 11, 137020 }, -- Whisper of the Nathrezim
-				{ 12, 137046 }, -- Ilterendi, Crown Jewel of Silvermoon
-				{ 13, 137047 }, -- Heathcliff's Immortality
-				{ 14, 137048 }, -- Liadrin's Fury Unleashed
-				{ 15, 137059 }, -- Tyr's Hand of Faith
-				{ 16, 137065 }, -- Justice Gaze
-				{ 17, 144273 }, -- Maraad's Dying Breath
-				{ 18, 144275 }, -- Saruan's Resolve
-				{ 19, 144358 }, -- Ashes to Dust
+				{ 10, 132443 }, -- Aggramar's Stride
+				{ 11, 137105 }, -- Uther's Guard
+				{ 12, 140846 }, -- Aegisjalmur, the Armguards of Awe
+				{ 13, 137059 }, -- Tyr's Hand of Faith
+				{ 14, 137046 }, -- Ilterendi, Crown Jewel of Silvermoon
+				{ 15, 137047 }, -- Heathcliff's Immortality
+				{ 16, 137048 }, -- Liadrin's Fury Unleashed
 			},
 		},
 		{
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132409 }, -- Anund's Seared Shackles
-				{ 2 , 133971 }, -- Zenk'aram, Iridi's Anadem
-				{ 3 , 133973 }, -- The Twins' Painful Touch
-				{ 4 , 137109 }, -- X'anshi, Shroud of Archbishop Benedictus
-				{ 5 , 137276 }, -- N'ero, Band of Promises
-				{ 6 , 144244 }, -- Kam Xi'raff
-				{ 7 , 144247 }, -- Rammal's Ulterior Motive
-				{ 8 , 144438 }, -- Zeks Exterminatus
-				{ 9 , 133800 }, -- Cord of Maiev, Priestess of the Moon
-				{ 10, 132864 }, -- Mangaza's Madness
-				{ 11, 132861 }, -- Estel, Dejahna's Inspiration
-				{ 12, 132436 }, -- Skjoldr, Sanctuary of Ivagont
-				{ 13, 132437 }, -- Mother Shahraz's Seduction
-				{ 14, 132445 }, -- Al'maiesh, the Cord of Hope
-				{ 15, 132447 }, -- Entrancing Trousers of An'juna
-				{ 16, 132449 }, -- Phyrix's Embrace
-				{ 17, 132450 }, -- Muze's Unwavering Will
-				{ 18, 132455 }, -- Norgannon's Foresight
-				{ 19, 132461 }, -- Xalan the Feared's Clench
-				{ 20, 144244 }, -- Kam Xi'raff
-				{ 21, 144247 }, -- Rammal's Ulterior Motive
-				{ 22, 144438 }, -- Zeks Exterminatus
+				{ 1 , 133971 }, -- Zenk'aram, Iridi's Anadem
+				{ 2 , 144244 }, -- Kam Xi'raff
+				{ 3 , 132437 }, -- Mother Shahraz's Seduction
+				{ 4 , 132861 }, -- Estel, Dejahna's Inspiration
+				{ 5 , 137109 }, -- X'anshi, Shroud of Archbishop Benedictus
+				{ 6 , 144438 }, -- Zeks Exterminatus
+				{ 7 , 133800 }, -- Cord of Maiev, Priestess of the Moon
+				{ 8 , 132864 }, -- Mangaza's Madness
+				{ 9 , 132445 }, -- Al'maiesh, the Cord of Hope
+				{ 10, 132447 }, -- Entrancing Trousers of An'juna
+				{ 11, 132455 }, -- Norgannon's Foresight
+				{ 12, 132409 }, -- Anund's Seared Shackles
+				{ 13, 132436 }, -- Skjoldr, Sanctuary of Ivagont
+				{ 14, 132450 }, -- Muze's Unwavering Will
+				{ 15, 144247 }, -- Rammal's Ulterior Motive
+				{ 16, 132461 }, -- Xalan the Feared's Clench
+				{ 17, 133973 }, -- The Twins' Painful Touch
+				{ 18, 137276 }, -- N'ero, Band of Promises
+				{ 19, 132449 }, -- Phyrix's Embrace
 			},
 		},
 		{
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144236 }, -- Mantle of the Master Assassin
-				{ 2 , 141321 }, -- Shivarran Symmetry
-				{ 3 , 137100 }, -- Denial of the Half-Giants
-				{ 4 , 137099 }, -- Greenskin's Waterlogged Wristcuffs
-				{ 5 , 137098 }, -- Zoldyck Family Training Shackles
-				{ 6 , 137069 }, -- Will of Valeera
-				{ 7 , 137049 }, -- Insignia of Ravenholdt
-				{ 8 , 137032 }, -- Shadow Satyr's Walk
-				{ 9 , 137031 }, -- Thraxi's Tricksy Treads
-				{ 10, 137030 }, -- Duskwalker's Footpads
-				{ 11, 137021 }, -- The Dreadlord's Deceit
-				{ 12, 133976 }, -- Cinidaria, the Symbiote
-				{ 13, 144236 }, -- Mantle of the Master Assassin
+				{ 2 , 137021 }, -- The Dreadlord's Deceit
+				{ 3 , 133976 }, -- Cinidaria, the Symbiote
+				{ 4 , 137069 }, -- Will of Valeera
+				{ 5 , 137032 }, -- Shadow Satyr's Walk
+				{ 6 , 137031 }, -- Thraxi's Tricksy Treads
+				{ 7 , 137030 }, -- Duskwalker's Footpads
+				{ 8 , 137100 }, -- Denial of the Half-Giants
+				{ 9 , 137099 }, -- Greenskin's Waterlogged Wristcuffs
+				{ 10, 137098 }, -- Zoldyck Family Training Shackles
+				{ 11, 141321 }, -- Shivarran Symmetry
+				{ 12, 137049 }, -- Insignia of Ravenholdt
 			},
 		},
 		{
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 137102 }, -- Al'Akir's Acrimony
-				{ 2 , 137103 }, -- Storm Tempests
-				{ 3 , 137104 }, -- Nobundo's Redemption
-				{ 4 , 137616 }, -- Emalon's Charged Core
-				{ 5 , 138117 }, -- Spiritual Journey
-				{ 6 , 143732 }, -- Uncertain Reminder
-				{ 7 , 137085 }, -- Intact Nazjatar Molting
-				{ 8 , 137084 }, -- Akainu's Absolute Justice
-				{ 9 , 132466 }, -- Roots of Shaladrassil
-				{ 10, 137035 }, -- The Deceiver's Blood Pact
-				{ 11, 137036 }, -- Elemental Rebalancers
-				{ 12, 137050 }, -- Eye of the Twisting Nether
-				{ 13, 137051 }, -- Focuser of Jonat, the Elder
+				{ 1 , 143732 }, -- Uncertain Reminder
+				{ 2 , 137074 }, -- Echoes of the Great Sundering
+				{ 3 , 137616 }, -- Emalon's Charged Core
+				{ 4 , 137103 }, -- Storm Tempests
+				{ 5 , 137085 }, -- Intact Nazjatar Molting
+				{ 6 , 137083 }, -- Pristine Proto-Scale Girdle
+				{ 7 , 132466 }, -- Roots of Shaladrassil
+				{ 8 , 138117 }, -- Spiritual Journey
+				{ 9 , 137035 }, -- The Deceiver's Blood Pact
+				{ 10, 137036 }, -- Elemental Rebalancers
+				{ 11, 137102 }, -- Al'Akir's Acrimony
+				{ 12, 137104 }, -- Nobundo's Redemption
+				{ 13, 137084 }, -- Akainu's Absolute Justice
 				{ 14, 137058 }, -- Praetorian's Tidecallers
-				{ 15, 137074 }, -- Echoes of the Great Sundering
-				{ 16, 137083 }, -- Pristine Proto-Scale Girdle
-				{ 17, 143732 }, -- Uncertain Reminder
+				{ 15, 137050 }, -- Eye of the Twisting Nether
+				{ 16, 137051 }, -- Focuser of Jonat, the Elder
 			},
 		},
 		{
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132357 }, -- Pillars of the Dark Portal
-				{ 2 , 132456 }, -- Feretory of Souls
-				{ 3 , 132457 }, -- Power Cord of Lethtendris
-				{ 4 , 132460 }, -- Alythess's Pyrogenics
+				{ 1 , 144385 }, -- Wakener's Loyalty
+				{ 2 , 132394 }, -- Hood of Eternal Disdain
+				{ 3 , 144369 }, -- Lessons of Space-Time
+				{ 4 , 132393 }, -- Recurrent Ritual
 				{ 5 , 144364 }, -- Reap and Sow
-				{ 6 , 144369 }, -- Lessons of Space-Time
-				{ 7 , 144385 }, -- Wakener's Loyalty
-				{ 8 , 132455 }, -- Norgannon's Foresight
-				{ 9 , 132369 }, -- Wilfred's Sigil of Superior Summoning
-				{ 10, 132374 }, -- Kazzak's Final Curse
-				{ 11, 132375 }, -- Odr, Shawl of the Ymirjar
-				{ 12, 132378 }, -- Sacrolash's Dark Strike
-				{ 13, 132379 }, -- Sin'dorei Spite
-				{ 14, 132381 }, -- Streten's Sleepless Shackles
-				{ 15, 132393 }, -- Recurrent Ritual
-				{ 16, 132394 }, -- Hood of Eternal Disdain
-				{ 17, 132407 }, -- Magistrike Restraints
-				{ 18, 144364 }, -- Reap and Sow
-				{ 19, 144369 }, -- Lessons of Space-Time
-				{ 20, 144385 }, -- Wakener's Loyalty
+				{ 6 , 132375 }, -- Odr, Shawl of the Ymirjar
+				{ 7 , 132456 }, -- Feretory of Souls
+				{ 8 , 132457 }, -- Power Cord of Lethtendris
+				{ 9 , 132374 }, -- Kazzak's Final Curse
+				{ 10, 132357 }, -- Pillars of the Dark Portal
+				{ 11, 132455 }, -- Norgannon's Foresight
+				{ 12, 132379 }, -- Sin'dorei Spite
+				{ 13, 132381 }, -- Streten's Sleepless Shackles
+				{ 14, 132407 }, -- Magistrike Restraints
+				{ 15, 132460 }, -- Alythess's Pyrogenics
+				{ 16, 132369 }, -- Wilfred's Sigil of Superior Summoning
+				{ 17, 132378 }, -- Sacrolash's Dark Strike
 			},
 		},
 		{
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[LEGENDARY_DIFF] = {
-				{ 1 , 132443 }, -- Aggramar's Stride
+				{ 1 , 137088 }, -- Ceann-Ar Charger
 				{ 2 , 143728 }, -- Timeless Stratagem
-				{ 3 , 137108 }, -- Kakushan's Stormscale Gauntlets
-				{ 4 , 137107 }, -- Mannoroth's Bloodletting Manacles
+				{ 3 , 137018 }, -- Destiny Driver
+				{ 4 , 137053 }, -- Kazzalax, Fujieda's Fury
 				{ 5 , 137089 }, -- Thundergod's Vigor
-				{ 6 , 137088 }, -- Ceann-Ar Charger
-				{ 7 , 137087 }, -- Naj'entus's Vertebrae
-				{ 8 , 137077 }, -- Weight of the Earth
-				{ 9 , 137018 }, -- Destiny Driver
-				{ 10, 137052 }, -- Ayala's Stone Heart
-				{ 11, 137053 }, -- Kazzalax, Fujieda's Fury
-				{ 12, 137054 }, -- The Walls Fell
-				{ 13, 137060 }, -- Archavon's Heavy Hand
-				{ 14, 143728 }, -- Timeless Stratagem
+				{ 6 , 137087 }, -- Naj'entus's Vertebrae
+				{ 7 , 137077 }, -- Weight of the Earth
+				{ 8 , 132443 }, -- Aggramar's Stride
+				{ 9 , 137107 }, -- Mannoroth's Bloodletting Manacles
+				{ 10, 137108 }, -- Kakushan's Stormscale Gauntlets
+				{ 11, 137060 }, -- Archavon's Heavy Hand
+				{ 12, 137052 }, -- Ayala's Stone Heart
+				{ 13, 137054 }, -- The Walls Fell
 			},
 		},
 	},
