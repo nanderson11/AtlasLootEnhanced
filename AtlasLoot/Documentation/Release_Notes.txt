@@ -7,6 +7,7 @@ Patch Notes
 
 v8.01.10 (Jan. XX, 2016)
 - added Legion legendary items
+- added T19 gear items
 - translation update:
   Korean, Traditional Chinese
 
