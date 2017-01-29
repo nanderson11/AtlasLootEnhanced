@@ -57,6 +57,7 @@ Core\ItemInfo.lua
 Core\TooltipScan.lua
 Core\EncounterJournal.lua
 Core\ItemQuery.lua
+Data\BonusID_re.lua
 Core\ItemString.lua
 Core\MapPOI.lua
 
