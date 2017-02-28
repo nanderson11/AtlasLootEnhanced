@@ -13,6 +13,7 @@ local WOTLK_DIFF = data:AddDifficulty(EXPANSION_NAME2)
 local BC_DIFF = data:AddDifficulty(EXPANSION_NAME1)
 local CLASSIC_DIFF = data:AddDifficulty(EXPANSION_NAME0)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"])
+local OLD_DIFF = data:AddDifficulty(AL["Old Remedies"])
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local CRAFTING_ITTYPE = data:AddItemTableType("Item", "Profession")
@@ -7362,35 +7363,50 @@ data["FirstAid"] = {
 	items = {
 		{	--FirstAid
 			name = GetSpellInfo(3273),
-			[NORMAL_DIFF] = {
+			[LEGION_DIFF] = {
+				{ 1, 133940, 202853 }, -- Silkweave Bandage
+				{ 2, 136653, 221690 }, -- Silvery Salve
+				{ 3, 133942, 202854 }, -- Silkweave Splint
+
+				{ 5, 142332, 230047, [PRICE_EXTRA_ITTYPE] = "142335:10" }, -- Feathered Luffa
+				--[[ comment out until resolve the issue for now actual item exist, but only the spell
+				{ 6, 211353, 211353, [PRICE_EXTRA_ITTYPE] = "136654:3" }, -- Treat Fever
+				{ 7, 212067, 212067, [PRICE_EXTRA_ITTYPE] = "136653:3:136654:1" }, -- Treat Burns
+				{ 8, 211696, 211696, [PRICE_EXTRA_ITTYPE] = "133940:3:136654:1" }, -- Stabilize
+				{ 9, 211926, 211926, [PRICE_EXTRA_ITTYPE] = "133942:2:136654:1" }, -- Set Bone
+				]]
+			},
+			[WOD_DIFF] = {
 				{ 1, 111603, 172539, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Antiseptic Bandage (Learnt by item 111364)
 				{ 2, 116979, 172541, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackwater Anti-Venom (Learnt by item 111364)
 				{ 3, 116981, 172542, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fire Ammonite Oil (Learnt by item 111364)
 				{ 4, 109223, 172540, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Healing Tonic (Learnt by item 111364)
-				{ 6, 72986, 102699 },	-- Heavy Windwool Bandage : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 7, 72986, 102698 },	-- Heavy Windwool Bandage : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 8, 72985, 102697 },	-- Windwool Bandage : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 9, 53051, 88893 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 10, 53051, 74558 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 11, 53050, 74557 },	-- Heavy Embersilk Bandage : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 12, 53049, 74556 },	-- Embersilk Bandage : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 13, 34722, 45546 },	-- Heavy Frostweave Bandage : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 14, 34721, 45545 },	-- Frostweave Bandage : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 15, 21991, 27033 },	-- Heavy Netherweave Bandage : =ds=#sr# 330 : =ds=AtlasLoot["Trainer"]
-				{ 16, 21990, 27032 },	-- Netherweave Bandage : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 17, 14530, 18630 },	-- Heavy Runecloth Bandage : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
-				{ 18, 14529, 18629 },	-- Runecloth Bandage : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
-				{ 19, 8545, 10841 },	-- Heavy Mageweave Bandage : =ds=#sr# 240 : =ds=AtlasLoot["Trainer"]
-				{ 20, 8544, 10840 },	-- Mageweave Bandage : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
-				{ 21, 6451, 7929 },	-- Heavy Silk Bandage : =ds=#sr# 180 : =ds=AtlasLoot["Trainer"]
-				{ 22, 6450, 7928 },	-- Silk Bandage : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 23, 3531, 3278 },	-- Heavy Wool Bandage : =ds=#sr# 115 : =ds=AtlasLoot["Trainer"]
-				{ 24, 3530, 3277 },	-- Wool Bandage : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
-				{ 25, 2581, 3276 },	-- Heavy Linen Bandage : =ds=#sr# 40 : =ds=AtlasLoot["Trainer"]
-				{ 26, 1251, 3275 },	-- Linen Bandage : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 28, 19440, 23787 },	-- Powerful Anti-Venom : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]
-				{ 29, 6453, 7935, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Strong Anti-Venom : =ds=#sr# 130 : =ds=AtlasLoot["Drop"]
-				{ 30, 6452, 7934, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Anti-Venom : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
+			},
+			[OLD_DIFF] = {
+				{ 1, 72986, 102699 },	-- Heavy Windwool Bandage : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 2, 72986, 102698 },	-- Heavy Windwool Bandage : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 3, 72985, 102697 },	-- Windwool Bandage : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 4, 53051, 88893 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 5, 53051, 74558 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 6, 53050, 74557 },	-- Heavy Embersilk Bandage : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 7, 53049, 74556 },	-- Embersilk Bandage : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 8, 34722, 45546 },	-- Heavy Frostweave Bandage : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 9, 34721, 45545 },	-- Frostweave Bandage : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 10, 21991, 27033 },	-- Heavy Netherweave Bandage : =ds=#sr# 330 : =ds=AtlasLoot["Trainer"]
+				{ 11, 21990, 27032 },	-- Netherweave Bandage : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 12, 14530, 18630 },	-- Heavy Runecloth Bandage : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
+				{ 13, 14529, 18629 },	-- Runecloth Bandage : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
+				{ 14, 8545, 10841 },	-- Heavy Mageweave Bandage : =ds=#sr# 240 : =ds=AtlasLoot["Trainer"]
+				{ 15, 8544, 10840 },	-- Mageweave Bandage : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
+				{ 16, 6451, 7929 },	-- Heavy Silk Bandage : =ds=#sr# 180 : =ds=AtlasLoot["Trainer"]
+				{ 17, 6450, 7928 },	-- Silk Bandage : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 18, 3531, 3278 },	-- Heavy Wool Bandage : =ds=#sr# 115 : =ds=AtlasLoot["Trainer"]
+				{ 19, 3530, 3277 },	-- Wool Bandage : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
+				{ 20, 2581, 3276 },	-- Heavy Linen Bandage : =ds=#sr# 40 : =ds=AtlasLoot["Trainer"]
+				{ 21, 1251, 3275 },	-- Linen Bandage : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 22, 19440, 23787 },	-- Powerful Anti-Venom : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]
+				{ 23, 6453, 7935, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Strong Anti-Venom : =ds=#sr# 130 : =ds=AtlasLoot["Drop"]
+				{ 24, 6452, 7934, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Anti-Venom : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 	}
