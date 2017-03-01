@@ -6989,8 +6989,37 @@ data["Cooking"] = {
 	ContentType = SECPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
+		{	-- Legion all
+			name = EXPANSION_NAME6,
+			[LEGION_DIFF] = {
+				{ 1, 133557, 201413, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Salt and Pepper Shank
+				{ 2, 133561, 201496, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Deep-Fried Mossgill
+				{ 3, 133562, 201497, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Pickled Stormray
+				{ 4, 133563, 201498, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Faronaar Fizz
+				{ 5, 133564, 201499, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Rib Roast
+				{ 6, 133565, 201500, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Leybeque Ribs
+				{ 7, 133566, 201501, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Suramar Surf and Turf
+				{ 8, 133567, 201502, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Barracuda Mrglgagh
+				{ 9, 133568, 201503, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Koi-Scented Stormray
+				{ 10, 133569, 201504, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Drogbar-Style Salmon
+				{ 11, 133570, 201505, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- The Hungry Magister
+				{ 12, 133571, 201506, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Azshari Salad
+				{ 13, 133572, 201507, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Nightborne Delicacy Platter
+				{ 14, 133573, 201508, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seed-Battered Fish Plate
+				{ 15, 133574, 201511, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fishbrul Special
+				{ 16, 133575, 201512, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Dried Mackerel Strips
+				{ 17, 133576, 201513, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Bear Tartare
+				{ 18, 133577, 201514, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fighter Chow
+				{ 19, 133578, 201515 }, -- Hearty Feast
+				{ 20, 133579, 201516 }, -- Lavish Suramar Feast
+				{ 21, 133681, 201683, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Crispy Bacon
+				{ 22, 142334, 230046 }, -- Spiced Wildfowl Omelet
+			},
+		},
 		{	--CookingAttributes
 			name = AL["Attributes"],
+		--	[LEGION_DIFF] = {
+		--	},
 			[WOD_DIFF] = {
 				{ 1, 122347, 180760 }, -- Whiptail Fillet (Sold, Garrison)
 				{ 2, 111447, 160984, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Talador Surf and Turf (Learnt by tasting or cooking)
@@ -7060,6 +7089,24 @@ data["Cooking"] = {
 		},
 		{	--CookingRatings
 			name = AL["Ratings"],
+			[LEGION_DIFF] = {
+				-- Critical Strike
+				{ 1, 133557, 201413, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Salt and Pepper Shank
+				{ 2, 133565, 201500, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Leybeque Ribs
+				{ 3, 133570, 201505, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- The Hungry Magister
+				-- Haste
+				{ 5, 133561, 201496, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Deep-Fried Mossgill
+				{ 6, 133566, 201501, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Suramar Surf and Turf
+				{ 7, 133571, 201506, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Azshari Salad
+				-- Mastery
+				{ 9, 133562, 201497, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Pickled Stormray
+				{ 10, 133567, 201502, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Barracuda Mrglgagh
+				{ 11, 133572, 201507, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Nightborne Delicacy Platter
+				-- Versatility
+				{ 13, 133563, 201498, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Faronaar Fizz
+				{ 14, 133568, 201503, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Koi-Scented Stormray
+				{ 15, 133573, 201508, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seed-Battered Fish Plate
+			},
 			[WOD_DIFF] = {
 				{ 1, 122345, 180758 },	-- Pickled Eel (Sold, Garrison)
 				{ 2, 111449, 160986, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackrock Barbecue (Learnt by tasting or cooking)
@@ -7226,6 +7273,9 @@ data["Cooking"] = {
 		},
 		{	--CookingAPSP
 			name = AL["Attack/Spell Power"],
+			[LEGION_DIFF] = {
+				{ 1, 142334, 230046 }, -- Spiced Wildfowl Omelet
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 43015, 57423 },	-- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
 				{ 2, 34754, 45555 },	-- Mega Mammoth Meal : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
@@ -7254,6 +7304,16 @@ data["Cooking"] = {
 		},
 		{	--CookingSpecial
 			name = AL["Special"],
+			[LEGION_DIFF] = {
+				{ 1, 133564, 201499, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Rib Roast
+				{ 2, 133569, 201504, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Drogbar-Style Salmon
+				{ 3, 133574, 201511, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fishbrul Special
+				{ 4, 133576, 201513, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Bear Tartare
+				{ 5, 133577, 201514, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fighter Chow
+				{ 6, 133578, 201515 }, -- Hearty Feast
+				{ 7, 133579, 201516 }, -- Lavish Suramar Feast
+				{ 8, 133681, 201683, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Crispy Bacon
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 62790, 88015, [ATLASLOOT_IT_AMOUNT1] = 4 },	-- Darkbrew Lager : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
 				{ 2, 62674, 88022 },	-- Highland Spirits : =ds=#sr# 450 : =ds=AtlasLoot["Cooking Daily"]
@@ -7293,6 +7353,9 @@ data["Cooking"] = {
 		},
 		{	--CookingStandard
 			name = AL["Food without Buffs"],
+			[LEGION_DIFF] = {
+				{ 1, 133575, 201512, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Dried Mackerel Strips
+			},
 			[WOD_DIFF] = {
 				{ 1, 111456, 161002, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Grilled Saberfish (Learnt by item 111387)
 				{ 3, 111455, 161001, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Saberfish Broth (Learnt by item 111387)
