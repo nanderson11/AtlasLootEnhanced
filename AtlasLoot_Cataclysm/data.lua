@@ -877,6 +877,7 @@ data["ShadowfangKeep"] = {
 				{ 3, 63444 },	-- Baron Silverlaine's Greaves
 				{ 4, 63438 },	-- Baroness Silverlaine's Locket
 				{ 5, 63441 },	-- Pendant of the Keep
+				{ 6, 132567 }, -- Blindwatcher's Chain
 			},
 		},
 		{	--ShadowfangSpringvale
