@@ -1577,8 +1577,9 @@ data["ShadowfangKeep"] = {
 				{ 2, 6642 },	-- Phantom Armor
 				{ 3, 6341 },	-- Eerie Stable Lantern
 				{ 4, 1292 },	-- Butcher's Cleaver
-				{ 6, 60876, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Walden's Elixirs
-				{ 7, 60881, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Walden's Talisman
+				{ 5, 132566 },	-- Dark Lupine Wraps
+				{ 7, 60876, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Walden's Elixirs
+				{ 8, 60881, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Walden's Talisman
 			},
 			[HEROIC_DIFF] = "AtlasLoot_Cataclysm",
 		},
