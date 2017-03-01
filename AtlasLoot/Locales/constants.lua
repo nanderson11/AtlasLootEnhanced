@@ -251,6 +251,7 @@ AL["Necklaces"] = true
 AL["Nerubian"] = true
 AL["Night Elf"] = true
 AL["Off-Hands"] = true
+AL["Old Remedies"] = true
 AL["Ogre"] = true
 AL["Orange Gems"] = true
 AL["Orc"] = true
