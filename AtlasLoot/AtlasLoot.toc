@@ -60,6 +60,7 @@ Core\ItemQuery.lua
 Data\BonusID_re.lua
 Core\ItemString.lua
 Core\MapPOI.lua
+Core\AtlasIntegration.lua
 
 MiniMapButton.lua
 
