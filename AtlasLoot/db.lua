@@ -12,6 +12,7 @@ AtlasLoot.AtlasLootDBDefaults = {
 		DefaultFrameLocked = false,
 		selected = {"AtlasLoot_Legion", "AssaultOnVioletHold", 1, 0},
 		classFilter = false,
+		autoselect = true,
 
 		mainFrame = {
 			bgColor = {0.45, 0.45, 0.45, 1},

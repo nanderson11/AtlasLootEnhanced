@@ -1,8 +1,6 @@
 local ALName, ALPrivate = ...
 local _G = _G
 local AtlasLoot = _G.AtlasLoot
-local GUI = {}
-local AL = AtlasLoot.Locales
 
 local ATLAS_SMALLFRAME_SELECTED_ORIG
 
