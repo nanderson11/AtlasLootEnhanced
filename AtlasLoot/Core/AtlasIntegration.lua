@@ -14,14 +14,17 @@ function AtlasLoot:Atlas_ShowMap(mapID)
 	ATLAS_SMALLFRAME_SELECTED_ORIG = ATLAS_SMALLFRAME_SELECTED;
 	ATLAS_SMALLFRAME_SELECTED = true;
 
+	local foundMatch = false;
 	for k, v in pairs(ATLAS_DROPDOWNS) do
 		for k2, v2 in pairs(v) do
 			if (v2 == mapID) then
 				AtlasOptions.AtlasType = k;
 				AtlasOptions.AtlasZone = k2;
+				foundMatch = true;
 				break;
 			end
 		end
+		if foundMatch then break; end
 	end
 
 	if ( AtlasFrameLarge:IsVisible() ) then

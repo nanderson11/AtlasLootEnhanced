@@ -4,6 +4,7 @@ local AtlasLoot = _G.AtlasLoot
 local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 
+-- Only instance related module will be handled
 local ATLASLOOT_MODULE_LIST = {
 	"AtlasLoot_Legion",
 	"AtlasLoot_WarlordsofDraenor",
@@ -50,16 +51,20 @@ function AtlasLoot:AutoSelect()
 	local refresh = false;
 
 	for i = 1, #ATLASLOOT_MODULE_LIST do
-		AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_MODULE_LIST[i]);
-		local moduleData = AtlasLoot.ItemDB:Get(ATLASLOOT_MODULE_LIST[i]);
-		for ka, va in pairs(moduleData) do
-			if (type(va) == "table" and moduleData[ka].MapID and moduleData[ka].MapID == wowMapID) then
-				moduleName = ATLASLOOT_MODULE_LIST[i];
-				dataID = ka;
-				refresh = true;
-				break;
+		local enabled = GetAddOnEnableState(UnitName("player"), ATLASLOOT_MODULE_LIST[i]);
+		if (enabled > 0) then
+			AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_MODULE_LIST[i]);
+			local moduleData = AtlasLoot.ItemDB:Get(ATLASLOOT_MODULE_LIST[i]);
+			for ka, va in pairs(moduleData) do
+				if (type(va) == "table" and moduleData[ka].MapID and moduleData[ka].MapID == wowMapID) then
+					moduleName = ATLASLOOT_MODULE_LIST[i];
+					dataID = ka;
+					refresh = true;
+					break;
+				end
 			end
 		end
+		if (dataID) then break; end
 	end
 	
 	if (refresh and (o_moduleName ~= moduleName or o_dataID ~= dataID)) then
