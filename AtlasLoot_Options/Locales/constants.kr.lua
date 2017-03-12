@@ -7,6 +7,7 @@ AL["A window with possible loot is shown if a Bonus Roll is started."] = "추가
 AL["Always show item comparison."] = "아이템 비교 창을 항상 표시합니다."
 AL["Always show quick preview."] = "빠른 미리보기를 항상 표시합니다."
 AL["AtlasLoot Options"] = "AtlasLoot 옵션"
+AL["Auto select current instance's loot tables."] = "현재 인스턴스의 전리품 목록을 자동으로 선택합니다."
 AL["Background"] = "배경"
 AL["Background color/alpha"] = "배경 색상/투명도"
 AL["Content"] = "목록"

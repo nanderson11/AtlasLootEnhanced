@@ -1,8 +1,22 @@
+-- ----------------------------------------------------------------------------
+-- Localized Lua globals.
+-- ----------------------------------------------------------------------------
+-- Functions
+local _G = getfenv(0)
+local pairs = _G.pairs
+-- Libraries
+
+-- ----------------------------------------------------------------------------
+-- AddOn namespace.
+-- ----------------------------------------------------------------------------
 local ALName, ALPrivate = ...
-local _G = _G
+
 local AtlasLoot = _G.AtlasLoot
+local WorldMap = {}
+AtlasLoot.WorldMap = WorldMap
 local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
+local profile
 
 -- Only instance related module will be handled
 local ATLASLOOT_MODULE_LIST = {
@@ -15,7 +29,30 @@ local ATLASLOOT_MODULE_LIST = {
 	"AtlasLoot_Classic",
 }
 
-function AtlasLoot:ToggleFromWorldMap_OnEnter(self)
+function WorldMap.Init()
+	profile = AtlasLoot.db.WorldMap
+
+	local defaults = {
+		showbutton = true,
+	};
+	
+	if (profile.showbutton) then
+		AtlasLootToggleFromWorldMap:Show()
+	else
+		AtlasLootToggleFromWorldMap:Hide()
+	end
+end
+AtlasLoot:AddInitFunc(WorldMap.Init)
+
+function WorldMap.ToggleButtonOnChange()
+	if (profile.showbutton) then
+		AtlasLootToggleFromWorldMap:Show()
+	else
+		AtlasLootToggleFromWorldMap:Hide()
+	end
+end
+
+function WorldMap.Button_OnEnter(self)
 	local tooltip = GetAlTooltip() 
 	tooltip:ClearLines()
 	if owner and type(owner) == "table" then
@@ -27,15 +64,38 @@ function AtlasLoot:ToggleFromWorldMap_OnEnter(self)
 	tooltip:Show()
 end
 
-function AtlasLoot:ToggleFromWorldMap_OnLeave(self)
+function WorldMap.Button_OnLeave(self)
 	GetAlTooltip():Hide()
 end
 
-function AtlasLoot:ToggleFromWorldMap_OnClick(self, button)
+function WorldMap.Button_OnClick(self, button)
 	if (not AtlasLoot.GUI.frame:IsVisible()) then
 		AtlasLoot.GUI.frame:Show();
 	end
 	ToggleFrame(WorldMapFrame);
+end
+
+-- if auto-select is enabled, pre-load all instance modules to save the first-time AL frame's loading time
+function AtlasLoot:PreLoadModules()
+	local db = AtlasLoot.db.GUI;
+
+	local o_moduleName = db.selected[1];
+	local o_dataID = db.selected[2] or 1;
+	local o_bossID = db.selected[3] or 1;
+	local o_diffID = db.selected[4] or 0;
+	local moduleName, dataID;
+
+	for i = 1, #ATLASLOOT_MODULE_LIST do
+		local enabled = GetAddOnEnableState(UnitName("player"), ATLASLOOT_MODULE_LIST[i]);
+		if (enabled > 0) then
+			AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_MODULE_LIST[i]);
+		end
+	end
+
+	db.selected[1] = o_moduleName;
+	db.selected[2] = o_dataID;
+	db.selected[3] = o_bossID;
+	db.selected[4] = o_diffID;
 end
 
 function AtlasLoot:AutoSelect()

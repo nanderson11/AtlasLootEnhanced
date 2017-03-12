@@ -37,6 +37,13 @@ local function atlasloot(gui, content)
 		:Text(AL["Use GameTooltip"])
 		:Tooltip("text", AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"])
 		:DB(db.Tooltip, "useGameTooltip", AtlasLoot.Tooltip.Refresh)
+
+	last = gui:Add("CheckBox")
+		:Point("TOP", last, "BOTTOM")
+		:Size("full")
+		:Text(AL["Show AtlasLoot button on WorldMap."])
+		:DB(db.WorldMap, "showbutton", AtlasLoot.WorldMap.ToggleButtonOnChange)
+		
 end
 
 -- windows
