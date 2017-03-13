@@ -17,55 +17,89 @@ AtlasLoot.WorldMap = WorldMap
 local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 local profile
+local style
 
--- Only instance related module will be handled
-local ATLASLOOT_MODULE_LIST = {
-	"AtlasLoot_Legion",
-	"AtlasLoot_WarlordsofDraenor",
-	"AtlasLoot_MistsofPandaria",
-	"AtlasLoot_Cataclysm",
-	"AtlasLoot_WrathoftheLichKing",
-	"AtlasLoot_BurningCrusade",
-	"AtlasLoot_Classic",
-}
+--[[
+local function AdjustMasperButton(adjust)
+	local loadable = select(4, GetAddOnInfo("Mapster"));
+	if not loadable then return; end
+	
+	local button = _G["MapsterOptionsButton"];
+	if (button and button:IsVisible()) then
+		if (adjust) then
+			button:SetPoint("TOPRIGHT", WorldMapTitleButton, "TOPRIGHT", -20, -3)
+		else
+			button:SetPoint("TOPRIGHT", WorldMapTitleButton, "TOPRIGHT", 0, -3)
+		end
+	end
+end]]
+
+local function ButtonBinding()
+	local button = _G["AtlasLootToggleFromWorldMap2"];
+	if (not button) then
+		button = CreateFrame("Button", "AtlasLootToggleFromWorldMap2", WorldMapFrame.BorderFrame);
+		button:SetWidth(32);
+		button:SetHeight(32);
+		
+		button:SetPoint("TOPRIGHT", WorldMapFrameSizeDownButton, -24, 0, "TOPRIGHT"); 
+		button:SetNormalTexture("Interface\\AddOns\\AtlasLoot\\Images\\AtlasLootButton-Up");
+		button:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD");
+
+		button:SetScript("OnEnter", WorldMap.Button_OnEnter);
+		button:SetScript("OnLeave", WorldMap.Button_OnLeave);
+		button:SetScript("OnClick", WorldMap.Button_OnClick);
+	end
+end
 
 function WorldMap.Init()
-	profile = AtlasLoot.db.WorldMap
-
-	local defaults = {
-		showbutton = true,
-	};
+	profile = AtlasLoot.db.WorldMap;
+	style = profile.buttonstyle;
 	
+	if (style ==2) then
+		ButtonBinding();
+	end
+
+	local button = _G["AtlasLootToggleFromWorldMap"..style];
+
 	if (profile.showbutton) then
-		AtlasLootToggleFromWorldMap:Show()
+		button:Show();
 	else
-		AtlasLootToggleFromWorldMap:Hide()
+		button:Hide();
 	end
 end
 AtlasLoot:AddInitFunc(WorldMap.Init)
 
 function WorldMap.ToggleButtonOnChange()
+	local button = _G["AtlasLootToggleFromWorldMap"..style];
+
 	if (profile.showbutton) then
-		AtlasLootToggleFromWorldMap:Show()
+		--AdjustMasperButton(true);
+		button:Show();
 	else
-		AtlasLootToggleFromWorldMap:Hide()
+		--AdjustMasperButton(false);
+		button:Hide();
 	end
 end
 
+--[[
+function WorldMap.ButtonStyleOnChange(styleID)
+
+end
+]]
 function WorldMap.Button_OnEnter(self)
-	local tooltip = GetAlTooltip() 
-	tooltip:ClearLines()
+	local tooltip = GetAlTooltip();
+	tooltip:ClearLines();
 	if owner and type(owner) == "table" then
-		tooltip:SetOwner(owner[1], owner[2], owner[3], owner[4])
+		tooltip:SetOwner(owner[1], owner[2], owner[3], owner[4]);
 	else
-		tooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() * 0.5), 5)
+		tooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() * 0.5), 5);
 	end
-	tooltip:AddLine(AL["Click to open AtlasLoot window"])
-	tooltip:Show()
+	tooltip:AddLine(AL["Click to open AtlasLoot window"]);
+	tooltip:Show();
 end
 
 function WorldMap.Button_OnLeave(self)
-	GetAlTooltip():Hide()
+	GetAlTooltip():Hide();
 end
 
 function WorldMap.Button_OnClick(self, button)
@@ -75,67 +109,3 @@ function WorldMap.Button_OnClick(self, button)
 	ToggleFrame(WorldMapFrame);
 end
 
--- if auto-select is enabled, pre-load all instance modules to save the first-time AL frame's loading time
-function AtlasLoot:PreLoadModules()
-	local db = AtlasLoot.db.GUI;
-
-	local o_moduleName = db.selected[1];
-	local o_dataID = db.selected[2] or 1;
-	local o_bossID = db.selected[3] or 1;
-	local o_diffID = db.selected[4] or 0;
-	local moduleName, dataID;
-
-	for i = 1, #ATLASLOOT_MODULE_LIST do
-		local enabled = GetAddOnEnableState(UnitName("player"), ATLASLOOT_MODULE_LIST[i]);
-		if (enabled > 0) then
-			AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_MODULE_LIST[i]);
-		end
-	end
-
-	db.selected[1] = o_moduleName;
-	db.selected[2] = o_dataID;
-	db.selected[3] = o_bossID;
-	db.selected[4] = o_diffID;
-end
-
-function AtlasLoot:AutoSelect()
-	local db = AtlasLoot.db.GUI;
-
-	SetMapToCurrentZone();
-	local wowMapID, _ = GetCurrentMapAreaID();
-	local o_moduleName = db.selected[1];
-	local o_dataID = db.selected[2];
-	local o_bossID = db.selected[3];
-	local o_diffID = db.selected[4];
-	local moduleName, dataID;
-	local refresh = false;
-
-	for i = 1, #ATLASLOOT_MODULE_LIST do
-		local enabled = GetAddOnEnableState(UnitName("player"), ATLASLOOT_MODULE_LIST[i]);
-		if (enabled > 0) then
-			AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_MODULE_LIST[i]);
-			local moduleData = AtlasLoot.ItemDB:Get(ATLASLOOT_MODULE_LIST[i]);
-			for ka, va in pairs(moduleData) do
-				if (type(va) == "table" and moduleData[ka].MapID and moduleData[ka].MapID == wowMapID) then
-					moduleName = ATLASLOOT_MODULE_LIST[i];
-					dataID = ka;
-					refresh = true;
-					break;
-				end
-			end
-		end
-		if (dataID) then break; end
-	end
-	
-	if (refresh and (o_moduleName ~= moduleName or o_dataID ~= dataID)) then
-		AtlasLoot.GUI.frame.moduleSelect:SetSelected(moduleName);
-		AtlasLoot.GUI.frame.subCatSelect:SetSelected(dataID);
-		AtlasLoot.GUI.ItemFrame:Refresh(true);
-	else
-		AtlasLoot.GUI.frame.moduleSelect:SetSelected(o_moduleName);
-		AtlasLoot.GUI.frame.subCatSelect:SetSelected(o_dataID);
-		AtlasLoot.GUI.frame.boss:SetSelected(o_bossID);
-		AtlasLoot.GUI.frame.difficulty:SetSelected(o_diffID)
-		AtlasLoot.GUI.ItemFrame:Refresh(true);
-	end
-end
