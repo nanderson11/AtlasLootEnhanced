@@ -5,6 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.02.20 (Mar. 15, 2017)
+- added tier sets per class
+- translation update:
+  - Korean, Simplified Chinese
+
 v8.02.12 (Mar. 15, 2017)
 - added WorldMap button style, now you can toggle it to show on title bar
 - translation update:
