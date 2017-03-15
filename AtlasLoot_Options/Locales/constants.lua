@@ -41,4 +41,4 @@ AL["Use GameTooltip"] = true
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true
 AL["Windows"] = true
 AL["Show AtlasLoot button on WorldMap."] = true
-
+AL["Show AtlasLoot button on WorldMap's title bar."] = true

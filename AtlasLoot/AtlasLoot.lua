@@ -116,16 +116,18 @@ local ATLASLOOT_INSTANCE_MODULE_LIST = {
 function AtlasLoot:PreLoadModules()
 	local db = AtlasLoot.db.GUI;
 
-	local o_moduleName = db.selected[1];
+	local o_moduleName = db.selected[1] or "AtlasLoot_Legion";
 	local o_dataID = db.selected[2] or 1;
 	local o_bossID = db.selected[3] or 1;
-	local o_diffID = db.selected[4] or 0;
+	local o_diffID = db.selected[4] or 1;
+	local o_page = db.selected[5] or 0;
 	local moduleName, dataID;
 
 	for i = 1, #ATLASLOOT_INSTANCE_MODULE_LIST do
 		local enabled = GetAddOnEnableState(UnitName("player"), ATLASLOOT_INSTANCE_MODULE_LIST[i]);
 		if (enabled > 0) then
 			AtlasLoot.GUI.frame.moduleSelect:SetSelected(ATLASLOOT_INSTANCE_MODULE_LIST[i]);
+			AtlasLoot.GUI.ItemFrame:Refresh(true);
 		end
 	end
 
@@ -133,6 +135,7 @@ function AtlasLoot:PreLoadModules()
 	db.selected[2] = o_dataID;
 	db.selected[3] = o_bossID;
 	db.selected[4] = o_diffID;
+	db.selected[5] = o_page;
 end
 
 function AtlasLoot:AutoSelect()

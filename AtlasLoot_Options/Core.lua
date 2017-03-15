@@ -43,6 +43,13 @@ local function atlasloot(gui, content)
 		:Size("full")
 		:Text(AL["Show AtlasLoot button on WorldMap."])
 		:DB(db.WorldMap, "showbutton", AtlasLoot.WorldMap.ToggleButtonOnChange)
+
+	last = gui:Add("CheckBox")
+		:Point("TOP", last, "BOTTOM", 15, 0)
+		:Size("full")
+		:Text(AL["Show AtlasLoot button on WorldMap's title bar."])
+		:DB(db.WorldMap, "buttonOnTitleBar", AtlasLoot.WorldMap.ButtonStyleOnChange)
+
 		
 end
 
