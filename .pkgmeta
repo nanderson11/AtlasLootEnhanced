@@ -8,7 +8,7 @@ license-output: Documentation/LICENSE.txt
 
 enable-nolib-creation: no
 
-#externals:
+externals:
 #    AtlasLoot/Libs/LibDataBroker-1.1: 
 #        url: https://repos.wowace.com/wow/libdatabroker-1-1
 #    AtlasLoot/Libs/CallbackHandler-1.0: 
@@ -23,9 +23,9 @@ enable-nolib-creation: no
 #        url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
 #    AtlasLoot/Libs/LibDBIcon-1.0: 
 #        url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
-#    AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
-#        tag: latest
+    AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: 
+        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
+        tag: latest
    
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
