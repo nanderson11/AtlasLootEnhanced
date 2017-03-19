@@ -19,9 +19,19 @@ local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 local profile
 
 local function AdjustOtherWorldMapButton(adjust)
+	profile = AtlasLoot.db.WorldMap;
+
 	local lMapster = select(4, GetAddOnInfo("Mapster"));
 	local lHandyNotes_WorldMapButton = select(4, GetAddOnInfo("HandyNotes_WorldMapButton"));
-	if (not (lMapster or lHandyNotes_WorldMapButton)) then return; end
+	local ElvUI = select(4, GetAddOnInfo("ElvUI"));
+	if (not (lMapster or lHandyNotes_WorldMapButton or ElvUI)) then return; end
+	
+	if (ElvUI and profile.buttonOnTitleBar) then
+		local button = _G["AtlasLootToggleFromWorldMap2"];
+		button:SetNormalTexture("Interface\\Icons\\INV_Box_01");
+		button:SetWidth(16);
+		button:SetHeight(16);
+	end
 
 	local HandyNotesButton = _G["HandyNotesWorldMapButton"];
 	if (HandyNotesButton) then

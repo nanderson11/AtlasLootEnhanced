@@ -5,6 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.02.23 (Mar. 20, 2017)
+- handling AtlasLoot button's style on WorldMap when ElvUI is enabled
+- translation update:
+  - German
+  
 v8.02.22 (Mar. 17, 2017)
 - handling HandyNotes_WorldMapButton's position
 
