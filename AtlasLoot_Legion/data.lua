@@ -1162,7 +1162,7 @@ data["Neltharion'sLair"] = {
 data["ReturnToKarazhan"] = {
 	EncounterJournalID = 860,
 	MapID = 1115,
---	AtlasMapID = "",
+	AtlasMapID = "ReturntoKarazhanA",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{	--Opera Hall: Wikket
