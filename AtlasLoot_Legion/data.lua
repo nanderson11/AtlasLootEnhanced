@@ -6,17 +6,19 @@ local AL = AtlasLoot.Locales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
 	Item = {
-		item1bonus = "LegionLFR",
-		item2bonus = "LegionLFRTitanforged",
+		--item1bonus = "LegionLFR",
+		item2bonus = "LegionMaxTitanforgedByBaseLvl",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
 }, 17)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
 local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", {
 	Item = {
-		item1bonus = nil,
-		item2bonus = "LegionRaidTitanforged",
+		--item1bonus = nil,
+		item2bonus = "LegionMaxTitanforgedByBaseLvl",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
 }, 14)
 local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
@@ -53,7 +55,7 @@ local MYTHICD2_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeon2Wi
 local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 	Item = {
 		--item1bonus = "LegionHeroicRaid",
-		item2bonus = "LegionHeroicRaidTitanforged",
+		item2bonus = "LegionMaxTitanforgedByBaseLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -62,7 +64,7 @@ local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", {
 	Item = {
 		--item1bonus = "LegionMythicRaid",
-		item2bonus = "LegionMythicRaidTitanforged",
+		item2bonus = "LegionMaxTitanforgedByBaseLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -1162,7 +1164,7 @@ data["Neltharion'sLair"] = {
 data["ReturnToKarazhan"] = {
 	EncounterJournalID = 860,
 	MapID = 1115,
-	AtlasMapID = "ReturntoKarazhanA",
+--	AtlasMapID = "",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{	--Opera Hall: Wikket
@@ -1529,6 +1531,7 @@ data["VaultOfTheWardens"] = {
 data["BrokenIsles"] = {
 	EncounterJournalID = 822,
 	MapID = 0,
+	ItemBaseLvl = 860,
 	AtlasMapID = "OR_BrokenIsles",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -1682,6 +1685,7 @@ data["BrokenIsles"] = {
 data["TheEmeraldNightmare"] = {
 	EncounterJournalID = 768,
 	MapID = 1094,
+	ItemBaseLvl = 850,
 	AtlasMapID = "TheEmeraldNightmareA",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
@@ -1904,6 +1908,7 @@ data["TheEmeraldNightmare"] = {
 data["TheNighthold"] = {
 	EncounterJournalID = 786,
 	MapID = 1088,
+	ItemBaseLvl = 875,
 	AtlasMapID = "TheNightholdA",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
@@ -2282,6 +2287,7 @@ data["TheNighthold"] = {
 data["TrialOfValor"] = {
 	EncounterJournalID = 861,
 	MapID = 1114,
+	ItemBaseLvl = 855,
 	AtlasMapID = "TrialofValorA",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
@@ -2384,67 +2390,3 @@ data["TrialOfValor"] = {
 		LEGION_TRIAL_OF_VALOR_AC_TABLE
 	}
 }
-
--- Cathedral of Eternal Night 
---[[
-data["CathedralofEternalNight"] = {
-	EncounterJournalID = 900,
-	MapID = 1146,
-	AtlasMapID = "CathedralofEternalNightA",
-	ContentType = DUNGEON_CONTENT,
-	items = {
-		{	-- Agronox
-			EncounterJournalID = 1905,
-		},
-		{	-- Thrashbite the Scornful
-			EncounterJournalID = 1906,
-		},
-		{	-- Domatrax
-			EncounterJournalID = 1904,
-		},
-		{	-- Mephistroth
-			EncounterJournalID = 1878,
-		},
-	},
-}
-]]
-
--- Tomb of Sargeras
---[[
-data["TombofSargeras"] = {
-	EncounterJournalID = 875,
-	MapID = 1147,
-	AtlasMapID = "TombofSargerasA",
-	ContentType = RAID_CONTENT,
-	TableType = RAID_ITTYPE,
-	items = {
-		{	-- Goroth
-			EncounterJournalID = 1862,
-		},
-		{	-- Demonic Inquisition
-			EncounterJournalID = 1867,
-		},
-		{	-- Harjatan
-			EncounterJournalID = 1856,
-		},
-		{	-- Sisters of the Moon
-			EncounterJournalID = 1903,
-		},
-		{	-- Mistress Sassz'ine
-			EncounterJournalID = 1861,
-		},
-		{	-- The Desolate Host
-			EncounterJournalID = 1896,
-		},
-		{	-- Maiden of Vigilance
-			EncounterJournalID = 1897,
-		},
-		{	-- Fallen Avatar
-			EncounterJournalID = 1873,
-		},
-		{	-- Kil'jaeden
-			EncounterJournalID = 1898,
-		},
-	},
-}
-]]
