@@ -2384,3 +2384,67 @@ data["TrialOfValor"] = {
 		LEGION_TRIAL_OF_VALOR_AC_TABLE
 	}
 }
+
+-- Cathedral of Eternal Night 
+--[[
+data["CathedralofEternalNight"] = {
+	EncounterJournalID = 900,
+	MapID = 1146,
+	AtlasMapID = "CathedralofEternalNightA",
+	ContentType = DUNGEON_CONTENT,
+	items = {
+		{	-- Agronox
+			EncounterJournalID = 1905,
+		},
+		{	-- Thrashbite the Scornful
+			EncounterJournalID = 1906,
+		},
+		{	-- Domatrax
+			EncounterJournalID = 1904,
+		},
+		{	-- Mephistroth
+			EncounterJournalID = 1878,
+		},
+	},
+}
+]]
+
+-- Tomb of Sargeras
+--[[
+data["TombofSargeras"] = {
+	EncounterJournalID = 875,
+	MapID = 1147,
+	AtlasMapID = "TombofSargerasA",
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{	-- Goroth
+			EncounterJournalID = 1862,
+		},
+		{	-- Demonic Inquisition
+			EncounterJournalID = 1867,
+		},
+		{	-- Harjatan
+			EncounterJournalID = 1856,
+		},
+		{	-- Sisters of the Moon
+			EncounterJournalID = 1903,
+		},
+		{	-- Mistress Sassz'ine
+			EncounterJournalID = 1861,
+		},
+		{	-- The Desolate Host
+			EncounterJournalID = 1896,
+		},
+		{	-- Maiden of Vigilance
+			EncounterJournalID = 1897,
+		},
+		{	-- Fallen Avatar
+			EncounterJournalID = 1873,
+		},
+		{	-- Kil'jaeden
+			EncounterJournalID = 1898,
+		},
+	},
+}
+]]
