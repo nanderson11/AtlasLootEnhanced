@@ -8,10 +8,9 @@ local BonusIDInfo = AtlasLoot.BonusIDInfo
 local format = string.format
 local tbl_concat = table.concat
 
--- itemID:enchant:gem1:gem2:gem3:gem4:suffixID:uniqueID:level:upgradeId:instanceDifficultyID:numBonusIDs:bonusID1:bonusID2
 local ITEM_FORMAT_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:0:0"
 local ITEM_FORMAT_ALL_STRING = "item:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%s"
-local ITEM_FORMAT_BONUS_STRING = "item:%d:0:0:0:0:0:0:0:0:0:0:0:%d:%s"
+local ITEM_FORMAT_BONUS_STRING = "item:%d:::::::::::%s:%d:%s"
 
 ATLASLOOT_ITEM_BONUSIDS = {
 	-- Raid
@@ -40,7 +39,7 @@ local ITEM_LVL_BONUS = {
 	[12] =	1484,
 	[13] =	1485,
 	[14] =	1486,
-	[15] =	1487,
+	[15] =	1487,--
 	[16] =	1488,
 	[17] =	1489,
 	[18] =	1490,
@@ -341,8 +340,10 @@ end
 function ItemString.AddBonus(itemID, bonus, difficultyID, baseLvl)
 	bonus = bonus and (ITEM_BONUS_PRESET[bonus] or ITEM_BONUS_PRESET[bonus[1]]) or bonus
 	if type(bonus) == "string" then print(bonus) elseif type(bonus) == "function" then bonus = bonus(baseLvl) end
+	local difficulty
 	if difficultyID then
-		difficultyID = { BonusIDInfo.GetItemBonusIDByDiff(itemID, difficultyID) }
+		difficultyID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(itemID, difficultyID)
+		difficultyID = {3524} -- temporary,, blizz changed the bonusIDs again :<
 		if bonus then
 			for i = 1,#bonus do
 				difficultyID[#difficultyID+1] = bonus[i]
@@ -352,6 +353,7 @@ function ItemString.AddBonus(itemID, bonus, difficultyID, baseLvl)
 	end
 	return format( ITEM_FORMAT_BONUS_STRING,
 			itemID,
+			difficulty or 0,
 			bonus and #bonus or 0,
 			bonus and tbl_concat(bonus, ":") or ""
 		) 
