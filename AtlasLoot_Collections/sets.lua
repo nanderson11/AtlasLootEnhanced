@@ -1178,6 +1178,228 @@ local SetTable = {
 		},
 	},
 
+	["Tier20"] = {	-- T20 Sets
+		name = format(AL["Tier %d Sets"], 20),
+		-- Chest - Kil'jaeden, instanceID = 875, encounterID = 1898
+		-- Back - The Desolate Host, instanceID = 875, encounterID = 1896
+		-- Hands - Harjatan, instanceID = 875, encounterID = 1856
+		-- Head - Demonic Inquisition, instanceID = 875, encounterID = 1867
+		-- Legs - Mistress Sassz'ine, instanceID = 875, encounterID = 1861
+		-- Shoulder - Fallen Avatar, instanceID = 875, encounterID = 1873
+		sourceTemplate = {
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1898),	-- Chest ()
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1896),	-- Back ()
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1856),	-- Hands ()
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1867),	-- Head ()
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1861),	-- Legs ()
+			EJ_GetInstanceInfo(875).." - "..EJ_GetEncounterInfo(1873),	-- Shoulder ()
+		},
+		{	-- Deathknight, Gravewarden Armaments
+			name = ALIL["DEATHKNIGHT"],
+			subSetName = "dk",
+			icon = "dk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147121, -- Gravewarden Chestplate
+				147122, -- Gravewarden Cloak
+				147123, -- Gravewarden Handguards
+				147124, -- Gravewarden Visage
+				147125, -- Gravewarden Legplates
+				147126, -- Gravewarden Pauldrons
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Demon Hunter, Demonbane Armor
+			name = ALIL["DEMONHUNTER"],
+			subSetName = "demonhunter",
+			icon = "dh",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147127,
+				147128,
+				147129,
+				147130,
+				147131,
+				147132,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Druid, Stormheart Raiment
+			name = ALIL["DRUID"],
+			subSetName = "druid",
+			icon = "druid",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147133,
+				147134,
+				147135,
+				147136,
+				147137,
+				147138,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Hunter, Wildstalker Armor
+			name = ALIL["HUNTER"],
+			subSetName = "hunter",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147139,
+				147140,
+				147141,
+				147142,
+				147143,
+				147144,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Mage, Regalia of the Arcane Tempest
+			name = ALIL["MAGE"],
+			subSetName = "mage",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147145,
+				147146,
+				147147,
+				147148,
+				147149,
+				147150,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Monk, Xuen's Battlegear
+			name = ALIL["MONK"],
+			subSetName = "monk",
+			icon = "monk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147151,
+				147152,
+				147153,
+				147154,
+				147155,
+				147156,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Paladin, Radiant Lightbringer Armor
+			name = ALIL["PALADIN"],
+			subSetName = "paladin",
+			icon = "pala",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147157,
+				147158,
+				147159,
+				147160,
+				147161,
+				147162,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Priest, Vestments of Blind Absolution
+			name = ALIL["PRIEST"],
+			subSetName = "priest",
+			icon = "priest",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147163,
+				147164,
+				147165,
+				147166,
+				147167,
+				147168,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Rogue, Fanged Slayer's Armor
+			name = ALIL["ROGUE"],
+			subSetName = "rogue",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147169,
+				147170,
+				147171,
+				147172,
+				147173,
+				147174,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Shaman, Regalia of the Skybreaker
+			name = ALIL["SHAMAN"],
+			subSetName = "shaman",
+			icon = "shaman",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147175,
+				147176,
+				147177,
+				147178,
+				147179,
+				147180,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Warlock, Diabolic Raiment
+			name = ALIL["WARLOCK"],
+			subSetName = "warlock",
+			icon = "warlock",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				14781,
+				14782,
+				14783,
+				14784,
+				14785,
+				14786,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+		{	-- Warrior, Titanic Onslaught Armor
+			name = ALIL["WARRIOR"],
+			subSetName = "warrior",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFF] = NORMAL_DIFF,
+			[NORMAL_DIFF] = {
+				147187,
+				147188,
+				147189,
+				147190,
+				147191,
+				147192,
+			},
+			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
+			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+		},
+	},
+
 	["Tier19"] = {	-- T19 Sets
 		name = format(AL["Tier %d Sets"], 19),
 		-- Head - Elisande, instanceID = 786, encounterID = 1743
@@ -1650,7 +1872,7 @@ local SetTable = {
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1154),	-- Legs (Furnance)
 		},
 		sourceTemplateLFR = {
-			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(959),	-- Head 
+			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(959),	-- Head
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1147),	-- Shoulder
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1123),	-- Chest
 			EJ_GetInstanceInfo(457).." - "..EJ_GetEncounterInfo(1203),	-- Hands
