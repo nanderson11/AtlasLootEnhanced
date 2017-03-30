@@ -478,6 +478,87 @@ data["BlackRookHold"] = {
 	}
 }
 
+-- Cathedral of Eternal Night 
+data["CathedralofEternalNight"] = {
+	EncounterJournalID = 900,
+	MapID = 1146,
+	ItemBaseLvl = 845,
+	AtlasMapID = "CathedralofEternalNightA",
+	ContentType = DUNGEON_CONTENT,
+	items = {
+		{	-- Agronox
+			EncounterJournalID = 1905,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1 , 144458 }, -- Agronax's Unsullied Heartwood
+				{ 2 , 144469 }, -- Caretaker's Budding Mantle
+				{ 3 , 144491 }, -- Choking Vine Bindings
+				{ 4 , 144490 }, -- Corruption-Fused Stompers
+				{ 5 , 144468 }, -- Felpruner's Shroud
+				{ 6 , 144470 }, -- Grovetender's Handwraps
+				{ 7 , 144459 }, -- Knot of Fel
+				{ 8 , 144497 }, -- Petrified Husk Girdle
+				{ 9 , 144477 }, -- Splinters of Agronax
+				{ 10, 144483 }, -- Spore-Coated Vest
+				{ 11, 144498 }, -- Vambraces of Fel Crust
+			},
+			[MYTHICD_DUNGEON_DIFF] = HEROIC_DUNGEON_DIFF,
+		},
+		{	-- Thrashbite the Scornful
+			EncounterJournalID = 1906,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1 , 144492 }, -- Chain-Draped Gauntlets
+				{ 2 , 144482 }, -- Fel-Oiled Infernal Machine
+				{ 3 , 144462 }, -- Fel-Tempered Link
+				{ 4 , 144460 }, -- Fury of the Scorned
+				{ 5 , 144493 }, -- Link-Lashed Spaulders
+				{ 6 , 144479 }, -- Master Thrasher's Lockcollar
+				{ 7 , 144485 }, -- Mo'arg Heavyweight's Wristwraps
+				{ 8 , 144471 }, -- Pulverizing Felsoles
+				{ 9 , 144484 }, -- Tattered Scornful Leggings
+				{ 10, 144499 }, -- Tenderized Breastplate
+				{ 11, 144472 }, -- Thrashbite's Cummerbund
+				{ 12, 144461 }, -- Thrashbite's Spite
+			},
+			[MYTHICD_DUNGEON_DIFF] = HEROIC_DUNGEON_DIFF,
+		},
+		{	-- Domatrax
+			EncounterJournalID = 1904,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1 , 144496 }, -- Burning Chain Waistguard
+				{ 2 , 144476 }, -- Cloak of the Unending Assault
+				{ 3 , 144475 }, -- Dark Mistress' Cuffs
+				{ 4 , 144495 }, -- Domatrax's Chain Hauberk
+				{ 5 , 144488 }, -- Feaster Hide Gloves
+				{ 6 , 144466 }, -- Gore-Flecked Feaster Fang
+				{ 7 , 144503 }, -- Helm of Domatrax
+				{ 8 , 144481 }, -- Ring of Fel Domination
+				{ 9 , 144474 }, -- Sheer Felwoven Hosiery
+				{ 10, 144489 }, -- Shoulderguards of Legion Domination
+				{ 11, 144500 }, -- Two-Toed Thrashstompers
+				{ 12, 144467 }, -- Vial of Eternal Moon
+			},
+			[MYTHICD_DUNGEON_DIFF] = HEROIC_DUNGEON_DIFF,
+		},
+		{	-- Mephistroth
+			EncounterJournalID = 1878,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1 , 144478 }, -- Band of Dark Solitude
+				{ 2 , 144486 }, -- Cerulean Shadowfade Belt
+				{ 3 , 144501 }, -- Dread Commander's Pauldrons
+				{ 4 , 144480 }, -- Dreadstone of Endless Shadows
+				{ 5 , 144465 }, -- Essence of the Legion Tempest
+				{ 6 , 144494 }, -- Imposing Dreadsoul Headgear
+				{ 7 , 144464 }, -- Mephistroth's Nail
+				{ 8 , 144473 }, -- Nathrezim Acolyte's Robes
+				{ 9 , 144502 }, -- Shadowed Grips of the Nathrezim
+				{ 10, 144463 }, -- Shard of Kaldorei Stained Glass
+				{ 11, 144487 }, -- Treads of Creeping Shadows
+			},
+			[MYTHICD_DUNGEON_DIFF] = HEROIC_DUNGEON_DIFF,
+		},
+	},
+}
+
 data["CourtOfStars"] = {
 	EncounterJournalID = 800,
 	MapID = 1087,
@@ -2284,156 +2365,6 @@ data["TheNighthold"] = {
 	},
 }
 
-data["TrialOfValor"] = {
-	EncounterJournalID = 861,
-	MapID = 1114,
-	ItemBaseLvl = 865,
-	AtlasMapID = "TrialofValorA",
-	ContentType = RAID_CONTENT,
-	TableType = RAID_ITTYPE,
-	items = {
-		{	--Odyn
-			EncounterJournalID = 1819,
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 16, nil }, -- ignore the AC: You Runed Everything!
-			},
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 142419 }, -- Sky-Valiant's Wristguards
-				{ 2, 142511 }, -- Unforged Titansteel
-				{ 3, 142410 }, -- Robes of Celestial Adornment
-				{ 4, 142425 }, -- Goldrune Legplates
-				{ 5, 142519 }, -- Favor of the Prime Designate
-				{ 6, 142431 }, -- Gleaming Val'kyr Cuirass
-				{ 7, 142508 }, -- Chains of the Valorous
-				{ 8, 142540 }, -- Mantle of the Victorious Dead
-				{ 9, 142422 }, -- Radiant Soul Sabatons
-				{ 10, 142514 }, -- Ravens' Sight
-				{ 11, 142411 }, -- Cinch of Light
-				{ 12, 142430 }, -- Gloves of Issued Challenge
-				{ 13, 142520 }, -- Ring of Ascended Glory
-				{ 14, 142421 }, -- Leggings of the Undaunted
-				{ 16, "ac11337" }, -- AC: You Runed Everything!
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 17, "ac11396" }, -- AC: Mythic: Odyn
-			},
-		},
-		{	--Guarm
-			EncounterJournalID = 1830,
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 16, nil }, -- ignore the AC: Boneafide Tri Tip
-			},
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 142432 }, -- Helbeast Skin Tunic
-				{ 2, 142434 }, -- Kvaldir Exult's Grips
-				{ 3, 142423 }, -- Bite-Resistant Wristclamps
-				{ 4, 142515 }, -- Chilled Incisor
-				{ 5, 142412 }, -- Windwhipped Sailcloth
-				{ 6, 142506 }, -- Eye of Guarm
-				{ 7, 142435 }, -- Reinforced Hound-Handler's Gauntlets
-				{ 8, 142512 }, -- Accursed Cuspid
-				{ 9, 142426 }, -- Lead-Soled Seabed Striders
-				{ 10, 142516 }, -- Sizzling Fang
-				{ 11, 142413 }, -- Leggings of the Lower Planes
-				{ 12, 142415 }, -- Helhound Hair Bracers
-				{ 13, 142417 }, -- Moccasins of Silent Passage
-				{ 16, "ac11386" }, -- AC: Boneafide Tri Tip
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 17, "ac11397" }, -- AC: Mythic: Guarm
-			},
-		},
-		{	--Helya
-			EncounterJournalID = 1829,
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 16, nil }, -- ignore the AC: Patient Zero
-			},
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 142507 }, -- Brinewater Slime in a Bottle
-				{ 2, 142518 }, -- Fury of the Sea
-				{ 3, 142513 }, -- Token of the Lightning Keeper
-				{ 4, 142427 }, -- Calcareous Wristclamps
-				{ 5, 142517 }, -- Swell of the Tides
-				{ 6, 142429 }, -- Oiled Rigger's Handwraps
-				{ 7, 142521 }, -- Drape of the Unworthy
-				{ 8, 142418 }, -- Sucker-Scarred Leggings
-				{ 9, 142510 }, -- Phylactery of Unwilling Servitude
-				{ 10, 142416 }, -- Strand of Whelk Shells
-				{ 11, 142424 }, -- Krakenbone Waistplate
-				{ 12, 142420 }, -- Anchor Chain Waistguard
-				{ 13, 142428 }, -- Sea Fan Pendant
-				{ 14, 142433 }, -- Corroded Val'kyr Chainmail
-				{ 15, 142414 }, -- Treads of the Drowned
-				{ 16, "ac11377" }, -- AC: Patient Zero
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 17, "ac11387" }, -- AC: The Chosen
-				{ 18, "ac11398" }, -- AC: Mythic: Helya
-				
-			},
-		},
-		LEGION_TRIAL_OF_VALOR_AC_TABLE
-	}
-}
--- Cathedral of Eternal Night 
---[[
-data["CathedralofEternalNight"] = {
-	EncounterJournalID = 900,
-	MapID = 1146,
-	AtlasMapID = "CathedralofEternalNightA",
-	ContentType = DUNGEON_CONTENT,
-	items = {
-		{	-- Agronox
-			EncounterJournalID = 1905,
-			[RF_DIFF] = NORMAL_RAID_DIFF,
-			[NORMAL_RAID_DIFF] = {
-			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-		},
-		{	-- Thrashbite the Scornful
-			EncounterJournalID = 1906,
-			[RF_DIFF] = NORMAL_RAID_DIFF,
-			[NORMAL_RAID_DIFF] = {
-			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-		},
-		{	-- Domatrax
-			EncounterJournalID = 1904,
-			[RF_DIFF] = NORMAL_RAID_DIFF,
-			[NORMAL_RAID_DIFF] = {
-			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-		},
-		{	-- Mephistroth
-			EncounterJournalID = 1878,
-			[RF_DIFF] = NORMAL_RAID_DIFF,
-			[NORMAL_RAID_DIFF] = {
-			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-		},
-	},
-}
-]]
-
 -- Tomb of Sargeras
 data["TombofSargeras"] = {
 	EncounterJournalID = 875,
@@ -2718,3 +2649,111 @@ data["TombofSargeras"] = {
 		},
 	},
 }
+
+data["TrialOfValor"] = {
+	EncounterJournalID = 861,
+	MapID = 1114,
+	ItemBaseLvl = 865,
+	AtlasMapID = "TrialofValorA",
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{	--Odyn
+			EncounterJournalID = 1819,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: You Runed Everything!
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142419 }, -- Sky-Valiant's Wristguards
+				{ 2, 142511 }, -- Unforged Titansteel
+				{ 3, 142410 }, -- Robes of Celestial Adornment
+				{ 4, 142425 }, -- Goldrune Legplates
+				{ 5, 142519 }, -- Favor of the Prime Designate
+				{ 6, 142431 }, -- Gleaming Val'kyr Cuirass
+				{ 7, 142508 }, -- Chains of the Valorous
+				{ 8, 142540 }, -- Mantle of the Victorious Dead
+				{ 9, 142422 }, -- Radiant Soul Sabatons
+				{ 10, 142514 }, -- Ravens' Sight
+				{ 11, 142411 }, -- Cinch of Light
+				{ 12, 142430 }, -- Gloves of Issued Challenge
+				{ 13, 142520 }, -- Ring of Ascended Glory
+				{ 14, 142421 }, -- Leggings of the Undaunted
+				{ 16, "ac11337" }, -- AC: You Runed Everything!
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11396" }, -- AC: Mythic: Odyn
+			},
+		},
+		{	--Guarm
+			EncounterJournalID = 1830,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Boneafide Tri Tip
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142432 }, -- Helbeast Skin Tunic
+				{ 2, 142434 }, -- Kvaldir Exult's Grips
+				{ 3, 142423 }, -- Bite-Resistant Wristclamps
+				{ 4, 142515 }, -- Chilled Incisor
+				{ 5, 142412 }, -- Windwhipped Sailcloth
+				{ 6, 142506 }, -- Eye of Guarm
+				{ 7, 142435 }, -- Reinforced Hound-Handler's Gauntlets
+				{ 8, 142512 }, -- Accursed Cuspid
+				{ 9, 142426 }, -- Lead-Soled Seabed Striders
+				{ 10, 142516 }, -- Sizzling Fang
+				{ 11, 142413 }, -- Leggings of the Lower Planes
+				{ 12, 142415 }, -- Helhound Hair Bracers
+				{ 13, 142417 }, -- Moccasins of Silent Passage
+				{ 16, "ac11386" }, -- AC: Boneafide Tri Tip
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11397" }, -- AC: Mythic: Guarm
+			},
+		},
+		{	--Helya
+			EncounterJournalID = 1829,
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 16, nil }, -- ignore the AC: Patient Zero
+			},
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 142507 }, -- Brinewater Slime in a Bottle
+				{ 2, 142518 }, -- Fury of the Sea
+				{ 3, 142513 }, -- Token of the Lightning Keeper
+				{ 4, 142427 }, -- Calcareous Wristclamps
+				{ 5, 142517 }, -- Swell of the Tides
+				{ 6, 142429 }, -- Oiled Rigger's Handwraps
+				{ 7, 142521 }, -- Drape of the Unworthy
+				{ 8, 142418 }, -- Sucker-Scarred Leggings
+				{ 9, 142510 }, -- Phylactery of Unwilling Servitude
+				{ 10, 142416 }, -- Strand of Whelk Shells
+				{ 11, 142424 }, -- Krakenbone Waistplate
+				{ 12, 142420 }, -- Anchor Chain Waistguard
+				{ 13, 142428 }, -- Sea Fan Pendant
+				{ 14, 142433 }, -- Corroded Val'kyr Chainmail
+				{ 15, 142414 }, -- Treads of the Drowned
+				{ 16, "ac11377" }, -- AC: Patient Zero
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 17, "ac11387" }, -- AC: The Chosen
+				{ 18, "ac11398" }, -- AC: Mythic: Helya
+				
+			},
+		},
+		LEGION_TRIAL_OF_VALOR_AC_TABLE
+	}
+}
+
