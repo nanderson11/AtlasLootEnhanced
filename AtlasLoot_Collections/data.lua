@@ -3655,32 +3655,32 @@ data["TIERSETS"] = {
 				{ 22, "Tier19:warrior:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1 , "Tier19:deathknight:h" },
-				{ 3 , "Tier19:demonhunter:h" },
-				{ 5 , "Tier19:druid:h" },
-				{ 7 , "Tier19:hunter:h" },
-				{ 9 , "Tier19:mage:h" },
-				{ 11, "Tier19:monk:h" },
-				{ 13, "Tier19:rogue:h" },
-				{ 15, "Tier19:paladin:h" },
-				{ 16, "Tier19:priest:h" },
-				{ 18, "Tier19:shaman:h" },
-				{ 20, "Tier19:warlock:h" },
-				{ 22, "Tier19:warrior:h" },
+				{ 1 , "Tier19:deathknight:hB1" },
+				{ 3 , "Tier19:demonhunter:hB1" },
+				{ 5 , "Tier19:druid:hB1" },
+				{ 7 , "Tier19:hunter:hB1" },
+				{ 9 , "Tier19:mage:hB1" },
+				{ 11, "Tier19:monk:hB1" },
+				{ 13, "Tier19:rogue:hB1" },
+				{ 15, "Tier19:paladin:hB1" },
+				{ 16, "Tier19:priest:hB1" },
+				{ 18, "Tier19:shaman:hB1" },
+				{ 20, "Tier19:warlock:hB1" },
+				{ 22, "Tier19:warrior:hB1" },
 			},
 			[MYTHIC_DIFF] = {
-				{ 1 , "Tier19:deathknight:m" },
-				{ 3 , "Tier19:demonhunter:m" },
-				{ 5 , "Tier19:druid:m" },
-				{ 7 , "Tier19:hunter:m" },
-				{ 9 , "Tier19:mage:m" },
-				{ 11, "Tier19:monk:m" },
-				{ 13, "Tier19:rogue:m" },
-				{ 15, "Tier19:paladin:m" },
-				{ 16, "Tier19:priest:m" },
-				{ 18, "Tier19:shaman:m" },
-				{ 20, "Tier19:warlock:m" },
-				{ 22, "Tier19:warrior:m" },
+				{ 1 , "Tier19:deathknight:mB1" },
+				{ 3 , "Tier19:demonhunter:mB1" },
+				{ 5 , "Tier19:druid:mB1" },
+				{ 7 , "Tier19:hunter:mB1" },
+				{ 9 , "Tier19:mage:mB1" },
+				{ 11, "Tier19:monk:mB1" },
+				{ 13, "Tier19:rogue:mB1" },
+				{ 15, "Tier19:paladin:mB1" },
+				{ 16, "Tier19:priest:mB1" },
+				{ 18, "Tier19:shaman:mB1" },
+				{ 20, "Tier19:warlock:mB1" },
+				{ 22, "Tier19:warrior:mB1" },
 			},
 		},
 	},
@@ -3690,8 +3690,8 @@ data["TIERSETS_BYCLASS"] = {
 	name = AL["Tier Sets - per Class"],
 	ContentType = COLLECTION_CONTENT,
 	TableType = SET_ITTYPE,
-	items = {
-		{
+	items = { 
+		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier7:deathknightblood:n" },
@@ -3756,20 +3756,20 @@ data["TIERSETS_BYCLASS"] = {
 				{ 218, "Tier18:dk:mB1" },
 				{ 220, "Tier19:deathknight:rf" },
 				{ 221, "Tier19:deathknight:n" },
-				{ 222, "Tier19:deathknight:h" },
-				{ 223, "Tier19:deathknight:m" },
+				{ 222, "Tier19:deathknight:hB1" },
+				{ 223, "Tier19:deathknight:mB1" },
 			},
 		},
-		{
+		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier19:demonhunter:rf" },
 				{ 2 , "Tier19:demonhunter:n" },
-				{ 3 , "Tier19:demonhunter:h" },
-				{ 4 , "Tier19:demonhunter:m" },
+				{ 3 , "Tier19:demonhunter:hB1" },
+				{ 4 , "Tier19:demonhunter:mB1" },
 			},
 		},
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[NORMAL_DIFF] = {
 				{ 1  , "Tier1:druid:n" },
@@ -3883,11 +3883,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 424, "Tier18:druid:mB1" },
 				{ 426, "Tier19:druid:rf" },
 				{ 427, "Tier19:druid:n" },
-				{ 428, "Tier19:druid:h" },
-				{ 429, "Tier19:druid:m" },
+				{ 428, "Tier19:druid:hB1" },
+				{ 429, "Tier19:druid:mB1" },
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:hunter:n" },
@@ -3931,11 +3931,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 127, "Tier18:hunter:mB1" },
 				{ 201, "Tier19:hunter:rf" },
 				{ 202, "Tier19:hunter:n" },
-				{ 203, "Tier19:hunter:h" },
-				{ 204, "Tier19:hunter:m" },
+				{ 203, "Tier19:hunter:hB1" },
+				{ 204, "Tier19:hunter:mB1" },
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:mage:n" },
@@ -3979,11 +3979,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 127, "Tier18:mage:mB1" },
 				{ 201, "Tier19:mage:rf" },
 				{ 202, "Tier19:mage:n" },
-				{ 203, "Tier19:mage:h" },
-				{ 204, "Tier19:mage:m" },
+				{ 203, "Tier19:mage:hB1" },
+				{ 204, "Tier19:mage:mB1" },
 			},
 		},
-		{
+		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier14:monkbrewmaster:rf" },
@@ -4024,11 +4024,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 122, "Tier18:monk:mB1" },
 				{ 124, "Tier19:monk:rf" },
 				{ 125, "Tier19:monk:n" },
-				{ 126, "Tier19:monk:h" },
-				{ 127, "Tier19:monk:m" },
+				{ 126, "Tier19:monk:hB1" },
+				{ 127, "Tier19:monk:mB1" },
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:paladin:n" },
@@ -4132,11 +4132,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 422, "Tier18:paladin:mB1" },
 				{ 424, "Tier19:paladin:rf" },
 				{ 425, "Tier19:paladin:n" },
-				{ 426, "Tier19:paladin:h" },
-				{ 427, "Tier19:paladin:m" },
+				{ 426, "Tier19:paladin:hB1" },
+				{ 427, "Tier19:paladin:mB1" },
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:priest:n" },
@@ -4210,11 +4210,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 307, "Tier18:priest:mB1" },
 				{ 309, "Tier19:priest:rf" },
 				{ 310, "Tier19:priest:n" },
-				{ 311, "Tier19:priest:h" },
-				{ 312, "Tier19:priest:m" },
+				{ 311, "Tier19:priest:hB1" },
+				{ 312, "Tier19:priest:mB1" },
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:rogue:n" },
@@ -4258,11 +4258,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 127, "Tier18:rogue:mB1" },
 				{ 201, "Tier19:rogue:rf" },
 				{ 202, "Tier19:rogue:n" },
-				{ 203, "Tier19:rogue:h" },
-				{ 204, "Tier19:rogue:m" },
+				{ 203, "Tier19:rogue:hB1" },
+				{ 204, "Tier19:rogue:mB1" },
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:shaman:n" },
@@ -4366,11 +4366,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 422, "Tier18:shaman:mB1" },
 				{ 424, "Tier19:shaman:rf" },
 				{ 425, "Tier19:shaman:n" },
-				{ 426, "Tier19:shaman:h" },
-				{ 427, "Tier19:shaman:m" },
+				{ 426, "Tier19:shaman:hB1" },
+				{ 427, "Tier19:shaman:mB1" },
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:warlock:n" },
@@ -4414,11 +4414,11 @@ data["TIERSETS_BYCLASS"] = {
 				{ 127, "Tier18:warlock:mB1" },
 				{ 201, "Tier19:warlock:rf" },
 				{ 202, "Tier19:warlock:n" },
-				{ 203, "Tier19:warlock:h" },
-				{ 204, "Tier19:warlock:m" },
+				{ 203, "Tier19:warlock:hB1" },
+				{ 204, "Tier19:warlock:mB1" },
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[NORMAL_DIFF] = {
 				{ 1 , "Tier1:warrior:n" },
@@ -4492,8 +4492,8 @@ data["TIERSETS_BYCLASS"] = {
 				{ 307, "Tier18:warrior:mB1" },
 				{ 309, "Tier19:warrior:rf" },
 				{ 310, "Tier19:warrior:n" },
-				{ 311, "Tier19:warrior:h" },
-				{ 312, "Tier19:warrior:m" },
+				{ 311, "Tier19:warrior:hB1" },
+				{ 312, "Tier19:warrior:mB1" },
 			},
 		},
 	
