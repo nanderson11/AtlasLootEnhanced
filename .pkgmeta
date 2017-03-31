@@ -11,23 +11,18 @@ enable-nolib-creation: yes
 externals:
     AtlasLoot/Libs/LibDataBroker-1.1: 
         url: https://repos.wowace.com/wow/libdatabroker-1-1
-        tag: latest
     AtlasLoot/Libs/CallbackHandler-1.0: 
         url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
-        tag: latest
    AtlasLoot/Libs/LibBabble-Boss-3.0: 
         url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
-        tag: latest
     AtlasLoot/Libs/LibStub: 
         url: https://repos.wowace.com/wow/libstub/trunk
-        tag: latest
     AtlasLoot/Libs/LibSharedMedia-3.0: 
         url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
     AtlasLoot/Libs/LibDBIcon-1.0: 
         url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
     AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: 
         url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
-        tag: latest
    
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
