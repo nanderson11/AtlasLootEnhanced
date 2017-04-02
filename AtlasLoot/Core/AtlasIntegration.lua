@@ -28,8 +28,8 @@ function Atlas.ShowMap(mapID)
 	for k, v in pairs(ATLAS_DROPDOWNS) do
 		for k2, v2 in pairs(v) do
 			if (v2 == mapID) then
-				AtlasOptions.AtlasType = k;
-				AtlasOptions.AtlasZone = k2;
+				Atlas.db.profile.options.dropdowns.module = k;
+				Atlas.db.profile.options.dropdowns.zone = k2;
 				foundMatch = true;
 				break;
 			end
