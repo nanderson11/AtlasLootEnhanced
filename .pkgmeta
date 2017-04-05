@@ -4,7 +4,7 @@ manual-changelog:
     filename: AtlasLoot/Documentation/Release_Notes.txt
     markup-type: plain
     
-license-output: AtlasLoot/Documentation/LICENSE.txt
+license-output: AtlasLoot/AtlasLoot/Documentation/LICENSE.txt
 
 enable-nolib-creation: yes
 
