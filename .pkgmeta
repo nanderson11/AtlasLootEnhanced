@@ -1,10 +1,10 @@
 package-as: AtlasLoot
 
 manual-changelog:
-    filename: Documentation/Release_Notes.txt
+    filename: AtlasLoot/Documentation/Release_Notes.txt
     markup-type: plain
     
-license-output: Documentation/LICENSE.txt
+license-output: AtlasLoot/Documentation/LICENSE.txt
 
 enable-nolib-creation: yes
 
