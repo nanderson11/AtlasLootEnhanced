@@ -23,35 +23,39 @@ local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset"
 }, 14)
 local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
 	Item = {
-		item1bonus = "LegionDungeon",
+		--item1bonus = "LegionDungeon",
 		item2bonus = "LegionDungeonTitanforged",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
-})
+}, 1)
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
 local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", {
 	Item = {
-		item1bonus = "LegionHCDungeon",
+		--item1bonus = "LegionHCDungeon",
 		item2bonus = "LegionHCDungeonTitanforged",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
-})
-local MYTHICD_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 3)
+}, 2)
+local MYTHICD_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 23)
 local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
 	Item = {
-		item1bonus = "LegionMDungeon",
+		--item1bonus = "LegionMDungeon",
 		item2bonus = "LegionMDungeonTitanforged",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
-})
-local MYTHICD2_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 3)
+}, 23)
+local MYTHICD2_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 23)
 local MYTHICD2_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeon2WithPreset", {
 	Item = {
 		item1bonus = "LegionMDungeon2",
 		item2bonus = "LegionMDungeon2Titanforged",
 		autoCompleteItem2 = true,
+		addDifficultyBonus = true,
 	},
-})
+}, 23)
 local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 	Item = {
 		--item1bonus = "LegionHeroicRaid",
@@ -2369,7 +2373,7 @@ data["TheNighthold"] = {
 data["TombofSargeras"] = {
 	EncounterJournalID = 875,
 	MapID = 1147,
-	ItemBaseLvl = 900,
+	ItemBaseLvl = 890,
 	AtlasMapID = "TombofSargerasA",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,

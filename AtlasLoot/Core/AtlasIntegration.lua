@@ -9,7 +9,7 @@ local _G = getfenv(0)
 -- ----------------------------------------------------------------------------
 local ALName, ALPrivate = ...
 local AtlasLoot = _G.AtlasLoot
-local options = Atlas.db.profile.options
+--local options = Atlas.db.profile.options
 local Atlas = {}
 AtlasLoot.Atlas = Atlas
 

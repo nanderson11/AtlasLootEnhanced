@@ -39,7 +39,7 @@ local ITEM_LVL_BONUS = {
 	[12] =	1484,
 	[13] =	1485,
 	[14] =	1486,
-	[15] =	1487,--
+	[15] =	1487,
 	[16] =	1488,
 	[17] =	1489,
 	[18] =	1490,
@@ -227,6 +227,8 @@ local ITEM_LVL_BONUS = {
 	[200] =	1672,
 }
 
+local TITANFORGED_ADD = { 3442 }
+local LEGION_MAX_UPGRADELVL = 925
 local function GetPresetForTitanforged(baseLvl, maxLvl, extraBonus)
 	baseLvl = baseLvl or maxLvl
 	baseLvl = maxLvl - baseLvl
@@ -257,13 +259,13 @@ local ITEM_BONUS_PRESET = {
 	["MDungeonWarforged"]	= { 642, 644 },
 	-- ## Legion
 	["LegionDungeon"]		= { 1826 },
-	["LegionDungeonTitanforged"] = { 1826, 1522 },
+	["LegionDungeonTitanforged"] = GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1826, 1522 },
 	["LegionHCDungeon"]		= { 1726 },
-	["LegionHCDungeonTitanforged"]= { 1726, 1522 },
+	["LegionHCDungeonTitanforged"]= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1726, 1522 },
 	["LegionMDungeon"] 		= { 1727 },
-	["LegionMDungeonTitanforged"]	= { 1727, 1522 },
+	["LegionMDungeonTitanforged"]	= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1727, 1522 },
 	["LegionMDungeon2"]		= { 3452 },
-	["LegionMDungeon2Titanforged"]		= { 3452, 1522 },
+	["LegionMDungeon2Titanforged"]		= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 3452, 1522 },
 	-- Raids
 	["LFR"]					= { 451 },
 	["SoOWarforged"]		= { 448 },
@@ -291,7 +293,7 @@ local ITEM_BONUS_PRESET = {
 	["LegionMaxTitanforgedByBaseLvl"] = function(baseLvl)		-- set the baseLvl with "ItemBaseLvl = 000," in the Instance Table.
 		if not baseLvl then return C_ITEM_BONUS_PRESET["nil"] end
 		if not C_ITEM_BONUS_PRESET["LegionMaxTitanforgedByBaseLvl"..baseLvl] then
-			C_ITEM_BONUS_PRESET["LegionMaxTitanforgedByBaseLvl"..baseLvl] = GetPresetForTitanforged(baseLvl, 925, { 3442 }) -- 3442 adds "Titanforged"
+			C_ITEM_BONUS_PRESET["LegionMaxTitanforgedByBaseLvl"..baseLvl] = GetPresetForTitanforged(baseLvl, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD) -- 3442 adds "Titanforged"
 		end
 		return C_ITEM_BONUS_PRESET["LegionMaxTitanforgedByBaseLvl"..baseLvl]
 	end,
@@ -339,15 +341,15 @@ end
 
 function ItemString.AddBonus(itemID, bonus, difficultyID, baseLvl)
 	bonus = bonus and (ITEM_BONUS_PRESET[bonus] or ITEM_BONUS_PRESET[bonus[1]]) or bonus
-	if type(bonus) == "string" then print(bonus) elseif type(bonus) == "function" then bonus = bonus(baseLvl) end
+	if bonus and type(bonus) == "string" then print(bonus) elseif bonus and type(bonus) == "function" then bonus = bonus(baseLvl) end
 	local difficulty
 	if difficultyID then
-		difficultyID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(itemID, difficultyID)
-		difficultyID = {3524} -- temporary,, blizz changed the bonusIDs again :<
+		difficultyID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(difficultyID)
 		if bonus then
-			for i = 1,#bonus do
-				difficultyID[#difficultyID+1] = bonus[i]
-			end
+			--for i = 1,#bonus do
+			--	difficultyID[#difficultyID+1] = bonus[i]
+			--end
+			difficultyID = bonus
 		end
 		bonus = difficultyID
 	end
@@ -370,5 +372,12 @@ function ItemString.AddBonusByDifficultyID(itemID, difficultyID)
 		) 
 end
 
+--[[
+function AltasLoot_PrintItemString(index)
+	local name, icon, slot, armorType, itemID, link, encounterID = EJ_GetLootInfoByIndex(index)
+	local itemstring = gsub(link, "\124", "\124\124")
+	print(itemstring) --/run AltasLoot_PrintItemString(1)
+end
+]]
 -- /run print(AtlasLoot.ItemString.AddBonusByDifficultyID(140914, 16))
 -- /run print(GetItemInfo(AtlasLoot.ItemString.AddBonusByDifficultyID(140914, 16)))
