@@ -3,6 +3,8 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
+--@localization(locale="zhTW", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "擲骰子時，顯示可能贏得的戰利品視窗。"
 AL["Always show item comparison."] = "總是顯示物品比較"
 AL["Always show quick preview."] = "總是顯示快速預覽"
@@ -40,3 +42,4 @@ AL["Use content color if available."] = "使用內容顏色 (如果有的話)。
 AL["Use GameTooltip"] = "使用遊戲滑鼠提示"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用標準的遊戲滑鼠提示，而不是自訂的副本戰利品查詢滑鼠提示"
 AL["Windows"] = "視窗"
+--@end-do-not-package@

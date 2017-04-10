@@ -1,5 +1,7 @@
 ﻿local AL = _G.AtlasLoot.Locales
 
+--@localization(locale="enUS", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@do-not-package@
 -- Addons
 AL["A window with possible loot is shown if a Bonus Roll is started."] = true
 
@@ -42,3 +44,4 @@ AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = tru
 AL["Windows"] = true
 AL["Show AtlasLoot button on WorldMap."] = true
 AL["Show AtlasLoot button on WorldMap's title bar."] = true
+--@end-do-not-package@

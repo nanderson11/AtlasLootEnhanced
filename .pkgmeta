@@ -23,7 +23,11 @@ externals:
     AtlasLoot/Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
 # SVN
 #    AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
-   
+
+ignore:
+       AtlasLoot/Images/Atlas_Button.psd
+       AtlasLoot/Images/AtlasLootButton-Up.psd
+
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
     AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic
@@ -39,3 +43,4 @@ move-folders:
     AtlasLoot/AtlasLoot_PvP: AtlasLoot_PvP
     AtlasLoot/AtlasLoot_WorldEvents: AtlasLoot_WorldEvents
     AtlasLoot/AtlasLoot_Options: AtlasLoot_Options
+
