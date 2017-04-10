@@ -153,7 +153,6 @@ data["LEGIONFACTIONS"] = {
 			},
 		},
 		{	--Dreamweavers
-		
 			FactionID = 1883,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
@@ -221,7 +220,7 @@ data["LEGIONFACTIONS"] = {
 			},
 		},
 		{	--CourtOfFarondis
-		FactionID = 1900,
+			FactionID = 1900,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1, "f1900rep5" },
