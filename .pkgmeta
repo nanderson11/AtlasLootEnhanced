@@ -18,7 +18,7 @@ externals:
 # SVN
     AtlasLoot/Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
 # SVN
-#    AtlasLoot/Libs/LibSharedMedia-3.0: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
+    AtlasLoot/Libs/LibSharedMedia-3.0: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
 # SVN
     AtlasLoot/Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
 # SVN
