@@ -10,7 +10,7 @@ enable-nolib-creation: yes
 
 externals:
 # Git
-#    AtlasLoot/Libs/LibDataBroker-1.1: https://repos.wowace.com/wow/libdatabroker-1-1
+    AtlasLoot/Libs/LibDataBroker-1.1: https://repos.wowace.com/wow/libdatabroker-1-1
 # SVN
     AtlasLoot/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
 # SVN
