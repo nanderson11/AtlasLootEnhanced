@@ -22,7 +22,7 @@ externals:
 # SVN
     AtlasLoot/Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
 # SVN
-#    AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
+    AtlasLoot/AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
    
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
