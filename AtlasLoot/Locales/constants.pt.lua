@@ -3,6 +3,8 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
+--@localization(locale="ptBR", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@do-not-package@
 AL["%s will finish loading after combat."] = "irá terminar de carregar após o combate"
 AL["25 Player"] = "25 Jogadores"
 AL["25 Player Heroic"] = "25 Jogadores Heroico"
@@ -72,3 +74,4 @@ AL["Vendor"] = "Vendedor"
 AL["Weapons"] = "Armas"
 AL["World Bosses"] = "Chefes do Mundo"
 AL["World Events"] = "Eventos Mundiais"
+--@end-do-not-package@
