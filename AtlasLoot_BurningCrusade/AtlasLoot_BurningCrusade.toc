@@ -3,14 +3,42 @@
 ## Version: @project-version@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
+
+#@non-debug@
+## Title: @localization(locale="enUS", key="Title-BurningCrusade", namespace="ToC")@
+## Title-deDE: @localization(locale="deDE", key="Title-BurningCrusade", namespace="ToC")@
+## Title-esES: @localization(locale="esES", key="Title-BurningCrusade", namespace="ToC")@
+## Title-esMX: @localization(locale="esMX", key="Title-BurningCrusade", namespace="ToC")@
+## Title-frFR: @localization(locale="frFR", key="Title-BurningCrusade", namespace="ToC")@
+## Title-itIT: @localization(locale="itIT", key="Title-BurningCrusade", namespace="ToC")@
+## Title-koKR: @localization(locale="koKR", key="Title-BurningCrusade", namespace="ToC")@
+## Title-ptBR: @localization(locale="ptBR", key="Title-BurningCrusade", namespace="ToC")@
+## Title-ruRU: @localization(locale="ruRU", key="Title-BurningCrusade", namespace="ToC")@
+## Title-zhCN: @localization(locale="zhCN", key="Title-BurningCrusade", namespace="ToC")@
+## Title-zhTW: @localization(locale="zhTW", key="Title-BurningCrusade", namespace="ToC")@
+## Notes: @localization(locale="enUS", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-deDE: @localization(locale="deDE", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-esES: @localization(locale="esES", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-esMX: @localization(locale="esMX", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-frFR: @localization(locale="frFR", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-itIT: @localization(locale="itIT", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-koKR: @localization(locale="koKR", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-ptBR: @localization(locale="ptBR", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-ruRU: @localization(locale="ruRU", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-zhCN: @localization(locale="zhCN", key="Notes-BurningCrusade", namespace="ToC")@
+## Notes-zhTW: @localization(locale="zhTW", key="Notes-BurningCrusade", namespace="ToC")@
+#@end-non-debug@
+#@debug@
 ## Title: AtlasLoot |cFF0099FF[Burning Crusade]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Burning Crusade]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[燃烧的远征]|r
 ## Title-zhTW: AtlasLoot |cFF0099FF[燃燒的遠征]|r
+
 ## Notes: AtlasLoot loot tables from Burning Crusade
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Burning Crusade
 ## Notes-zhCN: AtlasLoot 《燃烧的远征》物品信息
 ## Notes-zhTW: AtlasLoot 燃燒的遠征資料片物品掉落資料庫
+#@end-debug@
 
 ## X-eMail: manager@atlasloot.net
 ## X-Category: Map
