@@ -148,6 +148,26 @@ name = select(2, GetAchievementInfo(11426)),
 	}
 }
 
+local LEGION_GLORY_TOMB_RAIDER_AC_TABLE = { -- Glory of the Tomb Raider
+name = select(2, GetAchievementInfo(11763)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[NORMAL_DIFF] = {
+		{ 1, 11763 }, -- Glory of the Tomb Raider
+		{ 2, 11724 }, -- Fel Turkey!
+		{ 3, 11696 }, -- Grin and Bear It
+		{ 4, 11683 }, -- Bingo!
+		{ 5, 11676 }, -- Five Course Seafood Buffet
+		{ 17, 11675 }, -- Sky Walker
+		{ 18, 11674 }, -- Great Soul, Great Purpose
+		{ 19, 11773 }, -- Wax On, Wax Off
+		{ 20, 11770 }, -- Dark Souls
+		{ 21, 11699 }, -- Grand Fin-ale
+	}
+}
+
+
 local LEGION_WORLD_BOSS_AC_TABLE = { -- Unleashed Monstrosities
 name = select(2, GetAchievementInfo(11160)),
 	TableType = AC_ITTYPE,
@@ -2346,25 +2366,11 @@ data["TheNighthold"] = {
 				{ 27, "ac10850" }, -- AC: Mythic: Gul'dan
 			},
 		},
---[[		
-		{	--HighmaulTrash
-			name = AL["Trash Mobs"],
+		{	--Tier 19 Sets
+			name = format(AL["Tier %d Sets"], 19),
 			ExtraList = true,
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 119343 },	-- Eye-Blinder Greatcloak
-				{ 2, 119347 },	-- Gill's Glorious Windcloak
-				{ 3, 119346 },	-- Kyu-Sy's Tarflame Doomcloak
-				{ 4, 119344 },	-- Magic-Breaker Cape
-				{ 5, 119345 },	-- Milenah's Intricate Cloak
-				{ 16, 119336 },	-- Cord of Winsome Sorrows
-				{ 17, 119335 },	-- Eyeripper Girdle
-				{ 18, 119338 },	-- Belt of Inebriated Sorrows
-				{ 19, 119337 },	-- Ripswallow Plate Belt
-			},
-			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:19",
 		},
-]]		
 		LEGION_RAID1_AC_TABLE,
 	},
 }
@@ -2651,6 +2657,12 @@ data["TombofSargeras"] = {
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 		},
+		{	--Tier 20 Sets
+			name = format(AL["Tier %d Sets"], 20),
+			ExtraList = true,
+			[NORMAL_DIFF] = "AtlasLoot_Collections:TIERSETS:20",
+		},
+		LEGION_GLORY_TOMB_RAIDER_AC_TABLE,
 	},
 }
 
