@@ -168,13 +168,23 @@ name = select(2, GetAchievementInfo(11763)),
 }
 
 
-local LEGION_WORLD_BOSS_AC_TABLE = { -- Unleashed Monstrosities
+local LEGION_WORLD_BOSS_AC_TABLE = { 
 name = select(2, GetAchievementInfo(11160)),
 	TableType = AC_ITTYPE,
 	ExtraList = true,
 	CoinTexture = "Achievement",
 	[NORMAL_DIFF] = {
-		{1, 11160 },
+		{1, 11160 }, -- Unleashed Monstrosities
+	}
+}
+
+local LEGION_WORLD_BOSS_AC_TABLE2 = { 
+name = select(2, GetAchievementInfo(11786)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[NORMAL_DIFF] = {
+		{1, 11786 }, -- Terrors of the Shore
 	}
 }
 
@@ -1635,7 +1645,7 @@ data["VaultOfTheWardens"] = {
 
 data["BrokenIsles"] = {
 	EncounterJournalID = 822,
-	MapID = 0,
+	MapID = 1007,
 	ItemBaseLvl = 860,
 	AtlasMapID = "OR_BrokenIsles",
 	ContentType = RAID_CONTENT,
@@ -1783,7 +1793,64 @@ data["BrokenIsles"] = {
 				-- { 16, "ac9423" },
 			},
 		},
+		{ -- Brutallus
+			EncounterJournalID = 1883,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 147742 }, -- Violent Zealot's Shoulderpads
+				{ 2, 147748 }, -- Gauntlets of Dreadful Tenacity
+				{ 3, 147765 }, -- Clasp of Burning Demise
+				{ 4, 147739 }, -- Rigid Meteorguard Gauntlets
+				{ 5, 147756 }, -- Crashing Ember
+				{ 6, 147747 }, -- Armbands of Crude Strategy
+				{ 7, 147749 }, -- Polished Felfury Helmet
+				{ 8, 147755 }, -- Brutallus's Wretched Heart
+				{ 9, 147732 }, -- Leggings of Echoing Calamity
+			},
+		},
+		{ -- Malificus
+			EncounterJournalID = 1884,
+			[NORMAL_RAID_DIFF] = {
+				{  1, 147744 }, -- Treads of Disorderly Retreat
+				{  2, 147733 }, -- Doomsayer's Ritualistic Vestment
+				{  3, 147735 }, -- Cuffs of Fearful Service
+				{  4, 147754 }, -- Gory Dreadlord Horn
+				{  5, 147741 }, -- Legguards of Unholy Disdain
+				{  6, 147758 }, -- Beguiling Revelation
+				{  7, 147745 }, -- Taloned Brain-Scrapers
+				{  8, 147764 }, -- Cloak of Growing Mistrust
+				{  9, 147740 }, -- Plague-Resistant Headcover
+				{ 10, 147750 }, -- Malicious Zealot's Legplates
+			},
+		},
+		{ -- Si'vash
+			EncounterJournalID = 1885,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 147757 }, -- Globule of Submersion
+				{ 2, 147731 }, -- Cowl of Plumbed Depths
+				{ 3, 147767 }, -- Coral Band of the Abyss
+				{ 4, 147761 }, -- Sandblasted Conch
+				{ 5, 147737 }, -- Shorebreaker Robes
+				{ 6, 147751 }, -- Si'vashi Guard's Breastplate
+				{ 7, 147752 }, -- Pauldrons of the Engulfing Tide
+				{ 8, 147746 }, -- Glistening Seaspray Legguards
+				{ 9, 147736 }, -- Dockthrasher Cinch
+			},
+		},
+		{ -- Apocron
+			EncounterJournalID = 1956,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 147730 },  -- Ashen Worldscorcher Gloves
+				{ 2, 147759 },  -- Charged Felfire Casing
+				{ 3, 147760 },  -- Apocron's Energy Core
+				{ 4, 147766 },  -- Band of Dark Millennia
+				{ 5, 147734 },  -- Spaulders of Forgotten Worlds
+				{ 6, 147738 },  -- Doom-Herald's Footpads
+				{ 7, 147743 },  -- Harness of Devouring Flame
+				{ 8, 147753 },  -- Reaver's Rattling Girdle
+			},
+		},
 		LEGION_WORLD_BOSS_AC_TABLE,
+		LEGION_WORLD_BOSS_AC_TABLE2,
 	}
 }
 
