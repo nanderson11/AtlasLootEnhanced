@@ -27,13 +27,13 @@ externals:
 # SVN
     AtlasLoot/Libs/LibDBIcon-1.0: 
         url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+# HG
+    AtlasLoot/Libs/LibDialog-1.0: 
+        url: https://repos.wowace.com/wow/libdialog-1-0
 # SVN
 #    AtlasLoot_Collections/libs/LibBabble-ItemSet-3.0: 
 #        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
 # somehow above will break the auto-packaging
-# HG
-    Libs/LibDialog-1.0: 
-        url: https://repos.wowace.com/wow/libdialog-1-0
 
 ignore:
     - AtlasLoot/Images/PSD
