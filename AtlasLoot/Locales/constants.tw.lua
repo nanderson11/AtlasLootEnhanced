@@ -3,7 +3,7 @@
 if not AL then return end
 
 -- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="zhTW", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
+--@localization(locale="zhTW", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
 --@do-not-package@
 AL["--- or ---"] = "--- 或 ---"
 AL["%s will finish loading after combat."] = "%s 將於脫離戰鬥後載入"
