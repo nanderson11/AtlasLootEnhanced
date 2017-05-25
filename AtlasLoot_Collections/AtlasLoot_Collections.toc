@@ -3,7 +3,7 @@
 ## Version: @project-version@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
-## OptionalDeps: 
+## OptionalDeps: LibBabble-ItemSet-3.0
 
 #@non-debug@
 ## Title: @localization(locale="enUS", key="Title-Collections", namespace="ToC")@
