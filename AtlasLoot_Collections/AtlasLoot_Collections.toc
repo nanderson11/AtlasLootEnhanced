@@ -3,7 +3,7 @@
 ## Version: @project-version@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
-## OptionalDeps: LibBabble-ItemSet-3.0
+## OptionalDeps: 
 
 #@non-debug@
 ## Title: @localization(locale="enUS", key="Title-Collections", namespace="ToC")@
@@ -47,11 +47,9 @@
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net
-## X-Embeds: LibBabble-ItemSet-3.0
+## X-Embeds: 
 
 ## X-AtlasLoot-LootModule: 1
-
-embeds.xml
 
 data.lua
 sets.lua
