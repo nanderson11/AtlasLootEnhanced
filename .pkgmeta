@@ -8,26 +8,26 @@ license-output: AtlasLoot/Documentation/LICENSE.txt
 
 enable-nolib-creation: yes
 
-# externals:
+externals:
 # Git
-#    AtlasLoot/Libs/LibDataBroker-1.1: 
-#        url: https://repos.wowace.com/wow/libdatabroker-1-1
+    AtlasLoot/Libs/LibDataBroker-1.1: 
+        url: https://repos.wowace.com/wow/libdatabroker-1-1
 # SVN
-#    AtlasLoot/Libs/CallbackHandler-1.0: 
-#        url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
-#    AtlasLoot/Libs/LibBabble-Boss-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
-#    AtlasLoot/Libs/LibStub: 
-#        url: https://repos.wowace.com/wow/libstub/trunk
-#    AtlasLoot/Libs/LibSharedMedia-3.0: 
-#        url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
-#    AtlasLoot/Libs/LibDBIcon-1.0: 
-#        url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
-#    AtlasLoot/Libs/LibBabble-ItemSet-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
+    AtlasLoot/Libs/CallbackHandler-1.0: 
+        url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+    AtlasLoot/Libs/LibBabble-Boss-3.0: 
+        url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
+    AtlasLoot/Libs/LibStub: 
+        url: https://repos.wowace.com/wow/libstub/trunk
+    AtlasLoot/Libs/LibSharedMedia-3.0: 
+        url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
+    AtlasLoot/Libs/LibDBIcon-1.0: 
+        url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+    AtlasLoot/Libs/LibBabble-ItemSet-3.0: 
+        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
 # HG
-#    AtlasLoot/Libs/LibDialog-1.0: 
-#        url: https://repos.wowace.com/wow/libdialog-1-0
+    AtlasLoot/Libs/LibDialog-1.0: 
+        url: https://repos.wowace.com/wow/libdialog-1-0
 
 ignore:
     - AtlasLoot/Images/PSD
