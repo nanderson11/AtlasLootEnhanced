@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.04.05 (Jul. xx, 2017)
+- Updated PlaySound API's usage method to support both 7.2.5 and 7.3.0 of WoW clients
+
 v8.04.04 (Jun. 23, 2017)
 - Added Mists of Pandaria Timewalking items
 
