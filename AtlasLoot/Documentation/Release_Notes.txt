@@ -7,6 +7,7 @@ Patch Notes
 
 v8.04.05 (Jul. xx, 2017)
 - Updated PlaySound API's usage method to support both 7.2.5 and 7.3.0 of WoW clients
+- Enhanced worldmap button integration while Mapster, HandyNotes_WorldMapButton, or ElvUI is installed
 
 v8.04.04 (Jun. 23, 2017)
 - Added Mists of Pandaria Timewalking items

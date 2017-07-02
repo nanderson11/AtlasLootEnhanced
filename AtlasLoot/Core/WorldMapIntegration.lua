@@ -18,15 +18,23 @@ local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 local profile
 
+local function checkAddonStatus(addonName)
+	if not addonName then return nil end
+	local loadable = select(4, GetAddOnInfo(addonName))
+	local enabled = GetAddOnEnableState(UnitName("player"), addonName)
+	if (enabled > 0 and loadable) then
+		return true
+	else
+		return false
+	end
+end
+
 local function AdjustOtherWorldMapButton(adjust)
 	profile = AtlasLoot.db.WorldMap;
 
-	local lMapster = select(4, GetAddOnInfo("Mapster"));
-	local lHandyNotes_WorldMapButton = select(4, GetAddOnInfo("HandyNotes_WorldMapButton"));
-	local ElvUI = select(4, GetAddOnInfo("ElvUI"));
+	if (not (checkAddonStatus("Mapster") or checkAddonStatus("HandyNotes_WorldMapButton") or checkAddonStatus("ElvUI"))) then return; end
 	local ElvUI_BZSkin = false;
-	if (not (lMapster or lHandyNotes_WorldMapButton or ElvUI)) then return; end
-	if (ElvUI and ElvPrivateDB) then
+	if (checkAddonStatus("ElvUI") and ElvPrivateDB) then
 		local profileKey;
 		if ElvPrivateDB.profileKeys then
 			profileKey = ElvPrivateDB.profileKeys[UnitName("player")..' - '..GetRealmName()];
@@ -39,7 +47,7 @@ local function AdjustOtherWorldMapButton(adjust)
 		end
 	end
 	
-	if (ElvUI and profile.buttonOnTitleBar and ElvUI_BZSkin) then
+	if (checkAddonStatus("ElvUI") and profile.buttonOnTitleBar and ElvUI_BZSkin) then
 		local button = _G["AtlasLootToggleFromWorldMap2"];
 		button:SetNormalTexture("Interface\\Icons\\INV_Box_01");
 		button:SetWidth(16);
