@@ -32,7 +32,7 @@ local function AdjustOtherWorldMapButton(adjust)
 			profileKey = ElvPrivateDB.profileKeys[UnitName("player")..' - '..GetRealmName()];
 		end
 
-		if profileKey and ElvPrivateDB.profiles and ElvPrivateDB.profiles[profileKey] then
+		if profileKey and ElvPrivateDB.profiles and ElvPrivateDB.profiles[profileKey] and ElvPrivateDB.profiles[profileKey]["skins"] then
 			if (ElvPrivateDB.profiles[profileKey]["skins"]["blizzard"]["enable"] and ElvPrivateDB.profiles[profileKey]["skins"]["blizzard"]["worldmap"]) then
 				ElvUI_BZSkin = true;
 			end
