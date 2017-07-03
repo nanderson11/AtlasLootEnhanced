@@ -21,11 +21,246 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
+data["LEGION4GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 4).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 4),
+			[ALLIANCE_DIFF] = {
+				{ 1, 146835, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Helm of the Ferocious Gladiator
+				{ 2, 146836, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Chest of the Ferocious Gladiator
+				{ 3, 146837, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Leggings of the Ferocious Gladiator
+				{ 4, 146838, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Pauldrons of the Ferocious Gladiator
+				{ 5, 146839, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Gloves of the Ferocious Gladiator
+				{ 6, 146840, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Cinch of the Ferocious Gladiator
+				{ 7, 146841, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Treads of the Ferocious Gladiator
+				{ 8, 146842, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Bracers of the Ferocious Gladiator
+				{ 9, 146843, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Cloak of the Ferocious Gladiator
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 4),
+			[ALLIANCE_DIFF] = {
+				{ 1, 146826, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Helm of the Ferocious Gladiator
+				{ 2, 146827, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Chest of the Ferocious Gladiator
+				{ 3, 146828, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Leggings of the Ferocious Gladiator
+				{ 4, 146829, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Pauldrons of the Ferocious Gladiator
+				{ 5, 146830, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Gloves of the Ferocious Gladiator
+				{ 6, 146831, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Cinch of the Ferocious Gladiator
+				{ 7, 146832, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Treads of the Ferocious Gladiator
+				{ 8, 146833, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Bracers of the Ferocious Gladiator
+				{ 9, 146834, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Cloak of the Ferocious Gladiator
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION3SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 3).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147625 }, -- Ensemble: Elite Cruel Gladiator's Dreadplate Armor
+				{ 3, 144780 }, -- Cruel Gladiator's Dreadcloak
+				{ 4, 144804 }, -- Cruel Gladiator's Dreadplate Chestpiece
+				{ 5, 144806 }, -- Cruel Gladiator's Dreadplate Sabatons
+				{ 6, 144808 }, -- Cruel Gladiator's Dreadplate Gauntlets
+				{ 7, 144810 }, -- Cruel Gladiator's Dreadplate Helm
+				{ 8, 144812 }, -- Cruel Gladiator's Dreadplate Legguards
+				{ 9, 144814 }, -- Cruel Gladiator's Dreadplate Shoulders
+				{ 10, 144816 }, -- Cruel Gladiator's Dreadplate Girdle
+				{ 11, 144818 }, -- Cruel Gladiator's Dreadplate Wristplates
+				{ 16, 147650 }, -- Ensemble: Cruel Gladiator's Dreadplate Armor
+				{ 18, 144534 }, -- Cruel Gladiator's Dreadcloak
+				{ 19, 144558 }, -- Cruel Gladiator's Dreadplate Chestpiece
+				{ 20, 144560 }, -- Cruel Gladiator's Dreadplate Sabatons
+				{ 21, 144562 }, -- Cruel Gladiator's Dreadplate Gauntlets
+				{ 22, 144564 }, -- Cruel Gladiator's Dreadplate Helm
+				{ 23, 144566 }, -- Cruel Gladiator's Dreadplate Legguards
+				{ 24, 144568 }, -- Cruel Gladiator's Dreadplate Shoulders
+				{ 25, 144570 }, -- Cruel Gladiator's Dreadplate Girdle
+				{ 26, 144572 }, -- Cruel Gladiator's Dreadplate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147626 }, -- Ensemble: Elite Cruel Gladiator's Dreadplate Armor
+				{ 3, 144781 }, -- Cruel Gladiator's Dreadcloak
+				{ 4, 144805 }, -- Cruel Gladiator's Dreadplate Chestpiece
+				{ 5, 144807 }, -- Cruel Gladiator's Dreadplate Sabatons
+				{ 6, 144809 }, -- Cruel Gladiator's Dreadplate Gauntlets
+				{ 7, 144811 }, -- Cruel Gladiator's Dreadplate Helm
+				{ 8, 144813 }, -- Cruel Gladiator's Dreadplate Legguards
+				{ 9, 144815 }, -- Cruel Gladiator's Dreadplate Shoulders
+				{ 10, 144817 }, -- Cruel Gladiator's Dreadplate Girdle
+				{ 11, 144819 }, -- Cruel Gladiator's Dreadplate Wristplates
+				{ 16, 147649 }, -- Ensemble: Cruel Gladiator's Dreadplate Armor
+				{ 18, 144535 }, -- Cruel Gladiator's Dreadcloak
+				{ 19, 144559 }, -- Cruel Gladiator's Dreadplate Chestpiece
+				{ 20, 144561 }, -- Cruel Gladiator's Dreadplate Sabatons
+				{ 21, 144563 }, -- Cruel Gladiator's Dreadplate Gauntlets
+				{ 22, 144565 }, -- Cruel Gladiator's Dreadplate Helm
+				{ 23, 144567 }, -- Cruel Gladiator's Dreadplate Legguards
+				{ 24, 144569 }, -- Cruel Gladiator's Dreadplate Shoulders
+				{ 25, 144571 }, -- Cruel Gladiator's Dreadplate Girdle
+				{ 26, 144573 }, -- Cruel Gladiator's Dreadplate Wristplates
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147627 }, -- Ensemble: Elite Cruel Gladiator's Felskin Armor
+				{ 3, 144782 }, -- Cruel Gladiator's Demonthread Cloak
+				{ 4, 144834 }, -- Cruel Gladiator's Felskin Wristguards
+				{ 5, 144820 }, -- Cruel Gladiator's Felskin Tunic
+				{ 6, 144822 }, -- Cruel Gladiator's Felskin Boots
+				{ 7, 144824 }, -- Cruel Gladiator's Felskin Gloves
+				{ 8, 144826 }, -- Cruel Gladiator's Felskin Helm
+				{ 9, 144828 }, -- Cruel Gladiator's Felskin Legguards
+				{ 10, 144830 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 11, 144832 }, -- Cruel Gladiator's Felskin Belt
+				{ 16, 147651 }, -- Ensemble: Cruel Gladiator's Felskin Armor
+				{ 18, 144536 }, -- Cruel Gladiator's Demonthread Cloak
+				{ 19, 144588 }, -- Cruel Gladiator's Felskin Wristguards
+				{ 20, 144574 }, -- Cruel Gladiator's Felskin Tunic
+				{ 21, 144576 }, -- Cruel Gladiator's Felskin Boots
+				{ 22, 144578 }, -- Cruel Gladiator's Felskin Gloves
+				{ 23, 144580 }, -- Cruel Gladiator's Felskin Helm
+				{ 24, 144582 }, -- Cruel Gladiator's Felskin Legguards
+				{ 25, 144584 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 26, 144586 }, -- Cruel Gladiator's Felskin Belt
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147628 }, -- Ensemble: Elite Cruel Gladiator's Felskin Armor
+				{ 3, 144783 }, -- Cruel Gladiator's Demonthread Cloak
+				{ 4, 144821 }, -- Cruel Gladiator's Felskin Tunic
+				{ 5, 144823 }, -- Cruel Gladiator's Felskin Boots
+				{ 6, 144825 }, -- Cruel Gladiator's Felskin Gloves
+				{ 7, 144827 }, -- Cruel Gladiator's Felskin Helm
+				{ 8, 144829 }, -- Cruel Gladiator's Felskin Legguards
+				{ 9, 144831 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 10, 144833 }, -- Cruel Gladiator's Felskin Belt
+				{ 11, 144835 }, -- Cruel Gladiator's Felskin Wristguards
+				{ 16, 147652 }, -- Ensemble: Cruel Gladiator's Felskin Armor
+				{ 18, 144537 }, -- Cruel Gladiator's Demonthread Cloak
+				{ 19, 144575 }, -- Cruel Gladiator's Felskin Tunic
+				{ 20, 144577 }, -- Cruel Gladiator's Felskin Boots
+				{ 21, 144579 }, -- Cruel Gladiator's Felskin Gloves
+				{ 22, 144581 }, -- Cruel Gladiator's Felskin Helm
+				{ 23, 144583 }, -- Cruel Gladiator's Felskin Legguards
+				{ 24, 144585 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 25, 144587 }, -- Cruel Gladiator's Felskin Belt
+				{ 26, 144589 }, -- Cruel Gladiator's Felskin Wristguards
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION3GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 3).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 3),
+			[ALLIANCE_DIFF] = {
+				{ 1, 146817, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Helm of the Cruel Gladiator
+				{ 2, 146818, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Chest of the Cruel Gladiator
+				{ 3, 146819, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Leggings of the Cruel Gladiator
+				{ 4, 146820, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Pauldrons of the Cruel Gladiator
+				{ 5, 146821, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Gloves of the Cruel Gladiator
+				{ 6, 146822, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Cinch of the Cruel Gladiator
+				{ 7, 146823, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Treads of the Cruel Gladiator
+				{ 8, 146824, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Bracers of the Cruel Gladiator
+				{ 9, 146825, [PRICE_EXTRA_ITTYPE] = "echoofdomination:75" }, -- Cloak of the Cruel Gladiator
+				-- Amulet
+				{ 11, 144900 }, -- Cruel Gladiator's Necklace
+				{ 12, 144902 }, -- Cruel Gladiator's Pendant
+				{ 13, 144904 }, -- Cruel Gladiator's Choker
+				-- Ring
+				{ 16, 144938 }, -- Cruel Gladiator's Ring
+				{ 17, 144940 }, -- Cruel Gladiator's Band
+				{ 18, 144942 }, -- Cruel Gladiator's Signet
+				-- Trinket
+				{ 20, 144976 }, -- Cruel Gladiator's Badge of Conquest
+				{ 21, 144978 }, -- Cruel Gladiator's Accolade of Conquest
+				{ 22, 144980 }, -- Cruel Gladiator's Insignia of Conquest
+				{ 23, 144982 }, -- Cruel Gladiator's Badge of Dominance
+				{ 24, 144984 }, -- Cruel Gladiator's Accolade of Dominance
+				{ 25, 144986 }, -- Cruel Gladiator's Insignia of Dominance
+				{ 26, 144988 }, -- Cruel Gladiator's Badge of Victory
+				{ 27, 144990 }, -- Cruel Gladiator's Accolade of Victory
+				{ 28, 144992 }, -- Cruel Gladiator's Insignia of Victory
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 3),
+			[ALLIANCE_DIFF] = {
+				{ 1, 146804, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Helm of the Cruel Gladiator
+				{ 2, 146809, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Chest of the Cruel Gladiator
+				{ 3, 146810, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Leggings of the Cruel Gladiator
+				{ 4, 146811, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Pauldrons of the Cruel Gladiator
+				{ 5, 146812, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Gloves of the Cruel Gladiator
+				{ 6, 146813, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Cinch of the Cruel Gladiator
+				{ 7, 146814, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Treads of the Cruel Gladiator
+				{ 8, 146815, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Bracers of the Cruel Gladiator
+				{ 9, 146816, [PRICE_EXTRA_ITTYPE] = "echoofbattle:75" }, -- Cloak of the Cruel Gladiator
+				-- Amulet
+				{ 11, 144654 }, -- Cruel Gladiator's Necklace
+				{ 12, 144656 }, -- Cruel Gladiator's Pendant
+				{ 13, 144658 }, -- Cruel Gladiator's Choker
+				-- Tabard
+				{ 15, 147337 }, -- Cruel Gladiator's Tabard
+				-- Ring
+				{ 16, 144692 }, -- Cruel Gladiator's Ring
+				{ 17, 144694 }, -- Cruel Gladiator's Band
+				{ 18, 144696 }, -- Cruel Gladiator's Signet
+				-- Trinket
+				{ 20, 144730 }, -- Cruel Gladiator's Badge of Conquest
+				{ 21, 144732 }, -- Cruel Gladiator's Accolade of Conquest
+				{ 22, 144734 }, -- Cruel Gladiator's Insignia of Conquest
+				{ 23, 144736 }, -- Cruel Gladiator's Badge of Dominance
+				{ 24, 144738 }, -- Cruel Gladiator's Accolade of Dominance
+				{ 25, 144740 }, -- Cruel Gladiator's Insignia of Dominance
+				{ 26, 144742 }, -- Cruel Gladiator's Badge of Victory
+				{ 27, 144744 }, -- Cruel Gladiator's Accolade of Victory
+				{ 28, 144746 }, -- Cruel Gladiator's Insignia of Victory
+				-- Cloak
+				{ 30, 147360 }, -- Cruel Gladiator's Cloak
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 15, 147336 }, -- Cruel Gladiator's Tabard
+				{ 30, 147357 }, -- Cruel Gladiator's Cloak
+			},
+		},
+	},
+}
+
 data["LEGION1SETS"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 1).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135594 }, -- Vindictive Gladiator's Dreadplate Helm
@@ -69,8 +304,8 @@ data["LEGION1SETS"] = {
 				{ 24, 136018 }, -- Vindictive Combatant's Dreadcloak
 			},
 		},
-		{
-			name = ALIL["DEMONHUNTER"],
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 136281 }, -- Vindictive Gladiator's Felskin Helm
 				{ 2, 136284 }, -- Vindictive Gladiator's Felskin Spaulders
@@ -109,7 +344,7 @@ data["LEGION1SETS"] = {
 				{ 23, 136303 }, -- Vindictive Combatant's Felskin Boots
 			},
 		},
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135601 }, -- Vindictive Gladiator's Dragonhide Helm
@@ -153,7 +388,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136022 }, -- Vindictive Combatant's Dragonhide Cloak
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135610 }, -- Vindictive Gladiator's Chain Helm
@@ -193,7 +428,7 @@ data["LEGION1SETS"] = {
 				{ 23, 135947 }, -- Vindictive Combatant's Chain Treads
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135617 }, -- Vindictive Gladiator's Silk Cowl
@@ -237,7 +472,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136019 }, -- Vindictive Combatant's Silken Shawl
 			},
 		},
-		{
+		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135625 }, -- Vindictive Gladiator's Ironskin Helm
@@ -277,7 +512,7 @@ data["LEGION1SETS"] = {
 				{ 23, 135962 }, -- Vindictive Combatant's Ironskin Spaulders
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135634 }, -- Vindictive Gladiator's Scaled Helm
@@ -321,7 +556,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136027 }, -- Vindictive Combatant's Greatcloak of Faith
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135641 }, -- Vindictive Gladiator's Satin Hood
@@ -365,7 +600,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136870 }, -- Vindictive Combatant's Drape of Piety
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135650 }, -- Vindictive Gladiator's Leather Helm
@@ -409,7 +644,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136871 }, -- Vindictive Combatant's Shadowcape
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135658 }, -- Vindictive Gladiator's Ringmail Helm
@@ -453,7 +688,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136872 }, -- Vindictive Combatant's Totemic Cloak
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135665 }, -- Vindictive Gladiator's Felweave Cowl
@@ -497,7 +732,7 @@ data["LEGION1SETS"] = {
 				{ 24, 136882 }, -- Vindictive Combatant's Felweave Cloak
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 135674 }, -- Vindictive Gladiator's Plate Helm

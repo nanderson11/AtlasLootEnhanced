@@ -186,7 +186,7 @@ end
 GameTooltip:HookScript("OnTooltipSetUnit", hookUnitTarget)
 -- /////////////////////////////////////////////////////////////////////////
 local AtlasLoot_TextParsing = {
-
+--[[
 	-- Classes
 	{ "#c1#", LOCALIZED_CLASS_NAMES_MALE["DRUID"] },
 	{ "#c2#", LOCALIZED_CLASS_NAMES_MALE["HUNTER"] },
@@ -1049,6 +1049,7 @@ local AtlasLoot_TextParsing = {
 	{ "#embersilkbolt#", "|TInterface\\Icons\\inv_misc_emberweavecloth_01:0|t"},			-- Bolt of Embersilk Cloth (TailoringCataVendor)
 	{ "#dreamcloth#", "|TInterface\\Icons\\inv_chest_cloth_57:0|t"},						-- Dream Cloth (TailoringCataVendor)
 	{ "#heavysavageleather#", "|TInterface\\Icons\\item_savageleatherhide:0|t"},			-- Heavy Savage Leather (LeatherworkingCataVendor)
+]]
 }
 local AtlasLoot_Data = {}
 
@@ -1135,6 +1136,8 @@ local function getItemPrice(strg, newPrice, newPriceIcon)
 	newPriceIcon = newPriceIcon or 0
 	local priceTab = {
 		["markofhonor"] = {"(%d+) #markofhonor#", "%d+ #markofhonor#", 1322720 },
+		["echoofbattle"] = {"(%d+) #echoofbattle#", "%d+ #echoofbattle#", 1455891 },
+		["echoofdomination"] = {"(%d+) #echoofdomination#", "%d+ #echoofdomination#", 1455894 },
 	}
 	--	/run print(getItemPrice("2175 #justice# / 60 #champseal#", 5000, "Interface\\Icons\\pvecurrency-justice"))
 --	local englishFaction, _ = UnitFactionGroup("player")
