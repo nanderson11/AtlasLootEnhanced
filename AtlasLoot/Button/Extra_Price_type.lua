@@ -19,6 +19,7 @@ local STRING_RED = "|cffff0000"
 local STRING_GREEN = "|cff1eff00"
 
 local PRICE_INFO = {
+	["markofhonor"] = { itemID = 137642 },
 	["nethershard"] = { currencyID = 1226 },
 	["orderresources"] = { currencyID = 1220 },
 	["bfclaw"] = { itemID = 124099 },
@@ -29,10 +30,10 @@ local PRICE_INFO = {
 	["brewfest"] = { itemID = 37829 },
 	["burningblossom"] = { itemID = 23247 },
 	["championsseal"] = { currencyID = 241 },
-	["conquest"] = { currencyID = 390 },
+	["conquest"] = { currencyID = 390 }, -- been removed since 7.0.3
+	["honor"] = { currencyID = 392 }, -- been removed since 7.0.3
 	["darkmoon"] = { currencyID = 515 },
 	["eldercharm"] = { currencyID = 697 },
-	["honor"] = { currencyID = 392 },
 	["lovetoken"] = { itemID = 49927 },
 	["money"] = { func = GetCoinTextureString },
 	["noblegardenchocolate"] = { itemID = 44791 },
