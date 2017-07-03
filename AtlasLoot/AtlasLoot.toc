@@ -65,6 +65,10 @@ AtlasLoot.xml
 AtlasLoot.lua
 Loader.lua
 
+#@do-not-package@
+DEVTOOLS.lua
+#@end-do-not-package@
+
 Core\StaticPopupDialogs.lua
 Core\SlashCommands.lua
 Core\ClickHandler.lua

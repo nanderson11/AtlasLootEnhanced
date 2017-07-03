@@ -14,5 +14,7 @@
 <Include file="Libs\LibDialog-1.0\lib.xml"/>
 <!--@end-no-lib-strip@-->
 <Script file="Libs\ALDB-1.0\ALDB-1.0.lua"/>
-
+<!--@do-not-package@-->
+<Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
+<!--@end-do-not-package@-->
 </Ui>
