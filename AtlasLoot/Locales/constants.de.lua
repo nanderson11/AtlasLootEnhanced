@@ -33,7 +33,8 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot-Module"
 AL["AtlasLoot Search"] = "AtlasLoot-Suche"
 AL["AtlasLoot Set View"] = "AtlasLoot-Setansicht"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader wird nicht mehr verwendet.\\nBitte aus dem Verzeichnis AddOns löschen"
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader wird nicht mehr verwendet.
+Bitte aus dem Verzeichnis AddOns löschen]=]
 AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen
 |cffFF0000Shift+Klicken: |cffFFFFFFAtlasLoot-Optionen öffnen]=]
 AL["Attack/Spell Power"] = "Angriffskraft/Zaubermacht"
