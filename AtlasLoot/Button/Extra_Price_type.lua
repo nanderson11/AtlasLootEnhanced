@@ -139,7 +139,9 @@ local function SetTooltip(tooltip, typ, value)
 		--	tooltip:AddLine(TT_HAVE_AND_NEED_GREEN:format(value))
 		elseif PRICE_INFO[typ].currencyID then
 			local name, currentAmount, texture = GetCurrencyInfo(PRICE_INFO[typ].currencyID) --name, currentAmount, texture, earnedThisWeek, weeklyMax, totalMax, isDiscovered, rarity
-			tooltip:AddLine(TT_ICON_AND_NAME:format(texture, name or ""))
+			if texture then
+				tooltip:AddLine(TT_ICON_AND_NAME:format(texture, name or ""))
+			end
 			tooltip:AddLine(currentAmount >= value and TT_HAVE_AND_NEED_GREEN:format(currentAmount, value) or  TT_HAVE_AND_NEED_RED:format(currentAmount, value))
 		elseif PRICE_INFO[typ].itemID then
 			local itemName = GetItemInfo(PRICE_INFO[typ].itemID)

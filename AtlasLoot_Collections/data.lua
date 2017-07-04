@@ -2595,7 +2595,24 @@ data["TABARDS"] = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{
+		{ -- Legion
+			name = EXPANSION_NAME6,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1, 140575, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Nightfallen Tabard
+				{ 2, 140576, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Tabard of the Highmountain Tribe
+				{ 3, 140577, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Court of Farondis Tabard
+				{ 4, 140578, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Dreamweaver Initiate's Tabard
+				{ 5, 140579, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Valarjar Tabard
+				{ 6, 140580, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Warden's Tabard
+				{ 7, 140667, [PRICE_EXTRA_ITTYPE] = "money:6000000" }, -- Tabard of the Dreamweavers
+				{ 8, 147205, [PRICE_EXTRA_ITTYPE] = "nethershard:10000" }, -- Legionfall Tabard
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WoD
 			name = EXPANSION_NAME5,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2612,7 +2629,7 @@ data["TABARDS"] = {
 				{ 18, 115518, [PRICE_EXTRA_ITTYPE] = "money:100000" },	-- Vol'jin's Spear Tabard
 			},
 		},
-		{
+		{ -- MoP
 			name = EXPANSION_NAME4,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2632,7 +2649,7 @@ data["TABARDS"] = {
 				{ 16, 95592, [PRICE_EXTRA_ITTYPE] = "money:100000" },	-- Sunreaver Onslaught Tabard
 			},
 		},
-		{
+		{ -- Cataclysm
 			name = EXPANSION_NAME3,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2649,7 +2666,7 @@ data["TABARDS"] = {
 				{ 17, 65909, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Tabard of the Dragonmaw Clan
 			},
 		},
-		{
+		{ -- WoLTK
 			name = EXPANSION_NAME2,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2659,7 +2676,7 @@ data["TABARDS"] = {
 			},
 			[HORDE_DIFF] = ALLIANCE_DIFF,
 		},
-		{
+		{ -- BC
 			name = EXPANSION_NAME1,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2683,7 +2700,7 @@ data["TABARDS"] = {
 				{ 17, 31773, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Mag'har Tabard
 			},
 		},
-		{
+		{ -- Classic
 			name = EXPANSION_NAME0,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2691,7 +2708,7 @@ data["TABARDS"] = {
 			},
 			[HORDE_DIFF] = ALLIANCE_DIFF
 		},
-		{
+		{ -- Faction
 			name = AL["Factions"],
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
@@ -2773,17 +2790,17 @@ data["TABARDS"] = {
 			name = AL["PvP"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" },	-- Primal Gladiator's Tabard
-				{ 3, 15196, [PRICE_EXTRA_ITTYPE] = "honor:50" },	-- Private's Tabard
-				{ 4, 15198, [PRICE_EXTRA_ITTYPE] = "honor:100" },	-- Knight's Colors
-				{ 18, 19506, [PRICE_EXTRA_ITTYPE] = "honor:2059" },	-- Silverwing Battle Tabard
-				{ 19, 19032, [PRICE_EXTRA_ITTYPE] = "honor:2679" },	-- Stormpike Battle Tabard
+				{ 3, 15196, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Private's Tabard
+				{ 4, 15198, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Knight's Colors
+				{ 18, 19506, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Silverwing Battle Tabard
+				{ 19, 19032, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Stormpike Battle Tabard
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 3, 15197, [PRICE_EXTRA_ITTYPE] = "honor:50" },	-- Scout's Tabard
-				{ 4, 15199, [PRICE_EXTRA_ITTYPE] = "honor:100" },	-- Stone Guard's Herald
-				{ 18, 19505, [PRICE_EXTRA_ITTYPE] = "honor:2059" },	-- Warsong Battle Tabard
-				{ 19, 19031, [PRICE_EXTRA_ITTYPE] = "honor:2679" },	-- Frostwolf Battle Tabard
+				{ 3, 15197, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Scout's Tabard
+				{ 4, 15199, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Stone Guard's Herald
+				{ 18, 19505, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Warsong Battle Tabard
+				{ 19, 19031, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Frostwolf Battle Tabard
 			},
 		},
 		{
