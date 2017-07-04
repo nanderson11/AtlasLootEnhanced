@@ -310,6 +310,8 @@ AL["Elite"] = true
 AL["Non-Set Gear"] = true
 AL["Season %d"] = true
 AL["Warlords Season %d"] = true
+AL["Legion Season %d Elite"] = true
+AL["Legion Season %d"] = true
 
 -- World Events strings
 AL["Permanent/Recurring Events"] = true

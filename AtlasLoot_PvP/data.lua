@@ -21,6 +21,757 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
+data["LEGION4SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 4).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145622 }, -- Ferocious Gladiator's Dreadcloak
+				{ 2, 145646 }, -- Ferocious Gladiator's Dreadplate Chestpiece
+				{ 3, 145648 }, -- Ferocious Gladiator's Dreadplate Sabatons
+				{ 4, 145650 }, -- Ferocious Gladiator's Dreadplate Gauntlets
+				{ 5, 145652 }, -- Ferocious Gladiator's Dreadplate Helm
+				{ 6, 145654 }, -- Ferocious Gladiator's Dreadplate Legguards
+				{ 7, 145656 }, -- Ferocious Gladiator's Dreadplate Shoulders
+				{ 8, 145658 }, -- Ferocious Gladiator's Dreadplate Girdle
+				{ 9, 145660 }, -- Ferocious Gladiator's Dreadplate Wristplates
+				{ 16, 145376 }, -- Ferocious Gladiator's Dreadcloak
+				{ 17, 145400 }, -- Ferocious Gladiator's Dreadplate Chestpiece
+				{ 18, 145402 }, -- Ferocious Gladiator's Dreadplate Sabatons
+				{ 19, 145404 }, -- Ferocious Gladiator's Dreadplate Gauntlets
+				{ 20, 145406 }, -- Ferocious Gladiator's Dreadplate Helm
+				{ 21, 145408 }, -- Ferocious Gladiator's Dreadplate Legguards
+				{ 22, 145410 }, -- Ferocious Gladiator's Dreadplate Shoulders
+				{ 23, 145412 }, -- Ferocious Gladiator's Dreadplate Girdle
+				{ 24, 145414 }, -- Ferocious Gladiator's Dreadplate Wristplates
+				{ 101, 145868 }, -- Ferocious Combatant's Dreadcloak
+				{ 102, 145893 }, -- Ferocious Combatant's Dreadplate Chestpiece
+				{ 103, 145895 }, -- Ferocious Combatant's Dreadplate Sabatons
+				{ 104, 145897 }, -- Ferocious Combatant's Dreadplate Gauntlets
+				{ 105, 145899 }, -- Ferocious Combatant's Dreadplate Helm
+				{ 106, 145901 }, -- Ferocious Combatant's Dreadplate Legguards
+				{ 107, 145903 }, -- Ferocious Combatant's Dreadplate Shoulders
+				{ 108, 145905 }, -- Ferocious Combatant's Dreadplate Girdle
+				{ 109, 145907 }, -- Ferocious Combatant's Dreadplate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145623 }, -- Ferocious Gladiator's Dreadcloak
+				{ 2, 145647 }, -- Ferocious Gladiator's Dreadplate Chestpiece
+				{ 3, 145649 }, -- Ferocious Gladiator's Dreadplate Sabatons
+				{ 4, 145651 }, -- Ferocious Gladiator's Dreadplate Gauntlets
+				{ 5, 145653 }, -- Ferocious Gladiator's Dreadplate Helm
+				{ 6, 145655 }, -- Ferocious Gladiator's Dreadplate Legguards
+				{ 7, 145657 }, -- Ferocious Gladiator's Dreadplate Shoulders
+				{ 8, 145659 }, -- Ferocious Gladiator's Dreadplate Girdle
+				{ 9, 145661 }, -- Ferocious Gladiator's Dreadplate Wristplates
+				{ 16, 145377 }, -- Ferocious Gladiator's Dreadcloak
+				{ 17, 145401 }, -- Ferocious Gladiator's Dreadplate Chestpiece
+				{ 18, 145403 }, -- Ferocious Gladiator's Dreadplate Sabatons
+				{ 19, 145405 }, -- Ferocious Gladiator's Dreadplate Gauntlets
+				{ 20, 145407 }, -- Ferocious Gladiator's Dreadplate Helm
+				{ 21, 145409 }, -- Ferocious Gladiator's Dreadplate Legguards
+				{ 22, 145411 }, -- Ferocious Gladiator's Dreadplate Shoulders
+				{ 23, 145413 }, -- Ferocious Gladiator's Dreadplate Girdle
+				{ 24, 145415 }, -- Ferocious Gladiator's Dreadplate Wristplates
+				{ 101, 145869 }, -- Ferocious Combatant's Dreadcloak
+				{ 102, 145892 }, -- Ferocious Combatant's Dreadplate Chestpiece
+				{ 103, 145894 }, -- Ferocious Combatant's Dreadplate Sabatons
+				{ 104, 145896 }, -- Ferocious Combatant's Dreadplate Gauntlets
+				{ 105, 145898 }, -- Ferocious Combatant's Dreadplate Helm
+				{ 106, 145900 }, -- Ferocious Combatant's Dreadplate Legguards
+				{ 107, 145902 }, -- Ferocious Combatant's Dreadplate Shoulders
+				{ 108, 145904 }, -- Ferocious Combatant's Dreadplate Girdle
+				{ 109, 145906 }, -- Ferocious Combatant's Dreadplate Wristplates
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145624 }, -- Ferocious Gladiator's Demonthread Cloak
+				{ 2, 145662 }, -- Ferocious Gladiator's Felskin Tunic
+				{ 3, 145664 }, -- Ferocious Gladiator's Felskin Boots
+				{ 4, 145666 }, -- Ferocious Gladiator's Felskin Gloves
+				{ 5, 145668 }, -- Ferocious Gladiator's Felskin Helm
+				{ 6, 145670 }, -- Ferocious Gladiator's Felskin Legguards
+				{ 7, 145672 }, -- Ferocious Gladiator's Felskin Spaulders
+				{ 8, 145674 }, -- Ferocious Gladiator's Felskin Belt
+				{ 9, 145676 }, -- Ferocious Gladiator's Felskin Wristguards
+				{ 16, 145378 }, -- Ferocious Gladiator's Demonthread Cloak
+				{ 17, 145416 }, -- Ferocious Gladiator's Felskin Tunic
+				{ 18, 145418 }, -- Ferocious Gladiator's Felskin Boots
+				{ 19, 145420 }, -- Ferocious Gladiator's Felskin Gloves
+				{ 20, 145422 }, -- Ferocious Gladiator's Felskin Helm
+				{ 21, 145424 }, -- Ferocious Gladiator's Felskin Legguards
+				{ 22, 145426 }, -- Ferocious Gladiator's Felskin Spaulders
+				{ 23, 145428 }, -- Ferocious Gladiator's Felskin Belt
+				{ 24, 145430 }, -- Ferocious Gladiator's Felskin Wristguards
+				{ 101, 145868 }, -- Ferocious Combatant's Dreadcloak
+				{ 102, 145892 }, -- Ferocious Combatant's Dreadplate Chestpiece
+				{ 103, 145894 }, -- Ferocious Combatant's Dreadplate Sabatons
+				{ 104, 145896 }, -- Ferocious Combatant's Dreadplate Gauntlets
+				{ 105, 145898 }, -- Ferocious Combatant's Dreadplate Helm
+				{ 106, 145900 }, -- Ferocious Combatant's Dreadplate Legguards
+				{ 107, 145902 }, -- Ferocious Combatant's Dreadplate Shoulders
+				{ 108, 145904 }, -- Ferocious Combatant's Dreadplate Girdle
+				{ 109, 145906 }, -- Ferocious Combatant's Dreadplate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145625 }, -- Ferocious Gladiator's Demonthread Cloak
+				{ 2, 145663 }, -- Ferocious Gladiator's Felskin Tunic
+				{ 3, 145665 }, -- Ferocious Gladiator's Felskin Boots
+				{ 4, 145667 }, -- Ferocious Gladiator's Felskin Gloves
+				{ 5, 145669 }, -- Ferocious Gladiator's Felskin Helm
+				{ 6, 145671 }, -- Ferocious Gladiator's Felskin Legguards
+				{ 7, 145673 }, -- Ferocious Gladiator's Felskin Spaulders
+				{ 8, 145675 }, -- Ferocious Gladiator's Felskin Belt
+				{ 9, 145677 }, -- Ferocious Gladiator's Felskin Wristguards
+				{ 16, 145379 }, -- Ferocious Gladiator's Demonthread Cloak
+				{ 17, 145417 }, -- Ferocious Gladiator's Felskin Tunic
+				{ 18, 145419 }, -- Ferocious Gladiator's Felskin Boots
+				{ 19, 145421 }, -- Ferocious Gladiator's Felskin Gloves
+				{ 20, 145423 }, -- Ferocious Gladiator's Felskin Helm
+				{ 21, 145425 }, -- Ferocious Gladiator's Felskin Legguards
+				{ 22, 145427 }, -- Ferocious Gladiator's Felskin Spaulders
+				{ 23, 145429 }, -- Ferocious Gladiator's Felskin Belt
+				{ 24, 145431 }, -- Ferocious Gladiator's Felskin Wristguards
+				{ 101, 145869 }, -- Ferocious Combatant's Dreadcloak
+				{ 102, 145893 }, -- Ferocious Combatant's Dreadplate Chestpiece
+				{ 103, 145895 }, -- Ferocious Combatant's Dreadplate Sabatons
+				{ 104, 145897 }, -- Ferocious Combatant's Dreadplate Gauntlets
+				{ 105, 145899 }, -- Ferocious Combatant's Dreadplate Helm
+				{ 106, 145901 }, -- Ferocious Combatant's Dreadplate Legguards
+				{ 107, 145903 }, -- Ferocious Combatant's Dreadplate Shoulders
+				{ 108, 145905 }, -- Ferocious Combatant's Dreadplate Girdle
+				{ 109, 145907 }, -- Ferocious Combatant's Dreadplate Wristplates
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145626 }, -- Ferocious Gladiator's Dragonhide Cloak
+				{ 2, 145678 }, -- Ferocious Gladiator's Dragonhide Robe
+				{ 3, 145680 }, -- Ferocious Gladiator's Dragonhide Moccasins
+				{ 4, 145682 }, -- Ferocious Gladiator's Dragonhide Gloves
+				{ 5, 145684 }, -- Ferocious Gladiator's Dragonhide Helm
+				{ 6, 145686 }, -- Ferocious Gladiator's Dragonhide Legguards
+				{ 7, 145688 }, -- Ferocious Gladiator's Dragonhide Spaulders
+				{ 8, 145690 }, -- Ferocious Gladiator's Dragonhide Belt
+				{ 9, 145692 }, -- Ferocious Gladiator's Dragonhide Wristguards
+				{ 16, 145380 }, -- Ferocious Gladiator's Dragonhide Cloak
+				{ 17, 145432 }, -- Ferocious Gladiator's Dragonhide Robe
+				{ 18, 145434 }, -- Ferocious Gladiator's Dragonhide Moccasins
+				{ 19, 145436 }, -- Ferocious Gladiator's Dragonhide Gloves
+				{ 20, 145438 }, -- Ferocious Gladiator's Dragonhide Helm
+				{ 21, 145440 }, -- Ferocious Gladiator's Dragonhide Legguards
+				{ 22, 145442 }, -- Ferocious Gladiator's Dragonhide Spaulders
+				{ 23, 145444 }, -- Ferocious Gladiator's Dragonhide Belt
+				{ 24, 145446 }, -- Ferocious Gladiator's Dragonhide Wristguards
+				{ 101, 145872 }, -- Ferocious Combatant's Dragonhide Cloak
+				{ 102, 145924 }, -- Ferocious Combatant's Dragonhide Tunic
+				{ 103, 145926 }, -- Ferocious Combatant's Dragonhide Moccasins
+				{ 104, 145928 }, -- Ferocious Combatant's Dragonhide Gloves
+				{ 105, 145930 }, -- Ferocious Combatant's Dragonhide Helm
+				{ 106, 145932 }, -- Ferocious Combatant's Dragonhide Legguards
+				{ 107, 145934 }, -- Ferocious Combatant's Dragonhide Spaulders
+				{ 108, 145936 }, -- Ferocious Combatant's Dragonhide Belt
+				{ 109, 145938 }, -- Ferocious Combatant's Dragonhide Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145627 }, -- Ferocious Gladiator's Dragonhide Cloak
+				{ 2, 145679 }, -- Ferocious Gladiator's Dragonhide Robe
+				{ 3, 145681 }, -- Ferocious Gladiator's Dragonhide Moccasins
+				{ 4, 145683 }, -- Ferocious Gladiator's Dragonhide Gloves
+				{ 5, 145685 }, -- Ferocious Gladiator's Dragonhide Helm
+				{ 6, 145687 }, -- Ferocious Gladiator's Dragonhide Legguards
+				{ 7, 145689 }, -- Ferocious Gladiator's Dragonhide Spaulders
+				{ 8, 145691 }, -- Ferocious Gladiator's Dragonhide Belt
+				{ 9, 145693 }, -- Ferocious Gladiator's Dragonhide Wristguards
+				{ 16, 145381 }, -- Ferocious Gladiator's Dragonhide Cloak
+				{ 17, 145433 }, -- Ferocious Gladiator's Dragonhide Robe
+				{ 18, 145435 }, -- Ferocious Gladiator's Dragonhide Moccasins
+				{ 19, 145437 }, -- Ferocious Gladiator's Dragonhide Gloves
+				{ 20, 145439 }, -- Ferocious Gladiator's Dragonhide Helm
+				{ 21, 145441 }, -- Ferocious Gladiator's Dragonhide Legguards
+				{ 22, 145443 }, -- Ferocious Gladiator's Dragonhide Spaulders
+				{ 23, 145445 }, -- Ferocious Gladiator's Dragonhide Belt
+				{ 24, 145447 }, -- Ferocious Gladiator's Dragonhide Wristguards
+				{ 101, 145873 }, -- Ferocious Combatant's Dragonhide Cloak
+				{ 102, 145925 }, -- Ferocious Combatant's Dragonhide Tunic
+				{ 103, 145927 }, -- Ferocious Combatant's Dragonhide Moccasins
+				{ 104, 145929 }, -- Ferocious Combatant's Dragonhide Gloves
+				{ 105, 145931 }, -- Ferocious Combatant's Dragonhide Helm
+				{ 106, 145933 }, -- Ferocious Combatant's Dragonhide Legguards
+				{ 107, 145935 }, -- Ferocious Combatant's Dragonhide Spaulders
+				{ 108, 145937 }, -- Ferocious Combatant's Dragonhide Belt
+				{ 109, 145939 }, -- Ferocious Combatant's Dragonhide Wristguards
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145628 }, -- Ferocious Gladiator's Drape of the Tracker
+				{ 2, 145694 }, -- Ferocious Gladiator's Chain Armor
+				{ 3, 145696 }, -- Ferocious Gladiator's Chain Treads
+				{ 4, 145698 }, -- Ferocious Gladiator's Chain Gauntlets
+				{ 5, 145700 }, -- Ferocious Gladiator's Chain Helm
+				{ 6, 145702 }, -- Ferocious Gladiator's Chain Leggings
+				{ 7, 145704 }, -- Ferocious Gladiator's Chain Spaulders
+				{ 8, 145706 }, -- Ferocious Gladiator's Chain Clasp
+				{ 9, 145708 }, -- Ferocious Gladiator's Chain Armband
+				{ 16, 145382 }, -- Ferocious Gladiator's Drape of the Tracker
+				{ 17, 145448 }, -- Ferocious Gladiator's Chain Armor
+				{ 18, 145450 }, -- Ferocious Gladiator's Chain Treads
+				{ 19, 145452 }, -- Ferocious Gladiator's Chain Gauntlets
+				{ 20, 145454 }, -- Ferocious Gladiator's Chain Helm
+				{ 21, 145456 }, -- Ferocious Gladiator's Chain Leggings
+				{ 22, 145458 }, -- Ferocious Gladiator's Chain Spaulders
+				{ 23, 145460 }, -- Ferocious Gladiator's Chain Clasp
+				{ 24, 145462 }, -- Ferocious Gladiator's Chain Armband
+				{ 101, 145874 }, -- Ferocious Combatant's Drape of the Tracker
+				{ 102, 145940 }, -- Ferocious Combatant's Chain Armor
+				{ 103, 145942 }, -- Ferocious Combatant's Chain Treads
+				{ 104, 145944 }, -- Ferocious Combatant's Chain Gauntlets
+				{ 105, 145946 }, -- Ferocious Combatant's Chain Helm
+				{ 106, 145948 }, -- Ferocious Combatant's Chain Leggings
+				{ 107, 145950 }, -- Ferocious Combatant's Chain Spaulders
+				{ 108, 145952 }, -- Ferocious Combatant's Chain Clasp
+				{ 109, 145954 }, -- Ferocious Combatant's Chain Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145629 }, -- Ferocious Gladiator's Drape of the Tracker
+				{ 2, 145695 }, -- Ferocious Gladiator's Chain Armor
+				{ 3, 145697 }, -- Ferocious Gladiator's Chain Treads
+				{ 4, 145699 }, -- Ferocious Gladiator's Chain Gauntlets
+				{ 5, 145701 }, -- Ferocious Gladiator's Chain Helm
+				{ 6, 145703 }, -- Ferocious Gladiator's Chain Leggings
+				{ 7, 145705 }, -- Ferocious Gladiator's Chain Spaulders
+				{ 8, 145707 }, -- Ferocious Gladiator's Chain Clasp
+				{ 9, 145709 }, -- Ferocious Gladiator's Chain Armband
+				{ 16, 145383 }, -- Ferocious Gladiator's Drape of the Tracker
+				{ 17, 145449 }, -- Ferocious Gladiator's Chain Armor
+				{ 18, 145451 }, -- Ferocious Gladiator's Chain Treads
+				{ 19, 145453 }, -- Ferocious Gladiator's Chain Gauntlets
+				{ 20, 145455 }, -- Ferocious Gladiator's Chain Helm
+				{ 21, 145457 }, -- Ferocious Gladiator's Chain Leggings
+				{ 22, 145459 }, -- Ferocious Gladiator's Chain Spaulders
+				{ 23, 145461 }, -- Ferocious Gladiator's Chain Clasp
+				{ 24, 145463 }, -- Ferocious Gladiator's Chain Armband
+				{ 101, 145875 }, -- Ferocious Combatant's Drape of the Tracker
+				{ 102, 145941 }, -- Ferocious Combatant's Chain Armor
+				{ 103, 145943 }, -- Ferocious Combatant's Chain Treads
+				{ 104, 145945 }, -- Ferocious Combatant's Chain Gauntlets
+				{ 105, 145947 }, -- Ferocious Combatant's Chain Helm
+				{ 106, 145949 }, -- Ferocious Combatant's Chain Leggings
+				{ 107, 145951 }, -- Ferocious Combatant's Chain Spaulders
+				{ 108, 145953 }, -- Ferocious Combatant's Chain Clasp
+				{ 109, 145955 }, -- Ferocious Combatant's Chain Armband
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145630 }, -- Ferocious Gladiator's Silken Shawl
+				{ 2, 145710 }, -- Ferocious Gladiator's Silk Treads
+				{ 3, 145712 }, -- Ferocious Gladiator's Silk Handguards
+				{ 4, 145714 }, -- Ferocious Gladiator's Silk Cowl
+				{ 5, 145716 }, -- Ferocious Gladiator's Silk Trousers
+				{ 6, 145718 }, -- Ferocious Gladiator's Silk Robe
+				{ 7, 145720 }, -- Ferocious Gladiator's Silk Amice
+				{ 8, 145722 }, -- Ferocious Gladiator's Silk Cord
+				{ 9, 145724 }, -- Ferocious Gladiator's Silk Bracers
+				{ 16, 145384 }, -- Ferocious Gladiator's Silken Shawl
+				{ 17, 145464 }, -- Ferocious Gladiator's Silk Treads
+				{ 18, 145466 }, -- Ferocious Gladiator's Silk Handguards
+				{ 19, 145468 }, -- Ferocious Gladiator's Silk Cowl
+				{ 20, 145470 }, -- Ferocious Gladiator's Silk Trousers
+				{ 21, 145472 }, -- Ferocious Gladiator's Silk Robe
+				{ 22, 145474 }, -- Ferocious Gladiator's Silk Amice
+				{ 23, 145476 }, -- Ferocious Gladiator's Silk Cord
+				{ 24, 145478 }, -- Ferocious Gladiator's Silk Bracers
+				{ 101, 145876 }, -- Ferocious Combatant's Silken Shawl
+				{ 102, 145956 }, -- Ferocious Combatant's Silk Treads
+				{ 103, 145958 }, -- Ferocious Combatant's Silk Handguards
+				{ 104, 145960 }, -- Ferocious Combatant's Silk Cowl
+				{ 105, 145962 }, -- Ferocious Combatant's Silk Trousers
+				{ 106, 145964 }, -- Ferocious Combatant's Silk Robe
+				{ 107, 145966 }, -- Ferocious Combatant's Silk Amice
+				{ 108, 145968 }, -- Ferocious Combatant's Silk Cord
+				{ 109, 145970 }, -- Ferocious Combatant's Silk Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145631 }, -- Ferocious Gladiator's Silken Shawl
+				{ 2, 145711 }, -- Ferocious Gladiator's Silk Treads
+				{ 3, 145713 }, -- Ferocious Gladiator's Silk Handguards
+				{ 4, 145715 }, -- Ferocious Gladiator's Silk Cowl
+				{ 5, 145717 }, -- Ferocious Gladiator's Silk Trousers
+				{ 6, 145719 }, -- Ferocious Gladiator's Silk Robe
+				{ 7, 145721 }, -- Ferocious Gladiator's Silk Amice
+				{ 8, 145723 }, -- Ferocious Gladiator's Silk Cord
+				{ 9, 145725 }, -- Ferocious Gladiator's Silk Bracers
+				{ 16, 145385 }, -- Ferocious Gladiator's Silken Shawl
+				{ 17, 145465 }, -- Ferocious Gladiator's Silk Treads
+				{ 18, 145467 }, -- Ferocious Gladiator's Silk Handguards
+				{ 19, 145469 }, -- Ferocious Gladiator's Silk Cowl
+				{ 20, 145471 }, -- Ferocious Gladiator's Silk Trousers
+				{ 21, 145473 }, -- Ferocious Gladiator's Silk Robe
+				{ 22, 145475 }, -- Ferocious Gladiator's Silk Amice
+				{ 23, 145477 }, -- Ferocious Gladiator's Silk Cord
+				{ 24, 145479 }, -- Ferocious Gladiator's Silk Bracers
+				{ 101, 145877 }, -- Ferocious Combatant's Silken Shawl
+				{ 102, 145957 }, -- Ferocious Combatant's Silk Treads
+				{ 103, 145959 }, -- Ferocious Combatant's Silk Handguards
+				{ 104, 145961 }, -- Ferocious Combatant's Silk Cowl
+				{ 105, 145963 }, -- Ferocious Combatant's Silk Trousers
+				{ 106, 145965 }, -- Ferocious Combatant's Silk Robe
+				{ 107, 145967 }, -- Ferocious Combatant's Silk Amice
+				{ 108, 145969 }, -- Ferocious Combatant's Silk Cord
+				{ 109, 145971 }, -- Ferocious Combatant's Silk Bracers
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145632 }, -- Ferocious Gladiator's Ironskin Cloak
+				{ 2, 145726 }, -- Ferocious Gladiator's Ironskin Slippers
+				{ 3, 145728 }, -- Ferocious Gladiator's Ironskin Gloves
+				{ 4, 145730 }, -- Ferocious Gladiator's Ironskin Helm
+				{ 5, 145732 }, -- Ferocious Gladiator's Ironskin Legguards
+				{ 6, 145734 }, -- Ferocious Gladiator's Ironskin Spaulders
+				{ 7, 145736 }, -- Ferocious Gladiator's Ironskin Tunic
+				{ 8, 145738 }, -- Ferocious Gladiator's Ironskin Belt
+				{ 9, 145740 }, -- Ferocious Gladiator's Ironskin Wristguards
+				{ 16, 145386 }, -- Ferocious Gladiator's Ironskin Cloak
+				{ 17, 145480 }, -- Ferocious Gladiator's Ironskin Slippers
+				{ 18, 145482 }, -- Ferocious Gladiator's Ironskin Gloves
+				{ 19, 145484 }, -- Ferocious Gladiator's Ironskin Helm
+				{ 20, 145486 }, -- Ferocious Gladiator's Ironskin Legguards
+				{ 21, 145488 }, -- Ferocious Gladiator's Ironskin Spaulders
+				{ 22, 145490 }, -- Ferocious Gladiator's Ironskin Tunic
+				{ 23, 145492 }, -- Ferocious Gladiator's Ironskin Belt
+				{ 24, 145494 }, -- Ferocious Gladiator's Ironskin Wristguards
+				{ 101, 145878 }, -- Ferocious Combatant's Ironskin Cloak
+				{ 102, 145972 }, -- Ferocious Combatant's Ironskin Slippers
+				{ 103, 145974 }, -- Ferocious Combatant's Ironskin Gloves
+				{ 104, 145976 }, -- Ferocious Combatant's Ironskin Helm
+				{ 105, 145978 }, -- Ferocious Combatant's Ironskin Legguards
+				{ 106, 145980 }, -- Ferocious Combatant's Ironskin Spaulders
+				{ 107, 145982 }, -- Ferocious Combatant's Ironskin Tunic
+				{ 108, 145984 }, -- Ferocious Combatant's Ironskin Belt
+				{ 109, 145986 }, -- Ferocious Combatant's Ironskin Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145633 }, -- Ferocious Gladiator's Ironskin Cloak
+				{ 2, 145727 }, -- Ferocious Gladiator's Ironskin Slippers
+				{ 3, 145729 }, -- Ferocious Gladiator's Ironskin Gloves
+				{ 4, 145731 }, -- Ferocious Gladiator's Ironskin Helm
+				{ 5, 145733 }, -- Ferocious Gladiator's Ironskin Legguards
+				{ 6, 145735 }, -- Ferocious Gladiator's Ironskin Spaulders
+				{ 7, 145737 }, -- Ferocious Gladiator's Ironskin Tunic
+				{ 8, 145739 }, -- Ferocious Gladiator's Ironskin Belt
+				{ 9, 145741 }, -- Ferocious Gladiator's Ironskin Wristguards
+				{ 16, 145387 }, -- Ferocious Gladiator's Ironskin Cloak
+				{ 17, 145481 }, -- Ferocious Gladiator's Ironskin Slippers
+				{ 18, 145483 }, -- Ferocious Gladiator's Ironskin Gloves
+				{ 19, 145485 }, -- Ferocious Gladiator's Ironskin Helm
+				{ 20, 145487 }, -- Ferocious Gladiator's Ironskin Legguards
+				{ 21, 145489 }, -- Ferocious Gladiator's Ironskin Spaulders
+				{ 22, 145491 }, -- Ferocious Gladiator's Ironskin Tunic
+				{ 23, 145493 }, -- Ferocious Gladiator's Ironskin Belt
+				{ 24, 145495 }, -- Ferocious Gladiator's Ironskin Wristguards
+				{ 101, 145879 }, -- Ferocious Combatant's Ironskin Cloak
+				{ 102, 145973 }, -- Ferocious Combatant's Ironskin Slippers
+				{ 103, 145975 }, -- Ferocious Combatant's Ironskin Gloves
+				{ 104, 145977 }, -- Ferocious Combatant's Ironskin Helm
+				{ 105, 145979 }, -- Ferocious Combatant's Ironskin Legguards
+				{ 106, 145981 }, -- Ferocious Combatant's Ironskin Spaulders
+				{ 107, 145983 }, -- Ferocious Combatant's Ironskin Tunic
+				{ 108, 145985 }, -- Ferocious Combatant's Ironskin Belt
+				{ 109, 145987 }, -- Ferocious Combatant's Ironskin Wristguards
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145634 }, -- Ferocious Gladiator's Greatcloak of Faith
+				{ 2, 145748 }, -- Ferocious Gladiator's Scaled Breastplate
+				{ 3, 145750 }, -- Ferocious Gladiator's Scaled Sabatons
+				{ 4, 145752 }, -- Ferocious Gladiator's Scaled Gauntlets
+				{ 5, 145754 }, -- Ferocious Gladiator's Scaled Helm
+				{ 6, 145756 }, -- Ferocious Gladiator's Scaled Legguards
+				{ 7, 145758 }, -- Ferocious Gladiator's Scaled Shoulders
+				{ 8, 145760 }, -- Ferocious Gladiator's Scaled Girdle
+				{ 9, 145762 }, -- Ferocious Gladiator's Scaled Wristplates
+				{ 16, 145388 }, -- Ferocious Gladiator's Greatcloak of Faith
+				{ 17, 145503 }, -- Ferocious Gladiator's Scaled Sabatons
+				{ 18, 145505 }, -- Ferocious Gladiator's Scaled Gauntlets
+				{ 19, 145507 }, -- Ferocious Gladiator's Scaled Helm
+				{ 20, 145509 }, -- Ferocious Gladiator's Scaled Legguards
+				{ 21, 145511 }, -- Ferocious Gladiator's Scaled Breastplate
+				{ 22, 145512 }, -- Ferocious Gladiator's Scaled Shoulders
+				{ 23, 145514 }, -- Ferocious Gladiator's Scaled Girdle
+				{ 24, 145516 }, -- Ferocious Gladiator's Scaled Wristplates
+				{ 101, 145880 }, -- Ferocious Combatant's Greatcloak of Faith
+				{ 102, 145994 }, -- Ferocious Combatant's Scaled Chestpiece
+				{ 103, 145996 }, -- Ferocious Combatant's Scaled Sabatons
+				{ 104, 145998 }, -- Ferocious Combatant's Scaled Gauntlets
+				{ 105, 146000 }, -- Ferocious Combatant's Scaled Helm
+				{ 106, 146002 }, -- Ferocious Combatant's Scaled Legguards
+				{ 107, 146004 }, -- Ferocious Combatant's Scaled Shoulders
+				{ 108, 146006 }, -- Ferocious Combatant's Scaled Girdle
+				{ 109, 146008 }, -- Ferocious Combatant's Scaled Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145635 }, -- Ferocious Gladiator's Greatcloak of Faith
+				{ 2, 145749 }, -- Ferocious Gladiator's Scaled Breastplate
+				{ 3, 145751 }, -- Ferocious Gladiator's Scaled Sabatons
+				{ 4, 145753 }, -- Ferocious Gladiator's Scaled Gauntlets
+				{ 5, 145755 }, -- Ferocious Gladiator's Scaled Helm
+				{ 6, 145757 }, -- Ferocious Gladiator's Scaled Legguards
+				{ 7, 145759 }, -- Ferocious Gladiator's Scaled Shoulders
+				{ 8, 145761 }, -- Ferocious Gladiator's Scaled Girdle
+				{ 9, 145763 }, -- Ferocious Gladiator's Scaled Wristplates
+				{ 16, 145389 }, -- Ferocious Gladiator's Greatcloak of Faith
+				{ 17, 145502 }, -- Ferocious Gladiator's Scaled Breastplate
+				{ 18, 145504 }, -- Ferocious Gladiator's Scaled Sabatons
+				{ 19, 145506 }, -- Ferocious Gladiator's Scaled Gauntlets
+				{ 20, 145508 }, -- Ferocious Gladiator's Scaled Helm
+				{ 21, 145510 }, -- Ferocious Gladiator's Scaled Legguards
+				{ 22, 145513 }, -- Ferocious Gladiator's Scaled Shoulders
+				{ 23, 145515 }, -- Ferocious Gladiator's Scaled Girdle
+				{ 24, 145517 }, -- Ferocious Gladiator's Scaled Wristplates
+				{ 101, 145881 }, -- Ferocious Combatant's Greatcloak of Faith
+				{ 102, 145995 }, -- Ferocious Combatant's Scaled Chestpiece
+				{ 103, 145997 }, -- Ferocious Combatant's Scaled Sabatons
+				{ 104, 145999 }, -- Ferocious Combatant's Scaled Gauntlets
+				{ 105, 146001 }, -- Ferocious Combatant's Scaled Helm
+				{ 106, 146003 }, -- Ferocious Combatant's Scaled Legguards
+				{ 107, 146005 }, -- Ferocious Combatant's Scaled Shoulders
+				{ 108, 146007 }, -- Ferocious Combatant's Scaled Girdle
+				{ 109, 146009 }, -- Ferocious Combatant's Scaled Wristplates
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145636 }, -- Ferocious Gladiator's Drape of Piety
+				{ 2, 145764 }, -- Ferocious Gladiator's Satin Treads
+				{ 3, 145766 }, -- Ferocious Gladiator's Satin Gloves
+				{ 4, 145768 }, -- Ferocious Gladiator's Satin Hood
+				{ 5, 145770 }, -- Ferocious Gladiator's Satin Leggings
+				{ 6, 145772 }, -- Ferocious Gladiator's Satin Robe
+				{ 7, 145774 }, -- Ferocious Gladiator's Satin Mantle
+				{ 8, 145776 }, -- Ferocious Gladiator's Satin Cord
+				{ 9, 145778 }, -- Ferocious Gladiator's Satin Bracers
+				{ 16, 145390 }, -- Ferocious Gladiator's Drape of Piety
+				{ 17, 145518 }, -- Ferocious Gladiator's Satin Treads
+				{ 18, 145520 }, -- Ferocious Gladiator's Satin Gloves
+				{ 19, 145522 }, -- Ferocious Gladiator's Satin Hood
+				{ 20, 145524 }, -- Ferocious Gladiator's Satin Leggings
+				{ 21, 145526 }, -- Ferocious Gladiator's Satin Robe
+				{ 22, 145528 }, -- Ferocious Gladiator's Satin Mantle
+				{ 23, 145530 }, -- Ferocious Gladiator's Satin Cord
+				{ 24, 145532 }, -- Ferocious Gladiator's Satin Bracers
+				{ 101, 145882 }, -- Ferocious Combatant's Drape of Piety
+				{ 102, 146010 }, -- Ferocious Combatant's Satin Treads
+				{ 103, 146012 }, -- Ferocious Combatant's Satin Gloves
+				{ 104, 146014 }, -- Ferocious Combatant's Satin Hood
+				{ 105, 146016 }, -- Ferocious Combatant's Satin Leggings
+				{ 106, 146018 }, -- Ferocious Combatant's Satin Robe
+				{ 107, 146020 }, -- Ferocious Combatant's Satin Mantle
+				{ 108, 146022 }, -- Ferocious Combatant's Satin Cord
+				{ 109, 146024 }, -- Ferocious Combatant's Satin Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145637 }, -- Ferocious Gladiator's Drape of Piety
+				{ 2, 145765 }, -- Ferocious Gladiator's Satin Treads
+				{ 3, 145767 }, -- Ferocious Gladiator's Satin Gloves
+				{ 4, 145769 }, -- Ferocious Gladiator's Satin Hood
+				{ 5, 145771 }, -- Ferocious Gladiator's Satin Leggings
+				{ 6, 145773 }, -- Ferocious Gladiator's Satin Robe
+				{ 7, 145775 }, -- Ferocious Gladiator's Satin Mantle
+				{ 8, 145777 }, -- Ferocious Gladiator's Satin Cord
+				{ 9, 145779 }, -- Ferocious Gladiator's Satin Bracers
+				{ 16, 145391 }, -- Ferocious Gladiator's Drape of Piety
+				{ 17, 145519 }, -- Ferocious Gladiator's Satin Treads
+				{ 18, 145521 }, -- Ferocious Gladiator's Satin Gloves
+				{ 19, 145523 }, -- Ferocious Gladiator's Satin Hood
+				{ 20, 145525 }, -- Ferocious Gladiator's Satin Leggings
+				{ 21, 145527 }, -- Ferocious Gladiator's Satin Robe
+				{ 22, 145529 }, -- Ferocious Gladiator's Satin Mantle
+				{ 23, 145531 }, -- Ferocious Gladiator's Satin Cord
+				{ 24, 145533 }, -- Ferocious Gladiator's Satin Bracers
+				{ 101, 145883 }, -- Ferocious Combatant's Drape of Piety
+				{ 102, 146011 }, -- Ferocious Combatant's Satin Treads
+				{ 103, 146013 }, -- Ferocious Combatant's Satin Gloves
+				{ 104, 146015 }, -- Ferocious Combatant's Satin Hood
+				{ 105, 146017 }, -- Ferocious Combatant's Satin Leggings
+				{ 106, 146019 }, -- Ferocious Combatant's Satin Robe
+				{ 107, 146021 }, -- Ferocious Combatant's Satin Mantle
+				{ 108, 146023 }, -- Ferocious Combatant's Satin Cord
+				{ 109, 146025 }, -- Ferocious Combatant's Satin Bracers
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145638 }, -- Ferocious Gladiator's Shadowcape
+				{ 2, 145786 }, -- Ferocious Gladiator's Leather Tunic
+				{ 3, 145788 }, -- Ferocious Gladiator's Leather Slippers
+				{ 4, 145790 }, -- Ferocious Gladiator's Leather Gloves
+				{ 5, 145792 }, -- Ferocious Gladiator's Leather Helm
+				{ 6, 145794 }, -- Ferocious Gladiator's Leather Legguards
+				{ 7, 145796 }, -- Ferocious Gladiator's Leather Spaulders
+				{ 8, 145798 }, -- Ferocious Gladiator's Leather Belt
+				{ 9, 145800 }, -- Ferocious Gladiator's Leather Wristguards
+				{ 16, 145392 }, -- Ferocious Gladiator's Shadowcape
+				{ 17, 145540 }, -- Ferocious Gladiator's Leather Tunic
+				{ 18, 145542 }, -- Ferocious Gladiator's Leather Slippers
+				{ 19, 145544 }, -- Ferocious Gladiator's Leather Gloves
+				{ 20, 145546 }, -- Ferocious Gladiator's Leather Helm
+				{ 21, 145548 }, -- Ferocious Gladiator's Leather Legguards
+				{ 22, 145550 }, -- Ferocious Gladiator's Leather Spaulders
+				{ 23, 145552 }, -- Ferocious Gladiator's Leather Belt
+				{ 24, 145554 }, -- Ferocious Gladiator's Leather Wristguards
+				{ 101, 145884 }, -- Ferocious Combatant's Shadowcape
+				{ 102, 146032 }, -- Ferocious Combatant's Leather Tunic
+				{ 103, 146034 }, -- Ferocious Combatant's Leather Slippers
+				{ 104, 146036 }, -- Ferocious Combatant's Leather Gloves
+				{ 105, 146038 }, -- Ferocious Combatant's Leather Helm
+				{ 106, 146040 }, -- Ferocious Combatant's Leather Legguards
+				{ 107, 146042 }, -- Ferocious Combatant's Leather Spaulders
+				{ 108, 146044 }, -- Ferocious Combatant's Leather Belt
+				{ 109, 146046 }, -- Ferocious Combatant's Leather Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145639 }, -- Ferocious Gladiator's Shadowcape
+				{ 2, 145787 }, -- Ferocious Gladiator's Leather Tunic
+				{ 3, 145789 }, -- Ferocious Gladiator's Leather Slippers
+				{ 4, 145791 }, -- Ferocious Gladiator's Leather Gloves
+				{ 5, 145793 }, -- Ferocious Gladiator's Leather Helm
+				{ 6, 145795 }, -- Ferocious Gladiator's Leather Legguards
+				{ 7, 145797 }, -- Ferocious Gladiator's Leather Spaulders
+				{ 8, 145799 }, -- Ferocious Gladiator's Leather Belt
+				{ 9, 145801 }, -- Ferocious Gladiator's Leather Wristguards
+				{ 16, 145393 }, -- Ferocious Gladiator's Shadowcape
+				{ 17, 145541 }, -- Ferocious Gladiator's Leather Tunic
+				{ 18, 145543 }, -- Ferocious Gladiator's Leather Slippers
+				{ 19, 145545 }, -- Ferocious Gladiator's Leather Gloves
+				{ 20, 145547 }, -- Ferocious Gladiator's Leather Helm
+				{ 21, 145549 }, -- Ferocious Gladiator's Leather Legguards
+				{ 22, 145551 }, -- Ferocious Gladiator's Leather Spaulders
+				{ 23, 145553 }, -- Ferocious Gladiator's Leather Belt
+				{ 24, 145555 }, -- Ferocious Gladiator's Leather Wristguards
+				{ 101, 145885 }, -- Ferocious Combatant's Shadowcape
+				{ 102, 146033 }, -- Ferocious Combatant's Leather Tunic
+				{ 103, 146035 }, -- Ferocious Combatant's Leather Slippers
+				{ 104, 146037 }, -- Ferocious Combatant's Leather Gloves
+				{ 105, 146039 }, -- Ferocious Combatant's Leather Helm
+				{ 106, 146041 }, -- Ferocious Combatant's Leather Legguards
+				{ 107, 146043 }, -- Ferocious Combatant's Leather Spaulders
+				{ 108, 146045 }, -- Ferocious Combatant's Leather Belt
+				{ 109, 146047 }, -- Ferocious Combatant's Leather Wristguards
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145640 }, -- Ferocious Gladiator's Totemic Cloak
+				{ 2, 145802 }, -- Ferocious Gladiator's Ringmail Armor
+				{ 3, 145804 }, -- Ferocious Gladiator's Ringmail Boots
+				{ 4, 145806 }, -- Ferocious Gladiator's Ringmail Gauntlets
+				{ 5, 145808 }, -- Ferocious Gladiator's Ringmail Helm
+				{ 6, 145810 }, -- Ferocious Gladiator's Ringmail Kilt
+				{ 7, 145812 }, -- Ferocious Gladiator's Ringmail Spaulders
+				{ 8, 145814 }, -- Ferocious Gladiator's Ringmail Clasp
+				{ 9, 145816 }, -- Ferocious Gladiator's Ringmail Armband
+				{ 16, 145394 }, -- Ferocious Gladiator's Totemic Cloak
+				{ 17, 145556 }, -- Ferocious Gladiator's Ringmail Armor
+				{ 18, 145558 }, -- Ferocious Gladiator's Ringmail Boots
+				{ 19, 145560 }, -- Ferocious Gladiator's Ringmail Gauntlets
+				{ 20, 145562 }, -- Ferocious Gladiator's Ringmail Helm
+				{ 21, 145564 }, -- Ferocious Gladiator's Ringmail Kilt
+				{ 22, 145566 }, -- Ferocious Gladiator's Ringmail Spaulders
+				{ 23, 145568 }, -- Ferocious Gladiator's Ringmail Clasp
+				{ 24, 145570 }, -- Ferocious Gladiator's Ringmail Armband
+				{ 101, 145886 }, -- Ferocious Combatant's Totemic Cloak
+				{ 102, 146048 }, -- Ferocious Combatant's Ringmail Armor
+				{ 103, 146050 }, -- Ferocious Combatant's Ringmail Boots
+				{ 104, 146052 }, -- Ferocious Combatant's Ringmail Gauntlets
+				{ 105, 146054 }, -- Ferocious Combatant's Ringmail Helm
+				{ 106, 146056 }, -- Ferocious Combatant's Ringmail Kilt
+				{ 107, 146058 }, -- Ferocious Combatant's Ringmail Spaulders
+				{ 108, 146060 }, -- Ferocious Combatant's Ringmail Clasp
+				{ 109, 146062 }, -- Ferocious Combatant's Ringmail Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145641 }, -- Ferocious Gladiator's Totemic Cloak
+				{ 2, 145803 }, -- Ferocious Gladiator's Ringmail Armor
+				{ 3, 145805 }, -- Ferocious Gladiator's Ringmail Boots
+				{ 4, 145807 }, -- Ferocious Gladiator's Ringmail Gauntlets
+				{ 5, 145809 }, -- Ferocious Gladiator's Ringmail Helm
+				{ 6, 145811 }, -- Ferocious Gladiator's Ringmail Kilt
+				{ 7, 145813 }, -- Ferocious Gladiator's Ringmail Spaulders
+				{ 8, 145815 }, -- Ferocious Gladiator's Ringmail Clasp
+				{ 9, 145817 }, -- Ferocious Gladiator's Ringmail Armband
+				{ 16, 145395 }, -- Ferocious Gladiator's Totemic Cloak
+				{ 17, 145557 }, -- Ferocious Gladiator's Ringmail Armor
+				{ 18, 145559 }, -- Ferocious Gladiator's Ringmail Boots
+				{ 19, 145561 }, -- Ferocious Gladiator's Ringmail Gauntlets
+				{ 20, 145563 }, -- Ferocious Gladiator's Ringmail Helm
+				{ 21, 145565 }, -- Ferocious Gladiator's Ringmail Kilt
+				{ 22, 145567 }, -- Ferocious Gladiator's Ringmail Spaulders
+				{ 23, 145569 }, -- Ferocious Gladiator's Ringmail Clasp
+				{ 24, 145571 }, -- Ferocious Gladiator's Ringmail Armband
+				{ 101, 145887 }, -- Ferocious Combatant's Totemic Cloak
+				{ 102, 146049 }, -- Ferocious Combatant's Ringmail Armor
+				{ 103, 146051 }, -- Ferocious Combatant's Ringmail Boots
+				{ 104, 146053 }, -- Ferocious Combatant's Ringmail Gauntlets
+				{ 105, 146055 }, -- Ferocious Combatant's Ringmail Helm
+				{ 106, 146057 }, -- Ferocious Combatant's Ringmail Leggings
+				{ 107, 146059 }, -- Ferocious Combatant's Ringmail Spaulders
+				{ 108, 146061 }, -- Ferocious Combatant's Ringmail Clasp
+				{ 109, 146063 }, -- Ferocious Combatant's Ringmail Armband
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145642 }, -- Ferocious Gladiator's Felweave Cloak
+				{ 2, 145836 }, -- Ferocious Gladiator's Felweave Treads
+				{ 3, 145838 }, -- Ferocious Gladiator's Felweave Handguards
+				{ 4, 145840 }, -- Ferocious Gladiator's Felweave Cowl
+				{ 5, 145842 }, -- Ferocious Gladiator's Felweave Trousers
+				{ 6, 145844 }, -- Ferocious Gladiator's Felweave Raiment
+				{ 7, 145846 }, -- Ferocious Gladiator's Felweave Amice
+				{ 8, 145848 }, -- Ferocious Gladiator's Felweave Cord
+				{ 9, 145850 }, -- Ferocious Gladiator's Felweave Bracers
+				{ 16, 145396 }, -- Ferocious Gladiator's Felweave Cloak
+				{ 17, 145590 }, -- Ferocious Gladiator's Felweave Treads
+				{ 18, 145592 }, -- Ferocious Gladiator's Felweave Handguards
+				{ 19, 145594 }, -- Ferocious Gladiator's Felweave Cowl
+				{ 20, 145596 }, -- Ferocious Gladiator's Felweave Trousers
+				{ 21, 145598 }, -- Ferocious Gladiator's Felweave Raiment
+				{ 22, 145600 }, -- Ferocious Gladiator's Felweave Amice
+				{ 23, 145602 }, -- Ferocious Gladiator's Felweave Cord
+				{ 24, 145604 }, -- Ferocious Gladiator's Felweave Bracers
+				{ 101, 145888 }, -- Ferocious Combatant's Felweave Cloak
+				{ 102, 146082 }, -- Ferocious Combatant's Felweave Treads
+				{ 103, 146084 }, -- Ferocious Combatant's Felweave Handguards
+				{ 104, 146086 }, -- Ferocious Combatant's Felweave Cowl
+				{ 105, 146088 }, -- Ferocious Combatant's Felweave Trousers
+				{ 106, 146090 }, -- Ferocious Combatant's Felweave Raiment
+				{ 107, 146092 }, -- Ferocious Combatant's Felweave Amice
+				{ 108, 146094 }, -- Ferocious Combatant's Felweave Cord
+				{ 109, 146096 }, -- Ferocious Combatant's Felweave Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145643 }, -- Ferocious Gladiator's Felweave Cloak
+				{ 2, 145837 }, -- Ferocious Gladiator's Felweave Treads
+				{ 3, 145839 }, -- Ferocious Gladiator's Felweave Handguards
+				{ 4, 145841 }, -- Ferocious Gladiator's Felweave Cowl
+				{ 5, 145843 }, -- Ferocious Gladiator's Felweave Trousers
+				{ 6, 145845 }, -- Ferocious Gladiator's Felweave Raiment
+				{ 7, 145847 }, -- Ferocious Gladiator's Felweave Amice
+				{ 8, 145849 }, -- Ferocious Gladiator's Felweave Cord
+				{ 9, 145851 }, -- Ferocious Gladiator's Felweave Bracers
+				{ 16, 145397 }, -- Ferocious Gladiator's Felweave Cloak
+				{ 17, 145591 }, -- Ferocious Gladiator's Felweave Treads
+				{ 18, 145593 }, -- Ferocious Gladiator's Felweave Handguards
+				{ 19, 145595 }, -- Ferocious Gladiator's Felweave Cowl
+				{ 20, 145597 }, -- Ferocious Gladiator's Felweave Trousers
+				{ 21, 145599 }, -- Ferocious Gladiator's Felweave Raiment
+				{ 22, 145601 }, -- Ferocious Gladiator's Felweave Amice
+				{ 23, 145603 }, -- Ferocious Gladiator's Felweave Cord
+				{ 24, 145605 }, -- Ferocious Gladiator's Felweave Bracers
+				{ 101, 145889 }, -- Ferocious Combatant's Felweave Cloak
+				{ 102, 146083 }, -- Ferocious Combatant's Felweave Treads
+				{ 103, 146085 }, -- Ferocious Combatant's Felweave Handguards
+				{ 104, 146087 }, -- Ferocious Combatant's Felweave Cowl
+				{ 105, 146089 }, -- Ferocious Combatant's Felweave Trousers
+				{ 106, 146091 }, -- Ferocious Combatant's Felweave Raiment
+				{ 107, 146093 }, -- Ferocious Combatant's Felweave Amice
+				{ 108, 146095 }, -- Ferocious Combatant's Felweave Cord
+				{ 109, 146097 }, -- Ferocious Combatant's Felweave Bracers
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 145644 }, -- Ferocious Gladiator's Cloak of Battle
+				{ 2, 145852 }, -- Ferocious Gladiator's Plate Chestpiece
+				{ 3, 145854 }, -- Ferocious Gladiator's Plate Warboots
+				{ 4, 145856 }, -- Ferocious Gladiator's Plate Gauntlets
+				{ 5, 145858 }, -- Ferocious Gladiator's Plate Helm
+				{ 6, 145860 }, -- Ferocious Gladiator's Plate Legguards
+				{ 7, 145862 }, -- Ferocious Gladiator's Plate Shoulders
+				{ 8, 145864 }, -- Ferocious Gladiator's Plate Girdle
+				{ 9, 145866 }, -- Ferocious Gladiator's Plate Wristplates
+				{ 16, 145398 }, -- Ferocious Gladiator's Cloak of Battle
+				{ 17, 145606 }, -- Ferocious Gladiator's Plate Chestpiece
+				{ 18, 145608 }, -- Ferocious Gladiator's Plate Warboots
+				{ 19, 145610 }, -- Ferocious Gladiator's Plate Gauntlets
+				{ 20, 145612 }, -- Ferocious Gladiator's Plate Helm
+				{ 21, 145614 }, -- Ferocious Gladiator's Plate Legguards
+				{ 22, 145616 }, -- Ferocious Gladiator's Plate Shoulders
+				{ 23, 145618 }, -- Ferocious Gladiator's Plate Girdle
+				{ 24, 145620 }, -- Ferocious Gladiator's Plate Wristplates
+				{ 101, 145890 }, -- Ferocious Combatant's Cloak of Battle
+				{ 102, 146098 }, -- Ferocious Combatant's Plate Chestpiece
+				{ 103, 146100 }, -- Ferocious Combatant's Plate Warboots
+				{ 104, 146102 }, -- Ferocious Combatant's Plate Gauntlets
+				{ 105, 146104 }, -- Ferocious Combatant's Plate Helm
+				{ 106, 146106 }, -- Ferocious Combatant's Plate Legguards
+				{ 107, 146108 }, -- Ferocious Combatant's Plate Shoulders
+				{ 108, 146110 }, -- Ferocious Combatant's Plate Girdle
+				{ 109, 146112 }, -- Ferocious Combatant's Plate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 145645 }, -- Ferocious Gladiator's Cloak of Battle
+				{ 2, 145853 }, -- Ferocious Gladiator's Plate Chestpiece
+				{ 3, 145855 }, -- Ferocious Gladiator's Plate Warboots
+				{ 4, 145857 }, -- Ferocious Gladiator's Plate Gauntlets
+				{ 5, 145859 }, -- Ferocious Gladiator's Plate Helm
+				{ 6, 145861 }, -- Ferocious Gladiator's Plate Legguards
+				{ 7, 145863 }, -- Ferocious Gladiator's Plate Shoulders
+				{ 8, 145865 }, -- Ferocious Gladiator's Plate Girdle
+				{ 9, 145867 }, -- Ferocious Gladiator's Plate Wristplates
+				{ 16, 145399 }, -- Ferocious Gladiator's Cloak of Battle
+				{ 17, 145607 }, -- Ferocious Gladiator's Plate Chestpiece
+				{ 18, 145609 }, -- Ferocious Gladiator's Plate Warboots
+				{ 19, 145611 }, -- Ferocious Gladiator's Plate Gauntlets
+				{ 20, 145613 }, -- Ferocious Gladiator's Plate Helm
+				{ 21, 145615 }, -- Ferocious Gladiator's Plate Legguards
+				{ 22, 145617 }, -- Ferocious Gladiator's Plate Shoulders
+				{ 23, 145619 }, -- Ferocious Gladiator's Plate Girdle
+				{ 24, 145621 }, -- Ferocious Gladiator's Plate Wristplates
+				{ 101, 145891 }, -- Ferocious Combatant's Cloak of Battle
+				{ 102, 146099 }, -- Ferocious Combatant's Plate Chestpiece
+				{ 103, 146101 }, -- Ferocious Combatant's Plate Warboots
+				{ 104, 146103 }, -- Ferocious Combatant's Plate Gauntlets
+				{ 105, 146105 }, -- Ferocious Combatant's Plate Helm
+				{ 106, 146107 }, -- Ferocious Combatant's Plate Legguards
+				{ 107, 146109 }, -- Ferocious Combatant's Plate Shoulders
+				{ 108, 146111 }, -- Ferocious Combatant's Plate Girdle
+				{ 109, 146113 }, -- Ferocious Combatant's Plate Wristplates
+			},
+		},
+	},
+}
+
 data["LEGION4GEAR"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 4).." "..AL["Non-Set Gear"],
 	ContentType = NORMAL_ITTYPE,
@@ -37,9 +788,45 @@ data["LEGION4GEAR"] = {
 				{ 7, 146841, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Treads of the Ferocious Gladiator
 				{ 8, 146842, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Bracers of the Ferocious Gladiator
 				{ 9, 146843, [PRICE_EXTRA_ITTYPE] = "echoofdomination:100" }, -- Cloak of the Ferocious Gladiator
+				-- Amulet
+				{ 11, 145742 }, -- Ferocious Gladiator's Necklace
+				{ 12, 145744 }, -- Ferocious Gladiator's Pendant
+				{ 13, 145746 }, -- Ferocious Gladiator's Choker
+				-- Ring
+				{ 16, 145780 }, -- Ferocious Gladiator's Ring
+				{ 17, 145782 }, -- Ferocious Gladiator's Band
+				{ 18, 145784 }, -- Ferocious Gladiator's Signet
+				-- Trinket
+				{ 20, 145818 }, -- Ferocious Gladiator's Badge of Conquest
+				{ 21, 145820 }, -- Ferocious Gladiator's Accolade of Conquest
+				{ 22, 145822 }, -- Ferocious Gladiator's Insignia of Conquest
+				{ 23, 145824 }, -- Ferocious Gladiator's Badge of Dominance
+				{ 24, 145826 }, -- Ferocious Gladiator's Accolade of Dominance
+				{ 25, 145828 }, -- Ferocious Gladiator's Insignia of Dominance
+				{ 26, 145830 }, -- Ferocious Gladiator's Badge of Victory
+				{ 27, 145832 }, -- Ferocious Gladiator's Accolade of Victory
+				{ 28, 145834 }, -- Ferocious Gladiator's Insignia of Victory
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 11, 145743 }, -- Ferocious Gladiator's Necklace
+				{ 12, 145745 }, -- Ferocious Gladiator's Pendant
+				{ 13, 145747 }, -- Ferocious Gladiator's Choker
+				-- Ring
+				{ 16, 145781 }, -- Ferocious Gladiator's Ring
+				{ 17, 145783 }, -- Ferocious Gladiator's Band
+				{ 18, 145785 }, -- Ferocious Gladiator's Signet
+				-- Trinket
+				{ 20, 145819 }, -- Ferocious Gladiator's Badge of Conquest
+				{ 21, 145821 }, -- Ferocious Gladiator's Accolade of Conquest
+				{ 22, 145823 }, -- Ferocious Gladiator's Insignia of Conquest
+				{ 23, 145825 }, -- Ferocious Gladiator's Badge of Dominance
+				{ 24, 145827 }, -- Ferocious Gladiator's Accolade of Dominance
+				{ 25, 145829 }, -- Ferocious Gladiator's Insignia of Dominance
+				{ 26, 145831 }, -- Ferocious Gladiator's Badge of Victory
+				{ 27, 145833 }, -- Ferocious Gladiator's Accolade of Victory
+				{ 28, 145835 }, -- Ferocious Gladiator's Insignia of Victory
 			},
 		},
 		{
@@ -54,9 +841,89 @@ data["LEGION4GEAR"] = {
 				{ 7, 146832, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Treads of the Ferocious Gladiator
 				{ 8, 146833, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Bracers of the Ferocious Gladiator
 				{ 9, 146834, [PRICE_EXTRA_ITTYPE] = "echoofbattle:100" }, -- Cloak of the Ferocious Gladiator
+				-- Amulet
+				{ 11, 145496 }, -- Ferocious Gladiator's Necklace
+				{ 12, 145498 }, -- Ferocious Gladiator's Pendant
+				{ 13, 145500 }, -- Ferocious Gladiator's Choker
+				-- Tabard
+				{ 15, 147339 }, -- Ferocious Gladiator's Tabard
+				-- Ring
+				{ 16, 145534 }, -- Ferocious Gladiator's Ring
+				{ 17, 145536 }, -- Ferocious Gladiator's Band
+				{ 18, 145538 }, -- Ferocious Gladiator's Signet
+				-- Trinket
+				{ 20, 145572 }, -- Ferocious Gladiator's Badge of Conquest
+				{ 21, 145574 }, -- Ferocious Gladiator's Accolade of Conquest
+				{ 22, 145576 }, -- Ferocious Gladiator's Insignia of Conquest
+				{ 23, 145578 }, -- Ferocious Gladiator's Badge of Dominance
+				{ 24, 145580 }, -- Ferocious Gladiator's Accolade of Dominance
+				{ 25, 145582 }, -- Ferocious Gladiator's Insignia of Dominance
+				{ 26, 145584 }, -- Ferocious Gladiator's Badge of Victory
+				{ 27, 145586 }, -- Ferocious Gladiator's Accolade of Victory
+				{ 28, 145588 }, -- Ferocious Gladiator's Insignia of Victory
+				-- Cloak
+				{ 30, 147364 }, -- Ferocious Gladiator's Cloak
+				-- Amulet
+				{ 111, 145988 }, -- Ferocious Combatant's Necklace
+				{ 112, 145990 }, -- Ferocious Combatant's Pendant
+				{ 113, 145992 }, -- Ferocious Combatant's Choker
+				-- Ring
+				{ 116, 146026 }, -- Ferocious Combatant's Ring
+				{ 117, 146028 }, -- Ferocious Combatant's Band
+				{ 118, 146030 }, -- Ferocious Combatant's Signet
+				-- Trinket
+				{ 120, 146064 }, -- Ferocious Combatant's Badge of Conquest
+				{ 121, 146066 }, -- Ferocious Combatant's Accolade of Conquest
+				{ 122, 146068 }, -- Ferocious Combatant's Insignia of Conquest
+				{ 123, 146070 }, -- Ferocious Combatant's Badge of Dominance
+				{ 124, 146071 }, -- Ferocious Combatant's Badge of Dominance
+				{ 125, 146072 }, -- Ferocious Combatant's Accolade of Dominance
+				{ 126, 146073 }, -- Ferocious Combatant's Accolade of Dominance
+				{ 127, 146074 }, -- Ferocious Combatant's Insignia of Dominance
+				{ 128, 146075 }, -- Ferocious Combatant's Insignia of Dominance
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 11, 145497 }, -- Ferocious Gladiator's Necklace
+				{ 12, 145499 }, -- Ferocious Gladiator's Pendant
+				{ 13, 145501 }, -- Ferocious Gladiator's Choker
+				-- Tabard
+				{ 15, 147338 }, -- Ferocious Gladiator's Tabard
+				-- Ring
+				{ 16, 145535 }, -- Ferocious Gladiator's Ring
+				{ 17, 145537 }, -- Ferocious Gladiator's Band
+				{ 18, 145539 }, -- Ferocious Gladiator's Signet
+				-- Trinket
+				{ 20, 145573 }, -- Ferocious Gladiator's Badge of Conquest
+				{ 21, 145575 }, -- Ferocious Gladiator's Accolade of Conquest
+				{ 22, 145577 }, -- Ferocious Gladiator's Insignia of Conquest
+				{ 23, 145579 }, -- Ferocious Gladiator's Badge of Dominance
+				{ 24, 145581 }, -- Ferocious Gladiator's Accolade of Dominance
+				{ 25, 145583 }, -- Ferocious Gladiator's Insignia of Dominance
+				{ 26, 145585 }, -- Ferocious Gladiator's Badge of Victory
+				{ 27, 145587 }, -- Ferocious Gladiator's Accolade of Victory
+				{ 28, 145589 }, -- Ferocious Gladiator's Insignia of Victory
+				-- Cloak
+				{ 30, 147363 }, -- Ferocious Gladiator's Cloak
+				-- Amulet
+				{ 111, 145989 }, -- Ferocious Combatant's Necklace
+				{ 112, 145991 }, -- Ferocious Combatant's Pendant
+				{ 113, 145993 }, -- Ferocious Combatant's Choker
+				-- Ring
+				{ 116, 146027 }, -- Ferocious Combatant's Ring
+				{ 117, 146029 }, -- Ferocious Combatant's Band
+				{ 118, 146031 }, -- Ferocious Combatant's Signet
+				-- Trinket
+				{ 120, 146065 }, -- Ferocious Combatant's Badge of Conquest
+				{ 121, 146067 }, -- Ferocious Combatant's Accolade of Conquest
+				{ 122, 146069 }, -- Ferocious Combatant's Insignia of Conquest
+				{ 123, 146076 }, -- Ferocious Combatant's Badge of Victory
+				{ 124, 146077 }, -- Ferocious Combatant's Badge of Victory
+				{ 125, 146078 }, -- Ferocious Combatant's Accolade of Victory
+				{ 126, 146079 }, -- Ferocious Combatant's Accolade of Victory
+				{ 127, 146080 }, -- Ferocious Combatant's Insignia of Victory
+				{ 128, 146081 }, -- Ferocious Combatant's Insignia of Victory
 			},
 		},
 	},
@@ -89,6 +956,16 @@ data["LEGION3SET"] = {
 				{ 24, 144568 }, -- Cruel Gladiator's Dreadplate Shoulders
 				{ 25, 144570 }, -- Cruel Gladiator's Dreadplate Girdle
 				{ 26, 144572 }, -- Cruel Gladiator's Dreadplate Wristplates
+				{ 101, 147677 }, -- Ensemble: Cruel Combatant's Dreadplate Armor
+				{ 103, 145026 }, -- Cruel Combatant's Dreadcloak
+				{ 104, 145050 }, -- Cruel Combatant's Dreadplate Chestpiece
+				{ 105, 145052 }, -- Cruel Combatant's Dreadplate Sabatons
+				{ 106, 145054 }, -- Cruel Combatant's Dreadplate Gauntlets
+				{ 107, 145056 }, -- Cruel Combatant's Dreadplate Helm
+				{ 108, 145058 }, -- Cruel Combatant's Dreadplate Legguards
+				{ 109, 145060 }, -- Cruel Combatant's Dreadplate Shoulders
+				{ 110, 145062 }, -- Cruel Combatant's Dreadplate Girdle
+				{ 111, 145064 }, -- Cruel Combatant's Dreadplate Wristplates
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -112,6 +989,16 @@ data["LEGION3SET"] = {
 				{ 24, 144569 }, -- Cruel Gladiator's Dreadplate Shoulders
 				{ 25, 144571 }, -- Cruel Gladiator's Dreadplate Girdle
 				{ 26, 144573 }, -- Cruel Gladiator's Dreadplate Wristplates
+				{ 101, 147678 }, -- Ensemble: Cruel Combatant's Dreadplate Armor
+				{ 103, 145027 }, -- Cruel Combatant's Dreadcloak
+				{ 104, 145051 }, -- Cruel Combatant's Dreadplate Chestpiece
+				{ 105, 145053 }, -- Cruel Combatant's Dreadplate Sabatons
+				{ 106, 145055 }, -- Cruel Combatant's Dreadplate Gauntlets
+				{ 107, 145057 }, -- Cruel Combatant's Dreadplate Helm
+				{ 108, 145059 }, -- Cruel Combatant's Dreadplate Legguards
+				{ 109, 145061 }, -- Cruel Combatant's Dreadplate Shoulders
+				{ 110, 145063 }, -- Cruel Combatant's Dreadplate Girdle
+				{ 111, 145065 }, -- Cruel Combatant's Dreadplate Wristplates
 			},
 		},
 		{ -- DEMONHUNTER
@@ -119,24 +1006,35 @@ data["LEGION3SET"] = {
 			[ALLIANCE_DIFF] = {
 				{ 1, 147627 }, -- Ensemble: Elite Cruel Gladiator's Felskin Armor
 				{ 3, 144782 }, -- Cruel Gladiator's Demonthread Cloak
-				{ 4, 144834 }, -- Cruel Gladiator's Felskin Wristguards
-				{ 5, 144820 }, -- Cruel Gladiator's Felskin Tunic
-				{ 6, 144822 }, -- Cruel Gladiator's Felskin Boots
-				{ 7, 144824 }, -- Cruel Gladiator's Felskin Gloves
-				{ 8, 144826 }, -- Cruel Gladiator's Felskin Helm
-				{ 9, 144828 }, -- Cruel Gladiator's Felskin Legguards
-				{ 10, 144830 }, -- Cruel Gladiator's Felskin Spaulders
-				{ 11, 144832 }, -- Cruel Gladiator's Felskin Belt
+				{ 4, 144820 }, -- Cruel Gladiator's Felskin Tunic
+				{ 5, 144822 }, -- Cruel Gladiator's Felskin Boots
+				{ 6, 144824 }, -- Cruel Gladiator's Felskin Gloves
+				{ 7, 144826 }, -- Cruel Gladiator's Felskin Helm
+				{ 8, 144828 }, -- Cruel Gladiator's Felskin Legguards
+				{ 9, 144830 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 10, 144832 }, -- Cruel Gladiator's Felskin Belt
+				{ 11, 144834 }, -- Cruel Gladiator's Felskin Wristguards
 				{ 16, 147651 }, -- Ensemble: Cruel Gladiator's Felskin Armor
 				{ 18, 144536 }, -- Cruel Gladiator's Demonthread Cloak
-				{ 19, 144588 }, -- Cruel Gladiator's Felskin Wristguards
-				{ 20, 144574 }, -- Cruel Gladiator's Felskin Tunic
-				{ 21, 144576 }, -- Cruel Gladiator's Felskin Boots
-				{ 22, 144578 }, -- Cruel Gladiator's Felskin Gloves
-				{ 23, 144580 }, -- Cruel Gladiator's Felskin Helm
-				{ 24, 144582 }, -- Cruel Gladiator's Felskin Legguards
-				{ 25, 144584 }, -- Cruel Gladiator's Felskin Spaulders
-				{ 26, 144586 }, -- Cruel Gladiator's Felskin Belt
+				{ 19, 144574 }, -- Cruel Gladiator's Felskin Tunic
+				{ 20, 144576 }, -- Cruel Gladiator's Felskin Boots
+				{ 21, 144578 }, -- Cruel Gladiator's Felskin Gloves
+				{ 22, 144580 }, -- Cruel Gladiator's Felskin Helm
+				{ 23, 144582 }, -- Cruel Gladiator's Felskin Legguards
+				{ 24, 144584 }, -- Cruel Gladiator's Felskin Spaulders
+				{ 25, 144586 }, -- Cruel Gladiator's Felskin Belt
+				{ 26, 144588 }, -- Cruel Gladiator's Felskin Wristguards
+				{ 101, 147680 }, -- Ensemble: Cruel Combatant's Felskin Armor
+				{ 103, 145028 }, -- Cruel Combatant's Demonthread Cloak
+				{ 104, 145066 }, -- Cruel Combatant's Felskin Tunic
+				{ 105, 145068 }, -- Cruel Combatant's Felskin Boots
+				{ 106, 145070 }, -- Cruel Combatant's Felskin Gloves
+				{ 107, 145072 }, -- Cruel Combatant's Felskin Helm
+				{ 108, 145074 }, -- Cruel Combatant's Felskin Legguards
+				{ 109, 145076 }, -- Cruel Combatant's Felskin Spaulders
+				{ 110, 145078 }, -- Cruel Combatant's Felskin Belt
+				{ 111, 145080 }, -- Cruel Combatant's Felskin Wristguards
+
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -160,14 +1058,696 @@ data["LEGION3SET"] = {
 				{ 24, 144585 }, -- Cruel Gladiator's Felskin Spaulders
 				{ 25, 144587 }, -- Cruel Gladiator's Felskin Belt
 				{ 26, 144589 }, -- Cruel Gladiator's Felskin Wristguards
+				{ 101, 147679 }, -- Ensemble: Cruel Combatant's Felskin Armor
+				{ 103, 145029 }, -- Cruel Combatant's Demonthread Cloak
+				{ 104, 145067 }, -- Cruel Combatant's Felskin Tunic
+				{ 105, 145069 }, -- Cruel Combatant's Felskin Boots
+				{ 106, 145071 }, -- Cruel Combatant's Felskin Gloves
+				{ 107, 145073 }, -- Cruel Combatant's Felskin Helm
+				{ 108, 145075 }, -- Cruel Combatant's Felskin Legguards
+				{ 109, 145077 }, -- Cruel Combatant's Felskin Spaulders
+				{ 110, 145079 }, -- Cruel Combatant's Felskin Belt
+				{ 111, 145081 }, -- Cruel Combatant's Felskin Wristguards
 			},
 		},
 		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 147623 }, -- Ensemble: Elite Cruel Gladiator's Dragonhide Armor
+				{ 3, 144784 }, -- Cruel Gladiator's Dragonhide Cloak
+				{ 4, 144836 }, -- Cruel Gladiator's Dragonhide Robe
+				{ 5, 144838 }, -- Cruel Gladiator's Dragonhide Moccasins
+				{ 6, 144840 }, -- Cruel Gladiator's Dragonhide Gloves
+				{ 7, 144842 }, -- Cruel Gladiator's Dragonhide Helm
+				{ 8, 144844 }, -- Cruel Gladiator's Dragonhide Legguards
+				{ 9, 144846 }, -- Cruel Gladiator's Dragonhide Spaulders
+				{ 10, 144848 }, -- Cruel Gladiator's Dragonhide Belt
+				{ 11, 144850 }, -- Cruel Gladiator's Dragonhide Wristguards
+				{ 16, 147647 }, -- Ensemble: Cruel Gladiator's Dragonhide Armor
+				{ 18, 144538 }, -- Cruel Gladiator's Dragonhide Cloak
+				{ 19, 144590 }, -- Cruel Gladiator's Dragonhide Robe
+				{ 20, 144592 }, -- Cruel Gladiator's Dragonhide Moccasins
+				{ 21, 144594 }, -- Cruel Gladiator's Dragonhide Gloves
+				{ 22, 144596 }, -- Cruel Gladiator's Dragonhide Helm
+				{ 23, 144598 }, -- Cruel Gladiator's Dragonhide Legguards
+				{ 24, 144600 }, -- Cruel Gladiator's Dragonhide Spaulders
+				{ 25, 144602 }, -- Cruel Gladiator's Dragonhide Belt
+				{ 26, 144604 }, -- Cruel Gladiator's Dragonhide Wristguards
+				{ 101, 147675 }, -- Ensemble: Cruel Combatant's Dragonhide Armor
+				{ 103, 145030 }, -- Cruel Combatant's Dragonhide Cloak
+				{ 104, 145082 }, -- Cruel Combatant's Dragonhide Tunic
+				{ 105, 145084 }, -- Cruel Combatant's Dragonhide Moccasins
+				{ 106, 145086 }, -- Cruel Combatant's Dragonhide Gloves
+				{ 107, 145088 }, -- Cruel Combatant's Dragonhide Helm
+				{ 108, 145090 }, -- Cruel Combatant's Dragonhide Legguards
+				{ 109, 145092 }, -- Cruel Combatant's Dragonhide Spaulders
+				{ 110, 145094 }, -- Cruel Combatant's Dragonhide Belt
+				{ 111, 145096 }, -- Cruel Combatant's Dragonhide Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147624 }, -- Ensemble: Elite Cruel Gladiator's Dragonhide Armor
+				{ 3, 144785 }, -- Cruel Gladiator's Dragonhide Cloak
+				{ 4, 144837 }, -- Cruel Gladiator's Dragonhide Robe
+				{ 5, 144839 }, -- Cruel Gladiator's Dragonhide Moccasins
+				{ 6, 144841 }, -- Cruel Gladiator's Dragonhide Gloves
+				{ 7, 144843 }, -- Cruel Gladiator's Dragonhide Helm
+				{ 8, 144845 }, -- Cruel Gladiator's Dragonhide Legguards
+				{ 9, 144847 }, -- Cruel Gladiator's Dragonhide Spaulders
+				{ 10, 144849 }, -- Cruel Gladiator's Dragonhide Belt
+				{ 11, 144851 }, -- Cruel Gladiator's Dragonhide Wristguards
+				{ 16, 147648 }, -- Ensemble: Cruel Gladiator's Dragonhide Armor
+				{ 18, 144539 }, -- Cruel Gladiator's Dragonhide Cloak
+				{ 19, 144591 }, -- Cruel Gladiator's Dragonhide Robe
+				{ 20, 144593 }, -- Cruel Gladiator's Dragonhide Moccasins
+				{ 21, 144595 }, -- Cruel Gladiator's Dragonhide Gloves
+				{ 22, 144597 }, -- Cruel Gladiator's Dragonhide Helm
+				{ 23, 144599 }, -- Cruel Gladiator's Dragonhide Legguards
+				{ 24, 144601 }, -- Cruel Gladiator's Dragonhide Spaulders
+				{ 25, 144603 }, -- Cruel Gladiator's Dragonhide Belt
+				{ 26, 144605 }, -- Cruel Gladiator's Dragonhide Wristguards
+				{ 101, 147676 }, -- Ensemble: Cruel Combatant's Dragonhide Armor
+				{ 103, 145031 }, -- Cruel Combatant's Dragonhide Cloak
+				{ 104, 145083 }, -- Cruel Combatant's Dragonhide Tunic
+				{ 105, 145085 }, -- Cruel Combatant's Dragonhide Moccasins
+				{ 106, 145087 }, -- Cruel Combatant's Dragonhide Gloves
+				{ 107, 145089 }, -- Cruel Combatant's Dragonhide Helm
+				{ 108, 145091 }, -- Cruel Combatant's Dragonhide Legguards
+				{ 109, 145093 }, -- Cruel Combatant's Dragonhide Spaulders
+				{ 110, 145095 }, -- Cruel Combatant's Dragonhide Belt
+				{ 111, 145097 }, -- Cruel Combatant's Dragonhide Wristguards
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147621 }, -- Ensemble: Elite Cruel Gladiator's Chain Armor
+				{ 3, 144786 }, -- Cruel Gladiator's Drape of the Tracker
+				{ 4, 144852 }, -- Cruel Gladiator's Chain Armor
+				{ 5, 144854 }, -- Cruel Gladiator's Chain Treads
+				{ 6, 144856 }, -- Cruel Gladiator's Chain Gauntlets
+				{ 7, 144858 }, -- Cruel Gladiator's Chain Helm
+				{ 8, 144860 }, -- Cruel Gladiator's Chain Leggings
+				{ 9, 144862 }, -- Cruel Gladiator's Chain Spaulders
+				{ 10, 144864 }, -- Cruel Gladiator's Chain Clasp
+				{ 11, 144866 }, -- Cruel Gladiator's Chain Armband
+				{ 16, 147646 }, -- Ensemble: Cruel Gladiator's Chain Armor
+				{ 18, 144540 }, -- Cruel Gladiator's Drape of the Tracker
+				{ 19, 144606 }, -- Cruel Gladiator's Chain Armor
+				{ 20, 144608 }, -- Cruel Gladiator's Chain Treads
+				{ 21, 144610 }, -- Cruel Gladiator's Chain Gauntlets
+				{ 22, 144612 }, -- Cruel Gladiator's Chain Helm
+				{ 23, 144614 }, -- Cruel Gladiator's Chain Leggings
+				{ 24, 144616 }, -- Cruel Gladiator's Chain Spaulders
+				{ 25, 144618 }, -- Cruel Gladiator's Chain Clasp
+				{ 26, 144620 }, -- Cruel Gladiator's Chain Armband
+				{ 101, 147689 }, -- Ensemble: Cruel Combatant's Chain Armor
+				{ 103, 145032 }, -- Cruel Combatant's Drape of the Tracker
+				{ 104, 145098 }, -- Cruel Combatant's Chain Armor
+				{ 105, 145100 }, -- Cruel Combatant's Chain Treads
+				{ 106, 145102 }, -- Cruel Combatant's Chain Gauntlets
+				{ 107, 145104 }, -- Cruel Combatant's Chain Helm
+				{ 108, 145106 }, -- Cruel Combatant's Chain Leggings
+				{ 109, 145108 }, -- Cruel Combatant's Chain Spaulders
+				{ 110, 145110 }, -- Cruel Combatant's Chain Clasp
+				{ 111, 145112 }, -- Cruel Combatant's Chain Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147622 }, -- Ensemble: Elite Cruel Gladiator's Chain Armor
+				{ 3 , 144787 }, -- Cruel Gladiator's Drape of the Tracker
+				{ 4 , 144853 }, -- Cruel Gladiator's Chain Armor
+				{ 5 , 144855 }, -- Cruel Gladiator's Chain Treads
+				{ 6 , 144857 }, -- Cruel Gladiator's Chain Gauntlets
+				{ 7 , 144859 }, -- Cruel Gladiator's Chain Helm
+				{ 8 , 144861 }, -- Cruel Gladiator's Chain Leggings
+				{ 9 , 144863 }, -- Cruel Gladiator's Chain Spaulders
+				{ 10, 144865 }, -- Cruel Gladiator's Chain Clasp
+				{ 11, 144867 }, -- Cruel Gladiator's Chain Armband
+				{ 16, 147645 }, -- Ensemble: Cruel Gladiator's Chain Armor
+				{ 18, 144541 }, -- Cruel Gladiator's Drape of the Tracker
+				{ 19, 144607 }, -- Cruel Gladiator's Chain Armor
+				{ 20, 144609 }, -- Cruel Gladiator's Chain Treads
+				{ 21, 144611 }, -- Cruel Gladiator's Chain Gauntlets
+				{ 22, 144613 }, -- Cruel Gladiator's Chain Helm
+				{ 23, 144615 }, -- Cruel Gladiator's Chain Leggings
+				{ 24, 144617 }, -- Cruel Gladiator's Chain Spaulders
+				{ 25, 144619 }, -- Cruel Gladiator's Chain Clasp
+				{ 26, 144621 }, -- Cruel Gladiator's Chain Armband
+				{ 101, 147690 }, -- Ensemble: Cruel Combatant's Chain Armor
+				{ 103, 145033 }, -- Cruel Combatant's Drape of the Tracker
+				{ 104, 145099 }, -- Cruel Combatant's Chain Armor
+				{ 105, 145101 }, -- Cruel Combatant's Chain Treads
+				{ 106, 145103 }, -- Cruel Combatant's Chain Gauntlets
+				{ 107, 145105 }, -- Cruel Combatant's Chain Helm
+				{ 108, 145107 }, -- Cruel Combatant's Chain Leggings
+				{ 109, 145109 }, -- Cruel Combatant's Chain Spaulders
+				{ 110, 145111 }, -- Cruel Combatant's Chain Clasp
+				{ 111, 145113 }, -- Cruel Combatant's Chain Armband
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147644 }, -- Ensemble: Elite Cruel Gladiator's Silk Armor
+				{ 3 , 144788 }, -- Cruel Gladiator's Silken Shawl
+				{ 4 , 144868 }, -- Cruel Gladiator's Silk Treads
+				{ 5 , 144870 }, -- Cruel Gladiator's Silk Handguards
+				{ 6 , 144872 }, -- Cruel Gladiator's Silk Cowl
+				{ 7 , 144874 }, -- Cruel Gladiator's Silk Trousers
+				{ 8 , 144876 }, -- Cruel Gladiator's Silk Robe
+				{ 9 , 144878 }, -- Cruel Gladiator's Silk Amice
+				{ 10, 144880 }, -- Cruel Gladiator's Silk Cord
+				{ 11, 144882 }, -- Cruel Gladiator's Silk Bracers
+				{ 16, 147668 }, -- Ensemble: Cruel Gladiator's Silk Armor
+				{ 18, 144542 }, -- Cruel Gladiator's Silken Shawl
+				{ 19, 144622 }, -- Cruel Gladiator's Silk Treads
+				{ 20, 144624 }, -- Cruel Gladiator's Silk Handguards
+				{ 21, 144626 }, -- Cruel Gladiator's Silk Cowl
+				{ 22, 144628 }, -- Cruel Gladiator's Silk Trousers
+				{ 23, 144630 }, -- Cruel Gladiator's Silk Robe
+				{ 24, 144632 }, -- Cruel Gladiator's Silk Amice
+				{ 25, 144634 }, -- Cruel Gladiator's Silk Cord
+				{ 26, 144636 }, -- Cruel Gladiator's Silk Bracers
+				{ 101, 147695 }, -- Ensemble: Cruel Combatant's Silk Armor
+				{ 103, 145034 }, -- Cruel Combatant's Silken Shawl
+				{ 104, 145114 }, -- Cruel Combatant's Silk Treads
+				{ 105, 145116 }, -- Cruel Combatant's Silk Handguards
+				{ 106, 145118 }, -- Cruel Combatant's Silk Cowl
+				{ 107, 145120 }, -- Cruel Combatant's Silk Trousers
+				{ 108, 145122 }, -- Cruel Combatant's Silk Robe
+				{ 109, 145124 }, -- Cruel Combatant's Silk Amice
+				{ 110, 145126 }, -- Cruel Combatant's Silk Cord
+				{ 111, 145128 }, -- Cruel Combatant's Silk Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147643 }, -- Ensemble: Elite Cruel Gladiator's Silk Armor
+				{ 3 , 144789 }, -- Cruel Gladiator's Silken Shawl
+				{ 4 , 144869 }, -- Cruel Gladiator's Silk Treads
+				{ 5 , 144871 }, -- Cruel Gladiator's Silk Handguards
+				{ 6 , 144873 }, -- Cruel Gladiator's Silk Cowl
+				{ 7 , 144875 }, -- Cruel Gladiator's Silk Trousers
+				{ 8 , 144877 }, -- Cruel Gladiator's Silk Robe
+				{ 9 , 144879 }, -- Cruel Gladiator's Silk Amice
+				{ 10, 144881 }, -- Cruel Gladiator's Silk Cord
+				{ 11, 144883 }, -- Cruel Gladiator's Silk Bracers
+				{ 16, 147667 }, -- Ensemble: Cruel Gladiator's Silk Armor
+				{ 18, 144543 }, -- Cruel Gladiator's Silken Shawl
+				{ 19, 144623 }, -- Cruel Gladiator's Silk Treads
+				{ 20, 144625 }, -- Cruel Gladiator's Silk Handguards
+				{ 21, 144627 }, -- Cruel Gladiator's Silk Cowl
+				{ 22, 144629 }, -- Cruel Gladiator's Silk Trousers
+				{ 23, 144631 }, -- Cruel Gladiator's Silk Robe
+				{ 24, 144633 }, -- Cruel Gladiator's Silk Amice
+				{ 25, 144635 }, -- Cruel Gladiator's Silk Cord
+				{ 26, 144637 }, -- Cruel Gladiator's Silk Bracers
+				{ 101, 147696 }, -- Ensemble: Cruel Combatant's Silk Armor
+				{ 103, 145035 }, -- Cruel Combatant's Silken Shawl
+				{ 104, 145115 }, -- Cruel Combatant's Silk Treads
+				{ 105, 145117 }, -- Cruel Combatant's Silk Handguards
+				{ 106, 145119 }, -- Cruel Combatant's Silk Cowl
+				{ 107, 145121 }, -- Cruel Combatant's Silk Trousers
+				{ 108, 145123 }, -- Cruel Combatant's Silk Robe
+				{ 109, 145125 }, -- Cruel Combatant's Silk Amice
+				{ 110, 145127 }, -- Cruel Combatant's Silk Cord
+				{ 111, 145129 }, -- Cruel Combatant's Silk Bracers
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147632 }, -- Ensemble: Elite Cruel Gladiator's Ironskin Armor
+				{ 3 , 144790 }, -- Cruel Gladiator's Ironskin Cloak
+				{ 4 , 144884 }, -- Cruel Gladiator's Ironskin Slippers
+				{ 5 , 144886 }, -- Cruel Gladiator's Ironskin Gloves
+				{ 6 , 144888 }, -- Cruel Gladiator's Ironskin Helm
+				{ 7 , 144890 }, -- Cruel Gladiator's Ironskin Legguards
+				{ 8 , 144892 }, -- Cruel Gladiator's Ironskin Spaulders
+				{ 9 , 144894 }, -- Cruel Gladiator's Ironskin Tunic
+				{ 10, 144896 }, -- Cruel Gladiator's Ironskin Belt
+				{ 11, 144898 }, -- Cruel Gladiator's Ironskin Wristguards
+				{ 16, 147656 }, -- Ensemble: Cruel Gladiator's Ironskin Armor
+				{ 18, 144544 }, -- Cruel Gladiator's Ironskin Cloak
+				{ 19, 144638 }, -- Cruel Gladiator's Ironskin Slippers
+				{ 20, 144640 }, -- Cruel Gladiator's Ironskin Gloves
+				{ 21, 144642 }, -- Cruel Gladiator's Ironskin Helm
+				{ 22, 144644 }, -- Cruel Gladiator's Ironskin Legguards
+				{ 23, 144646 }, -- Cruel Gladiator's Ironskin Spaulders
+				{ 24, 144648 }, -- Cruel Gladiator's Ironskin Tunic
+				{ 25, 144650 }, -- Cruel Gladiator's Ironskin Belt
+				{ 26, 144652 }, -- Cruel Gladiator's Ironskin Wristguards
+				{ 101, 147683 }, -- Ensemble: Cruel Combatant's Ironskin Armor
+				{ 103, 145036 }, -- Cruel Combatant's Ironskin Cloak
+				{ 104, 145130 }, -- Cruel Combatant's Ironskin Slippers
+				{ 105, 145132 }, -- Cruel Combatant's Ironskin Gloves
+				{ 106, 145134 }, -- Cruel Combatant's Ironskin Helm
+				{ 107, 145136 }, -- Cruel Combatant's Ironskin Legguards
+				{ 108, 145138 }, -- Cruel Combatant's Ironskin Spaulders
+				{ 109, 145140 }, -- Cruel Combatant's Ironskin Tunic
+				{ 110, 145142 }, -- Cruel Combatant's Ironskin Belt
+				{ 111, 145144 }, -- Cruel Combatant's Ironskin Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147631 }, -- Ensemble: Elite Cruel Gladiator's Ironskin Armor
+				{ 3 , 144791 }, -- Cruel Gladiator's Ironskin Cloak
+				{ 4 , 144885 }, -- Cruel Gladiator's Ironskin Slippers
+				{ 5 , 144887 }, -- Cruel Gladiator's Ironskin Gloves
+				{ 6 , 144889 }, -- Cruel Gladiator's Ironskin Helm
+				{ 7 , 144891 }, -- Cruel Gladiator's Ironskin Legguards
+				{ 8 , 144893 }, -- Cruel Gladiator's Ironskin Spaulders
+				{ 9 , 144895 }, -- Cruel Gladiator's Ironskin Tunic
+				{ 10, 144897 }, -- Cruel Gladiator's Ironskin Belt
+				{ 11, 144899 }, -- Cruel Gladiator's Ironskin Wristguards
+				{ 16, 147655 }, -- Ensemble: Cruel Gladiator's Ironskin Armor
+				{ 18, 144545 }, -- Cruel Gladiator's Ironskin Cloak
+				{ 19, 144639 }, -- Cruel Gladiator's Ironskin Slippers
+				{ 20, 144641 }, -- Cruel Gladiator's Ironskin Gloves
+				{ 21, 144643 }, -- Cruel Gladiator's Ironskin Helm
+				{ 22, 144645 }, -- Cruel Gladiator's Ironskin Legguards
+				{ 23, 144647 }, -- Cruel Gladiator's Ironskin Spaulders
+				{ 24, 144649 }, -- Cruel Gladiator's Ironskin Tunic
+				{ 25, 144651 }, -- Cruel Gladiator's Ironskin Belt
+				{ 26, 144653 }, -- Cruel Gladiator's Ironskin Wristguards
+				{ 101, 147684 }, -- Ensemble: Cruel Combatant's Ironskin Armor
+				{ 103, 145037 }, -- Cruel Combatant's Ironskin Cloak
+				{ 104, 145131 }, -- Cruel Combatant's Ironskin Slippers
+				{ 105, 145133 }, -- Cruel Combatant's Ironskin Gloves
+				{ 106, 145135 }, -- Cruel Combatant's Ironskin Helm
+				{ 107, 145137 }, -- Cruel Combatant's Ironskin Legguards
+				{ 108, 145139 }, -- Cruel Combatant's Ironskin Spaulders
+				{ 109, 145141 }, -- Cruel Combatant's Ironskin Tunic
+				{ 110, 145143 }, -- Cruel Combatant's Ironskin Belt
+				{ 111, 145145 }, -- Cruel Combatant's Ironskin Wristguards
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147642 }, -- Ensemble: Elite Cruel Gladiator's Scaled Armor
+				{ 3 , 144792 }, -- Cruel Gladiator's Greatcloak of Faith
+				{ 4 , 144906 }, -- Cruel Gladiator's Scaled Breastplate
+				{ 5 , 144908 }, -- Cruel Gladiator's Scaled Sabatons
+				{ 6 , 144910 }, -- Cruel Gladiator's Scaled Gauntlets
+				{ 7 , 144912 }, -- Cruel Gladiator's Scaled Helm
+				{ 8 , 144914 }, -- Cruel Gladiator's Scaled Legguards
+				{ 9 , 144916 }, -- Cruel Gladiator's Scaled Shoulders
+				{ 10, 144918 }, -- Cruel Gladiator's Scaled Girdle
+				{ 11, 144920 }, -- Cruel Gladiator's Scaled Wristplates
+				{ 16, 147665 }, -- Ensemble: Cruel Gladiator's Scaled Armor
+				{ 18, 144546 }, -- Cruel Gladiator's Greatcloak of Faith
+				{ 19, 144661 }, -- Cruel Gladiator's Scaled Sabatons
+				{ 20, 144663 }, -- Cruel Gladiator's Scaled Gauntlets
+				{ 21, 144665 }, -- Cruel Gladiator's Scaled Helm
+				{ 22, 144667 }, -- Cruel Gladiator's Scaled Legguards
+				{ 23, 144669 }, -- Cruel Gladiator's Scaled Breastplate
+				{ 24, 144670 }, -- Cruel Gladiator's Scaled Shoulders
+				{ 25, 144672 }, -- Cruel Gladiator's Scaled Girdle
+				{ 26, 144674 }, -- Cruel Gladiator's Scaled Wristplates
+				{ 101, 147693 }, -- Ensemble: Cruel Combatant's Scaled Armor
+				{ 103, 145038 }, -- Cruel Combatant's Greatcloak of Faith
+				{ 104, 145152 }, -- Cruel Combatant's Scaled Chestpiece
+				{ 105, 145154 }, -- Cruel Combatant's Scaled Sabatons
+				{ 106, 145156 }, -- Cruel Combatant's Scaled Gauntlets
+				{ 107, 145158 }, -- Cruel Combatant's Scaled Helm
+				{ 108, 145160 }, -- Cruel Combatant's Scaled Legguards
+				{ 109, 145162 }, -- Cruel Combatant's Scaled Shoulders
+				{ 110, 145164 }, -- Cruel Combatant's Scaled Girdle
+				{ 111, 145166 }, -- Cruel Combatant's Scaled Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147641 }, -- Ensemble: Elite Cruel Gladiator's Scaled Armor
+				{ 3 , 144793 }, -- Cruel Gladiator's Greatcloak of Faith
+				{ 4 , 144907 }, -- Cruel Gladiator's Scaled Breastplate
+				{ 5 , 144909 }, -- Cruel Gladiator's Scaled Sabatons
+				{ 6 , 144911 }, -- Cruel Gladiator's Scaled Gauntlets
+				{ 7 , 144913 }, -- Cruel Gladiator's Scaled Helm
+				{ 8 , 144915 }, -- Cruel Gladiator's Scaled Legguards
+				{ 9 , 144917 }, -- Cruel Gladiator's Scaled Shoulders
+				{ 10, 144919 }, -- Cruel Gladiator's Scaled Girdle
+				{ 11, 144921 }, -- Cruel Gladiator's Scaled Wristplates
+				{ 16, 147666 }, -- Ensemble: Cruel Gladiator's Scaled Armor
+				{ 18, 144547 }, -- Cruel Gladiator's Greatcloak of Faith
+				{ 19, 144660 }, -- Cruel Gladiator's Scaled Breastplate
+				{ 20, 144662 }, -- Cruel Gladiator's Scaled Sabatons
+				{ 21, 144664 }, -- Cruel Gladiator's Scaled Gauntlets
+				{ 22, 144666 }, -- Cruel Gladiator's Scaled Helm
+				{ 23, 144668 }, -- Cruel Gladiator's Scaled Legguards
+				{ 24, 144671 }, -- Cruel Gladiator's Scaled Shoulders
+				{ 25, 144673 }, -- Cruel Gladiator's Scaled Girdle
+				{ 26, 144675 }, -- Cruel Gladiator's Scaled Wristplates
+				{ 101, 147694 }, -- Ensemble: Cruel Combatant's Scaled Armor
+				{ 103, 145039 }, -- Cruel Combatant's Greatcloak of Faith
+				{ 104, 145153 }, -- Cruel Combatant's Scaled Chestpiece
+				{ 105, 145155 }, -- Cruel Combatant's Scaled Sabatons
+				{ 106, 145157 }, -- Cruel Combatant's Scaled Gauntlets
+				{ 107, 145159 }, -- Cruel Combatant's Scaled Helm
+				{ 108, 145161 }, -- Cruel Combatant's Scaled Legguards
+				{ 109, 145163 }, -- Cruel Combatant's Scaled Shoulders
+				{ 110, 145165 }, -- Cruel Combatant's Scaled Girdle
+				{ 111, 145167 }, -- Cruel Combatant's Scaled Wristplates
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147640 }, -- Ensemble: Elite Cruel Gladiator's Satin Armor
+				{ 3 , 144794 }, -- Cruel Gladiator's Drape of Piety
+				{ 4 , 144922 }, -- Cruel Gladiator's Satin Treads
+				{ 5 , 144924 }, -- Cruel Gladiator's Satin Gloves
+				{ 6 , 144926 }, -- Cruel Gladiator's Satin Hood
+				{ 7 , 144928 }, -- Cruel Gladiator's Satin Leggings
+				{ 8 , 144930 }, -- Cruel Gladiator's Satin Robe
+				{ 9 , 144932 }, -- Cruel Gladiator's Satin Mantle
+				{ 10, 144934 }, -- Cruel Gladiator's Satin Cord
+				{ 11, 144936 }, -- Cruel Gladiator's Satin Bracers
+				{ 16, 147663 }, -- Ensemble: Cruel Gladiator's Satin Armor
+				{ 18, 144548 }, -- Cruel Gladiator's Drape of Piety
+				{ 19, 144676 }, -- Cruel Gladiator's Satin Treads
+				{ 20, 144678 }, -- Cruel Gladiator's Satin Gloves
+				{ 21, 144680 }, -- Cruel Gladiator's Satin Hood
+				{ 22, 144682 }, -- Cruel Gladiator's Satin Leggings
+				{ 23, 144684 }, -- Cruel Gladiator's Satin Robe
+				{ 24, 144686 }, -- Cruel Gladiator's Satin Mantle
+				{ 25, 144688 }, -- Cruel Gladiator's Satin Cord
+				{ 26, 144690 }, -- Cruel Gladiator's Satin Bracers
+				{ 101, 147687 }, -- Ensemble: Cruel Combatant's Satin Armor
+				{ 103, 145040 }, -- Cruel Combatant's Drape of Piety
+				{ 104, 145168 }, -- Cruel Combatant's Satin Treads
+				{ 105, 145170 }, -- Cruel Combatant's Satin Gloves
+				{ 106, 145172 }, -- Cruel Combatant's Satin Hood
+				{ 107, 145174 }, -- Cruel Combatant's Satin Leggings
+				{ 108, 145176 }, -- Cruel Combatant's Satin Robe
+				{ 109, 145178 }, -- Cruel Combatant's Satin Mantle
+				{ 110, 145180 }, -- Cruel Combatant's Satin Cord
+				{ 111, 145182 }, -- Cruel Combatant's Satin Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147639 }, -- Ensemble: Elite Cruel Gladiator's Satin Armor
+				{ 3 , 144795 }, -- Cruel Gladiator's Drape of Piety
+				{ 4 , 144923 }, -- Cruel Gladiator's Satin Treads
+				{ 5 , 144925 }, -- Cruel Gladiator's Satin Gloves
+				{ 6 , 144927 }, -- Cruel Gladiator's Satin Hood
+				{ 7 , 144929 }, -- Cruel Gladiator's Satin Leggings
+				{ 8 , 144931 }, -- Cruel Gladiator's Satin Robe
+				{ 9 , 144933 }, -- Cruel Gladiator's Satin Mantle
+				{ 10, 144935 }, -- Cruel Gladiator's Satin Cord
+				{ 11, 144937 }, -- Cruel Gladiator's Satin Bracers
+				{ 16, 147664 }, -- Ensemble: Cruel Gladiator's Satin Armor
+				{ 18, 144549 }, -- Cruel Gladiator's Drape of Piety
+				{ 19, 144677 }, -- Cruel Gladiator's Satin Treads
+				{ 20, 144679 }, -- Cruel Gladiator's Satin Gloves
+				{ 21, 144681 }, -- Cruel Gladiator's Satin Hood
+				{ 22, 144683 }, -- Cruel Gladiator's Satin Leggings
+				{ 23, 144685 }, -- Cruel Gladiator's Satin Robe
+				{ 24, 144687 }, -- Cruel Gladiator's Satin Mantle
+				{ 25, 144689 }, -- Cruel Gladiator's Satin Cord
+				{ 26, 144691 }, -- Cruel Gladiator's Satin Bracers
+				{ 101, 147688 }, -- Ensemble: Cruel Combatant's Satin Armor
+				{ 103, 145041 }, -- Cruel Combatant's Drape of Piety
+				{ 104, 145169 }, -- Cruel Combatant's Satin Treads
+				{ 105, 145171 }, -- Cruel Combatant's Satin Gloves
+				{ 106, 145173 }, -- Cruel Combatant's Satin Hood
+				{ 107, 145175 }, -- Cruel Combatant's Satin Leggings
+				{ 108, 145177 }, -- Cruel Combatant's Satin Robe
+				{ 109, 145179 }, -- Cruel Combatant's Satin Mantle
+				{ 110, 145181 }, -- Cruel Combatant's Satin Cord
+				{ 111, 145183 }, -- Cruel Combatant's Satin Bracers
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147634 }, -- Ensemble: Elite Cruel Gladiator's Leather Armor
+				{ 3 , 144796 }, -- Cruel Gladiator's Shadowcape
+				{ 4 , 144944 }, -- Cruel Gladiator's Leather Tunic
+				{ 5 , 144946 }, -- Cruel Gladiator's Leather Slippers
+				{ 6 , 144948 }, -- Cruel Gladiator's Leather Gloves
+				{ 7 , 144950 }, -- Cruel Gladiator's Leather Helm
+				{ 8 , 144952 }, -- Cruel Gladiator's Leather Legguards
+				{ 9 , 144954 }, -- Cruel Gladiator's Leather Spaulders
+				{ 10, 144956 }, -- Cruel Gladiator's Leather Belt
+				{ 11, 144958 }, -- Cruel Gladiator's Leather Wristguards
+				{ 16, 147657 }, -- Ensemble: Cruel Gladiator's Leather Armor
+				{ 18, 144550 }, -- Cruel Gladiator's Shadowcape
+				{ 19, 144698 }, -- Cruel Gladiator's Leather Tunic
+				{ 20, 144700 }, -- Cruel Gladiator's Leather Slippers
+				{ 21, 144702 }, -- Cruel Gladiator's Leather Gloves
+				{ 22, 144704 }, -- Cruel Gladiator's Leather Helm
+				{ 23, 144706 }, -- Cruel Gladiator's Leather Legguards
+				{ 24, 144708 }, -- Cruel Gladiator's Leather Spaulders
+				{ 25, 144710 }, -- Cruel Gladiator's Leather Belt
+				{ 26, 144712 }, -- Cruel Gladiator's Leather Wristguards
+				{ 101, 147685 }, -- Ensemble: Cruel Combatant's Leather Armor
+				{ 103, 145042 }, -- Cruel Combatant's Shadowcape
+				{ 104, 145190 }, -- Cruel Combatant's Leather Tunic
+				{ 105, 145192 }, -- Cruel Combatant's Leather Slippers
+				{ 106, 145194 }, -- Cruel Combatant's Leather Gloves
+				{ 107, 145196 }, -- Cruel Combatant's Leather Helm
+				{ 108, 145198 }, -- Cruel Combatant's Leather Legguards
+				{ 109, 145200 }, -- Cruel Combatant's Leather Spaulders
+				{ 110, 145202 }, -- Cruel Combatant's Leather Belt
+				{ 111, 145204 }, -- Cruel Combatant's Leather Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147633 }, -- Ensemble: Elite Cruel Gladiator's Leather Armor
+				{ 3 , 144797 }, -- Cruel Gladiator's Shadowcape
+				{ 4 , 144945 }, -- Cruel Gladiator's Leather Tunic
+				{ 5 , 144947 }, -- Cruel Gladiator's Leather Slippers
+				{ 6 , 144949 }, -- Cruel Gladiator's Leather Gloves
+				{ 7 , 144951 }, -- Cruel Gladiator's Leather Helm
+				{ 8 , 144953 }, -- Cruel Gladiator's Leather Legguards
+				{ 9 , 144955 }, -- Cruel Gladiator's Leather Spaulders
+				{ 10, 144957 }, -- Cruel Gladiator's Leather Belt
+				{ 11, 144959 }, -- Cruel Gladiator's Leather Wristguards
+				{ 16, 147658 }, -- Ensemble: Cruel Gladiator's Leather Armor
+				{ 18, 144551 }, -- Cruel Gladiator's Shadowcape
+				{ 19, 144699 }, -- Cruel Gladiator's Leather Tunic
+				{ 20, 144701 }, -- Cruel Gladiator's Leather Slippers
+				{ 21, 144703 }, -- Cruel Gladiator's Leather Gloves
+				{ 22, 144705 }, -- Cruel Gladiator's Leather Helm
+				{ 23, 144707 }, -- Cruel Gladiator's Leather Legguards
+				{ 24, 144709 }, -- Cruel Gladiator's Leather Spaulders
+				{ 25, 144711 }, -- Cruel Gladiator's Leather Belt
+				{ 26, 144713 }, -- Cruel Gladiator's Leather Wristguards
+				{ 101, 147686 }, -- Ensemble: Cruel Combatant's Leather Armor
+				{ 103, 145043 }, -- Cruel Combatant's Shadowcape
+				{ 104, 145191 }, -- Cruel Combatant's Leather Tunic
+				{ 105, 145193 }, -- Cruel Combatant's Leather Slippers
+				{ 106, 145195 }, -- Cruel Combatant's Leather Gloves
+				{ 107, 145197 }, -- Cruel Combatant's Leather Helm
+				{ 108, 145199 }, -- Cruel Combatant's Leather Legguards
+				{ 109, 145201 }, -- Cruel Combatant's Leather Spaulders
+				{ 110, 145203 }, -- Cruel Combatant's Leather Belt
+				{ 111, 145205 }, -- Cruel Combatant's Leather Wristguards
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147637 }, -- Ensemble: Elite Cruel Gladiator's Ringmail Armor
+				{ 3 , 144798 }, -- Cruel Gladiator's Totemic Cloak
+				{ 4 , 144960 }, -- Cruel Gladiator's Ringmail Armor
+				{ 5 , 144962 }, -- Cruel Gladiator's Ringmail Boots
+				{ 6 , 144964 }, -- Cruel Gladiator's Ringmail Gauntlets
+				{ 7 , 144966 }, -- Cruel Gladiator's Ringmail Helm
+				{ 8 , 144968 }, -- Cruel Gladiator's Ringmail Kilt
+				{ 9 , 144970 }, -- Cruel Gladiator's Ringmail Spaulders
+				{ 10, 144972 }, -- Cruel Gladiator's Ringmail Clasp
+				{ 11, 144974 }, -- Cruel Gladiator's Ringmail Armband
+				{ 16, 147661 }, -- Ensemble: Cruel Gladiator's Ringmail Armor
+				{ 18, 144552 }, -- Cruel Gladiator's Totemic Cloak
+				{ 19, 144714 }, -- Cruel Gladiator's Ringmail Armor
+				{ 20, 144716 }, -- Cruel Gladiator's Ringmail Boots
+				{ 21, 144718 }, -- Cruel Gladiator's Ringmail Gauntlets
+				{ 22, 144720 }, -- Cruel Gladiator's Ringmail Helm
+				{ 23, 144722 }, -- Cruel Gladiator's Ringmail Kilt
+				{ 24, 144724 }, -- Cruel Gladiator's Ringmail Spaulders
+				{ 25, 144726 }, -- Cruel Gladiator's Ringmail Clasp
+				{ 26, 144728 }, -- Cruel Gladiator's Ringmail Armband
+				{ 101, 147673 }, -- Ensemble: Cruel Combatant's Ringmail Armor
+				{ 103, 145044 }, -- Cruel Combatant's Totemic Cloak
+				{ 104, 145206 }, -- Cruel Combatant's Ringmail Armor
+				{ 105, 145208 }, -- Cruel Combatant's Ringmail Boots
+				{ 106, 145210 }, -- Cruel Combatant's Ringmail Gauntlets
+				{ 107, 145212 }, -- Cruel Combatant's Ringmail Helm
+				{ 108, 145214 }, -- Cruel Combatant's Ringmail Kilt
+				{ 109, 145216 }, -- Cruel Combatant's Ringmail Spaulders
+				{ 110, 145218 }, -- Cruel Combatant's Ringmail Clasp
+				{ 111, 145220 }, -- Cruel Combatant's Ringmail Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147638 }, -- Ensemble: Elite Cruel Gladiator's Ringmail Armor
+				{ 3 , 144799 }, -- Cruel Gladiator's Totemic Cloak
+				{ 4 , 144961 }, -- Cruel Gladiator's Ringmail Armor
+				{ 5 , 144963 }, -- Cruel Gladiator's Ringmail Boots
+				{ 6 , 144965 }, -- Cruel Gladiator's Ringmail Gauntlets
+				{ 7 , 144967 }, -- Cruel Gladiator's Ringmail Helm
+				{ 8 , 144969 }, -- Cruel Gladiator's Ringmail Kilt
+				{ 9 , 144971 }, -- Cruel Gladiator's Ringmail Spaulders
+				{ 10, 144973 }, -- Cruel Gladiator's Ringmail Clasp
+				{ 11, 144975 }, -- Cruel Gladiator's Ringmail Armband
+				{ 16, 147662 }, -- Ensemble: Cruel Gladiator's Ringmail Armor
+				{ 18, 144553 }, -- Cruel Gladiator's Totemic Cloak
+				{ 19, 144715 }, -- Cruel Gladiator's Ringmail Armor
+				{ 20, 144717 }, -- Cruel Gladiator's Ringmail Boots
+				{ 21, 144719 }, -- Cruel Gladiator's Ringmail Gauntlets
+				{ 22, 144721 }, -- Cruel Gladiator's Ringmail Helm
+				{ 23, 144723 }, -- Cruel Gladiator's Ringmail Kilt
+				{ 24, 144725 }, -- Cruel Gladiator's Ringmail Spaulders
+				{ 25, 144727 }, -- Cruel Gladiator's Ringmail Clasp
+				{ 26, 144729 }, -- Cruel Gladiator's Ringmail Armband
+				{ 101, 147674 }, -- Ensemble: Cruel Combatant's Ringmail Armor
+				{ 103, 145045 }, -- Cruel Combatant's Totemic Cloak
+				{ 104, 145207 }, -- Cruel Combatant's Ringmail Armor
+				{ 105, 145209 }, -- Cruel Combatant's Ringmail Boots
+				{ 106, 145211 }, -- Cruel Combatant's Ringmail Gauntlets
+				{ 107, 145213 }, -- Cruel Combatant's Ringmail Helm
+				{ 108, 145215 }, -- Cruel Combatant's Ringmail Leggings
+				{ 109, 145217 }, -- Cruel Combatant's Ringmail Spaulders
+				{ 110, 145219 }, -- Cruel Combatant's Ringmail Clasp
+				{ 111, 145221 }, -- Cruel Combatant's Ringmail Armband
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147629 }, -- Ensemble: Elite Cruel Gladiator's Felweave Armor
+				{ 3 , 144800 }, -- Cruel Gladiator's Felweave Cloak
+				{ 4 , 144994 }, -- Cruel Gladiator's Felweave Treads
+				{ 5 , 144996 }, -- Cruel Gladiator's Felweave Handguards
+				{ 6 , 144998 }, -- Cruel Gladiator's Felweave Cowl
+				{ 7 , 145000 }, -- Cruel Gladiator's Felweave Trousers
+				{ 8 , 145002 }, -- Cruel Gladiator's Felweave Raiment
+				{ 9 , 145004 }, -- Cruel Gladiator's Felweave Amice
+				{ 10, 145006 }, -- Cruel Gladiator's Felweave Cord
+				{ 11, 145008 }, -- Cruel Gladiator's Felweave Bracers
+				{ 16, 147653 }, -- Ensemble: Cruel Gladiator's Felweave Armor
+				{ 18, 144554 }, -- Cruel Gladiator's Felweave Cloak
+				{ 19, 144748 }, -- Cruel Gladiator's Felweave Treads
+				{ 20, 144750 }, -- Cruel Gladiator's Felweave Handguards
+				{ 21, 144752 }, -- Cruel Gladiator's Felweave Cowl
+				{ 22, 144754 }, -- Cruel Gladiator's Felweave Trousers
+				{ 23, 144756 }, -- Cruel Gladiator's Felweave Raiment
+				{ 24, 144758 }, -- Cruel Gladiator's Felweave Amice
+				{ 25, 144760 }, -- Cruel Gladiator's Felweave Cord
+				{ 26, 144762 }, -- Cruel Gladiator's Felweave Bracers
+				{ 101, 147681 }, -- Ensemble: Cruel Combatant's Felweave Armor
+				{ 103, 145046 }, -- Cruel Combatant's Felweave Cloak
+				{ 104, 145240 }, -- Cruel Combatant's Felweave Treads
+				{ 105, 145242 }, -- Cruel Combatant's Felweave Handguards
+				{ 106, 145244 }, -- Cruel Combatant's Felweave Cowl
+				{ 107, 145246 }, -- Cruel Combatant's Felweave Trousers
+				{ 108, 145248 }, -- Cruel Combatant's Felweave Raiment
+				{ 109, 145250 }, -- Cruel Combatant's Felweave Amice
+				{ 110, 145252 }, -- Cruel Combatant's Felweave Cord
+				{ 111, 145254 }, -- Cruel Combatant's Felweave Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147630 }, -- Ensemble: Elite Cruel Gladiator's Felweave Armor
+				{ 3 , 144801 }, -- Cruel Gladiator's Felweave Cloak
+				{ 4 , 144995 }, -- Cruel Gladiator's Felweave Treads
+				{ 5 , 144997 }, -- Cruel Gladiator's Felweave Handguards
+				{ 6 , 144999 }, -- Cruel Gladiator's Felweave Cowl
+				{ 7 , 145001 }, -- Cruel Gladiator's Felweave Trousers
+				{ 8 , 145003 }, -- Cruel Gladiator's Felweave Raiment
+				{ 9 , 145005 }, -- Cruel Gladiator's Felweave Amice
+				{ 10, 145007 }, -- Cruel Gladiator's Felweave Cord
+				{ 11, 145009 }, -- Cruel Gladiator's Felweave Bracers
+				{ 16, 147654 }, -- Ensemble: Cruel Gladiator's Felweave Armor
+				{ 18, 144555 }, -- Cruel Gladiator's Felweave Cloak
+				{ 19, 144749 }, -- Cruel Gladiator's Felweave Treads
+				{ 20, 144751 }, -- Cruel Gladiator's Felweave Handguards
+				{ 21, 144753 }, -- Cruel Gladiator's Felweave Cowl
+				{ 22, 144755 }, -- Cruel Gladiator's Felweave Trousers
+				{ 23, 144757 }, -- Cruel Gladiator's Felweave Raiment
+				{ 24, 144759 }, -- Cruel Gladiator's Felweave Amice
+				{ 25, 144761 }, -- Cruel Gladiator's Felweave Cord
+				{ 26, 144763 }, -- Cruel Gladiator's Felweave Bracers
+				{ 101, 147682 }, -- Ensemble: Cruel Combatant's Felweave Armor
+				{ 103, 145047 }, -- Cruel Combatant's Felweave Cloak
+				{ 104, 145241 }, -- Cruel Combatant's Felweave Treads
+				{ 105, 145243 }, -- Cruel Combatant's Felweave Handguards
+				{ 106, 145245 }, -- Cruel Combatant's Felweave Cowl
+				{ 107, 145247 }, -- Cruel Combatant's Felweave Trousers
+				{ 108, 145249 }, -- Cruel Combatant's Felweave Raiment
+				{ 109, 145251 }, -- Cruel Combatant's Felweave Amice
+				{ 110, 145253 }, -- Cruel Combatant's Felweave Cord
+				{ 111, 145255 }, -- Cruel Combatant's Felweave Bracers
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 147636 }, -- Ensemble: Elite Cruel Gladiator's Plate Armor
+				{ 3 , 144802 }, -- Cruel Gladiator's Cloak of Battle
+				{ 4 , 145010 }, -- Cruel Gladiator's Plate Chestpiece
+				{ 5 , 145012 }, -- Cruel Gladiator's Plate Warboots
+				{ 6 , 145014 }, -- Cruel Gladiator's Plate Gauntlets
+				{ 7 , 145016 }, -- Cruel Gladiator's Plate Helm
+				{ 8 , 145018 }, -- Cruel Gladiator's Plate Legguards
+				{ 9 , 145020 }, -- Cruel Gladiator's Plate Shoulders
+				{ 10, 145022 }, -- Cruel Gladiator's Plate Girdle
+				{ 11, 145024 }, -- Cruel Gladiator's Plate Wristplates
+				{ 16, 147660 }, -- Ensemble: Cruel Gladiator's Plate Armor
+				{ 18, 144556 }, -- Cruel Gladiator's Cloak of Battle
+				{ 19, 144764 }, -- Cruel Gladiator's Plate Chestpiece
+				{ 20, 144766 }, -- Cruel Gladiator's Plate Warboots
+				{ 21, 144768 }, -- Cruel Gladiator's Plate Gauntlets
+				{ 22, 144770 }, -- Cruel Gladiator's Plate Helm
+				{ 23, 144772 }, -- Cruel Gladiator's Plate Legguards
+				{ 24, 144774 }, -- Cruel Gladiator's Plate Shoulders
+				{ 25, 144776 }, -- Cruel Gladiator's Plate Girdle
+				{ 26, 144778 }, -- Cruel Gladiator's Plate Wristplates
+				{ 101, 147691 }, -- Ensemble: Cruel Combatant's Plate Armor
+				{ 103, 145048 }, -- Cruel Combatant's Cloak of Battle
+				{ 104, 145256 }, -- Cruel Combatant's Plate Chestpiece
+				{ 105, 145258 }, -- Cruel Combatant's Plate Warboots
+				{ 106, 145260 }, -- Cruel Combatant's Plate Gauntlets
+				{ 107, 145262 }, -- Cruel Combatant's Plate Helm
+				{ 108, 145264 }, -- Cruel Combatant's Plate Legguards
+				{ 109, 145266 }, -- Cruel Combatant's Plate Shoulders
+				{ 110, 145268 }, -- Cruel Combatant's Plate Girdle
+				{ 111, 145270 }, -- Cruel Combatant's Plate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 147635 }, -- Ensemble: Elite Cruel Gladiator's Plate Armor
+				{ 3 , 144803 }, -- Cruel Gladiator's Cloak of Battle
+				{ 4 , 145011 }, -- Cruel Gladiator's Plate Chestpiece
+				{ 5 , 145013 }, -- Cruel Gladiator's Plate Warboots
+				{ 6 , 145015 }, -- Cruel Gladiator's Plate Gauntlets
+				{ 7 , 145017 }, -- Cruel Gladiator's Plate Helm
+				{ 8 , 145019 }, -- Cruel Gladiator's Plate Legguards
+				{ 9 , 145021 }, -- Cruel Gladiator's Plate Shoulders
+				{ 10, 145023 }, -- Cruel Gladiator's Plate Girdle
+				{ 11, 145025 }, -- Cruel Gladiator's Plate Wristplates
+				{ 16, 147659 }, -- Ensemble: Cruel Gladiator's Plate Armor
+				{ 18, 144557 }, -- Cruel Gladiator's Cloak of Battle
+				{ 19, 144765 }, -- Cruel Gladiator's Plate Chestpiece
+				{ 20, 144767 }, -- Cruel Gladiator's Plate Warboots
+				{ 21, 144769 }, -- Cruel Gladiator's Plate Gauntlets
+				{ 22, 144771 }, -- Cruel Gladiator's Plate Helm
+				{ 23, 144773 }, -- Cruel Gladiator's Plate Legguards
+				{ 24, 144775 }, -- Cruel Gladiator's Plate Shoulders
+				{ 25, 144777 }, -- Cruel Gladiator's Plate Girdle
+				{ 26, 144779 }, -- Cruel Gladiator's Plate Wristplates
+				{ 101, 147692 }, -- Ensemble: Cruel Combatant's Plate Armor
+				{ 103, 145049 }, -- Cruel Combatant's Cloak of Battle
+				{ 104, 145257 }, -- Cruel Combatant's Plate Chestpiece
+				{ 105, 145259 }, -- Cruel Combatant's Plate Warboots
+				{ 106, 145261 }, -- Cruel Combatant's Plate Gauntlets
+				{ 107, 145263 }, -- Cruel Combatant's Plate Helm
+				{ 108, 145265 }, -- Cruel Combatant's Plate Legguards
+				{ 109, 145267 }, -- Cruel Combatant's Plate Shoulders
+				{ 110, 145269 }, -- Cruel Combatant's Plate Girdle
+				{ 111, 145271 }, -- Cruel Combatant's Plate Wristplates
 			},
 		},
 	},
@@ -210,6 +1790,24 @@ data["LEGION3GEAR"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 11, 144901 }, -- Cruel Gladiator's Necklace
+				{ 12, 144903 }, -- Cruel Gladiator's Pendant
+				{ 13, 144905 }, -- Cruel Gladiator's Choker
+				-- Ring
+				{ 16, 144939 }, -- Cruel Gladiator's Ring
+				{ 17, 144941 }, -- Cruel Gladiator's Band
+				{ 18, 144943 }, -- Cruel Gladiator's Signet
+				-- Trinket
+				{ 20, 144977 }, -- Cruel Gladiator's Badge of Conquest
+				{ 21, 144979 }, -- Cruel Gladiator's Accolade of Conquest
+				{ 22, 144981 }, -- Cruel Gladiator's Insignia of Conquest
+				{ 23, 144983 }, -- Cruel Gladiator's Badge of Dominance
+				{ 24, 144985 }, -- Cruel Gladiator's Accolade of Dominance
+				{ 25, 144987 }, -- Cruel Gladiator's Insignia of Dominance
+				{ 26, 144989 }, -- Cruel Gladiator's Badge of Victory
+				{ 27, 144991 }, -- Cruel Gladiator's Accolade of Victory
+				{ 28, 144993 }, -- Cruel Gladiator's Insignia of Victory
 			},
 		},
 		{
@@ -246,11 +1844,67 @@ data["LEGION3GEAR"] = {
 				{ 28, 144746 }, -- Cruel Gladiator's Insignia of Victory
 				-- Cloak
 				{ 30, 147360 }, -- Cruel Gladiator's Cloak
+				-- Amulet
+				{ 111, 145146 }, -- Cruel Combatant's Necklace
+				{ 112, 145148 }, -- Cruel Combatant's Pendant
+				{ 113, 145150 }, -- Cruel Combatant's Choker
+				-- Ring
+				{ 116, 145184 }, -- Cruel Combatant's Ring
+				{ 117, 145186 }, -- Cruel Combatant's Band
+				{ 118, 145188 }, -- Cruel Combatant's Signet
+				-- Trinket
+				{ 120, 145222 }, -- Cruel Combatant's Badge of Conquest
+				{ 121, 145224 }, -- Cruel Combatant's Accolade of Conquest
+				{ 122, 145226 }, -- Cruel Combatant's Insignia of Conquest
+				{ 123, 145228 }, -- Cruel Combatant's Badge of Dominance
+				{ 124, 145230 }, -- Cruel Combatant's Accolade of Dominance
+				{ 125, 145232 }, -- Cruel Combatant's Insignia of Dominance
+				{ 126, 145234 }, -- Cruel Combatant's Badge of Victory
+				{ 127, 145236 }, -- Cruel Combatant's Accolade of Victory
+				{ 128, 145238 }, -- Cruel Combatant's Insignia of Victory
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 11, 144655 }, -- Cruel Gladiator's Necklace
+				{ 12, 144657 }, -- Cruel Gladiator's Pendant
+				{ 13, 144659 }, -- Cruel Gladiator's Choker
+				-- Tabard
 				{ 15, 147336 }, -- Cruel Gladiator's Tabard
+				-- Ring
+				{ 16, 144693 }, -- Cruel Gladiator's Ring
+				{ 17, 144695 }, -- Cruel Gladiator's Band
+				{ 18, 144697 }, -- Cruel Gladiator's Signet
+				-- Trinket
+				{ 20, 144731 }, -- Cruel Gladiator's Badge of Conquest
+				{ 21, 144733 }, -- Cruel Gladiator's Accolade of Conquest
+				{ 22, 144735 }, -- Cruel Gladiator's Insignia of Conquest
+				{ 23, 144737 }, -- Cruel Gladiator's Badge of Dominance
+				{ 24, 144739 }, -- Cruel Gladiator's Accolade of Dominance
+				{ 25, 144741 }, -- Cruel Gladiator's Insignia of Dominance
+				{ 26, 144743 }, -- Cruel Gladiator's Badge of Victory
+				{ 27, 144745 }, -- Cruel Gladiator's Accolade of Victory
+				{ 28, 144747 }, -- Cruel Gladiator's Insignia of Victory
+				-- Cloak
 				{ 30, 147357 }, -- Cruel Gladiator's Cloak
+				-- Amulet
+				{ 111, 145147 }, -- Cruel Combatant's Necklace
+				{ 112, 145149 }, -- Cruel Combatant's Pendant
+				{ 113, 145151 }, -- Cruel Combatant's Choker
+				-- Ring
+				{ 116, 145185 }, -- Cruel Combatant's Ring
+				{ 117, 145187 }, -- Cruel Combatant's Band
+				{ 118, 145189 }, -- Cruel Combatant's Signet
+				-- Trinket
+				{ 120, 145223 }, -- Cruel Combatant's Badge of Conquest
+				{ 121, 145225 }, -- Cruel Combatant's Accolade of Conquest
+				{ 122, 145227 }, -- Cruel Combatant's Insignia of Conquest
+				{ 123, 145229 }, -- Cruel Combatant's Badge of Dominance
+				{ 124, 145231 }, -- Cruel Combatant's Accolade of Dominance
+				{ 125, 145233 }, -- Cruel Combatant's Insignia of Dominance
+				{ 126, 145235 }, -- Cruel Combatant's Badge of Victory
+				{ 127, 145237 }, -- Cruel Combatant's Accolade of Victory
+				{ 128, 145239 }, -- Cruel Combatant's Insignia of Victory
 			},
 		},
 	},
@@ -263,521 +1917,1013 @@ data["LEGION1SETS"] = {
 		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135594 }, -- Vindictive Gladiator's Dreadplate Helm
-				{ 2, 135596 }, -- Vindictive Gladiator's Dreadplate Shoulders
-				{ 3, 135591 }, -- Vindictive Gladiator's Dreadplate Chestpiece
-				{ 4, 135598 }, -- Vindictive Gladiator's Dreadplate Wristplates
-				{ 5, 135593 }, -- Vindictive Gladiator's Dreadplate Gauntlets
-				{ 6, 135597 }, -- Vindictive Gladiator's Dreadplate Girdle
-				{ 7, 135595 }, -- Vindictive Gladiator's Dreadplate Legguards
-				{ 8, 135592 }, -- Vindictive Gladiator's Dreadplate Sabatons
-				{ 9, 135679 }, -- Vindictive Gladiator's Dreadcloak
-				{ 16, 135820 }, -- Vindictive Combatant's Dreadplate Helm
-				{ 17, 135822 }, -- Vindictive Combatant's Dreadplate Shoulders
-				{ 18, 135817 }, -- Vindictive Combatant's Dreadplate Chestpiece
-				{ 19, 135824 }, -- Vindictive Combatant's Dreadplate Wristplates
-				{ 20, 135819 }, -- Vindictive Combatant's Dreadplate Gauntlets
-				{ 21, 135823 }, -- Vindictive Combatant's Dreadplate Girdle
-				{ 22, 135821 }, -- Vindictive Combatant's Dreadplate Legguards
-				{ 23, 135818 }, -- Vindictive Combatant's Dreadplate Sabatons
-				{ 24, 135905 }, -- Vindictive Combatant's Dreadcloak
-			},
+				{ 1, 146220 }, -- Ensemble: Elite Vindictive Gladiator's Dreadplate Armor
+				{ 3 , 136043 }, -- Vindictive Gladiator's Dreadplate Chestpiece
+				{ 4 , 136044 }, -- Vindictive Gladiator's Dreadplate Sabatons
+				{ 5 , 136045 }, -- Vindictive Gladiator's Dreadplate Gauntlets
+				{ 6 , 136046 }, -- Vindictive Gladiator's Dreadplate Helm
+				{ 7 , 136047 }, -- Vindictive Gladiator's Dreadplate Legguards
+				{ 8 , 136048 }, -- Vindictive Gladiator's Dreadplate Shoulders
+				{ 9 , 136049 }, -- Vindictive Gladiator's Dreadplate Girdle
+				{ 10, 136050 }, -- Vindictive Gladiator's Dreadplate Wristplates
+				{ 11, 136131 }, -- Vindictive Gladiator's Dreadcloak
+				{ 16, 146132 }, -- Ensemble: Vindictive Gladiator's Dreadplate Armor
+				{ 18, 135591 }, -- Vindictive Gladiator's Dreadplate Chestpiece
+				{ 19, 135592 }, -- Vindictive Gladiator's Dreadplate Sabatons
+				{ 20, 135593 }, -- Vindictive Gladiator's Dreadplate Gauntlets
+				{ 21, 135594 }, -- Vindictive Gladiator's Dreadplate Helm
+				{ 22, 135595 }, -- Vindictive Gladiator's Dreadplate Legguards
+				{ 23, 135596 }, -- Vindictive Gladiator's Dreadplate Shoulders
+				{ 24, 135597 }, -- Vindictive Gladiator's Dreadplate Girdle
+				{ 25, 135598 }, -- Vindictive Gladiator's Dreadplate Wristplates
+				{ 26, 135679 }, -- Vindictive Gladiator's Dreadcloak
+
+				{ 101, 146164 }, -- Ensemble: Vindictive Combatant's Dreadplate Armor
+				{ 103, 135817 }, -- Vindictive Combatant's Dreadplate Chestpiece
+				{ 104, 135818 }, -- Vindictive Combatant's Dreadplate Sabatons
+				{ 105, 135819 }, -- Vindictive Combatant's Dreadplate Gauntlets
+				{ 106, 135820 }, -- Vindictive Combatant's Dreadplate Helm
+				{ 107, 135821 }, -- Vindictive Combatant's Dreadplate Legguards
+				{ 108, 135822 }, -- Vindictive Combatant's Dreadplate Shoulders
+				{ 109, 135823 }, -- Vindictive Combatant's Dreadplate Girdle
+				{ 110, 135824 }, -- Vindictive Combatant's Dreadplate Wristplates
+				{ 111, 135905 }, -- Vindictive Combatant's Dreadcloak
+				},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135707 }, -- Vindictive Gladiator's Dreadplate Helm
-				{ 2, 135709 }, -- Vindictive Gladiator's Dreadplate Shoulders
-				{ 3, 135704 }, -- Vindictive Gladiator's Dreadplate Chestpiece
-				{ 4, 135711 }, -- Vindictive Gladiator's Dreadplate Wristplates
-				{ 5, 135706 }, -- Vindictive Gladiator's Dreadplate Gauntlets
-				{ 6, 135710 }, -- Vindictive Gladiator's Dreadplate Girdle
-				{ 7, 135708 }, -- Vindictive Gladiator's Dreadplate Legguards
-				{ 8, 135705 }, -- Vindictive Gladiator's Dreadplate Sabatons
-				{ 9, 135792 }, -- Vindictive Gladiator's Dreadcloak
-				{ 16, 135933 }, -- Vindictive Combatant's Dreadplate Helm
-				{ 17, 135935 }, -- Vindictive Combatant's Dreadplate Shoulders
-				{ 18, 135930 }, -- Vindictive Combatant's Dreadplate Chestpiece
-				{ 19, 135937 }, -- Vindictive Combatant's Dreadplate Wristplates
-				{ 20, 135932 }, -- Vindictive Combatant's Dreadplate Gauntlets
-				{ 21, 135936 }, -- Vindictive Combatant's Dreadplate Girdle
-				{ 22, 135934 }, -- Vindictive Combatant's Dreadplate Legguards
-				{ 23, 135931 }, -- Vindictive Combatant's Dreadplate Sabatons
-				{ 24, 136018 }, -- Vindictive Combatant's Dreadcloak
+				{ 1, 146221 }, -- Ensemble: Elite Vindictive Gladiator's Dreadplate Armor
+				{ 3 , 136156 }, -- Vindictive Gladiator's Dreadplate Chestpiece
+				{ 4 , 136157 }, -- Vindictive Gladiator's Dreadplate Sabatons
+				{ 5 , 136158 }, -- Vindictive Gladiator's Dreadplate Gauntlets
+				{ 6 , 136159 }, -- Vindictive Gladiator's Dreadplate Helm
+				{ 7 , 136160 }, -- Vindictive Gladiator's Dreadplate Legguards
+				{ 8 , 136161 }, -- Vindictive Gladiator's Dreadplate Shoulders
+				{ 9 , 136162 }, -- Vindictive Gladiator's Dreadplate Girdle
+				{ 10, 136163 }, -- Vindictive Gladiator's Dreadplate Wristplates
+				{ 11, 136244 }, -- Vindictive Gladiator's Dreadcloak
+				{ 16, 146133 }, -- Ensemble: Vindictive Gladiator's Dreadplate Armor
+				{ 18, 135704 }, -- Vindictive Gladiator's Dreadplate Chestpiece
+				{ 19, 135705 }, -- Vindictive Gladiator's Dreadplate Sabatons
+				{ 20, 135706 }, -- Vindictive Gladiator's Dreadplate Gauntlets
+				{ 21, 135707 }, -- Vindictive Gladiator's Dreadplate Helm
+				{ 22, 135708 }, -- Vindictive Gladiator's Dreadplate Legguards
+				{ 23, 135709 }, -- Vindictive Gladiator's Dreadplate Shoulders
+				{ 24, 135710 }, -- Vindictive Gladiator's Dreadplate Girdle
+				{ 25, 135711 }, -- Vindictive Gladiator's Dreadplate Wristplates
+				{ 26, 135792 }, -- Vindictive Gladiator's Dreadcloak
+
+				{ 101, 146165 }, -- Ensemble: Vindictive Combatant's Dreadplate Armor
+				{ 103, 135930 }, -- Vindictive Combatant's Dreadplate Chestpiece
+				{ 104, 135931 }, -- Vindictive Combatant's Dreadplate Sabatons
+				{ 105, 135932 }, -- Vindictive Combatant's Dreadplate Gauntlets
+				{ 106, 135933 }, -- Vindictive Combatant's Dreadplate Helm
+				{ 107, 135934 }, -- Vindictive Combatant's Dreadplate Legguards
+				{ 108, 135935 }, -- Vindictive Combatant's Dreadplate Shoulders
+				{ 109, 135936 }, -- Vindictive Combatant's Dreadplate Girdle
+				{ 110, 135937 }, -- Vindictive Combatant's Dreadplate Wristplates
+				{ 111, 136018 }, -- Vindictive Combatant's Dreadcloak
 			},
 		},
 		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 136281 }, -- Vindictive Gladiator's Felskin Helm
-				{ 2, 136284 }, -- Vindictive Gladiator's Felskin Spaulders
-				{ 3, 136283 }, -- Vindictive Gladiator's Felskin Tunic
-				{ 4, 136286 }, -- Vindictive Gladiator's Felskin Wristguards
-				{ 5, 136280 }, -- Vindictive Gladiator's Felskin Gloves
-				{ 6, 136285 }, -- Vindictive Gladiator's Felskin Belt
-				{ 7, 136282 }, -- Vindictive Gladiator's Felskin Legguards
-				{ 8, 136279 }, -- Vindictive Gladiator's Felskin Boots
-				{ 16, 136297 }, -- Vindictive Combatant's Felskin Helm
-				{ 17, 136300 }, -- Vindictive Combatant's Felskin Spaulders
-				{ 18, 136299 }, -- Vindictive Combatant's Felskin Tunic
-				{ 19, 136302 }, -- Vindictive Combatant's Felskin Wristguards
-				{ 20, 136296 }, -- Vindictive Combatant's Felskin Gloves
-				{ 21, 136301 }, -- Vindictive Combatant's Felskin Belt
-				{ 22, 136298 }, -- Vindictive Combatant's Felskin Legguards
-				{ 23, 136295 }, -- Vindictive Combatant's Felskin Boots
+				{ 1, 146270 }, -- Ensemble: Elite Vindictive Gladiator's Felskin Armor
+				{ 3 , 136311 }, -- Vindictive Gladiator's Felskin Boots
+				{ 4 , 136312 }, -- Vindictive Gladiator's Felskin Gloves
+				{ 5 , 136313 }, -- Vindictive Gladiator's Felskin Helm
+				{ 6 , 136314 }, -- Vindictive Gladiator's Felskin Legguards
+				{ 7 , 136315 }, -- Vindictive Gladiator's Felskin Tunic
+				{ 8 , 136316 }, -- Vindictive Gladiator's Felskin Spaulders
+				{ 9 , 136317 }, -- Vindictive Gladiator's Felskin Belt
+				{ 10, 136318 }, -- Vindictive Gladiator's Felskin Wristguards
+				{ 16, 146262 }, -- Ensemble: Vindictive Gladiator's Felskin Armor
+				{ 18, 136279 }, -- Vindictive Gladiator's Felskin Boots
+				{ 19, 136280 }, -- Vindictive Gladiator's Felskin Gloves
+				{ 20, 136281 }, -- Vindictive Gladiator's Felskin Helm
+				{ 21, 136282 }, -- Vindictive Gladiator's Felskin Legguards
+				{ 22, 136283 }, -- Vindictive Gladiator's Felskin Tunic
+				{ 23, 136284 }, -- Vindictive Gladiator's Felskin Spaulders
+				{ 24, 136285 }, -- Vindictive Gladiator's Felskin Belt
+				{ 25, 136286 }, -- Vindictive Gladiator's Felskin Wristguards
+
+				{ 101, 146264 }, -- Ensemble: Vindictive Combatant's Felskin Armor
+				{ 103, 136295 }, -- Vindictive Combatant's Felskin Boots
+				{ 104, 136296 }, -- Vindictive Combatant's Felskin Gloves
+				{ 105, 136297 }, -- Vindictive Combatant's Felskin Helm
+				{ 106, 136298 }, -- Vindictive Combatant's Felskin Legguards
+				{ 107, 136299 }, -- Vindictive Combatant's Felskin Tunic
+				{ 108, 136300 }, -- Vindictive Combatant's Felskin Spaulders
+				{ 109, 136301 }, -- Vindictive Combatant's Felskin Belt
+				{ 110, 136302 }, -- Vindictive Combatant's Felskin Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 136289 }, -- Vindictive Gladiator's Felskin Helm
-				{ 2, 136292 }, -- Vindictive Gladiator's Felskin Spaulders
-				{ 3, 136291 }, -- Vindictive Gladiator's Felskin Tunic
-				{ 4, 136294 }, -- Vindictive Gladiator's Felskin Wristguards
-				{ 5, 136288 }, -- Vindictive Gladiator's Felskin Gloves
-				{ 6, 136293 }, -- Vindictive Gladiator's Felskin Belt
-				{ 7, 136290 }, -- Vindictive Gladiator's Felskin Legguards
-				{ 8, 136287 }, -- Vindictive Gladiator's Felskin Boots
-				{ 16, 136305 }, -- Vindictive Combatant's Felskin Helm
-				{ 17, 136308 }, -- Vindictive Combatant's Felskin Spaulders
-				{ 18, 136307 }, -- Vindictive Combatant's Felskin Tunic
-				{ 19, 136310 }, -- Vindictive Combatant's Felskin Wristguards
-				{ 20, 136304 }, -- Vindictive Combatant's Felskin Gloves
-				{ 21, 136309 }, -- Vindictive Combatant's Felskin Belt
-				{ 22, 136306 }, -- Vindictive Combatant's Felskin Legguards
-				{ 23, 136303 }, -- Vindictive Combatant's Felskin Boots
+				{ 1, 146271 }, -- Ensemble: Elite Vindictive Gladiator's Felskin Armor
+				{ 3 , 136319 }, -- Vindictive Gladiator's Felskin Boots
+				{ 4 , 136320 }, -- Vindictive Gladiator's Felskin Gloves
+				{ 5 , 136321 }, -- Vindictive Gladiator's Felskin Helm
+				{ 6 , 136322 }, -- Vindictive Gladiator's Felskin Legguards
+				{ 7 , 136323 }, -- Vindictive Gladiator's Felskin Tunic
+				{ 8 , 136324 }, -- Vindictive Gladiator's Felskin Spaulders
+				{ 9 , 136325 }, -- Vindictive Gladiator's Felskin Belt
+				{ 10, 136326 }, -- Vindictive Gladiator's Felskin Wristguards
+				{ 16, 146263 }, -- Ensemble: Vindictive Gladiator's Felskin Armor
+				{ 18, 136287 }, -- Vindictive Gladiator's Felskin Boots
+				{ 19, 136288 }, -- Vindictive Gladiator's Felskin Gloves
+				{ 20, 136289 }, -- Vindictive Gladiator's Felskin Helm
+				{ 21, 136290 }, -- Vindictive Gladiator's Felskin Legguards
+				{ 22, 136291 }, -- Vindictive Gladiator's Felskin Tunic
+				{ 23, 136292 }, -- Vindictive Gladiator's Felskin Spaulders
+				{ 24, 136293 }, -- Vindictive Gladiator's Felskin Belt
+				{ 25, 136294 }, -- Vindictive Gladiator's Felskin Wristguards
+
+				{ 101, 146265 }, -- Ensemble: Vindictive Combatant's Felskin Armor
+				{ 103, 136303 }, -- Vindictive Combatant's Felskin Boots
+				{ 104, 136304 }, -- Vindictive Combatant's Felskin Gloves
+				{ 105, 136305 }, -- Vindictive Combatant's Felskin Helm
+				{ 106, 136306 }, -- Vindictive Combatant's Felskin Legguards
+				{ 107, 136307 }, -- Vindictive Combatant's Felskin Tunic
+				{ 108, 136308 }, -- Vindictive Combatant's Felskin Spaulders
+				{ 109, 136309 }, -- Vindictive Combatant's Felskin Belt
+				{ 110, 136310 }, -- Vindictive Combatant's Felskin Wristguards
 			},
 		},
 		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135601 }, -- Vindictive Gladiator's Dragonhide Helm
-				{ 2, 135604 }, -- Vindictive Gladiator's Dragonhide Spaulders
-				{ 3, 135603 }, -- Vindictive Gladiator's Dragonhide Robe
-				{ 4, 135606 }, -- Vindictive Gladiator's Dragonhide Wristguards
-				{ 5, 135600 }, -- Vindictive Gladiator's Dragonhide Gloves
-				{ 6, 135605 }, -- Vindictive Gladiator's Dragonhide Belt
-				{ 7, 135602 }, -- Vindictive Gladiator's Dragonhide Legguards
-				{ 8, 135599 }, -- Vindictive Gladiator's Dragonhide Moccasins
-				{ 9, 135680 }, -- Vindictive Gladiator's Dragonhide Cloak
-				{ 16, 135827 }, -- Vindictive Combatant's Dragonhide Helm
-				{ 17, 135830 }, -- Vindictive Combatant's Dragonhide Spaulders
-				{ 18, 135829 }, -- Vindictive Combatant's Dragonhide Tunic
-				{ 19, 135832 }, -- Vindictive Combatant's Dragonhide Wristguards
-				{ 20, 135826 }, -- Vindictive Combatant's Dragonhide Gloves
-				{ 21, 135831 }, -- Vindictive Combatant's Dragonhide Belt
-				{ 22, 135828 }, -- Vindictive Combatant's Dragonhide Legguards
-				{ 23, 135825 }, -- Vindictive Combatant's Dragonhide Moccasins
-				{ 24, 135909 }, -- Vindictive Combatant's Dragonhide Cloak
+				{ 1, 146228 }, -- Ensemble: Elite Vindictive Gladiator's Dragonhide Armor
+				{ 3 , 136051 }, -- Vindictive Gladiator's Dragonhide Moccasins
+				{ 4 , 136052 }, -- Vindictive Gladiator's Dragonhide Gloves
+				{ 5 , 136053 }, -- Vindictive Gladiator's Dragonhide Helm
+				{ 6 , 136054 }, -- Vindictive Gladiator's Dragonhide Legguards
+				{ 7 , 136055 }, -- Vindictive Gladiator's Dragonhide Robe
+				{ 8 , 136056 }, -- Vindictive Gladiator's Dragonhide Spaulders
+				{ 9 , 136057 }, -- Vindictive Gladiator's Dragonhide Belt
+				{ 10, 136058 }, -- Vindictive Gladiator's Dragonhide Wristguards
+				{ 11, 136135 }, -- Vindictive Gladiator's Dragonhide Cloak
+				{ 16, 146140 }, -- Ensemble: Vindictive Gladiator's Dragonhide Armor
+				{ 18, 135599 }, -- Vindictive Gladiator's Dragonhide Moccasins
+				{ 19, 135600 }, -- Vindictive Gladiator's Dragonhide Gloves
+				{ 20, 135601 }, -- Vindictive Gladiator's Dragonhide Helm
+				{ 21, 135602 }, -- Vindictive Gladiator's Dragonhide Legguards
+				{ 22, 135603 }, -- Vindictive Gladiator's Dragonhide Robe
+				{ 23, 135604 }, -- Vindictive Gladiator's Dragonhide Spaulders
+				{ 24, 135605 }, -- Vindictive Gladiator's Dragonhide Belt
+				{ 25, 135606 }, -- Vindictive Gladiator's Dragonhide Wristguards
+				{ 26, 135680 }, -- Vindictive Gladiator's Dragonhide Cloak
+
+				{ 101, 146168 }, -- Ensemble: Vindictive Combatant's Dragonhide Armor
+				{ 103, 135825 }, -- Vindictive Combatant's Dragonhide Moccasins
+				{ 104, 135826 }, -- Vindictive Combatant's Dragonhide Gloves
+				{ 105, 135827 }, -- Vindictive Combatant's Dragonhide Helm
+				{ 106, 135828 }, -- Vindictive Combatant's Dragonhide Legguards
+				{ 107, 135829 }, -- Vindictive Combatant's Dragonhide Tunic
+				{ 108, 135830 }, -- Vindictive Combatant's Dragonhide Spaulders
+				{ 109, 135831 }, -- Vindictive Combatant's Dragonhide Belt
+				{ 110, 135832 }, -- Vindictive Combatant's Dragonhide Wristguards
+				{ 111, 135909 }, -- Vindictive Combatant's Dragonhide Cloak
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135714 }, -- Vindictive Gladiator's Dragonhide Helm
-				{ 2, 135717 }, -- Vindictive Gladiator's Dragonhide Spaulders
-				{ 3, 135716 }, -- Vindictive Gladiator's Dragonhide Robe
-				{ 4, 135719 }, -- Vindictive Gladiator's Dragonhide Wristguards
-				{ 5, 135713 }, -- Vindictive Gladiator's Dragonhide Gloves
-				{ 6, 135718 }, -- Vindictive Gladiator's Dragonhide Belt
-				{ 7, 135715 }, -- Vindictive Gladiator's Dragonhide Legguards
-				{ 8, 135712 }, -- Vindictive Gladiator's Dragonhide Moccasins
-				{ 9, 135796 }, -- Vindictive Gladiator's Dragonhide Cloak
-				{ 16, 135940 }, -- Vindictive Combatant's Dragonhide Helm
-				{ 17, 135943 }, -- Vindictive Combatant's Dragonhide Spaulders
-				{ 18, 135942 }, -- Vindictive Combatant's Dragonhide Tunic
-				{ 19, 135945 }, -- Vindictive Combatant's Dragonhide Wristguards
-				{ 20, 135939 }, -- Vindictive Combatant's Dragonhide Gloves
-				{ 21, 135944 }, -- Vindictive Combatant's Dragonhide Belt
-				{ 22, 135941 }, -- Vindictive Combatant's Dragonhide Legguards
-				{ 23, 135938 }, -- Vindictive Combatant's Dragonhide Moccasins
-				{ 24, 136022 }, -- Vindictive Combatant's Dragonhide Cloak
+				{ 1, 146229 }, -- Ensemble: Elite Vindictive Gladiator's Dragonhide Armor
+				{ 3 , 136164 }, -- Vindictive Gladiator's Dragonhide Moccasins
+				{ 4 , 136165 }, -- Vindictive Gladiator's Dragonhide Gloves
+				{ 5 , 136166 }, -- Vindictive Gladiator's Dragonhide Helm
+				{ 6 , 136167 }, -- Vindictive Gladiator's Dragonhide Legguards
+				{ 7 , 136168 }, -- Vindictive Gladiator's Dragonhide Robe
+				{ 8 , 136169 }, -- Vindictive Gladiator's Dragonhide Spaulders
+				{ 9 , 136170 }, -- Vindictive Gladiator's Dragonhide Belt
+				{ 10, 136171 }, -- Vindictive Gladiator's Dragonhide Wristguards
+				{ 11, 136248 }, -- Vindictive Gladiator's Dragonhide Cloak
+				{ 16, 146141 }, -- Ensemble: Vindictive Gladiator's Dragonhide Armor
+				{ 18, 135712 }, -- Vindictive Gladiator's Dragonhide Moccasins
+				{ 19, 135713 }, -- Vindictive Gladiator's Dragonhide Gloves
+				{ 20, 135714 }, -- Vindictive Gladiator's Dragonhide Helm
+				{ 21, 135715 }, -- Vindictive Gladiator's Dragonhide Legguards
+				{ 22, 135716 }, -- Vindictive Gladiator's Dragonhide Robe
+				{ 23, 135717 }, -- Vindictive Gladiator's Dragonhide Spaulders
+				{ 24, 135718 }, -- Vindictive Gladiator's Dragonhide Belt
+				{ 25, 135719 }, -- Vindictive Gladiator's Dragonhide Wristguards
+				{ 26, 135796 }, -- Vindictive Gladiator's Dragonhide Cloak
+
+				{ 101, 146169 }, -- Ensemble: Vindictive Combatant's Dragonhide Armor
+				{ 103, 135938 }, -- Vindictive Combatant's Dragonhide Moccasins
+				{ 104, 135939 }, -- Vindictive Combatant's Dragonhide Gloves
+				{ 105, 135940 }, -- Vindictive Combatant's Dragonhide Helm
+				{ 106, 135941 }, -- Vindictive Combatant's Dragonhide Legguards
+				{ 107, 135942 }, -- Vindictive Combatant's Dragonhide Tunic
+				{ 108, 135943 }, -- Vindictive Combatant's Dragonhide Spaulders
+				{ 109, 135944 }, -- Vindictive Combatant's Dragonhide Belt
+				{ 110, 135945 }, -- Vindictive Combatant's Dragonhide Wristguards
+				{ 111, 136022 }, -- Vindictive Combatant's Dragonhide Cloak
 			},
 		},
 		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135610 }, -- Vindictive Gladiator's Chain Helm
-				{ 2, 135612 }, -- Vindictive Gladiator's Chain Spaulders
-				{ 3, 135607 }, -- Vindictive Gladiator's Chain Armor
-				{ 4, 135614 }, -- Vindictive Gladiator's Chain Armband
-				{ 5, 135609 }, -- Vindictive Gladiator's Chain Gauntlets
-				{ 6, 135613 }, -- Vindictive Gladiator's Chain Clasp
-				{ 7, 135611 }, -- Vindictive Gladiator's Chain Leggings
-				{ 8, 135608 }, -- Vindictive Gladiator's Chain Treads
-				{ 16, 135836 }, -- Vindictive Combatant's Chain Helm
-				{ 17, 135838 }, -- Vindictive Combatant's Chain Spaulders
-				{ 18, 135833 }, -- Vindictive Combatant's Chain Armor
-				{ 19, 135840 }, -- Vindictive Combatant's Chain Armband
-				{ 20, 135835 }, -- Vindictive Combatant's Chain Gauntlets
-				{ 21, 135839 }, -- Vindictive Combatant's Chain Clasp
-				{ 22, 135837 }, -- Vindictive Combatant's Chain Leggings
-				{ 23, 135834 }, -- Vindictive Combatant's Chain Treads
+				{ 1, 146226 }, -- Ensemble: Elite Vindictive Gladiator's Chain Armor
+				{ 3 , 136059 }, -- Vindictive Gladiator's Chain Armor
+				{ 4 , 136060 }, -- Vindictive Gladiator's Chain Treads
+				{ 5 , 136061 }, -- Vindictive Gladiator's Chain Gauntlets
+				{ 6 , 136062 }, -- Vindictive Gladiator's Chain Helm
+				{ 7 , 136063 }, -- Vindictive Gladiator's Chain Leggings
+				{ 8 , 136064 }, -- Vindictive Gladiator's Chain Spaulders
+				{ 9 , 136065 }, -- Vindictive Gladiator's Chain Clasp
+				{ 10, 136066 }, -- Vindictive Gladiator's Chain Armband
+				{ 16, 146138 }, -- Ensemble: Vindictive Gladiator's Chain Armor
+				{ 18, 135607 }, -- Vindictive Gladiator's Chain Armor
+				{ 19, 135608 }, -- Vindictive Gladiator's Chain Treads
+				{ 20, 135609 }, -- Vindictive Gladiator's Chain Gauntlets
+				{ 21, 135610 }, -- Vindictive Gladiator's Chain Helm
+				{ 22, 135611 }, -- Vindictive Gladiator's Chain Leggings
+				{ 23, 135612 }, -- Vindictive Gladiator's Chain Spaulders
+				{ 24, 135613 }, -- Vindictive Gladiator's Chain Clasp
+				{ 25, 135614 }, -- Vindictive Gladiator's Chain Armband
+
+				{ 101, 146154 }, -- Ensemble: Vindictive Combatant's Chain Armor
+				{ 103, 135833 }, -- Vindictive Combatant's Chain Armor
+				{ 104, 135834 }, -- Vindictive Combatant's Chain Treads
+				{ 105, 135835 }, -- Vindictive Combatant's Chain Gauntlets
+				{ 106, 135836 }, -- Vindictive Combatant's Chain Helm
+				{ 107, 135837 }, -- Vindictive Combatant's Chain Leggings
+				{ 108, 135838 }, -- Vindictive Combatant's Chain Spaulders
+				{ 109, 135839 }, -- Vindictive Combatant's Chain Clasp
+				{ 110, 135840 }, -- Vindictive Combatant's Chain Armband
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135723 }, -- Vindictive Gladiator's Chain Helm
-				{ 2, 135725 }, -- Vindictive Gladiator's Chain Spaulders
-				{ 3, 135720 }, -- Vindictive Gladiator's Chain Armor
-				{ 4, 135727 }, -- Vindictive Gladiator's Chain Armband
-				{ 5, 135722 }, -- Vindictive Gladiator's Chain Gauntlets
-				{ 6, 135726 }, -- Vindictive Gladiator's Chain Clasp
-				{ 7, 135724 }, -- Vindictive Gladiator's Chain Leggings
-				{ 8, 135721 }, -- Vindictive Gladiator's Chain Treads
-				{ 16, 135949 }, -- Vindictive Combatant's Chain Helm
-				{ 17, 135951 }, -- Vindictive Combatant's Chain Spaulders
-				{ 18, 135946 }, -- Vindictive Combatant's Chain Armor
-				{ 19, 135953 }, -- Vindictive Combatant's Chain Armband
-				{ 20, 135948 }, -- Vindictive Combatant's Chain Gauntlets
-				{ 21, 135952 }, -- Vindictive Combatant's Chain Clasp
-				{ 22, 135950 }, -- Vindictive Combatant's Chain Leggings
-				{ 23, 135947 }, -- Vindictive Combatant's Chain Treads
+				{ 1, 146227 }, -- Ensemble: Elite Vindictive Gladiator's Chain Armor
+				{ 3 , 136172 }, -- Vindictive Gladiator's Chain Armor
+				{ 4 , 136173 }, -- Vindictive Gladiator's Chain Treads
+				{ 5 , 136174 }, -- Vindictive Gladiator's Chain Gauntlets
+				{ 6 , 136175 }, -- Vindictive Gladiator's Chain Helm
+				{ 7 , 136176 }, -- Vindictive Gladiator's Chain Leggings
+				{ 8 , 136177 }, -- Vindictive Gladiator's Chain Spaulders
+				{ 9 , 136178 }, -- Vindictive Gladiator's Chain Clasp
+				{ 10, 136179 }, -- Vindictive Gladiator's Chain Armband
+				{ 16, 146139 }, -- Ensemble: Vindictive Gladiator's Chain Armor
+				{ 18, 135720 }, -- Vindictive Gladiator's Chain Armor
+				{ 19, 135721 }, -- Vindictive Gladiator's Chain Treads
+				{ 20, 135722 }, -- Vindictive Gladiator's Chain Gauntlets
+				{ 21, 135723 }, -- Vindictive Gladiator's Chain Helm
+				{ 22, 135724 }, -- Vindictive Gladiator's Chain Leggings
+				{ 23, 135725 }, -- Vindictive Gladiator's Chain Spaulders
+				{ 24, 135726 }, -- Vindictive Gladiator's Chain Clasp
+				{ 25, 135727 }, -- Vindictive Gladiator's Chain Armband
+
+				{ 101, 146155 }, -- Ensemble: Vindictive Combatant's Chain Armor
+				{ 103, 135946 }, -- Vindictive Combatant's Chain Armor
+				{ 104, 135947 }, -- Vindictive Combatant's Chain Treads
+				{ 105, 135948 }, -- Vindictive Combatant's Chain Gauntlets
+				{ 106, 135949 }, -- Vindictive Combatant's Chain Helm
+				{ 107, 135950 }, -- Vindictive Combatant's Chain Leggings
+				{ 108, 135951 }, -- Vindictive Combatant's Chain Spaulders
+				{ 109, 135952 }, -- Vindictive Combatant's Chain Clasp
+				{ 110, 135953 }, -- Vindictive Combatant's Chain Armband
 			},
 		},
 		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135617 }, -- Vindictive Gladiator's Silk Cowl
-				{ 2, 135620 }, -- Vindictive Gladiator's Silk Amice
-				{ 3, 135619 }, -- Vindictive Gladiator's Silk Robe
-				{ 4, 135622 }, -- Vindictive Gladiator's Silk Bracers
-				{ 5, 135616 }, -- Vindictive Gladiator's Silk Handguards
-				{ 6, 135621 }, -- Vindictive Gladiator's Silk Cord
-				{ 7, 135618 }, -- Vindictive Gladiator's Silk Trousers
-				{ 8, 135615 }, -- Vindictive Gladiator's Silk Treads
-				{ 9, 135684 }, -- Vindictive Gladiator's Silken Shawl
-				{ 16, 135843 }, -- Vindictive Combatant's Silk Cowl
-				{ 17, 135846 }, -- Vindictive Combatant's Silk Amice
-				{ 18, 135845 }, -- Vindictive Combatant's Silk Robe
-				{ 19, 135848 }, -- Vindictive Combatant's Silk Bracers
-				{ 20, 135842 }, -- Vindictive Combatant's Silk Handguards
-				{ 21, 135847 }, -- Vindictive Combatant's Silk Cord
-				{ 22, 135844 }, -- Vindictive Combatant's Silk Trousers
-				{ 23, 135841 }, -- Vindictive Combatant's Silk Treads
-				{ 24, 135906 }, -- Vindictive Combatant's Silken Shawl
+				{ 1, 146234 }, -- Ensemble: Elite Vindictive Gladiator's Silk Armor
+				{ 3 , 136067 }, -- Vindictive Gladiator's Silk Treads
+				{ 4 , 136068 }, -- Vindictive Gladiator's Silk Handguards
+				{ 5 , 136069 }, -- Vindictive Gladiator's Silk Cowl
+				{ 6 , 136070 }, -- Vindictive Gladiator's Silk Trousers
+				{ 7 , 136071 }, -- Vindictive Gladiator's Silk Robe
+				{ 8 , 136072 }, -- Vindictive Gladiator's Silk Amice
+				{ 9 , 136073 }, -- Vindictive Gladiator's Silk Cord
+				{ 10, 136074 }, -- Vindictive Gladiator's Silk Bracers
+				{ 11, 136132 }, -- Vindictive Gladiator's Silken Shawl
+				{ 16, 146146 }, -- Ensemble: Vindictive Gladiator's Silk Armor
+				{ 18, 135615 }, -- Vindictive Gladiator's Silk Treads
+				{ 19, 135616 }, -- Vindictive Gladiator's Silk Handguards
+				{ 20, 135617 }, -- Vindictive Gladiator's Silk Cowl
+				{ 21, 135618 }, -- Vindictive Gladiator's Silk Trousers
+				{ 22, 135619 }, -- Vindictive Gladiator's Silk Robe
+				{ 23, 135620 }, -- Vindictive Gladiator's Silk Amice
+				{ 24, 135621 }, -- Vindictive Gladiator's Silk Cord
+				{ 25, 135622 }, -- Vindictive Gladiator's Silk Bracers
+				{ 26, 135684 }, -- Vindictive Gladiator's Silken Shawl
+
+				{ 101, 146156 }, -- Ensemble: Vindictive Combatant's Silk Armor
+				{ 103, 135841 }, -- Vindictive Combatant's Silk Treads
+				{ 104, 135842 }, -- Vindictive Combatant's Silk Handguards
+				{ 105, 135843 }, -- Vindictive Combatant's Silk Cowl
+				{ 106, 135844 }, -- Vindictive Combatant's Silk Trousers
+				{ 107, 135845 }, -- Vindictive Combatant's Silk Robe
+				{ 108, 135846 }, -- Vindictive Combatant's Silk Amice
+				{ 109, 135847 }, -- Vindictive Combatant's Silk Cord
+				{ 110, 135848 }, -- Vindictive Combatant's Silk Bracers
+				{ 111, 135906 }, -- Vindictive Combatant's Silken Shawl
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135730 }, -- Vindictive Gladiator's Silk Cowl
-				{ 2, 135733 }, -- Vindictive Gladiator's Silk Amice
-				{ 3, 135732 }, -- Vindictive Gladiator's Silk Robe
-				{ 4, 135735 }, -- Vindictive Gladiator's Silk Bracers
-				{ 5, 135729 }, -- Vindictive Gladiator's Silk Handguards
-				{ 6, 135734 }, -- Vindictive Gladiator's Silk Cord
-				{ 7, 135731 }, -- Vindictive Gladiator's Silk Trousers
-				{ 8, 135728 }, -- Vindictive Gladiator's Silk Treads
-				{ 9, 135793 }, -- Vindictive Gladiator's Silken Shawl
-				{ 16, 135956 }, -- Vindictive Combatant's Silk Cowl
-				{ 17, 135959 }, -- Vindictive Combatant's Silk Amice
-				{ 18, 135958 }, -- Vindictive Combatant's Silk Robe
-				{ 19, 135961 }, -- Vindictive Combatant's Silk Bracers
-				{ 20, 135955 }, -- Vindictive Combatant's Silk Handguards
-				{ 21, 135960 }, -- Vindictive Combatant's Silk Cord
-				{ 22, 135957 }, -- Vindictive Combatant's Silk Trousers
-				{ 23, 135954 }, -- Vindictive Combatant's Silk Treads
-				{ 24, 136019 }, -- Vindictive Combatant's Silken Shawl
+				{ 1, 146235 }, -- Ensemble: Elite Vindictive Gladiator's Silk Armor
+				{ 3 , 136180 }, -- Vindictive Gladiator's Silk Treads
+				{ 4 , 136181 }, -- Vindictive Gladiator's Silk Handguards
+				{ 5 , 136182 }, -- Vindictive Gladiator's Silk Cowl
+				{ 6 , 136183 }, -- Vindictive Gladiator's Silk Trousers
+				{ 7 , 136184 }, -- Vindictive Gladiator's Silk Robe
+				{ 8 , 136185 }, -- Vindictive Gladiator's Silk Amice
+				{ 9 , 136186 }, -- Vindictive Gladiator's Silk Cord
+				{ 10, 136187 }, -- Vindictive Gladiator's Silk Bracers
+				{ 11, 136245 }, -- Vindictive Gladiator's Silken Shawl
+				{ 16, 146147 }, -- Ensemble: Vindictive Gladiator's Silk Armor
+				{ 18, 135728 }, -- Vindictive Gladiator's Silk Treads
+				{ 19, 135729 }, -- Vindictive Gladiator's Silk Handguards
+				{ 20, 135730 }, -- Vindictive Gladiator's Silk Cowl
+				{ 21, 135731 }, -- Vindictive Gladiator's Silk Trousers
+				{ 22, 135732 }, -- Vindictive Gladiator's Silk Robe
+				{ 23, 135733 }, -- Vindictive Gladiator's Silk Amice
+				{ 24, 135734 }, -- Vindictive Gladiator's Silk Cord
+				{ 25, 135735 }, -- Vindictive Gladiator's Silk Bracers
+				{ 26, 135793 }, -- Vindictive Gladiator's Silken Shawl
+
+				{ 101, 146157 }, -- Ensemble: Vindictive Combatant's Silk Armor
+				{ 103, 135954 }, -- Vindictive Combatant's Silk Treads
+				{ 104, 135955 }, -- Vindictive Combatant's Silk Handguards
+				{ 105, 135956 }, -- Vindictive Combatant's Silk Cowl
+				{ 106, 135957 }, -- Vindictive Combatant's Silk Trousers
+				{ 107, 135958 }, -- Vindictive Combatant's Silk Robe
+				{ 108, 135959 }, -- Vindictive Combatant's Silk Amice
+				{ 109, 135960 }, -- Vindictive Combatant's Silk Cord
+				{ 110, 135961 }, -- Vindictive Combatant's Silk Bracers
+				{ 111, 136019 }, -- Vindictive Combatant's Silken Shawl
 			},
 		},
 		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135625 }, -- Vindictive Gladiator's Ironskin Helm
-				{ 2, 135627 }, -- Vindictive Gladiator's Ironskin Spaulders
-				{ 3, 135628 }, -- Vindictive Gladiator's Ironskin Tunic
-				{ 4, 135630 }, -- Vindictive Gladiator's Ironskin Wristguards
-				{ 5, 135624 }, -- Vindictive Gladiator's Ironskin Gloves
-				{ 6, 135629 }, -- Vindictive Gladiator's Ironskin Belt
-				{ 7, 135626 }, -- Vindictive Gladiator's Ironskin Legguards
-				{ 8, 135623 }, -- Vindictive Gladiator's Ironskin Spaulders
-				{ 16, 135851 }, -- Vindictive Combatant's Ironskin Helm
-				{ 17, 135853 }, -- Vindictive Combatant's Ironskin Spaulders
-				{ 18, 135854 }, -- Vindictive Combatant's Ironskin Tunic
-				{ 19, 135856 }, -- Vindictive Combatant's Ironskin Wristguards
-				{ 20, 135850 }, -- Vindictive Combatant's Ironskin Gloves
-				{ 21, 135855 }, -- Vindictive Combatant's Ironskin Belt
-				{ 22, 135852 }, -- Vindictive Combatant's Ironskin Legguards
-				{ 23, 135849 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 1, 146230 }, -- Ensemble: Elite Vindictive Gladiator's Ironskin Armor
+				{ 3 , 136075 }, -- Vindictive Gladiator's Ironskin Slippers
+				{ 4 , 136076 }, -- Vindictive Gladiator's Ironskin Gloves
+				{ 5 , 136077 }, -- Vindictive Gladiator's Ironskin Helm
+				{ 6 , 136078 }, -- Vindictive Gladiator's Ironskin Legguards
+				{ 7 , 136079 }, -- Vindictive Gladiator's Ironskin Spaulders
+				{ 8 , 136080 }, -- Vindictive Gladiator's Ironskin Tunic
+				{ 9 , 136081 }, -- Vindictive Gladiator's Ironskin Belt
+				{ 10, 136082 }, -- Vindictive Gladiator's Ironskin Wristguards
+				{ 16, 146142 }, -- Ensemble: Vindictive Gladiator's Ironskin Armor
+				{ 18, 135623 }, -- Vindictive Gladiator's Ironskin Slippers
+				{ 19, 135624 }, -- Vindictive Gladiator's Ironskin Gloves
+				{ 20, 135625 }, -- Vindictive Gladiator's Ironskin Helm
+				{ 21, 135626 }, -- Vindictive Gladiator's Ironskin Legguards
+				{ 22, 135627 }, -- Vindictive Gladiator's Ironskin Spaulders
+				{ 23, 135628 }, -- Vindictive Gladiator's Ironskin Tunic
+				{ 24, 135629 }, -- Vindictive Gladiator's Ironskin Belt
+				{ 25, 135630 }, -- Vindictive Gladiator's Ironskin Wristguards
+
+				{ 101, 146170 }, -- Ensemble: Vindictive Combatant's Ironskin Armor
+				{ 103, 135849 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 104, 135850 }, -- Vindictive Combatant's Ironskin Gloves
+				{ 105, 135851 }, -- Vindictive Combatant's Ironskin Helm
+				{ 106, 135852 }, -- Vindictive Combatant's Ironskin Legguards
+				{ 107, 135853 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 108, 135854 }, -- Vindictive Combatant's Ironskin Tunic
+				{ 109, 135855 }, -- Vindictive Combatant's Ironskin Belt
+				{ 110, 135856 }, -- Vindictive Combatant's Ironskin Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135738 }, -- Vindictive Gladiator's Ironskin Helm
-				{ 2, 135740 }, -- Vindictive Gladiator's Ironskin Spaulders
-				{ 3, 135741 }, -- Vindictive Gladiator's Ironskin Tunic
-				{ 4, 135743 }, -- Vindictive Gladiator's Ironskin Wristguards
-				{ 5, 135737 }, -- Vindictive Gladiator's Ironskin Gloves
-				{ 6, 135742 }, -- Vindictive Gladiator's Ironskin Belt
-				{ 7, 135739 }, -- Vindictive Gladiator's Ironskin Legguards
-				{ 8, 135736 }, -- Vindictive Gladiator's Ironskin Spaulders
-				{ 16, 135964 }, -- Vindictive Combatant's Ironskin Helm
-				{ 17, 135966 }, -- Vindictive Combatant's Ironskin Spaulders
-				{ 18, 135967 }, -- Vindictive Combatant's Ironskin Tunic
-				{ 19, 135969 }, -- Vindictive Combatant's Ironskin Wristguards
-				{ 20, 135963 }, -- Vindictive Combatant's Ironskin Gloves
-				{ 21, 135968 }, -- Vindictive Combatant's Ironskin Belt
-				{ 22, 135965 }, -- Vindictive Combatant's Ironskin Legguards
-				{ 23, 135962 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 1, 146231 }, -- Ensemble: Elite Vindictive Gladiator's Ironskin Armor
+				{ 3 , 136188 }, -- Vindictive Gladiator's Ironskin Slippers
+				{ 4 , 136189 }, -- Vindictive Gladiator's Ironskin Gloves
+				{ 5 , 136190 }, -- Vindictive Gladiator's Ironskin Helm
+				{ 6 , 136191 }, -- Vindictive Gladiator's Ironskin Legguards
+				{ 7 , 136192 }, -- Vindictive Gladiator's Ironskin Spaulders
+				{ 8 , 136193 }, -- Vindictive Gladiator's Ironskin Tunic
+				{ 9 , 136194 }, -- Vindictive Gladiator's Ironskin Belt
+				{ 10, 136195 }, -- Vindictive Gladiator's Ironskin Wristguards
+				{ 16, 146143 }, -- Ensemble: Vindictive Gladiator's Ironskin Armor
+				{ 18, 135736 }, -- Vindictive Gladiator's Ironskin Slippers
+				{ 19, 135737 }, -- Vindictive Gladiator's Ironskin Gloves
+				{ 20, 135738 }, -- Vindictive Gladiator's Ironskin Helm
+				{ 21, 135739 }, -- Vindictive Gladiator's Ironskin Legguards
+				{ 22, 135740 }, -- Vindictive Gladiator's Ironskin Spaulders
+				{ 23, 135741 }, -- Vindictive Gladiator's Ironskin Tunic
+				{ 24, 135742 }, -- Vindictive Gladiator's Ironskin Belt
+				{ 25, 135743 }, -- Vindictive Gladiator's Ironskin Wristguards
+
+				{ 101, 146171 }, -- Ensemble: Vindictive Combatant's Ironskin Armor
+				{ 103, 135962 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 104, 135963 }, -- Vindictive Combatant's Ironskin Gloves
+				{ 105, 135964 }, -- Vindictive Combatant's Ironskin Helm
+				{ 106, 135965 }, -- Vindictive Combatant's Ironskin Legguards
+				{ 107, 135966 }, -- Vindictive Combatant's Ironskin Spaulders
+				{ 108, 135967 }, -- Vindictive Combatant's Ironskin Tunic
+				{ 109, 135968 }, -- Vindictive Combatant's Ironskin Belt
+				{ 110, 135969 }, -- Vindictive Combatant's Ironskin Wristguards
 			},
 		},
 		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135634 }, -- Vindictive Gladiator's Scaled Helm
-				{ 2, 135636 }, -- Vindictive Gladiator's Scaled Shoulders
-				{ 3, 135631 }, -- Vindictive Gladiator's Scaled Battlerobe
-				{ 4, 135638 }, -- Vindictive Gladiator's Scaled Wristplates
-				{ 5, 135633 }, -- Vindictive Gladiator's Scaled Gauntlets
-				{ 6, 135637 }, -- Vindictive Gladiator's Scaled Girdle
-				{ 7, 135635 }, -- Vindictive Gladiator's Scaled Legguards
-				{ 8, 135632 }, -- Vindictive Gladiator's Scaled Sabatons
-				{ 9, 135688 }, -- Vindictive Gladiator's Greatcloak of Faith
-				{ 16, 135860 }, -- Vindictive Combatant's Scaled Helm
-				{ 17, 135862 }, -- Vindictive Combatant's Scaled Shoulders
-				{ 18, 135857 }, -- Vindictive Combatant's Scaled Chestpiece
-				{ 19, 135864 }, -- Vindictive Combatant's Scaled Wristplates
-				{ 20, 135859 }, -- Vindictive Combatant's Scaled Gauntlets
-				{ 21, 135863 }, -- Vindictive Combatant's Scaled Girdle
-				{ 22, 135861 }, -- Vindictive Combatant's Scaled Legguards
-				{ 23, 135858 }, -- Vindictive Combatant's Scaled Sabatons
-				{ 24, 135914 }, -- Vindictive Combatant's Greatcloak of Faith
+				{ 1, 146222 }, -- Ensemble: Elite Vindictive Gladiator's Scaled Armor
+				{ 3 , 136083 }, -- Vindictive Gladiator's Scaled Battlerobe
+				{ 4 , 136084 }, -- Vindictive Gladiator's Scaled Sabatons
+				{ 5 , 136085 }, -- Vindictive Gladiator's Scaled Gauntlets
+				{ 6 , 136086 }, -- Vindictive Gladiator's Scaled Helm
+				{ 7 , 136087 }, -- Vindictive Gladiator's Scaled Legguards
+				{ 8 , 136088 }, -- Vindictive Gladiator's Scaled Shoulders
+				{ 9 , 136089 }, -- Vindictive Gladiator's Scaled Girdle
+				{ 10, 136090 }, -- Vindictive Gladiator's Scaled Wristplates
+				{ 11, 136140 }, -- Vindictive Gladiator's Greatcloak of Faith
+				{ 16, 146134 }, -- Ensemble: Vindictive Gladiator's Scaled Armor
+				{ 18, 135631 }, -- Vindictive Gladiator's Scaled Battlerobe
+				{ 19, 135632 }, -- Vindictive Gladiator's Scaled Sabatons
+				{ 20, 135633 }, -- Vindictive Gladiator's Scaled Gauntlets
+				{ 21, 135634 }, -- Vindictive Gladiator's Scaled Helm
+				{ 22, 135635 }, -- Vindictive Gladiator's Scaled Legguards
+				{ 23, 135636 }, -- Vindictive Gladiator's Scaled Shoulders
+				{ 24, 135637 }, -- Vindictive Gladiator's Scaled Girdle
+				{ 25, 135638 }, -- Vindictive Gladiator's Scaled Wristplates
+				{ 26, 135688 }, -- Vindictive Gladiator's Greatcloak of Faith
+
+				{ 101, 146166 }, -- Ensemble: Vindictive Combatant's Scaled Armor
+				{ 103, 135857 }, -- Vindictive Combatant's Scaled Chestpiece
+				{ 104, 135858 }, -- Vindictive Combatant's Scaled Sabatons
+				{ 105, 135859 }, -- Vindictive Combatant's Scaled Gauntlets
+				{ 106, 135860 }, -- Vindictive Combatant's Scaled Helm
+				{ 107, 135861 }, -- Vindictive Combatant's Scaled Legguards
+				{ 108, 135862 }, -- Vindictive Combatant's Scaled Shoulders
+				{ 109, 135863 }, -- Vindictive Combatant's Scaled Girdle
+				{ 110, 135864 }, -- Vindictive Combatant's Scaled Wristplates
+				{ 111, 135914 }, -- Vindictive Combatant's Greatcloak of Faith
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135747 }, -- Vindictive Gladiator's Scaled Helm
-				{ 2, 135749 }, -- Vindictive Gladiator's Scaled Shoulders
-				{ 3, 135744 }, -- Vindictive Gladiator's Scaled Battleplate
-				{ 4, 135751 }, -- Vindictive Gladiator's Scaled Wristplates
-				{ 5, 135746 }, -- Vindictive Gladiator's Scaled Gauntlets
-				{ 6, 135750 }, -- Vindictive Gladiator's Scaled Girdle
-				{ 7, 135748 }, -- Vindictive Gladiator's Scaled Legguards
-				{ 8, 135745 }, -- Vindictive Gladiator's Scaled Sabatons
-				{ 9, 135801 }, -- Vindictive Gladiator's Greatcloak of Faith
-				{ 16, 135973 }, -- Vindictive Combatant's Scaled Helm
-				{ 17, 135975 }, -- Vindictive Combatant's Scaled Shoulders
-				{ 18, 135970 }, -- Vindictive Combatant's Scaled Chestpiece
-				{ 19, 135977 }, -- Vindictive Combatant's Scaled Wristplates
-				{ 20, 135972 }, -- Vindictive Combatant's Scaled Gauntlets
-				{ 21, 135976 }, -- Vindictive Combatant's Scaled Girdle
-				{ 22, 135974 }, -- Vindictive Combatant's Scaled Legguards
-				{ 23, 135971 }, -- Vindictive Combatant's Scaled Sabatons
-				{ 24, 136027 }, -- Vindictive Combatant's Greatcloak of Faith
+				{ 1, 146223 }, -- Ensemble: Elite Vindictive Gladiator's Scaled Armor
+				{ 3 , 136196 }, -- Vindictive Gladiator's Scaled Chestpiece
+				{ 4 , 136197 }, -- Vindictive Gladiator's Scaled Sabatons
+				{ 5 , 136198 }, -- Vindictive Gladiator's Scaled Gauntlets
+				{ 6 , 136199 }, -- Vindictive Gladiator's Scaled Helm
+				{ 7 , 136200 }, -- Vindictive Gladiator's Scaled Legguards
+				{ 8 , 136201 }, -- Vindictive Gladiator's Scaled Shoulders
+				{ 9 , 136202 }, -- Vindictive Gladiator's Scaled Girdle
+				{ 10, 136203 }, -- Vindictive Gladiator's Scaled Wristplates
+				{ 11, 136253 }, -- Vindictive Gladiator's Greatcloak of Faith
+				{ 16, 146135 }, -- Ensemble: Vindictive Gladiator's Scaled Armor
+				{ 18, 135744 }, -- Vindictive Gladiator's Scaled Battlerobe
+				{ 19, 135745 }, -- Vindictive Gladiator's Scaled Sabatons
+				{ 20, 135746 }, -- Vindictive Gladiator's Scaled Gauntlets
+				{ 21, 135747 }, -- Vindictive Gladiator's Scaled Helm
+				{ 22, 135748 }, -- Vindictive Gladiator's Scaled Legguards
+				{ 23, 135749 }, -- Vindictive Gladiator's Scaled Shoulders
+				{ 24, 135750 }, -- Vindictive Gladiator's Scaled Girdle
+				{ 25, 135751 }, -- Vindictive Gladiator's Scaled Wristplates
+				{ 26, 135801 }, -- Vindictive Gladiator's Greatcloak of Faith
+
+				{ 101, 146167 }, -- Ensemble: Vindictive Combatant's Scaled Armor
+				{ 103, 135970 }, -- Vindictive Combatant's Scaled Chestpiece
+				{ 104, 135971 }, -- Vindictive Combatant's Scaled Sabatons
+				{ 105, 135972 }, -- Vindictive Combatant's Scaled Gauntlets
+				{ 106, 135973 }, -- Vindictive Combatant's Scaled Helm
+				{ 107, 135974 }, -- Vindictive Combatant's Scaled Legguards
+				{ 108, 135975 }, -- Vindictive Combatant's Scaled Shoulders
+				{ 109, 135976 }, -- Vindictive Combatant's Scaled Girdle
+				{ 110, 135977 }, -- Vindictive Combatant's Scaled Wristplates
+				{ 111, 136027 }, -- Vindictive Combatant's Greatcloak of Faith
 			},
 		},
 		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135641 }, -- Vindictive Gladiator's Satin Hood
-				{ 2, 135644 }, -- Vindictive Gladiator's Satin Mantle
-				{ 3, 135643 }, -- Vindictive Gladiator's Satin Robe
-				{ 4, 135646 }, -- Vindictive Gladiator's Satin Bracers
-				{ 5, 135640 }, -- Vindictive Gladiator's Satin Gloves
-				{ 6, 135645 }, -- Vindictive Gladiator's Satin Cord
-				{ 7, 135642 }, -- Vindictive Gladiator's Satin Leggings
-				{ 8, 135639 }, -- Vindictive Gladiator's Satin Treads
-				{ 9, 136861 }, -- Vindictive Gladiator's Drape of Piety
-				{ 16, 135867 }, -- Vindictive Combatant's Satin Hood
-				{ 17, 135870 }, -- Vindictive Combatant's Satin Mantle
-				{ 18, 135869 }, -- Vindictive Combatant's Satin Robe
-				{ 19, 135872 }, -- Vindictive Combatant's Satin Bracers
-				{ 20, 135866 }, -- Vindictive Combatant's Satin Gloves
-				{ 21, 135871 }, -- Vindictive Combatant's Satin Cord
-				{ 22, 135868 }, -- Vindictive Combatant's Satin Leggings
-				{ 23, 135865 }, -- Vindictive Combatant's Satin Treads
-				{ 24, 136867 }, -- Vindictive Combatant's Drape of Piety
+				{ 1, 146236 }, -- Ensemble: Elite Vindictive Gladiator's Satin Armor
+				{ 3 , 136091 }, -- Vindictive Gladiator's Satin Treads
+				{ 4 , 136092 }, -- Vindictive Gladiator's Satin Gloves
+				{ 5 , 136093 }, -- Vindictive Gladiator's Satin Hood
+				{ 6 , 136094 }, -- Vindictive Gladiator's Satin Leggings
+				{ 7 , 136095 }, -- Vindictive Gladiator's Satin Robe
+				{ 8 , 136096 }, -- Vindictive Gladiator's Satin Mantle
+				{ 9 , 136097 }, -- Vindictive Gladiator's Satin Cord
+				{ 10, 136098 }, -- Vindictive Gladiator's Satin Bracers
+				{ 11, 136873 }, -- Vindictive Gladiator's Drape of Piety
+				{ 16, 146148 }, -- Ensemble: Vindictive Gladiator's Satin Armor
+				{ 18, 135639 }, -- Vindictive Gladiator's Satin Treads
+				{ 19, 135640 }, -- Vindictive Gladiator's Satin Gloves
+				{ 20, 135641 }, -- Vindictive Gladiator's Satin Hood
+				{ 21, 135642 }, -- Vindictive Gladiator's Satin Leggings
+				{ 22, 135643 }, -- Vindictive Gladiator's Satin Robe
+				{ 23, 135644 }, -- Vindictive Gladiator's Satin Mantle
+				{ 24, 135645 }, -- Vindictive Gladiator's Satin Cord
+				{ 25, 135646 }, -- Vindictive Gladiator's Satin Bracers
+				{ 26, 136861 }, -- Vindictive Gladiator's Drape of Piety
+
+				{ 101, 146158 }, -- Ensemble: Vindictive Combatant's Satin Armor
+				{ 103, 135865 }, -- Vindictive Combatant's Satin Treads
+				{ 104, 135866 }, -- Vindictive Combatant's Satin Gloves
+				{ 105, 135867 }, -- Vindictive Combatant's Satin Hood
+				{ 106, 135868 }, -- Vindictive Combatant's Satin Leggings
+				{ 107, 135869 }, -- Vindictive Combatant's Satin Robe
+				{ 108, 135870 }, -- Vindictive Combatant's Satin Mantle
+				{ 109, 135871 }, -- Vindictive Combatant's Satin Cord
+				{ 110, 135872 }, -- Vindictive Combatant's Satin Bracers
+				{ 111, 136867 }, -- Vindictive Combatant's Drape of Piety
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135754 }, -- Vindictive Gladiator's Satin Hood
-				{ 2, 135757 }, -- Vindictive Gladiator's Satin Mantle
-				{ 3, 135756 }, -- Vindictive Gladiator's Satin Robe
-				{ 4, 135759 }, -- Vindictive Gladiator's Satin Bracers
-				{ 5, 135753 }, -- Vindictive Gladiator's Satin Gloves
-				{ 6, 135758 }, -- Vindictive Gladiator's Satin Cord
-				{ 7, 135755 }, -- Vindictive Gladiator's Satin Leggings
-				{ 8, 135752 }, -- Vindictive Gladiator's Satin Treads
-				{ 9, 136864 }, -- Vindictive Gladiator's Drape of Piety
-				{ 16, 135980 }, -- Vindictive Combatant's Satin Hood
-				{ 17, 135983 }, -- Vindictive Combatant's Satin Mantle
-				{ 18, 135982 }, -- Vindictive Combatant's Satin Robe
-				{ 19, 135985 }, -- Vindictive Combatant's Satin Bracers
-				{ 20, 135979 }, -- Vindictive Combatant's Satin Gloves
-				{ 21, 135984 }, -- Vindictive Combatant's Satin Cord
-				{ 22, 135981 }, -- Vindictive Combatant's Satin Leggings
-				{ 23, 135978 }, -- Vindictive Combatant's Satin Treads
-				{ 24, 136870 }, -- Vindictive Combatant's Drape of Piety
+				{ 1, 146237 }, -- Ensemble: Elite Vindictive Gladiator's Satin Armor
+				{ 3 , 136204 }, -- Vindictive Gladiator's Satin Treads
+				{ 4 , 136205 }, -- Vindictive Gladiator's Satin Gloves
+				{ 5 , 136206 }, -- Vindictive Gladiator's Satin Hood
+				{ 6 , 136207 }, -- Vindictive Gladiator's Satin Leggings
+				{ 7 , 136208 }, -- Vindictive Gladiator's Satin Robe
+				{ 8 , 136209 }, -- Vindictive Gladiator's Satin Mantle
+				{ 9 , 136210 }, -- Vindictive Gladiator's Satin Cord
+				{ 10, 136211 }, -- Vindictive Gladiator's Satin Bracers
+				{ 11, 136876 }, -- Vindictive Gladiator's Drape of Piety
+				{ 16, 146149 }, -- Ensemble: Vindictive Gladiator's Satin Armor
+				{ 18, 135752 }, -- Vindictive Gladiator's Satin Treads
+				{ 19, 135753 }, -- Vindictive Gladiator's Satin Gloves
+				{ 20, 135754 }, -- Vindictive Gladiator's Satin Hood
+				{ 21, 135755 }, -- Vindictive Gladiator's Satin Leggings
+				{ 22, 135756 }, -- Vindictive Gladiator's Satin Robe
+				{ 23, 135757 }, -- Vindictive Gladiator's Satin Mantle
+				{ 24, 135758 }, -- Vindictive Gladiator's Satin Cord
+				{ 25, 135759 }, -- Vindictive Gladiator's Satin Bracers
+				{ 26, 136864 }, -- Vindictive Gladiator's Drape of Piety
+
+				{ 101, 146159 }, -- Ensemble: Vindictive Combatant's Satin Armor
+				{ 103, 135978 }, -- Vindictive Combatant's Satin Treads
+				{ 104, 135979 }, -- Vindictive Combatant's Satin Gloves
+				{ 105, 135980 }, -- Vindictive Combatant's Satin Hood
+				{ 106, 135981 }, -- Vindictive Combatant's Satin Leggings
+				{ 107, 135982 }, -- Vindictive Combatant's Satin Robe
+				{ 108, 135983 }, -- Vindictive Combatant's Satin Mantle
+				{ 109, 135984 }, -- Vindictive Combatant's Satin Cord
+				{ 110, 135985 }, -- Vindictive Combatant's Satin Bracers
+				{ 111, 136870 }, -- Vindictive Combatant's Drape of Piety
 			},
 		},
 		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135650 }, -- Vindictive Gladiator's Leather Helm
-				{ 2, 135652 }, -- Vindictive Gladiator's Leather Spaulders
-				{ 3, 135647 }, -- Vindictive Gladiator's Leather Tunic
-				{ 4, 135654 }, -- Vindictive Gladiator's Leather Wristguards
-				{ 5, 135649 }, -- Vindictive Gladiator's Leather Gloves
-				{ 6, 135653 }, -- Vindictive Gladiator's Leather Belt
-				{ 7, 135651 }, -- Vindictive Gladiator's Leather Legguards
-				{ 8, 135648 }, -- Vindictive Gladiator's Leather Slippers
-				{ 9, 136862 }, -- Vindictive Gladiator's Shadowcape
-				{ 16, 135876 }, -- Vindictive Combatant's Leather Helm
-				{ 17, 135878 }, -- Vindictive Combatant's Leather Spaulders
-				{ 18, 135873 }, -- Vindictive Combatant's Leather Tunic
-				{ 19, 135880 }, -- Vindictive Combatant's Leather Wristguards
-				{ 20, 135875 }, -- Vindictive Combatant's Leather Gloves
-				{ 21, 135879 }, -- Vindictive Combatant's Leather Belt
-				{ 22, 135877 }, -- Vindictive Combatant's Leather Legguards
-				{ 23, 135874 }, -- Vindictive Combatant's Leather Slippers
-				{ 24, 136868 }, -- Vindictive Combatant's Shadowcape
+				{ 1, 146232 }, -- Ensemble: Elite Vindictive Gladiator's Leather Armor
+				{ 3 , 136099 }, -- Vindictive Gladiator's Leather Tunic
+				{ 4 , 136100 }, -- Vindictive Gladiator's Leather Slippers
+				{ 5 , 136101 }, -- Vindictive Gladiator's Leather Gloves
+				{ 6 , 136102 }, -- Vindictive Gladiator's Leather Helm
+				{ 7 , 136103 }, -- Vindictive Gladiator's Leather Legguards
+				{ 8 , 136104 }, -- Vindictive Gladiator's Leather Spaulders
+				{ 9 , 136105 }, -- Vindictive Gladiator's Leather Belt
+				{ 10, 136106 }, -- Vindictive Gladiator's Leather Wristguards
+				{ 11, 136874 }, -- Vindictive Gladiator's Shadowcape
+				{ 16, 146144 }, -- Ensemble: Vindictive Gladiator's Leather Armor
+				{ 18, 135647 }, -- Vindictive Gladiator's Leather Tunic
+				{ 19, 135648 }, -- Vindictive Gladiator's Leather Slippers
+				{ 20, 135649 }, -- Vindictive Gladiator's Leather Gloves
+				{ 21, 135650 }, -- Vindictive Gladiator's Leather Helm
+				{ 22, 135651 }, -- Vindictive Gladiator's Leather Legguards
+				{ 23, 135652 }, -- Vindictive Gladiator's Leather Spaulders
+				{ 24, 135653 }, -- Vindictive Gladiator's Leather Belt
+				{ 25, 135654 }, -- Vindictive Gladiator's Leather Wristguards
+				{ 26, 136862 }, -- Vindictive Gladiator's Shadowcape
+
+				{ 101, 146172 }, -- Ensemble: Vindictive Combatant's Leather Armor
+				{ 103, 135873 }, -- Vindictive Combatant's Leather Tunic
+				{ 104, 135874 }, -- Vindictive Combatant's Leather Slippers
+				{ 105, 135875 }, -- Vindictive Combatant's Leather Gloves
+				{ 106, 135876 }, -- Vindictive Combatant's Leather Helm
+				{ 107, 135877 }, -- Vindictive Combatant's Leather Legguards
+				{ 108, 135878 }, -- Vindictive Combatant's Leather Spaulders
+				{ 109, 135879 }, -- Vindictive Combatant's Leather Belt
+				{ 110, 135880 }, -- Vindictive Combatant's Leather Wristguards
+				{ 111, 136868 }, -- Vindictive Combatant's Shadowcape
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135763 }, -- Vindictive Gladiator's Leather Helm
-				{ 2, 135765 }, -- Vindictive Gladiator's Leather Spaulders
-				{ 3, 135760 }, -- Vindictive Gladiator's Leather Tunic
-				{ 4, 135767 }, -- Vindictive Gladiator's Leather Wristguards
-				{ 5, 135762 }, -- Vindictive Gladiator's Leather Gloves
-				{ 6, 135766 }, -- Vindictive Gladiator's Leather Belt
-				{ 7, 135764 }, -- Vindictive Gladiator's Leather Legguards
-				{ 8, 135761 }, -- Vindictive Gladiator's Leather Slippers
-				{ 9, 136865 }, -- Vindictive Gladiator's Shadowcape
-				{ 16, 135989 }, -- Vindictive Combatant's Leather Helm
-				{ 17, 135991 }, -- Vindictive Combatant's Leather Spaulders
-				{ 18, 135986 }, -- Vindictive Combatant's Leather Tunic
-				{ 19, 135993 }, -- Vindictive Combatant's Leather Wristguards
-				{ 20, 135988 }, -- Vindictive Combatant's Leather Gloves
-				{ 21, 135992 }, -- Vindictive Combatant's Leather Belt
-				{ 22, 135990 }, -- Vindictive Combatant's Leather Legguards
-				{ 23, 135987 }, -- Vindictive Combatant's Leather Slippers
-				{ 24, 136871 }, -- Vindictive Combatant's Shadowcape
+				{ 1, 146233 }, -- Ensemble: Elite Vindictive Gladiator's Leather Armor
+				{ 3 , 136212 }, -- Vindictive Gladiator's Leather Tunic
+				{ 4 , 136213 }, -- Vindictive Gladiator's Leather Slippers
+				{ 5 , 136214 }, -- Vindictive Gladiator's Leather Gloves
+				{ 6 , 136215 }, -- Vindictive Gladiator's Leather Helm
+				{ 7 , 136216 }, -- Vindictive Gladiator's Leather Legguards
+				{ 8 , 136217 }, -- Vindictive Gladiator's Leather Spaulders
+				{ 9 , 136218 }, -- Vindictive Gladiator's Leather Belt
+				{ 10, 136219 }, -- Vindictive Gladiator's Leather Wristguards
+				{ 11, 136877 }, -- Vindictive Gladiator's Shadowcape
+				{ 16, 146145 }, -- Ensemble: Vindictive Gladiator's Leather Armor
+				{ 18, 135760 }, -- Vindictive Gladiator's Leather Tunic
+				{ 19, 135761 }, -- Vindictive Gladiator's Leather Slippers
+				{ 20, 135762 }, -- Vindictive Gladiator's Leather Gloves
+				{ 21, 135763 }, -- Vindictive Gladiator's Leather Helm
+				{ 22, 135764 }, -- Vindictive Gladiator's Leather Legguards
+				{ 23, 135765 }, -- Vindictive Gladiator's Leather Spaulders
+				{ 24, 135766 }, -- Vindictive Gladiator's Leather Belt
+				{ 25, 135767 }, -- Vindictive Gladiator's Leather Wristguards
+				{ 26, 136865 }, -- Vindictive Gladiator's Shadowcape
+
+				{ 101, 146173 }, -- Ensemble: Vindictive Combatant's Leather Armor
+				{ 103, 135986 }, -- Vindictive Combatant's Leather Tunic
+				{ 104, 135987 }, -- Vindictive Combatant's Leather Slippers
+				{ 105, 135988 }, -- Vindictive Combatant's Leather Gloves
+				{ 106, 135989 }, -- Vindictive Combatant's Leather Helm
+				{ 107, 135990 }, -- Vindictive Combatant's Leather Legguards
+				{ 108, 135991 }, -- Vindictive Combatant's Leather Spaulders
+				{ 109, 135992 }, -- Vindictive Combatant's Leather Belt
+				{ 110, 135993 }, -- Vindictive Combatant's Leather Wristguards
+				{ 111, 136871 }, -- Vindictive Combatant's Shadowcape
 			},
 		},
 		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135658 }, -- Vindictive Gladiator's Ringmail Helm
-				{ 2, 135660 }, -- Vindictive Gladiator's Ringmail Spaulders
-				{ 3, 135655 }, -- Vindictive Gladiator's Ringmail Armor
-				{ 4, 135662 }, -- Vindictive Gladiator's Ringmail Armband
-				{ 5, 135657 }, -- Vindictive Gladiator's Ringmail Gauntlets
-				{ 6, 135661 }, -- Vindictive Gladiator's Ringmail Clasp
-				{ 7, 135659 }, -- Vindictive Gladiator's Ringmail Kilt
-				{ 8, 135656 }, -- Vindictive Gladiator's Ringmail Boots
-				{ 9, 136863 }, -- Vindictive Gladiator's Totemic Cloak
-				{ 16, 135884 }, -- Vindictive Combatant's Ringmail Helm
-				{ 17, 135886 }, -- Vindictive Combatant's Ringmail Spaulders
-				{ 18, 135881 }, -- Vindictive Combatant's Ringmail Armor
-				{ 19, 135888 }, -- Vindictive Combatant's Ringmail Armband
-				{ 20, 135883 }, -- Vindictive Combatant's Ringmail Gauntlets
-				{ 21, 135887 }, -- Vindictive Combatant's Ringmail Clasp
-				{ 22, 135885 }, -- Vindictive Combatant's Ringmail Kilt
-				{ 23, 135882 }, -- Vindictive Combatant's Ringmail Boots
-				{ 24, 136869 }, -- Vindictive Combatant's Totemic Cloak
+				{ 1, 146224 }, -- Ensemble: Elite Vindictive Gladiator's Ringmail Armor
+				{ 3 , 136107 }, -- Vindictive Gladiator's Ringmail Armor
+				{ 4 , 136108 }, -- Vindictive Gladiator's Ringmail Boots
+				{ 5 , 136109 }, -- Vindictive Gladiator's Ringmail Gauntlets
+				{ 6 , 136110 }, -- Vindictive Gladiator's Ringmail Helm
+				{ 7 , 136111 }, -- Vindictive Gladiator's Ringmail Kilt
+				{ 8 , 136112 }, -- Vindictive Gladiator's Ringmail Spaulders
+				{ 9 , 136113 }, -- Vindictive Gladiator's Ringmail Clasp
+				{ 10, 136114 }, -- Vindictive Gladiator's Ringmail Armband
+				{ 11, 136875 }, -- Vindictive Gladiator's Totemic Cloak
+				{ 16, 146136 }, -- Ensemble: Vindictive Gladiator's Ringmail Armor
+				{ 18, 135655 }, -- Vindictive Gladiator's Ringmail Armor
+				{ 19, 135656 }, -- Vindictive Gladiator's Ringmail Boots
+				{ 20, 135657 }, -- Vindictive Gladiator's Ringmail Gauntlets
+				{ 21, 135658 }, -- Vindictive Gladiator's Ringmail Helm
+				{ 22, 135659 }, -- Vindictive Gladiator's Ringmail Kilt
+				{ 23, 135660 }, -- Vindictive Gladiator's Ringmail Spaulders
+				{ 24, 135661 }, -- Vindictive Gladiator's Ringmail Clasp
+				{ 25, 135662 }, -- Vindictive Gladiator's Ringmail Armband
+				{ 26, 136863 }, -- Vindictive Gladiator's Totemic Cloak
+
+				{ 101, 146152 }, -- Ensemble: Vindictive Combatant's Ringmail Armor
+				{ 103, 135881 }, -- Vindictive Combatant's Ringmail Armor
+				{ 104, 135882 }, -- Vindictive Combatant's Ringmail Boots
+				{ 105, 135883 }, -- Vindictive Combatant's Ringmail Gauntlets
+				{ 106, 135884 }, -- Vindictive Combatant's Ringmail Helm
+				{ 107, 135885 }, -- Vindictive Combatant's Ringmail Kilt
+				{ 108, 135886 }, -- Vindictive Combatant's Ringmail Spaulders
+				{ 109, 135887 }, -- Vindictive Combatant's Ringmail Clasp
+				{ 110, 135888 }, -- Vindictive Combatant's Ringmail Armband
+				{ 111, 136869 }, -- Vindictive Combatant's Totemic Cloak
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135771 }, -- Vindictive Gladiator's Ringmail Helm
-				{ 2, 135773 }, -- Vindictive Gladiator's Ringmail Spaulders
-				{ 3, 135768 }, -- Vindictive Gladiator's Ringmail Armor
-				{ 4, 135775 }, -- Vindictive Gladiator's Ringmail Armband
-				{ 5, 135770 }, -- Vindictive Gladiator's Ringmail Gauntlets
-				{ 6, 135774 }, -- Vindictive Gladiator's Ringmail Clasp
-				{ 7, 135772 }, -- Vindictive Gladiator's Ringmail Kilt
-				{ 8, 135769 }, -- Vindictive Gladiator's Ringmail Boots
-				{ 9, 136866 }, -- Vindictive Gladiator's Totemic Cloak
-				{ 16, 135997 }, -- Vindictive Combatant's Ringmail Helm
-				{ 17, 135999 }, -- Vindictive Combatant's Ringmail Spaulders
-				{ 18, 135994 }, -- Vindictive Combatant's Ringmail Armor
-				{ 19, 136001 }, -- Vindictive Combatant's Ringmail Armband
-				{ 20, 135996 }, -- Vindictive Combatant's Ringmail Gauntlets
-				{ 21, 136000 }, -- Vindictive Combatant's Ringmail Clasp
-				{ 22, 135998 }, -- Vindictive Combatant's Ringmail Kilt
-				{ 23, 135995 }, -- Vindictive Combatant's Ringmail Boots
-				{ 24, 136872 }, -- Vindictive Combatant's Totemic Cloak
+				{ 1, 146225 }, -- Ensemble: Elite Vindictive Gladiator's Ringmail Armor
+				{ 3 , 136220 }, -- Vindictive Gladiator's Ringmail Armor
+				{ 4 , 136221 }, -- Vindictive Gladiator's Ringmail Boots
+				{ 5 , 136222 }, -- Vindictive Gladiator's Ringmail Gauntlets
+				{ 6 , 136223 }, -- Vindictive Gladiator's Ringmail Helm
+				{ 7 , 136224 }, -- Vindictive Gladiator's Ringmail Kilt
+				{ 8 , 136225 }, -- Vindictive Gladiator's Ringmail Spaulders
+				{ 9 , 136226 }, -- Vindictive Gladiator's Ringmail Clasp
+				{ 10, 136227 }, -- Vindictive Gladiator's Ringmail Armband
+				{ 11, 136878 }, -- Vindictive Gladiator's Totemic Cloak
+				{ 16, 146137 }, -- Ensemble: Vindictive Gladiator's Ringmail Armor
+				{ 18, 135768 }, -- Vindictive Gladiator's Ringmail Armor
+				{ 19, 135769 }, -- Vindictive Gladiator's Ringmail Boots
+				{ 20, 135770 }, -- Vindictive Gladiator's Ringmail Gauntlets
+				{ 21, 135771 }, -- Vindictive Gladiator's Ringmail Helm
+				{ 22, 135772 }, -- Vindictive Gladiator's Ringmail Kilt
+				{ 23, 135773 }, -- Vindictive Gladiator's Ringmail Spaulders
+				{ 24, 135774 }, -- Vindictive Gladiator's Ringmail Clasp
+				{ 25, 135775 }, -- Vindictive Gladiator's Ringmail Armband
+				{ 26, 136866 }, -- Vindictive Gladiator's Totemic Cloak
+
+				{ 101, 146153 }, -- Ensemble: Vindictive Combatant's Ringmail Armor
+				{ 103, 135994 }, -- Vindictive Combatant's Ringmail Armor
+				{ 104, 135995 }, -- Vindictive Combatant's Ringmail Boots
+				{ 105, 135996 }, -- Vindictive Combatant's Ringmail Gauntlets
+				{ 106, 135997 }, -- Vindictive Combatant's Ringmail Helm
+				{ 107, 135998 }, -- Vindictive Combatant's Ringmail Kilt
+				{ 108, 135999 }, -- Vindictive Combatant's Ringmail Spaulders
+				{ 109, 136000 }, -- Vindictive Combatant's Ringmail Clasp
+				{ 110, 136001 }, -- Vindictive Combatant's Ringmail Armband
+				{ 111, 136872 }, -- Vindictive Combatant's Totemic Cloak
 			},
 		},
 		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135665 }, -- Vindictive Gladiator's Felweave Cowl
-				{ 2, 135668 }, -- Vindictive Gladiator's Felweave Amice
-				{ 3, 135667 }, -- Vindictive Gladiator's Felweave Raiment
-				{ 4, 135670 }, -- Vindictive Gladiator's Felweave Bracers
-				{ 5, 135664 }, -- Vindictive Gladiator's Felweave Handguards
-				{ 6, 135669 }, -- Vindictive Gladiator's Felweave Cord
-				{ 7, 135666 }, -- Vindictive Gladiator's Felweave Trousers
-				{ 8, 135663 }, -- Vindictive Gladiator's Felweave Treads
-				{ 9, 136879 }, -- Vindictive Gladiator's Felweave Cloak
-				{ 16, 135891 }, -- Vindictive Combatant's Felweave Cowl
-				{ 17, 135894 }, -- Vindictive Combatant's Felweave Amice
-				{ 18, 135893 }, -- Vindictive Combatant's Felweave Raiment
-				{ 19, 135896 }, -- Vindictive Combatant's Felweave Bracers
-				{ 20, 135890 }, -- Vindictive Combatant's Felweave Handguards
-				{ 21, 135895 }, -- Vindictive Combatant's Felweave Cord
-				{ 22, 135892 }, -- Vindictive Combatant's Felweave Trousers
-				{ 23, 135889 }, -- Vindictive Combatant's Felweave Treads
-				{ 24, 136881 }, -- Vindictive Combatant's Felweave Cloak
+				{ 1, 146238 }, -- Ensemble: Elite Vindictive Gladiator's Felweave Armor
+				{ 3 , 136115 }, -- Vindictive Gladiator's Felweave Treads
+				{ 4 , 136116 }, -- Vindictive Gladiator's Felweave Handguards
+				{ 5 , 136117 }, -- Vindictive Gladiator's Felweave Cowl
+				{ 6 , 136118 }, -- Vindictive Gladiator's Felweave Trousers
+				{ 7 , 136119 }, -- Vindictive Gladiator's Felweave Raiment
+				{ 8 , 136120 }, -- Vindictive Gladiator's Felweave Amice
+				{ 9 , 136121 }, -- Vindictive Gladiator's Felweave Cord
+				{ 10, 136122 }, -- Vindictive Gladiator's Felweave Bracers
+				{ 11, 136883 }, -- Vindictive Gladiator's Felweave Cloak
+				{ 16, 146150 }, -- Ensemble: Vindictive Gladiator's Felweave Armor
+				{ 18, 135663 }, -- Vindictive Gladiator's Felweave Treads
+				{ 19, 135664 }, -- Vindictive Gladiator's Felweave Handguards
+				{ 20, 135665 }, -- Vindictive Gladiator's Felweave Cowl
+				{ 21, 135666 }, -- Vindictive Gladiator's Felweave Trousers
+				{ 22, 135667 }, -- Vindictive Gladiator's Felweave Raiment
+				{ 23, 135668 }, -- Vindictive Gladiator's Felweave Amice
+				{ 24, 135669 }, -- Vindictive Gladiator's Felweave Cord
+				{ 25, 135670 }, -- Vindictive Gladiator's Felweave Bracers
+				{ 26, 136879 }, -- Vindictive Gladiator's Felweave Cloak
+
+				{ 101, 146160 }, -- Ensemble: Vindictive Combatant's Felweave Armor
+				{ 103, 135889 }, -- Vindictive Combatant's Felweave Treads
+				{ 104, 135890 }, -- Vindictive Combatant's Felweave Handguards
+				{ 105, 135891 }, -- Vindictive Combatant's Felweave Cowl
+				{ 106, 135892 }, -- Vindictive Combatant's Felweave Trousers
+				{ 107, 135893 }, -- Vindictive Combatant's Felweave Raiment
+				{ 108, 135894 }, -- Vindictive Combatant's Felweave Amice
+				{ 109, 135895 }, -- Vindictive Combatant's Felweave Cord
+				{ 110, 135896 }, -- Vindictive Combatant's Felweave Bracers
+				{ 111, 136881 }, -- Vindictive Combatant's Felweave Cloak
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135778 }, -- Vindictive Gladiator's Felweave Cowl
-				{ 2, 135781 }, -- Vindictive Gladiator's Felweave Amice
-				{ 3, 135780 }, -- Vindictive Gladiator's Felweave Raiment
-				{ 4, 135783 }, -- Vindictive Gladiator's Felweave Bracers
-				{ 5, 135777 }, -- Vindictive Gladiator's Felweave Handguards
-				{ 6, 135782 }, -- Vindictive Gladiator's Felweave Cord
-				{ 7, 135779 }, -- Vindictive Gladiator's Felweave Trousers
-				{ 8, 135776 }, -- Vindictive Gladiator's Felweave Treads
-				{ 9, 136880 }, -- Vindictive Gladiator's Felweave Cloak
-				{ 16, 136004 }, -- Vindictive Combatant's Felweave Cowl
-				{ 17, 136007 }, -- Vindictive Combatant's Felweave Amice
-				{ 18, 136006 }, -- Vindictive Combatant's Felweave Raiment
-				{ 19, 136009 }, -- Vindictive Combatant's Felweave Bracers
-				{ 20, 136003 }, -- Vindictive Combatant's Felweave Handguards
-				{ 21, 136008 }, -- Vindictive Combatant's Felweave Cord
-				{ 22, 136005 }, -- Vindictive Combatant's Felweave Trousers
-				{ 23, 136002 }, -- Vindictive Combatant's Felweave Treads
-				{ 24, 136882 }, -- Vindictive Combatant's Felweave Cloak
+				{ 1, 146239 }, -- Ensemble: Elite Vindictive Gladiator's Felweave Armor
+				{ 3 , 136228 }, -- Vindictive Gladiator's Felweave Treads
+				{ 4 , 136229 }, -- Vindictive Gladiator's Felweave Handguards
+				{ 5 , 136230 }, -- Vindictive Gladiator's Felweave Cowl
+				{ 6 , 136231 }, -- Vindictive Gladiator's Felweave Trousers
+				{ 7 , 136232 }, -- Vindictive Gladiator's Felweave Raiment
+				{ 8 , 136233 }, -- Vindictive Gladiator's Felweave Amice
+				{ 9 , 136234 }, -- Vindictive Gladiator's Felweave Cord
+				{ 10, 136235 }, -- Vindictive Gladiator's Felweave Bracers
+				{ 11, 136884 }, -- Vindictive Gladiator's Felweave Cloak
+				{ 16, 146151 }, -- Ensemble: Vindictive Gladiator's Felweave Armor
+				{ 18, 135776 }, -- Vindictive Gladiator's Felweave Treads
+				{ 19, 135777 }, -- Vindictive Gladiator's Felweave Handguards
+				{ 20, 135778 }, -- Vindictive Gladiator's Felweave Cowl
+				{ 21, 135779 }, -- Vindictive Gladiator's Felweave Trousers
+				{ 22, 135780 }, -- Vindictive Gladiator's Felweave Raiment
+				{ 23, 135781 }, -- Vindictive Gladiator's Felweave Amice
+				{ 24, 135782 }, -- Vindictive Gladiator's Felweave Cord
+				{ 25, 135783 }, -- Vindictive Gladiator's Felweave Bracers
+				{ 26, 136880 }, -- Vindictive Gladiator's Felweave Cloak
+
+				{ 101, 146161 }, -- Ensemble: Vindictive Combatant's Felweave Armor
+				{ 103, 136002 }, -- Vindictive Combatant's Felweave Treads
+				{ 104, 136003 }, -- Vindictive Combatant's Felweave Handguards
+				{ 105, 136004 }, -- Vindictive Combatant's Felweave Cowl
+				{ 106, 136005 }, -- Vindictive Combatant's Felweave Trousers
+				{ 107, 136006 }, -- Vindictive Combatant's Felweave Raiment
+				{ 108, 136007 }, -- Vindictive Combatant's Felweave Amice
+				{ 109, 136008 }, -- Vindictive Combatant's Felweave Cord
+				{ 110, 136009 }, -- Vindictive Combatant's Felweave Bracers
+				{ 111, 136882 }, -- Vindictive Combatant's Felweave Cloak
 			},
 		},
 		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 135674 }, -- Vindictive Gladiator's Plate Helm
-				{ 2, 135676 }, -- Vindictive Gladiator's Plate Shoulders
-				{ 3, 135671 }, -- Vindictive Gladiator's Plate Chestpiece
-				{ 4, 135678 }, -- Vindictive Gladiator's Plate Wristplates
-				{ 5, 135673 }, -- Vindictive Gladiator's Plate Gauntlets
-				{ 6, 135677 }, -- Vindictive Gladiator's Plate Girdle
-				{ 7, 135675 }, -- Vindictive Gladiator's Plate Legguards
-				{ 8, 135672 }, -- Vindictive Gladiator's Plate Warboots
-				{ 9, 136885 }, -- Vindictive Gladiator's Cloak of Battle
-				{ 16, 135900 }, -- Vindictive Combatant's Plate Helm
-				{ 17, 135902 }, -- Vindictive Combatant's Plate Shoulders
-				{ 18, 135897 }, -- Vindictive Combatant's Plate Chestpiece
-				{ 19, 135904 }, -- Vindictive Combatant's Plate Wristplates
-				{ 20, 135899 }, -- Vindictive Combatant's Plate Gauntlets
-				{ 21, 135903 }, -- Vindictive Combatant's Plate Girdle
-				{ 22, 135901 }, -- Vindictive Combatant's Plate Legguards
-				{ 23, 135898 }, -- Vindictive Combatant's Plate Warboots
-				{ 24, 136887 }, -- Vindictive Combatant's Cloak of Battle
+				{ 1, 146218 }, -- Ensemble: Elite Vindictive Gladiator's Plate Armor
+				{ 3 , 136123 }, -- Vindictive Gladiator's Plate Chestpiece
+				{ 4 , 136124 }, -- Vindictive Gladiator's Plate Warboots
+				{ 5 , 136125 }, -- Vindictive Gladiator's Plate Gauntlets
+				{ 6 , 136126 }, -- Vindictive Gladiator's Plate Helm
+				{ 7 , 136127 }, -- Vindictive Gladiator's Plate Legguards
+				{ 8 , 136128 }, -- Vindictive Gladiator's Plate Shoulders
+				{ 9 , 136129 }, -- Vindictive Gladiator's Plate Girdle
+				{ 10, 136130 }, -- Vindictive Gladiator's Plate Wristplates
+				{ 11, 136889 }, -- Vindictive Gladiator's Cloak of Battle
+				{ 16, 146130 }, -- Ensemble: Vindictive Gladiator's Plate Armor
+				{ 18, 135671 }, -- Vindictive Gladiator's Plate Chestpiece
+				{ 19, 135672 }, -- Vindictive Gladiator's Plate Warboots
+				{ 20, 135673 }, -- Vindictive Gladiator's Plate Gauntlets
+				{ 21, 135674 }, -- Vindictive Gladiator's Plate Helm
+				{ 22, 135675 }, -- Vindictive Gladiator's Plate Legguards
+				{ 23, 135676 }, -- Vindictive Gladiator's Plate Shoulders
+				{ 24, 135677 }, -- Vindictive Gladiator's Plate Girdle
+				{ 25, 135678 }, -- Vindictive Gladiator's Plate Wristplates
+				{ 26, 136885 }, -- Vindictive Gladiator's Cloak of Battle
+
+				{ 101, 146162 }, -- Ensemble: Vindictive Combatant's Plate Armor
+				{ 103, 135897 }, -- Vindictive Combatant's Plate Chestpiece
+				{ 104, 135898 }, -- Vindictive Combatant's Plate Warboots
+				{ 105, 135899 }, -- Vindictive Combatant's Plate Gauntlets
+				{ 106, 135900 }, -- Vindictive Combatant's Plate Helm
+				{ 107, 135901 }, -- Vindictive Combatant's Plate Legguards
+				{ 108, 135902 }, -- Vindictive Combatant's Plate Shoulders
+				{ 109, 135903 }, -- Vindictive Combatant's Plate Girdle
+				{ 110, 135904 }, -- Vindictive Combatant's Plate Wristplates
+				{ 111, 136887 }, -- Vindictive Combatant's Cloak of Battle
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 135787 }, -- Vindictive Gladiator's Plate Helm
-				{ 2, 135789 }, -- Vindictive Gladiator's Plate Shoulders
-				{ 3, 135784 }, -- Vindictive Gladiator's Plate Chestpiece
-				{ 4, 135791 }, -- Vindictive Gladiator's Plate Wristplates
-				{ 5, 135786 }, -- Vindictive Gladiator's Plate Gauntlets
-				{ 6, 135790 }, -- Vindictive Gladiator's Plate Girdle
-				{ 7, 135788 }, -- Vindictive Gladiator's Plate Legguards
-				{ 8, 135785 }, -- Vindictive Gladiator's Plate Warboots
-				{ 9, 136886 }, -- Vindictive Gladiator's Cloak of Battle
-				{ 16, 136013 }, -- Vindictive Combatant's Plate Helm
-				{ 17, 136015 }, -- Vindictive Combatant's Plate Shoulders
-				{ 18, 136010 }, -- Vindictive Combatant's Plate Chestpiece
-				{ 19, 136017 }, -- Vindictive Combatant's Plate Wristplates
-				{ 20, 136012 }, -- Vindictive Combatant's Plate Gauntlets
-				{ 21, 136016 }, -- Vindictive Combatant's Plate Girdle
-				{ 22, 136014 }, -- Vindictive Combatant's Plate Legguards
-				{ 23, 136011 }, -- Vindictive Combatant's Plate Warboots
-				{ 24, 136888 }, -- Vindictive Combatant's Cloak of Battle
+				{ 1, 146219 }, -- Ensemble: Elite Vindictive Gladiator's Plate Armor
+				{ 3 , 136236 }, -- Vindictive Gladiator's Plate Chestpiece
+				{ 4 , 136237 }, -- Vindictive Gladiator's Plate Warboots
+				{ 5 , 136238 }, -- Vindictive Gladiator's Plate Gauntlets
+				{ 6 , 136239 }, -- Vindictive Gladiator's Plate Helm
+				{ 7 , 136240 }, -- Vindictive Gladiator's Plate Legguards
+				{ 8 , 136241 }, -- Vindictive Gladiator's Plate Shoulders
+				{ 9 , 136242 }, -- Vindictive Gladiator's Plate Girdle
+				{ 10, 136243 }, -- Vindictive Gladiator's Plate Wristplates
+				{ 11, 136890 }, -- Vindictive Gladiator's Cloak of Battle
+				{ 16, 146131 }, -- Ensemble: Vindictive Gladiator's Plate Armor
+				{ 18, 135784 }, -- Vindictive Gladiator's Plate Chestpiece
+				{ 19, 135785 }, -- Vindictive Gladiator's Plate Warboots
+				{ 20, 135786 }, -- Vindictive Gladiator's Plate Gauntlets
+				{ 21, 135787 }, -- Vindictive Gladiator's Plate Helm
+				{ 22, 135788 }, -- Vindictive Gladiator's Plate Legguards
+				{ 23, 135789 }, -- Vindictive Gladiator's Plate Shoulders
+				{ 24, 135790 }, -- Vindictive Gladiator's Plate Girdle
+				{ 25, 135791 }, -- Vindictive Gladiator's Plate Wristplates
+				{ 26, 136886 }, -- Vindictive Gladiator's Cloak of Battle
+
+				{ 101, 146163 }, -- Ensemble: Vindictive Combatant's Plate Armor
+				{ 103, 136010 }, -- Vindictive Combatant's Plate Chestpiece
+				{ 104, 136011 }, -- Vindictive Combatant's Plate Warboots
+				{ 105, 136012 }, -- Vindictive Combatant's Plate Gauntlets
+				{ 106, 136013 }, -- Vindictive Combatant's Plate Helm
+				{ 107, 136014 }, -- Vindictive Combatant's Plate Legguards
+				{ 108, 136015 }, -- Vindictive Combatant's Plate Shoulders
+				{ 109, 136016 }, -- Vindictive Combatant's Plate Girdle
+				{ 110, 136017 }, -- Vindictive Combatant's Plate Wristplates
+				{ 111, 136888 }, -- Vindictive Combatant's Cloak of Battle
 			},
 		},
 	},
 }
+
+data["LEGION1GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 1).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 3),
+			[ALLIANCE_DIFF] = {
+				-- Amulet
+				{ 1, 136133 }, -- Vindictive Gladiator's Necklace
+				{ 2, 136137 }, -- Vindictive Gladiator's Pendant
+				{ 3, 136141 }, -- Vindictive Gladiator's Choker
+				-- Ring
+				{ 5, 136134 }, -- Vindictive Gladiator's Ring
+				{ 6, 136138 }, -- Vindictive Gladiator's Band
+				{ 7, 136142 }, -- Vindictive Gladiator's Signet
+				-- Cloak
+				{ 9 , 136136 }, -- Vindictive Gladiator's Ironskin Cloak
+				{ 10, 136139 }, -- Vindictive Gladiator's Drape of the Tracker
+				{ 11, 136895 }, -- Vindictive Gladiator's Demonthread Cloak
+				-- Trinket
+				{ 16, 136143 }, -- Vindictive Gladiator's Badge of Conquest
+				{ 17, 136144 }, -- Vindictive Gladiator's Accolade of Conquest
+				{ 18, 136145 }, -- Vindictive Gladiator's Insignia of Conquest
+				{ 19, 136146 }, -- Vindictive Gladiator's Emblem of Cruelty
+				{ 20, 136147 }, -- Vindictive Gladiator's Emblem of Tenacity
+				{ 21, 136148 }, -- Vindictive Gladiator's Emblem of Meditation
+				{ 22, 136149 }, -- Vindictive Gladiator's Badge of Dominance
+				{ 23, 136150 }, -- Vindictive Gladiator's Accolade of Dominance
+				{ 24, 136151 }, -- Vindictive Gladiator's Insignia of Dominance
+				{ 25, 136152 }, -- Vindictive Gladiator's Badge of Victory
+				{ 26, 136153 }, -- Vindictive Gladiator's Accolade of Victory
+				{ 27, 136154 }, -- Vindictive Gladiator's Insignia of Victory
+				{ 28, 136155 }, -- Vindictive Gladiator's Badge of Adaptation
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 1, 136246 }, -- Vindictive Gladiator's Necklace
+				{ 2, 136250 }, -- Vindictive Gladiator's Pendant
+				{ 3, 136254 }, -- Vindictive Gladiator's Choker
+				-- Ring
+				{ 5, 136247 }, -- Vindictive Gladiator's Ring
+				{ 6, 136251 }, -- Vindictive Gladiator's Band
+				{ 7, 136255 }, -- Vindictive Gladiator's Signet
+				-- Cloak
+				{ 9 , 136249 }, -- Vindictive Gladiator's Ironskin Cloak
+				{ 10, 136252 }, -- Vindictive Gladiator's Drape of the Tracker
+				{ 11, 136896 }, -- Vindictive Gladiator's Demonthread Cloak
+				-- Trinket
+				{ 16, 136256 }, -- Vindictive Gladiator's Badge of Conquest
+				{ 17, 136257 }, -- Vindictive Gladiator's Accolade of Conquest
+				{ 18, 136258 }, -- Vindictive Gladiator's Insignia of Conquest
+				{ 19, 136259 }, -- Vindictive Gladiator's Emblem of Cruelty
+				{ 20, 136260 }, -- Vindictive Gladiator's Emblem of Tenacity
+				{ 21, 136261 }, -- Vindictive Gladiator's Emblem of Meditation
+				{ 22, 136262 }, -- Vindictive Gladiator's Badge of Dominance
+				{ 23, 136263 }, -- Vindictive Gladiator's Accolade of Dominance
+				{ 24, 136264 }, -- Vindictive Gladiator's Insignia of Dominance
+				{ 25, 136265 }, -- Vindictive Gladiator's Badge of Victory
+				{ 26, 136266 }, -- Vindictive Gladiator's Accolade of Victory
+				{ 27, 136267 }, -- Vindictive Gladiator's Insignia of Victory
+				{ 28, 136268 }, -- Vindictive Gladiator's Badge of Adaptation
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 3),
+			[ALLIANCE_DIFF] = {
+				-- Amulet
+				{ 1, 135681 }, -- Vindictive Gladiator's Necklace
+				{ 2, 135685 }, -- Vindictive Gladiator's Pendant
+				{ 3, 135689 }, -- Vindictive Gladiator's Choker
+				-- Ring
+				{ 5, 135682 }, -- Vindictive Gladiator's Ring
+				{ 6, 135686 }, -- Vindictive Gladiator's Band
+				{ 7, 135690 }, -- Vindictive Gladiator's Signet
+				-- Cloak
+				{ 9 , 136891 }, -- Vindictive Gladiator's Demonthread Cloak
+				{ 10, 135683 }, -- Vindictive Gladiator's Drape of the Tracker
+				{ 11, 135687 }, -- Vindictive Gladiator's Ironskin Cloak
+				-- Trinket
+				{ 16, 135691 }, -- Vindictive Gladiator's Badge of Conquest
+				{ 17, 135692 }, -- Vindictive Gladiator's Accolade of Conquest
+				{ 18, 135693 }, -- Vindictive Gladiator's Insignia of Conquest
+				{ 19, 135694 }, -- Vindictive Gladiator's Emblem of Cruelty
+				{ 20, 135695 }, -- Vindictive Gladiator's Emblem of Tenacity
+				{ 21, 135696 }, -- Vindictive Gladiator's Emblem of Meditation
+				{ 22, 135697 }, -- Vindictive Gladiator's Badge of Dominance
+				{ 23, 135698 }, -- Vindictive Gladiator's Accolade of Dominance
+				{ 24, 135699 }, -- Vindictive Gladiator's Insignia of Dominance
+				{ 25, 135700 }, -- Vindictive Gladiator's Badge of Victory
+				{ 26, 135701 }, -- Vindictive Gladiator's Accolade of Victory
+				{ 27, 135702 }, -- Vindictive Gladiator's Insignia of Victory
+				{ 28, 135703 }, -- Vindictive Gladiator's Badge of Adaptation
+				-- Mount
+				{ 30, 141843 }, -- Vindictive Gladiator's Storm Dragon
+
+				-- Amulet
+				{ 101, 135907 }, -- Vindictive Combatant's Necklace
+				{ 102, 135911 }, -- Vindictive Combatant's Pendant
+				{ 103, 135915 }, -- Vindictive Combatant's Choker
+				-- Ring
+				{ 105, 135908 }, -- Vindictive Combatant's Ring
+				{ 106, 135912 }, -- Vindictive Combatant's Band
+				{ 107, 135916 }, -- Vindictive Combatant's Signet
+				-- Cloak
+				{ 109, 135910 }, -- Vindictive Combatant's Ironskin Cloak
+				{ 110, 135913 }, -- Vindictive Combatant's Drape of the Tracker
+				{ 111, 136893 }, -- Vindictive Combatant's Demonthread Cloak
+				-- Trinket
+				{ 116, 135917 }, -- Vindictive Combatant's Badge of Conquest
+				{ 117, 135918 }, -- Vindictive Combatant's Accolade of Conquest
+				{ 118, 135919 }, -- Vindictive Combatant's Insignia of Conquest
+				{ 119, 135920 }, -- Vindictive Combatant's Emblem of Cruelty
+				{ 120, 135921 }, -- Vindictive Combatant's Emblem of Tenacity
+				{ 121, 135922 }, -- Vindictive Combatant's Emblem of Meditation
+				{ 122, 135923 }, -- Vindictive Combatant's Badge of Dominance
+				{ 123, 135924 }, -- Vindictive Combatant's Accolade of Dominance
+				{ 124, 135925 }, -- Vindictive Combatant's Insignia of Dominance
+				{ 125, 135926 }, -- Vindictive Combatant's Badge of Victory
+				{ 126, 135927 }, -- Vindictive Combatant's Accolade of Victory
+				{ 127, 135928 }, -- Vindictive Combatant's Insignia of Victory
+				{ 128, 135929 }, -- Vindictive Combatant's Badge of Adaptation
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Amulet
+				{ 1, 135794 }, -- Vindictive Gladiator's Necklace
+				{ 2, 135798 }, -- Vindictive Gladiator's Pendant
+				{ 3, 135802 }, -- Vindictive Gladiator's Choker
+				-- Ring
+				{ 5, 135795 }, -- Vindictive Gladiator's Ring
+				{ 6, 135799 }, -- Vindictive Gladiator's Band
+				{ 7, 135803 }, -- Vindictive Gladiator's Signet
+				-- Cloak
+				{ 9 , 135797 }, -- Vindictive Gladiator's Ironskin Cloak
+				{ 10, 135800 }, -- Vindictive Gladiator's Drape of the Tracker
+				{ 11, 136892 }, -- Vindictive Gladiator's Demonthread Cloak
+				-- Trinket
+				{ 16, 135804 }, -- Vindictive Gladiator's Badge of Conquest
+				{ 17, 135805 }, -- Vindictive Gladiator's Accolade of Conquest
+				{ 18, 135806 }, -- Vindictive Gladiator's Insignia of Conquest
+				{ 19, 135807 }, -- Vindictive Gladiator's Emblem of Cruelty
+				{ 20, 135808 }, -- Vindictive Gladiator's Emblem of Tenacity
+				{ 21, 135809 }, -- Vindictive Gladiator's Emblem of Meditation
+				{ 22, 135810 }, -- Vindictive Gladiator's Badge of Dominance
+				{ 23, 135811 }, -- Vindictive Gladiator's Accolade of Dominance
+				{ 24, 135812 }, -- Vindictive Gladiator's Insignia of Dominance
+				{ 25, 135813 }, -- Vindictive Gladiator's Badge of Victory
+				{ 26, 135814 }, -- Vindictive Gladiator's Accolade of Victory
+				{ 27, 135815 }, -- Vindictive Gladiator's Insignia of Victory
+				{ 28, 135816 }, -- Vindictive Gladiator's Badge of Adaptation
+				-- Mount
+				{ 30, 141843 }, -- Vindictive Gladiator's Storm Dragon
+
+				-- Amulet
+				{ 101, 136020 }, -- Vindictive Combatant's Necklace
+				{ 102, 136024 }, -- Vindictive Combatant's Pendant
+				{ 103, 136028 }, -- Vindictive Combatant's Choker
+				-- Ring
+				{ 105, 136021 }, -- Vindictive Combatant's Ring
+				{ 106, 136025 }, -- Vindictive Combatant's Band
+				{ 107, 136029 }, -- Vindictive Combatant's Signet
+				-- Cloak
+				{ 109, 136023 }, -- Vindictive Combatant's Ironskin Cloak
+				{ 110, 136026 }, -- Vindictive Combatant's Drape of the Tracker
+				{ 111, 136894 }, -- Vindictive Combatant's Demonthread Cloak
+				-- Trinket
+				{ 116, 136030 }, -- Vindictive Combatant's Badge of Conquest
+				{ 117, 136031 }, -- Vindictive Combatant's Accolade of Conquest
+				{ 118, 136032 }, -- Vindictive Combatant's Insignia of Conquest
+				{ 119, 136033 }, -- Vindictive Combatant's Emblem of Cruelty
+				{ 120, 136034 }, -- Vindictive Combatant's Emblem of Tenacity
+				{ 121, 136035 }, -- Vindictive Combatant's Emblem of Meditation
+				{ 122, 136036 }, -- Vindictive Combatant's Badge of Dominance
+				{ 123, 136037 }, -- Vindictive Combatant's Accolade of Dominance
+				{ 124, 136038 }, -- Vindictive Combatant's Insignia of Dominance
+				{ 125, 136039 }, -- Vindictive Combatant's Badge of Victory
+				{ 126, 136040 }, -- Vindictive Combatant's Accolade of Victory
+				{ 127, 136041 }, -- Vindictive Combatant's Insignia of Victory
+				{ 128, 136042 }, -- Vindictive Combatant's Badge of Adaptation
+			},
+		},
+	},
+}
+
 
 data["WODS3SETS"] = {
 	name = string.format(AL["Warlords Season %d"], 3).." "..AL["Class Sets"],
