@@ -13,7 +13,8 @@ v8.04.05 (Jul. xx, 2017)
 - Added Legion PvP Season 2, Season 3, Season 4 item sets
 - Added Legion PvP Season 1 non-set items
 - Updated Legion PvP Season 1 class-set items
-- Updated Collection - PvP item's buying cost
+- Updated Collection - Tabards - PvP item's buying cost
+- Added Classic PvP tabards under Collection - Tabards - PvP
 - Added Legion Tabards
 ## information for Devs
 - Added back dev tools from v7.0x

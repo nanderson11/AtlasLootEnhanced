@@ -2730,7 +2730,7 @@ data["TABARDS"] = {
 				{ 18, 83080, [PRICE_EXTRA_ITTYPE] = "money:1000" },	-- Huojin Tabard
 			},
 		},
-		{
+		{ -- Guild
 			name = AL["Guild"],
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
@@ -2739,7 +2739,7 @@ data["TABARDS"] = {
 				{ 3, 5976, [PRICE_EXTRA_ITTYPE] = "money:10000" },	-- Guild Tabard	-- NEUTRAL
 			},
 		},
-		{
+		{ -- Achievement & Quest Rewards
 			name = AL["Achievement & Quest Rewards"],
 			CoinTexture = "Achievement",
 			[ALLIANCE_DIFF] = {
@@ -2761,7 +2761,7 @@ data["TABARDS"] = {
 				{ 16, 25549, [QUEST_EXTRA_ITTYPE] = 28473 },	-- Blood Knight Tabard
 			},
 		},
-		{
+		{ -- Argent Tournament
 			name = AL["Argent Tournament"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 46874, [PRICE_EXTRA_ITTYPE] = "champseal:50" },	-- Argent Crusader's Tabard	-- NEUTRAL
@@ -2786,7 +2786,7 @@ data["TABARDS"] = {
 				{ 20, 83080, [PRICE_EXTRA_ITTYPE] = "money:1000" },	-- Huojin Tabard
 			},
 		},
-		{
+		{ -- PvP
 			name = AL["PvP"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" },	-- Primal Gladiator's Tabard
@@ -2794,6 +2794,7 @@ data["TABARDS"] = {
 				{ 4, 15198, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Knight's Colors
 				{ 18, 19506, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Silverwing Battle Tabard
 				{ 19, 19032, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Stormpike Battle Tabard
+				{ 20, 20132, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Arathor Battle Tabard
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -2801,9 +2802,10 @@ data["TABARDS"] = {
 				{ 4, 15199, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Stone Guard's Herald
 				{ 18, 19505, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Warsong Battle Tabard
 				{ 19, 19031, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Frostwolf Battle Tabard
+				{ 20, 20131, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Battle Tabard of the Defilers
 			},
 		},
-		{
+		{ -- Unobtainable Tabards
 			name = AL["Unobtainable Tabards"],
 			[NORMAL_DIFF] = {
 				{ 1, 19160 },	-- Contest Winner's Tabard
