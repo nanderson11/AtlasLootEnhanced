@@ -1,4 +1,6 @@
 local addonname = ...
+
+local type = type
 local AtlasLoot = _G.AtlasLoot
 local data = AtlasLoot.ItemDB:Add(addonname)
 
@@ -40,6 +42,12 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
 
 local COLLECTION_CONTENT = data:AddContentType(AL["Collections"], ATLASLOOT_COLLECTION_COLOR)
+
+local function gFactionName(factionID)
+	if not factionID or type(factionID) ~= "number" then return end
+	local name = GetFactionInfoByID(factionID)
+	return name
+end
 
 data["ARTIFACTS"] = {
 	name = SPLASH_LEGION_BOX_FEATURE2_TITLE,
@@ -320,6 +328,108 @@ data["ARTIFACTS"] = {
 	},
 }
 
+data["TIMEWALKINGEVENT"] = {
+	name = AL["Timewalking Dungeon Event"],
+	ContentType = COLLECTION_CONTENT,
+	items = {
+		--[[
+		{-- Warlords of Draenor
+			name = EXPANSION_NAME5,
+			[NORMAL_DIFF] = {
+			},
+		},]]
+		{-- Mists of Pandaria
+			name = EXPANSION_NAME4,
+			[NORMAL_DIFF] = {
+				{ 1, 143953, "pet2017", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2017
+				{ 2, 143954, "pet2018", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2018
+				{ 4, 87775, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Yu'lei, Daughter of Jade, mount476
+				{ 6, 144393, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Portable Yak Wash
+				{ 7, 144072, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Adopted Puppy Crate, toy
+				{ 9, 143948, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Chilled Satchel of Vegetables
+				{ 10, 88995, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Shado-Pan Dragon Gun
+				{ 12, 143935, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Klaxxi
+				{ 13, 143936, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Shado-Pan
+				{ 14, 143937, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Golden Lotus
+				{ 15, 143938, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The August Celestials
+				{ 16, 143939, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sunreaver Onslaught
+				{ 17, 143940, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Kirin Tor Offensive
+				{ 18, 143941, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Tillers
+				{ 19, 143942, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Order of the Cloud Serpent
+				{ 20, 143943, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Dominance Offensive
+				{ 21, 143944, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Operation: Shieldwall
+				{ 22, 143945, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Shado-Pan Assault
+				{ 23, 143946, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Anglers
+				{ 24, 143947, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Emperor Shaohao
+				{ 26, 104228 },
+				{ 28, "ac6927", 87769},
+				{ 30, 143776 }, -- Shrouded Timewarped Coin
+			},
+		},
+		{-- Cataclysm
+			name = EXPANSION_NAME3,
+			[NORMAL_DIFF] = {
+				{ 1, 133511, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Gurboggle's Gleaming Bauble
+				{ 3, 67414, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Shiny Things
+				{ 5, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
+				{ 6, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
+				{ 8, 133160, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Therazane
+				{ 9, 133154, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ramkahen
+				{ 10, [ATLASLOOT_IT_HORDE] = 133150, [ATLASLOOT_IT_ALLIANCE] = 133151, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wildhammer Clan / Commendation of the Dragonmaw Clan
+				{ 16, 133542, [PRICE_EXTRA_ITTYPE] = "timewarped:3000" }, -- Tosselwrench's Mega-Accurate Simulation Viewfinder
+				{ 18, [ATLASLOOT_IT_HORDE] = 133545, [ATLASLOOT_IT_ALLIANCE] = 49602, [PRICE_EXTRA_ITTYPE] = "timewarped:10" }, -- Earl Black Tea / "New!" Kaja'Cola
+				{ 20, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
+				{ 21, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
+				{ 23, 133159, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Earthen Ring
+				{ 24, 133152, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Guardians of Hyjal
+			},
+		},
+		{-- Wrath of the Lich King
+			name = EXPANSION_NAME2,
+			[NORMAL_DIFF] = {
+				{ 1, 129922, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger
+				{ 3, 129938, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Will of Northrend
+				{ 5, 44113, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Small Spice Bag
+				{ 7, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
+				{ 8, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
+				{ 10, 129940, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Kirin Tor
+				{ 11, 129941, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ebon Blade
+				{ 12, [ATLASLOOT_IT_HORDE] = 129954, [ATLASLOOT_IT_ALLIANCE] = 129955, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Alliance Vanguard / Commendation of the Horde Expedition
+				{ 16, 129965, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Grizzlesnout's Fang
+				{ 18, 129952, [PRICE_EXTRA_ITTYPE] = "timewarped:2000" }, -- Hourglass of Eternity
+				{ 20, 46007, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
+				{ 22, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
+				{ 23, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
+				{ 25, 129942, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Argent Crusade
+				{ 26, 129943, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sons of Hodir
+				{ 27, 129944, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wyrmrest Accord
+
+			},
+		},
+		{-- The Burning Crusade
+			name = EXPANSION_NAME1,
+			[NORMAL_DIFF] = {
+				{ 1, 129923, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Eclipse Dragonhawk
+				{ 3, 129926, [PRICE_EXTRA_ITTYPE] = "timewarped:1250" }, -- Mark of the Ashtongue
+				{ 5, 33857, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Crate of Meat
+				{ 6, 35348, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
+				{ 8, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
+				{ 9, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
+				{ 11, 129945, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Consortium
+				{ 12, 129946, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Sha'tar
+				{ 13, [ATLASLOOT_IT_HORDE] = 129947, [ATLASLOOT_IT_ALLIANCE] = 129948, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Honor Hold / Commendation of Thrallmar
+				{ 16, 129929, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Ever-Shifting Mirror
+				{ 20, 33844, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Barrel of Fish
+				{ 23, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
+				{ 24, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
+				{ 26, 129949, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Cenarion Expedition
+				{ 27, 129950, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Keepers of Time
+				{ 28, 129951, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Lower City
+			},
+		},
+	},
+}
+
 data["APEXISCRYSTALGEAR"] = {
 	name = AL["Apexis Crystal"].." "..AL["Vendors"],
 	ContentType = COLLECTION_CONTENT,
@@ -525,113 +635,11 @@ data["APEXISCRYSTALGEAR"] = {
 	},
 }
 
-data["TIMEWALKINGEVENT"] = {
-	name = AL["Timewalking Dungeon Event"],
-	ContentType = COLLECTION_CONTENT,
-	items = {
-		{-- The Burning Crusade
-			name = EXPANSION_NAME1,
-			[NORMAL_DIFF] = {
-				{ 1, 129923, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Eclipse Dragonhawk
-				{ 3, 129926, [PRICE_EXTRA_ITTYPE] = "timewarped:1250" }, -- Mark of the Ashtongue
-				{ 5, 33857, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Crate of Meat
-				{ 6, 35348, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
-				{ 8, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 9, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
-				{ 11, 129945, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Consortium
-				{ 12, 129946, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Sha'tar
-				{ 13, [ATLASLOOT_IT_HORDE] = 129947, [ATLASLOOT_IT_ALLIANCE] = 129948, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Honor Hold / Commendation of Thrallmar
-				{ 16, 129929, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Ever-Shifting Mirror
-				{ 20, 33844, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Barrel of Fish
-				{ 23, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
-				{ 24, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
-				{ 26, 129949, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Cenarion Expedition
-				{ 27, 129950, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Keepers of Time
-				{ 28, 129951, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Lower City
-			},
-		},
-		{-- Wrath of the Lich King
-			name = EXPANSION_NAME2,
-			[NORMAL_DIFF] = {
-				{ 1, 129922, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger
-				{ 3, 129938, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Will of Northrend
-				{ 5, 44113, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Small Spice Bag
-				{ 7, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 8, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
-				{ 10, 129940, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Kirin Tor
-				{ 11, 129941, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ebon Blade
-				{ 12, [ATLASLOOT_IT_HORDE] = 129954, [ATLASLOOT_IT_ALLIANCE] = 129955, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Alliance Vanguard / Commendation of the Horde Expedition
-				{ 16, 129965, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Grizzlesnout's Fang
-				{ 18, 129952, [PRICE_EXTRA_ITTYPE] = "timewarped:2000" }, -- Hourglass of Eternity
-				{ 20, 46007, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Fishing Treasures
-				{ 22, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
-				{ 23, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
-				{ 25, 129942, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Argent Crusade
-				{ 26, 129943, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sons of Hodir
-				{ 27, 129944, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wyrmrest Accord
-
-			},
-		},
-		{-- Cataclysm
-			name = EXPANSION_NAME3,
-			[NORMAL_DIFF] = {
-				{ 1, 133511, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Gurboggle's Gleaming Bauble
-				{ 3, 67414, [PRICE_EXTRA_ITTYPE] = "timewarped:150" }, -- Bag of Shiny Things
-				{ 5, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ancient Heirloom Armor Casing
-				{ 6, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Timeworn Heirloom Armor Casing
-				{ 8, 133160, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Therazane
-				{ 9, 133154, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Ramkahen
-				{ 10, [ATLASLOOT_IT_HORDE] = 133150, [ATLASLOOT_IT_ALLIANCE] = 133151, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wildhammer Clan / Commendation of the Dragonmaw Clan
-				{ 16, 133542, [PRICE_EXTRA_ITTYPE] = "timewarped:3000" }, -- Tosselwrench's Mega-Accurate Simulation Viewfinder
-				{ 18, [ATLASLOOT_IT_HORDE] = 133545, [ATLASLOOT_IT_ALLIANCE] = 49602, [PRICE_EXTRA_ITTYPE] = "timewarped:10" }, -- Earl Black Tea / "New!" Kaja'Cola
-				{ 20, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" }, -- Ancient Heirloom Scabbard
-				{ 21, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Timeworn Heirloom Scabbard
-				{ 23, 133159, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Earthen Ring
-				{ 24, 133152, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Guardians of Hyjal
-			},
-		},
-		{-- Mists of Pandaria
-			name = EXPANSION_NAME4,
-			[NORMAL_DIFF] = {
-				{ 1, 143953, "pet2017", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2017
-				{ 2, 143954, "pet2018", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2018
-				{ 4, 87775, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Yu'lei, Daughter of Jade, mount476
-				{ 6, 144393, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Portable Yak Wash
-				{ 7, 144072, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Adopted Puppy Crate, toy
-				{ 9, 143948, [PRICE_EXTRA_ITTYPE] = "timewarped:25" }, -- Chilled Satchel of Vegetables
-				{ 10, 88995, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Shado-Pan Dragon Gun
-				{ 12, 143935, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Klaxxi
-				{ 13, 143936, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Shado-Pan
-				{ 14, 143937, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Golden Lotus
-				{ 15, 143938, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The August Celestials
-				{ 16, 143939, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sunreaver Onslaught
-				{ 17, 143940, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Kirin Tor Offensive
-				{ 18, 143941, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Tillers
-				{ 19, 143942, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Order of the Cloud Serpent
-				{ 20, 143943, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Dominance Offensive
-				{ 21, 143944, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Operation: Shieldwall
-				{ 22, 143945, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Shado-Pan Assault
-				{ 23, 143946, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of The Anglers
-				{ 24, 143947, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Emperor Shaohao
-				{ 26, 104228 },
-				{ 28, "ac6927", 87769},
-				{ 30, 143776 }, -- Shrouded Timewarped Coin
-			},
-		},
-		--[[
-		{-- Warlords of Draenor
-			name = EXPANSION_NAME5,
-			[NORMAL_DIFF] = {
-			},
-		},]]
-	},
-}
-
 data["BOEWORLDEPICS"] = {
 	name = AL["BoE World Epics"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		{
+		{ -- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[NORMAL_DIFF] = {
 				{ 1, 118814 },	-- Berserker's Windwrap
@@ -672,7 +680,7 @@ data["BOEWORLDEPICS"] = {
 				{ 125, 118872 },	-- Disc of the Third Moon
 			},
 		},
-		{
+		{ -- Mists of Pandaria
 			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
 				{ 1, 90580 },	-- Cristof's Crushing Cloak
@@ -714,7 +722,7 @@ data["BOEWORLDEPICS"] = {
 				{ 117, 87641 },	-- Yaungol Battle Barrier
 			},
 		},
-		{
+		{ -- Cataclysm
 			name = EXPANSION_NAME3,
 			[NORMAL_DIFF] = {
 				{ 1, 67134 },	-- Dory's Finery
@@ -744,7 +752,7 @@ data["BOEWORLDEPICS"] = {
 				{ 29, 68161 },	-- Krol Decapitator
 			},
 		},
-		{
+		{ -- Wrath of the Lich King
 			name = EXPANSION_NAME2,
 			[NORMAL_DIFF] = {
 				{ 1, 44309 },	-- Sash of Jordan
@@ -759,7 +767,7 @@ data["BOEWORLDEPICS"] = {
 				{ 22, 43611 },	-- Krol Cleaver
 			},
 		},
-		{
+		{ -- The Burning Crusade
 			name = EXPANSION_NAME1,
 			[NORMAL_DIFF] = {
 				{ 1, 31329 },	-- Lifegiving Cloak
@@ -785,7 +793,7 @@ data["BOEWORLDEPICS"] = {
 				{ 23, 31323 },	-- Don Santos' Famous Hunting Rifle
 			},
 		},
-		{
+		{ -- Classic
 			name = EXPANSION_NAME0,
 			[NORMAL_DIFF] = {
 				{ 1, 3475 },	-- Cloak of Flames
@@ -845,11 +853,12 @@ data["BOEWORLDEPICS"] = {
 	},
 }
 
+-- Challenge Mode Gear
 data["CMGEAR"] = {
 	name = AL["Challenge Mode Gear"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		{
+		{ -- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[NORMAL_DIFF] = {
 				{ 1, "ac8899" },	-- Challenge Warlord: Gold
@@ -875,7 +884,7 @@ data["CMGEAR"] = {
 				{ 25, 118406 },	-- Furnace of the Great Machine
 			},
 		},
-		{
+		{ -- Mists of Pandaria
 			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
 				{ 1, "setCMMoP:dk:n" },
@@ -897,10 +906,10 @@ data["CMGEAR"] = {
 data["MOUNTS"] = {
 	name = AL["Mounts"],
 	ContentType = COLLECTION_CONTENT,
-	TableType = I_A_ITTYPE,
+	TableType = NORMAL_ITTYPE,
 	items = 
 	{
-		{
+		{ -- Achievements
 			name = AL["Achievements"],
 			CoinTexture = "Achievement",
 			[NORMAL_DIFF] = {
@@ -958,7 +967,7 @@ data["MOUNTS"] = {
 				{ 127, 98618, "ac8345" }, -- Hearthsteed
 			},
 		},
-		{
+		{ -- Black Market Auction House
 			name = AL["Black Market Auction House"],
 			[NORMAL_DIFF] = {
 				{ 1, 13335, "mount" }, -- Deathcharger's Reins
@@ -997,7 +1006,7 @@ data["MOUNTS"] = {
 				{ 104, 115484, "mount" }, -- Core Hound Chain
 			},
 		},
-		{
+		{ -- Crafting
 			name = AL["Crafting"],
 			[NORMAL_DIFF] = {
 				{ 1, 65891, "mount" }, -- Vial of the Sands
@@ -1011,7 +1020,6 @@ data["MOUNTS"] = {
 				{ 11, 87250, "mount" }, -- Depleted-Kyparium Rocket
 				{ 12, 87251, "mount" }, -- Geosynchronous World Spinner
 				{ 14, 108883, "mount" }, -- Riding Harness
-				-- { 1, 129962, "mount" }, -- [NYI] Leather Riding Harness
 				{ 16, 82453, "mount" }, -- Jeweled Onyx Panther
 				{ 17, 83087, "mount" }, -- Ruby Panther
 				{ 18, 83088, "mount" }, -- Jade Panther
@@ -1023,7 +1031,7 @@ data["MOUNTS"] = {
 				{ 25, 44554, "mount" }, -- Flying Carpet
 			},
 		},
-		{
+		{ -- Dungeons & Raids
 			name = AL["Dungeons"].." & "..AL["Raids"],
 			[CLASSIC_DIFF] = {
 				{ 1, 19872, "mount" }, -- Swift Razzashi Raptor
@@ -1039,7 +1047,6 @@ data["MOUNTS"] = {
 				{ 3, 32768, "mount" }, -- Reins of the Raven Lord
 				{ 5, 30480, "mount" }, -- Fiery Warhorse's Reins
 				{ 7, 35513, "mount" }, -- Swift White Hawkstrider
-				-- { 16, 33176 }, -- Flying Broom
 				{ 16, 37828, "mount" }, -- Great Brewfest Kodo
 				{ 18, 37012, "mount" }, -- The Horseman's Reins
 			},
@@ -1127,7 +1134,7 @@ data["MOUNTS"] = {
 				{ 26, 113543 }, -- Spirit of Shinri
 			},
 		},
-		{
+		{ -- In-game Shop
 			name = AL["Shop"],
 			[NORMAL_DIFF] = {
 				{ 1, 54811, "mount" }, -- Celestial Steed
@@ -1139,10 +1146,138 @@ data["MOUNTS"] = {
 				{ 7, 107951, "mount" }, -- Iron Skyreaver
 				{ 8, 112326, "mount" }, -- Warforged Nightmare
 				{ 9, 112327, "mount" }, -- Grinning Reaver
-				{ 10, 122469, "mount" }, -- Mystic Runesaber
+				{ 10, 112326, "mount" }, -- Warforged Nightmare
 			},
 		},
---[[		{
+		{ -- Faction
+			name = AL["Factions"],
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				-- Stormwind , Classic
+				{ 1 , "f72rep5" },
+				{ 2 , 18776, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Palomino
+				{ 3 , 18777, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Brown Steed
+				{ 4 , 18778, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Steed
+				{ 5 , 25473, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Blue Gryphon
+				{ 6 , 25527, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Red Gryphon
+				{ 7 , 25528, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Green Gryphon
+				{ 8 , 25529, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Swift Purple Gryphon
+				{ 9 , 2411, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Black Stallion Bridle
+				{ 10, 2414, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Pinto Bridle
+				{ 11, 5655, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Chestnut Mare Bridle
+				{ 12, 5656, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Horse Bridle
+				{ 13, 25470, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Golden Gryphon
+				{ 14, 25471, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Ebon Gryphon
+				{ 15, 25472, "mount", [PRICE_EXTRA_ITTYPE] = "money:500000" }, -- Snowy Gryphon
+				{ 16, 102514, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Reins of the Vicious Warsaber
+				{ 17, 116777, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Ram
+				{ 18, 124089, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Mechanostrider
+				{ 19, 140350, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Elekk
+				{ 20, 142234, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Bear
+				{ 21, 142237, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Lion
+				{ 22, 143648, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious War Turtle
+				{ 23, 140353, "mount", [PRICE_EXTRA_ITTYPE] = "vicioussaddle:1" }, -- Vicious Gilnean Warhorse
+				-- Wintersaber Trainers, Classic
+				{ 25, "f589rep8" },
+				{ 26, 13086, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Winterspring Frostsaber
+				-- Ironforge, Classic
+				{ 101, "f47rep5" },
+				{ 102, 18785, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Ram
+				{ 103, 18786, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Brown Ram
+				{ 104, 18787, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Gray Ram
+				{ 105, 5864, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Gray Ram
+				{ 106, 5872, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Ram
+				{ 107, 5873, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- White Ram
+				-- Gnomeregan, Classic
+				{ 109, "f54rep5" },
+				{ 110, 18772, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Green Mechanostrider
+				{ 111, 18773, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Mechanostrider
+				{ 112, 18774, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Yellow Mechanostrider
+				{ 113, 8563, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Red Mechanostrider
+				{ 114, 8595, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Blue Mechanostrider
+				{ 115, 13321, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Green Mechanostrider
+				{ 116, 13322, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Unpainted Mechanostrider
+				-- Darnassus, Classic
+				{ 118, "f69rep5" },
+				{ 119, 18766, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Frostsaber
+				{ 120, 18767, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Mistsaber
+				{ 121, 18902, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Reins of the Swift Stormsaber
+				{ 122, 8632, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Spotted Frostsaber
+				{ 123, 47100, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Dawnsaber
+				{ 124, 8631, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Frostsaber
+				{ 125, 8629, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Reins of the Striped Nightsaber
+				-- Exodar, BC
+				{ 201, "f930rep5" },
+				{ 202, 29745, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Blue Elekk
+				{ 203, 29746, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Green Elekk
+				{ 204, 29747, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Great Purple Elekk
+				{ 205, 28481, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Brown Elekk
+				{ 206, 29744, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Gray Elekk
+				{ 207, 29743, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Purple Elekk
+				-- Kurenai, BC
+				{ 216, "f978rep8" },
+				{ 217, 31829, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Cobalt Riding Talbuk
+				{ 218, 29102, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Cobalt War Talbuk
+				{ 219, 31831, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Silver Riding Talbuk
+				{ 220, 29104, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Silver War Talbuk
+				{ 221, 31833, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the Tan Riding Talbuk
+				{ 222, 29105, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the Tan War Talbuk
+				{ 223, 31835, "mount", [PRICE_EXTRA_ITTYPE] = "money:700000" }, -- Reins of the White Riding Talbuk
+				{ 224, 29103, "mount", [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Reins of the White War Talbuk
+				-- Kirin Tor, WotLK
+				{ 301, "f1090rep5" },
+				{ 302, 44225, "mount", [PRICE_EXTRA_ITTYPE] = "money:7500000" }, -- Reins of the Armored Brown Bear
+				{ 303, 44689, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Armored Snowy Gryphon
+				{ 304, 44230, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Wooly Mammoth
+				{ 305, 44235, "mount", [PRICE_EXTRA_ITTYPE] = "money:200000000" }, -- Reins of the Traveler's Tundra Mammoth
+				-- The Sons of Hodir, WotLK
+				{ 307, "f1119rep7" },
+				{ 308, 43958, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Reins of the Ice Mammoth
+				{ 309, 43961, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Grand Ice Mammoth
+				-- The Silver Covenant, WotLK
+				{ 311, "f1094rep8" },
+				{ 312, 46813, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:150" }, -- Silver Covenant Hippogryph
+				{ 313, 46815, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Quel'dorei Steed
+				-- Argent Tournament, WotLK
+				{ 316, "f1106rep5" },
+				{ 317, 45591, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Darnassian Nightsaber
+				{ 318, 45590, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Exodar Elekk
+				{ 319, 45589, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Gnomeregan Mechanostrider
+				{ 320, 45586, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Ironforge Ram
+				{ 321, 45125, "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Stormwind Steed
+				{ 322, 46745, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Great Red Elekk
+				{ 323, 46752, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Swift Gray Steed
+				{ 324, 46744, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Swift Moonsaber
+				{ 325, 46748, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Swift Violet Ram
+				{ 326, 46747, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Turbostrider
+				-- Gilneas, Cata
+				{ 401, "f1134rep5" },
+				{ 402, 73839, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift Mountain Horse
+				{ 403, 73838, "mount", [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Mountain Horse
+				-- Baradin's Wardens
+				{ 405, "f1177rep8" },
+				{ 406, 65356, "mount", [PRICE_EXTRA_ITTYPE] = "tolbarad:200" }, -- Reins of the Drake of the West Wind
+				{ 407, 64998, "mount", [PRICE_EXTRA_ITTYPE] = "tolbarad:165" }, -- Reins of the Spectral Steed
+				-- Operation: Shieldwall, MoP
+				{ 409, "f1376rep8" },
+				{ 410, 93168, "mount", [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Grand Armored Gryphon
+				{ 411, 93385, "mount" }, -- Grand Gryphon1
+				-- Kirin Tor Offensive, MoP
+				{ 413, "f1387rep8" },
+				{ 414, 95564, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Golden Primal Direhorn
+				-- Council of Exarchs
+				{ 416, "f1731rep8" },
+				{ 417, 116664, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" }, -- Dusty Rockhide
+				-- Sha'tari Defense
+				{ 419, "f1710rep8" },
+				{ 420, 116665, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" },	-- Armored Irontusk
+				-- Wrynn's Vanguard
+				{ 422, "f1682rep8" },
+				{ 423, 116776, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000:apexis:5000" },	-- Pale Thorngrazer
+				
+			},
+		},
+--[[		{ -- Vendor
 			name = AL["Vendor"],
 			[ALLIANCE_DIFF] = {
 				{ 1, 18785, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Swift White Ram
@@ -1403,7 +1538,7 @@ data["MOUNTS"] = {
 			},
 		},
 ]]
-		{
+		{ -- No longer available
 			name = AL["No longer available"],
 			[NORMAL_DIFF] = {
 				{ 1, 128281, "ac10098" }, -- Wild Gladiator's Felblood Gronnling

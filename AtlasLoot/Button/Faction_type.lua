@@ -48,6 +48,7 @@ local FACTION_IMAGES = {
 	[529] = "Interface\\Icons\\inv_jewelry_talisman_07",				--Argent Dawn
 	[530] = "Interface\\Icons\\inv_misc_tournaments_symbol_troll",			--Darkspear Trolls
 	[576] = "Interface\\Icons\\achievement_reputation_timbermaw",			--Timbermaw Hold
+	[589] = "Interface\\Icons\\Achievement_Zone_Winterspring",			--Wintersaber Trainers
 	[609] = "Interface\\Icons\\ability_racial_ultravision",				--Cenarion Circle
 	[910] = "Interface\\Icons\\inv_misc_head_dragon_bronze",			--Brood of Nozdormu
 

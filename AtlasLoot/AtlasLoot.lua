@@ -97,7 +97,7 @@ function AtlasLoot:OnInitialize()
 			self.db.PETINFO[speciesName] = speciesID
 		end
 	end
-]]	
+]]
 --[[
 	self.db.MOUNTINFO = {}
 	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
@@ -107,7 +107,7 @@ function AtlasLoot:OnInitialize()
 	--print(C_MountJournal.GetMountInfoByID(i))
 		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
 		if creatureName and mountID then
-			self.db.MOUNTINFO[creatureName] = mountID
+			self.db.MOUNTINFO[creatureName] = { "mountID"=mountID, "spellID"=spellID }
 		end
 	end
 ]]
