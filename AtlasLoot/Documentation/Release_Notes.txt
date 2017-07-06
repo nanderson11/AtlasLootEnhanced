@@ -5,7 +5,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
-v8.04.05 (Jul. xx, 2017)
+v8.05.00 (Jul. xx, 2017)
 - Updated PlaySound API's usage method to support both 7.2.5 and 7.3.0 of WoW clients
 - Enhanced worldmap button integration while Mapster, HandyNotes_WorldMapButton, or ElvUI is installed
 - Migrate Conquest / Honor Points to Mark of Honor and updated PvP items for WoD
@@ -22,8 +22,12 @@ v8.04.05 (Jul. xx, 2017)
   - Mount
     - Added Warforged Nightmare to in-game shop page
     - Added Collection - Mounts - Faction
+- Faction
+  - Updated items for Voljin's Spear and Wrynn's Vanguard
+- Added LibBabble-Faction to improve faction's displaying. 
+  You won't see "Faction xxxx" when it's not in your faction side.
 - Translation update:
-  - Simplified Chinese
+  - Simplified Chinese, German, Traditional Chinese
 ## information for Devs
 - Added back dev tools from v7.0x
 
