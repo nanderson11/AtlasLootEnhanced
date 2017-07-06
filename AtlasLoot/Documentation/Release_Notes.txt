@@ -5,7 +5,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
-v8.05.00 (Jul. xx, 2017)
+v8.05.00 (Jul. 06, 2017)
 - Updated PlaySound API's usage method to support both 7.2.5 and 7.3.0 of WoW clients
 - Enhanced worldmap button integration while Mapster, HandyNotes_WorldMapButton, or ElvUI is installed
 - Migrate Conquest / Honor Points to Mark of Honor and updated PvP items for WoD
@@ -26,6 +26,18 @@ v8.05.00 (Jul. xx, 2017)
   - Updated items for Voljin's Spear and Wrynn's Vanguard
 - Added LibBabble-Faction to improve faction's displaying. 
   You won't see "Faction xxxx" when it's not in your faction side.
+- Classic
+  - Added encounter instance ID and encounter ID to the following RAIDS:
+    - Blackwing Lair, Molten Core, Ruins of Ahn'Qiraj, AhnQiraj
+  - Remove Naxxramas
+- Burning Crusade
+  - Added encounter instance ID and encounter ID to the following RAIDS:
+    - Black Temple, Gruul's Lair, Hyjal Summit, Karazhan, Magtheridon's Lair, Serpentshrine Cavern,
+      Sunwell Plateau, Tempest Keep
+- Wrath of the Lich King
+  - Added encounter instance ID and encounter ID to the following RAIDS:
+    - Icecrown Citadel, Naxxramas, OnyxiasLair, The Eye of Eternity, The Obsidian Sanctum,
+      The Ruby Sanctum, Trial of the Crusader, Ulduar, Vault of Archavon
 - Translation update:
   - Simplified Chinese, German, Traditional Chinese
 ## information for Devs

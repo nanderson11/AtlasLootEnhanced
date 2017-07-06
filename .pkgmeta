@@ -32,6 +32,7 @@ externals:
 ignore:
     - AtlasLoot/Images/PSD
     - AtlasLoot/AtlasLoot/Images/PSD
+    - AtlasLoot/DEVTOOLS.lua
 
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
