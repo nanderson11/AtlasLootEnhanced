@@ -3,7 +3,7 @@ local _G = getfenv(0)
 local tonumber = tonumber
 local str_match, str_format = string.match, string.format
 local LibStub = _G.LibStub
-local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0")
+local BF = AtlasLoot.LibBabble:Get("LibBabble-Faction-3.0")
 -- WoW
 local UnitSex = UnitSex
 local GetFactionInfoByID = GetFactionInfoByID
