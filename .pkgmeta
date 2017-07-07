@@ -33,6 +33,7 @@ ignore:
     - AtlasLoot/Images/PSD
     - AtlasLoot/AtlasLoot/Images/PSD
     - AtlasLoot/DEVTOOLS.lua
+    - AtlasLoot/AtlasLoot/DEVTOOLS.lua
 
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
