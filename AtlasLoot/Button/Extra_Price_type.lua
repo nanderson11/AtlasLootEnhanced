@@ -28,7 +28,8 @@ local PRICE_INFO = {
 	["noblegardenchocolate"] = { itemID = 44791 },
 	["spiritofharmony"] = { itemID = 76061 },
 	["trickytreat"] = { itemID = 33226 },
-	["vicioussaddle"] = { itemID = 103533}, -- Vicious Saddle, added in 5.4.0
+	["vicioussaddle"] = { itemID = 103533 }, -- Vicious Saddle, added in 5.4.0
+	["luckycoin"] = { itemID = 117397 }, -- Nat's Lucky Coin, added in 6.0.1
 	-- currencies
 	["echoofbattle"] = { currencyID = 1356 }, -- added in 7.2.0, LegionPVPTier1
 	["echoofdomination"] = { currencyID = 1357 }, -- added in 7.2.0, LegionPVPTier4

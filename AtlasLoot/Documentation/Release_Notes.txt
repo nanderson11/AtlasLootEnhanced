@@ -5,6 +5,14 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.05.02 (Jul. xx, 2017)
+- Collection
+  - Mount
+    - Corrected the mounts from Kurenai for Alliance
+    - Removed Baradin's Wardens from Horde
+    - Added more mounts from nutral factions and Black Market
+- Enhanced faction reputation's handling to support friendship reputation such as Nat Pagle
+
 v8.05.01 (Jul. 06, 2017)
 - Fixed the issue of error loading LibBabble-Faction-3.0
 
