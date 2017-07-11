@@ -13,6 +13,8 @@ v8.05.02 (Jul. xx, 2017)
     - Added more mounts from nutral factions and Black Market
 - Enhanced faction reputation's handling to support friendship reputation such as Nat Pagle
 - Added bonil roll for Broken Shore world bosses and Tomb of Sargeras bosses
+- PvP
+  - Added legacy Justice / Valor points gears
 
 v8.05.01 (Jul. 06, 2017)
 - Fixed the issue of error loading LibBabble-Faction-3.0

@@ -7861,7 +7861,7 @@ data["WODS1WEAPONS"] = {
 
 -- Mists of Pandaria Season 15
 data["MOPS15SETS"] = {
-	name = string.format(AL["Season %d"], 15).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
+	name = string.format(AL["Season %d"], 15).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -8128,9 +8128,10 @@ data["MOPS15SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 13
 data["CLASSICS13SETS"] = {
-	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
+	name = string.format(AL["Season %d"], 13).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -8493,9 +8494,10 @@ data["CLASSICS13SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 12
 data["CLASSICS12SETS"] = {
-	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..EXPANSION_NAME4..")",
+	name = string.format(AL["Season %d"], 12).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -8768,9 +8770,10 @@ data["CLASSICS12SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 11
 data["CLASSICS11SETS"] = {
-	name = string.format(AL["Season %d"], 11).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
+	name = string.format(AL["Season %d"], 11).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -9016,9 +9019,10 @@ data["CLASSICS11SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 10
 data["CLASSICS10SETS"] = {
-	name = string.format(AL["Season %d"], 10).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
+	name = string.format(AL["Season %d"], 10).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -9186,7 +9190,7 @@ data["CLASSICS10SETS"] = {
 
 -- Classic Season 9
 data["CLASSICS9SETS"] = {
-	name = string.format(AL["Season %d"], 9).." "..AL["Class Sets"].." ("..EXPANSION_NAME3..")",
+	name = string.format(AL["Season %d"], 9).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 			{
@@ -9351,9 +9355,10 @@ data["CLASSICS9SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 8
 data["CLASSICS8SETS"] = {
-	name = string.format(AL["Season %d"], 8).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
+	name = string.format(AL["Season %d"], 8).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 			{
@@ -9518,9 +9523,10 @@ data["CLASSICS8SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 7
 data["CLASSICS7SETS"] = {
-	name = string.format(AL["Season %d"], 7).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
+	name = string.format(AL["Season %d"], 7).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -9685,9 +9691,10 @@ data["CLASSICS7SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 6
 data["CLASSICS6SETS"] = {
-	name = string.format(AL["Season %d"], 6).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
+	name = string.format(AL["Season %d"], 6).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -9923,9 +9930,10 @@ data["CLASSICS6SETS"] = {
 	},
 }
 ]]
+
 -- Classic Season 5
 data["CLASSICS5SETS"] = {
-	name = string.format(AL["Season %d"], 5).." "..AL["Class Sets"].." ("..EXPANSION_NAME2..")",
+	name = string.format(AL["Season %d"], 5).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -10090,9 +10098,10 @@ data["CLASSICS5SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 4
 data["CLASSICS4SETS"] = {
-	name = string.format(AL["Season %d"], 4).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
+	name = string.format(AL["Season %d"], 4).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -10268,9 +10277,10 @@ data["CLASSICS4SETS"] = {
 		},
 	},
 }
+
 -- Classic Season 3
 data["CLASSICS3SETS"] = {
-	name = string.format(AL["Season %d"], 3).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
+	name = string.format(AL["Season %d"], 3).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -10451,13 +10461,7 @@ data["CLASSICS3SETS"] = {
 				--
 			},
 		},
-	},
-}
-data["CLASSICS3WEAPONS"] = {
-	name = string.format(AL["Season %d"], 3).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
-	ContentType = NORMAL_ITTYPE,
-	items = {
-		{
+		{ -- Weapons
 			name = string.format(AL["Weapons"]),
 			[ALLIANCE_DIFF] = {
 				{ 1, 34059, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Baton of Light
@@ -10504,9 +10508,10 @@ data["CLASSICS3WEAPONS"] = {
 		},
 	},
 }
+
 -- Classic Season 2
 data["CLASSICS2SETS"] = {
-	name = string.format(AL["Season %d"], 2).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
+	name = string.format(AL["Season %d"], 2).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -10688,13 +10693,7 @@ data["CLASSICS2SETS"] = {
 				--
 			},
 		},
-	},
-}
-data["CLASSICS2WEAPONS"] = {
-	name = string.format(AL["Season %d"], 2).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
-	ContentType = NORMAL_ITTYPE,
-	items = {
-		{
+		{ -- Weapons
 			name = string.format(AL["Weapons"]),
 			[ALLIANCE_DIFF] = {
 				{ 1, 31965, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Cleaver
@@ -10729,9 +10728,10 @@ data["CLASSICS2WEAPONS"] = {
 		},
 	},
 }
+
 -- Classic Season 1
 data["CLASSICS1SETS"] = {
-	name = string.format(AL["Season %d"], 1).." "..AL["Class Sets"].." ("..EXPANSION_NAME1..")",
+	name = string.format(AL["Season %d"], 1).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
 		{
@@ -10896,13 +10896,7 @@ data["CLASSICS1SETS"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-	},
-}
-data["CLASSICS1WEAPONS"] = {
-	name = string.format(AL["Season %d"], 1).." "..AL["Weapons"].." ("..EXPANSION_NAME1..")",
-	ContentType = NORMAL_ITTYPE,
-	items = {
-		{
+		{ -- Weapons
 			name = string.format(AL["Weapons"]),
 			[ALLIANCE_DIFF] = {
 				{ 1, 28294 }, -- Gladiator's Heavy Crossbow
@@ -10936,3 +10930,1231 @@ data["CLASSICS1WEAPONS"] = {
 		},
 	},
 }
+
+data["LEGACYJUSTICEGEAR"] = {
+	name = AL["Legacy Justice Points Gears"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65002, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Vanquisher
+				{ 2, 65089, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Vanquisher
+				{ 3, 67425, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Vanquisher
+				{ 4, 67426, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Vanquisher
+				{ 5, 67431, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Vanquisher
+
+				{ 6 , 60343, [PRICE_EXTRA_ITTYPE] = "money:669645" }, -- Magma Plated Pauldrons
+				{ 7 , 60353, [PRICE_EXTRA_ITTYPE] = "money:694778" }, -- Magma Plated Shoulderguards
+				{ 8 , 60341, [PRICE_EXTRA_ITTYPE] = "money:664660" }, -- Magma Plated Helmet
+				{ 9 , 60351, [PRICE_EXTRA_ITTYPE] = "money:689724" }, -- Magma Plated Faceguard
+				{ 10, 60339, [PRICE_EXTRA_ITTYPE] = "money:3150400" }, -- Magma Plated Battleplate
+				{ 11, 60349, [PRICE_EXTRA_ITTYPE] = "money:3270400" }, -- Magma Plated Chestguard
+				{ 12, 60342, [PRICE_EXTRA_ITTYPE] = "money:3186600" }, -- Magma Plated Legplates
+				{ 13, 60352, [PRICE_EXTRA_ITTYPE] = "money:3306300" }, -- Magma Plated Legguards
+				{ 14, 60340, [PRICE_EXTRA_ITTYPE] = "money:1590200" }, -- Magma Plated Gauntlets
+				{ 15, 60350, [PRICE_EXTRA_ITTYPE] = "money:1650400" }, -- Magma Plated Handguards
+
+				{ 21, 65181, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Magma Plated Helmet
+				{ 22, 65186, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Magma Plated Faceguard
+				{ 23, 65183, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Magma Plated Pauldrons
+				{ 24, 65188, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Magma Plated Shoulderguards
+				{ 25, 65179, [PRICE_EXTRA_ITTYPE] = "67425:1:60339:1" }, -- Magma Plated Battleplate
+				{ 26, 65184, [PRICE_EXTRA_ITTYPE] = "67425:1:60349:1" }, -- Magma Plated Chestguard
+				{ 27, 65182, [PRICE_EXTRA_ITTYPE] = "67426:1:60342:1" }, -- Magma Plated Legplates
+				{ 28, 65187, [PRICE_EXTRA_ITTYPE] = "67426:1:60352:1" }, -- Magma Plated Legguards
+				{ 29, 65180, [PRICE_EXTRA_ITTYPE] = "67431:1:60340:1" }, -- Magma Plated Gauntlets
+				{ 30, 65185, [PRICE_EXTRA_ITTYPE] = "67431:1:60350:1" }, -- Magma Plated Handguards
+
+				{ 101, 70954, [PRICE_EXTRA_ITTYPE] = "money:710313" }, -- Elementium Deathplate Faceguard
+				{ 102, 71060, [PRICE_EXTRA_ITTYPE] = "money:691930" }, -- Elementium Deathplate Helmet
+				{ 103, 70951, [PRICE_EXTRA_ITTYPE] = "money:702444" }, -- Elementium Deathplate Shoulderguards
+				{ 104, 71062, [PRICE_EXTRA_ITTYPE] = "money:697222" }, -- Elementium Deathplate Pauldrons
+				{ 105, 70955, [PRICE_EXTRA_ITTYPE] = "money:3403600" }, -- Elementium Deathplate Chestguard
+				{ 106, 71058, [PRICE_EXTRA_ITTYPE] = "money:3278300" }, -- Elementium Deathplate Breastplate
+				{ 107, 70952, [PRICE_EXTRA_ITTYPE] = "money:3366000" }, -- Elementium Deathplate Legguards
+				{ 108, 71061, [PRICE_EXTRA_ITTYPE] = "money:3315800" }, -- Elementium Deathplate Greaves
+				{ 109, 70953, [PRICE_EXTRA_ITTYPE] = "money:1698800" }, -- Elementium Deathplate Handguards
+				{ 110, 71059, [PRICE_EXTRA_ITTYPE] = "money:1654700" }, -- Elementium Deathplate Gauntlets
+
+				{ 116, 71483, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Elementium Deathplate Faceguard
+				{ 117, 71478, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Elementium Deathplate Helmet
+				{ 118, 71480, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Elementium Deathplate Pauldrons
+				{ 119, 71485, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Elementium Deathplate Shoulderguards
+				{ 120, 71476, [PRICE_EXTRA_ITTYPE] = "71058:1:71672:1" }, -- Elementium Deathplate Breastplate
+				{ 121, 71481, [PRICE_EXTRA_ITTYPE] = "70955:1:71672:1" }, -- Elementium Deathplate Chestguard
+				{ 122, 71479, [PRICE_EXTRA_ITTYPE] = "71061:1:71671:1" }, -- Elementium Deathplate Greaves
+				{ 123, 71484, [PRICE_EXTRA_ITTYPE] = "70952:1:71671:1" }, -- Elementium Deathplate Legguards
+				{ 124, 71477, [PRICE_EXTRA_ITTYPE] = "71059:1:71669:1" }, -- Elementium Deathplate Gauntlets
+				{ 125, 71482, [PRICE_EXTRA_ITTYPE] = "70953:1:71669:1" }, -- Elementium Deathplate Handguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65002, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Vanquisher
+				{ 2, 65089, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Vanquisher
+				{ 3, 67425, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Vanquisher
+				{ 4, 67426, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Vanquisher
+				{ 5, 67431, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Vanquisher
+				
+				{ 101, 60277, [PRICE_EXTRA_ITTYPE] = "money:705160" }, -- Stormrider's Helm
+				{ 102, 60282, [PRICE_EXTRA_ITTYPE] = "money:649293" }, -- Stormrider's Cover
+				{ 103, 60286, [PRICE_EXTRA_ITTYPE] = "money:659332" }, -- Stormrider's Headpiece
+				{ 104, 60279, [PRICE_EXTRA_ITTYPE] = "money:710145" }, -- Stormrider's Mantle
+				{ 105, 60284, [PRICE_EXTRA_ITTYPE] = "money:654347" }, -- Stormrider's Shoulderwraps
+				{ 106, 60289, [PRICE_EXTRA_ITTYPE] = "money:685012" }, -- Stormrider's Spaulders
+				{ 107, 60276, [PRICE_EXTRA_ITTYPE] = "money:3355900" }, -- Stormrider's Robes
+				{ 108, 60281, [PRICE_EXTRA_ITTYPE] = "money:3415900" }, -- Stormrider's Vestment
+				{ 109, 60287, [PRICE_EXTRA_ITTYPE] = "money:3161200" }, -- Stormrider's Raiment
+				{ 110, 60278, [PRICE_EXTRA_ITTYPE] = "money:3380000" }, -- Stormrider's Legwraps
+				{ 111, 60283, [PRICE_EXTRA_ITTYPE] = "money:3113200" }, -- Stormrider's Leggings
+				{ 112, 60288, [PRICE_EXTRA_ITTYPE] = "money:3173200" }, -- Stormrider's Legguards
+				{ 113, 60280, [PRICE_EXTRA_ITTYPE] = "money:1711600" }, -- Stormrider's Handwraps
+				{ 114, 60285, [PRICE_EXTRA_ITTYPE] = "money:1577600" }, -- Stormrider's Gloves
+				{ 115, 60290, [PRICE_EXTRA_ITTYPE] = "money:1651100" }, -- Stormrider's Grips
+
+				{ 116, 65190, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Stormrider's Headpiece
+				{ 117, 65195, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Stormrider's Helm
+				{ 118, 65200, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Stormrider's Cover
+				{ 119, 65193, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Stormrider's Spaulders
+				{ 120, 65198, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Stormrider's Mantle
+				{ 121, 65203, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Stormrider's Shoulderwraps
+				{ 122, 65192, [PRICE_EXTRA_ITTYPE] = "67425:1:60287:1" }, -- Stormrider's Raiment
+				{ 123, 65197, [PRICE_EXTRA_ITTYPE] = "67425:1:60276:1" }, -- Stormrider's Robes
+				{ 124, 65202, [PRICE_EXTRA_ITTYPE] = "67425:1:60281:1" }, -- Stormrider's Vestment
+				{ 125, 65191, [PRICE_EXTRA_ITTYPE] = "67426:1:60288:1" }, -- Stormrider's Legguards
+				{ 126, 65196, [PRICE_EXTRA_ITTYPE] = "67426:1:60278:1" }, -- Stormrider's Legwraps
+				{ 127, 65201, [PRICE_EXTRA_ITTYPE] = "67426:1:60283:1" }, -- Stormrider's Leggings
+				{ 128, 65194, [PRICE_EXTRA_ITTYPE] = "67431:1:60280:1" }, -- Stormrider's Handwraps
+				{ 129, 65199, [PRICE_EXTRA_ITTYPE] = "67431:1:60285:1" }, -- Stormrider's Gloves
+				{ 130, 65189, [PRICE_EXTRA_ITTYPE] = "67431:1:60290:1" }, -- Stormrider's Grips
+
+				{ 201, 71098, [PRICE_EXTRA_ITTYPE] = "money:686492" }, -- Obsidian Arborweave Headpiece
+				{ 202, 71103, [PRICE_EXTRA_ITTYPE] = "money:699655" }, -- Obsidian Arborweave Helm
+				{ 203, 71108, [PRICE_EXTRA_ITTYPE] = "money:731701" }, -- Obsidian Arborweave Cover
+				{ 204, 71101, [PRICE_EXTRA_ITTYPE] = "money:694361" }, -- Obsidian Arborweave Spaulders
+				{ 205, 71106, [PRICE_EXTRA_ITTYPE] = "money:726480" }, -- Obsidian Arborweave Mantle
+				{ 206, 71111, [PRICE_EXTRA_ITTYPE] = "money:739641" }, -- Obsidian Arborweave Shoulderwraps
+				{ 207, 71100, [PRICE_EXTRA_ITTYPE] = "money:3302200" }, -- Obsidian Arborweave Raiment
+				{ 208, 71105, [PRICE_EXTRA_ITTYPE] = "money:3365000" }, -- Obsidian Arborweave Tunic
+				{ 209, 71110, [PRICE_EXTRA_ITTYPE] = "money:3518300" }, -- Obsidian Arborweave Vestment
+				{ 210, 71099, [PRICE_EXTRA_ITTYPE] = "money:3289900" }, -- Obsidian Arborweave Legguards
+				{ 211, 71104, [PRICE_EXTRA_ITTYPE] = "money:3352400" }, -- Obsidian Arborweave Legwraps
+				{ 212, 71109, [PRICE_EXTRA_ITTYPE] = "money:3505700" }, -- Obsidian Arborweave Leggings
+				{ 213, 71097, [PRICE_EXTRA_ITTYPE] = "money:1641600" }, -- Obsidian Arborweave Grips
+				{ 214, 71102, [PRICE_EXTRA_ITTYPE] = "money:1673200" }, -- Obsidian Arborweave Handwraps
+				{ 215, 71107, [PRICE_EXTRA_ITTYPE] = "money:1750300" }, -- Obsidian Arborweave Gloves
+
+				{ 216, 71488, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Obsidian Arborweave Headpiece
+				{ 217, 71492, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Obsidian Arborweave Helm
+				{ 218, 71497, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Obsidian Arborweave Cover
+				{ 219, 71490, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Obsidian Arborweave Spaulders
+				{ 220, 71495, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Obsidian Arborweave Mantle
+				{ 221, 71500, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Obsidian Arborweave Shoulderwraps
+				{ 222, 71486, [PRICE_EXTRA_ITTYPE] = "71100:1:71672:1" }, -- Obsidian Arborweave Raiment
+				{ 223, 71494, [PRICE_EXTRA_ITTYPE] = "71105:1:71672:1" }, -- Obsidian Arborweave Tunic
+				{ 224, 71499, [PRICE_EXTRA_ITTYPE] = "71110:1:71672:1" }, -- Obsidian Arborweave Vestment
+				{ 225, 71489, [PRICE_EXTRA_ITTYPE] = "71099:1:71671:1" }, -- Obsidian Arborweave Legguards
+				{ 226, 71493, [PRICE_EXTRA_ITTYPE] = "71104:1:71671:1" }, -- Obsidian Arborweave Legwraps
+				{ 227, 71498, [PRICE_EXTRA_ITTYPE] = "71109:1:71671:1" }, -- Obsidian Arborweave Leggings
+				{ 228, 71487, [PRICE_EXTRA_ITTYPE] = "71097:1:71669:1" }, -- Obsidian Arborweave Grips
+				{ 229, 71491, [PRICE_EXTRA_ITTYPE] = "71102:1:71669:1" }, -- Obsidian Arborweave Handwraps
+				{ 230, 71496, [PRICE_EXTRA_ITTYPE] = "71107:1:71669:1" }, -- Obsidian Arborweave Gloves
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65000, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Protector
+				{ 2, 65087, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Protector
+				{ 3, 67424, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Protector
+				{ 4, 67427, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Protector
+				{ 5, 67430, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Protector
+
+				{ 7 , 60303, [PRICE_EXTRA_ITTYPE] = "money:651751" }, -- Lightning-Charged Headguard
+				{ 8 , 60306, [PRICE_EXTRA_ITTYPE] = "money:677362" }, -- Lightning-Charged Spaulders
+				{ 9 , 60304, [PRICE_EXTRA_ITTYPE] = "money:3124900" }, -- Lightning-Charged Tunic
+				{ 10, 60305, [PRICE_EXTRA_ITTYPE] = "money:3223100" }, -- Lightning-Charged Legguards
+				{ 11, 60307, [PRICE_EXTRA_ITTYPE] = "money:1632900" }, -- Lightning-Charged Gloves
+
+				{ 22, 65206, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Lightning-Charged Headguard
+				{ 23, 65208, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Lightning-Charged Spaulders
+				{ 24, 65204, [PRICE_EXTRA_ITTYPE] = "67424:1:60304:1" }, -- Lightning-Charged Tunic
+				{ 25, 65207, [PRICE_EXTRA_ITTYPE] = "67427:1:60305:1" }, -- Lightning-Charged Legguards
+				{ 26, 65205, [PRICE_EXTRA_ITTYPE] = "67430:1:60307:1" }, -- Lightning-Charged Gloves
+
+				{ 101, 71051, [PRICE_EXTRA_ITTYPE] = "money:720900" }, -- Flamewaker's Headguard
+				{ 102, 71053, [PRICE_EXTRA_ITTYPE] = "money:726193" }, -- Flamewaker's Spaulders
+				{ 103, 71054, [PRICE_EXTRA_ITTYPE] = "money:3479400" }, -- Flamewaker's Tunic
+				{ 104, 71052, [PRICE_EXTRA_ITTYPE] = "money:3454100" }, -- Flamewaker's Legguards
+				{ 105, 71050, [PRICE_EXTRA_ITTYPE] = "money:1724400" }, -- Flamewaker's Gloves
+
+				{ 116, 71503, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Flamewaker's Headguard
+				{ 117, 71505, [PRICE_EXTRA_ITTYPE] = "71687:1" }, -- Flamewaker's Spaulders
+				{ 118, 71501, [PRICE_EXTRA_ITTYPE] = "71054:1:71686:1" }, -- Flamewaker's Tunic
+				{ 119, 71504, [PRICE_EXTRA_ITTYPE] = "71052:1:71685:1" }, -- Flamewaker's Legguards
+				{ 120, 71502, [PRICE_EXTRA_ITTYPE] = "71050:1:71683:1" }, -- Flamewaker's Gloves
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65002, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Vanquisher
+				{ 2, 65089, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Vanquisher
+				{ 3, 67425, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Vanquisher
+				{ 4, 67426, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Vanquisher
+				{ 5, 67431, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Vanquisher
+
+				{ 7 , 60243, [PRICE_EXTRA_ITTYPE] = "money:652025" }, -- Firelord's Hood
+				{ 8 , 60246, [PRICE_EXTRA_ITTYPE] = "money:659537" }, -- Firelord's Mantle
+				{ 9 , 60244, [PRICE_EXTRA_ITTYPE] = "money:3126300" }, -- Firelord's Robes
+				{ 10, 60245, [PRICE_EXTRA_ITTYPE] = "money:3138000" }, -- Firelord's Leggings
+				{ 11, 60247, [PRICE_EXTRA_ITTYPE] = "money:1590100" }, -- Firelord's Gloves
+
+				{ 22, 65210, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Firelord's Hood
+				{ 23, 65213, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Firelord's Mantle
+				{ 24, 65212, [PRICE_EXTRA_ITTYPE] = "67425:1:60244:1" }, -- Firelord's Robes
+				{ 25, 65211, [PRICE_EXTRA_ITTYPE] = "67426:1:60245:1" }, -- Firelord's Leggings
+				{ 26, 65209, [PRICE_EXTRA_ITTYPE] = "67431:1:60247:1" }, -- Firelord's Gloves
+
+				{ 101, 71287, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Firehawk Hood
+				{ 102, 71290, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Firehawk Mantle
+				{ 103, 71289, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Firehawk Robes
+				{ 104, 71288, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Firehawk Leggings
+				{ 105, 71286, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Firehawk Gloves
+
+				{ 116, 71508, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Firehawk Hood
+				{ 117, 71511, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Firehawk Mantle
+				{ 118, 71510, [PRICE_EXTRA_ITTYPE] = "71289:1:71672:1" }, -- Firehawk Robes
+				{ 119, 71509, [PRICE_EXTRA_ITTYPE] = "71288:1:71671:1" }, -- Firehawk Leggings
+				{ 120, 71507, [PRICE_EXTRA_ITTYPE] = "71286:1:71669:1" }, -- Firehawk Gloves
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65001, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Conqueror
+				{ 2, 65088, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Conqueror
+				{ 3, 67423, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Conqueror
+				{ 4, 67428, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Conqueror
+				{ 5, 67429, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Conqueror
+
+				{ 101, 60346, [PRICE_EXTRA_ITTYPE] = "money:677158" }, -- Reinforced Sapphirium Helmet
+				{ 102, 60356, [PRICE_EXTRA_ITTYPE] = "money:652025" }, -- Reinforced Sapphirium Faceguard
+				{ 103, 60359, [PRICE_EXTRA_ITTYPE] = "money:659537" }, -- Reinforced Sapphirium Headguard
+				{ 104, 60348, [PRICE_EXTRA_ITTYPE] = "money:682212" }, -- Reinforced Sapphirium Pauldrons
+				{ 105, 60358, [PRICE_EXTRA_ITTYPE] = "money:657010" }, -- Reinforced Sapphirium Shoulderguards
+				{ 106, 60362, [PRICE_EXTRA_ITTYPE] = "money:667050" }, -- Reinforced Sapphirium Mantle
+				{ 107, 60344, [PRICE_EXTRA_ITTYPE] = "money:3210400" }, -- Reinforced Sapphirium Battleplate
+				{ 108, 60354, [PRICE_EXTRA_ITTYPE] = "money:3416600" }, -- Reinforced Sapphirium Chestguard
+				{ 109, 60360, [PRICE_EXTRA_ITTYPE] = "money:3162100" }, -- Reinforced Sapphirium Breastplate
+				{ 110, 60347, [PRICE_EXTRA_ITTYPE] = "money:3246300" }, -- Reinforced Sapphirium Legplates
+				{ 111, 60357, [PRICE_EXTRA_ITTYPE] = "money:3126300" }, -- Reinforced Sapphirium Legguards
+				{ 112, 60361, [PRICE_EXTRA_ITTYPE] = "money:3173900" }, -- Reinforced Sapphirium Greaves
+				{ 113, 60345, [PRICE_EXTRA_ITTYPE] = "money:1620400" }, -- Reinforced Sapphirium Gauntlets
+				{ 114, 60355, [PRICE_EXTRA_ITTYPE] = "money:1559900" }, -- Reinforced Sapphirium Handguards
+				{ 115, 60363, [PRICE_EXTRA_ITTYPE] = "money:1608100" }, -- Reinforced Sapphirium Gloves
+
+				{ 116, 65216, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Reinforced Sapphirium Helmet
+				{ 117, 65221, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Reinforced Sapphirium Headguard
+				{ 118, 65226, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Reinforced Sapphirium Faceguard
+				{ 119, 65218, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Reinforced Sapphirium Pauldrons
+				{ 120, 65223, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Reinforced Sapphirium Mantle
+				{ 121, 65228, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Reinforced Sapphirium Shoulderguards
+				{ 122, 65214, [PRICE_EXTRA_ITTYPE] = "67423:1:60344:1" }, -- Reinforced Sapphirium Battleplate
+				{ 123, 65219, [PRICE_EXTRA_ITTYPE] = "67423:1:60360:1" }, -- Reinforced Sapphirium Breastplate
+				{ 124, 65224, [PRICE_EXTRA_ITTYPE] = "67423:1:60354:1" }, -- Reinforced Sapphirium Chestguard
+				{ 125, 65217, [PRICE_EXTRA_ITTYPE] = "67428:1:60347:1" }, -- Reinforced Sapphirium Legplates
+				{ 126, 65222, [PRICE_EXTRA_ITTYPE] = "67428:1:60361:1" }, -- Reinforced Sapphirium Greaves
+				{ 127, 65227, [PRICE_EXTRA_ITTYPE] = "67428:1:60357:1" }, -- Reinforced Sapphirium Legguards
+				{ 128, 65215, [PRICE_EXTRA_ITTYPE] = "67429:1:60345:1" }, -- Reinforced Sapphirium Gauntlets
+				{ 129, 65220, [PRICE_EXTRA_ITTYPE] = "67429:1:60363:1" }, -- Reinforced Sapphirium Gloves
+				{ 130, 65225, [PRICE_EXTRA_ITTYPE] = "67429:1:60355:1" }, -- Reinforced Sapphirium Handguards
+
+				{ 201, 70948, [PRICE_EXTRA_ITTYPE] = "money:694576" }, -- Immolation Faceguard
+				{ 202, 70946, [PRICE_EXTRA_ITTYPE] = "money:689282" }, -- Immolation Shoulderguards
+				{ 203, 70947, [PRICE_EXTRA_ITTYPE] = "money:3303200" }, -- Immolation Legguards
+				{ 204, 70949, [PRICE_EXTRA_ITTYPE] = "money:1673700" }, -- Immolation Handguards
+				{ 205, 70950, [PRICE_EXTRA_ITTYPE] = "money:3340800" }, -- Immolation Chestguard
+				{ 206, 71063, [PRICE_EXTRA_ITTYPE] = "money:3340800" }, -- Immolation Battleplate
+				{ 207, 71064, [PRICE_EXTRA_ITTYPE] = "money:1686300" }, -- Immolation Gauntlets
+				{ 208, 71065, [PRICE_EXTRA_ITTYPE] = "money:705091" }, -- Immolation Helmet
+				{ 209, 71066, [PRICE_EXTRA_ITTYPE] = "money:3378300" }, -- Immolation Legplates
+				{ 210, 71067, [PRICE_EXTRA_ITTYPE] = "money:710313" }, -- Immolation Pauldrons
+				{ 211, 71091, [PRICE_EXTRA_ITTYPE] = "money:3531300" }, -- Immolation Breastplate
+				{ 212, 71092, [PRICE_EXTRA_ITTYPE] = "money:1782100" }, -- Immolation Gloves
+				{ 213, 71093, [PRICE_EXTRA_ITTYPE] = "money:744934" }, -- Immolation Headguard
+				{ 214, 71094, [PRICE_EXTRA_ITTYPE] = "money:3568900" }, -- Immolation Greaves
+				{ 215, 71095, [PRICE_EXTRA_ITTYPE] = "money:750227" }, -- Immolation Mantle
+
+				{ 216, 71514, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Immolation Helmet
+				{ 217, 71519, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Immolation Headguard
+				{ 218, 71524, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Immolation Faceguard
+				{ 219, 71516, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Immolation Pauldrons
+				{ 220, 71521, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Immolation Mantle
+				{ 221, 71526, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Immolation Shoulderguards
+				{ 222, 71512, [PRICE_EXTRA_ITTYPE] = "71063:1:71679:1" }, -- Immolation Battleplate
+				{ 223, 71517, [PRICE_EXTRA_ITTYPE] = "71091:1:71679:1" }, -- Immolation Breastplate
+				{ 224, 71522, [PRICE_EXTRA_ITTYPE] = "70950:1:71679:1" }, -- Immolation Chestguard
+				{ 225, 71515, [PRICE_EXTRA_ITTYPE] = "71066:1:71678:1" }, -- Immolation Legplates
+				{ 226, 71520, [PRICE_EXTRA_ITTYPE] = "71094:1:71678:1" }, -- Immolation Greaves
+				{ 227, 71525, [PRICE_EXTRA_ITTYPE] = "70947:1:71678:1" }, -- Immolation Legguards
+				{ 228, 71513, [PRICE_EXTRA_ITTYPE] = "71064:1:71676:1" }, -- Immolation Gauntlets
+				{ 229, 71518, [PRICE_EXTRA_ITTYPE] = "71092:1:71676:1" }, -- Immolation Gloves
+				{ 230, 71523, [PRICE_EXTRA_ITTYPE] = "70949:1:71676:1" }, -- Immolation Handguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65001, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Conqueror
+				{ 2, 65088, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Conqueror
+				{ 3, 67423, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Conqueror
+				{ 4, 67428, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Conqueror
+				{ 5, 67429, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Conqueror
+
+				{ 6 , 60256, [PRICE_EXTRA_ITTYPE] = "money:684602" }, -- Mercurial Hood
+				{ 7 , 60258, [PRICE_EXTRA_ITTYPE] = "money:707755" }, -- Mercurial Cowl
+				{ 8 , 60253, [PRICE_EXTRA_ITTYPE] = "money:677090" }, -- Mercurial Shoulderwraps
+				{ 9 , 60262, [PRICE_EXTRA_ITTYPE] = "money:649430" }, -- Mercurial Mantle
+				{ 10, 60254, [PRICE_EXTRA_ITTYPE] = "money:3246000" }, -- Mercurial Vestment
+				{ 11, 60259, [PRICE_EXTRA_ITTYPE] = "money:3392400" }, -- Mercurial Robes
+				{ 12, 60255, [PRICE_EXTRA_ITTYPE] = "money:3258000" }, -- Mercurial Leggings
+				{ 13, 60261, [PRICE_EXTRA_ITTYPE] = "money:3416200" }, -- Mercurial Legwraps
+				{ 14, 60257, [PRICE_EXTRA_ITTYPE] = "money:1693700" }, -- Mercurial Gloves
+				{ 15, 60275, [PRICE_EXTRA_ITTYPE] = "money:1681400" }, -- Mercurial Handwraps
+
+				{ 21, 65230, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Mercurial Cowl
+				{ 22, 65235, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Mercurial Hood
+				{ 23, 65233, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Mercurial Mantle
+				{ 24, 65238, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Mercurial Shoulderwraps
+				{ 25, 65232, [PRICE_EXTRA_ITTYPE] = "67423:1:60259:1" }, -- Mercurial Robes
+				{ 26, 65237, [PRICE_EXTRA_ITTYPE] = "67423:1:60254:1" }, -- Mercurial Vestment
+				{ 27, 65231, [PRICE_EXTRA_ITTYPE] = "67428:1:60261:1" }, -- Mercurial Legwraps
+				{ 28, 65236, [PRICE_EXTRA_ITTYPE] = "67428:1:60255:1" }, -- Mercurial Leggings
+				{ 29, 65229, [PRICE_EXTRA_ITTYPE] = "67429:1:60275:1" }, -- Mercurial Handwraps
+				{ 30, 65234, [PRICE_EXTRA_ITTYPE] = "67429:1:60257:1" }, -- Mercurial Gloves
+
+				{ 101, 71272, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Cowl of the Cleansing Flame
+				{ 102, 71277, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Hood of the Cleansing Flame
+				{ 103, 71275, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Mantle of the Cleansing Flame
+				{ 104, 71280, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Shoulderwraps of the Cleansing Flame
+				{ 105, 71274, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Robes of the Cleansing Flame
+				{ 106, 71279, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Vestment of the Cleansing Flame
+				{ 107, 71273, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Legwraps of the Cleansing Flame
+				{ 108, 71278, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Leggings of the Cleansing Flame
+				{ 109, 71271, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Handwraps of the Cleansing Flame
+				{ 110, 71276, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Gloves of the Cleansing Flame
+
+				{ 116, 71528, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Cowl of the Cleansing Flame
+				{ 117, 71533, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Hood of the Cleansing Flame
+				{ 118, 71531, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Mantle of the Cleansing Flame
+				{ 119, 71536, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Shoulderwraps of the Cleansing Flame
+				{ 120, 71530, [PRICE_EXTRA_ITTYPE] = "71274:1:71679:1" }, -- Robes of the Cleansing Flame
+				{ 121, 71535, [PRICE_EXTRA_ITTYPE] = "71279:1:71679:1" }, -- Vestment of the Cleansing Flame
+				{ 122, 71529, [PRICE_EXTRA_ITTYPE] = "71273:1:71678:1" }, -- Legwraps of the Cleansing Flame
+				{ 123, 71534, [PRICE_EXTRA_ITTYPE] = "71278:1:71678:1" }, -- Leggings of the Cleansing Flame
+				{ 124, 71527, [PRICE_EXTRA_ITTYPE] = "71271:1:71676:1" }, -- Handwraps of the Cleansing Flame
+				{ 125, 71532, [PRICE_EXTRA_ITTYPE] = "71276:1:71676:1" }, -- Gloves of the Cleansing Flame
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65002, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Vanquisher
+				{ 2, 65089, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Vanquisher
+				{ 3, 67425, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Vanquisher
+				{ 4, 67426, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Vanquisher
+				{ 5, 67431, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Vanquisher
+
+				{ 7 , 60299, [PRICE_EXTRA_ITTYPE] = "money:710076" }, -- Wind Dancer's Helmet
+				{ 8 , 60302, [PRICE_EXTRA_ITTYPE] = "money:649224" }, -- Wind Dancer's Spaulders
+				{ 9 , 60301, [PRICE_EXTRA_ITTYPE] = "money:3415300" }, -- Wind Dancer's Tunic
+				{ 10, 60300, [PRICE_EXTRA_ITTYPE] = "money:3403500" }, -- Wind Dancer's Legguards
+				{ 11, 60298, [PRICE_EXTRA_ITTYPE] = "money:1699300" }, -- Wind Dancer's Gloves
+
+				{ 22, 65241, [PRICE_EXTRA_ITTYPE] = "65002:1" }, -- Wind Dancer's Helmet
+				{ 23, 65243, [PRICE_EXTRA_ITTYPE] = "65089:1" }, -- Wind Dancer's Spaulders
+				{ 24, 65239, [PRICE_EXTRA_ITTYPE] = "67425:1:60301:1" }, -- Wind Dancer's Tunic
+				{ 25, 65242, [PRICE_EXTRA_ITTYPE] = "67426:1:60300:1" }, -- Wind Dancer's Legguards
+				{ 26, 65240, [PRICE_EXTRA_ITTYPE] = "67431:1:60298:1" }, -- Wind Dancer's Gloves
+
+				{ 101, 71047, [PRICE_EXTRA_ITTYPE] = "money:710456" }, -- Dark Phoenix Helmet
+				{ 102, 71049, [PRICE_EXTRA_ITTYPE] = "money:715677" }, -- Dark Phoenix Spaulders
+				{ 103, 71045, [PRICE_EXTRA_ITTYPE] = "money:3366400" }, -- Dark Phoenix Tunic
+				{ 104, 71048, [PRICE_EXTRA_ITTYPE] = "money:3403900" }, -- Dark Phoenix Legguards
+				{ 105, 71046, [PRICE_EXTRA_ITTYPE] = "money:1699100" }, -- Dark Phoenix Gloves
+
+				{ 116, 71539, [PRICE_EXTRA_ITTYPE] = "71670:1" }, -- Dark Phoenix Helmet
+				{ 117, 71541, [PRICE_EXTRA_ITTYPE] = "71673:1" }, -- Dark Phoenix Spaulders
+				{ 118, 71537, [PRICE_EXTRA_ITTYPE] = "71045:1:71672:1" }, -- Dark Phoenix Tunic
+				{ 119, 71540, [PRICE_EXTRA_ITTYPE] = "71048:1:71671:1" }, -- Dark Phoenix Legguards
+				{ 120, 71538, [PRICE_EXTRA_ITTYPE] = "71046:1:71669:1" }, -- Dark Phoenix Gloves
+
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65000, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Protector
+				{ 2, 65087, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Protector
+				{ 3, 67424, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Protector
+				{ 4, 67427, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Protector
+				{ 5, 67430, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Protector
+
+				{ 101, 60308, [PRICE_EXTRA_ITTYPE] = "money:682416" }, -- Faceguard of the Raging Elements
+				{ 102, 60315, [PRICE_EXTRA_ITTYPE] = "money:699970" }, -- Headpiece of the Raging Elements
+				{ 103, 60320, [PRICE_EXTRA_ITTYPE] = "money:712467" }, -- Helmet of the Raging Elements
+				{ 104, 60311, [PRICE_EXTRA_ITTYPE] = "money:689930" }, -- Mantle of the Raging Elements
+				{ 105, 60317, [PRICE_EXTRA_ITTYPE] = "money:704954" }, -- Shoulderwraps of the Raging Elements
+				{ 106, 60322, [PRICE_EXTRA_ITTYPE] = "money:667255" }, -- Spaulders of the Raging Elements
+				{ 107, 60309, [PRICE_EXTRA_ITTYPE] = "money:3271100" }, -- Tunic of the Raging Elements
+				{ 108, 60313, [PRICE_EXTRA_ITTYPE] = "money:3319000" }, -- Hauberk of the Raging Elements
+				{ 109, 60318, [PRICE_EXTRA_ITTYPE] = "money:3379100" }, -- Cuirass of the Raging Elements
+				{ 110, 60310, [PRICE_EXTRA_ITTYPE] = "money:3283200" }, -- Legwraps of the Raging Elements
+				{ 111, 60316, [PRICE_EXTRA_ITTYPE] = "money:3354900" }, -- Kilt of the Raging Elements
+				{ 112, 60321, [PRICE_EXTRA_ITTYPE] = "money:3174900" }, -- Legguards of the Raging Elements
+				{ 113, 60312, [PRICE_EXTRA_ITTYPE] = "money:1663100" }, -- Handwraps of the Raging Elements
+				{ 114, 60314, [PRICE_EXTRA_ITTYPE] = "money:1675000" }, -- Gloves of the Raging Elements
+				{ 115, 60319, [PRICE_EXTRA_ITTYPE] = "money:1705200" }, -- Grips of the Raging Elements
+
+				{ 116, 65246, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Faceguard of the Raging Elements
+				{ 117, 65251, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Helmet of the Raging Elements
+				{ 118, 65256, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Headpiece of the Raging Elements
+				{ 119, 65248, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Mantle of the Raging Elements
+				{ 120, 65253, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Spaulders of the Raging Elements
+				{ 121, 65258, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Shoulderwraps of the Raging Elements
+				{ 122, 65244, [PRICE_EXTRA_ITTYPE] = "67424:1:60309:1" }, -- Tunic of the Raging Elements
+				{ 123, 65249, [PRICE_EXTRA_ITTYPE] = "67424:1:60318:1" }, -- Cuirass of the Raging Elements
+				{ 124, 65254, [PRICE_EXTRA_ITTYPE] = "67424:1:60313:1" }, -- Hauberk of the Raging Elements
+				{ 125, 65247, [PRICE_EXTRA_ITTYPE] = "67427:1:60310:1" }, -- Legwraps of the Raging Elements
+				{ 126, 65252, [PRICE_EXTRA_ITTYPE] = "67427:1:60321:1" }, -- Legguards of the Raging Elements
+				{ 127, 65257, [PRICE_EXTRA_ITTYPE] = "67427:1:60316:1" }, -- Kilt of the Raging Elements
+				{ 128, 65245, [PRICE_EXTRA_ITTYPE] = "67430:1:60312:1" }, -- Handwraps of the Raging Elements
+				{ 129, 65250, [PRICE_EXTRA_ITTYPE] = "67430:1:60319:1" }, -- Grips of the Raging Elements
+				{ 130, 65255, [PRICE_EXTRA_ITTYPE] = "67430:1:60314:1" }, -- Gloves of the Raging Elements
+
+				{ 201, 71293, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Headpiece
+				{ 202, 71298, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Faceguard
+				{ 203, 71303, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Helmet
+				{ 204, 71295, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Shoulderwraps
+				{ 205, 71300, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Mantle
+				{ 206, 71305, [PRICE_EXTRA_ITTYPE] = "money:715320" }, -- Erupting Volcanic Spaulders
+				{ 207, 71291, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Hauberk
+				{ 208, 71296, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Tunic
+				{ 209, 71301, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Cuirass
+				{ 210, 71294, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Kilt
+				{ 211, 71299, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Legwraps
+				{ 212, 71304, [PRICE_EXTRA_ITTYPE] = "money:3414900" }, -- Erupting Volcanic Legguards
+				{ 213, 71292, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Erupting Volcanic Gloves
+				{ 214, 71297, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Erupting Volcanic Handwraps
+				{ 215, 71302, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Erupting Volcanic Grips
+
+				{ 216, 71544, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Erupting Volcanic Faceguard
+				{ 217, 71549, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Erupting Volcanic Helmet
+				{ 218, 71554, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Erupting Volcanic Headpiece
+				{ 219, 71546, [PRICE_EXTRA_ITTYPE] = "71687:1" }, -- Erupting Volcanic Mantle
+				{ 220, 71551, [PRICE_EXTRA_ITTYPE] = "71687:1" }, -- Erupting Volcanic Spaulders
+				{ 221, 71556, [PRICE_EXTRA_ITTYPE] = "71687:1" }, -- Erupting Volcanic Shoulderwraps
+				{ 222, 71542, [PRICE_EXTRA_ITTYPE] = "71296:1:71686:1" }, -- Erupting Volcanic Tunic
+				{ 223, 71547, [PRICE_EXTRA_ITTYPE] = "71301:1:71686:1" }, -- Erupting Volcanic Cuirass
+				{ 224, 71552, [PRICE_EXTRA_ITTYPE] = "71291:1:71686:1" }, -- Erupting Volcanic Hauberk
+				{ 225, 71545, [PRICE_EXTRA_ITTYPE] = "71299:1:71685:1" }, -- Erupting Volcanic Legwraps
+				{ 226, 71550, [PRICE_EXTRA_ITTYPE] = "71304:1:71685:1" }, -- Erupting Volcanic Legguards
+				{ 227, 71555, [PRICE_EXTRA_ITTYPE] = "71294:1:71685:1" }, -- Erupting Volcanic Kilt
+				{ 228, 71543, [PRICE_EXTRA_ITTYPE] = "71297:1:71683:1" }, -- Erupting Volcanic Handwraps
+				{ 229, 71548, [PRICE_EXTRA_ITTYPE] = "71302:1:71683:1" }, -- Erupting Volcanic Grips
+				{ 230, 71553, [PRICE_EXTRA_ITTYPE] = "71292:1:71683:1" }, -- Erupting Volcanic Gloves
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65001, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Conqueror
+				{ 2, 65088, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Conqueror
+				{ 3, 67423, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Conqueror
+				{ 4, 67428, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Conqueror
+				{ 5, 67429, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Conqueror
+
+				{ 7 , 60249, [PRICE_EXTRA_ITTYPE] = "money:667050" }, -- Shadowflame Hood
+				{ 8 , 60252, [PRICE_EXTRA_ITTYPE] = "money:674562" }, -- Shadowflame Mantle
+				{ 9 , 60251, [PRICE_EXTRA_ITTYPE] = "money:3210100" }, -- Shadowflame Robes
+				{ 10, 60250, [PRICE_EXTRA_ITTYPE] = "money:3198000" }, -- Shadowflame Leggings
+				{ 11, 60248, [PRICE_EXTRA_ITTYPE] = "money:1596100" }, -- Shadowflame Handwraps
+
+				{ 22, 65260, [PRICE_EXTRA_ITTYPE] = "65001:1" }, -- Shadowflame Hood
+				{ 23, 65263, [PRICE_EXTRA_ITTYPE] = "65088:1" }, -- Shadowflame Mantle
+				{ 24, 65262, [PRICE_EXTRA_ITTYPE] = "67423:1:60251:1" }, -- Shadowflame Robes
+				{ 25, 65261, [PRICE_EXTRA_ITTYPE] = "67428:1:60250:1" }, -- Shadowflame Leggings
+				{ 26, 65259, [PRICE_EXTRA_ITTYPE] = "67429:1:60248:1" }, -- Shadowflame Handwraps
+
+				{ 101, 71282, [PRICE_EXTRA_ITTYPE] = "money:71532" }, -- Balespider's Hood
+				{ 102, 71285, [PRICE_EXTRA_ITTYPE] = "money:71532" }, -- Balespider's Mantle
+				{ 103, 71284, [PRICE_EXTRA_ITTYPE] = "money:341490" }, -- Balespider's Robes
+				{ 104, 71283, [PRICE_EXTRA_ITTYPE] = "money:341490" }, -- Balespider's Leggings
+				{ 105, 71281, [PRICE_EXTRA_ITTYPE] = "money:171720" }, -- Balespider's Handwraps
+
+				{ 116, 71595, [PRICE_EXTRA_ITTYPE] = "71677:1" }, -- Balespider's Hood
+				{ 117, 71598, [PRICE_EXTRA_ITTYPE] = "71680:1" }, -- Balespider's Mantle
+				{ 118, 71597, [PRICE_EXTRA_ITTYPE] = "71284:1:71679:1" }, -- Balespider's Robes
+				{ 119, 71596, [PRICE_EXTRA_ITTYPE] = "71283:1:71678:1" }, -- Balespider's Leggings
+				{ 120, 71594, [PRICE_EXTRA_ITTYPE] = "71281:1:71676:1" }, -- Balespider's Handwraps
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 65000, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Crown of the Forlorn Protector
+				{ 2, 65087, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Shoulders of the Forlorn Protector
+				{ 3, 67424, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Chest of the Forlorn Protector
+				{ 4, 67427, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Leggings of the Forlorn Protector
+				{ 5, 67430, [PRICE_EXTRA_ITTYPE] = "66998:1" }, -- Gauntlets of the Forlorn Protector
+
+				{ 6 , 60325, [PRICE_EXTRA_ITTYPE] = "money:674767" }, -- Earthen Helmet
+				{ 7 , 60328, [PRICE_EXTRA_ITTYPE] = "money:682280" }, -- Earthen Faceguard
+				{ 8 , 60327, [PRICE_EXTRA_ITTYPE] = "money:679821" }, -- Earthen Pauldrons
+				{ 9 , 60331, [PRICE_EXTRA_ITTYPE] = "money:689792" }, -- Earthen Shoulderguards
+				{ 10, 60323, [PRICE_EXTRA_ITTYPE] = "money:3199000" }, -- Earthen Battleplate
+				{ 11, 60329, [PRICE_EXTRA_ITTYPE] = "money:3270800" }, -- Earthen Chestguard
+				{ 12, 60324, [PRICE_EXTRA_ITTYPE] = "money:3210700" }, -- Earthen Legplates
+				{ 13, 60330, [PRICE_EXTRA_ITTYPE] = "money:3282800" }, -- Earthen Legguards
+				{ 14, 60326, [PRICE_EXTRA_ITTYPE] = "money:1626700" }, -- Earthen Gauntlets
+				{ 15, 60332, [PRICE_EXTRA_ITTYPE] = "money:1662700" }, -- Earthen Handguards
+
+				{ 21, 65266, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Earthen Helmet
+				{ 22, 65271, [PRICE_EXTRA_ITTYPE] = "65000:1" }, -- Earthen Faceguard
+				{ 23, 65268, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Earthen Pauldrons
+				{ 24, 65273, [PRICE_EXTRA_ITTYPE] = "65087:1" }, -- Earthen Shoulderguards
+				{ 25, 65264, [PRICE_EXTRA_ITTYPE] = "67424:1:60323:1" }, -- Earthen Battleplate
+				{ 26, 65269, [PRICE_EXTRA_ITTYPE] = "67424:1:60329:1" }, -- Earthen Chestguard
+				{ 27, 65267, [PRICE_EXTRA_ITTYPE] = "67427:1:60324:1" }, -- Earthen Legplates
+				{ 28, 65272, [PRICE_EXTRA_ITTYPE] = "67427:1:60330:1" }, -- Earthen Legguards
+				{ 29, 65265, [PRICE_EXTRA_ITTYPE] = "67430:1:60326:1" }, -- Earthen Gauntlets
+				{ 30, 65270, [PRICE_EXTRA_ITTYPE] = "67430:1:60332:1" }, -- Earthen Handguards
+
+				{ 101, 70944, [PRICE_EXTRA_ITTYPE] = "money:736708" }, -- Faceguard of the Molten Giant
+				{ 102, 71070, [PRICE_EXTRA_ITTYPE] = "money:718181" }, -- Helmet of the Molten Giant
+				{ 103, 70941, [PRICE_EXTRA_ITTYPE] = "money:728840" }, -- Shoulderguards of the Molten Giant
+				{ 104, 71072, [PRICE_EXTRA_ITTYPE] = "money:723475" }, -- Pauldrons of the Molten Giant
+				{ 105, 70945, [PRICE_EXTRA_ITTYPE] = "money:3278300" }, -- Chestguard of the Molten Giant
+				{ 106, 71068, [PRICE_EXTRA_ITTYPE] = "money:3403600" }, -- Battleplate of the Molten Giant
+				{ 107, 70942, [PRICE_EXTRA_ITTYPE] = "money:3491700" }, -- Legguards of the Molten Giant
+				{ 108, 71071, [PRICE_EXTRA_ITTYPE] = "money:3441200" }, -- Legplates of the Molten Giant
+				{ 109, 70943, [PRICE_EXTRA_ITTYPE] = "money:1762200" }, -- Handguards of the Molten Giant
+				{ 110, 71069, [PRICE_EXTRA_ITTYPE] = "money:1717800" }, -- Gauntlets of the Molten Giant
+
+				{ 116, 71599, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Helmet of the Molten Giant
+				{ 117, 71606, [PRICE_EXTRA_ITTYPE] = "71684:1" }, -- Faceguard of the Molten Giant
+				{ 118, 71603, [PRICE_EXTRA_ITTYPE] = "71687:1" }, -- Pauldrons of the Molten Giant
+				{ 119, 71608, [PRICE_EXTRA_ITTYPE] = "71687:1",}, -- Shoulderguards of the Molten Giant
+				{ 120, 71600, [PRICE_EXTRA_ITTYPE] = "71068:1:71686:1" }, -- Battleplate of the Molten Giant
+				{ 121, 71604, [PRICE_EXTRA_ITTYPE] = "70945:1:71686:1" }, -- Chestguard of the Molten Giant
+				{ 122, 71602, [PRICE_EXTRA_ITTYPE] = "71071:1:71685:1" }, -- Legplates of the Molten Giant
+				{ 123, 71607, [PRICE_EXTRA_ITTYPE] = "70942:1:71685:1" }, -- Legguards of the Molten Giant
+				{ 124, 71601, [PRICE_EXTRA_ITTYPE] = "71069:1:71683:1" }, -- Gauntlets of the Molten Giant
+				{ 125, 71605, [PRICE_EXTRA_ITTYPE] = "70943:1:71683:1" }, -- Handguards of the Molten Giant
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Cloth
+			name = AL["Cloth"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 58155, [PRICE_EXTRA_ITTYPE] = "money:1624800" }, -- Cowl of Pleasant Gloom, 1
+				{ 2 , 58161, [PRICE_EXTRA_ITTYPE] = "money:1662600" }, -- Mask of New Snow, 1
+				{ 3 , 58157, [PRICE_EXTRA_ITTYPE] = "money:1637400" }, -- Meadow Mantle, 3
+				{ 4 , 58162, [PRICE_EXTRA_ITTYPE] = "money:1668900" }, -- Summer Song Shoulderwraps, 3
+				{ 5 , 58153, [PRICE_EXTRA_ITTYPE] = "money:2382400" }, -- Robes of Embalmed Darkness, 5
+				{ 6 , 58159, [PRICE_EXTRA_ITTYPE] = "money:2204100" }, -- Musk Rose Robes, 5
+				{ 7 , 57921, [PRICE_EXTRA_ITTYPE] = "money:1142300" }, -- Incense Infused Cummerbund, 6
+				{ 8 , 57922, [PRICE_EXTRA_ITTYPE] = "money:1146500" }, -- Belt of the Falling Rain, 6
+				{ 9 , 58154, [PRICE_EXTRA_ITTYPE] = "money:2390900" }, -- Pensive Legwraps, 7
+				{ 10, 58160, [PRICE_EXTRA_ITTYPE] = "money:2212600" }, -- Leggings of Charity, 7
+				{ 11, 58158, [PRICE_EXTRA_ITTYPE] = "money:1104200" }, -- Gloves of the Painless Midnight, 10
+				{ 12, 58163, [PRICE_EXTRA_ITTYPE] = "money:1125200" }, -- Gloves of Purification, 10
+
+				{ 16, 58485, [PRICE_EXTRA_ITTYPE] = "money:2420300" }, -- Melodious Slippers, 8
+				{ 17, 58486, [PRICE_EXTRA_ITTYPE] = "money:2429100" }, -- Slippers of Moving Waters, 8
+				
+				{ 19, 71265, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Emberflame Bracers, 9
+				{ 20, 71266, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Firesoul Wristguards, 9
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Leather
+			name = AL["Leather"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 58133, [PRICE_EXTRA_ITTYPE] = "money:1738300" }, -- Mask of Vines, 1
+				{ 2 , 58150, [PRICE_EXTRA_ITTYPE] = "money:1719300" }, -- Cluster of Stars, 1
+				{ 3 , 58134, [PRICE_EXTRA_ITTYPE] = "money:1744600" }, -- Embrace of the Night, 3
+				{ 4 , 58151, [PRICE_EXTRA_ITTYPE] = "money:1725500" }, -- Somber Shawl, 3
+				{ 5 , 58131, [PRICE_EXTRA_ITTYPE] = "money:2305500" }, -- Tunic of Sinking Envy, 5
+				{ 6 , 58139, [PRICE_EXTRA_ITTYPE] = "money:2204600" }, -- Chestguard of Forgetfulness, 5
+				{ 7 , 57918, [PRICE_EXTRA_ITTYPE] = "money:1129600" }, -- Sash of Musing, 6
+				{ 8 , 57919, [PRICE_EXTRA_ITTYPE] = "money:1133800" }, -- Thatch Eave Vines, 6
+				{ 9 , 58132, [PRICE_EXTRA_ITTYPE] = "money:2313700" }, -- Leggings of the Burrowing Mole, 7
+				{ 10, 58140, [PRICE_EXTRA_ITTYPE] = "money:2212800" }, -- Leggings of Late Blooms, 7
+				{ 11, 58138, [PRICE_EXTRA_ITTYPE] = "money:1104300" }, -- Sticky Fingers, 10
+				{ 12, 58152, [PRICE_EXTRA_ITTYPE] = "money:1193800" }, -- Blessed Hands of Elune, 10
+
+				{ 16, 58482, [PRICE_EXTRA_ITTYPE] = "money:2393400" }, -- Treads of Fleeting Joy, 8
+				{ 17, 58484, [PRICE_EXTRA_ITTYPE] = "money:2411300" }, -- Fading Violet Sandals, 8
+
+				{ 19, 71130, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Flamebinder Bracers, 9
+				{ 20, 71262, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Smolderskull Bindings, 9
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Mail
+			name = AL["Mail"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 58123, [PRICE_EXTRA_ITTYPE] = "money:1675600" }, -- Willow Mask, 1
+				{ 2 , 58128, [PRICE_EXTRA_ITTYPE] = "money:1707000" }, -- Helm of the Inward Eye, 1
+				{ 3 , 58124, [PRICE_EXTRA_ITTYPE] = "money:1681900" }, -- Wrap of the Valley Glades, 3
+				{ 4 , 58129, [PRICE_EXTRA_ITTYPE] = "money:1713200" }, -- Seafoam Mantle, 3
+				{ 5 , 58121, [PRICE_EXTRA_ITTYPE] = "money:2221500" }, -- Vest of the True Companion, 5
+				{ 6 , 58126, [PRICE_EXTRA_ITTYPE] = "money:2263500" }, -- Vest of the Waking Dream, 5
+				{ 7 , 57916, [PRICE_EXTRA_ITTYPE] = "money:1121200" }, -- Belt of the Dim Forest, 6
+				{ 8 , 57917, [PRICE_EXTRA_ITTYPE] = "money:1125400" }, -- Belt of the Still Stream, 6
+				{ 9 , 58122, [PRICE_EXTRA_ITTYPE] = "money:2229900" }, -- Hillside Striders, 7
+				{ 10, 58127, [PRICE_EXTRA_ITTYPE] = "money:2271900" }, -- Leggings of Soothing Silence, 7
+				{ 11, 58125, [PRICE_EXTRA_ITTYPE] = "money:1133900" }, -- Gloves of the Passing Night, 10
+				{ 12, 58130, [PRICE_EXTRA_ITTYPE] = "money:1155100" }, -- Gleaning Gloves, 10
+
+				{ 16, 58199, [PRICE_EXTRA_ITTYPE] = "money:2356600" }, -- Moccasins of Verdurous Glooms, 8
+				{ 17, 58481, [PRICE_EXTRA_ITTYPE] = "money:2384400" }, -- Boots of the Perilous Seas, 8
+
+				{ 19, 71263, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Bracers of Misting Ash, 9
+				{ 20, 71264, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Bracers of Forked Lightning, 9
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Plate
+			name = AL["Plate"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 58098, [PRICE_EXTRA_ITTYPE] = "money:1770100" }, -- Helm of Easeful Death, 1
+				{ 2 , 58103, [PRICE_EXTRA_ITTYPE] = "money:1675700" }, -- Helm of the Proud, 1
+				{ 3 , 58108, [PRICE_EXTRA_ITTYPE] = "money:1707200" }, -- Crown of the Blazing Sun, 1
+				{ 4 , 58100, [PRICE_EXTRA_ITTYPE] = "money:1782700" }, -- Pauldrons of the High Requiem, 3
+				{ 5 , 58104, [PRICE_EXTRA_ITTYPE] = "money:1682100" }, -- Sunburnt Pauldrons, 3
+				{ 6 , 58109, [PRICE_EXTRA_ITTYPE] = "money:1713500" }, -- Pauldrons of the Forlorn, 3
+				{ 7 , 58096, [PRICE_EXTRA_ITTYPE] = "money:2348000" }, -- Breastplate of Raging Fury, 5
+				{ 8 , 58101, [PRICE_EXTRA_ITTYPE] = "money:2390000" }, -- Chestplate of the Steadfast, 5
+				{ 9 , 58106, [PRICE_EXTRA_ITTYPE] = "money:2263700" }, -- Chestguard of Dancing Waves, 5
+				{ 10, 57913, [PRICE_EXTRA_ITTYPE] = "money:1108600" }, -- Beech Green Belt, 6
+				{ 11, 57914, [PRICE_EXTRA_ITTYPE] = "money:1112700" }, -- Girdle of the Mountains, 6
+				{ 12, 57915, [PRICE_EXTRA_ITTYPE] = "money:1116900" }, -- Belt of Barred Clouds, 6
+				{ 13, 58097, [PRICE_EXTRA_ITTYPE] = "money:2356400" }, -- Greaves of Gallantry, 7
+				{ 14, 58102, [PRICE_EXTRA_ITTYPE] = "money:2169600" }, -- Greaves of Splendor, 7
+				{ 15, 58107, [PRICE_EXTRA_ITTYPE] = "money:2272200" }, -- Legguards of the Gentle, 7
+				{ 16, 58099, [PRICE_EXTRA_ITTYPE] = "money:1193300" }, -- Reaping Gauntlets, 10
+				{ 17, 58105, [PRICE_EXTRA_ITTYPE] = "money:1134200" }, -- Numbing Handguards, 10
+				{ 18, 58110, [PRICE_EXTRA_ITTYPE] = "money:1155200" }, -- Gloves of Curious Conscience, 10
+
+				{ 20, 58195, [PRICE_EXTRA_ITTYPE] = "money:2320700" }, -- Woe Breeder's Boots, 8
+				{ 21, 58197, [PRICE_EXTRA_ITTYPE] = "money:2338500" }, -- Rock Furrow Boots, 8
+				{ 22, 58198, [PRICE_EXTRA_ITTYPE] = "money:2347500" }, -- Eternal Pathfinders, 8
+
+				{ 24, 70937, [PRICE_EXTRA_ITTYPE] = "money:1724400" }, -- Bracers of Regal Force, 9
+				{ 25, 71260, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Bracers of Imperious Truths, 9
+				{ 26, 71261, [PRICE_EXTRA_ITTYPE] = "money:1717200" }, -- Gigantiform Bracers, 9
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Miscellaneous
+			name = AL["Miscellaneous"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 57927, [PRICE_EXTRA_ITTYPE] = "money:1361400" }, -- Throat Slasher, 22
+				{ 2, 57928, [PRICE_EXTRA_ITTYPE] = "money:1366200" }, -- Windslicer, 22
+				{ 3, 57929, [PRICE_EXTRA_ITTYPE] = "money:1240300" }, -- Dawnblaze Blade, 22
+
+				{ 5 , 57930, [PRICE_EXTRA_ITTYPE] = "money:933800" }, -- Pendant of Quiet Breath, 2
+				{ 6 , 57931, [PRICE_EXTRA_ITTYPE] = "money:937400" }, -- Amulet of Dull Dreaming, 2
+				{ 7 , 57932, [PRICE_EXTRA_ITTYPE] = "money:941100" }, -- The Lustrous Eye, 2
+				{ 8 , 57933, [PRICE_EXTRA_ITTYPE] = "money:944600" }, -- String of Beaded Bubbles, 2
+				{ 9 , 57934, [PRICE_EXTRA_ITTYPE] = "money:948200" }, -- Celadon Pendant, 2
+				{ 10, 57923, [PRICE_EXTRA_ITTYPE] = "money:1961500" }, -- Hermit's Lamp, 23
+				{ 11, 57924, [PRICE_EXTRA_ITTYPE] = "money:1968700" }, -- Apple-Bent Bough, 23
+				{ 12, 57925, [PRICE_EXTRA_ITTYPE] = "money:2107500" }, -- Shield of the Mists, 14
+				{ 13, 57926, [PRICE_EXTRA_ITTYPE] = "money:2115200" }, -- Shield of the Four Grey Towers, 14
+
+				{ 16, 58185, [PRICE_EXTRA_ITTYPE] = "money:2078400" }, -- Band of Bees, 11
+				{ 17, 58187, [PRICE_EXTRA_ITTYPE] = "money:2093600" }, -- Ring of the Battle Anthem, 11
+				{ 18, 58188, [PRICE_EXTRA_ITTYPE] = "money:2101200" }, -- Band of Secret Names, 11
+				{ 19, 58189, [PRICE_EXTRA_ITTYPE] = "money:2108600" }, -- Twined Band of Flowers, 11
+				{ 20, 68812, [PRICE_EXTRA_ITTYPE] = "money:2073700" }, -- Hornet-Sting Band, 11
+				{ 21, 58180, [PRICE_EXTRA_ITTYPE] = "money:2709000" }, -- License to Slay, 12
+				{ 22, 58181, [PRICE_EXTRA_ITTYPE] = "money:2719100" }, -- Fluid Death, 12
+				{ 23, 58182, [PRICE_EXTRA_ITTYPE] = "money:2729400" }, -- Bedrock Talisman, 12
+				{ 24, 58183, [PRICE_EXTRA_ITTYPE] = "money:2739800" }, -- Soul Casket, 12
+				{ 25, 58184, [PRICE_EXTRA_ITTYPE] = "money:2824200" }, -- Core of Ripeness, 12
+				{ 26, 58190, [PRICE_EXTRA_ITTYPE] = "money:2520200" }, -- Floating Web, 16
+				{ 27, 58191, [PRICE_EXTRA_ITTYPE] = "money:2529200" }, -- Viewless Wings, 16
+				{ 28, 58192, [PRICE_EXTRA_ITTYPE] = "money:2538200" }, -- Gray Hair Cloak, 16
+				{ 29, 58193, [PRICE_EXTRA_ITTYPE] = "money:2547000" }, -- Haunt of Flies, 16
+				{ 30, 58194, [PRICE_EXTRA_ITTYPE] = "money:2556100" }, -- Heavenly Breeze, 16
+
+				{ 101, 70935, [PRICE_EXTRA_ITTYPE] = "money:1458800" }, -- Stoneheart Necklace, 2
+				{ 102, 70940, [PRICE_EXTRA_ITTYPE] = "money:2179100" }, -- Deflecting Brimstone Band, 11
+				{ 103, 71129, [PRICE_EXTRA_ITTYPE] = "money:1463500" }, -- Necklace of Smoke Signals, 2
+				{ 104, 71150, [PRICE_EXTRA_ITTYPE] = "money:1951300" }, -- Scorchvine Wand, 15
+				{ 105, 71151, [PRICE_EXTRA_ITTYPE] = "money:1951300" }, -- Trail of Embers, 15
+				{ 106, 71208, [PRICE_EXTRA_ITTYPE] = "money:2146500" }, -- Serrated Brimstone Signet, 11
+				{ 107, 71209, [PRICE_EXTRA_ITTYPE] = "money:2146500" }, -- Splintered Brimstone Seal, 11
+				{ 108, 71210, [PRICE_EXTRA_ITTYPE] = "money:2146500" }, -- Crystalline Brimstone Ring, 11
+				{ 109, 71211, [PRICE_EXTRA_ITTYPE] = "money:2146500" }, -- Soothing Brimstone Circle, 11
+				{ 110, 71212, [PRICE_EXTRA_ITTYPE] = "money:1463500" }, -- Stoneheart Choker, 2
+				{ 111, 71213, [PRICE_EXTRA_ITTYPE] = "money:1463500" }, -- Amulet of Burning Brilliance, 2
+				{ 112, 71214, [PRICE_EXTRA_ITTYPE] = "money:1463500" }, -- Firemind Pendant, 2
+
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGACYVALORGEAR"] = {
+	name = AL["Legacy Valor Points Gears"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78754, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Necrotic Boneplate Breastplate, Chest
+				{ 2 , 78758, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Necrotic Boneplate Chestguard, Chest
+				{ 3 , 78765, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Necrotic Boneplate Gauntlets, Hands
+				{ 4 , 78773, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Necrotic Boneplate Handguards, Hands
+				{ 5 , 78782, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Necrotic Boneplate Helmet, Head
+				{ 6 , 78792, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Necrotic Boneplate Faceguard, Head
+				{ 7 , 78802, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Necrotic Boneplate Greaves, Legs
+				{ 8 , 78811, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Necrotic Boneplate Legguards, Legs
+				{ 9 , 78831, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Necrotic Boneplate Pauldrons, Shoulder
+				{ 10, 78846, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Necrotic Boneplate Shoulderguards, Shoulder
+
+				{ 16, 76974, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Necrotic Boneplate Breastplate, Chest
+				{ 17, 77008, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Necrotic Boneplate Chestguard, Chest
+				{ 18, 76975, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Necrotic Boneplate Gauntlets, Hands
+				{ 19, 77009, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Necrotic Boneplate Handguards, Hands
+				{ 20, 76976, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Necrotic Boneplate Helmet, Head
+				{ 21, 77010, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Necrotic Boneplate Faceguard, Head
+				{ 22, 76977, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Necrotic Boneplate Greaves, Legs
+				{ 23, 77011, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Necrotic Boneplate Legguards, Legs
+				{ 24, 76978, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Necrotic Boneplate Pauldrons, Shoulder
+				{ 25, 77012, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Necrotic Boneplate Shoulderguards, Shoulder
+
+				{ 101, 78659, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Necrotic Boneplate Breastplate, Chest
+				{ 102, 78663, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Necrotic Boneplate Chestguard, Chest
+				{ 103, 78670, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Necrotic Boneplate Gauntlets, Hands
+				{ 104, 78678, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Necrotic Boneplate Handguards, Hands
+				{ 105, 78687, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Necrotic Boneplate Helmet, Head
+				{ 106, 78697, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Necrotic Boneplate Faceguard, Head
+				{ 107, 78707, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Necrotic Boneplate Greaves, Legs
+				{ 108, 78716, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Necrotic Boneplate Legguards, Legs
+				{ 109, 78736, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Necrotic Boneplate Pauldrons, Shoulder
+				{ 110, 78751, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Necrotic Boneplate Shoulderguards, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78755, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Deep Earth Robes, Chest
+				{ 2 , 78757, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Deep Earth Vestment, Chest
+				{ 3 , 78760, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Deep Earth Raiment, Chest
+				{ 4 , 78771, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Deep Earth Gloves, Hands
+				{ 5 , 78775, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Deep Earth Handwraps, Hands
+				{ 6 , 78779, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Deep Earth Grips, Hands
+				{ 7 , 78785, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Deep Earth Helm, Head
+				{ 8 , 78789, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Deep Earth Headpiece, Head
+				{ 9 , 78791, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Deep Earth Cover, Head
+				{ 10, 78805, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Deep Earth Legwraps, Legs
+				{ 11, 78808, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Deep Earth Legguards, Legs
+				{ 12, 78809, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Deep Earth Leggings, Legs
+				{ 13, 78835, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Deep Earth Mantle, Shoulder
+				{ 14, 78838, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Deep Earth Spaulders, Shoulder
+				{ 15, 78839, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Deep Earth Shoulderwraps, Shoulder
+
+				{ 16, 76752, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Deep Earth Robes, Chest
+				{ 17, 77013, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Deep Earth Raiment, Chest
+				{ 18, 77021, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Deep Earth Vestment, Chest
+				{ 19, 76749, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Deep Earth Handwraps, Hands
+				{ 20, 77014, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Deep Earth Grips, Hands
+				{ 21, 77018, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Deep Earth Gloves, Hands
+				{ 22, 76750, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Deep Earth Helm, Head
+				{ 23, 77015, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Deep Earth Headpiece, Head
+				{ 24, 77019, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Deep Earth Cover, Head
+				{ 25, 76751, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Deep Earth Legwraps, Legs
+				{ 26, 77016, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Deep Earth Legguards, Legs
+				{ 27, 77020, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Deep Earth Leggings, Legs
+				{ 28, 76753, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Deep Earth Mantle, Shoulder
+				{ 29, 77017, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Deep Earth Spaulders, Shoulder
+				{ 30, 77022, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Deep Earth Shoulderwraps, Shoulder
+
+				{ 101, 78660, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Deep Earth Robes, Chest
+				{ 102, 78662, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Deep Earth Vestment, Chest
+				{ 103, 78665, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Deep Earth Raiment, Chest
+				{ 104, 78676, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Deep Earth Gloves, Hands
+				{ 105, 78680, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Deep Earth Handwraps, Hands
+				{ 106, 78684, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Deep Earth Grips, Hands
+				{ 107, 78690, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Deep Earth Helm, Head
+				{ 108, 78694, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Deep Earth Headpiece, Head
+				{ 109, 78696, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Deep Earth Cover, Head
+				{ 110, 78710, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Deep Earth Legwraps, Legs
+				{ 111, 78713, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Deep Earth Legguards, Legs
+				{ 112, 78714, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Deep Earth Leggings, Legs
+				{ 113, 78740, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Deep Earth Mantle, Shoulder
+				{ 114, 78743, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Deep Earth Spaulders, Shoulder
+				{ 115, 78744, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Deep Earth Shoulderwraps, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 78756, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Wyrmstalker's Tunic, Chest
+				{ 2, 78769, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Wyrmstalker's Gloves, Hands
+				{ 3, 78793, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Wyrmstalker's Headguard, Head
+				{ 4, 78804, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Wyrmstalker's Legguards, Legs
+				{ 5, 78832, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Wyrmstalker's Spaulders, Shoulder
+
+				{ 7 , 77028, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Wyrmstalker's Tunic, Chest
+				{ 8 , 77029, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Wyrmstalker's Gloves, Hands
+				{ 9 , 77030, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Wyrmstalker's Headguard, Head
+				{ 10, 77031, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Wyrmstalker's Legguards, Legs
+				{ 11, 77032, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Wyrmstalker's Spaulders, Shoulder
+
+				{ 16, 78661, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Wyrmstalker's Tunic, Chest
+				{ 17, 78674, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Wyrmstalker's Gloves, Hands
+				{ 18, 78698, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Wyrmstalker's Headguard, Head
+				{ 19, 78709, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Wyrmstalker's Legguards, Legs
+				{ 20, 78737, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Wyrmstalker's Spaulders, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 78824, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Time Lord's Robes, Chest
+				{ 2, 78766, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Time Lord's Gloves, Hands
+				{ 3, 78796, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Time Lord's Hood, Head
+				{ 4, 78815, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Time Lord's Leggings, Legs
+				{ 5, 78843, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Time Lord's Mantle, Shoulder
+
+				{ 7 , 76215, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Time Lord's Robes, Chest
+				{ 8 , 76212, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Time Lord's Gloves, Hands
+				{ 9 , 76213, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Time Lord's Hood, Head
+				{ 10, 76214, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Time Lord's Leggings, Legs
+				{ 11, 76216, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Time Lord's Mantle, Shoulder
+
+				{ 16, 78729, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Time Lord's Robes, Chest
+				{ 17, 78671, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Time Lord's Gloves, Hands
+				{ 18, 78701, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Time Lord's Hood, Head
+				{ 19, 78720, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Time Lord's Leggings, Legs
+				{ 20, 78748, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Time Lord's Mantle, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78821, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Breastplate of Radiant Glory, Chest
+				{ 2 , 78822, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Battleplate of Radiant Glory, Chest
+				{ 3 , 78827, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Chestguard of Radiant Glory, Chest
+				{ 4 , 78768, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Gloves of Radiant Glory, Hands
+				{ 5 , 78770, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Gauntlets of Radiant Glory, Hands
+				{ 6 , 78772, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Handguards of Radiant Glory, Hands
+				{ 7 , 78787, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Headguard of Radiant Glory, Head
+				{ 8 , 78788, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Helmet of Radiant Glory, Head
+				{ 9 , 78790, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Faceguard of Radiant Glory, Head
+				{ 10, 78807, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Legplates of Radiant Glory, Legs
+				{ 11, 78810, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Legguards of Radiant Glory, Legs
+				{ 12, 78812, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Greaves of Radiant Glory, Legs
+				{ 13, 78837, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Pauldrons of Radiant Glory, Shoulder
+				{ 14, 78840, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Shoulderguards of Radiant Glory, Shoulder
+				{ 15, 78841, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Mantle of Radiant Glory, Shoulder
+
+				{ 16, 76765, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Breastplate of Radiant Glory, Chest
+				{ 17, 76874, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Battleplate of Radiant Glory, Chest
+				{ 18, 77003, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Chestguard of Radiant Glory, Chest
+				{ 19, 76766, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Gloves of Radiant Glory, Hands
+				{ 20, 76875, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Gauntlets of Radiant Glory, Hands
+				{ 21, 77004, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Handguards of Radiant Glory, Hands
+				{ 22, 76767, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Headguard of Radiant Glory, Head
+				{ 23, 76876, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Helmet of Radiant Glory, Head
+				{ 24, 77005, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Faceguard of Radiant Glory, Head
+				{ 25, 76768, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Greaves of Radiant Glory, Legs
+				{ 26, 76877, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Legplates of Radiant Glory, Legs
+				{ 27, 77006, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Legguards of Radiant Glory, Legs
+				{ 28, 76769, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Mantle of Radiant Glory, Shoulder
+				{ 29, 76878, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Pauldrons of Radiant Glory, Shoulder
+				{ 30, 77007, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Shoulderguards of Radiant Glory, Shoulder
+
+				{ 101, 78726, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Breastplate of Radiant Glory, Chest
+				{ 102, 78727, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Battleplate of Radiant Glory, Chest
+				{ 103, 78732, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Chestguard of Radiant Glory, Chest
+				{ 104, 78673, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Gloves of Radiant Glory, Hands
+				{ 105, 78675, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Gauntlets of Radiant Glory, Hands
+				{ 106, 78677, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Handguards of Radiant Glory, Hands
+				{ 107, 78692, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Headguard of Radiant Glory, Head
+				{ 108, 78693, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Helmet of Radiant Glory, Head
+				{ 109, 78695, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Faceguard of Radiant Glory, Head
+				{ 110, 78712, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Legplates of Radiant Glory, Legs
+				{ 111, 78715, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Legguards of Radiant Glory, Legs
+				{ 112, 78717, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Greaves of Radiant Glory, Legs
+				{ 113, 78742, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Pauldrons of Radiant Glory, Shoulder
+				{ 114, 78745, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Shoulderguards of Radiant Glory, Shoulder
+				{ 115, 78746, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Mantle of Radiant Glory, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78823, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Robes of Dying Light, Chest
+				{ 2 , 78826, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Robes of Dying Light, Chest
+				{ 3 , 78777, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Gloves of Dying Light, Hands
+				{ 4 , 78778, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Handwraps of Dying Light, Hands
+				{ 5 , 78795, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Cowl of Dying Light, Head
+				{ 6 , 78798, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Hood of Dying Light, Head
+				{ 7 , 78814, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Legwraps of Dying Light, Legs
+				{ 8 , 78817, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Leggings of Dying Light, Legs
+				{ 9 , 78842, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Mantle of Dying Light, Shoulder
+				{ 10, 78845, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Mantle of Dying Light, Shoulder
+
+				{ 16, 76345, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Robes of Dying Light, Chest
+				{ 17, 76360, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Robes of Dying Light, Chest
+				{ 18, 76348, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Gloves of Dying Light, Hands
+				{ 19, 76357, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Handwraps of Dying Light, Hands
+				{ 20, 76347, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Hood of Dying Light, Head
+				{ 21, 76358, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Cowl of Dying Light, Head
+				{ 22, 76346, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Leggings of Dying Light, Legs
+				{ 23, 76359, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Legwraps of Dying Light, Legs
+				{ 24, 76344, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Mantle of Dying Light, Shoulder
+				{ 25, 76361, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Mantle of Dying Light, Shoulder
+
+				{ 101, 78728, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Robes of Dying Light, Chest
+				{ 102, 78731, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Robes of Dying Light, Chest
+				{ 103, 78682, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Gloves of Dying Light, Hands
+				{ 104, 78683, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Handwraps of Dying Light, Hands
+				{ 105, 78700, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Cowl of Dying Light, Head
+				{ 106, 78703, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Hood of Dying Light, Head
+				{ 107, 78719, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Legwraps of Dying Light, Legs
+				{ 108, 78722, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Leggings of Dying Light, Legs
+				{ 109, 78747, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Mantle of Dying Light, Shoulder
+				{ 110, 78750, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Mantle of Dying Light, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 78759, [PRICE_EXTRA_ITTYPE] = "78862:1" }, -- Blackfang Battleweave Tunic, Chest
+				{ 2, 78774, [PRICE_EXTRA_ITTYPE] = "78865:1" }, -- Blackfang Battleweave Gloves, Hands
+				{ 3, 78794, [PRICE_EXTRA_ITTYPE] = "78868:1" }, -- Blackfang Battleweave Helmet, Head
+				{ 4, 78803, [PRICE_EXTRA_ITTYPE] = "78871:1" }, -- Blackfang Battleweave Legguards, Legs
+				{ 5, 78833, [PRICE_EXTRA_ITTYPE] = "78874:1" }, -- Blackfang Battleweave Spaulders, Shoulder
+
+				{ 7 , 77023, [PRICE_EXTRA_ITTYPE] = "78174:1" }, -- Blackfang Battleweave Tunic, Chest
+				{ 8 , 77024, [PRICE_EXTRA_ITTYPE] = "78173:1" }, -- Blackfang Battleweave Gloves, Hands
+				{ 9 , 77025, [PRICE_EXTRA_ITTYPE] = "78172:1" }, -- Blackfang Battleweave Helmet, Head
+				{ 10, 77026, [PRICE_EXTRA_ITTYPE] = "78171:1" }, -- Blackfang Battleweave Legguards, Legs
+				{ 11, 77027, [PRICE_EXTRA_ITTYPE] = "78170:1" }, -- Blackfang Battleweave Spaulders, Shoulder
+
+				{ 16, 78664, [PRICE_EXTRA_ITTYPE] = "78849:1" }, -- Blackfang Battleweave Tunic, Chest
+				{ 17, 78679, [PRICE_EXTRA_ITTYPE] = "78855:1" }, -- Blackfang Battleweave Gloves, Hands
+				{ 18, 78699, [PRICE_EXTRA_ITTYPE] = "78852:1" }, -- Blackfang Battleweave Helmet, Head
+				{ 19, 78708, [PRICE_EXTRA_ITTYPE] = "78858:1" }, -- Blackfang Battleweave Legguards, Legs
+				{ 20, 78738, [PRICE_EXTRA_ITTYPE] = "78861:1" }, -- Blackfang Battleweave Spaulders, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78818, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Spiritwalker's Hauberk, Chest
+				{ 2 , 78819, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Spiritwalker's Cuirass, Chest
+				{ 3 , 78820, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Spiritwalker's Tunic, Chest
+				{ 4 , 78761, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Spiritwalker's Gloves, Hands
+				{ 5 , 78762, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Spiritwalker's Grips, Hands
+				{ 6 , 78767, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Spiritwalker's Handwraps, Hands
+				{ 7 , 78780, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Spiritwalker's Headpiece, Head
+				{ 8 , 78781, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Spiritwalker's Helmet, Head
+				{ 9 , 78786, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Spiritwalker's Faceguard, Head
+				{ 10, 78799, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Spiritwalker's Legguards, Legs
+				{ 11, 78806, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Spiritwalker's Kilt, Legs
+				{ 12, 78813, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Spiritwalker's Legwraps, Legs
+				{ 13, 78828, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Spiritwalker's Spaulders, Shoulder
+				{ 14, 78834, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Spiritwalker's Mantle, Shoulder
+				{ 15, 78836, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Spiritwalker's Shoulderwraps, Shoulder
+				{ 16, 76756, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Spiritwalker's Tunic, Chest
+				{ 17, 77039, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Spiritwalker's Hauberk, Chest
+				{ 18, 77040, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Spiritwalker's Cuirass, Chest
+				{ 19, 76757, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Spiritwalker's Handwraps, Hands
+				{ 20, 77038, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Spiritwalker's Gloves, Hands
+				{ 21, 77041, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Spiritwalker's Grips, Hands
+				{ 22, 76758, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Spiritwalker's Faceguard, Head
+				{ 23, 77037, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Spiritwalker's Headpiece, Head
+				{ 24, 77042, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Spiritwalker's Helmet, Head
+				{ 25, 76759, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Spiritwalker's Legwraps, Legs
+				{ 26, 77036, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Spiritwalker's Kilt, Legs
+				{ 27, 77043, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Spiritwalker's Legguards, Legs
+				{ 28, 76760, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Spiritwalker's Mantle, Shoulder
+				{ 29, 77035, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Spiritwalker's Shoulderwraps, Shoulder
+				{ 30, 77044, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Spiritwalker's Spaulders, Shoulder
+				{ 101, 78723, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Spiritwalker's Hauberk, Chest
+				{ 102, 78724, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Spiritwalker's Cuirass, Chest
+				{ 103, 78725, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Spiritwalker's Tunic, Chest
+				{ 104, 78666, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Spiritwalker's Gloves, Hands
+				{ 105, 78667, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Spiritwalker's Grips, Hands
+				{ 106, 78672, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Spiritwalker's Handwraps, Hands
+				{ 107, 78685, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Spiritwalker's Headpiece, Head
+				{ 108, 78686, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Spiritwalker's Helmet, Head
+				{ 109, 78691, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Spiritwalker's Faceguard, Head
+				{ 110, 78704, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Spiritwalker's Legguards, Legs
+				{ 111, 78711, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Spiritwalker's Kilt, Legs
+				{ 112, 78718, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Spiritwalker's Legwraps, Legs
+				{ 113, 78733, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Spiritwalker's Spaulders, Shoulder
+				{ 114, 78739, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Spiritwalker's Mantle, Shoulder
+				{ 115, 78741, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Spiritwalker's Shoulderwraps, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 78825, [PRICE_EXTRA_ITTYPE] = "78863:1" }, -- Robes of the Faceless Shroud, Chest
+				{ 2, 78776, [PRICE_EXTRA_ITTYPE] = "78866:1" }, -- Gloves of the Faceless Shroud, Hands
+				{ 3, 78797, [PRICE_EXTRA_ITTYPE] = "78869:1" }, -- Hood of the Faceless Shroud, Head
+				{ 4, 78816, [PRICE_EXTRA_ITTYPE] = "78872:1" }, -- Leggings of the Faceless Shroud, Legs
+				{ 5, 78844, [PRICE_EXTRA_ITTYPE] = "78875:1" }, -- Mantle of the Faceless Shroud, Shoulder
+
+				{ 7 , 76340, [PRICE_EXTRA_ITTYPE] = "78184:1" }, -- Robes of the Faceless Shroud, Chest
+				{ 8 , 76343, [PRICE_EXTRA_ITTYPE] = "78183:1" }, -- Gloves of the Faceless Shroud, Hands
+				{ 9 , 76342, [PRICE_EXTRA_ITTYPE] = "78182:1" }, -- Hood of the Faceless Shroud, Head
+				{ 10, 76341, [PRICE_EXTRA_ITTYPE] = "78181:1" }, -- Leggings of the Faceless Shroud, Legs
+				{ 11, 76339, [PRICE_EXTRA_ITTYPE] = "78180:1" }, -- Mantle of the Faceless Shroud, Shoulder
+
+				{ 16, 78730, [PRICE_EXTRA_ITTYPE] = "78847:1" }, -- Robes of the Faceless Shroud, Chest
+				{ 17, 78681, [PRICE_EXTRA_ITTYPE] = "78853:1" }, -- Gloves of the Faceless Shroud, Hands
+				{ 18, 78702, [PRICE_EXTRA_ITTYPE] = "78850:1" }, -- Hood of the Faceless Shroud, Head
+				{ 19, 78721, [PRICE_EXTRA_ITTYPE] = "78856:1" }, -- Leggings of the Faceless Shroud, Legs
+				{ 20, 78749, [PRICE_EXTRA_ITTYPE] = "78859:1" }, -- Mantle of the Faceless Shroud, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 78752, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Colossal Dragonplate Battleplate, Chest
+				{ 2 , 78753, [PRICE_EXTRA_ITTYPE] = "78864:1" }, -- Colossal Dragonplate Chestguard, Chest
+				{ 3 , 78763, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Colossal Dragonplate Gauntlets, Hands
+				{ 4 , 78764, [PRICE_EXTRA_ITTYPE] = "78867:1" }, -- Colossal Dragonplate Handguards, Hands
+				{ 5 , 78783, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Colossal Dragonplate Helmet, Head
+				{ 6 , 78784, [PRICE_EXTRA_ITTYPE] = "78870:1" }, -- Colossal Dragonplate Faceguard, Head
+				{ 7 , 78800, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Colossal Dragonplate Legguards, Legs
+				{ 8 , 78801, [PRICE_EXTRA_ITTYPE] = "78873:1" }, -- Colossal Dragonplate Legplates, Legs
+				{ 9 , 78829, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Colossal Dragonplate Shoulderguards, Shoulder
+				{ 10, 78830, [PRICE_EXTRA_ITTYPE] = "78876:1" }, -- Colossal Dragonplate Pauldrons, Shoulder
+
+				{ 16, 76984, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Colossal Dragonplate Battleplate, Chest
+				{ 17, 76988, [PRICE_EXTRA_ITTYPE] = "78179:1" }, -- Colossal Dragonplate Chestguard, Chest
+				{ 18, 76985, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Colossal Dragonplate Gauntlets, Hands
+				{ 19, 76989, [PRICE_EXTRA_ITTYPE] = "78178:1" }, -- Colossal Dragonplate Handguards, Hands
+				{ 20, 76983, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Colossal Dragonplate Helmet, Head
+				{ 21, 76990, [PRICE_EXTRA_ITTYPE] = "78177:1" }, -- Colossal Dragonplate Faceguard, Head
+				{ 22, 76986, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Colossal Dragonplate Legplates, Legs
+				{ 23, 76991, [PRICE_EXTRA_ITTYPE] = "78176:1" }, -- Colossal Dragonplate Legguards, Legs
+				{ 24, 76987, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Colossal Dragonplate Pauldrons, Shoulder
+				{ 25, 76992, [PRICE_EXTRA_ITTYPE] = "78175:1" }, -- Colossal Dragonplate Shoulderguards, Shoulder
+
+				{ 101, 78657, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Colossal Dragonplate Battleplate, Chest
+				{ 102, 78658, [PRICE_EXTRA_ITTYPE] = "78848:1" }, -- Colossal Dragonplate Chestguard, Chest
+				{ 103, 78668, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Colossal Dragonplate Gauntlets, Hands
+				{ 104, 78669, [PRICE_EXTRA_ITTYPE] = "78854:1" }, -- Colossal Dragonplate Handguards, Hands
+				{ 105, 78688, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Colossal Dragonplate Helmet, Head
+				{ 106, 78689, [PRICE_EXTRA_ITTYPE] = "78851:1" }, -- Colossal Dragonplate Faceguard, Head
+				{ 107, 78705, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Colossal Dragonplate Legguards, Legs
+				{ 108, 78706, [PRICE_EXTRA_ITTYPE] = "78857:1" }, -- Colossal Dragonplate Legplates, Legs
+				{ 109, 78734, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Colossal Dragonplate Shoulderguards, Shoulder
+				{ 110, 78735, [PRICE_EXTRA_ITTYPE] = "78860:1" }, -- Colossal Dragonplate Pauldrons, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Cloth
+			name = AL["Cloth"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 77121, [PRICE_EXTRA_ITTYPE] = "money:353320" }, -- Lightwarper Vestments, Chest
+				{ 2, 77122, [PRICE_EXTRA_ITTYPE] = "money:354640" }, -- Robes of Searing Shadow, Chest
+				{ 4, 77176, [PRICE_EXTRA_ITTYPE] = "money:262240" }, -- Kavan's Forsaken Treads, Feet
+				{ 5, 77177, [PRICE_EXTRA_ITTYPE] = "money:261250" }, -- Splinterfoot Sandals, Feet
+				{ 7, 77157, [PRICE_EXTRA_ITTYPE] = "money:174990" }, -- The Hands of Gilly, Hands
+				{ 8, 77159, [PRICE_EXTRA_ITTYPE] = "money:176300" }, -- Clockwinder's Immaculate Gloves, Hands
+				{ 10, 77146, [PRICE_EXTRA_ITTYPE] = "money:269370" }, -- Soulgaze Cowl, Head
+				{ 11, 77147, [PRICE_EXTRA_ITTYPE] = "money:270330" }, -- Hood of Hidden Flesh, Head
+				{ 13, 77179, [PRICE_EXTRA_ITTYPE] = "money:179410" }, -- Tentacular Belt, Waist
+				{ 14, 77187, [PRICE_EXTRA_ITTYPE] = "money:186310" }, -- Vestal's Irrepressible Girdle, Waist
+				{ 16, 77323, [PRICE_EXTRA_ITTYPE] = "money:182220" }, -- Bracers of the Black Dream, Wrist
+				{ 17, 77324, [PRICE_EXTRA_ITTYPE] = "money:176800" }, -- Chronoboost Bracers, Wrist
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Leather
+			name = AL["Leather"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 77126, [PRICE_EXTRA_ITTYPE] = "money:3598800" }, -- Shadowbinder Chestguard, Chest
+				{ 2, 77127, [PRICE_EXTRA_ITTYPE] = "money:3612000" }, -- Decaying Herbalist's Robes, Chest
+				{ 4, 77172, [PRICE_EXTRA_ITTYPE] = "money:2602600" }, -- Boots of Fungoid Growth, Feet
+				{ 5, 77173, [PRICE_EXTRA_ITTYPE] = "money:2593000" }, -- Rooftop Griptoes, Feet
+				{ 7, 77160, [PRICE_EXTRA_ITTYPE] = "money:1769700" }, -- Fungus-Born Gloves, Hands
+				{ 8, 77161, [PRICE_EXTRA_ITTYPE] = "money:1776300" }, -- Lightfinger Handwraps, Hands
+				{ 10, 77148, [PRICE_EXTRA_ITTYPE] = "money:2713200" }, -- Nocturnal Gaze, Head
+				{ 11, 77149, [PRICE_EXTRA_ITTYPE] = "money:2723100" }, -- Helmet of Perpetual Rebirth, Head
+				{ 13, 77180, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Belt of Hidden Keys, Waist
+				{ 14, 77181, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Belt of Universal Curing, Waist
+				{ 16, 77320, [PRICE_EXTRA_ITTYPE] = "money:1855200" }, -- Luminescent Bracers, Wrist
+				{ 17, 77322, [PRICE_EXTRA_ITTYPE] = "money:1848600" }, -- Bracers of Manifold Pockets, Wrist
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Mail
+			name = AL["Mail"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 77124, [PRICE_EXTRA_ITTYPE] = "money:3572800" }, -- Dragonflayer Vest, Chest
+				{ 2, 77125, [PRICE_EXTRA_ITTYPE] = "money:3585600" }, -- Ghostworld Chestguard, Chest
+				{ 4, 77174, [PRICE_EXTRA_ITTYPE] = "money:2583100" }, -- Sabatons of the Graceful Spirit, Feet
+				{ 5, 77175, [PRICE_EXTRA_ITTYPE] = "money:2573200" }, -- Boneshard Boots, Feet
+				{ 7, 77162, [PRICE_EXTRA_ITTYPE] = "money:1782700" }, -- Arrowflick Gauntlets, Hands
+				{ 8, 77163, [PRICE_EXTRA_ITTYPE] = "money:1789400" }, -- Gloves of Ghostly Dreams, Hands
+				{ 10, 77150, [PRICE_EXTRA_ITTYPE] = "money:2803700" }, -- Zeherah's Dragonskull Crown, Head
+				{ 11, 77151, [PRICE_EXTRA_ITTYPE] = "money:2546000" }, -- Wolfdream Circlet, Head
+				{ 13, 77182, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Cord of Dragon Sinew, Waist
+				{ 14, 77183, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Girdle of Shamanic Fury, Waist
+				{ 16, 77319, [PRICE_EXTRA_ITTYPE] = "money:1868300" }, -- Bracers of the Spectral Wolf, Wrist
+				{ 17, 77321, [PRICE_EXTRA_ITTYPE] = "money:1861700" }, -- Dragonbelly Bracers, Wrist
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Plate
+			name = AL["Plate"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 77119, [PRICE_EXTRA_ITTYPE] = "money:3507100" }, -- Bones of the Damned, Chest
+				{ 2, 77120, [PRICE_EXTRA_ITTYPE] = "money:3520300" }, -- Chestplate of the Unshakable Titan, Chest
+				{ 3, 77123, [PRICE_EXTRA_ITTYPE] = "money:3559600" }, -- Shining Carapace of Glory, Chest
+				{ 5, 77169, [PRICE_EXTRA_ITTYPE] = "money:2759900" }, -- Silver Sabatons of Fury, Feet
+				{ 6, 77170, [PRICE_EXTRA_ITTYPE] = "money:2740400" }, -- Kneebreaker Boots, Feet
+				{ 7, 77171, [PRICE_EXTRA_ITTYPE] = "money:2750300" }, -- Bladeshatter Treads, Feet
+				{ 9, 77164, [PRICE_EXTRA_ITTYPE] = "money:1796000" }, -- Gleaming Grips of Mending, Hands
+				{ 10, 77165, [PRICE_EXTRA_ITTYPE] = "money:1802700" }, -- Grimfist Crushers, Hands
+				{ 11, 77166, [PRICE_EXTRA_ITTYPE] = "money:1856700" }, -- Gauntlets of Feathery Blows, Hands
+				{ 13, 77153, [PRICE_EXTRA_ITTYPE] = "money:2565800" }, -- Glowing Wings of Hope, Head
+				{ 14, 77155, [PRICE_EXTRA_ITTYPE] = "money:2585200" }, -- Visage of Petrification, Head
+				{ 15, 77156, [PRICE_EXTRA_ITTYPE] = "money:2595100" }, -- Jaw of Repudiation, Head
+				{ 16, 77184, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Blinding Girdle of Truth, Waist
+				{ 17, 77185, [PRICE_EXTRA_ITTYPE] = "money:1794100" }, -- Demonbone Waistguard, Waist
+				{ 18, 77186, [PRICE_EXTRA_ITTYPE] = "money:1775200" }, -- Forgesmelter Waistplate, Waist
+				{ 20, 77316, [PRICE_EXTRA_ITTYPE] = "money:1828900" }, -- Flashing Bracers of Warmth, Wrist
+				{ 21, 77317, [PRICE_EXTRA_ITTYPE] = "money:1835500" }, -- Heartcrusher Wristplates, Wrist
+				{ 22, 77318, [PRICE_EXTRA_ITTYPE] = "money:1842000" }, -- Bracers of Unrelenting Excellence, Wrist
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Miscellaneous
+			name = AL["Miscellaneous"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 77078, [PRICE_EXTRA_ITTYPE] = "money:2038700" }, -- Scintillating Rods, Ranged
+				{ 2, 77079, [PRICE_EXTRA_ITTYPE] = "money:2038700" }, -- Hungermouth Wand, Ranged
+				{ 4, 77108, [PRICE_EXTRA_ITTYPE] = "money:224260" }, -- Seal of the Grand Architect, Ring
+				{ 5, 77109, [PRICE_EXTRA_ITTYPE] = "money:224260" }, -- Band of Reconstruction, Ring
+				{ 6, 77110, [PRICE_EXTRA_ITTYPE] = "money:224260" }, -- Ring of Torn Flesh, Ring
+				{ 7, 77111, [PRICE_EXTRA_ITTYPE] = "money:224260" }, -- Emergency Descent Loop, Ring
+				{ 8, 77112, [PRICE_EXTRA_ITTYPE] = "money:227670" }, -- Signet of the Resolute, Ring
+				{ 10, 77088, [PRICE_EXTRA_ITTYPE] = "money:152900" }, -- Opal of the Secret Order, Amulet
+				{ 11, 77089, [PRICE_EXTRA_ITTYPE] = "money:152900" }, -- Threadlinked Chain, Amulet
+				{ 12, 77090, [PRICE_EXTRA_ITTYPE] = "money:152900" }, -- Necklace of Black Dragon's Teeth, Amulet
+				{ 13, 77091, [PRICE_EXTRA_ITTYPE] = "money:152900" }, -- Cameo of Terrible Memories, Amulet
+				{ 14, 77092, [PRICE_EXTRA_ITTYPE] = "money:152410" }, -- Guardspike Choker, Amulet
+				{ 16, 77113, [PRICE_EXTRA_ITTYPE] = "money:312750" }, -- Kiroptyric Sigil, Trinket
+				{ 17, 77114, [PRICE_EXTRA_ITTYPE] = "money:301280" }, -- Bottled Wishes, Trinket
+				{ 18, 77115, [PRICE_EXTRA_ITTYPE] = "money:303510" }, -- Reflection of the Light, Trinket
+				{ 19, 77116, [PRICE_EXTRA_ITTYPE] = "money:313880" }, -- Rotting Skull, Trinket
+				{ 20, 77117, [PRICE_EXTRA_ITTYPE] = "money:299020" }, -- Fire of the Deep, Trinket
+				{ 22, 77095, [PRICE_EXTRA_ITTYPE] = "money:267070" }, -- Batwing Cloak, Cloak
+				{ 23, 77096, [PRICE_EXTRA_ITTYPE] = "money:267070" }, -- Woundlicker Cover, Cloak
+				{ 24, 77097, [PRICE_EXTRA_ITTYPE] = "money:267070" }, -- Dreamcrusher Drape, Cloak
+				{ 25, 77098, [PRICE_EXTRA_ITTYPE] = "money:267070" }, -- Nanoprecise Cape, Cloak
+				{ 26, 77099, [PRICE_EXTRA_ITTYPE] = "money:261330" }, -- Indefatigable Greatcloak, Cloak
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+

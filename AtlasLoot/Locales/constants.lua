@@ -314,6 +314,8 @@ AL["Season %d"] = true
 AL["Warlords Season %d"] = true
 AL["Legion Season %d Elite"] = true
 AL["Legion Season %d"] = true
+AL["Legacy Justice Points Gears"] = true
+AL["Legacy Valor Points Gears"] = true
 
 -- World Events strings
 AL["Permanent/Recurring Events"] = true
