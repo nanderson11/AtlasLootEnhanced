@@ -29,8 +29,6 @@ AL["Shop"] = true
 AL["Summon"] = true
 AL["Trash Mobs"] = true
 
-AL["Nutral"] = true
-
 -- AtlasLoot.lua
 AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader is no longer in use.
 Delete it from your AddOns folder]=]

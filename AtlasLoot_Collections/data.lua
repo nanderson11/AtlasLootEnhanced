@@ -33,7 +33,7 @@ else
 	HORDE_DIFF = data:AddDifficulty(FACTION_HORDE)
 end
 
-local NUTRAL_DIFF = data:AddDifficulty(AL["Nutral"])
+local NEUTRAL_DIFF = data:AddDifficulty(FACTION_STANDING_LABEL4)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
@@ -1247,7 +1247,7 @@ data["MOUNTS"] = {
 				{ 510, "f1848rep8" },
 				{ 515, 128526, "mount", [PRICE_EXTRA_ITTYPE] = "money:25000000" }, -- Deathtusk Felboar
 			},
-			[NUTRAL_DIFF] = {
+			[NEUTRAL_DIFF] = {
 				-- Sha'tari Skyguard, BC
 				{ 1, "f1031rep8" },
 				{ 2, 32314, "mount", [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Green Riding Nether Ray
@@ -2247,8 +2247,8 @@ data["LEGION_LEGENDARIES"] = {
 	name = AL["Legendary Items"].." - "..EXPANSION_NAME6,
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		{
-			name = AL["Normal"],
+		{ -- all classes
+			name = ALL_CLASSES,
 			[LEGENDARY_DIFF] = {
 				{ 1, 144249 }, -- Archimonde's Hatred Reborn
 				{ 2, 144258 }, -- Velen's Future Sight
@@ -2258,7 +2258,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 16, 143613 }, -- Distilled Titan Essence
 			},
 		},
-		{
+		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144280 }, -- Death March
@@ -2279,7 +2279,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 16, 133974 }, -- Lana'thel's Lament
 			},
 		},
-		{
+		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 137061 }, -- Raddon's Cascading Eyes
@@ -2297,7 +2297,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 13, 137038 }, -- Anger of the Half-Giants
 			},
 		},
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144432 }, -- Oakheart's Puny Quods
@@ -2324,7 +2324,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 22, 137042 }, -- Tearstone of Elune
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 137064 }, -- The Shadow Hunter's Voodoo Mask
@@ -2345,7 +2345,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 16, 137055 }, -- Zevrim's Hunger
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144274 }, -- Gravity Spiral
@@ -2365,7 +2365,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 15, 132410 }, -- Shard of the Exodar
 			},
 		},
-		{
+		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 137063 }, -- Fundamental Observation
@@ -2390,7 +2390,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 20, 137045 }, -- Eye of Collidus the Warp-Watcher
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144275 }, -- Saruan's Resolve
@@ -2411,7 +2411,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 16, 137048 }, -- Liadrin's Fury Unleashed
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 133971 }, -- Zenk'aram, Iridi's Anadem
@@ -2435,7 +2435,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 19, 132449 }, -- Phyrix's Embrace
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144236 }, -- Mantle of the Master Assassin
@@ -2452,7 +2452,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 12, 137049 }, -- Insignia of Ravenholdt
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 143732 }, -- Uncertain Reminder
@@ -2473,7 +2473,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 16, 137051 }, -- Focuser of Jonat, the Elder
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 144385 }, -- Wakener's Loyalty
@@ -2495,7 +2495,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 17, 132378 }, -- Sacrolash's Dark Strike
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[LEGENDARY_DIFF] = {
 				{ 1 , 137088 }, -- Ceann-Ar Charger
@@ -2701,6 +2701,7 @@ data["MOLTENFRONT"] = {
 		},
 	},
 }
+
 data["TABARDS"] = {
 	name = AL["Tabards"],
 	ContentType = COLLECTION_CONTENT,
