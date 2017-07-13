@@ -1418,12 +1418,21 @@ end
 
 -- ######################################################
 -- ######################################################
+local ATLASLOOT_INSTANCE_MODULE_LIST = {
+	"AtlasLoot_Legion",
+	"AtlasLoot_WarlordsofDraenor",
+	"AtlasLoot_MistsofPandaria",
+	"AtlasLoot_Cataclysm",
+	"AtlasLoot_WrathoftheLichKing",
+	"AtlasLoot_BurningCrusade",
+	"AtlasLoot_Classic",
+}
 local function CheckInstanceList()
 	local cacheTab = {}
 	local moduleList = {}
 	local retString = ""
 	
-	for k,v in ipairs(AtlasLoot_ModuleList_Loader) do
+	for k,v in ipairs(ATLASLOOT_INSTANCE_MODULE_LIST) do
 		moduleList[v] = k
 	end
 	for iniName, iniTable in pairs(AtlasLoot_Data) do
@@ -1594,12 +1603,21 @@ end
 
 -- diff = max 5
 local instanceList = {
-	317, -- Mogu
-	322, -- Pandaria
-	320, -- Terasse
-	330, -- HoF
-	362, -- Throne
-	369, -- OG
+--	317, -- Mogu
+--	322, -- Pandaria
+--	320, -- Terasse
+--	330, -- HoF
+--	362, -- Throne
+--	369, -- OG
+--	557, -- Draenor
+--	477, -- Highmaul
+--	669, -- HellfireCitadel
+--	457, -- BlackrockFoundry
+	861, -- TrialOfValor
+	786, -- TheNighthold
+	768, -- EmeraldNightmare
+	875, -- Tomb of Sargeras
+	822, -- BrokenIsles
 }
 local difficultys = {7,3,5,4,6,14}
 local numClasses = GetNumClasses()
@@ -1627,7 +1645,7 @@ local function startBonusRollScan()
 					local numLoot = EJ_GetNumLoot()
 					--print(numLoot)
 					for loot=1,numLoot do
-						local name, icon, slot, armorType, itemID, link, encounterID = EJ_GetLootInfoByIndex(loot)
+						local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(loot)
 						if not tab[itemID] then tab[itemID] = {} end
 						if not tab[itemID][classId] then
 							tab[itemID][classId] = {}
