@@ -15,7 +15,7 @@ v8.05.02 (Jul. xx, 2017)
 - Added bonil roll for Broken Shore world bosses and Tomb of Sargeras bosses
 - PvP
   - Added legacy Justice / Valor points gears
-  - Updated Seasons 1~11 items and prices
+  - Updated Seasons 1~12 items and prices
 
 v8.05.01 (Jul. 06, 2017)
 - Fixed the issue of error loading LibBabble-Faction-3.0

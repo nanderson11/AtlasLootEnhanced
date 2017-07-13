@@ -8500,269 +8500,634 @@ data["CLASSICS12SETS"] = {
 	name = string.format(AL["Season %d"], 12).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84853 }, -- Malevolent Gladiator's Dreadplate Helm
-				{ 2, 84918 }, -- Malevolent Gladiator's Dreadplate Shoulders
-				{ 3, 84795 }, -- Malevolent Gladiator's Dreadplate Chestpiece
-				{ 4, 84835 }, -- Malevolent Gladiator's Dreadplate Gauntlets
-				{ 5, 84872 }, -- Malevolent Gladiator's Dreadplate Legguards
-				{ 16, 84374, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Helm
-				{ 17, 84376, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dreadplate Shoulders
-				{ 18, 84372, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Chestpiece
-				{ 19, 84373, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dreadplate Gauntlets
-				{ 20, 84375, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Legguards
+				{ 1, 138715, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Dreadplate Armor, slot:0
+				{ 3, 84372, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Chestpiece, Chest
+				{ 4, 84373, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dreadplate Gauntlets, Hands
+				{ 5, 84374, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Helm, Head
+				{ 6, 84375, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dreadplate Legguards, Legs
+				{ 7, 84376, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dreadplate Shoulders, Shoulder
+
+				{ 16, 138704, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Dreadplate Armor, slot:0
+				{ 18, 91500, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dreadplate Chestpiece, Chest
+				{ 19, 91502, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Dreadplate Gauntlets, Hands
+				{ 20, 91504, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dreadplate Helm, Head
+				{ 21, 91506, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dreadplate Legguards, Legs
+				{ 22, 91508, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Dreadplate Shoulders, Shoulder
+
+				{ 101, 84491, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Alacrity, Cloak
+				{ 102, 84492, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Prowess, Cloak
+				{ 103, 84436, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Cruelty, Feet
+				{ 104, 84437, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Alacrity, Feet
+				{ 105, 84434, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Accuracy, Waist
+				{ 106, 84435, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Prowess, Waist
+				{ 107, 84438, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Proficiency, Wrists
+				{ 108, 84439, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Alacrity, Wrists
+
+				{ 116, 91764, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Alacrity, Cloak
+				{ 117, 91765, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Prowess, Cloak
+				{ 118, 91654, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Cruelty, Feet
+				{ 119, 91656, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Alacrity, Feet
+				{ 120, 91650, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Accuracy, Waist
+				{ 121, 91652, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Prowess, Waist
+				{ 122, 91658, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Proficiency, Wrists
+				{ 123, 91659, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Alacrity, Wrists
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84852 }, -- Malevolent Gladiator's Dragonhide Helm
-				{ 2, 84916 }, -- Malevolent Gladiator's Dragonhide Spaulders
-				{ 3, 84901 }, -- Malevolent Gladiator's Dragonhide Robes
-				{ 4, 84832 }, -- Malevolent Gladiator's Dragonhide Gloves
-				{ 5, 84871 }, -- Malevolent Gladiator's Dragonhide Legguards
-				{ 7, 84850 }, -- Malevolent Gladiator's Kodohide Helm
-				{ 8, 84927 }, -- Malevolent Gladiator's Kodohide Spaulders
-				{ 9, 84907 }, -- Malevolent Gladiator's Kodohide Robes
-				{ 10, 84833 }, -- Malevolent Gladiator's Kodohide Gloves
-				{ 11, 84882 }, -- Malevolent Gladiator's Kodohide Legguards
-				{ 16, 84861 }, -- Malevolent Gladiator's Wyrmhide Helm
-				{ 17, 84925 }, -- Malevolent Gladiator's Wyrmhide Spaulders
-				{ 18, 84906 }, -- Malevolent Gladiator's Wyrmhide Robes
-				{ 19, 84843 }, -- Malevolent Gladiator's Wyrmhide Gloves
-				{ 20, 84880 }, -- Malevolent Gladiator's Wyrmhide Legguards
-				{ 101, 84378, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Helm
-				{ 102, 84381, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dragonhide Spaulders
-				{ 103, 84380, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Robes
-				{ 104, 84377, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dragonhide Gloves
-				{ 105, 84379, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Legguards
-				{ 107, 84386, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Helm
-				{ 109, 84389, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Kodohide Spaulders
-				{ 110, 84388, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Robes
-				{ 111, 84385, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Kodohide Gloves
-				{ 112, 84387, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Legguards
-				{ 116, 84394, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Helm
-				{ 117, 84397, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Wyrmhide Spaulders
-				{ 118, 84396, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Robes
-				{ 119, 84393, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Wyrmhide Gloves
-				{ 120, 84395, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Legguards
+				{ 1, 138719, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Dragonhide Armor, slot:0
+				{ 3, 84377, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dragonhide Gloves, Hands
+				{ 4, 84378, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Helm, Head
+				{ 5, 84379, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Legguards, Legs
+				{ 6, 84380, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Dragonhide Robes, Chest
+				{ 7, 84381, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Dragonhide Spaulders, Shoulder
+				{ 9 , 84385, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Kodohide Gloves, Hands
+				{ 10, 84386, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Helm, Head
+				{ 11, 84387, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Legguards, Legs
+				{ 12, 84388, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Kodohide Robes, Chest
+				{ 13, 84389, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Kodohide Spaulders, Shoulder
+				{ 18, 84393, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Wyrmhide Gloves, Hands
+				{ 19, 84394, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Helm, Head
+				{ 20, 84395, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Legguards, Legs
+				{ 21, 84396, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Wyrmhide Robes, Chest
+				{ 22, 84397, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Wyrmhide Spaulders, Shoulder
+
+				{ 101, 138708, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Dragonhide Armor, slot:0
+				{ 103, 91510, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Dragonhide Gloves, Hands
+				{ 104, 91512, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dragonhide Helm, Head
+				{ 105, 91514, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dragonhide Legguards, Legs
+				{ 106, 91516, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Dragonhide Robes, Chest
+				{ 107, 91518, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Dragonhide Spaulders, Shoulder
+				{ 109, 91525, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Kodohide Gloves, Hands
+				{ 110, 91527, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Kodohide Helm, Head
+				{ 111, 91529, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Kodohide Legguards, Legs
+				{ 112, 91531, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Kodohide Robes, Chest
+				{ 113, 91533, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Kodohide Spaulders, Shoulder
+				{ 118, 91542, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Wyrmhide Gloves, Hands
+				{ 119, 91544, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Wyrmhide Helm, Head
+				{ 120, 91546, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Wyrmhide Legguards, Legs
+				{ 121, 91548, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Wyrmhide Robes, Chest
+				{ 122, 91550, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Wyrmhide Spaulders, Shoulder
+
+				{ 201, 84345, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Cruelty, Cloak
+				{ 202, 84346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Prowess, Cloak
+				{ 203, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 204, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 205, 84364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Meditation, Cloak
+				{ 207, 84390, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Belt of Cruelty, Waist
+				{ 208, 84382, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Belt of Meditation, Waist
+				{ 209, 84457, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Accuracy, Waist
+				{ 210, 84456, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Cruelty, Waist
+				
+				{ 301, 84384, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bindings of Meditation, Wrists
+				{ 302, 84392, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bindings of Prowess, Wrists
+				{ 303, 84461, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Accuracy, Wrists
+				{ 304, 84460, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Alacrity, Wrists
+				{ 306, 84391, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Alacrity, Feet
+				{ 307, 84383, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Meditation, Feet
+				{ 308, 84459, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Alacrity, Feet
+				{ 309, 84458, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Cruelty, Feet
+				
+				{ 216, 91453, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Cruelty, Cloak
+				{ 217, 91454, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Prowess, Cloak
+				{ 218, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 219, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 220, 91479, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Meditation, Cloak
+				{ 222, 91537, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Belt of Cruelty, Waist
+				{ 223, 91520, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Belt of Meditation, Waist
+				{ 224, 91688, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Accuracy, Waist
+				{ 225, 91595, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Cruelty, Waist
+				
+				{ 316, 91524, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bindings of Meditation, Wrists
+				{ 317, 91541, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bindings of Prowess, Wrists
+				{ 318, 91599, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Accuracy, Wrists
+				{ 319, 91692, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Alacrity, Wrists
+				{ 321, 91539, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Alacrity, Feet
+				{ 322, 91522, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Meditation, Feet
+				{ 323, 91597, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Alacrity, Feet
+				{ 324, 91690, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Cruelty, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84858 }, -- Malevolent Gladiator's Chain Helm
-				{ 2, 84921 }, -- Malevolent Gladiator's Chain Spaulders
-				{ 3, 84796 }, -- Malevolent Gladiator's Chain Armor
-				{ 4, 84841 }, -- Malevolent Gladiator's Chain Gauntlets
-				{ 5, 84874 }, -- Malevolent Gladiator's Chain Leggings
-				{ 16, 84410, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Helm
-				{ 17, 84412, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Chain Spaulders
-				{ 18, 84408, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Armor
-				{ 19, 84409, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Chain Gauntlets
-				{ 20, 84411, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Leggings
+				{ 1, 138718, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Chain Armor, slot:0
+				{ 3, 84408, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Armor, Chest
+				{ 4, 84409, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Chain Gauntlets, Hands
+				{ 5, 84410, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Helm, Head
+				{ 6, 84411, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Chain Leggings, Legs
+				{ 7, 84412, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Chain Spaulders, Shoulder
+
+				{ 16, 138707, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Chain Armor, slot:0
+				{ 18, 91575, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Chain Armor, Chest
+				{ 19, 91577, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Chain Gauntlets, Hands
+				{ 20, 91579, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Chain Helm, Head
+				{ 21, 91581, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Chain Leggings, Legs
+				{ 22, 91583, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Chain Spaulders, Shoulder
+
+				{ 101, 84345, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Cruelty, Cloak
+				{ 102, 84346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Prowess, Cloak
+				{ 103, 84403, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Links of Accuracy, Waist
+				{ 104, 84402, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Links of Cruelty, Waist
+				{ 105, 84405, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Sabatons of Alacrity, Feet
+				{ 106, 84404, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Sabatons of Cruelty, Feet
+				{ 107, 84407, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Wristguards of Accuracy, Wrists
+				{ 108, 84406, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Wristguards of Alacrity, Wrists
+
+				{ 116, 91453, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Cruelty, Cloak
+				{ 117, 91454, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Prowess, Cloak
+				{ 118, 91567, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Links of Accuracy, Waist
+				{ 119, 91565, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Links of Cruelty, Waist
+				{ 120, 91571, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Sabatons of Alacrity, Feet
+				{ 121, 91569, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Sabatons of Cruelty, Feet
+				{ 122, 91574, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Wristguards of Accuracy, Wrists
+				{ 123, 91573, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Wristguards of Alacrity, Wrists
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84855 }, -- Malevolent Gladiator's Silk Cowl
-				{ 2, 84917 }, -- Malevolent Gladiator's Silk Amice
-				{ 3, 84904 }, -- Malevolent Gladiator's Silk Robe
-				{ 4, 84837 }, -- Malevolent Gladiator's Silk Handguards
-				{ 5, 84875 }, -- Malevolent Gladiator's Silk Trousers
-				{ 16, 84414, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Cowl
-				{ 17, 84417, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Silk Amice
-				{ 18, 84416, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Robe
-				{ 19, 84413, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Silk Handguards
-				{ 20, 84415, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Trousers
+				{ 1, 138722, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Silk Armor, slot:0
+				{ 3, 84417, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Silk Amice, Shoulder
+				{ 4, 84414, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Cowl, Head
+				{ 5, 84413, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Silk Handguards, Hands
+				{ 6, 84416, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Robe, Chest
+				{ 7, 84415, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Silk Trousers, Legs
+
+				{ 16, 138711, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Silk Armor, slot:0
+				{ 18, 91593, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Silk Amice, Shoulder
+				{ 19, 91587, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Silk Cowl, Head
+				{ 20, 91585, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Silk Handguards, Hands
+				{ 21, 91591, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Silk Robe, Chest
+				{ 22, 91589, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Silk Trousers, Legs
+
+				{ 101, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 102, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 103, 84354, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Accuracy, Waist
+				{ 104, 84353, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Cruelty, Waist
+				{ 105, 84355, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Meditation, Waist
+				{ 106, 84359, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Accuracy, Wrists
+				{ 107, 84361, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Meditation, Wrists
+				{ 108, 84360, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Prowess, Wrists
+				{ 109, 84357, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Alacrity, Feet
+				{ 110, 84356, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Cruelty, Feet
+				{ 111, 84358, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Meditation, Feet
+
+				{ 116, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 117, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 118, 91464, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Accuracy, Waist
+				{ 119, 91462, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Cruelty, Waist
+				{ 120, 91466, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Meditation, Waist
+				{ 121, 91474, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Accuracy, Wrists
+				{ 122, 91476, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Meditation, Wrists
+				{ 123, 91475, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Prowess, Wrists
+				{ 124, 91470, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Alacrity, Feet
+				{ 125, 91468, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Cruelty, Feet
+				{ 126, 91472, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Meditation, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84854 }, -- Malevolent Gladiator's Copperskin Helm
-				{ 2, 84920 }, -- Malevolent Gladiator's Copperskin Spaulders
-				{ 3, 84903 }, -- Malevolent Gladiator's Copperskin Tunic
-				{ 4, 84836 }, -- Malevolent Gladiator's Copperskin Gloves
-				{ 5, 84873 }, -- Malevolent Gladiator's Copperskin Legguards
-				{ 7, 84857 }, -- Malevolent Gladiator's Ironskin Helm
-				{ 8, 84919 }, -- Malevolent Gladiator's Ironskin Spaulders
-				{ 9, 84902 }, -- Malevolent Gladiator's Ironskin Tunic
-				{ 10, 84839 }, -- Malevolent Gladiator's Ironskin Gloves
-				{ 11, 84877 }, -- Malevolent Gladiator's Ironskin Legguards
-				{ 16, 84549, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Helm
-				{ 17, 84552, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Copperskin Spaulders
-				{ 18, 84551, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Tunic
-				{ 19, 84548, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Copperskin Gloves
-				{ 20, 84550, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Legguards
-				{ 22, 84544, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Helm
-				{ 23, 84547, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ironskin Spaulders
-				{ 24, 84546, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Tunic
-				{ 25, 84543, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ironskin Gloves
-				{ 26, 84545, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Legguards
+				{ 1, 138720, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Ironskin Armor, slot:0
+				{ 3, 84548, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Copperskin Gloves, Hands
+				{ 4, 84549, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Helm, Head
+				{ 5, 84550, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Legguards, Legs
+				{ 6, 84552, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Copperskin Spaulders, Shoulder
+				{ 7, 84551, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Copperskin Tunic, Chest
+				{ 9 , 84543, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ironskin Gloves, Hands
+				{ 10, 84544, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Helm, Head
+				{ 11, 84545, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Legguards, Legs
+				{ 12, 84547, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ironskin Spaulders, Shoulder
+				{ 13, 84546, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ironskin Tunic, Chest
+
+				{ 16, 138709, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Ironskin Armor, slot:0
+				{ 18, 91610, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Copperskin Gloves, Hands
+				{ 19, 91612, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Copperskin Helm, Head
+				{ 20, 91614, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Copperskin Legguards, Legs
+				{ 21, 91616, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Copperskin Spaulders, Shoulder
+				{ 22, 91618, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Copperskin Tunic, Chest
+				{ 24, 91600, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ironskin Gloves, Hands
+				{ 25, 91602, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ironskin Helm, Head
+				{ 26, 91604, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ironskin Legguards, Legs
+				{ 27, 91606, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ironskin Spaulders, Shoulder
+				{ 28, 91608, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ironskin Tunic, Chest
+
+				{ 101, 84345, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Cruelty, Cloak
+				{ 102, 84346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Prowess, Cloak
+				{ 103, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 104, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 105, 84364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Meditation, Cloak
+				{ 107, 84390, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Belt of Cruelty, Waist
+				{ 108, 84382, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Belt of Meditation, Waist
+				{ 109, 84457, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Accuracy, Waist
+				{ 110, 84456, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Cruelty, Waist
+				
+				{ 201, 84384, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bindings of Meditation, Wrists
+				{ 202, 84392, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bindings of Prowess, Wrists
+				{ 203, 84461, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Accuracy, Wrists
+				{ 204, 84460, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Alacrity, Wrists
+				{ 206, 84391, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Alacrity, Feet
+				{ 207, 84383, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Meditation, Feet
+				{ 208, 84459, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Alacrity, Feet
+				{ 209, 84458, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Cruelty, Feet
+
+				{ 116, 91453, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Cruelty, Cloak
+				{ 117, 91454, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Prowess, Cloak
+				{ 118, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 119, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 120, 91479, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Meditation, Cloak
+				{ 122, 91537, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Belt of Cruelty, Waist
+				{ 123, 91520, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Belt of Meditation, Waist
+				{ 124, 91688, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Accuracy, Waist
+				{ 125, 91595, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Cruelty, Waist
+				
+				{ 216, 91524, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bindings of Meditation, Wrists
+				{ 217, 91541, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bindings of Prowess, Wrists
+				{ 218, 91599, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Accuracy, Wrists
+				{ 219, 91692, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Alacrity, Wrists
+				{ 221, 91539, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Alacrity, Feet
+				{ 222, 91522, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Meditation, Feet
+				{ 223, 91597, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Alacrity, Feet
+				{ 224, 91690, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Cruelty, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84849 }, -- Malevolent Gladiator's Ornamented Headcover
-				{ 2, 84914 }, -- Malevolent Gladiator's Ornamented Spaulders
-				{ 3, 84793 }, -- Malevolent Gladiator's Ornamented Chestguard
-				{ 4, 84831 }, -- Malevolent Gladiator's Ornamented Gloves
-				{ 5, 84869 }, -- Malevolent Gladiator's Ornamented Legplates
-				{ 7, 84851 }, -- Malevolent Gladiator's Scaled Helm
-				{ 8, 84915 }, -- Malevolent Gladiator's Scaled Shoulders
-				{ 9, 84794 }, -- Malevolent Gladiator's Scaled Chestpiece
-				{ 10, 84834 }, -- Malevolent Gladiator's Scaled Gauntlets
-				{ 11, 84870 }, -- Malevolent Gladiator's Scaled Legguards
-				{ 16, 84431, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Headcover
-				{ 17, 84433, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ornamented Spaulders
-				{ 18, 84429, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Chestguard
-				{ 19, 84430, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ornamented Gloves
-				{ 20, 84432, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Legplates
-				{ 22, 84420, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Helm
-				{ 23, 84422, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Scaled Shoulders
-				{ 24, 84418, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Chestpiece
-				{ 25, 84419, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Scaled Gauntlets
-				{ 26, 84421, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Legguards
+				{ 1, 138716, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Scaled Armor, slot:0
+				{ 3, 84429, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Chestguard, Chest
+				{ 4, 84430, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ornamented Gloves, Hands
+				{ 5, 84431, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Headcover, Head
+				{ 6, 84432, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ornamented Legplates, Legs
+				{ 7, 84433, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ornamented Spaulders, Shoulder
+				{ 9 , 84418, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Chestpiece, Chest
+				{ 10, 84419, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Scaled Gauntlets, Hands
+				{ 11, 84420, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Helm, Head
+				{ 12, 84421, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Scaled Legguards, Legs
+				{ 13, 84422, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Scaled Shoulders, Shoulder
+
+				{ 16, 138705, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Scaled Armor, slot:0
+				{ 18, 91640, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ornamented Chestguard, Chest
+				{ 19, 91642, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ornamented Gloves, Hands
+				{ 20, 91644, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ornamented Headcover, Head
+				{ 21, 91646, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ornamented Legplates, Legs
+				{ 22, 91648, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ornamented Spaulders, Shoulder
+				{ 24, 91620, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Scaled Chestpiece, Chest
+				{ 25, 91622, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Scaled Gauntlets, Hands
+				{ 26, 91624, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Scaled Helm, Head
+				{ 27, 91626, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Scaled Legguards, Legs
+				{ 28, 91628, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Scaled Shoulders, Shoulder
+
+				{ 101, 84491, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Alacrity, Cloak
+				{ 102, 84492, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Prowess, Cloak
+				{ 103, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 104, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 105, 84364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Meditation, Cloak
+				{ 107, 84428, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bracers of Meditation, Wrists
+				{ 108, 84427, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Bracers of Prowess, Wrists
+				{ 109, 84438, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Proficiency, Wrists
+				{ 110, 84439, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Alacrity, Wrists
+				
+				{ 201, 84423, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Clasp of Cruelty, Waist
+				{ 202, 84424, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Clasp of Meditation, Waist
+				{ 203, 84434, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Accuracy, Waist
+				{ 204, 84435, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Prowess, Waist
+				{ 206, 84425, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Greaves of Alacrity, Feet
+				{ 207, 84426, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Greaves of Meditation, Feet
+				{ 208, 84436, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Cruelty, Feet
+				{ 209, 84437, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Alacrity, Feet
+
+				{ 116, 91764, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Alacrity, Cloak
+				{ 117, 91765, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Prowess, Cloak
+				{ 118, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 119, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 120, 91479, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Meditation, Cloak
+				{ 122, 91639, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bracers of Meditation, Wrists
+				{ 123, 91638, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Bracers of Prowess, Wrists
+				{ 124, 91658, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Proficiency, Wrists
+				{ 125, 91659, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Alacrity, Wrists
+				
+				{ 216, 91630, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Clasp of Cruelty, Waist
+				{ 217, 91632, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Clasp of Meditation, Waist
+				{ 218, 91650, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Accuracy, Waist
+				{ 219, 91652, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Prowess, Waist
+				{ 221, 91634, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Greaves of Alacrity, Feet
+				{ 222, 91636, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Greaves of Meditation, Feet
+				{ 223, 91654, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Cruelty, Feet
+				{ 224, 91656, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Alacrity, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84863 }, -- Malevolent Gladiator's Mooncloth Helm
-				{ 2, 84928 }, -- Malevolent Gladiator's Mooncloth Mantle
-				{ 3, 84908 }, -- Malevolent Gladiator's Mooncloth Robe
-				{ 4, 84846 }, -- Malevolent Gladiator's Mooncloth Gloves
-				{ 5, 84883 }, -- Malevolent Gladiator's Mooncloth Leggings
-				{ 7, 84864 }, -- Malevolent Gladiator's Satin Hood
-				{ 8, 84929 }, -- Malevolent Gladiator's Satin Mantle
-				{ 9, 84909 }, -- Malevolent Gladiator's Satin Robe
-				{ 10, 84838 }, -- Malevolent Gladiator's Satin Gloves
-				{ 11, 84884 }, -- Malevolent Gladiator's Satin Leggings
-				{ 16, 84441, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Helm
-				{ 17, 84444, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mooncloth Mantle
-				{ 18, 84443, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Robe
-				{ 19, 84440, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mooncloth Gloves
-				{ 20, 84442, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Leggings
-				{ 22, 84446, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Hood
-				{ 23, 84449, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Satin Mantle
-				{ 24, 84448, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Robe
-				{ 25, 84445, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Satin Gloves
-				{ 26, 84447, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Leggings
+				{ 1, 138723, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Satin Armor, slot:0
+				{ 3, 84440, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mooncloth Gloves, Hands
+				{ 4, 84441, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Helm, Head
+				{ 5, 84442, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Leggings, Legs
+				{ 6, 84444, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mooncloth Mantle, Shoulder
+				{ 7, 84443, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mooncloth Robe, Chest
+				{ 9 , 84445, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Satin Gloves, Hands
+				{ 10, 84446, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Hood, Head
+				{ 11, 84447, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Leggings, Legs
+				{ 12, 84449, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Satin Mantle, Shoulder
+				{ 13, 84448, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Satin Robe, Chest
+
+				{ 16, 138712, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Satin Armor, slot:0
+				{ 18, 91662, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Mooncloth Gloves, Hands
+				{ 19, 91664, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mooncloth Helm, Head
+				{ 20, 91666, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mooncloth Leggings, Legs
+				{ 21, 91670, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Mooncloth Mantle, Shoulder
+				{ 22, 91668, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mooncloth Robe, Chest
+				{ 24, 91672, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Satin Gloves, Hands
+				{ 25, 91674, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Satin Hood, Head
+				{ 26, 91676, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Satin Leggings, Legs
+				{ 27, 91680, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Satin Mantle, Shoulder
+				{ 28, 91678, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Satin Robe, Chest
+
+				{ 101, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 102, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 103, 84364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Meditation, Cloak
+				{ 105, 84354, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Accuracy, Waist
+				{ 106, 84353, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Cruelty, Waist
+				{ 107, 84355, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Meditation, Waist
+				{ 109, 84359, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Accuracy, Wrists
+				{ 110, 84361, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Meditation, Wrists
+				{ 111, 84360, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Prowess, Wrists
+				{ 113, 84357, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Alacrity, Feet
+				{ 114, 84356, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Cruelty, Feet
+				{ 115, 84358, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Meditation, Feet
+
+				{ 116, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 117, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 118, 91479, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Meditation, Cloak
+				{ 120, 91464, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Accuracy, Waist
+				{ 121, 91462, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Cruelty, Waist
+				{ 122, 91466, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Meditation, Waist
+				{ 124, 91474, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Accuracy, Wrists
+				{ 125, 91476, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Meditation, Wrists
+				{ 126, 91475, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Prowess, Wrists
+				{ 128, 91470, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Alacrity, Feet
+				{ 129, 91468, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Cruelty, Feet
+				{ 130, 91472, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Meditation, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84848 }, -- Malevolent Gladiator's Leather Helm
-				{ 2, 84913 }, -- Malevolent Gladiator's Leather Spaulders
-				{ 3, 84792 }, -- Malevolent Gladiator's Leather Tunic
-				{ 4, 84830 }, -- Malevolent Gladiator's Leather Gloves
-				{ 5, 84868 }, -- Malevolent Gladiator's Leather Legguards
-				{ 16, 84464, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Helm
-				{ 17, 84466, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Leather Spaulders
-				{ 18, 84462, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Tunic
-				{ 19, 84463, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Leather Gloves
-				{ 20, 84465, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Legguards
+				{ 1, 138721, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Leather Armor, slot:0
+				{ 3, 84463, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Leather Gloves, Hands
+				{ 4, 84464, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Helm, Head
+				{ 5, 84465, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Legguards, Legs
+				{ 6, 84466, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Leather Spaulders, Shoulder
+				{ 7, 84462, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Leather Tunic, Chest
+
+				{ 16, 138710, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Leather Armor, slot:0
+				{ 18, 91695, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Leather Gloves, Hands
+				{ 19, 91697, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Leather Helm, Head
+				{ 20, 91699, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Leather Legguards, Legs
+				{ 21, 91701, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Leather Spaulders, Shoulder
+				{ 22, 91693, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Leather Tunic, Chest
+
+				{ 101, 84345, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Cruelty, Cloak
+				{ 102, 84346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Prowess, Cloak
+				{ 103, 84461, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Accuracy, Wrists
+				{ 104, 84460, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armwraps of Alacrity, Wrists
+				{ 105, 84459, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Alacrity, Feet
+				{ 106, 84458, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Boots of Cruelty, Feet
+				{ 107, 84457, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Accuracy, Waist
+				{ 108, 84456, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistband of Cruelty, Waist
+
+				{ 116, 91453, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Cruelty, Cloak
+				{ 117, 91454, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Prowess, Cloak
+				{ 118, 91599, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Accuracy, Wrists
+				{ 119, 91692, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armwraps of Alacrity, Wrists
+				{ 120, 91597, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Alacrity, Feet
+				{ 121, 91690, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Boots of Cruelty, Feet
+				{ 122, 91688, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Accuracy, Waist
+				{ 123, 91595, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistband of Cruelty, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84862 }, -- Malevolent Gladiator's Linked Helm
-				{ 2, 84926 }, -- Malevolent Gladiator's Linked Spaulders
-				{ 3, 84799 }, -- Malevolent Gladiator's Linked Armor
-				{ 4, 84844 }, -- Malevolent Gladiator's Linked Gauntlets
-				{ 5, 84881 }, -- Malevolent Gladiator's Linked Leggings
-				{ 7, 84860 }, -- Malevolent Gladiator's Mail Helm
-				{ 8, 84924 }, -- Malevolent Gladiator's Mail Spaulders
-				{ 9, 84798 }, -- Malevolent Gladiator's Mail Armor
-				{ 10, 84845 }, -- Malevolent Gladiator's Mail Gauntlets
-				{ 11, 84879 }, -- Malevolent Gladiator's Mail Leggings
-				{ 16, 84865 }, -- Malevolent Gladiator's Ringmail Helm
-				{ 17, 84930 }, -- Malevolent Gladiator's Ringmail Spaulders
-				{ 18, 84800 }, -- Malevolent Gladiator's Ringmail Armor
-				{ 19, 84847 }, -- Malevolent Gladiator's Ringmail Gauntlets
-				{ 20, 84885 }, -- Malevolent Gladiator's Ringmail Leggings
-				{ 101, 84479, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Helm
-				{ 102, 84481, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Linked Spaulders
-				{ 103, 84477, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Armor
-				{ 104, 84478, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Linked Gauntlets
-				{ 205, 84480, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Leggings
-				{ 107, 84485, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Helm
-				{ 108, 84487, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mail Spaulders
-				{ 109, 84483, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Armor
-				{ 110, 84484, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mail Gauntlets
-				{ 111, 84486, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Leggings
-				{ 116, 84474, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Helm
-				{ 117, 84476, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ringmail Spaulders
-				{ 118, 84472, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Armor
-				{ 119, 84473, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ringmail Gauntlets
-				{ 120, 84475, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Leggings
+				{ 1, 138717, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Ringmail Armor, slot:0
+				{ 3, 84477, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Armor, Chest
+				{ 4, 84478, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Linked Gauntlets, Hands
+				{ 5, 84479, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Helm, Head
+				{ 6, 84480, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Linked Leggings, Legs
+				{ 7, 84481, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Linked Spaulders, Shoulder
+				{ 9 , 84483, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Armor, Chest
+				{ 10, 84484, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mail Gauntlets, Hands
+				{ 11, 84485, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Helm, Head
+				{ 12, 84486, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Mail Leggings, Legs
+				{ 13, 84487, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Mail Spaulders, Shoulder
+				{ 18, 84472, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Armor, Chest
+				{ 19, 84473, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ringmail Gauntlets, Hands
+				{ 20, 84474, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Helm, Head
+				{ 21, 84475, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Ringmail Leggings, Legs
+				{ 22, 84476, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Ringmail Spaulders, Shoulder
+
+				{ 101, 138706, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Ringmail Armor, slot:0
+				{ 103, 91721, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Linked Armor, Chest
+				{ 104, 91723, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Linked Gauntlets, Hands
+				{ 105, 91725, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Linked Helm, Head
+				{ 106, 91727, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Linked Leggings, Legs
+				{ 107, 91729, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Linked Spaulders, Shoulder
+				{ 109, 91733, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mail Armor, Chest
+				{ 110, 91735, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Mail Gauntlets, Hands
+				{ 111, 91737, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mail Helm, Head
+				{ 112, 91739, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Mail Leggings, Legs
+				{ 113, 91741, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Mail Spaulders, Shoulder
+				{ 118, 91711, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ringmail Armor, Chest
+				{ 119, 91713, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ringmail Gauntlets, Hands
+				{ 120, 91715, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ringmail Helm, Head
+				{ 121, 91717, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Ringmail Leggings, Legs
+				{ 122, 91719, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Ringmail Spaulders, Shoulder
+
+				{ 201, 84345, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Cruelty, Cloak
+				{ 202, 84346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cape of Prowess, Cloak
+				{ 203, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 204, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 205, 84364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Meditation, Cloak
+				{ 207, 84403, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Links of Accuracy, Waist
+				{ 208, 84402, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Links of Cruelty, Waist
+				{ 209, 84482, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistguard of Cruelty, Waist
+				{ 210, 84467, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Waistguard of Meditation, Waist
+				
+				{ 301, 84405, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Sabatons of Alacrity, Feet
+				{ 302, 84404, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Sabatons of Cruelty, Feet
+				{ 303, 84468, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Alacrity, Feet
+				{ 304, 84469, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Footguards of Meditation, Feet
+				{ 306, 84407, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Wristguards of Accuracy, Wrists
+				{ 307, 84406, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Wristguards of Alacrity, Wrists
+				{ 308, 84471, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armbands of Meditation, Wrists
+				{ 309, 84470, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armbands of Prowess, Wrists
+
+				{ 216, 91453, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Cruelty, Cloak
+				{ 217, 91454, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cape of Prowess, Cloak
+				{ 218, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 219, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 220, 91479, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Meditation, Cloak
+				{ 222, 91567, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Links of Accuracy, Waist
+				{ 223, 91565, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Links of Cruelty, Waist
+				{ 224, 91731, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistguard of Cruelty, Waist
+				{ 225, 91703, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Waistguard of Meditation, Waist
+				
+				{ 316, 91571, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Sabatons of Alacrity, Feet
+				{ 317, 91569, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Sabatons of Cruelty, Feet
+				{ 318, 91705, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Alacrity, Feet
+				{ 319, 91707, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Footguards of Meditation, Feet
+				{ 321, 91574, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Wristguards of Accuracy, Wrists
+				{ 322, 91573, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Wristguards of Alacrity, Wrists
+				{ 323, 91710, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armbands of Meditation, Wrists
+				{ 324, 91709, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armbands of Prowess, Wrists
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84859 }, -- Malevolent Gladiator's Felweave Cowl
-				{ 2, 84923 }, -- Malevolent Gladiator's Felweave Amice
-				{ 3, 84905 }, -- Malevolent Gladiator's Felweave Raiment
-				{ 4, 84842 }, -- Malevolent Gladiator's Felweave Handguards
-				{ 5, 84878 }, -- Malevolent Gladiator's Felweave Trousers
-				{ 16, 84500, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Cowl
-				{ 17, 84503, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Felweave Amice
-				{ 18, 84502, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Raiment
-				{ 19, 84499, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Felweave Handguards
-				{ 20, 84501, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Trousers
+				{ 1, 138724, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Felweave Armor, slot:0
+				{ 3, 84503, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Felweave Amice, Shoulder
+				{ 4, 84500, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Cowl, Head
+				{ 5, 84499, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Felweave Handguards, Hands
+				{ 6, 84502, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Raiment, Chest
+				{ 7, 84501, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Felweave Trousers, Legs
+
+				{ 16, 138713, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Felweave Armor, slot:0
+				{ 18, 91781, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Felweave Amice, Shoulder
+				{ 19, 91775, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Felweave Cowl, Head
+				{ 20, 91773, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Felweave Handguards, Hands
+				{ 21, 91779, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Felweave Raiment, Chest
+				{ 22, 91777, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Felweave Trousers, Legs
+
+				{ 101, 84363, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Cruelty, Cloak
+				{ 102, 84362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Drape of Prowess, Cloak
+				{ 103, 84354, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Accuracy, Waist
+				{ 104, 84353, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Cruelty, Waist
+				{ 105, 84355, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cord of Meditation, Waist
+				{ 106, 84359, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Accuracy, Wrists
+				{ 107, 84361, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Meditation, Wrists
+				{ 108, 84360, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cuffs of Prowess, Wrists
+				{ 109, 84357, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Alacrity, Feet
+				{ 110, 84356, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Cruelty, Feet
+				{ 111, 84358, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Treads of Meditation, Feet
+
+				{ 116, 91477, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Cruelty, Cloak
+				{ 117, 91478, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Drape of Prowess, Cloak
+				{ 118, 91464, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Accuracy, Waist
+				{ 119, 91462, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Cruelty, Waist
+				{ 120, 91466, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cord of Meditation, Waist
+				{ 121, 91474, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Accuracy, Wrists
+				{ 122, 91476, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Meditation, Wrists
+				{ 123, 91475, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cuffs of Prowess, Wrists
+				{ 124, 91470, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Alacrity, Feet
+				{ 125, 91468, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Cruelty, Feet
+				{ 126, 91472, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Treads of Meditation, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 84856 }, -- Malevolent Gladiator's Plate Helm
-				{ 2, 84922 }, -- Malevolent Gladiator's Plate Shoulders
-				{ 3, 84797 }, -- Malevolent Gladiator's Plate Chestpiece
-				{ 4, 84840 }, -- Malevolent Gladiator's Plate Gauntlets
-				{ 5, 84876 }, -- Malevolent Gladiator's Plate Legguards
-				{ 16, 84506, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Helm
-				{ 17, 84508, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Plate Shoulders
-				{ 18, 84504, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Chestpiece
-				{ 19, 84505, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Plate Gauntlets
-				{ 20, 84507, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Legguards
+				{ 1, 138714, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Dreadful Gladiator's Plate Armor, slot:0
+				{ 3, 84504, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Chestpiece, Chest
+				{ 4, 84505, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Plate Gauntlets, Hands
+				{ 5, 84506, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Helm, Head
+				{ 6, 84507, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Dreadful Gladiator's Plate Legguards, Legs
+				{ 7, 84508, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Plate Shoulders, Shoulder
+
+				{ 16, 138703, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Malevolent Gladiator's Plate Armor, slot:0
+				{ 18, 91783, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Plate Chestpiece, Chest
+				{ 19, 91785, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Plate Gauntlets, Hands
+				{ 20, 91787, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Plate Helm, Head
+				{ 21, 91789, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Malevolent Gladiator's Plate Legguards, Legs
+				{ 22, 91791, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Plate Shoulders, Shoulder
+
+				{ 101, 84491, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Alacrity, Cloak
+				{ 102, 84492, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Cloak of Prowess, Cloak
+				{ 103, 84436, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Cruelty, Feet
+				{ 104, 84437, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Dreadful Gladiator's Warboots of Alacrity, Feet
+				{ 105, 84434, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Accuracy, Waist
+				{ 106, 84435, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Girdle of Prowess, Waist
+				{ 107, 84438, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Proficiency, Wrists
+				{ 108, 84439, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Dreadful Gladiator's Armplates of Alacrity, Wrists
+
+				{ 116, 91764, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Alacrity, Cloak
+				{ 117, 91765, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Cloak of Prowess, Cloak
+				{ 118, 91654, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Cruelty, Feet
+				{ 119, 91656, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Warboots of Alacrity, Feet
+				{ 120, 91650, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Accuracy, Waist
+				{ 121, 91652, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Girdle of Prowess, Waist
+				{ 122, 91658, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Proficiency, Wrists
+				{ 123, 91659, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Malevolent Gladiator's Armplates of Alacrity, Wrists
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- Weapons
+			name = AL["Weapons"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 144243, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Malevolent Gladiator's Weapons, slot:0
+				{ 2 , 91446, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Cleaver, One-Hand
+				{ 3 , 91448, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Pummeler, One-Hand
+				{ 4 , 91450, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Quickblade, One-Hand
+				{ 5 , 91484, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Spellblade, One-Hand
+				{ 6 , 91556, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Gavel, One-Hand
+				{ 7 , 91743, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Shanker, One-Hand
+				{ 8 , 91745, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Ripper, One-Hand
+				{ 9 , 91749, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Render, One-Hand
+				{ 10, 91757, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Hacker, One-Hand
+				{ 11, 91759, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Bonecracker, One-Hand
+				{ 12, 91761, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Slicer, One-Hand
+				{ 13, 91460, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Longbow, Ranged
+				{ 14, 91554, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Rifle, Ranged
+				{ 15, 91440, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Decapitator, Two-Hand
+				{ 16, 91442, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Bonegrinder, Two-Hand
+				{ 17, 91444, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Greatsword, Two-Hand
+				{ 18, 91486, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Battle Staff, Two-Hand
+				{ 19, 91535, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Staff, Two-Hand
+				{ 20, 91560, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Energy Staff, Two-Hand
+				{ 21, 91660, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Malevolent Gladiator's Pike, Two-Hand
+				{ 22, 91480, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Endgame, Off-Hand
+				{ 23, 91494, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Reprieve, Off-Hand
+				{ 24, 91482, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Barrier, Shield
+				{ 25, 91558, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Redoubt, Shield
+				{ 26, 91771, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Malevolent Gladiator's Shield Wall, Shield
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
