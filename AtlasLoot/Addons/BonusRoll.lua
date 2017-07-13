@@ -107,7 +107,7 @@ local BONUS_ROLL_IDS = {
 	[188985] = "6:557:1452",		-- Supreme Lord Kazzak	
 	
 	-- ### MoP
-	-- Mogu
+	-- MoguShanVaults
 	[125144] = "5:317:679",		-- The Stone Guard
 	[132189] = "5:317:689",		-- Feng
 	[132190] = "5:317:685",		-- Garajal

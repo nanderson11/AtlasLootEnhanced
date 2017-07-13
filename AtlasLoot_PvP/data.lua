@@ -10298,58 +10298,59 @@ data["CLASSICS8SETS"] = {
 			name = ALL_CLASSES,
 			[ALLIANCE_DIFF] = {
 				{ 1, 146642, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Wrathful Gladiator's Weapons, slot:0
-				{ 3, 51330, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Dominance, Main-hand
-				{ 4, 51332, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Subjugation, Main-hand
-				{ 5, 51334, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Ascendancy, Main-hand
-				{ 6, 51346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Salvation, Main-hand
-				{ 7, 51348, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Deliverance, Main-hand
-				{ 8, 51354, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Triumph, Main-hand
-				{ 9, 51356, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Victory, Main-hand
-				{ 11, 51388, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Decapitator, Off-hand
-				{ 12, 51390, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Bonegrinder, Off-hand
-				{ 13, 51392, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Greatsword, Off-hand
-				{ 14, 51400, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's War Staff, Off-hand
-				{ 15, 51402, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Focus Staff, Off-hand
-				{ 16, 51404, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Battle Staff, Off-hand
-				{ 17, 51431, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Staff, Off-hand
-				{ 18, 51456, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Energy Staff, Off-hand
-				{ 19, 51480, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Pike, Off-hand
-				{ 20, 51396, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Endgame, Off-hand
-				{ 21, 51407, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Compendium, Off-hand
-				{ 22, 51408, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Grimoire, Off-hand
-				{ 23, 51409, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Reprieve, Off-hand
-				{ 25, 51363, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Greaves of Triumph, Feet
+				{ 3, 51396, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Endgame, Off-Hand
+				{ 4, 51407, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Compendium, Off-Hand
+				{ 5, 51408, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Grimoire, Off-Hand
+				{ 6, 51409, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Reprieve, Off-Hand
+				{ 8, 51394, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Longbow, Ranged
+				{ 9, 51410, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Touch of Defeat, Ranged
+				{ 10, 51411, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Heavy Crossbow, Ranged
+				{ 11, 51449, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Rifle, Ranged
+				{ 12, 51451, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Wand of Alacrity, Ranged
+				{ 13, 51531, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Piercing Touch, Ranged
+				{ 14, 51532, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Baton of Light, Ranged
+				{ 16, 51452, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Barrier, Shield
+				{ 17, 51455, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Redoubt, Shield
+				{ 18, 51533, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Shield Wall, Shield
+				{ 20, 51388, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Decapitator, Two-Hand
+				{ 21, 51390, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Bonegrinder, Two-Hand
+				{ 22, 51392, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Greatsword, Two-Hand
+				{ 23, 51400, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's War Staff, Two-Hand
+				{ 24, 51402, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Focus Staff, Two-Hand
+				{ 25, 51404, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Battle Staff, Two-Hand
+				{ 26, 51431, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Staff, Two-Hand
+				{ 27, 51456, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Energy Staff, Two-Hand
+				{ 28, 51480, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Pike, Two-Hand
+				{ 30, 51363, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Greaves of Triumph, Feet
 
-				{ 101, 51394, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Longbow, Cloak
-				{ 102, 51410, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Touch of Defeat, Cloak
-				{ 103, 51411, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Heavy Crossbow, Cloak
-				{ 104, 51449, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Rifle, Cloak
-				{ 105, 51451, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Wand of Alacrity, Cloak
-				{ 106, 51531, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Piercing Touch, Cloak
-				{ 107, 51532, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Baton of Light, Cloak
-				{ 108, 51362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Girdle of Triumph, Waist
-				{ 109, 147608, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Girdle of Victory, Waist
-				{ 110, 51364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Bracers of Triumph, Wrists
-				{ 111, 147607, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Bracers of Victory, Wrists
-				{ 112, 51397, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Spellblade, Trinket
-				{ 113, 51406, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Blade of Alacrity, Trinket
-				{ 114, 51439, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Hacker, Trinket
-				{ 115, 51441, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Shiv, Trinket
-				{ 116, 51443, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Fleshslicer, Trinket
-				{ 117, 51445, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Bonecracker, Trinket
-				{ 118, 51447, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Quickblade, Trinket
-				{ 119, 51453, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Gavel, Trinket
-				{ 120, 51515, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Cleaver, Trinket
-				{ 121, 51517, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Shanker, Trinket
-				{ 122, 51519, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Pummeler, Trinket
-				{ 123, 51521, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Slicer, Trinket
-				{ 124, 51523, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Ripper, Trinket
-				{ 125, 51525, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Chopper, Trinket
-				{ 126, 51527, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Mutilator, Trinket
-				{ 127, 51530, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Slasher, Trinket
-				{ 128, 51452, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Barrier, Trinket
-				{ 129, 51455, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Redoubt, Trinket
-				{ 130, 51533, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Wrathful Gladiator's Shield Wall, Trinket
+				{ 101, 51397, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Spellblade, One-Hand
+				{ 102, 51406, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Blade of Alacrity, One-Hand
+				{ 103, 51439, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Hacker, One-Hand
+				{ 104, 51441, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Shiv, One-Hand
+				{ 105, 51443, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Fleshslicer, One-Hand
+				{ 106, 51445, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Bonecracker, One-Hand
+				{ 107, 51447, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Quickblade, One-Hand
+				{ 108, 51453, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Gavel, One-Hand
+				{ 109, 51515, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Cleaver, One-Hand
+				{ 110, 51517, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Shanker, One-Hand
+				{ 111, 51519, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Pummeler, One-Hand
+				{ 112, 51521, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Slicer, One-Hand
+				{ 113, 51523, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Ripper, One-Hand
+				{ 114, 51525, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Chopper, One-Hand
+				{ 115, 51527, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Mutilator, One-Hand
+				{ 116, 51530, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Wrathful Gladiator's Slasher, One-Hand
+				{ 118, 51330, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Dominance, Cloak
+				{ 119, 51332, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Subjugation, Cloak
+				{ 120, 51334, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Ascendancy, Cloak
+				{ 121, 51346, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Salvation, Cloak
+				{ 122, 51348, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Deliverance, Cloak
+				{ 123, 51354, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Triumph, Cloak
+				{ 124, 51356, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Cloak of Victory, Cloak
+				{ 126, 51362, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Girdle of Triumph, Waist
+				{ 127, 147608, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Girdle of Victory, Waist
+				{ 129, 51364, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Bracers of Triumph, Wrists
+				{ 130, 147607, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Wrathful Gladiator's Bracers of Victory, Wrists
+
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11698,12 +11699,14 @@ data["CLASSICS4SETS"] = {
 		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 40442, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadplate Helm
-				{ 2, 40444, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dreadplate Shoulders
-				{ 3, 40440, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadplate Chestpiece
-				{ 4, 40441, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dreadplate Gauntlets
-				{ 5, 40443, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadplate Legguards
-				
+				{ 1, 146600, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Dreadplate Armor, slot:0
+				{ 2, 40440, [PRICE_EXTRA_ITTYPE] = "money:442171" }, -- Brutal Gladiator's Dreadplate Chestpiece, Chest
+				{ 3, 40441, [PRICE_EXTRA_ITTYPE] = "money:223199" }, -- Brutal Gladiator's Dreadplate Gauntlets, Hands
+				{ 4, 40442, [PRICE_EXTRA_ITTYPE] = "money:33353" }, -- Brutal Gladiator's Dreadplate Helm, Head
+				{ 5, 40443, [PRICE_EXTRA_ITTYPE] = "money:447202" }, -- Brutal Gladiator's Dreadplate Legguards, Legs
+				{ 6, 40444, [PRICE_EXTRA_ITTYPE] = "money:336029" }, -- Brutal Gladiator's Dreadplate Shoulders, Shoulder
+				{ 16, 35176, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Bracers, Wrists
+				{ 17, 35161, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11712,21 +11715,35 @@ data["CLASSICS4SETS"] = {
 		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 34999, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dragonhide Helm
-				{ 2, 35001, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dragonhide Spaulders
-				{ 3, 35002, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dragonhide Tunic
-				{ 4, 34998, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dragonhide Gloves
-				{ 5, 35000, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dragonhide Legguards
-				{ 7, 35023, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Kodohide Helm
-				{ 8, 35025, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Kodohide Spaulders
-				{ 9, 35026, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Kodohide Tunic
-				{ 10, 35022, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Kodohide Gloves
-				{ 11, 35024, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Kodohide Legguards
-				{ 16, 35112, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Wyrmhide Helm
-				{ 17, 35114, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Wyrmhide Spaulders
-				{ 18, 35115, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Wyrmhide Tunic
-				{ 19, 35111, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Wyrmhide Gloves
-				{ 20, 35113, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Wyrmhide Legguards
+					{ 1, 146599, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Dragonhide Armor, slot:0
+					{ 3, 35002, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dragonhide Tunic, Chest
+					{ 4, 35026, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Kodohide Tunic, Chest
+					{ 5, 35115, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Wyrmhide Tunic, Chest
+					{ 7, 34998, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Dragonhide Gloves, Hands
+					{ 8, 35022, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Kodohide Gloves, Hands
+					{ 9, 35111, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Wyrmhide Gloves, Hands
+					{ 11, 34999, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dragonhide Helm, Head
+					{ 12, 35023, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Kodohide Helm, Head
+					{ 13, 35112, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Wyrmhide Helm, Head
+					{ 18, 35000, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dragonhide Legguards, Legs
+					{ 19, 35024, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Kodohide Legguards, Legs
+					{ 20, 35113, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Wyrmhide Legguards, Legs
+					{ 22, 35001, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Dragonhide Spaulders, Shoulder
+					{ 23, 35025, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Kodohide Spaulders, Shoulder
+					{ 24, 35114, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Wyrmhide Spaulders, Shoulder
+
+					{ 101, 35167, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dragonhide Bracers, Wrists
+					{ 102, 35169, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Kodohide Bracers, Wrists
+					{ 103, 35171, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Leather Bracers, Wrists
+					{ 104, 35180, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Wyrmhide Bracers, Wrists
+					{ 105, 35137, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Dragonhide Boots, Feet
+					{ 106, 35139, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Kodohide Boots, Feet
+					{ 107, 35141, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Leather Boots, Feet
+					{ 108, 35150, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Wyrmhide Boots, Feet
+					{ 109, 35152, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dragonhide Belt, Waist
+					{ 110, 35154, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Kodohide Belt, Waist
+					{ 111, 35156, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Leather Belt, Waist
+					{ 112, 35165, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Wyrmhide Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11735,11 +11752,25 @@ data["CLASSICS4SETS"] = {
 		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 34992, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Chain Helm
-				{ 2, 34994, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Chain Spaulders
-				{ 3, 34990, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Chain Armor
-				{ 4, 34991, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Chain Gauntlets
-				{ 5, 34993, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Chain Leggings
+				{ 1, 146598, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Chain Armor, slot:0
+				{ 2, 34990, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Chain Armor, Chest
+				{ 3, 34991, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Chain Gauntlets, Hands
+				{ 4, 34992, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Chain Helm, Head
+				{ 5, 34993, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Chain Leggings, Legs
+				{ 6, 34994, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Chain Spaulders, Shoulder
+
+				{ 16, 35166, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Chain Bracers, Wrists
+				{ 17, 35172, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Linked Bracers, Wrists
+				{ 18, 35173, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mail Bracers, Wrists
+				{ 19, 35177, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ringmail Bracers, Wrists
+				{ 20, 35136, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Chain Sabatons, Feet
+				{ 21, 35142, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Linked Sabatons, Feet
+				{ 22, 35143, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Mail Sabatons, Feet
+				{ 23, 35147, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Ringmail Sabatons, Feet
+				{ 24, 35151, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Chain Girdle, Waist
+				{ 25, 35157, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Linked Girdle, Waist
+				{ 26, 35158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mail Girdle, Waist
+				{ 27, 35162, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ringmail Girdle, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11748,11 +11779,22 @@ data["CLASSICS4SETS"] = {
 		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35097, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Silk Cowl
-				{ 2, 35096, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Silk Amice
-				{ 3, 35099, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Silk Raiment
-				{ 5, 35098, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Silk Handguards
-				{ 6, 35100, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Silk Trousers
+				{ 1, 146607, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Silk Armor, slot:0
+				{ 2, 35099, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Silk Raiment, Chest
+				{ 3, 35098, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Silk Handguards, Hands
+				{ 4, 35097, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Silk Cowl, Head
+				{ 5, 35100, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Silk Trousers, Legs
+				{ 6, 35096, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Silk Amice, Shoulder
+
+				{ 16, 35168, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Cuffs, Wrists
+				{ 17, 35174, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Cuffs, Wrists
+				{ 18, 35179, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Cuffs, Wrists
+				{ 19, 35138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Dreadweave Stalkers, Feet
+				{ 20, 35144, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Mooncloth Slippers, Feet
+				{ 21, 35149, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Silk Footguards, Feet
+				{ 22, 35153, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Belt, Waist
+				{ 23, 35159, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Belt, Waist
+				{ 24, 35164, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11761,21 +11803,34 @@ data["CLASSICS4SETS"] = {
 		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35029, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Lamellar Helm
-				{ 2, 35031, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Lamellar Shoulders
-				{ 3, 35027, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Lamellar Chestpiece
-				{ 4, 35028, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Lamellar Gauntlets
-				{ 5, 35030, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Lamellar Legguards
-				{ 7, 35061, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ornamented Headcover
-				{ 8, 35063, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Ornamented Spaulders
-				{ 9, 35059, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ornamented Chestguard
-				{ 10, 35060, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Ornamented Gloves
-				{ 11, 35062, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ornamented Legplates
-				{ 16, 35090, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Scaled Helm
-				{ 17, 35092, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Scaled Shoulders
-				{ 18, 35088, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Scaled Chestpiece
-				{ 19, 35089, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Scaled Gauntlets
-				{ 20, 35091, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Scaled Legguards
+					{ 1, 146606, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Scaled Armor, slot:0
+					{ 3, 35027, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Lamellar Chestpiece, Chest
+					{ 4, 35059, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ornamented Chestguard, Chest
+					{ 5, 35088, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Scaled Chestpiece, Chest
+					{ 7, 35028, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Lamellar Gauntlets, Hands
+					{ 8, 35060, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Ornamented Gloves, Hands
+					{ 9, 35089, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Scaled Gauntlets, Hands
+					{ 11, 35029, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Lamellar Helm, Head
+					{ 12, 35061, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ornamented Headcover, Head
+					{ 13, 35090, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Scaled Helm, Head
+					{ 18, 35030, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Lamellar Legguards, Legs
+					{ 19, 35062, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ornamented Legplates, Legs
+					{ 20, 35091, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Scaled Legguards, Legs
+					{ 22, 35031, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Lamellar Shoulders, Shoulder
+					{ 23, 35063, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Ornamented Spaulders, Shoulder
+					{ 24, 35092, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Scaled Shoulders, Shoulder
+
+					{ 101, 35170, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Lamellar Bracers, Wrists
+					{ 102, 35175, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ornamented Bracers, Wrists
+					{ 103, 35178, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Scaled Bracers, Wrists
+					{ 104, 35176, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Bracers, Wrists
+					{ 105, 35140, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Lamellar Greaves, Feet
+					{ 106, 35145, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Ornamented Greaves, Feet
+					{ 107, 35148, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Scaled Greaves, Feet
+					{ 108, 35155, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Lamellar Belt, Waist
+					{ 109, 35160, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ornamented Belt, Waist
+					{ 110, 35163, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Scaled Belt, Waist
+					{ 111, 35161, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11784,16 +11839,27 @@ data["CLASSICS4SETS"] = {
 		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35054, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mooncloth Hood
-				{ 2, 35056, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Mooncloth Mantle
-				{ 3, 35057, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mooncloth Robe
-				{ 4, 35053, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Mooncloth Gloves
-				{ 5, 35055, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mooncloth Leggings
-				{ 16, 35084, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Satin Hood
-				{ 17, 35086, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Satin Mantle
-				{ 18, 35087, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Satin Robe
-				{ 19, 35083, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Satin Gloves
-				{ 20, 35085, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Satin Leggings
+				{ 1 , 146605, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Satin Armor, slot:0
+				{ 2 , 35057, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mooncloth Robe, Chest
+				{ 3 , 35087, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Satin Robe, Chest
+				{ 4 , 35053, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Mooncloth Gloves, Hands
+				{ 5 , 35083, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Satin Gloves, Hands
+				{ 6 , 35054, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mooncloth Hood, Head
+				{ 7 , 35084, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Satin Hood, Head
+				{ 8 , 35055, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mooncloth Leggings, Legs
+				{ 9 , 35085, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Satin Leggings, Legs
+				{ 10, 35056, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Mooncloth Mantle, Shoulder
+				{ 11, 35086, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Satin Mantle, Shoulder
+
+				{ 16, 35168, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Cuffs, Wrists
+				{ 17, 35174, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Cuffs, Wrists
+				{ 18, 35179, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Cuffs, Wrists
+				{ 19, 35138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Dreadweave Stalkers, Feet
+				{ 20, 35144, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Mooncloth Slippers, Feet
+				{ 21, 35149, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Silk Footguards, Feet
+				{ 22, 35153, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Belt, Waist
+				{ 23, 35159, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Belt, Waist
+				{ 24, 35164, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11802,11 +11868,25 @@ data["CLASSICS4SETS"] = {
 		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35033, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Leather Helm
-				{ 2, 35035, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Leather Spaulders
-				{ 3, 35036, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Leather Tunic
-				{ 6, 35032, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Leather Gloves
-				{ 5, 35034, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Leather Legguards
+				{ 1, 146602, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Leather Armor, slot:0
+				{ 2, 35036, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Leather Tunic, Chest
+				{ 3, 35032, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Leather Gloves, Hands
+				{ 4, 35033, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Leather Helm, Head
+				{ 5, 35034, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Leather Legguards, Legs
+				{ 6, 35035, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Leather Spaulders, Shoulder
+
+				{ 16, 35167, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dragonhide Bracers, Wrists
+				{ 17, 35169, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Kodohide Bracers, Wrists
+				{ 18, 35171, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Leather Bracers, Wrists
+				{ 19, 35180, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Wyrmhide Bracers, Wrists
+				{ 20, 35137, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Dragonhide Boots, Feet
+				{ 21, 35139, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Kodohide Boots, Feet
+				{ 22, 35141, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Leather Boots, Feet
+				{ 23, 35150, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Wyrmhide Boots, Feet
+				{ 24, 35152, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dragonhide Belt, Waist
+				{ 25, 35154, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Kodohide Belt, Waist
+				{ 26, 35156, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Leather Belt, Waist
+				{ 27, 35165, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Wyrmhide Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11815,21 +11895,35 @@ data["CLASSICS4SETS"] = {
 		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35044, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Linked Helm
-				{ 2, 35046, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Linked Spaulders
-				{ 3, 35042, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Linked Armor
-				{ 4, 35043, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Linked Gauntlets
-				{ 5, 35045, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Linked Leggings
-				{ 7, 35050, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mail Helm
-				{ 8, 35052, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Mail Spaulders
-				{ 9, 35048, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mail Armor
-				{ 10, 35049, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Mail Gauntlets
-				{ 11, 35051, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Mail Leggings
-				{ 16, 35079, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ringmail Helm
-				{ 17, 35081, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Ringmail Spaulders
-				{ 18, 35077, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ringmail Armor
-				{ 19, 35078, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Ringmail Gauntlets
-				{ 20, 35080, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Ringmail Leggings
+				{ 1, 146604, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Ringmail Armor, slot:0
+				{ 3, 35042, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Linked Armor, Chest
+				{ 4, 35048, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mail Armor, Chest
+				{ 5, 35077, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ringmail Armor, Chest
+				{ 7, 35043, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Linked Gauntlets, Hands
+				{ 8, 35049, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Mail Gauntlets, Hands
+				{ 9, 35078, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Ringmail Gauntlets, Hands
+				{ 11, 35044, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Linked Helm, Head
+				{ 12, 35050, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mail Helm, Head
+				{ 13, 35079, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ringmail Helm, Head
+				{ 18, 35045, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Linked Leggings, Legs
+				{ 19, 35051, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Mail Leggings, Legs
+				{ 20, 35080, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Ringmail Leggings, Legs
+				{ 22, 35046, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Linked Spaulders, Shoulder
+				{ 23, 35052, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Mail Spaulders, Shoulder
+				{ 24, 35081, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Ringmail Spaulders, Shoulder
+
+				{ 101, 35166, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Chain Bracers, Wrists
+				{ 102, 35172, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Linked Bracers, Wrists
+				{ 103, 35173, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mail Bracers, Wrists
+				{ 104, 35177, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ringmail Bracers, Wrists
+				{ 105, 35136, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Chain Sabatons, Feet
+				{ 106, 35142, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Linked Sabatons, Feet
+				{ 107, 35143, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Mail Sabatons, Feet
+				{ 108, 35147, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Ringmail Sabatons, Feet
+				{ 109, 35151, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Chain Girdle, Waist
+				{ 110, 35157, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Linked Girdle, Waist
+				{ 111, 35158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mail Girdle, Waist
+				{ 112, 35162, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ringmail Girdle, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11838,16 +11932,27 @@ data["CLASSICS4SETS"] = {
 		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35004, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadweave Hood
-				{ 2, 35006, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dreadweave Mantle
-				{ 3, 35007, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadweave Robe
-				{ 4, 35003, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Dreadweave Gloves
-				{ 5, 35005, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Dreadweave Leggings
-				{ 16, 35010, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Felweave Cowl
-				{ 17, 35009, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Felweave Amice
-				{ 18, 35012, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Felweave Raiment
-				{ 19, 35011, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Felweave Handguards
-				{ 20, 35013, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Felweave Trousers
+				{ 1 , 146601, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Felweave Armor, slot:0
+				{ 2 , 35007, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dreadweave Robe, Chest
+				{ 3 , 35012, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Felweave Raiment, Chest
+				{ 4 , 35003, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Dreadweave Gloves, Hands
+				{ 5 , 35011, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Felweave Handguards, Hands
+				{ 6 , 35004, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dreadweave Hood, Head
+				{ 7 , 35010, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Felweave Cowl, Head
+				{ 8 , 35005, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Dreadweave Leggings, Legs
+				{ 9 , 35013, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Felweave Trousers, Legs
+				{ 10, 35006, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Dreadweave Mantle, Shoulder
+				{ 11, 35009, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Felweave Amice, Shoulder
+
+				{ 16, 35168, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Cuffs, Wrists
+				{ 17, 35174, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Cuffs, Wrists
+				{ 18, 35179, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Cuffs, Wrists
+				{ 19, 35138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Dreadweave Stalkers, Feet
+				{ 20, 35144, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Mooncloth Slippers, Feet
+				{ 21, 35149, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Silk Footguards, Feet
+				{ 22, 35153, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Dreadweave Belt, Waist
+				{ 23, 35159, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Mooncloth Belt, Waist
+				{ 24, 35164, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11856,11 +11961,77 @@ data["CLASSICS4SETS"] = {
 		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 35068, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Plate Helm
-				{ 2, 35070, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Plate Shoulders
-				{ 3, 35066, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Plate Chestpiece
-				{ 6, 35067, [PRICE_EXTRA_ITTYPE] = "markofhonor:140"  }, -- Brutal Gladiator's Plate Gauntlets
-				{ 5, 35069, [PRICE_EXTRA_ITTYPE] = "markofhonor:175"  }, -- Brutal Gladiator's Plate Legguards
+				{ 1, 146603, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Brutal Gladiator's Plate Armor, slot:0
+				{ 2, 35066, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Plate Chestpiece, Chest
+				{ 3, 35067, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Plate Gauntlets, Hands
+				{ 4, 35068, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Plate Helm, Head
+				{ 5, 35069, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Brutal Gladiator's Plate Legguards, Legs
+				{ 6, 35070, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Plate Shoulders, Shoulder
+
+				{ 16, 35170, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Lamellar Bracers, Wrists
+				{ 17, 35175, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ornamented Bracers, Wrists
+				{ 18, 35178, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Scaled Bracers, Wrists
+				{ 19, 35176, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Bracers, Wrists
+				{ 20, 35140, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Lamellar Greaves, Feet
+				{ 21, 35145, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Ornamented Greaves, Feet
+				{ 22, 35148, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Scaled Greaves, Feet
+				{ 23, 35155, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Lamellar Belt, Waist
+				{ 24, 35160, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Ornamented Belt, Waist
+				{ 25, 35163, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Scaled Belt, Waist
+				{ 26, 35161, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Guardian's Plate Belt, Waist
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- all classes
+			name = ALL_CLASSES,
+			[ALLIANCE_DIFF] = {
+				{ 1, 146648, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Brutal Gladiator's Weapons, slot:0
+				{ 3, 35008, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Endgame, Off-Hand
+				{ 4, 35016, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Grimoire, Off-Hand
+				{ 5, 35074, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Reprieve, Off-Hand
+				{ 7 , 34985, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Baton of Light, Ranged
+				{ 8 , 35018, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Heavy Crossbow, Ranged
+				{ 9 , 35047, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Longbow, Ranged
+				{ 10, 35065, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Piercing Touch, Ranged
+				{ 11, 35075, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Rifle, Ranged
+				{ 12, 35107, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Touch of Defeat, Ranged
+				{ 16, 34986, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Barrier, Shield
+				{ 17, 35073, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Redoubt, Shield
+				{ 18, 35094, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Brutal Gladiator's Shield Wall, Shield
+				{ 20, 34987, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Battle Staff, Two-Hand
+				{ 21, 34989, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Bonegrinder, Two-Hand
+				{ 22, 34997, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Decapitator, Two-Hand
+				{ 23, 35015, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Greatsword, Two-Hand
+				{ 24, 35064, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Painsaw, Two-Hand
+				{ 25, 35103, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Staff, Two-Hand
+				{ 26, 35109, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's War Staff, Two-Hand
+
+				{ 101, 34988, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Bonecracker, One-Hand
+				{ 102, 34995, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Chopper, One-Hand
+				{ 103, 34996, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Cleaver, One-Hand
+				{ 104, 35014, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Gavel, One-Hand
+				{ 105, 35017, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Hacker, One-Hand
+				{ 106, 35037, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Slasher, One-Hand
+				{ 107, 35038, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Fleshslicer, One-Hand
+				{ 108, 35058, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Mutilator, One-Hand
+				{ 109, 35071, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Pummeler, One-Hand
+				{ 110, 35072, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Quickblade, One-Hand
+				{ 111, 35076, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Ripper, One-Hand
+				{ 112, 35082, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Salvation, One-Hand
+				{ 113, 35093, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Shanker, One-Hand
+				{ 114, 35095, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Shiv, One-Hand
+				{ 115, 35101, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Slicer, One-Hand
+				{ 116, 35102, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Spellblade, One-Hand
+				{ 117, 35110, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Waraxe, One-Hand
+				{ 118, 36737, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Brutal Gladiator's Hatchet, One-Hand
+
+				{ 120, 41591, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Sergeant's Reinforced Cape, Cloak
+				{ 121, 41592, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- The Gladiator's Resolution, Cloak
+				{ 122, 44429, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Volanthius Shroud, Cloak
+				{ 123, 44431, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Cloak of Certain Reprieve, Cloak
+				{ 124, 35146, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Guardian's Plate Greaves, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -11874,227 +12045,335 @@ data["CLASSICS3SETS"] = {
 	name = string.format(AL["Season %d"], 3).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 33672, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dragonhide Helm
-				{ 2, 33674, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Dragonhide Spaulders
-				{ 3, 33675, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dragonhide Tunic
-				{ 4, 33671, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Dragonhide Gloves
-				{ 5, 33673, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dragonhide Legguards
-				--
-				{ 7, 33691, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Kodohide Helm
-				{ 8, 33693, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Kodohide Spaulders
-				{ 9, 33694, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Kodohide Tunic
-				{ 10, 33690, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Kodohide Gloves
-				{ 11, 33692, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Kodohide Legguards
-				--
-				{ 16, 33768, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Wyrmhide Helm
-				{ 17, 33770, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Wyrmhide Spaulders
-				{ 18, 33771, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Wyrmhide Tunic
-				{ 19, 33767, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Wyrmhide Gloves
-				{ 20, 33769, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Wyrmhide Legguards
+				{ 1, 146629, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Dragonhide Armor, slot:0
+				{ 3, 33675, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dragonhide Tunic, Chest
+				{ 4, 33694, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Kodohide Tunic, Chest
+				{ 5, 33771, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Wyrmhide Tunic, Chest
+				{ 7, 33671, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Dragonhide Gloves, Hands
+				{ 8, 33690, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Kodohide Gloves, Hands
+				{ 9, 33767, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Wyrmhide Gloves, Hands
+				{ 11, 33672, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dragonhide Helm, Head
+				{ 12, 33691, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Kodohide Helm, Head
+				{ 13, 33768, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Wyrmhide Helm, Head
+				{ 18, 33673, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dragonhide Legguards, Legs
+				{ 19, 33692, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Kodohide Legguards, Legs
+				{ 20, 33769, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Wyrmhide Legguards, Legs
+				{ 22, 33674, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Dragonhide Spaulders, Shoulder
+				{ 23, 33693, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Kodohide Spaulders, Shoulder
+				{ 24, 33770, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Wyrmhide Spaulders, Shoulder
+
+				{ 101, 33881, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dragonhide Bracers, Wrists
+				{ 102, 33887, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Kodohide Bracers, Wrists
+				{ 103, 33893, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Bracers, Wrists
+				{ 104, 33917, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Wyrmhide Bracers, Wrists
+				{ 105, 147670, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Wristguards, Wrists
+				{ 106, 33880, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Dragonhide Boots, Feet
+				{ 107, 33886, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Kodohide Boots, Feet
+				{ 108, 33892, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Leather Boots, Feet
+				{ 109, 33916, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Wyrmhide Boots, Feet
+				{ 110, 33879, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dragonhide Belt, Waist
+				{ 111, 33885, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Kodohide Belt, Waist
+				{ 112, 33891, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Belt, Waist
+				{ 113, 33915, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Wyrmhide Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 33666, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Chain Helm
-				{ 2, 33668, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Chain Spaulders
-				{ 3, 33664, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Chain Armor
-				{ 4, 33665, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Chain Gauntlets
-				{ 5, 33667, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Chain Leggings
+				{ 1, 146628, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Chain Armor, slot:0
+				{ 2, 33664, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Chain Armor, Chest
+				{ 3, 33665, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Chain Gauntlets, Hands
+				{ 4, 33666, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Chain Helm, Head
+				{ 5, 33667, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Chain Leggings, Legs
+				{ 6, 33668, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Chain Spaulders, Shoulder
+
+				{ 16, 33876, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Chain Bracers, Wrists
+				{ 17, 33894, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Linked Bracers, Wrists
+				{ 18, 33897, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mail Bracers, Wrists
+				{ 19, 33906, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ringmail Bracers, Wrists
+				{ 20, 33878, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Chain Sabatons, Feet
+				{ 21, 33896, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Linked Sabatons, Feet
+				{ 22, 33899, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Mail Sabatons, Feet
+				{ 23, 33908, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Ringmail Sabatons, Feet
+				{ 24, 33877, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Chain Girdle, Waist
+				{ 25, 33895, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Linked Girdle, Waist
+				{ 26, 33898, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mail Girdle, Waist
+				{ 27, 33907, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ringmail Girdle, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 33758, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Silk Cowl
-				{ 2, 33757, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Silk Amice
-				{ 3, 33760, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Silk Raiment
-				{ 4, 33759, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Silk Handguards
-				{ 5, 33761, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Silk Trousers
+				{ 1, 146637, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Silk Armor, slot:0
+				{ 2, 33760, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Silk Raiment, Chest
+				{ 3, 33759, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Silk Handguards, Hands
+				{ 4, 33758, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Silk Cowl, Head
+				{ 5, 33761, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Silk Trousers, Legs
+				{ 6, 33757, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Silk Amice, Shoulder
+
+				{ 16, 33883, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Cuffs, Wrists
+				{ 17, 33901, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Cuffs, Wrists
+				{ 18, 33913, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Cuffs, Wrists
+				{ 19, 33884, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Dreadweave Stalkers, Feet
+				{ 20, 33902, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Mooncloth Slippers, Feet
+				{ 21, 33914, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Silk Footguards, Feet
+				{ 22, 33882, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Belt, Waist
+				{ 23, 33900, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Belt, Waist
+				{ 24, 33912, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 33697, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Lamellar Helm
-				{ 2, 33699, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Lamellar Shoulders
-				{ 3, 33695, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Lamellar Chestpiece
-				{ 4, 33696, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Lamellar Gauntlets
-				{ 5, 33698, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Lamellar Legguards
-				--
-				{ 7, 33724, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ornamented Headcover
-				{ 8, 33726, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Ornamented Spaulders
-				{ 9, 33722, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ornamented Chestguard
-				{ 10, 33723, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Ornamented Gloves
-				{ 11, 33725, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ornamented Legplates
-				--
-				{ 16, 33751, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Scaled Helm
-				{ 17, 33753, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Scaled Shoulders
-				{ 18, 33749, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Scaled Chestpiece
-				{ 19, 33750, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Scaled Gauntlets
-				{ 20, 33752, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Scaled Legguards
+				{ 1, 146636, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Scaled Armor, slot:0
+				{ 3, 33695, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Lamellar Chestpiece, Chest
+				{ 4, 33722, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ornamented Chestguard, Chest
+				{ 5, 33749, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Scaled Chestpiece, Chest
+				{ 7, 33696, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Lamellar Gauntlets, Hands
+				{ 8, 33723, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Ornamented Gloves, Hands
+				{ 9, 33750, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Scaled Gauntlets, Hands
+				{ 11, 33697, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Lamellar Helm, Head
+				{ 12, 33724, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ornamented Headcover, Head
+				{ 13, 33751, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Scaled Helm, Head
+				{ 18, 33698, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Lamellar Legguards, Legs
+				{ 19, 33725, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ornamented Legplates, Legs
+				{ 20, 33752, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Scaled Legguards, Legs
+				{ 22, 33699, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Lamellar Shoulders, Shoulder
+				{ 23, 33726, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Ornamented Spaulders, Shoulder
+				{ 24, 33753, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Scaled Shoulders, Shoulder
+
+				{ 101, 33813, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Plate Bracers, Wrists
+				{ 102, 33889, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Lamellar Bracers, Wrists
+				{ 103, 33904, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ornamented Bracers, Wrists
+				{ 104, 33910, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Scaled Bracers, Wrists
+				{ 105, 33812, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Plate Greaves, Feet
+				{ 106, 33890, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Lamellar Greaves, Feet
+				{ 107, 33905, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Ornamented Greaves, Feet
+				{ 108, 33911, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Scaled Greaves, Feet
+				{ 109, 33811, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Plate Belt, Waist
+				{ 110, 33888, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Lamellar Belt, Waist
+				{ 111, 33903, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ornamented Belt, Waist
+				{ 112, 33909, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Scaled Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 33718, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Mooncloth Hood
-				{ 2, 33720, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Mooncloth Mantle
-				{ 3, 33721, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Mooncloth Robe
-				{ 4, 33717, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Mooncloth Gloves
-				{ 5, 33719, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Mooncloth Leggings
-				{ 16, 33745, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Satin Hood
-				{ 17, 33747, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Satin Mantle
-				{ 18, 33748, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Satin Robe
-				{ 19, 33744, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Satin Gloves
-				{ 20, 33746, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Satin Leggings
+				{ 1 , 146635, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Satin Armor, slot:0
+				{ 2 , 33721, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mooncloth Robe, Chest
+				{ 3 , 33748, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Satin Robe, Chest
+				{ 4 , 33717, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Mooncloth Gloves, Hands
+				{ 5 , 33744, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Satin Gloves, Hands
+				{ 6 , 33718, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mooncloth Hood, Head
+				{ 7 , 33745, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Satin Hood, Head
+				{ 8 , 33719, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mooncloth Leggings, Legs
+				{ 9 , 33746, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Satin Leggings, Legs
+				{ 10, 33720, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Mooncloth Mantle, Shoulder
+				{ 11, 33747, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Satin Mantle, Shoulder
+
+				{ 16, 33883, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Cuffs, Wrists
+				{ 17, 33901, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Cuffs, Wrists
+				{ 18, 33913, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Cuffs, Wrists
+				{ 19, 33884, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Dreadweave Stalkers, Feet
+				{ 20, 33902, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Mooncloth Slippers, Feet
+				{ 21, 33914, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Silk Footguards, Feet
+				{ 22, 33882, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Belt, Waist
+				{ 23, 33900, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Belt, Waist
+				{ 24, 33912, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 33701, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Leather Helm
-				{ 2, 33703, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Leather Spaulders
-				{ 3, 33704, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Leather Tunic
-				{ 4, 33700, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Leather Gloves
-				{ 5, 33702, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Leather Legguards
+				{ 1, 146632, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Leather Armor, slot:0
+				{ 2, 33704, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Leather Tunic, Chest
+				{ 3, 33700, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Leather Gloves, Hands
+				{ 4, 33701, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Leather Helm, Head
+				{ 5, 33702, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Leather Legguards, Legs
+				{ 6, 33703, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Leather Spaulders, Shoulder
+
+				{ 16, 33881, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dragonhide Bracers, Wrists
+				{ 17, 33887, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Kodohide Bracers, Wrists
+				{ 18, 33893, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Bracers, Wrists
+				{ 19, 33917, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Wyrmhide Bracers, Wrists
+				{ 20, 147670, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Wristguards, Wrists
+				{ 21, 33880, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Dragonhide Boots, Feet
+				{ 22, 33886, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Kodohide Boots, Feet
+				{ 23, 33892, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Leather Boots, Feet
+				{ 24, 33916, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Wyrmhide Boots, Feet
+				{ 25, 33879, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dragonhide Belt, Waist
+				{ 26, 33885, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Kodohide Belt, Waist
+				{ 27, 33891, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Leather Belt, Waist
+				{ 28, 33915, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Wyrmhide Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 33708, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Linked Helm
-				{ 2, 33710, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Linked Spaulders
-				{ 3, 33706, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Linked Armor
-				{ 4, 33707, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Linked Gauntlets
-				{ 5, 33709, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Linked Leggings
-				--
-				{ 7, 33713, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Mail Helm
-				{ 8, 33715, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Mail Spaulders
-				{ 9, 33711, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Vengeful Gladiator's Mail Armor
-				{ 10, 33712, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Mail Gauntlets
-				{ 11, 33714, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Mail Leggings
-				--
-				{ 16, 33740, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ringmail Helm
-				{ 17, 33742, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Ringmail Spaulders
-				{ 18, 33738, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ringmail Armor
-				{ 19, 33739, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Ringmail Gauntlets
-				{ 20, 33741, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Ringmail Leggings
+				{ 1, 146634, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Ringmail Armor, slot:0
+				{ 3, 33706, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Linked Armor, Chest
+				{ 4, 33711, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mail Armor, Chest
+				{ 5, 33738, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ringmail Armor, Chest
+				{ 7, 33707, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Linked Gauntlets, Hands
+				{ 8, 33712, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Mail Gauntlets, Hands
+				{ 9, 33739, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Ringmail Gauntlets, Hands
+				{ 11, 33708, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Linked Helm, Head
+				{ 12, 33713, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mail Helm, Head
+				{ 13, 33740, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ringmail Helm, Head
+				{ 18, 33709, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Linked Leggings, Legs
+				{ 19, 33714, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Mail Leggings, Legs
+				{ 20, 33741, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Ringmail Leggings, Legs
+				{ 22, 33710, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Linked Spaulders, Shoulder
+				{ 23, 33715, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Mail Spaulders, Shoulder
+				{ 24, 33742, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Ringmail Spaulders, Shoulder
+				
+				{ 101, 33876, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Chain Bracers, Wrists
+				{ 102, 33894, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Linked Bracers, Wrists
+				{ 103, 33897, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mail Bracers, Wrists
+				{ 104, 33906, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ringmail Bracers, Wrists
+				{ 105, 33878, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Chain Sabatons, Feet
+				{ 106, 33896, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Linked Sabatons, Feet
+				{ 107, 33899, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Mail Sabatons, Feet
+				{ 108, 33908, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Ringmail Sabatons, Feet
+				{ 109, 33877, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Chain Girdle, Waist
+				{ 110, 33895, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Linked Girdle, Waist
+				{ 111, 33898, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mail Girdle, Waist
+				{ 112, 33907, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ringmail Girdle, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 33677, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dreadweave Hood
-				{ 2, 33679, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Dreadweave Mantle
-				{ 3, 33680, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dreadweave Robe
-				{ 4, 33676, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Dreadweave Gloves
-				{ 5, 33678, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Dreadweave Leggings
-				--
-				{ 16, 33683, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Felweave Cowl
-				{ 17, 33682, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Felweave Amice
-				{ 18, 33685, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Felweave Raiment
-				{ 19, 33684, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Felweave Handguards
-				{ 20, 33686, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Felweave Trousers
+				{ 1 , 146631, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Felweave Armor, slot:0
+				{ 2 , 33680, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dreadweave Robe, Chest
+				{ 3 , 33685, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Felweave Raiment, Chest
+				{ 4 , 33676, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Dreadweave Gloves, Hands
+				{ 5 , 33684, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Felweave Handguards, Hands
+				{ 6 , 33677, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dreadweave Hood, Head
+				{ 7 , 33683, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Felweave Cowl, Head
+				{ 8 , 33678, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Dreadweave Leggings, Legs
+				{ 9 , 33686, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Felweave Trousers, Legs
+				{ 10, 33679, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Dreadweave Mantle, Shoulder
+				{ 11, 33682, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Felweave Amice, Shoulder
+				
+				{ 16, 33883, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Cuffs, Wrists
+				{ 17, 33901, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Cuffs, Wrists
+				{ 18, 33913, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Cuffs, Wrists
+				{ 19, 33884, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Dreadweave Stalkers, Feet
+				{ 20, 33902, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Mooncloth Slippers, Feet
+				{ 21, 33914, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Silk Footguards, Feet
+				{ 22, 33882, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Dreadweave Belt, Waist
+				{ 23, 33900, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Mooncloth Belt, Waist
+				{ 24, 33912, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Silk Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 33730, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Plate Helm
-				{ 2, 33732, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Plate Shoulders
-				{ 3, 33728, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Plate Chestpiece
-				{ 4, 33729, [PRICE_EXTRA_ITTYPE] = "markofhonor:750" },	-- Vengeful Gladiator's Plate Gauntlets
-				{ 5, 33731, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000" },	-- Vengeful Gladiator's Plate Legguards
+				{ 1, 146633, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Vengeful Gladiator's Plate Armor, slot:0
+				{ 2, 33728, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Plate Chestpiece, Chest
+				{ 3, 33729, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Plate Gauntlets, Hands
+				{ 4, 33730, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Plate Helm, Head
+				{ 5, 33731, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Vengeful Gladiator's Plate Legguards, Legs
+				{ 6, 33732, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Plate Shoulders, Shoulder
+
+				{ 16, 33813, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Plate Bracers, Wrists
+				{ 17, 33889, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Lamellar Bracers, Wrists
+				{ 18, 33904, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ornamented Bracers, Wrists
+				{ 19, 33910, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Scaled Bracers, Wrists
+				{ 20, 33812, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Plate Greaves, Feet
+				{ 21, 33890, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Lamellar Greaves, Feet
+				{ 22, 33905, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Ornamented Greaves, Feet
+				{ 23, 33911, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vindicator's Scaled Greaves, Feet
+				{ 24, 33811, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Plate Belt, Waist
+				{ 25, 33888, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Lamellar Belt, Waist
+				{ 26, 33903, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Ornamented Belt, Waist
+				{ 27, 33909, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Vindicator's Scaled Belt, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{ -- Weapons
-			name = string.format(AL["Weapons"]),
+		{ -- all classes
+			name = ALL_CLASSES,
 			[ALLIANCE_DIFF] = {
-				{ 1, 34059, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Baton of Light
-				{ 2, 34540, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Battle Staff
-				{ 3, 33006, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Heavy Crossbow
-				{ 4, 34066, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Piercing Touch
-				{ 5, 33755, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Shield Wall
-				{ 6, 33764, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Touch of Defeat
-				{ 7, 33766, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's War Staff
-				{ 8, 33669, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Cleaver
-				{ 9, 33687, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Gavel
-				{ 10, 33705, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Fleshslicer
-				{ 11, 33733, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Pummeler
-				{ 12, 33737, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Ripper
-				{ 13, 33743, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Salvation
-				{ 14, 33754, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Shanker
-				{ 15, 33762, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Slicer
-				{ 16, 33763, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Spellblade
-				{ 17, 34016, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Slasher
-				{ 18, 33661, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Barrier
-				{ 19, 33735, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Redoubt
-				{ 20, 34529, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Longbow
-				{ 21, 34530, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Rifle
-				{ 22, 33663, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Bonegrinder
-				{ 23, 33670, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Decapitator
-				{ 24, 33688, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Greatsword
-				{ 25, 33716, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Staff
-				{ 26, 33727, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Painsaw
-				{ 27, 34014, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Vengeful Gladiator's Waraxe
-				{ 28, 33662, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Bonecracker
-				{ 29, 33689, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Hacker
-				{ 30, 33734, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Quickblade
-				{ 101, 33756, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Shiv
-				{ 102, 33801, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Mutilator
-				{ 103, 34015, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Chopper
-				{ 104, 33681, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Endgame
-				{ 105, 33736, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Reprieve
-				{ 106, 34033, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Vengeful Gladiator's Grimoire
+				{ 1, 146649, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Vengeful Gladiator's Weapons, slot:0
+				{ 3, 33681, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Endgame, Off-Hand
+				{ 4, 33736, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Reprieve, Off-Hand
+				{ 5, 34033, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Grimoire, Off-Hand
+				{ 7 , 33006, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Heavy Crossbow, Ranged
+				{ 8 , 33764, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Touch of Defeat, Ranged
+				{ 9 , 34059, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Baton of Light, Ranged
+				{ 10, 34066, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Piercing Touch, Ranged
+				{ 11, 34529, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Longbow, Ranged
+				{ 12, 34530, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Rifle, Ranged
+				{ 16, 33661, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Barrier, Shield
+				{ 17, 33735, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Redoubt, Shield
+				{ 18, 33755, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Vengeful Gladiator's Shield Wall, Shield
+				{ 20, 33663, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Bonegrinder, Two-Hand
+				{ 21, 33670, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Decapitator, Two-Hand
+				{ 22, 33688, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Greatsword, Two-Hand
+				{ 23, 33716, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Staff, Two-Hand
+				{ 24, 33727, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Painsaw, Two-Hand
+				{ 25, 33766, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's War Staff, Two-Hand
+				{ 26, 34014, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Waraxe, Two-Hand
+				{ 27, 34540, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Battle Staff, Two-Hand
+
+				{ 101, 33662, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Bonecracker, One-Hand
+				{ 102, 33669, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Cleaver, One-Hand
+				{ 103, 33687, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Gavel, One-Hand
+				{ 104, 33689, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Hacker, One-Hand
+				{ 105, 33705, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Fleshslicer, One-Hand
+				{ 106, 33733, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Pummeler, One-Hand
+				{ 107, 33734, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Quickblade, One-Hand
+				{ 108, 33737, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Ripper, One-Hand
+				{ 109, 33743, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Salvation, One-Hand
+				{ 110, 33754, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Shanker, One-Hand
+				{ 111, 33756, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Shiv, One-Hand
+				{ 112, 33762, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Slicer, One-Hand
+				{ 113, 33763, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Spellblade, One-Hand
+				{ 114, 33801, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Mutilator, One-Hand
+				{ 115, 34015, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Chopper, One-Hand
+				{ 116, 34016, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Vengeful Gladiator's Slasher, One-Hand
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				--
 			},
 		},
 	},
@@ -12105,213 +12384,259 @@ data["CLASSICS2SETS"] = {
 	name = string.format(AL["Season %d"], 2).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				-- Feral / Guardian
-				{ 1, 31968, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dragonhide Helm
-				{ 2, 31971, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Dragonhide Spaulders
-				{ 3, 31972, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dragonhide Tunic
-				{ 4, 31967, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Dragonhide Gloves
-				{ 5, 31969, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dragonhide Legguards
-				-- Restoration
-				{ 7, 31988, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Kodohide Helm
-				{ 8, 31990, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Kodohide Spaulders
-				{ 9, 31991, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Kodohide Tunic
-				{ 10, 31987, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Kodohide Gloves
-				{ 11, 31989, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Kodohide Legguards
-				-- Balance
-				{ 16, 32057, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Wyrmhide Helm
-				{ 17, 32059, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Wyrmhide Spaulders
-				{ 18, 32060, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Wyrmhide Tunic
-				{ 19, 32056, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Wyrmhide Gloves
-				{ 20, 32058, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Wyrmhide Legguards
+				{ 1, 146619, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Dragonhide Armor, slot:0
+				{ 3, 31967, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Dragonhide Gloves, Hands
+				{ 4, 31968, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dragonhide Helm, Head
+				{ 5, 31969, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dragonhide Legguards, Legs
+				{ 6, 31971, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Dragonhide Spaulders, Shoulder
+				{ 7, 31972, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dragonhide Tunic, Chest
+				{ 9 , 31987, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Kodohide Gloves, Hands
+				{ 10, 31988, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Kodohide Helm, Head
+				{ 11, 31989, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Kodohide Legguards, Legs
+				{ 12, 31990, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Kodohide Spaulders, Shoulder
+				{ 13, 31991, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Kodohide Tunic, Chest
+				{ 18, 32056, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Wyrmhide Gloves, Hands
+				{ 19, 32057, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Wyrmhide Helm, Head
+				{ 20, 32058, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Wyrmhide Legguards, Legs
+				{ 21, 32059, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Wyrmhide Spaulders, Shoulder
+				{ 22, 32060, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Wyrmhide Tunic, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 31962, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Chain Helm
-   				{ 2, 31964, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Chain Spaulders
-				{ 3, 31960, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Chain Armor
-				{ 4, 31961, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Chain Gauntlets
-				{ 5, 31963, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Chain Leggings
+				{ 1, 146618, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Chain Armor, slot:0
+				{ 3, 31960, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Chain Armor, Chest
+				{ 4, 31961, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Chain Gauntlets, Hands
+				{ 5, 31962, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Chain Helm, Head
+				{ 6, 31963, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Chain Leggings, Legs
+				{ 7, 31964, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Chain Spaulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 32048, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Silk Cowl
-   				{ 2, 32047, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Silk Amice
-   				{ 3, 32050, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Silk Raiment
-   				{ 4, 32049, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Silk Handguards
-   				{ 5, 32051, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Silk Trousers
+				{ 1, 146627, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Silk Armor, slot:0
+				{ 3, 32047, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Silk Amice, Shoulder
+				{ 4, 32048, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Silk Cowl, Head
+				{ 5, 32049, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Silk Handguards, Hands
+				{ 6, 32050, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Silk Raiment, Chest
+				{ 7, 32051, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Silk Trousers, Legs
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 31997, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Lamellar Helm
-				{ 2, 31996, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Lamellar Shoulders
-				{ 3, 31992, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Lamellar Chestpiece
-				{ 4, 31993, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Lamellar Gauntlets
-				{ 5, 31995, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Lamellar Legguards
-				--
-				{ 7, 32022, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ornamented Headcover
-				{ 8, 32024, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Ornamented Spaulders
-				{ 9, 32020, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ornamented Chestguard
-				{ 10, 32021, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Ornamented Gloves
-				{ 11, 32023, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ornamented Legplates
-				--
-				{ 16, 32041, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Scaled Helm
-				{ 17, 32043, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Scaled Shoulders
-				{ 18, 32039, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Scaled Chestpiece
-				{ 19, 32040, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Scaled Gauntlets
-				{ 20, 32042, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Scaled Legguards
+				{ 1, 146626, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Scaled Armor, slot:0
+				{ 3, 31992, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Lamellar Chestpiece, Chest
+				{ 4, 31993, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Lamellar Gauntlets, Hands
+				{ 5, 31997, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Lamellar Helm, Head
+				{ 6, 31995, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Lamellar Legguards, Legs
+				{ 7, 31996, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Lamellar Shoulders, Shoulder
+				{ 9 , 32020, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ornamented Chestguard, Chest
+				{ 10, 32021, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Ornamented Gloves, Hands
+				{ 11, 32022, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ornamented Headcover, Head
+				{ 12, 32023, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ornamented Legplates, Legs
+				{ 13, 32024, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Ornamented Spaulders, Shoulder
+				{ 18, 32039, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Scaled Chestpiece, Chest
+				{ 19, 32040, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Scaled Gauntlets, Hands
+				{ 20, 32041, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Scaled Helm, Head
+				{ 21, 32042, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Scaled Legguards, Legs
+				{ 22, 32043, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Scaled Shoulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 32016, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mooncloth Hood
-				{ 2, 32018, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Mooncloth Mantle
-				{ 3, 32019, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mooncloth Robe
-				{ 4, 32015, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Mooncloth Gloves
-				{ 5, 32017, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mooncloth Leggings
-				--
-				{ 16, 32035, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Satin Hood
-				{ 17, 32037, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Satin Mantle
-				{ 18, 32038, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Satin Robe
-				{ 19, 32034, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Satin Gloves
-				{ 20, 32036, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Satin Leggings
+				{ 1, 146625, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Satin Armor, slot:0
+				{ 3, 32015, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Mooncloth Gloves, Hands
+				{ 4, 32016, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mooncloth Hood, Head
+				{ 5, 32017, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mooncloth Leggings, Legs
+				{ 6, 32018, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Mooncloth Mantle, Shoulder
+				{ 7, 32019, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mooncloth Robe, Chest
+				{ 18, 32034, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Satin Gloves, Hands
+				{ 19, 32035, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Satin Hood, Head
+				{ 20, 32036, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Satin Leggings, Legs
+				{ 21, 32037, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Satin Mantle, Shoulder
+				{ 22, 32038, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Satin Robe, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 31999, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Leather Helm
-				{ 2, 32001, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Leather Spaulders
-				{ 3, 32002, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Leather Tunic
-				{ 4, 31998, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Leather Gloves
-				{ 5, 32000, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Leather Legguards
+				{ 1, 146622, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Leather Armor, slot:0
+				{ 3, 31998, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Leather Gloves, Hands
+				{ 4, 31999, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Leather Helm, Head
+				{ 5, 32000, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Leather Legguards, Legs
+				{ 6, 32001, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Leather Spaulders, Shoulder
+				{ 7, 32002, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Leather Tunic, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 32006, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Linked Helm
-				{ 2, 32008, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Linked Spaulders
-				{ 3, 32004, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Linked Armor
-				{ 4, 32005, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Linked Gauntlets
-				{ 5, 32007, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Linked Leggings
-				--
-				{ 7, 32011, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mail Helm
-				{ 8, 32013, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Mail Spaulders
-				{ 9, 32009, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mail Armor
-				{ 10, 32010, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Mail Gauntlets
-				{ 11, 32012, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Mail Leggings
-				--
-				{ 16, 32031, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ringmail Helm
-				{ 17, 32033, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Ringmail Spaulders
-				{ 18, 32029, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ringmail Armor
-				{ 19, 32030, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Ringmail Gauntlets
-				{ 20, 32032, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Ringmail Leggings
+				{ 1, 146624, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Ringmail Armor, slot:0
+				{ 3, 32004, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Linked Armor, Chest
+				{ 4, 32005, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Linked Gauntlets, Hands
+				{ 5, 32006, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Linked Helm, Head
+				{ 6, 32007, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Linked Leggings, Legs
+				{ 7, 32008, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Linked Spaulders, Shoulder
+				{ 9 , 32009, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mail Armor, Chest
+				{ 10, 32010, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Mail Gauntlets, Hands
+				{ 11, 32011, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mail Helm, Head
+				{ 12, 32012, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Mail Leggings, Legs
+				{ 13, 32013, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Mail Spaulders, Shoulder
+				{ 18, 32029, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ringmail Armor, Chest
+				{ 19, 32030, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Ringmail Gauntlets, Hands
+				{ 20, 32031, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ringmail Helm, Head
+				{ 21, 32032, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Ringmail Leggings, Legs
+				{ 22, 32033, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Ringmail Spaulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				--
-				{ 1, 31974, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dreadweave Hood
-				{ 2, 31976, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Dreadweave Mantle
-				{ 3, 31977, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dreadweave Robe
-				{ 4, 31973, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Dreadweave Gloves
-				{ 5, 31975, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Dreadweave Leggings
-				--
-				{ 16, 31980, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Felweave Cowl
-				{ 17, 31979, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Felweave Amice
-				{ 18, 31982, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Felweave Raiment
-				{ 19, 31981, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Felweave Handguards
-				{ 20, 31983, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Felweave Trousers
+				{ 1, 146621, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Felweave Armor, slot:0
+				{ 3, 31974, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dreadweave Hood, Head
+				{ 4, 31977, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dreadweave Robe, Chest
+				{ 5, 31973, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Dreadweave Gloves, Hands
+				{ 6, 31975, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Dreadweave Leggings, Legs
+				{ 7, 31976, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Dreadweave Mantle, Shoulder
+				{ 18, 31980, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Felweave Cowl, Head
+				{ 19, 31982, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Felweave Raiment, Chest
+				{ 20, 31981, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Felweave Handguards, Hands
+				{ 21, 31983, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Felweave Trousers, Legs
+				{ 22, 31979, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Felweave Amice, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 30488, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Plate Helm
-				{ 2, 30490, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Plate Shoulders
-				{ 3, 30486, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Plate Chestpiece
-				{ 4, 30487, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  },	-- Merciless Gladiator's Plate Gauntlets
-				{ 5, 30489, [PRICE_EXTRA_ITTYPE] = "markofhonor:1000"  },	-- Merciless Gladiator's Plate Legguards
+				{ 1, 146623, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Merciless Gladiator's Plate Armor, slot:0
+				{ 3, 30487, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Plate Gauntlets, Hands
+				{ 4, 30488, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Plate Helm, Head
+				{ 5, 30489, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Merciless Gladiator's Plate Legguards, Legs
+				{ 6, 30490, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Plate Shoulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				--
 			},
 		},
-		{ -- Weapons
-			name = string.format(AL["Weapons"]),
+		{ -- all classes
+			name = ALL_CLASSES,
 			[ALLIANCE_DIFF] = {
-				{ 1, 31965, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Cleaver
-				{ 2, 31986, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Crossbow of the Phoenix
-				{ 3, 32045, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Shield Wall
-				{ 4, 32962, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Touch of Defeat
-				{ 5, 32055, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's War Staff
-				{ 6, 32003, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Fleshslicer
-				{ 7, 32026, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Pummeler
-				{ 8, 32028, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Ripper
-				{ 9, 32044, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Shanker
-				{ 10, 32052, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Slicer
-				{ 11, 32053, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Spellblade
-				{ 12, 32963, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Gavel
-				{ 13, 32964, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Salvation
-				{ 14, 33313, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Barrier
-				{ 15, 31959, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's Bonegrinder
-				{ 16, 31966, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's Decapitator
-				{ 17, 31984, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's Greatsword
-				{ 18, 32014, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's Maul
-				{ 19, 32025, [PRICE_EXTRA_ITTYPE] = "markofhonor:1500"  }, -- Merciless Gladiator's Painsaw
-				{ 20, 31958, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Bonecracker
-				{ 21, 31985, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Hacker
-				{ 22, 32027, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Quickblade
-				{ 23, 32046, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Shiv
-				{ 24, 31978, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Endgame
-				{ 25, 32961, [PRICE_EXTRA_ITTYPE] = "markofhonor:750"  }, -- Merciless Gladiator's Reprieve
+				{ 1 , 146650, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Merciless Gladiator's Weapons, slot:0
+				{ 2 , 31978, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Endgame, Off-Hand
+				{ 3 , 32961, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Reprieve, Off-Hand
+				{ 4 , 31958, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Bonecracker, One-Hand
+				{ 5 , 31965, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Cleaver, One-Hand
+				{ 6 , 31985, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Hacker, One-Hand
+				{ 7 , 32003, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Fleshslicer, One-Hand
+				{ 8 , 32026, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Pummeler, One-Hand
+				{ 9 , 32027, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Quickblade, One-Hand
+				{ 10, 32028, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Ripper, One-Hand
+				{ 11, 32044, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Shanker, One-Hand
+				{ 12, 32046, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Shiv, One-Hand
+				{ 13, 32052, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Slicer, One-Hand
+				{ 14, 32053, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Spellblade, One-Hand
+				{ 15, 32963, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Gavel, One-Hand
+				{ 16, 32964, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Salvation, One-Hand
+				{ 17, 31986, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Crossbow of the Phoenix, Ranged
+				{ 18, 32962, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Touch of Defeat, Ranged
+				{ 19, 32045, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Shield Wall, Shield
+				{ 20, 33313, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Merciless Gladiator's Barrier, Shield
+				{ 21, 31959, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Bonegrinder, Two-Hand
+				{ 22, 31966, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Decapitator, Two-Hand
+				{ 23, 31984, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Greatsword, Two-Hand
+				{ 24, 32014, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Maul, Two-Hand
+				{ 25, 32025, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's Painsaw, Two-Hand
+				{ 26, 32055, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Merciless Gladiator's War Staff, Two-Hand
+
+				{ 101, 32809, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Chain Bracers, Wrists
+				{ 102, 32810, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Dragonhide Bracers, Wrists
+				{ 103, 32811, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Dreadweave Cuffs, Wrists
+				{ 104, 32812, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Kodohide Bracers, Wrists
+				{ 105, 32813, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Lamellar Bracers, Wrists
+				{ 106, 32814, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Leather Bracers, Wrists
+				{ 107, 32816, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Linked Bracers, Wrists
+				{ 108, 32817, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Mail Bracers, Wrists
+				{ 109, 32818, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Plate Bracers, Wrists
+				{ 110, 32819, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Scaled Bracers, Wrists
+				{ 111, 32820, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Silk Cuffs, Wrists
+				{ 112, 32821, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Wyrmhide Bracers, Wrists
+				{ 113, 32980, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Mooncloth Cuffs, Wrists
+				{ 114, 32989, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Ornamented Bracers, Wrists
+				{ 115, 32997, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Ringmail Bracers, Wrists
+				{ 116, 147612, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Leather Wristguards, Wrists
+				{ 118, 32785, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Chain Sabatons, Feet
+				{ 119, 32786, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Dragonhide Boots, Feet
+				{ 120, 32787, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Dreadweave Stalkers, Feet
+				{ 121, 32788, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Kodohide Boots, Feet
+				{ 122, 32789, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Lamellar Greaves, Feet
+				{ 123, 32790, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Leather Boots, Feet
+				{ 124, 32791, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Linked Sabatons, Feet
+				{ 125, 32792, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Mail Sabatons, Feet
+				{ 126, 32793, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Plate Greaves, Feet
+				{ 127, 32794, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Scaled Greaves, Feet
+				{ 128, 32795, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Silk Footguards, Feet
+				{ 129, 32796, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Wyrmhide Boots, Feet
+				{ 130, 32981, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Mooncloth Slippers, Feet
+				{ 201, 32990, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Ornamented Greaves, Feet
+				{ 202, 32999, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Ringmail Sabatons, Feet
+				{ 203, 147609, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Satin Slippers, Feet
+				{ 204, 147611, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Veteran's Leather Footguards, Feet
+				{ 206, 32797, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Chain Girdle, Waist
+				{ 207, 32798, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Dragonhide Belt, Waist
+				{ 208, 32799, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Dreadweave Belt, Waist
+				{ 209, 32800, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Kodohide Belt, Waist
+				{ 210, 32801, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Lamellar Belt, Waist
+				{ 211, 32802, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Leather Belt, Waist
+				{ 212, 32803, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Linked Girdle, Waist
+				{ 213, 32804, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Mail Girdle, Waist
+				{ 214, 32805, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Plate Belt, Waist
+				{ 215, 32806, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Scaled Belt, Waist
+				{ 216, 32807, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Silk Belt, Waist
+				{ 217, 32808, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Wyrmhide Belt, Waist
+				{ 218, 32979, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Mooncloth Belt, Waist
+				{ 219, 32988, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Ornamented Belt, Waist
+				{ 220, 32998, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Ringmail Girdle, Waist
+				{ 221, 147610, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Veteran's Leather Waistband, Waist
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -12325,195 +12650,288 @@ data["CLASSICS1SETS"] = {
 	name = string.format(AL["Season %d"], 1).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
-		{
+		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
-				-- Guardian
-				{ 1, 28127 },	-- Gladiator's Dragonhide Helm
-				{ 2, 28129 },	-- Gladiator's Dragonhide Spaulders
-				{ 3, 28130 },	-- Gladiator's Dragonhide Tunic
-				{ 4, 28126 },	-- Gladiator's Dragonhide Gloves
-				{ 5, 28128 },	-- Gladiator's Dragonhide Legguards
-				-- Restoration
-				{ 7, 31376 },	-- Gladiator's Kodohide Helm
-				{ 8, 31378 },	-- Gladiator's Kodohide Spaulders
-				{ 9, 31379 },	-- Gladiator's Kodohide Tunic
-				{ 10, 31375 },	-- Gladiator's Kodohide Gloves
-				{ 11, 31377 },	-- Gladiator's Kodohide Legguards
-				-- Feral
-				{ 16, 28137 },	-- Gladiator's Wyrmhide Helm
-				{ 17, 28139 },	-- Gladiator's Wyrmhide Spaulders
-				{ 18, 28140 },	-- Gladiator's Wyrmhide Tunic
-				{ 19, 28136 },	-- Gladiator's Wyrmhide Gloves
-				{ 20, 28138 }, 	-- Gladiator's Wyrmhide Legguards
+				{ 1, 146609, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Dragonhide Armor, slot:0
+				{ 3, 28126, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Dragonhide Gloves, Hands
+				{ 4, 28127, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dragonhide Helm, Head
+				{ 5, 28128, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dragonhide Legguards, Legs
+				{ 6, 28129, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Dragonhide Spaulders, Shoulder
+				{ 7, 28130, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dragonhide Tunic, Chest
+				{ 9 , 31375, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Kodohide Gloves, Hands
+				{ 10, 31376, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Kodohide Helm, Head
+				{ 11, 31377, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Kodohide Legguards, Legs
+				{ 12, 31378, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Kodohide Spaulders, Shoulder
+				{ 13, 31379, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Kodohide Tunic, Chest
+				{ 18, 28136, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Wyrmhide Gloves, Hands
+				{ 19, 28137, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Wyrmhide Helm, Head
+				{ 20, 28138, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Wyrmhide Legguards, Legs
+				{ 21, 28139, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Wyrmhide Spaulders, Shoulder
+				{ 22, 28140, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Wyrmhide Tunic, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 28331 },	-- Gladiator's Chain Helm
-				{ 2, 28333 },	-- Gladiator's Chain Spaulders
-				{ 3, 28334 }, 	-- Gladiator's Chain Armor
-				{ 4, 28335 },	-- Gladiator's Chain Gauntlets
-				{ 5, 28332 },	-- Gladiator's Chain Leggings
+				{ 1, 146608, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Chain Armor, slot:0
+				{ 3, 28334, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Chain Armor, Chest
+				{ 4, 28335, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Chain Gauntlets, Hands
+				{ 5, 28331, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Chain Helm, Head
+				{ 6, 28332, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Chain Leggings, Legs
+				{ 7, 28333, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Chain Spaulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 25855 },	-- Gladiator's Silk Cowl
-				{ 2, 25854 },	-- Gladiator's Silk Amice
-				{ 3, 25856 },	-- Gladiator's Silk Raiment
-				{ 4, 25857 },	-- Gladiator's Silk Handguards
-				{ 5, 25858 },	-- Gladiator's Silk Trousers
+				{ 1, 146617, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Silk Armor, slot:0
+				{ 3, 25854, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Silk Amice, Shoulder
+				{ 4, 25855, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Silk Cowl, Head
+				{ 5, 25857, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Silk Handguards, Hands
+				{ 6, 25856, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Silk Raiment, Chest
+				{ 7, 25858, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Silk Trousers, Legs
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
-			name = ALIL["SHAMAN"].." / "..ALIL["PALADIN"],
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
-				-- Retribution
-				{ 1, 27704 },	-- Gladiator's Lamellar Helm
-				{ 2, 27706 },	-- Gladiator's Lamellar Shoulders
-				{ 3, 27702 },	-- Gladiator's Lamellar Chestpiece
-				{ 4, 27703 },	-- Gladiator's Lamellar Gauntlets
-				{ 5, 27705 },	-- Gladiator's Lamellar Legguards
-				-- 
-				{ 7, 27881 },	-- Gladiator's Scaled Helm
-				{ 8, 27883 },	-- Gladiator's Scaled Shoulders
-				{ 9, 27879 },	-- Gladiator's Scaled Chestpiece
-				{ 10, 27880 },	-- Gladiator's Scaled Gauntlets
-				{ 11, 27882 },	-- Gladiator's Scaled Legguards
-				-- Holy
-				{ 16, 31616 },	-- Gladiator's Ornamented Headcover
-				{ 17, 31619 },	-- Gladiator's Ornamented Spaulders				
-				{ 18, 31613 },	-- Gladiator's Ornamented Chestguard
-				{ 19, 31614 },	-- Gladiator's Ornamented Gloves
-				{ 20, 31618 },	-- Gladiator's Ornamented Legplates
+				{ 1, 146616, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Scaled Armor, slot:0
+				{ 3, 27702, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Lamellar Chestpiece, Chest
+				{ 4, 27703, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Lamellar Gauntlets, Hands
+				{ 5, 27704, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Lamellar Helm, Head
+				{ 6, 27705, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Lamellar Legguards, Legs
+				{ 7, 27706, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Lamellar Shoulders, Shoulder
+				{ 9 , 31613, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ornamented Chestguard, Chest
+				{ 10, 31614, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Ornamented Gloves, Hands
+				{ 11, 31616, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ornamented Headcover, Head
+				{ 12, 31618, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ornamented Legplates, Legs
+				{ 13, 31619, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Ornamented Spaulders, Shoulder
+				{ 18, 27879, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Scaled Chestpiece, Chest
+				{ 19, 27880, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Scaled Gauntlets, Hands
+				{ 20, 27881, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Scaled Helm, Head
+				{ 21, 27882, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Scaled Legguards, Legs
+				{ 22, 27883, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Scaled Shoulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				-- Enhancement
-				{ 1, 25998 },  -- Gladiator's Linked Helm
-				{ 2, 25999 },  -- Gladiator's Linked Spaulders
-				{ 3, 25997 },  -- Gladiator's Linked Armor
-				{ 4, 26000 },  -- Gladiator's Linked Gauntlets
-				{ 5, 26001 },  -- Gladiator's Linked Leggings
-				-- Elemental
-				{ 7, 27471 },  -- Gladiator's Mail Helm
-				{ 8, 27473 },  -- Gladiator's Mail Spaulders
-				{ 9, 27469 },  -- Gladiator's Mail Armor
-				{ 10, 27470 },  -- Gladiator's Mail Gauntlets
-				{ 11, 27472 },  -- Gladiator's Mail Leggings
-				-- Restoration
-				{ 16, 31400 },  -- Gladiator's Ringmail Helm
-				{ 17, 31407 },  -- Gladiator's Ringmail Spaulders
-				{ 18, 31396 },  -- Gladiator's Ringmail Armor
-				{ 19, 31397 },  -- Gladiator's Ringmail Gauntlets
-				{ 20, 31406 },  -- Gladiator's Ringmail Leggings
-
 			},
 		},
-		{
+		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
-				-- Holy
-				{ 1, 31410 },	-- Gladiator's Mooncloth Hood
-				{ 2, 31412 },	-- Gladiator's Mooncloth Mantle
-				{ 3, 31413 },	-- Gladiator's Mooncloth Robe
-				{ 4, 31409 },	-- Gladiator's Mooncloth Gloves
-				{ 5, 31411 },	-- Gladiator's Mooncloth Leggings
-				-- Shadow
-				{ 16, 27708 },	-- Gladiator's Satin Hood
-				{ 17, 27710 },	-- Gladiator's Satin Mantle
-				{ 18, 27711 },	-- Gladiator's Satin Robe
-				{ 19, 27707 },	-- Gladiator's Satin Gloves
-				{ 20, 27709 },	-- Gladiator's Satin Leggings
+				{ 1, 146615, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Satin Armor, slot:0
+				{ 3, 31409, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Mooncloth Gloves, Hands
+				{ 4, 31410, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mooncloth Hood, Head
+				{ 5, 31411, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mooncloth Leggings, Legs
+				{ 6, 31412, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Mooncloth Mantle, Shoulder
+				{ 7, 31413, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mooncloth Robe, Chest
+				{ 18, 27707, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Satin Gloves, Hands
+				{ 19, 27708, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Satin Hood, Head
+				{ 20, 27709, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Satin Leggings, Legs
+				{ 21, 27710, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Satin Mantle, Shoulder
+				{ 22, 27711, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Satin Robe, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 25830 },	-- Gladiator's Leather Helm
-				{ 2, 25832 },	-- Gladiator's Leather Spaulders
-				{ 3, 25831 },	-- Gladiator's Leather Tunic
-				{ 4, 25834 },	-- Gladiator's Leather Gloves
-				{ 5, 25833 },	-- Gladiator's Leather Legguards
+				{ 1, 146612, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Leather Armor, slot:0
+				{ 3, 25834, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Leather Gloves, Hands
+				{ 4, 25830, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Leather Helm, Head
+				{ 5, 25833, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Leather Legguards, Legs
+				{ 6, 25832, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Leather Spaulders, Shoulder
+				{ 7, 25831, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Leather Tunic, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 146614, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Ringmail Armor, slot:0
+				{ 3, 25997, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Linked Armor, Chest
+				{ 4, 26000, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Linked Gauntlets, Hands
+				{ 5, 25998, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Linked Helm, Head
+				{ 6, 26001, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Linked Leggings, Legs
+				{ 7, 25999, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Linked Spaulders, Shoulder
+				{ 9 , 27469, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mail Armor, Chest
+				{ 10, 27470, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Mail Gauntlets, Hands
+				{ 11, 27471, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mail Helm, Head
+				{ 12, 27472, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Mail Leggings, Legs
+				{ 13, 27473, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Mail Spaulders, Shoulder
+				{ 18, 31396, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ringmail Armor, Chest
+				{ 19, 31397, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Ringmail Gauntlets, Hands
+				{ 20, 31400, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ringmail Helm, Head
+				{ 21, 31406, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Ringmail Leggings, Legs
+				{ 22, 31407, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Ringmail Spaulders, Shoulder
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 24553 },	-- Gladiator's Dreadweave Hood
-				{ 2, 24554 },	-- Gladiator's Dreadweave Mantle
-				{ 3, 24552 },	-- Gladiator's Dreadweave Robe
-				{ 4, 24556 },	-- Gladiator's Dreadweave Gloves
-				{ 5, 24555 },	-- Gladiator's Dreadweave Leggings
-				{ 16, 30187 },	-- Gladiator's Felweave Cowl
-				{ 17, 30186 },	-- Gladiator's Felweave Amice
-				{ 18, 30200 },	-- Gladiator's Felweave Raiment
-				{ 19, 30188 },	-- Gladiator's Felweave Handguards
-				{ 20, 30201 },	-- Gladiator's Felweave Trousers
-
+				{ 1, 146611, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Felweave Armor, slot:0
+				{ 3, 24556, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Dreadweave Gloves, Hands
+				{ 4, 24553, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dreadweave Hood, Head
+				{ 5, 24555, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dreadweave Leggings, Legs
+				{ 6, 24554, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Dreadweave Mantle, Shoulder
+				{ 7, 24552, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Dreadweave Robe, Chest
+				{ 18, 30188, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Felweave Handguards, Hands
+				{ 19, 30187, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Felweave Cowl, Head
+				{ 20, 30201, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Felweave Trousers, Legs
+				{ 21, 30186, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Felweave Amice, Shoulder
+				{ 22, 30200, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Felweave Raiment, Chest
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-		{
+		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 24545 },	-- Gladiator's Plate Helm
-				{ 2, 24546 },	-- Gladiator's Plate Shoulders
-				{ 3, 24544 },	-- Gladiator's Plate Chestpiece
-				{ 4, 24549 },	-- Gladiator's Plate Gauntlets
-				{ 5, 24547 },	-- Gladiator's Plate Legguards
+				{ 1, 146613, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Gladiator's Plate Armor, slot:0
+				{ 3, 24544, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Plate Chestpiece, Chest
+				{ 4, 24549, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Plate Gauntlets, Hands
+				{ 5, 24545, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Plate Helm, Head
+				{ 6, 24547, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Gladiator's Plate Legguards, Legs
+				{ 7, 24546, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Plate Shoulders, Shoulder
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
 		{ -- Weapons
-			name = string.format(AL["Weapons"]),
+			name = AL["Weapons"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 28294 }, -- Gladiator's Heavy Crossbow
-				{ 3, 28320 }, -- Gladiator's Touch of Defeat
-				{ 5, 28314 }, -- Gladiator's Fleshslicer				
-				{ 6, 28313 }, -- Gladiator's Ripper
-				{ 7, 32450 }, -- Gladiator's Gavel
-				{ 8, 28305 }, -- Gladiator's Pummeler
-				{ 9, 32451 }, -- Gladiator's Salvation
-				{ 10, 28312 }, -- Gladiator's Shanker
-				{ 11, 28297 }, -- Gladiator's Spellblade
-				{ 12, 28295 }, -- Gladiator's Slicer
-				{ 13, 28308 }, -- Gladiator's Cleaver
-				{ 16, 24557 }, -- Gladiator's War Staff
-				{ 17, 28299 }, -- Gladiator's Bonegrinder
-				{ 18, 28298 }, -- Gladiator's Decapitator
-				{ 19, 24550 }, -- Gladiator's Greatsword
-				{ 20, 28476 }, -- Gladiator's Maul
-				{ 21, 28300 }, -- Gladiator's Painsaw
-				{ 23, 28302 }, -- Gladiator's Bonecracker
-				{ 24, 28309 }, -- Gladiator's Hacker
-				{ 25, 28307 }, -- Gladiator's Quickblade
-				{ 26, 28310 }, -- Gladiator's Shiv
-				{ 28, 28358 }, -- Gladiator's Shield Wall
-				{ 29, 28346 }, -- Gladiator's Endgame
-				{ 30, 32452 }, -- Gladiator's Reprieve
+				{ 1, 146651, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Gladiator's Weapons, slot:0
+				{ 3, 28346, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Endgame, Off-Hand
+				{ 4, 32452, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Reprieve, Off-Hand
+				{ 5, 28295, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Slicer, One-Hand
+				{ 7 , 28297, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Spellblade, One-Hand
+				{ 8 , 28302, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Bonecracker, One-Hand
+				{ 9 , 28305, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Pummeler, One-Hand
+				{ 10, 28307, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Quickblade, One-Hand
+				{ 11, 28308, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Cleaver, One-Hand
+				{ 12, 28309, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Hacker, One-Hand
+				{ 13, 28310, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Shiv, One-Hand
+				{ 14, 28312, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Shanker, One-Hand
+				{ 15, 28313, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Ripper, One-Hand
+				{ 16, 28314, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Fleshslicer, One-Hand
+				{ 17, 32450, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Gavel, One-Hand
+				{ 18, 32451, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Salvation, One-Hand
+				{ 20, 28294, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Heavy Crossbow, Ranged
+				{ 21, 28320, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Touch of Defeat, Ranged
+				{ 23, 28358, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Gladiator's Shield Wall, Shield
+				{ 25, 24550, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Greatsword, Two-Hand
+				{ 26, 24557, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's War Staff, Two-Hand
+				{ 27, 28298, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Decapitator, Two-Hand
+				{ 28, 28299, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Bonegrinder, Two-Hand
+				{ 29, 28300, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Painsaw, Two-Hand
+				{ 30, 28476, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Gladiator's Maul, Two-Hand
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- all classes
+			name = ALL_CLASSES,
+			[ALLIANCE_DIFF] = {
+				{ 1 , 28385, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Plate Belt, Waist
+				{ 2 , 28404, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Dreadweave Belt, Waist
+				{ 3 , 28409, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Silk Belt, Waist
+				{ 4 , 28423, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Leather Belt, Waist
+				{ 5 , 28443, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Dragonhide Belt, Waist
+				{ 6 , 28446, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Wyrmhide Belt, Waist
+				{ 7 , 28450, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Chain Girdle, Waist
+				{ 8 , 28629, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Linked Girdle, Waist
+				{ 9 , 28639, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Mail Girdle, Waist
+				{ 10, 28641, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Lamellar Belt, Waist
+				{ 11, 28644, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Scaled Belt, Waist
+				{ 12, 28974, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Chain Girdle, Waist
+				{ 13, 28976, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Dragonhide Belt, Waist
+				{ 14, 28980, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Dreadweave Belt, Waist
+				{ 15, 28983, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Lamellar Belt, Waist
+				{ 16, 28986, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Leather Belt, Waist
+				{ 17, 28990, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Linked Girdle, Waist
+				{ 18, 28993, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Mail Girdle, Waist
+				{ 19, 28995, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Plate Belt, Waist
+				{ 20, 28998, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Scaled Belt, Waist
+				{ 21, 29001, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Silk Belt, Waist
+				{ 22, 29004, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Wyrmhide Belt, Waist
+				{ 23, 31594, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Kodohide Belt, Waist
+				{ 24, 31596, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Kodohide Belt, Waist
+				{ 25, 147613, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Satin Cord, Waist
+				{ 26, 147615, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Felweave Belt, Waist
+
+				{ 101, 28381, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Plate Bracers, Wrists
+				{ 102, 28405, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Dreadweave Cuffs, Wrists
+				{ 103, 28411, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Silk Cuffs, Wrists
+				{ 104, 28424, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Leather Bracers, Wrists
+				{ 105, 28445, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Dragonhide Bracers, Wrists
+				{ 106, 28448, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Wyrmhide Bracers, Wrists
+				{ 107, 28451, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Chain Bracers, Wrists
+				{ 108, 28605, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Linked Bracers, Wrists
+				{ 109, 28638, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Mail Bracers, Wrists
+				{ 110, 28643, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Lamellar Bracers, Wrists
+				{ 111, 28646, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Scaled Bracers, Wrists
+				{ 112, 28973, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Chain Bracers, Wrists
+				{ 113, 28978, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Dragonhide Bracers, Wrists
+				{ 114, 28981, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Dreadweave Cuffs, Wrists
+				{ 115, 28984, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Lamellar Bracers, Wrists
+				{ 116, 28988, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Leather Bracers, Wrists
+				{ 117, 28989, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Linked Bracers, Wrists
+				{ 118, 28992, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Mail Bracers, Wrists
+				{ 119, 28996, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Plate Bracers, Wrists
+				{ 120, 28999, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Scaled Bracers, Wrists
+				{ 121, 29002, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Silk Cuffs, Wrists
+				{ 122, 29006, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Wyrmhide Bracers, Wrists
+				{ 123, 31598, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Kodohide Bracers, Wrists
+				{ 124, 31599, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Marshal's Kodohide Bracers, Wrists
+				{ 125, 147771, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Satin Cuffs, Wrists
+				{ 126, 147772, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- General's Felweave Cuffs, Wrists
+
+				{ 201, 28383, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Plate Greaves, Feet
+				{ 202, 28402, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Dreadweave Stalkers, Feet
+				{ 203, 28410, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Silk Footguards, Feet
+				{ 204, 28422, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Leather Boots, Feet
+				{ 205, 28444, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Dragonhide Boots, Feet
+				{ 206, 28447, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Wyrmhide Boots, Feet
+				{ 207, 28449, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Chain Sabatons, Feet
+				{ 208, 28630, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Linked Sabatons, Feet
+				{ 209, 28640, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Mail Sabatons, Feet
+				{ 210, 28642, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Lamellar Greaves, Feet
+				{ 211, 28645, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Scaled Greaves, Feet
+				{ 212, 28975, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Chain Sabatons, Feet
+				{ 213, 28977, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Dragonhide Boots, Feet
+				{ 214, 28982, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Dreadweave Stalkers, Feet
+				{ 215, 28985, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Lamellar Greaves, Feet
+				{ 216, 28987, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Leather Boots, Feet
+				{ 217, 28991, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Linked Sabatons, Feet
+				{ 218, 28994, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Mail Sabatons, Feet
+				{ 219, 28997, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Plate Greaves, Feet
+				{ 220, 29000, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Scaled Greaves, Feet
+				{ 221, 29003, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Silk Footguards, Feet
+				{ 222, 29005, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Wyrmhide Boots, Feet
+				{ 223, 31595, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Kodohide Boots, Feet
+				{ 224, 31597, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Marshal's Kodohide Boots, Feet
+				{ 225, 147614, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Satin Slippers, Feet
+				{ 226, 147616, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- General's Felweave Boots, Feet
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
