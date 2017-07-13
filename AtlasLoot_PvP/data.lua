@@ -21,6 +21,16 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
 local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
 
+--[[
+EXPANSION_NAME0 = "Classic";
+EXPANSION_NAME1 = "The Burning Crusade";
+EXPANSION_NAME2 = "Wrath of the Lich King";
+EXPANSION_NAME3 = "Cataclysm";
+EXPANSION_NAME4 = "Mists of Pandaria";
+EXPANSION_NAME5 = "Warlords of Draenor";
+EXPANSION_NAME6 = "Legion";
+]]
+
 data["LEGION4SET"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 4).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
@@ -7860,7 +7870,7 @@ data["WODS1WEAPONS"] = {
 }
 
 -- Mists of Pandaria Season 15
-data["MOPS15SETS"] = {
+data["SEASON15SETS"] = {
 	name = string.format(AL["Season %d"], 15).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -8129,8 +8139,638 @@ data["MOPS15SETS"] = {
 	},
 }
 
--- Classic Season 13
-data["CLASSICS13SETS"] = {
+-- Mists of Pandaria Season 14
+data["SEASON14SETS"] = {
+	name = string.format(AL["Season %d"], 14).." ("..EXPANSION_NAME4..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138683, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Dreadplate Armor, slot:0
+				{ 3, 99806, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Chestpiece, Chest
+				{ 4, 99807, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dreadplate Gauntlets, Hands
+				{ 5, 99808, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Helm, Head
+				{ 6, 99809, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Legguards, Legs
+				{ 7, 99810, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dreadplate Shoulders, Shoulder
+
+				{ 16, 99944, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 17, 99945, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 18, 99888, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 19, 99889, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 20, 99886, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 21, 99887, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 22, 99890, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 23, 99891, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138684, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Dreadplate Armor, slot:0
+				{ 3, 100062, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Chestpiece, Chest
+				{ 4, 100034, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dreadplate Gauntlets, Hands
+				{ 5, 100099, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Helm, Head
+				{ 6, 100035, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dreadplate Legguards, Legs
+				{ 7, 100036, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dreadplate Shoulders, Shoulder
+
+				{ 16, 100155, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 17, 100156, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 18, 100084, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 19, 100131, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 20, 100023, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 21, 100110, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 22, 100088, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 23, 100157, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138691, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Dragonhide Armor, slot:0
+				{ 3, 99811, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dragonhide Gloves, Hands
+				{ 4, 99812, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Helm, Head
+				{ 5, 99813, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Legguards, Legs
+				{ 6, 99814, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Robes, Chest
+				{ 7, 99815, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dragonhide Spaulders, Shoulder
+				{ 9 , 99819, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Kodohide Gloves, Hands
+				{ 10, 99820, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Helm, Head
+				{ 11, 99821, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Legguards, Legs
+				{ 12, 99822, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Robes, Chest
+				{ 13, 99823, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Kodohide Spaulders, Shoulder
+				{ 18, 99828, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Wyrmhide Gloves, Hands
+				{ 19, 99829, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Helm, Head
+				{ 20, 99830, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Legguards, Legs
+				{ 21, 99831, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Robes, Chest
+				{ 22, 99832, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Wyrmhide Spaulders, Shoulder
+
+				{ 101, 99825, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Cruelty, Waist
+				{ 102, 99816, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Meditation, Waist
+				{ 103, 99903, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 104, 99857, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+				{ 106, 99773, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 99774, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 99792, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 99818, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Meditation, Wrists
+				{ 117, 99827, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Prowess, Wrists
+				{ 118, 99859, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 119, 99905, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 121, 99826, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 122, 99817, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 123, 99858, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 124, 99904, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138692, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Dragonhide Armor, slot:0
+				{ 3, 100125, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dragonhide Gloves, Hands
+				{ 4, 100037, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Helm, Head
+				{ 5, 100038, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Legguards, Legs
+				{ 6, 100126, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Dragonhide Robes, Chest
+				{ 7, 100127, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Dragonhide Spaulders, Shoulder
+				{ 9 , 100041, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Kodohide Gloves, Hands
+				{ 10, 100162, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Helm, Head
+				{ 11, 100147, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Legguards, Legs
+				{ 12, 100107, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Kodohide Robes, Chest
+				{ 13, 100042, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Kodohide Spaulders, Shoulder
+				{ 18, 100082, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Wyrmhide Gloves, Hands
+				{ 19, 100017, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Helm, Head
+				{ 20, 100153, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Legguards, Legs
+				{ 21, 99988, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Wyrmhide Robes, Chest
+				{ 22, 100086, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Wyrmhide Spaulders, Shoulder
+
+				{ 101, 100080, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Cruelty, Waist
+				{ 102, 100161, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Meditation, Waist
+				{ 103, 100094, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 104, 100030, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+				{ 106, 100091, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 100025, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 100142, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 100077, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Meditation, Wrists
+				{ 117, 100109, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Prowess, Wrists
+				{ 118, 100097, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 119, 100140, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 121, 100014, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 122, 100146, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 123, 100102, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 124, 100044, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138689, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Chain Armor, slot:0
+				{ 3, 99847, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Armor, Chest
+				{ 4, 99848, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Chain Gauntlets, Hands
+				{ 5, 99849, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Helm, Head
+				{ 6, 99850, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Leggings, Legs
+				{ 7, 99851, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Chain Spaulders, Shoulder
+
+				{ 16, 99773, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 17, 99774, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 18, 99842, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Accuracy, Waist
+				{ 19, 99841, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Cruelty, Waist
+				{ 20, 99844, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Alacrity, Feet
+				{ 21, 99843, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Cruelty, Feet
+				{ 22, 99846, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Accuracy, Wrists
+				{ 23, 99845, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Alacrity, Wrists
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138690, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Chain Armor, slot:0
+				{ 3, 100075, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Armor, Chest
+				{ 4, 100123, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Chain Gauntlets, Hands
+				{ 5, 100076, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Helm, Head
+				{ 6, 100054, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Chain Leggings, Legs
+				{ 7, 100120, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Chain Spaulders, Shoulder
+
+				{ 16, 100091, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 17, 100025, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 18, 100028, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Accuracy, Waist
+				{ 19, 99991, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Cruelty, Waist
+				{ 20, 100029, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Alacrity, Feet
+				{ 21, 100115, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Cruelty, Feet
+				{ 22, 100139, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Accuracy, Wrists
+				{ 23, 100074, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Alacrity, Wrists
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138697, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Silk Armor, slot:0
+				{ 3, 99856, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Silk Amice, Shoulder
+				{ 4, 99853, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Cowl, Head
+				{ 5, 99852, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Silk Handguards, Hands
+				{ 6, 99855, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Robe, Chest
+				{ 7, 99854, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Trousers, Legs
+
+				{ 16, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 99782, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 19, 99781, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 20, 99783, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 21, 99787, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 22, 99789, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 23, 99788, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 24, 99785, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 25, 99784, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 26, 99786, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138698, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Silk Armor, slot:0
+				{ 3, 100059, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Silk Amice, Shoulder
+				{ 4, 100051, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Cowl, Head
+				{ 5, 100121, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Silk Handguards, Hands
+				{ 6, 100101, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Robe, Chest
+				{ 7, 100032, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Silk Trousers, Legs
+
+				{ 16, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 100046, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 19, 100070, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 20, 100095, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 21, 100073, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 22, 100050, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 23, 100119, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 24, 99994, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 25, 100072, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 26, 100138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138693, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Ironskin Armor, slot:0
+				{ 3, 99865, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Copperskin Gloves, Hands
+				{ 4, 99866, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Helm, Head
+				{ 5, 99867, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Legguards, Legs
+				{ 6, 99868, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Copperskin Spaulders, Shoulder
+				{ 7, 99869, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Tunic, Chest
+				{ 18, 99860, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ironskin Gloves, Hands
+				{ 19, 99861, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Helm, Head
+				{ 20, 99862, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Legguards, Legs
+				{ 21, 99863, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ironskin Spaulders, Shoulder
+				{ 22, 99864, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Tunic, Chest
+
+				{ 101, 99825, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Cruelty, Waist
+				{ 102, 99816, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Meditation, Waist
+				{ 103, 99903, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 104, 99857, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+				{ 106, 99773, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 99774, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 99792, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 99818, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Meditation, Wrists
+				{ 117, 99827, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Prowess, Wrists
+				{ 118, 99859, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 119, 99905, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 121, 99826, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 122, 99817, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 123, 99858, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 124, 99904, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138694, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Ironskin Armor, slot:0
+				{ 3, 100010, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Copperskin Gloves, Hands
+				{ 4, 100011, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Helm, Head
+				{ 5, 100148, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Legguards, Legs
+				{ 6, 100163, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Copperskin Spaulders, Shoulder
+				{ 7, 100149, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Copperskin Tunic, Chest
+				{ 18, 100061, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ironskin Gloves, Hands
+				{ 19, 100098, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Helm, Head
+				{ 20, 100040, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Legguards, Legs
+				{ 21, 100009, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ironskin Spaulders, Shoulder
+				{ 22, 100106, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ironskin Tunic, Chest
+				
+				{ 101, 100080, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Cruelty, Waist
+				{ 102, 100161, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Belt of Meditation, Waist
+				{ 103, 100094, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 104, 100030, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+				{ 106, 100091, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 100025, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 100142, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 100077, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Meditation, Wrists
+				{ 117, 100109, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bindings of Prowess, Wrists
+				{ 118, 100097, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 119, 100140, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 121, 100014, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 122, 100146, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 123, 100102, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 124, 100044, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138685, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Scaled Armor, slot:0
+				{ 3, 99881, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Chestguard, Chest
+				{ 4, 99882, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ornamented Gloves, Hands
+				{ 5, 99883, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Headcover, Head
+				{ 6, 99884, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Legplates, Legs
+				{ 7, 99885, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ornamented Spaulders, Shoulder
+				{ 18, 99870, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Chestpiece, Chest
+				{ 19, 99871, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Scaled Gauntlets, Hands
+				{ 20, 99872, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Helm, Head
+				{ 21, 99873, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Legguards, Legs
+				{ 22, 99874, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Scaled Shoulders, Shoulder
+				
+				{ 101, 99888, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 102, 99889, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 103, 99877, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Greaves of Alacrity, Feet
+				{ 104, 99878, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Greaves of Meditation, Feet
+				{ 106, 99944, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 107, 99945, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 108, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 99792, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 99886, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 117, 99887, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 118, 99875, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Clasp of Cruelty, Waist
+				{ 119, 99876, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Clasp of Meditation, Waist
+				{ 121, 99890, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 122, 99891, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+				{ 123, 99880, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bracers of Meditation, Wrists
+				{ 124, 99879, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bracers of Prowess, Wrists
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138686, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Scaled Armor, slot:0
+				{ 3, 100015, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Chestguard, Chest
+				{ 4, 100108, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ornamented Gloves, Hands
+				{ 5, 100018, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Headcover, Head
+				{ 6, 100154, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ornamented Legplates, Legs
+				{ 7, 100083, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ornamented Spaulders, Shoulder
+				{ 18, 100133, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Chestpiece, Chest
+				{ 19, 100013, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Scaled Gauntlets, Hands
+				{ 20, 100165, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Helm, Head
+				{ 21, 100166, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Scaled Legguards, Legs
+				{ 22, 100130, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Scaled Shoulders, Shoulder
+				
+				{ 101, 100155, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 102, 100156, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 103, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 104, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 105, 100142, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 107, 100084, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 108, 100021, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Greaves of Alacrity, Feet
+				{ 109, 100022, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Greaves of Meditation, Feet
+				{ 110, 100131, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 116, 100023, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 117, 100110, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 118, 100150, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Clasp of Cruelty, Waist
+				{ 119, 100134, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Clasp of Meditation, Waist
+				{ 121, 100088, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 122, 100151, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bracers of Meditation, Wrists
+				{ 123, 100081, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Bracers of Prowess, Wrists
+				{ 124, 100157, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138699, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Satin Armor, slot:0
+				{ 3, 99893, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mooncloth Gloves, Hands
+				{ 4, 99894, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Helm, Head
+				{ 5, 99895, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Leggings, Legs
+				{ 6, 99897, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mooncloth Mantle, Shoulder
+				{ 7, 99896, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Robe, Chest
+				{ 9 , 99898, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Satin Gloves, Hands
+				{ 10, 99899, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Hood, Head
+				{ 11, 99900, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Leggings, Legs
+				{ 12, 99902, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Satin Mantle, Shoulder
+				{ 13, 99901, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Robe, Chest
+
+				{ 16, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 99792, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 19, 99782, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 20, 99781, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 21, 99783, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 22, 99787, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 23, 99789, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 24, 99788, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 25, 99785, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 26, 99784, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 27, 99786, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138700, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Satin Armor, slot:0
+				{ 3, 99989, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mooncloth Gloves, Hands
+				{ 4, 100089, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Helm, Head
+				{ 5, 100090, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Leggings, Legs
+				{ 6, 100136, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mooncloth Mantle, Shoulder
+				{ 7, 100067, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mooncloth Robe, Chest
+				{ 9 , 100093, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Satin Gloves, Hands
+				{ 10, 100137, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Hood, Head
+				{ 11, 99996, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Leggings, Legs
+				{ 12, 100055, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Satin Mantle, Shoulder
+				{ 13, 99998, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Satin Robe, Chest
+
+				{ 16, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 100142, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 19, 100046, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 20, 100070, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 21, 100095, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 22, 100073, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 23, 100050, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 24, 100119, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 25, 99994, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 26, 100072, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 27, 100138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138695, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Leather Armor, slot:0
+				{ 3, 99907, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Leather Gloves, Hands
+				{ 4, 99908, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Helm, Head
+				{ 5, 99909, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Legguards, Legs
+				{ 6, 99910, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Leather Spaulders, Shoulder
+				{ 7, 99906, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Tunic, Chest
+
+				{ 16, 99773, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 17, 99774, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 18, 99859, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 19, 99905, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 20, 99858, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 21, 99904, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+				{ 22, 99903, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 23, 99857, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138696, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Leather Armor, slot:0
+				{ 3, 100047, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Leather Gloves, Hands
+				{ 4, 100096, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Helm, Head
+				{ 5, 100116, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Legguards, Legs
+				{ 6, 100117, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Leather Spaulders, Shoulder
+				{ 7, 100113, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Leather Tunic, Chest
+
+				{ 16, 100097, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Accuracy, Wrists
+				{ 17, 100140, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armwraps of Alacrity, Wrists
+				{ 18, 100102, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Alacrity, Feet
+				{ 19, 100044, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Boots of Cruelty, Feet
+				{ 20, 100094, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Accuracy, Waist
+				{ 21, 100030, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistband of Cruelty, Waist
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138687, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Ringmail Armor, slot:0
+				{ 3, 99921, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Armor, Chest
+				{ 4, 99922, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Linked Gauntlets, Hands
+				{ 5, 99923, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Helm, Head
+				{ 6, 99924, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Leggings, Legs
+				{ 7, 99925, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Linked Spaulders, Shoulder
+				{ 9 , 99927, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Armor, Chest
+				{ 10, 99928, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mail Gauntlets, Hands
+				{ 11, 99929, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Helm, Head
+				{ 12, 99930, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Leggings, Legs
+				{ 13, 99931, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mail Spaulders, Shoulder
+				{ 18, 99916, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Armor, Chest
+				{ 19, 99917, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ringmail Gauntlets, Hands
+				{ 20, 99918, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Helm, Head
+				{ 21, 99919, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Leggings, Legs
+				{ 22, 99920, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ringmail Spaulders, Shoulder
+
+				{ 101, 99842, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Accuracy, Waist
+				{ 102, 99841, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Cruelty, Waist
+				{ 103, 99926, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistguard of Cruelty, Waist
+				{ 104, 99911, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistguard of Meditation, Waist
+				{ 106, 99773, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 99774, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 99792, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 99844, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Alacrity, Feet
+				{ 117, 99843, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Cruelty, Feet
+				{ 118, 99912, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 119, 99913, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 121, 99846, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Accuracy, Wrists
+				{ 122, 99845, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Alacrity, Wrists
+				{ 123, 99915, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armbands of Meditation, Wrists
+				{ 124, 99914, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armbands of Prowess, Wrists
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138688, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Ringmail Armor, slot:0
+				{ 3, 100145, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Armor, Chest
+				{ 4, 100128, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Linked Gauntlets, Hands
+				{ 5, 100100, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Helm, Head
+				{ 6, 100164, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Linked Leggings, Legs
+				{ 7, 100012, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Linked Spaulders, Shoulder
+				{ 9 , 100129, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Armor, Chest
+				{ 10, 100078, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mail Gauntlets, Hands
+				{ 11, 100079, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Helm, Head
+				{ 12, 100167, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Mail Leggings, Legs
+				{ 13, 100020, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Mail Spaulders, Shoulder
+				{ 18, 100103, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Armor, Chest
+				{ 19, 100160, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ringmail Gauntlets, Hands
+				{ 20, 100104, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Helm, Head
+				{ 21, 100105, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Ringmail Leggings, Legs
+				{ 22, 100039, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Ringmail Spaulders, Shoulder
+				
+				{ 101, 100028, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Accuracy, Waist
+				{ 102, 99991, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Links of Cruelty, Waist
+				{ 103, 100063, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistguard of Cruelty, Waist
+				{ 104, 100052, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Waistguard of Meditation, Waist
+				{ 106, 100091, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Cruelty, Cloak
+				{ 107, 100025, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cape of Prowess, Cloak
+				{ 108, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 109, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 110, 100142, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Meditation, Cloak
+				{ 116, 100029, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Alacrity, Feet
+				{ 117, 100115, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Sabatons of Cruelty, Feet
+				{ 118, 100048, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Alacrity, Feet
+				{ 119, 100001, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Footguards of Meditation, Feet
+				{ 121, 100139, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Accuracy, Wrists
+				{ 122, 100074, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Wristguards of Alacrity, Wrists
+				{ 123, 100004, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armbands of Meditation, Wrists
+				{ 124, 100049, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armbands of Prowess, Wrists
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138701, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Felweave Armor, slot:0
+				{ 3, 99956, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Felweave Amice, Shoulder
+				{ 4, 99953, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Cowl, Head
+				{ 5, 99952, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Felweave Handguards, Hands
+				{ 6, 99955, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Raiment, Chest
+				{ 7, 99954, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Trousers, Legs
+
+				{ 16, 99790, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 99791, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 99782, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 19, 99781, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 20, 99783, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 21, 99787, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 22, 99789, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 23, 99788, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 24, 99785, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 25, 99784, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 26, 99786, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138702, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Felweave Armor, slot:0
+				{ 3, 100068, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Felweave Amice, Shoulder
+				{ 4, 100112, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Cowl, Head
+				{ 5, 100111, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Felweave Handguards, Hands
+				{ 6, 100045, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Raiment, Chest
+				{ 7, 100141, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Felweave Trousers, Legs
+
+				{ 16, 100053, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Cruelty, Cloak
+				{ 17, 100158, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Drape of Prowess, Cloak
+				{ 18, 100046, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Accuracy, Waist
+				{ 19, 100070, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Cruelty, Waist
+				{ 20, 100095, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cord of Meditation, Waist
+				{ 21, 100073, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Accuracy, Wrists
+				{ 22, 100050, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Meditation, Wrists
+				{ 23, 100119, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cuffs of Prowess, Wrists
+				{ 24, 99994, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Alacrity, Feet
+				{ 25, 100072, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Cruelty, Feet
+				{ 26, 100138, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Treads of Meditation, Feet
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 138681, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Plate Armor, slot:0
+				{ 3, 99957, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Chestpiece, Chest
+				{ 4, 99958, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Plate Gauntlets, Hands
+				{ 5, 99959, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Helm, Head
+				{ 6, 99960, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Legguards, Legs
+				{ 7, 99961, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Plate Shoulders, Shoulder
+				
+				{ 16, 99944, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 17, 99945, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 18, 99888, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 19, 99889, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 20, 99886, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 21, 99887, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 22, 99890, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 23, 99891, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+			},
+			[HORDE_DIFF] = {
+				{ 1, 138682, [PRICE_EXTRA_ITTYPE] = "markofhonor:12" }, -- Ensemble: Tyrannical Gladiator's Plate Armor, slot:0
+				{ 3, 100114, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Chestpiece, Chest
+				{ 4, 99992, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Plate Gauntlets, Hands
+				{ 5, 99993, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Helm, Head
+				{ 6, 100118, [PRICE_EXTRA_ITTYPE] = "markofhonor:3" }, -- Tyrannical Gladiator's Plate Legguards, Legs
+				{ 7, 100071, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Plate Shoulders, Shoulder
+				
+				{ 16, 100155, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Alacrity, Cloak
+				{ 17, 100156, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Cloak of Prowess, Cloak
+				{ 18, 100084, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Cruelty, Feet
+				{ 19, 100131, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Warboots of Alacrity, Feet
+				{ 20, 100023, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Accuracy, Waist
+				{ 21, 100110, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Girdle of Prowess, Waist
+				{ 22, 100088, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Proficiency, Wrists
+				{ 23, 100157, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Tyrannical Gladiator's Armplates of Alacrity, Wrists
+			},
+		},
+		{ -- Weapons
+			name = AL["Weapons"],
+			[ALLIANCE_DIFF] = {
+				{ 1 , 144246, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Tyrannical Gladiator's Weapons, slot:0
+				{ 2 , 99793, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Endgame, Off-Hand
+				{ 3 , 99803, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Reprieve, Off-Hand
+				{ 4 , 99769, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Cleaver, One-Hand
+				{ 5 , 99770, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Pummeler, One-Hand
+				{ 6 , 99771, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Quickblade, One-Hand
+				{ 7 , 99795, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Spellblade, One-Hand
+				{ 8 , 99835, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Gavel, One-Hand
+				{ 9 , 99932, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Shanker, One-Hand
+				{ 10, 99933, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Ripper, One-Hand
+				{ 11, 99935, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Render, One-Hand
+				{ 12, 99936, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Mageblade, One-Hand
+				{ 13, 99940, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Hacker, One-Hand
+				{ 14, 99941, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Bonecracker, One-Hand
+				{ 15, 99942, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Slicer, One-Hand
+				{ 16, 99805, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Heavy Crossbow, Ranged
+				{ 17, 99794, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Barrier, Shield
+				{ 18, 99836, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Redoubt, Shield
+				{ 19, 99951, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Shield Wall, Shield
+				{ 20, 99766, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Decapitator, Two-Hand
+				{ 21, 99768, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Greatsword, Two-Hand
+				{ 22, 99796, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Battle Staff, Two-Hand
+				{ 23, 99824, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Staff, Two-Hand
+				{ 24, 99837, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Energy Staff, Two-Hand
+			},
+			[HORDE_DIFF] = {
+				{ 1 , 144245, [PRICE_EXTRA_ITTYPE] = "markofhonor:80" }, -- Arsenal: Tyrannical Gladiator's Weapons, slot:0
+				{ 2 , 100169, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Reprieve, Off-Hand
+				{ 3 , 100172, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Endgame, Off-Hand
+				{ 4 , 99963, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Gavel, One-Hand
+				{ 5 , 99965, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Pummeler, One-Hand
+				{ 6 , 99967, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Spellblade, One-Hand
+				{ 7 , 99971, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Mageblade, One-Hand
+				{ 8 , 99973, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Cleaver, One-Hand
+				{ 9 , 99976, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Shanker, One-Hand
+				{ 10, 99977, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Ripper, One-Hand
+				{ 11, 99978, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Hacker, One-Hand
+				{ 12, 99979, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Slicer, One-Hand
+				{ 13, 99982, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Render, One-Hand
+				{ 14, 99983, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Bonecracker, One-Hand
+				{ 15, 99986, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Quickblade, One-Hand
+				{ 16, 99987, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Heavy Crossbow, Ranged
+				{ 17, 100168, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Redoubt, Shield
+				{ 18, 100170, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Shield Wall, Shield
+				{ 19, 100171, [PRICE_EXTRA_ITTYPE] = "markofhonor:2" }, -- Tyrannical Gladiator's Barrier, Shield
+				{ 20, 99968, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Staff, Two-Hand
+				{ 21, 99972, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Greatsword, Two-Hand
+				{ 22, 99974, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Battle Staff, Two-Hand
+				{ 23, 99981, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Energy Staff, Two-Hand
+				{ 24, 99984, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Tyrannical Gladiator's Decapitator, Two-Hand
+			},
+		},
+	},
+}
+
+-- Mists of Pandaria Season 13
+data["SEASON13SETS"] = {
 	name = string.format(AL["Season %d"], 13).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -8509,8 +9149,8 @@ data["CLASSICS13SETS"] = {
 	},
 }
 
--- Classic Season 12
-data["CLASSICS12SETS"] = {
+-- Mists of Pandaria Season 12
+data["SEASON12SETS"] = {
 	name = string.format(AL["Season %d"], 12).." ("..EXPANSION_NAME4..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -8855,8 +9495,8 @@ data["CLASSICS12SETS"] = {
 	},
 }
 
--- Classic Season 11
-data["CLASSICS11SETS"] = {
+-- Cataclysm Season 11
+data["SEASON11SETS"] = {
 	name = string.format(AL["Season %d"], 11).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -9202,8 +9842,8 @@ data["CLASSICS11SETS"] = {
 	},
 }
 
--- Classic Season 10
-data["CLASSICS10SETS"] = {
+-- Cataclysm Season 10
+data["SEASON10SETS"] = {
 	name = string.format(AL["Season %d"], 10).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -9547,8 +10187,8 @@ data["CLASSICS10SETS"] = {
 	},
 }
 
--- Classic Season 9
-data["CLASSICS9SETS"] = {
+-- Cataclysm Season 9
+data["SEASON9SETS"] = {
 	name = string.format(AL["Season %d"], 9).." ("..EXPANSION_NAME3..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -10120,8 +10760,8 @@ data["CLASSICS9SETS"] = {
 	},
 }
 
--- Classic Season 8
-data["CLASSICS8SETS"] = {
+-- Wrath of the Lich King Season 8
+data["SEASON8SETS"] = {
 	name = string.format(AL["Season %d"], 8).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -10443,8 +11083,8 @@ data["CLASSICS8SETS"] = {
 	},
 }
 
--- Classic Season 7
-data["CLASSICS7SETS"] = {
+-- Wrath of the Lich King Season 7
+data["SEASON7SETS"] = {
 	name = string.format(AL["Season %d"], 7).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -10777,8 +11417,8 @@ data["CLASSICS7SETS"] = {
 	},
 }
 
--- Classic Season 6
-data["CLASSICS6SETS"] = {
+-- Wrath of the Lich King Season 6
+data["SEASON6SETS"] = {
 	name = string.format(AL["Season %d"], 6).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -11105,7 +11745,7 @@ data["CLASSICS6SETS"] = {
 }
 
 -- Classic Season 5
-data["CLASSICS5SETS"] = {
+data["SEASON5SETS"] = {
 	name = string.format(AL["Season %d"], 5).." ("..EXPANSION_NAME2..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -11775,8 +12415,8 @@ data["CLASSICS5SETS"] = {
 	},
 }
 
--- Classic Season 4
-data["CLASSICS4SETS"] = {
+-- Burning Crusade Season 4
+data["SEASON4SETS"] = {
 	name = string.format(AL["Season %d"], 4).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -12124,8 +12764,8 @@ data["CLASSICS4SETS"] = {
 	},
 }
 
--- Classic Season 3
-data["CLASSICS3SETS"] = {
+-- Burning Crusade Season 3
+data["SEASON3SETS"] = {
 	name = string.format(AL["Season %d"], 3).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -12463,8 +13103,8 @@ data["CLASSICS3SETS"] = {
 	},
 }
 
--- Classic Season 2
-data["CLASSICS2SETS"] = {
+-- Burning Crusade Season 2
+data["SEASON2SETS"] = {
 	name = string.format(AL["Season %d"], 2).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {
@@ -12729,8 +13369,8 @@ data["CLASSICS2SETS"] = {
 	},
 }
 
--- Classic Season 1
-data["CLASSICS1SETS"] = {
+-- Burning Crusade Season 1
+data["SEASON1SETS"] = {
 	name = string.format(AL["Season %d"], 1).." ("..EXPANSION_NAME1..")",
 	ContentType = NORMAL_ITTYPE,
 	items = {

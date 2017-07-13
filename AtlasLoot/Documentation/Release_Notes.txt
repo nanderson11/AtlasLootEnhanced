@@ -16,7 +16,8 @@ v8.05.02 (Jul. xx, 2017)
 - Added bonil roll for Broken Shore world bosses and Tomb of Sargeras bosses
 - PvP
   - Added legacy Justice / Valor points gears
-  - Updated Seasons 1~13 items and prices
+  - Updated Seasons 1~13, Season 15 items and prices
+  - Added Season 14 items
 
 v8.05.01 (Jul. 06, 2017)
 ========================
