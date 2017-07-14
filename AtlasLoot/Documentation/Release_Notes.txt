@@ -17,7 +17,9 @@ v8.05.02 (Jul. 14, 2017)
   - Updated Seasons 1~13, Season 15 items and prices
   - Added Season 14 items
 - Enhanced faction reputation's handling to support friendship reputation such as Nat Pagle
-- Added bonus roll IDs for Broken Shore world bosses and Tomb of Sargeras bosses
+- Bonus roll:
+  - Added bonus roll IDs for Broken Shore world bosses and Tomb of Sargeras bosses
+  - Remove bonus roll IDs for Drov the Ruiner, Rukhmar, Tarlna the Ageless as no longer valid
 
 v8.05.01 (Jul. 06, 2017)
 ========================

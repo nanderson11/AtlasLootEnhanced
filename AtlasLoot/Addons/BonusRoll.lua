@@ -101,9 +101,11 @@ local BONUS_ROLL_IDS = {
 	[177526] = "6:477:1153",		-- Ko'ragh
 	[177528] = "6:477:1197",		-- Imperator Mar'gok
 	-- Draenor
+	--[[ no longer available
 	[178847] = "6:557:1291",		-- Drov the Ruiner
 	[178851] = "6:557:1262",		-- Rukhmar
 	[178849] = "6:557:1211",		-- Tarlna the Ageless
+	]]
 	[188985] = "6:557:1452",		-- Supreme Lord Kazzak	
 	
 	-- ### MoP
