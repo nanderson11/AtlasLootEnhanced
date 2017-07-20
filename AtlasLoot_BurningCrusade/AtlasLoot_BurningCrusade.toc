@@ -32,6 +32,7 @@
 ## Title: AtlasLoot |cFF0099FF[Burning Crusade]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Burning Crusade]|r
 ## Title-koKR: AtlasLoot |cFF0099FF[불타는 성전]|r
+## Title-ruRU: AtlasLoot |cFF0099FF[Burning Crusade]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[燃烧的远征]|r
 ## Title-zhTW: AtlasLoot |cFF0099FF[燃燒的遠征]|r
 

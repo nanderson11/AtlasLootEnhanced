@@ -34,6 +34,7 @@ ignore:
     - AtlasLoot/AtlasLoot/Images/PSD
     - AtlasLoot/DEVTOOLS.lua
     - AtlasLoot/AtlasLoot/DEVTOOLS.lua
+    - AtlasLoot/Libs/AceGUI-3.0
 
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
