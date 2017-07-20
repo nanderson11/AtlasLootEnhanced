@@ -69,7 +69,7 @@ Loader.lua
 DEVTOOLS.lua
 #@end-do-not-package@
 
-Core\StaticPopupDialogs.lua
+#Core\StaticPopupDialogs.lua
 Core\SlashCommands.lua
 Core\ClickHandler.lua
 Core\Tooltip.lua
