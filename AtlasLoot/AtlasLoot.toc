@@ -1,4 +1,4 @@
-﻿## Interface: 70200
+﻿## Interface: 70300
 ## Author: Lag, Proteyer, Arith
 ## Version: @project-version@
 ## SavedVariables: AtlasLootDB
