@@ -1367,7 +1367,7 @@ local RAZORFEN_KRAUL_LOOT3 = {
 	{ 2, 6693 },	-- Agamaggan's Clutch
 	{ 3, 6692 },	-- Pronged Reaver
 	{ 4, 6694 },	-- Heart of Agamaggan
-	{ 5, 5793, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Razorflank's Heart
+	{ 5, 5793, [ATLASLOOT_IT_FILTERIGNORE] = true },			-- Razorflank's Heart
 	{ 7, "ac635" },
 	{ 16, "INV_Box_01", nil, AL["Trash Mobs"], nil },
 	{ 17, 2264 },	-- Mantle of Thieves
@@ -2040,34 +2040,90 @@ data["TheSunkenTemple"] = {
 	}
 }
 
-local ULDAMAN_LOOT = {
+local ULDAMAN_LOOT1 = {
+	{ 1, "INV_Box_01", nil, BB["Baelog"], nil },
+	{ 2, 9401 },	-- Nordic Longshank
+	{ 3, 9400 },	-- Baelog's Shortbow
+	{ 5, "INV_Box_01", nil, BB["Eric \"The Swift\""], nil },
+	{ 6, 9394 },	-- Horned Viking Helmet
+	{ 7, 9398 },	-- Worn Running Boots
+	{ 8, 2459 },	-- Swiftness Potion
+	{ 16, "INV_Box_01", nil, BB["Olaf"], nil },
+	{ 17, 9404 },	-- Olaf's All Purpose Shield
+	{ 18, 9403 },	-- Battered Viking Shield
+	{ 19, 1177 },	-- Oil of Olaf
+}
+
+local ULDAMAN_LOOT2 = {
 	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(467), nil },	--Revelosh
 	{ 2, 9390 },	-- Revelosh's Gloves
 	{ 3, 9389 },	-- Revelosh's Spaulders
 	{ 4, 9388 },	-- Revelosh's Armguards
 	{ 5, 9387 },	-- Revelosh's Boots
-	{ 7, "INV_Box_01", nil, EJ_GetEncounterInfo(469), nil },	--Ironaya
-	{ 8, 9407 },	-- Stoneweaver Leggings
-	{ 9, 9409 },	-- Ironaya's Bracers
-	{ 10, 9408 },	-- Ironshod Bludgeon
-	{ 12, "INV_Box_01", nil, EJ_GetEncounterInfo(470), nil },	--Ancient Stone Keeper
-	{ 13, 9411 },	-- Rockshard Pauldrons
-	{ 14, 9410 },	-- Cragfists
-	{ 15, 62055, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Titan Power Core
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(471), nil },	--Galgann Firehammer
-	{ 17, 11311 },	-- Emberscale Cape
-	{ 18, 11310 },	-- Flameseer Mantle
-	{ 19, 9419 },	-- Galgann's Firehammer
-	{ 20, 9412 },	-- Galgann's Fireblaster
-	{ 21, "INV_Box_01", nil, EJ_GetEncounterInfo(472), nil },	--Grimlok
-	{ 22, 9415 },	-- Grimlok's Tribal Vestments
-	{ 23, 9414 },	-- Oilskin Leggings
-	{ 24, 9416 },	-- Grimlok's Charge
-	{ 25, "INV_Box_01", nil, EJ_GetEncounterInfo(473), nil },	--Archaedas
-	{ 26, 11118 },	-- Archaedic Stone
-	{ 27, 9418 },	-- Stoneslayer
-	{ 28, 9413 },	-- The Rockpounder
-	{ 30, "ac638" },
+	{ 6, 132736 },	-- Revelosh's Pauldrons
+	{ 7, 151395 },	-- Revelosh's Girdle
+	{ 9, "INV_Box_01", nil, EJ_GetEncounterInfo(469), nil },	--Ironaya
+	{ 10, 9407 },	-- Stoneweaver Leggings
+	{ 11, 151398 },	-- Hood of the Idle Architect
+	{ 12, 9409 },	-- Ironaya's Bracers
+	{ 13, 151420 },	-- Vault-Watcher's Breastplate
+	{ 14, 9408 },	-- Ironshod Bludgeon
+	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(470), nil },	--Ancient Stone Keeper
+	{ 17, 151400 },	-- Sand-Scoured Treads
+	{ 18, 9411 },	-- Rockshard Pauldrons
+	{ 19, 9410 },	-- Cragfists
+	{ 20, 132733 },	-- Stone Keeper's Mantle
+	{ 21, 151401 },	-- Titanic Stone Leggards
+	{ 22, 62055, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Titan Power Core
+	{ 24, "INV_Box_01", nil, EJ_GetEncounterInfo(471), nil },	--Galgann Firehammer
+	{ 25, 11311 },	-- Emberscale Cape
+	{ 26, 11310 },	-- Flameseer Mantle
+	{ 27, 9419 },	-- Galgann's Firehammer
+	{ 28, 9412 },	-- Galgann's Fireblaster
+}
+
+local ULDAMAN_LOOT3 = {
+	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(472), nil },	--Grimlok
+	{ 2, 9415 },	-- Grimlok's Tribal Vestments
+	{ 3, 9414 },	-- Oilskin Leggings
+	{ 4, 132735 },	-- Grimlok's Chain Chaps
+	{ 5, 151402 },	-- Grimlok's Jagged Wristguards
+	{ 6, 9416 },	-- Grimlok's Charge
+	{ 8, "INV_Box_01", nil, EJ_GetEncounterInfo(473), nil },	--Archaedas
+	{ 9, 11118 },	-- Archaedic Stone
+	{ 10, 9413 },	-- The Rockpounder
+	{ 11, 9418 },	-- Stoneslayer
+
+	{ 13, "ac638" },
+}
+
+local ULDAMAN_LOOT4 = {
+	{ 1, 9397 },	-- Energy Cloak
+	{ 2, 9431 },	-- Papal Fez
+	{ 3, 9429 },	-- Miner's Hat of the Deep
+	{ 4, 9420 },	-- Adventurer's Pith Helmet
+	{ 5, 9430 },	-- Spaulders of a Lost Age
+	{ 6, 9406 },	-- Spirewind Fetter
+	{ 7, 9428 },	-- Unearthed Bands
+	{ 8, 9396 },	-- Legguards of the Vault
+	{ 9, 9432 },	-- Skullplate Bracers
+	{ 10, 9393 },	-- Beacon of Hope
+	{ 12, "INV_Box_01", nil, EJ_GetEncounterInfo(748), nil },	--Obsidian Sentinel
+	{ 13, 151399 },	-- Obsidian Power Core
+	{ 14, 62053 },	-- Splintered Obsidian Shard
+	{ 16, 9384 },	-- Stonevault Shiv
+	{ 17, 9392 },	-- Annealed Blade
+	{ 18, 9424 },	-- Ginn-Su Sword
+	{ 19, 9465 },	-- Digmaster 5000
+	{ 20, 9383 },	-- Obsidian Cleaver
+	{ 21, 9425 },	-- Pendulum of Doom
+	{ 22, 9386 },	-- Excavator's Brand
+	{ 23, 9427 },	-- Stonevault Bonebreaker
+	{ 24, 9423 },	-- The Jackhammer
+	{ 25, 9391 },	-- The Shoveler
+	{ 26, 9381 },	-- Earthen Rod
+	{ 27, 9426 },	-- Monolithic Bow
+	{ 28, 9422 },	-- Shadowforge Bushmaster
 }
 data["Uldaman"] = {
 	EncounterJournalID = 239,
@@ -2075,76 +2131,39 @@ data["Uldaman"] = {
 	AtlasMapID = "Uldaman",
 	ContentType = DUNGEON_CONTENT,
 	items = {
-		{	--UldDwarves
+		{	--The Lost Dwarves
+			name = "The Lost Dwarves",
 			EncounterJournalID = 468,
-			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, BB["Baelog"], nil },
-				{ 2, 9401 },	-- Nordic Longshank
-				{ 3, 9400 },	-- Baelog's Shortbow
-				{ 5, "INV_Box_01", nil, BB["Eric \"The Swift\""], nil },
-				{ 6, 9394 },	-- Horned Viking Helmet
-				{ 7, 9398 },	-- Worn Running Boots
-				{ 8, 2459 },	-- Swiftness Potion
-				{ 16, "INV_Box_01", nil, BB["Olaf"], nil },
-				{ 17, 9404 },	-- Olaf's All Purpose Shield
-				{ 18, 9403 },	-- Battered Viking Shield
-				{ 19, 1177 },	-- Oil of Olaf
-			},
+			[NORMAL_DIFF] = ULDAMAN_LOOT1,
 		},
 		{	--Revelosh
 			EncounterJournalID = 467,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT2,
 		},
 		{	--Ironaya
 			EncounterJournalID = 469,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT2,
 		},
 		{	--Ancient Stone Keeper
 			EncounterJournalID = 470,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT2,
 		},
 		{	--Galgann Firehammer
 			EncounterJournalID = 471,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT2,
 		},
 		{	--Grimlok
 			EncounterJournalID = 472,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT3,
 		},
 		{	--Archaedas
 			EncounterJournalID = 473,
-			[NORMAL_DIFF] = ULDAMAN_LOOT,
+			[NORMAL_DIFF] = ULDAMAN_LOOT3,
 		},
-		{	--UldTrash
+		{	--Trash
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = {
-				{ 1, 9397 },	-- Energy Cloak
-				{ 2, 9431 },	-- Papal Fez
-				{ 3, 9429 },	-- Miner's Hat of the Deep
-				{ 4, 9420 },	-- Adventurer's Pith Helmet
-				{ 5, 9430 },	-- Spaulders of a Lost Age
-				{ 6, 9406 },	-- Spirewind Fetter
-				{ 7, 9428 },	-- Unearthed Bands
-				{ 8, 9396 },	-- Legguards of the Vault
-				{ 9, 9432 },	-- Skullplate Bracers
-				{ 10, 9393 },	-- Beacon of Hope
-				{ 12, "INV_Box_01", nil, EJ_GetEncounterInfo(748), nil },	--Obsidian Sentinel
-				{ 13, 62053 },	-- Obsidian Power Core
-				{ 16, 9384 },	-- Stonevault Shiv
-				{ 17, 9392 },	-- Annealed Blade
-				{ 18, 9424 },	-- Ginn-Su Sword
-				{ 19, 9465 },	-- Digmaster 5000
-				{ 20, 9383 },	-- Obsidian Cleaver
-				{ 21, 9425 },	-- Pendulum of Doom
-				{ 22, 9386 },	-- Excavator's Brand
-				{ 23, 9427 },	-- Stonevault Bonebreaker
-				{ 24, 9423 },	-- The Jackhammer
-				{ 25, 9391 },	-- The Shoveler
-				{ 26, 9381 },	-- Earthen Rod
-				{ 27, 9426 },	-- Monolithic Bow
-				{ 28, 9422 },	-- Shadowforge Bushmaster
-			},
+			[NORMAL_DIFF] = ULDAMAN_LOOT4,
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
 	}
