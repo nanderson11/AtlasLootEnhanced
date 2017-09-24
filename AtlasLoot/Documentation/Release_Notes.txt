@@ -9,6 +9,7 @@ v8.07.01 (Sep. 24, 2017)
 ========================
 - Added Atlas map links to Seat of the Triumvirate and Antorus, the Burning Throne
 - Adjust boss order of Antorus, the Burning Throne
+- Update Dire Maul - Convert to newer array system, add some missing drops. (2TailedFox)
 
 v8.07.00 (Sep. 21, 2017)
 ========================
