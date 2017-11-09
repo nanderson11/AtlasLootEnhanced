@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.07.02 (Nov. 09, 2017)
+========================
+- Added bonus roll ID for Antorus and Invasion Points
+
 v8.07.01 (Sep. 24, 2017)
 ========================
 - Added Atlas map links to Seat of the Triumvirate and Antorus, the Burning Throne
