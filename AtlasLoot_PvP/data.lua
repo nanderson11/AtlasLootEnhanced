@@ -31,6 +31,1335 @@ EXPANSION_NAME5 = "Warlords of Draenor";
 EXPANSION_NAME6 = "Legion";
 ]]
 
+--[[ template
+data["LEGION7SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 7).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION7GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 7).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 7),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 7),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+--]]
+--[[
+data["LEGION7SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 7).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION7GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 7).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 7),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 7),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION6SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 6).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+data["LEGION6GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 6).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 6),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 6),
+			[ALLIANCE_DIFF] = {
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+--]]
+data["LEGION5SET"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 5).." "..AL["Class Sets"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{ -- DEATHKNIGHT
+			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148155, }, -- Fierce Gladiator's Dreadcloak
+				{ 2, 148179, }, -- Fierce Gladiator's Dreadplate Chestpiece
+				{ 3, 148181, }, -- Fierce Gladiator's Dreadplate Sabatons
+				{ 4, 148183, }, -- Fierce Gladiator's Dreadplate Gauntlets
+				{ 5, 148185, }, -- Fierce Gladiator's Dreadplate Helm
+				{ 6, 148187, }, -- Fierce Gladiator's Dreadplate Legguards
+				{ 7, 148189, }, -- Fierce Gladiator's Dreadplate Shoulders
+				{ 8, 148191, }, -- Fierce Gladiator's Dreadplate Girdle
+				{ 9, 148193, }, -- Fierce Gladiator's Dreadplate Wristplates
+				{ 16, 147909, }, -- Fierce Gladiator's Dreadcloak
+				{ 17, 147933, }, -- Fierce Gladiator's Dreadplate Chestpiece
+				{ 18, 147935, }, -- Fierce Gladiator's Dreadplate Sabatons
+				{ 19, 147937, }, -- Fierce Gladiator's Dreadplate Gauntlets
+				{ 20, 147939, }, -- Fierce Gladiator's Dreadplate Helm
+				{ 21, 147941, }, -- Fierce Gladiator's Dreadplate Legguards
+				{ 22, 147943, }, -- Fierce Gladiator's Dreadplate Shoulders
+				{ 23, 147945, }, -- Fierce Gladiator's Dreadplate Girdle
+				{ 24, 147947, }, -- Fierce Gladiator's Dreadplate Wristplates
+				{ 101, 149505, }, -- Fierce Combatant's Dreadcloak
+				{ 102, 149529, }, -- Fierce Combatant's Dreadplate Chestpiece
+				{ 103, 149531, }, -- Fierce Combatant's Dreadplate Sabatons
+				{ 104, 149533, }, -- Fierce Combatant's Dreadplate Gauntlets
+				{ 105, 149535, }, -- Fierce Combatant's Dreadplate Helm
+				{ 106, 149537, }, -- Fierce Combatant's Dreadplate Legguards
+				{ 107, 149539, }, -- Fierce Combatant's Dreadplate Shoulders
+				{ 108, 149541, }, -- Fierce Combatant's Dreadplate Girdle
+				{ 109, 149543, }, -- Fierce Combatant's Dreadplate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148156, }, -- Fierce Gladiator's Dreadcloak
+				{ 2, 148180, }, -- Fierce Gladiator's Dreadplate Chestpiece
+				{ 3, 148182, }, -- Fierce Gladiator's Dreadplate Sabatons
+				{ 4, 148184, }, -- Fierce Gladiator's Dreadplate Gauntlets
+				{ 5, 148186, }, -- Fierce Gladiator's Dreadplate Helm
+				{ 6, 148188, }, -- Fierce Gladiator's Dreadplate Legguards
+				{ 7, 148190, }, -- Fierce Gladiator's Dreadplate Shoulders
+				{ 8, 148192, }, -- Fierce Gladiator's Dreadplate Girdle
+				{ 9, 148194, }, -- Fierce Gladiator's Dreadplate Wristplates
+				{ 16, 147910, }, -- Fierce Gladiator's Dreadcloak
+				{ 17, 147934, }, -- Fierce Gladiator's Dreadplate Chestpiece
+				{ 18, 147936, }, -- Fierce Gladiator's Dreadplate Sabatons
+				{ 19, 147938, }, -- Fierce Gladiator's Dreadplate Gauntlets
+				{ 20, 147940, }, -- Fierce Gladiator's Dreadplate Helm
+				{ 21, 147942, }, -- Fierce Gladiator's Dreadplate Legguards
+				{ 22, 147944, }, -- Fierce Gladiator's Dreadplate Shoulders
+				{ 23, 147946, }, -- Fierce Gladiator's Dreadplate Girdle
+				{ 24, 147948, }, -- Fierce Gladiator's Dreadplate Wristplates
+				{ 101, 149506, }, -- Fierce Combatant's Dreadcloak
+				{ 102, 149530, }, -- Fierce Combatant's Dreadplate Chestpiece
+				{ 103, 149532, }, -- Fierce Combatant's Dreadplate Sabatons
+				{ 104, 149534, }, -- Fierce Combatant's Dreadplate Gauntlets
+				{ 105, 149536, }, -- Fierce Combatant's Dreadplate Helm
+				{ 106, 149538, }, -- Fierce Combatant's Dreadplate Legguards
+				{ 107, 149540, }, -- Fierce Combatant's Dreadplate Shoulders
+				{ 108, 149542, }, -- Fierce Combatant's Dreadplate Girdle
+				{ 109, 149544, }, -- Fierce Combatant's Dreadplate Wristplates
+			},
+		},
+		{ -- DEMONHUNTER
+			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148157, }, -- Fierce Gladiator's Demonthread Cloak
+				{ 2, 148195, }, -- Fierce Gladiator's Felskin Tunic
+				{ 3, 148197, }, -- Fierce Gladiator's Felskin Boots
+				{ 4, 148199, }, -- Fierce Gladiator's Felskin Gloves
+				{ 5, 148201, }, -- Fierce Gladiator's Felskin Helm
+				{ 6, 148203, }, -- Fierce Gladiator's Felskin Legguards
+				{ 7, 148205, }, -- Fierce Gladiator's Felskin Spaulders
+				{ 8, 148207, }, -- Fierce Gladiator's Felskin Belt
+				{ 9, 148209, }, -- Fierce Gladiator's Felskin Wristguards
+				{ 16, 147911, }, -- Fierce Gladiator's Demonthread Cloak
+				{ 17, 147949, }, -- Fierce Gladiator's Felskin Tunic
+				{ 18, 147951, }, -- Fierce Gladiator's Felskin Boots
+				{ 19, 147953, }, -- Fierce Gladiator's Felskin Gloves
+				{ 20, 147955, }, -- Fierce Gladiator's Felskin Helm
+				{ 21, 147957, }, -- Fierce Gladiator's Felskin Legguards
+				{ 22, 147959, }, -- Fierce Gladiator's Felskin Spaulders
+				{ 23, 147961, }, -- Fierce Gladiator's Felskin Belt
+				{ 24, 147963, }, -- Fierce Gladiator's Felskin Wristguards
+				{ 101, 149507, }, -- Fierce Combatant's Demonthread Cloak
+				{ 102, 149545, }, -- Fierce Combatant's Felskin Tunic
+				{ 103, 149547, }, -- Fierce Combatant's Felskin Boots
+				{ 104, 149549, }, -- Fierce Combatant's Felskin Gloves
+				{ 105, 149551, }, -- Fierce Combatant's Felskin Helm
+				{ 106, 149553, }, -- Fierce Combatant's Felskin Legguards
+				{ 107, 149555, }, -- Fierce Combatant's Felskin Spaulders
+				{ 108, 149557, }, -- Fierce Combatant's Felskin Belt
+				{ 109, 149559, }, -- Fierce Combatant's Felskin Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148158, }, -- Fierce Gladiator's Demonthread Cloak
+				{ 2, 148196, }, -- Fierce Gladiator's Felskin Tunic
+				{ 3, 148198, }, -- Fierce Gladiator's Felskin Boots
+				{ 4, 148200, }, -- Fierce Gladiator's Felskin Gloves
+				{ 5, 148202, }, -- Fierce Gladiator's Felskin Helm
+				{ 6, 148204, }, -- Fierce Gladiator's Felskin Legguards
+				{ 7, 148206, }, -- Fierce Gladiator's Felskin Spaulders
+				{ 8, 148208, }, -- Fierce Gladiator's Felskin Belt
+				{ 9, 148210, }, -- Fierce Gladiator's Felskin Wristguards
+				{ 16, 147912, }, -- Fierce Gladiator's Demonthread Cloak
+				{ 17, 147950, }, -- Fierce Gladiator's Felskin Tunic
+				{ 18, 147952, }, -- Fierce Gladiator's Felskin Boots
+				{ 19, 147954, }, -- Fierce Gladiator's Felskin Gloves
+				{ 20, 147956, }, -- Fierce Gladiator's Felskin Helm
+				{ 21, 147958, }, -- Fierce Gladiator's Felskin Legguards
+				{ 22, 147960, }, -- Fierce Gladiator's Felskin Spaulders
+				{ 23, 147962, }, -- Fierce Gladiator's Felskin Belt
+				{ 24, 147964, }, -- Fierce Gladiator's Felskin Wristguards
+				{ 101, 149508, }, -- Fierce Combatant's Demonthread Cloak
+				{ 102, 149546, }, -- Fierce Combatant's Felskin Tunic
+				{ 103, 149548, }, -- Fierce Combatant's Felskin Boots
+				{ 104, 149550, }, -- Fierce Combatant's Felskin Gloves
+				{ 105, 149552, }, -- Fierce Combatant's Felskin Helm
+				{ 106, 149554, }, -- Fierce Combatant's Felskin Legguards
+				{ 107, 149556, }, -- Fierce Combatant's Felskin Spaulders
+				{ 108, 149558, }, -- Fierce Combatant's Felskin Belt
+				{ 109, 149560, }, -- Fierce Combatant's Felskin Wristguards
+			},
+		},
+		{ -- DRUID
+			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148159, }, -- Fierce Gladiator's Dragonhide Cloak
+				{ 2, 148211, }, -- Fierce Gladiator's Dragonhide Vest
+				{ 3, 148213, }, -- Fierce Gladiator's Dragonhide Moccasins
+				{ 4, 148215, }, -- Fierce Gladiator's Dragonhide Gloves
+				{ 5, 148217, }, -- Fierce Gladiator's Dragonhide Helm
+				{ 6, 148219, }, -- Fierce Gladiator's Dragonhide Legguards
+				{ 7, 148221, }, -- Fierce Gladiator's Dragonhide Spaulders
+				{ 8, 148223, }, -- Fierce Gladiator's Dragonhide Belt
+				{ 9, 148225, }, -- Fierce Gladiator's Dragonhide Wristguards
+				{ 16, 147913, }, -- Fierce Gladiator's Dragonhide Cloak
+				{ 17, 147965, }, -- Fierce Gladiator's Dragonhide Vest
+				{ 18, 147967, }, -- Fierce Gladiator's Dragonhide Moccasins
+				{ 19, 147969, }, -- Fierce Gladiator's Dragonhide Gloves
+				{ 20, 147971, }, -- Fierce Gladiator's Dragonhide Helm
+				{ 21, 147973, }, -- Fierce Gladiator's Dragonhide Legguards
+				{ 22, 147975, }, -- Fierce Gladiator's Dragonhide Spaulders
+				{ 23, 147977, }, -- Fierce Gladiator's Dragonhide Belt
+				{ 24, 147979, }, -- Fierce Gladiator's Dragonhide Wristguards
+				{ 101, 149509, }, -- Fierce Combatant's Dragonhide Cloak
+				{ 102, 149561, }, -- Fierce Combatant's Dragonhide Tunic
+				{ 103, 149563, }, -- Fierce Combatant's Dragonhide Moccasins
+				{ 104, 149565, }, -- Fierce Combatant's Dragonhide Gloves
+				{ 105, 149567, }, -- Fierce Combatant's Dragonhide Helm
+				{ 106, 149569, }, -- Fierce Combatant's Dragonhide Legguards
+				{ 107, 149571, }, -- Fierce Combatant's Dragonhide Spaulders
+				{ 108, 149573, }, -- Fierce Combatant's Dragonhide Belt
+				{ 109, 149576, }, -- Fierce Combatant's Dragonhide Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148160, }, -- Fierce Gladiator's Dragonhide Cloak
+				{ 2, 148212, }, -- Fierce Gladiator's Dragonhide Vest
+				{ 3, 148214, }, -- Fierce Gladiator's Dragonhide Moccasins
+				{ 4, 148216, }, -- Fierce Gladiator's Dragonhide Gloves
+				{ 5, 148218, }, -- Fierce Gladiator's Dragonhide Helm
+				{ 6, 148220, }, -- Fierce Gladiator's Dragonhide Legguards
+				{ 7, 148222, }, -- Fierce Gladiator's Dragonhide Spaulders
+				{ 8, 148224, }, -- Fierce Gladiator's Dragonhide Belt
+				{ 9, 148226, }, -- Fierce Gladiator's Dragonhide Wristguards
+				{ 16, 147914, }, -- Fierce Gladiator's Dragonhide Cloak
+				{ 17, 147966, }, -- Fierce Gladiator's Dragonhide Vest
+				{ 18, 147968, }, -- Fierce Gladiator's Dragonhide Moccasins
+				{ 19, 147970, }, -- Fierce Gladiator's Dragonhide Gloves
+				{ 20, 147972, }, -- Fierce Gladiator's Dragonhide Helm
+				{ 21, 147974, }, -- Fierce Gladiator's Dragonhide Legguards
+				{ 22, 147976, }, -- Fierce Gladiator's Dragonhide Spaulders
+				{ 23, 147978, }, -- Fierce Gladiator's Dragonhide Belt
+				{ 24, 147980, }, -- Fierce Gladiator's Dragonhide Wristguards
+				{ 101, 149510, }, -- Fierce Combatant's Dragonhide Cloak
+				{ 102, 149562, }, -- Fierce Combatant's Dragonhide Tunic
+				{ 103, 149564, }, -- Fierce Combatant's Dragonhide Moccasins
+				{ 104, 149566, }, -- Fierce Combatant's Dragonhide Gloves
+				{ 105, 149568, }, -- Fierce Combatant's Dragonhide Helm
+				{ 106, 149570, }, -- Fierce Combatant's Dragonhide Legguards
+				{ 107, 149572, }, -- Fierce Combatant's Dragonhide Spaulders
+				{ 108, 149575, }, -- Fierce Combatant's Dragonhide Belt
+				{ 109, 149577, }, -- Fierce Combatant's Dragonhide Wristguards
+			},
+		},
+		{ -- HUNTER
+			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148161, }, -- Fierce Gladiator's Drape of the Tracker
+				{ 2, 148227, }, -- Fierce Gladiator's Chain Armor
+				{ 3, 148229, }, -- Fierce Gladiator's Chain Treads
+				{ 4, 148231, }, -- Fierce Gladiator's Chain Gauntlets
+				{ 5, 148233, }, -- Fierce Gladiator's Chain Helm
+				{ 6, 148235, }, -- Fierce Gladiator's Chain Leggings
+				{ 7, 148237, }, -- Fierce Gladiator's Chain Spaulders
+				{ 8, 148239, }, -- Fierce Gladiator's Chain Clasp
+				{ 9, 148241, }, -- Fierce Gladiator's Chain Armband
+				{ 16, 147915, }, -- Fierce Gladiator's Drape of the Tracker
+				{ 17, 147981, }, -- Fierce Gladiator's Chain Armor
+				{ 18, 147983, }, -- Fierce Gladiator's Chain Treads
+				{ 19, 147985, }, -- Fierce Gladiator's Chain Gauntlets
+				{ 20, 147987, }, -- Fierce Gladiator's Chain Helm
+				{ 21, 147989, }, -- Fierce Gladiator's Chain Leggings
+				{ 22, 147991, }, -- Fierce Gladiator's Chain Spaulders
+				{ 23, 147993, }, -- Fierce Gladiator's Chain Clasp
+				{ 24, 147995, }, -- Fierce Gladiator's Chain Armband
+				{ 101, 149511, }, -- Fierce Combatant's Drape of the Tracker
+				{ 102, 149578, }, -- Fierce Combatant's Chain Armor
+				{ 103, 149580, }, -- Fierce Combatant's Chain Treads
+				{ 104, 149582, }, -- Fierce Combatant's Chain Gauntlets
+				{ 105, 149584, }, -- Fierce Combatant's Chain Helm
+				{ 106, 149586, }, -- Fierce Combatant's Chain Leggings
+				{ 107, 149588, }, -- Fierce Combatant's Chain Spaulders
+				{ 108, 149590, }, -- Fierce Combatant's Chain Clasp
+				{ 109, 149592, }, -- Fierce Combatant's Chain Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148162, }, -- Fierce Gladiator's Drape of the Tracker
+				{ 2, 148228, }, -- Fierce Gladiator's Chain Armor
+				{ 3, 148230, }, -- Fierce Gladiator's Chain Treads
+				{ 4, 148232, }, -- Fierce Gladiator's Chain Gauntlets
+				{ 5, 148234, }, -- Fierce Gladiator's Chain Helm
+				{ 6, 148236, }, -- Fierce Gladiator's Chain Leggings
+				{ 7, 148238, }, -- Fierce Gladiator's Chain Spaulders
+				{ 8, 148240, }, -- Fierce Gladiator's Chain Clasp
+				{ 9, 148242, }, -- Fierce Gladiator's Chain Armband
+				{ 16, 147916, }, -- Fierce Gladiator's Drape of the Tracker
+				{ 17, 147982, }, -- Fierce Gladiator's Chain Armor
+				{ 18, 147984, }, -- Fierce Gladiator's Chain Treads
+				{ 19, 147986, }, -- Fierce Gladiator's Chain Gauntlets
+				{ 20, 147988, }, -- Fierce Gladiator's Chain Helm
+				{ 21, 147990, }, -- Fierce Gladiator's Chain Leggings
+				{ 22, 147992, }, -- Fierce Gladiator's Chain Spaulders
+				{ 23, 147994, }, -- Fierce Gladiator's Chain Clasp
+				{ 24, 147996, }, -- Fierce Gladiator's Chain Armband
+				{ 101, 149512, }, -- Fierce Combatant's Drape of the Tracker
+				{ 102, 149579, }, -- Fierce Combatant's Chain Armor
+				{ 103, 149581, }, -- Fierce Combatant's Chain Treads
+				{ 104, 149583, }, -- Fierce Combatant's Chain Gauntlets
+				{ 105, 149585, }, -- Fierce Combatant's Chain Helm
+				{ 106, 149587, }, -- Fierce Combatant's Chain Leggings
+				{ 107, 149589, }, -- Fierce Combatant's Chain Spaulders
+				{ 108, 149591, }, -- Fierce Combatant's Chain Clasp
+				{ 109, 149593, }, -- Fierce Combatant's Chain Armband
+			},
+		},
+		{ -- MAGE
+			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148163, }, -- Fierce Gladiator's Silken Shawl
+				{ 2, 148243, }, -- Fierce Gladiator's Silk Treads
+				{ 3, 148245, }, -- Fierce Gladiator's Silk Handguards
+				{ 4, 148247, }, -- Fierce Gladiator's Silk Cowl
+				{ 5, 148249, }, -- Fierce Gladiator's Silk Trousers
+				{ 6, 148251, }, -- Fierce Gladiator's Silk Tunic
+				{ 7, 148253, }, -- Fierce Gladiator's Silk Amice
+				{ 8, 148255, }, -- Fierce Gladiator's Silk Cord
+				{ 9, 148257, }, -- Fierce Gladiator's Silk Bracers
+				{ 16, 147917, }, -- Fierce Gladiator's Silken Shawl
+				{ 17, 147997, }, -- Fierce Gladiator's Silk Treads
+				{ 18, 147999, }, -- Fierce Gladiator's Silk Handguards
+				{ 19, 148001, }, -- Fierce Gladiator's Silk Cowl
+				{ 20, 148003, }, -- Fierce Gladiator's Silk Trousers
+				{ 21, 148005, }, -- Fierce Gladiator's Silk Tunic
+				{ 22, 148007, }, -- Fierce Gladiator's Silk Amice
+				{ 23, 148009, }, -- Fierce Gladiator's Silk Cord
+				{ 24, 148011, }, -- Fierce Gladiator's Silk Bracers
+				{ 101, 149513, }, -- Fierce Combatant's Silken Shawl
+				{ 102, 149594, }, -- Fierce Combatant's Silk Treads
+				{ 103, 149596, }, -- Fierce Combatant's Silk Handguards
+				{ 104, 149598, }, -- Fierce Combatant's Silk Cowl
+				{ 105, 149600, }, -- Fierce Combatant's Silk Trousers
+				{ 106, 149602, }, -- Fierce Combatant's Silk Robe
+				{ 107, 149604, }, -- Fierce Combatant's Silk Amice
+				{ 108, 149606, }, -- Fierce Combatant's Silk Cord
+				{ 109, 149608, }, -- Fierce Combatant's Silk Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148164, }, -- Fierce Gladiator's Silken Shawl
+				{ 2, 148244, }, -- Fierce Gladiator's Silk Treads
+				{ 3, 148246, }, -- Fierce Gladiator's Silk Handguards
+				{ 4, 148248, }, -- Fierce Gladiator's Silk Cowl
+				{ 5, 148250, }, -- Fierce Gladiator's Silk Trousers
+				{ 6, 148252, }, -- Fierce Gladiator's Silk Tunic
+				{ 7, 148254, }, -- Fierce Gladiator's Silk Amice
+				{ 8, 148256, }, -- Fierce Gladiator's Silk Cord
+				{ 9, 148258, }, -- Fierce Gladiator's Silk Bracers
+				{ 16, 147918, }, -- Fierce Gladiator's Silken Shawl
+				{ 17, 147998, }, -- Fierce Gladiator's Silk Treads
+				{ 18, 148000, }, -- Fierce Gladiator's Silk Handguards
+				{ 19, 148002, }, -- Fierce Gladiator's Silk Cowl
+				{ 20, 148004, }, -- Fierce Gladiator's Silk Trousers
+				{ 21, 148006, }, -- Fierce Gladiator's Silk Tunic
+				{ 22, 148008, }, -- Fierce Gladiator's Silk Amice
+				{ 23, 148010, }, -- Fierce Gladiator's Silk Cord
+				{ 24, 148012, }, -- Fierce Gladiator's Silk Bracers
+				{ 101, 149514, }, -- Fierce Combatant's Silken Shawl
+				{ 102, 149595, }, -- Fierce Combatant's Silk Treads
+				{ 103, 149597, }, -- Fierce Combatant's Silk Handguards
+				{ 104, 149599, }, -- Fierce Combatant's Silk Cowl
+				{ 105, 149601, }, -- Fierce Combatant's Silk Trousers
+				{ 106, 149603, }, -- Fierce Combatant's Silk Robe
+				{ 107, 149605, }, -- Fierce Combatant's Silk Amice
+				{ 108, 149607, }, -- Fierce Combatant's Silk Cord
+				{ 109, 149609, }, -- Fierce Combatant's Silk Bracers
+			},
+		},
+		{ -- MONK
+			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148165, }, -- Fierce Gladiator's Ironskin Cloak
+				{ 2, 148259, }, -- Fierce Gladiator's Ironskin Slippers
+				{ 3, 148261, }, -- Fierce Gladiator's Ironskin Gloves
+				{ 4, 148263, }, -- Fierce Gladiator's Ironskin Helm
+				{ 5, 148265, }, -- Fierce Gladiator's Ironskin Legguards
+				{ 6, 148267, }, -- Fierce Gladiator's Ironskin Spaulders
+				{ 7, 148269, }, -- Fierce Gladiator's Ironskin Tunic
+				{ 8, 148271, }, -- Fierce Gladiator's Ironskin Belt
+				{ 9, 148273, }, -- Fierce Gladiator's Ironskin Wristguards
+				{ 16, 147919, }, -- Fierce Gladiator's Ironskin Cloak
+				{ 17, 148013, }, -- Fierce Gladiator's Ironskin Slippers
+				{ 18, 148015, }, -- Fierce Gladiator's Ironskin Gloves
+				{ 19, 148017, }, -- Fierce Gladiator's Ironskin Helm
+				{ 20, 148019, }, -- Fierce Gladiator's Ironskin Legguards
+				{ 21, 148021, }, -- Fierce Gladiator's Ironskin Spaulders
+				{ 22, 148023, }, -- Fierce Gladiator's Ironskin Tunic
+				{ 23, 148025, }, -- Fierce Gladiator's Ironskin Belt
+				{ 24, 148027, }, -- Fierce Gladiator's Ironskin Wristguards
+				{ 101, 149515, }, -- Fierce Combatant's Ironskin Cloak
+				{ 102, 149610, }, -- Fierce Combatant's Ironskin Slippers
+				{ 103, 149612, }, -- Fierce Combatant's Ironskin Gloves
+				{ 104, 149614, }, -- Fierce Combatant's Ironskin Helm
+				{ 105, 149616, }, -- Fierce Combatant's Ironskin Legguards
+				{ 106, 149618, }, -- Fierce Combatant's Ironskin Spaulders
+				{ 107, 149620, }, -- Fierce Combatant's Ironskin Tunic
+				{ 108, 149622, }, -- Fierce Combatant's Ironskin Belt
+				{ 109, 149624, }, -- Fierce Combatant's Ironskin Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148166, }, -- Fierce Gladiator's Ironskin Cloak
+				{ 2, 148260, }, -- Fierce Gladiator's Ironskin Slippers
+				{ 3, 148262, }, -- Fierce Gladiator's Ironskin Gloves
+				{ 4, 148264, }, -- Fierce Gladiator's Ironskin Helm
+				{ 5, 148266, }, -- Fierce Gladiator's Ironskin Legguards
+				{ 6, 148268, }, -- Fierce Gladiator's Ironskin Spaulders
+				{ 7, 148270, }, -- Fierce Gladiator's Ironskin Tunic
+				{ 8, 148272, }, -- Fierce Gladiator's Ironskin Belt
+				{ 9, 148274, }, -- Fierce Gladiator's Ironskin Wristguards
+				{ 16, 147920, }, -- Fierce Gladiator's Ironskin Cloak
+				{ 17, 148014, }, -- Fierce Gladiator's Ironskin Slippers
+				{ 18, 148016, }, -- Fierce Gladiator's Ironskin Gloves
+				{ 19, 148018, }, -- Fierce Gladiator's Ironskin Helm
+				{ 20, 148020, }, -- Fierce Gladiator's Ironskin Legguards
+				{ 21, 148022, }, -- Fierce Gladiator's Ironskin Spaulders
+				{ 22, 148024, }, -- Fierce Gladiator's Ironskin Tunic
+				{ 23, 148026, }, -- Fierce Gladiator's Ironskin Belt
+				{ 24, 148028, }, -- Fierce Gladiator's Ironskin Wristguards
+				{ 101, 149516, }, -- Fierce Combatant's Ironskin Cloak
+				{ 102, 149611, }, -- Fierce Combatant's Ironskin Slippers
+				{ 103, 149613, }, -- Fierce Combatant's Ironskin Gloves
+				{ 104, 149615, }, -- Fierce Combatant's Ironskin Helm
+				{ 105, 149617, }, -- Fierce Combatant's Ironskin Legguards
+				{ 106, 149619, }, -- Fierce Combatant's Ironskin Spaulders
+				{ 107, 149621, }, -- Fierce Combatant's Ironskin Tunic
+				{ 108, 149623, }, -- Fierce Combatant's Ironskin Belt
+				{ 109, 149625, }, -- Fierce Combatant's Ironskin Wristguards
+			},
+		},
+		{ -- PALADIN
+			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148167, }, -- Fierce Gladiator's Greatcloak of Faith
+				{ 2, 148281, }, -- Fierce Gladiator's Scaled Breastplate
+				{ 3, 148283, }, -- Fierce Gladiator's Scaled Sabatons
+				{ 4, 148285, }, -- Fierce Gladiator's Scaled Gauntlets
+				{ 5, 148287, }, -- Fierce Gladiator's Scaled Helm
+				{ 6, 148289, }, -- Fierce Gladiator's Scaled Legguards
+				{ 7, 148291, }, -- Fierce Gladiator's Scaled Shoulders
+				{ 8, 148293, }, -- Fierce Gladiator's Scaled Girdle
+				{ 9, 148295, }, -- Fierce Gladiator's Scaled Wristplates
+				{ 16, 147921, }, -- Fierce Gladiator's Greatcloak of Faith
+				{ 17, 148036, }, -- Fierce Gladiator's Scaled Sabatons
+				{ 18, 148038, }, -- Fierce Gladiator's Scaled Gauntlets
+				{ 19, 148040, }, -- Fierce Gladiator's Scaled Helm
+				{ 20, 148042, }, -- Fierce Gladiator's Scaled Legguards
+				{ 21, 148044, }, -- Fierce Gladiator's Scaled Breastplate
+				{ 22, 148045, }, -- Fierce Gladiator's Scaled Shoulders
+				{ 23, 148047, }, -- Fierce Gladiator's Scaled Girdle
+				{ 24, 148049, }, -- Fierce Gladiator's Scaled Wristplates
+				{ 101, 149517, }, -- Fierce Combatant's Greatcloak of Faith
+				{ 102, 149632, }, -- Fierce Combatant's Scaled Chestpiece
+				{ 103, 149634, }, -- Fierce Combatant's Scaled Sabatons
+				{ 104, 149636, }, -- Fierce Combatant's Scaled Gauntlets
+				{ 105, 149638, }, -- Fierce Combatant's Scaled Helm
+				{ 106, 149640, }, -- Fierce Combatant's Scaled Legguards
+				{ 107, 149642, }, -- Fierce Combatant's Scaled Shoulders
+				{ 108, 149644, }, -- Fierce Combatant's Scaled Girdle
+				{ 109, 149646, }, -- Fierce Combatant's Scaled Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148168, }, -- Fierce Gladiator's Greatcloak of Faith
+				{ 2, 148282, }, -- Fierce Gladiator's Scaled Breastplate
+				{ 3, 148284, }, -- Fierce Gladiator's Scaled Sabatons
+				{ 4, 148286, }, -- Fierce Gladiator's Scaled Gauntlets
+				{ 5, 148288, }, -- Fierce Gladiator's Scaled Helm
+				{ 6, 148290, }, -- Fierce Gladiator's Scaled Legguards
+				{ 7, 148292, }, -- Fierce Gladiator's Scaled Shoulders
+				{ 8, 148294, }, -- Fierce Gladiator's Scaled Girdle
+				{ 9, 148296, }, -- Fierce Gladiator's Scaled Wristplates
+				{ 16, 147922, }, -- Fierce Gladiator's Greatcloak of Faith
+				{ 17, 148035, }, -- Fierce Gladiator's Scaled Breastplate
+				{ 18, 148037, }, -- Fierce Gladiator's Scaled Sabatons
+				{ 19, 148039, }, -- Fierce Gladiator's Scaled Gauntlets
+				{ 20, 148041, }, -- Fierce Gladiator's Scaled Helm
+				{ 21, 148043, }, -- Fierce Gladiator's Scaled Legguards
+				{ 22, 148046, }, -- Fierce Gladiator's Scaled Shoulders
+				{ 23, 148048, }, -- Fierce Gladiator's Scaled Girdle
+				{ 24, 148050, }, -- Fierce Gladiator's Scaled Wristplates
+				{ 101, 149518, }, -- Fierce Combatant's Greatcloak of Faith
+				{ 102, 149633, }, -- Fierce Combatant's Scaled Chestpiece
+				{ 103, 149635, }, -- Fierce Combatant's Scaled Sabatons
+				{ 104, 149637, }, -- Fierce Combatant's Scaled Gauntlets
+				{ 105, 149639, }, -- Fierce Combatant's Scaled Helm
+				{ 106, 149641, }, -- Fierce Combatant's Scaled Legguards
+				{ 107, 149643, }, -- Fierce Combatant's Scaled Shoulders
+				{ 108, 149645, }, -- Fierce Combatant's Scaled Girdle
+				{ 109, 149647, }, -- Fierce Combatant's Scaled Wristplates
+			},
+		},
+		{ -- PRIEST
+			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148169, }, -- Fierce Gladiator's Drape of Piety
+				{ 2, 148297, }, -- Fierce Gladiator's Satin Treads
+				{ 3, 148299, }, -- Fierce Gladiator's Satin Gloves
+				{ 4, 148301, }, -- Fierce Gladiator's Satin Hood
+				{ 5, 148303, }, -- Fierce Gladiator's Satin Leggings
+				{ 6, 148305, }, -- Fierce Gladiator's Satin Robe
+				{ 7, 148307, }, -- Fierce Gladiator's Satin Mantle
+				{ 8, 148309, }, -- Fierce Gladiator's Satin Cord
+				{ 9, 148311, }, -- Fierce Gladiator's Satin Bracers
+				{ 16, 147923, }, -- Fierce Gladiator's Drape of Piety
+				{ 17, 148051, }, -- Fierce Gladiator's Satin Treads
+				{ 18, 148053, }, -- Fierce Gladiator's Satin Gloves
+				{ 19, 148055, }, -- Fierce Gladiator's Satin Hood
+				{ 20, 148057, }, -- Fierce Gladiator's Satin Leggings
+				{ 21, 148059, }, -- Fierce Gladiator's Satin Robe
+				{ 22, 148061, }, -- Fierce Gladiator's Satin Mantle
+				{ 23, 148063, }, -- Fierce Gladiator's Satin Cord
+				{ 24, 148065, }, -- Fierce Gladiator's Satin Bracers
+				{ 101, 149519, }, -- Fierce Combatant's Drape of Piety
+				{ 102, 149648, }, -- Fierce Combatant's Satin Treads
+				{ 103, 149650, }, -- Fierce Combatant's Satin Gloves
+				{ 104, 149652, }, -- Fierce Combatant's Satin Hood
+				{ 105, 149654, }, -- Fierce Combatant's Satin Leggings
+				{ 106, 149656, }, -- Fierce Combatant's Satin Robe
+				{ 107, 149658, }, -- Fierce Combatant's Satin Mantle
+				{ 108, 149660, }, -- Fierce Combatant's Satin Cord
+				{ 109, 149662, }, -- Fierce Combatant's Satin Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148170, }, -- Fierce Gladiator's Drape of Piety
+				{ 2, 148298, }, -- Fierce Gladiator's Satin Treads
+				{ 3, 148300, }, -- Fierce Gladiator's Satin Gloves
+				{ 4, 148302, }, -- Fierce Gladiator's Satin Hood
+				{ 5, 148304, }, -- Fierce Gladiator's Satin Leggings
+				{ 6, 148306, }, -- Fierce Gladiator's Satin Robe
+				{ 7, 148308, }, -- Fierce Gladiator's Satin Mantle
+				{ 8, 148310, }, -- Fierce Gladiator's Satin Cord
+				{ 9, 148312, }, -- Fierce Gladiator's Satin Bracers
+				{ 16, 147924, }, -- Fierce Gladiator's Drape of Piety
+				{ 17, 148052, }, -- Fierce Gladiator's Satin Treads
+				{ 18, 148054, }, -- Fierce Gladiator's Satin Gloves
+				{ 19, 148056, }, -- Fierce Gladiator's Satin Hood
+				{ 20, 148058, }, -- Fierce Gladiator's Satin Leggings
+				{ 21, 148060, }, -- Fierce Gladiator's Satin Robe
+				{ 22, 148062, }, -- Fierce Gladiator's Satin Mantle
+				{ 23, 148064, }, -- Fierce Gladiator's Satin Cord
+				{ 24, 148066, }, -- Fierce Gladiator's Satin Bracers
+				{ 101, 149520, }, -- Fierce Combatant's Drape of Piety
+				{ 102, 149649, }, -- Fierce Combatant's Satin Treads
+				{ 103, 149651, }, -- Fierce Combatant's Satin Gloves
+				{ 104, 149653, }, -- Fierce Combatant's Satin Hood
+				{ 105, 149655, }, -- Fierce Combatant's Satin Leggings
+				{ 106, 149657, }, -- Fierce Combatant's Satin Robe
+				{ 107, 149659, }, -- Fierce Combatant's Satin Mantle
+				{ 108, 149661, }, -- Fierce Combatant's Satin Cord
+				{ 109, 149663, }, -- Fierce Combatant's Satin Bracers
+			},
+		},
+		{ -- ROGUE
+			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148171, }, -- Fierce Gladiator's Shadowcape
+				{ 2, 148319, }, -- Fierce Gladiator's Leather Tunic
+				{ 3, 148321, }, -- Fierce Gladiator's Leather Slippers
+				{ 4, 148323, }, -- Fierce Gladiator's Leather Gloves
+				{ 5, 148325, }, -- Fierce Gladiator's Leather Helm
+				{ 6, 148327, }, -- Fierce Gladiator's Leather Legguards
+				{ 7, 148329, }, -- Fierce Gladiator's Leather Spaulders
+				{ 8, 148331, }, -- Fierce Gladiator's Leather Belt
+				{ 9, 148333, }, -- Fierce Gladiator's Leather Wristguards
+				{ 16, 147925, }, -- Fierce Gladiator's Shadowcape
+				{ 17, 148073, }, -- Fierce Gladiator's Leather Tunic
+				{ 18, 148075, }, -- Fierce Gladiator's Leather Slippers
+				{ 19, 148077, }, -- Fierce Gladiator's Leather Gloves
+				{ 20, 148079, }, -- Fierce Gladiator's Leather Helm
+				{ 21, 148081, }, -- Fierce Gladiator's Leather Legguards
+				{ 22, 148083, }, -- Fierce Gladiator's Leather Spaulders
+				{ 23, 148085, }, -- Fierce Gladiator's Leather Belt
+				{ 24, 148087, }, -- Fierce Gladiator's Leather Wristguards
+				{ 101, 149521, }, -- Fierce Combatant's Shadowcape
+				{ 102, 149670, }, -- Fierce Combatant's Leather Tunic
+				{ 103, 149672, }, -- Fierce Combatant's Leather Slippers
+				{ 104, 149674, }, -- Fierce Combatant's Leather Gloves
+				{ 105, 149676, }, -- Fierce Combatant's Leather Helm
+				{ 106, 149678, }, -- Fierce Combatant's Leather Legguards
+				{ 107, 149680, }, -- Fierce Combatant's Leather Spaulders
+				{ 108, 149682, }, -- Fierce Combatant's Leather Belt
+				{ 109, 149684, }, -- Fierce Combatant's Leather Wristguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148172, }, -- Fierce Gladiator's Shadowcape
+				{ 2, 148320, }, -- Fierce Gladiator's Leather Tunic
+				{ 3, 148322, }, -- Fierce Gladiator's Leather Slippers
+				{ 4, 148324, }, -- Fierce Gladiator's Leather Gloves
+				{ 5, 148326, }, -- Fierce Gladiator's Leather Helm
+				{ 6, 148328, }, -- Fierce Gladiator's Leather Legguards
+				{ 7, 148330, }, -- Fierce Gladiator's Leather Spaulders
+				{ 8, 148332, }, -- Fierce Gladiator's Leather Belt
+				{ 9, 148334, }, -- Fierce Gladiator's Leather Wristguards
+				{ 16, 147926, }, -- Fierce Gladiator's Shadowcape
+				{ 17, 148074, }, -- Fierce Gladiator's Leather Tunic
+				{ 18, 148076, }, -- Fierce Gladiator's Leather Slippers
+				{ 19, 148078, }, -- Fierce Gladiator's Leather Gloves
+				{ 20, 148080, }, -- Fierce Gladiator's Leather Helm
+				{ 21, 148082, }, -- Fierce Gladiator's Leather Legguards
+				{ 22, 148084, }, -- Fierce Gladiator's Leather Spaulders
+				{ 23, 148086, }, -- Fierce Gladiator's Leather Belt
+				{ 24, 148088, }, -- Fierce Gladiator's Leather Wristguards
+				{ 101, 149522, }, -- Fierce Combatant's Shadowcape
+				{ 102, 149671, }, -- Fierce Combatant's Leather Tunic
+				{ 103, 149673, }, -- Fierce Combatant's Leather Slippers
+				{ 104, 149675, }, -- Fierce Combatant's Leather Gloves
+				{ 105, 149677, }, -- Fierce Combatant's Leather Helm
+				{ 106, 149679, }, -- Fierce Combatant's Leather Legguards
+				{ 107, 149681, }, -- Fierce Combatant's Leather Spaulders
+				{ 108, 149683, }, -- Fierce Combatant's Leather Belt
+				{ 109, 149685, }, -- Fierce Combatant's Leather Wristguards
+			},
+		},
+		{ -- SHAMAN
+			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148173, }, -- Fierce Gladiator's Totemic Cloak
+				{ 2, 148335, }, -- Fierce Gladiator's Ringmail Armor
+				{ 3, 148337, }, -- Fierce Gladiator's Ringmail Boots
+				{ 4, 148339, }, -- Fierce Gladiator's Ringmail Gauntlets
+				{ 5, 148341, }, -- Fierce Gladiator's Ringmail Helm
+				{ 6, 148343, }, -- Fierce Gladiator's Ringmail Leggings
+				{ 7, 148345, }, -- Fierce Gladiator's Ringmail Spaulders
+				{ 8, 148347, }, -- Fierce Gladiator's Ringmail Clasp
+				{ 9, 148349, }, -- Fierce Gladiator's Ringmail Armband
+				{ 16, 147927, }, -- Fierce Gladiator's Totemic Cloak
+				{ 17, 148089, }, -- Fierce Gladiator's Ringmail Armor
+				{ 18, 148091, }, -- Fierce Gladiator's Ringmail Boots
+				{ 19, 148093, }, -- Fierce Gladiator's Ringmail Gauntlets
+				{ 20, 148095, }, -- Fierce Gladiator's Ringmail Helm
+				{ 21, 148097, }, -- Fierce Gladiator's Ringmail Leggings
+				{ 22, 148099, }, -- Fierce Gladiator's Ringmail Spaulders
+				{ 23, 148101, }, -- Fierce Gladiator's Ringmail Clasp
+				{ 24, 148103, }, -- Fierce Gladiator's Ringmail Armband
+				{ 101, 149523, }, -- Fierce Combatant's Totemic Cloak
+				{ 102, 149686, }, -- Fierce Combatant's Ringmail Robe
+				{ 103, 149688, }, -- Fierce Combatant's Ringmail Boots
+				{ 104, 149690, }, -- Fierce Combatant's Ringmail Gauntlets
+				{ 105, 149692, }, -- Fierce Combatant's Ringmail Helm
+				{ 106, 149694, }, -- Fierce Combatant's Ringmail Leggings
+				{ 107, 149696, }, -- Fierce Combatant's Ringmail Spaulders
+				{ 108, 149698, }, -- Fierce Combatant's Ringmail Clasp
+				{ 109, 149700, }, -- Fierce Combatant's Ringmail Armband
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148174, }, -- Fierce Gladiator's Totemic Cloak
+				{ 2, 148336, }, -- Fierce Gladiator's Ringmail Armor
+				{ 3, 148338, }, -- Fierce Gladiator's Ringmail Boots
+				{ 4, 148340, }, -- Fierce Gladiator's Ringmail Gauntlets
+				{ 5, 148342, }, -- Fierce Gladiator's Ringmail Helm
+				{ 6, 148344, }, -- Fierce Gladiator's Ringmail Leggings
+				{ 7, 148346, }, -- Fierce Gladiator's Ringmail Spaulders
+				{ 8, 148348, }, -- Fierce Gladiator's Ringmail Clasp
+				{ 9, 148350, }, -- Fierce Gladiator's Ringmail Armband
+				{ 16, 147928, }, -- Fierce Gladiator's Totemic Cloak
+				{ 17, 148090, }, -- Fierce Gladiator's Ringmail Armor
+				{ 18, 148092, }, -- Fierce Gladiator's Ringmail Boots
+				{ 19, 148094, }, -- Fierce Gladiator's Ringmail Gauntlets
+				{ 20, 148096, }, -- Fierce Gladiator's Ringmail Helm
+				{ 21, 148098, }, -- Fierce Gladiator's Ringmail Leggings
+				{ 22, 148100, }, -- Fierce Gladiator's Ringmail Spaulders
+				{ 23, 148102, }, -- Fierce Gladiator's Ringmail Clasp
+				{ 24, 148104, }, -- Fierce Gladiator's Ringmail Armband
+				{ 101, 149524, }, -- Fierce Combatant's Totemic Cloak
+				{ 102, 149687, }, -- Fierce Combatant's Ringmail Robe
+				{ 103, 149689, }, -- Fierce Combatant's Ringmail Boots
+				{ 104, 149691, }, -- Fierce Combatant's Ringmail Gauntlets
+				{ 105, 149693, }, -- Fierce Combatant's Ringmail Helm
+				{ 106, 149695, }, -- Fierce Combatant's Ringmail Leggings
+				{ 107, 149697, }, -- Fierce Combatant's Ringmail Spaulders
+				{ 108, 149699, }, -- Fierce Combatant's Ringmail Clasp
+				{ 109, 149701, }, -- Fierce Combatant's Ringmail Armband
+			},
+		},
+		{ -- WARLOCK
+			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148175, }, -- Fierce Gladiator's Felweave Cloak
+				{ 2, 148369, }, -- Fierce Gladiator's Felweave Treads
+				{ 3, 148371, }, -- Fierce Gladiator's Felweave Handguards
+				{ 4, 148373, }, -- Fierce Gladiator's Felweave Cowl
+				{ 5, 148375, }, -- Fierce Gladiator's Felweave Trousers
+				{ 6, 148377, }, -- Fierce Gladiator's Felweave Raiment
+				{ 7, 148379, }, -- Fierce Gladiator's Felweave Amice
+				{ 8, 148381, }, -- Fierce Gladiator's Felweave Cord
+				{ 9, 148383, }, -- Fierce Gladiator's Felweave Bracers
+				{ 16, 147929, }, -- Fierce Gladiator's Felweave Cloak
+				{ 17, 148123, }, -- Fierce Gladiator's Felweave Treads
+				{ 18, 148125, }, -- Fierce Gladiator's Felweave Handguards
+				{ 19, 148127, }, -- Fierce Gladiator's Felweave Cowl
+				{ 20, 148129, }, -- Fierce Gladiator's Felweave Trousers
+				{ 21, 148131, }, -- Fierce Gladiator's Felweave Raiment
+				{ 22, 148133, }, -- Fierce Gladiator's Felweave Amice
+				{ 23, 148135, }, -- Fierce Gladiator's Felweave Cord
+				{ 24, 148137, }, -- Fierce Gladiator's Felweave Bracers
+				{ 101, 149525, }, -- Fierce Combatant's Felweave Cloak
+				{ 102, 149720, }, -- Fierce Combatant's Felweave Treads
+				{ 103, 149722, }, -- Fierce Combatant's Felweave Handguards
+				{ 104, 149724, }, -- Fierce Combatant's Felweave Cowl
+				{ 105, 149726, }, -- Fierce Combatant's Felweave Trousers
+				{ 106, 149728, }, -- Fierce Combatant's Felweave Raiment
+				{ 107, 149730, }, -- Fierce Combatant's Felweave Amice
+				{ 108, 149732, }, -- Fierce Combatant's Felweave Cord
+				{ 109, 149734, }, -- Fierce Combatant's Felweave Bracers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148176, }, -- Fierce Gladiator's Felweave Cloak
+				{ 2, 148370, }, -- Fierce Gladiator's Felweave Treads
+				{ 3, 148372, }, -- Fierce Gladiator's Felweave Handguards
+				{ 4, 148374, }, -- Fierce Gladiator's Felweave Cowl
+				{ 5, 148376, }, -- Fierce Gladiator's Felweave Trousers
+				{ 6, 148378, }, -- Fierce Gladiator's Felweave Raiment
+				{ 7, 148380, }, -- Fierce Gladiator's Felweave Amice
+				{ 8, 148382, }, -- Fierce Gladiator's Felweave Cord
+				{ 9, 148384, }, -- Fierce Gladiator's Felweave Bracers
+				{ 16, 147930, }, -- Fierce Gladiator's Felweave Cloak
+				{ 17, 148124, }, -- Fierce Gladiator's Felweave Treads
+				{ 18, 148126, }, -- Fierce Gladiator's Felweave Handguards
+				{ 19, 148128, }, -- Fierce Gladiator's Felweave Cowl
+				{ 20, 148130, }, -- Fierce Gladiator's Felweave Trousers
+				{ 21, 148132, }, -- Fierce Gladiator's Felweave Raiment
+				{ 22, 148134, }, -- Fierce Gladiator's Felweave Amice
+				{ 23, 148136, }, -- Fierce Gladiator's Felweave Cord
+				{ 24, 148138, }, -- Fierce Gladiator's Felweave Bracers
+				{ 101, 149526, }, -- Fierce Combatant's Felweave Cloak
+				{ 102, 149721, }, -- Fierce Combatant's Felweave Treads
+				{ 103, 149723, }, -- Fierce Combatant's Felweave Handguards
+				{ 104, 149725, }, -- Fierce Combatant's Felweave Cowl
+				{ 105, 149727, }, -- Fierce Combatant's Felweave Trousers
+				{ 106, 149729, }, -- Fierce Combatant's Felweave Raiment
+				{ 107, 149731, }, -- Fierce Combatant's Felweave Amice
+				{ 108, 149733, }, -- Fierce Combatant's Felweave Cord
+				{ 109, 149735, }, -- Fierce Combatant's Felweave Bracers
+			},
+		},
+		{ -- WARRIOR
+			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 148177, }, -- Fierce Gladiator's Cloak of Battle
+				{ 2, 148385, }, -- Fierce Gladiator's Plate Chestpiece
+				{ 3, 148387, }, -- Fierce Gladiator's Plate Warboots
+				{ 4, 148389, }, -- Fierce Gladiator's Plate Gauntlets
+				{ 5, 148391, }, -- Fierce Gladiator's Plate Helm
+				{ 6, 148393, }, -- Fierce Gladiator's Plate Legguards
+				{ 7, 148395, }, -- Fierce Gladiator's Plate Shoulders
+				{ 8, 148397, }, -- Fierce Gladiator's Plate Girdle
+				{ 9, 148399, }, -- Fierce Gladiator's Plate Wristplates
+				{ 16, 147931, }, -- Fierce Gladiator's Cloak of Battle
+				{ 17, 148139, }, -- Fierce Gladiator's Plate Chestpiece
+				{ 18, 148141, }, -- Fierce Gladiator's Plate Warboots
+				{ 19, 148143, }, -- Fierce Gladiator's Plate Gauntlets
+				{ 20, 148145, }, -- Fierce Gladiator's Plate Helm
+				{ 21, 148147, }, -- Fierce Gladiator's Plate Legguards
+				{ 22, 148149, }, -- Fierce Gladiator's Plate Shoulders
+				{ 23, 148151, }, -- Fierce Gladiator's Plate Girdle
+				{ 24, 148153, }, -- Fierce Gladiator's Plate Wristplates
+				{ 101, 149527, }, -- Fierce Combatant's Cloak of Battle
+				{ 102, 149736, }, -- Fierce Combatant's Plate Chestpiece
+				{ 103, 149738, }, -- Fierce Combatant's Plate Warboots
+				{ 104, 149740, }, -- Fierce Combatant's Plate Gauntlets
+				{ 105, 149742, }, -- Fierce Combatant's Plate Helm
+				{ 106, 149744, }, -- Fierce Combatant's Plate Legguards
+				{ 107, 149746, }, -- Fierce Combatant's Plate Shoulders
+				{ 108, 149748, }, -- Fierce Combatant's Plate Girdle
+				{ 109, 149750, }, -- Fierce Combatant's Plate Wristplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148178, }, -- Fierce Gladiator's Cloak of Battle
+				{ 2, 148386, }, -- Fierce Gladiator's Plate Chestpiece
+				{ 3, 148388, }, -- Fierce Gladiator's Plate Warboots
+				{ 4, 148390, }, -- Fierce Gladiator's Plate Gauntlets
+				{ 5, 148392, }, -- Fierce Gladiator's Plate Helm
+				{ 6, 148394, }, -- Fierce Gladiator's Plate Legguards
+				{ 7, 148396, }, -- Fierce Gladiator's Plate Shoulders
+				{ 8, 148398, }, -- Fierce Gladiator's Plate Girdle
+				{ 9, 148400, }, -- Fierce Gladiator's Plate Wristplates
+				{ 16, 147932, }, -- Fierce Gladiator's Cloak of Battle
+				{ 17, 148140, }, -- Fierce Gladiator's Plate Chestpiece
+				{ 18, 148142, }, -- Fierce Gladiator's Plate Warboots
+				{ 19, 148144, }, -- Fierce Gladiator's Plate Gauntlets
+				{ 20, 148146, }, -- Fierce Gladiator's Plate Helm
+				{ 21, 148148, }, -- Fierce Gladiator's Plate Legguards
+				{ 22, 148150, }, -- Fierce Gladiator's Plate Shoulders
+				{ 23, 148152, }, -- Fierce Gladiator's Plate Girdle
+				{ 24, 148154, }, -- Fierce Gladiator's Plate Wristplates
+				{ 101, 149528, }, -- Fierce Combatant's Cloak of Battle
+				{ 102, 149737, }, -- Fierce Combatant's Plate Chestpiece
+				{ 103, 149739, }, -- Fierce Combatant's Plate Warboots
+				{ 104, 149741, }, -- Fierce Combatant's Plate Gauntlets
+				{ 105, 149743, }, -- Fierce Combatant's Plate Helm
+				{ 106, 149745, }, -- Fierce Combatant's Plate Legguards
+				{ 107, 149747, }, -- Fierce Combatant's Plate Shoulders
+				{ 108, 149749, }, -- Fierce Combatant's Plate Girdle
+				{ 109, 149751, }, -- Fierce Combatant's Plate Wristplates
+			},
+		},
+	},
+}
+
+data["LEGION5GEAR"] = {
+	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 5).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = string.format(AL["Legion Season %d Elite"], 5),
+			[ALLIANCE_DIFF] = {
+				{ 1, 149397, }, -- Helm of the Fierce Gladiator
+				{ 2, 149398, }, -- Chest of the Fierce Gladiator
+				{ 3, 149399, }, -- Leggings of the Fierce Gladiator
+				{ 4, 149400, }, -- Pauldrons of the Fierce Gladiator
+				{ 5, 149401, }, -- Gloves of the Fierce Gladiator
+				{ 6, 149402, }, -- Cinch of the Fierce Gladiator
+				{ 7, 149403, }, -- Treads of the Fierce Gladiator
+				{ 8, 149404, }, -- Bracers of the Fierce Gladiator
+				{ 9, 149405, }, -- Cloak of the Fierce Gladiator
+				 -- Neck
+				{ 11, 148275, }, -- Fierce Gladiator's Necklace
+				{ 12, 148277, }, -- Fierce Gladiator's Pendant
+				{ 13, 148279, }, -- Fierce Gladiator's Choker
+
+				 -- Ring
+				{ 16, 148313, }, -- Fierce Gladiator's Ring
+				{ 17, 148315, }, -- Fierce Gladiator's Band
+				{ 18, 148317, }, -- Fierce Gladiator's Signet
+
+				 -- Trinket
+				{ 20, 148351, }, -- Fierce Gladiator's Badge of Conquest
+				{ 21, 148353, }, -- Fierce Gladiator's Accolade of Conquest
+				{ 22, 148355, }, -- Fierce Gladiator's Insignia of Conquest
+				{ 23, 148357, }, -- Fierce Gladiator's Badge of Dominance
+				{ 24, 148359, }, -- Fierce Gladiator's Accolade of Dominance
+				{ 25, 148361, }, -- Fierce Gladiator's Insignia of Dominance
+				{ 26, 148363, }, -- Fierce Gladiator's Badge of Victory
+				{ 27, 148365, }, -- Fierce Gladiator's Accolade of Victory
+				{ 28, 148367, }, -- Fierce Gladiator's Insignia of Victory
+
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				 -- Neck
+				{ 11, 148276, }, -- Fierce Gladiator's Necklace
+				{ 12, 148278, }, -- Fierce Gladiator's Pendant
+				{ 13, 148280, }, -- Fierce Gladiator's Choker
+
+				 -- Ring
+				{ 16, 148314, }, -- Fierce Gladiator's Ring
+				{ 17, 148316, }, -- Fierce Gladiator's Band
+				{ 18, 148318, }, -- Fierce Gladiator's Signet
+
+				 -- Trinket
+				{ 20, 148352, }, -- Fierce Gladiator's Badge of Conquest
+				{ 21, 148354, }, -- Fierce Gladiator's Accolade of Conquest
+				{ 22, 148356, }, -- Fierce Gladiator's Insignia of Conquest
+				{ 23, 148358, }, -- Fierce Gladiator's Badge of Dominance
+				{ 24, 148360, }, -- Fierce Gladiator's Accolade of Dominance
+				{ 25, 148362, }, -- Fierce Gladiator's Insignia of Dominance
+				{ 26, 148364, }, -- Fierce Gladiator's Badge of Victory
+				{ 27, 148366, }, -- Fierce Gladiator's Accolade of Victory
+				{ 28, 148368, }, -- Fierce Gladiator's Insignia of Victory
+			},
+		},
+		{
+			name = string.format(AL["Legion Season %d"], 5),
+			[ALLIANCE_DIFF] = {
+				{ 1, 149388, }, -- Helm of the Fierce Gladiator
+				{ 2, 149389, }, -- Chest of the Fierce Gladiator
+				{ 3, 149390, }, -- Leggings of the Fierce Gladiator
+				{ 4, 149391, }, -- Pauldrons of the Fierce Gladiator
+				{ 5, 149392, }, -- Gloves of the Fierce Gladiator
+				{ 6, 149393, }, -- Cinch of the Fierce Gladiator
+				{ 7, 149394, }, -- Treads of the Fierce Gladiator
+				{ 8, 149395, }, -- Bracers of the Fierce Gladiator
+				{ 9, 149396, }, -- Cloak of the Fierce Gladiator
+
+				-- Tabard
+				{ 11, 149443, }, -- Fierce Gladiator's Tabard
+				{ 12, 149445, }, -- Fierce Gladiator's Cloak
+
+				-- Neck
+				{ 16, 153484, }, -- Fierce Combatant's Necklace
+				{ 17, 148030, }, -- Fierce Gladiator's Necklace
+				{ 18, 148032, }, -- Fierce Gladiator's Pendant
+				{ 19, 148034, }, -- Fierce Gladiator's Choker
+				{ 20, 149626, }, -- Fierce Combatant's Necklace
+				{ 21, 149628, }, -- Fierce Combatant's Pendant
+				{ 22, 149630, }, -- Fierce Combatant's Choker
+
+				-- Ring
+				{ 24, 148067, }, -- Fierce Gladiator's Ring
+				{ 25, 148069, }, -- Fierce Gladiator's Band
+				{ 26, 148071, }, -- Fierce Gladiator's Signet
+				{ 27, 149664, }, -- Fierce Combatant's Ring
+				{ 28, 149666, }, -- Fierce Combatant's Band
+				{ 29, 149668, }, -- Fierce Combatant's Signet
+
+				-- Trinket
+				{ 101, 148105, }, -- Fierce Gladiator's Badge of Conquest
+				{ 102, 148107, }, -- Fierce Gladiator's Accolade of Conquest
+				{ 103, 148109, }, -- Fierce Gladiator's Insignia of Conquest
+				{ 104, 148111, }, -- Fierce Gladiator's Badge of Dominance
+				{ 105, 148113, }, -- Fierce Gladiator's Accolade of Dominance
+				{ 106, 148115, }, -- Fierce Gladiator's Insignia of Dominance
+				{ 107, 148117, }, -- Fierce Gladiator's Badge of Victory
+				{ 108, 148119, }, -- Fierce Gladiator's Accolade of Victory
+				{ 109, 148121, }, -- Fierce Gladiator's Insignia of Victory
+
+				{ 116, 149702, }, -- Fierce Combatant's Badge of Conquest
+				{ 117, 149704, }, -- Fierce Combatant's Accolade of Conquest
+				{ 118, 149706, }, -- Fierce Combatant's Insignia of Conquest
+				{ 119, 149708, }, -- Fierce Combatant's Badge of Dominance
+				{ 120, 149710, }, -- Fierce Combatant's Accolade of Dominance
+				{ 121, 149712, }, -- Fierce Combatant's Insignia of Dominance
+				{ 122, 149714, }, -- Fierce Combatant's Badge of Victory
+				{ 123, 149716, }, -- Fierce Combatant's Accolade of Victory
+				{ 124, 149718, }, -- Fierce Combatant's Insignia of Victory
+
+				-- Relic
+				{ 201, 150274, }, -- Reactive Intuition
+				{ 202, 150275, }, -- Exhaustive Research
+				{ 203, 150276, }, -- Taboo Knowledge
+				{ 204, 150277, }, -- Grisly Souvenir
+				{ 205, 150278, }, -- Thirsty Bloodstone
+				{ 206, 150279, }, -- Thrill of Battle
+				{ 207, 150280, }, -- Fel-Loaded Dice
+				{ 208, 150281, }, -- Performance Enhancing Curio
+				{ 209, 150282, }, -- Alliance of Convenience
+				{ 210, 150283, }, -- Blaze of Glory
+				{ 211, 150284, }, -- Flame of the Fallen
+				{ 212, 150285, }, -- Torch of Competition
+				{ 213, 150286, }, -- Conscience of the Victorious
+				{ 214, 150287, }, -- Superiority's Contempt
+				{ 215, 150288, }, -- Cold Sweat
+				{ 216, 150289, }, -- Clarity of Conviction
+				{ 217, 150290, }, -- Brilliant Sunstone
+				{ 218, 150291, }, -- Radiance of Dawn
+				{ 219, 150292, }, -- Battle-Tempered Hilt
+				{ 220, 150293, }, -- Unflinching Grit
+				{ 221, 150294, }, -- Steadfast Conviction
+				{ 222, 150295, }, -- "Borrowed" Soul Essence
+				{ 223, 150296, }, -- Tombweed Bloom
+				{ 224, 150297, }, -- Petrified Ancient's Thumb
+				{ 225, 150348, }, -- Blindside Approach
+				{ 226, 150349, }, -- Polished Shadowstone
+				{ 227, 150350, }, -- Dead Man's Tale
+				{ 228, 150351, }, -- Battering Tempest
+				{ 229, 150352, }, -- Thundering Impact
+				{ 230, 150353, }, -- Roar of the Crowd
+
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Tabard
+				{ 11, 149442, }, -- Fierce Gladiator's Tabard
+				{ 12, 149444, }, -- Fierce Gladiator's Cloak
+				
+				-- Neck
+				{ 16, 153484, }, -- Fierce Combatant's Necklace
+				{ 17, 148029, }, -- Fierce Gladiator's Necklace
+				{ 18, 148031, }, -- Fierce Gladiator's Pendant
+				{ 19, 148033, }, -- Fierce Gladiator's Choker
+				{ 20, 149627, }, -- Fierce Combatant's Necklace
+				{ 21, 149629, }, -- Fierce Combatant's Pendant
+				{ 22, 149631, }, -- Fierce Combatant's Choker
+
+				-- Ring
+				{ 24, 148068, }, -- Fierce Gladiator's Ring
+				{ 25, 148070, }, -- Fierce Gladiator's Band
+				{ 26, 148072, }, -- Fierce Gladiator's Signet
+				{ 27, 149665, }, -- Fierce Combatant's Ring
+				{ 28, 149667, }, -- Fierce Combatant's Band
+				{ 29, 149669, }, -- Fierce Combatant's Signet
+
+				-- Trinket
+				{ 101, 148106, }, -- Fierce Gladiator's Badge of Conquest
+				{ 102, 148108, }, -- Fierce Gladiator's Accolade of Conquest
+				{ 103, 148110, }, -- Fierce Gladiator's Insignia of Conquest
+				{ 104, 148112, }, -- Fierce Gladiator's Badge of Dominance
+				{ 105, 148114, }, -- Fierce Gladiator's Accolade of Dominance
+				{ 106, 148116, }, -- Fierce Gladiator's Insignia of Dominance
+				{ 107, 148118, }, -- Fierce Gladiator's Badge of Victory
+				{ 108, 148120, }, -- Fierce Gladiator's Accolade of Victory
+				{ 109, 148122, }, -- Fierce Gladiator's Insignia of Victory
+
+				{ 116, 149703, }, -- Fierce Combatant's Badge of Conquest
+				{ 117, 149705, }, -- Fierce Combatant's Accolade of Conquest
+				{ 118, 149707, }, -- Fierce Combatant's Insignia of Conquest
+				{ 119, 149709, }, -- Fierce Combatant's Badge of Dominance
+				{ 120, 149711, }, -- Fierce Combatant's Accolade of Dominance
+				{ 121, 149713, }, -- Fierce Combatant's Insignia of Dominance
+				{ 122, 149715, }, -- Fierce Combatant's Badge of Victory
+				{ 123, 149717, }, -- Fierce Combatant's Accolade of Victory
+				{ 124, 149719, }, -- Fierce Combatant's Insignia of Victory
+			},
+		},
+	},
+}
+
 data["LEGION4SET"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 4).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,

@@ -13,6 +13,7 @@ local tonumber = tonumber
 -- /run BonusRollFrame_StartBonusRoll(190156, "", 180, 738)
 -- [BonusRollID] = "tierID:instanceID:encounterID"		<- new
 -- Use /dump GetJournalInfoForSpellConfirmation(spellID) to get instanceID and encounterID
+-- Also look into here for more information: http://www.wowhead.com/spells/name:Bonus+Roll+Prompt
 local BONUS_ROLL_IDS = {
 	-- ### Legion
 	-- BrokenIsles
