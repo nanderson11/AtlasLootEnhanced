@@ -284,7 +284,7 @@ data["LEGION7GEAR"] = {
 		},
 	},
 }
-
+--]]
 data["LEGION6SET"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 6).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
@@ -292,97 +292,745 @@ data["LEGION6SET"] = {
 		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148648, }, -- Dominant Gladiator's Dreadcloak
+				{ 2, 148672, }, -- Dominant Gladiator's Dreadplate Chestpiece
+				{ 3, 148674, }, -- Dominant Gladiator's Dreadplate Sabatons
+				{ 4, 148676, }, -- Dominant Gladiator's Dreadplate Gauntlets
+				{ 5, 148678, }, -- Dominant Gladiator's Dreadplate Helm
+				{ 6, 148680, }, -- Dominant Gladiator's Dreadplate Legguards
+				{ 7, 148682, }, -- Dominant Gladiator's Dreadplate Shoulders
+				{ 8, 148684, }, -- Dominant Gladiator's Dreadplate Girdle
+				{ 9, 148686, }, -- Dominant Gladiator's Dreadplate Wristplates
+				{ 16, 148402, }, -- Dominant Gladiator's Dreadcloak
+				{ 17, 148426, }, -- Dominant Gladiator's Dreadplate Chestpiece
+				{ 18, 148428, }, -- Dominant Gladiator's Dreadplate Sabatons
+				{ 19, 148430, }, -- Dominant Gladiator's Dreadplate Gauntlets
+				{ 20, 148432, }, -- Dominant Gladiator's Dreadplate Helm
+				{ 21, 148434, }, -- Dominant Gladiator's Dreadplate Legguards
+				{ 22, 148436, }, -- Dominant Gladiator's Dreadplate Shoulders
+				{ 23, 148438, }, -- Dominant Gladiator's Dreadplate Girdle
+				{ 24, 148440, }, -- Dominant Gladiator's Dreadplate Wristplates
+				{ 101, 149756, }, -- Dominant Combatant's Dreadcloak
+				{ 102, 149780, }, -- Dominant Combatant's Dreadplate Chestpiece
+				{ 103, 149782, }, -- Dominant Combatant's Dreadplate Sabatons
+				{ 104, 149784, }, -- Dominant Combatant's Dreadplate Gauntlets
+				{ 105, 149786, }, -- Dominant Combatant's Dreadplate Helm
+				{ 106, 149788, }, -- Dominant Combatant's Dreadplate Legguards
+				{ 107, 149790, }, -- Dominant Combatant's Dreadplate Shoulders
+				{ 108, 149792, }, -- Dominant Combatant's Dreadplate Girdle
+				{ 109, 149794, }, -- Dominant Combatant's Dreadplate Wristplates
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148649, }, -- Dominant Gladiator's Dreadcloak
+				{ 2, 148673, }, -- Dominant Gladiator's Dreadplate Chestpiece
+				{ 3, 148675, }, -- Dominant Gladiator's Dreadplate Sabatons
+				{ 4, 148677, }, -- Dominant Gladiator's Dreadplate Gauntlets
+				{ 5, 148679, }, -- Dominant Gladiator's Dreadplate Helm
+				{ 6, 148681, }, -- Dominant Gladiator's Dreadplate Legguards
+				{ 7, 148683, }, -- Dominant Gladiator's Dreadplate Shoulders
+				{ 8, 148685, }, -- Dominant Gladiator's Dreadplate Girdle
+				{ 9, 148687, }, -- Dominant Gladiator's Dreadplate Wristplates
+				{ 16, 148403, }, -- Dominant Gladiator's Dreadcloak
+				{ 17, 148427, }, -- Dominant Gladiator's Dreadplate Chestpiece
+				{ 18, 148429, }, -- Dominant Gladiator's Dreadplate Sabatons
+				{ 19, 148431, }, -- Dominant Gladiator's Dreadplate Gauntlets
+				{ 20, 148433, }, -- Dominant Gladiator's Dreadplate Helm
+				{ 21, 148435, }, -- Dominant Gladiator's Dreadplate Legguards
+				{ 22, 148437, }, -- Dominant Gladiator's Dreadplate Shoulders
+				{ 23, 148439, }, -- Dominant Gladiator's Dreadplate Girdle
+				{ 24, 148441, }, -- Dominant Gladiator's Dreadplate Wristplates
+				{ 101, 149757, }, -- Dominant Combatant's Dreadcloak
+				{ 102, 149781, }, -- Dominant Combatant's Dreadplate Chestpiece
+				{ 103, 149783, }, -- Dominant Combatant's Dreadplate Sabatons
+				{ 104, 149785, }, -- Dominant Combatant's Dreadplate Gauntlets
+				{ 105, 149787, }, -- Dominant Combatant's Dreadplate Helm
+				{ 106, 149789, }, -- Dominant Combatant's Dreadplate Legguards
+				{ 107, 149791, }, -- Dominant Combatant's Dreadplate Shoulders
+				{ 108, 149793, }, -- Dominant Combatant's Dreadplate Girdle
+				{ 109, 149795, }, -- Dominant Combatant's Dreadplate Wristplates
 			},
 		},
 		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148650, }, -- Dominant Gladiator's Demonthread Cloak
+				{ 2, 148688, }, -- Dominant Gladiator's Felskin Tunic
+				{ 3, 148690, }, -- Dominant Gladiator's Felskin Boots
+				{ 4, 148692, }, -- Dominant Gladiator's Felskin Gloves
+				{ 5, 148694, }, -- Dominant Gladiator's Felskin Helm
+				{ 6, 148696, }, -- Dominant Gladiator's Felskin Legguards
+				{ 7, 148698, }, -- Dominant Gladiator's Felskin Spaulders
+				{ 8, 148700, }, -- Dominant Gladiator's Felskin Belt
+				{ 9, 148702, }, -- Dominant Gladiator's Felskin Wristguards
+				{ 16, 148404, }, -- Dominant Gladiator's Demonthread Cloak
+				{ 17, 148442, }, -- Dominant Gladiator's Felskin Tunic
+				{ 18, 148444, }, -- Dominant Gladiator's Felskin Boots
+				{ 19, 148446, }, -- Dominant Gladiator's Felskin Gloves
+				{ 20, 148448, }, -- Dominant Gladiator's Felskin Helm
+				{ 21, 148450, }, -- Dominant Gladiator's Felskin Legguards
+				{ 22, 148452, }, -- Dominant Gladiator's Felskin Spaulders
+				{ 23, 148454, }, -- Dominant Gladiator's Felskin Belt
+				{ 24, 148456, }, -- Dominant Gladiator's Felskin Wristguards
+				{ 101, 149758, }, -- Dominant Combatant's Demonthread Cloak
+				{ 102, 149796, }, -- Dominant Combatant's Felskin Tunic
+				{ 103, 149798, }, -- Dominant Combatant's Felskin Boots
+				{ 104, 149800, }, -- Dominant Combatant's Felskin Gloves
+				{ 105, 149802, }, -- Dominant Combatant's Felskin Helm
+				{ 106, 149804, }, -- Dominant Combatant's Felskin Legguards
+				{ 107, 149806, }, -- Dominant Combatant's Felskin Spaulders
+				{ 108, 149808, }, -- Dominant Combatant's Felskin Belt
+				{ 109, 149810, }, -- Dominant Combatant's Felskin Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148651, }, -- Dominant Gladiator's Demonthread Cloak
+				{ 2, 148689, }, -- Dominant Gladiator's Felskin Tunic
+				{ 3, 148691, }, -- Dominant Gladiator's Felskin Boots
+				{ 4, 148693, }, -- Dominant Gladiator's Felskin Gloves
+				{ 5, 148695, }, -- Dominant Gladiator's Felskin Helm
+				{ 6, 148697, }, -- Dominant Gladiator's Felskin Legguards
+				{ 7, 148699, }, -- Dominant Gladiator's Felskin Spaulders
+				{ 8, 148701, }, -- Dominant Gladiator's Felskin Belt
+				{ 9, 148703, }, -- Dominant Gladiator's Felskin Wristguards
+				{ 16, 148405, }, -- Dominant Gladiator's Demonthread Cloak
+				{ 17, 148443, }, -- Dominant Gladiator's Felskin Tunic
+				{ 18, 148445, }, -- Dominant Gladiator's Felskin Boots
+				{ 19, 148447, }, -- Dominant Gladiator's Felskin Gloves
+				{ 20, 148449, }, -- Dominant Gladiator's Felskin Helm
+				{ 21, 148451, }, -- Dominant Gladiator's Felskin Legguards
+				{ 22, 148453, }, -- Dominant Gladiator's Felskin Spaulders
+				{ 23, 148455, }, -- Dominant Gladiator's Felskin Belt
+				{ 24, 148457, }, -- Dominant Gladiator's Felskin Wristguards
+				{ 101, 149759, }, -- Dominant Combatant's Demonthread Cloak
+				{ 102, 149797, }, -- Dominant Combatant's Felskin Tunic
+				{ 103, 149799, }, -- Dominant Combatant's Felskin Boots
+				{ 104, 149801, }, -- Dominant Combatant's Felskin Gloves
+				{ 105, 149803, }, -- Dominant Combatant's Felskin Helm
+				{ 106, 149805, }, -- Dominant Combatant's Felskin Legguards
+				{ 107, 149807, }, -- Dominant Combatant's Felskin Spaulders
+				{ 108, 149809, }, -- Dominant Combatant's Felskin Belt
+				{ 109, 149811, }, -- Dominant Combatant's Felskin Wristguards
 			},
 		},
 		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148652, }, -- Dominant Gladiator's Dragonhide Cloak
+				{ 2, 148704, }, -- Dominant Gladiator's Dragonhide Vest
+				{ 3, 148706, }, -- Dominant Gladiator's Dragonhide Moccasins
+				{ 4, 148708, }, -- Dominant Gladiator's Dragonhide Gloves
+				{ 5, 148710, }, -- Dominant Gladiator's Dragonhide Helm
+				{ 6, 148712, }, -- Dominant Gladiator's Dragonhide Legguards
+				{ 7, 148714, }, -- Dominant Gladiator's Dragonhide Spaulders
+				{ 8, 148716, }, -- Dominant Gladiator's Dragonhide Belt
+				{ 9, 148718, }, -- Dominant Gladiator's Dragonhide Wristguards
+				{ 16, 148406, }, -- Dominant Gladiator's Dragonhide Cloak
+				{ 17, 148458, }, -- Dominant Gladiator's Dragonhide Vest
+				{ 18, 148460, }, -- Dominant Gladiator's Dragonhide Moccasins
+				{ 19, 148462, }, -- Dominant Gladiator's Dragonhide Gloves
+				{ 20, 148464, }, -- Dominant Gladiator's Dragonhide Helm
+				{ 21, 148466, }, -- Dominant Gladiator's Dragonhide Legguards
+				{ 22, 148468, }, -- Dominant Gladiator's Dragonhide Spaulders
+				{ 23, 148470, }, -- Dominant Gladiator's Dragonhide Belt
+				{ 24, 148472, }, -- Dominant Gladiator's Dragonhide Wristguards
+				{ 101, 149760, }, -- Dominant Combatant's Dragonhide Cloak
+				{ 102, 149812, }, -- Dominant Combatant's Dragonhide Tunic
+				{ 103, 149814, }, -- Dominant Combatant's Dragonhide Moccasins
+				{ 104, 149816, }, -- Dominant Combatant's Dragonhide Gloves
+				{ 105, 149818, }, -- Dominant Combatant's Dragonhide Helm
+				{ 106, 149820, }, -- Dominant Combatant's Dragonhide Legguards
+				{ 107, 149822, }, -- Dominant Combatant's Dragonhide Spaulders
+				{ 108, 149824, }, -- Dominant Combatant's Dragonhide Belt
+				{ 109, 149826, }, -- Dominant Combatant's Dragonhide Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148653, }, -- Dominant Gladiator's Dragonhide Cloak
+				{ 2, 148705, }, -- Dominant Gladiator's Dragonhide Vest
+				{ 3, 148707, }, -- Dominant Gladiator's Dragonhide Moccasins
+				{ 4, 148709, }, -- Dominant Gladiator's Dragonhide Gloves
+				{ 5, 148711, }, -- Dominant Gladiator's Dragonhide Helm
+				{ 6, 148713, }, -- Dominant Gladiator's Dragonhide Legguards
+				{ 7, 148715, }, -- Dominant Gladiator's Dragonhide Spaulders
+				{ 8, 148717, }, -- Dominant Gladiator's Dragonhide Belt
+				{ 9, 148719, }, -- Dominant Gladiator's Dragonhide Wristguards
+				{ 16, 148407, }, -- Dominant Gladiator's Dragonhide Cloak
+				{ 17, 148459, }, -- Dominant Gladiator's Dragonhide Vest
+				{ 18, 148461, }, -- Dominant Gladiator's Dragonhide Moccasins
+				{ 19, 148463, }, -- Dominant Gladiator's Dragonhide Gloves
+				{ 20, 148465, }, -- Dominant Gladiator's Dragonhide Helm
+				{ 21, 148467, }, -- Dominant Gladiator's Dragonhide Legguards
+				{ 22, 148469, }, -- Dominant Gladiator's Dragonhide Spaulders
+				{ 23, 148471, }, -- Dominant Gladiator's Dragonhide Belt
+				{ 24, 148473, }, -- Dominant Gladiator's Dragonhide Wristguards
+				{ 101, 149761, }, -- Dominant Combatant's Dragonhide Cloak
+				{ 102, 149813, }, -- Dominant Combatant's Dragonhide Tunic
+				{ 103, 149815, }, -- Dominant Combatant's Dragonhide Moccasins
+				{ 104, 149817, }, -- Dominant Combatant's Dragonhide Gloves
+				{ 105, 149819, }, -- Dominant Combatant's Dragonhide Helm
+				{ 106, 149821, }, -- Dominant Combatant's Dragonhide Legguards
+				{ 107, 149823, }, -- Dominant Combatant's Dragonhide Spaulders
+				{ 108, 149825, }, -- Dominant Combatant's Dragonhide Belt
+				{ 109, 149827, }, -- Dominant Combatant's Dragonhide Wristguards
 			},
 		},
 		{ -- HUNTER
 			name = ATLASLOOT_HUNTER_COLOR..ALIL["HUNTER"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148654, }, -- Dominant Gladiator's Drape of the Tracker
+				{ 2, 148720, }, -- Dominant Gladiator's Chain Armor
+				{ 3, 148722, }, -- Dominant Gladiator's Chain Treads
+				{ 4, 148724, }, -- Dominant Gladiator's Chain Gauntlets
+				{ 5, 148726, }, -- Dominant Gladiator's Chain Helm
+				{ 6, 148728, }, -- Dominant Gladiator's Chain Leggings
+				{ 7, 148730, }, -- Dominant Gladiator's Chain Spaulders
+				{ 8, 148732, }, -- Dominant Gladiator's Chain Clasp
+				{ 9, 148734, }, -- Dominant Gladiator's Chain Armband
+				{ 16, 148408, }, -- Dominant Gladiator's Drape of the Tracker
+				{ 17, 148474, }, -- Dominant Gladiator's Chain Armor
+				{ 18, 148476, }, -- Dominant Gladiator's Chain Treads
+				{ 19, 148478, }, -- Dominant Gladiator's Chain Gauntlets
+				{ 20, 148480, }, -- Dominant Gladiator's Chain Helm
+				{ 21, 148482, }, -- Dominant Gladiator's Chain Leggings
+				{ 22, 148484, }, -- Dominant Gladiator's Chain Spaulders
+				{ 23, 148486, }, -- Dominant Gladiator's Chain Clasp
+				{ 24, 148488, }, -- Dominant Gladiator's Chain Armband
+				{ 101, 149762, }, -- Dominant Combatant's Drape of the Tracker
+				{ 102, 149828, }, -- Dominant Combatant's Chain Armor
+				{ 103, 149830, }, -- Dominant Combatant's Chain Treads
+				{ 104, 149832, }, -- Dominant Combatant's Chain Gauntlets
+				{ 105, 149834, }, -- Dominant Combatant's Chain Helm
+				{ 106, 149836, }, -- Dominant Combatant's Chain Leggings
+				{ 107, 149838, }, -- Dominant Combatant's Chain Spaulders
+				{ 108, 149840, }, -- Dominant Combatant's Chain Clasp
+				{ 109, 149842, }, -- Dominant Combatant's Chain Armband
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148655, }, -- Dominant Gladiator's Drape of the Tracker
+				{ 2, 148721, }, -- Dominant Gladiator's Chain Armor
+				{ 3, 148723, }, -- Dominant Gladiator's Chain Treads
+				{ 4, 148725, }, -- Dominant Gladiator's Chain Gauntlets
+				{ 5, 148727, }, -- Dominant Gladiator's Chain Helm
+				{ 6, 148729, }, -- Dominant Gladiator's Chain Leggings
+				{ 7, 148731, }, -- Dominant Gladiator's Chain Spaulders
+				{ 8, 148733, }, -- Dominant Gladiator's Chain Clasp
+				{ 9, 148735, }, -- Dominant Gladiator's Chain Armband
+				{ 16, 148409, }, -- Dominant Gladiator's Drape of the Tracker
+				{ 17, 148475, }, -- Dominant Gladiator's Chain Armor
+				{ 18, 148477, }, -- Dominant Gladiator's Chain Treads
+				{ 19, 148479, }, -- Dominant Gladiator's Chain Gauntlets
+				{ 20, 148481, }, -- Dominant Gladiator's Chain Helm
+				{ 21, 148483, }, -- Dominant Gladiator's Chain Leggings
+				{ 22, 148485, }, -- Dominant Gladiator's Chain Spaulders
+				{ 23, 148487, }, -- Dominant Gladiator's Chain Clasp
+				{ 24, 148489, }, -- Dominant Gladiator's Chain Armband
+				{ 101, 149763, }, -- Dominant Combatant's Drape of the Tracker
+				{ 102, 149829, }, -- Dominant Combatant's Chain Armor
+				{ 103, 149831, }, -- Dominant Combatant's Chain Treads
+				{ 104, 149833, }, -- Dominant Combatant's Chain Gauntlets
+				{ 105, 149835, }, -- Dominant Combatant's Chain Helm
+				{ 106, 149837, }, -- Dominant Combatant's Chain Leggings
+				{ 107, 149839, }, -- Dominant Combatant's Chain Spaulders
+				{ 108, 149841, }, -- Dominant Combatant's Chain Clasp
+				{ 109, 149843, }, -- Dominant Combatant's Chain Armband
 			},
 		},
 		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148656, }, -- Dominant Gladiator's Silken Shawl
+				{ 2, 148736, }, -- Dominant Gladiator's Silk Treads
+				{ 3, 148738, }, -- Dominant Gladiator's Silk Handguards
+				{ 4, 148740, }, -- Dominant Gladiator's Silk Cowl
+				{ 5, 148742, }, -- Dominant Gladiator's Silk Trousers
+				{ 6, 148744, }, -- Dominant Gladiator's Silk Tunic
+				{ 7, 148746, }, -- Dominant Gladiator's Silk Amice
+				{ 8, 148748, }, -- Dominant Gladiator's Silk Cord
+				{ 9, 148750, }, -- Dominant Gladiator's Silk Bracers
+				{ 16, 148410, }, -- Dominant Gladiator's Silken Shawl
+				{ 17, 148490, }, -- Dominant Gladiator's Silk Treads
+				{ 18, 148492, }, -- Dominant Gladiator's Silk Handguards
+				{ 19, 148494, }, -- Dominant Gladiator's Silk Cowl
+				{ 20, 148496, }, -- Dominant Gladiator's Silk Trousers
+				{ 21, 148498, }, -- Dominant Gladiator's Silk Tunic
+				{ 22, 148500, }, -- Dominant Gladiator's Silk Amice
+				{ 23, 148502, }, -- Dominant Gladiator's Silk Cord
+				{ 24, 148504, }, -- Dominant Gladiator's Silk Bracers
+				{ 101, 149764, }, -- Dominant Combatant's Silken Shawl
+				{ 102, 149844, }, -- Dominant Combatant's Silk Treads
+				{ 103, 149846, }, -- Dominant Combatant's Silk Handguards
+				{ 104, 149848, }, -- Dominant Combatant's Silk Cowl
+				{ 105, 149850, }, -- Dominant Combatant's Silk Trousers
+				{ 106, 149852, }, -- Dominant Combatant's Silk Robe
+				{ 107, 149854, }, -- Dominant Combatant's Silk Amice
+				{ 108, 149856, }, -- Dominant Combatant's Silk Cord
+				{ 109, 149858, }, -- Dominant Combatant's Silk Bracers
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148657, }, -- Dominant Gladiator's Silken Shawl
+				{ 2, 148737, }, -- Dominant Gladiator's Silk Treads
+				{ 3, 148739, }, -- Dominant Gladiator's Silk Handguards
+				{ 4, 148741, }, -- Dominant Gladiator's Silk Cowl
+				{ 5, 148743, }, -- Dominant Gladiator's Silk Trousers
+				{ 6, 148745, }, -- Dominant Gladiator's Silk Tunic
+				{ 7, 148747, }, -- Dominant Gladiator's Silk Amice
+				{ 8, 148749, }, -- Dominant Gladiator's Silk Cord
+				{ 9, 148751, }, -- Dominant Gladiator's Silk Bracers
+				{ 16, 148411, }, -- Dominant Gladiator's Silken Shawl
+				{ 17, 148491, }, -- Dominant Gladiator's Silk Treads
+				{ 18, 148493, }, -- Dominant Gladiator's Silk Handguards
+				{ 19, 148495, }, -- Dominant Gladiator's Silk Cowl
+				{ 20, 148497, }, -- Dominant Gladiator's Silk Trousers
+				{ 21, 148499, }, -- Dominant Gladiator's Silk Tunic
+				{ 22, 148501, }, -- Dominant Gladiator's Silk Amice
+				{ 23, 148503, }, -- Dominant Gladiator's Silk Cord
+				{ 24, 148505, }, -- Dominant Gladiator's Silk Bracers
+				{ 101, 149765, }, -- Dominant Combatant's Silken Shawl
+				{ 102, 149845, }, -- Dominant Combatant's Silk Treads
+				{ 103, 149847, }, -- Dominant Combatant's Silk Handguards
+				{ 104, 149849, }, -- Dominant Combatant's Silk Cowl
+				{ 105, 149851, }, -- Dominant Combatant's Silk Trousers
+				{ 106, 149853, }, -- Dominant Combatant's Silk Robe
+				{ 107, 149855, }, -- Dominant Combatant's Silk Amice
+				{ 108, 149857, }, -- Dominant Combatant's Silk Cord
+				{ 109, 149859, }, -- Dominant Combatant's Silk Bracers
 			},
 		},
 		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148658, }, -- Dominant Gladiator's Ironskin Cloak
+				{ 2, 148752, }, -- Dominant Gladiator's Ironskin Slippers
+				{ 3, 148754, }, -- Dominant Gladiator's Ironskin Gloves
+				{ 4, 148756, }, -- Dominant Gladiator's Ironskin Helm
+				{ 5, 148758, }, -- Dominant Gladiator's Ironskin Legguards
+				{ 6, 148760, }, -- Dominant Gladiator's Ironskin Spaulders
+				{ 7, 148762, }, -- Dominant Gladiator's Ironskin Tunic
+				{ 8, 148764, }, -- Dominant Gladiator's Ironskin Belt
+				{ 9, 148766, }, -- Dominant Gladiator's Ironskin Wristguards
+				{ 16, 148412, }, -- Dominant Gladiator's Ironskin Cloak
+				{ 17, 148506, }, -- Dominant Gladiator's Ironskin Slippers
+				{ 18, 148508, }, -- Dominant Gladiator's Ironskin Gloves
+				{ 19, 148510, }, -- Dominant Gladiator's Ironskin Helm
+				{ 20, 148512, }, -- Dominant Gladiator's Ironskin Legguards
+				{ 21, 148514, }, -- Dominant Gladiator's Ironskin Spaulders
+				{ 22, 148516, }, -- Dominant Gladiator's Ironskin Tunic
+				{ 23, 148518, }, -- Dominant Gladiator's Ironskin Belt
+				{ 24, 148520, }, -- Dominant Gladiator's Ironskin Wristguards
+				{ 101, 149766, }, -- Dominant Combatant's Ironskin Cloak
+				{ 102, 149860, }, -- Dominant Combatant's Ironskin Slippers
+				{ 103, 149862, }, -- Dominant Combatant's Ironskin Gloves
+				{ 104, 149864, }, -- Dominant Combatant's Ironskin Helm
+				{ 105, 149866, }, -- Dominant Combatant's Ironskin Legguards
+				{ 106, 149868, }, -- Dominant Combatant's Ironskin Spaulders
+				{ 107, 149870, }, -- Dominant Combatant's Ironskin Tunic
+				{ 108, 149872, }, -- Dominant Combatant's Ironskin Belt
+				{ 109, 149874, }, -- Dominant Combatant's Ironskin Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148659, }, -- Dominant Gladiator's Ironskin Cloak
+				{ 2, 148753, }, -- Dominant Gladiator's Ironskin Slippers
+				{ 3, 148755, }, -- Dominant Gladiator's Ironskin Gloves
+				{ 4, 148757, }, -- Dominant Gladiator's Ironskin Helm
+				{ 5, 148759, }, -- Dominant Gladiator's Ironskin Legguards
+				{ 6, 148761, }, -- Dominant Gladiator's Ironskin Spaulders
+				{ 7, 148763, }, -- Dominant Gladiator's Ironskin Tunic
+				{ 8, 148765, }, -- Dominant Gladiator's Ironskin Belt
+				{ 9, 148767, }, -- Dominant Gladiator's Ironskin Wristguards
+				{ 16, 148413, }, -- Dominant Gladiator's Ironskin Cloak
+				{ 17, 148507, }, -- Dominant Gladiator's Ironskin Slippers
+				{ 18, 148509, }, -- Dominant Gladiator's Ironskin Gloves
+				{ 19, 148511, }, -- Dominant Gladiator's Ironskin Helm
+				{ 20, 148513, }, -- Dominant Gladiator's Ironskin Legguards
+				{ 21, 148515, }, -- Dominant Gladiator's Ironskin Spaulders
+				{ 22, 148517, }, -- Dominant Gladiator's Ironskin Tunic
+				{ 23, 148519, }, -- Dominant Gladiator's Ironskin Belt
+				{ 24, 148521, }, -- Dominant Gladiator's Ironskin Wristguards
+				{ 101, 149767, }, -- Dominant Combatant's Ironskin Cloak
+				{ 102, 149861, }, -- Dominant Combatant's Ironskin Slippers
+				{ 103, 149863, }, -- Dominant Combatant's Ironskin Gloves
+				{ 104, 149865, }, -- Dominant Combatant's Ironskin Helm
+				{ 105, 149867, }, -- Dominant Combatant's Ironskin Legguards
+				{ 106, 149869, }, -- Dominant Combatant's Ironskin Spaulders
+				{ 107, 149871, }, -- Dominant Combatant's Ironskin Tunic
+				{ 108, 149873, }, -- Dominant Combatant's Ironskin Belt
+				{ 109, 149875, }, -- Dominant Combatant's Ironskin Wristguards
 			},
 		},
 		{ -- PALADIN
 			name = ATLASLOOT_PALADIN_COLOR..ALIL["PALADIN"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148660, }, -- Dominant Gladiator's Greatcloak of Faith
+				{ 2, 148774, }, -- Dominant Gladiator's Scaled Breastplate
+				{ 3, 148776, }, -- Dominant Gladiator's Scaled Sabatons
+				{ 4, 148778, }, -- Dominant Gladiator's Scaled Gauntlets
+				{ 5, 148780, }, -- Dominant Gladiator's Scaled Helm
+				{ 6, 148782, }, -- Dominant Gladiator's Scaled Legguards
+				{ 7, 148784, }, -- Dominant Gladiator's Scaled Shoulders
+				{ 8, 148786, }, -- Dominant Gladiator's Scaled Girdle
+				{ 9, 148788, }, -- Dominant Gladiator's Scaled Wristplates
+				{ 16, 148414, }, -- Dominant Gladiator's Greatcloak of Faith
+				{ 17, 148529, }, -- Dominant Gladiator's Scaled Sabatons
+				{ 18, 148531, }, -- Dominant Gladiator's Scaled Gauntlets
+				{ 19, 148533, }, -- Dominant Gladiator's Scaled Helm
+				{ 20, 148535, }, -- Dominant Gladiator's Scaled Legguards
+				{ 21, 148537, }, -- Dominant Gladiator's Scaled Breastplate
+				{ 22, 148538, }, -- Dominant Gladiator's Scaled Shoulders
+				{ 23, 148540, }, -- Dominant Gladiator's Scaled Girdle
+				{ 24, 148542, }, -- Dominant Gladiator's Scaled Wristplates
+				{ 101, 149768, }, -- Dominant Combatant's Greatcloak of Faith
+				{ 102, 149882, }, -- Dominant Combatant's Scaled Chestpiece
+				{ 103, 149884, }, -- Dominant Combatant's Scaled Sabatons
+				{ 104, 149886, }, -- Dominant Combatant's Scaled Gauntlets
+				{ 105, 149888, }, -- Dominant Combatant's Scaled Helm
+				{ 106, 149890, }, -- Dominant Combatant's Scaled Legguards
+				{ 107, 149892, }, -- Dominant Combatant's Scaled Shoulders
+				{ 108, 149894, }, -- Dominant Combatant's Scaled Girdle
+				{ 109, 149896, }, -- Dominant Combatant's Scaled Wristplates
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148661, }, -- Dominant Gladiator's Greatcloak of Faith
+				{ 2, 148775, }, -- Dominant Gladiator's Scaled Breastplate
+				{ 3, 148777, }, -- Dominant Gladiator's Scaled Sabatons
+				{ 4, 148779, }, -- Dominant Gladiator's Scaled Gauntlets
+				{ 5, 148781, }, -- Dominant Gladiator's Scaled Helm
+				{ 6, 148783, }, -- Dominant Gladiator's Scaled Legguards
+				{ 7, 148785, }, -- Dominant Gladiator's Scaled Shoulders
+				{ 8, 148787, }, -- Dominant Gladiator's Scaled Girdle
+				{ 9, 148789, }, -- Dominant Gladiator's Scaled Wristplates
+				{ 16, 148415, }, -- Dominant Gladiator's Greatcloak of Faith
+				{ 17, 148528, }, -- Dominant Gladiator's Scaled Breastplate
+				{ 18, 148530, }, -- Dominant Gladiator's Scaled Sabatons
+				{ 19, 148532, }, -- Dominant Gladiator's Scaled Gauntlets
+				{ 20, 148534, }, -- Dominant Gladiator's Scaled Helm
+				{ 21, 148536, }, -- Dominant Gladiator's Scaled Legguards
+				{ 22, 148539, }, -- Dominant Gladiator's Scaled Shoulders
+				{ 23, 148541, }, -- Dominant Gladiator's Scaled Girdle
+				{ 24, 148543, }, -- Dominant Gladiator's Scaled Wristplates
+				{ 101, 149769, }, -- Dominant Combatant's Greatcloak of Faith
+				{ 102, 149883, }, -- Dominant Combatant's Scaled Chestpiece
+				{ 103, 149885, }, -- Dominant Combatant's Scaled Sabatons
+				{ 104, 149887, }, -- Dominant Combatant's Scaled Gauntlets
+				{ 105, 149889, }, -- Dominant Combatant's Scaled Helm
+				{ 106, 149891, }, -- Dominant Combatant's Scaled Legguards
+				{ 107, 149893, }, -- Dominant Combatant's Scaled Shoulders
+				{ 108, 149895, }, -- Dominant Combatant's Scaled Girdle
+				{ 109, 149897, }, -- Dominant Combatant's Scaled Wristplates
 			},
 		},
 		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148662, }, -- Dominant Gladiator's Drape of Piety
+				{ 2, 148790, }, -- Dominant Gladiator's Satin Treads
+				{ 3, 148792, }, -- Dominant Gladiator's Satin Gloves
+				{ 4, 148794, }, -- Dominant Gladiator's Satin Hood
+				{ 5, 148796, }, -- Dominant Gladiator's Satin Leggings
+				{ 6, 148798, }, -- Dominant Gladiator's Satin Robe
+				{ 7, 148800, }, -- Dominant Gladiator's Satin Mantle
+				{ 8, 148802, }, -- Dominant Gladiator's Satin Cord
+				{ 9, 148804, }, -- Dominant Gladiator's Satin Bracers
+				{ 16, 148416, }, -- Dominant Gladiator's Drape of Piety
+				{ 17, 148544, }, -- Dominant Gladiator's Satin Treads
+				{ 18, 148546, }, -- Dominant Gladiator's Satin Gloves
+				{ 19, 148548, }, -- Dominant Gladiator's Satin Hood
+				{ 20, 148550, }, -- Dominant Gladiator's Satin Leggings
+				{ 21, 148552, }, -- Dominant Gladiator's Satin Robe
+				{ 22, 148554, }, -- Dominant Gladiator's Satin Mantle
+				{ 23, 148556, }, -- Dominant Gladiator's Satin Cord
+				{ 24, 148558, }, -- Dominant Gladiator's Satin Bracers
+				{ 101, 149770, }, -- Dominant Combatant's Drape of Piety
+				{ 102, 149898, }, -- Dominant Combatant's Satin Treads
+				{ 103, 149900, }, -- Dominant Combatant's Satin Gloves
+				{ 104, 149902, }, -- Dominant Combatant's Satin Hood
+				{ 105, 149904, }, -- Dominant Combatant's Satin Leggings
+				{ 106, 149906, }, -- Dominant Combatant's Satin Robe
+				{ 107, 149908, }, -- Dominant Combatant's Satin Mantle
+				{ 108, 149910, }, -- Dominant Combatant's Satin Cord
+				{ 109, 149912, }, -- Dominant Combatant's Satin Bracers
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148663, }, -- Dominant Gladiator's Drape of Piety
+				{ 2, 148791, }, -- Dominant Gladiator's Satin Treads
+				{ 3, 148793, }, -- Dominant Gladiator's Satin Gloves
+				{ 4, 148795, }, -- Dominant Gladiator's Satin Hood
+				{ 5, 148797, }, -- Dominant Gladiator's Satin Leggings
+				{ 6, 148799, }, -- Dominant Gladiator's Satin Robe
+				{ 7, 148801, }, -- Dominant Gladiator's Satin Mantle
+				{ 8, 148803, }, -- Dominant Gladiator's Satin Cord
+				{ 9, 148805, }, -- Dominant Gladiator's Satin Bracers
+				{ 16, 148417, }, -- Dominant Gladiator's Drape of Piety
+				{ 17, 148545, }, -- Dominant Gladiator's Satin Treads
+				{ 18, 148547, }, -- Dominant Gladiator's Satin Gloves
+				{ 19, 148549, }, -- Dominant Gladiator's Satin Hood
+				{ 20, 148551, }, -- Dominant Gladiator's Satin Leggings
+				{ 21, 148553, }, -- Dominant Gladiator's Satin Robe
+				{ 22, 148555, }, -- Dominant Gladiator's Satin Mantle
+				{ 23, 148557, }, -- Dominant Gladiator's Satin Cord
+				{ 24, 148559, }, -- Dominant Gladiator's Satin Bracers
+				{ 101, 149771, }, -- Dominant Combatant's Drape of Piety
+				{ 102, 149899, }, -- Dominant Combatant's Satin Treads
+				{ 103, 149901, }, -- Dominant Combatant's Satin Gloves
+				{ 104, 149903, }, -- Dominant Combatant's Satin Hood
+				{ 105, 149905, }, -- Dominant Combatant's Satin Leggings
+				{ 106, 149907, }, -- Dominant Combatant's Satin Robe
+				{ 107, 149909, }, -- Dominant Combatant's Satin Mantle
+				{ 108, 149911, }, -- Dominant Combatant's Satin Cord
+				{ 109, 149913, }, -- Dominant Combatant's Satin Bracers
 			},
 		},
 		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148664, }, -- Dominant Gladiator's Shadowcape
+				{ 2, 148812, }, -- Dominant Gladiator's Leather Tunic
+				{ 3, 148814, }, -- Dominant Gladiator's Leather Slippers
+				{ 4, 148816, }, -- Dominant Gladiator's Leather Gloves
+				{ 5, 148818, }, -- Dominant Gladiator's Leather Helm
+				{ 6, 148820, }, -- Dominant Gladiator's Leather Legguards
+				{ 7, 148822, }, -- Dominant Gladiator's Leather Spaulders
+				{ 8, 148824, }, -- Dominant Gladiator's Leather Belt
+				{ 9, 148826, }, -- Dominant Gladiator's Leather Wristguards
+				{ 16, 148418, }, -- Dominant Gladiator's Shadowcape
+				{ 17, 148566, }, -- Dominant Gladiator's Leather Tunic
+				{ 18, 148568, }, -- Dominant Gladiator's Leather Slippers
+				{ 19, 148570, }, -- Dominant Gladiator's Leather Gloves
+				{ 20, 148572, }, -- Dominant Gladiator's Leather Helm
+				{ 21, 148574, }, -- Dominant Gladiator's Leather Legguards
+				{ 22, 148576, }, -- Dominant Gladiator's Leather Spaulders
+				{ 23, 148578, }, -- Dominant Gladiator's Leather Belt
+				{ 24, 148580, }, -- Dominant Gladiator's Leather Wristguards
+				{ 101, 149772, }, -- Dominant Combatant's Shadowcape
+				{ 102, 149920, }, -- Dominant Combatant's Leather Tunic
+				{ 103, 149922, }, -- Dominant Combatant's Leather Slippers
+				{ 104, 149924, }, -- Dominant Combatant's Leather Gloves
+				{ 105, 149926, }, -- Dominant Combatant's Leather Helm
+				{ 106, 149928, }, -- Dominant Combatant's Leather Legguards
+				{ 107, 149930, }, -- Dominant Combatant's Leather Spaulders
+				{ 108, 149932, }, -- Dominant Combatant's Leather Belt
+				{ 109, 149934, }, -- Dominant Combatant's Leather Wristguards
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148665, }, -- Dominant Gladiator's Shadowcape
+				{ 2, 148813, }, -- Dominant Gladiator's Leather Tunic
+				{ 3, 148815, }, -- Dominant Gladiator's Leather Slippers
+				{ 4, 148817, }, -- Dominant Gladiator's Leather Gloves
+				{ 5, 148819, }, -- Dominant Gladiator's Leather Helm
+				{ 6, 148821, }, -- Dominant Gladiator's Leather Legguards
+				{ 7, 148823, }, -- Dominant Gladiator's Leather Spaulders
+				{ 8, 148825, }, -- Dominant Gladiator's Leather Belt
+				{ 9, 148827, }, -- Dominant Gladiator's Leather Wristguards
+				{ 16, 148419, }, -- Dominant Gladiator's Shadowcape
+				{ 17, 148567, }, -- Dominant Gladiator's Leather Tunic
+				{ 18, 148569, }, -- Dominant Gladiator's Leather Slippers
+				{ 19, 148571, }, -- Dominant Gladiator's Leather Gloves
+				{ 20, 148573, }, -- Dominant Gladiator's Leather Helm
+				{ 21, 148575, }, -- Dominant Gladiator's Leather Legguards
+				{ 22, 148577, }, -- Dominant Gladiator's Leather Spaulders
+				{ 23, 148579, }, -- Dominant Gladiator's Leather Belt
+				{ 24, 148581, }, -- Dominant Gladiator's Leather Wristguards
+				{ 101, 149773, }, -- Dominant Combatant's Shadowcape
+				{ 102, 149921, }, -- Dominant Combatant's Leather Tunic
+				{ 103, 149923, }, -- Dominant Combatant's Leather Slippers
+				{ 104, 149925, }, -- Dominant Combatant's Leather Gloves
+				{ 105, 149927, }, -- Dominant Combatant's Leather Helm
+				{ 106, 149929, }, -- Dominant Combatant's Leather Legguards
+				{ 107, 149931, }, -- Dominant Combatant's Leather Spaulders
+				{ 108, 149933, }, -- Dominant Combatant's Leather Belt
+				{ 109, 149935, }, -- Dominant Combatant's Leather Wristguards
 			},
 		},
 		{ -- SHAMAN
 			name = ATLASLOOT_SHAMAN_COLOR..ALIL["SHAMAN"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148666, }, -- Dominant Gladiator's Totemic Cloak
+				{ 2, 148828, }, -- Dominant Gladiator's Ringmail Armor
+				{ 3, 148830, }, -- Dominant Gladiator's Ringmail Boots
+				{ 4, 148832, }, -- Dominant Gladiator's Ringmail Gauntlets
+				{ 5, 148834, }, -- Dominant Gladiator's Ringmail Helm
+				{ 6, 148836, }, -- Dominant Gladiator's Ringmail Leggings
+				{ 7, 148838, }, -- Dominant Gladiator's Ringmail Spaulders
+				{ 8, 148840, }, -- Dominant Gladiator's Ringmail Clasp
+				{ 9, 148842, }, -- Dominant Gladiator's Ringmail Armband
+				{ 16, 148420, }, -- Dominant Gladiator's Totemic Cloak
+				{ 17, 148582, }, -- Dominant Gladiator's Ringmail Armor
+				{ 18, 148584, }, -- Dominant Gladiator's Ringmail Boots
+				{ 19, 148586, }, -- Dominant Gladiator's Ringmail Gauntlets
+				{ 20, 148588, }, -- Dominant Gladiator's Ringmail Helm
+				{ 21, 148590, }, -- Dominant Gladiator's Ringmail Leggings
+				{ 22, 148592, }, -- Dominant Gladiator's Ringmail Spaulders
+				{ 23, 148594, }, -- Dominant Gladiator's Ringmail Clasp
+				{ 24, 148596, }, -- Dominant Gladiator's Ringmail Armband
+				{ 101, 149774, }, -- Dominant Combatant's Totemic Cloak
+				{ 102, 149936, }, -- Dominant Combatant's Ringmail Armor
+				{ 103, 149938, }, -- Dominant Combatant's Ringmail Boots
+				{ 104, 149940, }, -- Dominant Combatant's Ringmail Gauntlets
+				{ 105, 149942, }, -- Dominant Combatant's Ringmail Helm
+				{ 106, 149944, }, -- Dominant Combatant's Ringmail Leggings
+				{ 107, 149946, }, -- Dominant Combatant's Ringmail Spaulders
+				{ 108, 149948, }, -- Dominant Combatant's Ringmail Clasp
+				{ 109, 149950, }, -- Dominant Combatant's Ringmail Armband
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148667, }, -- Dominant Gladiator's Totemic Cloak
+				{ 2, 148829, }, -- Dominant Gladiator's Ringmail Armor
+				{ 3, 148831, }, -- Dominant Gladiator's Ringmail Boots
+				{ 4, 148833, }, -- Dominant Gladiator's Ringmail Gauntlets
+				{ 5, 148835, }, -- Dominant Gladiator's Ringmail Helm
+				{ 6, 148837, }, -- Dominant Gladiator's Ringmail Leggings
+				{ 7, 148839, }, -- Dominant Gladiator's Ringmail Spaulders
+				{ 8, 148841, }, -- Dominant Gladiator's Ringmail Clasp
+				{ 9, 148843, }, -- Dominant Gladiator's Ringmail Armband
+				{ 16, 148421, }, -- Dominant Gladiator's Totemic Cloak
+				{ 17, 148583, }, -- Dominant Gladiator's Ringmail Armor
+				{ 18, 148585, }, -- Dominant Gladiator's Ringmail Boots
+				{ 19, 148587, }, -- Dominant Gladiator's Ringmail Gauntlets
+				{ 20, 148589, }, -- Dominant Gladiator's Ringmail Helm
+				{ 21, 148591, }, -- Dominant Gladiator's Ringmail Leggings
+				{ 22, 148593, }, -- Dominant Gladiator's Ringmail Spaulders
+				{ 23, 148595, }, -- Dominant Gladiator's Ringmail Clasp
+				{ 24, 148597, }, -- Dominant Gladiator's Ringmail Armband
+				{ 101, 149775, }, -- Dominant Combatant's Totemic Cloak
+				{ 102, 149937, }, -- Dominant Combatant's Ringmail Armor
+				{ 103, 149939, }, -- Dominant Combatant's Ringmail Boots
+				{ 104, 149941, }, -- Dominant Combatant's Ringmail Gauntlets
+				{ 105, 149943, }, -- Dominant Combatant's Ringmail Helm
+				{ 106, 149945, }, -- Dominant Combatant's Ringmail Leggings
+				{ 107, 149947, }, -- Dominant Combatant's Ringmail Spaulders
+				{ 108, 149949, }, -- Dominant Combatant's Ringmail Clasp
+				{ 109, 149951, }, -- Dominant Combatant's Ringmail Armband
 			},
 		},
 		{ -- WARLOCK
 			name = ATLASLOOT_WARLOCK_COLOR..ALIL["WARLOCK"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148668, }, -- Dominant Gladiator's Felweave Cloak
+				{ 2, 148862, }, -- Dominant Gladiator's Felweave Treads
+				{ 3, 148864, }, -- Dominant Gladiator's Felweave Handguards
+				{ 4, 148866, }, -- Dominant Gladiator's Felweave Cowl
+				{ 5, 148868, }, -- Dominant Gladiator's Felweave Trousers
+				{ 6, 148870, }, -- Dominant Gladiator's Felweave Raiment
+				{ 7, 148872, }, -- Dominant Gladiator's Felweave Amice
+				{ 8, 148874, }, -- Dominant Gladiator's Felweave Cord
+				{ 9, 148876, }, -- Dominant Gladiator's Felweave Bracers
+				{ 16, 148422, }, -- Dominant Gladiator's Felweave Cloak
+				{ 17, 148616, }, -- Dominant Gladiator's Felweave Treads
+				{ 18, 148618, }, -- Dominant Gladiator's Felweave Handguards
+				{ 19, 148620, }, -- Dominant Gladiator's Felweave Cowl
+				{ 20, 148622, }, -- Dominant Gladiator's Felweave Trousers
+				{ 21, 148624, }, -- Dominant Gladiator's Felweave Raiment
+				{ 22, 148626, }, -- Dominant Gladiator's Felweave Amice
+				{ 23, 148628, }, -- Dominant Gladiator's Felweave Cord
+				{ 24, 148630, }, -- Dominant Gladiator's Felweave Bracers
+				{ 101, 149776, }, -- Dominant Combatant's Felweave Cloak
+				{ 102, 149970, }, -- Dominant Combatant's Felweave Treads
+				{ 103, 149972, }, -- Dominant Combatant's Felweave Handguards
+				{ 104, 149974, }, -- Dominant Combatant's Felweave Cowl
+				{ 105, 149976, }, -- Dominant Combatant's Felweave Trousers
+				{ 106, 149978, }, -- Dominant Combatant's Felweave Raiment
+				{ 107, 149980, }, -- Dominant Combatant's Felweave Amice
+				{ 108, 149982, }, -- Dominant Combatant's Felweave Cord
+				{ 109, 149984, }, -- Dominant Combatant's Felweave Bracers
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148669, }, -- Dominant Gladiator's Felweave Cloak
+				{ 2, 148863, }, -- Dominant Gladiator's Felweave Treads
+				{ 3, 148865, }, -- Dominant Gladiator's Felweave Handguards
+				{ 4, 148867, }, -- Dominant Gladiator's Felweave Cowl
+				{ 5, 148869, }, -- Dominant Gladiator's Felweave Trousers
+				{ 6, 148871, }, -- Dominant Gladiator's Felweave Raiment
+				{ 7, 148873, }, -- Dominant Gladiator's Felweave Amice
+				{ 8, 148875, }, -- Dominant Gladiator's Felweave Cord
+				{ 9, 148877, }, -- Dominant Gladiator's Felweave Bracers
+				{ 16, 148423, }, -- Dominant Gladiator's Felweave Cloak
+				{ 17, 148617, }, -- Dominant Gladiator's Felweave Treads
+				{ 18, 148619, }, -- Dominant Gladiator's Felweave Handguards
+				{ 19, 148621, }, -- Dominant Gladiator's Felweave Cowl
+				{ 20, 148623, }, -- Dominant Gladiator's Felweave Trousers
+				{ 21, 148625, }, -- Dominant Gladiator's Felweave Raiment
+				{ 22, 148627, }, -- Dominant Gladiator's Felweave Amice
+				{ 23, 148629, }, -- Dominant Gladiator's Felweave Cord
+				{ 24, 148631, }, -- Dominant Gladiator's Felweave Bracers
+				{ 101, 149777, }, -- Dominant Combatant's Felweave Cloak
+				{ 102, 149971, }, -- Dominant Combatant's Felweave Treads
+				{ 103, 149973, }, -- Dominant Combatant's Felweave Handguards
+				{ 104, 149975, }, -- Dominant Combatant's Felweave Cowl
+				{ 105, 149977, }, -- Dominant Combatant's Felweave Trousers
+				{ 106, 149979, }, -- Dominant Combatant's Felweave Raiment
+				{ 107, 149981, }, -- Dominant Combatant's Felweave Amice
+				{ 108, 149983, }, -- Dominant Combatant's Felweave Cord
+				{ 109, 149985, }, -- Dominant Combatant's Felweave Bracers
 			},
 		},
 		{ -- WARRIOR
 			name = ATLASLOOT_WARRIOR_COLOR..ALIL["WARRIOR"],
 			[ALLIANCE_DIFF] = {
+				{ 1, 148670, }, -- Dominant Gladiator's Cloak of Battle
+				{ 2, 148878, }, -- Dominant Gladiator's Plate Chestpiece
+				{ 3, 148880, }, -- Dominant Gladiator's Plate Warboots
+				{ 4, 148882, }, -- Dominant Gladiator's Plate Gauntlets
+				{ 5, 148884, }, -- Dominant Gladiator's Plate Helm
+				{ 6, 148886, }, -- Dominant Gladiator's Plate Legguards
+				{ 7, 148888, }, -- Dominant Gladiator's Plate Shoulders
+				{ 8, 148890, }, -- Dominant Gladiator's Plate Girdle
+				{ 9, 148892, }, -- Dominant Gladiator's Plate Wristplates
+				{ 16, 148424, }, -- Dominant Gladiator's Cloak of Battle
+				{ 17, 148632, }, -- Dominant Gladiator's Plate Chestpiece
+				{ 18, 148634, }, -- Dominant Gladiator's Plate Warboots
+				{ 19, 148636, }, -- Dominant Gladiator's Plate Gauntlets
+				{ 20, 148638, }, -- Dominant Gladiator's Plate Helm
+				{ 21, 148640, }, -- Dominant Gladiator's Plate Legguards
+				{ 22, 148642, }, -- Dominant Gladiator's Plate Shoulders
+				{ 23, 148644, }, -- Dominant Gladiator's Plate Girdle
+				{ 24, 148646, }, -- Dominant Gladiator's Plate Wristplates
+				{ 101, 149778, }, -- Dominant Combatant's Cloak of Battle
+				{ 102, 149986, }, -- Dominant Combatant's Plate Chestpiece
+				{ 103, 149988, }, -- Dominant Combatant's Plate Warboots
+				{ 104, 149990, }, -- Dominant Combatant's Plate Gauntlets
+				{ 105, 149992, }, -- Dominant Combatant's Plate Helm
+				{ 106, 149994, }, -- Dominant Combatant's Plate Legguards
+				{ 107, 149996, }, -- Dominant Combatant's Plate Shoulders
+				{ 108, 149998, }, -- Dominant Combatant's Plate Girdle
+				{ 109, 150000, }, -- Dominant Combatant's Plate Wristplates
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 148671, }, -- Dominant Gladiator's Cloak of Battle
+				{ 2, 148879, }, -- Dominant Gladiator's Plate Chestpiece
+				{ 3, 148881, }, -- Dominant Gladiator's Plate Warboots
+				{ 4, 148883, }, -- Dominant Gladiator's Plate Gauntlets
+				{ 5, 148885, }, -- Dominant Gladiator's Plate Helm
+				{ 6, 148887, }, -- Dominant Gladiator's Plate Legguards
+				{ 7, 148889, }, -- Dominant Gladiator's Plate Shoulders
+				{ 8, 148891, }, -- Dominant Gladiator's Plate Girdle
+				{ 9, 148893, }, -- Dominant Gladiator's Plate Wristplates
+				{ 16, 148425, }, -- Dominant Gladiator's Cloak of Battle
+				{ 17, 148633, }, -- Dominant Gladiator's Plate Chestpiece
+				{ 18, 148635, }, -- Dominant Gladiator's Plate Warboots
+				{ 19, 148637, }, -- Dominant Gladiator's Plate Gauntlets
+				{ 20, 148639, }, -- Dominant Gladiator's Plate Helm
+				{ 21, 148641, }, -- Dominant Gladiator's Plate Legguards
+				{ 22, 148643, }, -- Dominant Gladiator's Plate Shoulders
+				{ 23, 148645, }, -- Dominant Gladiator's Plate Girdle
+				{ 24, 148647, }, -- Dominant Gladiator's Plate Wristplates
+				{ 101, 149779, }, -- Dominant Combatant's Cloak of Battle
+				{ 102, 149987, }, -- Dominant Combatant's Plate Chestpiece
+				{ 103, 149989, }, -- Dominant Combatant's Plate Warboots
+				{ 104, 149991, }, -- Dominant Combatant's Plate Gauntlets
+				{ 105, 149993, }, -- Dominant Combatant's Plate Helm
+				{ 106, 149995, }, -- Dominant Combatant's Plate Legguards
+				{ 107, 149997, }, -- Dominant Combatant's Plate Shoulders
+				{ 108, 149999, }, -- Dominant Combatant's Plate Girdle
+				{ 109, 150001, }, -- Dominant Combatant's Plate Wristplates
 			},
 		},
 	},
@@ -395,22 +1043,241 @@ data["LEGION6GEAR"] = {
 		{
 			name = string.format(AL["Legion Season %d Elite"], 6),
 			[ALLIANCE_DIFF] = {
+				{ 1, 149415, }, -- Helm of the Dominant Gladiator
+				{ 2, 149416, }, -- Chest of the Dominant Gladiator
+				{ 3, 149417, }, -- Leggings of the Dominant Gladiator
+				{ 4, 149418, }, -- Pauldrons of the Dominant Gladiator
+				{ 5, 149419, }, -- Gloves of the Dominant Gladiator
+				{ 6, 149420, }, -- Cinch of the Dominant Gladiator
+				{ 7, 149421, }, -- Treads of the Dominant Gladiator
+				{ 8, 149422, }, -- Bracers of the Dominant Gladiator
+				{ 9, 149423, }, -- Cloak of the Dominant Gladiator
+				-- Neck
+				{ 11, 148768, }, -- Dominant Gladiator's Necklace
+				{ 12, 148770, }, -- Dominant Gladiator's Pendant
+				{ 13, 148772, }, -- Dominant Gladiator's Choker
+				-- Ring
+				{ 16, 148806, }, -- Dominant Gladiator's Ring
+				{ 17, 148808, }, -- Dominant Gladiator's Band
+				{ 18, 148810, }, -- Dominant Gladiator's Signet
+				-- Trinket
+				{ 20, 148844, }, -- Dominant Gladiator's Badge of Conquest
+				{ 21, 148846, }, -- Dominant Gladiator's Accolade of Conquest
+				{ 22, 148848, }, -- Dominant Gladiator's Insignia of Conquest
+				{ 23, 148850, }, -- Dominant Gladiator's Badge of Dominance
+				{ 24, 148852, }, -- Dominant Gladiator's Accolade of Dominance
+				{ 25, 148854, }, -- Dominant Gladiator's Insignia of Dominance
+				{ 26, 148856, }, -- Dominant Gladiator's Badge of Victory
+				{ 27, 148858, }, -- Dominant Gladiator's Accolade of Victory
+				{ 28, 148860, }, -- Dominant Gladiator's Insignia of Victory
+				-- Relic
+				{ 101, 155695, }, -- Reactive Intuition
+				{ 102, 155696, }, -- Exhaustive Research
+				{ 103, 155697, }, -- Taboo Knowledge
+				{ 104, 155698, }, -- Grisly Souvenir
+				{ 105, 155699, }, -- Thirsty Bloodstone
+				{ 106, 155700, }, -- Thrill of Battle
+				{ 107, 155701, }, -- Fel-Loaded Dice
+				{ 108, 155702, }, -- Performance Enhancing Curio
+				{ 109, 155703, }, -- Alliance of Convenience
+				{ 110, 155704, }, -- Blaze of Glory
+				{ 111, 155705, }, -- Flame of the Fallen
+				{ 112, 155706, }, -- Torch of Competition
+				{ 113, 155707, }, -- Conscience of the Victorious
+				{ 114, 155708, }, -- Superiority's Contempt
+				{ 115, 155709, }, -- Cold Sweat
+				{ 116, 155710, }, -- Clarity of Conviction
+				{ 117, 155711, }, -- Brilliant Sunstone
+				{ 118, 155712, }, -- Radiance of Dawn
+				{ 119, 155713, }, -- Battle-Tempered Hilt
+				{ 120, 155714, }, -- Unflinching Grit
+				{ 121, 155715, }, -- Steadfast Conviction
+				{ 122, 155716, }, -- \Borrowed\" Soul Essence"
+				{ 123, 155717, }, -- Tombweed Bloom
+				{ 124, 155718, }, -- Petrified Ancient's Thumb
+				{ 125, 155719, }, -- Blindside Approach
+				{ 126, 155720, }, -- Polished Shadowstone
+				{ 127, 155721, }, -- Dead Man's Tale
+				{ 128, 155722, }, -- Battering Tempest
+				{ 129, 155723, }, -- Thundering Impact
+				{ 130, 155724, }, -- Roar of the Crowd
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Neck
+				{ 11, 148769, }, -- Dominant Gladiator's Necklace
+				{ 12, 148771, }, -- Dominant Gladiator's Pendant
+				{ 13, 148773, }, -- Dominant Gladiator's Choker
+				-- Ring
+				{ 16, 148807, }, -- Dominant Gladiator's Ring
+				{ 17, 148809, }, -- Dominant Gladiator's Band
+				{ 18, 148811, }, -- Dominant Gladiator's Signet
+				-- Trinket
+				{ 20, 148845, }, -- Dominant Gladiator's Badge of Conquest
+				{ 21, 148847, }, -- Dominant Gladiator's Accolade of Conquest
+				{ 22, 148849, }, -- Dominant Gladiator's Insignia of Conquest
+				{ 23, 148851, }, -- Dominant Gladiator's Badge of Dominance
+				{ 24, 148853, }, -- Dominant Gladiator's Accolade of Dominance
+				{ 25, 148855, }, -- Dominant Gladiator's Insignia of Dominance
+				{ 26, 148857, }, -- Dominant Gladiator's Badge of Victory
+				{ 27, 148859, }, -- Dominant Gladiator's Accolade of Victory
+				{ 28, 148861, }, -- Dominant Gladiator's Insignia of Victory
 			},
 		},
 		{
 			name = string.format(AL["Legion Season %d"], 6),
 			[ALLIANCE_DIFF] = {
+				{ 1, 149406, }, -- Helm of the Dominant Gladiator
+				{ 2, 149407, }, -- Chest of the Dominant Gladiator
+				{ 3, 149408, }, -- Leggings of the Dominant Gladiator
+				{ 4, 149409, }, -- Pauldrons of the Dominant Gladiator
+				{ 5, 149410, }, -- Gloves of the Dominant Gladiator
+				{ 6, 149411, }, -- Cinch of the Dominant Gladiator
+				{ 7, 149412, }, -- Treads of the Dominant Gladiator
+				{ 8, 149413, }, -- Bracers of the Dominant Gladiator
+				{ 9, 149414, }, -- Cloak of the Dominant Gladiator
+				-- Tabard
+				{ 11, 149447, }, -- Dominant Gladiator's Tabard
+				{ 12, 149449, }, -- Dominant Gladiator's Cloak
+				-- Neck
+				{ 16, 148522, }, -- Dominant Gladiator's Necklace
+				{ 17, 148524, }, -- Dominant Gladiator's Pendant
+				{ 18, 148526, }, -- Dominant Gladiator's Choker
+				{ 19, 149876, }, -- Dominant Combatant's Necklace
+				{ 20, 149878, }, -- Dominant Combatant's Pendant
+				{ 21, 149880, }, -- Dominant Combatant's Choker
+				-- Ring
+				{ 23, 148560, }, -- Dominant Gladiator's Ring
+				{ 24, 148562, }, -- Dominant Gladiator's Band
+				{ 25, 148564, }, -- Dominant Gladiator's Signet
+				{ 26, 149914, }, -- Dominant Combatant's Ring
+				{ 27, 149916, }, -- Dominant Combatant's Band
+				{ 28, 149918, }, -- Dominant Combatant's Signet
+				-- Trinket
+				{ 101, 148598, }, -- Dominant Gladiator's Badge of Conquest
+				{ 102, 148600, }, -- Dominant Gladiator's Accolade of Conquest
+				{ 103, 148602, }, -- Dominant Gladiator's Insignia of Conquest
+				{ 104, 148604, }, -- Dominant Gladiator's Badge of Dominance
+				{ 105, 148606, }, -- Dominant Gladiator's Accolade of Dominance
+				{ 106, 148608, }, -- Dominant Gladiator's Insignia of Dominance
+				{ 107, 148610, }, -- Dominant Gladiator's Badge of Victory
+				{ 108, 148612, }, -- Dominant Gladiator's Accolade of Victory
+				{ 109, 148614, }, -- Dominant Gladiator's Insignia of Victory
+				{ 116, 149952, }, -- Dominant Combatant's Badge of Conquest
+				{ 117, 149954, }, -- Dominant Combatant's Accolade of Conquest
+				{ 118, 149956, }, -- Dominant Combatant's Insignia of Conquest
+				{ 119, 149958, }, -- Dominant Combatant's Badge of Dominance
+				{ 120, 149960, }, -- Dominant Combatant's Accolade of Dominance
+				{ 121, 149962, }, -- Dominant Combatant's Insignia of Dominance
+				{ 122, 149964, }, -- Dominant Combatant's Badge of Victory
+				{ 123, 149966, }, -- Dominant Combatant's Accolade of Victory
+				{ 124, 149968, }, -- Dominant Combatant's Insignia of Victory
+				-- Relic
+				{ 201, 154052, }, -- Reactive Intuition
+				{ 202, 154053, }, -- Exhaustive Research
+				{ 203, 154054, }, -- Taboo Knowledge
+				{ 204, 154055, }, -- Grisly Souvenir
+				{ 205, 154056, }, -- Thirsty Bloodstone
+				{ 206, 154057, }, -- Thrill of Battle
+				{ 207, 154058, }, -- Fel-Loaded Dice
+				{ 208, 154059, }, -- Performance Enhancing Curio
+				{ 209, 154060, }, -- Alliance of Convenience
+				{ 210, 154061, }, -- Blaze of Glory
+				{ 211, 154062, }, -- Flame of the Fallen
+				{ 212, 154063, }, -- Torch of Competition
+				{ 213, 154064, }, -- Conscience of the Victorious
+				{ 214, 154065, }, -- Superiority's Contempt
+				{ 215, 154066, }, -- Cold Sweat
+				{ 216, 154067, }, -- Clarity of Conviction
+				{ 217, 154068, }, -- Brilliant Sunstone
+				{ 218, 154069, }, -- Radiance of Dawn
+				{ 219, 154070, }, -- Battle-Tempered Hilt
+				{ 220, 154071, }, -- Unflinching Grit
+				{ 221, 154072, }, -- Steadfast Conviction
+				{ 222, 154073, }, -- \Borrowed\" Soul Essence"
+				{ 223, 154074, }, -- Tombweed Bloom
+				{ 224, 154075, }, -- Petrified Ancient's Thumb
+				{ 225, 154076, }, -- Blindside Approach
+				{ 226, 154077, }, -- Polished Shadowstone
+				{ 227, 154078, }, -- Dead Man's Tale
+				{ 228, 154079, }, -- Battering Tempest
+				{ 229, 154080, }, -- Thundering Impact
+				{ 230, 154081, }, -- Roar of the Crowd
+				
+				{ 301, 150298, }, -- Reactive Intuition
+				{ 302, 150299, }, -- Exhaustive Research
+				{ 303, 150300, }, -- Taboo Knowledge
+				{ 304, 150301, }, -- Grisly Souvenir
+				{ 305, 150302, }, -- Thirsty Bloodstone
+				{ 306, 150303, }, -- Thrill of Battle
+				{ 307, 150304, }, -- Fel-Loaded Dice
+				{ 308, 150305, }, -- Performance Enhancing Curio
+				{ 309, 150306, }, -- Alliance of Convenience
+				{ 310, 150307, }, -- Blaze of Glory
+				{ 311, 150308, }, -- Flame of the Fallen
+				{ 312, 150309, }, -- Torch of Competition
+				{ 313, 150310, }, -- Conscience of the Victorious
+				{ 314, 150311, }, -- Superiority's Contempt
+				{ 315, 150312, }, -- Cold Sweat
+				{ 316, 150313, }, -- Clarity of Conviction
+				{ 317, 150314, }, -- Brilliant Sunstone
+				{ 318, 150315, }, -- Radiance of Dawn
+				{ 319, 150316, }, -- Battle-Tempered Hilt
+				{ 320, 150317, }, -- Unflinching Grit
+				{ 321, 150318, }, -- Steadfast Conviction
+				{ 322, 150319, }, -- \Borrowed\" Soul Essence"
+				{ 323, 150320, }, -- Tombweed Bloom
+				{ 324, 150321, }, -- Petrified Ancient's Thumb
+				{ 325, 150354, }, -- Blindside Approach
+				{ 326, 150355, }, -- Polished Shadowstone
+				{ 327, 150356, }, -- Dead Man's Tale
+				{ 328, 150357, }, -- Battering Tempest
+				{ 329, 150358, }, -- Thundering Impact
+				{ 330, 150359, }, -- Roar of the Crowd
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Tabard
+				{ 11, 149446, }, -- Dominant Gladiator's Tabard
+				{ 12, 149448, }, -- Dominant Gladiator's Cloak
+				-- Neck
+				{ 16, 148523, }, -- Dominant Gladiator's Necklace
+				{ 17, 148525, }, -- Dominant Gladiator's Pendant
+				{ 18, 148527, }, -- Dominant Gladiator's Choker
+				{ 19, 149877, }, -- Dominant Combatant's Necklace
+				{ 20, 149879, }, -- Dominant Combatant's Pendant
+				{ 21, 149881, }, -- Dominant Combatant's Choker
+				-- Ring
+				{ 23, 148561, }, -- Dominant Gladiator's Ring
+				{ 24, 148563, }, -- Dominant Gladiator's Band
+				{ 25, 148565, }, -- Dominant Gladiator's Signet
+				{ 26, 149915, }, -- Dominant Combatant's Ring
+				{ 27, 149917, }, -- Dominant Combatant's Band
+				{ 28, 149919, }, -- Dominant Combatant's Signet
+				-- Trinket
+				{ 101, 148599, }, -- Dominant Gladiator's Badge of Conquest
+				{ 102, 148601, }, -- Dominant Gladiator's Accolade of Conquest
+				{ 103, 148603, }, -- Dominant Gladiator's Insignia of Conquest
+				{ 104, 148605, }, -- Dominant Gladiator's Badge of Dominance
+				{ 105, 148607, }, -- Dominant Gladiator's Accolade of Dominance
+				{ 106, 148609, }, -- Dominant Gladiator's Insignia of Dominance
+				{ 107, 148611, }, -- Dominant Gladiator's Badge of Victory
+				{ 108, 148613, }, -- Dominant Gladiator's Accolade of Victory
+				{ 109, 148615, }, -- Dominant Gladiator's Insignia of Victory
+				{ 116, 149953, }, -- Dominant Combatant's Badge of Conquest
+				{ 117, 149955, }, -- Dominant Combatant's Accolade of Conquest
+				{ 118, 149957, }, -- Dominant Combatant's Insignia of Conquest
+				{ 119, 149959, }, -- Dominant Combatant's Badge of Dominance
+				{ 120, 149961, }, -- Dominant Combatant's Accolade of Dominance
+				{ 121, 149963, }, -- Dominant Combatant's Insignia of Dominance
+				{ 122, 149965, }, -- Dominant Combatant's Badge of Victory
+				{ 123, 149967, }, -- Dominant Combatant's Accolade of Victory
+				{ 124, 149969, }, -- Dominant Combatant's Insignia of Victory
 			},
 		},
 	},
 }
---]]
+
 data["LEGION5SET"] = {
 	name = string.format(EXPANSION_NAME6.." "..AL["Season %d"], 5).." "..AL["Class Sets"],
 	ContentType = NORMAL_ITTYPE,
