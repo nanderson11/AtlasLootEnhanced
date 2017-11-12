@@ -8,6 +8,7 @@ Patch Notes
 v8.07.05 (Nov. xx, 2017)
 ========================
 - Added Legion PvP Season 7 items
+- Added Tier21 class set items
 
 v8.07.04 (Nov. 11, 2017)
 ========================
