@@ -1380,6 +1380,17 @@ data["MOUNTS"] = {
 				{ 216, "f1850rep5" },
 				{ 217, 116671, "mount", [PRICE_EXTRA_ITTYPE] = "bfclaw:1000" }, -- Wild Goretusk
 				{ 218, 128481, "mount", [PRICE_EXTRA_ITTYPE] = "bfclaw:5000" }, -- Bristling Hellboar
+				-- Argussian Reach, Legion 7.3
+				{ 220 , "f2170rep5" },
+				{ 221, 152791, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Sable Ruinstrider, Exalted
+				{ 222, 152793, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Russet Ruinstrider, Exalted
+				{ 223, 152794, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Amethyst Ruinstrider, Exalted
+				{ 224, 152795, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Beryl Ruinstrider, Exalted
+				{ 225, 152796, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Umber Ruinstrider, Exalted
+				{ 226, 152797, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Reins of the Cerulean Ruinstrider, Exalted
+				-- Army of the Light, Legion 7.3
+				{ 301, "f2165rep8" },
+				{ 302, 152788, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000000" }, -- Lightforged Warframe, Exalted
 			},
 		},
 		{ -- Black Market Auction House
