@@ -718,13 +718,14 @@ local DIREMAULNORTH_LOOT7 = {
 				{ 27, 18508 },	-- Swift Flight Bracers
 }
 local DIREMAUL_LOOT1 = {
-				{ 1, 18295 },	-- Phasing Boots
-				{ 2, 18344 },	-- Stonebark Gauntlets
-				{ 3, 18298 },	-- Unbridled Leggings
-				{ 4, 18296 },	-- Marksman Bands
-				{ 5, 18289 },	-- Barbed Thorn Necklace
-				{ 6, 18340 },	-- Eidolon Talisman
-				{ 7, 18338 },	-- Wand of Arcane Potency
+				{ 1, 9434 },	-- Elemental Raiment
+				{ 2, 18295 },	-- Phasing Boots
+				{ 3, 18344 },	-- Stonebark Gauntlets
+				{ 4, 18298 },	-- Unbridled Leggings
+				{ 5, 18296 },	-- Marksman Bands
+				{ 6, 18289 },	-- Barbed Thorn Necklace
+				{ 7, 18340 },	-- Eidolon Talisman
+				{ 8, 18338 },	-- Wand of Arcane Potency
 				{ 16, "INV_Box_01", nil, AL["Shen'dralar Provisioner"], nil },
 				{ 17, 18487 },	-- Pattern: Mooncloth Robe
 }
