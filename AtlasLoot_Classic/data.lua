@@ -1562,8 +1562,9 @@ data["Scholomance"] = {
 				{ 1, 88340 },	-- Deadwalker Bracers
 				{ 2, 88342 },	-- Rattling Gloves
 				{ 3, 88343 },	-- Bone Golem Boots
-				{ 4, 88344 },	-- Goresoaked Headreaper
-				{ 5, 88341 },	-- Necromantic Wand
+				{ 4, 88357 },	-- Vigorsteel Spaulders
+				{ 5, 88344 },	-- Goresoaked Headreaper
+				{ 6, 88341 },	-- Necromantic Wand
 			},
 			[HEROIC_DIFF] = "AtlasLoot_MistsofPandaria",
 		},
