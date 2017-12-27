@@ -1710,17 +1710,19 @@ data["Stratholme"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 13409 },	-- Tearfall Bracers
 				{ 2, 13404 },	-- Mask of the Unforgiven
-				{ 3, 13405 },	-- Wailing Nightbane Pauldrons
-				{ 4, 13408 },	-- Soul Breaker
+				{ 3, 151404 },	-- Gauntlets of Purged Sanity
+				{ 4, 13405 },	-- Wailing Nightbane Pauldrons
+				{ 5, 13408 },	-- Soul Breaker
 			},
 		},
 		{	--STRATHearthsingerForresten
+			name = BB["Hearthsinger Forresten"].." ("..AL["Rare"]..")",
 			EncounterJournalID = 443,
 			[NORMAL_DIFF] = {
 				{ 1, 13378 },	-- Songbird Blouse
 				{ 2, 13383 },	-- Woollies of the Prancing Minstrel
 				{ 3, 13384 },	-- Rainbow Girdle
-				{ 4, 13379 },	-- Piccolo of the Flaming Fire
+				{ 5, 13379 },	-- Piccolo of the Flaming Fire
 			},
 		},
 		{	--STRATPostmasterMalown
@@ -1738,9 +1740,10 @@ data["Stratholme"] = {
 			EncounterJournalID = 445,
 			[NORMAL_DIFF] = {
 				{ 1, 13403 },	-- Grimgore Noose
-				{ 2, 13402 },	-- Timmy's Galoshes
-				{ 3, 13400 },	-- Vambraces of the Sadist
-				{ 4, 13401 },	-- The Cruel Hand of Timmy
+				{ 2, 151403 },	-- Fetid Stranglers
+				{ 3, 13402 },	-- Timmy's Galoshes
+				{ 4, 13400 },	-- Vambraces of the Sadist
+				{ 5, 13401 },	-- The Cruel Hand of Timmy
 			},
 		},
 		{	--STRATWilleyHopebreaker
@@ -1756,7 +1759,6 @@ data["Stratholme"] = {
 				{ 8, 22406 },	-- Redemption
 				{ 9, 13380 },	-- Willey's Portable Howitzer
 				{ 16, 12839, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Heartseeker
-				{ 17, 12783, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Heartseeker
 			},
 		},
 		{	--STRATInstructorGalford
@@ -1776,16 +1778,15 @@ data["Stratholme"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 13353 },	-- Book of the Dead
 				{ 2, 14512 },	-- Pattern: Truefaith Vestments
-				{ 3, 14154 },	-- Truefaith Vestments
-				{ 5, 18720 },	-- Shroud of the Nathrezim
-				{ 6, 13369 },	-- Fire Striders
-				{ 7, 13358 },	-- Wyrmtongue Shoulders
-				{ 8, 13359 },	-- Crown of Tyranny
-				{ 9, 18718 },	-- Grand Crusader's Helm
-				{ 10, 12103 },	-- Star of Mystaria
-				{ 11, 13360 },	-- Gift of the Elven Magi
-				{ 12, 13348 },	-- Demonshear
-				{ 13, 18717 },	-- Hammer of the Grand Crusader
+				{ 4, 18720 },	-- Shroud of the Nathrezim
+				{ 5, 13369 },	-- Fire Striders
+				{ 6, 13358 },	-- Wyrmtongue Shoulders
+				{ 7, 13359 },	-- Crown of Tyranny
+				{ 8, 18718 },	-- Grand Crusader's Helm
+				{ 9, 12103 },	-- Star of Mystaria
+				{ 10, 13360 },	-- Gift of the Elven Magi
+				{ 11, 13348 },	-- Demonshear
+				{ 12, 18717 },	-- Hammer of the Grand Crusader
 				{ 16, 13520, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Flask of Distilled Wisdom
 				{ 18, "ac646" },
 			},
@@ -1815,14 +1816,14 @@ data["Stratholme"] = {
 		{	--STRATNerubenkan
 			EncounterJournalID = 452,
 			[NORMAL_DIFF] = {
-				{ 1, 18740 },	-- Thuzadin Sash
-				{ 2, 18739 },	-- Chitinous Plate Legguards
-				{ 3, 13529 },	-- Husk of Nerub'enkan
-				{ 4, 18738 },	-- Carapace Spine Crossbow
-				{ 6, 13530 },	-- Fangdrip Runners
-				{ 7, 13531 },	-- Crypt Stalker Leggings
-				{ 8, 13532 },	-- Darkspinner Claws
-				{ 9, 13533 },	-- Acid-Etched Pauldrons
+				{ 1, 13530 },	-- Fangdrip Runners
+				{ 2, 18740 },	-- Thuzadin Sash
+				{ 3, 13531 },	-- Crypt Stalker Leggings
+				{ 4, 13532 },	-- Darkspinner Claws
+				{ 5, 18739 },	-- Chitinous Plate Legguards
+				{ 6, 13533 },	-- Acid-Etched Pauldrons
+				{ 7, 18738 },	-- Carapace Spine Crossbow
+				{ 8, 13529 },	-- Husk of Nerub'enkan
 				{ 10, 13508, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Eye of Arachnida
 			},
 		},
@@ -1839,7 +1840,6 @@ data["Stratholme"] = {
 				{ 8, 18737 },	-- Bone Slicing Hatchet
 				{ 10, 13509, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Clutch of Foresight
 				{ 16, 12833, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Hammer of the Titans
-				{ 17, 12796, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Hammer of the Titans
 			},
 		},
 		{	--STRATMagistrateBarthilas
@@ -1893,17 +1893,17 @@ data["Stratholme"] = {
 				{ 4, 18744 },	-- Plaguebat Fur Gloves
 				{ 5, 18736 },	-- Plaguehound Leggings
 				{ 6, 18742 },	-- Stratholme Militia Shoulderguard
-				{ 7, 18741 },	-- Morlune's Bracer
-				{ 9, 12811 },	-- Righteous Orb
+				{ 7, 13071 },	-- Plated Fist of Hakoo
+				{ 8, 18741 },	-- Morlune's Bracer
+				{ 10, 12811 },	-- Righteous Orb
 				{ 16, 16249 },	-- Formula: Enchant 2H Weapon - Major Intellect
 				{ 17, 16248 },	-- Formula: Enchant Weapon - Unholy
 				{ 18, 18658 },	-- Schematic: Ultra-Flash Shadow Reflector
 				{ 19, 16052 },	-- Schematic: Voice Amplification Modulator
 				{ 20, 15777 },	-- Pattern: Runic Leather Shoulders
 				{ 21, 15768 },	-- Pattern: Wicked Leather Belt
-				{ 22, 14495 },	-- Pattern: Ghostweave Pants
-				{ 24, "INV_Box_01", nil, BB["Fras Siabi"], nil },
-				{ 25, 13172 },	-- Siabi's Premium Tobacco
+				{ 23, "INV_Box_01", nil, BB["Fras Siabi"], nil },
+				{ 24, 13172 },	-- Siabi's Premium Tobacco
 			},
 		},
 		{	--Miscellaneous Sets
