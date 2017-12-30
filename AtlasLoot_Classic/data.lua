@@ -57,7 +57,7 @@ local CLASSIC_RAID_AC_TABLE = {	--[Classic Raider]
 	},
 }
 
-local BLACKFATHON_DEEPS_LOOT1 = {
+local BLACKFATHOM_DEEPS_LOOT1 = {
 	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(368), nil },	--Ghamoo-ra
 	{ 2, 6908 },	-- Ghamoo-Ra's Bind
 	{ 3, 6907 },	-- Tortoise Armor
@@ -82,7 +82,7 @@ local BLACKFATHON_DEEPS_LOOT1 = {
 	{ 28, 120167 },	-- Bloody Twilight Cloak
 	{ 29, 120166 },	-- Gorestained Garb
 }
-local BLACKFATHON_DEEPS_LOOT2 = {
+local BLACKFATHOM_DEEPS_LOOT2 = {
 	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(437), nil },	--Twilight Lord Bathiel
 	{ 2, 6903 },	-- Gaze Dreamer Pants
 	{ 3, 1155 },	-- Rod of the Sleepwalker
@@ -93,7 +93,7 @@ local BLACKFATHON_DEEPS_LOOT2 = {
 	{ 9, 6909 },	-- Strike of the Hydra
 	{ 16, "ac632" },
 }
-local BLACKFATHON_DEEPS_LOOT3 = {
+local BLACKFATHOM_DEEPS_LOOT3 = {
 	{ 1, 1486 },	-- Tree Bark Jacket
 	{ 2, 3416 },	-- Martyr's Chain
 	{ 3, 1491 },	-- Ring of Precision
@@ -114,40 +114,40 @@ data["BlackfathomDeeps"] = {
 	items = {
 		{	--Ghamoo-ra
 			EncounterJournalID = 368,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Domina
 			EncounterJournalID = 436,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Subjugator Kor'ul
 			EncounterJournalID = 426,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Throk
 			EncounterJournalID = 1145,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Guardian of the Deep
 			EncounterJournalID = 447,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Executioner Gore
 			EncounterJournalID = 1144,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
 		},
 		{	--Twilight Lord Bathiel
 			EncounterJournalID = 437,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT2,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT2,
 		},
 		{	--Aku'mai
 			EncounterJournalID = 444,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT2,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT2,
 		},
 		{	--Trash Mobs
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = BLACKFATHON_DEEPS_LOOT3,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT3,
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
 	}
@@ -211,9 +211,9 @@ data["BlackrockDepths"] = {
 				{ 1, 11839 },	-- Chief Architect's Monocle
 				{ 2, 11841 },	-- Senior Designer's Pantaloons
 				{ 3, 151406 },	-- Belt of the Eminent Mason
-				{ 3, 11842 },	-- Lead Surveyor's Mantle
-				{ 4, 22223 },	-- Foreman's Head Protector
-				{ 6, 11840, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Master Builder's Shirt
+				{ 4, 11842 },	-- Lead Surveyor's Mantle
+				{ 5, 22223 },	-- Foreman's Head Protector
+				{ 7, 11840, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Master Builder's Shirt
 			},
 		},
 		{	--BRDTheVault
