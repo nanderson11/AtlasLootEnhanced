@@ -406,10 +406,10 @@ data["BlackrockDepths"] = {
 		{	--BRDPrincess
 			name = BB["Princess Moira Bronzebeard"],
 			[NORMAL_DIFF] = {
-				{ 1, 12554 },	-- Hands of the Exalted Herald
-				{ 2, 12556 },	-- High Priestess Boots
-				{ 3, 12557 },	-- Ebonsteel Spaulders
-				{ 4, 12553 },	-- Swiftwalker Boots
+				{ 1, 12556 },	-- High Priestess Boots
+				{ 2, 12554 },	-- Hands of the Exalted Herald
+				{ 3, 12553 },	-- Swiftwalker Boots
+				{ 4, 12557 },	-- Ebonsteel Spaulders
 			},
 		},
 		{	--BRDTrash
@@ -429,18 +429,18 @@ data["BlackrockDepths"] = {
 				{ 11, 12527 },	-- Ribsplitter
 				{ 12, 12528 },	-- The Judge's Gavel
 				{ 13, 12532 },	-- Spire of the Stoneshaper
-				{ 16, 15781 },	-- Pattern: Black Dragonscale Leggings
-				{ 17, 15770 },	-- Pattern: Black Dragonscale Shoulders
-				{ 18, 16053 },	-- Schematic: Master Engineer's Goggles
-				{ 19, 16049 },	-- Schematic: Dark Iron Bomb
-				{ 20, 16048 },	-- Schematic: Dark Iron Rifle
-				{ 21, 18654 },	-- Schematic: Gnomish Alarm-o-Bot
-				{ 22, 18661 },	-- Schematic: World Enlarger
-				{ 24, 11754 },	-- Black Diamond
-				{ 25, 11078 },	-- Relic Coffer Key
-				{ 26, 18945 },	-- Dark Iron Residue
-				{ 27, 64304 },	-- Elemental Module
-				{ 28, 64313 },	-- Elemental-Imbued Weapon
+				{ 16, 15781, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Black Dragonscale Leggings
+				{ 17, 15770, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Black Dragonscale Shoulders
+				{ 18, 16053, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Master Engineer's Goggles
+				{ 19, 16049, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Dark Iron Bomb
+				{ 20, 16048, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Dark Iron Rifle
+				{ 21, 18654, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Gnomish Alarm-o-Bot
+				{ 22, 18661, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: World Enlarger
+				{ 24, 11754, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Black Diamond
+				{ 25, 11078, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Relic Coffer Key
+				{ 26, 18945, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Dark Iron Residue
+				{ 27, 64304, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Elemental Module
+				{ 28, 64313, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Elemental-Imbued Weapon
 			},
 		},
 		{	--Miscellaneous Sets
