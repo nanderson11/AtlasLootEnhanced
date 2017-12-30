@@ -175,7 +175,6 @@ data["BlackrockDepths"] = {
 				{ 2, 11632 },	-- Earthslag Shoulders
 				{ 3, 11631 },	-- Stoneshell Guard
 				{ 16, 45050, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Smoking Heart of the Mountain
-				{ 17, 11811, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Smoking Heart of the Mountain
 			},
 		},
 		{	--BRDHoundmaster
@@ -211,6 +210,7 @@ data["BlackrockDepths"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 11839 },	-- Chief Architect's Monocle
 				{ 2, 11841 },	-- Senior Designer's Pantaloons
+				{ 3, 151406 },	-- Belt of the Eminent Mason
 				{ 3, 11842 },	-- Lead Surveyor's Mantle
 				{ 4, 22223 },	-- Foreman's Head Protector
 				{ 6, 11840, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Master Builder's Shirt
@@ -220,16 +220,16 @@ data["BlackrockDepths"] = {
 			name = AL["The Vault"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["The Vault"], nil },
-				{ 2, 11309 },	-- The Heart of the Mountain
+				{ 2, 11309, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- The Heart of the Mountain
 				{ 4, "INV_Box_01", nil, AL["The Secret Safe"], nil },
 				{ 5, 22256 },	-- Mana Shaping Handwraps
-				{ 8, 22205 },	-- Black Steel Bindings
-				{ 9, 22255 },	-- Magma Forged Band
-				{ 12, 22254 },	-- Wand of Eternal Light
+				{ 6, 22205 },	-- Black Steel Bindings
+				{ 7, 22255 },	-- Magma Forged Band
+				{ 8, 22254 },	-- Wand of Eternal Light
 				{ 16, "INV_Box_01", nil, BB["Dark Coffer"], nil },
-				{ 17, 11752 },	-- Black Blood of the Tormented
-				{ 18, 11751 },	-- Burning Essence
-				{ 19, 11753 },	-- Eye of Kajal
+				{ 17, 11752, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Black Blood of the Tormented
+				{ 18, 11751, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Burning Essence
+				{ 19, 11753, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Eye of Kajal
 			},
 		},
 		{	--BRDWarderStilgiss
@@ -238,7 +238,8 @@ data["BlackrockDepths"] = {
 				{ 1, 11782 },	-- Boreal Mantle
 				{ 2, 22241 },	-- Dark Warder's Pauldrons
 				{ 3, 11783 },	-- Chillsteel Girdle
-				{ 4, 11784 },	-- Arbiter's Blade
+				{ 4, 151405 },	-- Cold-Forged Chestplate
+				{ 5, 11784 },	-- Arbiter's Blade
 			},
 		},
 		{	--BRDVerek
@@ -319,23 +320,27 @@ data["BlackrockDepths"] = {
 				{ 2, 11735 },	-- Ragefury Eyepatch
 				{ 3, 18043 },	-- Coal Miner Boots
 				{ 4, 22275 },	-- Firemoss Boots
-				{ 5, 18044 },	-- Hurley's Tankard
-				{ 6, 11312 },	-- Lost Thunderbrew Recipe
-				{ 8, "INV_Box_01", nil, EJ_GetEncounterInfo(381), nil },	--Phalanx
-				{ 9, 22212 },	-- Golem Fitted Pauldrons
-				{ 10, 11745 },	-- Fists of Phalanx
-				{ 11, 11744 },	-- Bloodfist
-				{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(382), nil },	--Ribbly Screwspigot
+				{ 5, 151407 },	-- Blackened Pit Trousers
+				{ 6, 151408 },	-- Dark Iron Dredger's Pauldrons
+				{ 7, 18044 },	-- Hurley's Tankard
+				{ 8, 11312 },	-- Lost Thunderbrew Recipe
+				{ 10, "INV_Box_01", nil, EJ_GetEncounterInfo(381), nil },	--Phalanx
+				{ 11, 151409 },	-- Ferrous Cord
+				{ 12, 22212 },	-- Golem Fitted Pauldrons
+				{ 13, 11745 },	-- Fists of Phalanx
+				{ 14, 11744 },	-- Bloodfist
+				{ 16, "INV_Box_01", nil, BB["Ribbly Screwspigot"], nil },	--Ribbly Screwspigot
 				{ 17, 11612 },	-- Plans: Dark Iron Plate
 				{ 18, 11742 },	-- Wayfarer's Knapsack
 				{ 20, "INV_Box_01", nil, EJ_GetEncounterInfo(383), nil },	--Plugger Spazzring
 				{ 21, 12793 },	-- Mixologist's Tunic
 				{ 22, 12791 },	-- Barman Shanker
-				{ 23, 13483 },	-- Recipe: Transmute Fire to Earth
-				{ 24, 18653 },	-- Schematic: Goblin Jumper Cables XL
-				{ 25, 15759 },	-- Pattern: Black Dragonscale Breastplate
-				{ 26, 11602 },	-- Grim Guzzler Key
-				{ 27, 11325 },	-- Dark Iron Ale Mug
+				{ 23, 151410 },	-- Bottle-Popper Ring
+				{ 25, 13483, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Transmute Fire to Earth
+				{ 26, 18653, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Goblin Jumper Cables XL
+				{ 27, 15759, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Black Dragonscale Breastplate
+				{ 28, 11602, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Grim Guzzler Key
+				{ 29, 11325, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Dark Iron Ale Mug
 			},
 		},
 		{	--BRDFlamelash
@@ -374,9 +379,10 @@ data["BlackrockDepths"] = {
 		{	--BRDMagmus
 			EncounterJournalID = 386,
 			[NORMAL_DIFF] = {
-				{ 1, 11746 },	-- Golem Skull Helm
-				{ 2, 11935 },	-- Magmus Stone
-				{ 3, 22208 },	-- Lavastone Hammer
+				{ 1, 151411 },	-- Molten-Warder Leggings
+				{ 2, 11746 },	-- Golem Skull Helm
+				{ 3, 11935 },	-- Magmus Stone
+				{ 4, 22208 },	-- Lavastone Hammer
 			},
 		},
 		{	--BRDImperatorDagranThaurissan
