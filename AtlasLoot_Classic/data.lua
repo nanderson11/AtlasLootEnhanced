@@ -264,31 +264,37 @@ data["BlackrockDepths"] = {
 		{	--BRDArena
 			EncounterJournalID = 372,
 			[NORMAL_DIFF] = {
-				{ 1, 11677 },	-- Graverot Cape
-				{ 2, 11675 },	-- Shadefiend Boots
-				{ 3, 11731 },	-- Savage Gladiator Greaves
-				{ 4, 11678 },	-- Carapace of Anub'shiah
-				{ 6, 11685 },	-- Splinthide Shoulders
-				{ 7, 11686 },	-- Girdle of Beastial Fury
-				{ 8, 11679 },	-- Rubicund Armguards
-				{ 9, 11730 },	-- Savage Gladiator Grips
-				{ 11, 11726 },	-- Savage Gladiator Chain
-				{ 12, 22271 },	-- Leggings of Frenzied Magic
-				{ 13, 22257 },	-- Bloodclot Band
-				{ 14, 22266 },	-- Flarethorn
-				{ 16, 11722 },	-- Dregmetal Spaulders
-				{ 17, 11703 },	-- Stonewall Girdle
-				{ 18, 22270 },	-- Entrenching Boots
-				{ 19, 11702 },	-- Grizzle's Skinner
-				{ 20, 11610 },	-- Plans: Dark Iron Pulverizer
-				{ 22, 11634 },	-- Silkweb Gloves
-				{ 23, 11729 },	-- Savage Gladiator Helm
-				{ 24, 11633 },	-- Spiderfang Carapace
-				{ 25, 11635 },	-- Hookfang Shanker
-				{ 27, 11662 },	-- Ban'thok Sash
-				{ 28, 11665 },	-- Ogreseer Fists
-				{ 29, 11728 },	-- Savage Gladiator Leggings
-				{ 30, 11824 },	-- Cyclopean Band
+				{ 1, "INV_Box_01", nil, BB["Anub'shiah"], nil },			--Anub'shiah
+				{ 2, 11677 },	-- Graverot Cape
+				{ 3, 11675 },	-- Shadefiend Boots
+				{ 4, 11731 },	-- Savage Gladiator Greaves
+				{ 5, 11678 },	-- Carapace of Anub'shiah
+				{ 7, "INV_Box_01", nil, BB["Eviscerator"], nil },			--Eviscerator
+				{ 8, 11685 },	-- Splinthide Shoulders
+				{ 9, 11686 },	-- Girdle of Beastial Fury
+				{ 10, 11679 },	-- Rubicund Armguards
+				{ 11, 11730 },	-- Savage Gladiator Grips
+				{ 16, "INV_Box_01", nil, BB["Gorosh the Dervish"], nil },	--Gorosh the Dervish
+				{ 17, 11726 },	-- Savage Gladiator Chain
+				{ 18, 22271 },	-- Leggings of Frenzied Magic
+				{ 19, 22257 },	-- Bloodclot Band
+				{ 20, 22266 },	-- Flarethorn
+				{ 22, "INV_Box_01", nil, BB["Grizzle"], nil },				--Grizzle
+				{ 23, 11722 },	-- Dregmetal Spaulders
+				{ 24, 11703 },	-- Stonewall Girdle
+				{ 25, 22270 },	-- Entrenching Boots
+				{ 26, 11702 },	-- Grizzle's Skinner
+				{ 27, 11610 },	-- Plans: Dark Iron Pulverizer
+				{ 101, "INV_Box_01", nil, BB["Hedrum the Creeper"], nil },	--Hedrum the Creeper
+				{ 102, 11634 },	-- Silkweb Gloves
+				{ 103, 11729 },	-- Savage Gladiator Helm
+				{ 104, 11633 },	-- Spiderfang Carapace
+				{ 105, 11635 },	-- Hookfang Shanker
+				{ 107, "INV_Box_01", nil, BB["Ok'thor the Breaker"], nil },	--Ok'thor the Breaker
+				{ 108, 11662 },	-- Ban'thok Sash
+				{ 109, 11665 },	-- Ogreseer Fists
+				{ 110, 11728 },	-- Savage Gladiator Leggings
+				{ 111, 11824 },	-- Cyclopean Band
 			},
 		},
 		{	--BRDGeneralAngerforge
