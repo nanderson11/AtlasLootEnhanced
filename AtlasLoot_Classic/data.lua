@@ -385,6 +385,15 @@ data["BlackrockDepths"] = {
 				{ 4, 22208 },	-- Lavastone Hammer
 			},
 		},
+		{	--BRDHighPriestessofThaurissan; formerly PrincessMoira
+			name = BB["High Priestess of Thaurissan"],
+			[NORMAL_DIFF] = {
+				{ 1, 12556 },	-- High Priestess Boots
+				{ 2, 12554 },	-- Hands of the Exalted Herald
+				{ 3, 12553 },	-- Swiftwalker Boots
+				{ 4, 12557 },	-- Ebonsteel Spaulders
+			},
+		},
 		{	--BRDImperatorDagranThaurissan
 			EncounterJournalID = 387,
 			[NORMAL_DIFF] = {
@@ -401,15 +410,6 @@ data["BlackrockDepths"] = {
 				{ 18, 11928 },	-- Thaurissan's Royal Scepter
 				{ 20, 12033, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Thaurissan Family Jewels
 				{ 22, "ac642" },
-			},
-		},
-		{	--BRDPrincess
-			name = BB["Princess Moira Bronzebeard"],
-			[NORMAL_DIFF] = {
-				{ 1, 12556 },	-- High Priestess Boots
-				{ 2, 12554 },	-- Hands of the Exalted Herald
-				{ 3, 12553 },	-- Swiftwalker Boots
-				{ 4, 12557 },	-- Ebonsteel Spaulders
 			},
 		},
 		{	--BRDTrash
