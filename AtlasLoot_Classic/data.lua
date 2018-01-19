@@ -254,8 +254,9 @@ data["BlackrockDepths"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 11747 },	-- Flamestrider Robes
 				{ 2, 11749 },	-- Searingscale Leggings
-				{ 3, 11750 },	-- Kindling Stave
-				{ 4, 11748 },	-- Pyric Caduceus
+				{ 3, 22270 },	-- Entrenching Boots
+				{ 4, 11750 },	-- Kindling Stave
+				{ 5, 11748 },	-- Pyric Caduceus
 				{ 16, 11207, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Fiery Weapon
 				{ 18, 63469, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Breath of Cenarius
 				{ 19, 64305, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Loregrain's Grimoire
@@ -276,25 +277,25 @@ data["BlackrockDepths"] = {
 				{ 11, 11679 },	-- Rubicund Armguards
 				{ 16, "INV_Box_01", nil, BB["Gorosh the Dervish"], nil },	--Gorosh the Dervish
 				{ 17, 11726 },	-- Savage Gladiator Chain
-				{ 19, 22271 },	-- Leggings of Frenzied Magic
-				{ 20, 22257 },	-- Bloodclot Band
-				{ 21, 22266 },	-- Flarethorn
-				{ 23, "INV_Box_01", nil, BB["Grizzle"], nil },				--Grizzle
-				{ 24, 11722 },	-- Dregmetal Spaulders
-				{ 25, 22270 },	-- Entrenching Boots
-				{ 26, 11703 },	-- Stonewall Girdle
-				{ 27, 11702 },	-- Grizzle's Skinner
-				{ 29, 11610 },	-- Plans: Dark Iron Pulverizer
+				{ 19, 11662 },	-- Ban'thok Sash
+				{ 20, 22271 },	-- Leggings of Frenzied Magic
+				{ 21, 22257 },	-- Bloodclot Band
+				{ 22, 22266 },	-- Flarethorn
+				{ 24, "INV_Box_01", nil, BB["Grizzle"], nil },				--Grizzle
+				{ 25, 11722 },	-- Dregmetal Spaulders
+				{ 26, 22270 },	-- Entrenching Boots
+				{ 27, 11703 },	-- Stonewall Girdle
+				{ 28, 11702 },	-- Grizzle's Skinner
+				{ 30, 11610, [ATLASLOOT_IT_FILTERIGNORE] = true },			-- Plans: Dark Iron Pulverizer
 				{ 101, "INV_Box_01", nil, BB["Hedrum the Creeper"], nil },	--Hedrum the Creeper
 				{ 102, 11634 },	-- Silkweb Gloves
 				{ 103, 11729 },	-- Savage Gladiator Helm
 				{ 104, 11633 },	-- Spiderfang Carapace
 				{ 105, 11635 },	-- Hookfang Shanker
 				{ 107, "INV_Box_01", nil, BB["Ok'thor the Breaker"], nil },	--Ok'thor the Breaker
-				{ 108, 11662 },	-- Ban'thok Sash
-				{ 109, 11665 },	-- Ogreseer Fists
-				{ 110, 11728 },	-- Savage Gladiator Leggings
-				{ 111, 11824 },	-- Cyclopean Band
+				{ 108, 11665 },	-- Ogreseer Fists
+				{ 109, 11728 },	-- Savage Gladiator Leggings
+				{ 110, 11824 },	-- Cyclopean Band
 			},
 		},
 		{	--BRDGeneralAngerforge
@@ -705,7 +706,7 @@ local DIREMAULNORTH_LOOT6 = {
 				{ 21, 18534 },	-- Rod of the Ogre Magi
 				{ 22, 18499 },	-- Barrier Shield
 				{ 23, 18482 },	-- Ogre Toothpick Shooter
-				{ 25, 18655 },	-- Schematic: Major Recombobulator
+				{ 25, 18655, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Major Recombobulator
 }
 local DIREMAUL_LOOT1 = {
 				{ 1, 9434 },	-- Elemental Raiment
@@ -717,7 +718,7 @@ local DIREMAUL_LOOT1 = {
 				{ 7, 18340 },	-- Eidolon Talisman
 				{ 8, 18338 },	-- Wand of Arcane Potency
 				{ 16, "INV_Box_01", nil, AL["Shen'dralar Provisioner"], nil },
-				{ 17, 18487 },	-- Pattern: Mooncloth Robe
+				{ 17, 18487, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Mooncloth Robe
 }
 
 data["DireMaul"] = {
@@ -936,10 +937,11 @@ data["LowerBlackrockSpire"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 13170 },	-- Skyshroud Leggings
 				{ 2, 13169 },	-- Tressermane Leggings
-				{ 3, 13168 },	-- Plate of the Shaman King
-				{ 4, 13166 },	-- Slamshot Shoulders
-				{ 5, 13167 },	-- Fist of Omokk
-				{ 7, 12534, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Omokk's Head
+				{ 3, 151412 },	-- Ogre Highlord's Casque
+				{ 4, 13168 },	-- Plate of the Shaman King
+				{ 5, 13166 },	-- Slamshot Shoulders
+				{ 6, 13167 },	-- Fist of Omokk
+				{ 8, 12534, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Omokk's Head
 			},
 		},
 		{	--LBRSSpirestoneLord
@@ -963,8 +965,9 @@ data["LowerBlackrockSpire"] = {
 				{ 1, 12626 },	-- Funeral Cuffs
 				{ 2, 13257 },	-- Demonic Runed Spaulders
 				{ 3, 13255 },	-- Trueaim Gauntlets
-				{ 4, 12651 },	-- Blackcrow
+				{ 4, 151413 },	-- Smolderthorn Greatbelt
 				{ 5, 12653 },	-- Riphook
+				{ 6, 12651 },	-- Blackcrow
 			},
 		},
 		{	--LBRSVoone
@@ -982,17 +985,17 @@ data["LowerBlackrockSpire"] = {
 				{ 1, 12634 },	-- Chiselbrand Girdle
 				{ 2, 12637 },	-- Backusarian Gauntlets
 				{ 3, 12621 },	-- Demonfork
-				{ 5, 12838 },	-- Plans: Arcanite Reaper
-				{ 6, 12784 },	-- Arcanite Reaper
+				{ 5, 12838, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Arcanite Reaper
 			},
 		},
 		{	--LBRSSmolderweb
 			EncounterJournalID = 391,
 			[NORMAL_DIFF] = {
-				{ 1, 13244 },	-- Gilded Gauntlets
-				{ 2, 13213 },	-- Smolderweb's Eye
-				{ 3, 13183 },	-- Venomspitter
-				{ 5, 68673, "pet90" },	-- Smolderweb Egg
+				{ 1, 151414 },	-- Arachnophile's Greatcloak
+				{ 2, 13244 },	-- Gilded Gauntlets
+				{ 3, 13213 },	-- Smolderweb's Eye
+				{ 4, 13183 },	-- Venomspitter
+				{ 6, 68673, "pet90" },	-- Smolderweb Egg
 			},
 		},
 		{	--LBRSCrystalFang
@@ -1017,10 +1020,21 @@ data["LowerBlackrockSpire"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 13253 },	-- Hands of Power
 				{ 2, 13252 },	-- Cloudrunner Girdle
-				{ 4, 12835, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Annihilator
-				{ 5, 12798, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Annihilator
+				{ 3, 151415 },	-- Veteran Spearman's Chain Boots
+				{ 4, 151416 },	-- Dark Horde Grunt's Legplates
+				{ 6, 12835, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Annihilator
 				{ 7, 21955, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Design: Black Diamond Crab
 				{ 16, 12264, "pet89" },	-- Worg Carrier
+			},
+		},
+		{	--LBRSSlavener
+			EncounterJournalID = 395,
+			[NORMAL_DIFF] = {
+				{ 1, 13206 },	-- Wolfshear Leggings
+				{ 2, 13208 },	-- Bleak Howler Armguards
+				{ 3, 151417 },	-- Worg-Keeper's Spaulders
+				{ 4, 151418 },	-- Raider Aspirant's Helm
+				{ 5, 13205 },	-- Rhombeard Protector
 			},
 		},
 		{	--LBRSHalycon
@@ -1030,14 +1044,6 @@ data["LowerBlackrockSpire"] = {
 				{ 2, 13210 },	-- Pads of the Dread Wolf
 				{ 3, 13211 },	-- Slashclaw Bracers
 				{ 4, 13212 },	-- Halycon's Spiked Collar
-			},
-		},
-		{	--LBRSSlavener
-			EncounterJournalID = 395,
-			[NORMAL_DIFF] = {
-				{ 1, 13206 },	-- Wolfshear Leggings
-				{ 2, 13208 },	-- Bleak Howler Armguards
-				{ 3, 13205 },	-- Rhombeard Protector
 			},
 		},
 		{	--LBRSBashguud
@@ -1054,8 +1060,8 @@ data["LowerBlackrockSpire"] = {
 				{ 1, 13143 },	-- Mark of the Dragon Lord
 				{ 3, 13162 },	-- Reiver Claws
 				{ 4, 22321 },	-- Heart of Wyrmthalak
-				{ 5, 13163 },	-- Relentless Scythe
-				{ 6, 13161 },	-- Trindlehaven Staff
+				{ 5, 13161 },	-- Trindlehaven Staff
+				{ 6, 13163 },	-- Relentless Scythe
 				{ 16, "ac643" },
 			},
 		},
@@ -1063,12 +1069,11 @@ data["LowerBlackrockSpire"] = {
 			name = AL["Trash Mobs"],
 			ExtraList = true,
 			[NORMAL_DIFF] = {
-				{ 1, 14513 },	-- Pattern: Robe of the Archmage
-				{ 2, 14152 },	-- Robe of the Archmage
-				{ 4, 13494 },	-- Recipe: Greater Fire Protection Potion
-				{ 5, 16250 },	-- Formula: Enchant Weapon - Superior Striking
-				{ 6, 15749 },	-- Pattern: Volcanic Breastplate
-				{ 7, 15775 },	-- Pattern: Volcanic Shoulders
+				{ 1, 14513, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Robe of the Archmage
+				{ 3, 13494, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Greater Fire Protection Potion
+				{ 4, 16250, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Superior Striking
+				{ 5, 15749, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Breastplate
+				{ 6, 15775, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Shoulders
 			},
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
@@ -1886,12 +1891,12 @@ data["Stratholme"] = {
 				{ 7, 13071 },	-- Plated Fist of Hakoo
 				{ 8, 18741 },	-- Morlune's Bracer
 				{ 10, 12811 },	-- Righteous Orb
-				{ 16, 16249 },	-- Formula: Enchant 2H Weapon - Major Intellect
-				{ 17, 16248 },	-- Formula: Enchant Weapon - Unholy
-				{ 18, 18658 },	-- Schematic: Ultra-Flash Shadow Reflector
-				{ 19, 16052 },	-- Schematic: Voice Amplification Modulator
-				{ 20, 15777 },	-- Pattern: Runic Leather Shoulders
-				{ 21, 15768 },	-- Pattern: Wicked Leather Belt
+				{ 16, 16249, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant 2H Weapon - Major Intellect
+				{ 17, 16248, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Unholy
+				{ 18, 18658, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Ultra-Flash Shadow Reflector
+				{ 19, 16052, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Voice Amplification Modulator
+				{ 20, 15777, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Runic Leather Shoulders
+				{ 21, 15768, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Wicked Leather Belt
 				{ 23, "INV_Box_01", nil, BB["Fras Siabi"], nil },
 				{ 24, 13172 },	-- Siabi's Premium Tobacco
 			},
@@ -1985,8 +1990,8 @@ data["TheSunkenTemple"] = {
 				{ 4, 10795 },	-- Drakeclaw Band
 				{ 5, 10796 },	-- Drakestone
 				{ 6, 10797 },	-- Firebreather
-				{ 7, 12463 },	-- Drakefang Butcher
-				{ 8, 12243 },	-- Smoldering Claw
+				{ 7, 12243 },	-- Smoldering Claw
+				{ 8, 12463 },	-- Drakefang Butcher
 			},
 		},
 		{	--STEranikus
@@ -1996,8 +2001,8 @@ data["TheSunkenTemple"] = {
 				{ 3, 10833 },	-- Horns of Eranikus
 				{ 4, 10829 },	-- The Dragon's Eye
 				{ 5, 10828 },	-- Dire Nail
-				{ 6, 10837 },	-- Tooth of Eranikus
-				{ 7, 10835 },	-- Crest of Supremacy
+				{ 6, 10835 },	-- Crest of Supremacy
+				{ 7, 10837 },	-- Tooth of Eranikus
 				{ 8, 10836 },	-- Rod of Corrosion
 				{ 16, "ac641" },
 			},
@@ -2012,7 +2017,7 @@ data["TheSunkenTemple"] = {
 				{ 4, 10631 },	-- Murkwater Gauntlets
 				{ 5, 10633 },	-- Silvershell Leggings
 				{ 6, 10634 },	-- Mindseye Circle
-				{ 8, 15733 },	-- Pattern: Green Dragonscale Leggings
+				{ 8, 15733, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Green Dragonscale Leggings
 				{ 16, 10623 },	-- Winter's Bite
 				{ 17, 10625 },	-- Stealthblade
 				{ 18, 10628 },	-- Deathblow
@@ -2365,13 +2370,13 @@ data["ZulFarrak"] = {
 }
 
 local AQ_ENCHANTS = {
-	{ 1, 20728 },	-- Formula: Enchant Gloves - Frost Power
-	{ 2, 20731 },	-- Formula: Enchant Gloves - Superior Agility
-	{ 3, 20734 },	-- Formula: Enchant Cloak - Stealth
-	{ 4, 20729 },	-- Formula: Enchant Gloves - Fire Power
-	{ 5, 20736 },	-- Formula: Enchant Cloak - Dodge
-	{ 6, 20730 },	-- Formula: Enchant Gloves - Healing Power
-	{ 7, 20727 },	-- Formula: Enchant Gloves - Shadow Power
+	{ 1, 20728, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Frost Power
+	{ 2, 20731, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Superior Agility
+	{ 3, 20734, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Cloak - Stealth
+	{ 4, 20729, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Fire Power
+	{ 5, 20736, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Cloak - Dodge
+	{ 6, 20730, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Healing Power
+	{ 7, 20727, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Shadow Power
 }
 data["AhnQiraj"] = {
 	name = ALIL["Ahn'Qiraj"],
@@ -2406,7 +2411,7 @@ data["AhnQiraj"] = {
 				{ 23, 21272 },	-- Blessed Qiraji Musket
 				{ 24, 21244 },	-- Blessed Qiraji Pugio
 				{ 25, 21269 },	-- Blessed Qiraji Bulwark
-				{ 27, 22222 },	-- Plans: Thick Obsidian Breastplate
+				{ 27, 22222, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Thick Obsidian Breastplate
 				{ 29, 93041, "pet1156" },	-- Jewel of Maddening Whispers
 			},
 		},
@@ -2551,7 +2556,7 @@ data["AhnQiraj"] = {
 				{ 5, 21598 },	-- Royal Qiraji Belt
 				{ 6, 21597 },	-- Royal Scepter of Vek'lor
 				{ 7, 21601 },	-- Ring of Emperor Vek'lor
-				{ 8, 20735 },	-- Formula: Enchant Cloak - Subtlety
+				{ 8, 20735, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Cloak - Subtlety
 				{ 9, 93040, "pet1155" },	-- Anubisath Idol
 				{ 11, 21232 },	-- Imperial Qiraji Armaments
 				{ 12, 21242 },	-- Blessed Qiraji War Axe
@@ -2566,7 +2571,7 @@ data["AhnQiraj"] = {
 				{ 21, 21606 },	-- Belt of the Fallen Emperor
 				{ 22, 21679 },	-- Kalimdor's Revenge
 				{ 23, 21608 },	-- Amulet of Vek'nilash
-				{ 24, 20726 },	-- Formula: Enchant Gloves - Threat
+				{ 24, 20726, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Gloves - Threat
 				{ 26, 21237 },	-- Imperial Qiraji Regalia
 				{ 27, 21273 },	-- Blessed Qiraji Acolyte Staff
 				{ 28, 21275 },	-- Blessed Qiraji Augur Staff
@@ -3106,8 +3111,8 @@ data["MoltenCore"] = {
 				{ 16, 16797 },	-- Arcanist Mantle
 				{ 17, 16807 },	-- Felheart Shoulder Pads
 				{ 18, 16836 },	-- Cenarion Spaulders
-				{ 19, 16856 },	-- Lawbringer Spaulders
-				{ 20, 16844 },	-- Earthfury Epaulets
+				{ 19, 16844 },	-- Earthfury Epaulets
+				{ 20, 16856 },	-- Lawbringer Spaulders
 				{ 22, 18563 },	-- Bindings of the Windseeker
 				{ 23, 19019 },	-- Thunderfury, Blessed Blade of the Windseeker
 			},
@@ -3217,9 +3222,9 @@ data["MoltenCore"] = {
 				{ 8, 16962 },	-- Legplates of Wrath
 				{ 9, 16954 },	-- Judgement Legplates
 				{ 11, 17204 },	-- Eye of Sulfuras
-				{ 12, 17182 },	-- Sulfuras, Hand of Ragnaros
+				{ 12, 17182, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Sulfuras, Hand of Ragnaros
 				{ 14, 19017 },	-- Essence of the Firelord
-				{ 15, 19019 },	-- Thunderfury, Blessed Blade of the Windseeker
+				{ 15, 19019, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Thunderfury, Blessed Blade of the Windseeker
 				{ 16, 17102 },	-- Cloak of the Shrouded Mists
 				{ 17, 17107 },	-- Dragon's Blood Cape
 				{ 18, 18817 },	-- Crown of Destruction
@@ -3240,24 +3245,24 @@ data["MoltenCore"] = {
 			name = AL["Shared Boss Loot"],
 			ExtraList = true,
 			[NORMAL_DIFF] = {
-				{ 1, 18264 },	-- Plans: Elemental Sharpening Stone
-				{ 2, 18262 },	-- Elemental Sharpening Stone
-				{ 4, 18292 },	-- Schematic: Core Marksman Rifle
-				{ 5, 18282 },	-- Core Marksman Rifle
-				{ 7, 18291 },	-- Schematic: Force Reactive Disk
-				{ 8, 18168 },	-- Force Reactive Disk
-				{ 10, 18290 },	-- Schematic: Biznicks 247x128 Accurascope
-				{ 11, 18283 },	-- Biznicks 247x128 Accurascope
-				{ 13, 18259 },	-- Formula: Enchant Weapon - Spell Power
-				{ 16, 18252 },	-- Pattern: Core Armor Kit
-				{ 17, 18251 },	-- Core Armor Kit
-				{ 19, 18265 },	-- Pattern: Flarecore Wraps
-				{ 20, 18263 },	-- Flarecore Wraps
-				{ 22, 21371 },	-- Pattern: Core Felcloth Bag
-				{ 23, 21342 },	-- Core Felcloth Bag
-				{ 25, 18257 },	-- Recipe: Major Rejuvenation Potion
-				{ 26, 18253 },	-- Major Rejuvenation Potion
-				{ 28, 18260 },	-- Formula: Enchant Weapon - Healing Power
+				{ 1, 18264, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Elemental Sharpening Stone
+				{ 2, 18262, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Elemental Sharpening Stone
+				{ 4, 18292, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Core Marksman Rifle
+				{ 5, 18282, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Core Marksman Rifle
+				{ 7, 18291, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Force Reactive Disk
+				{ 8, 18168, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Force Reactive Disk
+				{ 10, 18290, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Biznicks 247x128 Accurascope
+				{ 11, 18283, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Biznicks 247x128 Accurascope
+				{ 13, 18259, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Spell Power
+				{ 16, 18252, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Core Armor Kit
+				{ 17, 18251, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Core Armor Kit
+				{ 19, 18265, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Flarecore Wraps
+				{ 20, 18263, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Flarecore Wraps
+				{ 22, 21371, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Core Felcloth Bag
+				{ 23, 21342, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Core Felcloth Bag
+				{ 25, 18257, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Major Rejuvenation Potion
+				{ 26, 18253, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Major Rejuvenation Potion
+				{ 28, 18260, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Healing Power
 			},
 		},
 		{	--MCTrashMobs
@@ -3340,8 +3345,8 @@ data["TheRuinsofAhnQiraj"] = {
 				{ 18, 20884 },	-- Qiraji Magisterial Ring
 				{ 19, 20888 },	-- Qiraji Ceremonial Ring
 				{ 21, "INV_Box_01", nil, BB["Lieutenant General Andorov"], nil },
-				{ 22, 22221 },	-- Plans: Obsidian Mail Tunic
-				{ 23, 22219 },	-- Plans: Jagged Obsidian Shield
+				{ 22, 22221, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Obsidian Mail Tunic
+				{ 23, 22219, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Jagged Obsidian Shield
 			},
 		},
 		{	--AQ20Moam
@@ -3365,7 +3370,7 @@ data["TheRuinsofAhnQiraj"] = {
 				{ 17, 20890 },	-- Qiraji Ornate Hilt
 				{ 18, 20884 },	-- Qiraji Magisterial Ring
 				{ 19, 20888 },	-- Qiraji Ceremonial Ring
-				{ 21, 22220 },	-- Plans: Black Grasp of the Destroyer
+				{ 21, 22220, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Black Grasp of the Destroyer
 				{ 22, 22194 },	-- Black Grasp of the Destroyer
 			},
 		},
