@@ -283,10 +283,9 @@ data["BlackrockDepths"] = {
 				{ 22, 22266 },	-- Flarethorn
 				{ 24, "INV_Box_01", nil, BB["Grizzle"], nil },				--Grizzle
 				{ 25, 11722 },	-- Dregmetal Spaulders
-				{ 26, 22270 },	-- Entrenching Boots
-				{ 27, 11703 },	-- Stonewall Girdle
-				{ 28, 11702 },	-- Grizzle's Skinner
-				{ 30, 11610, [ATLASLOOT_IT_FILTERIGNORE] = true },			-- Plans: Dark Iron Pulverizer
+				{ 26, 11703 },	-- Stonewall Girdle
+				{ 27, 11702 },	-- Grizzle's Skinner
+				{ 29, 11610, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Dark Iron Pulverizer
 				{ 101, "INV_Box_01", nil, BB["Hedrum the Creeper"], nil },	--Hedrum the Creeper
 				{ 102, 11634 },	-- Silkweb Gloves
 				{ 103, 11729 },	-- Savage Gladiator Helm
@@ -469,12 +468,6 @@ data["Deadmines"] = {
 	ContentType = DUNGEON_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	items = {
-		{	--DeadminesMarisaDuPaige
-			name = BB["Marisa du'Paige"].." ("..AL["Rare"]..")",
-			[NORMAL_DIFF] = {
-				{ 1, 4660 },	-- Walking Boots
-			},
-		},
 		{	--DeadminesGlubtok
 			EncounterJournalID = 89,
 			[NORMAL_DIFF] = {
@@ -487,20 +480,25 @@ data["Deadmines"] = {
 		{	--DeadminesGearbreaker
 			EncounterJournalID = 90,
 			[NORMAL_DIFF] = {
-				{ 1, 5199 },	-- Smelting Pants
-				{ 2, 132556 },	-- Smelter's Britches
-				{ 3, 5443 },	-- Gold-Plated Buckler
-				{ 4, 5191 },	-- Cruel Barb
-				{ 5, 5200 },	-- Impaling Harpoon	
+				{ 1, 151062 },	-- Armbands of Exiled Architects
+				{ 2, 5199 },	-- Smelting Pants
+				{ 3, 132556 },	-- Smelter's Britches
+				{ 4, 151063 },	-- Gear-Marked Gauntlets
+				{ 5, 5443 },	-- Gold-Plated Buckler
+				{ 6, 5191 },	-- Cruel Barb
+				{ 7, 5200 },	-- Impaling Harpoon	
 			},
 			[HEROIC_DIFF] = "AtlasLoot_Cataclysm",
 		},
 		{	--DeadminesFoeReaper
 			EncounterJournalID = 91,
 			[NORMAL_DIFF] = {
-				{ 1, 1937 },	-- Buzz Saw
-				{ 2, 5201 },	-- Emberstone Staff
-				{ 3, 5187 },	-- Foe Reaper
+				{ 1, 151064 },	-- Vest of the Curious Visitor
+				{ 2, 151065 },	-- Old Friend's Gloves
+				{ 3, 151066 },	-- Missing Diplomat's Pauldrons
+				{ 4, 1937 },	-- Buzz Saw
+				{ 5, 5201 },	-- Emberstone Staff
+				{ 6, 5187 },	-- Foe Reaper
 			},
 			[HEROIC_DIFF] = "AtlasLoot_Cataclysm",
 		},
@@ -1182,13 +1180,15 @@ data["Maraudon"] = {
 local RAGEFIRE_CHASM_LOOT = {
 	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(694), nil },	--Adarogg
 	{ 2, 82772 },	-- Snarlmouth Leggings
-	{ 3, 82879 },	-- Collarspike Bracers
-	{ 4, 82880 },	-- Fang of Adarogg
-	{ 6, "INV_Box_01", nil, EJ_GetEncounterInfo(695), nil },	--Dark Shaman Koranthal
-	{ 7, 82882 },	-- Dark Ritual Cape
-	{ 8, 82881 },	-- Cuffs of Black Elements
-	{ 9, 82877 },	-- Grasp of the Broken Totem
-	{ 10, 132551 }, -- Dark Shaman's Jerkin
+	{ 3, 151421 },	-- Scorched Blazehound Boots
+	{ 4, 151422 },	-- Bonecoal Waistguard
+	{ 5, 82879 },	-- Collarspike Bracers
+	{ 6, 82880 },	-- Fang of Adarogg
+	{ 8, "INV_Box_01", nil, EJ_GetEncounterInfo(695), nil },	--Dark Shaman Koranthal
+	{ 9, 82882 },	-- Dark Ritual Cape
+	{ 10, 82881 },	-- Cuffs of Black Elements
+	{ 11, 82877 },	-- Grasp of the Broken Totem
+	{ 12, 132551 }, -- Dark Shaman's Jerkin
 	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(696), nil },	--Slagmaw
 	{ 17, 82878 },	-- Fireworm Robes
 	{ 18, 82884 },	-- Chitonous Bracers
@@ -1628,10 +1628,14 @@ data["ShadowfangKeep"] = {
 		{	--ShadowfangSpringvale
 			EncounterJournalID = 98,
 			[NORMAL_DIFF] = {
-				{ 1, 6320 },	-- Commander's Crest", "=ds=#w8#" };
-				{ 2, 3191 },	-- Arced War Axe
-				{ 4, 60879, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Commander's Holy Symbol
-				{ 5, 60880, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Springvale's Sharpening Stone
+				{ 1, 151067 },	-- Boots of Lingering Sorrow
+				{ 2, 151068 },	-- Boots of the Predator
+				{ 3, 151069 },	-- Breastplate of the Stilled Heart
+				{ 4, 151070 },	-- Gloves of the Greymane Wall
+				{ 5, 6320 },	-- Commander's Crest
+				{ 6, 3191 },	-- Arced War Axe
+				{ 8, 60879, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Commander's Holy Symbol
+				{ 9, 60880, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Springvale's Sharpening Stone
 			},
 			[HEROIC_DIFF] = "AtlasLoot_Cataclysm",
 		},
@@ -1652,12 +1656,15 @@ data["ShadowfangKeep"] = {
 			EncounterJournalID = 100,
 			[NORMAL_DIFF] = {
 				{ 1, 3748 },	-- Feline Mantle
-				{ 2, 6220 },	-- Meteor Shard
-				{ 3, 6318 },	-- Odo's Ley Staff
-				{ 4, 6641 },	-- Haunting Blade
-				{ 6, 60877, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Godfrey's Crystal Scope
-				{ 7, 60882, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Tenebrous Orb
-				{ 16, "ac631" },
+				{ 2, 151071 },	-- Gloves of the Uplifted Cup
+				{ 3, 151072 },	-- Worgen Hunter's Helm
+				{ 4, 151073 },	-- Greaves of the Misguided
+				{ 5, 6220 },	-- Meteor Shard
+				{ 6, 6318 },	-- Odo's Ley Staff
+				{ 7, 6641 },	-- Haunting Blade
+				{ 9, 60877, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Godfrey's Crystal Scope
+				{ 10, 60882, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Tenebrous Orb
+				{ 12, "ac631" },
 			},
 			[HEROIC_DIFF] = "AtlasLoot_Cataclysm",
 		},
@@ -1915,18 +1922,22 @@ local STOCKADE_LOOT = {
 	{ 2, 2168 },	-- Corpse Rompers
 	{ 3, 1934 },	-- Hogger's Trousers
 	{ 4, 132569 },	-- Stolen Jailer's Greaves
-	{ 5, 1959 },	-- Cold Iron Pick
-	{ 7, "INV_Box_01", nil, EJ_GetEncounterInfo(465), nil },	--Lord Overheat
-	{ 8, 1929 },	-- Silk-Threaded Trousers
-	{ 9, 5967 },	-- Girdle of Nobility
-	{ 10, 4676 },	-- Skeletal Gauntlets
-	{ 12, 62305, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Lord Overheat's Fiery Core
+	{ 5, 151074 },	-- Turnkey's Pauldons
+	{ 6, 1959 },	-- Cold Iron Pick
+	{ 8, "INV_Box_01", nil, EJ_GetEncounterInfo(465), nil },	--Lord Overheat
+	{ 9, 1929 },	-- Silk-Threaded Trousers
+	{ 10, 5967 },	-- Girdle of Nobility
+	{ 11, 151075 },	-- Cinderstitch Tunic
+	{ 12, 151076 },	-- Fire-Hardened Shackles
+	{ 13, 4676 },	-- Skeletal Gauntlets
+	{ 15, 62305, [ATLASLOOT_IT_FILTERIGNORE] = true },			--Lord Overheat's Fiery Core
 	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(466), nil },	--Randolph Moloch
 	{ 17, 63345 },	-- Noble's Robe
 	{ 18, 63344 },	-- Standard Issue Prisoner Shoes
 	{ 19, 132570 },	-- Stolen Guards Chain Boots
-	{ 20, 63346 },	-- Wicked Dagger
-	{ 22, "ac633" },
+	{ 20, 151077 },	-- Cast Iron Waistplate
+	{ 21, 63346 },	-- Wicked Dagger
+	{ 23, "ac633" },
 }
 data["TheStockade"] = {
 	EncounterJournalID = 238,
