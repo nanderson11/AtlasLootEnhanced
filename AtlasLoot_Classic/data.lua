@@ -58,42 +58,56 @@ local CLASSIC_RAID_AC_TABLE = {	--[Classic Raider]
 }
 
 local BLACKFATHOM_DEEPS_LOOT1 = {
-	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(368), nil },	--Ghamoo-ra
-	{ 2, 6908 },	-- Ghamoo-Ra's Bind
+	{ 1, 6908 },	-- Ghamoo-Ra's Bind
+	{ 2, 151432 },	-- Twilight Turtleskin Leggings
 	{ 3, 6907 },	-- Tortoise Armor
-	{ 5, "INV_Box_01", nil, EJ_GetEncounterInfo(436), nil },	--Domina
-	{ 6, 888 },		-- Naga Battle Gloves
-	{ 7, 132554 },	-- Deadly Serpentine Grips
-	{ 8, 3078 },	-- Naga Heartpiercer
-	{ 9, 11121 },	-- Darkwater Talwar
-	{ 11, "INV_Box_01", nil, EJ_GetEncounterInfo(426), nil },	--Subjugator Kor'ul
-	{ 12, 6906 },	-- Algae Fists
-	{ 13, 6905 },	-- Reef Axe
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(1145), nil },	--Thruk
-	{ 17, 120165 },	-- Thruk's Fillet Knife
-	{ 18, 120164 },	-- Thruk's Heavy Duty Fishing Pole
-	{ 20, 120163 },	-- Thruk's Fishing Rod
-	{ 22, "INV_Box_01", nil, EJ_GetEncounterInfo(447), nil },	--Guardian of the Deep
-	{ 23, 6901 },	-- Glowing Thresher Cape
-	{ 24, 6902 },	-- Bands of Serra'kis
-	{ 25, 132555 },	-- Serra'kis Scale Wraps
-	{ 26, 6904 },	-- Bite of Serra'kis
-	{ 28, "INV_Box_01", nil, EJ_GetEncounterInfo(1144), nil },	--Executioner Gore
-	{ 29, 120167 },	-- Bloody Twilight Cloak
-	{ 30, 120166 },	-- Gorestained Garb
+	{ 4, 151433 },	-- Thick Shellplate Shoulders
 }
 local BLACKFATHOM_DEEPS_LOOT2 = {
-	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(437), nil },	--Twilight Lord Bathiel
-	{ 2, 6903 },	-- Gaze Dreamer Pants
-	{ 3, 1155 },	-- Rod of the Sleepwalker
-	{ 5, "INV_Box_01", nil, EJ_GetEncounterInfo(444), nil },	--Aku'mai
-	{ 6, 6910 },	-- Leech Pants
-	{ 7, 6911 },	-- Moss Cinch
-	{ 8, 132553 },	-- Algae-Twined Waistcord
-	{ 9, 6909 },	-- Strike of the Hydra
-	{ 16, "ac632" },
+	{ 1, 151434 },	-- Foul Shadowsleet Slippers
+	{ 2, 888 },		-- Naga Battle Gloves
+	{ 3, 132554 },	-- Deadly Serpentine Grips
+	{ 4, 151435 },	-- Domina's Deathmaw Greaves
+	{ 5, 3078 },	-- Naga Heartpiercer
+	{ 6, 11121 },	-- Darkwater Talwar
 }
 local BLACKFATHOM_DEEPS_LOOT3 = {
+	{ 1, 6906 },	-- Algae Fists
+	{ 2, 151436 },	-- Murloc Oppressor's Band
+	{ 3, 6905 },	-- Reef Axe
+}
+local BLACKFATHOM_DEEPS_LOOT4 = {
+	{ 1, 151437 },	-- Hook Charm Necklace
+	{ 2, 120165 },	-- Thruk's Fillet Knife
+	{ 3, 120164 },	-- Thruk's Heavy Duty Fishing Pole
+	{ 5, 120163 },	-- Thruk's Fishing Rod
+}
+local BLACKFATHOM_DEEPS_LOOT5 = {
+	{ 1, 6901 },	-- Glowing Thresher Cape
+	{ 2, 6902 },	-- Bands of Serra'kis
+	{ 3, 132555 },	-- Serra'kis Scale Wraps
+	{ 4, 6904 },	-- Bite of Serra'kis
+}
+local BLACKFATHOM_DEEPS_LOOT6 = {
+	{ 1, 120167 },	-- Bloody Twilight Cloak
+	{ 2, 120166 },	-- Gorestained Garb
+}
+local BLACKFATHOM_DEEPS_LOOT7 = {
+	{ 1, 6903 },	-- Gaze Dreamer Pants
+	{ 2, 151438 },	-- Hungering Deepwater Treads
+	{ 3, 151439 },	-- Bathiel's Scale Spaulders
+	{ 4, 151440 },	-- Blackfathom Ascendant's Helm
+	{ 5, 1155 },	-- Rod of the Sleepwalker
+}
+local BLACKFATHOM_DEEPS_LOOT8 = {
+	{ 1, 6910 },	-- Leech Pants
+	{ 2, 6911 },	-- Moss Cinch
+	{ 3, 132553 },	-- Algae-Twined Waistcord
+	{ 4, 151441 },	-- Aku'mai Worshipper's Greatboots
+	{ 5, 6909 },	-- Strike of the Hydra
+	{ 16, "ac632" },
+}
+local BLACKFATHOM_DEEPS_LOOT9 = {
 	{ 1, 1486 },	-- Tree Bark Jacket
 	{ 2, 3416 },	-- Martyr's Chain
 	{ 3, 1491 },	-- Ring of Precision
@@ -118,36 +132,36 @@ data["BlackfathomDeeps"] = {
 		},
 		{	--Domina
 			EncounterJournalID = 436,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT2,
 		},
 		{	--Subjugator Kor'ul
 			EncounterJournalID = 426,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT3,
 		},
 		{	--Throk
 			EncounterJournalID = 1145,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT4,
 		},
 		{	--Guardian of the Deep
 			EncounterJournalID = 447,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT5,
 		},
 		{	--Executioner Gore
 			EncounterJournalID = 1144,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT1,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT6,
 		},
 		{	--Twilight Lord Bathiel
 			EncounterJournalID = 437,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT2,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT7,
 		},
 		{	--Aku'mai
 			EncounterJournalID = 444,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT2,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT8,
 		},
 		{	--Trash Mobs
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT3,
+			[NORMAL_DIFF] = BLACKFATHOM_DEEPS_LOOT9,
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
 	}
@@ -817,59 +831,63 @@ data["DireMaul"] = {
 }
 
 local GNOMEREGAN_LOOT1 = {
-	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(419), nil },	--Grubbis
-	{ 2, 151078 },	-- Shabby Trogg Britches
-	{ 3, 151079 },	-- Chomper-Hide Belt
-	{ 4, 151080 },	-- Grubbis' Protective Pail
-	{ 5, 9445 },	-- Grubbis Paws
-	{ 7, "INV_Box_01", nil, EJ_GetEncounterInfo(420), nil },	--Viscous Fallout
-	{ 8, 9454 },	-- Acidic Walkers
-	{ 9, 151081 },	-- Gnomish Rebreather
-	{ 10, 151082 },	-- Lead Apron
-	{ 11, 151083 },	-- Hazmat Galoshes
-	{ 12, 9453 },	-- Toxic Revenger
-	{ 13, 9452 },	-- Hydrocane
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(421), nil },	--Electrocutioner 6000
-	{ 17, 9448 },	-- Spidertank Oilrag
-	{ 18, 9447 },	-- Electrocutioner Lagnut
-	{ 19, 9446 },	-- Electrocutioner Leg
-	{ 21, "INV_Box_01", nil, EJ_GetEncounterInfo(418), nil },	--Crowd Pummeler 9-60
-	{ 22, 151084 },	-- Grease-Smudged Sash
-	{ 23, 9450 },	-- Gnomebot Operating Boots
-	{ 24, 132558 },	-- Bot Operator's Threads
-	{ 25, 9449 },	-- Manual Crowd Pummeler
-	{ 27, "INV_Box_01", nil, BB["Dark Iron Ambassador"].." ("..AL["Rare"]..")", nil },
-	{ 28, 9455 },	-- Emissary Cuffs
-	{ 29, 9456 },	-- Glass Shooter
-	{ 30, 9457 },	-- Royal Diplomatic Scepter
+	{ 1, 151078 },	-- Shabby Trogg Britches
+	{ 2, 151079 },	-- Chomper-Hide Belt
+	{ 3, 151080 },	-- Grubbis' Protective Pail
+	{ 4, 9445 },	-- Grubbis Paws
 }
 local GNOMEREGAN_LOOT2 = {
+	{ 1, 9454 },	-- Acidic Walkers
+	{ 2, 151081 },	-- Gnomish Rebreather
+	{ 3, 151082 },	-- Lead Apron
+	{ 4, 151083 },	-- Hazmat Galoshes
+	{ 5, 9453 },	-- Toxic Revenger
+	{ 6, 9452 },	-- Hydrocane
+}
+local GNOMEREGAN_LOOT3 = {
+	{ 1, 9448 },	-- Spidertank Oilrag
+	{ 2, 9447 },	-- Electrocutioner Lagnut
+	{ 3, 9446 },	-- Electrocutioner Leg
+}
+local GNOMEREGAN_LOOT4 = {
+	{ 1, 151084 },	-- Grease-Smudged Sash
+	{ 2, 9450 },	-- Gnomebot Operating Boots
+	{ 3, 132558 },	-- Bot Operator's Threads
+	{ 4, 151085 },	-- Glitchbot Helm
+	{ 5, 9449 },	-- Manual Crowd Pummeler
+}
+local GNOMEREGAN_LOOT5 = {
+	{ 1, 9455 },	-- Emissary Cuffs
+	{ 2, 9456 },	-- Glass Shooter
+	{ 3, 9457 },	-- Royal Diplomatic Scepter
+}
+local GNOMEREGAN_LOOT6 = {
 	{ 1, 9492 },	-- Electromagnetic Gigaflux Reactivator
 	{ 2, 9461 },	-- Charged Gear
 	{ 3, 9458 },	-- Thermaplugg's Central Core
 	{ 4, 9459 },	-- Thermaplugg's Left Arm
-	{ 16, 4415, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Craftsman's Monocle
-	{ 17, 11828, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Pet Bombling
-	{ 18, 4413, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Discombobulator Ray
-	{ 19, 4411, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Flame Deflector
-	{ 20, 7742, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Gnomish Cloaking Device
-	{ 22, "ac634" },
+	{ 6, 4415, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Craftsman's Monocle
+	{ 8, 11828, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Pet Bombling
+	{ 9, 4413, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Discombobulator Ray
+	{ 10, 4411, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Flame Deflector
+	{ 12, 7742, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Gnomish Cloaking Device
+	{ 16, "ac634" },
 }
-local GNOMEREGAN_LOOT3 = {
+local GNOMEREGAN_LOOT7 = {
 	{ 1, 9508 },	-- Mechbuilder's Overalls
 	{ 2, 9491 },	-- Hotshot Pilot's Gloves
 	{ 3, 9509 },	-- Petrolspill Leggings
 	{ 4, 9510 },	-- Caverndeep Trudgers
-	{ 5, 9487 },	-- Hi-Tech Supergun
-	{ 6, 9485 },	-- Vibroblade
-	{ 7, 9488 },	-- Oscillating Power Hammer
-	{ 8, 9486 },	-- Supercharger Battle Axe
-	{ 9, 9490 },	-- Gizmotron Megachopper
-	{ 11, 9538 },	-- Talvash's Gold Ring
-	{ 13, 9362 },	-- Brilliant Gold Ring
+	{ 5, 9538 },	-- Talvash's Gold Ring
+	{ 6, 9487 },	-- Hi-Tech Supergun
+	{ 7, 9485 },	-- Vibroblade
+	{ 8, 9488 },	-- Oscillating Power Hammer
+	{ 9, 9486 },	-- Supercharger Battle Axe
+	{ 10, 9490 },	-- Gizmotron Megachopper
+	{ 12, 9362 },	-- Brilliant Gold Ring
 	{ 16, 11827, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Schematic: Lil' Smoky
-	{ 17, 9327, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Security DELTA Data Access Card
-	{ 18, 9326, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Grime-Encrusted Ring
+	{ 18, 9327, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Security DELTA Data Access Card
+	{ 20, 9326, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Grime-Encrusted Ring
 }
 data["Gnomeregan"] = {
 	EncounterJournalID = 231,
@@ -883,28 +901,28 @@ data["Gnomeregan"] = {
 		},
 		{	--Viscous Fallout
 			EncounterJournalID = 420,
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT1,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT2,
 		},
 		{	--Electrocutioner 6000
 			EncounterJournalID = 421,
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT1,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT3,
 		},
 		{	--Crowd Pummeler 9-60
 			EncounterJournalID = 418,
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT1,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT4,
 		},
 		{	--Dark Iron Ambassador
 			name = BB["Dark Iron Ambassador"].." ("..AL["Rare"]..")",
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT1,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT5,
 		},
 		{	--Mekgineer Thermaplugg
 			EncounterJournalID = 422,
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT2,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT6,
 		},
 		{	--Trash
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = GNOMEREGAN_LOOT3,
+			[NORMAL_DIFF] = GNOMEREGAN_LOOT7,
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
 	}
@@ -2171,55 +2189,67 @@ data["Uldaman"] = {
 }
 
 local WAILING_CAVERNS_LOOT1 = {
-	{ 1, "INV_Box_01", nil, BB["Boahn"].." ("..AL["Rare"]..", "..AL["Entrance"]..")", nil },
-	{ 2, 5423 },	-- Boahn's Fang
-	{ 4, 5422 },	-- Brambleweed Leggings
-	{ 6, "INV_Box_01", nil, BB["Trigore the Lasher"].." ("..AL["Rare"]..", "..AL["Entrance"]..")", nil },
-	{ 7, 5425 },	-- Runescale Girdle
-	{ 8, 5426 },	-- Serpent's Kiss
-	{ 10, "INV_Box_01", nil, EJ_GetEncounterInfo(474), nil },	--Lady Anacondra
-	{ 11, 5404 },	-- Serpent's Shoulders
-	{ 12, 10412 },	-- Belt of the Fang
-	{ 13, 132737 },	-- Cavern Slitherer Pauldrons
-	{ 14, 132740 },	-- Slither-Scale Cord
-	{ 15, 6446 },	-- Snakeskin Bag
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(476), nil },	--Lord Pythas
-	{ 17, 6473 },	-- Armor of the Fang
-	{ 18, 132739 },	-- Slither-Scale Hauberk
-	{ 19, 6472 },	-- Stinging Viper
-	{ 21, "INV_Box_01", nil, EJ_GetEncounterInfo(475), nil },	--Lord Cobrahn
-	{ 22, 6465 },	-- Robe of the Moccasin
-	{ 23, 10410 },	-- Leggings of the Fang
-	{ 24, 132742 },	-- Slither-Scale Britches
-	{ 25, 6460 },	-- Cobrahn's Grasp
-	{ 27, "INV_Box_01", nil, EJ_GetEncounterInfo(477), nil },	--Kres-h
-	{ 28, 13245 },	-- Kresh's Back
-	{ 29, 6447 },	-- Worn Turtle Shell Shield
+	{ 1, 5423 },	-- Boahn's Fang
+	{ 3, 5422 },	-- Brambleweed Leggings
 }
 local WAILING_CAVERNS_LOOT2 = {
-	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(478), nil },	--Skum
-	{ 2, 6449 },	-- Glowing Lizardscale Cloak
-	{ 3, 6448 },	-- Tail Spike
-	{ 5, "INV_Box_01", nil, BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")", nil },
-	{ 6, 6632 },	-- Feyscale Cloak
-	{ 7, 5243 },	-- Firebelcher
-	{ 9, "INV_Box_01", nil, EJ_GetEncounterInfo(479), nil },	--Lord Serpentis
-	{ 10, 5970 },	-- Serpent Gloves
-	{ 11, 10411 },	-- Footpads of the Fang
-	{ 12, 132741 },	-- Slither-Scale Boots
-	{ 13, 6459 },	-- Savage Trodders
-	{ 14, 6469 },	-- Venomstrike
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(480), nil },	--Verdan the Everliving
-	{ 17, 6629 },	-- Sporid Cape
-	{ 18, 6630 },	-- Seedcloud Buckler
-	{ 19, 6631 },	-- Living Root
-	{ 21, "INV_Box_01", nil, EJ_GetEncounterInfo(481), nil },	--Mutanus the Devourer
-	{ 22, 6461 },	-- Slime-Encrusted Pads
-	{ 23, 6627 },	-- Mutant Scale Breastplate
-	{ 24, 6463 },	-- Deep Fathom Ring
-	{ 26, "ac630" },
+	{ 1, 5425 },	-- Runescale Girdle
+	{ 2, 5426 },	-- Serpent's Kiss
 }
 local WAILING_CAVERNS_LOOT3 = {
+	{ 1, 151426 },	-- Lady Anadondra's Satin Cuffs
+	{ 2, 5404 },	-- Serpent's Shoulders
+	{ 3, 10412 },	-- Belt of the Fang
+	{ 4, 132737 },	-- Cavern Slitherer Pauldrons
+	{ 5, 132740 },	-- Slither-Scale Cord
+	{ 6, 151427 },	-- Snake Charmer's Casque
+	{ 8, 6446 },	-- Snakeskin Bag
+}
+local WAILING_CAVERNS_LOOT4 = {
+	{ 1, 151428 },	-- Slumbersilk Waistcord
+	{ 2, 6473 },	-- Armor of the Fang
+	{ 3, 132739 },	-- Slither-Scale Hauberk
+	{ 4, 151429 },	-- Lord Pythas' Pauldrons
+	{ 5, 6472 },	-- Stinging Viper
+}
+local WAILING_CAVERNS_LOOT5 = {
+	{ 1, 6465 },	-- Robe of the Moccasin
+	{ 2, 10410 },	-- Leggings of the Fang
+	{ 3, 132742 },	-- Slither-Scale Britches
+	{ 4, 6460 },	-- Cobrahn's Grasp
+}
+local WAILING_CAVERNS_LOOT6 = {
+	{ 1, 151430 },	-- Hematite Tortoise Pendant
+	{ 2, 13245 },	-- Kresh's Back
+	{ 3, 6447 },	-- Worn Turtle Shell Shield
+}
+local WAILING_CAVERNS_LOOT7 = {
+	{ 1, 6449 },	-- Glowing Lizardscale Cloak
+	{ 2, 6448 },	-- Tail Spike
+}
+local WAILING_CAVERNS_LOOT8 = {
+	{ 1, 6632 },	-- Feyscale Cloak
+	{ 2, 5243 },	-- Firebelcher
+}
+local WAILING_CAVERNS_LOOT9 = {
+	{ 1, 5970 },	-- Serpent Gloves
+	{ 2, 10411 },	-- Footpads of the Fang
+	{ 3, 132741 },	-- Slither-Scale Boots
+	{ 4, 6459 },	-- Savage Trodders
+	{ 5, 6469 },	-- Venomstrike
+}
+local WAILING_CAVERNS_LOOT10 = {
+	{ 1, 6629 },	-- Sporid Cape
+	{ 2, 6630 },	-- Seedcloud Buckler
+	{ 3, 6631 },	-- Living Root
+}
+local WAILING_CAVERNS_LOOT11 = {
+	{ 1, 6461 },	-- Slime-Encrusted Pads
+	{ 2, 6627 },	-- Mutant Scale Breastplate
+	{ 3, 6463 },	-- Deep Fathom Ring
+	{ 16, "ac630" },
+}
+local WAILING_CAVERNS_LOOT12 = {
 	{ 1, 12987 },	-- Darkweave Breeches
 	{ 2, 10413 },	-- Gloves of the Fang
 	{ 3, 132743 },	-- Slither-Scale Gauntlets
@@ -2236,48 +2266,48 @@ data["WailingCaverns"] = {
 		},
 		{	--Trigore the Lasher
 			name = BB["Trigore the Lasher"].." ("..AL["Rare"]..", "..AL["Entrance"]..")",
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
 		},
 		{	--Lady Anacondra
 			EncounterJournalID = 474,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT3,
 		},
 		{	--Lord Pythas
 			EncounterJournalID = 476,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT4,
 		},
 		{	--Lord Cobrahn
 			EncounterJournalID = 475,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT5,
 		},
 		{	--Kres-h
 			EncounterJournalID = 477,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT6,
 		},
 		{	--Skum
 			EncounterJournalID = 478,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT7,
 		},
 		{	--Deviate Faerie Dragon
 			name = BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")",
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT8,
 		},
 		{	--Lord Serpentis
 			EncounterJournalID = 479,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT9,
 		},
 		{	--Verdan the Everliving
 			EncounterJournalID = 480,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT10,
 		},
 		{	--Mutanus the Devourer
 			EncounterJournalID = 481,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT11,
 		},
 		{	--Trash Mobs
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT3,
+			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT12,
 		},
 		{	--Miscellaneous Sets
 			name = AL["Miscellaneous"].." "..AL["Sets"],
