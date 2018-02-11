@@ -1256,32 +1256,37 @@ data["RagefireChasm"] = {
 }
 
 local RAZORFEN_DOWNS_LOOT1 = {
-	{ 1, "INV_Box_01", nil, EJ_GetEncounterInfo(1142), nil },	--Aarux
-	{ 2, 10776 },	-- Silky Spider Cape
-	{ 3, 10777 },	-- Arachnid Gloves
-	{ 4, 10775 },	-- Carapace of Tuten'kash
-	{ 6, "INV_Box_01", nil, EJ_GetEncounterInfo(433), nil },	--Mordresh Fire Eye
-	{ 7, 10771 },	-- Deathmage Sash
-	{ 8, 10769 },	-- Glowing Eye of Mordresh
-	{ 9, 10770 },	-- Mordresh's Lifeless Skull
-	{ 11, "INV_Box_01", nil, EJ_GetEncounterInfo(1143), nil },	--Mushlump
-	{ 12, 10774 },	-- Fleshhide Shoulders
-	{ 13, 10772 },	-- Glutton's Cleaver
-	{ 16, "INV_Box_01", nil, EJ_GetEncounterInfo(1146), nil },	--Death Speaker Blackthorn
-	{ 17, 10760 },	-- Swine Fists
-	{ 18, 10768 },	-- Boar Champion's Belt
-	{ 19, 10767 },	-- Savage Boar's Guard
-	{ 20, 10758 },	-- X'caliboar
-	{ 21, 10766 },	-- Plaguerot Sprig
-	{ 23, "INV_Box_01", nil, EJ_GetEncounterInfo(1141), nil },	--Amnennar the Coldbringer
-	{ 24, 10762 },	-- Robes of the Lich
-	{ 25, 10765 },	-- Bonefingers
-	{ 26, 10764 },	-- Deathchill Armor
-	{ 27, 10763 },	-- Icemetal Barbute
-	{ 28, 10761 },	-- Coldrage Dagger
-	{ 30, "ac636" },
+	{ 1, 10776 },	-- Silky Spider Cape
+	{ 2, 10777 },	-- Arachnid Gloves
+	{ 3, 10775 },	-- Carapace of Tuten'kash
 }
 local RAZORFEN_DOWNS_LOOT2 = {
+	{ 1, 10771 },	-- Deathmage Sash
+	{ 2, 10769 },	-- Glowing Eye of Mordresh
+	{ 3, 10770 },	-- Mordresh's Lifeless Skull
+}
+local RAZORFEN_DOWNS_LOOT3 = {
+	{ 1, 10774 },	-- Fleshhide Shoulders
+	{ 2, 151453 },	-- Grungy Necromantic Ring
+	{ 3, 10772 },	-- Glutton's Cleaver
+}
+local RAZORFEN_DOWNS_LOOT4 = {
+	{ 1, 10760 },	-- Swine Fists
+	{ 2, 10768 },	-- Boar Champion's Belt
+	{ 3, 151454 },	-- Splinterbone Sabatons
+	{ 4, 10767 },	-- Savage Boar's Guard
+	{ 5, 10758 },	-- X'caliboar
+	{ 6, 10766 },	-- Plaguerot Sprig
+}
+local RAZORFEN_DOWNS_LOOT5 = {
+	{ 1, 10762 },	-- Robes of the Lich
+	{ 2, 10765 },	-- Bonefingers
+	{ 3, 10764 },	-- Deathchill Armor
+	{ 4, 10763 },	-- Icemetal Barbute
+	{ 5, 10761 },	-- Coldrage Dagger
+	{ 16, "ac636" },
+}
+local RAZORFEN_DOWNS_LOOT6 = {
 	{ 1, 10581 },	-- Death's Head Vestment
 	{ 2, 10578 },	-- Thoughtcast Boots
 	{ 3, 10574 },	-- Corpseshroud
@@ -1306,24 +1311,24 @@ data["RazorfenDowns"] = {
 		},
 		{	--Mordresh Fire Eye
 			EncounterJournalID = 433,
-			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT1,
+			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT2,
 		},
 		{	--Mushlump
 			EncounterJournalID = 1143,
-			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT1,
+			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT3,
 		},
 		{	--Death Speaker Blackthorn
 			EncounterJournalID = 1146,
-			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT1,
+			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT4,
 		},
 		{	--Amnennar the Coldbringer
 			EncounterJournalID = 1141,
-			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT1,
+			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT5,
 		},
 		{	--Trash
 			name = AL["Trash Mobs"],
 			ExtraList = true,
-			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT2,
+			[NORMAL_DIFF] = RAZORFEN_DOWNS_LOOT6,
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
 	}
@@ -1768,8 +1773,8 @@ data["Stratholme"] = {
 				{ 2, 13390 },	-- The Postmaster's Band
 				{ 3, 13388 },	-- The Postmaster's Tunic
 				{ 4, 13389 },	-- The Postmaster's Trousers
-				{ 16, 13392 },	-- The Postmaster's Seal
-				{ 18, 13393 },	-- Malown's Slam
+				{ 5, 13392 },	-- The Postmaster's Seal
+				{ 6, 13393 },	-- Malown's Slam
 			},
 		},			
 		{	--STRATTimmytheCruel
@@ -1782,6 +1787,12 @@ data["Stratholme"] = {
 				{ 5, 13401 },	-- The Cruel Hand of Timmy
 			},
 		},
+		{	--STRATCommanderMalor
+			name = BB["Commander Malor"],
+			[NORMAL_DIFF] = {
+				{ 1, 22403 },	-- Diana's Pearl Necklace
+			},
+		},	
 		{	--STRATWilleyHopebreaker
 			EncounterJournalID = 446,
 			[NORMAL_DIFF] = {
@@ -1911,12 +1922,12 @@ data["Stratholme"] = {
 				{ 8, 13344 },	-- Dracorian Gauntlets
 				{ 9, 22410 },	-- Gauntlets of Deftness
 				{ 10, 22411 },	-- Helm of the Executioner
-				{ 12, 13345 },	-- Seal of Rivendare
-				{ 16, 13368 },	-- Bonescraper
-				{ 17, 13349 },	-- Scepter of the Unholy
-				{ 18, 13361 },	-- Skullforge Reaver
-				{ 19, 22408 },	-- Ritssyn's Wand of Bad Mojo
-				{ 21, "ac646" },
+				{ 11, 13345 },	-- Seal of Rivendare
+				{ 12, 13368 },	-- Bonescraper
+				{ 13, 13349 },	-- Scepter of the Unholy
+				{ 14, 13361 },	-- Skullforge Reaver
+				{ 15, 22408 },	-- Ritssyn's Wand of Bad Mojo
+				{ 16, "ac646" },
 			},
 		},
 		{	--STRATTrash
@@ -2357,11 +2368,19 @@ data["ZulFarrak"] = {
 				{ 6, 9372, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Sul'thraze the Lasher
 			},
 		},
-		{	--ZFWitchDoctorZumrah
+		{	--ZFThekaTheMartyr
+			name = "Theka the Martyr",
+			[NORMAL_DIFF] = {
+				{ 1, 151456 },	-- Theka's Seal of Vigilance
+				{ 3, 10660, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- First Mosh'aru Tablet
+			},
+		},
+		{	--ZFWitchDoctorZum'rah
 			EncounterJournalID = 486,
 			[NORMAL_DIFF] = {
 				{ 1, 18083 },	-- Jumanza Grips
-				{ 2, 18082 },	-- Zum'rah's Vexing Cane
+				{ 2, 151457 },	-- Witch Doctor's Ritual Collar
+				{ 3, 18082 },	-- Zum'rah's Vexing Cane
 			},
 		},
 		{	--ZFHydromancerVelratha
@@ -2373,9 +2392,10 @@ data["ZulFarrak"] = {
 		{	--ZFGahzrilla
 			EncounterJournalID = 483,
 			[NORMAL_DIFF] = {
-				{ 1, 9469 },	-- Gahz'rilla Scale Armor
-				{ 2, 9467 },	-- Gahz'rilla Fang
-				{ 4, 8707, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Gahz'rilla's Electrified Scale
+				{ 1, 151455 },	-- Gahz'rilla Scale Cloak
+				{ 2, 9469 },	-- Gahz'rilla Scale Armor
+				{ 3, 9467 },	-- Gahz'rilla Fang
+				{ 5, 8707, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Gahz'rilla's Electrified Scale
 			},
 		},
 		{	--ZFSezzziz
@@ -2384,7 +2404,9 @@ data["ZulFarrak"] = {
 				{ 1, 9470 },	-- Bad Mojo Mask
 				{ 2, 9473 },	-- Jinxed Hoodoo Skin
 				{ 3, 9474 },	-- Jinxed Hoodoo Kilt
-				{ 4, 9475 },	-- Diabolic Skiver
+				{ 4, 151458 },	-- Sezz'ziz's Captive Kickers
+				{ 5, 151459 },	-- Nekrum's Witherguard
+				{ 6, 9475 },	-- Diabolic Skiver
 			},
 		},
 		{	--ZFDustwraith
@@ -2396,12 +2418,14 @@ data["ZulFarrak"] = {
 		{	--ZFChiefUkorzSandscalp
 			EncounterJournalID = 489,
 			[NORMAL_DIFF] = {
-				{ 1, 9479 },	-- Embrace of the Lycan
-				{ 2, 9476 },	-- Big Bad Pauldrons
-				{ 3, 9478 },	-- Ripsaw
-				{ 4, 9477 },	-- The Chief's Enforcer
-				{ 6, 11086 },	-- Jang'thraze the Protector
-				{ 7, 9372, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Sul'thraze the Lasher
+				{ 1, 151460 },	-- Farraki Ceremonial Robes
+				{ 2, 9479 },	-- Embrace of the Lycan
+				{ 3, 151461 },	-- Ukorz's Chain Leggings
+				{ 4, 9476 },	-- Big Bad Pauldrons
+				{ 5, 9478 },	-- Ripsaw
+				{ 6, 9477 },	-- The Chief's Enforcer
+				{ 8, 11086 },	-- Jang'thraze the Protector
+				{ 9, 9372, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Sul'thraze the Lasher
 				{ 16, "ac639" },
 			},
 		},
