@@ -1039,7 +1039,7 @@ data["LowerBlackrockSpire"] = {
 				{ 3, 151415 },	-- Veteran Spearman's Chain Boots
 				{ 4, 151416 },	-- Dark Horde Grunt's Legplates
 				{ 6, 12835, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Plans: Annihilator
-				{ 7, 21955, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Design: Black Diamond Crab
+				{ 8, 21955, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Design: Black Diamond Crab
 				{ 16, 12264, "pet89" },	-- Worg Carrier
 			},
 		},
@@ -1086,10 +1086,10 @@ data["LowerBlackrockSpire"] = {
 			ExtraList = true,
 			[NORMAL_DIFF] = {
 				{ 1, 14513, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Robe of the Archmage
-				{ 3, 13494, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Greater Fire Protection Potion
-				{ 4, 16250, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Superior Striking
-				{ 5, 15749, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Breastplate
-				{ 6, 15775, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Shoulders
+				{ 3, 16250, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Formula: Enchant Weapon - Superior Striking
+				{ 4, 15749, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Breastplate
+				{ 5, 15775, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Pattern: Volcanic Shoulders
+				{ 6, 13494, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Recipe: Greater Fire Protection Potion
 			},
 		},
 		CLASSIC_INSTANCE_AC_TABLE,
