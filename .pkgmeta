@@ -33,14 +33,6 @@ externals:
     AtlasLoot/Libs/LibDialog-1.0: 
         url: https://repos.wowace.com/wow/libdialog-1-0
 
-ignore:
-    - AtlasLoot/Images/PSD
-    - AtlasLoot/AtlasLoot/Images/PSD
-    - AtlasLoot/DEVTOOLS.lua
-    - AtlasLoot/AtlasLoot/DEVTOOLS.lua
-    - AtlasLoot/Libs/AceGUI-3.0
-    - AtlasLoot/AtlasLoot/Libs/AceGUI-3.0
-
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
     AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic
@@ -56,4 +48,9 @@ move-folders:
     AtlasLoot/AtlasLoot_PvP: AtlasLoot_PvP
     AtlasLoot/AtlasLoot_WorldEvents: AtlasLoot_WorldEvents
     AtlasLoot/AtlasLoot_Options: AtlasLoot_Options
+
+ignore:
+    - AtlasLoot/Images/PSD
+    - AtlasLoot/DEVTOOLS.lua
+    - AtlasLoot/Libs/AceGUI-3.0
 
