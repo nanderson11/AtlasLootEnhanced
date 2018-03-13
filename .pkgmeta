@@ -15,6 +15,7 @@ externals:
 # SVN
     AtlasLoot/Libs/CallbackHandler-1.0: 
         url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+# AceGUI is only needed in development mode
 #    AtlasLoot/Libs/AceGUI-3.0: 
 #        url: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
     AtlasLoot/Libs/LibStub: 
@@ -53,4 +54,3 @@ ignore:
     - AtlasLoot/Images/PSD
     - AtlasLoot/DEVTOOLS.lua
     - AtlasLoot/Libs/AceGUI-3.0
-
