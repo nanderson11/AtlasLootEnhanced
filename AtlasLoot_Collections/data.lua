@@ -1338,7 +1338,7 @@ data["MOUNTS"] = {
 				{ 106, 85429, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Golden Cloud Serpent
 				{ 107, 85430, "mount", [PRICE_EXTRA_ITTYPE] = "money:30000000" }, -- Reins of the Azure Cloud Serpent
 				-- Shado-Pan, MoP
-				{ 109, "f1435rep8" },
+				{ 109, "f1270rep8" },
 				{ 110, 89305, "mount", [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Reins of the Green Shado-Pan Riding Tiger
 				{ 111, 89306, "mount", [PRICE_EXTRA_ITTYPE] = "money:25000000" }, -- Reins of the Red Shado-Pan Riding Tiger
 				{ 112, 89307, "mount", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Reins of the Blue Shado-Pan Riding Tiger
