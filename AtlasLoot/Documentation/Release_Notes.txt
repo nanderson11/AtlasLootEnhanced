@@ -8,6 +8,7 @@ Patch Notes
 v8.07.12 (Apr. xx, 2018)
 ========================
 - Fixed wrong faction was pointed to three of the mounts available from Shado Pan vendor
+- Added mount - Darkmoon Dirigible in World Events - Darkmoon Faire
 
 v8.07.11 (Mar. 20, 2018)
 ========================
