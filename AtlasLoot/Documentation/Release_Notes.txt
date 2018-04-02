@@ -9,6 +9,14 @@ v8.07.12 (Apr. xx, 2018)
 ========================
 - Fixed wrong faction was pointed to three of the mounts available from Shado Pan vendor
 - Added mount - Darkmoon Dirigible in World Events - Darkmoon Faire
+- Corrected boss name - Blood-Queen Lana'thel in Icecrown Citadel
+- Added WoLTK battle pets:
+  - Icecrown citadel:
+    - Boneshard, Blood Beast, Blightbreath, Soulbroken Whelpling, Drudge Ghoul
+  - Trial of the Crusader:
+    - Dreadmaw, Snobold Runt, Nerubian Swarmer
+  - Ulduar:
+    - Magma Rageling, Ironbound Proto-Whelp, Runeforged Servitor, Sanctum Cub, Winter Rageling, Snaplasher, G0-R41-0N Ultratonk, Creeping Tentacle
 
 v8.07.11 (Mar. 20, 2018)
 ========================
