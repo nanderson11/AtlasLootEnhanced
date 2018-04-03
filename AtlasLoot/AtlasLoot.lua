@@ -98,6 +98,7 @@ function AtlasLoot:OnInitialize()
 		end
 	end
 ]]
+-- scan for mount info
 --[[
 	self.db.MOUNTINFO = {}
 	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
@@ -107,7 +108,9 @@ function AtlasLoot:OnInitialize()
 	--print(C_MountJournal.GetMountInfoByID(i))
 		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
 		if creatureName and mountID then
-			self.db.MOUNTINFO[creatureName] = { "mountID"=mountID, "spellID"=spellID }
+			self.db.MOUNTINFO[creatureName] = {}
+			self.db.MOUNTINFO[creatureName]["mountID"]=mountID
+			self.db.MOUNTINFO[creatureName]["spellID"]=spellID
 		end
 	end
 ]]
