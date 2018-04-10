@@ -15,6 +15,7 @@ v8.07.13 (Apr. xx, 2018)
   - Added item: Brawler's Razor Claws
   - Added shirts
   - Added items to be purchased by using Brawler's Gold
+  - Added challenge cards
 
 v8.07.12 (Apr. 03, 2018)
 ========================

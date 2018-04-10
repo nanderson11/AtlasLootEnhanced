@@ -303,6 +303,53 @@ data["BrawlersGuild"] = {
 				{ 17, 98543, "ac9177" },	-- Wraps of the Blood-Soaked Brawler
 			},
 		},
+		{ -- Challenge Card
+			name = AL["Challenge Card"],
+			[ALLIANCE_DIFF] = {
+				{ 1, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 1), nil },
+				{ 2, 143899 }, -- Challenge Card: Oso the Betrayer
+				{ 3, 97285 }, -- Challenge Card: Grandpa Grumplefloot
+				{ 4, 142042 }, -- Challenge Card: Ooliss
+				{ 5, 142035 }, -- Challenge Card: Warhammer Council
+				{ 6, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 2), nil },
+				{ 7, 94162 }, -- Challenge Card: Dippy
+				{ 8, 142041 }, -- Challenge Card: Bill the Janitor
+				{ 9, 94167 }, -- Challenge Card: Sanoriak
+				{ 10, 142036 }, --Challenge Card: Master Paku
+				{ 11, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 3), nil },
+				{ 12, 142043 }, -- Challenge Card: Doomflipper
+				{ 13, 94166 }, -- Challenge Card: Blat
+				{ 14, 142032 }, -- Challenge Card: Johnny Awesome
+				{ 15, 142039 }, -- Challenge Card: Shadowmaster Aameen
+				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 4), nil },
+				{ 17, 142030 }, -- Challenge Card: Burnstachio
+				{ 18, 94181 }, -- Challenge Card: Meatball
+				{ 19, 94178 }, -- Challenge Card: G.G. Engineering
+				{ 20, 142045 }, -- Challenge Card: Stitches
+				{ 21, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 5), nil },
+				{ 22, 142026 }, -- Challenge Card: Blackmange
+				{ 23, 97566 }, -- Challenge Card: Razorgrin
+				{ 24, 94177 }, -- Challenge Card: Leper Gnomes
+				{ 25, 142028 }, -- Challenge Card: Thwack U
+				{ 26, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 6), nil },
+				{ 27, 142033 }, -- Challenge Card: Carl
+				{ 28, 94174 }, -- Challenge Card: Millie Watt
+				{ 29, 142029 }, -- Challenge Card: Ogrewatch
+				{ 30, 142037 }, -- Challenge Card: Topps
+				{ 101, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 7), nil },
+				{ 102, 97283 }, -- Challenge Card: Nibbleh
+				{ 103, 142038 }, -- Challenge Card: Serpent of Old
+				{ 104, 94182 }, -- Challenge Card: Epicus Maximus
+				{ 105, 142031 }, -- Challenge Card: Ray D. Tear
+				{ 106, 143794 }, -- Challenge Card: A Seagull
+				{ 107, 142040 }, -- Challenge Card: Ash'katzuum
+				{ 108, 142034 }, -- Challenge Card: Beat Box
+				{ 109, 142044 }, -- Challenge Card: Strange Thing
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
 		{ -- Miscellaneous
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {

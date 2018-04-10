@@ -351,4 +351,5 @@ AL["Transmoggable Replicas"] = true
 AL["Vanity Gear"] = true
 AL["Vendor"] = true
 AL["Wands"] = true
+AL["Challenge Card"] = true -- Brawler's Guild
 --@end-do-not-package@
