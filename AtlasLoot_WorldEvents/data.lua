@@ -344,6 +344,12 @@ data["BrawlersGuild"] = {
 				{ 16, 144371 }, -- Gorestained Tunic
 				{ 17, 144366 }, -- Dubvest
 				{ 18, 144367 }, -- Observer's Shirt
+				{ 19, 144372 }, -- Hide of the Murderaffe
+				{ 20, 144365 }, -- The Very Best Shirt
+				{ 21, 144370 }, -- Croc-Tooth Harness
+				{ 22, 144368 }, -- Felfeather Jersey
+				{ 23, 151263 }, -- Electrified Compression Shirt
+
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
