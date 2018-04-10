@@ -247,42 +247,32 @@ data["BrawlersGuild"] = {
 		{	--Rank1-4
 			name = format(AL["Rank %d"], 1).." - "..format(AL["Rank %d"], 4),
 			[ALLIANCE_DIFF] = {
-				-- Potions
-				{ 1, 118916, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Healing Tonic
-				{ 2, 118910, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Agility Potion
-				{ 3, 118911, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Intellect Potion
-				{ 4, 118912, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Strength Potion
-				{ 5, 142325, [PRICE_EXTRA_ITTYPE] = "money:20000" },	-- Brawler's Ancient Healing Potion, added in 7.1.5.23360
-				{ 6, 142326, [PRICE_EXTRA_ITTYPE] = "money:150000" },	-- Brawler's Potion of Prolonged Power, added in 7.1.5.23360
+				--{ 1, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 2), nil },
+				-- no longer available { 2, 118907, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
 				
-				{ 8, 93043, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Apple
-				{ 9, 93044, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Banana
-				{ 10, 93045, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Watermelon
-				{ 11, 93158, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Expired Blackout Brew
+				{ 1, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 3), nil },
+				{ 2, 93025, "pet1142", [PRICE_EXTRA_ITTYPE] = "money:3000" },	-- Clock'em
+				{ 3, 144394, "pet2022", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden, Added in patch 7.1.5.23360
 				
-				{ 13, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 2), nil },
-				{ 14, 118907, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
-				{ 15, 93025, "pet1142", [PRICE_EXTRA_ITTYPE] = "money:3000" },	-- Clock'em
-				
-				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 3), nil },
-				{ 17, 144394, "pet2022", [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden, Added in patch 7.1.5.23360
-				{ 19, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 4), nil },
-				{ 20, 98079, [QUEST_EXTRA_ITTYPE] = 32837 },	-- Floot-Tooter's Tunic
-				{ 21, 98081, [QUEST_EXTRA_ITTYPE] = 32841 },	-- The Boomshirt
-				{ 22, 98082, [QUEST_EXTRA_ITTYPE] = 32859 },	-- Undisputed Champion's Shirt
-				{ 23, 118913, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Agility Potion
-				{ 24, 118914, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Intellect Potion
-				{ 25, 118915, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Strength Potion
-				{ 26, 144391, [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
+				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 4), nil },
+				--[[ no longer available
+				{ 17, 98079, [QUEST_EXTRA_ITTYPE] = 32837 },	-- Floot-Tooter's Tunic
+				{ 18, 98081, [QUEST_EXTRA_ITTYPE] = 32841 },	-- The Boomshirt
+				{ 19, 98082, [QUEST_EXTRA_ITTYPE] = 32859 },	-- Undisputed Champion's Shirt
+				{ 20, 118913, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Agility Potion
+				{ 21, 118914, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Intellect Potion
+				{ 22, 118915, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Strength Potion
+				]]
+				{ 17, 144391, [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
 				--{ 27, 93195, "ac9169" },	-- Brawler's Pass
-				{ 27, 93195, "ac11563" },	-- Brawler's Pass
+				{ 18, 93195, "ac11563" },	-- Brawler's Pass
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 14, 118908, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
-				{ 26, 144392, [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
+				-- { 14, 118908, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
+				{ 17, 144392, [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
 				--{ 27, 93228, "ac9173" },	-- Brawler's Pass
-				{ 27, 93228, "ac11564" },	-- Brawler's Pass
+				{ 18, 93228, "ac11564" },	-- Brawler's Pass
 			},
 		},
 		{	--Rank5-8
@@ -313,7 +303,7 @@ data["BrawlersGuild"] = {
 				{ 17, 98543, "ac9177" },	-- Wraps of the Blood-Soaked Brawler
 			},
 		},
-		{
+		{ -- achievements
 			name = ACHIEVEMENTS,
 			[ALLIANCE_DIFF] = {
 				{ 1, "ac11558" }, -- The First Rule of Brawler's Guild
@@ -333,12 +323,27 @@ data["BrawlersGuild"] = {
 				{ 4, "ac11566" }, -- King of the Guild
 			},
 		},
-		{
+		{ -- Miscellaneous
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 144371 }, -- Gorestained Tunic
-				{ 2, 144366 }, -- Dubvest
-				{ 3, 144367 }, -- Observer's Shirt
+				-- Potions
+				--[[ no longer available
+				{ 1, 118916, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Healing Tonic
+				{ 2, 118910, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Agility Potion
+				{ 3, 118911, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Intellect Potion
+				{ 4, 118912, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Strength Potion
+				]]
+				{ 1, 142325, [PRICE_EXTRA_ITTYPE] = "money:20000" },	-- Brawler's Ancient Healing Potion, added in 7.1.5.23360
+				{ 2, 142326, [PRICE_EXTRA_ITTYPE] = "money:150000" },	-- Brawler's Potion of Prolonged Power, added in 7.1.5.23360
+				
+				{ 4, 93043, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Apple
+				{ 5, 93044, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Banana
+				{ 6, 93045, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Rotten Watermelon
+				{ 7, 93158, [PRICE_EXTRA_ITTYPE] = "money:10000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Expired Blackout Brew
+				
+				{ 16, 144371 }, -- Gorestained Tunic
+				{ 17, 144366 }, -- Dubvest
+				{ 18, 144367 }, -- Observer's Shirt
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
