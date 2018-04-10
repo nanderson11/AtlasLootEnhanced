@@ -16,6 +16,8 @@ v8.07.13 (Apr. xx, 2018)
   - Added shirts
   - Added items to be purchased by using Brawler's Gold
   - Added challenge cards
+- Update Darkmoon Faire
+  - Added new toy: Blight Boar Microphone
 
 v8.07.12 (Apr. 03, 2018)
 ========================

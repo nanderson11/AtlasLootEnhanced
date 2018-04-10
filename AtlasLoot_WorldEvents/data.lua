@@ -458,6 +458,7 @@ data["DarkmoonFaire"] = {
 				{ 6, 105898 },	-- Moonfang's Paw (Drop: Moonfang)
 				{ 7, 101571 },	-- Moonfang Shroud (Drop: Moonfang)
 				{ 8, 116067, [QUEST_EXTRA_ITTYPE] = 36477 },	-- Ring of Broken Promises
+				{ 9, 151265 }, -- Blight Boar Microphone (Drop: Death Metal Knight)
 				{ 10, 19291, [PRICE_EXTRA_ITTYPE] = "darkmoon:1" },	-- Darkmoon Storage Box
 				{ 11, 74142, [PRICE_EXTRA_ITTYPE] = "money:100" },	-- Darkmoon Firework
 				{ 12, 93730, [PRICE_EXTRA_ITTYPE] = "darkmoon:10" },	-- Darkmoon Top Hat
