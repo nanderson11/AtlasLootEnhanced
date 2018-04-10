@@ -303,26 +303,6 @@ data["BrawlersGuild"] = {
 				{ 17, 98543, "ac9177" },	-- Wraps of the Blood-Soaked Brawler
 			},
 		},
-		{ -- achievements
-			name = ACHIEVEMENTS,
-			[ALLIANCE_DIFF] = {
-				{ 1, "ac11558" }, -- The First Rule of Brawler's Guild
-				{ 2, "ac11560" }, -- You Are Not Your $#*@! Legplates
-				{ 3, "ac11563" }, -- The Second Rule of Brawler's Guild
-				{ 4, "ac11565" }, -- King of the Guild
-				{ 5, "ac11567" }, -- You Are Not The Contents Of Your Wallet
-				{ 6, "ac11570" }, -- Educated Guesser
-				{ 7, "ac11572" }, -- I Am Thrall's Complete Lack Of Surprise
-				{ 8, "ac11573" }, -- Rumble Club
-			},
-			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, "ac11559" }, -- The First Rule of Brawler's Guild
-				{ 2, "ac11561" }, -- You Are Not Your $#*@! Legplates
-				{ 3, "ac11564" }, -- The Second Rule of Brawler's Guild
-				{ 4, "ac11566" }, -- King of the Guild
-			},
-		},
 		{ -- Miscellaneous
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
@@ -350,9 +330,44 @@ data["BrawlersGuild"] = {
 				{ 22, 144368 }, -- Felfeather Jersey
 				{ 23, 151263 }, -- Electrified Compression Shirt
 
+
+				{ 101, 143762, [PRICE_EXTRA_ITTYPE] = "brawlergold:100" }, -- High Roller's Contract, ", 1500888, "" },
+				{ 102, 143763, [PRICE_EXTRA_ITTYPE] = "brawlergold:100" }, -- Bag of Chipped Dice, ", 237284, "" },
+				{ 103, 143761, [PRICE_EXTRA_ITTYPE] = "brawlergold:250" }, -- Blood-Soaked Angel Figurine, ", 237542, "" },
+				{ 104, 143760, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Brawler's Potion Dispenser, ", 132623, "" },
+				{ 105, 142288, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Grief Warden, ", 979582, "" },
+				{ 106, 142289, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Penguin Stampede, ", 979582, "" },
+				{ 107, 142290, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Battle of the Brew, ", 979582, "" },
+				{ 108, 142291, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Senya, ", 979582, "" },
+				{ 109, 142292, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Stranglethorn Streak, ", 979582, "" },
+				{ 110, 142293, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Mindbreaker Gzzaj, ", 979582, "" },
+				{ 111, 142294, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Mazhareen, ", 979582, "" },
+				{ 112, 143758, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" }, -- Free Drinks Voucher, ", 237446, "" },
+				{ 113, 143759, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" }, -- VIP Room Rental Form, ", 1500889, "" },
+
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{ -- achievements
+			name = ACHIEVEMENTS,
+			[ALLIANCE_DIFF] = {
+				{ 1, "ac11558" }, -- The First Rule of Brawler's Guild
+				{ 2, "ac11560" }, -- You Are Not Your $#*@! Legplates
+				{ 3, "ac11563" }, -- The Second Rule of Brawler's Guild
+				{ 4, "ac11565" }, -- King of the Guild
+				{ 5, "ac11567" }, -- You Are Not The Contents Of Your Wallet
+				{ 6, "ac11570" }, -- Educated Guesser
+				{ 7, "ac11572" }, -- I Am Thrall's Complete Lack Of Surprise
+				{ 8, "ac11573" }, -- Rumble Club
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, "ac11559" }, -- The First Rule of Brawler's Guild
+				{ 2, "ac11561" }, -- You Are Not Your $#*@! Legplates
+				{ 3, "ac11564" }, -- The Second Rule of Brawler's Guild
+				{ 4, "ac11566" }, -- King of the Guild
 			},
 		},
 	}
