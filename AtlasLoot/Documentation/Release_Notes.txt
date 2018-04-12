@@ -18,6 +18,7 @@ v8.07.13 (Apr. xx, 2018)
   - Added challenge cards
 - Update Darkmoon Faire
   - Added new toy: Blight Boar Microphone
+- Added Wicked Soul to Lich King (thanks for reaper66673563371)
 
 v8.07.12 (Apr. 03, 2018)
 ========================
