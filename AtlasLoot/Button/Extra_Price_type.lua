@@ -1,9 +1,19 @@
+-----------------------------------------------------------------------
+-- Upvalued Lua API.
+-----------------------------------------------------------------------
+local _G = getfenv(0)
+local string = string
+local type, tonumber, pairs = type, tonumber, pairs
+local str_split = string.split
+-- WoW
+local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon
+-- ----------------------------------------------------------------------------
+-- AddOn namespace.
+-- ----------------------------------------------------------------------------
 local AtlasLoot = _G.AtlasLoot
 local Price = AtlasLoot.Button:AddExtraType("Price")
 local AL = AtlasLoot.Locales
 
-local type = type
-local str_split = string.split
 
 local FIRST_RUN = true
 local ITEMS_NOT_FOUND = true

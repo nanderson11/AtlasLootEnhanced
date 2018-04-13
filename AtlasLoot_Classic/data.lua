@@ -7,7 +7,7 @@ local string = _G.string
 local format = string.format
 
 -- WoW
-local EJ_GetEncounterInfo = EJ_GetEncounterInfo
+local EJ_GetEncounterInfo, GetAchievementInfo = EJ_GetEncounterInfo, GetAchievementInfo
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
