@@ -247,6 +247,7 @@ local C_ITEM_BONUS_PRESET = {
 	["nil"] = {}
 }
 local ITEM_BONUS_PRESET = {
+	["Scaling"] 			= { 3524 }, -- ...
 	-- Dungeons
 	["BSM"]					= { 518 },
 	["ID"]					= { 519 },
@@ -338,7 +339,7 @@ function ItemString.Create(itemID, extra)
 		)
 	end
 end
-
+--|cff0070dd|Hitem:151433::::::::110:581::1:1:3524:::|h[Thick Shellplate Shoulders]|h|r
 function ItemString.AddBonus(itemID, bonus, difficultyID, baseLvl)
 	bonus = bonus and (ITEM_BONUS_PRESET[bonus] or ITEM_BONUS_PRESET[bonus[1]]) or bonus
 	if bonus and type(bonus) == "string" then print(bonus) elseif bonus and type(bonus) == "function" then bonus = bonus(baseLvl) end
@@ -372,12 +373,11 @@ function ItemString.AddBonusByDifficultyID(itemID, difficultyID)
 		) 
 end
 
---[[
+
 function AltasLoot_PrintItemString(index)
-	local name, icon, slot, armorType, itemID, link, encounterID = EJ_GetLootInfoByIndex(index)
+	local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(index or 1)
 	local itemstring = gsub(link, "\124", "\124\124")
 	print(itemstring) --/run AltasLoot_PrintItemString(1)
 end
-]]
 -- /run print(AtlasLoot.ItemString.AddBonusByDifficultyID(140914, 16))
 -- /run print(GetItemInfo(AtlasLoot.ItemString.AddBonusByDifficultyID(140914, 16)))

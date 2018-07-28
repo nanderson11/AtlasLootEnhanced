@@ -166,8 +166,7 @@ end
 function AtlasLoot:AutoSelect()
 	local db = AtlasLoot.db.GUI
 
-	SetMapToCurrentZone()
-	local wowMapID, _ = GetCurrentMapAreaID()
+	local wowMapID, _ = MapUtil.GetDisplayableMapForPlayer()
 	local o_moduleName = db.selected[1]
 	local o_dataID = db.selected[2]
 	local o_bossID = db.selected[3]

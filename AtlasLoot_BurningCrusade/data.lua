@@ -14,12 +14,19 @@ local addonname = ...
 local AtlasLoot = _G.AtlasLoot
 local data = AtlasLoot.ItemDB:Add(addonname, 2)
 
+local ADD_SCALING = {
+	Item = {
+		item1bonus = "Scaling",
+		addDifficultyBonus = true,
+	}
+}
+
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
+local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
+local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
 local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
 
 local ALLIANCE_DIFF = data:AddDifficulty(FACTION_ALLIANCE, "alliance", nil, 1)

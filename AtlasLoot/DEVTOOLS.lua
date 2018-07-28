@@ -1569,7 +1569,7 @@ function startEJScan()
 		[1] = {}
 	}
 	for i = 1, num do
-		local name, icon, slot, armorType, itemID, link = EJ_GetLootInfoByIndex(i)
+		local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
 		
 		local _,_,quality = GetItemInfo(itemID)
 		quality = qualityTab[quality]

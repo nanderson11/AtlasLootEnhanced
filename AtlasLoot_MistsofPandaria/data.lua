@@ -14,6 +14,13 @@ local addonname = ...
 local AtlasLoot = _G.AtlasLoot
 local data = AtlasLoot.ItemDB:Add(addonname, 5)
 
+local ADD_SCALING = {
+	Item = {
+		item1bonus = "Scaling",
+		addDifficultyBonus = true,
+	}
+}
+
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
@@ -25,10 +32,10 @@ local RF_SOO_DIFF = data:AddDifficulty(AL["Raid Finder"], "lfrWithPreset", {
 		item2bonus = "LFR",
 	},
 }, 17)
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
+local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
 local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "rn", nil, 4)
 local NORMAL_SOO_DIFF = data:AddDifficulty(AL["Normal"], "nsoo", nil, 14)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
+local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
 local HEROIC_RAID_DIFF = data:AddDifficulty(AL["Heroic"], "rh", nil, 6)
 local HEROIC_SOO_DIFF = data:AddDifficulty(AL["Heroic"], "heroicSoOWithPreset", {
 	Item = {

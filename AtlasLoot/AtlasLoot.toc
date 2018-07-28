@@ -1,4 +1,4 @@
-﻿## Interface: 70300
+﻿## Interface: 80000
 ## Author: Lag, Proteyer, Arith
 ## Version: @project-version@
 ## SavedVariables: AtlasLootDB
@@ -89,7 +89,6 @@ MiniMapButton.lua
 Data\Mount.lua
 Data\Token.lua
 Data\Sets.lua
-Data\NPC.lua
 
 ItemDB\ItemDB.lua
 ItemDB\SoundData.lua
@@ -103,7 +102,6 @@ Button\Dummy_type.lua
 Button\Pet_type.lua
 Button\Mount_type.lua
 Button\Faction_type.lua
-Button\Token_type.lua
 Button\Set_type.lua
 Button\Extra_Price_type.lua
 Button\Extra_Quest_type.lua
@@ -123,7 +121,6 @@ GUI\ModelFrame.lua
 GUI\SoundFrame.lua
 GUI\QuickLootFrame.lua
 GUI\SetViewFrame.lua
-GUI\ItemWithSetFrame.lua
 
 Addons\Addons.lua
 Addons\BonusRoll.lua
