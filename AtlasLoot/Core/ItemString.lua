@@ -228,7 +228,7 @@ local ITEM_LVL_BONUS = {
 }
 
 local TITANFORGED_ADD = { 3442 }
-local LEGION_MAX_UPGRADELVL = 925
+local LEGION_MAX_UPGRADELVL = 255
 local function GetPresetForTitanforged(baseLvl, maxLvl, extraBonus)
 	baseLvl = baseLvl or maxLvl
 	baseLvl = maxLvl - baseLvl
@@ -249,24 +249,24 @@ local C_ITEM_BONUS_PRESET = {
 local ITEM_BONUS_PRESET = {
 	["Scaling"] 			= { 3524 }, -- ...
 	-- Dungeons
-	["BSM"]					= { 518 },
-	["ID"]					= { 519 },
-	["Auch"]				= { 520 },
-	["Skyreach"]				= { 521 },
-	["Dungeon"]				= { 522 },
+	["BSM"]					= { 3524, 518 },
+	["ID"]					= { 3524, 519 },
+	["Auch"]				= { 3524, 520 },
+	["Skyreach"]				= { 3524, 521 },
+	["Dungeon"]				= { 3524, 522 },
 	["HCDungeon"]				= { 524 },
 	["HCDungeonWarforged"]			= { 524, 448 },
 	["MDungeon"]				= { 642 },
 	["MDungeonWarforged"]			= { 642, 644 },
 	-- ## Legion
-	["LegionDungeon"]			= { 1826 },
-	["LegionDungeonTitanforged"] 		= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1826, 1522 },
+	["LegionDungeon"]			= { 3524, 1826 },
+	["LegionDungeonTitanforged"] 		= GetPresetForTitanforged(166, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1826, 1522 },
 	["LegionHCDungeon"]			= { 1726 },
-	["LegionHCDungeonTitanforged"]		= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1726, 1522 },
+	["LegionHCDungeonTitanforged"]		= GetPresetForTitanforged(166, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1726, 1522 },
 	["LegionMDungeon"] 			= { 1727 },
-	["LegionMDungeonTitanforged"]		= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1727, 1522 },
+	["LegionMDungeonTitanforged"]		= GetPresetForTitanforged(166, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 1727, 1522 },
 	["LegionMDungeon2"]			= { 3452 },
-	["LegionMDungeon2Titanforged"]		= GetPresetForTitanforged(820, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 3452, 1522 },
+	["LegionMDungeon2Titanforged"]		= GetPresetForTitanforged(166, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD),--{ 3452, 1522 },
 	-- Raids
 	["LFR"]					= { 451 },
 	["SoOWarforged"]			= { 448 },

@@ -166,7 +166,7 @@ local CATA_RAID3_AC_TABLE = {	--[Glory of the Dragon Soul Raider]
 
 data["BlackrockCaverns"] = {
 	EncounterJournalID = 66,
-	MapID = 753,
+	MapID = 283,
 	AtlasMapID = "BlackrockCaverns",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -287,7 +287,7 @@ data["BlackrockCaverns"] = {
 
 data["Deadmines"] = {
 	EncounterJournalID = 63,
-	MapID = 756,
+	MapID = 291,
 	AtlasMapID = "TheDeadmines",
 	ContentType = DUNGEON_CONTENT,
 	LoadDifficulty = HEROIC_DIFF,
@@ -399,7 +399,7 @@ local END_TIME_ECHO_LOOT = {
 }
 data["CoTEndTime"] = {
 	EncounterJournalID = 184,
-	MapID = 820,
+	MapID = 401,
 	AtlasMapID = "CoTEndTime",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -451,7 +451,7 @@ data["CoTEndTime"] = {
 
 data["GrimBatol"] = {
 	EncounterJournalID = 71,
-	MapID = 757,
+	MapID = 293,
 	AtlasMapID = "GrimBatol",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -557,7 +557,7 @@ data["GrimBatol"] = {
 
 data["HallsOfOrigination"] = {
 	EncounterJournalID = 70,
-	MapID = 759,
+	MapID = 297,
 	AtlasMapID = "HallsOfOrigination",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -712,7 +712,7 @@ data["HallsOfOrigination"] = {
 
 data["CoTHourOfTwilight"] = {
 	EncounterJournalID = 186,
-	MapID = 819,
+	MapID = 399,
 	AtlasMapID = "CoTHourOfTwilight",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -774,7 +774,7 @@ data["CoTHourOfTwilight"] = {
 
 data["LostCityOfTolvir"] = {
 	EncounterJournalID = 69,
-	MapID = 747,
+	MapID = 277,
 	AtlasMapID = "LostCityOfTolvir",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -879,7 +879,7 @@ data["LostCityOfTolvir"] = {
 
 data["ShadowfangKeep"] = {
 	EncounterJournalID = 64,
-	MapID = 764,
+	MapID = 310,
 	AtlasMapID = "ShadowfangKeep",
 	ContentType = DUNGEON_CONTENT,
 	LoadDifficulty = HEROIC_DIFF,
@@ -962,7 +962,7 @@ data["ShadowfangKeep"] = {
 
 data["TheStonecore"] = {
 	EncounterJournalID = 67,
-	MapID = 768,
+	MapID = 324,
 	AtlasMapID = "TheStonecore",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1063,7 +1063,7 @@ data["TheStonecore"] = {
 
 data["TheVortexPinnacle"] = {
 	EncounterJournalID = 68,
-	MapID = 769,
+	MapID = 325,
 	AtlasMapID = "TheVortexPinnacle",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1152,7 +1152,7 @@ data["TheVortexPinnacle"] = {
 
 data["ThroneOfTheTides"] = {
 	EncounterJournalID = 65,
-	MapID = 767,
+	MapID = 322,
 	AtlasMapID = "ThroneOfTheTides",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1254,7 +1254,7 @@ data["ThroneOfTheTides"] = {
 
 data["CoTWellOfEternity"] = {
 	EncounterJournalID = 185,
-	MapID = 816,
+	MapID = 398,
 	AtlasMapID = "CoTWellOfEternity",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1315,7 +1315,7 @@ data["CoTWellOfEternity"] = {
 
 data["ZulAman"] = {
 	EncounterJournalID = 77,
-	MapID = 781,
+	MapID = 333,
 	AtlasMapID = "ZulAman",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1446,7 +1446,7 @@ local ZUL_GURUB_MADNESS_LOOT = {
 }
 data["ZulGurub"] = {
 	EncounterJournalID = 76,
-	MapID = 793,
+	MapID = 337,
 	AtlasMapID = "ZulGurub",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -1545,7 +1545,7 @@ data["ZulGurub"] = {
 
 data["BaradinHold"] = {
 	EncounterJournalID = 75,
-	MapID = 752,
+	MapID = 282,
 	AtlasMapID = "BaradinHold",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -2148,7 +2148,7 @@ data["BaradinHold"] = {
 
 data["BlackwingDescent"] = {
 	EncounterJournalID = 73,
-	MapID = 754,
+	MapID = 285,
 	AtlasMapID = "BlackwingDescent",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -2407,7 +2407,7 @@ data["BlackwingDescent"] = {
 
 data["CoTDragonSoul"] = {
 	EncounterJournalID = 187,
-	MapID = 824,
+	MapID = 409,
 	AtlasMapID = "CoTDragonSoulA",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -2873,7 +2873,7 @@ data["CoTDragonSoul"] = {
 
 data["Firelands"] = {
 	EncounterJournalID = 78,
-	MapID = 800,
+	MapID = 367,
 	AtlasMapID = "Firelands",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -3265,7 +3265,7 @@ data["Firelands"] = {
 
 data["TheBastionOfTwilight"] = {
 	EncounterJournalID = 72,
-	MapID = 758,
+	MapID = 294,
 	AtlasMapID = "TheBastionOfTwilight",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -3468,7 +3468,7 @@ data["TheBastionOfTwilight"] = {
 
 data["ThroneOfTheFourWinds"] = {
 	EncounterJournalID = 74,
-	MapID = 773,
+	MapID = 328,
 	AtlasMapID = "ThroneOfTheFourWinds",
 	ContentType = RAID_CONTENT,
 	items = {
