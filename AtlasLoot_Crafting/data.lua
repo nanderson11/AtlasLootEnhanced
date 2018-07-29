@@ -32,6 +32,20 @@ data["Alchemy"] = {
 	items = {
 		{	--AlchemyFlask
 			name = AL["Flasks"],
+			[BFA_DIFF] = {
+				{ 1, 152639, 252351 }, -- Flask of Endless Fathoms
+				{ 2, 152639, 252352 }, -- Flask of Endless Fathoms
+				{ 3, 152639, 252353 }, -- Flask of Endless Fathoms				
+				{ 5, 152640, 252354 }, -- Flask of the Vast Horizon
+				{ 6, 152640, 252355 }, -- Flask of the Vast Horizon
+				{ 7, 152640, 252356 }, -- Flask of the Vast Horizon				
+				{ 16, 152641, 252357 }, -- Flask of the Undertow
+				{ 17, 152641, 252358 }, -- Flask of the Undertow
+				{ 18, 152641, 252359 }, -- Flask of the Undertow
+				{ 20, 152638, 252348 }, -- Flask of the Currents
+				{ 21, 152638, 252349 }, -- Flask of the Currents
+				{ 22, 152638, 252350 }, -- Flask of the Currents
+			},
 			[LEGION_DIFF] = {
 				{ 1, 127851, 188349 }, -- Spirit Cauldron
 				{ 2, 127851, 188350 }, -- Spirit Cauldron
@@ -94,6 +108,53 @@ data["Alchemy"] = {
 		},
 		{	--AlchemyPotions
 			name = AL["Potions"],
+			[BFA_DIFF] = {
+				{ 1, 163225, 279165 }, -- Battle Potion of Stamina
+				{ 2, 163225, 279166 }, -- Battle Potion of Stamina
+				{ 3, 163225, 279167 }, -- Battle Potion of Stamina			
+				{ 5, 163222, 279162 }, -- Battle Potion of Intellect
+				{ 6, 163222, 279163 }, -- Battle Potion of Intellect
+				{ 7, 163222, 279164 }, -- Battle Potion of Intellect			
+				{ 9, 163224, 279168 }, -- Battle Potion of Strength
+				{ 10, 163224, 279169 }, -- Battle Potion of Strength
+				{ 11, 163224, 279170 }, -- Battle Potion of Strength
+				{ 13, 163223, 279159 }, -- Battle Potion of Agility
+				{ 14, 163223, 279160 }, -- Battle Potion of Agility
+				{ 15, 163223, 279161 }, -- Battle Potion of Agility
+				{ 16, 152561, 252337 }, -- Potion of Replenishment
+				{ 17, 152561, 252339 }, -- Potion of Replenishment
+				{ 18, 152561, 252340 }, -- Potion of Replenishment
+				{ 20, 152560, 252341 }, -- Potion of Bursting Blood
+				{ 21, 152560, 252342 }, -- Potion of Bursting Blood
+				{ 22, 152560, 252343 }, -- Potion of Bursting Blood
+				{ 24, 152557, 252334 }, -- Steelskin Potion
+				{ 25, 152557, 252335 }, -- Steelskin Potion
+				{ 26, 152557, 252336 }, -- Steelskin Potion
+				{ 28, 152559, 252344 }, -- Potion of Rising Death
+				{ 29, 152559, 252345 }, -- Potion of Rising Death
+				{ 30, 152559, 252346 }, -- Potion of Rising Death
+				{ 101, 152550, 252397 }, -- Sea Mist Potion
+				{ 102, 152550, 252398 }, -- Sea Mist Potion
+				{ 103, 152550, 252399 }, -- Sea Mist Potion			
+				{ 105, 152503, 252400 }, -- Potion of Concealment
+				{ 106, 152503, 252401 }, -- Potion of Concealment
+				{ 107, 152503, 252402 }, -- Potion of Concealment
+				{ 109, 163082, 252388 }, -- Coastal Rejuvenation Potion
+				{ 110, 163082, 252389 }, -- Coastal Rejuvenation Potion
+				{ 111, 163082, 252390 }, -- Coastal Rejuvenation Potion	
+				{ 113, 152494, 252382 }, -- Coastal Healing Potion
+				{ 114, 152494, 252383 }, -- Coastal Healing Potion
+				{ 115, 152494, 252384 }, -- Coastal Healing Potion
+				{ 116, 152496, 252391 }, -- Demitri's Draught of Deception
+				{ 117, 152496, 252392 }, -- Demitri's Draught of Deception
+				{ 118, 152496, 252393 }, -- Demitri's Draught of Deception
+				{ 120, 152497, 252394 }, -- Lightfoot Potion
+				{ 121, 152497, 252395 }, -- Lightfoot Potion
+				{ 122, 152497, 252396 }, -- Lightfoot Potion
+				{ 128, 152495, 252385 }, -- Coastal Mana Potion
+				{ 129, 152495, 252386 }, -- Coastal Mana Potion
+				{ 130, 152495, 252387 }, -- Coastal Mana Potion
+			},
 			[LEGION_DIFF] = {
 				-- { #, itemID, spellID },
 				{ 1, 127834, 188297 }, -- Ancient Healing Potion
@@ -268,6 +329,24 @@ data["Alchemy"] = {
 		},
 		{	--AlchemyMisc
 			name = AL["Miscellaneous"],
+			[BFA_DIFF] = {
+				{ 1, 162519, 276975 }, -- Mystical Cauldron
+				{ 2, 162519, 276976 }, -- Mystical Cauldron
+				{ 3, 162519, 276977 }, -- Mystical Cauldron
+				{ 5, 152637, 252368 }, -- Siren's Alchemist Stone
+				{ 6, 152637, 252369 }, -- Siren's Alchemist Stone
+				{ 7, 152637, 252370 }, -- Siren's Alchemist Stone
+				{ 9, 152634, 252361 }, -- Endless Tincture of Renewed Combat
+				{ 10, 152634, 252362 }, -- Endless Tincture of Renewed Combat
+				{ 11, 152634, 252363 }, -- Endless Tincture of Renewed Combat
+				{ 16, 162113, 278420 }, -- Potion of Herb Tracking
+				{ 20, 152632, 252379 }, -- Surging Alchemist Stone
+				{ 21, 152632, 252380 }, -- Surging Alchemist Stone
+				{ 22, 152632, 252381 }, -- Surging Alchemist Stone
+				{ 24, 152636, 252376 }, -- Endless Tincture of Fractional Power
+				{ 25, 152636, 252377 }, -- Endless Tincture of Fractional Power
+				{ 26, 152636, 252378 }, -- Endless Tincture of Fractional Power
+			},
 			[LEGION_DIFF] = {
 				{ 1, 127842, 188322 }, -- Infernal Alchemist Stone
 				{ 2, 127842, 188323 }, -- Infernal Alchemist Stone
@@ -454,6 +533,17 @@ data["Alchemy"] = {
 		},
 		{	--AlchemyTransmute
 			name = AL["Transmutes"],
+			[BFA_DIFF] = {
+				{ 1, 152668, 251832 }, -- Transmute: Expulsom
+				{ 3, 152580, 251306 }, -- Transmute: Herbs to Cloth
+				{ 4, 152580, 251310 }, -- Transmute: Ore to Cloth
+				{ 6, 160322, 251305 }, -- Transmute: Herbs to Ore
+				{ 8, 152581, 251822 }, -- Transmute: Fish to Gems
+				{ 9, 152581, 251311 }, -- Transmute: Ore to Gems
+				{ 11, 160325, 251808 }, -- Transmute: Meat to Pet
+				{ 18, 152582, 251314 }, -- Transmute: Cloth to Skins
+				{ 21, 152578, 251309 }, -- Transmute: Ore to Herbs
+			},
 			[LEGION_DIFF] = {
 				-- { #, itemID, spellID },
 				{ 1, 141323, 188800 }, -- Wild Transmutation
@@ -5916,42 +6006,114 @@ data["Mining"] = {
 	ContentType = PRIMPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
-		{	--Mining
-			name = GetSpellInfo(2575),
-			[NORMAL_DIFF] = {
-				{ 1, 72095, 102167 },	-- Trillium Bar : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 2, 72096, 102165 },	-- Smelt Ghost Iron : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 3, 51950, 74529 },	-- Smelt Pyrium : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 4, 53039, 74537 },	-- Smelt Hardened Elementium : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 5, 52186, 74530 },	-- Smelt Elementium : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 6, 54849, 84038 },	-- Smelt Obsidium : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 7, 37663, 55208 },	-- Smelt Titansteel : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 8, 41163, 55211 },	-- Smelt Titanium : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 9, 36913, 49258 },	-- Smelt Saronite : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 10, 36916, 49252 },	-- Smelt Cobalt : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 11, 35128, 46353 },	-- Smelt Hardened Khorium : =ds=#sr# 375 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Sunwell Plateau"]
-				{ 12, 23573, 29686 },	-- Smelt Hardened Adamantite : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 13, 23449, 29361 },	-- Smelt Khorium : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 14, 23448, 29360 },	-- Smelt Felsteel : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 15, 23447, 29359 },	-- Smelt Eternium : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 16, 23446, 29358 },	-- Smelt Adamantite : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 17, 23445, 29356 },	-- Smelt Fel Iron : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 18, 22574, 35751, [ATLASLOOT_IT_AMOUNT1] = 10 },	-- Fire Sunder : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 19, 22573, 35750, [ATLASLOOT_IT_AMOUNT1] = 10 },	-- Earth Shatter : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 20, 17771, 22967 },	-- Smelt Enchanted Elementium : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Blackwing Lair"]
-				{ 21, 12655, 70524 },	-- Enchanted Thorium : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 22, 11371, 14891 },	-- Smelt Dark Iron : =ds=#sr# 230 : =ds=#QUESTID:4083#
-				{ 23, 12359, 16153 },	-- Smelt Thorium : =ds=#sr# 230 : =ds=AtlasLoot["Trainer"]
-				{ 24, 6037, 10098 },	-- Smelt Truesilver : =ds=#sr# 165 : =ds=AtlasLoot["Trainer"]
-				{ 25, 3860, 10097 },	-- Smelt Mithril : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 26, 3859, 3569 },	-- Smelt Steel : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 27, 3577, 3308 },	-- Smelt Gold : =ds=#sr# 115 : =ds=AtlasLoot["Trainer"]
-				{ 28, 3575, 3307 },	-- Smelt Iron : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 29, 2842, 2658 },	-- Smelt Silver : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
-				{ 30, 2841, 2659, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Smelt Bronze : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 101, 3576, 3304 },	-- Smelt Tin : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 102, 2840, 2657 },	-- Smelt Copper : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
+		{	-- BFA all
+			name = EXPANSION_NAME7,
+			[BFA_DIFF] = {
+				{ 1, 152512, 253333 }, -- Monelite Deposit
+				{ 2, 152512, 253334 }, -- Monelite Deposit
+				{ 3, 152512, 253335 }, -- Monelite Deposit
+				{ 5, 152579, 253336 }, -- Storm Silver Deposit
+				{ 6, 152579, 253337 }, -- Storm Silver Deposit
+				{ 7, 152579, 253338 }, -- Storm Silver Deposit
+				{ 9, 152513, 253339 }, -- Platinum Deposit
+				{ 10, 152513, 253340 }, -- Platinum Deposit
+				{ 11, 152513, 253341 }, -- Platinum Deposit
+				{ 16, 152512, 253342 }, -- Monelite Seam
+				{ 17, 152512, 253343 }, -- Monelite Seam
+				{ 18, 152512, 253344 }, -- Monelite Seam
+				{ 20, 152579, 253345 }, -- Storm Silver Seam
+				{ 21, 152579, 253346 }, -- Storm Silver Seam
+				{ 22, 152579, 253347 }, -- Storm Silver Seam
+			}
+		},
+		{	-- Legion all
+			name = EXPANSION_NAME6,
+			[LEGION_DIFF] = {
+				{ 1, 151564, 247848 }, -- Empyrium Deposit
+				{ 2, 151564, 247849 }, -- Empyrium Deposit
+				{ 3, 151564, 247850 }, -- Empyrium Deposit
+				{ 5, 123919, 184492 }, -- Felslate Deposit
+				{ 6, 123919, 184493 }, -- Felslate Deposit
+				{ 7, 123919, 184494 }, -- Felslate Deposit
+				{ 9, 123918, 184454 }, -- Leystone Deposit
+				{ 10, 123918, 184456 }, -- Leystone Deposit
+				{ 11, 123918, 184457 }, -- Leystone Deposit
+				{ 13, 123918, 184488 }, -- Living Leystone
+				{ 14, 123918, 184489 }, -- Living Leystone
+				{ 15, 123918, 184490 }, -- Living Leystone
+				{ 16, 151564, 247851 }, -- Empyrium Seam
+				{ 17, 151564, 247852 }, -- Empyrium Seam
+				{ 18, 151564, 247853 }, -- Empyrium Seam
+				{ 20, 123919, 184496 }, -- Felslate Seam
+				{ 21, 123919, 184497 }, -- Felslate Seam
+				{ 22, 123919, 184498 }, -- Felslate Seam
+				{ 24, 123918, 184484 }, -- Leystone Seam
+				{ 25, 123918, 184485 }, -- Leystone Seam
+				{ 26, 123918, 184486 }, -- Leystone Seam
+				{ 28, 123919, 184500 }, -- Living Felslate
+				{ 29, 123919, 184501 }, -- Living Felslate
+				{ 30, 123919, 184502 }, -- Living Felslate
+				{ 101, 124444, 184504 }, -- Infernal Brimstone
+				{ 102, 124444, 184505 }, -- Infernal Brimstone
+				{ 103, 124444, 191970 }, -- Infernal Brimstone
+			}
+		},
+		{	-- MoP all
+			name = EXPANSION_NAME4,
+			[MOP_DIFF] = {
+				{ 1, 72096, 102165 }, -- Smelt Ghost Iron
+				{ 16, 72095, 102167 }, -- Smelt Trillium
+			}
+		},
+		{	-- Cata all
+			name = EXPANSION_NAME3,
+			[CATA_DIFF] = {
+				{ 1, 51950, 74529 }, -- Smelt Pyrite
+				{ 3, 52186, 74530 }, -- Smelt Elementium
+				{ 4, 53039, 74537 }, -- Smelt Hardened Elementium
+				{ 16, 54849, 84038 }, -- Smelt Obsidium
+			}
+		},
+		{	-- WotLK all
+			name = EXPANSION_NAME2,
+			[WOTLK_DIFF] = {
+				{ 1, 36913, 49258 }, -- Smelt Saronite
+				{ 3, 36916, 49252 }, -- Smelt Cobalt
+				{ 16, 41163, 55211 }, -- Smelt Titanium
+				{ 18, 37663, 55208 }, -- Smelt Titansteel
+			}
+		},
+		{	-- BC all
+			name = EXPANSION_NAME1,
+			[BC_DIFF] = {
+				{ 1, 22573, 35750, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Earth Shatter
+				{ 3, 23446, 29358 }, -- Smelt Adamantite
+				{ 4, 23573, 29686 }, -- Smelt Hardened Adamantite
+				{ 16, 22574, 35751, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Fire Sunder
+				{ 18, 35128, 46353 }, -- Smelt Hardened Khorium
+				{ 19, 23447, 29359 }, -- Smelt Eternium
+				{ 20, 23448, 29360 }, -- Smelt Felsteel
+				{ 21, 23449, 29361 }, -- Smelt Khorium
+				{ 22, 23445, 29356 }, -- Smelt Fel Iron
+			}
+		},
+		{	-- Classic all
+			name = EXPANSION_NAME0,
+			[CLASSIC_DIFF] = {
+				{ 1, 17771, 22967 }, -- Smelt Enchanted Elementium
+				{ 3, 3577, 3308 }, -- Smelt Gold
+				{ 4, 2842, 2658 }, -- Smelt Silver
+				{ 6, 2840, 2657 }, -- Smelt Copper
+				{ 7, 3576, 3304 }, -- Smelt Tin
+				{ 8, 2841, 2659, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Smelt Bronze
+				{ 9, 12359, 16153 }, -- Smelt Thorium
+				{ 11, 12655, 70524 }, -- Enchanted Thorium Bar
+				{ 18, 6037, 10098 }, -- Smelt Truesilver
+				{ 21, 3859, 3569 }, -- Smelt Steel
+				{ 22, 3575, 3307 }, -- Smelt Iron
+				{ 23, 3860, 10097 }, -- Smelt Mithril
+				{ 26, 11371, 14891 }, -- Smelt Dark Iron	
+			}
 		},
 	}
 }
@@ -7154,7 +7316,7 @@ data["Cooking"] = {
 	items = {
 		{	-- BFA all
 			name = EXPANSION_NAME7,
-			[LEGION_DIFF] = {
+			[BFA_DIFF] = {
 				-- subheader / Desserts
 				{ 1, 154887, 259436, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Loa Loaf
 				{ 2, 154883, 259425, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Ravenberry Tarts
