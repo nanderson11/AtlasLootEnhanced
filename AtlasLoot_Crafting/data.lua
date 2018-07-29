@@ -5,6 +5,7 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
+local BFA_DIFF = data:AddDifficulty(EXPANSION_NAME7)
 local LEGION_DIFF = data:AddDifficulty(EXPANSION_NAME6)
 local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
 local MOP_DIFF = data:AddDifficulty(EXPANSION_NAME4)
@@ -2884,9 +2885,6 @@ data["Inscription"] = {
 				{ 4, 137274, 225522 }, -- Glyph of Cracked Ice
 				{ 5, 139270, 225525 }, -- Glyph of the Crimson Shell
 				{ 6, 139271, 225524 }, -- Glyph of the Chilled Shell
-				{ 7, 139272, 225523 }, -- Glyph of the Blood Wraith
-				{ 8, 139273, 225526 }, -- Glyph of the Unholy Wraith
-				{ 9, 139274, 192848 }, -- Glyph of the Wraith Walker
 			},
 		},
 		{	--InscriptionDemonHunter
@@ -2913,22 +2911,23 @@ data["Inscription"] = {
 				{ 7, 136826, 225534 }, -- Glyph of the Storm
 				{ 8, 139278, 225533 }, -- Glyph of the Forest Path
 				{ 9, 140630, 225531 }, -- Glyph of the Doe
+				{ 10, 162029, 276121 }, -- Glyph of the Humble Flyer
+				{ 11, 162022, 276059 }, -- Glyph of the Dolphin
+				{ 12, 162027, 276088 }, -- Glyph of the Tideskipper
 			},
 		},
 		{	--InscriptionHunter
 			name = AL["Glyphs"].." - "..ALIL["HUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1, 43350, 58301 }, -- Glyph of Lesser Proportion
-				{ 2, 137194, 225537 }, -- Glyph of the Bullseye
-				{ 3, 137238, 225543 }, -- Glyph of the Trident
-				{ 4, 137239, 225541 }, -- Glyph of the Hook
-				{ 5, 137240, 225540 }, -- Glyph of the Headhunter
-				{ 6, 137249, 225535 }, -- Glyph of Arachnophobia
-				{ 7, 137250, 225536 }, -- Glyph of Nesingwary's Nemeses
-				{ 8, 137261, 225542 }, -- Glyph of the Skullseye
-				{ 9, 137267, 225539 }, -- Glyph of the Goblin Anti-Grav Flare
-				{ 10, 137269, 192845 }, -- Glyph of Stellar Flare
-				{ 11, 139288, 225538 }, -- Glyph of the Dire Stable
+				{ 2, 137238, 225543 }, -- Glyph of the Trident
+				{ 3, 137239, 225541 }, -- Glyph of the Hook
+				{ 4, 137240, 225540 }, -- Glyph of the Headhunter
+				{ 5, 137249, 225535 }, -- Glyph of Arachnophobia
+				{ 6, 137250, 225536 }, -- Glyph of Nesingwary's Nemeses
+				{ 7, 137267, 225539 }, -- Glyph of the Goblin Anti-Grav Flare
+				{ 8, 137269, 192845 }, -- Glyph of Stellar Flare
+				{ 9, 139288, 225538 }, -- Glyph of the Dire Stable
 			},
 		},
 		{	--InscriptionMage
@@ -3033,6 +3032,10 @@ data["Inscription"] = {
 		},
 		{	--InscriptionOffHand
 			name = AL["Off-Hands"],
+			[BFA_DIFF] = {
+				{ 1, 159940, 269741 }, -- Honorable Combatant's Etched Vessel
+				{ 2, 153643, 256249 }, -- Inscribed Vessel of Mysticism
+			},
 			[NORMAL_DIFF] = {
 				{ 1, "113270:Stage6W", 187519 },	-- Shadowtome (Stage 6)
 				{ 2, "113270:Stage5W", 187495 },	-- Shadowtome (Stage 5)
@@ -3101,6 +3104,15 @@ data["Inscription"] = {
 		},
 		{	--InscriptionTrinketsDarkmoonFaireCards
 			name = AL["Trinkets"].." / "..AL["Darkmoon Cards"],
+			[BFA_DIFF] = {
+				{ 1, 153598, 256246 }, -- Darkmoon Card of War
+				{ 2, 153598, 256245 }, -- Darkmoon Card of War
+				{ 3, 153598, 278527 }, -- Darkmoon Card of War
+				{ 16, 159128 }, -- Darkmoon Deck: Blockades
+				{ 17, 159127 }, -- Darkmoon Deck: Tides
+				{ 18, 159126 }, -- Darkmoon Deck: Squalls
+				{ 19, 159125 }, -- Darkmoon Deck: Fathoms
+			},
 			[LEGION_DIFF] = {
 				{ 1, 128712, 191659 }, -- Darkmoon Card of the Legion
 				{ 2, 128712, 192859 }, -- Darkmoon Card of the Legion
@@ -3165,6 +3177,35 @@ data["Inscription"] = {
 				{ 20, 44142, 59480 },	-- Strange Tarot : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
 			},
 		},
+		{	--Contracts
+			name = AL["Contracts"],
+			[BFA_DIFF] = {
+				{ 1, 153661, 256275 }, -- Contract: Proudmoore Admiralty
+				{ 2, 153661, 256276 }, -- Contract: Proudmoore Admiralty
+				{ 3, 153661, 256277 }, -- Contract: Proudmoore Admiralty				
+				{ 5, 153662, 256278 }, -- Contract: Order of Embers
+				{ 6, 153662, 256279 }, -- Contract: Order of Embers
+				{ 7, 153662, 256280 }, -- Contract: Order of Embers				
+				{ 9, 153663, 256281 }, -- Contract: Storm's Wake
+				{ 10, 153663, 256282 }, -- Contract: Storm's Wake
+				{ 11, 153663, 256283 }, -- Contract: Storm's Wake				
+				{ 13, 153665, 256287 }, -- Contract: Talanji's Expedition
+				{ 14, 153665, 256288 }, -- Contract: Talanji's Expedition
+				{ 15, 153665, 256289 }, -- Contract: Talanji's Expedition				
+				{ 16, 153666, 256290 }, -- Contract: Voldunai
+				{ 17, 153666, 256291 }, -- Contract: Voldunai
+				{ 18, 153666, 256293 }, -- Contract: Voldunai				
+				{ 20, 153667, 256294 }, -- Contract: Tortollan Seekers
+				{ 21, 153667, 256295 }, -- Contract: Tortollan Seekers
+				{ 22, 153667, 256296 }, -- Contract: Tortollan Seekers				
+				{ 24, 153668, 256297 }, -- Contract: Champions of Azeroth
+				{ 25, 153668, 256298 }, -- Contract: Champions of Azeroth
+				{ 26, 153668, 256299 }, -- Contract: Champions of Azeroth				
+				{ 28, 153664, 256284 }, -- Contract: Zandalari Empire
+				{ 29, 153664, 256285 }, -- Contract: Zandalari Empire
+				{ 30, 153664, 256286 }, -- Contract: Zandalari Empire
+			},
+		},		
 		{	--InscriptionItemEnhancements
 			name = AL["Item Enhancements"],
 			[NORMAL_DIFF] = {
@@ -3199,6 +3240,18 @@ data["Inscription"] = {
 		},
 		{	--InscriptionReagents
 			name = AL["Reagents"],
+			[BFA_DIFF] = {
+				{ 1, 152511, 256223 }, -- Mass Mill Sea Stalk
+				{ 2, 152505, 256217 }, -- Mass Mill Riverbud
+				{ 3, 152506, 256218 }, -- Mass Mill Star Moss
+				{ 4, 152507, 256219 }, -- Mass Mill Akunda's Bite
+				{ 5, 152508, 256220 }, -- Mass Mill Winter's Kiss
+				{ 6, 152509, 256221 }, -- Mass Mill Siren's Pollen
+				{ 7, 152510, 256308 }, -- Mass Mill Anchor Weed
+				{ 16, 158189, 264778 }, -- Viridescent Ink
+				{ 17, 158187, 264776 }, -- Ultramarine Ink
+				{ 18, 158188, 264777 }, -- Crimson Ink
+			},
 			[LEGION_DIFF] = {
 				{ 1, 129100, 209658 }, -- Mass Mill Aethril
 				{ 2, 136926, 209659 }, -- Mass Mill Dreamleaf
@@ -3242,6 +3295,11 @@ data["Inscription"] = {
 		},
 		{	--InscriptionRunes
 			name = AL["Runes"],
+			[BFA_DIFF] = {
+				{ 1, 153673, 256303 }, -- Vantus Rune: Uldir
+				{ 2, 153673, 256304 }, -- Vantus Rune: Uldir
+				{ 3, 153673, 256305 }, -- Vantus Rune: Uldir
+			},
 			[LEGION_DIFF] = {
 				{ 1, 128987, 192808 }, -- Vantus Rune: Ursoc
 				{ 2, 128987, 192860 }, -- Vantus Rune: Ursoc
@@ -3307,6 +3365,9 @@ data["Inscription"] = {
 		},
 		{	--InscriptionMisc
 			name = AL["Miscellaneous"],
+			[BFA_DIFF] = {
+				{ 1, 162114, 278422 }, -- Crimson Ink Well
+			},
 			[LEGION_DIFF] = {
 				-- 7.3.0
 				{ 1, 152725, 247861 }, -- Mass Mill Astral Glory
@@ -3338,6 +3399,18 @@ data["Inscription"] = {
 		},
 		{	--InscriptionScrolls
 			name = AL["Scrolls"],
+			[BFA_DIFF] = {
+				{ 1, 153647, 256235 }, -- Tome of the Quiet Mind
+				{ 2, 153647, 256236 }, -- Tome of the Quiet Mind
+				{ 3, 153647, 256237	}, -- Tome of the Quiet Mind				
+				{ 5, 153646, 256232 }, -- Codex of the Quiet Mind
+				{ 6, 153646, 256233 }, -- Codex of the Quiet Mind
+				{ 7, 153646, 256234 }, -- Codex of the Quiet Mind			
+				{ 16, 158204, 264769 }, -- War-Scroll of Fortitude	
+				{ 17, 158201, 264766 }, -- War-Scroll of Intellect
+				{ 18, 158202, 264767 }, -- War-Scroll of Battle Shout
+				{ 20, 159825, 269065 }, -- Scroll of Unlocking
+			},
 			[LEGION_DIFF] = {
 				{ 1, 128979, 222408 }, -- Unwritten Legend
 				{ 2, 128980, 192802 }, -- Scroll of Forgotten Knowledge
@@ -7079,6 +7152,28 @@ data["Cooking"] = {
 	ContentType = SECPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
+		{	-- BFA all
+			name = EXPANSION_NAME7,
+			[LEGION_DIFF] = {
+				-- subheader / Desserts
+				{ 1, 154887, 259436, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Loa Loaf
+				{ 2, 154883, 259425, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Ravenberry Tarts
+				{ 3, 154881, 259412, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Kul Tiramisu
+				{ 4, 154885, 259444, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Mon'Dazi
+				-- subheader / Light Meals
+				{ 6, 154889, 259430, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Grilled Catfish
+				{ 7, 154891, 259433, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seasoned Loins
+				{ 8, 163781, 280282, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Heartsbane Hexwurst
+				-- subheader / Large Meals
+				{ 10, 154886, 259447, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Snapper
+				{ 11, 154888, 259440, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Sailor's Pie
+				{ 12, 154884, 259427, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Swamp Fish 'n Chips
+				{ 13, 154882, 259414, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Honey-Glazed Haunches
+				-- subheader / Feasts
+				{ 16, 156526, 259422 }, -- Bountiful Captain's Feast
+				{ 17, 156525, 259418 }, -- Galley Banquet
+			},
+		},
 		{	-- Legion all
 			name = EXPANSION_NAME6,
 			[LEGION_DIFF] = {
@@ -7511,6 +7606,7 @@ data["Cooking"] = {
 	}
 }
 
+--[==[ REMOVED
 data["FirstAid"] = {
 	name = GetSpellInfo(3273),
 	ContentType = SECPROFESSION_CONTENT,
@@ -7566,3 +7662,4 @@ data["FirstAid"] = {
 		},
 	}
 }
+]==]--
