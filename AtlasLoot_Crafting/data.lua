@@ -664,6 +664,46 @@ data["Blacksmithing"] = {
 	items = {
 		{	--SmithingArmor
 			name = AL["Armor"],
+			[BFA_DIFF] = {
+				{ 1, 152811, 253190 }, -- Stormsteel Girdle
+				{ 2, 162465, 253191 }, -- Imbued Stormsteel Girdle
+				{ 4, 152810, 253186 }, -- Stormsteel Legguards
+				{ 5, 162463, 253187 }, -- Imbued Stormsteel Legguards
+				{ 16, 162466, 253192 }, -- Emblazoned Stormsteel Girdle
+				{ 19, 162464, 253188 }, -- Emblazoned Stormsteel Legguards				
+					
+				{ 101, 159866, 269451 }, -- Honorable Combatant's Plate Armguards
+				{ 102, 159866, 269452 }, -- Honorable Combatant's Plate Armguards
+				{ 103, 159866, 269453 }, -- Honorable Combatant's Plate Armguards				  
+				{ 105, 159861, 269421 }, -- Honorable Combatant's Plate Gauntlets
+				{ 106, 159861, 269422 }, -- Honorable Combatant's Plate Gauntlets
+				{ 107, 159861, 269423 }, -- Honorable Combatant's Plate Gauntlets				  
+				{ 109, 159860, 269424 }, -- Honorable Combatant's Plate Boots
+				{ 110, 159860, 269425 }, -- Honorable Combatant's Plate Boots
+				{ 111, 159860, 269426 }, -- Honorable Combatant's Plate Boots				
+				{ 113, 152819, 253116 }, -- Stormsteel Shield
+				{ 114, 152819, 253117 }, -- Stormsteel Shield
+				{ 115, 152819, 253118 }, -- Stormsteel Shield					  
+				{ 116, 159851, 269458 }, -- Honorable Combatant's Shield
+				{ 117, 159851, 269459 }, -- Honorable Combatant's Shield
+				{ 118, 159851, 269460 }, -- Honorable Combatant's Shield				  
+				{ 120, 159863, 269444 }, -- Honorable Combatant's Plate Greaves
+				{ 121, 159863, 269446 }, -- Honorable Combatant's Plate Greaves
+				{ 122, 159863, 269447 }, -- Honorable Combatant's Plate Greaves
+				{ 124, 159865, 269448 }, -- Honorable Combatant's Plate Waistguard
+				{ 125, 159865, 269449 }, -- Honorable Combatant's Plate Waistguard
+				{ 126, 159865, 269450 }, -- Honorable Combatant's Plate Waistguard
+				 
+				{ 201, 152805, 253171 }, -- Monel-Hardened Helm
+				{ 202, 152807, 253177 }, -- Monel-Hardened Pauldrons
+				{ 203, 152802, 253162 }, -- Monel-Hardened Breastplate
+				{ 204, 152809, 253183 }, -- Monel-Hardened Armguards
+				{ 206, 152818, 253113 }, -- Monel-Hardened Shield
+				{ 216, 152804, 253168 }, -- Monel-Hardened Gauntlets
+				{ 217, 152808, 253180 }, -- Monel-Hardened Waistguard
+				{ 218, 152806, 253174 }, -- Monel-Hardened Greaves
+				{ 219, 152803, 253165 }, -- Monel-Hardened Boots
+			},
 			[LEGION_DIFF] = {
 				{ 1, 123913, 182948 }, -- Demonsteel Helm
 				{ 2, 123913, 182978 }, -- Demonsteel Helm
@@ -1243,6 +1283,37 @@ data["Blacksmithing"] = {
 		},
 		{	--SmithingWeaponsShields
 			name = AL["Weapons"].." & "..AL["Shields"],
+			[BFA_DIFF] = {
+				{ 1, 159857, 269476 }, -- Honorable Combatant's Shanker
+				{ 2, 159857, 269477 }, -- Honorable Combatant's Shanker
+				{ 3, 159857, 269478 }, -- Honorable Combatant's Shanker
+				{ 5, 159853, 269464 }, -- Honorable Combatant's Cutlass
+				{ 6, 159853, 269465 }, -- Honorable Combatant's Cutlass
+				{ 7, 159853, 269466 }, -- Honorable Combatant's Cutlass
+				{ 9, 159858, 269479 }, -- Honorable Combatant's Polearm
+				{ 10, 159858, 269480 }, -- Honorable Combatant's Polearm
+				{ 11, 159858, 269481 }, -- Honorable Combatant's Polearm
+				{ 13, 159855, 269470 }, -- Honorable Combatant's Deckpounder
+				{ 14, 159855, 269471 }, -- Honorable Combatant's Deckpounder
+				{ 15, 159855, 269472 }, -- Honorable Combatant's Deckpounder
+				{ 16, 152835, 253156 }, -- Stormsteel Dagger
+				{ 17, 152835, 253157 }, -- Stormsteel Dagger
+				{ 18, 152835, 253158 }, -- Stormsteel Dagger		
+				{ 20, 162665, 278131 }, -- Stormsteel Saber
+				{ 21, 162665, 278132 }, -- Stormsteel Saber
+				{ 22, 162665, 278133 }, -- Stormsteel Saber
+				{ 24, 152834, 253159 }, -- Stormsteel Spear
+				{ 25, 152834, 253160 }, -- Stormsteel Spear
+				{ 26, 152834, 253161 }, -- Stormsteel Spear
+				{ 28, 162653, 253144 }, -- Honorable Combatant's Spellblade
+				{ 29, 162653, 253149 }, -- Honorable Combatant's Spellblade
+				{ 30, 162653, 256786 }, -- Honorable Combatant's Spellblade
+				{ 101, 152827, 253125 }, -- Monel-Hardened Cutlass
+				{ 102, 152832, 253138 }, -- Monel-Hardened Shanker
+				{ 103, 152833, 253141 }, -- Monel-Hardened Polearm
+				{ 104, 152831, 253132 }, -- Monel-Hardened Deckpounder
+				{ 105, 152828, 253135 }, -- Monel-Hardened Claymore
+			},
 			[WOD_DIFF] = {
 				{ 1, "120259:Stage6W", 187514 },	-- Steelforged Axe (Stage 6),
 				{ 9, "120259:Stage5W", 187490 }, 	-- Steelforged Axe (Stage 5),
@@ -1495,7 +1566,136 @@ data["Blacksmithing"] = {
 				{ 205, 2844, 2737 },	-- Copper Mace : =ds=#h3#, #w6# / #sk# 15 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{	--SmithingArmorEnhancement
+		{	--SmithingMisc
+			name = AL["Miscellaneous"],
+			[BFA_DIFF] = {
+				{ 1, 152812, 253110 }, -- Monel-Hardened Hoofplates
+				{ 2, 159826, 269064 }, -- Monelite Skeleton Key
+				{ 3, 152813, 253112 }, -- Monel-Hardened Stirrups
+				{ 16, 162115, 278416 }, -- Magnetic Mining Pick
+				{ 17, 162120, 278417 }, -- Platinum Whetstone
+				{ 18, 162109, 278415 }, -- Storm Silver Spurs
+			},
+			[LEGION_DIFF] = {
+				{ 1, 137686, 213916 }, -- Fel Core Hound Harness
+				{ 2, 136708, 209564 }, -- Demonsteel Stirrups
+				{ 3, 123956, 182999 }, -- Leystone Hoofplates
+				{ 4, 124461, 184442 }, -- Demonsteel Bar
+				-- 7.3.0
+				{ 5, 124461, 248864 }, -- Empyrial Rivet
+				{ 6, 151925, 248869 }, -- Empyrial Back Plate
+				{ 7, 151924, 248867 }, -- Empyrial Chest Plate
+				{ 8, 151872, 248870 }, -- Empyrial Breastplate
+			},
+			[NORMAL_DIFF] = {
+				{ 1, 119328, 177169, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Soul of the Forge (Sold, Ashran)
+				{ 3, 108257, 171690, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Truesteel Ingot (Learnt by item 115356)
+				{ 4, 108257, 182116, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Truesteel Ingot (Sold in Garrison)
+				{ 6, 118720, 176090 },	-- Secrets of Draenor Blacksmithing (Learnt by item 115356)
+				{ 8, 98717, 146921 },	-- Accelerated Balanced Trillium Ingot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 9, 98717, 143255 },	-- Balanced Trillium Ingot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 10, 94111, 138646 },	-- Lightning Steel Ingot : =ds=#sr# 500 : =ds=#QUESTID:32621#
+				{ 11, 65365, 76178 },	-- Folded Obsidium : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 12, 9060, 11454 },	-- Inlaid Mithril Cylinder : =ds=#sr# 200 : =ds=AtlasLoot["Crafted"]: spell4036 (205)
+				{ 16, 7071, 8768, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Iron Buckle : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 17, 82960, 122633 },	-- Ghostly Skeleton Key : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 18, 55053, 76438, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Obsidium Skeleton Key : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 19, 43853, 59406, [ATLASLOOT_IT_AMOUNT1] = 20 },	-- Titanium Skeleton Key : =ds=#sr# 430 : =ds=AtlasLoot["Trainer"]
+				{ 20, 43854, 59405, [ATLASLOOT_IT_AMOUNT1] = 10 },	-- Cobalt Skeleton Key : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 21, 15872, 19669, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Arcanite Skeleton Key : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 22, 15871, 19668, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Truesilver Skeleton Key : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 23, 15870, 19667, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Golden Skeleton Key : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 24, 15869, 19666, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Silver Skeleton Key : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 26, 12644, 16639 },	-- Dense Grinding Stone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 27, 7966, 9920 },	-- Solid Grinding Stone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 28, 3486, 3337 },	-- Heavy Grinding Stone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 29, 3478, 3326 },	-- Coarse Grinding Stone : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 30, 3470, 3320 },	-- Rough Grinding Stone : =ds=#sr# 25 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{	--SmithingTrainingProjects
+			name = AL["Training Projects"],
+			[BFA_DIFF] = {
+				{ 1, 128777, 183280 }, -- Heated Leystone Bar
+				{ 2, 124393, 184181 }, -- Leystone Slag
+				{ 3, 124424, 184315 }, -- Hard Leystone Nail
+				{ 4, 124429, 184339 }, -- Leystone Footguard
+				{ 5, 151924, 248867 }, -- Empyrial Chest Plate
+				{ 6, 124394, 184182 }, -- Hard Leystone Bar
+				{ 7, 124450, 184403 }, -- Engraved Leystone Armguards
+				{ 8, 124395, 184183 }, -- Heated Hard Leystone Bar
+				{ 9, 124431, 184341 }, -- Leystone Faceguard
+				{ 10, 124006, 183278 }, -- Leystone Slag
+				{ 11, 151925, 248869 }, -- Empyrial Back Plate
+				{ 12, 124396, 184184 }, -- Dull Hard Leystone Armguards
+				{ 13, 124049, 183562 }, -- Handcrafted Leystone Gauntlets
+				{ 14, 124453, 184405 }, -- Brimstone-Covered Armguards
+				{ 15, 124007, 183279 }, -- Leystone Bar
+				{ 16, 151872, 248870 }, -- Empyrial Breastplate
+				{ 17, 124397, 184185 }, -- Hard Leystone Armguards
+				{ 18, 124405, 184214 }, -- Small Heated Scrap Metal
+				{ 19, 124435, 184343 }, -- Leystone Neckplate
+				{ 20, 124010, 183283 }, -- Leystone Fingerguard
+				{ 21, 124409, 184218 }, -- Scrapmetal Palmplate
+				{ 22, 124410, 184219 }, -- Scrapmetal Handguard
+				{ 23, 124421, 184312 }, -- Lumps of Leystone Slag
+				{ 24, 124408, 184217 }, -- Scrapmetal Fingerplates
+				{ 25, 124407, 184216 }, -- Large Heated Scrap Metal
+				{ 26, 124426, 184336 }, -- Red-Hot Leystone Bar
+				{ 27, 124454, 184407 }, -- Brimstone-Crusted Armguards
+				{ 28, 124009, 183281 }, -- Leystone Cuffplate
+				{ 29, 124452, 184404 }, -- Molten Brimstone
+				{ 30, 124406, 184215 }, -- Medium Heated Scrap Metal
+				{ 101, 124422, 184313 }, -- Hard Leystone Ingots
+				{ 102, 124455, 184408 }, -- Masterwork Leystone Armguards
+				{ 103, 124430, 184340 }, -- Leystone Soleplate
+				{ 104, 124427, 184337 }, -- Leystone Shinplate
+				{ 105, 124434, 184345 }, -- Handmade Leystone Helm
+				{ 106, 124418, 184308 }, -- Leystone Slag
+				{ 107, 124419, 184309 }, -- Hard Leystone Bar
+				{ 108, 124420, 184310 }, -- Leystone Shards
+				{ 109, 124423, 184314 }, -- Heated Hard Leystone Ingot
+				{ 110, 124432, 184342 }, -- Leystone Dome
+				{ 111, 151923, 248864 }, -- Empyrial Rivets
+				{ 112, 124428, 184338 }, -- Leystone Heelguard
+				{ 113, 124411, 184220 }, -- Scrapmetal Cuffplate
+				{ 114, 124433, 184344 }, -- Handmade Leystone Boots
+			},
+			[MOP_DIFF] = {
+				{ 1, 95486, 140168 },	-- Training Project: Ghost Iron Statue : =ds=#sr# 486 : =ds=AtlasLoot["Trainer"]
+				{ 2, 95485, 140167 },	-- Training Project: Ghost Iron Pans : =ds=#sr# 456 : =ds=AtlasLoot["Trainer"]
+				{ 3, 95484, 140166 },	-- Training Project: Ghost Iron Frames : =ds=#sr# 421 : =ds=AtlasLoot["Trainer"]
+				{ 4, 95483, 140165 },	-- Training Project: Ghost Iron Picks : =ds=#sr# 376 : =ds=AtlasLoot["Trainer"]
+				{ 5, 95370, 139764 },	-- Training Project: Ghost Iron Crate : =ds=#sr# 347 : =ds=AtlasLoot["Trainer"]
+				{ 6, 95369, 139763 },	-- Training Project: Ghost Iron Bells : =ds=#sr# 326 : =ds=AtlasLoot["Trainer"]
+				{ 7, 95368, 139762 },	-- Training Project: Ghost Iron Bowls : =ds=#sr# 299 : =ds=AtlasLoot["Trainer"]
+				{ 8, 95367, 139761 },	-- Training Project: Ghost Iron Cups : =ds=#sr# 289 : =ds=AtlasLoot["Trainer"]
+				{ 9, 95366, 139760 },	-- Training Project: Ghost Iron Pot : =ds=#sr# 256 : =ds=AtlasLoot["Trainer"]
+				{ 10, 95365, 139759 },	-- Training Project: Ghost Iron Wire : =ds=#sr# 248 : =ds=AtlasLoot["Trainer"]
+				{ 11, 95364, 139757 },	-- Training Project: Ghost Iron Saw : =ds=#sr# 231 : =ds=AtlasLoot["Trainer"]
+				{ 12, 95363, 139756 },	-- Training Project: Ghost Iron Barrel : =ds=#sr# 206 : =ds=AtlasLoot["Trainer"]
+				{ 13, 95362, 139755 },	-- Training Project: Ghost Iron Needles : =ds=#sr# 199 : =ds=AtlasLoot["Trainer"]
+				{ 14, 95361, 139754 },	-- Training Project: Ghost Iron Spade : =ds=#sr# 186 : =ds=AtlasLoot["Trainer"]
+				{ 15, 95359, 139753 },	-- Training Project: Decorative Spoons : =ds=#sr# 151 : =ds=AtlasLoot["Trainer"]
+				{ 16, 95358, 139751 },	-- Training Project: Ghost Iron Spatulas : =ds=#sr# 136 : =ds=AtlasLoot["Trainer"]
+				{ 17, 95357, 139750 },	-- Training Project: Ghost Iron Hook : =ds=#sr# 121 : =ds=AtlasLoot["Trainer"]
+				{ 18, 95356, 139749 },	-- Training Project: Ghost Iron Poker : =ds=#sr# 86 : =ds=AtlasLoot["Trainer"]
+				{ 19, 95355, 139748 },	-- Training Project: Ghost Iron Ladle : =ds=#sr# 71 : =ds=AtlasLoot["Trainer"]
+				{ 20, 95354, 139747 },	-- Training Project: Ghost Iron Wok : =ds=#sr# 59 : =ds=AtlasLoot["Trainer"]
+				{ 21, 95353, 139746 },	-- Training Project: Simple Eating Utensils : =ds=#sr# 21 : =ds=AtlasLoot["Trainer"]
+				{ 22, 95351, 139745 },	-- Training Project: Ghost Iron Pins : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{	--SmithingRelic
+			name = AL["Relic"],
+			[LEGION_DIFF] = {
+				{ 1, 136685, 209498 }, -- Consecrated Spike
+				{ 2, 136686, 209499 }, -- Flamespike
+				{ 3, 136684, 209497 }, -- Gleaming Iron Spike
+				{ 4, 136683, 209496 }, -- Terrorspike
+			},
+		},
+				{	--SmithingArmorEnhancement
 			name = AL["Armor Enhancements"],
 			[LEGION_DIFF] = {
 				-- 7.3.0
@@ -1553,81 +1753,6 @@ data["Blacksmithing"] = {
 				{ 28, 3241, 3117 },	-- Heavy Weightstone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
 				{ 29, 3240, 3116 },	-- Coarse Weightstone : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
 				{ 30, 3239, 3115 },	-- Rough Weightstone : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{	--SmithingRelic
-			name = AL["Relic"],
-			[LEGION_DIFF] = {
-				{ 1, 136685, 209498 }, -- Consecrated Spike
-				{ 2, 136686, 209499 }, -- Flamespike
-				{ 3, 136684, 209497 }, -- Gleaming Iron Spike
-				{ 4, 136683, 209496 }, -- Terrorspike
-			},
-		},
-		{	--SmithingMisc
-			name = AL["Miscellaneous"],
-			[LEGION_DIFF] = {
-				{ 1, 137686, 213916 }, -- Fel Core Hound Harness
-				{ 2, 136708, 209564 }, -- Demonsteel Stirrups
-				{ 3, 123956, 182999 }, -- Leystone Hoofplates
-				{ 4, 124461, 184442 }, -- Demonsteel Bar
-				-- 7.3.0
-				{ 5, 124461, 248864 }, -- Empyrial Rivet
-				{ 6, 151925, 248869 }, -- Empyrial Back Plate
-				{ 7, 151924, 248867 }, -- Empyrial Chest Plate
-				{ 8, 151872, 248870 }, -- Empyrial Breastplate
-			},
-			[NORMAL_DIFF] = {
-				{ 1, 119328, 177169, [PRICE_EXTRA_ITTYPE] = "118720:1" },	-- Soul of the Forge (Sold, Ashran)
-				{ 3, 108257, 171690, [ATLASLOOT_IT_AMOUNT1] = "8+" },	-- Truesteel Ingot (Learnt by item 115356)
-				{ 4, 108257, 182116, [PRICE_EXTRA_ITTYPE] = "109119:60" },	-- Truesteel Ingot (Sold in Garrison)
-				{ 6, 118720, 176090 },	-- Secrets of Draenor Blacksmithing (Learnt by item 115356)
-				{ 8, 98717, 146921 },	-- Accelerated Balanced Trillium Ingot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 9, 98717, 143255 },	-- Balanced Trillium Ingot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 10, 94111, 138646 },	-- Lightning Steel Ingot : =ds=#sr# 500 : =ds=#QUESTID:32621#
-				{ 11, 65365, 76178 },	-- Folded Obsidium : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 12, 9060, 11454 },	-- Inlaid Mithril Cylinder : =ds=#sr# 200 : =ds=AtlasLoot["Crafted"]: spell4036 (205)
-				{ 16, 7071, 8768, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Iron Buckle : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 17, 82960, 122633 },	-- Ghostly Skeleton Key : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 18, 55053, 76438, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Obsidium Skeleton Key : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 19, 43853, 59406, [ATLASLOOT_IT_AMOUNT1] = 20 },	-- Titanium Skeleton Key : =ds=#sr# 430 : =ds=AtlasLoot["Trainer"]
-				{ 20, 43854, 59405, [ATLASLOOT_IT_AMOUNT1] = 10 },	-- Cobalt Skeleton Key : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 21, 15872, 19669, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Arcanite Skeleton Key : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 22, 15871, 19668, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Truesilver Skeleton Key : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 23, 15870, 19667, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Golden Skeleton Key : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 24, 15869, 19666, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Silver Skeleton Key : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 26, 12644, 16639 },	-- Dense Grinding Stone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 27, 7966, 9920 },	-- Solid Grinding Stone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 28, 3486, 3337 },	-- Heavy Grinding Stone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 29, 3478, 3326 },	-- Coarse Grinding Stone : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 30, 3470, 3320 },	-- Rough Grinding Stone : =ds=#sr# 25 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{	--SmithingTrainingProjects
-			name = AL["Training Projects"],
-			[MOP_DIFF] = {
-				{ 1, 95486, 140168 },	-- Training Project: Ghost Iron Statue : =ds=#sr# 486 : =ds=AtlasLoot["Trainer"]
-				{ 2, 95485, 140167 },	-- Training Project: Ghost Iron Pans : =ds=#sr# 456 : =ds=AtlasLoot["Trainer"]
-				{ 3, 95484, 140166 },	-- Training Project: Ghost Iron Frames : =ds=#sr# 421 : =ds=AtlasLoot["Trainer"]
-				{ 4, 95483, 140165 },	-- Training Project: Ghost Iron Picks : =ds=#sr# 376 : =ds=AtlasLoot["Trainer"]
-				{ 5, 95370, 139764 },	-- Training Project: Ghost Iron Crate : =ds=#sr# 347 : =ds=AtlasLoot["Trainer"]
-				{ 6, 95369, 139763 },	-- Training Project: Ghost Iron Bells : =ds=#sr# 326 : =ds=AtlasLoot["Trainer"]
-				{ 7, 95368, 139762 },	-- Training Project: Ghost Iron Bowls : =ds=#sr# 299 : =ds=AtlasLoot["Trainer"]
-				{ 8, 95367, 139761 },	-- Training Project: Ghost Iron Cups : =ds=#sr# 289 : =ds=AtlasLoot["Trainer"]
-				{ 9, 95366, 139760 },	-- Training Project: Ghost Iron Pot : =ds=#sr# 256 : =ds=AtlasLoot["Trainer"]
-				{ 10, 95365, 139759 },	-- Training Project: Ghost Iron Wire : =ds=#sr# 248 : =ds=AtlasLoot["Trainer"]
-				{ 11, 95364, 139757 },	-- Training Project: Ghost Iron Saw : =ds=#sr# 231 : =ds=AtlasLoot["Trainer"]
-				{ 12, 95363, 139756 },	-- Training Project: Ghost Iron Barrel : =ds=#sr# 206 : =ds=AtlasLoot["Trainer"]
-				{ 13, 95362, 139755 },	-- Training Project: Ghost Iron Needles : =ds=#sr# 199 : =ds=AtlasLoot["Trainer"]
-				{ 14, 95361, 139754 },	-- Training Project: Ghost Iron Spade : =ds=#sr# 186 : =ds=AtlasLoot["Trainer"]
-				{ 15, 95359, 139753 },	-- Training Project: Decorative Spoons : =ds=#sr# 151 : =ds=AtlasLoot["Trainer"]
-				{ 16, 95358, 139751 },	-- Training Project: Ghost Iron Spatulas : =ds=#sr# 136 : =ds=AtlasLoot["Trainer"]
-				{ 17, 95357, 139750 },	-- Training Project: Ghost Iron Hook : =ds=#sr# 121 : =ds=AtlasLoot["Trainer"]
-				{ 18, 95356, 139749 },	-- Training Project: Ghost Iron Poker : =ds=#sr# 86 : =ds=AtlasLoot["Trainer"]
-				{ 19, 95355, 139748 },	-- Training Project: Ghost Iron Ladle : =ds=#sr# 71 : =ds=AtlasLoot["Trainer"]
-				{ 20, 95354, 139747 },	-- Training Project: Ghost Iron Wok : =ds=#sr# 59 : =ds=AtlasLoot["Trainer"]
-				{ 21, 95353, 139746 },	-- Training Project: Simple Eating Utensils : =ds=#sr# 21 : =ds=AtlasLoot["Trainer"]
-				{ 22, 95351, 139745 },	-- Training Project: Ghost Iron Pins : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{	--SmithingArmorsmith

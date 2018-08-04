@@ -24,9 +24,9 @@ data["BFAFACTIONS"] = {
 			FactionID = 2164,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1, "f2159rep6" },
+				{ 1, "f2164rep6" },
 				{ 2, 160537, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, --Drape of the Azerothian Champion
-				{ 4, "f2159rep8" },
+				{ 4, "f2164rep8" },
 				{ 5, 161555, [PRICE_EXTRA_ITTYPE] = "money:18000000" }, --Azerothian Champion's Crown
 				{ 6, 161557, [PRICE_EXTRA_ITTYPE] = "money:18000000" }, --Vest of the Azerothian Champion
 				{ 7, 161560, [PRICE_EXTRA_ITTYPE] = "money:18000000" }, --Azerothian Champion's Spaulders
