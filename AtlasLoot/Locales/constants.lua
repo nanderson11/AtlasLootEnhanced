@@ -297,6 +297,8 @@ AL["Weapon Enhancements"] = true
 AL["Weapons"] = true
 AL["Yellow Gems"] = true
 AL["Contracts"] = true
+AL["Devices"] = true
+AL["Weapon Enchants"] = true
 
 -- Factions strings
 AL["Best Friend"] = true
