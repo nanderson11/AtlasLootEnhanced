@@ -35,15 +35,18 @@ function Item.OnSet(button, second)
 		{
 			ChatLink = { "LeftButton", "Shift" },
 			DressUp = { "LeftButton", "Ctrl" },
+			Azerite = { "RightButton", "Shift" },
 			types = {
 				ChatLink = true,
 				DressUp = true,
+				Azerite = true,
 			},
 		},
 		db.ClickHandler, 
 		{
 			{ "ChatLink", 	AL["Chat Link"], 	AL["Add item into chat"] },
 			{ "DressUp", 	AL["Dress up"], 	AL["Shows the item in the Dressing room"] },
+			{ "Azerite", 	"Azerite", 	"Azerite" },
 		})
 		-- create item colors
 		for i=0,7 do 
@@ -82,6 +85,7 @@ end
 
 function Item.OnMouseAction(button, mouseButton)
 	if not mouseButton then return end
+	
 	mouseButton = ItemClickHandler:Get(mouseButton) or mouseButton
 	if mouseButton == "ChatLink" then
 		local itemInfo, itemLink = GetItemInfo(button.ItemString or button.ItemID)
@@ -111,7 +115,12 @@ function Item.OnMouseAction(button, mouseButton)
 			frame.curRotation = frame.curRotation - 0.1
 			frame:SetRotation(frame.curRotation)
 		end
+	elseif mouseButton == "Azerite" then
+		local itemInfo, itemLink = GetItemInfo(button.ItemString or button.ItemID)
+		itemLink = itemLink or button.ItemString
+		HandleModifiedItemClick(GetFixedLink(itemLink or "item:"..button.ItemID))
 	end
+	
 end
 
 function Item.OnEnter(button, owner)

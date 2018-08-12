@@ -1881,7 +1881,7 @@ data["Enchanting"] = {
 				
 				{ 101, 153478, 255110, [ATLASLOOT_IT_AMOUNT1] = "22" }, -- Weapon Enchant - Siphoning
 				{ 102, 153478, 255111, [ATLASLOOT_IT_AMOUNT1] = "22" }, -- Weapon Enchant - Siphoning
-				{ 102, 153478, 255112, [ATLASLOOT_IT_AMOUNT1] = "22" }, -- Weapon Enchant - Siphoning
+				{ 103, 153478, 255112, [ATLASLOOT_IT_AMOUNT1] = "22" }, -- Weapon Enchant - Siphoning
 			},
 			[WOD_DIFF] = {
 				{ 1, 112160, 159674, [PRICE_EXTRA_ITTYPE] = "119293:5" },	-- Enchant Weapon - Mark of Blackrock (Sold, Ashran)
