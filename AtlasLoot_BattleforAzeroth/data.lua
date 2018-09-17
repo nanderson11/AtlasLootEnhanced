@@ -493,3 +493,119 @@ data["Uldir"] = {
 		},
 	}
 }
+
+data["Azeroth"] = {
+	EncounterJournalID = 1028,
+	MapID = 0,
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
+		{ -- T'zane
+			EncounterJournalID = 2139,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161392 }, -- Bindings of Eternal Fears
+				{ 2, 161396 }, -- Petrified Mask of the Afterlife
+				{ 3, 164383 }, -- Death Devouring Girdle
+				{ 4, 161387 }, -- Wailing Terror Leggings
+				{ 5, 161389 }, -- Cinch of All-Consuming Death
+				{ 6, 161391 }, -- Deathshambler's Shoulderpads
+				{ 7, 161393 }, -- Legguards of the Barkbound Dead
+				{ 8, 161395 }, -- Swampwalker's Soul-Treads
+				{ 9, 161397 }, -- Soulplank Vambraces
+				{ 10, 161411 }, -- T'zane's Barkspines
+				{ 11, 161412 }, -- Spiritbound Voodoo Burl
+			},
+		},
+		{ -- Ji'arak
+			EncounterJournalID = 2141,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161407 }, -- Windshear Leggings
+				{ 2, 161409 }, -- Stormcrash Chestguard
+				{ 3, 161388 }, -- Gloves of Enveloping Winds
+				{ 4, 161394 }, -- Hurricane Cinch
+				{ 5, 164384 }, -- Windswept Dinorider's Cape
+				{ 6, 161401 }, -- Matriarch's Shadowveil
+				{ 7, 161403 }, -- Avian Clutch Belt
+				{ 8, 161390 }, -- Savage Terrorwing Leggings
+				{ 9, 161371 }, -- Galebreaker's Sabatons
+			},
+		},
+		{ -- Hailstone Construct
+			EncounterJournalID = 2197,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161362 }, -- Frostbreath Leggings
+				{ 2, 161364 }, -- Chill's End Wristguards
+				{ 3, 161366 }, -- Ice Stalker Boots
+				{ 4, 161368 }, -- Freezing Tempest Waistguard
+				{ 5, 161370 }, -- Glacial Spike Gauntlets
+				{ 6, 161372 }, -- Ice-Carved Shoulderplates
+				{ 7, 161361 }, -- Ice-Rimed Slippers
+				{ 8, 161380 }, -- Drust-Runed Icicle
+				{ 9, 161367 }, -- Hailstone Hauberk
+				{ 10, 164386 }, -- Girdle of Biting Winds
+				{ 11, 161381 }, -- Permafrost-Encrusted Heart
+			},
+		},
+		{ -- Azurethos, The Winged Typhoon
+			EncounterJournalID = 2199,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161377 }, -- Azurethos' Singed Plumage
+				{ 2, 161379 }, -- Galecaller's Beak
+				{ 3, 161398 }, -- Talonscored Azure Vambraces
+				{ 4, 161363 }, -- Sandals of Rustling Rage
+				{ 5, 161365 }, -- Footpads of the Encircling Storm
+				{ 6, 161352 }, -- Chestguard of Dire Winds
+				{ 7, 161369 }, -- Bindings of the Winged Typhoon
+				{ 8, 161356 }, -- Feathered Galeforce Crest
+				{ 9, 161378 }, -- Plume of the Seaborne Avian
+				{ 10, 161360 }, -- Roost-Defender's Legguards
+				{ 11, 161350 }, -- Windcaller's Down Handwraps
+			},
+		},
+		{ -- Doom's Howl
+			EncounterJournalID = 2213,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161467 }, -- Vest of the Veiled Gryphon
+				{ 2, 161469 }, -- Sharpshooter's Chainmail Hauberk
+				{ 3, 161471 }, -- Lion's Roar Pauldrons
+				{ 4, 161473 }, -- Lion's Guile
+				{ 5, 161464 }, -- Alliance Bowman's Coif
+				{ 6, 161466 }, -- Battlemage's Collar
+				{ 7, 161468 }, -- Gilded-Wing Shoulderguards
+				{ 8, 161470 }, -- Polished Shieldbearer's Breastplate
+				{ 9, 161472 }, -- Lion's Grace
+				{ 10, 161474 }, -- Lion's Strength
+				{ 11, 161465 }, -- Warcaster's Arcane Mantle
+			},
+		},
+		{ -- Warbringer Yenajz
+			EncounterJournalID = 2198,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161349 }, -- Amice of the Rending Abyss
+				{ 2, 161351 }, -- Wristwraps of Warped Reality
+				{ 3, 161353 }, -- Shadow-Wreathed Gloves
+				{ 4, 161355 }, -- Yenajz's Chitinous Stompers
+				{ 5, 161357 }, -- Spaulders of the Enveloping Maw
+				{ 6, 161359 }, -- Band of Intense Gravitation
+				{ 7, 161376 }, -- Prism of Dark Intensity
+				{ 8, 161354 }, -- Leggings of the Endless Void
+				{ 9, 161358 }, -- Existence-Shattering Gauntlets
+			},
+		},
+		{ -- Dunegorger Kraulok
+			EncounterJournalID = 2210,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161400 }, -- Raider's Shrouding Thobe
+				{ 2, 161402 }, -- Gloves of the Desert Assassin
+				{ 3, 161419 }, -- Kraulok's Claw
+				{ 4, 161406 }, -- Shrouded Sandscale Bracers
+				{ 5, 161408 }, -- Sandswept Legionnaire's Legplates
+				{ 6, 161399 }, -- Cord of Flowing Sands
+				{ 7, 161404 }, -- Hood of the Sinuous Devilsaur
+				{ 8, 161405 }, -- Dunegorger's Grips
+				{ 9, 164385 }, -- Desert Nomad's Wrap
+			},
+		},
+	}
+}
