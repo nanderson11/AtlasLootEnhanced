@@ -1867,9 +1867,9 @@ data["Enchanting"] = {
 				{ 14, 159787, 268902, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Masterful Navigation
 				{ 15, 159787, 268903, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Masterful Navigation
 				
-				{ 20, 159788, 268878, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
-				{ 21, 159788, 268879, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
-				{ 22, 159788, 268852, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
+				{ 20, 159788, 268852, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
+				{ 21, 159788, 268878, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
+				{ 22, 159788, 268879, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Versatile Navigation
 				
 				{ 24, 159786, 268894, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Quick Navigation
 				{ 25, 159786, 268895, [ATLASLOOT_IT_AMOUNT1] = "149" }, -- Weapon Enchant - Quick Navigation
