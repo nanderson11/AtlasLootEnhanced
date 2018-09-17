@@ -27,6 +27,12 @@ local LoadModuleSpam = {}
 -- A list of officiel AtlasLoot modules
 local ATLASLOOT_MODULE_LIST = {
 	{
+		addonName = "AtlasLoot_BattleforAzeroth",
+		name = format("|T%s:0:0|t %s", "Interface\\ICONS\\Inv_ChampionsOfAzeroth", EXPANSION_NAME7),
+		tt_title = nil,		-- ToolTip title
+		tt_text = nil,		-- ToolTip text
+	},
+	{
 		addonName = "AtlasLoot_Legion",
 		name = format("|T%s:0:0|t %s", "Interface\\ICONS\\Achievements_Zone_BrokenShore", EXPANSION_NAME6),
 		tt_title = nil,		-- ToolTip title

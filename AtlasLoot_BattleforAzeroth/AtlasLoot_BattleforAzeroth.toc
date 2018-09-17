@@ -1,0 +1,43 @@
+﻿## Interface: 80000
+## Author: Lag, Arith	
+## Version: @project-version@
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+#@non-debug@
+## Title: @localization(locale="enUS", key="Title-BfA", namespace="ToC")@
+## Title-deDE: @localization(locale="deDE", key="Title-BfA", namespace="ToC")@
+## Title-esES: @localization(locale="esES", key="Title-BfA", namespace="ToC")@
+## Title-esMX: @localization(locale="esMX", key="Title-BfA", namespace="ToC")@
+## Title-frFR: @localization(locale="frFR", key="Title-BfA", namespace="ToC")@
+## Title-itIT: @localization(locale="itIT", key="Title-BfA", namespace="ToC")@
+## Title-koKR: @localization(locale="koKR", key="Title-BfA", namespace="ToC")@
+## Title-ptBR: @localization(locale="ptBR", key="Title-BfA", namespace="ToC")@
+## Title-ruRU: @localization(locale="ruRU", key="Title-BfA", namespace="ToC")@
+## Title-zhCN: @localization(locale="zhCN", key="Title-BfA", namespace="ToC")@
+## Title-zhTW: @localization(locale="zhTW", key="Title-BfA", namespace="ToC")@
+## Notes: @localization(locale="enUS", key="Notes-BfA", namespace="ToC")@
+## Notes-deDE: @localization(locale="deDE", key="Notes-BfA", namespace="ToC")@
+## Notes-esES: @localization(locale="esES", key="Notes-BfA", namespace="ToC")@
+## Notes-esMX: @localization(locale="esMX", key="Notes-BfA", namespace="ToC")@
+## Notes-frFR: @localization(locale="frFR", key="Notes-BfA", namespace="ToC")@
+## Notes-itIT: @localization(locale="itIT", key="Notes-BfA", namespace="ToC")@
+## Notes-koKR: @localization(locale="koKR", key="Notes-BfA", namespace="ToC")@
+## Notes-ptBR: @localization(locale="ptBR", key="Notes-BfA", namespace="ToC")@
+## Notes-ruRU: @localization(locale="ruRU", key="Notes-BfA", namespace="ToC")@
+## Notes-zhCN: @localization(locale="zhCN", key="Notes-BfA", namespace="ToC")@
+## Notes-zhTW: @localization(locale="zhTW", key="Notes-BfA", namespace="ToC")@
+#@end-non-debug@
+#@debug@
+## Title: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
+
+## Notes: AtlasLoot loot tables from Battle for Azeroth
+#@end-debug@
+
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+
+## X-AtlasLoot-LootModule: 1
+
+data.lua
