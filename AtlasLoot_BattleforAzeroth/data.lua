@@ -114,6 +114,174 @@ data["InstanceName"] = {
 	}
 }
 ]]
+data["Freehold"] = {
+	EncounterJournalID = 1001,
+	MapID = 936,
+	ContentType = DUNGEON_CONTENT,
+	items = 
+	{
+		{ -- Council o' Captains
+			EncounterJournalID = 2093,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 158314 }, -- Seal of Questionable Loyalties
+				{ 2, 158346 }, -- Sailcloth Waistband
+				{ 3, 158351 }, -- Dashing Bilge Rat Shoes
+				{ 4, 159297 }, -- Silver-Trimmed Breeches
+				{ 5, 159130 }, -- Captain's Diplomacy
+				{ 6, 159132 }, -- Jolly's Boot Dagger
+				{ 7, 159356 }, -- Raoul's Barrelhook Bracers
+				{ 8, 158311 }, -- Concealed Fencing Plates
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Ring of Booty
+			EncounterJournalID = 2094,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 158302 }, -- Chum-Coated Leggings
+				{ 2, 155889 }, -- Sharkhide Grips
+				{ 3, 155891 }, -- Greasy Bacon-Grabbers
+				{ 4, 159634 }, -- Jeweled Sharksplitter
+				{ 5, 158361 }, -- Sharkwater Waders
+				{ 6, 158305 }, -- Sea Dog's Cuffs
+				{ 7, 155892 }, -- Bite-Resistant Chain Gloves
+				{ 8, 158356 }, -- Shell-Kickers
+				{ 9, 155890 }, -- Sharktooth-Knuckled Grips
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Harlan Sweete
+			EncounterJournalID = 2095,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159352 }, -- Gaping Maw Shoulderguard
+				{ 2, 159407 }, -- Lockjaw Shoulderplate
+				{ 3, 155886 }, -- Smartly Plumed Cap
+				{ 4, 155888 }, -- Irontide Captain's Hat
+				{ 5, 155887 }, -- Sweete's Jeweled Headgear
+				{ 6, 159299 }, -- Gold-Tasseled Epaulets
+				{ 7, 155881 }, -- Harlan's Loaded Dice
+				{ 8, 159635 }, -- Bloody Tideturner
+				{ 9, 155885 }, -- Sea-Brawler's Greathelm
+				{ 10, 158301 }, -- Ruffled Poet Blouse
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Skycap'n Kragg
+			EncounterJournalID = 2102,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159633 }, -- Sharkbait's Fishhook
+				{ 2, 159353 }, -- Chain-Linked Safety Cord
+				{ 3, 158360 }, -- Sharkbait Harness Girdle
+				{ 4, 155862 }, -- Kragg's Rigging Scalers
+				{ 5, 155884 }, -- Parrotfeather Cloak
+				{ 6, 159227 }, -- Silk Cuffs of the Skycap'n
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+	}
+}
+
+data["Shrine of the Storm"] = {
+	EncounterJournalID = 1036,
+	MapID = 1039,
+	ContentType = DUNGEON_CONTENT,
+	items = 
+	{
+		{ -- Aqu'sirr
+			EncounterJournalID = 2153,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159420 }, -- Stormsurger's Sabatons
+				{ 2, 159239 }, -- Aqu'sirr's Swirling Sash
+				{ 3, 159366 }, -- Water Shapers
+				{ 4, 159619 }, -- Briny Barnacle
+				{ 5, 158318 }, -- Murky Cerulean Signet
+				{ 6, 159321 }, -- Gloves of Corrupted Waters
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Tidesage Council
+			EncounterJournalID = 2154,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159295 }, -- Footpads of the Serene Wake
+				{ 2, 159359 }, -- Sea Priest's Greaves
+				{ 3, 159311 }, -- Blessing Bearer's Waders
+				{ 4, 159419 }, -- Ironhull's Reinforced Legplates
+				{ 5, 159614 }, -- Galecaller's Boon
+				{ 6, 159426 }, -- Belt of the Unrelenting Gale
+				{ 7, 158371 }, -- Seabreeze
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Lord Stormsong
+			EncounterJournalID = 2155,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159308 }, -- Bracers of the Sacred Fleet
+				{ 2, 159421 }, -- Gauntlets of Total Subservience
+				{ 3, 159646 }, -- Aq'mar, the Tidecaller
+				{ 4, 159242 }, -- Leggings of the Drowned Lord
+				{ 5, 159364 }, -- Bindings of the Calling Depths
+				{ 6, 159289 }, -- Void-Drenched Cape
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Vol'zith the Whisperer
+			EncounterJournalID = 2156,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 159307 }, -- Tentacle-Laced Spaulders
+				{ 2, 159354 }, -- Hauberk of Sunken Despair
+				{ 3, 159238 }, -- Mantle of Void-Touched Waters
+				{ 4, 159135 }, -- Deep Fathom's Bite
+				{ 5, 159302 }, -- Cowl of Fluid Machinations
+				{ 6, 159244 }, -- Stormlurker's Cowl
+				{ 7, 159430 }, -- Helm of Abyssal Malevolence
+				{ 8, 159408 }, -- Chestguard of the Deep Denizen
+				{ 9, 159620 }, -- Conch of Dark Whispers
+				{ 10, 159377 }, -- Chain of Consummate Power
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+	}
+}
+
 -- /////////////////////////////////
 -- Raid
 -- /////////////////////////////////
