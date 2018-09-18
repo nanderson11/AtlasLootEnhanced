@@ -128,6 +128,7 @@ end
 
 -- Only instance related module will be handled
 local ATLASLOOT_INSTANCE_MODULE_LIST = {
+	"AtlasLoot_BattleforAzeroth",
 	"AtlasLoot_Legion",
 	"AtlasLoot_WarlordsofDraenor",
 	"AtlasLoot_MistsofPandaria",
@@ -141,7 +142,7 @@ local ATLASLOOT_INSTANCE_MODULE_LIST = {
 function AtlasLoot:PreLoadModules()
 	local db = AtlasLoot.db.GUI
 
-	local o_moduleName = db.selected[1] or "AtlasLoot_Legion"
+	local o_moduleName = db.selected[1] or "AtlasLoot_BattleforAzeroth"
 	local o_dataID = db.selected[2] or 1
 	local o_bossID = db.selected[3] or 1
 	local o_diffID = db.selected[4] or 1
