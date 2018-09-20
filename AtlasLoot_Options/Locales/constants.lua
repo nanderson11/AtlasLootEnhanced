@@ -44,4 +44,6 @@ AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = tru
 AL["Windows"] = true
 AL["Show AtlasLoot button on WorldMap."] = true
 AL["Show AtlasLoot button on WorldMap's title bar."] = true
+AL["Show expansion icons in module dropdown."] = true
+AL["Change will take effect in next login."] = true
 --@end-do-not-package@
