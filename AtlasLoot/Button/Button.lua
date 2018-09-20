@@ -134,7 +134,7 @@ function Button:Create()
 	--button:SetNormalTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
 	--button:RegisterForClicks("LeftButtonDown", "RightButtonDown")
 	button:EnableMouseWheel(true)
-	button:RegisterForClicks("AnyUp", "AnyDown")
+	button:RegisterForClicks("AnyDown") --"AnyUp", 
 	button:SetScript("OnEnter", Button_OnEnter)
 	button:SetScript("OnLeave", Button_OnLeave)
 	button:SetScript("OnClick", Button_OnClick)

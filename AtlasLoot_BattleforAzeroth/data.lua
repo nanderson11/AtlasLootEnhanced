@@ -40,7 +40,7 @@ local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset"
 local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
 	Item = {
 		item1bonus = "Scaling",
-		item2bonus = "LegionDungeonTitanforged",
+		item2bonus = "BfADungeonTitanforged",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -48,7 +48,7 @@ local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset"
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
 local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", {
 	Item = {
-		item2bonus = "LegionHCDungeonTitanforged",
+		item2bonus = "BfAHCDungeonTitanforged",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -56,7 +56,7 @@ local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithP
 local MYTHICD_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 23)
 local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
 	Item = {
-		item2bonus = "LegionMDungeonTitanforged",
+		item2bonus = "BfAMDungeonTitanforged",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
