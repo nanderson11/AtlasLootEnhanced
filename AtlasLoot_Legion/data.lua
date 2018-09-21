@@ -1037,7 +1037,7 @@ data["EyeOfAzshara"] = {
 
 data["HallsOfValor"] = {
 	EncounterJournalID = 721,
-	MapID = 703,
+	MapID = 704,
 	AtlasMapID = "HallsofValorA",
 	ContentType = DUNGEON_CONTENT,
 	items = {
@@ -2584,7 +2584,8 @@ data["TheEmeraldNightmare"] = {
 -- Invasion Points
 data["InvasionPoints"] = {
 	EncounterJournalID = 959,
-	MapID = 830,
+	--MapID = 830,
+	MapID = 929,
 	--AtlasMapID = "InvasionPoints",
 	ContentType = RAID_CONTENT,
 	items = {
@@ -3358,7 +3359,7 @@ data["TombofSargeras"] = {
 
 data["TrialOfValor"] = {
 	EncounterJournalID = 861,
-	MapID = 806,
+	MapID = 807,
 	ItemBaseLvl = 172,
 	AtlasMapID = "TrialofValorA",
 	ContentType = RAID_CONTENT,

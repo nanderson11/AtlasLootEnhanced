@@ -17,6 +17,7 @@ v8.08.00 (Sep. 22, 2018)
 - Added module's tooltip in dropdown
 - Added achievements from Atal'Dazar (thanks to martinvanstigtthans)
 - Added LibDataBroker to no-lib version of release
+- Updated MapID of Trial of Valor, Invasion Points, Halls of Valor
 
 v8.07.13 (Apr. 13, 2018)
 ========================

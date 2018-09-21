@@ -1180,7 +1180,7 @@ data["Uldir"] = {
 
 data["Azeroth"] = {
 	EncounterJournalID = 1028,
-	MapID = 0,
+	--MapID = 0,
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
 	items = 
