@@ -16,6 +16,7 @@ local format, split = string.format, string.split
 
 -- WoW
 local GetItemInfo, IsEquippableItem = GetItemInfo, IsEquippableItem
+local IsAzeriteItem = C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID
 
 -- AL
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
@@ -56,18 +57,23 @@ function Item.OnSet(button, second)
 	end
 	if not button then return end
 	if second and button.__atlaslootinfo.secType then
-		if type(button.__atlaslootinfo.secType[2]) == "table" then
-			button.secButton.ItemID = button.__atlaslootinfo.secType[2].itemID or tonumber(tab_remove(button.__atlaslootinfo.secType[2], 1))
-			button.secButton.ItemString = button.__atlaslootinfo.secType[2].itemString or GetItemStringWithBonus(button.secButton.ItemID, button.__atlaslootinfo.secType[2], button.__atlaslootinfo.ItemDifficulty, AtlasLoot.GUI.ItemFrame.ItemBaseLvl )
+		if IsAzeriteItem(button.ItemID) then 
+			button.__atlaslootinfo.secType = nil
+			button.secButton:Hide()
 		else
-			button.secButton.ItemID = button.__atlaslootinfo.secType[2]
-			if button.__atlaslootinfo.preSet and button.__atlaslootinfo.preSet.Item and ( button.__atlaslootinfo.preSet.Item.item2bonus or button.__atlaslootinfo.ItemDifficulty ) then
-				button.secButton.ItemString = GetItemStringWithBonus(button.ItemID, button.__atlaslootinfo.preSet.Item.item2bonus, button.__atlaslootinfo.ItemDifficulty, AtlasLoot.GUI.ItemFrame.ItemBaseLvl)
+			if type(button.__atlaslootinfo.secType[2]) == "table" then
+				button.secButton.ItemID = button.__atlaslootinfo.secType[2].itemID or tonumber(tab_remove(button.__atlaslootinfo.secType[2], 1))
+				button.secButton.ItemString = button.__atlaslootinfo.secType[2].itemString or GetItemStringWithBonus(button.secButton.ItemID, button.__atlaslootinfo.secType[2], button.__atlaslootinfo.ItemDifficulty, AtlasLoot.GUI.ItemFrame.ItemBaseLvl )
+			else
+				button.secButton.ItemID = button.__atlaslootinfo.secType[2]
+				if button.__atlaslootinfo.preSet and button.__atlaslootinfo.preSet.Item and ( button.__atlaslootinfo.preSet.Item.item2bonus or button.__atlaslootinfo.ItemDifficulty ) then
+					button.secButton.ItemString = GetItemStringWithBonus(button.ItemID, button.__atlaslootinfo.preSet.Item.item2bonus, button.__atlaslootinfo.ItemDifficulty, AtlasLoot.GUI.ItemFrame.ItemBaseLvl)
+				end
 			end
+			button.secButton.Droprate = button.__atlaslootinfo.Droprate
+			
+			Item.Refresh(button.secButton)
 		end
-		button.secButton.Droprate = button.__atlaslootinfo.Droprate
-		
-		Item.Refresh(button.secButton)
 	else
 		if type(button.__atlaslootinfo.type[2]) == "table" then
 			button.ItemID = button.__atlaslootinfo.type[2].itemID or tonumber(tab_remove(button.__atlaslootinfo.type[2], 1))
