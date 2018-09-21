@@ -77,7 +77,8 @@ local ATLASLOOT_MODULE_LIST = {
 	},
 	{
 		addonName = "AtlasLoot_Classic",
-		icon = 1120721,
+		--icon = 1120721,
+		icon = "Interface\\ICONS\\Achievement_Zone_EasternKingdoms_01",
 		name = EXPANSION_NAME0,
 		tt_title = nil,		-- ToolTip title
 		tt_text = nil,		-- ToolTip text

@@ -94,7 +94,19 @@ local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_CO
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
-
+local BATTLEFORAZEROTH_DUNGEON_HERO_AC_TABLE = {	--[BattleforAzeroth Dungeon Hero]
+	name = select(2, GetAchievementInfo(12807)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[HEROIC_DIFF] = {
+		{ 1, 12807 },
+		{ 2, 12505 },			{ 17, 12501 },
+		{ 3, 12484 },			{ 18, 12832 },
+		{ 4, 12837 },			{ 19, 12825 },
+		{ 5, 12841 },			{ 20, 12845 },
+	},
+}
 -- /////////////////////////////////
 -- Instance
 -- /////////////////////////////////
@@ -137,6 +149,8 @@ data["Atal'Dazar"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac12272" }, -- AC: Mythic: Atal`Dazar "Gold Fever"
+				{ 17, "ac12270" }, -- AC: Mythic: Atal`Dazar "Bringing Hexy Back"
 			},
 		},
 		{ -- Vol'kaal
@@ -155,6 +169,7 @@ data["Atal'Dazar"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac12270" }, -- AC: Mythic: Atal`Dazar "Bringing Hexy Back"
 			},
 		},
 		{ -- Rezan
@@ -174,6 +189,7 @@ data["Atal'Dazar"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac12270" }, -- AC: Mythic: Atal`Dazar "Bringing Hexy Back"
 			},
 		},
 		{ -- Yazma
@@ -189,14 +205,21 @@ data["Atal'Dazar"] = {
 				{ 8, 158308 }, -- Souldrifting Sabatons
 				{ 9, 158315 }, -- Secret Spinner's Miter
 				{ 10, 155860 }, -- Spymaster's Wrap
+				{ 16, "ac12824" }, -- AC: Atal'Dazar
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac12825" }, -- AC: Heroic: Atal'Dazar
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac12826" }, -- AC: Mythic: Atal'Dazar
+				{ 17, "ac12270" }, -- AC: Mythic: Atal`Dazar "Bringing Hexy Back"
+				{ 18, "ac12273" }, -- AC: Mythic: Atal`Dazar "It's Lit!"
+				{ 19, "ac13002" }, -- AC: Mythic: Atal'Dazar Guild Run
 			},
 		},
+		BATTLEFORAZEROTH_DUNGEON_HERO_AC_TABLE,
 	}
 }
 
