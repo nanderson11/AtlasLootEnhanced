@@ -294,9 +294,6 @@ data["Kings' Rest"] = {
 	{
 		{ -- The Golden Serpent
 			EncounterJournalID = 2165,
-			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				{ 1, 159413 }, -- Gauntlets of the Avian Sentinel
 				{ 2, 159617 }, -- Lustrous Golden Plumage
@@ -310,9 +307,6 @@ data["Kings' Rest"] = {
 		},
 		{ -- Mchimba the Embalmer
 			EncounterJournalID = 2171,
-			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				{ 1, 160213 }, -- Sepulchral Construct's Gloves
 				{ 2, 159618 }, -- Mchimba's Ritual Bandages
@@ -325,9 +319,6 @@ data["Kings' Rest"] = {
 		},
 		{ -- The Council of Tribes
 			EncounterJournalID = 2170,
-			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				{ 1, 159371 }, -- Boots of the Headlong Conqueror
 				{ 2, 159288 }, -- Cloak of the Restless Tribes
@@ -341,9 +332,6 @@ data["Kings' Rest"] = {
 		},
 		{ -- Dazar, The First King
 			EncounterJournalID = 2172,
-			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				{ 1, 159236 }, -- Headdress of the First Empire
 				{ 2, 159645 }, -- Headcracker of Supplication

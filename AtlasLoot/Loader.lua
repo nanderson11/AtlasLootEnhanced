@@ -43,7 +43,7 @@ local ATLASLOOT_MODULE_LIST = {
 	{
 		addonName = "AtlasLoot_WarlordsofDraenor",
 		icon = "Interface\\ICONS\\Achievement_Zone_Draenor_01",
-		name = nil,
+		name = EXPANSION_NAME5,
 		tt_title = nil,		-- ToolTip title
 		tt_text = nil,		-- ToolTip text
 	},
@@ -77,6 +77,7 @@ local ATLASLOOT_MODULE_LIST = {
 	},
 	{
 		addonName = "AtlasLoot_Classic",
+		icon = 1120721,
 		name = EXPANSION_NAME0,
 		tt_title = nil,		-- ToolTip title
 		tt_text = nil,		-- ToolTip text
