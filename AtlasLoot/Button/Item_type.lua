@@ -188,7 +188,7 @@ function Item.Refresh(button)
 		Query:Add(button)
 		return false
 	end
-	
+
 	button.overlay:Show()
 	button.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.overlay:SetAtlas(LOOT_BORDER_BY_QUALITY[itemQuality] or LOOT_BORDER_BY_QUALITY[LE_ITEM_QUALITY_UNCOMMON])

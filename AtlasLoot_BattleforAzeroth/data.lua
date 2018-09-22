@@ -19,7 +19,7 @@ local AL = AtlasLoot.Locales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
 	Item = {
-		item2bonus = "LegionMaxTitanforgedByBaseLvl",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -32,7 +32,7 @@ local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", {
 }, 1)
 local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", {
 	Item = {
-		item2bonus = "LegionMaxTitanforgedByBaseLvl",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -40,7 +40,7 @@ local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset"
 local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
 	Item = {
 		item1bonus = "Scaling",
-		item2bonus = "BfADungeonTitanforged",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -48,7 +48,7 @@ local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset"
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
 local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", {
 	Item = {
-		item2bonus = "BfAHCDungeonTitanforged",
+		item2bonus = "BfAMaxItemLvl", --"BfAHCDungeonTitanforged",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -56,7 +56,7 @@ local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithP
 local MYTHICD_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 23)
 local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
 	Item = {
-		item2bonus = "BfAMDungeonTitanforged",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -65,14 +65,14 @@ local MYTHICD2_DIFF = data:AddDifficulty(AL["Mythic"], "h", nil, 23)
 local MYTHICD2_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeon2WithPreset", {
 	Item = {
 		item1bonus = "LegionMDungeon2",
-		item2bonus = "LegionMDungeon2Titanforged",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
 }, 23)
 local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 	Item = {
-		item2bonus = "LegionMaxTitanforgedByBaseLvl",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
@@ -80,7 +80,7 @@ local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
 local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", {
 	Item = {
-		item2bonus = "LegionMaxTitanforgedByBaseLvl",
+		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
 		addDifficultyBonus = true,
 	},
