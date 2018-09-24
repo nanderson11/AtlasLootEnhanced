@@ -29,7 +29,7 @@ local EJ_DIFFICULTIES =
 	{ prefix = PLAYER_DIFFICULTY6, difficultyID = 16 },
 }
 
-function DEV:ScanEJ(givenTierId)
+function Dev:ScanEJ(givenTierId)
 	AtlasLoot.db.DEV_ScanEJ = {}
 	local db = AtlasLoot.db.DEV_ScanEJ
 	if EncounterJournal then
