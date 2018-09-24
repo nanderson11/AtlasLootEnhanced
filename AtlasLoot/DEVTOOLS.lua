@@ -1,3 +1,8 @@
+-- This is only for development use
+--@do-not-package@
+
+local _G = getfenv(0)
+local LibStub = _G.LibStub
 local AtlasLoot = _G.AtlasLoot
 local AceGUI = LibStub("AceGUI-3.0")
 local AL = AtlasLoot.Locales
@@ -24,9 +29,9 @@ local EJ_DIFFICULTIES =
 	{ prefix = PLAYER_DIFFICULTY6, difficultyID = 16 },
 }
 
-function AtlasLoot:DEV_ScanEJ(givenTierId)
-	self.db.DEV_ScanEJ = {}
-	local db = self.db.DEV_ScanEJ
+function DEV:ScanEJ(givenTierId)
+	AtlasLoot.db.DEV_ScanEJ = {}
+	local db = AtlasLoot.db.DEV_ScanEJ
 	if EncounterJournal then
 		EncounterJournal:UnregisterEvent("EJ_DIFFICULTY_UPDATE")
 	end
@@ -1427,6 +1432,7 @@ end
 -- ######################################################
 -- ######################################################
 local ATLASLOOT_INSTANCE_MODULE_LIST = {
+	"AtlasLoot_BattleforAzeroth",
 	"AtlasLoot_Legion",
 	"AtlasLoot_WarlordsofDraenor",
 	"AtlasLoot_MistsofPandaria",
@@ -1994,14 +2000,55 @@ function Dev:DevTool_CreateFrame()
 
 end
 
-function Dev:GetMapIds()
-	self.db.profile.MAPIDS = self.db.profile.MAPIDS or {}	
+function Dev:GetAreaIds()
+	AtlasLoot.db.AreaIDs = AtlasLoot.db.AreaIDs or {}	
 	for i = 1,10000 do
-		if GetMapNameByID(i) then
-			self.db.profile.MAPIDS[i] = GetMapNameByID(i)
+		if C_Map.GetAreaInfo(i) then
+			AtlasLoot.db.AreaIDs[i] = C_Map.GetAreaInfo(i)
 		end
 	end
 end
+
+
+function Dev:GetUIMapIDs()
+	AtlasLoot.db.uiMapIDs = AtlasLoot.db.uiMapIDs or {}	
+	for i = 1,10000 do
+		if C_Map.GetMapInfo(i) then
+			AtlasLoot.db.uiMapIDs[i] = C_Map.GetMapInfo(i)
+		end
+	end
+end
+
+function Dev:GetPetInfo()
+	AtlasLoot.db.PETINFO = AtlasLoot.db.PETINFO or {}	
+
+	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
+	local numPets = C_PetJournal.GetNumPets()
+	
+	for i=1,numPets do
+		petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+		if speciesName and speciesID then
+			AtlasLoot.db.PETINFO[speciesName] = speciesID
+		end
+	end
+end
+
+function Dev:GetMountInfo()
+	AtlasLoot.db.MOUNTINFO = {}
+	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
+	local numMounts = C_MountJournal.GetNumMounts()
+
+	for i=1,numMounts do
+	--print(C_MountJournal.GetMountInfoByID(i))
+		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
+		if creatureName and mountID then
+			AtlasLoot.db.MOUNTINFO[creatureName] = {}
+			AtlasLoot.db.MOUNTINFO[creatureName]["mountID"]=mountID
+			AtlasLoot.db.MOUNTINFO[creatureName]["spellID"]=spellID
+		end
+	end
+end
+
 
 function Dev:GetEJDetails(bool)
 	local iniIndex = 1
@@ -2111,3 +2158,5 @@ eventFrame:RegisterEvent("BONUS_ROLL_STARTED")
 eventFrame:RegisterEvent("BONUS_ROLL_FAILED")
 eventFrame:RegisterEvent("BONUS_ROLL_RESULT")
 ]]--
+
+--@end-do-not-package@

@@ -82,38 +82,6 @@ function AtlasLoot:OnInitialize()
 		LibDialog:Spawn("ATLASLOOT_LOADER_ADDON_ERROR")
 
 	end
-
---@do-not-package@
---scan for pet IDs
---[[
-	self.db.PETINFO = {}
-	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
-	local numPets = C_PetJournal.GetNumPets()
-	
-	for i=1,numPets do
-		petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName = C_PetJournal.GetPetInfoByIndex(i)
-		if speciesName and speciesID then
-			self.db.PETINFO[speciesName] = speciesID
-		end
-	end
-]]
--- scan for mount info
---[[
-	self.db.MOUNTINFO = {}
-	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
-	local numMounts = C_MountJournal.GetNumMounts()
-
-	for i=1,numMounts do
-	--print(C_MountJournal.GetMountInfoByID(i))
-		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
-		if creatureName and mountID then
-			self.db.MOUNTINFO[creatureName] = {}
-			self.db.MOUNTINFO[creatureName]["mountID"]=mountID
-			self.db.MOUNTINFO[creatureName]["spellID"]=spellID
-		end
-	end
-]]
---@end-do-not-package@
 end
 
 function AtlasLoot:AddInitFunc(func, module)
