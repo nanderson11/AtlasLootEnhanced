@@ -390,7 +390,9 @@ function Proto:Clear()
 		self.secButton:Hide()
 	end
 	
-	self.highlightBg:Hide()
+	if self.highlightBg then
+		self.highlightBg:Hide()
+	end
 	
 	wipe(self.__atlaslootinfo)
 end

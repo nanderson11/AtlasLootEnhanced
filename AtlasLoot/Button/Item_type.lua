@@ -57,7 +57,7 @@ function Item.OnSet(button, second)
 	end
 	if not button then return end
 	if second and button.__atlaslootinfo.secType then
-		if IsAzeriteItem(button.ItemID) then 
+		if button.ItemID and IsAzeriteItem(button.ItemID) then 
 			button.__atlaslootinfo.secType = nil
 			button.secButton:Hide()
 		else
