@@ -30,7 +30,7 @@ local Proto = {}
  -- "TRANSMOG_SOURCE_COLLECTABILITY_UPDATE" event , sourceID, canCollect
  
  
- 
+ -- /console missingTransmogSourceInItemTooltips 1
  --C_TransmogCollection.GetSourceInfo(sourceID)
  
 --[[ C_TransmogCollection.PlayerCanCollectSource

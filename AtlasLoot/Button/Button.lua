@@ -140,6 +140,14 @@ function Button:Create()
 	button:SetScript("OnClick", Button_OnClick)
 	button:SetScript("OnMouseWheel", Button_OnMouseWheel)
 	
+	-- highlight Background
+	button.highlightBg = button:CreateTexture(buttonName.."_highlightBg")
+	button.highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
+	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
+	button.highlightBg:SetColorTexture(1,0,0)
+	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
+	button.highlightBg:Hide()
+	
 	-- Icon <texture>
 	button.icon = button:CreateTexture(buttonName.."_icon")
 	button.icon:SetPoint("TOPLEFT", button, "TOPLEFT", 1, -1)
@@ -269,14 +277,6 @@ function Button:Create()
 	button.factionIcon:SetHeight(28)
 	button.factionIcon:SetWidth(28)
 	button.factionIcon:Hide()
-	
-	-- highlight Background
-	button.highlightBg = button:CreateTexture(buttonName.."_highlightBg")
-	button.highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
-	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
-	button.highlightBg:SetColorTexture(1,0,0)
-	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
-	button.highlightBg:Hide()
 	
 	--button.secButton.mini:EnableMouse(false)
 	

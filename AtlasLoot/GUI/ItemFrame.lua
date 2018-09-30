@@ -34,6 +34,7 @@ function ItemFrame:Create()
 	frame.Refresh = ItemFrame.Refresh
 	frame.Clear = ItemFrame.Clear
 	frame.OnClassFilterUpdate = ItemFrame.OnClassFilterUpdate
+	frame.OnTransMogUpdate = ItemFrame.OnTransMogUpdate
 	
 	frame.ItemButtons = {}
 	for i=1,30 do
@@ -120,6 +121,10 @@ function ItemFrame.OnTransMogUpdate()
 			else
 				button.highlightBg:Hide()
 			end
+		end
+	else
+		for i = 1,30 do
+			ItemFrame.frame.ItemButtons[i].highlightBg:Hide()
 		end
 	end
 end
