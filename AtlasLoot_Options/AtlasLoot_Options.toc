@@ -38,7 +38,9 @@
 
 ## Notes: AtlasLoot options module
 ## Notes-deDE: AtlasLoot Modul für Einstellungen
+## Notes-frFR: Module d'options AtlasLoot
 ## Notes-koKR: AtlasLoot 옵션 모듈
+## Notes-ruRU: AtlasLoot модуль опций
 ## Notes-zhCN: AtlasLoot 选项模块
 ## Notes-zhTW: AtlasLoot 選項設定模組
 #@end-debug@

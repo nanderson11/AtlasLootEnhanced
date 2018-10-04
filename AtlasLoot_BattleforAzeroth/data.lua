@@ -114,7 +114,7 @@ local BATTLEFORAZEROTH_GLORY_OF_THE_WARTORN_HERO_AC_TABLE = {	--[Glory of the Wa
 	ExtraList = true,
 	CoinTexture = "Achievement",
 	[MYTHIC_DIFF] = {
-		{ 1, 12812, --[["mount250735"]] },
+		{ 1, 12812, --[[ "mount239049" ]] },
 		{ 2, 12550 },			{ 17, 12548 },
 		{ 3, 12998 },			{ 18, 12489 },
 		{ 4, 12495 },			{ 19, 12490 },
