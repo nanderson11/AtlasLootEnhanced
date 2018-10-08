@@ -791,6 +791,7 @@ function Pet.OnClear(button)
 	button.overlay:SetWidth(button.icon:GetWidth())
 	
 	button.secButton.overlay:Hide()
+	button.secButton.overlay:SetTexCoord(1, 1, 1, 1)
 	button.secButton.overlay:SetHeight(button.icon:GetWidth())
 	button.secButton.overlay:SetWidth(button.icon:GetWidth())
 	
