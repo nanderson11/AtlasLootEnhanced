@@ -1,3 +1,4 @@
+--@do-not-package@
 -- ids
 --[[
 ["PETINFO"] = 
@@ -1069,7 +1070,7 @@
 
 	}
 ]]
-
+--@end-do-not-package@
 local AtlasLoot = _G.AtlasLoot
 local Pet = AtlasLoot.Button:AddType("Pet", "pet")
 local Item = AtlasLoot.Button:GetType("Item")
@@ -1329,15 +1330,3 @@ function Pet.ShowToolTipFrame(button)
 	end
 end
 
-function AtlasLoot:DEV_Renew()
-	self.db.PETINFO = {}
-	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
-	local numPets = C_PetJournal.GetNumPets()
-	
-	for i=1,numPets do
-		petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName = C_PetJournal.GetPetInfoByIndex(i)
-		if speciesName and speciesID then
-			self.db.PETINFO[speciesName] = speciesID
-		end
-	end
-end
