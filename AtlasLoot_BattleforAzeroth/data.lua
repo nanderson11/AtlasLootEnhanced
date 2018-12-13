@@ -1089,61 +1089,6 @@ data["Battle of Dazar'alor"] = {
 	TableType = RAID_ITTYPE,
 	items = 
 	{
-		{ -- Jadefire Masters
-			EncounterJournalID = 2323,
-			[RF_DIFF] = {
-				{ 1, 165565 }, -- Band of Multi-Sided Strikes
-				{ 2, 165552 }, -- Embersear Waistguard
-				{ 3, 165548 }, -- Helm of Tempered Jade
-			},
-			[NORMAL_RAID_DIFF] = {
-				GetItemsFromDiff = RF_DIFF,
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-		},
-		{ -- Conclave of the Chosen
-			EncounterJournalID = 2330,
-			[RF_DIFF] = {
-				{ 1, 165562 }, -- Ridgeplate Pauldrons
-				{ 2, 165512 }, -- Loa Exultant's Shroud
-				{ 3, 165560 }, -- Arcing Thunderlizard Legplates
-			},
-			[NORMAL_RAID_DIFF] = {
-				GetItemsFromDiff = RF_DIFF,
-				{ 4, 165846 }, -- Enchanted Talon of Pa'ku
-				{ 5, 165847 }, -- Thundering Scale of Akunda
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-				{ 6, 165848 }, -- Spawn of Krag'wa
-			},
-		},
-		{ -- High Tinker Mekkatorque
-			EncounterJournalID = 2334,
-			[RF_DIFF] = {
-				{ 1, 165580 }, -- Ramping Amplitude Gigavolt Engine
-				{ 2, 165825 }, -- Dyno-Sprocket Spaulders
-				{ 3, 166518 }, -- G.M.O.D.
-				{ 4, 165924 }, -- High Tinker's Cape
-			},
-			[NORMAL_RAID_DIFF] = {
-				GetItemsFromDiff = RF_DIFF,
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-		},
 		{ -- Champion of the Light
 			EncounterJournalID = 2335,
 			[RF_DIFF] = {
@@ -1161,29 +1106,12 @@ data["Battle of Dazar'alor"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
-		{ -- King Rastakhan
-			EncounterJournalID = 2335,
+		{ -- Jadefire Masters
+			EncounterJournalID = 2323,
 			[RF_DIFF] = {
-				{ 1, 165832 }, -- Breastplate of the Deathbound
-				{ 2, 165558 }, -- Roka's Bonecrushing Manacles
-				{ 3, 165567 }, -- Seal of the Zandalari Empire
-			},
-			[NORMAL_RAID_DIFF] = {
-				GetItemsFromDiff = RF_DIFF,
-			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-		},
-		{ -- Stormwall Blockade
-			EncounterJournalID = 2337,
-			[RF_DIFF] = {
-				{ 1, 165556 }, -- Stormwrought Gauntlets
-				{ 2, 165557 }, -- Sea Swell Chestplate
-				{ 3, 165602 }, -- Crash of Tides
+				{ 1, 165565 }, -- Band of Multi-Sided Strikes
+				{ 2, 165552 }, -- Embersear Waistguard
+				{ 3, 165548 }, -- Helm of Tempered Jade
 			},
 			[NORMAL_RAID_DIFF] = {
 				GetItemsFromDiff = RF_DIFF,
@@ -1218,6 +1146,78 @@ data["Battle of Dazar'alor"] = {
 			[RF_DIFF] = {
 				{ 1, 165821 }, -- Crown of Bloody Succession
 				{ 2, 165561 }, -- Coinage Stampers
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Conclave of the Chosen
+			EncounterJournalID = 2330,
+			[RF_DIFF] = {
+				{ 1, 165562 }, -- Ridgeplate Pauldrons
+				{ 2, 165512 }, -- Loa Exultant's Shroud
+				{ 3, 165560 }, -- Arcing Thunderlizard Legplates
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 4, 165846 }, -- Enchanted Talon of Pa'ku
+				{ 5, 165847 }, -- Thundering Scale of Akunda
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 6, 165848 }, -- Spawn of Krag'wa
+			},
+		},
+		{ -- King Rastakhan
+			EncounterJournalID = 2335,
+			[RF_DIFF] = {
+				{ 1, 165832 }, -- Breastplate of the Deathbound
+				{ 2, 165558 }, -- Roka's Bonecrushing Manacles
+				{ 3, 165567 }, -- Seal of the Zandalari Empire
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- High Tinker Mekkatorque
+			EncounterJournalID = 2334,
+			[RF_DIFF] = {
+				{ 1, 165580 }, -- Ramping Amplitude Gigavolt Engine
+				{ 2, 165825 }, -- Dyno-Sprocket Spaulders
+				{ 3, 166518 }, -- G.M.O.D.
+				{ 4, 165924 }, -- High Tinker's Cape
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Stormwall Blockade
+			EncounterJournalID = 2337,
+			[RF_DIFF] = {
+				{ 1, 165556 }, -- Stormwrought Gauntlets
+				{ 2, 165557 }, -- Sea Swell Chestplate
+				{ 3, 165602 }, -- Crash of Tides
 			},
 			[NORMAL_RAID_DIFF] = {
 				GetItemsFromDiff = RF_DIFF,
