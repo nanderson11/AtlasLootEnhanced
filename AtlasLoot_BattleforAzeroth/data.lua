@@ -1,3 +1,4 @@
+-- $Id$
 -----------------------------------------------------------------------
 -- Upvalued Lua API.
 -----------------------------------------------------------------------
@@ -153,6 +154,7 @@ data["InstanceName"] = {
 data["Atal'Dazar"] = {
 	EncounterJournalID = 968,
 	MapID = 934,
+	AtlasMapID = "AtalDazar",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -251,6 +253,7 @@ data["Atal'Dazar"] = {
 data["Freehold"] = {
 	EncounterJournalID = 1001,
 	MapID = 936,
+	AtlasMapID = "Freehold",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -350,6 +353,7 @@ data["Freehold"] = {
 data["Kings' Rest"] = {
 	EncounterJournalID = 1041,
 	MapID = 1004,
+	AtlasMapID = "KingsRest",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -422,6 +426,7 @@ data["Kings' Rest"] = {
 data["Shrine of the Storm"] = {
 	EncounterJournalID = 1036,
 	MapID = 1039,
+	AtlasMapID = "ShrineoftheStormA",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -516,6 +521,7 @@ data["Shrine of the Storm"] = {
 data["Siege of Boralus"] = {
 	EncounterJournalID = 1023,
 	MapID = 1162,
+	AtlasMapID = "SiegeofBoralus",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -588,6 +594,7 @@ data["Siege of Boralus"] = {
 data["Temple of Sethraliss"] = {
 	EncounterJournalID = 1030,
 	MapID = 1038,
+	AtlasMapID = "TempleofSethraliss",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -681,6 +688,7 @@ data["Temple of Sethraliss"] = {
 data["The MOTHERLODE!!"] = {
 	EncounterJournalID = 1012,
 	MapID = 1010,
+	AtlasMapID = "TheMOTHERLODE",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -774,6 +782,7 @@ data["The MOTHERLODE!!"] = {
 data["The Underrot"] = {
 	EncounterJournalID = 1022,
 	MapID = 1041,
+	AtlasMapID = "TheUnderrot",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -872,6 +881,7 @@ data["The Underrot"] = {
 data["Tol Dagor"] = {
 	EncounterJournalID = 1002,
 	MapID = 974,
+	AtlasMapID = "TolDagorA",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -967,6 +977,7 @@ data["Tol Dagor"] = {
 data["Waycrest Manor"] = {
 	EncounterJournalID = 1021,
 	MapID = 1015,
+	AtlasMapID = "WaycrestManorA",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -1082,6 +1093,7 @@ data["Waycrest Manor"] = {
 data["Operation: Mechagon"] = {
 	EncounterJournalID = 1178,
 	MapID = 1490,
+--	AtlasMapID = "",
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
@@ -1185,11 +1197,24 @@ data["The Eternal Palace"] = {
 		{ -- Abyssal Commander Sivara
 			EncounterJournalID = 2352,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 168903 },
-				{ 2, 168477 },
-				{ 3, 168345 },
-				{ 4, 168377 },
-				{ 5, 168905 },
+				{ 1, 168359 }, -- Abyssal Commander's Mantle
+				{ 2, 168371 }, -- Seawrath Legwraps
+				{ 3, 168387 }, -- Palace Sentinel Vambraces
+				{ 4, 168306 }, -- Shiver Venom Lance
+				{ 5, 168341 }, -- Siren Mystic's Vestments
+				{ 6, 168903 }, -- Scepter of the Azsh'ari
+				{ 7, 168477 }, -- Tidebinder's Driftglobe
+				{ 8, 168361 }, -- Naga Centaur's Shellplate
+				{ 9, 168276 }, -- Claw of the Myrmidon
+				{ 10, 168377 }, -- Tideblood Bracers
+				{ 11, 168818 }, -- Sivara's Slitherblade
+				{ 12, 168273 }, -- Shiver Venom Crossbow
+				{ 13, 168384 }, -- Wavespine Clutch
+				{ 14, 168901 }, -- Royal Scaleguard's Battleaxe
+				{ 15, 168905 }, -- Shiver Venom Relic
+				{ 16, 168345 }, -- Helm of the Inexorable Tide
+				{ 17, 168386 }, -- Gauntlets of Overflowing Chill
+				{ 18, 168390 }, -- Sabatons of the Stalwart
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1204,12 +1229,22 @@ data["The Eternal Palace"] = {
 		{ -- Blackwater Behemoth
 			EncounterJournalID = 2347,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169360 },
-				{ 2, 168397 },
-				{ 3, 168343 },
-				{ 4, 168376 },
-				{ 5, 168379 },
-				{ 6, 169304 },
+				{ 1, 168397 }, -- Fang of the Behemoth
+				{ 2, 168885 }, -- Undercove Crushers
+				{ 3, 168383 }, -- Pelagos Predator's Legguards
+				{ 4, 168343 }, -- Blackwater Shimmerscale Vest
+				{ 5, 168900 }, -- Diver's Folly
+				{ 6, 168362 }, -- Trench Tyrant's Shoulderplates
+				{ 7, 168379 }, -- Ship Swallower's Belt
+				{ 8, 168373 }, -- Eelskin Flippers
+				{ 9, 168353 }, -- Hood of Lightless Depths
+				{ 10, 168385 }, -- Slipstreamer's Saltwalkers
+				{ 11, 168342 }, -- Fathom-Feeder's Mantle
+				{ 12, 169304 }, -- Leviathan's Lure
+				{ 13, 168376 }, -- Anglerfish Feelers
+				{ 14, 168389 }, -- Fleetwrecker's Greaves
+				{ 15, 169312 }, -- Luminous Jellyweed
+				{ 16, 169360 }, -- Mindlost Bloodfrenzy
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1224,10 +1259,22 @@ data["The Eternal Palace"] = {
 		{ -- Radiance of Azshara
 			EncounterJournalID = 2353,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169694 },
-				{ 2, 168348 },
-				{ 3, 168378 },
-				{ 4, 168380 },
+				{ 1, 168382 }, -- Arcanamental Bindings
+				{ 2, 168475 }, -- Bulwark of the Seaborn Avatar
+				{ 3, 168478 }, -- Monstrosity's Shipbreaker
+				{ 4, 168388 }, -- Storm-Tempered Girdle
+				{ 5, 168360 }, -- Warhelm of Dread Waters
+				{ 6, 168348 }, -- Shoulderpads of Frothing Rage
+				{ 7, 168381 }, -- Grips of the Scaled Arcanist
+				{ 8, 168336 }, -- Handmaiden's Cowl of Sacrifice
+				{ 9, 169313 }, -- Phial of the Arcane Tempest
+				{ 10, 168355 }, -- Servitor's Heartguard
+				{ 11, 168372 }, -- Sea Sculptor's Cuffs
+				{ 12, 168374 }, -- Belt of Blind Devotion
+				{ 13, 169694 }, -- Aqueous Reliquary
+				{ 14, 168378 }, -- Leggings of the Stormborn
+				{ 15, 168380 }, -- Ancient Tempest Striders
+				{ 16, 168375 }, -- Gloves of Unshackled Arcana
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1242,12 +1289,20 @@ data["The Eternal Palace"] = {
 		{ -- Lady Ashvane
 			EncounterJournalID = 2354,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169358 },
-				{ 2, 168904 },
-				{ 3, 168347 },
-				{ 4, 168883 },
-				{ 5, 168889 },
-				{ 6, 169305 },
+				{ 1, 168367 }, -- Barnacle-Crusted Breastplate
+				{ 2, 168354 }, -- Shoulderguards of Crushing Depths
+				{ 3, 168883 }, -- Cultured Pearl Armbands
+				{ 4, 168870 }, -- Tanglekelp Waistwrap
+				{ 5, 168347 }, -- Helm of Hideous Transformation
+				{ 6, 168904 }, -- Current-Weaver's Gavel
+				{ 7, 168876 }, -- Priscilla's Fishnets
+				{ 8, 168877 }, -- Coralshell Warboots
+				{ 9, 168335 }, -- Robes of Sunken Nobility
+				{ 10, 168889 }, -- Boralus Noble's Seal
+				{ 11, 169305 }, -- Aquipotent Nautilus
+				{ 12, 169310 }, -- Bloodthirsty Urchin
+				{ 13, 169311 }, -- Ashvane's Razor Coral
+				{ 14, 169358 }, -- Lightless Ambusher
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1262,9 +1317,21 @@ data["The Eternal Palace"] = {
 		{ -- Orgozoa
 			EncounterJournalID = 2351,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 168346 },
-				{ 2, 168604 },
-				{ 3, 168875 },
+				{ 1, 168352 }, -- Scalemail of Unnatural Selection
+				{ 2, 168894 }, -- Squidhunter Speargun
+				{ 3, 168476 }, -- Great Reef Barrier
+				{ 4, 168339 }, -- Incubator's Bellcap
+				{ 5, 168872 }, -- Cephalopod's Sash
+				{ 6, 168274 }, -- Aqua-Pulse Trident
+				{ 7, 168365 }, -- Greathelm of the Tender
+				{ 8, 168893 }, -- Hatchery Scraper
+				{ 9, 168604 }, -- Drape of the Hatcher
+				{ 10, 168897 }, -- Tentacle Crusher
+				{ 11, 169319 }, -- Dribbling Inkpod
+				{ 12, 168346 }, -- Tidal Drifter's Shoulders
+				{ 13, 168899 }, -- Orgozoa's Paralytic Barb
+				{ 14, 168875 }, -- Formcrafter's Pants
+				{ 15, 169309 }, -- Zoatroid Egg Sac
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1279,11 +1346,20 @@ data["The Eternal Palace"] = {
 		{ -- The Queen's Court
 			EncounterJournalID = 2359,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169694 },
-				{ 2, 168896 },
-				{ 3, 168350 },
-				{ 4, 168879 },
-				{ 5, 168890 },
+				{ 1, 168892 }, -- Court Dagger of Sentencing
+				{ 2, 168879 }, -- Ardent Worshipper's Boots
+				{ 3, 169316 }, -- Deferred Sentence
+				{ 4, 168898 }, -- Pashmar's Finial
+				{ 5, 168364 }, -- Pauldrons of Fanatical Might
+				{ 6, 168881 }, -- Naga Executor's Armguards
+				{ 7, 168338 }, -- Amice of the Reef Witch
+				{ 8, 169315 }, -- Edicts of the Faithless
+				{ 9, 168357 }, -- Silivaz's Skullguard
+				{ 10, 169694 }, -- Aqueous Reliquary
+				{ 11, 168886 }, -- Hands of the Fanatic
+				{ 12, 168350 }, -- Tunic of the Sycophant
+				{ 13, 168890 }, -- Ring of the Highborne Courtier
+				{ 14, 168896 }, -- Stormtamer's Orb
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1298,10 +1374,19 @@ data["The Eternal Palace"] = {
 		{ -- Za'qul, Harbinger of Ny'alotha
 			EncounterJournalID = 2349,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169362 },
-				{ 2, 168349 },
-				{ 3, 168391 },
-				{ 4, 169306 },
+				{ 1, 168337 }, -- Vestments of Creeping Terror
+				{ 2, 169588 }, -- Gardbrace of Fractured Reality
+				{ 3, 168902 }, -- Dream's End
+				{ 4, 168349 }, -- Shroud of Unmooring Whispers
+				{ 5, 168391 }, -- Cloak of Ill Tidings
+				{ 6, 168882 }, -- Shackles of Dissonance
+				{ 7, 168363 }, -- Dark Passenger's Breastplate
+				{ 8, 168884 }, -- Bindings of the Herald
+				{ 9, 169306 }, -- Za'qul's Portal Key
+				{ 10, 169308 }, -- Chain of Suffering
+				{ 11, 168301 }, -- Sever, Edge of Madness
+				{ 12, 169307 }, -- Vision of Demise
+				{ 13, 169362 }, -- Nameless Octopode
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1316,13 +1401,19 @@ data["The Eternal Palace"] = {
 		{ -- Queen Azshara
 			EncounterJournalID = 2361,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169694 },
-				{ 2, 169348 },
-				{ 3, 168275 },
-				{ 4, 168887 },
-				{ 5, 168871 },
-				{ 6, 168891 },
-				{ 7, 169314 },
+				{ 1, 169314 }, -- Azshara's Font of Power
+				{ 2, 168887 }, -- Gloves of Incomparable Beauty
+				{ 3, 168874 }, -- Cherished Empress's Leggings
+				{ 4, 168891 }, -- Cursed Lover's Ring
+				{ 5, 168878 }, -- Vethan's Icewalkers
+				{ 6, 168880 }, -- Slippers of the Sorceress-Queen
+				{ 7, 169694 }, -- Aqueous Reliquary
+				{ 8, 168869 }, -- Eternity Keeper's Greatbelt
+				{ 9, 168871 }, -- Beloved Monarch's Waistwrap
+				{ 10, 168873 }, -- Tide Goddess's Wargreaves
+				{ 11, 168275 }, -- Anu-Azshara, Staff of the Eternal
+				{ 12, 168888 }, -- Handguards of the Highest-Born
+				{ 13, 169348 }, -- Zanj'ir Poker
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
@@ -1646,6 +1737,7 @@ data["Crucible of Storms"] = {
 		},
 	}
 }
+
 data["Uldir"] = {
 	EncounterJournalID = 1031,
 	MapID = 1861,
@@ -1981,6 +2073,35 @@ data["Azeroth"] = {
 				{ 9, 166690 }, -- Protector's Tangleroot Belt
 				{ 10, 166698 }, -- Stoneroot Stompers
 				{ 11, 166687 }, -- Warring Ancient's Mask
+			},
+		},
+		{ -- Wekemara
+			EncounterJournalID = 2363,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 169927 }, -- Deepcaller's Clasp
+				{ 2, 168358 }, -- Chestguard of the Submerged
+				{ 3, 168351 }, -- Spitcharged Shoulderguards
+				{ 4, 169928 }, -- Wekemara's Warboots
+				{ 5, 168340 }, -- Naga Ritualist's Mantle
+				{ 6, 169926 }, -- Belt of Rising Guardians
+				{ 7, 169318 }, -- Shockbiter's Fang
+				{ 8, 169925 }, -- Serpentskin Splashers
+				{ 9, 168366 }, -- Tidal Lurker's Greathelm
+			},
+		},
+		{ -- Ulmath, the Soulbinder
+			EncounterJournalID = 2362,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 170092 }, -- Netherdancer's Knife
+				{ 2, 170094 }, -- Temple Guardian's Saber
+				{ 3, 170089 }, -- Liara's Spire
+				{ 4, 170091 }, -- Willbinder's Halberd
+				{ 5, 170093 }, -- Tyr'mar's Greatsword
+				{ 6, 170095 }, -- Moon Priestess' Baton
+				{ 7, 169317 }, -- Enthraller's Bindstone
+				{ 8, 170088 }, -- Ulmath's Soulseeker
+				{ 9, 170090 }, -- Merciless Pincher
+				{ 10, 168603 }, -- Cloak of Restless Spirits
 			},
 		},
 	}

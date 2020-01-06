@@ -1,9 +1,24 @@
-﻿AtlasLoot Enhanced
+﻿$Id$
+
+AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
-
 Patch Notes
+
+v8.11.00 (Jan. 06, 2020)
+========================
+- Added world bosses and items: Wekemara, Ulmath
+- Updated loot tables of: The Eternal Palace
+- Added maps linked with Atlas for BfA
+
+v8.10.00 (Jun. 29, 2019)
+========================
+- ToC update to support WoW 8.2.0
+- Fix bug with border
+- Add 8.2 stuff
+- Fix Set_type.lua
+- Remove the model reset
 
 v8.09.00 (Dec. 16, 2018)
 ========================

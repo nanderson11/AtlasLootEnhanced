@@ -1,4 +1,4 @@
-﻿## Interface: 80200
+﻿## Interface: 80205
 ## Author: Lag, Proteyer, Arith
 ## Version: @project-version@
 ## SavedVariables: AtlasLootDB
