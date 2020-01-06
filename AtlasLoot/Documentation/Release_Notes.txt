@@ -8,6 +8,7 @@ Patch Notes
 
 v8.11.00 (Jan. 06, 2020)
 ========================
+- ToC update to support WoW 8.2.5
 - Added world bosses and items: Wekemara, Ulmath
 - Updated loot tables of: The Eternal Palace
 - Added maps linked with Atlas for BfA
