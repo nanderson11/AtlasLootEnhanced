@@ -6,6 +6,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v8.12.00 (Feb. 24, 2020)
+========================
+- ToC update to support WoW 8.3.0
+- Added Raid - Ny'alotha, the Waking City
+
 v8.11.00 (Jan. 06, 2020)
 ========================
 - ToC update to support WoW 8.2.5
