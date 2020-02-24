@@ -42,6 +42,7 @@ EXPANSION_NAME3 = "Cataclysm";
 EXPANSION_NAME4 = "Mists of Pandaria";
 EXPANSION_NAME5 = "Warlords of Draenor";
 EXPANSION_NAME6 = "Legion";
+EXPANSION_NAME7 = "Battle for Azeroth";
 ]]
 
 --[[ template
@@ -171,6 +172,82 @@ data["LEGION7GEAR"] = {
 	},
 }
 --]]
+
+data["BFA4GEAR"] = {
+	name = format(EXPANSION_NAME7.." "..AL["Season %d"], 4).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Cloaks"].." / "..AL["Tabards"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 172671 }, -- Corrupted Gladiator's Cloak
+				{ 2, 172519 }, -- Quartermaster's Note
+				{ 16, 172652 }, -- Corrupted Gladiator's Tabard
+			},
+			[HORDE_DIFF] = {
+				{ 1, 172670 }, -- Corrupted Gladiator's Cloak
+				{ 2, 172519 }, -- Quartermaster's Note
+				{ 16, 172651 }, -- Corrupted Gladiator's Tabard
+			},
+		}
+	},
+}
+
+data["BFA3GEAR"] = {
+	name = format(EXPANSION_NAME7.." "..AL["Season %d"], 3).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Cloaks"].." / "..AL["Tabards"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 167382 }, -- Notorious Gladiator's Cloak
+				{ 2, 171198 }, -- Quartermaster's Prize
+				{ 16, 167363 }, -- Notorious Gladiator's Tabard
+			},
+			[HORDE_DIFF] = {
+				{ 1, 167381 }, -- Notorious Gladiator's Cloak
+				{ 2, 171198 }, -- Quartermaster's Prize
+				{ 16, 167362 }, -- Notorious Gladiator's Tabard
+			},
+		}
+	},
+}
+
+data["BFA2GEAR"] = {
+	name = format(EXPANSION_NAME7.." "..AL["Season %d"], 2).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Cloaks"].." / "..AL["Tabards"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 165060 }, -- Sinister Gladiator's Cloak
+				{ 16, 164910 }, -- Sinister Gladiator's Tabard
+			},
+			[HORDE_DIFF] = {
+				{ 1, 165059 }, -- Sinister Gladiator's Cloak
+				{ 16, 164909 }, -- Sinister Gladiator's Tabard
+			},
+		}
+	},
+}
+
+data["BFA1GEAR"] = {
+	name = format(EXPANSION_NAME7.." "..AL["Season %d"], 1).." "..AL["Non-Set Gear"],
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Cloaks"].." / "..AL["Tabards"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 164575 }, -- Dread Gladiator's Cloak
+				{ 16, 164573 }, -- Dread Gladiator's Tabard
+			},
+			[HORDE_DIFF] = {
+				{ 1, 164574 }, -- Dread Gladiator's Cloak
+				{ 16, 164572 }, -- Dread Gladiator's Tabard
+			},
+		}
+	},
+}
 
 data["LEGION7SET"] = {
 	name = format(EXPANSION_NAME6.." "..AL["Season %d"], 7).." "..AL["Class Sets"],
