@@ -10,8 +10,9 @@ local print = print
 local wipe = table.wipe
 
 -- WoW
+local EJ_GetLootInfoByIndex = C_EncounterJournal.GetLootInfoByIndex
 local EJ_SelectInstance, EJ_SelectEncounter, EJ_SetDifficulty, EJ_SetLootFilter = EJ_SelectInstance, EJ_SelectEncounter, EJ_SetDifficulty, EJ_SetLootFilter
-local EJ_GetEncounterInfo, EJ_GetLootInfoByIndex, EJ_GetNumLoot = EJ_GetEncounterInfo, EJ_GetLootInfoByIndex, EJ_GetNumLoot
+local EJ_GetEncounterInfo, EJ_GetNumLoot = EJ_GetEncounterInfo, EJ_GetNumLoot
 
 
 function EJ:GetBossName(encounterID)

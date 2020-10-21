@@ -242,7 +242,7 @@ do
 			BUTTON_COUNT = BUTTON_COUNT + 1
 			local frameName = "AtlasLoot-DropDown-Button"..BUTTON_COUNT
 			
-			frame = CreateFrame("Button", frameName, parent)
+			frame = CreateFrame("Button", frameName, parent, BackdropTemplateMixin and "BackdropTemplate" or nil)
 			frame:SetHeight(BUTTON_HEIGHT)
 			frame:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
 			frame:RegisterForClicks("LeftButtonDown", "RightButtonDown")
@@ -355,7 +355,7 @@ do
 			CAT_FRAME_COUNT = CAT_FRAME_COUNT + 1
 			local frameName = "AtlasLoot-DropDown-CatFrame"..CAT_FRAME_COUNT
 			
-			frame = CreateFrame("Frame", frameName)
+			frame = CreateFrame("Frame", frameName, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 			frame:EnableMouse(true)
 			frame:SetBackdrop(ALPrivate.BOX_BORDER_BACKDROP)
 							
@@ -473,7 +473,7 @@ function GUI.CreateDropDown()
 	self.EnableIcon = EnableIcon
 	--self.SetIcon = SetIcon
 	
-	self.frame = CreateFrame("Button", frameName)
+	self.frame = CreateFrame("Button", frameName, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	local frame = self.frame 
 	frame:ClearAllPoints()
 	frame:SetHeight(25)

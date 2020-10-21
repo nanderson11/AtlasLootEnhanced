@@ -406,7 +406,7 @@ end
 
 function QLF:Create()
 	if self.frame then return end
-	local frame = CreateFrame("Frame", QLF_FRAME_NAME)
+	local frame = CreateFrame("Frame", QLF_FRAME_NAME, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	self.frame = frame
 	frame:SetParent(UIParent)
 	frame:SetSize(QLF_FRAME_WIDTH, QLF_FRAME_MIN_HEIGHT)
@@ -437,7 +437,7 @@ function QLF:Create()
 	frame.titleFrame:SetPoint("TOPLEFT", frame.topTitleFrame, "BOTTOMLEFT", 0, -5)
 	frame.titleFrame:SetPoint("BOTTOMRIGHT", frame.topTitleFrame, "BOTTOMRIGHT", 21, -21)
 	
-	frame.selection = CreateFrame("Frame", QLF_FRAME_NAME.."-Selection")
+	frame.selection = CreateFrame("Frame", QLF_FRAME_NAME.."-Selection", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.selection:ClearAllPoints()
 	frame.selection:SetParent(frame)
 	frame.selection:SetWidth(26)
@@ -456,7 +456,7 @@ function QLF:Create()
 		end,}
 	)
 	
-	frame.items = CreateFrame("Frame", QLF_FRAME_NAME.."ItemFrame")
+	frame.items = CreateFrame("Frame", QLF_FRAME_NAME.."ItemFrame", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.items:ClearAllPoints()
 	frame.items:SetParent(frame)
 	frame.items:SetPoint("TOPLEFT", frame.titleFrame, "BOTTOMLEFT", 0, -5)

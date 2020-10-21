@@ -31,8 +31,8 @@ externals:
     AtlasLoot/Libs/LibBabble-ItemSet-3.0: 
         url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
 # HG
-    AtlasLoot/Libs/LibDialog-1.0: 
-        url: https://repos.wowace.com/wow/libdialog-1-0
+#    AtlasLoot/Libs/LibDialog-1.0: 
+#        url: https://repos.wowace.com/wow/libdialog-1-0
 
 # Ignore takes place before folder's moving takes place
 ignore:

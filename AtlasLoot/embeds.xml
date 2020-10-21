@@ -4,6 +4,7 @@
 <!--@no-lib-strip@-->
 <Script file="Libs\LibStub\LibStub.lua"/>
 <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+<Script file="Libs\LibDialog-1.0\LibDialog-1.0.lua"/>
 <!--@end-no-lib-strip@-->
 <Script file="Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
 <!--@no-lib-strip@-->
@@ -12,7 +13,6 @@
 <Include file="Libs\LibBabble-ItemSet-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Faction-3.0\lib.xml"/>
 <Script file="Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua"/>
-<Include file="Libs\LibDialog-1.0\lib.xml"/>
 <!--@end-no-lib-strip@-->
 <Script file="Libs\ALDB-1.0\ALDB-1.0.lua"/>
 <!--@do-not-package@-->

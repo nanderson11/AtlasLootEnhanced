@@ -175,7 +175,7 @@ function Mount.ShowToolTipFrame(button)
 
 	if not Mount.tooltipFrame then 
 		local name = "AtlasLoot-MountToolTip"
-		local frame = CreateFrame("Frame", name)
+		local frame = CreateFrame("Frame", name, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 		frame:SetClampedToScreen(true)
 		frame:SetSize(300, 50)
 		frame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",

@@ -184,7 +184,7 @@ end
 local function GetNextItemFrame()
 	local frame = getFrame("SVF-ItemFrame")
 	if not frame then
-		frame = CreateFrame("Frame")
+		frame = CreateFrame("Frame", nil, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 		frame:SetParent(SVF.frame.containerFrame)
 		frame:SetWidth(CONTAINER_FRAME_WIDTH-10)
 		--frame:SetBackdrop(BACKDROP_DATA)
@@ -573,7 +573,7 @@ end
 
 function SVF:Create()
 	if self.frame then return end
-	local frame = CreateFrame("Frame", SVF_FRAME_NAME)
+	local frame = CreateFrame("Frame", SVF_FRAME_NAME, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	self.frame = frame
 	frame:SetParent(UIParent)
 	frame:SetSize(SVF_FRAME_WIDTH, SVF_FRAME_HEIGHT)
@@ -602,12 +602,12 @@ function SVF:Create()
 	frame.title:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -28, -20)
 	frame.title.text:SetText(AL["AtlasLoot Set View"])
 	
-	frame.modelFrame = GUI.CreateModelFrame(true, SVF_FRAME_NAME.."-ModelFrame", frame)
+	frame.modelFrame = GUI.CreateModelFrame(true, SVF_FRAME_NAME.."-ModelFrame", frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.modelFrame:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -5, -25)
 	frame.modelFrame:SetSize(MODEL_FRAME_WIDTH, MODEL_FRAME_HEIGHT)
 	frame.modelFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background"})
 	
-	frame.containerFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame")
+	frame.containerFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.containerFrame:ClearAllPoints()
 	frame.containerFrame:SetParent(frame)
 	frame.containerFrame:SetPoint("TOPLEFT", frame.title, "BOTTOMLEFT", 0, -5)
@@ -643,7 +643,7 @@ function SVF:Create()
 	CreatePrevNextFrames(frame.containerFrame.topFrameSec, frame.containerFrame.topFrameSec.infoSwitch)
 	frame.containerFrame.topFrameSec.infoSwitch.prev:SetPoint("LEFT", frame.containerFrame.topFrameSec, "CENTER", 2, 0)
 	
-	frame.containerFrame.subTopFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame-SubTopFrame")
+	frame.containerFrame.subTopFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame-SubTopFrame", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.containerFrame.subTopFrame:ClearAllPoints()
 	frame.containerFrame.subTopFrame:SetParent(frame.containerFrame)
 	frame.containerFrame.subTopFrame:SetPoint("TOPLEFT", frame.containerFrame.topFrameSec, "BOTTOMLEFT", 0, -2)
@@ -652,7 +652,7 @@ function SVF:Create()
 	--frame.containerFrame.subTopFrame:SetBackdropColor(0,0,1,1)
 	frame.containerFrame.subTopFrame.content = {}
 	
-	frame.containerFrame.bottomFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame-BottomFrame")
+	frame.containerFrame.bottomFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame-BottomFrame", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.containerFrame.bottomFrame:ClearAllPoints()
 	frame.containerFrame.bottomFrame:SetParent(frame.containerFrame)
 	frame.containerFrame.bottomFrame:SetPoint("CENTER")
