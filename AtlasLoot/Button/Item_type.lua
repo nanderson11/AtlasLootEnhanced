@@ -260,7 +260,14 @@ function Item.ShowQuickDressUp(itemLink, ttFrame)
 		frame.modelFrame.zoomLevel = frame.modelFrame.minZoom
 		frame.modelFrame.zoomLevelNew = frame.modelFrame.zoomLevel
 		frame.modelFrame:SetPortraitZoom(frame.modelFrame.zoomLevel)
-		frame.modelFrame.Reset = _G.Model_Reset
+		frame.modelFrame.Reset = (function()
+			local f = frame.modelFrame
+			f.rotation = f.defaultRotation
+			f:SetRotation(f.rotation)
+			f:SetPosition(0, 0, 0)
+			f.zoomLevel = f.minZoom
+			f:SetPortraitZoom(f.zoomLevel)
+		end)
 		
 		Item.previewTooltipFrame = frame
 		frame:Hide()
@@ -292,7 +299,7 @@ function Item.ShowQuickDressUp(itemLink, ttFrame)
 	
 	frame = Item.previewTooltipFrame.modelFrame
 	frame:Reset()
-	frame:Undress()
+	--frame:Undress()
 	local info = {GetItemInfo(itemLink)}
 	if not (info[9] == "INVTYPE_CLOAK") then
 		frame:SetRotation(frame.curRotation)

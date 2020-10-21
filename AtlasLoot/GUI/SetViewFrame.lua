@@ -383,7 +383,7 @@ local function NewSet()
 end
 
 function SVF:Clear(noHide, soft)
-	self.frame.modelFrame:Reset()
+	self.frame.modelFrame:ResetModel()
 	self.frame.modelFrame:Undress()
 	ClearItemFrames()
 	ClearExtraList()
@@ -602,10 +602,10 @@ function SVF:Create()
 	frame.title:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -28, -20)
 	frame.title.text:SetText(AL["AtlasLoot Set View"])
 	
-	frame.modelFrame = GUI.CreateModelFrame(true, SVF_FRAME_NAME.."-ModelFrame", frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+	frame.modelFrame = GUI.CreateModelFrame(true, SVF_FRAME_NAME.."-ModelFrame", frame)
 	frame.modelFrame:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -5, -25)
 	frame.modelFrame:SetSize(MODEL_FRAME_WIDTH, MODEL_FRAME_HEIGHT)
-	frame.modelFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background"})
+	--frame.modelFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background"})
 	
 	frame.containerFrame = CreateFrame("Frame", SVF_FRAME_NAME.."-ContainerFrame", nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame.containerFrame:ClearAllPoints()
@@ -683,7 +683,7 @@ function SVF.RefreshStyle()
 	frame.title:SetBackdropColor(db.mainFrame.title.bgColor[1], db.mainFrame.title.bgColor[2], db.mainFrame.title.bgColor[3], db.mainFrame.title.bgColor[4])
 	frame.title.text:SetTextColor(db.mainFrame.title.textColor[1], db.mainFrame.title.textColor[2], db.mainFrame.title.textColor[3], db.mainFrame.title.textColor[4])
 	frame.title.text:SetFont(LibSharedMedia:Fetch("font", db.mainFrame.title.font), db.mainFrame.title.size)
-	frame.modelFrame:SetBackdropColor(db.mainFrame.bgColorModel[1], db.mainFrame.bgColorModel[2], db.mainFrame.bgColorModel[3], db.mainFrame.bgColorModel[4])
+--	frame.modelFrame:SetBackdropColor(db.mainFrame.bgColorModel[1], db.mainFrame.bgColorModel[2], db.mainFrame.bgColorModel[3], db.mainFrame.bgColorModel[4])
 	frame:SetScale(db.mainFrame.scale)
 
 	CONTAINER_ITEM_TEXT_BG_COLOR.r = db.content.bgColor[1]
