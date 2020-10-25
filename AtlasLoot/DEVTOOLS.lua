@@ -8,6 +8,8 @@ local AceGUI = LibStub("AceGUI-3.0")
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
+local EJ_GetLootInfoByIndex = C_EncounterJournal.GetLootInfoByIndex
+
 local Dev = {}
 -- /////////////////////////////////////////////////////////////////////////
 AtlasLoot.Dev = Dev
@@ -108,12 +110,11 @@ function Dev:ScanEJ(givenTierId)
 								curDb[encounterName].items[diffName] = {}
 								--print(diffName, groupType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID)
 								local lootDb = curDb[encounterName].items[diffName] 
-								local itemName, _, itemID
 								for itemIndex = 1, EJ_GetNumLoot() do
-									itemID, _, itemName	= EJ_GetLootInfoByIndex(itemIndex)
-									if itemID then
-										lootDb[itemID] = itemName
-										print(itemName)
+									local info = EJ_GetLootInfoByIndex(itemIndex)
+									if info and info.itemID then
+										lootDb[info.itemID] = info.name
+										print(info.name)
 									end
 								end
 							end
@@ -1575,13 +1576,14 @@ function startEJScan()
 		[1] = {}
 	}
 	for i = 1, num do
-		local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
+		--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
+		local info = EJ_GetLootInfoByIndex(i)
 		
-		local _,_,quality = GetItemInfo(itemID)
+		local _,_,quality = GetItemInfo(info.itemID)
 		quality = qualityTab[quality]
 		
-		local desc = FixTextBack(GetItemEquipInfo(itemID))
-		rettab[1][i] = {i, itemID, "", quality..name, "=ds="..desc }
+		local desc = FixTextBack(GetItemEquipInfo(info.itemID))
+		rettab[1][i] = {i, info.itemID, "", quality..info.name, "=ds="..desc }
 	end
 	
 	return rettab
@@ -1659,15 +1661,16 @@ local function startBonusRollScan()
 					local numLoot = EJ_GetNumLoot()
 					--print(numLoot)
 					for loot=1,numLoot do
-						local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(loot)
-						if not tab[itemID] then tab[itemID] = {} end
-						if not tab[itemID][classId] then
-							tab[itemID][classId] = {}
+						--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(loot)
+						local info = EJ_GetLootInfoByIndex(loot)
+						if not tab[info.itemID] then tab[info.itemID] = {} end
+						if not tab[info.itemID][classId] then
+							tab[info.itemID][classId] = {}
 							for i=1,numSpecs do
-								tab[itemID][classId][i] = false
+								tab[info.itemID][classId][i] = false
 							end
 						end
-						tab[itemID][classId][specId] = true
+						tab[info.itemID][classId][specId] = true
 					end
 				end
 			end

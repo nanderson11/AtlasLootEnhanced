@@ -1099,86 +1099,185 @@ data["Operation: Mechagon"] = {
 	{
 		{ -- King Gobbamak
 			EncounterJournalID = 2357,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 169052 }, -- Cranial Recalibrator
+				{ 2, 169053 }, -- Roughshod Chain Boots
+				{ 3, 169054 }, -- Galvanized Leather Grips
+				{ 4, 169051 }, -- Anodized Plate Legguards
+				{ 5, 169049 }, -- Supplicant's Soiled Slippers
+				{ 6, 169050 }, -- Logg
+				{ 7, 170507 }, -- Omnipurpose Logic Board
+				{ 8, 169035 }, -- Reclaimed Shock Coil
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170507 },
-				{ 2, 169054 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Gunker
 			EncounterJournalID = 2358,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 169057 }, -- Well-Oiled Plate Girdle
+				{ 2, 169059 }, -- Slick Tactical Grips
+				{ 3, 169061 }, -- Insulating Threaded Gloves
+				{ 4, 169056 }, -- Ooey-Gooey Galoshes
+				{ 5, 169058 }, -- Salvaged Incendiary Tool
+				{ 6, 169060 }, -- Mekgineer's Utility Belt
+				{ 7, 169062 }, -- Sharpened Trogg Femur
+				{ 8, 170508 }, -- Optimized Logic Board
+				{ 9, 169055 }, -- Greaves of Acid Resistance
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170508 },
-				{ 2, 169056 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Trixie & Naeno
 			EncounterJournalID = 2360,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 169063 }, -- High Speed Gauntlets
+				{ 2, 169065 }, -- Reinforced Riding Chausses
+				{ 3, 169067 }, -- Silken Safety Harness
+				{ 4, 169069 }, -- Wraps of Electrostatic Potential
+				{ 5, 170509 }, -- Performant Logic Board
+				{ 6, 169769 }, -- Remote Guidance Device
+				{ 7, 169066 }, -- Trixie's Backup Backbiter
+				{ 8, 169068 }, -- Salvaged Mekacycle Shielding
+				{ 9, 169070 }, -- Unseen Predator's Breeches
+				{ 10, 169064 }, -- Mountebank's Colorful Cloak
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170509 },
-				{ 2, 169064 },
-				{ 3, 169069 },
-				{ 4, 169070 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- HK-8 Aerial Oppression Unit
 			EncounterJournalID = 2355,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 167677 }, -- Harmonic Dematerializer
+				{ 2, 168909 }, -- Subroutine: Emergency Repairs
+				{ 3, 169076 }, -- Logic Loop of Maintenance
+				{ 4, 169077 }, -- Light Auto-Stabilizing Energy Rifle
+				{ 5, 169157 }, -- Logic Loop of Division
+				{ 6, 169072 }, -- Volatile Arming Doublet
+				{ 7, 169071 }, -- Overcharged Pantaloons
+				{ 8, 169073 }, -- Type II Bomber Jacket
+				{ 9, 169075 }, -- Tank Buster Pauldrons
+				{ 10, 168657 }, -- Friend-or-Foe Identifier
+				{ 11, 168963 }, -- Fusion Hacker
+				{ 12, 169156 }, -- Logic Loop of Synergy
+				{ 13, 169158 }, -- Logic Loop of Recursion
+				{ 14, 170510 }, -- Forceful Logic Board
+				{ 15, 169074 }, -- Epaulettes of Arcing Power
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170510 },
-				{ 2, 168657 },
-				{ 3, 167677 },
-				{ 4, 168826 },
-				{ 5, 169385 },
-				{ 6, 168909 },
-				{ 7, 169073 },
-				{ 8, 169157 },
-				{ 9, 169076 },
-				{ 10, 169158 },
-				{ 11, 169156 },
+				{ 1, 167677 }, -- Harmonic Dematerializer
+				{ 2, 169076 }, -- Logic Loop of Maintenance
+				{ 3, 170510 }, -- Forceful Logic Board
+				{ 4, 169158 }, -- Logic Loop of Recursion
+				{ 5, 169073 }, -- Type II Bomber Jacket
+				{ 6, 169077 }, -- Light Auto-Stabilizing Energy Rifle
+				{ 7, 168826 }, -- Mechagon Peacekeeper
+				{ 8, 169156 }, -- Logic Loop of Synergy
+				{ 9, 169071 }, -- Overcharged Pantaloons
+				{ 10, 169385 }, -- Microbot 8D
+				{ 11, 169075 }, -- Tank Buster Pauldrons
+				{ 12, 169072 }, -- Volatile Arming Doublet
+				{ 13, 168963 }, -- Fusion Hacker
+				{ 14, 168657 }, -- Friend-or-Foe Identifier
+				{ 15, 169157 }, -- Logic Loop of Division
+				{ 16, 168909 }, -- Subroutine: Emergency Repairs
+				{ 17, 169074 }, -- Epaulettes of Arcing Power
 			},
 		},
 		{ -- Tussle Tonks
 			EncounterJournalID = 2336,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 168967 }, -- Gold-Coated Superconductors
+				{ 2, 168958 }, -- Ringmaster's Cummerbund
+				{ 3, 168962 }, -- Apex Perforator
+				{ 4, 168964 }, -- Hyperthread Boots
+				{ 5, 168966 }, -- Heavy Alloy Legplates
+				{ 6, 168955 }, -- Electrifying Cognitive Amplifier
+				{ 7, 168957 }, -- Mekgineer's Championship Belt
+				{ 8, 170510 }, -- Forceful Logic Board
+				{ 9, 168965 }, -- Modular Platinum Plating
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170510 },
-				{ 2, 168955 },
-				{ 3, 168957 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- K.U.-J.0.
 			EncounterJournalID = 2339,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 170508 }, -- Optimized Logic Board
+				{ 2, 168969 }, -- Operator's Mitts
+				{ 3, 168970 }, -- Trashmaster's Mantle
+				{ 4, 168971 }, -- Swift Pneumatic Grips
+				{ 5, 168972 }, -- Pyroclastic Greatboots
+				{ 6, 168968 }, -- Flame-Seared Leggings
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170508 },
-				{ 2, 168970 },
-				{ 3, 168968 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Machinist's Garden
 			EncounterJournalID = 2348,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 169344 }, -- Ingenious Mana Battery
+				{ 2, 168973 }, -- Neural Synapse Enhancer
+				{ 3, 168975 }, -- Machinist's Treasured Treads
+				{ 4, 170507 }, -- Omnipurpose Logic Board
+				{ 5, 169159 }, -- Overclocking Bit Band
+				{ 6, 167556 }, -- Subroutine: Overclock
+				{ 7, 169161 }, -- Protecting Bit Band
+				{ 8, 168974 }, -- Self-Repairing Cuisses
+				{ 9, 168976 }, -- Automatic Waist Tightener
+				{ 10, 169608 }, -- Tearing Sawtooth Blade
+				{ 11, 169160 }, -- Shorting Bit Band
+				{ 12, 168977 }, -- Rebooting Bit Band
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 170507 },
-				{ 2, 167556 },
-				{ 3, 168973 },
-				{ 4, 168975 },
-				{ 5, 169159 },
-				{ 6, 169161 },
-				{ 7, 168977 },
-				{ 8, 169160 },
-				{ 9, 169344 },
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- King Mechagon
 			EncounterJournalID = 2331,
+			[HEROIC_DUNGEON_DIFF] = {
+				{ 1, 168979 }, -- Mechanized Plate Chasse
+				{ 2, 168983 }, -- Maniacal Monarch's Girdle
+				{ 3, 168987 }, -- Shoulderguards of Fraying Sanity
+				{ 4, 169774 }, -- Progression Sprocket
+				{ 5, 168980 }, -- Gauntlets of Absolute Authority
+				{ 6, 168984 }, -- Extravagant Epaulettes
+				{ 7, 168988 }, -- Royal Attendant's Trousers
+				{ 8, 168981 }, -- Circuit-Linked Chainmail
+				{ 9, 168985 }, -- Self-Sanitizing Handwraps
+				{ 10, 168989 }, -- Hyperthread Wristwraps
+				{ 11, 168842 }, -- Engine of Mecha-Perfection
+				{ 12, 168978 }, -- Anodized Deflectors
+				{ 13, 168982 }, -- Regal Mekanospurs
+				{ 14, 169172 }, -- Blueprint: Perfectly Timed Differential
+				{ 15, 170509 }, -- Performant Logic Board
+				{ 16, 168986 }, -- Mad King's Sporran
+				{ 17, 168671 }, -- Electromagnetic Resistors
+			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 168830, "mount" },
-				{ 2, 169172 },
-				{ 3, 168671 },
-				{ 4, 168842 },
-				{ 5, 169378 },
-				{ 6, 170509 },
-				{ 7, 169774 },
-				{ 8, 168984 },
-				{ 9, 168985 },
-				{ 10, 168986 },
+				{ 1, 168979 }, -- Mechanized Plate Chasse
+				{ 2, 168983 }, -- Maniacal Monarch's Girdle
+				{ 3, 168987 }, -- Shoulderguards of Fraying Sanity
+				{ 4, 169774 }, -- Progression Sprocket
+				{ 5, 168980 }, -- Gauntlets of Absolute Authority
+				{ 6, 168984 }, -- Extravagant Epaulettes
+				{ 7, 168988 }, -- Royal Attendant's Trousers
+				{ 8, 168981 }, -- Circuit-Linked Chainmail
+				{ 9, 168985 }, -- Self-Sanitizing Handwraps
+				{ 10, 168989 }, -- Hyperthread Wristwraps
+				{ 11, 168842 }, -- Engine of Mecha-Perfection
+				{ 12, 168978 }, -- Anodized Deflectors
+				{ 13, 168982 }, -- Regal Mekanospurs
+				{ 14, 169172 }, -- Blueprint: Perfectly Timed Differential
+				{ 15, 170509 }, -- Performant Logic Board
+				{ 16, 168986 }, -- Mad King's Sporran
+				{ 17, 169378 }, -- Golden Snorf
+				{ 18, 168671 }, -- Electromagnetic Resistors
 			},
 		},
 	}
