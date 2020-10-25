@@ -6,7 +6,7 @@ local string = string
 local type, tonumber, pairs = type, tonumber, pairs
 local str_split = string.split
 -- WoW
-local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = C_CurrencyInfo.GetCurrencyListInfo, GetItemInfo, GetItemCount, GetItemIcon
+local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = C_CurrencyInfo.GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -180,11 +180,11 @@ local function SetContentInfo(frame, typ, value, delimiter)
 			frame:AddText(value..delimiter)
 		elseif PRICE_INFO[typ].currencyID then
 			local name, currentAmount, texture 
-			local curr = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
-			if curr then
-				name = curr.name
-				currentAmount = curr.quantity
-				texture = curr.iconFileID
+			local info = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
+			if info then
+				name = info.name
+				currentAmount = info.quantity
+				texture = info.iconFileID
 				frame:AddText(currentAmount >= tonumber(value) and STRING_GREEN..value..delimiter or STRING_RED..value..delimiter)
 			end
 			frame:AddIcon(texture, 12)
@@ -259,11 +259,11 @@ local function SetTooltip(tooltip, typ, value)
 		--	tooltip:AddLine(TT_HAVE_AND_NEED_GREEN:format(value))
 		elseif PRICE_INFO[typ].currencyID then
 			local name, currentAmount, texture 
-			local curr = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
-			if curr then
-				name = curr.name
-				currentAmount = curr.quantity
-				texture = curr.iconFileID
+			local info = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
+			if info then
+				name = info.name
+				currentAmount = info.quantity
+				texture = info.iconFileID
 				if texture then
 					tooltip:AddLine(TT_ICON_AND_NAME:format(texture, name or ""))
 				end

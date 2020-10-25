@@ -12,6 +12,8 @@ v8.13.00 (Oct. XX, 2020)
   - Dressroom fixed
   - Currency function fixed
   - Backdrop issue fixed
+  - CurrencyInfo API changed
+  - EncounterJournal API changed
 
 v8.12.01 (XXX. XX, 2020)
 ========================

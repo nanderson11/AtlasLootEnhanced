@@ -130,7 +130,7 @@ local SliderBackdrop  = {
 }
 
 local function Create()
-	local frame = CreateFrame("FRAME")
+	local frame = CreateFrame("FRAME", nil, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame:EnableMouse(true)
 	
 	local text = frame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
@@ -140,7 +140,7 @@ local function Create()
 	text:SetHeight(15)
 	text:SetWordWrap(false)
 	
-	local slider = CreateFrame("Slider", nil, frame)
+	local slider = CreateFrame("Slider", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	slider:SetOrientation("HORIZONTAL")
 	slider:SetHeight(15)
 	slider:SetHitRectInsets(0, 0, -10, 0)

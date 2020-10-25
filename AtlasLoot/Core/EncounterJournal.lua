@@ -60,11 +60,10 @@ local function OnEvent(self, event, arg1)
 		return
 	end
 	
-	local _, itemID, link
 	for i = 1, EJ_GetNumLoot() do
-		itemID, _, _, _, _, _, link = EJ_GetLootInfoByIndex(i) --itemID, encounterID, name, icon, slot, armorType, link
-		itemList[i] = { itemID, link }
-		itemList[itemID] = i
+		local info = EJ_GetLootInfoByIndex(i)
+		itemList[i] = { info.itemID, info.link }
+		itemList[info.itemID] = i
 	end
 	self.OnUpdate(itemList)
 end
@@ -98,11 +97,10 @@ function EJ:SetLootQuery(instanceID, encounterID, difficultyID, tier, classIDFil
 	
 	EJ_SetLootFilter(classIDFilter, specIDFilter or 0)
 
-	local _, itemID, link
 	for i = 1, EJ_GetNumLoot() do
-		itemID, _, _, _, _, _, link = EJ_GetLootInfoByIndex(i) --itemID, encounterID, name, icon, slot, armorType, link
-		itemList[i] = { itemID, link }
-		itemList[itemID] = i
+		local info = EJ_GetLootInfoByIndex(i)
+		itemList[i] = { info.itemID, info.link }
+		itemList[info.itemID] = i
 	end
 	OnUpdateFunc(itemList)
 	if EncounterJournal then

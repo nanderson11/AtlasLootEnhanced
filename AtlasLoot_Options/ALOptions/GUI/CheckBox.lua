@@ -74,7 +74,7 @@ local widgetFunctions = {
 }
 
 local function Create()
-	local frame = CreateFrame("Frame")
+	local frame = CreateFrame("Frame", nil, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame:SetSize(100,18)
 	frame:SetPoint("CENTER")
 	--background
@@ -87,14 +87,14 @@ local function Create()
 	frame:SetScript("OnMouseUp", OnMouseUp)
 	
 	-- boxframe
-	local boxBg = CreateFrame("Frame", nil, frame)
+	local boxBg = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	boxBg:SetPoint("TOPLEFT", frame, "TOPLEFT", 2, -2)
 	boxBg:SetSize(14,14)
 	boxBg:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background"})
 	boxBg:SetBackdropColor(0,0,0,1)
 	
 	-- text bg
-	local textBg = CreateFrame("Frame", nil, frame)
+	local textBg = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	
 	-- text
 	local text = textBg:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")

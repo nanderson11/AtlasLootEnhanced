@@ -55,7 +55,7 @@ move-folders:
 
 # Ignore takes place before folder's moving takes place
 ignore:
-    - AtlasLoot/Libs-dev
+    - Libs-dev
     - AtlasLoot/Images/PSD
     - AtlasLoot/AtlasLoot/Images/PSD
     - AtlasLoot/AtlasLoot/DEVTOOLS.lua
