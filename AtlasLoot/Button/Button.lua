@@ -145,7 +145,7 @@ function Button:Create()
 	button.highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
 	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
 	button.highlightBg:SetColorTexture(1,0,0)
-	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
+--	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
 	button.highlightBg:Hide()
 	
 	-- Icon <texture>
@@ -232,17 +232,17 @@ function Button:Create()
 	button.secButton:SetScript("OnMouseWheel", Button_OnMouseWheel)
 	
 	-- secButtonTexture <texture>
-	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon", button.secButton)
+	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon", "ARTWORK")
 	button.secButton.icon:SetAllPoints(button.secButton)
 	button.secButton.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 	
-	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder")
+	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "ARTWORK")
 	button.secButton.qualityBorder:SetAllPoints(button.secButton)
 	button.secButton.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.secButton.qualityBorder:Hide()
 	
 	-- secButtonMini <texture>
-	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini")
+	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini", "ARTWORK")
 	button.secButton.mini:SetPoint("TOPRIGHT", button.secButton.icon, "TOPRIGHT", 0, 0)
 	button.secButton.mini:SetHeight(13)
 	button.secButton.mini:SetWidth(13)
@@ -272,7 +272,7 @@ function Button:Create()
 	button.secButton.count:Hide()
 	
 	-- factionIcon
-	button.factionIcon = button:CreateTexture(buttonName.."_factionIcon", button)
+	button.factionIcon = button:CreateTexture(buttonName.."_factionIcon", "ARTWORK")
 	button.factionIcon:SetPoint("RIGHT", button.secButton, "LEFT", -2, 0)
 	button.factionIcon:SetHeight(28)
 	button.factionIcon:SetWidth(28)
@@ -310,17 +310,17 @@ function Button:CreateSecOnly(frame)
 	button.secButton:SetScript("OnMouseWheel", Button_OnMouseWheel)
 	
 	-- secButtonTexture <texture>
-	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon", button.secButton)
+	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon", "ARTWORK")
 	button.secButton.icon:SetAllPoints(button.secButton)
 	button.secButton.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 	
-	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder")
+	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "ARTWORK")
 	button.secButton.qualityBorder:SetAllPoints(button.secButton)
 	button.secButton.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.secButton.qualityBorder:Hide()
 	
 	-- secButtonMini <texture>
-	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini")
+	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini", "ARTWORK")
 	button.secButton.mini:SetPoint("TOPRIGHT", button.secButton.icon, "TOPRIGHT", 0, 0)
 	button.secButton.mini:SetHeight(13)
 	button.secButton.mini:SetWidth(13)

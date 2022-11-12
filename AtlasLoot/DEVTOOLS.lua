@@ -8,6 +8,7 @@ local AceGUI = LibStub("AceGUI-3.0")
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
+local tooltip = GetAppropriateTooltip()
 local EJ_GetLootInfoByIndex = C_EncounterJournal.GetLootInfoByIndex
 
 local Dev = {}
@@ -20,15 +21,15 @@ local EJ_DIFFICULTIES =
 	{ size = "5", prefix = PLAYER_DIFFICULTY2, difficultyID = 2 },
 	{ size = "5", prefix = PLAYER_DIFFICULTY6, difficultyID = 23 },
 	{ size = "5", prefix = PLAYER_DIFFICULTY_TIMEWALKER, difficultyID = 24 },
-	{ size = "25", prefix = PLAYER_DIFFICULTY3, difficultyID = 7 },
 	{ size = "10", prefix = PLAYER_DIFFICULTY1, difficultyID = 3 },
 	{ size = "10", prefix = PLAYER_DIFFICULTY2, difficultyID = 5 },
 	{ size = "25", prefix = PLAYER_DIFFICULTY1, difficultyID = 4 },
 	{ size = "25", prefix = PLAYER_DIFFICULTY2, difficultyID = 6 },
-	{ prefix = PLAYER_DIFFICULTY3, difficultyID = 17 },
+	{ size = "25", prefix = PLAYER_DIFFICULTY3, difficultyID = 7 },
 	{ prefix = PLAYER_DIFFICULTY1, difficultyID = 14 },
 	{ prefix = PLAYER_DIFFICULTY2, difficultyID = 15 },
 	{ prefix = PLAYER_DIFFICULTY6, difficultyID = 16 },
+	{ prefix = PLAYER_DIFFICULTY3, difficultyID = 17 },
 }
 
 function Dev:ScanEJ(givenTierId)
@@ -186,10 +187,11 @@ function hookUnitTarget(self)
 		local guid = UnitGUID(unit)
 		if guid and GUIDS[guid] then
 			self:AddLine(GUIDS[guid] == "author" and AUTHOR_STRING or FRIEND_STRING, 0, 1, 0 )
+			self:Show()
 		end
 	end
 end
-GameTooltip:HookScript("OnTooltipSetUnit", hookUnitTarget)
+--tooltip:HookScript("OnTooltipSetUnit", hookUnitTarget)
 -- /////////////////////////////////////////////////////////////////////////
 local AtlasLoot_TextParsing = {
 --[[

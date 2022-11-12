@@ -3,7 +3,9 @@ local _G = getfenv(0)
 local tonumber, type = tonumber, type
 local str_match, str_format = string.match, string.format
 -- WoW
-local UnitSex, GetFactionInfoByID, GetFriendshipReputation = UnitSex, GetFactionInfoByID, GetFriendshipReputation
+--local UnitSex, GetFactionInfoByID, GetFriendshipReputation = UnitSex, GetFactionInfoByID, GetFriendshipReputation
+local UnitSex, GetFactionInfoByID = UnitSex, GetFactionInfoByID
+local C_GossipInfo = C_GossipInfo
 
 local AtlasLoot = _G.AtlasLoot
 local Faction = AtlasLoot.Button:AddType("Faction", "f")
@@ -452,7 +454,9 @@ end
 function Faction.Refresh(button)
 	if not button.FactionID then return end
 	--friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionID)
-	local friendID = GetFriendshipReputation(button.FactionID)
+	--local friendID = GetFriendshipReputation(button.FactionID)
+	local reputationInfo = C_GossipInfo.GetFriendshipReputation(button.FactionID)
+	local friendID = reputationInfo.friendshipFactionID
 
 	-- name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionID)
 	local name, _, standingID = GetFactionInfoByID(button.FactionID)
@@ -510,7 +514,7 @@ function Faction.ShowToolTipFrame(button)
 							insets = { left = 4, right = 4, top = 4, bottom = 4 }})
 		frame:SetBackdropColor(0,0,0,1)
 		
-		frame.icon = frame:CreateTexture(name.."-icon", frame)
+		frame.icon = frame:CreateTexture(name.."-icon", "ARTWORK")
 		frame.icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 5, -5)
 		frame.icon:SetHeight(15)
 		frame.icon:SetWidth(15)
@@ -557,21 +561,34 @@ function Faction.ShowToolTipFrame(button)
 		Faction.tooltipFrame = frame
 	end
 	local frame = Faction.tooltipFrame
-	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(button.FactionID)
+	--[[
+	local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, factionID, hasBonusRepGain, canSetInactive = GetFactionInfo(factionIndex);
+	]]
+	local name, description, standingID, barMin, barMax, barValue, _, _, _, _, _, _, _, factionID = GetFactionInfoByID(button.FactionID)
 	standingID = standingID or 1
 	local colorIndex = standingID
+	local barColor = FACTION_BAR_COLORS[colorIndex];
 	local factionStandingtext
 
-	local friendID, friendRep, _, _, _, _, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(button.FactionID)
-	if friendID then
-		factionStandingtext = friendTextLevel
-		if ( nextFriendThreshold ) then
-			barMin, barMax, barValue = friendThreshold, nextFriendThreshold, friendRep
+	--local friendID, friendRep, _, _, _, _, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(button.FactionID)
+	local isMajorFaction = factionID and C_Reputation.IsMajorFaction(factionID);
+	local repInfo = factionID and C_GossipInfo.GetFriendshipReputation(factionID);
+	if (repInfo and repInfo.friendshipFactionID > 0) then
+		factionStandingtext = repInfo.reaction;
+		if ( repInfo.nextThreshold ) then
+			barMin, barMax, barValue = repInfo.reactionThreshold, repInfo.nextThreshold, repInfo.standing;
 		else
 			-- max rank, make it look like a full bar
 			barMin, barMax, barValue = 0, 1, 1;
 		end
 		colorIndex = 5
+		barColor = FACTION_BAR_COLORS[colorIndex];						-- always color friendships green
+	elseif ( isMajorFaction ) then
+		local majorFactionData = C_MajorFactions.GetMajorFactionData(factionID);
+		barMin, barMax = 0, majorFactionData.renownLevelThreshold;
+		barColor = BLUE_FONT_COLOR;
+		factionStandingtext = RENOWN_LEVEL_LABEL .. majorFactionData.renownLevel;
+
 	else
 		barMin, barMax, barValue = barMin or 0, barMax or 1, barValue or 0
 		factionStandingtext = GetLocRepStanding(standingID)
@@ -588,8 +605,7 @@ function Faction.ShowToolTipFrame(button)
 	
 	frame.standing.bar:SetMinMaxValues(barMin, barMax)
 	frame.standing.bar:SetValue(barValue)
-	local color = FACTION_BAR_COLORS[colorIndex]
-	frame.standing.bar:SetStatusBarColor(color.r, color.g, color.b)
+	frame.standing.bar:SetStatusBarColor(barColor.r, barColor.g, barColor.b)
 	frame.standing.text:SetText(str_format("%s ( %d / %d )", factionStandingtext, barValue - barMin, barMax - barMin))
 	 
 	frame:SetHeight(20+21+frame.desc:GetHeight()+5)
