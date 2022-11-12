@@ -146,6 +146,7 @@ function Button:Create()
 	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
 	button.highlightBg:SetColorTexture(1,0,0)
 --	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
+	button.highlightBg:SetGradient("HORIZONTAL", CreateColor(1, 1, 1, 0.45), CreateColor(1, 1, 1, 0))
 	button.highlightBg:Hide()
 	
 	-- Icon <texture>

@@ -16,6 +16,17 @@ local addonname = ...
 local AtlasLoot = _G.AtlasLoot
 local data = AtlasLoot.ItemDB:Add(addonname, 8)
 
+--[[
+local moduleMeta = {
+		addonName = "AtlasLoot_BattleforAzeroth",
+		icon = "Interface\\ICONS\\Inv_ChampionsOfAzeroth",
+		name = EXPANSION_NAME7,
+		tt_title = nil,		-- ToolTip title
+		tt_text = nil,		-- ToolTip text
+}
+]]
+AtlasLoot:RegisterModules(addonname)
+
 local AL = AtlasLoot.Locales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
