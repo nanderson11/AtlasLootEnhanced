@@ -10,6 +10,18 @@
 	}
 ]]
 
+-- Functions
+local _G = getfenv(0)
+
+-- Libraries
+local assert, type, tonumber, tostring = assert, type, tonumber, tostring
+local next, pairs = next, pairs
+local str_sub, str_format, str_len, str_match = string.sub, string.format, string.len, string.match
+
+local UnitFactionGroup = UnitFactionGroup
+local CreateFrame = CreateFrame
+local CreateColor = CreateColor
+
 local AtlasLoot = _G.AtlasLoot
 local Button = {}
 local Proto = {}
@@ -19,14 +31,6 @@ Button.Proto = Proto
 Button.API = API
 
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
-
--- lua
-local assert, type, tonumber, tostring = assert, type, tonumber, tostring
-local next, pairs = next, pairs
-local str_sub, str_format, str_len, str_match = string.sub, string.format, string.len, string.match
-
--- WoW
-local CreateFrame = CreateFrame
 
 -- UnitFactionGroup("player")		"Alliance", "Horde", "Neutral" or nil.
 -- :SetAtlas()
@@ -145,7 +149,6 @@ function Button:Create()
 	button.highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
 	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
 	button.highlightBg:SetColorTexture(1,0,0)
---	button.highlightBg:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.45, 1, 1, 1, 0)
 	button.highlightBg:SetGradient("HORIZONTAL", CreateColor(1, 1, 1, 0.45), CreateColor(1, 1, 1, 0))
 	button.highlightBg:Hide()
 	
