@@ -24,20 +24,20 @@ externals:
 #        url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
 #    AtlasLoot/Libs-release/LibDBIcon-1.0: 
 #        url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
-    AtlasLoot/Libs-release/LibBabble-Boss-3.0: 
-        url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
-    AtlasLoot/Libs-release/LibBabble-Faction-3.0: 
-        url: https://repos.wowace.com/wow/libbabble-faction-3-0/trunk
-    AtlasLoot/Libs-release/LibBabble-ItemSet-3.0: 
-        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
+#    AtlasLoot/Libs-release/LibBabble-Boss-3.0: 
+#        url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
+#    AtlasLoot/Libs-release/LibBabble-Faction-3.0: 
+#        url: https://repos.wowace.com/wow/libbabble-faction-3-0/trunk
+#    AtlasLoot/Libs-release/LibBabble-ItemSet-3.0: 
+#        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
 # HG
 #    AtlasLoot/Libs-release/LibDialog-1.0: 
 #        url: https://repos.wowace.com/wow/libdialog-1-0
 
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
-    AtlasLoot/Libs: AtlasLoot/Libs-dev
-    AtlasLoot/Libs-release: AtlasLoot/Libs
+#    AtlasLoot/Libs: AtlasLoot/Libs-dev
+#    AtlasLoot/Libs-release: AtlasLoot/Libs
     AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic
     AtlasLoot/AtlasLoot_BurningCrusade: AtlasLoot_BurningCrusade
     AtlasLoot/AtlasLoot_WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
@@ -55,7 +55,7 @@ move-folders:
 
 # Ignore takes place before folder's moving takes place
 ignore:
-    - Libs-dev
+#    - Libs-dev
     - Images/PSD
     - DEVTOOLS.lua
 
