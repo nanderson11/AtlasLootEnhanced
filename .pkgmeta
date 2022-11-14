@@ -8,7 +8,7 @@ license-output: AtlasLoot/Documentation/LICENSE.txt
 
 enable-nolib-creation: no
 
-externals:
+#externals:
 # Git
 #    AtlasLoot/Libs-release/LibDataBroker-1.1: 
 #        url: https://repos.wowace.com/wow/libdatabroker-1-1
