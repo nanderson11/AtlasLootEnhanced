@@ -164,34 +164,6 @@ function GetItemInfo(xxx)
 end
 ]]--
 
--- ################
--- DEV !!! remove later only for tests
--- ################
-local GUIDS = {
-	["Player-1097-040A43FC"] = "author",	-- shijera@ysera-eu
-	["Player-1097-0444710C"] = "author",	-- lag@ysera-eu
-	["Player-1097-044F8D64"] = "author",
-	["Player-1097-047418F7"] = "author",	-- schoko!
-	["Player-1097-045D6B65"] = "author", 	-- Cali
-	[true] = "Player-1097-00490D06",		-- meena@ysera-eu
-	[true] = "Player-1097-0212CAC6",		-- xyriana@ysera-eu
-	["Player-612-0566C578"] = "author",		-- Dynaletik@nerathor-eu
-	["Player-612-05667280"] = "author",		-- Dynarix@nerathor-eu
-	["Player-612-0566725A"] = "author",		-- Dynalowtik@nerathor-eu
-}
-local AUTHOR_STRING = "AtlasLoot Author |TInterface\\MoneyFrame\\UI-GoldIcon:0|t"
-local FRIEND_STRING = "AtlasLoot Friend |TInterface\\MoneyFrame\\UI-SilverIcon:0|t"
-function hookUnitTarget(self)
-	local name, unit = self:GetUnit()
-	if name and unit then
-		local guid = UnitGUID(unit)
-		if guid and GUIDS[guid] then
-			self:AddLine(GUIDS[guid] == "author" and AUTHOR_STRING or FRIEND_STRING, 0, 1, 0 )
-			self:Show()
-		end
-	end
-end
---tooltip:HookScript("OnTooltipSetUnit", hookUnitTarget)
 -- /////////////////////////////////////////////////////////////////////////
 local AtlasLoot_TextParsing = {
 --[[
