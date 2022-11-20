@@ -187,6 +187,31 @@ local FACTION_IMAGES = {
 	[2400] = "Interface\\Icons\\inv_faction_akoan", -- Waveblade Ankoan
 	
 	-- Shadowlands
+	[2407] = "Interface\\Icons\\inv_tabard_bastion_d_01", -- The Ascended
+	[2410] = "Interface\\Icons\\inv_tabard_maldraxxus_d_01", -- The Undying Army
+	[2413] = "Interface\\Icons\\inv_tabard_revendreth_d_01", -- Court of Harvesters
+	[2432] = "Interface\\Icons\\70_inscription_vantus_rune_suramar", -- Ve'nari
+	[2465] = "Interface\\Icons\\inv_tabard_ardenweald_d_01", -- The Wild Hunt
+	[2470] = "Interface\\Icons\\inv_tabard_deathsadvance_b_01", -- Death's Advance
+	[2472] = "Interface\\Icons\\inv_mawexpansionfliermountyellow", -- The Archivists' Codex
+	[2478] = "Interface\\Icons\\inv_tabard_enlightenedbrokers_c_01", -- The Enlightened
+
+	-- Dragonflight
+--[[
+	[2503] = "Interface\\Icons\\...", -- Maruuk Centaur
+	[2507] = "Interface\\Icons\\...", -- Dragonscale Expedition
+	[2509] = "Interface\\Icons\\...", -- Clan Shikaar
+	[2510] = "Interface\\Icons\\...", -- Valdrakken Accord
+	[2511] = "Interface\\Icons\\...", -- Iskaara Tuskarr
+	[2512] = "Interface\\Icons\\...", -- Clan Aylaag
+	[2513] = "Interface\\Icons\\...", -- Clan Ohn'ir
+	[2520] = "Interface\\Icons\\...", -- Clan Nokhud
+	[2522] = "Interface\\Icons\\...", -- Clan Teerai
+	[2526] = "Interface\\Icons\\...", -- Winterpelt Furbolg
+	[2542] = "Interface\\Icons\\...", -- Clan Ukhel
+	[2554] = "Interface\\Icons\\...", -- Clan Toghus
+	[2555] = "Interface\\Icons\\...", -- Clan Kaighan
+]]
 }
 
 local FACTION_KEY = {
