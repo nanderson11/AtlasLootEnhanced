@@ -312,23 +312,29 @@ local FACTION_KEY = {
 	[2417] = "Uldum Accord",
 	[2373] = "The Unshackled",
 	[2400] = "Waveblade Ankoan",
-	
 	-- Shadowlands
-	
-	--- Alliance
-	[2159] = "7th Legion",
-	[2160] = "Proudmoore Admiralty",
-	[2161] = "Order of Embers",
-	[2162] = "Storm's Wake",
-	--- Horde
-	[2157] = "The Honorbound",
-	[2103] = "Zandalari Empire",
-	[2156] = "Talanji's Expedition",
-	[2158] = "Voldunai",
-	--- All
-	[2163] = "Tortollan Seekers",
-	[2164] = "Champions of Azeroth",
-	
+	[2407] = "The Ascended",
+	[2410] = "The Undying Army",
+	[2413] = "Court of Harvesters",
+	[2432] = "Ve'nari",
+	[2465] = "The Wild Hunt",
+	[2470] = "Death's Advance",
+	[2472] = "The Archivists' Codex",
+	[2478] = "The Enlightened",
+	-- Dragonflight
+	[2503] = "Maruuk Centaur",
+	[2507] = "Dragonscale Expedition",
+	[2509] = "Clan Shikaar",
+	[2510] = "Valdrakken Accord",
+	[2511] = "Iskaara Tuskarr",
+	[2512] = "Clan Aylaag",
+	[2513] = "Clan Ohn'ir",
+	[2520] = "Clan Nokhud",
+	[2522] = "Clan Teerai",
+	[2526] = "Winterpelt Furbolg",
+	[2542] = "Clan Ukhel",
+	[2554] = "Clan Toghus",
+	[2555] = "Clan Kaighan",
 }
 
 local function GetLocRepStanding(id)

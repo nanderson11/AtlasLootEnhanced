@@ -7,6 +7,11 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
+v8.13.04 (Nov. 20, 2022)
+========================
+- ToC update to support WoW 10.0.2
+- Added faction IDs for Shadowlands and Dragonflight
+
 v8.13.03 (Nov. 14, 2022)
 ========================
 - Set all the libraries to be hard-embedded to resolve CF's auto-packaging problem
