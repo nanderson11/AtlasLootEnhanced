@@ -41,6 +41,20 @@ local FRIEND_REP_TEXT = {
 	[14] = BF["Friend"],
 	[15] = BF["Good Friend"],
 	[16] = BF["Best Friend"],
+	--We are no strangers to rep grind in SL
+	[17] = BF["Rank 1"],
+	[18] = BF["Rank 2"],
+	[19] = BF["Rank 3"],
+	[20] = BF["Rank 4"],
+	[21] = BF["Rank 5"],
+	[22] = BF["Rank 6"],
+	--Venari rep. Let's see if it works
+	[23] = "Dubious",
+	[24] = "Apprehensive",
+	[25] = "Tentative",
+	[26] = "Ambivalent",
+	[27] = "Cordial",
+	[28] = "Appreciative",
 }
 
 

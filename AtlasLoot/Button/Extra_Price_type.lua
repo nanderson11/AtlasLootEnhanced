@@ -140,6 +140,11 @@ local PRICE_INFO = {
 	["78875"] = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"] = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
 	-- currencies
+	["stygia"]	= { currencyID = 1767 }, -- Stygia, added in 9.0.1
+	["reservoiranima"]	= { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
+	["sinstonefragments"]	= { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
+	["gratefuloffering"]	= { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
+	["catalogedresearch"]	= { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
 	["WrithingEssence"]	= { currencyID = 1501 }, -- Writhing Essence, added in 7.3.0
 	["ArgusWaystone"]	= { currencyID = 1506 }, -- Argus Waystone, added in 7.3.0
 	["VeiledArgunite"]	= { currencyID = 1508 }, -- Veiled Argunite, added in 7.3.0
