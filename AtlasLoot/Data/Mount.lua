@@ -737,14 +737,22 @@ end
 -- AtlasLoot.Data.Mount.DEV_SaveDataIntoDB()
 function Mount.DEV_SaveDataIntoDB()
 	AtlasLoot.db.MOUNTINFO = {}
+	AtlasLoot.db.MOUNTINFO_SPELL2ITEMID = {}
 	local numMounts = C_MountJournal.GetNumMounts()
 	
-	local name, spellID
+	local name, spellID, itemID
 	for i=1,numMounts do
 		name, spellID = C_MountJournal_GetMountInfo(i)
 		if name and spellID then
 			AtlasLoot.db.MOUNTINFO[spellID] = name
+			
+			itemID = Mount.GetItemIDfromSpellID(spellID)
+			if (itemID and itemID ~=0) then
+				AtlasLoot.db.MOUNTINFO_SPELL2ITEMID[spellID] = itemID
+			end
 		end
 	end
+	
+	
 end
 --@end-do-not-package@
