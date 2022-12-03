@@ -7,10 +7,12 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
-v8.13.06 (Dec. XX, 2022)
+v8.13.06 (Dec. 03, 2022)
 ========================
 - Migrate WorldMap button to use Krowi_WorldMapButtons
 - Remove button on WorldMap's title bar
+- Fixed Option window's selected issue
+- Fixed Pets, Mounts, and QuickLoot's preview issues
 
 v8.13.05 (Nov. 20, 2022)
 ========================

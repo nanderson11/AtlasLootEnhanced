@@ -145,12 +145,13 @@ function Button:Create()
 	button:SetScript("OnMouseWheel", Button_OnMouseWheel)
 	
 	-- highlight Background
-	button.highlightBg = button:CreateTexture(buttonName.."_highlightBg")
-	button.highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
-	button.highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
-	button.highlightBg:SetColorTexture(1,0,0)
-	button.highlightBg:SetGradient("HORIZONTAL", CreateColor(1, 1, 1, 0.45), CreateColor(1, 1, 1, 0))
-	button.highlightBg:Hide()
+	local highlightBg = button:CreateTexture(buttonName.."_highlightBg")
+	highlightBg:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0)
+	highlightBg:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -(button:GetWidth()/2), 0)
+	highlightBg:SetColorTexture(1,0,0)
+	highlightBg:SetGradient("HORIZONTAL", CreateColor(1, 1, 1, 0.45), CreateColor(1, 1, 1, 0))
+	highlightBg:Hide()
+	button.highlightBg = highlightBg
 	
 	-- Icon <texture>
 	button.icon = button:CreateTexture(buttonName.."_icon")
@@ -236,7 +237,7 @@ function Button:Create()
 	button.secButton:SetScript("OnMouseWheel", Button_OnMouseWheel)
 	
 	-- secButtonTexture <texture>
-	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon", "ARTWORK")
+	button.secButton.icon = button.secButton:CreateTexture(buttonName.."_secButtonIcon")
 	button.secButton.icon:SetAllPoints(button.secButton)
 	button.secButton.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 	
