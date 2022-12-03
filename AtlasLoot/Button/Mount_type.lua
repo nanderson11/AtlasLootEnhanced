@@ -1,3 +1,6 @@
+-- Functions
+local _G = getfenv(0)
+
 local AtlasLoot = _G.AtlasLoot
 local Mount = AtlasLoot.Button:AddType("Mount", "mount")
 local Item = AtlasLoot.Button:GetType("Item")
@@ -11,6 +14,7 @@ local tonumber = tonumber
 local str_match = string.match
 
 -- WoW
+local C_MountJournal = _G.C_MountJournal
 local C_MountJournal_GetMountInfo, C_MountJournal_GetMountInfoExtra = C_MountJournal.GetMountInfoByID, C_MountJournal.GetMountInfoExtraByID
 
 local MOUNT_FACTION_TEXTURES = {
