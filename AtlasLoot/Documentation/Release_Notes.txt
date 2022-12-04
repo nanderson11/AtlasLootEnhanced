@@ -7,9 +7,10 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
-v8.13.07 (Dec. 03, 2022)
+v8.13.08 (Dec. 04, 2022)
 ========================
-- More mount spells
+- Added more mount spells from Shadowlands and Dragonflight
+- Added Dragonflight faction tokens / currencies
 
 v8.13.07 (Dec. 03, 2022)
 ========================
