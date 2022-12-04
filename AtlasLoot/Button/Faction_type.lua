@@ -211,21 +211,21 @@ local FACTION_IMAGES = {
 	[2478] = "Interface\\Icons\\inv_tabard_enlightenedbrokers_c_01", -- The Enlightened
 
 	-- Dragonflight
---[[
-	[2503] = "Interface\\Icons\\...", -- Maruuk Centaur
-	[2507] = "Interface\\Icons\\...", -- Dragonscale Expedition
-	[2509] = "Interface\\Icons\\...", -- Clan Shikaar
-	[2510] = "Interface\\Icons\\...", -- Valdrakken Accord
-	[2511] = "Interface\\Icons\\...", -- Iskaara Tuskarr
-	[2512] = "Interface\\Icons\\...", -- Clan Aylaag
-	[2513] = "Interface\\Icons\\...", -- Clan Ohn'ir
-	[2520] = "Interface\\Icons\\...", -- Clan Nokhud
-	[2522] = "Interface\\Icons\\...", -- Clan Teerai
-	[2526] = "Interface\\Icons\\...", -- Winterpelt Furbolg
-	[2542] = "Interface\\Icons\\...", -- Clan Ukhel
-	[2554] = "Interface\\Icons\\...", -- Clan Toghus
-	[2555] = "Interface\\Icons\\...", -- Clan Kaighan
-]]
+
+	[2503] = 4687627, -- Maruuk Centaur
+	[2507] = 4687628, -- Dragonscale Expedition
+	[2509] = 4639175, -- Clan Shikaar
+	[2510] = 4687630, -- Valdrakken Accord
+	[2511] = 4687629, -- Iskaara Tuskarr
+	[2512] = 237385, -- Clan Aylaag
+	[2513] = 4639177, -- Clan Ohn'ir
+	[2520] = 4639176, -- Clan Nokhud
+	[2522] = 4639174, -- Clan Teerai
+	--[2526] = "Interface\\Icons\\...", -- Winterpelt Furbolg
+	--[2542] = "Interface\\Icons\\...", -- Clan Ukhel
+	--[2554] = "Interface\\Icons\\...", -- Clan Toghus
+	--[2555] = "Interface\\Icons\\...", -- Clan Kaighan
+
 }
 
 local FACTION_KEY = {
