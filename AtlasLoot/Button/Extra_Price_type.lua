@@ -139,6 +139,9 @@ local PRICE_INFO = {
 	["78874"] = { itemID = 78874 }, -- Shoulders of the Corrupted Vanquisher
 	["78875"] = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"] = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
+	-- added after dragonflight
+	["magmote"] = { itemID = 202173 }, -- Magmote
+	
 	-- currencies
 	["stygia"]	= { currencyID = 1767 }, -- Stygia, added in 9.0.1
 	["reservoiranima"]	= { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
