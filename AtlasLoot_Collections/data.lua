@@ -2782,27 +2782,6 @@ data["TABARDS"] = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{ -- Shadowlands
-			name = EXPANSION_NAME8,
-			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
-				{ 1, 168100, [PRICE_EXTRA_ITTYPE] = "money:25" }, -- Alliance Tabard
-				{ 2, 178336, [PRICE_EXTRA_ITTYPE] = "money:2250000" }, -- Tabard of the Wild Hunt
-				{ 3, 178991, [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Tabard of the Ascended
-				{ 4, 179282, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Court of Harvesters Tabard
-				{ 5, 180431, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Sinful Gladiator's Tabard
-				{ 6, 180456, [PRICE_EXTRA_ITTYPE] = "money:2500000"}, -- Colors of the Undying Army
-				{ 7, 185303, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Unchained Gladiator's Tabard
-				{ 8, 186777, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Cosmic Gladiator's Tabard
-				{ 9, 186997, [PRICE_EXTRA_ITTYPE] = "stygia:3000" }, -- Death's Advance Tabard
-				{ 10, 190611, [PRICE_EXTRA_ITTYPE] = "money:8000000" }, -- Tabard of the Enlightened
-				{ 11, 192206 }, -- Eternal Gladiator's Tabard
-			},
-			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 178120, [PRICE_EXTRA_ITTYPE] = "money:25" }, -- Horde Tabard
-			},
-		},
 		{ -- BFA
 			name = EXPANSION_NAME7,
 			CoinTexture = "Reputation",
