@@ -7,6 +7,11 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
+v8.13.09 (Dec. 05, 2022)
+========================
+- added more currencies
+- update Legion tabards and added BFA tabards
+
 v8.13.08 (Dec. 04, 2022)
 ========================
 - Added more mount spells from Shadowlands and Dragonflight
