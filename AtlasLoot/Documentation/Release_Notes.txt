@@ -7,6 +7,11 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
+v8.13.10 (Dec. 12, 2022)
+========================
+- Updated BFA seasons' items
+- Fixed Option window's selected issue
+
 v8.13.09 (Dec. 05, 2022)
 ========================
 - added more currencies
