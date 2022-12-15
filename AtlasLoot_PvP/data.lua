@@ -194,7 +194,7 @@ data["BFA4GEAR"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 2, 172670 }, -- Corrupted Gladiator's Cloak
 				{ 3, 172651 }, -- Corrupted Gladiator's Tabard
-				{ 9, 184679 }, -- Arsenal: Corrupted Gladiator's Weapons
+				{ 8, 184679 }, -- Arsenal: Corrupted Gladiator's Weapons
 				{ 9, 184681 }, -- Arsenal: Corrupted Aspirant's Weapons
 			},
 		},
