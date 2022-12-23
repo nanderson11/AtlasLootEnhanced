@@ -140,20 +140,26 @@ local PRICE_INFO = {
 	["78875"] = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"] = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
 	-- added after dragonflight
-	["magmote"] = { itemID = 202173 }, -- Magmote
-	["DenseHide193216"] = { itemID = 193216 }, -- Dense Hide
-	["DenseHide193217"] = { itemID = 193217 }, -- Dense Hide
-	["DenseHide193218"] = { itemID = 193218 }, -- Dense Hide
-	["SereviteOre"] = { itemID = 190396 }, -- Serevite Ore
-	["dragonArtifact"] = { itemID = 192055} , -- Dragon Isles Artifact
-	["centaurTrophy"] = { itemID = 200093} , -- Centaur Hunting Trophy
-	["tuskarrTotem"] = { itemID = 200071} , -- Sacred Tuskarr Totem
-	["titanRelic"] = { itemID = 199906} , -- Titan Relic
-	["IridescentPlume"] = { itemID = 201401} , -- Iridescent Plume
-	["PrimalWool"] = { itemID = 201405} , -- Tuft of Primal Wool
-	["AwakenedAir"] = { itemID = 190327} , -- Awakened Air
-	["OccasionalSand"] = { itemID = 194562} , -- Occasional Sand
-	["ResilientLeather"] = { itemID = 193210} , -- Resilient Leather
+	["AwakenedFire"] = 		{ itemID = 190321 }, -- Awakened Fire
+	["AwakenedAir"] = 		{ itemID = 190327 }, -- Awakened Air
+	["SpoolofWilderthread"] = { itemID = 192096 }, -- Spool of Wilderthread
+	["Neltharite"] = 		{ itemID = 192863 }, -- Neltharite
+	["TatteredWildercloth"] = { itemID = 193050 }, -- Tattered Wildercloth
+	["ResilientLeather"] = 	{ itemID = 193210 }, -- Resilient Leather
+	["AdamantScales"] = 	{ itemID = 193214 }, -- Adamant Scales
+	["DenseHide193216"] = 	{ itemID = 193216 }, -- Dense Hide
+	["DenseHide193217"] = 	{ itemID = 193217 }, -- Dense Hide
+	["DenseHide193218"] = 	{ itemID = 193218 }, -- Dense Hide
+	["OccasionalSand"] = 	{ itemID = 194562 }, -- Occasional Sand
+	["titanRelic"] = 		{ itemID = 199906 }, -- Titan Relic
+	["SereviteOre"] = 		{ itemID = 190396 }, -- Serevite Ore
+	["dragonArtifact"] = 	{ itemID = 192055 }, -- Dragon Isles Artifact
+	["centaurTrophy"] = 	{ itemID = 200093 }, -- Centaur Hunting Trophy
+	["tuskarrTotem"] = 		{ itemID = 200071 }, -- Sacred Tuskarr Totem
+	["IridescentPlume"] = 	{ itemID = 201401 }, -- Iridescent Plume
+	["TallstriderSinew"] = 	{ itemID = 201404 }, -- Tallstrider Sinew
+	["PrimalWool"] = 		{ itemID = 201405 }, -- Tuft of Primal Wool
+	["magmote"] = 			{ itemID = 202173 }, -- Magmote
 	
 	-- currencies
 	["WrithingEssence"]	= { currencyID = 1501 }, -- Writhing Essence, added in 7.3.0
@@ -186,7 +192,7 @@ local PRICE_INFO = {
 	-- others
 	["money"] 		= { func = GetCoinTextureString },
 	-- DragonFlight
-	["dragonSupplies"] = { currencyID = 2003} , -- Dragon Isles Supplies
+	["dragonSupplies"] = { currencyID = 2003}, -- Dragon Isles Supplies
 }
 
 local Cache = {}

@@ -14,6 +14,7 @@ local AL = AtlasLoot.Locales
 local ClickHandler = AtlasLoot.ClickHandler
 
 --[[
+	-- /script for i = 1, MAX_REPUTATION_REACTION do print(i, _G["FACTION_STANDING_LABEL"..i]) end
 	-- rep info ("f1435rep3" = Unfriendly rep @ Shado-Pan Assault)
 	1. Hated
 	2. Hostile
@@ -55,6 +56,8 @@ local FRIEND_REP_TEXT = {
 	[26] = "Ambivalent",
 	[27] = "Cordial",
 	[28] = "Appreciative",
+	-- Renown Level
+	
 }
 
 
@@ -377,7 +380,10 @@ local FACTION_KEY = {
 }
 
 local function GetLocRepStanding(id)
-	if (id > 10) then
+	if (id > 30) then
+		local i = id - 30
+		return format(MAJOR_FACTION_RENOWN_LEVEL_TOAST, i)
+	elseif (id > 10) then
 		return FRIEND_REP_TEXT[id] or FACTION_STANDING_LABEL4_FEMALE
 	else
 		return PlayerSex==3 and _G["FACTION_STANDING_LABEL"..(id or 4).."_FEMALE"] or _G["FACTION_STANDING_LABEL"..(id or 4)]
@@ -611,11 +617,16 @@ function Faction.ShowToolTipFrame(button)
 	]]
 	local name, description, standingID, barMin, barMax, barValue, _, _, _, _, _, _, _, factionID = GetFactionInfoByID(button.FactionID)
 	standingID = standingID or 1
-	local colorIndex = standingID
+	local colorIndex = standingID;
 	local barColor = FACTION_BAR_COLORS[colorIndex];
-	local factionStandingtext
+	local factionStandingtext;
 
+	local isCapped;
+	if (standingID == MAX_REPUTATION_REACTION) then
+		isCapped = true;
+	end
 	--local friendID, friendRep, _, _, _, _, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(button.FactionID)
+	-- check if this is a friendship faction or a Major Faction
 	local isMajorFaction = factionID and C_Reputation.IsMajorFaction(factionID);
 	local repInfo = factionID and C_GossipInfo.GetFriendshipReputation(factionID);
 	if (repInfo and repInfo.friendshipFactionID > 0) then
@@ -630,7 +641,10 @@ function Faction.ShowToolTipFrame(button)
 		barColor = FACTION_BAR_COLORS[colorIndex];						-- always color friendships green
 	elseif ( isMajorFaction ) then
 		local majorFactionData = C_MajorFactions.GetMajorFactionData(factionID);
+		
 		barMin, barMax = 0, majorFactionData.renownLevelThreshold;
+		isCapped = C_MajorFactions.HasMaximumRenown(factionID);
+		barValue = isCapped and majorFactionData.renownLevelThreshold or majorFactionData.renownReputationEarned or 0;
 		barColor = BLUE_FONT_COLOR;
 		factionStandingtext = RENOWN_LEVEL_LABEL .. majorFactionData.renownLevel;
 
@@ -638,6 +652,11 @@ function Faction.ShowToolTipFrame(button)
 		barMin, barMax, barValue = barMin or 0, barMax or 1, barValue or 0
 		factionStandingtext = GetLocRepStanding(standingID)
 	end
+
+	--Normalize Values
+	barMax = barMax - barMin;
+	barValue = barValue - barMin;
+	barMin = 0;
 
 	frame:ClearAllPoints()
 	frame:SetParent(button:GetParent():GetParent())
