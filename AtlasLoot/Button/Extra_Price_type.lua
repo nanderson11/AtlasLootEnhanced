@@ -145,6 +145,7 @@ local PRICE_INFO = {
 	["SpoolofWilderthread"] = { itemID = 192096 }, -- Spool of Wilderthread
 	["Neltharite"] = 		{ itemID = 192863 }, -- Neltharite
 	["TatteredWildercloth"] = { itemID = 193050 }, -- Tattered Wildercloth
+	["ContouredFowlfeathe"] = { itemID = 193053 }, -- Contoured Fowlfeathe
 	["ResilientLeather"] = 	{ itemID = 193210 }, -- Resilient Leather
 	["AdamantScales"] = 	{ itemID = 193214 }, -- Adamant Scales
 	["DenseHide193216"] = 	{ itemID = 193216 }, -- Dense Hide

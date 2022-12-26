@@ -7,6 +7,11 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
+v8.13.13 (Dec. 26, 2022)
+========================
+- Fxied renown level's calculation
+- Added more Dragonflight faction's purchasing tokens (items / currencies)
+
 v8.13.12 (Dec. 24, 2022)
 ========================
 - Fixed Renown value's calculation / displaying issue
