@@ -7,6 +7,10 @@ A copy of the GPL is included in this zip file with links to non-english transla
 
 Patch Notes
 
+v8.13.14 (Dec. 26, 2022)
+========================
+- Change faction items' token to itemID
+
 v8.13.13 (Dec. 26, 2022)
 ========================
 - Fxied renown level's calculation
