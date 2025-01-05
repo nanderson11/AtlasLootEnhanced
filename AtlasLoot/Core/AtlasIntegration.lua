@@ -5,7 +5,7 @@
 local _G = getfenv(0)
 local pairs, select = _G.pairs, _G.select
 -- WoW
-local GetAddOnInfo, GetAddOnEnableState, UnitName = _G.GetAddOnInfo, _G.GetAddOnEnableState, _G.UnitName
+local GetAddOnInfo, GetAddOnEnableState, UnitName = C_AddOns.GetAddOnInfo, C_AddOns.GetAddOnEnableState, _G.UnitName
 
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
@@ -19,7 +19,7 @@ local ATLAS_SMALLFRAME_SELECTED_ORIG
 
 function AtlasIntegration.IsEnabled()
 	local loadable = select(4, GetAddOnInfo("Atlas"))
-	local enabled = GetAddOnEnableState(UnitName("player"), "Atlas")
+	local enabled = GetAddOnEnableState("Atlas", UnitName("player"))
 
 	if (enabled > 0 and loadable) then
 		return true
@@ -45,7 +45,7 @@ function AtlasIntegration.GetAtlasZoneData(mapID, setMap)
 		end
 		if foundMatch then break end
 	end
-	
+
 	return foundMatch
 end
 
@@ -56,19 +56,19 @@ function AtlasIntegration.ShowMap(mapID)
 	ATLAS_SMALLFRAME_SELECTED = true
 
 	AtlasIntegration.GetAtlasZoneData(mapID, true)
-	
-	if ( AtlasFrameLarge:IsVisible() ) then
+
+	if (AtlasFrameLarge:IsVisible()) then
 		HideUIPanel(AtlasFrameLarge)
 	end
-	if ( AtlasFrame:IsVisible() ) then
+	if (AtlasFrame:IsVisible()) then
 		HideUIPanel(AtlasFrame)
 	end
-	if (not AtlasFrameSmall:IsVisible() ) then
+	if (not AtlasFrameSmall:IsVisible()) then
 		ShowUIPanel(AtlasFrameSmall)
 	end
 	AtlasFrameDropDownType_OnShow()
 	AtlasFrameDropDown_OnShow()
 	Atlas_Refresh()
-	
+
 	ATLAS_SMALLFRAME_SELECTED = ATLAS_SMALLFRAME_SELECTED_ORIG
 end

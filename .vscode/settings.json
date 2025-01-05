@@ -96,6 +96,11 @@
         "INVTYPE_RANGED",
         "SHIELDSLOT",
         "INVTYPE_WEAPONOFFHAND",
-        "ACHIEVEMENTS"
+        "ACHIEVEMENTS",
+        "AtlasFrame",
+        "AtlasFrameLarge",
+        "AtlasFrameSmall",
+        "Atlas",
+        "ATLAS_DROPDOWNS"
     ]
 }

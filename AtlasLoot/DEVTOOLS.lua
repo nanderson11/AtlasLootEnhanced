@@ -15,17 +15,17 @@ local Dev = {}
 -- /////////////////////////////////////////////////////////////////////////
 AtlasLoot.Dev = Dev
 
-local EJ_DIFFICULTIES =  
+local EJ_DIFFICULTIES =
 {
-	{ size = "5", prefix = PLAYER_DIFFICULTY1, difficultyID = 1 },
-	{ size = "5", prefix = PLAYER_DIFFICULTY2, difficultyID = 2 },
-	{ size = "5", prefix = PLAYER_DIFFICULTY6, difficultyID = 23 },
-	{ size = "5", prefix = PLAYER_DIFFICULTY_TIMEWALKER, difficultyID = 24 },
-	{ size = "10", prefix = PLAYER_DIFFICULTY1, difficultyID = 3 },
-	{ size = "10", prefix = PLAYER_DIFFICULTY2, difficultyID = 5 },
-	{ size = "25", prefix = PLAYER_DIFFICULTY1, difficultyID = 4 },
-	{ size = "25", prefix = PLAYER_DIFFICULTY2, difficultyID = 6 },
-	{ size = "25", prefix = PLAYER_DIFFICULTY3, difficultyID = 7 },
+	{ size = "5",                  prefix = PLAYER_DIFFICULTY1,           difficultyID = 1 },
+	{ size = "5",                  prefix = PLAYER_DIFFICULTY2,           difficultyID = 2 },
+	{ size = "5",                  prefix = PLAYER_DIFFICULTY6,           difficultyID = 23 },
+	{ size = "5",                  prefix = PLAYER_DIFFICULTY_TIMEWALKER, difficultyID = 24 },
+	{ size = "10",                 prefix = PLAYER_DIFFICULTY1,           difficultyID = 3 },
+	{ size = "10",                 prefix = PLAYER_DIFFICULTY2,           difficultyID = 5 },
+	{ size = "25",                 prefix = PLAYER_DIFFICULTY1,           difficultyID = 4 },
+	{ size = "25",                 prefix = PLAYER_DIFFICULTY2,           difficultyID = 6 },
+	{ size = "25",                 prefix = PLAYER_DIFFICULTY3,           difficultyID = 7 },
 	{ prefix = PLAYER_DIFFICULTY1, difficultyID = 14 },
 	{ prefix = PLAYER_DIFFICULTY2, difficultyID = 15 },
 	{ prefix = PLAYER_DIFFICULTY6, difficultyID = 16 },
@@ -38,8 +38,8 @@ function Dev:ScanEJ(givenTierId)
 	if EncounterJournal then
 		EncounterJournal:UnregisterEvent("EJ_DIFFICULTY_UPDATE")
 	end
-	
-	for tier = 1,EJ_GetNumTiers() do		-- scan tiers Classic, bc, ...
+
+	for tier = 1, EJ_GetNumTiers() do -- scan tiers Classic, bc, ...
 		if givenTierId and givenTierId ~= tier then
 			-- Do nothing
 		else
@@ -58,16 +58,19 @@ function Dev:ScanEJ(givenTierId)
 			local instanceID, name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link
 			while true do
 				loopKill = loopKill + 1
-				if loopKill > 700 then print"ouch loop break" break end
+				if loopKill > 700 then
+					print "ouch loop break"
+					break
+				end
 				instanceID, name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link = EJ_GetInstanceByIndex(index, showRaid)
-				if not instanceID and showRaid then	
+				if not instanceID and showRaid then
 					break
 				elseif not instanceID then
 					index = 1
 					showRaid = true
 				else
 					local curDb = showRaid and db[tierName].raids or db[tierName].dungeons
-					
+
 					curDb[name] = {
 						info = {
 							instanceID = instanceID,
@@ -82,16 +85,19 @@ function Dev:ScanEJ(givenTierId)
 						bosses = {},
 					}
 					curDb = curDb[name].bosses
-					
-					EJ_SelectInstance(instanceID)	-- select instance..
-					
+
+					EJ_SelectInstance(instanceID) -- select instance..
+
 					local bossIndex = 1
 					local encounterName, encounterDescription, encounterID, rootSectionID, encounterLink = EJ_GetEncounterInfoByIndex(bossIndex)
 					local loopProtectEncount = 0
-					
+
 					while encounterID do
-						loopProtectEncount = loopProtectEncount +1
-						if loopProtectEncount > 500 then print("ouch encounterLoop break"..loopProtectEncount) break end
+						loopProtectEncount = loopProtectEncount + 1
+						if loopProtectEncount > 500 then
+							print("ouch encounterLoop break"..loopProtectEncount)
+							break
+						end
 						EJ_SelectEncounter(encounterID)
 						curDb[encounterName] = {
 							info = {
@@ -103,14 +109,14 @@ function Dev:ScanEJ(givenTierId)
 							},
 							items = {},
 						}
-						for diffIndex = 1,#EJ_DIFFICULTIES do
+						for diffIndex = 1, #EJ_DIFFICULTIES do
 							local entry = EJ_DIFFICULTIES[diffIndex];
 							if EJ_IsValidInstanceDifficulty(entry.difficultyID) then
 								EJ_SetDifficulty(entry.difficultyID)
 								local diffName, groupType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID = GetDifficultyInfo(entry.difficultyID)
 								curDb[encounterName].items[diffName] = {}
 								--print(diffName, groupType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID)
-								local lootDb = curDb[encounterName].items[diffName] 
+								local lootDb = curDb[encounterName].items[diffName]
 								for itemIndex = 1, EJ_GetNumLoot() do
 									local info = EJ_GetLootInfoByIndex(itemIndex)
 									if info and info.itemID then
@@ -120,29 +126,27 @@ function Dev:ScanEJ(givenTierId)
 								end
 							end
 						end
-						
+
 						bossIndex = bossIndex + 1
 						encounterName, encounterDescription, encounterID, rootSectionID, encounterLink = EJ_GetEncounterInfoByIndex(bossIndex)
 					end
-					
-					index = index +1
-				end
-				
-				
-			end
 
+					index = index + 1
+				end
+			end
 		end
 	end
-	
+
 	if EncounterJournal then
 		EncounterJournal:RegisterEvent("EJ_DIFFICULTY_UPDATE")
 	end
 end
+
 --[[
-local db 
+local db
 local ORIGetItemInfo = GetItemInfo
 function GetItemInfo(xxx)
-	if not db then 
+	if not db then
 		if not AtlasLoot.db.itemInfo then
 			AtlasLoot.db.itemInfo = {}
 		end
@@ -162,11 +166,11 @@ function GetItemInfo(xxx)
 	end
 	return itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, vendorPrice
 end
-]]--
+]] --
 
 -- /////////////////////////////////////////////////////////////////////////
 local AtlasLoot_TextParsing = {
---[[
+	--[[
 	-- Classes
 	{ "#c1#", LOCALIZED_CLASS_NAMES_MALE["DRUID"] },
 	{ "#c2#", LOCALIZED_CLASS_NAMES_MALE["HUNTER"] },
@@ -209,7 +213,7 @@ local AtlasLoot_TextParsing = {
 	{ "#p26#", GetSpellInfo(45357) },	-- Inscription
 	{ "#p27#", GetSpellInfo(2366) },	-- Herbalism
 	{ "#p28#", GetSpellInfo(921) },		-- Pick Pocket
-	
+
 	-- Reputation
 	{ "#r1#", "Neutral" },
 	{ "#r2#", "Friendly" },
@@ -876,7 +880,7 @@ local AtlasLoot_TextParsing = {
 	{ "#absh5#", "The Defiler's Fortitude" },
 	{ "#absh6#", "The Defiler's Resolution" },
 
-	-- PvP Level 60 Rare Sets - Alliance 
+	-- PvP Level 60 Rare Sets - Alliance
 	{ "#pvpra1#", "Lieutenant Commander's Refuge" },
 	{ "#pvpra2#", "Lieutenant Commander's Pursuance" },
 	{ "#pvpra3#", "Lieutenant Commander's Arcanum" },
@@ -975,7 +979,7 @@ local AtlasLoot_TextParsing = {
 	{ "=q3=", "|cff0070dd" },	-- Blue
 	{ "=q4=", "|cffa335ee" },	-- Purple
 	{ "=q5=", "|cffFF8000" },	-- Orange
-	{ "=q6=", "|cffFF0000" },	-- Red 
+	{ "=q6=", "|cffFF0000" },	-- Red
 	{ "=q7=", "|cffe6cc80" },	-- Beige
 	{ "=ec1=", "|cffFF8400" },	-- Orange
 	{ "=ds=", "|cffFFd200" },	-- Yellow
@@ -1038,6 +1042,7 @@ local itemUpdated = 0
 function Dev:Init()
 	AtlasLoot.SlashCommands:Add("dev", Dev.DevTool_Slash, "Development tools")
 end
+
 AtlasLoot:AddInitFunc(Dev.Init)
 
 function Dev:DevTool_Slash(...)
@@ -1050,10 +1055,10 @@ function Dev:GetEntryInfos()
 	local spellIDs = {}
 	local numSpellIds = 0
 	for dataID, data in pairs(AtlasLoot_Data) do
-		for _,tableType in ipairs(lootTableTypes) do
+		for _, tableType in ipairs(lootTableTypes) do
 			if data[tableType] then
-				for _,itemTable in ipairs(data[tableType]) do
-					for _,item in ipairs(itemTable) do
+				for _, itemTable in ipairs(data[tableType]) do
+					for _, item in ipairs(itemTable) do
 						local num1
 						if type(item[2]) == "string" then
 							num1 = string.find(item[2], "s(%d+)")
@@ -1080,6 +1085,7 @@ function Dev:GetEntryInfos()
 	end
 	print("ITEMS: "..numItemIds.." --- SPELLS: "..numSpellIds)
 end
+
 -- ######################################################
 local function returnItemTableString(tab)
 	lootTableString = ""
@@ -1119,33 +1125,33 @@ local function getItemPrice(strg, newPrice, costItemID)
 		[1356] = "echoofbattle",
 		[1455894] = "echoofdomination",
 		[1357] = "forlorn",
-		[60329] = "EChestguard", -- Earthen Chestguard
-		[60323] = "EBattleplate", -- Earthen Battleplate
-		[60332] = "EHandguards", -- Earthen Handguards
-		[60326] = "EGauntlets", -- Earthen Gauntlets
-		[60328] = "EFaceguard", -- Earthen Faceguard
-		[60325] = "EHelmet", -- Earthen Helmet
-		[60330] = "ELegguards", -- Earthen Legguards
-		[60324] = "ELegplates", -- Earthen Legplates
+		[60329] = "EChestguard",    -- Earthen Chestguard
+		[60323] = "EBattleplate",   -- Earthen Battleplate
+		[60332] = "EHandguards",    -- Earthen Handguards
+		[60326] = "EGauntlets",     -- Earthen Gauntlets
+		[60328] = "EFaceguard",     -- Earthen Faceguard
+		[60325] = "EHelmet",        -- Earthen Helmet
+		[60330] = "ELegguards",     -- Earthen Legguards
+		[60324] = "ELegplates",     -- Earthen Legplates
 		[60331] = "EShoulderguards", -- Earthen Shoulderguards
-		[60327] = "EPauldrons", -- Earthen Pauldrons
-		[67424] = "forlornChest", -- Chest of the Forlorn Protector
+		[60327] = "EPauldrons",     -- Earthen Pauldrons
+		[67424] = "forlornChest",   -- Chest of the Forlorn Protector
 		[65087] = "forlornShoulders", -- Shoulders of the Forlorn Protector
 		[67430] = "forlornGauntlets", -- Gauntlets of the Forlorn Protector
-		[65000] = "forlornCrown", -- Crown of the Forlorn Protector
+		[65000] = "forlornCrown",   -- Crown of the Forlorn Protector
 		[67427] = "forlornLeggings", -- Leggings of the Forlorn Protector
 		[193050] = "TatteredWildercloth", -- Tattered Wildercloth
 		-- currency
-		[1166] = "timewarped", -- Timewarped Badge
+		[1166] = "timewarped",      -- Timewarped Badge
 		[1501] = "WrithingEssence", -- Writhing Essence, added in 7.3.0
-		[1506] = "ArgusWaystone", -- Argus Waystone, added in 7.3.0
-		[1508] = "VeiledArgunite", -- Veiled Argunite, added in 7.3.0
+		[1506] = "ArgusWaystone",   -- Argus Waystone, added in 7.3.0
+		[1508] = "VeiledArgunite",  -- Veiled Argunite, added in 7.3.0
 		-- DragonFlight
-		[2003] = "dragonSupplies", -- Dragon Isles Supplies
+		[2003] = "dragonSupplies",  -- Dragon Isles Supplies
 	}
 	--	/run print(getItemPrice("2175 #justice# / 60 #champseal#", 5000, "Interface\\Icons\\pvecurrency-justice"))
---	local englishFaction, _ = UnitFactionGroup("player")
-	for k,v in pairs(priceTab) do
+	--	local englishFaction, _ = UnitFactionGroup("player")
+	for k, v in pairs(priceTab) do
 		if k == costItemID then
 			retStrg = string.format("%s:%d", v, newPrice)
 			itemUpdated = itemUpdated + 1
@@ -1168,13 +1174,13 @@ local qualityTab = {
 
 local function FixTextBack(text)
 	if not text or string.trim(text) == "" then return "" end
-	
+
 	text = gsub(text, "Miscellaneous", "#m20#");
 	for k in ipairs(AtlasLoot_TextParsing) do
 		text = gsub(text, AtlasLoot_TextParsing[k][2], AtlasLoot_TextParsing[k][1]);
 	end
 
-    return text;
+	return text;
 end
 
 --- Gets item equip infos and format it
@@ -1207,7 +1213,7 @@ local function startVendorScan(tab)
 
 	if MerchantFrame:IsShown() then
 		if tab then
-			for i = 1,GetMerchantNumItems() do
+			for i = 1, GetMerchantNumItems() do
 				local itemTexture, itemValue = GetMerchantItemCostItem(i, 1)
 				local itemLink = GetMerchantItemLink(i)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
@@ -1223,7 +1229,7 @@ local function startVendorScan(tab)
 		else
 			tab = {}
 			tab[1] = {}
-			for i = 1,GetMerchantNumItems() do
+			for i = 1, GetMerchantNumItems() do
 				local name, texture, price, quantity, numAvailable, isUsable, extendedCost = GetMerchantItemInfo(i)
 				local itemCount = GetMerchantItemCostInfo(i)
 				local priceStr
@@ -1232,25 +1238,24 @@ local function startVendorScan(tab)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
 				itemID = itemID or 0
 				itemID = tonumber(itemID)
-				local _,_,quality = GetItemInfo(itemID)
+				local _, _, quality = GetItemInfo(itemID)
 				if quality then quality = qualityTab[quality] end
 				local desc = FixTextBack(GetItemEquipInfo(itemID))
 				if (price > 0) then
 					priceStr = string.format("[PRICE_EXTRA_ITTYPE] = \"money:%d", price)
 				else
 					priceStr = "[PRICE_EXTRA_ITTYPE] = \""
-					for j=1, itemCount do
+					for j = 1, itemCount do
 						citemTexture, citemValue, citemLink = GetMerchantItemCostItem(i, j)
 						citemID = string.match(citemLink or "item:0:", "item:(%d+):")
 						if not citemID then
 							currencyID = string.match(citemLink or "|Hcurrency:0|h", "|Hcurrency:(%d+)|h")
 						end
 						priceStr = priceStr..getItemPrice(nil, citemValue, citemID or currencyID)
-						if j<itemCount then priceStr = priceStr..":" end
+						if j < itemCount then priceStr = priceStr..":" end
 					end
-					
 				end
-				
+
 				--tab[1][i] = { i, itemID, "", string.format("%s%s", quality or "", name or ""), "=ds="..desc, getItemPrice(nil, itemValue, itemTexture) }
 				tab[1][i] = { i, itemID, priceStr or "", format("-- %s, %s", name or "", desc), texture, itemTexture }
 			end
@@ -1258,54 +1263,54 @@ local function startVendorScan(tab)
 	else
 		print("No vendor frame shown")
 	end
-	
+
 	return tab
 end
 
 -- function that draws the widgets for the first tab
 local function VendorFrame(container)
 	local lootTable, lootTableString
-  
+
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
-    
+
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("LootTable:")
 	editbox:SetWidth(200)
-	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text)
 		lootTable = text
 		lootTableString = ""
 		if AtlasLoot_Data[lootTable] and AtlasLoot_Data[lootTable]["Normal"] then
 			lootTableString = returnItemTableString(AtlasLoot_Data[lootTable]["Normal"])
 		end
 		multiEditbox:SetText(lootTableString)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	container:AddChild(editbox)
 
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
 	--desc:SetFullWidth(true)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		local newTab, lootTableString
 		if lootTable and AtlasLoot_Data[lootTable] and AtlasLoot_Data[lootTable]["Normal"] then
-			newTab = startVendorScan(AtlasLoot_Data[lootTable]["Normal"]) 
+			newTab = startVendorScan(AtlasLoot_Data[lootTable]["Normal"])
 		else
-			newTab = startVendorScan() 
+			newTab = startVendorScan()
 		end
-		desc:SetText(itemUpdated.." items updated.") 
+		desc:SetText(itemUpdated.." items updated.")
 		lootTableString = startVendorScan(newTab)
 		lootTableString = returnItemTableString(lootTableString)
 		multiEditbox:SetText(lootTableString)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
 
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1327,13 +1332,13 @@ local function CheckTextParsing(entrys)
 					for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
 						if type(tableNumberTable) == "table" then
 							for itemNum, itemTable in ipairs(tableNumberTable) do
-								for k,v in pairs(AtlasLoot_TextParsing) do
+								for k, v in pairs(AtlasLoot_TextParsing) do
 									local tabName = v[1].." <"..v[2]..">"
 									if not checkTable[tabName] then checkTable[tabName] = {} end
-									if string.find(itemTable[4] or "", v[1]) 
-									or string.find(itemTable[5] or "", v[1]) 
-									or string.find(itemTable[6] or "", v[1]) 
-									or string.find(itemTable[7] or "", v[1]) then
+									if string.find(itemTable[4] or "", v[1])
+										or string.find(itemTable[5] or "", v[1])
+										or string.find(itemTable[6] or "", v[1])
+										or string.find(itemTable[7] or "", v[1]) then
 										checkTable[tabName][#checkTable[tabName] + 1] = "AtlasLoot_Data[\""..iniName.."\"][\""..tableType.."\"]["..tableNumber.."]["..itemNum.."]"
 									end
 								end
@@ -1344,13 +1349,13 @@ local function CheckTextParsing(entrys)
 			end
 		end
 	end
-	
-	for k,v in pairs(checkTable) do
+
+	for k, v in pairs(checkTable) do
 		if #v <= entrys then
 			numberFound = numberFound + 1
 			local chacheString = ""
 			chacheString = chacheString.."\""..k.."\" ("..#v..")\n"
-			for i,j in ipairs(v) do
+			for i, j in ipairs(v) do
 				chacheString = chacheString.."-- "..j.."\n"
 			end
 			chacheString = chacheString.."\n\n"
@@ -1358,35 +1363,35 @@ local function CheckTextParsing(entrys)
 			chacheString = nil
 		end
 	end
-	
+
 	return checkString, numberFound
 end
 
 local function TextParsingFrame(container)
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 	local numEntrys
-	
+
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("Less than x entrys:")
 	editbox:SetWidth(200)
-	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text)
 		numEntrys = tonumber(text)
 		editbox:SetText(numEntrys)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	container:AddChild(editbox)
-	
+
 	local desc = AceGUI:Create("Label")
 	desc:SetText("0")
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		local text, number = CheckTextParsing(numEntrys)
 		multiEditbox:SetText(text)
 		desc:SetText(number.." entrys found")
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -1398,13 +1403,12 @@ local function TextParsingFrame(container)
 	button2:SetWidth(200)
 	container:AddChild(button2)
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("TextParsing:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
 	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
-
 end
 
 -- ######################################################
@@ -1423,8 +1427,8 @@ local function CheckInstanceList()
 	local cacheTab = {}
 	local moduleList = {}
 	local retString = ""
-	
-	for k,v in ipairs(ATLASLOOT_INSTANCE_MODULE_LIST) do
+
+	for k, v in ipairs(ATLASLOOT_INSTANCE_MODULE_LIST) do
 		moduleList[v] = k
 	end
 	for iniName, iniTable in pairs(AtlasLoot_Data) do
@@ -1435,27 +1439,27 @@ local function CheckInstanceList()
 			cacheTab[iniName] = moduleList[iniTable.info.module]
 		end
 	end
-	
+
 	retString = "AtlasLoot_InstanceList_Loader = {\n"
-	for k,v in pairs(cacheTab) do
+	for k, v in pairs(cacheTab) do
 		retString = retString.."\n[\""..k.."\"] = "..v..","
 	end
 	retString = retString.."\n}"
-	
+
 	return retString
 end
 
 
 local function InstanceInfoFrame(container)
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		local text, number = CheckInstanceList()
 		multiEditbox:SetText(text)
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
@@ -1463,11 +1467,11 @@ local function InstanceInfoFrame(container)
 	button2:SetText("Mark all")
 	button2:SetCallback("OnClick", function()
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)
-	
+
 	multiEditbox:SetLabel("InstanceList:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1480,24 +1484,24 @@ end
 
 local AchievementIDs = {
 	1312, -- BC
-	2256, -- WotLK 
+	2256, -- WotLK
 	7439, -- Mop
 }
 
 local function AchievementScan(id)
 	if not id or id <= 0 then return "ERROR" end
 	local ret = ""
-	
-	for i = 1,GetAchievementNumCriteria(id) do
-		local name = GetAchievementCriteriaInfo(id,i)
+
+	for i = 1, GetAchievementNumCriteria(id) do
+		local name = GetAchievementCriteriaInfo(id, i)
 		ret = ret..string.format("[\"%s\"] = GetAchievementCriteriaInfo(%d,%d),\n", name, id, i)
 	end
-	
+
 	return ret
 end
 local function AchievementScanAll()
 	local ret = ""
-	for k,v in ipairs(AchievementIDs) do
+	for k, v in ipairs(AchievementIDs) do
 		ret = ret..AchievementScan(v)
 	end
 	return ret
@@ -1509,35 +1513,35 @@ local function AchievementScanFrame(container)
 	local editbox2 = AceGUI:Create("EditBox")
 
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
-	
+
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("AchievementID:")
 	editbox:SetWidth(200)
-	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text)
 		textAID = tonumber(text)
-		multiEditbox:SetText(AchievementScan( textAID ))
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox:SetText(AchievementScan(textAID))
+		multiEditbox.editBox:SetFocus()
 	end)
 	container:AddChild(editbox)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
-		multiEditbox:SetText(AchievementScan( textAID ))
-		multiEditbox.editBox:SetFocus() 
+	button:SetCallback("OnClick", function()
+		multiEditbox:SetText(AchievementScan(textAID))
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
-	
+
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Scan All")
-	button2:SetCallback("OnClick", function() 
+	button2:SetCallback("OnClick", function()
 		multiEditbox:SetText(AchievementScanAll())
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)
-	
+
 	multiEditbox:SetLabel("Achievement Info:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1555,29 +1559,29 @@ function startEJScan()
 	for i = 1, num do
 		--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
 		local info = EJ_GetLootInfoByIndex(i)
-		
-		local _,_,quality = GetItemInfo(info.itemID)
+
+		local _, _, quality = GetItemInfo(info.itemID)
 		quality = qualityTab[quality]
-		
+
 		local desc = FixTextBack(GetItemEquipInfo(info.itemID))
-		rettab[1][i] = {i, info.itemID, "", quality..info.name, "=ds="..desc }
+		rettab[1][i] = { i, info.itemID, "", quality..info.name, "=ds="..desc }
 	end
-	
+
 	return rettab
 end
 
 local function EJScan(container)
 	local lootTable, lootTableString
-  
+
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
 	--desc:SetFullWidth(true)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		lootTableString = startEJScan()
 		lootTableString = returnItemTableString(lootTableString)
 		multiEditbox:SetText(lootTableString)
@@ -1586,7 +1590,7 @@ local function EJScan(container)
 	container:AddChild(button)
 
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1596,54 +1600,54 @@ end
 
 -- diff = max 5
 local instanceList = {
---	317, -- Mogu
---	322, -- Pandaria
---	320, -- Terasse
---	330, -- HoF
---	362, -- Throne
---	369, -- OG
---	557, -- Draenor
---	477, -- Highmaul
---	669, -- HellfireCitadel
---	457, -- BlackrockFoundry
+	--	317, -- Mogu
+	--	322, -- Pandaria
+	--	320, -- Terasse
+	--	330, -- HoF
+	--	362, -- Throne
+	--	369, -- OG
+	--	557, -- Draenor
+	--	477, -- Highmaul
+	--	669, -- HellfireCitadel
+	--	457, -- BlackrockFoundry
 	861, -- TrialOfValor
 	786, -- TheNighthold
 	768, -- EmeraldNightmare
 	875, -- Tomb of Sargeras
 	822, -- BrokenIsles
 }
-local difficultys = {7,3,5,4,6,14}
+local difficultys = { 7, 3, 5, 4, 6, 14 }
 local numClasses = GetNumClasses()
 local function startBonusRollScan()
 	local tab = {}
 	local retString = ""
-	if not IsAddOnLoaded("Blizzard_EncounterJournal") then
-		LoadAddOn("Blizzard_EncounterJournal")
+	if not C_AddOns.IsAddOnLoaded("Blizzard_EncounterJournal") then
+		C_AddOns.LoadAddOn("Blizzard_EncounterJournal")
 	end
 	EncounterJournal_ListInstances()
 	EJ_ClearSearch()
 	EJ_SetDifficulty(1)
 
 	--EncounterJournal_DisplayInstance(
-	for _,iniId in ipairs(instanceList) do
-		for _,diff in ipairs(difficultys) do --for diff=1,6 do  
+	for _, iniId in ipairs(instanceList) do
+		for _, diff in ipairs(difficultys) do --for diff=1,6 do
 			EncounterJournal_ListInstances()
 			EncounterJournal_DisplayInstance(iniId)
 			EJ_SetDifficulty(diff)
-			for classId=1,numClasses do
+			for classId = 1, numClasses do
 				local numSpecs = GetNumSpecializationsForClassID(classId)
-				for specId=1,numSpecs do
+				for specId = 1, numSpecs do
 					local specID, specName = GetSpecializationInfoForClassID(classId, specId)
 					EJ_SetLootFilter(classId, specID)
 					local numLoot = EJ_GetNumLoot()
 					--print(numLoot)
-					for loot=1,numLoot do
+					for loot = 1, numLoot do
 						--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(loot)
 						local info = EJ_GetLootInfoByIndex(loot)
 						if not tab[info.itemID] then tab[info.itemID] = {} end
 						if not tab[info.itemID][classId] then
 							tab[info.itemID][classId] = {}
-							for i=1,numSpecs do
+							for i = 1, numSpecs do
 								tab[info.itemID][classId][i] = false
 							end
 						end
@@ -1653,35 +1657,35 @@ local function startBonusRollScan()
 			end
 		end
 	end
-	
+
 	for itemId, itemTab in pairs(tab) do
 		retString = retString.."AtlasLoot_BonusRoll_Items["..itemId.."]={"
 		for classId, classTab in pairs(itemTab) do
 			retString = retString.."["..classId.."]={"
-			for specId,spec in ipairs(classTab) do
+			for specId, spec in ipairs(classTab) do
 				if specId > 1 then
-					retString=retString..","
+					retString = retString..","
 				end
 				if spec then
-					retString=retString.."true"
+					retString = retString.."true"
 				else
-					retString=retString.."false"
+					retString = retString.."false"
 				end
 			end
 			retString = retString.."},"
 		end
 		retString = retString.."}\n"
 	end
-	
+
 	return retString
 end
 
 local function startClassScan()
 	local ret = "local classTable = {\n"
-	for i = 1,11 do
+	for i = 1, 11 do
 		ret = ret.."["..i.."] = {"
-		for j=1,4 do
-			local id, name, description, icon, background, role = GetSpecializationInfoForClassID(i,j)
+		for j = 1, 4 do
+			local id, name, description, icon, background, role = GetSpecializationInfoForClassID(i, j)
 			if id then
 				ret = ret.."["..id.."] = "..j..","
 			end
@@ -1689,44 +1693,44 @@ local function startClassScan()
 		ret = ret.."},\n"
 	end
 	ret = ret.."}"
-	
+
 	return ret
 end
 
 --EJ_SetLootFilter(classID, specID)
 local function BonusRollScanFrame(container)
 	local lootTable, lootTableString
-  
+
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
 	--desc:SetFullWidth(true)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		lootTableString = startBonusRollScan()
 		multiEditbox:SetText(lootTableString)
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
-	
+
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Class Scan")
-	button2:SetCallback("OnClick", function() 
+	button2:SetCallback("OnClick", function()
 		lootTableString = startClassScan()
 		multiEditbox:SetText(lootTableString)
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button2:SetWidth(200)
 	container:AddChild(button2)
 
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1741,7 +1745,7 @@ local CategoryInfos = {}
 
 local function ProfGetString(tab, strg)
 	strg = strg or ""
-	
+
 	for k, v in pairs(tab) do
 		if type(v) == "table" and not v.name then
 			local categoryInfo = C_TradeSkillUI.GetCategoryInfo(k)
@@ -1755,7 +1759,7 @@ local function ProfGetString(tab, strg)
 			strg = strg.."{ 0, "..(v.item or "nil")..", "..(k or "nil").." }, -- "..(v.name or "nil").."\n"
 		end
 	end
-	
+
 	return strg
 end
 
@@ -1770,39 +1774,39 @@ local function ProfessionScan()
 		recipeID = recipeIDs[i]
 		local recipeInfo = C_TradeSkillUI.GetRecipeInfo(recipeID)
 		--[[
-		[recipeInfo]={ 
-		  productQuality=1, 
-		  sourceType=1, 
-		  hiddenUnlessLearned=false, 
-		  disabled=false, 
-		  craftable=true, 
-		  type="recipe", 
-		  recipeID=161001, 
-		  icon=1045948, 
-		  numAvailable=0, 
-		  numSkillUps=1, 
-		  categoryID=344, 
-		  numIndents=1, 
-		  learned=true, 
-		  difficulty="medium", 
-		  favorite=false, 
-		  name="Saberfish Broth" 
+		[recipeInfo]={
+		  productQuality=1,
+		  sourceType=1,
+		  hiddenUnlessLearned=false,
+		  disabled=false,
+		  craftable=true,
+		  type="recipe",
+		  recipeID=161001,
+		  icon=1045948,
+		  numAvailable=0,
+		  numSkillUps=1,
+		  categoryID=344,
+		  numIndents=1,
+		  learned=true,
+		  difficulty="medium",
+		  favorite=false,
+		  name="Saberfish Broth"
 		}
-		]]--
+		]] --
 		local categoryInfo = C_TradeSkillUI.GetCategoryInfo(recipeInfo.categoryID)
 		--[[
-		[categoryInfo]={ 
-			numIndents=1, 
-			type="subheader", 
-			name="Fish Dishes", 
-			hasProgressBar=false, 
-			enabled=true, 
-			parentCategoryID=342, 
-			categoryID=344 
+		[categoryInfo]={
+			numIndents=1,
+			type="subheader",
+			name="Fish Dishes",
+			hasProgressBar=false,
+			enabled=true,
+			parentCategoryID=342,
+			categoryID=344
 		}
-		]]--
-		local orderSort = {recipeInfo.categoryID}
-		
+		]] --
+		local orderSort = { recipeInfo.categoryID }
+
 		--[[
 		local breaker = 1
 		repeat
@@ -1818,23 +1822,25 @@ local function ProfessionScan()
 			if not categoryInfo then print(categoryInfo, orderSort[#orderSort]) break end
 			orderSort[#orderSort+1] = categoryInfo.categoryID
 		until(categoryInfo.type == "header")
-		]]--
+		]] --
 		local breaker = 1
 		repeat
 			breaker = breaker + 1
-			if breaker > 500 then print"KILL" return end
-			if not categoryInfo.parentCategoryID then break end 
+			if breaker > 500 then
+				print "KILL"
+				return
+			end
+			if not categoryInfo.parentCategoryID then break end
 			local categoryInfoLoc = C_TradeSkillUI.GetCategoryInfo(categoryInfo.parentCategoryID)
 			if not categoryInfoLoc then break end
 			--print(categoryInfoLoc.categoryID, categoryInfoLoc.name)
-			
+
 			categoryInfo = categoryInfoLoc
-			orderSort[#orderSort+1] = categoryInfo.categoryID
-			
-		until(categoryInfo.type == "header")
-		
-		
-		
+			orderSort[#orderSort + 1] = categoryInfo.categoryID
+		until (categoryInfo.type == "header")
+
+
+
 		for i = #orderSort, 1, -1 do
 			workingTab[orderSort[i]] = workingTab[orderSort[i]] or {}
 			workingTab = workingTab[orderSort[i]]
@@ -1846,34 +1852,33 @@ local function ProfessionScan()
 			name = recipeInfo.name
 		}
 	end
-	
+
 	-- retString
 	ret = ProfGetString(retTable, ret)
-	
+
 	return ret
 end
 
 local function ProfessionScanFrame(container)
-  
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
 	--desc:SetFullWidth(true)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		lootTableString = ProfessionScan()
 		multiEditbox:SetText(lootTableString)
 		multiEditbox.editBox:HighlightText(0)
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
 
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
@@ -1886,48 +1891,48 @@ end
 -- ######################################################
 local function WowHeadTSMStringCreate(text)
 	local ret = ""
-	
+
 	for itemID in string.gmatch(text, "i:(%d+)") do
 		itemID = tonumber(itemID)
 		local itemName = GetItemInfo(itemID) or "nil"
 		ret = ret.."{ 0, "..itemID.." }, --"..itemName.."\n"
 	end
-	
+
 	return ret or ""
 end
 
 local function WowHeadTSMStringFrame(container)
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
-    
+
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("TSMGroupString:")
 	editbox:SetWidth(200)
-	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text)
 		multiEditbox:SetText(WowHeadTSMStringCreate(text))
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	container:AddChild(editbox)
 
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
 	--desc:SetFullWidth(true)
-	
+
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
-	button:SetCallback("OnClick", function() 
+	button:SetCallback("OnClick", function()
 		multiEditbox:SetText(WowHeadTSMStringCreate(editbox:GetText() or ""))
-		multiEditbox.editBox:SetFocus() 
+		multiEditbox.editBox:SetFocus()
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
 
 	container:AddChild(desc)
-	
+
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
 	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
-	container:AddChild(multiEditbox)	
+	container:AddChild(multiEditbox)
 end
 
 string.gmatch("i:162323,i:163043,i:163048", "i:(%d+)")
@@ -1936,10 +1941,10 @@ string.gmatch("i:162323,i:163043,i:163048", "i:(%d+)")
 
 -- Callback function for OnGroupSelected
 local function SelectGroup(container, event, group)
-   container:ReleaseChildren()
-   if group == "tab1" then
+	container:ReleaseChildren()
+	if group == "tab1" then
 		VendorFrame(container)
-   elseif group == "tab2" then
+	elseif group == "tab2" then
 		TextParsingFrame(container)
 	elseif group == "tab3" then
 		InstanceInfoFrame(container)
@@ -1966,10 +1971,10 @@ function Dev:DevTool_CreateFrame()
 	frame:SetLayout("Fill")
 
 	-- Create the TabGroup
-	local tab =  AceGUI:Create("TabGroup")
+	local tab = AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}, {text="Achievement Scan", value="tab5"}, {text="BonusRoll Scan", value="tab6"}, {text="TradeSkill Scan", value="tab7"}, {text="TSM Format", value="tab8"}})
+	tab:SetTabs({ { text = "Vendor Scan", value = "tab1" }, { text = "TextParsing Scan", value = "tab2" }, { text = "InstanceInfo Scan", value = "tab3" }, { text = "EJ Scan", value = "tab4" }, { text = "Achievement Scan", value = "tab5" }, { text = "BonusRoll Scan", value = "tab6" }, { text = "TradeSkill Scan", value = "tab7" }, { text = "TSM Format", value = "tab8" } })
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)
@@ -1977,22 +1982,20 @@ function Dev:DevTool_CreateFrame()
 
 	-- add to the frame container
 	frame:AddChild(tab)
-
 end
 
 function Dev:GetAreaIds()
-	AtlasLoot.db.AreaIDs = AtlasLoot.db.AreaIDs or {}	
-	for i = 1,10000 do
+	AtlasLoot.db.AreaIDs = AtlasLoot.db.AreaIDs or {}
+	for i = 1, 10000 do
 		if C_Map.GetAreaInfo(i) then
 			AtlasLoot.db.AreaIDs[i] = C_Map.GetAreaInfo(i)
 		end
 	end
 end
 
-
 function Dev:GetUIMapIDs()
-	AtlasLoot.db.uiMapIDs = AtlasLoot.db.uiMapIDs or {}	
-	for i = 1,10000 do
+	AtlasLoot.db.uiMapIDs = AtlasLoot.db.uiMapIDs or {}
+	for i = 1, 10000 do
 		if C_Map.GetMapInfo(i) then
 			AtlasLoot.db.uiMapIDs[i] = C_Map.GetMapInfo(i)
 		end
@@ -2000,12 +2003,12 @@ function Dev:GetUIMapIDs()
 end
 
 function Dev:GetPetInfo()
-	AtlasLoot.db.PETINFO = AtlasLoot.db.PETINFO or {}	
+	AtlasLoot.db.PETINFO = AtlasLoot.db.PETINFO or {}
 
 	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
 	local numPets = C_PetJournal.GetNumPets()
-	
-	for i=1,numPets do
+
+	for i = 1, numPets do
 		petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName = C_PetJournal.GetPetInfoByIndex(i)
 		if speciesName and speciesID then
 			AtlasLoot.db.PETINFO[speciesName] = speciesID
@@ -2018,29 +2021,28 @@ function Dev:GetMountInfo()
 	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
 	local numMounts = C_MountJournal.GetNumMounts()
 
-	for i=1,numMounts do
-	--print(C_MountJournal.GetMountInfoByID(i))
+	for i = 1, numMounts do
+		--print(C_MountJournal.GetMountInfoByID(i))
 		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
 		if creatureName and mountID then
 			AtlasLoot.db.MOUNTINFO[creatureName] = {}
-			AtlasLoot.db.MOUNTINFO[creatureName]["mountID"]=mountID
-			AtlasLoot.db.MOUNTINFO[creatureName]["spellID"]=spellID
+			AtlasLoot.db.MOUNTINFO[creatureName]["mountID"] = mountID
+			AtlasLoot.db.MOUNTINFO[creatureName]["spellID"] = spellID
 		end
 	end
 end
 
-
 function Dev:GetEJDetails(bool)
 	local iniIndex = 1
 	local iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
-	self.db.profile.EJINFO = self.db.profile.EJINFO or {}	
+	self.db.profile.EJINFO = self.db.profile.EJINFO or {}
 	local bossIndex, bossName, bossID
 	while iniID do
 		EJ_SelectInstance(iniID)
 		bossIndex = 1
 		bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
 		--print(iniName, " = ", iniID)#
-		self.db.profile.EJINFO[iniID] = {[iniName] = true}
+		self.db.profile.EJINFO[iniID] = { [iniName] = true }
 		while bossName and bossIndex < 50 do
 			--print("	", bossName, " = ", bossID)
 			self.db.profile.EJINFO[iniID][bossID] = bossName
@@ -2048,7 +2050,7 @@ function Dev:GetEJDetails(bool)
 			bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
 		end
 		iniIndex = iniIndex + 1
-        iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
+		iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
 	end
 	if bool == false or bool == nil then
 		AtlasLoot:GetEJDetails(true)
@@ -2081,27 +2083,26 @@ function Dev:ReduceMemoryUsage()
 			end
 		end
 	end
-	
-	if not atlasSupportRemoved and not IsAddOnLoaded("Atlas") then
-		for k,v in pairs(AtlasLoot_LootTableRegister["Instances"]) do
+
+	if not atlasSupportRemoved and not C_AddOns.IsAddOnLoaded("Atlas") then
+		for k, v in pairs(AtlasLoot_LootTableRegister["Instances"]) do
 			if type(v) == "table" and v["Bosses"] then
-				for i,j in ipairs(v["Bosses"]) do
+				for i, j in ipairs(v["Bosses"]) do
 					j[2] = nil
 				end
 			end
 		end
-		
+
 		AtlasLoot.SetupForAtlas = nil
 		AtlasLoot.AtlasInitialize = nil
-		AtlasLoot.Atlas_OnShow = nil 
-		AtlasLoot.AtlasRefreshHook = nil 
-		AtlasLoot.AtlasScrollBar_Update = nil 
-		AtlasLoot.Atlas_SetBoss = nil 
-		AtlasLoot.Boss_OnClick = nil 
+		AtlasLoot.Atlas_OnShow = nil
+		AtlasLoot.AtlasRefreshHook = nil
+		AtlasLoot.AtlasScrollBar_Update = nil
+		AtlasLoot.Atlas_SetBoss = nil
+		AtlasLoot.Boss_OnClick = nil
 		atlasSupportRemoved = true
 	end
 	collectgarbage("collect")
-
 end
 
 --[[ EVENTLOG
@@ -2137,6 +2138,6 @@ eventFrame:RegisterEvent("SPELL_CONFIRMATION_TIMEOUT")
 eventFrame:RegisterEvent("BONUS_ROLL_STARTED")
 eventFrame:RegisterEvent("BONUS_ROLL_FAILED")
 eventFrame:RegisterEvent("BONUS_ROLL_RESULT")
-]]--
+]] --
 
 --@end-do-not-package@
