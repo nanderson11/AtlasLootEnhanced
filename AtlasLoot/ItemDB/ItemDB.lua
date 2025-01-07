@@ -401,7 +401,7 @@ function ItemDB.ContentProto:GetName()
 	elseif self.EncounterJournalID then
 		return EJ_GetInstanceInfo(self.EncounterJournalID)
 	elseif self.MapID then
-		return GetMapNameByID(self.MapID)
+		return C_Map.GetMapInfo(self.MapID).name
 	elseif self.FactionID then
 		local temp = C_Reputation.GetFactionDataByID(self.FactionID)
 		return temp.name --or "Faction "..self.FactionID

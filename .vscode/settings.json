@@ -101,6 +101,13 @@
         "AtlasFrameLarge",
         "AtlasFrameSmall",
         "Atlas",
-        "ATLAS_DROPDOWNS"
+        "ATLAS_DROPDOWNS",
+        "AtlasLoot",
+        "ChatFrameEditBox",
+        "ATLASLOOT_DEBUGMODE",
+        "AddonCompartmentFrame"
+    ],
+    "Lua.diagnostics.disable": [
+        "need-check-nil"
     ]
 }

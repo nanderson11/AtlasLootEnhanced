@@ -218,7 +218,7 @@ function Button:Create()
 	button.count:SetPoint("BOTTOMRIGHT", button.icon, "BOTTOMRIGHT", 0, 1)
 	button.count:SetJustifyH("RIGHT")
 	button.count:SetHeight(15)
-	button.count:SetText(15)
+	button.count:SetWidth(15)
 	button.count:Hide()
 
 	-- secButton <button>
@@ -274,7 +274,7 @@ function Button:Create()
 	button.secButton.count:SetPoint("BOTTOMRIGHT", button.secButton.icon, "BOTTOMRIGHT", 0, 1)
 	button.secButton.count:SetJustifyH("RIGHT")
 	button.secButton.count:SetHeight(15)
-	button.secButton.count:SetText(15)
+	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
 	-- factionIcon
@@ -342,7 +342,7 @@ function Button:CreateSecOnly(frame)
 	button.secButton.count:SetPoint("BOTTOMRIGHT", button.secButton.icon, "BOTTOMRIGHT", 0, 1)
 	button.secButton.count:SetJustifyH("RIGHT")
 	button.secButton.count:SetHeight(15)
-	button.secButton.count:SetText(15)
+	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
 

@@ -6,7 +6,7 @@ local string = string
 local type, tonumber, pairs = type, tonumber, pairs
 local str_split = string.split
 -- WoW
-local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = C_CurrencyInfo.GetCurrencyInfo, GetItemInfo, GetItemCount, C_Item.GetItemIconByID
+local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = C_CurrencyInfo.GetCurrencyInfo, C_Item.GetItemInfo, C_Item.GetItemCount, C_Item.GetItemIconByID
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -16,7 +16,6 @@ local AL = AtlasLoot.Locales
 
 
 local FIRST_RUN = true
-local ITEMS_NOT_FOUND = true
 
 local STRING_SPLIT_OR = "-"
 local STRING_DELIMITER_OR = "|r; "
@@ -186,8 +185,7 @@ local PRICE_INFO = {
 	["artifactfragment"]  = { currencyID = 944 },
 	["bloodycoin"]        = { currencyID = 789 },
 	["championsseal"]     = { currencyID = 241 },
-	["conquest"]          = { currencyID = 390 }, -- has been removed since 7.0.3
-	["honor"]             = { currencyID = 392 }, -- has been removed since 7.0.3
+	["conquest"]          = { currencyID = 390 }, -- has been removed since 7.0.
 	["darkmoon"]          = { currencyID = 515 },
 	["eldercharm"]        = { currencyID = 697 },
 	["timelesscoin"]      = { currencyID = 777 },

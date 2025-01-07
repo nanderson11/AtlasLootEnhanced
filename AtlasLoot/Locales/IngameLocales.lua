@@ -3,7 +3,6 @@ local _G = getfenv(0)
 local AtlasLoot = _G.AtlasLoot
 
 -- lua
-local GetMapInfo = C_Map.GetMapInfo
 local rawget = rawget
 local _, tmp1
 local months = {
@@ -40,6 +39,10 @@ end
 
 local function GetFactionName(id)
 	return C_Reputation.GetFactionDataByID(id).name
+end
+
+local function GetMapName(id)
+	return C_Map.GetMapInfo(id).name
 end
 
 local function AtlasLoot_GetClassName(class)
@@ -112,50 +115,50 @@ local IngameLocales = {
 	-- Zones
 	-- ######################################################################
 	-- Classic
-	["Ahn'Qiraj"]             = GetMapInfo(319).name,
-	["Blackrock Depths"]      = GetMapInfo(242).name,
-	["Blackwing Lair"]        = GetMapInfo(287).name,
+	["Ahn'Qiraj"]             = GetMapName(319),
+	["Blackrock Depths"]      = GetMapName(242),
+	["Blackwing Lair"]        = GetMapName(287),
 	["Lower Blackrock Spire"] = GetAchievementName(643),
-	["Molten Core"]           = GetMapInfo(232).name,
-	["Orgrimmar"]             = GetMapInfo(85).name,
-	["Ruins of Ahn'Qiraj"]    = GetMapInfo(247).name,
-	["Shadowfang Keep"]       = GetMapInfo(310).name,
-	["Stormwind City"]        = GetMapInfo(84).name,
+	["Molten Core"]           = GetMapName(232),
+	["Orgrimmar"]             = GetMapName(85),
+	["Ruins of Ahn'Qiraj"]    = GetMapName(247),
+	["Shadowfang Keep"]       = GetMapName(310),
+	["Stormwind City"]        = GetMapName(84),
 	["Upper Blackrock Spire"] = GetAchievementName(1307),
 
 	-- Burning Crusade
-	["Black Temple"]          = GetMapInfo(339).name,
-	["Gruul's Lair"]          = GetMapInfo(330).name,
-	["Hyjal Summit"]          = GetMapInfo(329).name,
-	["Karazhan"]              = GetMapInfo(350).name,
-	["Magtheridon's Lair"]    = GetMapInfo(331).name,
-	["Outland"]               = GetMapInfo(101).name,
-	["Serpentshrine Cavern"]  = GetMapInfo(332).name,
-	["Shattrath City"]        = GetMapInfo(111).name,
-	["Sunwell Plateau"]       = GetMapInfo(335).name,
-	["Tempest Keep"]          = GetMapInfo(334).name,
-	["The Slave Pens"]        = GetMapInfo(265).name,
+	["Black Temple"]          = GetMapName(339),
+	["Gruul's Lair"]          = GetMapName(330),
+	["Hyjal Summit"]          = GetMapName(329),
+	["Karazhan"]              = GetMapName(350),
+	["Magtheridon's Lair"]    = GetMapName(331),
+	["Outland"]               = GetMapName(101),
+	["Serpentshrine Cavern"]  = GetMapName(332),
+	["Shattrath City"]        = GetMapName(111),
+	["Sunwell Plateau"]       = GetMapName(335),
+	["Tempest Keep"]          = GetMapName(334),
+	["The Slave Pens"]        = GetMapName(265),
 
 	-- Wrath of the Lich King
-	["Dalaran"]               = GetMapInfo(125).name,
-	["Icecrown"]              = GetMapInfo(118).name,
-	["Icecrown Citadel"]      = GetMapInfo(186).name,
-	["Naxxramas"]             = GetMapInfo(162).name,
-	["Northrend"]             = GetMapInfo(113).name,
-	["Onyxia's Lair"]         = GetMapInfo(248).name,
-	["The Eye of Eternity"]   = GetMapInfo(141).name,
-	["The Obsidian Sanctum"]  = GetMapInfo(155).name,
-	["The Ruby Sanctum"]      = GetMapInfo(200).name,
-	["Trial of the Crusader"] = GetMapInfo(172).name,
-	["Ulduar"]                = GetMapInfo(147).name,
-	["Vault of Archavon"]     = GetMapInfo(156).name,
+	["Dalaran"]               = GetMapName(125),
+	["Icecrown"]              = GetMapName(118),
+	["Icecrown Citadel"]      = GetMapName(186),
+	["Naxxramas"]             = GetMapName(162),
+	["Northrend"]             = GetMapName(113),
+	["Onyxia's Lair"]         = GetMapName(248),
+	["The Eye of Eternity"]   = GetMapName(141),
+	["The Obsidian Sanctum"]  = GetMapName(155),
+	["The Ruby Sanctum"]      = GetMapName(200),
+	["Trial of the Crusader"] = GetMapName(172),
+	["Ulduar"]                = GetMapName(147),
+	["Vault of Archavon"]     = GetMapName(156),
 
 	-- Cataclysm
-	["Molten Front"]          = GetMapInfo(338).name,
+	["Molten Front"]          = GetMapName(338),
 
 	-- Mists of Pandaria
-	["Scarlet Monastery"]     = GetMapInfo(435).name,
-	["Timeless Isle"]         = GetMapInfo(554).name,
+	["Scarlet Monastery"]     = GetMapName(435),
+	["Timeless Isle"]         = GetMapName(554),
 
 	-- ######################################################################
 	-- Garrison Buildings

@@ -1088,7 +1088,7 @@ end
 
 -- ######################################################
 local function returnItemTableString(tab)
-	lootTableString = ""
+	local lootTableString = ""
 	if not tab then return "" end
 	for site, siteTab in ipairs(tab) do
 		if site == 1 then
@@ -1190,7 +1190,7 @@ end
 -- @usage local itemEquipInfo = GetItemEquipInfo(12345)
 local function GetItemEquipInfo(itemID)
 	if not itemID or itemID == "" or type(itemID) ~= "number" then return "" end
-	local _, _, _, _, _, itemType, itemSubType, _, itemEquipLoc = GetItemInfo(itemID)
+	local _, _, _, _, _, itemType, itemSubType, _, itemEquipLoc = C_Item.GetItemInfo(itemID)
 	if not itemType or not itemEquipLoc then return "" end
 	local tempText = ""
 	if _G[itemEquipLoc] then
@@ -1238,7 +1238,7 @@ local function startVendorScan(tab)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
 				itemID = itemID or 0
 				itemID = tonumber(itemID)
-				local _, _, quality = GetItemInfo(itemID)
+				local _, _, quality = C_Item.GetItemInfo(itemID)
 				if quality then quality = qualityTab[quality] end
 				local desc = FixTextBack(GetItemEquipInfo(itemID))
 				if (price > 0) then
@@ -1560,7 +1560,7 @@ function startEJScan()
 		--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
 		local info = EJ_GetLootInfoByIndex(i)
 
-		local _, _, quality = GetItemInfo(info.itemID)
+		local _, _, quality = C_Item.GetItemInfo(info.itemID)
 		quality = qualityTab[quality]
 
 		local desc = FixTextBack(GetItemEquipInfo(info.itemID))
@@ -1869,7 +1869,7 @@ local function ProfessionScanFrame(container)
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
-		lootTableString = ProfessionScan()
+		local lootTableString = ProfessionScan()
 		multiEditbox:SetText(lootTableString)
 		multiEditbox.editBox:HighlightText(0)
 		multiEditbox.editBox:SetFocus()
@@ -1894,7 +1894,7 @@ local function WowHeadTSMStringCreate(text)
 
 	for itemID in string.gmatch(text, "i:(%d+)") do
 		itemID = tonumber(itemID)
-		local itemName = GetItemInfo(itemID) or "nil"
+		local itemName = C_Item.GetItemInfo(itemID) or "nil"
 		ret = ret.."{ 0, "..itemID.." }, --"..itemName.."\n"
 	end
 
