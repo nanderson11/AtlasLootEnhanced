@@ -4,12 +4,17 @@ local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 
 --lua
-local GetSpellInfo, GetSpellTexture = GetSpellInfo, C_Spell.GetSpellTexture
+local GetSpellTexture = C_Spell.GetSpellTexture
 local GetTradeskillLink = AtlasLoot.TooltipScan.GetTradeskillLink
 
 local ProfClickHandler = nil
 
 local PROF_COLOR = "|cffffff00"
+
+local function GetSpellInfo(spellID)
+	local temp = C_Spell.GetSpellInfo(spellID)
+	return temp.name, nil, temp.iconID
+end
 
 local TRADESKILLS = {
 	[GetSpellInfo(2259)]  = GetSpellTexture(2259), -- Alchemy
