@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="esES", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "Si se inicia una tirada de dados, se muestra una ventana con el posible botín."
 AL["Always show item comparison."] = "Mostrar siempre la comparativa de objetos."
 AL["Always show quick preview."] = "Mostrar siempre la previsualización rápida."
@@ -12,6 +9,7 @@ AL["AtlasLoot Options"] = "Opciones del AtlasLoot"
 AL["Auto select current instance's loot tables."] = "Seleccionar automáticamente las tablas de botín para la instancia actual."
 AL["Background"] = "Fondo"
 AL["Background color/alpha"] = "Color/transparencia del fondo"
+AL["Change will take effect in next login."] = "El cambio surtirá efecto en el siguiente inicio de sesión"
 AL["Content"] = "Contenido"
 AL["Content bottom bar"] = "Barra inferior de contenido"
 AL["Content top bar"] = "Barra superior de contenido"
@@ -35,6 +33,7 @@ AL["Set View"] = "Establecer visualización"
 AL["Show AtlasLoot button on WorldMap."] = "Mostrar botón de AtlasLoot en el mapa del mundo."
 AL["Show AtlasLoot button on WorldMap's title bar."] = "Mostrar el botón de AtlasLoot en la barra de títulos del mapa del mundo"
 AL["Show background image if available."] = "Mostrar imagen de fondo si es posible."
+AL["Show expansion icons in module dropdown."] = "Mostrar iconos expandidos en el menú desplegable del módulo"
 AL["Show minimap button."] = "Mostrar botón del minimapa."
 AL["Subtitle"] = "Subtítulo"
 AL["Title"] = "Título"
@@ -42,4 +41,3 @@ AL["Use content color if available."] = "Usar color de contenido si está dispon
 AL["Use GameTooltip"] = "Usar descripción emergente"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Usar la descripción emergente del juego en vez de la descripción emergente de AtlasLoot"
 AL["Windows"] = "Ventanas"
---@end-do-not-package@

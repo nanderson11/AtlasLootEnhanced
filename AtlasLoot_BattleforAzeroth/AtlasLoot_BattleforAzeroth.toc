@@ -1,47 +1,32 @@
-﻿## Interface: 100002
-## Author: Lag, Arith	
-## Version: @project-version@
-## Dependencies: AtlasLoot
-## LoadOnDemand: 1
+﻿## Interface: 110007
 
-#@non-debug@
-## Title: @localization(locale="enUS", key="Title-BfA", namespace="ToC")@
-## Title-deDE: @localization(locale="deDE", key="Title-BfA", namespace="ToC")@
-## Title-esES: @localization(locale="esES", key="Title-BfA", namespace="ToC")@
-## Title-esMX: @localization(locale="esMX", key="Title-BfA", namespace="ToC")@
-## Title-frFR: @localization(locale="frFR", key="Title-BfA", namespace="ToC")@
-## Title-itIT: @localization(locale="itIT", key="Title-BfA", namespace="ToC")@
-## Title-koKR: @localization(locale="koKR", key="Title-BfA", namespace="ToC")@
-## Title-ptBR: @localization(locale="ptBR", key="Title-BfA", namespace="ToC")@
-## Title-ruRU: @localization(locale="ruRU", key="Title-BfA", namespace="ToC")@
-## Title-zhCN: @localization(locale="zhCN", key="Title-BfA", namespace="ToC")@
-## Title-zhTW: @localization(locale="zhTW", key="Title-BfA", namespace="ToC")@
-## Notes: @localization(locale="enUS", key="Notes-BfA", namespace="ToC")@
-## Notes-deDE: @localization(locale="deDE", key="Notes-BfA", namespace="ToC")@
-## Notes-esES: @localization(locale="esES", key="Notes-BfA", namespace="ToC")@
-## Notes-esMX: @localization(locale="esMX", key="Notes-BfA", namespace="ToC")@
-## Notes-frFR: @localization(locale="frFR", key="Notes-BfA", namespace="ToC")@
-## Notes-itIT: @localization(locale="itIT", key="Notes-BfA", namespace="ToC")@
-## Notes-koKR: @localization(locale="koKR", key="Notes-BfA", namespace="ToC")@
-## Notes-ptBR: @localization(locale="ptBR", key="Notes-BfA", namespace="ToC")@
-## Notes-ruRU: @localization(locale="ruRU", key="Notes-BfA", namespace="ToC")@
-## Notes-zhCN: @localization(locale="zhCN", key="Notes-BfA", namespace="ToC")@
-## Notes-zhTW: @localization(locale="zhTW", key="Notes-BfA", namespace="ToC")@
-#@end-non-debug@
-#@debug@
 ## Title: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
+## Title-deDE: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
+## Title-esES: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
+## Title-frFR: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
+## Title-koKR: AtlasLoot |cFF0099FF[격전의 아제로스]|r
+## Title-ruRU: AtlasLoot |cFF0099FF[Битва за Азерот]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[争霸艾泽拉斯]|r
 ## Title-zhTW: AtlasLoot |cFF0099FF[決戰艾澤拉斯]|r
 
 ## Notes: AtlasLoot loot tables from Battle for Azeroth
+## Notes-deDE: AtlasLoot Beuteverzeichnisse für Battle for Azeroth
+## Notes-esES: Tablas de botín de AtlasLoot de Battle for Azeroth
+## Notes-esMX: AtlasLoot tablas de botín de Battle for Azeroth
+## Notes-frFR: Tables de butin de \"Battle pour Azeroth\"
+## Notes-koKR: AtlasLoot 격전의 아제로스 전리품 목록
+## Notes-ruRU: Таблицы добычи AtlasLoot из Битвы за Азерот
 ## Notes-zhCN: AtlasLoot 《争霸艾泽拉斯》物品信息
 ## Notes-zhTW: AtlasLoot 決戰艾澤拉斯資料片物品掉落資料庫
-#@end-debug@
 
+## Author: nanderson11, Lag, Arith
+## Version: @project-version@
+## IconTexture: Interface\Icons\INV_Box_01
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
 ## X-Category: Map
 ## X-License: GPL v2
-## X-Website: http://www.atlasloot.net
-
+## X-Website: https://github.com/nanderson11/AtlasLootEnhanced
 ## X-AtlasLoot-LootModule: 1
 
 data.lua

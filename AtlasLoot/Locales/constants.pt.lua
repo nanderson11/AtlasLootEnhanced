@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="ptBR", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
---@do-not-package@
 AL["--- or ---"] = "--- ou ---"
 AL["%s will finish loading after combat."] = "%s irá terminar de carregar após o combate."
 AL["/al - Open the AtlasLoot window."] = "/al - Abra a janela do AtlasLoot."
@@ -187,4 +184,3 @@ AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences.
 AL["World Bosses"] = "Chefes do Mundo"
 AL["World Events"] = "Eventos Mundiais"
 AL["Yellow Gems"] = "Gemas amarelas"
---@end-do-not-package@

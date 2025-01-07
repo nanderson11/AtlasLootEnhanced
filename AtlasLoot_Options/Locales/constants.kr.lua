@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="koKR", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "추가 전리품 획득 창과 함께 획득 가능한 전리품 창이 표시됩니다."
 AL["Always show item comparison."] = "아이템 비교 창을 항상 표시합니다."
 AL["Always show quick preview."] = "빠른 미리보기를 항상 표시합니다."
@@ -12,6 +9,7 @@ AL["AtlasLoot Options"] = "AtlasLoot 옵션"
 AL["Auto select current instance's loot tables."] = "현재 인스턴스의 전리품 목록을 자동으로 선택합니다."
 AL["Background"] = "배경"
 AL["Background color/alpha"] = "배경 색상/투명도"
+AL["Change will take effect in next login."] = "변경 사항은 다음에 접속할 때 적용됩니다."
 AL["Content"] = "목록"
 AL["Content bottom bar"] = "목록 하단 바"
 AL["Content top bar"] = "목록 상단 바"
@@ -35,11 +33,11 @@ AL["Set View"] = "세트 보기"
 AL["Show AtlasLoot button on WorldMap."] = "세계 지도에 AtlasLoot 버튼을 표시합니다."
 AL["Show AtlasLoot button on WorldMap's title bar."] = "세계 지도의 제목 바에 AtlasLoot 버튼을 표시합니다."
 AL["Show background image if available."] = "가능하다면 배경 이미지를 표시합니다."
+AL["Show expansion icons in module dropdown."] = "모듈 드롭다운 메뉴에 확장팩 아이콘을 표시합니다."
 AL["Show minimap button."] = "미니맵 버튼을 표시합니다."
 AL["Subtitle"] = "부제목"
 AL["Title"] = "제목"
-AL["Use content color if available."] = "가능 하다면 목록 색상을 사용합니다."
+AL["Use content color if available."] = "가능한 경우 목록 색상을 사용합니다."
 AL["Use GameTooltip"] = "GameTooltip 사용"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "AtlasLoot 툴팁 대신 표준 GameTooltip을 사용합니다"
 AL["Windows"] = "창"
---@end-do-not-package@

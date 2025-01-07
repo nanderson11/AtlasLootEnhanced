@@ -2,9 +2,6 @@ local AL = _G.AtlasLoot.GetLocales("deDE")
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="deDE", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "Zeigt ein Fenster mit möglicher Bonusbeute an, sobald die Möglichkeit eines Bonuswurfs besteht."
 AL["Always show item comparison."] = "Gegenstandsvergleich immer zeigen."
 AL["Always show quick preview."] = "Zeige immer die Schnell Vorschau an."
@@ -12,6 +9,7 @@ AL["AtlasLoot Options"] = "AtlasLoot Einstellungen"
 AL["Auto select current instance's loot tables."] = "Beute der momentanen Instanz automatisch auswählen."
 AL["Background"] = "Hintergrund"
 AL["Background color/alpha"] = "Hintergrundfarbe und -transparenz"
+AL["Change will take effect in next login."] = "Die Änderungen werden beim nächsten Login übernommen."
 AL["Content"] = "Inhalt"
 AL["Content bottom bar"] = "Untere Inhaltsleiste"
 AL["Content top bar"] = "Obere Inhaltsleiste"
@@ -35,6 +33,7 @@ AL["Set View"] = "Setansicht"
 AL["Show AtlasLoot button on WorldMap."] = "AtlasLoot-Button auf der Weltkarte anzeigen."
 AL["Show AtlasLoot button on WorldMap's title bar."] = "AtlasLoot-Button in der Titelleiste anzeigen."
 AL["Show background image if available."] = "Ein Hintergrundbild zeigen, falls verfügbar."
+AL["Show expansion icons in module dropdown."] = "Zeige Erweiterungssymbole im Modul-Dropdownmenü."
 AL["Show minimap button."] = "Minikartenbutton zeigen"
 AL["Subtitle"] = "Untertitel"
 AL["Title"] = "Titel"
@@ -42,4 +41,3 @@ AL["Use content color if available."] = "Inhaltsfarbe verwenden, falls verfügba
 AL["Use GameTooltip"] = "Standardmäßigen Tooltip verwenden"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Verwendet den standardmäßigen Tooltip (GameTooltip) anstatt den AtlasLoot-Tooltip"
 AL["Windows"] = "Fenster"
---@end-do-not-package@

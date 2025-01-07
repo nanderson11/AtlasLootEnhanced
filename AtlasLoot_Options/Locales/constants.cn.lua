@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="zhCN", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "当额外奖励掷骰开始时，显示一个掉落列表窗口。"
 AL["Always show item comparison."] = "总是显示物品对比。"
 AL["Always show quick preview."] = "总是显示快速预览。"
@@ -12,6 +9,7 @@ AL["AtlasLoot Options"] = "AtlasLoot 选项"
 AL["Auto select current instance's loot tables."] = "自动选择当前副本拾取列表。"
 AL["Background"] = "背景"
 AL["Background color/alpha"] = "背景颜色/透明度"
+AL["Change will take effect in next login."] = "更改将在下次登录后生效。"
 AL["Content"] = "内容"
 AL["Content bottom bar"] = "内容底部条"
 AL["Content top bar"] = "内容顶部条"
@@ -35,6 +33,7 @@ AL["Set View"] = "设置查看"
 AL["Show AtlasLoot button on WorldMap."] = "在世界地图上显示 AtlasLoot 按钮。"
 AL["Show AtlasLoot button on WorldMap's title bar."] = "在世界地图标题栏显示 AtlasLoot 按钮。"
 AL["Show background image if available."] = "可用时显示背景图片。"
+AL["Show expansion icons in module dropdown."] = "在下拉模块显示资料片图标。"
 AL["Show minimap button."] = "显示小地图按钮。"
 AL["Subtitle"] = "副标题"
 AL["Title"] = "标题"
@@ -42,4 +41,3 @@ AL["Use content color if available."] = "可用时使用内容颜色。"
 AL["Use GameTooltip"] = "使用游戏提示信息"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏提示信息而不是自定义的 AltasLoot 提示信息"
 AL["Windows"] = "窗口"
---@end-do-not-package@

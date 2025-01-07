@@ -2,9 +2,6 @@ local AL = _G.AtlasLoot.GetLocales("deDE")
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="deDE", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
---@do-not-package@
 AL["--- or ---"] = "--- oder ---"
 AL["%s will finish loading after combat."] = "%s wird nach dem Kampfende geladen."
 AL["/al - Open the AtlasLoot window."] = "/al - Das AtlasLoot-Fenster öffnen."
@@ -76,6 +73,7 @@ AL["Cogwheels"] = "Zahnräder"
 AL["Collections"] = "Sammlungen"
 AL["Command %s not found. Use '/al slash' for a full list of commands"] = "Befehl %s nicht gefunden. Nutze '/al slash', um eine Liste aller Befehle anzuzeigen"
 AL["Common Rewards"] = "Gemeinsame Belohnungen"
+AL["Contracts"] = "Verträge"
 AL["Copy Box"] = "Kopierbox"
 AL["Crafting"] = "Berufe"
 AL["Crossbow"] = "Armbrust"
@@ -270,7 +268,7 @@ AL["Toys"] = "Spielzeuge"
 AL["Training Projects"] = "Übungsprojekte"
 AL["Transmoggable Replicas"] = "Transmogrifizierbare Nachbildungen"
 AL["Transmutes"] = "Transmutieren"
-AL["Trash Mobs"] = "Trash-Mobs"
+AL["Trash Mobs"] = "Trash Gegner"
 AL["Trinkets"] = "Schmuckstücke"
 AL["Troll"] = "Trolle"
 AL["Two-Hand, Axe"] = "Zweihändig, Axt"
@@ -278,7 +276,7 @@ AL["Two-Hand, Mace"] = "Zweihändig, Streitkolben"
 AL["Two-Hand, Sword"] = "Zweihändig, Schwert"
 AL["Unfinished Painting"] = "Unvollendetes Gemälde"
 AL["Unobtainable Tabards"] = "Nicht mehr erhältliche Wappenröcke"
-AL["Vanity Gear"] = "Spaßausrüstung"
+AL["Vanity Gear"] = "Frisiertischausrüstung"
 AL["Varlan Highbough"] = "Varlan Hochblatt"
 AL["Vendor"] = "Händler"
 AL["Vendors"] = "Händler"
@@ -294,4 +292,3 @@ AL["World Bosses"] = "Weltbosse"
 AL["World Events"] = "Weltereignisse"
 AL["Yellow Gems"] = "Gelbe Edelsteine"
 AL["Zen'Vorka"] = "Zen'Vorka"
---@end-do-not-package@

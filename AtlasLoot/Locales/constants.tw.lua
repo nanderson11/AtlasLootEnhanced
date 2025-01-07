@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="zhTW", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
---@do-not-package@
 AL["--- or ---"] = "--- 或 ---"
 AL["%s will finish loading after combat."] = "%s 將於脫離戰鬥後載入"
 AL["/al - Open the AtlasLoot window."] = "/al - 打開AtlasLoot視窗"
@@ -76,6 +73,7 @@ AL["Cogwheels"] = "榫輪"
 AL["Collections"] = "套裝/特殊物品"
 AL["Command %s not found. Use '/al slash' for a full list of commands"] = "%s 命令未找到。輸入 '/al slash' 查看完整命令"
 AL["Common Rewards"] = "共同獎勵"
+AL["Contracts"] = "契約"
 AL["Copy Box"] = "複製框"
 AL["Crafting"] = "專業技能物品"
 AL["Crossbow"] = "弩"
@@ -294,4 +292,3 @@ AL["World Bosses"] = "世界首領"
 AL["World Events"] = "世界事件"
 AL["Yellow Gems"] = "黃色寶石"
 AL["Zen'Vorka"] = "贊沃卡"
---@end-do-not-package@

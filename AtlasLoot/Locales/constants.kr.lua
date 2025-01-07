@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="koKR", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
---@do-not-package@
 AL["--- or ---"] = "--- 또는 ---"
 AL["%s will finish loading after combat."] = "전투 종료 후 %s|1을;를; 불러옵니다."
 AL["/al - Open the AtlasLoot window."] = "/al - AtlasLoot 창을 엽니다."
@@ -285,6 +282,7 @@ AL["Vrykul"] = "브리쿨"
 AL["Wand"] = "마법봉"
 AL["Wands"] = "할로윈 마법봉"
 AL["Warlords Season %d"] = "드레노어의 전쟁군주 %d 시즌"
+AL["Weapon Enchants"] = "무기 마법부여"
 AL["Weapon Enhancements"] = "무기 강화"
 AL["Weapons"] = "무기"
 AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences."] = "Atlasloot Enhanced에 오신 걸 환영합니다. 먼저 옵션을 설정해 주세요."
@@ -292,4 +290,3 @@ AL["World Bosses"] = "야외 우두머리"
 AL["World Events"] = "이벤트"
 AL["Yellow Gems"] = "노란색 보석"
 AL["Zen'Vorka"] = "젠보르카"
---@end-do-not-package@

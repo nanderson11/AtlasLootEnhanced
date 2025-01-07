@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="esMX", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore", namespace="")@
---@do-not-package@
 AL["--- or ---"] = "--- ó ---"
 AL["%s will finish loading after combat."] = "%s terminará de cargar luego del combate"
 AL["/al - Open the AtlasLoot window."] = "/al - Abre la ventana de AtlasLoot"
@@ -31,7 +28,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot Módulos "
 AL["AtlasLoot Search"] = "AtlasLoot Busqueda"
 AL["AtlasLoot Set View"] = "AtlasLoot Establecer Vista"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader no es usa más. Elimínalo de tu carpeta de AddOns"
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader ya no esta en uso. Elimínalo de tu carpeta de AddOns"
 AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Clic: |cffFFFFFFAbrir AtlasLoot
 |cffFF0000Mayús+Clic: |cffFFFFFFAbrir Opciones AtlasLoot ]=]
 AL["Attack/Spell Power"] = "Poder de ataque/con hechizos"
@@ -189,8 +186,10 @@ AL["Replica available at Darkmoon Faire"] = "Replica disponible en La feria de l
 AL["Required module %s is currently disabled."] = "Módulo requerido: %s está deshabilitado actualmente"
 AL["Required module %s is not installed."] = "Módulo requerido: %s no está instalado"
 AL["Rewards"] = "Recompensas"
+AL["Right-click to close Atlas window."] = "Click-derecho para cerrar la ventana de Atlas."
 AL["Ring"] = "Anillo"
 AL["Rings"] = "Anillos"
+AL["Runes"] = "Runas"
 AL["Scopes"] = "Miras"
 AL["Scrolls"] = "Pergaminos"
 AL["Season %d"] = "Temporada %d"
@@ -264,4 +263,3 @@ AL["World Bosses"] = "Jefes del Mundo"
 AL["World Events"] = "Eventos mundo"
 AL["Yellow Gems"] = "Gemas Amarillas"
 AL["Zen'Vorka"] = "Zen'Vorka"
---@end-do-not-package@

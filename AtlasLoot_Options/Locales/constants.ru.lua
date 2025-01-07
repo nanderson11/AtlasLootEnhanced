@@ -2,9 +2,6 @@
 
 if not AL then return end
 
--- These localization strings are translated on WoWAce: https://www.wowace.com/projects/atlasloot-enhanced/localization
---@localization(locale="ruRU", namespace="Options", format="lua_additive_table", table-name="AL", handle-unlocalized="ignore")@
---@do-not-package@
 AL["A window with possible loot is shown if a Bonus Roll is started."] = "При появление бонусного броска отображается окно с возможной добычей."
 AL["Always show item comparison."] = "Всегда показывать сравнение предмета."
 AL["Always show quick preview."] = "Всегда показывать быстрый просмотр."
@@ -12,6 +9,7 @@ AL["AtlasLoot Options"] = "Настройки AtlasLoot"
 AL["Auto select current instance's loot tables."] = "Автоматический выбор таблицы добычи для подземелья."
 AL["Background"] = "Фон"
 AL["Background color/alpha"] = "Цвет фона/альфы"
+AL["Change will take effect in next login."] = "Изменения вступят в силу при следующем запуске."
 AL["Content"] = "Cодержимое"
 AL["Content bottom bar"] = "Cодержимое нижний панели"
 AL["Content top bar"] = "Cодержимое верхний панели"
@@ -35,6 +33,7 @@ AL["Set View"] = "Установить вид"
 AL["Show AtlasLoot button on WorldMap."] = "Показать кнопку AtlasLoot на карте мира."
 AL["Show AtlasLoot button on WorldMap's title bar."] = "Показать кнопку AtlasLoot в строке заголовка мировой карты."
 AL["Show background image if available."] = "Показывать фоновое изображение, если оно доступно."
+AL["Show expansion icons in module dropdown."] = "Показывать значки дополнений в выпадающих списках. "
 AL["Show minimap button."] = "Показать кнопку мини-карты."
 AL["Subtitle"] = "Подзаголовок"
 AL["Title"] = "Заголовок"
@@ -42,4 +41,3 @@ AL["Use content color if available."] = "Использовать цвет ко�
 AL["Use GameTooltip"] = "Использовать игровые подсказки"
 AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Использовать стандартною игровою подсказку, вместо обычной подсказки из AtlasLoot"
 AL["Windows"] = "Окна"
---@end-do-not-package@
