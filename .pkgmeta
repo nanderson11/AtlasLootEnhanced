@@ -1,43 +1,11 @@
 package-as: AtlasLoot
 
 manual-changelog:
-    filename: AtlasLoot/Documentation/Release_Notes.txt
-    markup-type: plain
-    
-license-output: AtlasLoot/Documentation/LICENSE.txt
-
-enable-nolib-creation: no
-
-#externals:
-# Git
-#    AtlasLoot/Libs-release/LibDataBroker-1.1: 
-#        url: https://repos.wowace.com/wow/libdatabroker-1-1
-# SVN
-#    AtlasLoot/Libs-release/CallbackHandler-1.0: 
-#        url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
-# AceGUI is only needed in development mode
-#    AtlasLoot/Libs-release/AceGUI-3.0: 
-#        url: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
-#    AtlasLoot/Libs-release/LibStub: 
-#        url: https://repos.wowace.com/wow/libstub/trunk
-#    AtlasLoot/Libs-release/LibSharedMedia-3.0: 
-#        url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
-#    AtlasLoot/Libs-release/LibDBIcon-1.0: 
-#        url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
-#    AtlasLoot/Libs-release/LibBabble-Boss-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-boss-3-0/trunk
-#    AtlasLoot/Libs-release/LibBabble-Faction-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-faction-3-0/trunk
-#    AtlasLoot/Libs-release/LibBabble-ItemSet-3.0: 
-#        url: https://repos.wowace.com/wow/libbabble-itemset-3-0/trunk
-# HG
-#    AtlasLoot/Libs-release/LibDialog-1.0: 
-#        url: https://repos.wowace.com/wow/libdialog-1-0
+  filename: RECENT_CHANGES.md
+  markup-type: markdown
 
 move-folders:
     AtlasLoot/AtlasLoot: AtlasLoot
-#    AtlasLoot/Libs: AtlasLoot/Libs-dev
-#    AtlasLoot/Libs-release: AtlasLoot/Libs
     AtlasLoot/AtlasLoot_Classic: AtlasLoot_Classic
     AtlasLoot/AtlasLoot_BurningCrusade: AtlasLoot_BurningCrusade
     AtlasLoot/AtlasLoot_WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
@@ -55,7 +23,7 @@ move-folders:
 
 # Ignore takes place before folder's moving takes place
 ignore:
-#    - Libs-dev
+	- RECENT_CHANGES.md
     - Images/PSD
     - DEVTOOLS.lua
 
