@@ -9,6 +9,7 @@
 ### Changed
 
 - Updated libraries
+- Update TOC to 11.0.7
 
 ### Fixed
 
