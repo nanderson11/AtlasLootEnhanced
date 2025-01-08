@@ -4,11 +4,15 @@
 
 ### Added
 
--
+- Added Shadowlands and Dragonflight modules that were previously separate
+
+### Changed
+
+- Updated libraries
 
 ### Fixed
 
--
+- Fixed various deprecations
 
 v8.13.14 (Dec. 26, 2022)
 ========================

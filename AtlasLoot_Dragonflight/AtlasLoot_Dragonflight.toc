@@ -1,0 +1,23 @@
+## Interface: 110007
+
+## Title: AtlasLoot |cFF0099FF[Dragonflight]|r
+## Title-zhTW: AtlasLoot |cFF0099FF[巨龍崛起]|r
+
+## Notes: AtlasLoot loot tables from Dragonflight
+## Notes-zhTW: AtlasLoot 巨龍崛起的物品掉落資料庫
+
+## Author: nanderson11, Arith
+## Version: @project-version@
+## IconTexture: Interface\Icons\INV_Box_01
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: https://github.com/nanderson11/AtlasLootEnhanced
+## X-AtlasLoot-LootModule: 1
+## X-AtlasLoot-ModuleName: Dragonflight
+
+Core\Core.lua
+Core\Instance.lua
+Core\Collections.lua
+Core\PvP.lua

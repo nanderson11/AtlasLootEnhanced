@@ -108,7 +108,11 @@
         "AddonCompartmentFrame",
         "StaticPopup_HasDisplayedFrames",
         "STATICPOPUP_NUMDIALOGS",
-        "StaticPopup_IsLastDisplayedFrame"
+        "StaticPopup_IsLastDisplayedFrame",
+        "EXPANSION_NAME10",
+        "COMPANIONS",
+        "TOY",
+        "EXPANSION_NAME8"
     ],
     "Lua.diagnostics.disable": [
         "need-check-nil"
