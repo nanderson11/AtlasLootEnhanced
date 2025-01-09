@@ -26,6 +26,6 @@ move-folders:
 # Ignore takes place before folder's moving takes place
 ignore:
   - RECENT_CHANGES.md
-  - Images/PSD
-  - DEVTOOLS.lua
+  - AtlasLoot/Images/PSD
+  - AtlasLoot/DEVTOOLS.lua
 

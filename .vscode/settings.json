@@ -112,7 +112,8 @@
         "EXPANSION_NAME10",
         "COMPANIONS",
         "TOY",
-        "EXPANSION_NAME8"
+        "EXPANSION_NAME8",
+        "EXPANSION_NAME9"
     ],
     "Lua.diagnostics.disable": [
         "need-check-nil"

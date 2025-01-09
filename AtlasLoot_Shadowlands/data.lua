@@ -6,9 +6,12 @@ local _G = getfenv(0)
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
-local _, private = ...
+local addonname = ...
 local AtlasLoot = _G.AtlasLoot
-local data = private.data
+local data = AtlasLoot.ItemDB:Add(addonname, 9)
+
+AtlasLoot:RegisterModules(addonname)
+
 local AL = AtlasLoot.Locales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
@@ -109,7 +112,7 @@ data["InstanceName"] = {
 data["De Other Side"] = {
 	EncounterJournalID = 1188,
 	MapID = 1679,
-	--AtlasMapID = "",
+	AtlasMapID = "DeOtherSideA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -223,7 +226,7 @@ data["De Other Side"] = {
 data["Halls of Atonement"] = {
 	EncounterJournalID = 1185,
 	MapID = 1663,
-	--AtlasMapID = "",
+	AtlasMapID = "HallsofAtonement",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -341,7 +344,7 @@ data["Halls of Atonement"] = {
 data["Mists of Tirna Scithe"] = {
 	EncounterJournalID = 1184,
 	MapID = 1669,
-	--AtlasMapID = "",
+	AtlasMapID = "MistsofTirnaScithe",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -444,7 +447,7 @@ data["Mists of Tirna Scithe"] = {
 data["Plaguefall"] = {
 	EncounterJournalID = 1183,
 	MapID = 1674,
-	--AtlasMapID = "",
+	AtlasMapID = "PlaguefallA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -674,7 +677,7 @@ data["Sanguine Depths"] = {
 data["Spires of Ascension"] = {
 	EncounterJournalID = 1186,
 	MapID = 1693,
-	--AtlasMapID = "",
+	AtlasMapID = "SpiresofAscensionA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -790,7 +793,7 @@ data["Spires of Ascension"] = {
 data["Tazavesh, the Veiled Market"] = {
 	EncounterJournalID = 1194,
 	MapID = 1989,
-	--AtlasMapID = "",
+	AtlasMapID = "TazaveshA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -973,7 +976,7 @@ data["Tazavesh, the Veiled Market"] = {
 data["The Necrotic Wake"] = {
 	EncounterJournalID = 1182,
 	MapID = 1666,
-	--AtlasMapID = "",
+	AtlasMapID = "TheNecroticWakeA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -1092,7 +1095,7 @@ data["The Necrotic Wake"] = {
 data["Theater of Pain"] = {
 	EncounterJournalID = 1187,
 	MapID = 1683,
-	--AtlasMapID = "",
+	AtlasMapID = "TheaterofPainA",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -2343,6 +2346,7 @@ data["Sanctum of Domination"] = {
 data["Sepulcher of the First Ones"] = {
 	EncounterJournalID = 1195,
 	MapID = 2047,
+	AtlasMapID = "SepulcheroftheFirstOnesA",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
 	items =

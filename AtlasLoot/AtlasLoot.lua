@@ -101,6 +101,20 @@ ATLASLOOT_INSTANCE_MODULE_LIST = {}
 -- A list of officiel AtlasLoot modules
 ATLASLOOT_MODULE_LIST = {
 	{
+		addonName = "AtlasLoot_Dragonflight",
+		icon = "Interface\\ICONS\\ability_dragonriding_athomealoft01",
+		name = EXPANSION_NAME9,
+		tt_title = nil, -- ToolTip title
+		tt_text = nil, -- ToolTip text
+	},
+	{
+		addonName = "AtlasLoot_Shadowlands",
+		icon = "Interface\\ICONS\\achievement_mythicdungeons_shadowlands",
+		name = EXPANSION_NAME8,
+		tt_title = nil, -- ToolTip title
+		tt_text = nil, -- ToolTip text
+	},
+	{
 		addonName = "AtlasLoot_BattleforAzeroth",
 		icon = "Interface\\ICONS\\Inv_ChampionsOfAzeroth",
 		name = EXPANSION_NAME7,

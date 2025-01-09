@@ -1,10 +1,12 @@
 ﻿# Changelog
 
-## 8.14.0 - January 7, 2024
+## 8.14.0 - January 9, 2024
 
 ### Added
 
 - Added Shadowlands and Dragonflight modules that were previously separate
+- Added the Atlas button to Shadowlands and Dragonflight instance maps provided by Atlas (fork)
+- Added icon textures in addon list
 
 ### Changed
 

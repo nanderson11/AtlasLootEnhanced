@@ -6,9 +6,12 @@ local _G = getfenv(0)
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
-local _, private = ...
+local addonname = ...
 local AtlasLoot = _G.AtlasLoot
-local data = private.data
+local data = AtlasLoot.ItemDB:Add(addonname, 10)
+
+AtlasLoot:RegisterModules(addonname)
+
 local AL = AtlasLoot.Locales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
@@ -110,7 +113,7 @@ data["InstanceName"] = {
 data["Algeth'ar Academy"] = {
 	EncounterJournalID = 1201,
 	MapID = 2097,
-	--AtlasMapID = "",
+	AtlasMapID = "AlgetharAcademy",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -202,7 +205,7 @@ data["Algeth'ar Academy"] = {
 data["Brackenhide Hollow"] = {
 	EncounterJournalID = 1196,
 	MapID = 2096,
-	--AtlasMapID = "",
+	AtlasMapID = "BrackenhideHollow",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -292,7 +295,7 @@ data["Brackenhide Hollow"] = {
 data["Halls of Infusion"] = {
 	EncounterJournalID = 1204,
 	MapID = 2082,
-	--AtlasMapID = "",
+	AtlasMapID = "HallsofInfusion",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -382,7 +385,7 @@ data["Halls of Infusion"] = {
 data["Neltharus"] = {
 	EncounterJournalID = 1199,
 	MapID = 2080,
-	--AtlasMapID = "",
+	AtlasMapID = "Neltharus",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -553,7 +556,7 @@ data["Ruby Life Pools"] = {
 data["The Azure Vault"] = {
 	EncounterJournalID = 1203,
 	MapID = 2073,
-	--AtlasMapID = "",
+	AtlasMapID = "AzureVault",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -645,7 +648,7 @@ data["The Azure Vault"] = {
 data["The Nokhud Offensive"] = {
 	EncounterJournalID = 1198,
 	MapID = 2093,
-	--AtlasMapID = "",
+	AtlasMapID = "NokhudOffensive",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -735,7 +738,7 @@ data["The Nokhud Offensive"] = {
 data["Uldaman: Legacy of Tyr"] = {
 	EncounterJournalID = 1197,
 	MapID = 2071,
-	--AtlasMapID = "",
+	AtlasMapID = "UldamanLegacyofTyr",
 	ContentType = DUNGEON_CONTENT,
 	items =
 	{
@@ -896,6 +899,7 @@ data["Dragon Isles"] = {
 data["Vault of the Incarnates"] = {
 	EncounterJournalID = 1200,
 	MapID = 2119,
+	AtlasMapID = "VaultoftheIncarnates",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
 	items =
