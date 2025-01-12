@@ -1,6 +1,16 @@
 ﻿# Changelog
 
-## 8.14.0 - January 9, 2024
+## 8.15.0 - January 12, 2025
+
+### Added
+
+- Added The War Within instance loot
+
+### Fixed
+
+- Fixed error when right clicking on the spec filter button
+
+## 8.14.0 - January 9, 2025
 
 ### Added
 
