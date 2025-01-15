@@ -430,7 +430,11 @@ function ItemDB.ContentProto:GetNameForItemTable(index)
 		return AtlasLoot.EncounterJournal:GetBossName(self.items[index].EncounterJournalID)
 	elseif self.items[index].FactionID then
 		local temp = C_Reputation.GetFactionDataByID(self.items[index].FactionID)
-		return temp.name --or "Faction "..self.items[index].FactionID
+		if (temp == nil) then
+			return nil
+		else
+			return temp.name --or "Faction "..self.items[index].FactionID
+		end
 	else
 		return UNKNOWN
 	end

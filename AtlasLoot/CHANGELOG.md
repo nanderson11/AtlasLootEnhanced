@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## 8.15.1 - January 15, 2025
+
+### Fixed
+
+- Fixed error when clicking on certain expansions under the Factions module
+
 ## 8.15.0 - January 12, 2025
 
 ### Added
