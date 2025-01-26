@@ -138,72 +138,40 @@ local PRICE_INFO = {
 	["78874"]                = { itemID = 78874 }, -- Shoulders of the Corrupted Vanquisher
 	["78875"]                = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"]                = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
-	-- added after dragonflight
-	--[[ -- using item ID, so we don't really need to add them here
-	["188658"] = { itemID = 188658 }, -- Draconium Ore
-	["190321"] = { itemID = 190321 }, -- Awakened Fire
-	["190324"] = { itemID = 190324 }, -- Awakened Order
-	["190327"] = { itemID = 190327 }, -- Awakened Air
-	["190396"] = { itemID = 190396 }, -- Serevite Ore
-	["192055"] = { itemID = 192055 }, -- Dragon Isles Artifact
-	["192096"] = { itemID = 192096 }, -- Spool of Wilderthread
-	["192838"] = { itemID = 192838 }, -- Queen's Ruby
-	["192863"] = { itemID = 192863 }, -- 192863
-	["193050"] = { itemID = 193050 }, -- Tattered Wildercloth
-	["193053"] = { itemID = 193053 }, -- Contoured Fowlfeathe
-	["193210"] = { itemID = 193210 }, -- Resilient Leather
-	["193214"] = { itemID = 193214 }, -- Adamant Scales
-	["193216"] = { itemID = 193216 }, -- Dense Hide
-	["193217"] = { itemID = 193217 }, -- Dense Hide
-	["193218"] = { itemID = 193218 }, -- Dense Hide
-	["194562"] = { itemID = 194562 }, -- Occasional Sand
-	["198397"] = { itemID = 198397 }, -- Rainbow Pearl
-	["199906"] = { itemID = 199906 }, -- Titan Relic
-	["200093"] = { itemID = 200093 }, -- Centaur Hunting Trophy
-	["200071"] = { itemID = 200071 }, -- Sacred Tuskarr Totem
-	["200863"] = { itemID = 200863 }, -- Glimmering Nozdorite Cluster
-	["200864"] = { itemID = 200864 }, -- Glimmering Alexstraszite Cluster
-	["200865"] = { itemID = 200865 }, -- Glimmering Ysemerald Cluster
-	["200866"] = { itemID = 200866 }, -- Glimmering Malygite Cluster
-	["200867"] = { itemID = 200867 }, -- Glimmering 192863 Cluster
-	["201401"] = { itemID = 201401 }, -- Iridescent Plume
-	["201404"] = { itemID = 201404 }, -- Tallstrider Sinew
-	["201405"] = { itemID = 201405 }, -- Tuft of Primal Wool
-	["202173"] = { itemID = 202173 }, -- Magmote
-	]]
 
 	-- currencies
-	["WrithingEssence"]   = { currencyID = 1501 }, -- Writhing Essence, added in 7.3.0
-	["ArgusWaystone"]     = { currencyID = 1506 }, -- Argus Waystone, added in 7.3.0
-	["VeiledArgunite"]    = { currencyID = 1508 }, -- Veiled Argunite, added in 7.3.0
-	["echoofbattle"]      = { currencyID = 1356 }, -- added in 7.2.0, LegionPVPTier1
-	["echoofdomination"]  = { currencyID = 1357 }, -- added in 7.2.0, LegionPVPTier4
-	["brawlergold"]       = { currencyID = 1299 }, -- Brawler's Gold, Added in patch 7.1.5.23360
-	["nethershard"]       = { currencyID = 1226 },
-	["orderresources"]    = { currencyID = 1220 },
-	["apexis"]            = { currencyID = 823 },
-	["artifactfragment"]  = { currencyID = 944 },
-	["bloodycoin"]        = { currencyID = 789 },
-	["championsseal"]     = { currencyID = 241 },
-	["conquest"]          = { currencyID = 390 }, -- has been removed since 7.0.
-	["darkmoon"]          = { currencyID = 515 },
-	["eldercharm"]        = { currencyID = 697 },
-	["timelesscoin"]      = { currencyID = 777 },
-	["tolbarad"]          = { currencyID = 391 },
-	["worldtree"]         = { currencyID = 416 },
-	["valor"]             = { currencyID = 1191 },
-	["timewarped"]        = { currencyID = 1166 }, -- Timewarped Badge
-	["stygia"]            = { currencyID = 1767 }, -- Stygia, added in 9.0.1
-	["reservoiranima"]    = { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
-	["sinstonefragments"] = { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
-	["gratefuloffering"]  = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
-	["catalogedresearch"] = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
-	["honor"]             = { currencyID = 1792 }, -- Honor
+	["WrithingEssence"]      = { currencyID = 1501 }, -- Writhing Essence, added in 7.3.0
+	["ArgusWaystone"]        = { currencyID = 1506 }, -- Argus Waystone, added in 7.3.0
+	["VeiledArgunite"]       = { currencyID = 1508 }, -- Veiled Argunite, added in 7.3.0
+	["echoofbattle"]         = { currencyID = 1356 }, -- added in 7.2.0, LegionPVPTier1
+	["echoofdomination"]     = { currencyID = 1357 }, -- added in 7.2.0, LegionPVPTier4
+	["brawlergold"]          = { currencyID = 1299 }, -- Brawler's Gold, Added in patch 7.1.5.23360
+	["nethershard"]          = { currencyID = 1226 },
+	["orderresources"]       = { currencyID = 1220 },
+	["apexis"]               = { currencyID = 823 },
+	["artifactfragment"]     = { currencyID = 944 },
+	["bloodycoin"]           = { currencyID = 789 },
+	["championsseal"]        = { currencyID = 241 },
+	["conquest"]             = { currencyID = 390 }, -- has been removed since 7.0.
+	["darkmoon"]             = { currencyID = 515 },
+	["eldercharm"]           = { currencyID = 697 },
+	["timelesscoin"]         = { currencyID = 777 },
+	["tolbarad"]             = { currencyID = 391 },
+	["worldtree"]            = { currencyID = 416 },
+	["valor"]                = { currencyID = 1191 },
+	["timewarped"]           = { currencyID = 1166 }, -- Timewarped Badge
+	["stygia"]               = { currencyID = 1767 }, -- Stygia, added in 9.0.1
+	["reservoiranima"]       = { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
+	["sinstonefragments"]    = { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
+	["gratefuloffering"]     = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
+	["catalogedresearch"]    = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
+	["honor"]                = { currencyID = 1792 }, -- Honor
 	-- others
-	["money"]             = { func = C_CurrencyInfo.GetCoinTextureString },
+	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },
 	-- DragonFlight
-	["dragonSupplies"]    = { currencyID = 2003 }, -- Dragon Isles Supplies
-	["resonanceCrystal"]  = { currencyID = 2815 }, -- Resonance Crystal
+	["dragonSupplies"]       = { currencyID = 2003 }, -- Dragon Isles Supplies
+	-- TWW
+	["resonanceCrystal"]     = { currencyID = 2815 }, -- Resonance Crystal
 }
 
 local Cache = {}
