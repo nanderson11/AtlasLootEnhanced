@@ -29,6 +29,69 @@ local FACTION_CONTENT = data:AddContentType(AL["Factions"], ATLASLOOT_FACTION_CO
 	-- if rep index is in between 11 and 16, means it has friendship reputation
 ]]
 
+data["TWWFACTIONS"] = {
+	name = EXPANSION_NAME10,
+	ContentType = FACTION_CONTENT,
+	items = {
+		{ -- Council of Dornogal
+			FactionID = 2590,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2590rep32" },
+				{ 2,   228419,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Mineral-Sparkled Cape
+				{ 3,   218345,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Cloak
+				{ 5,   "f2590rep35" },
+				{ 6,   223062,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Council of Dornogal
+				{ 7,   223103,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Stormbound Armor Kit
+				{ 8,   223127,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Formula: Enchant Chest - Council's Intellect
+				{ 10,  "f2590rep37" },
+				{ 11,  223289,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Mineral-Sparkled Mantle
+				{ 12,  223292,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Gem-Wadded Shoulderpads
+				{ 13,  223291,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Ore-namental Spaulders
+				{ 14,  223290,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Chiseled Boulder Pauldrons
+				{ 16,  "f2590rep42" },
+				{ 17,  224645,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Alchemy Notes
+				{ 18,  224647,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Blacksmithing Notes
+				{ 19,  224648,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Tailoring Notes
+				{ 20,  224652,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Enchanting Notes
+				{ 22,  "f2590rep43" },
+				{ 23,  222965,      "pet4530",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
+				{ 25,  "f2590rep44" },
+				{ 26,  228706,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Rockslidomancer's Stone
+				{ 28,  "f2590rep45" },
+				{ 29,  218344,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Spaulders
+				{ 101, "f2590rep46" },
+				{ 102, 223300,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Mineral-Sparkled Sandals
+				{ 103, 223303,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Gem-Wadded Footwraps
+				{ 104, 223302,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Ore-namental Sabatons
+				{ 105, 223301,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Chiseled Boulder Crushers
+				{ 107, "f2590rep48" },
+				{ 108, 223571,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Shale Ramolith
+				{ 110, "f2590rep53" },
+				{ 111, 221753,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
+			}
+		},
+		{ -- The Assembly of the Deeps
+			FactionID = 2594,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+			}
+		},
+		{ -- Hallowfall Arathi
+			FactionID = 2570,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+			}
+		},
+		{ -- The Severed Threads
+			FactionID = 2600,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+			}
+		}
+	}
+}
+
 data["DRAGONFLIGHTFACTIONS"] = {
 	name = EXPANSION_NAME9,
 	ContentType = FACTION_CONTENT,

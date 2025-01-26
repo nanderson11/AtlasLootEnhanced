@@ -32,8 +32,7 @@ _G.AtlasLoot.Locale = {}
 _G.AtlasLoot.Init = {}
 
 -- Data table
-_G.AtlasLoot.Data = {} 
+_G.AtlasLoot.Data = {}
 
 -- Image path
 _G.AtlasLoot.IMAGE_PATH = "Interface\\AddOns\\"..addonname.."\\Images\\"
-

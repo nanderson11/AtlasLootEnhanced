@@ -1127,6 +1127,8 @@ local MOUNT_INFO = {
 		[442358] = 221765, -- Stonevault Mechsuit
 		[451486] = 224147, -- Sureki Skyrazor
 		[451491] = 224151, -- Ascendant Skyrazor
+		[447057] = 221753, -- Smoldering Cinderbee
+		[449418] = 223571, -- Shale Ramolith
 	},
 	["items"] = {
 		--[itemID] = spellID

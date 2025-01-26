@@ -203,6 +203,7 @@ local PRICE_INFO = {
 	["money"]             = { func = C_CurrencyInfo.GetCoinTextureString },
 	-- DragonFlight
 	["dragonSupplies"]    = { currencyID = 2003 }, -- Dragon Isles Supplies
+	["resonanceCrystal"]  = { currencyID = 2815 }, -- Resonance Crystal
 }
 
 local Cache = {}
