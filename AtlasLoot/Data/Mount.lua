@@ -1129,6 +1129,8 @@ local MOUNT_INFO = {
 		[451491] = 224151, -- Ascendant Skyrazor
 		[447057] = 221753, -- Smoldering Cinderbee
 		[449418] = 223571, -- Shale Ramolith
+		[449269] = 223505, -- Crimson Mudnose
+		[447176] = 222989, -- Cyan Glowmite
 	},
 	["items"] = {
 		--[itemID] = spellID

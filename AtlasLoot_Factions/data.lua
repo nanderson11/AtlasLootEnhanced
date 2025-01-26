@@ -75,6 +75,38 @@ data["TWWFACTIONS"] = {
 			FactionID = 2594,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
+				{ 1,   "f2594rep32" },
+				{ 2,   228418,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Noncandescent Smithing Choker
+				{ 4,   "f2594rep33" },
+				{ 5,   225995,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Hideseeker's Tote
+				{ 6,   223063,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Assembly of the Deeps
+				{ 8,   "f2594rep34" },
+				{ 9,   224418,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" },                                     -- Recipe: Everything Stew
+				{ 11,  "f2594rep35" },
+				{ 12,  218342,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shawl of the Assembly
+				{ 14,  "f2594rep38" },
+				{ 15,  223294,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Noncandescent Smithing Hood
+				{ 16,  212107,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Inflammable Forging Goggles
+				{ 17,  223293,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Unmelting Ironworker Helmet
+				{ 18,  223295,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Slag-Accruing Mask
+				{ 20,  "f2594rep42" },
+				{ 21,  224651,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Mining Notes
+				{ 22,  224653,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Engineering Notes
+				{ 23,  224654,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Inscription Notes
+				{ 25,  "f2594rep44" },
+				{ 26,  218341,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shoulderguards of the Assembly
+				{ 28,  "f2594rep47" },
+				{ 29,  223623,      "pet4576",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Guacamole
+				{ 101, "f2594rep48" },
+				{ 102, 228698,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Candleflexer's Dumbbell
+				{ 104, "f2594rep49" },
+				{ 105, 223505,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Mudnose
+				{ 106, 223305,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Noncandescent Smithing Cord
+				{ 107, 223306,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Inflammable Forging Cinch
+				{ 108, 223307,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Unmelting Ironworker Clasp
+				{ 109, 223304,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Slag-Accruing Waistguard
+				{ 111, "f2594rep53" },
+				{ 112, 222989,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
 			}
 		},
 		{ -- Hallowfall Arathi
