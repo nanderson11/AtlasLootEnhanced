@@ -1,5 +1,15 @@
 ﻿# Changelog
 
+## 8.16.0 - January 27, 2025
+
+### Added
+
+- Added faction loot for Council of Dornogal, The Assembly of the Deeps, Hallowfall Arathi and The Severed Threads
+
+### Fixed
+
+- Fixed mangled Dragonflight prices
+
 ## 8.15.1 - January 15, 2025
 
 ### Fixed

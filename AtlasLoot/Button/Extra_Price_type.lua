@@ -160,18 +160,18 @@ local PRICE_INFO = {
 	["worldtree"]            = { currencyID = 416 },
 	["valor"]                = { currencyID = 1191 },
 	["timewarped"]           = { currencyID = 1166 }, -- Timewarped Badge
+	["honor"]                = { currencyID = 1792 }, -- Honor
 	["stygia"]               = { currencyID = 1767 }, -- Stygia, added in 9.0.1
 	["reservoiranima"]       = { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
 	["sinstonefragments"]    = { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
 	["gratefuloffering"]     = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
 	["catalogedresearch"]    = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
-	["honor"]                = { currencyID = 1792 }, -- Honor
+	["dragonSupplies"]       = { currencyID = 2003 }, -- Dragon Isles Supplies
+	["resonanceCrystal"]     = { currencyID = 2815 }, -- Resonance Crystal
+	["kej"]                  = { currencyID = 3056 }, -- Kej
+
 	-- others
 	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },
-	-- DragonFlight
-	["dragonSupplies"]       = { currencyID = 2003 }, -- Dragon Isles Supplies
-	-- TWW
-	["resonanceCrystal"]     = { currencyID = 2815 }, -- Resonance Crystal
 }
 
 local Cache = {}

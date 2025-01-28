@@ -1131,6 +1131,10 @@ local MOUNT_INFO = {
 		[449418] = 223571, -- Shale Ramolith
 		[449269] = 223505, -- Crimson Mudnose
 		[447176] = 222989, -- Cyan Glowmite
+		[448978] = 223317, -- Vermillion Imperial Lynx
+		[448939] = 223314, -- Shackled Shadow
+		[447957] = 223274, -- Ferocious Jawcrawler
+		[447185] = 223264, -- Aquamarine Swarmite
 	},
 	["items"] = {
 		--[itemID] = spellID

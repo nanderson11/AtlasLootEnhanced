@@ -38,37 +38,37 @@ data["TWWFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   "f2590rep32" },
-				{ 2,   228419,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Mineral-Sparkled Cape
-				{ 3,   218345,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Cloak
+				{ 2,   "228419:11335",                  [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Mineral-Sparkled Cape
+				{ 3,   218345,                          [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Cloak
 				{ 5,   "f2590rep35" },
-				{ 6,   223062,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Council of Dornogal
-				{ 7,   223103,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Stormbound Armor Kit
-				{ 8,   223127,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Formula: Enchant Chest - Council's Intellect
+				{ 6,   223062,                          [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Council of Dornogal
+				{ 7,   223103,                          [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Stormbound Armor Kit
+				{ 8,   223127,                          [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Formula: Enchant Chest - Council's Intellect
 				{ 10,  "f2590rep37" },
-				{ 11,  223289,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Mineral-Sparkled Mantle
-				{ 12,  223292,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Gem-Wadded Shoulderpads
-				{ 13,  223291,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Ore-namental Spaulders
-				{ 14,  223290,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Chiseled Boulder Pauldrons
+				{ 11,  "223289:10281:10377:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Mineral-Sparkled Mantle
+				{ 12,  "223292:10281:10377:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Gem-Wadded Shoulderpads
+				{ 13,  "223291:10281:10377:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Ore-namental Spaulders
+				{ 14,  "223290:10281:10377:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Chiseled Boulder Pauldrons
 				{ 16,  "f2590rep42" },
-				{ 17,  224645,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Alchemy Notes
-				{ 18,  224647,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Blacksmithing Notes
-				{ 19,  224648,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Tailoring Notes
-				{ 20,  224652,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Enchanting Notes
+				{ 17,  224645,                          [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Alchemy Notes
+				{ 18,  224647,                          [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Blacksmithing Notes
+				{ 19,  224648,                          [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Tailoring Notes
+				{ 20,  224652,                          [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Jewel-Etched Enchanting Notes
 				{ 22,  "f2590rep43" },
-				{ 23,  222965,      "pet4530",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
+				{ 23,  222965,                          "pet4530",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
 				{ 25,  "f2590rep44" },
-				{ 26,  228706,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Rockslidomancer's Stone
+				{ 26,  228706,                          [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Rockslidomancer's Stone
 				{ 28,  "f2590rep45" },
-				{ 29,  218344,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Spaulders
+				{ 29,  218344,                          [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Honorary Councilmember's Spaulders
 				{ 101, "f2590rep46" },
-				{ 102, 223300,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Mineral-Sparkled Sandals
-				{ 103, 223303,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Gem-Wadded Footwraps
-				{ 104, 223302,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Ore-namental Sabatons
-				{ 105, 223301,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Chiseled Boulder Crushers
+				{ 102, "223300:10273:10377:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Mineral-Sparkled Sandals
+				{ 103, "223303:10273:10377:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Gem-Wadded Footwraps
+				{ 104, "223302:10273:10377:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Ore-namental Sabatons
+				{ 105, "223301:10273:10377:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Chiseled Boulder Crushers
 				{ 107, "f2590rep48" },
-				{ 108, 223571,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Shale Ramolith
+				{ 108, 223571,                          "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Shale Ramolith
 				{ 110, "f2590rep53" },
-				{ 111, 221753,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
+				{ 111, 221753,                          "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
 			}
 		},
 		{ -- The Assembly of the Deeps
@@ -76,49 +76,103 @@ data["TWWFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   "f2594rep32" },
-				{ 2,   228418,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Noncandescent Smithing Choker
+				{ 2,   "228418:11334",                        [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Noncandescent Smithing Choker
 				{ 4,   "f2594rep33" },
-				{ 5,   225995,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Hideseeker's Tote
-				{ 6,   223063,      [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Assembly of the Deeps
+				{ 5,   225995,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Hideseeker's Tote
+				{ 6,   223063,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Assembly of the Deeps
 				{ 8,   "f2594rep34" },
-				{ 9,   224418,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" },                                     -- Recipe: Everything Stew
+				{ 9,   224418,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" },                                     -- Recipe: Everything Stew
 				{ 11,  "f2594rep35" },
-				{ 12,  218342,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shawl of the Assembly
+				{ 12,  218342,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shawl of the Assembly
 				{ 14,  "f2594rep38" },
-				{ 15,  223294,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Noncandescent Smithing Hood
-				{ 16,  212107,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Inflammable Forging Goggles
-				{ 17,  223293,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Unmelting Ironworker Helmet
-				{ 18,  223295,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Slag-Accruing Mask
+				{ 15,  "223294:10281:10377:10876:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Noncandescent Smithing Hood
+				{ 16,  "212107:10281:10377:10876:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Inflammable Forging Goggles
+				{ 17,  "223293:10281:10377:10876:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Unmelting Ironworker Helmet
+				{ 18,  "223295:10281:10377:10876:1656:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Slag-Accruing Mask
 				{ 20,  "f2594rep42" },
-				{ 21,  224651,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Mining Notes
-				{ 22,  224653,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Engineering Notes
-				{ 23,  224654,      [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Inscription Notes
+				{ 21,  224651,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Mining Notes
+				{ 22,  224653,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Engineering Notes
+				{ 23,  224654,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Machine-Learned Inscription Notes
 				{ 25,  "f2594rep44" },
-				{ 26,  218341,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shoulderguards of the Assembly
+				{ 26,  218341,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shoulderguards of the Assembly
 				{ 28,  "f2594rep47" },
-				{ 29,  223623,      "pet4576",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Guacamole
+				{ 29,  223623,                                "pet4576",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Guacamole
 				{ 101, "f2594rep48" },
-				{ 102, 228698,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Candleflexer's Dumbbell
+				{ 102, 228698,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Candleflexer's Dumbbell
 				{ 104, "f2594rep49" },
-				{ 105, 223505,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Mudnose
-				{ 106, 223305,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Noncandescent Smithing Cord
-				{ 107, 223306,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Inflammable Forging Cinch
-				{ 108, 223307,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Unmelting Ironworker Clasp
-				{ 109, 223304,      [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Slag-Accruing Waistguard
+				{ 105, 223505,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Mudnose
+				{ 106, "223305:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Noncandescent Smithing Cord
+				{ 107, "223306:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Inflammable Forging Cinch
+				{ 108, "223307:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Unmelting Ironworker Clasp
+				{ 109, "223304:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Slag-Accruing Waistguard
 				{ 111, "f2594rep53" },
-				{ 112, 222989,      "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
+				{ 112, 222989,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
 			}
 		},
 		{ -- Hallowfall Arathi
 			FactionID = 2570,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
+				{ 1,   "f2570rep32" },
+				{ 2,   218351,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Expeditionary Cape
+				{ 3,   "228426:11336",                        [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Gloves of Irradiating Imprisonment
+				{ 4,   "228425:11336",                        [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Grips of Fading Luminescence
+				{ 5,   "228427:11336",                        [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Wraps of Depleting Brilliance
+				{ 6,   "228428:11336",                        [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:250" },                                      -- Gauntlets of Dimming Fluorescence
+				{ 8,   "f2570rep34" },
+				{ 9,   223064,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: Hallowfall Arathi
+				{ 10,  223114,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Formula: Enchant Boots - Scout's March
+				{ 12,  "f2570rep37" },
+				{ 13,  "223299:10281:10377:1656:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Tunic of Irradiating Imprisonment
+				{ 14,  "223297:10281:10377:1656:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Vest of Fading Luminescence
+				{ 15,  "223298:10281:10377:1656:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Chainmail of Depleting Brilliance
+				{ 16,  "223296:10281:10377:1656:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Battleplate of Dimming Fluorescence
+				{ 18,  "f2570rep43" },
+				{ 19,  218350,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" },                                     -- Expeditionary Spaulders
+				{ 21,  "f2570rep44" },
+				{ 22,  224655,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Void-Lit Jewelcrafting Notes
+				{ 23,  224656,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Void-Lit Herbalism Notes
+				{ 24,  224657,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Void-Lit Skinning Notes
+				{ 25,  224658,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Void-Lit Leatherworking Notes
+				{ 27,  "f2570rep45" },
+				{ 28,  221848,                                "pet4463",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Tiberius
+				{ 101, "f2570rep47" },
+				{ 102, 228707,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Trial of Burning Light
+				{ 104, "f2570rep48" },
+				{ 105, "223309:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Bindings of Irradiating Imprisonment
+				{ 106, "223310:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Wristwraps of Fading Luminescence
+				{ 107, "223308:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Bracers of Depleting Brilliance
+				{ 108, "223311:10273:10377:10876:1669:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Armguards of Dimming Fluorescence
+				{ 110, "f2570rep51" },
+				{ 111, 223317,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Vermillion Imperial Lynx
+				{ 113, "f2570rep53" },
+				{ 114, 223314,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Shackled Shadow
+				{ 115, 224553,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" },                                     -- Beledar's Attunement
+				{ 117, "f2570rep55" },
+				{ 118, 206350,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:325" },                                      -- Radiant Remnant
 			}
 		},
 		{ -- The Severed Threads
 			FactionID = 2600,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
+				{ 1,  "f2600rep32" },
+				{ 2,  "228420:11337", [PRICE_EXTRA_ITTYPE] = "kej:85" },                        -- Unsevered Thread
+				{ 4,  "f2600rep34" },
+				{ 5,  223080,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                    -- Recipe: Algari Alchemist Stone
+				{ 6,  223125,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                    -- Formula: Oil of Deep Toxins
+				{ 8,  "f2600rep35" },
+				{ 9,  218348,         [PRICE_EXTRA_ITTYPE] = "kej:565" },                       -- Thread-Bearer's Cloak
+				{ 11, "f2600rep45" },
+				{ 12, 222972,         "pet4491",                          [PRICE_EXTRA_ITTYPE] = "kej:2250" }, -- Jump Jump
+				{ 14, "f2600rep46" },
+				{ 15, 218347,         [PRICE_EXTRA_ITTYPE] = "kej:1125" },                      -- Thread-Bearer's Pauldrons
+				{ 17, "f2600rep47" },
+				{ 18, 228705,         [PRICE_EXTRA_ITTYPE] = "kej:1750" },                      -- Arachnoserum
+				{ 20, "f2600rep52" },
+				{ 21, 223274,         "mount",                            [PRICE_EXTRA_ITTYPE] = "kej:2815" }, -- Ferocious Jawcrawler
+				{ 23, "f2600rep53" },
+				{ 24, 223264,         "mount",                            [PRICE_EXTRA_ITTYPE] = "kej:3940" }, -- Aquamarine Swarmite
 			}
 		}
 	}
