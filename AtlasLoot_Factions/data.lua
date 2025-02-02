@@ -157,18 +157,18 @@ data["TWWFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,  "f2600rep32" },
-				{ 2,  "228420:11337", [PRICE_EXTRA_ITTYPE] = "kej:85" },                        -- Unsevered Thread
+				{ 2,  "228420:11337", [PRICE_EXTRA_ITTYPE] = "kej:85" },                           -- Unsevered Thread
 				{ 4,  "f2600rep34" },
-				{ 5,  223080,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                    -- Recipe: Algari Alchemist Stone
-				{ 6,  223125,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                    -- Formula: Oil of Deep Toxins
+				{ 5,  223080,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                       -- Recipe: Algari Alchemist Stone
+				{ 6,  223125,         [PRICE_EXTRA_ITTYPE] = "210814:150" },                       -- Formula: Oil of Deep Toxins
 				{ 8,  "f2600rep35" },
-				{ 9,  218348,         [PRICE_EXTRA_ITTYPE] = "kej:565" },                       -- Thread-Bearer's Cloak
+				{ 9,  218348,         [PRICE_EXTRA_ITTYPE] = "kej:565" },                          -- Thread-Bearer's Cloak
 				{ 11, "f2600rep45" },
 				{ 12, 222972,         "pet4491",                          [PRICE_EXTRA_ITTYPE] = "kej:2250" }, -- Jump Jump
 				{ 14, "f2600rep46" },
-				{ 15, 218347,         [PRICE_EXTRA_ITTYPE] = "kej:1125" },                      -- Thread-Bearer's Pauldrons
+				{ 15, 218347,         [PRICE_EXTRA_ITTYPE] = "kej:1125" },                         -- Thread-Bearer's Pauldrons
 				{ 17, "f2600rep47" },
-				{ 18, 228705,         [PRICE_EXTRA_ITTYPE] = "kej:1750" },                      -- Arachnoserum
+				{ 18, 228705,         [PRICE_EXTRA_ITTYPE] = "kej:1750" },                         -- Arachnoserum
 				{ 20, "f2600rep52" },
 				{ 21, 223274,         "mount",                            [PRICE_EXTRA_ITTYPE] = "kej:2815" }, -- Ferocious Jawcrawler
 				{ 23, "f2600rep53" },
@@ -681,6 +681,106 @@ data["DRAGONFLIGHTFACTIONS"] = {
 				{ 524, "f2511rep60" },
 				{ 525, 201425,      "mount",                                                                [PRICE_EXTRA_ITTYPE] = "201403:5:201400:5:dragonSupplies:1000" }, -- Yellow War Ottuk
 				{ 526, 201426,      "mount",                                                                [PRICE_EXTRA_ITTYPE] = "201403:5:201400:5:dragonSupplies:1000" }, -- Brown War Ottuk
+			},
+		},
+		{ -- Loamm Niffen
+			FactionID = 2564,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2564rep35" },
+				{ 2,   203310,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                  -- Winding Slitherdrake: Grand Chin Thorn
+				{ 3,   203316,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                  -- Winding Slitherdrake: Large Finned Crest
+				{ 4,   203327,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                  -- Winding Slitherdrake: Tan Horns
+				{ 6,   "f2564rep38" },
+				{ 7,   "205275:9314:1495:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Mycelial Fabric Tunic
+				{ 8,   "205272:9314:1495:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Scent-Masking Vest
+				{ 9,   "205273:9314:1495:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Sulfuric Crystal Breastmail
+				{ 10,  "205271:9314:1495:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Speleothemic Cataphract
+				{ 12,  "f2564rep41" },
+				{ 13,  205963,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },                                  -- Sniffin' Salts
+				{ 16,  "f2564rep42" },
+				{ 17,  205348,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Jewelcrafting Knowledge
+				{ 18,  205349,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Engineering Knowledge
+				{ 19,  205350,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Leatherworking Knowledge
+				{ 20,  205351,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Enchanting Knowledge
+				{ 21,  205352,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Blacksmithing Knowledge
+				{ 22,  205353,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Alchemy Knowledge
+				{ 23,  205354,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Inscription Knowledge
+				{ 24,  205355,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Tailoring Knowledge
+				{ 25,  205356,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Mining Knowledge
+				{ 26,  205357,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Skinning Knowledge
+				{ 27,  205358,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Niffen Notebook of Herbalism Knowledge
+				{ 101, "f2564rep43" },
+				{ 102, 203323,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Winding Slitherdrake: Brown Hair
+				{ 103, 203335,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Winding Slitherdrake: Curved Horns
+				{ 104, 203341,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Winding Slitherdrake: Long Jaw Horns
+				{ 106, "f2564rep44" },
+				{ 107, "205270:9321:1508:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Mycelial Fabric Sandals
+				{ 108, "205269:9321:1508:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Scent-Masking Moccasins
+				{ 109, "205265:9321:1508:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Sulfuric Crystal Boots
+				{ 110, "205264:9321:1508:8767", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Speleothemic Footguards
+				{ 112, "f2564rep45" },
+				{ 113, 205050,                  "pet3528",                                   [PRICE_EXTRA_ITTYPE] = "dragonSupplies:250" }, -- Paulie
+				{ 114, 205051,                  "pet3529",                                   [PRICE_EXTRA_ITTYPE] = "dragonSupplies:250" }, -- Rango
+				{ 116, "f2564rep46" },
+				{ 117, 203347,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Winding Slitherdrake: Large Spiked Nose
+				{ 118, 203362,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Winding Slitherdrake: Hairy Tail
+				{ 119, 203365,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Winding Slitherdrake: Hairy Throat
+				{ 120, 205363,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:250" },                                  -- Ensemble: Ornate Black Dragon Labwear
+				{ 122, "f2564rep48" },
+				{ 123, 205971,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },                                  -- Rock Breaking Digger
+				{ 124, 205972,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },                                  -- Decorative Niffen Sword
+				{ 125, 205207,                  "mount",                                     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:800" }, -- Morsel Sniffer Reins
+				{ 127, "f2564rep49" },
+				{ 128, 197120,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1000" },                                 -- Highland Drake: Ornate Helm
+				{ 129, "f2564rep50" },
+				{ 130, 205188,                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                  -- Barter Boulder
+			},
+		},
+		{ -- Dream Wardens
+			FactionID = 2574,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2574rep36" },
+				{ 2,   210482,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Flourishing Whimsydrake: Back Fins
+				{ 3,   210483,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Flourishing Whimsydrake: Ridged Brow
+				{ 4,   210484,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:225" },                                  -- Flourishing Whimsydrake: Underbite Snout
+				{ 6,   "f2574rep37" },
+				{ 7,   "210702:9552:1498", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Solar Synthesis Gloves
+				{ 8,   "210706:9552:1498", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Drowsed Shepherd's Gloves
+				{ 9,   "210700:9552:1498", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Auburn Scavenger Gauntlets
+				{ 10,  "210704:9552:1498", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Fallen Protector Handguards
+				{ 12,  "f2574rep43" },
+				{ 13,  210485,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:450" },                                  -- Flourishing Whimsydrake: Long Snout
+				{ 14,  210486,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:450" },                                  -- Flourishing Whimsydrake: Horns
+				{ 15,  210487,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:450" },                                  -- Flourishing Whimsydrake: Neck Fins
+				{ 17,  "f2574rep44" },
+				{ 18,  "210703:9560:1511", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Solar Synthesis Crown
+				{ 19,  "210707:9560:1511", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Drowsed Shepherd's Hood
+				{ 20,  "210701:9560:1511", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Auburn Scavenger Helm
+				{ 21,  "210705:9560:1511", [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },                                  -- Fallen Protector Greathelm
+				{ 23,  "f2574rep45" },
+				{ 24,  210691,             "pet4307",                                   [PRICE_EXTRA_ITTYPE] = "dragonSupplies:375" }, -- Spruce
+				{ 25,  210692,             "pet4308",                                   [PRICE_EXTRA_ITTYPE] = "dragonSupplies:375" }, -- Juniper
+				{ 101, "f2574rep46" },
+				{ 102, 210676,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Elderwood Cane
+				{ 103, 210677,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Survivalist's Shovel
+				{ 104, 210679,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Cultivator's Watering Can
+				{ 105, 210680,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Caretaker's Trowel
+				{ 106, 210685,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:300" },                                  -- Ranger's Longbow
+				{ 107, 210790,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:500" },                                  -- Ensemble: Elegant Green Dragon Outerwear
+				{ 109, "f2574rep47" },
+				{ 110, 209949,             "mount",                                     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1200" }, -- Reins of the Suntouched Dreamstag
+				{ 111, 209951,             "mount",                                     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1200" }, -- Reins of the Lunar Dreamstag
+				{ 113, "f2574rep48" },
+				{ 114, 211495,             [PRICE_EXTRA_ITTYPE] = "money:1000000000" },                                    -- Dreambound Augment Rune
+				{ 116, "f2574rep49" },
+				{ 117, 210479,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1250" },                                 -- Flourishing Whimsydrake: Night Scales
+				{ 118, 210481,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1250" },                                 -- Flourishing Whimsydrake: Sunset Scales
+				{ 120, "f2574rep50" },
+				{ 121, 208066,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                  -- Small Dreamseed
+				{ 122, 208067,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:500" },                                  -- Plump Dreamseed
+				{ 123, 208047,             [PRICE_EXTRA_ITTYPE] = "dragonSupplies:1500" },                                 -- Gigantic Dreamseed
 			},
 		},
 	}

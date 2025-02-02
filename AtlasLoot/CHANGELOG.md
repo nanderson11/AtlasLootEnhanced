@@ -3,6 +3,7 @@
 ## 8.17.0 - February 2, 2025
 ### Added
 - Added instance loot for Aberrus and Amirdrassil
+- Added faction loot for Loamm Niffen and Dream Wardens
 
 ## 8.16.0 - January 27, 2025
 ### Added
