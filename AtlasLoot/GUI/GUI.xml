@@ -8,7 +8,7 @@
 	<Button name="AtlasLootCreatureButtonTemplate" motionScriptsWhileDisabled="true" virtual="true" hidden="true">
 		<Size x="50" y="49"/>
 		<Layers>
-			<Layer level="BACKGROUND" TextureSubLevel="6">
+			<Layer level="BACKGROUND" textureSubLevel="6">
 				<Texture name="$parentCreature" parentKey="creature">
 					<Size x="40" y="40"/>
 					<Anchors>

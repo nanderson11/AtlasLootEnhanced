@@ -1124,6 +1124,7 @@ local MOUNT_INFO = {
 		[394737] = 201789, -- Vicious Sabertooth
 		[394738] = 201788, -- Vicious Sabertooth
 		[395644] = 198821, -- Divine Kiss of Ohn'ahra
+		[424484] = 210061, -- Anu'relos, Flame's Guidance
 		[442358] = 221765, -- Stonevault Mechsuit
 		[451486] = 224147, -- Sureki Skyrazor
 		[451491] = 224151, -- Ascendant Skyrazor

@@ -1,46 +1,34 @@
 ﻿# Changelog
 
-## 8.16.0 - January 27, 2025
-
+## 8.17.0 - February 2, 2025
 ### Added
+- Added instance loot for Aberrus and Amirdrassil
 
+## 8.16.0 - January 27, 2025
+### Added
 - Added faction loot for Council of Dornogal, The Assembly of the Deeps, Hallowfall Arathi and The Severed Threads
-
 ### Fixed
-
 - Fixed mangled Dragonflight prices
 
 ## 8.15.1 - January 15, 2025
-
 ### Fixed
-
 - Fixed error when clicking on certain expansions under the Factions module
 
 ## 8.15.0 - January 12, 2025
-
 ### Added
-
 - Added The War Within instance loot
-
 ### Fixed
-
 - Fixed error when right clicking on the spec filter button
 
 ## 8.14.0 - January 9, 2025
-
 ### Added
-
 - Added Shadowlands and Dragonflight modules that were previously separate
 - Added the Atlas button to Shadowlands and Dragonflight instance maps provided by Atlas (fork)
 - Added icon textures in addon list
-
 ### Changed
-
 - Updated libraries
 - Update TOC to 11.0.7
-
 ### Fixed
-
 - Fixed various deprecations
 
 v8.13.14 (Dec. 26, 2022)
