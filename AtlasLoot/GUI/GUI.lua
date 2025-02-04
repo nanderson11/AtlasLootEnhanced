@@ -463,6 +463,10 @@ local function TransmogButton_Refresh(self)
 	end
 end
 
+local function TransmogButton_OnShow(self)
+	TransmogButton_Refresh(self)
+end
+
 local function TransmogButton_OnClick(self, button)
 	AtlasLoot.db.GUI.transMogHighlighter = not AtlasLoot.db.GUI.transMogHighlighter
 	TransmogButton_Refresh(self)
@@ -1041,7 +1045,7 @@ function GUI:Create()
 	frame.contentFrame.transmogButton:SetHeight(25)
 	frame.contentFrame.transmogButton:SetPoint("LEFT", frame.contentFrame.clasFilterButton, "RIGHT", 5, 0)
 	frame.contentFrame.transmogButton:SetScript("OnClick", TransmogButton_OnClick)
-	--frame.contentFrame.transmogButton:SetScript("OnShow", TransmogButton_OnShow)
+	frame.contentFrame.transmogButton:SetScript("OnShow", TransmogButton_OnShow)
 	--frame.contentFrame.transmogButton:SetScript("OnHide", TransmogButton_OnHide)
 	--frame.contentFrame.transmogButton:SetScript("OnEvent", TransmogButton_OnEvent)
 	frame.contentFrame.transmogButton:SetScript("OnEnter", TransmogButton_OnEnter)
@@ -1051,11 +1055,6 @@ function GUI:Create()
 	frame.contentFrame.transmogButton.texture = frame.contentFrame.transmogButton:CreateTexture(frameName.."-transmogButton-texture", "ARTWORK")
 	frame.contentFrame.transmogButton.texture:SetAllPoints(frame.contentFrame.transmogButton)
 	frame.contentFrame.transmogButton.texture:SetTexture("Interface\\Icons\\INV_Arcane_Orb")
-
-
-
-
-
 
 	self.frame = frame
 

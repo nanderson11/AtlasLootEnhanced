@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 8.17.1 -
+### Fixed
+- Fixed transmog button not being desaturated on initial load
+
 ## 8.17.0 - February 2, 2025
 ### Added
 - Added instance loot for Aberrus and Amirdrassil
