@@ -122,7 +122,7 @@ data["InstanceName"] = {
 data["The Rookery"] = {
 	EncounterJournalID = 1268,
 	MapID = 2315,
-	-- AtlasMapID = "",
+	AtlasMapID = "TheRookery",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Kyrioss
@@ -188,7 +188,7 @@ data["The Rookery"] = {
 data["The Stonevault"] = {
 	EncounterJournalID = 1269,
 	MapID = 2341,
-	-- AtlasMapID = "",
+	AtlasMapID = "TheStonevault",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- E.D.N.A.
@@ -275,7 +275,7 @@ data["The Stonevault"] = {
 data["Priory of the Sacred Flame"] = {
 	EncounterJournalID = 1267,
 	MapID = 2308,
-	-- AtlasMapID = "",
+	AtlasMapID = "PrioryoftheSacredFlame",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Captain Dailcry
@@ -348,7 +348,7 @@ data["Priory of the Sacred Flame"] = {
 data["Ara-Kara, City of Echoes"] = {
 	EncounterJournalID = 1271,
 	MapID = 2357,
-	-- AtlasMapID = "",
+	AtlasMapID = "AraKaraCityofEchoes",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Avanoxx
@@ -417,7 +417,7 @@ data["Ara-Kara, City of Echoes"] = {
 data["The Dawnbreaker"] = {
 	EncounterJournalID = 1270,
 	MapID = 2359,
-	-- AtlasMapID = "",
+	AtlasMapID = "TheDawnbreaker",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Speaker Shadowcrown
@@ -481,7 +481,7 @@ data["The Dawnbreaker"] = {
 data["City of Threads"] = {
 	EncounterJournalID = 1274,
 	MapID = 2313,
-	-- AtlasMapID = "",
+	AtlasMapID = "CityofThreads",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Orator Krix'vizk
@@ -569,7 +569,7 @@ data["City of Threads"] = {
 data["Darkflame Cleft"] = {
 	EncounterJournalID = 1210,
 	MapID = 2303,
-	-- AtlasMapID = "",
+	AtlasMapID = "DarkflameCleft",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Ol' Waxbeard
@@ -647,7 +647,7 @@ data["Darkflame Cleft"] = {
 data["Cinderbrew Meadery"] = {
 	EncounterJournalID = 1272,
 	MapID = 2335,
-	-- AtlasMapID = "",
+	AtlasMapID = "CinderbrewMeadery",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Brew Master Aldryr
@@ -733,7 +733,7 @@ data["Cinderbrew Meadery"] = {
 data["Nerub-ar Palace"] = {
 	EncounterJournalID = 1273,
 	MapID = 2291,
-	-- AtlasMapID = "",
+	AtlasMapID = "NerubarPalace",
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
 	items = {

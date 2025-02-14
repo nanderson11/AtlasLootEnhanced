@@ -1,6 +1,8 @@
 ﻿# Changelog
 
-## 8.17.1 -
+## 8.18.0 - February 13, 2025
+### Added
+- Added the Atlas button to The War Within instance maps provided by Atlas (fork)
 ### Fixed
 - Fixed transmog button not being desaturated on initial load
 
