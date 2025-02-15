@@ -507,7 +507,16 @@ function Faction.Refresh(button)
 	local friendshipFactionID = reputationInfo.friendshipFactionID
 
 	local temp = C_Reputation.GetFactionDataByID(factionID)
-	local name, standingID = temp.name, temp.reaction
+	local name = nil
+	if (temp == nil) then
+		name = BF[FACTION_KEY[factionID]] or FACTION.." "..factionID
+	else
+		name = temp.name
+	end
+	local standingID = nil
+	if (temp ~= nil) then
+		standingID = temp.reaction
+	end
 	local isMajorFaction = C_Reputation.IsMajorFaction(factionID);
 	local majorFactionData, renownLevel
 	if isMajorFaction then
@@ -532,7 +541,6 @@ function Faction.Refresh(button)
 		-- ##################
 		-- name
 		-- ##################
-		name = name or BF[FACTION_KEY[factionID]] or FACTION.." "..factionID
 		button.name:SetText(color..name)
 
 		--button.extra:SetText("|cFF"..FACTION_REP_COLORS[RepID or standingID]..GetLocRepStanding(RepID or standingID))
@@ -633,8 +641,14 @@ function Faction.ShowToolTipFrame(button)
 		Faction.tooltipFrame = frame
 	end
 	local frame = Faction.tooltipFrame
-	local temp = C_Reputation.GetFactionDataByID(button.FactionID)
-	local name, description, standingID, barMin, barMax, barValue, factionID = temp.name, temp.description, temp.reaction, temp.currentReactionThreshold, temp.nextReactionThreshold, temp.currentStanding, temp.factionID
+	local factionID = button.FactionID
+	local name, description, standingID, barMin, barMax, barValue = nil, nil, nil, nil, nil, nil
+	local temp = C_Reputation.GetFactionDataByID(factionID)
+	if (temp == nil) then
+		name = BF[FACTION_KEY[factionID]] or FACTION.." "..factionID
+	else
+		name, description, standingID, barMin, barMax, barValue = temp.name, temp.description, temp.reaction, temp.currentReactionThreshold, temp.nextReactionThreshold, temp.currentStanding
+	end
 	standingID = standingID or 1
 	local colorIndex = standingID;
 	local barColor = FACTION_BAR_COLORS[colorIndex];
@@ -682,7 +696,7 @@ function Faction.ShowToolTipFrame(button)
 	frame:SetPoint("BOTTOMLEFT", button, "TOPRIGHT")
 
 	frame.icon:SetTexture(FACTION_IMAGES[button.FactionID] or FACTION_IMAGES[0])
-	frame.name:SetText(name or "Faction "..button.FactionID)
+	frame.name:SetText(name)
 	frame.desc:SetText(description)
 
 	frame.standing.bar:SetMinMaxValues(barMin, barMax)

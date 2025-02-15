@@ -3,6 +3,8 @@
 ## 8.19.0 -
 ### Added
 - Added Dragonflight and The War Within tabards to Collections
+### Fixed
+- Fixed error when clicking on tabs with factions under the Collections module
 
 ## 8.18.0 - February 13, 2025
 ### Added
