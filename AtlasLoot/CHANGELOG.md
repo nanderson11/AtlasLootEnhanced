@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 8.19.0 -
+### Added
+- Added Dragonflight and The War Within tabards to Collections
+
 ## 8.18.0 - February 13, 2025
 ### Added
 - Added the Atlas button to The War Within instance maps provided by Atlas (fork)

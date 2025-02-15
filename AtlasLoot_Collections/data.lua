@@ -3035,19 +3035,98 @@ data["TABARDS"]            = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{ -- Dragonflight
-			name = EXPANSION_NAME9,
-			--CoinTexture = "Reputation",
+		{ -- The War Within
+			name = EXPANSION_NAME10,
+			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
-				{ 1, 194675 },                              -- Gilded Dracthyr's Tabard
-				{ 2, 198802, [PRICE_EXTRA_ITTYPE] = "money:10526315" }, -- Artisan's Consortium Tabard
-				{ 3, 198730 },                              -- Dragonscale Expedition Tabard
-				{ 4, 198731 },                              -- Iskaara Tuskarr Tabard
-				{ 5, 198732 },                              -- Valdrakken Accord Tabard
+				{ 1,   218352 },                                    -- Expeditionary Tabard
+				{ 2,   224166 },                                    -- Awakened Tabard
+				{ 3,   218349 },                                    -- Tabard of the Severed Threads
+				{ 4,   218346 },                                    -- Honorary Councilmember's Tabard
+				{ 5,   218343 },                                    -- Tabard of the Assembly
+				{ 6,   225946 },                                    -- Slightly Singed Arathi Tabard
+				{ 7,   225999 },                                    -- Earthen Adventurer's Tabard
+				{ 8,   226016 },                                    -- Darkened Tabard of the Arathi
+				{ 9,   233932 },                                    -- Awakened Ambassador's Tabard
+				{ 10,  233928 },                                    -- Adventurous Lamplighter's Tabard
+				{ 11,  226220 },                                    -- Machine-Warden's Tabard
+				{ 12,  225977, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Camo Tabard
+				{ 13,  226369, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Faded Tabard
+				{ 14,  229999, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Cloudy Tabard
+				{ 15,  224165, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:500" }, -- Dornogal Tabard
+				{ 16,  224168, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:500" }, -- Earthen Expedition Tabard
+				{ 17,  224167, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:500" }, -- Gundargaz Tabard
+				{ 18,  232476, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Explorer's League Tabard
+				{ 19,  234860, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Explorer's League Deepholm Expedition Tabard
+				{ 20,  234756, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Kor'kron Tabard
+				{ 21,  232478, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Area 52 Tabard
+				{ 22,  234755, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Tabard of the Pandaren Elders
+				{ 23,  234907, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Tattered Iron Horde Tabard
+				{ 24,  234906, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Auchenai Tabard
+				{ 25,  223616, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Forged Gladiator's Tabard
+				{ 26,  228908 },                                    -- Bot Wrangler's Violet Apron
+				{ 27,  228909 },                                    -- Bot Wrangler's Crimson Apron
+				{ 28,  228762 },                                    -- Classic Lively Tabard
+				{ 29,  228761 },                                    -- Classic Brick Tabard
+				{ 30,  228763 },                                    -- Classic Crimson Tabard
+				{ 101, 228764 },                                    -- Classic Sunny Tabard
+				-- { 1, 233929 }, -- Sacred Tabard of the Priori (currently unobtainable)
+				-- { 1, 224169 }, -- Stonebound Tabard (currently unobtainable)
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, 202197 }, -- Emboldened Dracthyr's Tabard
+				{ 18, 232477, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Hand of Vengeance Tabard
+				{ 19, 234861, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Reliquary Tabard
+			},
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1,   194675 },                                     -- Gilded Dracthyr's Tabard
+				{ 2,   198802, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Artisan's Consortium Tabard
+				{ 3,   198730 },                                     -- Dragonscale Expedition Tabard
+				{ 4,   198731 },                                     -- Iskaara Tuskarr Tabard
+				{ 5,   198732 },                                     -- Valdrakken Accord Tabard
+				{ 6,   205286 },                                     -- Loamm Niffen Tabard
+				{ 7,   210501 },                                     -- Dream Wardens Tabard
+				{ 8,   210469 },                                     -- Personal Tabard
+				{ 9,   208199 },                                     -- Tabard of the Tyr's Guard
+				{ 10,  219349 },                                     -- Plunderlord's Tabard
+				{ 11,  204445 },                                     -- Black Dragonflight's Tabard
+				{ 12,  212336 },                                     -- The Tavern's Tabard
+				{ 13,  205414 },                                     -- Ornate Black Dragon Labwear Coat
+				{ 14,  205957 },                                     -- Azure Renewal Tabard
+				{ 15,  207016 },                                     -- Rift-Mender's Tabard
+				{ 16,  210787 },                                     -- Elegant Green Dragon Tabard
+				{ 17,  213518 },                                     -- Classic Sepia Tabard
+				{ 18,  211926 },                                     -- Riders of Azeroth Tabard
+				{ 19,  213593 },                                     -- Frosted Riders of Azeroth Tabard
+				{ 20,  212686 },                                     -- Azure Riders of Azeroth Tabard
+				{ 21,  211928 },                                     -- Ruby Riders of Azeroth Tabard
+				{ 22,  202090, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Crimson Gladiator's Tabard
+				{ 23,  205362, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Obsidian Gladiator's Tabard
+				{ 24,  209610, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Verdant Gladiator's Tabard
+				{ 25,  216667, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Draconic Gladiator's Tabard
+				{ 26,  206786, [PRICE_EXTRA_ITTYPE] = "paracausalFlakes:1500" }, -- Scourge Victorious Tabard
+				{ 27,  206788, [PRICE_EXTRA_ITTYPE] = "paracausalFlakes:1500" }, -- Utopian Tabard
+				{ 28,  190800, [PRICE_EXTRA_ITTYPE] = "tender:125" }, -- Gleaming Mail Tabard
+				{ 29,  190801, [PRICE_EXTRA_ITTYPE] = "tender:125" }, -- Shadowy Mail Tabard
+				{ 30,  190671, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Tabard of Wild Might
+				{ 101, 213396, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Midnight Tabard
+				{ 102, 221794, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Carrot Tabard
+				{ 103, 211267, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Snowy Tabard
+				{ 104, 212544, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Aquatic Tabard
+				{ 105, 223170, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Deep Tabard
+				{ 106, 212990, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Violet Tabard
+				{ 107, 212374, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Rosy Tabard
+				{ 108, 210424, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:250" }, -- Darnassian Tabard
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1,   202197 }, -- Emboldened Dracthyr's Tabard
+				{ 108, 209065 }, -- Forsaken Champion's Tabard
+				{ 109, 209068 }, -- Queen Loyalist's Tabard
 			},
 		},
 		{ -- Shadowlands

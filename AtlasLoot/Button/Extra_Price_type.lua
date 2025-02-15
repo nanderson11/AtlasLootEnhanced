@@ -167,8 +167,11 @@ local PRICE_INFO = {
 	["gratefuloffering"]     = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
 	["catalogedresearch"]    = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
 	["dragonSupplies"]       = { currencyID = 2003 }, -- Dragon Isles Supplies
+	["paracausalFlakes"]     = { currencyID = 2594 }, -- Paracausal Flakes
+	["tender"]               = { currencyID = 2032 }, -- Trader's Tender
 	["resonanceCrystal"]     = { currencyID = 2815 }, -- Resonance Crystal
 	["kej"]                  = { currencyID = 3056 }, -- Kej
+	["flameBlessedIron"]     = { currencyID = 3090 }, -- Flame-Blessed Iron
 
 	-- others
 	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },
