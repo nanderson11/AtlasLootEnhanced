@@ -5,6 +5,9 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
+local TWW_DIFF = data:AddDifficulty(EXPANSION_NAME10)
+local DF_DIFF = data:AddDifficulty(EXPANSION_NAME9)
+local SL_DIFF = data:AddDifficulty(EXPANSION_NAME8)
 local BFA_DIFF = data:AddDifficulty(EXPANSION_NAME7)
 local LEGION_DIFF = data:AddDifficulty(EXPANSION_NAME6)
 local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
@@ -14,7 +17,6 @@ local WOTLK_DIFF = data:AddDifficulty(EXPANSION_NAME2)
 local BC_DIFF = data:AddDifficulty(EXPANSION_NAME1)
 local CLASSIC_DIFF = data:AddDifficulty(EXPANSION_NAME0)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"])
-local OLD_REMEDIES = data:AddDifficulty(AL["Old Remedies"])
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local CRAFTING_ITTYPE = data:AddItemTableType("Item", "Profession")
@@ -37,6 +39,21 @@ data["Alchemy"] = {
 	items = {
 		{ --AlchemyFlask
 			name = AL["Flasks"],
+			[TWW_DIFF] = {
+				{ 1,  212281, 430605 },                          -- Flask of Alchemical Chaos
+				{ 2,  212299, 430612 },                          -- Flask of Saving Graces
+				{ 3,  212269, 430601 },                          -- Flask of Tempered Aggression
+				{ 4,  212278, 430604 },                          -- Flask of Tempered Mastery
+				{ 5,  212272, 430602 },                          -- Flask of Tempered Swiftness
+				{ 6,  212275, 430603 },                          -- Flask of Tempered Versatility
+				{ 8,  212292, 430608, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of Honor
+				{ 9,  212289, 430607, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of Classical Spirits
+				{ 10, 212298, 430611, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of the Wrecking Ball
+				{ 16, 212314, 430617 },                          -- Phial of Bountiful Seasons
+				{ 17, 212305, 430614 },                          -- Phial of Concentrated Ingenuity
+				{ 18, 212311, 430616 },                          -- Phial of Enhanced Ambidexterity
+				{ 19, 212308, 430615 },                          -- Phial of Truesight
+			},
 			[BFA_DIFF] = {
 				{ 1,  152639, 252351 }, -- Flask of Endless Fathoms
 				{ 2,  152639, 252352 }, -- Flask of Endless Fathoms
@@ -113,6 +130,19 @@ data["Alchemy"] = {
 		},
 		{ --AlchemyPotions
 			name = AL["Potions"],
+			[TWW_DIFF] = {
+				{ 1,  211878, 430590 }, -- Algari Healing Potion
+				{ 2,  212239, 430591 }, -- Algari Mana Potion
+				{ 3,  212242, 430592 }, -- Cavedweller's Delight
+				{ 4,  212245, 430593 }, -- Slumbering Soul Serum
+				{ 6,  212260, 430598 }, -- Frontline Potion
+				{ 7,  212254, 430596 }, -- Grotesque Vial
+				{ 8,  212266, 430600 }, -- Potion of the Reborn Cheetah
+				{ 9,  212257, 430597 }, -- Potion of Unwavering Focus
+				{ 10, 212263, 430599 }, -- Tempered Potion
+				{ 11, 212251, 430595 }, -- Draught of Shocking Revelations
+				{ 12, 212248, 430594 }, -- Draught of Silent Footfalls
+			},
 			[BFA_DIFF] = {
 				{ 1,   163225, 279165 }, -- Battle Potion of Stamina
 				{ 2,   163225, 279166 }, -- Battle Potion of Stamina
@@ -334,6 +364,15 @@ data["Alchemy"] = {
 		},
 		{ --AlchemyMisc
 			name = AL["Miscellaneous"],
+			[TWW_DIFF] = {
+				{ 1, 210816, 427185, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Alchemist Stone
+				{ 3, 212719, 432962 },                          -- Algari Flask Cauldron
+				{ 4, 212751, 432963 },                          -- Algari Potion Cauldron
+				{ 6, 212781, 433087 },                          -- Formulated Courage
+				{ 7, 212563, 432204 },                          -- Harmonious Horticulture
+				{ 8, 228404, 462122 },                          -- Petal Powder
+				{ 9, 228401, 462121 },                          -- Bubbling Mycobloom Culture
+			},
 			[BFA_DIFF] = {
 				{ 1,  162519, 276975 }, -- Mystical Cauldron
 				{ 2,  162519, 276976 }, -- Mystical Cauldron
@@ -538,6 +577,21 @@ data["Alchemy"] = {
 		},
 		{ --AlchemyTransmute
 			name = AL["Transmutes"],
+			[TWW_DIFF] = {
+				{ 1,  212514, 430624 }, -- Blasphemite
+				{ 2,  225677, 449938 }, -- Gleaming Chaos
+				{ 4,  223883, 430618 }, -- Mercurial Blessings
+				-- { 5, 223883, 430619 }, -- Mercurial Storms (ends up being the same as Blessings)
+				{ 5,  211803, 449573 }, -- Mercurial Coalescence
+				{ 6,  223886, 449571 }, -- Mercurial Herbs
+				{ 8,  223885, 430622 }, -- Ominous Call
+				-- { 9, 223885, 430623 }, -- Ominous Gloom (ends up being the same as Call)
+				{ 9,  211802, 449574 }, -- Ominous Coalescence
+				{ 10, 223887, 449572 }, -- Ominous Herbs
+				{ 12, 223884, 430620 }, -- Volatile Weaving
+				-- { 13, 223884, 430621 }, -- Volatile Stone (ends up being the same as Weaving)
+				{ 13, 211802, 449575 }, -- Volatile Coalescence
+			},
 			[BFA_DIFF] = {
 				{ 1,  152668, 251832 }, -- Transmute: Expulsom
 				{ 3,  152580, 251306 }, -- Transmute: Herbs to Cloth
@@ -8366,61 +8420,3 @@ data["Cooking"] = {
 		},
 	}
 }
-
---[==[ REMOVED
-data["FirstAid"] = {
-	name = GetSpellInfo(3273),
-	ContentType = SECPROFESSION_CONTENT,
-	TableType = CRAFTING_ITTYPE,
-	items = {
-		{	--FirstAid
-			name = GetSpellInfo(3273),
-			[LEGION_DIFF] = {
-				{ 1, 133940, 202853 }, -- Silkweave Bandage
-				{ 2, 136653, 221690 }, -- Silvery Salve
-				{ 3, 133942, 202854 }, -- Silkweave Splint
-
-				{ 5, 142332, 230047, [PRICE_EXTRA_ITTYPE] = "142335:10" }, -- Feathered Luffa
-				--[[ comment out until resolve the issue for now actual item exist, but only the spell
-				{ 6, 211353, 211353, [PRICE_EXTRA_ITTYPE] = "136654:3" }, -- Treat Fever
-				{ 7, 212067, 212067, [PRICE_EXTRA_ITTYPE] = "136653:3:136654:1" }, -- Treat Burns
-				{ 8, 211696, 211696, [PRICE_EXTRA_ITTYPE] = "133940:3:136654:1" }, -- Stabilize
-				{ 9, 211926, 211926, [PRICE_EXTRA_ITTYPE] = "133942:2:136654:1" }, -- Set Bone
-				]]
-			},
-			[WOD_DIFF] = {
-				{ 1, 111603, 172539, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Antiseptic Bandage (Learnt by item 111364)
-				{ 2, 116979, 172541, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Blackwater Anti-Venom (Learnt by item 111364)
-				{ 3, 116981, 172542, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fire Ammonite Oil (Learnt by item 111364)
-				{ 4, 109223, 172540, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Healing Tonic (Learnt by item 111364)
-			},
-			[OLD_REMEDIES] = {
-				{ 1, 72986, 102699 },	-- Heavy Windwool Bandage : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 2, 72986, 102698 },	-- Heavy Windwool Bandage : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 3, 72985, 102697 },	-- Windwool Bandage : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 4, 53051, 88893 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 5, 53051, 74558 },	-- Dense Embersilk Bandage : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 6, 53050, 74557 },	-- Heavy Embersilk Bandage : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 7, 53049, 74556 },	-- Embersilk Bandage : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 8, 34722, 45546 },	-- Heavy Frostweave Bandage : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 9, 34721, 45545 },	-- Frostweave Bandage : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 10, 21991, 27033 },	-- Heavy Netherweave Bandage : =ds=#sr# 330 : =ds=AtlasLoot["Trainer"]
-				{ 11, 21990, 27032 },	-- Netherweave Bandage : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 12, 14530, 18630 },	-- Heavy Runecloth Bandage : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
-				{ 13, 14529, 18629 },	-- Runecloth Bandage : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
-				{ 14, 8545, 10841 },	-- Heavy Mageweave Bandage : =ds=#sr# 240 : =ds=AtlasLoot["Trainer"]
-				{ 15, 8544, 10840 },	-- Mageweave Bandage : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
-				{ 16, 6451, 7929 },	-- Heavy Silk Bandage : =ds=#sr# 180 : =ds=AtlasLoot["Trainer"]
-				{ 17, 6450, 7928 },	-- Silk Bandage : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 18, 3531, 3278 },	-- Heavy Wool Bandage : =ds=#sr# 115 : =ds=AtlasLoot["Trainer"]
-				{ 19, 3530, 3277 },	-- Wool Bandage : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
-				{ 20, 2581, 3276 },	-- Heavy Linen Bandage : =ds=#sr# 40 : =ds=AtlasLoot["Trainer"]
-				{ 21, 1251, 3275 },	-- Linen Bandage : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 22, 19440, 23787 },	-- Powerful Anti-Venom : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]
-				{ 23, 6453, 7935, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Strong Anti-Venom : =ds=#sr# 130 : =ds=AtlasLoot["Drop"]
-				{ 24, 6452, 7934, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Anti-Venom : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-	}
-}
-]==] --
