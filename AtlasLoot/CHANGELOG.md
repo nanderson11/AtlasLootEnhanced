@@ -4,6 +4,7 @@
 ### Added
 - Added Dragonflight and The War Within tabards to Collections
 - Added TWW Alchemy recipes
+- Added TWW Blacksmithing recipes
 ### Fixed
 - Fixed error when clicking on tabs with factions under the Collections module
 

@@ -723,6 +723,33 @@ data["Blacksmithing"] = {
 	items = {
 		{ --SmithingArmor
 			name = AL["Armor"],
+			[TWW_DIFF] = {
+				{ 1,  222476, 450263 },                           -- Dredger's Developed Legplates
+				{ 2,  222478, 450265 },                           -- Dredger's Developed Pauldrons
+				{ 3,  222479, 450266 },                           -- Dredger's Developed Gauntlets
+				{ 4,  222475, 450262 },                           -- Dredger's Developed Helm
+				{ 5,  222473, 450260 },                           -- Dredger's Developed Greatbelt
+				{ 6,  222477, 450264 },                           -- Dredger's Plate Vambraces
+				{ 7,  222472, 450259 },                           -- Dredger's Plate Breastplate
+				{ 8,  222471, 450258 },                           -- Dredger's Plate Sabatons
+				{ 9,  222430, 450221 },                           -- Everforged Breastplate
+				{ 10, 222437, 450228 },                           -- Everforged Gauntlets
+				{ 11, 222431, 450222 },                           -- Everforged Greatbelt
+				{ 12, 222433, 450224 },                           -- Everforged Helm
+				{ 13, 222434, 450225 },                           -- Everforged Legplates
+				{ 14, 222436, 450227 },                           -- Everforged Pauldrons
+				{ 15, 222429, 450220 },                           -- Everforged Sabatons
+				{ 16, 222435, 450226 },                           -- Everforged Vambraces
+				{ 17, 222458, 450245 },                           -- Sanctified Steps
+				{ 18, 217150, 438921, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Armguards
+				{ 19, 217143, 438914, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Breastplate
+				{ 20, 217145, 438916, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Gauntlets
+				{ 21, 217147, 438918, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Greaves
+				{ 22, 217146, 438917, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Helm
+				{ 23, 217148, 438919, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Pauldrons
+				{ 24, 217144, 438915, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Sabatons
+				{ 25, 217149, 438920, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Waistguard
+			},
 			[BFA_DIFF] = {
 				{ 1,   152811, 253190 }, -- Stormsteel Girdle
 				{ 2,   162465, 253191 }, -- Imbued Stormsteel Girdle
@@ -1342,6 +1369,41 @@ data["Blacksmithing"] = {
 		},
 		{ --SmithingWeaponsShields
 			name = AL["Weapons"].." & "..AL["Shields"],
+			[TWW_DIFF] = {
+				{ 1,   222468, 450255 },                                   -- Ironclaw Great Mace
+				{ 2,   222467, 450254 },                                   -- Ironclaw Knuckles
+				{ 3,   222469, 450256 },                                   -- Ironclaw Axe
+				{ 4,   222466, 450253 },                                   -- Ironclaw Sword
+				{ 5,   222465, 450252 },                                   -- Ironclaw Dirk
+				{ 6,   222470, 450257 },                                   -- Ironclaw Great Axe
+				{ 7,   222464, 450251 },                                   -- Ironclaw Stiletto
+				{ 8,   222474, 450261 },                                   -- Dredger's Developed Defender
+				{ 9,   222447, 450238 },                                   -- Charged Claymore
+				{ 10,  222449, 450240 },                                   -- Charged Crusher
+				{ 11,  222446, 450237, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Facesmasher
+				{ 12,  222448, 450239 },                                   -- Charged Halberd
+				{ 13,  222444, 450235 },                                   -- Charged Hexsword
+				{ 14,  222450, 450241 },                                   -- Charged Invoker
+				{ 15,  222445, 450236 },                                   -- Charged Runeaxe
+				{ 16,  222451, 450242, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Charged Slicer
+				{ 17,  222439, 450230 },                                   -- Everforged Dagger
+				{ 18,  222443, 450234 },                                   -- Everforged Greataxe
+				{ 19,  222440, 450231 },                                   -- Everforged Longsword
+				{ 20,  222442, 450233 },                                   -- Everforged Mace
+				{ 21,  222438, 450229 },                                   -- Everforged Stabber
+				{ 22,  222441, 450232 },                                   -- Everforged Warglaive
+				{ 23,  222432, 450223 },                                   -- Everforged Defender
+				{ 24,  222463, 450250 },                                   -- Siphoning Stiletto
+				{ 25,  222459, 450246 },                                   -- Beledar's Bulwark
+				{ 26,  225374, 455001, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Axe
+				{ 27,  225367, 454998, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Dagger
+				{ 28,  225376, 455003, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Greatsword
+				{ 29,  225366, 454997, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Pickaxe
+				{ 30,  225371, 454999, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Scepter
+				{ 101, 225375, 455002, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Skewer
+				{ 102, 225377, 455004, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Sword
+				{ 103, 225373, 455000, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Shield
+			},
 			[BFA_DIFF] = {
 				{ 1,   159857, 269476 }, -- Honorable Combatant's Shanker
 				{ 2,   159857, 269477 }, -- Honorable Combatant's Shanker
@@ -1627,6 +1689,19 @@ data["Blacksmithing"] = {
 		},
 		{ --SmithingMisc
 			name = AL["Miscellaneous"],
+			[TWW_DIFF] = {
+				{ 1,  222417, 450216 },                                   -- Core Alloy
+				{ 2,  222426, 450219 },                                   -- Ironclaw Alloy
+				{ 3,  222420, 450217 },                                   -- Charged Alloy
+				{ 4,  222423, 450218 },                                   -- Sanctified Alloy
+				{ 6,  222499, 450284 },                                   -- Forged Framework
+				{ 7,  222511, 450288 },                                   -- Adjustable Framework
+				{ 8,  222514, 450289 },                                   -- Tempered Framework
+				{ 10, 224765, 453727 },                                   -- Everburning Ignition
+				{ 10, 225660, 450283 },                                   -- Earthen Master's Hammer
+				{ 12, 222520, 450291 },                                   -- Coreforged Repair Hammer
+				{ 13, 222523, 450292, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Coreforged Skeleton Key
+			},
 			[BFA_DIFF] = {
 				{ 1,  152812, 253110 }, -- Monel-Hardened Hoofplates
 				{ 2,  159826, 269064 }, -- Monelite Skeleton Key
@@ -1670,6 +1745,92 @@ data["Blacksmithing"] = {
 				{ 28, 3486,   3337 },                           -- Heavy Grinding Stone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
 				{ 29, 3478,   3326 },                           -- Coarse Grinding Stone : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
 				{ 30, 3470,   3320 },                           -- Rough Grinding Stone : =ds=#sr# 25 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --SmithingArmorEnhancement
+			name = AL["Armor Enhancements"],
+			[LEGION_DIFF] = {
+				-- 7.3.0
+				{ 1, 151239, 246098 }, -- Felslate Anchor
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  127732, 187515, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Savage Truesteel Essence (Sold, Garrison)
+				{ 2,  127714, 187491, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Mighty Truesteel Essence (Sold, Garrison)
+				{ 3,  128015, 171708, [PRICE_EXTRA_ITTYPE] = "118720:5" }, -- Truesteel Essence (Sold, Ashran)
+				{ 4,  116428, 173355, [PRICE_EXTRA_ITTYPE] = "118720:1" }, -- Truesteel Reshaper (Sold, Ashran)
+				{ 6,  90046,  122632 },                         -- Living Steel Belt Buckle : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
+				{ 7,  55054,  76439 },                          -- Ebonsteel Belt Buckle : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "5 #pyriumbar#"
+				{ 8,  41611,  55656 },                          -- Eternal Belt Buckle : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
+				{ 10, 25521,  32285 },                          -- Greater Rune of Warding : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
+				{ 11, 23559,  32284 },                          -- Lesser Rune of Warding : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 13, 7969,   9964 },                           -- Mithril Spurs : =ds=#sr# 235 : =ds=AtlasLoot["World Drop"]
+				{ 16, 86599,  131928 },                         -- Ghost Iron Shield Spike : =ds=#sr# 540 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
+				{ 17, 55056,  76440 },                          -- Pyrium Shield Spike : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"] "5 #pyriumbar#"
+				{ 18, 55055,  76441 },                          -- Elementium Shield Spike : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
+				{ 19, 42500,  56357 },                          -- Titanium Shield Spike : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
+				{ 20, 23530,  29657 },                          -- Felsteel Shield Spike : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Honor Hold"] - AtlasLoot["Exalted"] / ["Thrallmar"] - AtlasLoot["Exalted"]
+				{ 21, 12645,  16651 },                          -- Thorium Shield Spike : =ds=#sr# 275 : =ds=AtlasLoot["World Drop"]
+				{ 22, 7967,   9939 },                           -- Mithril Shield Spike : =ds=#sr# 215 : =ds=AtlasLoot["World Drop"]
+				{ 23, 6042,   7221 },                           -- Iron Shield Spike : =ds=#sr# 150 : =ds=AtlasLoot["World Drop"]
+				{ 25, 44936,  62202 },                          -- Titanium Plating : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Alliance Vanguard"] - AtlasLoot["Exalted"] / ["Horde Expedition"] - AtlasLoot["Exalted"]
+				{ 26, 23576,  29729 },                          -- Greater Ward of Shielding : =ds=#sr# 375 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Netherstorm"]
+				{ 27, 23575,  29728 },                          -- Lesser Ward of Shielding :  =ds=#sr# 180 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Shadowmoon Valley"] / ALIL["Hellfire Peninsula"]
+			},
+		},
+		{ --SmithingWeaponEnhancement
+			name = AL["Weapon Enhancements"],
+			[TWW_DIFF] = {
+				{ 1, 222502, 450285 }, -- Ironclaw Whetstone
+				{ 2, 222508, 450287 }, -- Ironclaw Weightstone
+				{ 3, 222505, 450286 }, -- Ironclaw Razorstone
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  127731, 187514, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Steelforged Essence (Sold, Ashran)
+				{ 2,  127713, 187490, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Mighty Steelforged Essence (Sold, Ashran)
+				{ 3,  128016, 171710, [PRICE_EXTRA_ITTYPE] = "118720:5" }, -- Steelforged Essence (Sold, Ashran)
+				{ 4,  116654, 171699, [PRICE_EXTRA_ITTYPE] = "118720:1" }, -- Truesteel Grinder (Sold, Ashran)
+				{ 6,  86597,  131929 },                         -- Living Steel Weapon Chain : =ds=#sr# 540 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
+				{ 7,  55057,  76442 },                          -- Pyrium Weapon Chain : =ds=#sr# 500 : =ds=AtlasLoot["Vendor"] "20 #elementiumbar#"
+				{ 8,  41976,  55839 },                          -- Titanium Weapon Chain : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
+				{ 9,  33185,  42688 },                          -- Adamantite Weapon Chain : =ds=#sr# 335 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Magisters' Terrace"] / AtlasLoot["World Drop"]
+				{ 10, 6041,   7224 },                           -- Steel Weapon Chain : =ds=#sr# 190 : =ds=AtlasLoot["World Drop"]
+				{ 12, 6043,   7222 },                           -- Iron Counterweight : =ds=#sr# 165 : =ds=AtlasLoot["World Drop"]
+				{ 16, 18262,  22757 },                          -- Elemental Sharpening Stone : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Molten Core"]
+				{ 17, 23529,  29656 },                          -- Adamantite Sharpening Stone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
+				{ 18, 23528,  29654 },                          -- Fel Sharpening Stone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 19, 12404,  16641 },                          -- Dense Sharpening Stone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 20, 7964,   9918 },                           -- Solid Sharpening Stone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 21, 2871,   2674 },                           -- Heavy Sharpening Stone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 22, 2863,   2665 },                           -- Coarse Sharpening Stone : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
+				{ 23, 2862,   2660 },                           -- Rough Sharpening Stone : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 24, 28421,  34608 },                          -- Adamantite Weightstone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
+				{ 25, 28420,  34607 },                          -- Fel Weightstone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 26, 12643,  16640 },                          -- Dense Weightstone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 27, 7965,   9921 },                           -- Solid Weightstone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 28, 3241,   3117 },                           -- Heavy Weightstone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 29, 3240,   3116 },                           -- Coarse Weightstone : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
+				{ 30, 3239,   3115 },                           -- Rough Weightstone : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[TWW_DIFF] = {
+				{ 1,  222487, 450274 },                          -- Proficient Blacksmith's Toolbox
+				{ 2,  222485, 450272 },                          -- Proficient Leatherworker's Toolset
+				{ 3,  222483, 450270 },                          -- Proficient Needle Set
+				{ 4,  222486, 450273 },                          -- Proficient Blacksmith's Hammer
+				{ 5,  222484, 450271 },                          -- Proficient Leatherworker's Knife
+				{ 6,  222481, 450268 },                          -- Proficient Pickaxe
+				{ 7,  222480, 450267 },                          -- Proficient Sickle
+				{ 8,  222482, 450269 },                          -- Proficient Skinning Knife
+				{ 16, 222494, 450281 },                          -- Artisan Blacksmith's Hammer
+				{ 17, 222495, 450282 },                          -- Artisan Blacksmith's Toolbox
+				{ 18, 222490, 450277 },                          -- Artisan Skinning Knife
+				{ 19, 222492, 450279, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Leatherworker's Knife
+				{ 20, 222493, 450280, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Leatherworker's Toolset
+				{ 21, 222491, 450278, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Needle Set
+				{ 22, 222489, 450276, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Pickaxe
+				{ 23, 222488, 450275, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Sickle
 			},
 		},
 		{ --SmithingTrainingProjects
@@ -1752,66 +1913,6 @@ data["Blacksmithing"] = {
 				{ 2, 136686, 209499 }, -- Flamespike
 				{ 3, 136684, 209497 }, -- Gleaming Iron Spike
 				{ 4, 136683, 209496 }, -- Terrorspike
-			},
-		},
-		{ --SmithingArmorEnhancement
-			name = AL["Armor Enhancements"],
-			[LEGION_DIFF] = {
-				-- 7.3.0
-				{ 1, 151239, 246098 }, -- Felslate Anchor
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  127732, 187515, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Savage Truesteel Essence (Sold, Garrison)
-				{ 2,  127714, 187491, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Mighty Truesteel Essence (Sold, Garrison)
-				{ 3,  128015, 171708, [PRICE_EXTRA_ITTYPE] = "118720:5" }, -- Truesteel Essence (Sold, Ashran)
-				{ 4,  116428, 173355, [PRICE_EXTRA_ITTYPE] = "118720:1" }, -- Truesteel Reshaper (Sold, Ashran)
-				{ 6,  90046,  122632 },                         -- Living Steel Belt Buckle : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
-				{ 7,  55054,  76439 },                          -- Ebonsteel Belt Buckle : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "5 #pyriumbar#"
-				{ 8,  41611,  55656 },                          -- Eternal Belt Buckle : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
-				{ 10, 25521,  32285 },                          -- Greater Rune of Warding : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
-				{ 11, 23559,  32284 },                          -- Lesser Rune of Warding : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 13, 7969,   9964 },                           -- Mithril Spurs : =ds=#sr# 235 : =ds=AtlasLoot["World Drop"]
-				{ 16, 86599,  131928 },                         -- Ghost Iron Shield Spike : =ds=#sr# 540 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
-				{ 17, 55056,  76440 },                          -- Pyrium Shield Spike : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"] "5 #pyriumbar#"
-				{ 18, 55055,  76441 },                          -- Elementium Shield Spike : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
-				{ 19, 42500,  56357 },                          -- Titanium Shield Spike : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
-				{ 20, 23530,  29657 },                          -- Felsteel Shield Spike : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Honor Hold"] - AtlasLoot["Exalted"] / ["Thrallmar"] - AtlasLoot["Exalted"]
-				{ 21, 12645,  16651 },                          -- Thorium Shield Spike : =ds=#sr# 275 : =ds=AtlasLoot["World Drop"]
-				{ 22, 7967,   9939 },                           -- Mithril Shield Spike : =ds=#sr# 215 : =ds=AtlasLoot["World Drop"]
-				{ 23, 6042,   7221 },                           -- Iron Shield Spike : =ds=#sr# 150 : =ds=AtlasLoot["World Drop"]
-				{ 25, 44936,  62202 },                          -- Titanium Plating : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Alliance Vanguard"] - AtlasLoot["Exalted"] / ["Horde Expedition"] - AtlasLoot["Exalted"]
-				{ 26, 23576,  29729 },                          -- Greater Ward of Shielding : =ds=#sr# 375 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Netherstorm"]
-				{ 27, 23575,  29728 },                          -- Lesser Ward of Shielding :  =ds=#sr# 180 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Shadowmoon Valley"] / ALIL["Hellfire Peninsula"]
-			},
-		},
-		{ --SmithingWeaponEnhancement
-			name = AL["Weapon Enhancements"],
-			[NORMAL_DIFF] = {
-				{ 1,  127731, 187514, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Steelforged Essence (Sold, Ashran)
-				{ 2,  127713, 187490, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Mighty Steelforged Essence (Sold, Ashran)
-				{ 3,  128016, 171710, [PRICE_EXTRA_ITTYPE] = "118720:5" }, -- Steelforged Essence (Sold, Ashran)
-				{ 4,  116654, 171699, [PRICE_EXTRA_ITTYPE] = "118720:1" }, -- Truesteel Grinder (Sold, Ashran)
-				{ 6,  86597,  131929 },                         -- Living Steel Weapon Chain : =ds=#sr# 540 : =ds=AtlasLoot_IngameLocales["The Klaxxi"] - AtlasLoot["Honored"]
-				{ 7,  55057,  76442 },                          -- Pyrium Weapon Chain : =ds=#sr# 500 : =ds=AtlasLoot["Vendor"] "20 #elementiumbar#"
-				{ 8,  41976,  55839 },                          -- Titanium Weapon Chain : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
-				{ 9,  33185,  42688 },                          -- Adamantite Weapon Chain : =ds=#sr# 335 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Magisters' Terrace"] / AtlasLoot["World Drop"]
-				{ 10, 6041,   7224 },                           -- Steel Weapon Chain : =ds=#sr# 190 : =ds=AtlasLoot["World Drop"]
-				{ 12, 6043,   7222 },                           -- Iron Counterweight : =ds=#sr# 165 : =ds=AtlasLoot["World Drop"]
-				{ 16, 18262,  22757 },                          -- Elemental Sharpening Stone : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Molten Core"]
-				{ 17, 23529,  29656 },                          -- Adamantite Sharpening Stone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
-				{ 18, 23528,  29654 },                          -- Fel Sharpening Stone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 19, 12404,  16641 },                          -- Dense Sharpening Stone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 20, 7964,   9918 },                           -- Solid Sharpening Stone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 21, 2871,   2674 },                           -- Heavy Sharpening Stone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 22, 2863,   2665 },                           -- Coarse Sharpening Stone : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
-				{ 23, 2862,   2660 },                           -- Rough Sharpening Stone : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 24, 28421,  34608 },                          -- Adamantite Weightstone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
-				{ 25, 28420,  34607 },                          -- Fel Weightstone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 26, 12643,  16640 },                          -- Dense Weightstone : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 27, 7965,   9921 },                           -- Solid Weightstone : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 28, 3241,   3117 },                           -- Heavy Weightstone : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 29, 3240,   3116 },                           -- Coarse Weightstone : =ds=#sr# 65 : =ds=AtlasLoot["Trainer"]
-				{ 30, 3239,   3115 },                           -- Rough Weightstone : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{ --SmithingArmorsmith
