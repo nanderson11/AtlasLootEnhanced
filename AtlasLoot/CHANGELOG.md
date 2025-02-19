@@ -1,12 +1,15 @@
 ﻿# Changelog
 
-## 8.19.0 -
+## 8.19.0 - February 19, 2025
 ### Added
 - Added Dragonflight and The War Within tabards to Collections
 - Added TWW Alchemy recipes
 - Added TWW Blacksmithing recipes
+- Added TWW Enchanting recipes
 ### Fixed
 - Fixed error when clicking on tabs with factions under the Collections module
+- Correctly categorized Enchant Shoulder - Boon of the Scavenger as Legion
+- Removed Nexus Transformation from Enchanting since it's no longer in the game
 
 ## 8.18.0 - February 13, 2025
 ### Added

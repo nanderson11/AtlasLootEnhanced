@@ -40,19 +40,19 @@ data["Alchemy"] = {
 		{ --AlchemyFlask
 			name = AL["Flasks"],
 			[TWW_DIFF] = {
-				{ 1,  212281, 430605 },                          -- Flask of Alchemical Chaos
-				{ 2,  212299, 430612 },                          -- Flask of Saving Graces
-				{ 3,  212269, 430601 },                          -- Flask of Tempered Aggression
-				{ 4,  212278, 430604 },                          -- Flask of Tempered Mastery
-				{ 5,  212272, 430602 },                          -- Flask of Tempered Swiftness
-				{ 6,  212275, 430603 },                          -- Flask of Tempered Versatility
-				{ 8,  212292, 430608, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of Honor
-				{ 9,  212289, 430607, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of Classical Spirits
-				{ 10, 212298, 430611, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of the Wrecking Ball
-				{ 16, 212314, 430617 },                          -- Phial of Bountiful Seasons
-				{ 17, 212305, 430614 },                          -- Phial of Concentrated Ingenuity
-				{ 18, 212311, 430616 },                          -- Phial of Enhanced Ambidexterity
-				{ 19, 212308, 430615 },                          -- Phial of Truesight
+				{ 1,  212281, 430605, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Alchemical Chaos
+				{ 2,  212299, 430612, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Saving Graces
+				{ 3,  212269, 430601, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Tempered Aggression
+				{ 4,  212278, 430604, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Tempered Mastery
+				{ 5,  212272, 430602, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Tempered Swiftness
+				{ 6,  212275, 430603, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Tempered Versatility
+				{ 8,  212292, 430608, [ATLASLOOT_IT_AMOUNT1] = 2,         [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Vicious Flask of Honor
+				{ 9,  212289, 430607, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                         -- Vicious Flask of Classical Spirits
+				{ 10, 212298, 430611, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                         -- Vicious Flask of the Wrecking Ball
+				{ 16, 212314, 430617, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Bountiful Seasons
+				{ 17, 212305, 430614, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Concentrated Ingenuity
+				{ 18, 212311, 430616, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Enhanced Ambidexterity
+				{ 19, 212308, 430615, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Truesight
 			},
 			[BFA_DIFF] = {
 				{ 1,  152639, 252351 }, -- Flask of Endless Fathoms
@@ -131,17 +131,17 @@ data["Alchemy"] = {
 		{ --AlchemyPotions
 			name = AL["Potions"],
 			[TWW_DIFF] = {
-				{ 1,  211878, 430590 }, -- Algari Healing Potion
-				{ 2,  212239, 430591 }, -- Algari Mana Potion
-				{ 3,  212242, 430592 }, -- Cavedweller's Delight
-				{ 4,  212245, 430593 }, -- Slumbering Soul Serum
-				{ 6,  212260, 430598 }, -- Frontline Potion
-				{ 7,  212254, 430596 }, -- Grotesque Vial
-				{ 8,  212266, 430600 }, -- Potion of the Reborn Cheetah
-				{ 9,  212257, 430597 }, -- Potion of Unwavering Focus
-				{ 10, 212263, 430599 }, -- Tempered Potion
-				{ 11, 212251, 430595 }, -- Draught of Shocking Revelations
-				{ 12, 212248, 430594 }, -- Draught of Silent Footfalls
+				{ 1,  211878, 430590, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Algari Healing Potion
+				{ 2,  212239, 430591, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Algari Mana Potion
+				{ 3,  212242, 430592, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Cavedweller's Delight
+				{ 4,  212245, 430593, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Slumbering Soul Serum
+				{ 6,  212260, 430598, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Frontline Potion
+				{ 7,  212254, 430596, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Grotesque Vial
+				{ 8,  212266, 430600, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of the Reborn Cheetah
+				{ 9,  212257, 430597, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Unwavering Focus
+				{ 10, 212263, 430599, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Tempered Potion
+				{ 11, 212251, 430595, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Draught of Shocking Revelations
+				{ 12, 212248, 430594, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Draught of Silent Footfalls
 			},
 			[BFA_DIFF] = {
 				{ 1,   163225, 279165 }, -- Battle Potion of Stamina
@@ -724,23 +724,23 @@ data["Blacksmithing"] = {
 		{ --SmithingArmor
 			name = AL["Armor"],
 			[TWW_DIFF] = {
-				{ 1,  222476, 450263 },                           -- Dredger's Developed Legplates
-				{ 2,  222478, 450265 },                           -- Dredger's Developed Pauldrons
-				{ 3,  222479, 450266 },                           -- Dredger's Developed Gauntlets
-				{ 4,  222475, 450262 },                           -- Dredger's Developed Helm
-				{ 5,  222473, 450260 },                           -- Dredger's Developed Greatbelt
-				{ 6,  222477, 450264 },                           -- Dredger's Plate Vambraces
-				{ 7,  222472, 450259 },                           -- Dredger's Plate Breastplate
-				{ 8,  222471, 450258 },                           -- Dredger's Plate Sabatons
-				{ 9,  222430, 450221 },                           -- Everforged Breastplate
-				{ 10, 222437, 450228 },                           -- Everforged Gauntlets
-				{ 11, 222431, 450222 },                           -- Everforged Greatbelt
-				{ 12, 222433, 450224 },                           -- Everforged Helm
-				{ 13, 222434, 450225 },                           -- Everforged Legplates
-				{ 14, 222436, 450227 },                           -- Everforged Pauldrons
-				{ 15, 222429, 450220 },                           -- Everforged Sabatons
-				{ 16, 222435, 450226 },                           -- Everforged Vambraces
-				{ 17, 222458, 450245 },                           -- Sanctified Steps
+				{ 1,  222476, 450263 },                          -- Dredger's Developed Legplates
+				{ 2,  222478, 450265 },                          -- Dredger's Developed Pauldrons
+				{ 3,  222479, 450266 },                          -- Dredger's Developed Gauntlets
+				{ 4,  222475, 450262 },                          -- Dredger's Developed Helm
+				{ 5,  222473, 450260 },                          -- Dredger's Developed Greatbelt
+				{ 6,  222477, 450264 },                          -- Dredger's Plate Vambraces
+				{ 7,  222472, 450259 },                          -- Dredger's Plate Breastplate
+				{ 8,  222471, 450258 },                          -- Dredger's Plate Sabatons
+				{ 9,  222430, 450221 },                          -- Everforged Breastplate
+				{ 10, 222437, 450228 },                          -- Everforged Gauntlets
+				{ 11, 222431, 450222 },                          -- Everforged Greatbelt
+				{ 12, 222433, 450224 },                          -- Everforged Helm
+				{ 13, 222434, 450225 },                          -- Everforged Legplates
+				{ 14, 222436, 450227 },                          -- Everforged Pauldrons
+				{ 15, 222429, 450220 },                          -- Everforged Sabatons
+				{ 16, 222435, 450226 },                          -- Everforged Vambraces
+				{ 17, 222458, 450245 },                          -- Sanctified Steps
 				{ 18, 217150, 438921, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Armguards
 				{ 19, 217143, 438914, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Breastplate
 				{ 20, 217145, 438916, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Gauntlets
@@ -1693,7 +1693,7 @@ data["Blacksmithing"] = {
 				{ 1,  222417, 450216 },                                   -- Core Alloy
 				{ 2,  222426, 450219 },                                   -- Ironclaw Alloy
 				{ 3,  222420, 450217 },                                   -- Charged Alloy
-				{ 4,  222423, 450218 },                                   -- Sanctified Alloy
+				{ 4,  222423, 450218, [ATLASLOOT_IT_AMOUNT1] = 2 },       -- Sanctified Alloy
 				{ 6,  222499, 450284 },                                   -- Forged Framework
 				{ 7,  222511, 450288 },                                   -- Adjustable Framework
 				{ 8,  222514, 450289 },                                   -- Tempered Framework
@@ -1780,9 +1780,9 @@ data["Blacksmithing"] = {
 		{ --SmithingWeaponEnhancement
 			name = AL["Weapon Enhancements"],
 			[TWW_DIFF] = {
-				{ 1, 222502, 450285 }, -- Ironclaw Whetstone
-				{ 2, 222508, 450287 }, -- Ironclaw Weightstone
-				{ 3, 222505, 450286 }, -- Ironclaw Razorstone
+				{ 1, 222502, 450285, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Ironclaw Whetstone
+				{ 2, 222508, 450287, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Ironclaw Weightstone
+				{ 3, 222505, 450286 },                 -- Ironclaw Razorstone
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  127731, 187514, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Steelforged Essence (Sold, Ashran)
@@ -1990,8 +1990,12 @@ data["Enchanting"] = {
 	ContentType = PRIMPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
-		{ --EnchantingsWeapon
+		{ --EnchantingWeapons
 			name = AL["Weapons"],
+			[TWW_DIFF] = {
+				{ 1, 224404, 445324 }, -- Enchanted Spearwood Wand
+				{ 2, 224405, 445355 }, -- Scepter of Radiant Magics
+			},
 			[BFA_DIFF] = {
 				{ 1,  159922, 269715 }, -- Honorable Combatant's Sorcerous Scepter
 				{ 2,  159922, 269716 }, -- Honorable Combatant's Sorcerous Scepter
@@ -2006,6 +2010,17 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingWeaponEnchants
 			name = AL["Weapon Enchants"],
+			[TWW_DIFF] = {
+				{ 1, 223766, 445351 }, -- Enchant Weapon - Oathsworn's Tenacity
+				{ 2, 223763, 445385 }, -- Enchant Weapon - Stonebound Artistry
+				{ 3, 223760, 445317 }, -- Enchant Weapon - Stormrider's Fury
+				{ 4, 223757, 445379 }, -- Enchant Weapon - Council's Guile
+				{ 5, 223773, 445331 }, -- Enchant Weapon - Authority of Air
+				{ 6, 223776, 445403 }, -- Enchant Weapon - Authority of Fiery Resolve
+				{ 7, 223779, 445339 }, -- Enchant Weapon - Authority of Radiant Power
+				{ 8, 223770, 445336 }, -- Enchant Weapon - Authority of Storms
+				{ 9, 223782, 445341 }, -- Enchant Weapon - Authority of the Depths
+			},
 			[BFA_DIFF] = {
 				{ 1,   153479, 255129, [ATLASLOOT_IT_AMOUNT1] = "10%" }, -- Weapon Enchant - Torrent of Elements
 				{ 2,   153479, 255130, [ATLASLOOT_IT_AMOUNT1] = "10%" }, -- Weapon Enchant - Torrent of Elements
@@ -2145,6 +2160,14 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingBracers
 			name = AL["Bracers"],
+			[TWW_DIFF] = {
+				{ 1, 223708, 445392 },                                   -- Enchant Bracer - Whisper of Armored Avoidance
+				{ 2, 223720, 445376 },                                   -- Enchant Bracer - Whisper of Armored Speed
+				{ 3, 223714, 445374 },                                   -- Enchant Bracer - Whisper of Armored Leech
+				{ 4, 223723, 445330 },                                   -- Enchant Bracer - Chant of Armored Speed
+				{ 5, 223717, 445325, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Enchant Bracer - Chant of Armored Leech
+				{ 6, 223711, 445334, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Enchant Bracer - Chant of Armored Avoidance
+			},
 			[BFA_DIFF] = {
 				{ 1,  160328, 271366 }, -- Safe Hearthing
 				{ 2,  160330, 271433 }, -- Cooled Hearthing
@@ -2291,6 +2314,11 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingBoots
 			name = AL["Boots"],
+			[TWW_DIFF] = {
+				{ 1, 223654, 445396 },                          -- Enchant Boots - Defender's March
+				{ 2, 223651, 445368, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Boots - Scout's March
+				{ 3, 223618, 445335, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Boots - Cavalry's March
+			},
 			[MOP_DIFF] = {
 				{ 1, 74718, 104414 }, -- Enchant Boots - Pandaren's Step : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
 				{ 2, 74717, 104409 }, -- Enchant Boots - Blurred Speed : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
@@ -2341,6 +2369,12 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingChest
 			name = AL["Chest"],
+			[TWW_DIFF] = {
+				{ 1, 223690, 445333 },                          -- Enchant Chest - Crystalline Radiance
+				{ 2, 223687, 445321 },                          -- Enchant Chest - Oathsworn's Strength
+				{ 3, 223681, 445353 },                          -- Enchant Chest - Stormrider's Agility
+				{ 4, 223684, 445322, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Chest - Council's Intellect
+			},
 			[MOP_DIFF] = {
 				{ 1, 74708, 104395 }, -- Enchant Chest - Glorious Stats : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
 				{ 2, 74709, 104397 }, -- Enchant Chest - Superior Stamina : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
@@ -2396,6 +2430,14 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingCloak
 			name = AL["Cloak"],
+			[TWW_DIFF] = {
+				{ 1, 223738, 445373 }, -- Enchant Cloak - Whisper of Silken Speed
+				{ 2, 223732, 445348 }, -- Enchant Cloak - Whisper of Silken Leech
+				{ 3, 223726, 445344 }, -- Enchant Cloak - Whisper of Silken Avoidance
+				{ 4, 223798, 445389 }, -- Enchant Cloak - Chant of Burrowing Rapidity
+				{ 5, 223735, 445393 }, -- Enchant Cloak - Chant of Leeching Fangs
+				{ 6, 223729, 445386 }, -- Enchant Cloak - Chant of Winged Grace
+			},
 			[LEGION_DIFF] = {
 				{ 1,  128549, 190878 }, -- Binding of Agility
 				{ 2,  128549, 191004 }, -- Binding of Agility
@@ -2516,6 +2558,20 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingRing
 			name = AL["Ring"],
+			[TWW_DIFF] = {
+				{ 1,  223663, 445384 }, -- Enchant Ring - Glimmering Haste
+				{ 2,  223657, 445358 }, -- Enchant Ring - Glimmering Critical Strike
+				{ 3,  223666, 445381 }, -- Enchant Ring - Glimmering Mastery
+				{ 4,  223669, 445340 }, -- Enchant Ring - Glimmering Versatility
+				{ 5,  223794, 445383 }, -- Enchant Ring - Cursed Versatility
+				{ 6,  223791, 445359 }, -- Enchant Ring - Cursed Mastery
+				{ 7,  223788, 445388 }, -- Enchant Ring - Cursed Haste
+				{ 8,  223785, 445394 }, -- Enchant Ring - Cursed Critical Strike
+				{ 9,  223678, 445349 }, -- Enchant Ring - Radiant Versatility
+				{ 10, 223675, 445375 }, -- Enchant Ring - Radiant Mastery
+				{ 11, 223672, 445320 }, -- Enchant Ring - Radiant Haste
+				{ 12, 223660, 445387 }, -- Enchant Ring - Radiant Critical Strike
+			},
 			[BFA_DIFF] = {
 				{ 1,  153442, 255075, [ATLASLOOT_IT_AMOUNT1] = "9" }, -- Pact of Critical Strike
 				{ 2,  153442, 255098, [ATLASLOOT_IT_AMOUNT1] = "9" }, -- Pact of Critical Strike
@@ -2617,12 +2673,65 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingShoulder
 			name = AL["Shoulder"],
-			[NORMAL_DIFF] = {
+			[TWW_DIFF] = {
+				{ 1, 223751, 445360 }, -- Illusory Adornment: Runes
+				{ 2, 223745, 445327 }, -- Illusory Adornment: Crystal
+				{ 3, 223748, 445401 }, -- Illusory Adornment: Radiance
+				{ 4, 223754, 445337 }, -- Illusory Adornment: Shadow
+			},
+			[LEGION_DIFF] = {
 				{ 1, 128554, 190954 }, -- Enchant Shoulder - Boon of the Scavenger
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[TWW_DIFF] = {
+				{ 1, 224114, 445361 },                          -- Runed Bismuth Rod
+				{ 2, 224115, 445372 },                          -- Runed Ironclaw Rod
+				{ 3, 224116, 445323, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Runed Null Stone Rod
+				{ 5, 223699, 445378 },                          -- Enchant Tool - Algari Ingenuity
+				{ 6, 223693, 445364, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Deftness
+				{ 7, 223696, 445328, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Finesse
+				{ 8, 223702, 445380, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Perception
+				{ 9, 223705, 445398, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Resourcefulness
 			},
 		},
 		{ --EnchantingMisc
 			name = AL["Miscellaneous"],
+			[TWW_DIFF] = {
+				{ 1,   224105, 445338, [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Algari Mana Oil
+				{ 2,   224108, 445318, [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Oil of Beledar's Grace
+				{ 3,   224111, 445346, [ATLASLOOT_IT_AMOUNT1] = 5, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Oil of Deep Toxins
+				{ 4,   224176, 445371 },                                                      -- Mirror Powder
+				{ 5,   224173, 445395 },                                                      -- Concentration Concentrate
+				{ 6,   224069, 445399 },                                                      -- Enchanted Weathered Harbinger Crest
+				{ 7,   224072, 445347 },                                                      -- Enchanted Runed Harbinger Crest
+				{ 8,   224073, 445354 },                                                      -- Enchanted Gilded Harbinger Crest
+				{ 10,  224300, 445367 },                                                      -- Gleeful Glamour - Blood Elf
+				{ 11,  224301, 445400 },                                                      -- Gleeful Glamour - Dark Iron Dwarf
+				{ 12,  224302, 445391 },                                                      -- Gleeful Glamour - Draenei
+				{ 13,  224303, 445402 },                                                      -- Gleeful Glamour - Dwarf
+				{ 14,  224304, 445382 },                                                      -- Gleeful Glamour - Earthen
+				{ 15,  224305, 445362 },                                                      -- Gleeful Glamour - Gnome
+				{ 16,  224306, 445332 },                                                      -- Gleeful Glamour - Goblin
+				{ 17,  224307, 445377 },                                                      -- Gleeful Glamour - Highmountain Tauren
+				{ 18,  224308, 445352 },                                                      -- Gleeful Glamour - Human
+				{ 19,  224309, 445342 },                                                      -- Gleeful Glamour - Kul Tiran
+				{ 20,  224310, 445343 },                                                      -- Gleeful Glamour - Lightforged Draenei
+				{ 21,  224311, 445370 },                                                      -- Gleeful Glamour - Mag'har Orc
+				{ 22,  224312, 445357 },                                                      -- Gleeful Glamour - Mechagnome
+				{ 23,  224313, 445363 },                                                      -- Gleeful Glamour - Night Elf
+				{ 24,  224314, 445390 },                                                      -- Gleeful Glamour - Nightborne
+				{ 25,  224315, 445319 },                                                      -- Gleeful Glamour - Orc
+				{ 26,  224316, 445365 },                                                      -- Gleeful Glamour - Pandaren
+				{ 27,  224317, 445366 },                                                      -- Gleeful Glamour - Tauren
+				{ 28,  224318, 445326 },                                                      -- Gleeful Glamour - Troll
+				{ 29,  224319, 445350 },                                                      -- Gleeful Glamour - Undead
+				{ 30,  224320, 445356 },                                                      -- Gleeful Glamour - Void Elf
+				{ 101, 224321, 445329 },                                                      -- Gleeful Glamour - Vulpera
+				{ 102, 224322, 445397 },                                                      -- Gleeful Glamour - Worgen
+				{ 103, 224323, 445345 },                                                      -- Gleeful Glamour - Zandalari Troll
+			},
 			[BFA_DIFF] = {
 				{ 1, 162110, 278418 }, -- Disenchanting Rod
 			},
@@ -2678,16 +2787,15 @@ data["Enchanting"] = {
 				{ 17, 22521,  28016 },                 -- Superior Mana Oil : =ds=#sr# 310 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Shattrath City"]
 			},
 			[CLASSIC_DIFF] = {
-				{ 1,  22448,  42613 }, -- Nexus Transformation : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 2,  11811,  15596 }, -- Smoking Heart of the Mountain : =ds=#sr# 265 : =ds=AtlasLoot["Drop"]: Lord Roccor370
-				{ 3,  12810,  17181 }, -- Enchanted Leather : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 4,  12655,  17180 }, -- Enchanted Thorium : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 5,  6218,   7421 }, -- Runed Copper Rod : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 7,  20750,  25128 }, -- Wizard Oil : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
-				{ 8,  20747,  25127 }, -- Lesser Mana Oil : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
-				{ 9,  20746,  25126 }, -- Lesser Wizard Oil : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]
-				{ 10, 20745,  25125 }, -- Minor Mana Oil : =ds=#sr# 150 : =ds=AtlasLoot["Vendor"]
-				{ 11, 20744,  25124 }, -- Minor Wizard Oil : =ds=#sr# 45 : =ds=AtlasLoot["Vendor"]
+				{ 1,  11811,  15596 }, -- Smoking Heart of the Mountain : =ds=#sr# 265 : =ds=AtlasLoot["Drop"]: Lord Roccor370
+				{ 2,  12810,  17181 }, -- Enchanted Leather : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 3,  12655,  17180 }, -- Enchanted Thorium : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 4,  6218,   7421 }, -- Runed Copper Rod : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 6,  20750,  25128 }, -- Wizard Oil : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
+				{ 7,  20747,  25127 }, -- Lesser Mana Oil : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
+				{ 8,  20746,  25126 }, -- Lesser Wizard Oil : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]
+				{ 9,  20745,  25125 }, -- Minor Mana Oil : =ds=#sr# 150 : =ds=AtlasLoot["Vendor"]
+				{ 10, 20744,  25124 }, -- Minor Wizard Oil : =ds=#sr# 45 : =ds=AtlasLoot["Vendor"]
 				{ 16, 11290,  14810 }, -- Greater Mystic Wand : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
 				{ 17, 11289,  14809 }, -- Lesser Mystic Wand : =ds=#sr# 155 : =ds=AtlasLoot["Trainer"]
 				{ 18, 11288,  14807 }, -- Greater Magic Wand : =ds=#sr# 70 : =ds=AtlasLoot["Trainer"]
