@@ -1,5 +1,14 @@
 ﻿# Changelog
 
+## 8.20.0 -
+### Added
+- Added TWW Engineering recipes
+- Added TWW Inscription recipes
+- Added Grimoire of the Shadow Succubus and Grimoire of the Abyssal to Warlock glyphs
+### Fixed
+- Updated IDs for Tome of the Clear Mind in the Crafting module
+- Removed Glyph of Deluge and Glyph of the Observer
+
 ## 8.19.0 - February 19, 2025
 ### Added
 - Added Dragonflight and The War Within tabards to Collections

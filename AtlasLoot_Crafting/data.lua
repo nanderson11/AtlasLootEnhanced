@@ -3061,13 +3061,13 @@ data["Engineering"] = {
 			[TWW_DIFF] = {
 				{ 1,  221949, 447365, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pausing Pylon
 				{ 2,  221957, 447367, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Algari Repair Bot 11O
-				{ 3,  221953, 447366 },                  -- Convincingly Realistic Jumper Cables
-				{ 4,  221945, 447364 },                  -- Irresistible Red Button
-				{ 5,  219387, 447369 },                  -- Barrel of Fireworks
-				{ 6,  221962, 447370 },                  -- Defective Escape Pod
-				{ 7,  221966, 447372 },                  -- Wormhole Generator: Khaz Algar
-				{ 8,  221964, 447371 },                  -- Filmless Camera
-				{ 9,  219403, 443570 },                  -- Stonebound Lantern
+				{ 3,  221953, 447366 },                 -- Convincingly Realistic Jumper Cables
+				{ 4,  221945, 447364 },                 -- Irresistible Red Button
+				{ 5,  219387, 447369 },                 -- Barrel of Fireworks
+				{ 6,  221962, 447370 },                 -- Defective Escape Pod
+				{ 7,  221966, 447372 },                 -- Wormhole Generator: Khaz Algar
+				{ 8,  221964, 447371 },                 -- Filmless Camera
+				{ 9,  219403, 443570 },                 -- Stonebound Lantern
 				{ 10, 221959, 447368, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Portable Profession Possibility Projector
 			},
 			[BFA_DIFF] = {
@@ -3652,6 +3652,534 @@ data["Inscription"] = {
 	ContentType = PRIMPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
+		{ --InscriptionStaves
+			name = AL["Staves"],
+			[TWW_DIFF] = {
+				{ 1, 222570, 444201 },                          -- Inquisitor's Baton
+				{ 2, 222569, 444200 },                          -- Inquisitor's Crutch
+				{ 3, 222568, 444199 },                          -- Vagabond's Bounding Baton
+				{ 4, 222567, 444198 },                          -- Vagabond's Careful Crutch
+				{ 5, 225369, 455008, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Staff
+				{ 6, 225368, 455007, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Pillar
+			},
+			[NORMAL_DIFF] = {
+				{ 1,   "113134:Stage6W", 187518 },                        -- Crystalfire Spellstaff (Stage 6)
+				{ 2,   "113134:Stage5W", 187494 },                        -- Crystalfire Spellstaff (Stage 5)
+				{ 3,   "113134:Stage4W", 166366 },                        -- Crystalfire Spellstaff (Stage 4)
+				{ 4,   "113134:Stage3W", 166366 },                        -- Crystalfire Spellstaff (Stage 3)
+				{ 5,   "113134:Stage2W", 166366 },                        -- Crystalfire Spellstaff (Stage 2)
+				{ 6,   "113134:Stage1",  166356, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Crystalfire Spellstaff (Stage 1) (Sold, Ashran)
+
+				{ 8,   "111526:Stage6W", 187518 },                        -- Etched-Blade Warstaff (Stage 6)
+				{ 9,   "111526:Stage5W", 187494 },                        -- Etched-Blade Warstaff (Stage 5)
+				{ 10,  "111526:Stage4W", 166366 },                        -- Etched-Blade Warstaff (Stage 4)
+				{ 11,  "111526:Stage3W", 166366 },                        -- Etched-Blade Warstaff (Stage 3)
+				{ 12,  "111526:Stage2W", 166366 },                        -- Etched-Blade Warstaff (Stage 2)
+				{ 13,  "111526:Stage1",  166359, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Etched-Blade Warstaff (Stage 1) (Sold, Ashran)
+
+				{ 16,  "113131:Stage6W", 187518 },                        -- Warmaster's Firestick (Stage 6)
+				{ 17,  "113131:Stage5W", 187494 },                        -- Warmaster's Firestick (Stage 5)
+				{ 18,  "113131:Stage4W", 166366 },                        -- Warmaster's Firestick (Stage 4)
+				{ 19,  "113131:Stage3W", 166366 },                        -- Warmaster's Firestick (Stage 3)
+				{ 20,  "113131:Stage2W", 166366 },                        -- Warmaster's Firestick (Stage 2)
+				{ 21,  "113131:Stage1",  165804, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Warmaster's Firestick (Stage 1) (Sold, Ashran)
+				{ 101, 79340,            111918 },                        -- Inscribed Crane Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 102, 79341,            111919 },                        -- Inscribed Serpent Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 103, 79343,            111921 },                        -- Inscribed Tiger Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 104, 79342,            111920 },                        -- Ghost Iron Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 105, 79339,            111917 },                        -- Rain Poppy Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 106, 87562,            86652 },                         -- Rosethorn Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 107, 87561,            86653 },                         -- Silver Inlaid Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 108, 87566,            86649 },                         -- Runed Staff : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
+				{ 109, 87565,            86648 },                         -- Key to the Planes : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --InscriptionOffHand
+			name = AL["Off-Hands"],
+			[TWW_DIFF] = {
+				{ 1, 222565, 444196 },                          -- Inquisitor's Torch
+				{ 2, 222566, 444197 },                          -- Vagabond's Torch
+				{ 3, 225372, 455006, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Lamp
+			},
+			[BFA_DIFF] = {
+				{ 1, 159940, 269741 }, -- Honorable Combatant's Etched Vessel
+				{ 2, 153643, 256249 }, -- Inscribed Vessel of Mysticism
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  "113270:Stage6W", 187519 },                        -- Shadowtome (Stage 6)
+				{ 2,  "113270:Stage5W", 187495 },                        -- Shadowtome (Stage 5)
+				{ 3,  "113270:Stage4W", 166366 },                        -- Shadowtome (Stage 4)
+				{ 4,  "113270:Stage3W", 166366 },                        -- Shadowtome (Stage 3)
+				{ 5,  "113270:Stage2W", 166366 },                        -- Shadowtome (Stage 2)
+				{ 6,  "113270:Stage1",  166363, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Shadowtome (Stage 1) (Sold, Ashran)
+				{ 8,  79334,            111909 },                        -- Inscribed Jade Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 9,  79335,            111910 },                        -- Inscribed Red Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 10, 79333,            111908 },                        -- Inscribed Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 11, 62236,            86643 },                         -- Battle Tome : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 12, 62235,            86642 },                         -- Divine Companion : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 13, 62234,            86641 },                         -- Dungeoneering Guide : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 14, 62231,            86616 },                         -- Book of Blood : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 15, 62233,            86640 },                         -- Lord Rottington's Pressed Wisp Book : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 16, 44210,            59498 },                         -- Faces of Doom : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 17, 38322,            59497 },                         -- Iron-bound Tome : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 18, 45854,            64051 },                         -- Rituals of the New Moon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 19, 45849,            64053 },                         -- Twilight Tome : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 20, 43667,            59496 },                         -- Book of Clever Tricks : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 21, 43666,            59495 },                         -- Hellfire Tome : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 22, 43664,            59494 },                         -- Manual of Clouds : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 23, 43663,            59493 },                         -- Stormbound Tome : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 24, 43661,            59490 },                         -- Book of Stars : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 25, 43660,            59489 },                         -- Fire Eater's Guide : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 26, 43657,            59486 },                         -- Royal Guide of Escape Routes : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 27, 43656,            59484 },                         -- Tome of Kings : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 28, 43655,            59478 },                         -- Book of Survival : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 29, 43654,            59475 },                         -- Tome of the Dawn : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 30, 43515,            58565 },                         -- Mystic Tome : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --InscriptionTrinketsDarkmoonFaireCards
+			name = AL["Trinkets"].." / "..AL["Darkmoon Cards"],
+			[TWW_DIFF] = {
+				{ 1, 226022, 444192 },                          -- Darkmoon Sigil: Ascension
+				{ 2, 226025, 444193 },                          -- Darkmoon Sigil: Radiance
+				{ 3, 226028, 444194 },                          -- Darkmoon Sigil: Symbiosis
+				{ 4, 226031, 444195 },                          -- Darkmoon Sigil: Vivacity
+				{ 6, 219933, 444338, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Emblem
+				{ 7, 219932, 444337, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Insignia of Alacrity
+				{ 8, 219931, 444336, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Medallion
+			},
+			[BFA_DIFF] = {
+				{ 1,  153598, 256246 }, -- Darkmoon Card of War
+				{ 2,  153598, 256245 }, -- Darkmoon Card of War
+				{ 3,  153598, 278527 }, -- Darkmoon Card of War
+				{ 16, 159128 }, -- Darkmoon Deck: Blockades
+				{ 17, 159127 }, -- Darkmoon Deck: Tides
+				{ 18, 159126 }, -- Darkmoon Deck: Squalls
+				{ 19, 159125 }, -- Darkmoon Deck: Fathoms
+			},
+			[LEGION_DIFF] = {
+				{ 1,  128712, 191659 }, -- Darkmoon Card of the Legion
+				{ 2,  128712, 192859 }, -- Darkmoon Card of the Legion
+				{ 3,  128712, 192890 }, -- Darkmoon Card of the Legion
+				{ 5,  128978, 192854 }, -- Prophecy Tarot
+				{ 6,  128978, 192855 }, -- Prophecy Tarot
+				{ 7,  128978, 192856 }, -- Prophecy Tarot
+				{ 16, 128705 }, -- Darkmoon Deck: Dominion
+				{ 17, 128709 }, -- Darkmoon Deck: Hellfire
+				{ 18, 128710 }, -- Darkmoon Deck: Promises
+				{ 19, 128711 }, -- Darkmoon Deck: Immortality
+			},
+			[WOD_DIFF] = {
+				{ 101, 112270,          163294, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Darkmoon Card of Draenor (Sold, Ashran)
+
+				{ 1,   112303 },                                         -- Iron Deck
+				{ 2,   "112319:Stage6", 187519 },                        -- Knight's Badge (Stage 6)
+				{ 3,   "112319:Stage5", 187495 },                        -- Knight's Badge (Stage 5)
+				{ 4,   "112319:Stage4", 178248 },                        -- Knight's Badge (Stage 4)
+				{ 5,   "112319:Stage3", 178248 },                        -- Knight's Badge (Stage 3)
+				{ 6,   "112319:Stage2", 178248 },                        -- Knight's Badge (Stage 2)
+				{ 7,   "112319:Stage1" },                                -- Knight's Badge (Stage 1)
+
+				{ 9,   112304 },                                         -- Moon Deck
+				{ 10,  "112320:Stage6", 187519 },                        -- Sandman's Pouch (Stage 6)
+				{ 11,  "112320:Stage5", 187495 },                        -- Sandman's Pouch (Stage 5)
+				{ 12,  "112320:Stage4", 178248 },                        -- Sandman's Pouch (Stage 4)
+				{ 13,  "112320:Stage3", 178248 },                        -- Sandman's Pouch (Stage 3)
+				{ 14,  "112320:Stage2", 178248 },                        -- Sandman's Pouch (Stage 2)
+				{ 15,  "112320:Stage1" },                                -- Sandman's Pouch (Stage 1)
+
+				{ 16,  112305 },                                         -- Visions Deck
+				{ 17,  "112317:Stage6", 187519 },                        -- Winged Hourglass (Stage 6)
+				{ 18,  "112317:Stage5", 187495 },                        -- Winged Hourglass (Stage 5)
+				{ 19,  "112317:Stage4", 178248 },                        -- Winged Hourglass (Stage 4)
+				{ 20,  "112317:Stage3", 178248 },                        -- Winged Hourglass (Stage 3)
+				{ 21,  "112317:Stage2", 178248 },                        -- Winged Hourglass (Stage 2)
+				{ 22,  "112317:Stage1" },                                -- Winged Hourglass (Stage 1)
+
+				{ 24,  112306 },                                         -- War Deck
+				{ 25,  "112318:Stage6", 187519 },                        -- Skull of War (Stage 6)
+				{ 26,  "112318:Stage5", 187495 },                        -- Skull of War (Stage 5)
+				{ 27,  "112318:Stage4", 178248 },                        -- Skull of War (Stage 4)
+				{ 28,  "112318:Stage3", 178248 },                        -- Skull of War (Stage 3)
+				{ 29,  "112318:Stage2", 178248 },                        -- Skull of War (Stage 2)
+				{ 30,  "112318:Stage1" },                                -- Skull of War (Stage 1)
+
+				{ 103, 118603,          175392 },                        -- Savage Tarot (Learnt by item 111923)
+				{ 104, 118602,          175390 },                        -- Laughing Tarot (Learnt by item 111923)
+				{ 105, 118601,          175389 },                        -- Ocean Tarot (Learnt by item 111923)
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  79318, 111830 }, -- Darkmoon Card of Mists : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 2,  61987, 86615 }, -- Darkmoon Card of the Destruction : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 3,  44318, 59504 }, -- Darkmoon Card of the North : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 4,  44317, 59503 }, -- Greater Darkmoon Card : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 5,  44316, 59502 }, -- Darkmoon Card : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 16, 60838, 86609 }, -- Mysterious Fortune Card : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 17, 44163, 59491 }, -- Shadowy Tarot : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 18, 44161, 59487 }, -- Arcane Tarot : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 19, 37168, 48247 }, -- Mysterious Tarot : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 20, 44142, 59480 }, -- Strange Tarot : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --Contracts
+			name = AL["Contracts"],
+			[TWW_DIFF] = {
+				{ 1, 222597, 444220, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Council of Dornogal
+				{ 2, 222600, 444217, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Assembly of the Deeps
+				{ 3, 222603, 444218, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Hallowfall Arathi
+				{ 4, 222606, 444219, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: The Severed Threads
+			},
+			[BFA_DIFF] = {
+				{ 1,  153661, 256275 }, -- Contract: Proudmoore Admiralty
+				{ 2,  153661, 256276 }, -- Contract: Proudmoore Admiralty
+				{ 3,  153661, 256277 }, -- Contract: Proudmoore Admiralty
+				{ 5,  153662, 256278 }, -- Contract: Order of Embers
+				{ 6,  153662, 256279 }, -- Contract: Order of Embers
+				{ 7,  153662, 256280 }, -- Contract: Order of Embers
+				{ 9,  153663, 256281 }, -- Contract: Storm's Wake
+				{ 10, 153663, 256282 }, -- Contract: Storm's Wake
+				{ 11, 153663, 256283 }, -- Contract: Storm's Wake
+				{ 13, 153665, 256287 }, -- Contract: Talanji's Expedition
+				{ 14, 153665, 256288 }, -- Contract: Talanji's Expedition
+				{ 15, 153665, 256289 }, -- Contract: Talanji's Expedition
+				{ 16, 153666, 256290 }, -- Contract: Voldunai
+				{ 17, 153666, 256291 }, -- Contract: Voldunai
+				{ 18, 153666, 256293 }, -- Contract: Voldunai
+				{ 20, 153667, 256294 }, -- Contract: Tortollan Seekers
+				{ 21, 153667, 256295 }, -- Contract: Tortollan Seekers
+				{ 22, 153667, 256296 }, -- Contract: Tortollan Seekers
+				{ 24, 153668, 256297 }, -- Contract: Champions of Azeroth
+				{ 25, 153668, 256298 }, -- Contract: Champions of Azeroth
+				{ 26, 153668, 256299 }, -- Contract: Champions of Azeroth
+				{ 28, 153664, 256284 }, -- Contract: Zandalari Empire
+				{ 29, 153664, 256285 }, -- Contract: Zandalari Empire
+				{ 30, 153664, 256286 }, -- Contract: Zandalari Empire
+			},
+		},
+		{ --InscriptionItemEnhancements
+			name = AL["Item Enhancements"],
+			[NORMAL_DIFF] = {
+				{ 1,   128018,     178248, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Ensorcelled Tarot (Sold, Ashran)
+				{ 2,   127718,     187495, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Ensorcelled Tarot (Sold, Ashran)
+				{ 3,   127736,     187519, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Ensorcelled Tarot (Sold, Garrison)
+				{ 5,   128010,     166366, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Weapon Crystal (Sold, Ashran)
+				{ 6,   127717,     187494, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Weapon Crystal (Sold, Ashran)
+				{ 7,   127735,     187518, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Weapon Crystal (Sold, Garrison)
+				{ 9,   113289,     166432, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Volatile Crystal (Sold, Ashran)
+				{ 16,  87582,      127023 },                         -- Secret Crane Wing Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 17,  87581,      127024 },                         -- Secret Ox Horn Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 18,  87584,      127021 },                         -- Secret Tiger Claw Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 19,  87585,      127020 },                         -- Secret Tiger Fang Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 21,  87559,      126995 },                         -- Greater Crane Wing Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 22,  87560,      126994 },                         -- Greater Ox Horn Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 23,  83007,      126996 },                         -- Greater Tiger Claw Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 24,  83006,      126997 },                         -- Greater Tiger Fang Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 26,  87578,      127018 },                         -- Crane Wing Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 27,  87577,      127019 },                         -- Ox Horn Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 28,  87579,      127017 },                         -- Tiger Claw Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 29,  87580,      127016 },                         -- Tiger Fang Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 101, "prof86403" },                                -- Felfire Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 102, "prof86402" },                                -- Inscription of the Earthen Prince : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 103, "prof86401" },                                -- Lionsmane Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 104, "prof86375" },                                -- Swiftsteel Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 106, "prof61117" },                                -- Master's Inscription of the Axe : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 107, "prof61118" },                                -- Master's Inscription of the Crag : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 108, "prof61119" },                                -- Master's Inscription of the Pinnacle : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 109, "prof61120" },                                -- Master's Inscription of the Storm : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[TWW_DIFF] = {
+				{ 1, 222577, 444208 }, -- Burnt Rolling Pin
+				{ 2, 222573, 444204 }, -- Lightweight Scribe's Quill
+				{ 3, 222575, 444206 }, -- Hasty Alchemist's Mixing Rod
+				{ 4, 222578, 444209 }, -- Inscribed Rolling Pin
+				{ 5, 222574, 444205 }, -- Silver Tongue's Quill
+				{ 6, 222576, 444207 }, -- Patient Alchemist's Mixing Rod
+			},
+		},
+		{ --InscriptionReagents
+			name = AL["Reagents"],
+			[TWW_DIFF] = {
+				{ 1,  222582, 444211 },                          -- Algari Missive of the Feverflare
+				{ 2,  222579, 444210 },                          -- Algari Missive of the Aurora
+				{ 3,  222585, 444212 },                          -- Algari Missive of the Fireflash
+				{ 4,  222588, 444213 },                          -- Algari Missive of the Harmonious
+				{ 5,  222591, 444214 },                          -- Algari Missive of the Peerless
+				{ 6,  222594, 444215 },                          -- Algari Missive of the Quickblade
+				{ 8,  222635, 444232, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Crafting Speed
+				{ 9,  222644, 444235, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Deftness
+				{ 10, 222638, 444233, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Finesse
+				{ 11, 222626, 444229, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Ingenuity
+				{ 12, 222632, 444231, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Multicraft
+				{ 13, 222641, 444234, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Perception
+				{ 14, 222629, 444230, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Missive of Resourcefulness
+				{ 16, 222615, 444222 },                          -- Apricate Ink
+				{ 17, 222609, 444221 },                          -- Shadow Ink
+				{ 18, 222555, 444190 },                          -- Codified Greenwood
+				{ 19, 222558, 444191 },                          -- Boundless Cipher
+			},
+			[BFA_DIFF] = {
+				{ 1,  152511, 256223 }, -- Mass Mill Sea Stalk
+				{ 2,  152505, 256217 }, -- Mass Mill Riverbud
+				{ 3,  152506, 256218 }, -- Mass Mill Star Moss
+				{ 4,  152507, 256219 }, -- Mass Mill Akunda's Bite
+				{ 5,  152508, 256220 }, -- Mass Mill Winter's Kiss
+				{ 6,  152509, 256221 }, -- Mass Mill Siren's Pollen
+				{ 7,  152510, 256308 }, -- Mass Mill Anchor Weed
+				{ 16, 158189, 264778 }, -- Viridescent Ink
+				{ 17, 158187, 264776 }, -- Ultramarine Ink
+				{ 18, 158188, 264777 }, -- Crimson Ink
+			},
+			[LEGION_DIFF] = {
+				{ 1, 129100, 209658 }, -- Mass Mill Aethril
+				{ 2, 136926, 209659 }, -- Mass Mill Dreamleaf
+				{ 3, 128304, 209660 }, -- Mass Mill Foxflower
+				{ 4, 129032, 209661 }, -- Mass Mill Fjarnskaggl
+				{ 5, 129032, 209662 }, -- Mass Mill Starlight Rose
+				{ 6, 129034, 209664 }, -- Mass Mill Felwort
+				{ 7, 129032, 210116 }, -- Mass Mill Yseralline Seeds
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  112377, 169081, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- War Paints (Learnt by item 111923)
+				{ 2,  112377, 182125, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- War Paints (Sold, Garrison)
+				{ 4,  113111, 178497 },                         -- Warbinder's Ink (Learnt by item 111923)
+				{ 5,  79255,  111646 },                         -- Starlight Ink : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 6,  79254,  111645 },                         -- Ink of Dreams : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 7,  61981,  86005 },                          -- Inferno Ink : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 8,  61978,  86004 },                          -- Blackfallow Ink : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 9,  43127,  57716 },                          -- Snowfall Ink : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 10, 43126,  57715 },                          -- Ink of the Sea : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 11, 43125,  57714 },                          -- Darkflame Ink : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 12, 43124,  57713 },                          -- Ethereal Ink : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
+				{ 13, 43123,  57712 },                          -- Ink of the Sky : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 19, 43122,  57711 },                          -- Shimmering Ink : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 20, 43121,  57710 },                          -- Fiery Ink : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 21, 43120,  57709 },                          -- Celestial Ink : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 22, 43119,  57708 },                          -- Royal Ink : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 23, 43118,  57707 },                          -- Jadefire Ink : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 24, 43117,  57706 },                          -- Dawnstar Ink : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 25, 43116,  57704 },                          -- Lion's Ink : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 26, 43115,  57703 },                          -- Hunter's Ink : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+				{ 27, 39774,  53462 },                          -- Midnight Ink : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 28, 39469,  52843 },                          -- Moonglow Ink : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --InscriptionRelic
+			name = AL["Relic"],
+			[LEGION_DIFF] = {
+				{ 1, 136692, 209510 }, -- Aqual Mark
+				{ 2, 136693, 209511 }, -- Straszan Mark
+			},
+		},
+		{ --InscriptionRunes
+			name = AL["Runes"],
+			[TWW_DIFF] = {
+				{ 1, 226034, 444203 }, -- Vantus Rune: Nerub-ar Palace
+			},
+			[BFA_DIFF] = {
+				{ 1, 153673, 256303 }, -- Vantus Rune: Uldir
+				{ 2, 153673, 256304 }, -- Vantus Rune: Uldir
+				{ 3, 153673, 256305 }, -- Vantus Rune: Uldir
+			},
+			[LEGION_DIFF] = {
+				{ 1,   128987, 192808 }, -- Vantus Rune: Ursoc
+				{ 2,   128987, 192860 }, -- Vantus Rune: Ursoc
+				{ 3,   128987, 192891 }, -- Vantus Rune: Ursoc
+				{ 5,   128988, 192809 }, -- Vantus Rune: Nythendra
+				{ 6,   128988, 192861 }, -- Vantus Rune: Nythendra
+				{ 7,   128988, 192892 }, -- Vantus Rune: Nythendra
+				{ 9,   128989, 192810 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
+				{ 10,  128989, 192862 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
+				{ 11,  128989, 192893 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
+				{ 13,  128990, 192811 }, -- Vantus Rune: Dragons of Nightmare
+				{ 14,  128990, 192863 }, -- Vantus Rune: Dragons of Nightmare
+				{ 15,  128990, 192894 }, -- Vantus Rune: Dragons of Nightmare
+				{ 16,  128991, 192812 }, -- Vantus Rune: Xavius
+				{ 17,  128991, 192864 }, -- Vantus Rune: Xavius
+				{ 18,  128991, 192895 }, -- Vantus Rune: Xavius
+				{ 20,  128992, 192813 }, -- Vantus Rune: Elerethe Renferal
+				{ 21,  128992, 192865 }, -- Vantus Rune: Elerethe Renferal
+				{ 22,  128992, 192896 }, -- Vantus Rune: Elerethe Renferal
+				{ 24,  128993, 192814 }, -- Vantus Rune: Cenarius
+				{ 25,  128993, 192866 }, -- Vantus Rune: Cenarius
+				{ 26,  128993, 192897 }, -- Vantus Rune: Cenarius
+				{ 28,  128994, 192815 }, -- Vantus Rune: Skorpyron
+				{ 29,  128994, 192867 }, -- Vantus Rune: Skorpyron
+				{ 30,  128994, 192898 }, -- Vantus Rune: Skorpyron
+				{ 101, 128995, 192816 }, -- Vantus Rune: Chronomatic Anomaly
+				{ 102, 128995, 192868 }, -- Vantus Rune: Chronomatic Anomaly
+				{ 103, 128995, 192899 }, -- Vantus Rune: Chronomatic Anomaly
+				{ 105, 128996, 192817 }, -- Vantus Rune: Trilliax
+				{ 106, 128996, 192869 }, -- Vantus Rune: Trilliax
+				{ 108, 128996, 192900 }, -- Vantus Rune: Trilliax
+				{ 109, 128997, 192818 }, -- Vantus Rune: Spellblade Aluriel
+				{ 110, 128997, 192870 }, -- Vantus Rune: Spellblade Aluriel
+				{ 111, 128997, 192901 }, -- Vantus Rune: Spellblade Aluriel
+				{ 113, 128998, 192819 }, -- Vantus Rune: Tichondrius
+				{ 114, 128998, 192871 }, -- Vantus Rune: Tichondrius
+				{ 115, 128998, 192902 }, -- Vantus Rune: Tichondrius
+				{ 116, 128999, 192820 }, -- Vantus Rune: High Botanist Tel'arn
+				{ 117, 128999, 192872 }, -- Vantus Rune: High Botanist Tel'arn
+				{ 118, 128999, 192903 }, -- Vantus Rune: High Botanist Tel'arn
+				{ 120, 129000, 192821 }, -- Vantus Rune: Krosus
+				{ 121, 129000, 192873 }, -- Vantus Rune: Krosus
+				{ 122, 129000, 192904 }, -- Vantus Rune: Krosus
+				{ 124, 129001, 192822 }, -- Vantus Rune: Star Augur Etraeus
+				{ 125, 129001, 192874 }, -- Vantus Rune: Star Augur Etraeus
+				{ 126, 129001, 192905 }, -- Vantus Rune: Star Augur Etraeus
+				{ 128, 129002, 192823 }, -- Vantus Rune: Grand Magistrix Elisande
+				{ 129, 129002, 192875 }, -- Vantus Rune: Grand Magistrix Elisande
+				{ 130, 129002, 192906 }, -- Vantus Rune: Grand Magistrix Elisande
+				{ 201, 129003, 192824 }, -- Vantus Rune: Gul'dan
+				{ 202, 129003, 192876 }, -- Vantus Rune: Gul'dan
+				{ 203, 129003, 192907 }, -- Vantus Rune: Gul'dan
+				{ 205, 142101, 229177 }, -- Vantus Rune: Odyn
+				{ 206, 142101, 229180 }, -- Vantus Rune: Odyn
+				{ 207, 142101, 229183 }, -- Vantus Rune: Odyn
+				{ 216, 142102, 229178 }, -- Vantus Rune: Guarm
+				{ 217, 142102, 229181 }, -- Vantus Rune: Guarm
+				{ 218, 142102, 229184 }, -- Vantus Rune: Guarm
+				{ 220, 142103, 229179 }, -- Vantus Rune: Helya
+				{ 221, 142103, 229182 }, -- Vantus Rune: Helya
+				{ 222, 142103, 229185 }, -- Vantus Rune: Helya
+			},
+		},
+		{ --InscriptionScrolls
+			name = AL["Scrolls"],
+			[BFA_DIFF] = {
+				{ 1,  153647, 256235 }, -- Tome of the Quiet Mind
+				{ 2,  153647, 256236 }, -- Tome of the Quiet Mind
+				{ 3,  153647, 256237 }, -- Tome of the Quiet Mind
+				{ 5,  153646, 256232 }, -- Codex of the Quiet Mind
+				{ 6,  153646, 256233 }, -- Codex of the Quiet Mind
+				{ 7,  153646, 256234 }, -- Codex of the Quiet Mind
+				{ 16, 158204, 264769 }, -- War-Scroll of Fortitude
+				{ 17, 158201, 264766 }, -- War-Scroll of Intellect
+				{ 18, 158202, 264767 }, -- War-Scroll of Battle Shout
+				{ 20, 159825, 269065 }, -- Scroll of Unlocking
+			},
+			[LEGION_DIFF] = {
+				{ 1,  128979, 222408 }, -- Unwritten Legend
+				{ 2,  128980, 192802 }, -- Scroll of Forgotten Knowledge
+				{ 3,  129211, 192804 }, -- Steamy Romance Novel Kit
+				{ 5,  136852, 210653 }, -- Songs of Battle
+				{ 6,  136856, 210654 }, -- Songs of Peace
+				{ 7,  136857, 210656 }, -- Songs of the Legion
+				{ 8,  140567, 223940 }, -- Songs of the Horde
+				{ 9,  140568, 223941 }, -- Songs of the Alliance
+				{ 11, 141333, 226248 }, -- Codex of the Tranquil Mind
+				{ 12, 141333, 227239 }, -- Codex of the Tranquil Mind
+				{ 13, 141333, 227240 }, -- Codex of the Tranquil Mind
+				{ 15, 141446, 227043 }, -- Tome of the Tranquil Mind
+			},
+			[NORMAL_DIFF] = {
+				{ 1,   79731, 112996 },                 -- Scroll of Wisdom : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 2,   63308, 89373,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Protection IX : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 4,   44315, 60337 },                  -- Scroll of Recall III : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 5,   44314, 60336 },                  -- Scroll of Recall II : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 6,   37118, 48248 },                  -- Scroll of Recall : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+				{ 8,   79257, 112045, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude III : =ds=#sr# 580 : =ds=AtlasLoot["Trainer"]
+				{ 9,   62251, 85785,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude II : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 10,  49632, 69385,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude : =ds=#sr# 440 : =ds=AtlasLoot["Trainer"]
+				{ 16,  63303, 89370,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Agility IX : =ds=#sr# 470 : =ds=AtlasLoot["Trainer"]
+				{ 17,  43464, 58483,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VIII : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
+				{ 18,  43463, 58482,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VII : =ds=#sr# 370 : =ds=AtlasLoot["Trainer"]
+				{ 19,  33457, 58481,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VI : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
+				{ 20,  27498, 58480,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility V : =ds=#sr# 270 : =ds=AtlasLoot["Trainer"]
+				{ 21,  10309, 58478,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility IV : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 22,  4425,  58476,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Agility III : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 23,  1477,  58473 },                  -- Scroll of Agility II : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+				{ 24,  3012,  58472 },                  -- Scroll of Agility : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
+				{ 101, 63305, 89368,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Intellect IX : =ds=#sr# 445 : =ds=AtlasLoot["Trainer"]
+				{ 102, 37092, 50604,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VIII : =ds=#sr# 410 : =ds=AtlasLoot["Trainer"]
+				{ 103, 37091, 50603,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VII : =ds=#sr# 360 : =ds=AtlasLoot["Trainer"]
+				{ 104, 33458, 50602,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VI : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
+				{ 105, 27499, 50601,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect V : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
+				{ 106, 10308, 50600,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect IV : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
+				{ 107, 4419,  50599,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Intellect III : =ds=#sr# 165 : =ds=AtlasLoot["Trainer"]
+				{ 108, 2290,  50598 },                  -- Scroll of Intellect II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 109, 955,   48114 },                  -- Scroll of Intellect : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 116, 63307, 89371,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Spirit IX : =ds=#sr# 455 : =ds=AtlasLoot["Trainer"]
+				{ 117, 37098, 50611,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VIII : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
+				{ 118, 37097, 50610,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VII : =ds=#sr# 355 : =ds=AtlasLoot["Trainer"]
+				{ 119, 33460, 50609,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VI : =ds=#sr# 295 : =ds=AtlasLoot["Trainer"]
+				{ 120, 27501, 50608,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit V : =ds=#sr# 255 : =ds=AtlasLoot["Trainer"]
+				{ 121, 10306, 50607,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit IV : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
+				{ 122, 4424,  50606,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit III : =ds=#sr# 160 : =ds=AtlasLoot["Trainer"]
+				{ 123, 1712,  50605 },                  -- Scroll of Spirit II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 124, 1181,  48116 },                  -- Scroll of Spirit : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 201, 63306, 89372,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Stamina IX : =ds=#sr# 460 : =ds=AtlasLoot["Trainer"]
+				{ 202, 37094, 50620,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VIII : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 203, 37093, 50619,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VII : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 204, 33461, 50618,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VI : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
+				{ 205, 27502, 50617,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina V : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 206, 10307, 50616,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina IV : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
+				{ 207, 4422,  50614,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina III : =ds=#sr# 155 : =ds=AtlasLoot["Trainer"]
+				{ 208, 1711,  50612 },                  -- Scroll of Stamina II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 209, 1180,  45382 },                  -- Scroll of Stamina : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 216, 63304, 89369,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Strength IX : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
+				{ 217, 43466, 58491,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VIII : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
+				{ 218, 43465, 58490,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VII : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
+				{ 219, 33462, 58489,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VI : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+				{ 220, 27503, 58488,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength V : =ds=#sr# 265 : =ds=AtlasLoot["Trainer"]
+				{ 221, 10310, 58487,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength IV : =ds=#sr# 220 : =ds=AtlasLoot["Trainer"]
+				{ 222, 4426,  58486,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Strength III : =ds=#sr# 170 : =ds=AtlasLoot["Trainer"]
+				{ 223, 2289,  58485 },                  -- Scroll of Strength II : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
+				{ 224, 954,   58484 },                  -- Scroll of Strength : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- Treatises
+			name = AL["Treatises"],
+			[TWW_DIFF] = {
+				{ 1,  222546, 444187 }, -- Algari Treatise on Alchemy
+				{ 2,  222554, 444184 }, -- Algari Treatise on Blacksmithing
+				{ 3,  222550, 444188 }, -- Algari Treatise on Enchanting
+				{ 4,  222621, 444223 }, -- Algari Treatise on Engineering
+				{ 5,  222552, 444182 }, -- Algari Treatise on Herbalism
+				{ 6,  222548, 447868 }, -- Algari Treatise on Inscription
+				{ 7,  222551, 444189 }, -- Algari Treatise on Jewelcrafting
+				{ 8,  222549, 444185 }, -- Algari Treatise on Leatherworking
+				{ 9,  222553, 444183 }, -- Algari Treatise on Mining
+				{ 10, 222649, 444236 }, -- Algari Treatise on Skinning
+				{ 11, 222547, 444186 }, -- Algari Treatise on Tailoring
+			},
+		},
+		{ --InscriptionMisc
+			name = AL["Miscellaneous"],
+			[BFA_DIFF] = {
+				{ 1, 162114, 278422 }, -- Crimson Ink Well
+			},
+			[LEGION_DIFF] = {
+				-- 7.3.0
+				{ 1, 152725, 247861 }, -- Mass Mill Astral Glory
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  113355, 166669 },                -- Card of Omens (Learnt by item 111923)
+				{ 3,  113992, 167950 },                -- Research: Warbinder's Ink (Learnt by item 111923)
+				{ 5,  119297, 177045 },                -- Secrets of Draenor Inscription (Learnt by item 111923)
+				{ 7,  87811,  127378 },                -- Commissioned Painting : =ds=#sr# 600 : =ds=#QUESTID:31539#
+				{ 8,  87814,  127391 },                -- Engraved Jade Disk : =ds=#sr# 600 : =ds=#QUESTID:31541#
+				{ 9,  87817,  127475 },                -- Incarnadine Ink : =ds=#sr# 600 : =ds=#QUESTID:31542#
+				{ 10, 87831,  127481 },                -- Inscribed Monument : =ds=#sr# 600 : =ds=#QUESTID:31544#
+				{ 11, 88806,  128922 },                -- Portrait of Madam Goya : =ds=#sr# 600 : =ds=#QUESTID:31543#
+				{ 16, 102483, 146638 },                -- Crafted Malevolent Gladiator's Medallion of Tenacity : =ds=#s14# / =q1=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 17, 89368,  127009 },                -- Chi-ji Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 18, 87647,  126988 },                -- Origami Crane : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 19, 87648,  126989 },                -- Origami Frog : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 20, 89367,  127007 },                -- Yu'lon Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 21, 141640, 227561 },                -- Tome of the Clear Mind : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 22, 63276,  86654 },                 -- Forged Documents : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 23, 63246,  86646 },                 -- Origami Beetle : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
+				{ 24, 62238,  86645 },                 -- Origami Rock : =ds=#sr# 490 : =ds=AtlasLoot["World Drop"]
+				{ 25, 62239,  86644 },                 -- Origami Slime : =ds=#sr# 480 : =ds=AtlasLoot["World Drop"]
+				--{ 26, 63388, 92027, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Dust of Disappearance : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 27, 43850,  59387 },                 -- Certificate of Ownership : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 28, 64670,  92026 },                 -- Vanishing Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 29, 38682,  52739, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Enchanting Vellum : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+			},
+		},
 		{ --InscriptionDeathKnight
 			name = AL["Glyphs"].." - "..ALIL["DEATHKNIGHT"],
 			[NORMAL_DIFF] = {
@@ -3758,6 +4286,12 @@ data["Inscription"] = {
 		},
 		{ --InscriptionRogue
 			name = AL["Glyphs"].." - "..ALIL["ROGUE"],
+			[TWW_DIFF] = {
+				{ 1, 234246, 1213515 },                                    -- Glyph of the Admiral's Pistol Shot
+				{ 2, 234245, 1213517 },                                    -- Glyph of the Ashvane Pistol Shot
+				{ 3, 234247, 1213514, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Gilded Pistol Shot
+				{ 4, 234248, 1213512, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Twilight Pistol Shot
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 45768,  64260 }, -- Glyph of Disguise
 				{ 2, 129020, 225549 }, -- Glyph of Flash Bang
@@ -3769,27 +4303,27 @@ data["Inscription"] = {
 			name = AL["Glyphs"].." - "..ALIL["SHAMAN"],
 			[NORMAL_DIFF] = {
 				{ 1, 43386,  58332 }, -- Glyph of the Spectral Wolf
-				{ 2, 45775,  64261 }, -- Glyph of Deluge
-				{ 3, 104126, 148281 }, -- Glyph of Spirit Raptors
-				{ 4, 104127, 148282 }, -- Glyph of Lingering Ancestors
-				{ 5, 137287, 192844 }, -- Glyph of the Spectral Raptor
-				{ 6, 137288, 225552 }, -- Glyph of Pebbles
-				{ 7, 137289, 225551 }, -- Glyph of Flickering
-				{ 8, 139289, 225550 }, -- Glyph of Critterhex
+				{ 2, 104126, 148281 }, -- Glyph of Spirit Raptors
+				{ 3, 104127, 148282 }, -- Glyph of Lingering Ancestors
+				{ 4, 137287, 192844 }, -- Glyph of the Spectral Raptor
+				{ 5, 137288, 225552 }, -- Glyph of Pebbles
+				{ 6, 137289, 225551 }, -- Glyph of Flickering
+				{ 7, 139289, 225550 }, -- Glyph of Critterhex
 			},
 		},
 		{ --InscriptionWarlock
 			name = AL["Glyphs"].." - "..ALIL["WARLOCK"],
 			[NORMAL_DIFF] = {
-				{ 1, 42459,  57263 }, -- Glyph of Felguard
-				{ 2, 43394,  58341 }, -- Glyph of Soulwell
-				{ 3, 45789,  64250 }, -- Glyph of Crimson Banish
-				{ 4, 129018, 192839 }, -- Glyph of Fel Imp
-				{ 5, 137191, 225554 }, -- Glyph of the Inquisitor's Eye
-				{ 6, 139310, 225556 }, -- Glyph of the Shivarra
-				{ 7, 139311, 225558 }, -- Glyph of the Voidlord
-				{ 8, 139312, 225555 }, -- Glyph of the Observer
-				{ 9, 139315 }, -- Glyph of Wrathguard
+				{ 1,  42459,  57263 }, -- Glyph of Felguard
+				{ 2,  43394,  58341 }, -- Glyph of Soulwell
+				{ 3,  45789,  64250 }, -- Glyph of Crimson Banish
+				{ 4,  137191, 225554 }, -- Glyph of the Inquisitor's Eye
+				{ 5,  129018, 192839 }, -- Grimoire of the Fel Imp
+				{ 6,  139310, 225556 }, -- Grimoire of the Shivarra
+				{ 7,  139311, 225558 }, -- Grimoire of the Voidlord
+				{ 8,  139315, 225559 }, -- Grimoire of the Wrathguard
+				{ 9,  147119, 240272 }, -- Grimoire of the Shadow Succubus
+				{ 10, 139314, 225553 }, -- Grimoire of the Abyssal
 			},
 		},
 		{ --InscriptionWarrior
@@ -3804,457 +4338,6 @@ data["Inscription"] = {
 				{ 7, 104138, 148292 }, -- Glyph of the Weaponmaster
 				{ 8, 137188, 225560 }, -- Glyph of the Blazing Savior
 				{ 9, 141898, 228381 }, -- Glyph of Falling Thunder
-			},
-		},
-		{ --InscriptionOffHand
-			name = AL["Off-Hands"],
-			[BFA_DIFF] = {
-				{ 1, 159940, 269741 }, -- Honorable Combatant's Etched Vessel
-				{ 2, 153643, 256249 }, -- Inscribed Vessel of Mysticism
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  "113270:Stage6W", 187519 },                        -- Shadowtome (Stage 6)
-				{ 2,  "113270:Stage5W", 187495 },                        -- Shadowtome (Stage 5)
-				{ 3,  "113270:Stage4W", 166366 },                        -- Shadowtome (Stage 4)
-				{ 4,  "113270:Stage3W", 166366 },                        -- Shadowtome (Stage 3)
-				{ 5,  "113270:Stage2W", 166366 },                        -- Shadowtome (Stage 2)
-				{ 6,  "113270:Stage1",  166363, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Shadowtome (Stage 1) (Sold, Ashran)
-				{ 8,  79334,            111909 },                        -- Inscribed Jade Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 9,  79335,            111910 },                        -- Inscribed Red Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 10, 79333,            111908 },                        -- Inscribed Fan : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 11, 62236,            86643 },                         -- Battle Tome : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 12, 62235,            86642 },                         -- Divine Companion : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 13, 62234,            86641 },                         -- Dungeoneering Guide : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 14, 62231,            86616 },                         -- Book of Blood : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 15, 62233,            86640 },                         -- Lord Rottington's Pressed Wisp Book : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 16, 44210,            59498 },                         -- Faces of Doom : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 17, 38322,            59497 },                         -- Iron-bound Tome : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 18, 45854,            64051 },                         -- Rituals of the New Moon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 19, 45849,            64053 },                         -- Twilight Tome : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 20, 43667,            59496 },                         -- Book of Clever Tricks : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 21, 43666,            59495 },                         -- Hellfire Tome : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 22, 43664,            59494 },                         -- Manual of Clouds : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 23, 43663,            59493 },                         -- Stormbound Tome : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 24, 43661,            59490 },                         -- Book of Stars : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 25, 43660,            59489 },                         -- Fire Eater's Guide : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 26, 43657,            59486 },                         -- Royal Guide of Escape Routes : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 27, 43656,            59484 },                         -- Tome of Kings : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 28, 43655,            59478 },                         -- Book of Survival : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 29, 43654,            59475 },                         -- Tome of the Dawn : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 30, 43515,            58565 },                         -- Mystic Tome : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --InscriptionStaves
-			name = AL["Staves"],
-			[NORMAL_DIFF] = {
-				{ 1,   "113134:Stage6W", 187518 },                        -- Crystalfire Spellstaff (Stage 6)
-				{ 2,   "113134:Stage5W", 187494 },                        -- Crystalfire Spellstaff (Stage 5)
-				{ 3,   "113134:Stage4W", 166366 },                        -- Crystalfire Spellstaff (Stage 4)
-				{ 4,   "113134:Stage3W", 166366 },                        -- Crystalfire Spellstaff (Stage 3)
-				{ 5,   "113134:Stage2W", 166366 },                        -- Crystalfire Spellstaff (Stage 2)
-				{ 6,   "113134:Stage1",  166356, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Crystalfire Spellstaff (Stage 1) (Sold, Ashran)
-
-				{ 8,   "111526:Stage6W", 187518 },                        -- Etched-Blade Warstaff (Stage 6)
-				{ 9,   "111526:Stage5W", 187494 },                        -- Etched-Blade Warstaff (Stage 5)
-				{ 10,  "111526:Stage4W", 166366 },                        -- Etched-Blade Warstaff (Stage 4)
-				{ 11,  "111526:Stage3W", 166366 },                        -- Etched-Blade Warstaff (Stage 3)
-				{ 12,  "111526:Stage2W", 166366 },                        -- Etched-Blade Warstaff (Stage 2)
-				{ 13,  "111526:Stage1",  166359, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Etched-Blade Warstaff (Stage 1) (Sold, Ashran)
-
-				{ 16,  "113131:Stage6W", 187518 },                        -- Warmaster's Firestick (Stage 6)
-				{ 17,  "113131:Stage5W", 187494 },                        -- Warmaster's Firestick (Stage 5)
-				{ 18,  "113131:Stage4W", 166366 },                        -- Warmaster's Firestick (Stage 4)
-				{ 19,  "113131:Stage3W", 166366 },                        -- Warmaster's Firestick (Stage 3)
-				{ 20,  "113131:Stage2W", 166366 },                        -- Warmaster's Firestick (Stage 2)
-				{ 21,  "113131:Stage1",  165804, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Warmaster's Firestick (Stage 1) (Sold, Ashran)
-				{ 101, 79340,            111918 },                        -- Inscribed Crane Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 102, 79341,            111919 },                        -- Inscribed Serpent Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 103, 79343,            111921 },                        -- Inscribed Tiger Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 104, 79342,            111920 },                        -- Ghost Iron Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 105, 79339,            111917 },                        -- Rain Poppy Staff : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 106, 87562,            86652 },                         -- Rosethorn Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
-				{ 107, 87561,            86653 },                         -- Silver Inlaid Staff : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
-				{ 108, 87566,            86649 },                         -- Runed Staff : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
-				{ 109, 87565,            86648 },                         -- Key to the Planes : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --InscriptionTrinketsDarkmoonFaireCards
-			name = AL["Trinkets"].." / "..AL["Darkmoon Cards"],
-			[BFA_DIFF] = {
-				{ 1,  153598, 256246 }, -- Darkmoon Card of War
-				{ 2,  153598, 256245 }, -- Darkmoon Card of War
-				{ 3,  153598, 278527 }, -- Darkmoon Card of War
-				{ 16, 159128 }, -- Darkmoon Deck: Blockades
-				{ 17, 159127 }, -- Darkmoon Deck: Tides
-				{ 18, 159126 }, -- Darkmoon Deck: Squalls
-				{ 19, 159125 }, -- Darkmoon Deck: Fathoms
-			},
-			[LEGION_DIFF] = {
-				{ 1,  128712, 191659 }, -- Darkmoon Card of the Legion
-				{ 2,  128712, 192859 }, -- Darkmoon Card of the Legion
-				{ 3,  128712, 192890 }, -- Darkmoon Card of the Legion
-				{ 5,  128978, 192854 }, -- Prophecy Tarot
-				{ 6,  128978, 192855 }, -- Prophecy Tarot
-				{ 7,  128978, 192856 }, -- Prophecy Tarot
-				{ 16, 128705 }, -- Darkmoon Deck: Dominion
-				{ 17, 128709 }, -- Darkmoon Deck: Hellfire
-				{ 18, 128710 }, -- Darkmoon Deck: Promises
-				{ 19, 128711 }, -- Darkmoon Deck: Immortality
-			},
-			[WOD_DIFF] = {
-				{ 101, 112270,          163294, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Darkmoon Card of Draenor (Sold, Ashran)
-
-				{ 1,   112303 },                                         -- Iron Deck
-				{ 2,   "112319:Stage6", 187519 },                        -- Knight's Badge (Stage 6)
-				{ 3,   "112319:Stage5", 187495 },                        -- Knight's Badge (Stage 5)
-				{ 4,   "112319:Stage4", 178248 },                        -- Knight's Badge (Stage 4)
-				{ 5,   "112319:Stage3", 178248 },                        -- Knight's Badge (Stage 3)
-				{ 6,   "112319:Stage2", 178248 },                        -- Knight's Badge (Stage 2)
-				{ 7,   "112319:Stage1" },                                -- Knight's Badge (Stage 1)
-
-				{ 9,   112304 },                                         -- Moon Deck
-				{ 10,  "112320:Stage6", 187519 },                        -- Sandman's Pouch (Stage 6)
-				{ 11,  "112320:Stage5", 187495 },                        -- Sandman's Pouch (Stage 5)
-				{ 12,  "112320:Stage4", 178248 },                        -- Sandman's Pouch (Stage 4)
-				{ 13,  "112320:Stage3", 178248 },                        -- Sandman's Pouch (Stage 3)
-				{ 14,  "112320:Stage2", 178248 },                        -- Sandman's Pouch (Stage 2)
-				{ 15,  "112320:Stage1" },                                -- Sandman's Pouch (Stage 1)
-
-				{ 16,  112305 },                                         -- Visions Deck
-				{ 17,  "112317:Stage6", 187519 },                        -- Winged Hourglass (Stage 6)
-				{ 18,  "112317:Stage5", 187495 },                        -- Winged Hourglass (Stage 5)
-				{ 19,  "112317:Stage4", 178248 },                        -- Winged Hourglass (Stage 4)
-				{ 20,  "112317:Stage3", 178248 },                        -- Winged Hourglass (Stage 3)
-				{ 21,  "112317:Stage2", 178248 },                        -- Winged Hourglass (Stage 2)
-				{ 22,  "112317:Stage1" },                                -- Winged Hourglass (Stage 1)
-
-				{ 24,  112306 },                                         -- War Deck
-				{ 25,  "112318:Stage6", 187519 },                        -- Skull of War (Stage 6)
-				{ 26,  "112318:Stage5", 187495 },                        -- Skull of War (Stage 5)
-				{ 27,  "112318:Stage4", 178248 },                        -- Skull of War (Stage 4)
-				{ 28,  "112318:Stage3", 178248 },                        -- Skull of War (Stage 3)
-				{ 29,  "112318:Stage2", 178248 },                        -- Skull of War (Stage 2)
-				{ 30,  "112318:Stage1" },                                -- Skull of War (Stage 1)
-
-				{ 103, 118603,          175392 },                        -- Savage Tarot (Learnt by item 111923)
-				{ 104, 118602,          175390 },                        -- Laughing Tarot (Learnt by item 111923)
-				{ 105, 118601,          175389 },                        -- Ocean Tarot (Learnt by item 111923)
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  79318, 111830 }, -- Darkmoon Card of Mists : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 2,  61987, 86615 }, -- Darkmoon Card of the Destruction : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 3,  44318, 59504 }, -- Darkmoon Card of the North : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 4,  44317, 59503 }, -- Greater Darkmoon Card : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 5,  44316, 59502 }, -- Darkmoon Card : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 16, 60838, 86609 }, -- Mysterious Fortune Card : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 17, 44163, 59491 }, -- Shadowy Tarot : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 18, 44161, 59487 }, -- Arcane Tarot : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 19, 37168, 48247 }, -- Mysterious Tarot : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 20, 44142, 59480 }, -- Strange Tarot : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --Contracts
-			name = AL["Contracts"],
-			[BFA_DIFF] = {
-				{ 1,  153661, 256275 }, -- Contract: Proudmoore Admiralty
-				{ 2,  153661, 256276 }, -- Contract: Proudmoore Admiralty
-				{ 3,  153661, 256277 }, -- Contract: Proudmoore Admiralty
-				{ 5,  153662, 256278 }, -- Contract: Order of Embers
-				{ 6,  153662, 256279 }, -- Contract: Order of Embers
-				{ 7,  153662, 256280 }, -- Contract: Order of Embers
-				{ 9,  153663, 256281 }, -- Contract: Storm's Wake
-				{ 10, 153663, 256282 }, -- Contract: Storm's Wake
-				{ 11, 153663, 256283 }, -- Contract: Storm's Wake
-				{ 13, 153665, 256287 }, -- Contract: Talanji's Expedition
-				{ 14, 153665, 256288 }, -- Contract: Talanji's Expedition
-				{ 15, 153665, 256289 }, -- Contract: Talanji's Expedition
-				{ 16, 153666, 256290 }, -- Contract: Voldunai
-				{ 17, 153666, 256291 }, -- Contract: Voldunai
-				{ 18, 153666, 256293 }, -- Contract: Voldunai
-				{ 20, 153667, 256294 }, -- Contract: Tortollan Seekers
-				{ 21, 153667, 256295 }, -- Contract: Tortollan Seekers
-				{ 22, 153667, 256296 }, -- Contract: Tortollan Seekers
-				{ 24, 153668, 256297 }, -- Contract: Champions of Azeroth
-				{ 25, 153668, 256298 }, -- Contract: Champions of Azeroth
-				{ 26, 153668, 256299 }, -- Contract: Champions of Azeroth
-				{ 28, 153664, 256284 }, -- Contract: Zandalari Empire
-				{ 29, 153664, 256285 }, -- Contract: Zandalari Empire
-				{ 30, 153664, 256286 }, -- Contract: Zandalari Empire
-			},
-		},
-		{ --InscriptionItemEnhancements
-			name = AL["Item Enhancements"],
-			[NORMAL_DIFF] = {
-				{ 1,   128018,     178248, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Ensorcelled Tarot (Sold, Ashran)
-				{ 2,   127718,     187495, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Ensorcelled Tarot (Sold, Ashran)
-				{ 3,   127736,     187519, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Ensorcelled Tarot (Sold, Garrison)
-				{ 5,   128010,     166366, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Weapon Crystal (Sold, Ashran)
-				{ 6,   127717,     187494, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Weapon Crystal (Sold, Ashran)
-				{ 7,   127735,     187518, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Weapon Crystal (Sold, Garrison)
-				{ 9,   113289,     166432, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Volatile Crystal (Sold, Ashran)
-				{ 16,  87582,      127023 },                         -- Secret Crane Wing Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 17,  87581,      127024 },                         -- Secret Ox Horn Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 18,  87584,      127021 },                         -- Secret Tiger Claw Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 19,  87585,      127020 },                         -- Secret Tiger Fang Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 21,  87559,      126995 },                         -- Greater Crane Wing Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 22,  87560,      126994 },                         -- Greater Ox Horn Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 23,  83007,      126996 },                         -- Greater Tiger Claw Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 24,  83006,      126997 },                         -- Greater Tiger Fang Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 26,  87578,      127018 },                         -- Crane Wing Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 27,  87577,      127019 },                         -- Ox Horn Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 28,  87579,      127017 },                         -- Tiger Claw Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 29,  87580,      127016 },                         -- Tiger Fang Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 101, "prof86403" },                                -- Felfire Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 102, "prof86402" },                                -- Inscription of the Earthen Prince : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 103, "prof86401" },                                -- Lionsmane Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 104, "prof86375" },                                -- Swiftsteel Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 106, "prof61117" },                                -- Master's Inscription of the Axe : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 107, "prof61118" },                                -- Master's Inscription of the Crag : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 108, "prof61119" },                                -- Master's Inscription of the Pinnacle : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 109, "prof61120" },                                -- Master's Inscription of the Storm : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --InscriptionReagents
-			name = AL["Reagents"],
-			[BFA_DIFF] = {
-				{ 1,  152511, 256223 }, -- Mass Mill Sea Stalk
-				{ 2,  152505, 256217 }, -- Mass Mill Riverbud
-				{ 3,  152506, 256218 }, -- Mass Mill Star Moss
-				{ 4,  152507, 256219 }, -- Mass Mill Akunda's Bite
-				{ 5,  152508, 256220 }, -- Mass Mill Winter's Kiss
-				{ 6,  152509, 256221 }, -- Mass Mill Siren's Pollen
-				{ 7,  152510, 256308 }, -- Mass Mill Anchor Weed
-				{ 16, 158189, 264778 }, -- Viridescent Ink
-				{ 17, 158187, 264776 }, -- Ultramarine Ink
-				{ 18, 158188, 264777 }, -- Crimson Ink
-			},
-			[LEGION_DIFF] = {
-				{ 1, 129100, 209658 }, -- Mass Mill Aethril
-				{ 2, 136926, 209659 }, -- Mass Mill Dreamleaf
-				{ 3, 128304, 209660 }, -- Mass Mill Foxflower
-				{ 4, 129032, 209661 }, -- Mass Mill Fjarnskaggl
-				{ 5, 129032, 209662 }, -- Mass Mill Starlight Rose
-				{ 6, 129034, 209664 }, -- Mass Mill Felwort
-				{ 7, 129032, 210116 }, -- Mass Mill Yseralline Seeds
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  112377, 169081, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- War Paints (Learnt by item 111923)
-				{ 2,  112377, 182125, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- War Paints (Sold, Garrison)
-				{ 4,  113111, 178497 },                         -- Warbinder's Ink (Learnt by item 111923)
-				{ 5,  79255,  111646 },                         -- Starlight Ink : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 6,  79254,  111645 },                         -- Ink of Dreams : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 7,  61981,  86005 },                          -- Inferno Ink : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 8,  61978,  86004 },                          -- Blackfallow Ink : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 9,  43127,  57716 },                          -- Snowfall Ink : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 10, 43126,  57715 },                          -- Ink of the Sea : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 11, 43125,  57714 },                          -- Darkflame Ink : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 12, 43124,  57713 },                          -- Ethereal Ink : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
-				{ 13, 43123,  57712 },                          -- Ink of the Sky : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 19, 43122,  57711 },                          -- Shimmering Ink : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 20, 43121,  57710 },                          -- Fiery Ink : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 21, 43120,  57709 },                          -- Celestial Ink : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 22, 43119,  57708 },                          -- Royal Ink : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 23, 43118,  57707 },                          -- Jadefire Ink : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 24, 43117,  57706 },                          -- Dawnstar Ink : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 25, 43116,  57704 },                          -- Lion's Ink : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 26, 43115,  57703 },                          -- Hunter's Ink : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
-				{ 27, 39774,  53462 },                          -- Midnight Ink : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 28, 39469,  52843 },                          -- Moonglow Ink : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --InscriptionRelic
-			name = AL["Relic"],
-			[LEGION_DIFF] = {
-				{ 1, 136692, 209510 }, -- Aqual Mark
-				{ 2, 136693, 209511 }, -- Straszan Mark
-			},
-		},
-		{ --InscriptionRunes
-			name = AL["Runes"],
-			[BFA_DIFF] = {
-				{ 1, 153673, 256303 }, -- Vantus Rune: Uldir
-				{ 2, 153673, 256304 }, -- Vantus Rune: Uldir
-				{ 3, 153673, 256305 }, -- Vantus Rune: Uldir
-			},
-			[LEGION_DIFF] = {
-				{ 1,   128987, 192808 }, -- Vantus Rune: Ursoc
-				{ 2,   128987, 192860 }, -- Vantus Rune: Ursoc
-				{ 3,   128987, 192891 }, -- Vantus Rune: Ursoc
-				{ 5,   128988, 192809 }, -- Vantus Rune: Nythendra
-				{ 6,   128988, 192861 }, -- Vantus Rune: Nythendra
-				{ 7,   128988, 192892 }, -- Vantus Rune: Nythendra
-				{ 9,   128989, 192810 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
-				{ 10,  128989, 192862 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
-				{ 11,  128989, 192893 }, -- Vantus Rune: Il'gynoth, The Heart of Corruption
-				{ 13,  128990, 192811 }, -- Vantus Rune: Dragons of Nightmare
-				{ 14,  128990, 192863 }, -- Vantus Rune: Dragons of Nightmare
-				{ 15,  128990, 192894 }, -- Vantus Rune: Dragons of Nightmare
-				{ 16,  128991, 192812 }, -- Vantus Rune: Xavius
-				{ 17,  128991, 192864 }, -- Vantus Rune: Xavius
-				{ 18,  128991, 192895 }, -- Vantus Rune: Xavius
-				{ 20,  128992, 192813 }, -- Vantus Rune: Elerethe Renferal
-				{ 21,  128992, 192865 }, -- Vantus Rune: Elerethe Renferal
-				{ 22,  128992, 192896 }, -- Vantus Rune: Elerethe Renferal
-				{ 24,  128993, 192814 }, -- Vantus Rune: Cenarius
-				{ 25,  128993, 192866 }, -- Vantus Rune: Cenarius
-				{ 26,  128993, 192897 }, -- Vantus Rune: Cenarius
-				{ 28,  128994, 192815 }, -- Vantus Rune: Skorpyron
-				{ 29,  128994, 192867 }, -- Vantus Rune: Skorpyron
-				{ 30,  128994, 192898 }, -- Vantus Rune: Skorpyron
-				{ 101, 128995, 192816 }, -- Vantus Rune: Chronomatic Anomaly
-				{ 102, 128995, 192868 }, -- Vantus Rune: Chronomatic Anomaly
-				{ 103, 128995, 192899 }, -- Vantus Rune: Chronomatic Anomaly
-				{ 105, 128996, 192817 }, -- Vantus Rune: Trilliax
-				{ 106, 128996, 192869 }, -- Vantus Rune: Trilliax
-				{ 108, 128996, 192900 }, -- Vantus Rune: Trilliax
-				{ 109, 128997, 192818 }, -- Vantus Rune: Spellblade Aluriel
-				{ 110, 128997, 192870 }, -- Vantus Rune: Spellblade Aluriel
-				{ 111, 128997, 192901 }, -- Vantus Rune: Spellblade Aluriel
-				{ 113, 128998, 192819 }, -- Vantus Rune: Tichondrius
-				{ 114, 128998, 192871 }, -- Vantus Rune: Tichondrius
-				{ 115, 128998, 192902 }, -- Vantus Rune: Tichondrius
-				{ 116, 128999, 192820 }, -- Vantus Rune: High Botanist Tel'arn
-				{ 117, 128999, 192872 }, -- Vantus Rune: High Botanist Tel'arn
-				{ 118, 128999, 192903 }, -- Vantus Rune: High Botanist Tel'arn
-				{ 120, 129000, 192821 }, -- Vantus Rune: Krosus
-				{ 121, 129000, 192873 }, -- Vantus Rune: Krosus
-				{ 122, 129000, 192904 }, -- Vantus Rune: Krosus
-				{ 124, 129001, 192822 }, -- Vantus Rune: Star Augur Etraeus
-				{ 125, 129001, 192874 }, -- Vantus Rune: Star Augur Etraeus
-				{ 126, 129001, 192905 }, -- Vantus Rune: Star Augur Etraeus
-				{ 128, 129002, 192823 }, -- Vantus Rune: Grand Magistrix Elisande
-				{ 129, 129002, 192875 }, -- Vantus Rune: Grand Magistrix Elisande
-				{ 130, 129002, 192906 }, -- Vantus Rune: Grand Magistrix Elisande
-				{ 201, 129003, 192824 }, -- Vantus Rune: Gul'dan
-				{ 202, 129003, 192876 }, -- Vantus Rune: Gul'dan
-				{ 203, 129003, 192907 }, -- Vantus Rune: Gul'dan
-				{ 205, 142101, 229177 }, -- Vantus Rune: Odyn
-				{ 206, 142101, 229180 }, -- Vantus Rune: Odyn
-				{ 207, 142101, 229183 }, -- Vantus Rune: Odyn
-				{ 216, 142102, 229178 }, -- Vantus Rune: Guarm
-				{ 217, 142102, 229181 }, -- Vantus Rune: Guarm
-				{ 218, 142102, 229184 }, -- Vantus Rune: Guarm
-				{ 220, 142103, 229179 }, -- Vantus Rune: Helya
-				{ 221, 142103, 229182 }, -- Vantus Rune: Helya
-				{ 222, 142103, 229185 }, -- Vantus Rune: Helya
-			},
-		},
-		{ --InscriptionMisc
-			name = AL["Miscellaneous"],
-			[BFA_DIFF] = {
-				{ 1, 162114, 278422 }, -- Crimson Ink Well
-			},
-			[LEGION_DIFF] = {
-				-- 7.3.0
-				{ 1, 152725, 247861 }, -- Mass Mill Astral Glory
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  113355, 166669 },                -- Card of Omens (Learnt by item 111923)
-				{ 3,  113992, 167950 },                -- Research: Warbinder's Ink (Learnt by item 111923)
-				{ 5,  119297, 177045 },                -- Secrets of Draenor Inscription (Learnt by item 111923)
-				{ 7,  87811,  127378 },                -- Commissioned Painting : =ds=#sr# 600 : =ds=#QUESTID:31539#
-				{ 8,  87814,  127391 },                -- Engraved Jade Disk : =ds=#sr# 600 : =ds=#QUESTID:31541#
-				{ 9,  87817,  127475 },                -- Incarnadine Ink : =ds=#sr# 600 : =ds=#QUESTID:31542#
-				{ 10, 87831,  127481 },                -- Inscribed Monument : =ds=#sr# 600 : =ds=#QUESTID:31544#
-				{ 11, 88806,  128922 },                -- Portrait of Madam Goya : =ds=#sr# 600 : =ds=#QUESTID:31543#
-				{ 16, 102483, 146638 },                -- Crafted Malevolent Gladiator's Medallion of Tenacity : =ds=#s14# / =q1=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 17, 89368,  127009 },                -- Chi-ji Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 18, 87647,  126988 },                -- Origami Crane : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 19, 87648,  126989 },                -- Origami Frog : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 20, 89367,  127007 },                -- Yu'lon Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 21, 79249,  112883 },                -- Tome of the Clear Mind : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 22, 63276,  86654 },                 -- Forged Documents : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 23, 63246,  86646 },                 -- Origami Beetle : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-				{ 24, 62238,  86645 },                 -- Origami Rock : =ds=#sr# 490 : =ds=AtlasLoot["World Drop"]
-				{ 25, 62239,  86644 },                 -- Origami Slime : =ds=#sr# 480 : =ds=AtlasLoot["World Drop"]
-				--{ 26, 63388, 92027, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Dust of Disappearance : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 27, 43850,  59387 },                 -- Certificate of Ownership : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 28, 64670,  92026 },                 -- Vanishing Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 29, 38682,  52739, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Enchanting Vellum : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --InscriptionScrolls
-			name = AL["Scrolls"],
-			[BFA_DIFF] = {
-				{ 1,  153647, 256235 }, -- Tome of the Quiet Mind
-				{ 2,  153647, 256236 }, -- Tome of the Quiet Mind
-				{ 3,  153647, 256237 }, -- Tome of the Quiet Mind
-				{ 5,  153646, 256232 }, -- Codex of the Quiet Mind
-				{ 6,  153646, 256233 }, -- Codex of the Quiet Mind
-				{ 7,  153646, 256234 }, -- Codex of the Quiet Mind
-				{ 16, 158204, 264769 }, -- War-Scroll of Fortitude
-				{ 17, 158201, 264766 }, -- War-Scroll of Intellect
-				{ 18, 158202, 264767 }, -- War-Scroll of Battle Shout
-				{ 20, 159825, 269065 }, -- Scroll of Unlocking
-			},
-			[LEGION_DIFF] = {
-				{ 1,  128979, 222408 }, -- Unwritten Legend
-				{ 2,  128980, 192802 }, -- Scroll of Forgotten Knowledge
-				{ 3,  129211, 192804 }, -- Steamy Romance Novel Kit
-				{ 5,  136852, 210653 }, -- Songs of Battle
-				{ 6,  136856, 210654 }, -- Songs of Peace
-				{ 7,  136857, 210656 }, -- Songs of the Legion
-				{ 8,  140567, 223940 }, -- Songs of the Horde
-				{ 9,  140568, 223941 }, -- Songs of the Alliance
-				{ 11, 141333, 226248 }, -- Codex of the Tranquil Mind
-				{ 12, 141333, 227239 }, -- Codex of the Tranquil Mind
-				{ 13, 141333, 227240 }, -- Codex of the Tranquil Mind
-				{ 15, 141446, 227043 }, -- Tome of the Tranquil Mind
-			},
-			[NORMAL_DIFF] = {
-				{ 1,   79731, 112996 },                 -- Scroll of Wisdom : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 2,   63308, 89373,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Protection IX : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 4,   44315, 60337 },                  -- Scroll of Recall III : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 5,   44314, 60336 },                  -- Scroll of Recall II : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 6,   37118, 48248 },                  -- Scroll of Recall : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
-				{ 8,   79257, 112045, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude III : =ds=#sr# 580 : =ds=AtlasLoot["Trainer"]
-				{ 9,   62251, 85785,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude II : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 10,  49632, 69385,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Runescroll of Fortitude : =ds=#sr# 440 : =ds=AtlasLoot["Trainer"]
-				{ 16,  63303, 89370,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Agility IX : =ds=#sr# 470 : =ds=AtlasLoot["Trainer"]
-				{ 17,  43464, 58483,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VIII : =ds=#sr# 420 : =ds=AtlasLoot["Trainer"]
-				{ 18,  43463, 58482,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VII : =ds=#sr# 370 : =ds=AtlasLoot["Trainer"]
-				{ 19,  33457, 58481,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility VI : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
-				{ 20,  27498, 58480,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility V : =ds=#sr# 270 : =ds=AtlasLoot["Trainer"]
-				{ 21,  10309, 58478,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Agility IV : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 22,  4425,  58476,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Agility III : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 23,  1477,  58473 },                  -- Scroll of Agility II : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
-				{ 24,  3012,  58472 },                  -- Scroll of Agility : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
-				{ 101, 63305, 89368,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Intellect IX : =ds=#sr# 445 : =ds=AtlasLoot["Trainer"]
-				{ 102, 37092, 50604,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VIII : =ds=#sr# 410 : =ds=AtlasLoot["Trainer"]
-				{ 103, 37091, 50603,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VII : =ds=#sr# 360 : =ds=AtlasLoot["Trainer"]
-				{ 104, 33458, 50602,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect VI : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
-				{ 105, 27499, 50601,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect V : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
-				{ 106, 10308, 50600,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Intellect IV : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
-				{ 107, 4419,  50599,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Intellect III : =ds=#sr# 165 : =ds=AtlasLoot["Trainer"]
-				{ 108, 2290,  50598 },                  -- Scroll of Intellect II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 109, 955,   48114 },                  -- Scroll of Intellect : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 116, 63307, 89371,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Spirit IX : =ds=#sr# 455 : =ds=AtlasLoot["Trainer"]
-				{ 117, 37098, 50611,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VIII : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
-				{ 118, 37097, 50610,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VII : =ds=#sr# 355 : =ds=AtlasLoot["Trainer"]
-				{ 119, 33460, 50609,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit VI : =ds=#sr# 295 : =ds=AtlasLoot["Trainer"]
-				{ 120, 27501, 50608,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit V : =ds=#sr# 255 : =ds=AtlasLoot["Trainer"]
-				{ 121, 10306, 50607,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit IV : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
-				{ 122, 4424,  50606,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Spirit III : =ds=#sr# 160 : =ds=AtlasLoot["Trainer"]
-				{ 123, 1712,  50605 },                  -- Scroll of Spirit II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 124, 1181,  48116 },                  -- Scroll of Spirit : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 201, 63306, 89372,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Stamina IX : =ds=#sr# 460 : =ds=AtlasLoot["Trainer"]
-				{ 202, 37094, 50620,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VIII : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 203, 37093, 50619,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VII : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 204, 33461, 50618,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina VI : =ds=#sr# 290 : =ds=AtlasLoot["Trainer"]
-				{ 205, 27502, 50617,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina V : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 206, 10307, 50616,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina IV : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
-				{ 207, 4422,  50614,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Stamina III : =ds=#sr# 155 : =ds=AtlasLoot["Trainer"]
-				{ 208, 1711,  50612 },                  -- Scroll of Stamina II : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 209, 1180,  45382 },                  -- Scroll of Stamina : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 216, 63304, 89369,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Strength IX : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
-				{ 217, 43466, 58491,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VIII : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
-				{ 218, 43465, 58490,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VII : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
-				{ 219, 33462, 58489,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength VI : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-				{ 220, 27503, 58488,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength V : =ds=#sr# 265 : =ds=AtlasLoot["Trainer"]
-				{ 221, 10310, 58487,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Strength IV : =ds=#sr# 220 : =ds=AtlasLoot["Trainer"]
-				{ 222, 4426,  58486,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scroll of Strength III : =ds=#sr# 170 : =ds=AtlasLoot["Trainer"]
-				{ 223, 2289,  58485 },                  -- Scroll of Strength II : =ds=#sr# 80 : =ds=AtlasLoot["Trainer"]
-				{ 224, 954,   58484 },                  -- Scroll of Strength : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 	}
