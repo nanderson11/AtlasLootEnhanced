@@ -1,13 +1,15 @@
 ﻿# Changelog
 
-## 8.20.0 -
+## 8.20.0 - February 25, 2025
 ### Added
 - Added TWW Engineering recipes
 - Added TWW Inscription recipes
+- Added TWW Jewelcrafting recipes
 - Added Grimoire of the Shadow Succubus and Grimoire of the Abyssal to Warlock glyphs
 ### Fixed
 - Updated IDs for Tome of the Clear Mind in the Crafting module
 - Removed Glyph of Deluge and Glyph of the Observer
+- Correctly categorized a few prismatic gems as WOTLK or BC
 
 ## 8.19.0 - February 19, 2025
 ### Added

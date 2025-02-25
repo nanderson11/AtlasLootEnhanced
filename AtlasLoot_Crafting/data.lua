@@ -4409,15 +4409,23 @@ data["Jewelcrafting"] = {
 				{ 27, 115808, 170724, [PRICE_EXTRA_ITTYPE] = "118723:1" }, -- Stamina Taladite (Sold, Ashran)
 				{ 28, 115807, 170723, [PRICE_EXTRA_ITTYPE] = "118723:1" }, -- Versatility Taladite (Sold, Ashran)
 			},
-			[NORMAL_DIFF] = {
-				{ 11, 49110, 68253 }, -- Nightmare Tear : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 12, 42702, 56531 }, -- Enchanted Tear : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 14, 42701, 56530 }, -- Enchanted Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 15, 45054, 62941 }, -- Prismatic Black Diamond : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			[WOTLK_DIFF] = {
+				{ 1, 49110, 68253 }, -- Nightmare Tear : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2, 42702, 56531 }, -- Enchanted Tear : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 3, 42701, 56530 }, -- Enchanted Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1, 45054, 62941 }, -- Prismatic Black Diamond : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{ --JewelRings
 			name = AL["Rings"],
+			[TWW_DIFF] = {
+				{ 1, 215130, 435379 }, -- Malleable Band
+				{ 2, 215135, 435384 }, -- Ring of Earthen Craftsmanship
+				{ 3, 215133, 435382 }, -- Binding of Binding
+				{ 4, 215137, 435386 }, -- Algari Competitor's Signet
+			},
 			[BFA_DIFF] = {
 				{ 1,  153686, 256510 }, -- Amberblaze Loop
 				{ 2,  153686, 256514 }, -- Amberblaze Loop
@@ -4598,6 +4606,26 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelMisc
 			name = AL["Miscellaneous"],
+			[TWW_DIFF] = {
+				{ 1,  213777, 435334 },                                   -- Magnificent Jeweler's Setting
+				{ 2,  213753, 435325 },                                   -- Decorative Lens
+				{ 3,  213756, 435326, [ATLASLOOT_IT_AMOUNT1] = "3" },     -- Marbled Stone
+				{ 4,  213750, 435324, [ATLASLOOT_IT_AMOUNT1] = "2" },     -- Engraved Gemcutter
+				{ 5,  211806, 435323, [ATLASLOOT_IT_AMOUNT1] = "4" },     -- Gilded Vial
+				{ 6,  213759, 435327 },                                   -- Inverted Prism
+				{ 8,  213765, 435330, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Ominous Energy Crystal
+				{ 9,  213762, 435329, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Sifted Cave Sand
+				{ 10, 213774, 435333, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Captured Starlight
+				{ 11, 213768, 435331 },                                   -- Elemental Focusing Lens
+				{ 12, 213771, 435332 },                                   -- Prismatic Null Stone
+				{ 14, 215145, 435389, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Remembrance Stone
+				{ 15, 215147, 435391 },                                   -- Beautification Iris
+				{ 16, 213779, 435337 },                                   -- Algari Amber Prism
+				{ 17, 213791, 435370 },                                   -- Algari Sapphire Prism
+				{ 18, 213785, 435339 },                                   -- Algari Ruby Prism
+				{ 19, 213788, 435369 },                                   -- Algari Onyx Prism
+				{ 20, 213782, 435338 },                                   -- Algari Emerald Prism
+			},
 			[BFA_DIFF] = {
 				{ 1, 162112, 278419 }, -- Kaleidoscopic Lens
 			},
@@ -4698,6 +4726,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelNecks
 			name = AL["Necklaces"],
+			[TWW_DIFF] = {
+				{ 1, 215131, 435380 }, -- Malleable Pendant
+				{ 2, 215136, 435385 }, -- Amulet of Earthen Craftsmanship
+				{ 3, 215134, 435383 }, -- Fractured Gemstone Locket
+				{ 4, 215144, 435387 }, -- Algari Competitor's Amulet
+			},
 			[LEGION_DIFF] = {
 				{ 1,   136712, 209604 }, -- Queen's Opal Pendant
 				{ 2,   136712, 209607 }, -- Queen's Opal Pendant
@@ -4901,6 +4935,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelRed
 			name = AL["Red Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213462, 434549 }, -- Deadly Ruby
+				{ 2, 213456, 434551 }, -- Masterful Ruby
+				{ 3, 213453, 434550 }, -- Quick Ruby
+				{ 4, 213459, 434552 }, -- Versatile Ruby
+			},
 			[MOP_DIFF] = {
 				{ 1,  76696, 107705 }, -- Bold Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
 				{ 2,  76694, 107706 }, -- Brilliant Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
@@ -4966,6 +5006,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelBlue
 			name = AL["Blue Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213465, 434553 }, -- Deadly Sapphire
+				{ 2, 213471, 434555 }, -- Masterful Sapphire
+				{ 3, 213468, 434554 }, -- Quick Sapphire
+				{ 4, 213474, 434563 }, -- Versatile Sapphire
+			},
 			[LEGION_DIFF] = {
 				{ 1, 151585, 247774 }, -- Versatile Labradorite
 			},
@@ -5088,6 +5134,13 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelOrange
 			name = AL["Orange Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213501, 434537 }, -- Deadly Amber
+				{ 2, 213507, 434539 }, -- Masterful Amber
+				{ 3, 213504, 434538 }, -- Quick Amber
+				{ 4, 213510, 434540 }, -- Versatile Amber
+				{ 5, 213515, 434536 }, -- Solid Amber
+			},
 			[LEGION_DIFF] = {
 				{ 1, 151580, 247771 }, -- Deadly Deep Chemirine
 			},
@@ -5244,6 +5297,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelGreen
 			name = AL["Green Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213477, 434541 }, -- Deadly Emerald
+				{ 2, 213480, 434543 }, -- Masterful Emerald
+				{ 3, 213486, 434542 }, -- Quick Emerald
+				{ 4, 213483, 434544 }, -- Versatile Emerald
+			},
 			[MOP_DIFF] = {
 				{ 1,   76646, 106960 }, -- Balanced Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
 				{ 2,   76644, 106957 }, -- Effulgent Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
@@ -5377,6 +5436,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelPurple
 			name = AL["Purple Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213489, 434545 }, -- Deadly Onyx
+				{ 2, 213498, 434547 }, -- Masterful Onyx
+				{ 3, 213492, 434546 }, -- Quick Onyx
+				{ 4, 213495, 434548 }, -- Versatile Onyx
+			},
 			[LEGION_DIFF] = {
 				{ 1, 151584, 247773 }, -- Masterful Argulite
 			},
@@ -5506,6 +5571,15 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelMeta
 			name = AL["Meta Gems"],
+			[TWW_DIFF] = {
+				{ 1, 213741, 435318 },                             -- Culminating Blasphemite
+				{ 2, 213738, 435230 },                             -- Insightful Blasphemite
+				{ 3, 213744, 435319 },                             -- Elusive Blasphemite
+				{ 4, 217113, 435392, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Cubic Blasphemia
+				{ 6, 213748, 435321, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Cognitive Bloodstone
+				{ 7, 213749, 435322, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Determined Bloodstone
+				{ 8, 213747, 435320, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Enduring Bloodstone
+			},
 			[MOP_DIFF] = {
 				{ 1,  76884, 107753 }, -- Agile Primal Diamond : =ds=#sr# 575 : =ds=AtlasLoot["World Drop"]
 				{ 2,  76895, 107754 }, -- Austere Primal Diamond : =ds=#sr# 575 : =ds=AtlasLoot["World Drop"]
@@ -5635,6 +5709,19 @@ data["Jewelcrafting"] = {
 				{ 13, 151590, 247765 }, -- Empyrial Titan Crown
 				{ 14, 151590, 247766 }, -- Empyrial Titan Crown
 				{ 15, 151590, 247767 }, -- Empyrial Titan Crown
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[TWW_DIFF] = {
+				{ 1, 215121, 435373 },                          -- Incanter's Shard
+				{ 2, 215120, 435371 },                          -- Radiant Loupes
+				{ 3, 215119, 435375 },                          -- Right-Handed Magnifying Glass
+				{ 4, 215117, 435377 },                          -- Storyteller's Glasses
+				{ 5, 215125, 435374, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchanter's Crystal
+				{ 6, 215124, 435372, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Extravagant Loupes
+				{ 7, 215123, 435376, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Forger's Font Inspector
+				{ 8, 215122, 435378, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Novelist's Specs
 			},
 		},
 	}
