@@ -1,4 +1,4 @@
-﻿## Interface: 110007
+﻿## Interface: 110100
 
 ## Title: AtlasLoot |cFF22B14C[Core]|r
 ## Title-deDE: AtlasLoot |cFF22B14C[Kern]|r
@@ -20,8 +20,21 @@
 ## Notes-zhCN: 显示副本中的首领与小怪可能掉落的物品
 ## Notes-zhTW: 顯示首領與小怪可能掉落的物品，並可查詢各陣營與戰場的獎勵物品、套裝物品等
 
+## Category-enUS: Loot
+## Category-deDE: Beute
+## Category-esES: Botín
+## Category-esMX: Botín
+## Category-frFR: Butin
+## Category-itIT: Bottino
+## Category-koKR: 전리품
+## Category-ptBR: Saque
+## Category-ruRU: Добыча
+## Category-zhCN: 战利品
+## Category-zhTW: 戰利品
+
 ## Author: nanderson11, Lag, Proteyer, Arith
 ## Version: @project-version@
+## Group: AtlasLoot
 ## IconTexture: Interface\Icons\INV_Box_01
 ## X-Curse-Project-ID: 1173929
 ## SavedVariables: AtlasLootDB

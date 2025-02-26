@@ -6,6 +6,9 @@
 - Added TWW Inscription recipes
 - Added TWW Jewelcrafting recipes
 - Added Grimoire of the Shadow Succubus and Grimoire of the Abyssal to Warlock glyphs
+### Changed
+- Added category and group to TOC
+- Update TOC to 11.1.0
 ### Fixed
 - Updated IDs for Tome of the Clear Mind in the Crafting module
 - Removed Glyph of Deluge and Glyph of the Observer

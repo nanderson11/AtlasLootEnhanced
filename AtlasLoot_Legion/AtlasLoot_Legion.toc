@@ -1,4 +1,4 @@
-﻿## Interface: 110007
+﻿## Interface: 110100
 
 ## Title: AtlasLoot |cFF0099FF[Legion]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Legion]|r
@@ -21,6 +21,7 @@
 
 ## Author: nanderson11, Lag, Proteyer, Arith
 ## Version: @project-version@
+## Group: AtlasLoot
 ## IconTexture: Interface\Icons\INV_Box_01
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
