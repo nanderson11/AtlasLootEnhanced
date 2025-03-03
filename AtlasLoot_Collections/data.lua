@@ -3070,6 +3070,10 @@ data["TABARDS"]            = {
 				{ 29,  228761 },                                    -- Classic Brick Tabard
 				{ 30,  228763 },                                    -- Classic Crimson Tabard
 				{ 101, 228764 },                                    -- Classic Sunny Tabard
+				{ 102, 231526, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Bilgewater Undermine Tabard
+				{ 103, 231528, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Blackwater Undermine Tabard
+				{ 104, 231527, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Steamwheedle Undermine Tabard
+				{ 105, 231542, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Venture Co. Undermine Tabard
 				-- { 1, 233929 }, -- Sacred Tabard of the Priori (currently unobtainable)
 				-- { 1, 224169 }, -- Stonebound Tabard (currently unobtainable)
 			},
