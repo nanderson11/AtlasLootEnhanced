@@ -3059,16 +3059,17 @@ data["Engineering"] = {
 		{ --EngineeringDevices
 			name = AL["Devices"],
 			[TWW_DIFF] = {
-				{ 1,  221949, 447365, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pausing Pylon
-				{ 2,  221957, 447367, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Algari Repair Bot 11O
-				{ 3,  221953, 447366 },                 -- Convincingly Realistic Jumper Cables
-				{ 4,  221945, 447364 },                 -- Irresistible Red Button
-				{ 5,  219387, 447369 },                 -- Barrel of Fireworks
-				{ 6,  221962, 447370 },                 -- Defective Escape Pod
-				{ 7,  221966, 447372 },                 -- Wormhole Generator: Khaz Algar
-				{ 8,  221964, 447371 },                 -- Filmless Camera
-				{ 9,  219403, 443570 },                 -- Stonebound Lantern
-				{ 10, 221959, 447368, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Portable Profession Possibility Projector
+				{ 1,  221949, 447365,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pausing Pylon
+				{ 2,  221957, 447367,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Algari Repair Bot 11O
+				{ 3,  221953, 447366 },                           -- Convincingly Realistic Jumper Cables
+				{ 4,  221945, 447364 },                           -- Irresistible Red Button
+				{ 5,  219387, 447369 },                           -- Barrel of Fireworks
+				{ 6,  221962, 447370 },                           -- Defective Escape Pod
+				{ 7,  221966, 447372 },                           -- Wormhole Generator: Khaz Algar
+				{ 8,  221964, 447371 },                           -- Filmless Camera
+				{ 9,  219403, 443570 },                           -- Stonebound Lantern
+				{ 10, 221959, 447368,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Portable Profession Possibility Projector
+				{ 11, 232985, 1213620, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- 22H Slicks
 			},
 			[BFA_DIFF] = {
 				{ 1,  153573, 256070 }, -- Electroshock Mount Motivator
@@ -3828,6 +3829,7 @@ data["Inscription"] = {
 				{ 2, 222600, 444217, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Assembly of the Deeps
 				{ 3, 222603, 444218, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Hallowfall Arathi
 				{ 4, 222606, 444219, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: The Severed Threads
+				{ 5, 232532, 471132, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: The Cartels of Undermine
 			},
 			[BFA_DIFF] = {
 				{ 1,  153661, 256275 }, -- Contract: Proudmoore Admiralty
@@ -3976,7 +3978,8 @@ data["Inscription"] = {
 		{ --InscriptionRunes
 			name = AL["Runes"],
 			[TWW_DIFF] = {
-				{ 1, 226034, 444203 }, -- Vantus Rune: Nerub-ar Palace
+				{ 1, 226034, 444203 },                          -- Vantus Rune: Nerub-ar Palace
+				{ 2, 232935, 472951, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Vantus Rune: Liberation of Undermine
 			},
 			[BFA_DIFF] = {
 				{ 1, 153673, 256303 }, -- Vantus Rune: Uldir
