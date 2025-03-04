@@ -1139,6 +1139,14 @@ local MOUNT_INFO = {
 		[448939] = 223314, -- Shackled Shadow
 		[447957] = 223274, -- Ferocious Jawcrawler
 		[447185] = 223264, -- Aquamarine Swarmite
+		[466002] = 229936, -- Violet Armored Growler
+		[466016] = 229944, -- The Topskimmer Special
+		[465999] = 229935, -- Crimson Armored Growler
+		[466019] = 229948, -- Blackwater Shredder Deluxe Mk 2
+		[466028] = 229956, -- Mean Green Flying Machine
+		[466013] = 229946, -- Ocher Delivery Rocket
+		[1221155] = 236960, -- Prototype A.S.M.R.
+		[1217760] = 235626, -- The Big G
 	},
 	["items"] = {
 		--[itemID] = spellID

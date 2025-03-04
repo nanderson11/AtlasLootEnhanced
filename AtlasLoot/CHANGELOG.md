@@ -1,5 +1,18 @@
 ﻿# Changelog
 
+## 8.21.0 - March 4, 2025
+### Added
+- Added The Cartels of Undermine renown track
+- Added Bilgewater Cartel, Blackwater Cartel, Steamwheedle Cartel and Venture Company factions
+- Added Operation: Floodgate instance loot
+- Added Liberation of Undermine instance loot
+- Added 22H Slicks to Engineering Devices
+- Added Undermine contract and vantus rune to Inscription
+- Added Undermine tabards to Collections
+### Fixed
+- Fixed reputation bars being empty when at max reputation
+- Fixed %d showing up in renown reputation bars
+
 ## 8.20.0 - February 25, 2025
 ### Added
 - Added TWW Engineering recipes
