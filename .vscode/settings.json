@@ -113,7 +113,8 @@
         "COMPANIONS",
         "TOY",
         "EXPANSION_NAME8",
-        "EXPANSION_NAME9"
+        "EXPANSION_NAME9",
+        "ITEM_QUALITY_COLORS"
     ],
     "Lua.diagnostics.disable": [
         "need-check-nil"

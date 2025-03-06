@@ -190,7 +190,14 @@ function Item.Refresh(button)
 
 	button.overlay:Show()
 	button.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
-	button.overlay:SetAtlas(LOOT_BORDER_BY_QUALITY[itemQuality] or LOOT_BORDER_BY_QUALITY[LE_ITEM_QUALITY_UNCOMMON])
+	--button.overlay:SetAtlas(LOOT_BORDER_BY_QUALITY[itemQuality] or LOOT_BORDER_BY_QUALITY[LE_ITEM_QUALITY_UNCOMMON])
+	button.overlay:SetVertexColor(
+		ITEM_QUALITY_COLORS[itemQuality].r,
+		ITEM_QUALITY_COLORS[itemQuality].g,
+		ITEM_QUALITY_COLORS[itemQuality].b,
+		1
+	)
+
 	if not LOOT_BORDER_BY_QUALITY[itemQuality] then
 		button.overlay:SetDesaturated(true)
 	end
