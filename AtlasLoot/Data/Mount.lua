@@ -1147,6 +1147,7 @@ local MOUNT_INFO = {
 		[466013] = 229946, -- Ocher Delivery Rocket
 		[1221155] = 236960, -- Prototype A.S.M.R.
 		[1217760] = 235626, -- The Big G
+		[466018] = 229950, -- Darkfuse Demolisher
 	},
 	["items"] = {
 		--[itemID] = spellID

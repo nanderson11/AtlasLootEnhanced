@@ -172,6 +172,7 @@ local PRICE_INFO = {
 	["resonanceCrystal"]     = { currencyID = 2815 }, -- Resonance Crystal
 	["kej"]                  = { currencyID = 3056 }, -- Kej
 	["flameBlessedIron"]     = { currencyID = 3090 }, -- Flame-Blessed Iron
+	["marketResearch"]       = { currencyID = 3226 }, -- Market Research
 
 	-- others
 	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },

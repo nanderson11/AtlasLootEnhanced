@@ -286,19 +286,41 @@ data["TWWFACTIONS"] = {
 				{ 12, 229946,     "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Ocher Delivery Rocket
 			}
 		},
+		{ -- Darkfuse Solutions
+			FactionID = 2669,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2669rep4" },
+				{ 2,  235558,     [PRICE_EXTRA_ITTYPE] = "marketResearch:100" },                                        -- Box of Darkfuse Miscellany
+				{ 3,  237276,     [PRICE_EXTRA_ITTYPE] = "money:50000" },                                               -- Refurbished Rocket Glider
+				{ 4,  235532,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" },                                      -- Experimental Goblin-FUEL Supplement
+				{ 6,  "f2669rep5" },
+				{ 7,  229823,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" },                                      -- Canister of Darkfuse Solution
+				{ 8,  235533,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" },                                      -- Prototype Auto-Advertiser
+				{ 10, "f2669rep6" },
+				{ 11, 234950,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                     -- Atomic Regoblinator
+				{ 12, 235534,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" },                                      -- Electropuncture Test Model
+				{ 14, "f2669rep7" },
+				{ 15, 229950,     "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Darkfuse Demolisher
+				{ 16, "f2669rep8" },
+				{ 17, 231550,     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" },                                     -- Darkfuse Lowdown Coat
+
+			}
+		},
 		--[[ { -- Gallagio Loyalty Rewards Club
 			FactionID = 2685,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
+				Need to add item to spell ids for mounts and still missing pet cost
 				{ 1, "f2685rep38" },
-				{ 2, 229945,      [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Thunderdrum Misfire
+				{ 2, 229945, "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
 				{ 4, "f2685rep39" },
-				{ 5, 232844 }, -- Fuz-Size Flarendo
-				{ 6, 232806 }, -- Tiny Torq
+				{ 5, 232844, "pet4640" }, -- Fuz-Size Flarendo
+				{ 6, 232806, "pet4643" }, -- Tiny Torq
 				{ 8, "f2685rep47" },
-				{ 9, ,      [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Darkfuse Chompactor
+				{ 9, 229924, "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Darkfuse Chompactor
 				{ 11, "f2685rep50" },
-				{ 12,  }, -- Furious Flarendo
+				{ 12, 229940, "mount", [PRICE_EXTRA_ITTYPE] = "money:9712500" }, -- Flarendo the Furious
 			}
 		}, ]]
 	}
