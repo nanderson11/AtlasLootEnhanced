@@ -733,7 +733,7 @@ data["Cinderbrew Meadery"] = {
 data["Operation Floodgate"] = {
 	EncounterJournalID = 1298,
 	MapID = 2387,
-	AtlasMapID = "OperationFloodgate",
+	AtlasMapID = "OperationFloodgateA",
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ -- Big M.O.M.M.A.
