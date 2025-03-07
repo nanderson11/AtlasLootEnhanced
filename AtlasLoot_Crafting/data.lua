@@ -5737,6 +5737,37 @@ data["Leatherworking"] = {
 	items = {
 		{ --LeatherLeatherArmor
 			name = AL["Leather"].." "..AL["Armor"],
+			[TWW_DIFF] = {
+				{ 1,  219476, 443698 },                          -- Spelunker's Practiced Hat
+				{ 2,  219479, 443699 },                          -- Spelunker's Practiced Britches
+				{ 3,  219477, 443700 },                          -- Spelunker's Practiced Shoulders
+				{ 4,  219478, 443697 },                          -- Spelunker's Practiced Mitts
+				{ 5,  219480, 443701 },                          -- Spelunker's Practiced Sash
+				{ 6,  219472, 443695 },                          -- Spelunker's Leather Jerkin
+				{ 7,  219470, 443696 },                          -- Spelunker's Leather Footpads
+				{ 8,  219471, 443702 },                          -- Spelunker's Leather Bands
+				{ 9,  219334, 441058 },                          -- Rune-Branded Armbands
+				{ 10, 219333, 441053 },                          -- Rune-Branded Grasps
+				{ 11, 219329, 441054 },                          -- Rune-Branded Hood
+				{ 12, 219327, 441052 },                          -- Rune-Branded Kickers
+				{ 13, 219332, 441055 },                          -- Rune-Branded Legwraps
+				{ 14, 219330, 441056 },                          -- Rune-Branded Mantle
+				{ 15, 219328, 441051 },                          -- Rune-Branded Tunic
+				{ 16, 219331, 441057 },                          -- Rune-Branded Waistband
+				{ 17, 219489, 444071 },                          -- Waders of the Unifying Flame
+				{ 18, 219512, 443951 },                          -- Weathered Stormfront Vest
+				{ 19, 219502, 444070 },                          -- Adrenal Surge Clasp
+				{ 20, 219513, 443950 },                          -- Roiling Thunderstrike Talons
+				{ 21, 219511, 443949 },                          -- Rook Feather Wristwraps
+				{ 22, 217130, 438902, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Belt
+				{ 23, 217126, 438898, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Boots
+				{ 24, 217127, 438899, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Chestpiece
+				{ 25, 217132, 438904, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Gloves
+				{ 26, 217128, 438900, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Mask
+				{ 27, 217129, 438901, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Shoulderpads
+				{ 28, 217131, 438903, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Trousers
+				{ 29, 217133, 438905, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Wristwraps
+			},
 			[BFA_DIFF] = {
 				{ 1,   162468, 256767 }, -- Emblazoned Tempest Boots
 				{ 16,  162470, 256770 }, -- Emblazoned Tempest Leggings
@@ -6343,6 +6374,37 @@ data["Leatherworking"] = {
 		},
 		{ --LeatherMailArmor
 			name = AL["Mail"].." "..AL["Armor"],
+			[TWW_DIFF] = {
+				{ 1,  219481, 443706 },                          -- Tracker's Toughened Headgear
+				{ 2,  219484, 443707 },                          -- Tracker's Toughened Links
+				{ 3,  219482, 443708 },                          -- Tracker's Toughened Shoulderguards
+				{ 4,  219483, 443705 },                          -- Tracker's Toughened Handguards
+				{ 5,  219485, 443709 },                          -- Tracker's Toughened Girdle
+				{ 6,  219475, 443703 },                          -- Tracker's Chitin Hauberk
+				{ 7,  219473, 443704 },                          -- Tracker's Chitin Galoshes
+				{ 8,  219474, 443710 },                          -- Tracker's Chitin Cuffs
+				{ 9,  219339, 441065 },                          -- Glyph-Etched Binding
+				{ 10, 219336, 441059 },                          -- Glyph-Etched Breastplate
+				{ 11, 219340, 441063 },                          -- Glyph-Etched Cuisses
+				{ 12, 219338, 441064 },                          -- Glyph-Etched Epaulets
+				{ 13, 219341, 441061 },                          -- Glyph-Etched Gauntlets
+				{ 14, 219337, 441062 },                          -- Glyph-Etched Guise
+				{ 15, 219335, 441060 },                          -- Glyph-Etched Stompers
+				{ 16, 219342, 441066 },                          -- Glyph-Etched Vambraces
+				{ 17, 219508, 443960 },                          -- Reinforced Setae Flyers
+				{ 18, 219507, 443961 },                          -- Smoldering Pollen Hauberk
+				{ 19, 219492, 444073 },                          -- Sanctified Torchbearer's Grips
+				{ 20, 219501, 444068 },                          -- Vambraces of Deepening Darkness
+				{ 21, 219509, 443958 },                          -- Busy Bee's Buckle
+				{ 22, 217135, 438907, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Chainmail
+				{ 23, 217136, 438908, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Cowl
+				{ 24, 217141, 438913, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Cuffs
+				{ 25, 217137, 438909, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Epaulets
+				{ 26, 217140, 438912, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Gauntlets
+				{ 27, 217138, 438910, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Girdle
+				{ 28, 217139, 438911, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Leggings
+				{ 29, 217134, 438906, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Treads
+			},
 			[BFA_DIFF] = {
 				{ 1,   161961, 256771 }, -- Mistscale Boots
 				{ 16,  161962, 256774 }, -- Mistscale Leggings
@@ -6894,6 +6956,12 @@ data["Leatherworking"] = {
 		},
 		{ --LeatherArmorEnhancements
 			name = AL["Armor Enhancements"],
+			[TWW_DIFF] = {
+				{ 1, 219912, 444104 },                           -- Dual Layered Armor Kit
+				{ 2, 219906, 444103,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Defender's Armor Kit
+				{ 3, 219909, 444102,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stormbound Armor Kit
+				{ 4, 235335, 1216520, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Armor Kit
+			},
 			[WOD_DIFF] = {
 				{ 1, 128014, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Essence (Sold, Ashran)
 				{ 2, 127712, 187489, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Mighty Burnished Essence (Sold, Ashran)
@@ -6947,8 +7015,41 @@ data["Leatherworking"] = {
 				{ 5, 2304,  2152 }, -- Light Armor Kit : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[TWW_DIFF] = {
+				{ 1,  219866, 444105 },                                   -- Apothecary's Cap
+				{ 2,  219873, 444107 },                                   -- Steelsmith's Apron
+				{ 3,  219875, 444114 },                                   -- Gemcutter's Apron
+				{ 4,  219864, 444110 },                                   -- Scrapsmith's Gloves
+				{ 5,  219865, 444116 },                                   -- Hideshaper's Cover
+				{ 6,  219862, 444118 },                                   -- Hideseeker's Pack
+				{ 7,  219861, 444112 },                                   -- Gardener's Basket
+				{ 8,  219863, 444120 },                                   -- Hideseeker's Hat
+				{ 16, 219871, 444117, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Arathi Leatherworker's Smock
+				{ 17, 219870, 444111, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Scrapmaster's Gauntlets
+				{ 18, 219869, 444121, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Cap
+				{ 19, 219868, 444119, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Pack
+				{ 20, 219874, 444108, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Forgemaster's Apron
+				{ 21, 219876, 444115, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Jeweler's Cover
+				{ 22, 219872, 444106, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Nerubian Alchemist's Hat
+				{ 23, 219867, 444113, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stonebound Herbalist's Pack
+			},
+		},
 		{ --LeatherMiscellaneous
 			name = AL["Miscellaneous"],
+			[TWW_DIFF] = {
+				{ 1,  219905, 444122 }, -- Thunderous Drums
+				{ 3,  219495, 441460 }, -- Blessed Weapon Grip
+				{ 4,  219504, 441461 }, -- Writhing Armor Banding
+				{ 6,  219880, 444075 }, -- Carapace-Backed Hide
+				{ 7,  219898, 444086 }, -- Chitin Armor Banding
+				{ 8,  219883, 444076 }, -- Crystalfused Hide
+				{ 9,  219892, 444079 }, -- Leyfused Hide
+				{ 10, 219889, 444078 }, -- Sporecoated Hide
+				{ 11, 219901, 444087 }, -- Storm-Touched Weapon Wrap
+				{ 12, 219886, 444077 }, -- Writhing Hide
+			},
 			[BFA_DIFF] = {
 				{ 1,  162122, 278423 }, -- Amber Rallying Horn
 				{ 16, 162116, 276256 }, -- Tempest Hide Pouch

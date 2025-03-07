@@ -1,5 +1,12 @@
 ﻿# Changelog
 
+## 8.22.0 -
+### Added
+- Added Darkfuse Solutions faction
+- Added TWW Leatherworking recipes
+### Fixed
+- Fixed Atlas map button for Operation: Floodgate
+
 ## 8.21.0 - March 4, 2025
 ### Added
 - Added The Cartels of Undermine renown track
