@@ -4,6 +4,7 @@
 ### Added
 - Added Darkfuse Solutions faction
 - Added TWW Leatherworking recipes
+- Added TWW Tailoring recipes
 ### Fixed
 - Fixed Atlas map button for Operation: Floodgate
 
