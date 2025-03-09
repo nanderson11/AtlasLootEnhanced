@@ -173,6 +173,7 @@ local PRICE_INFO = {
 	["kej"]                  = { currencyID = 3056 }, -- Kej
 	["flameBlessedIron"]     = { currencyID = 3090 }, -- Flame-Blessed Iron
 	["marketResearch"]       = { currencyID = 3226 }, -- Market Research
+	["mereldarDerbyMark"]    = { currencyID = 3055 }, -- Mereldar Derby Mark
 
 	-- others
 	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },

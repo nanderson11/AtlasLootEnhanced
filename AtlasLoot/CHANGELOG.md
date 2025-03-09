@@ -5,6 +5,9 @@
 - Added Darkfuse Solutions faction
 - Added TWW Leatherworking recipes
 - Added TWW Tailoring recipes
+- Added TWW Cooking recipes
+## Changed
+- Moved BFA and Legion Cooking recipes into the appropriate categories
 ### Fixed
 - Fixed Atlas map button for Operation: Floodgate
 

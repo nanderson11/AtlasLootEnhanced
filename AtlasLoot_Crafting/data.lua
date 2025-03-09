@@ -8632,61 +8632,18 @@ data["Cooking"] = {
 	ContentType = SECPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
-		{ -- BFA all
-			name = EXPANSION_NAME7,
-			[BFA_DIFF] = {
-				-- subheader / Desserts
-				{ 1,  154887, 259436, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Loa Loaf
-				{ 2,  154883, 259425, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Ravenberry Tarts
-				{ 3,  154881, 259412, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Kul Tiramisu
-				{ 4,  154885, 259444, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Mon'Dazi
-				-- subheader / Light Meals
-				{ 6,  154889, 259430, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Grilled Catfish
-				{ 7,  154891, 259433, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seasoned Loins
-				{ 8,  163781, 280282, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Heartsbane Hexwurst
-				-- subheader / Large Meals
-				{ 10, 154886, 259447, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Snapper
-				{ 11, 154888, 259440, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Sailor's Pie
-				{ 12, 154884, 259427, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Swamp Fish 'n Chips
-				{ 13, 154882, 259414, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Honey-Glazed Haunches
-				-- subheader / Feasts
-				{ 16, 156526, 259422 },                    -- Bountiful Captain's Feast
-				{ 17, 156525, 259418 },                    -- Galley Banquet
-			},
-		},
-		{ -- Legion all
-			name = EXPANSION_NAME6,
-			[LEGION_DIFF] = {
-				{ 1,  133557, 201413, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Salt and Pepper Shank
-				{ 2,  133561, 201496, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Deep-Fried Mossgill
-				{ 3,  133562, 201497, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Pickled Stormray
-				{ 4,  133563, 201498, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Faronaar Fizz
-				{ 5,  133564, 201499, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Rib Roast
-				{ 6,  133565, 201500, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Leybeque Ribs
-				{ 7,  133566, 201501, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Suramar Surf and Turf
-				{ 8,  133567, 201502, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Barracuda Mrglgagh
-				{ 9,  133568, 201503, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Koi-Scented Stormray
-				{ 10, 133569, 201504, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Drogbar-Style Salmon
-				{ 11, 133570, 201505, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- The Hungry Magister
-				{ 12, 133571, 201506, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Azshari Salad
-				{ 13, 133572, 201507, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Nightborne Delicacy Platter
-				{ 14, 133573, 201508, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seed-Battered Fish Plate
-				{ 15, 133574, 201511, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fishbrul Special
-				{ 16, 133575, 201512, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Dried Mackerel Strips
-				{ 17, 133576, 201513, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Bear Tartare
-				{ 18, 133577, 201514, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fighter Chow
-				{ 19, 133578, 201515 },                    -- Hearty Feast
-				{ 20, 133579, 201516 },                    -- Lavish Suramar Feast
-				{ 21, 133681, 201683, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Crispy Bacon
-				{ 22, 142334, 230046 },                    -- Spiced Wildfowl Omelet
-				-- 7.3.0
-				{ 23, 152564, 251258 },                    -- Feast of the Fishes
-			},
-		},
 		{ --CookingAttributes
 			name = AL["Attributes"],
-			--	[LEGION_DIFF] = {
-			--	},
+			[TWW_DIFF] = {
+				{ 1, 222713, 445093, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Tender Twilight Jerky
+				{ 2, 222712, 445092, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Sweet and Sour Meatballs
+				{ 3, 222711, 445091, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Rib Stickers
+				{ 4, 222710, 445090, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Meat and Potatoes
+				{ 5, 222726, 445106, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Stuffed Cave Peppers
+				{ 6, 222724, 445104, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Sizzling Honey Roast
+				{ 7, 222725, 445105, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Mycobloom Risotto
+				{ 8, 222727, 445107, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Angler's Delight
+			},
 			[WOD_DIFF] = {
 				{ 1, 122347, 180760 },                    -- Whiptail Fillet (Sold, Garrison)
 				{ 2, 111447, 160984, [ATLASLOOT_IT_AMOUNT1] = "4+" }, -- Talador Surf and Turf (Learnt by tasting or cooking)
@@ -8756,6 +8713,44 @@ data["Cooking"] = {
 		},
 		{ --CookingRatings
 			name = AL["Ratings"],
+			[TWW_DIFF] = {
+				{ 1,  223968, 447872,  [PRICE_EXTRA_ITTYPE] = "kej:1500" },                       -- Spongey Scramble
+				{ 2,  222704, 445084,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Unseasoned Field Steak
+				{ 3,  222702, 445082,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Skewered Fillet
+				{ 4,  222703, 445083,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Simple Stew
+				{ 5,  222705, 445085,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Roasted Mycobloom
+				{ 6,  222706, 445086,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Pan-Seared Mycobloom
+				{ 7,  222707, 445087,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Hallowfall Chili
+				{ 8,  222709, 445089,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Flashfire Fillet
+				{ 9,  222708, 445088,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Coreway Kabob
+				{ 10, 222714, 445094,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Zesty Nibblers
+				{ 11, 222719, 445099,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Sweet and Spicy Soup
+				{ 12, 222717, 445097,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Salty Dog
+				{ 13, 222722, 445102,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Salt Baked Seafood
+				{ 14, 222723, 445103,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Marinated Tenderloins
+				{ 15, 222716, 445096,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Ginger-Glazed Fillet
+				{ 16, 222721, 445101,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Fish and Chips
+				{ 17, 222715, 445095,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Fiery Fish Sticks
+				{ 18, 225592, 455424,  [ATLASLOOT_IT_AMOUNT1] = "2" },                            -- Exquisitely Eviscerated Muscle
+				{ 19, 222718, 445098,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Deepfin Patty
+				{ 20, 222736, 445116,  [ATLASLOOT_IT_AMOUNT1] = "5" },                            -- Chippy Tea
+				{ 21, 222730, 445110,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Jester's Board
+				{ 22, 222731, 445111,  [ATLASLOOT_IT_AMOUNT1] = "3",     [PRICE_EXTRA_ITTYPE] = "kej:2638" }, -- Outsider's Provisions
+				{ 23, 222729, 445109,  [ATLASLOOT_IT_AMOUNT1] = "3",     [PRICE_EXTRA_ITTYPE] = "kej:1500" }, -- Empress' Farewell
+				{ 24, 222728, 445108,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Beledar's Bounty
+				{ 25, 235805, 1218414, [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Authentic Undermine Clam Chowder
+				{ 26, 223967, 447871,  [PRICE_EXTRA_ITTYPE] = "kej:1500" },                       -- Protein Slurp
+			},
+			[BFA_DIFF] = {
+				{ 1, 154887, 259436, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Loa Loaf
+				{ 2, 154883, 259425, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Ravenberry Tarts
+				{ 3, 154881, 259412, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Kul Tiramisu
+				{ 4, 154885, 259444, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Mon'Dazi
+				{ 5, 154886, 259447, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Snapper
+				{ 6, 154888, 259440, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Sailor's Pie
+				{ 7, 154884, 259427, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Swamp Fish 'n Chips
+				{ 8, 154882, 259414, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Honey-Glazed Haunches
+			},
 			[LEGION_DIFF] = {
 				-- Critical Strike
 				{ 1,  133557, 201413, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Salt and Pepper Shank
@@ -8910,6 +8905,21 @@ data["Cooking"] = {
 		},
 		{ --CookingBanquetFeast
 			name = AL["Banquets/Feasts"],
+			[TWW_DIFF] = {
+				{ 1, 222720, 445100, [ATLASLOOT_IT_AMOUNT1] = "3" },                                     -- The Sushi Special
+				{ 2, 222733, 445113, [ATLASLOOT_IT_AMOUNT1] = "5" },                                     -- Feast of the Midnight Masquerade
+				{ 3, 222732, 445112, [ATLASLOOT_IT_AMOUNT1] = "5" },                                     -- Feast of the Divine Day
+				{ 4, 222735, 445115, [ATLASLOOT_IT_AMOUNT1] = "3", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" }, -- Everything Stew
+			},
+			[BFA_DIFF] = {
+				{ 1, 156526, 259422 }, -- Bountiful Captain's Feast
+				{ 2, 156525, 259418 }, -- Galley Banquet
+			},
+			[LEGION_DIFF] = {
+				{ 1, 133578, 201515 }, -- Hearty Feast
+				{ 2, 133579, 201516 }, -- Lavish Suramar Feast
+				{ 3, 152564, 251258 }, -- Feast of the Fishes
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  111457, 173978, [ATLASLOOT_IT_AMOUNT1] = "4+" }, -- Feast of Blood (Learnt by tasting or cooking)
 				{ 2,  111458, 173979, [ATLASLOOT_IT_AMOUNT1] = "4+" }, -- Feast of the Waters (Learnt by tasting or cooking)
@@ -8940,9 +8950,6 @@ data["Cooking"] = {
 		},
 		{ --CookingAPSP
 			name = AL["Attack/Spell Power"],
-			[LEGION_DIFF] = {
-				{ 1, 142334, 230046 }, -- Spiced Wildfowl Omelet
-			},
 			[NORMAL_DIFF] = {
 				{ 1,  43015,                                      57423 },                       -- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
 				{ 2,  34754,                                      45555 },                       -- Mega Mammoth Meal : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
@@ -8971,55 +8978,69 @@ data["Cooking"] = {
 		},
 		{ --CookingSpecial
 			name = AL["Special"],
+			[TWW_DIFF] = {
+				{ 1, 223970, 447874, [ATLASLOOT_IT_AMOUNT1] = "3" },                                                    -- Little Buddy Biscuits
+				{ 2, 222748, 445483, [ATLASLOOT_IT_AMOUNT1] = "10" },                                                   -- Sticky Sweet Treat
+				{ 3, 225855, 447876, [ATLASLOOT_IT_AMOUNT1] = "5",                 [PRICE_EXTRA_ITTYPE] = "mereldarDerbyMark:10" }, -- Ghoulfish Delight
+				{ 4, 222747, 445482, [ATLASLOOT_IT_AMOUNT1] = "10",                [PRICE_EXTRA_ITTYPE] = "mereldarDerbyMark:10" }, -- Rockslide Shake
+				{ 5, 222745, 445480, [PRICE_EXTRA_ITTYPE] = "mereldarDerbyMark:10" },                                   -- Pep-In-Your-Step
+				{ 6, 222749, 445484, [ATLASLOOT_IT_AMOUNT1] = "10",                [PRICE_EXTRA_ITTYPE] = "mereldarDerbyMark:10" }, -- Melted Candlebar
+				{ 7, 223966, 447870, [ATLASLOOT_IT_AMOUNT1] = "2",                 [PRICE_EXTRA_ITTYPE] = "kej:1500" }, -- Everything-on-a-Stick
+				{ 7, 223971, 447875, [PRICE_EXTRA_ITTYPE] = "kej:1500" },                                               -- Azj-Kahet Special
+			},
+			[BFA_DIFF] = {
+				{ 1, 163781, 280282, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Heartsbane Hexwurst
+			},
 			[LEGION_DIFF] = {
 				{ 1, 133564, 201499, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Spiced Rib Roast
 				{ 2, 133569, 201504, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Drogbar-Style Salmon
 				{ 3, 133574, 201511, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fishbrul Special
 				{ 4, 133576, 201513, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Bear Tartare
 				{ 5, 133577, 201514, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Fighter Chow
-				{ 6, 133578, 201515 },                    -- Hearty Feast
-				{ 7, 133579, 201516 },                    -- Lavish Suramar Feast
-				{ 8, 133681, 201683, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Crispy Bacon
+				{ 6, 133681, 201683, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Crispy Bacon
+				{ 7, 142334, 230046 },                    -- Spiced Wildfowl Omelet
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  62790, 88015,  [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Darkbrew Lager : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
 				{ 2,  62674, 88022 },                  -- Highland Spirits : =ds=#sr# 450 : =ds=AtlasLoot["Cooking Daily"]
-				{ 4,  43491, 58523,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Bad Clams : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
-				{ 5,  43492, 58525,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Haunted Herring : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
-				{ 6,  43488, 58521,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Last Week's Mammoth : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
-				{ 7,  43490, 58512,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Tasty Cupcake : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
-				{ 8,  33924, 43779 },                  -- Delicious Chocolate Cake : =ds=#sr# 1 : =ds=AtlasLoot["Cooking Daily"]
-				{ 10, 62673, 88017 },                  -- Feathered Lure : =ds=#sr# 450 : =ds=AtlasLoot["Cooking Daily"]
-				{ 11, 34832, 45695,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Captain Rumsey's Lager : =ds=#sr# 100 : =ds=AtlasLoot["Drop"]
-				{ 13, 42997, 57438 },                  -- Blackened Worg Steak : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 14, 43001, 57443 },                  -- Tracker Snacks : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 16, 86432, 126655 },                 -- Banana Infused Rum : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]: AtlasLoot_IngameLocales["Krasarang Wilds"]
-				{ 17, 87264, 126654 },                 -- Four Senses Brew : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]: AtlasLoot_IngameLocales["Kun-Lai Summit"]
-				{ 18, 75038, 124054, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Mad Brewer's Breakfast : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]
-				{ 19, 75037, 124053 },                 -- Jade Witch Brew : =ds=#sr# 550 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]
-				{ 20, 62680, 88013 },                  -- Chocolate Cookie : =ds=#sr# 505 : =ds=AtlasLoot["Cooking Daily"]
-				{ 21, 43004, 57435,  [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Critter Bites : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 22, 33866, 43758 },                  -- Stormchops : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]
-				{ 23, 12217, 15906 },                  -- Dragonbreath Chili : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]
-				{ 24, 6657,  8238 },                   -- Savory Deviate Delight : =ds=#sr# 85 : =ds=AtlasLoot["Drop"]
-				{ 25, 7676,  9513 },                   -- Thistle Tea : =ds=#sr# 60 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hillsbrad Foothills"]
-				{ 26, 5473,  6413 },                   -- Scorpid Surprise : =ds=#sr# 20 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Durotar"]
-			},
-		},
-		{ --CookingOtherBuffs
-			name = AL["Other Buffs"],
-			[NORMAL_DIFF] = {
-				{ 1,  43005, 57440 }, -- Spiced Mammoth Treats : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  33874, 43772 }, -- Kibler's Bits : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]
-				{ 4,  13932, 18244 }, -- Poached Sunscale Salmon : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 16, 27663, 33292 }, -- Blackened Sporefish : =ds=#sr# 310 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Zangarmarsh"]
-				{ 17, 13931, 18243 }, -- Nightfin Soup : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 18, 21217, 25954 }, -- Sagefish Delight : =ds=#sr# 175 : =ds=AtlasLoot["Vendor"]
-				{ 19, 21072, 25704 }, -- Smoked Sagefish : =ds=#sr# 80 : =ds=AtlasLoot["Vendor"]
+				{ 3,  43491, 58523,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Bad Clams : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
+				{ 4,  43492, 58525,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Haunted Herring : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
+				{ 5,  43488, 58521,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Last Week's Mammoth : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
+				{ 6,  43490, 58512,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Tasty Cupcake : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]
+				{ 7,  33924, 43779 },                  -- Delicious Chocolate Cake : =ds=#sr# 1 : =ds=AtlasLoot["Cooking Daily"]
+				{ 8,  62673, 88017 },                  -- Feathered Lure : =ds=#sr# 450 : =ds=AtlasLoot["Cooking Daily"]
+				{ 9,  34832, 45695,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Captain Rumsey's Lager : =ds=#sr# 100 : =ds=AtlasLoot["Drop"]
+				{ 10, 42997, 57438 },                  -- Blackened Worg Steak : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 11, 43001, 57443 },                  -- Tracker Snacks : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 12, 86432, 126655 },                 -- Banana Infused Rum : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]: AtlasLoot_IngameLocales["Krasarang Wilds"]
+				{ 13, 87264, 126654 },                 -- Four Senses Brew : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]: AtlasLoot_IngameLocales["Kun-Lai Summit"]
+				{ 14, 75038, 124054, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Mad Brewer's Breakfast : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]
+				{ 15, 75037, 124053 },                 -- Jade Witch Brew : =ds=#sr# 550 : =ds=AtlasLoot_IngameLocales["Way of the Brew"]
+				{ 16, 62680, 88013 },                  -- Chocolate Cookie : =ds=#sr# 505 : =ds=AtlasLoot["Cooking Daily"]
+				{ 17, 43004, 57435,  [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Critter Bites : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 18, 33866, 43758 },                  -- Stormchops : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]
+				{ 19, 12217, 15906 },                  -- Dragonbreath Chili : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]
+				{ 20, 6657,  8238 },                   -- Savory Deviate Delight : =ds=#sr# 85 : =ds=AtlasLoot["Drop"]
+				{ 21, 7676,  9513 },                   -- Thistle Tea : =ds=#sr# 60 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hillsbrad Foothills"]
+				{ 22, 5473,  6413 },                   -- Scorpid Surprise : =ds=#sr# 20 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Durotar"]
+				{ 23, 43005, 57440 },                  -- Spiced Mammoth Treats : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 24, 33874, 43772 },                  -- Kibler's Bits : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]
+				{ 25, 13932, 18244 },                  -- Poached Sunscale Salmon : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 26, 27663, 33292 },                  -- Blackened Sporefish : =ds=#sr# 310 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Zangarmarsh"]
+				{ 27, 13931, 18243 },                  -- Nightfin Soup : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 28, 21217, 25954 },                  -- Sagefish Delight : =ds=#sr# 175 : =ds=AtlasLoot["Vendor"]
+				{ 29, 21072, 25704 },                  -- Smoked Sagefish : =ds=#sr# 80 : =ds=AtlasLoot["Vendor"]
 			},
 		},
 		{ --CookingStandard
 			name = AL["Food without Buffs"],
+			[TWW_DIFF] = {
+				{ 1, 222744, 445479, [ATLASLOOT_IT_AMOUNT1] = "10", [PRICE_EXTRA_ITTYPE] = "money:200000" }, -- Cinder Nectar
+			},
+			[BFA_DIFF] = {
+				{ 1, 154889, 259430, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Grilled Catfish
+				{ 2, 154891, 259433, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Seasoned Loins
+			},
 			[LEGION_DIFF] = {
 				{ 1, 133575, 201512, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Dried Mackerel Strips
 			},
