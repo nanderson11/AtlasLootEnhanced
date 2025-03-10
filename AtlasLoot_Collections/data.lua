@@ -981,51 +981,43 @@ data["MOUNTS"]             = {
 				{ 4,   192764, "mount" },                   -- Verdant Skitterfly
 				{ 5,   192775, "mount" },                   -- Stormhide Salamanther
 				{ 6,   192777, "mount" },                   -- Magmashell
-				{ 7,   192779 },                            -- Scorchpath
+				{ 7,   192779 },                            -- Seething Slug
 				{ 8,   192784, "ac16295" },                 -- Shellack
 				{ 9,   192786, [PRICE_EXTRA_ITTYPE] = "magmote:1000" }, -- Slumbering Worldsnail Shell
 				{ 10,  192791, "mount" },                   -- Plainswalker Bearer
-				--				{ 11, 192792 }, -- PH Thunder Lizard Green
-				--				{ 12, 192793 }, -- PH Thunder Lizard Black
-				--				{ 13, 192794 }, -- PH Thunder Lizard Blue
-				--				{ 14, 192796 }, -- PH Thunder Lizard Light
-				{ 11,  192799, "mount" }, -- Lizi's Reins
-				{ 12,  192800 }, -- Skyskin Hornstrider
-				--				{ 17, 192801 }, -- PH Primal Tallstrider White
-				--				{ 18, 192802 }, -- PH Primal Tallstrider Black
-				--				{ 19, 192803 }, -- PH Primal Tallstrider Red
-				{ 13,  192804 }, -- Restless Hornstrider
-				{ 14,  192806, "ac16355" }, -- Raging Magmammoth
-				--				{ 22, 192807 }, -- PH Lava Mammoth Yellow
-				{ 15,  194034, "mount" }, -- Renewed Proto-Drake
-				{ 16,  194106, "mount" }, -- Highland Drake
-				{ 17,  194521, "mount" }, -- Cliffside Wylderdrake
-				{ 18,  194549, "mount" }, -- Windborne Velocidrake
-				{ 19,  194705, "mount" }, -- Highland Drake
-				{ 20,  198654, "ac15834" }, -- Otterworldly Ottuk Carrier
-				{ 21,  198808, "mount" }, -- Guardian Vorquin
-				{ 22,  198809, "mount" }, -- Armored Vorquin Leystrider
-				{ 23,  198810, "mount" }, -- Swift Armored Vorquin
-				{ 24,  198811, "mount" }, -- Majestic Armored Vorquin
-				{ 25,  198821, "mount" }, -- Divine Kiss of Ohn'ahra
-				{ 26,  198825, "mount" }, -- Zenet Hatchling
-				{ 27,  198870, "mount" }, -- Otto
-				{ 28,  198871, "mount" }, -- Iskaara Trader's Ottuk
-				{ 29,  198872, "mount" }, -- Brown Scouting Ottuk
-				{ 30,  198873, "mount" }, -- Ivory Trader's Ottuk
-				{ 101, 199412, "mount" }, -- Hailstorm Armoredon
-				{ 102, 200118, "mount" }, -- Yellow Scouting Ottuk
-				{ 103, 201425, "mount" }, -- Yellow War Ottuk
-				{ 104, 201426, "mount" }, -- Brown War Ottuk
-				{ 105, 201440, "mount" }, -- Reins of the Liberated Slyvern
-				{ 106, 201454, "mount" }, -- Temperamental Skyclaw
-				{ 107, 201702, "mount" }, -- Crimson Vorquin
-				{ 108, 201704, "mount" }, -- Sapphire Vorquin
-				{ 109, 201719, "mount" }, -- Obsidian Vorquin
-				{ 110, 201720, "mount" }, -- Bronze Vorquin
-				{ 111, 201788, "mount" }, -- Vicious Sabertooth
-				{ 112, 201789, "mount" }, -- Vicious Sabertooth
-				{ 113, 202086, "mount" }, -- Crimson Gladiator's Drake
+				{ 11,  192799, "mount" },                   -- Lizi's Reins
+				{ 12,  192800 },                            -- Skyskin Hornstrider
+				{ 13,  192804 },                            -- Restless Hornstrider
+				{ 14,  192806, "ac16355" },                 -- Raging Magmammoth
+				{ 15,  194034, "mount" },                   -- Renewed Proto-Drake
+				{ 16,  194106, "mount" },                   -- Highland Drake
+				{ 17,  194521, "mount" },                   -- Cliffside Wylderdrake
+				{ 18,  194549, "mount" },                   -- Windborne Velocidrake
+				{ 19,  194705, "mount" },                   -- Highland Drake
+				{ 20,  198654, "ac15834" },                 -- Otterworldly Ottuk Carrier
+				{ 21,  198808, "mount" },                   -- Guardian Vorquin
+				{ 22,  198809, "mount" },                   -- Armored Vorquin Leystrider
+				{ 23,  198810, "mount" },                   -- Swift Armored Vorquin
+				{ 24,  198811, "mount" },                   -- Majestic Armored Vorquin
+				{ 25,  198821, "mount" },                   -- Divine Kiss of Ohn'ahra
+				{ 26,  198825, "mount" },                   -- Zenet Hatchling
+				{ 27,  198870, "mount" },                   -- Otto
+				{ 28,  198871, "mount" },                   -- Iskaara Trader's Ottuk
+				{ 29,  198872, "mount" },                   -- Brown Scouting Ottuk
+				{ 30,  198873, "mount" },                   -- Ivory Trader's Ottuk
+				{ 101, 199412, "mount" },                   -- Hailstorm Armoredon
+				{ 102, 200118, "mount" },                   -- Yellow Scouting Ottuk
+				{ 103, 201425, "mount" },                   -- Yellow War Ottuk
+				{ 104, 201426, "mount" },                   -- Brown War Ottuk
+				{ 105, 201440, "mount" },                   -- Reins of the Liberated Slyvern
+				{ 106, 201454, "mount" },                   -- Temperamental Skyclaw
+				{ 107, 201702, "mount" },                   -- Crimson Vorquin
+				{ 108, 201704, "mount" },                   -- Sapphire Vorquin
+				{ 109, 201719, "mount" },                   -- Obsidian Vorquin
+				{ 110, 201720, "mount" },                   -- Bronze Vorquin
+				{ 111, 201788, "mount" },                   -- Vicious Sabertooth
+				{ 112, 201789, "mount" },                   -- Vicious Sabertooth
+				{ 113, 202086, "mount" },                   -- Crimson Gladiator's Drake
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -1956,9 +1948,6 @@ data["MOUNTS"]             = {
 				{ 114, 49096,  "mount" }, -- Crusader's White Warhorse
 				{ 115, 49098,  "mount" }, -- Crusader's Black Warhorse
 				{ 116, 76755,  "mount" }, -- Tyrael's Charger
-				-- { 118, 33182 }, -- Swift Flying Broom
-				-- { 119, 33184 }, -- Swift Magic Broom
-				-- { 120, 33183 }, -- Old Magic Broom
 				{ 117, 116788, "ac9496" }, -- Warlord's Deathwheel
 			},
 		},
@@ -3039,17 +3028,17 @@ data["TABARDS"]            = {
 			name = EXPANSION_NAME10,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
-				{ 1,   218352 },                                    -- Expeditionary Tabard
-				{ 2,   224166 },                                    -- Awakened Tabard
-				{ 3,   218349 },                                    -- Tabard of the Severed Threads
-				{ 4,   218346 },                                    -- Honorary Councilmember's Tabard
-				{ 5,   218343 },                                    -- Tabard of the Assembly
-				{ 6,   225946 },                                    -- Slightly Singed Arathi Tabard
-				{ 7,   225999 },                                    -- Earthen Adventurer's Tabard
-				{ 8,   226016 },                                    -- Darkened Tabard of the Arathi
-				{ 9,   233932 },                                    -- Awakened Ambassador's Tabard
-				{ 10,  233928 },                                    -- Adventurous Lamplighter's Tabard
-				{ 11,  226220 },                                    -- Machine-Warden's Tabard
+				{ 1,   218352 },                                     -- Expeditionary Tabard
+				{ 2,   224166 },                                     -- Awakened Tabard
+				{ 3,   218349 },                                     -- Tabard of the Severed Threads
+				{ 4,   218346 },                                     -- Honorary Councilmember's Tabard
+				{ 5,   218343 },                                     -- Tabard of the Assembly
+				{ 6,   225946 },                                     -- Slightly Singed Arathi Tabard
+				{ 7,   225999 },                                     -- Earthen Adventurer's Tabard
+				{ 8,   226016 },                                     -- Darkened Tabard of the Arathi
+				{ 9,   233932 },                                     -- Awakened Ambassador's Tabard
+				{ 10,  233928 },                                     -- Adventurous Lamplighter's Tabard
+				{ 11,  226220 },                                     -- Machine-Warden's Tabard
 				{ 12,  225977, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Camo Tabard
 				{ 13,  226369, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Faded Tabard
 				{ 14,  229999, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Cloudy Tabard
@@ -3064,12 +3053,12 @@ data["TABARDS"]            = {
 				{ 23,  234907, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Tattered Iron Horde Tabard
 				{ 24,  234906, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Auchenai Tabard
 				{ 25,  223616, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Forged Gladiator's Tabard
-				{ 26,  228908 },                                    -- Bot Wrangler's Violet Apron
-				{ 27,  228909 },                                    -- Bot Wrangler's Crimson Apron
-				{ 28,  228762 },                                    -- Classic Lively Tabard
-				{ 29,  228761 },                                    -- Classic Brick Tabard
-				{ 30,  228763 },                                    -- Classic Crimson Tabard
-				{ 101, 228764 },                                    -- Classic Sunny Tabard
+				{ 26,  228908 },                                     -- Bot Wrangler's Violet Apron
+				{ 27,  228909 },                                     -- Bot Wrangler's Crimson Apron
+				{ 28,  228762 },                                     -- Classic Lively Tabard
+				{ 29,  228761 },                                     -- Classic Brick Tabard
+				{ 30,  228763 },                                     -- Classic Crimson Tabard
+				{ 101, 228764 },                                     -- Classic Sunny Tabard
 				{ 102, 231526, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Bilgewater Undermine Tabard
 				{ 103, 231528, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Blackwater Undermine Tabard
 				{ 104, 231527, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Steamwheedle Undermine Tabard

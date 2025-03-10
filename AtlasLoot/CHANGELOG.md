@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 8.22.0 -
+## 8.22.0 - March 10, 2025
 ### Added
 - Added Darkfuse Solutions faction
 - Added TWW Leatherworking recipes
