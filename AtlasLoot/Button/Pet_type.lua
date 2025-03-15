@@ -138,8 +138,7 @@ self.TypeInfo.type:SetText(_G["BATTLE_PET_NAME_"..petType]);
 				</Texture>
 ]] --
 function Pet.Refresh(button)
-	-- speciesName, speciesIcon, petType, companionID, tooltipSource, tooltipDescription, isWild, canBattle, isTradeable, isUnique, obtainable = C_PetJournal.GetPetInfoBySpeciesID(button.PetID)
-	local speciesName, speciesIcon, petType, companionID, tooltipSource, tooltipDescription = C_PetJournal_GetPetInfoBySpeciesID(button.PetID)
+	local speciesName, speciesIcon, petType, _, tooltipSource, tooltipDescription, _, _, _, _, _, creatureDisplayID = C_PetJournal_GetPetInfoBySpeciesID(button.PetID)
 	if not speciesName then return end
 	if button.type == "secButton" then
 		--/dump C_PetJournal.GetPetInfoBySpeciesID(1145)
@@ -157,7 +156,7 @@ function Pet.Refresh(button)
 
 
 	button.icon:SetTexture(speciesIcon)
-	button.info = { speciesName, speciesIcon, petType, tooltipSource, tooltipDescription, companionID }
+	button.info = { speciesName, speciesIcon, petType, tooltipSource, tooltipDescription, creatureDisplayID }
 end
 
 function Pet.GetStringContent(str)
@@ -251,7 +250,7 @@ function Pet.ShowToolTipFrame(button)
 
 	frame.desc:SetText(button.info[5])
 
-	frame.model:SetCreature(button.info[6])
+	frame.model:SetDisplayInfo(button.info[6])
 	frame.model:SetDoBlend(false)
 	--frame.model:SetAnimation(0,-1) 0=alive, 6=dead
 
