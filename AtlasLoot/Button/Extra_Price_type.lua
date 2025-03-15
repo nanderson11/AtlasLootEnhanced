@@ -174,6 +174,9 @@ local PRICE_INFO = {
 	["flameBlessedIron"]     = { currencyID = 3090 }, -- Flame-Blessed Iron
 	["marketResearch"]       = { currencyID = 3226 }, -- Market Research
 	["mereldarDerbyMark"]    = { currencyID = 3055 }, -- Mereldar Derby Mark
+	["undercoin"]            = { currencyID = 2803 }, -- Undercoin
+	["residualMemories"]     = { currencyID = 3089 }, -- ResidualMemories
+	["vintageKajaCola"]      = { currencyID = 3220 }, -- Vintage Kaja'Cola Can
 
 	-- others
 	["money"]                = { func = C_CurrencyInfo.GetCoinTextureString },

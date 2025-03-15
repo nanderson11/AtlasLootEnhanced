@@ -1,5 +1,13 @@
 ﻿# Changelog
 
+## 8.23.0 -
+### Added
+- Added TWW toys to Collections
+- Added TWW pets to Collections
+### Fixed
+- Fixed broken mount in WOTLK Timewalking Collection
+- Fixed pet model in secondary tooltip not loading the first time the tooltip opens
+
 ## 8.22.0 - March 10, 2025
 ### Added
 - Added Darkfuse Solutions faction

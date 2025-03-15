@@ -114,7 +114,8 @@
         "TOY",
         "EXPANSION_NAME8",
         "EXPANSION_NAME9",
-        "ITEM_QUALITY_COLORS"
+        "ITEM_QUALITY_COLORS",
+        "DEFAULT_CHAT_FRAME"
     ],
     "Lua.diagnostics.disable": [
         "need-check-nil"

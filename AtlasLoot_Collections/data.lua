@@ -1742,7 +1742,7 @@ data["MOUNTS"]             = {
 				{ 21, 116773, "mount" }, -- Swift Breezestrider
 				{ 22, 116792, "mount" }, -- Sunhide Gronnling
 				{ 23, 116794, "mount" }, -- Garn Nighthowl
-				{ 25, 119180 }, -- Goren \"Log\" Roller
+				{ 25, 119180 }, -- Goren "Log" Roller
 				{ 26, 113543 }, -- Spirit of Shinri
 			},
 			[MOP_DIFF] = {
@@ -5453,11 +5453,142 @@ data["COMPANIONS"]         = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{
-			name = COMPANIONS,
-			--CoinTexture = "Reputation",
+		{ -- The War Within
+			name = EXPANSION_NAME10,
+			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   190583 }, -- Ichabod
+				{ 1,   232843, "pet4642" },                                      -- Gorillion
+				{ 2,   232838, "pet4639" },                                      -- Viridian Mechasaur
+				{ 3,   238796, "pet4791" },                                      -- Thrrrdgl
+				{ 4,   232852, "pet4636" },                                      -- Mutt
+				{ 5,   236768, "pet4759" },                                      -- Craboom
+				{ 6,   232847, "pet4646" },                                      -- Personal-Use Sapper
+				{ 7,   232848, "pet4647" },                                      -- Mr. DELVER
+				{ 8,   223155, "pet4469" },                                      -- Bop
+				{ 9,   224766, "pet4596" },                                      -- Faithful Dog
+				{ 10,  232858, "pet4655", [PRICE_EXTRA_ITTYPE] = "vintageKajaCola:1" }, -- Cruncher
+				{ 11,  232859, "pet4653", [PRICE_EXTRA_ITTYPE] = "vintageKajaCola:3" }, -- Lab Rat
+				{ 12,  238261, "pet4762" },                                      -- Tock the Clocker Spaniel
+				{ 13,  233056, "pet4708", [QUEST_EXTRA_ITTYPE] = 86261 },        -- Marmaduke
+				{ 14,  232839, "pet4637", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Wavebreaker Mechasaur
+				{ 15,  232840, "pet4661", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Mechagopher
+				{ 16,  232842, "pet4638", [PRICE_EXTRA_ITTYPE] = "234741:10" },  -- Crimson Mechasaur
+				{ 17,  232853, "pet4632", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Eepy
+				{ 18,  221496, "pet4496" },                                      -- Wriggle
+				{ 19,  221850, "pet4464", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Freshly Webbed Kebab / Bean
+				{ 20,  234379, "pet4726" },                                      -- Crackleroar
+				{ 21,  221546, "pet4534" },                                      -- Nightfarm Growthling
+				{ 22,  223624, "pet4575" },                                      -- Sneef
+				{ 23,  232851, "pet4641", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Rocketfist
+				{ 24,  225337, "pet4506" },                                      -- Violet Sporbit
+				{ 25,  232845, "pet4645", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Bilgewater Junkhauler
+				{ 26,  232844, "pet4640" },                                      -- Fuz-Size Flarendo
+				{ 27,  221819, "pet4472" },                                      -- Shadowbog Hopper
+				{ 28,  222971, "pet4489" },                                      -- Bouncer
+				{ 29,  232841, "pet4644", [PRICE_EXTRA_ITTYPE] = "234741:8" },   -- Professor Punch
+				{ 30,  232849, "pet4650", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Venture Companyman
+				{ 101, 220782, "pet4462", [QUEST_EXTRA_ITTYPE] = 82007 },        -- Thunder
+				{ 102, 232895, "pet4701", [QUEST_EXTRA_ITTYPE] = 85711 },        -- Spotty
+				{ 103, 222974, "pet4543", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Sir Shady Mrrgglton Junior
+				{ 104, 220771, "pet4467" },                                      -- Hallowed Glowfly
+				{ 105, 229366, "pet4629" },                                      -- Brrrgl
+				{ 106, 224646, "pet4598", [PRICE_EXTRA_ITTYPE] = "224642:1" },   -- Coppers the Kobold
+				{ 107, 232850, "pet4649", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Blackwater Kegmover
+				{ 108, 221486, "pet4455", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Rak-Ush Threadling
+				{ 109, 232806, "pet4643" },                                      -- Tiny Torq
+				{ 110, 231294, "pet4682" },                                      -- Reven
+				{ 111, 232846, "pet4648", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Steamwheedle Flunkie
+				{ 112, 225544, "pet4599" },                                      -- Mind Slurp
+				{ 113, 222972, "pet4491", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Jump Jump
+				{ 114, 224549, "pet4594" },                                      -- Sewer Turtle Whistle
+				{ 115, 222968, "pet4476", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Itchbite
+				{ 116, 221821, "pet4517" },                                      -- Waxwick (ac41683)
+				{ 117, 232855, "pet4631" },                                      -- Foreman (ac41551)
+				{ 118, 222970, "pet4490" },                                      -- Fuzzy (ac41213)
+				{ 119, 223487, "pet4482" },                                      -- Writhing Transmutagen
+				{ 120, 229368, "pet4630" },                                      -- Gill'el
+				{ 121, 222973, "pet4492", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Fringe
+				{ 122, 221820, "pet4537" },                                      -- Chester
+				{ 123, 228765, "pet4616" },                                      -- Gummi
+				{ 124, 232807, "pet4664" },                                      -- Iron Chick (ac41349)
+				{ 125, 232519, "pet4690" },                                      -- Razeshi B.
+				{ 126, 224439, "pet4470" },                                      -- Oop'lajax
+				{ 127, 224450, "pet4527" },                                      -- Lil' Moss Rosy
+				{ 128, 228790, "pet4617" },                                      -- Thrillbot 9000
+				{ 129, 228793, "pet4618" },                                      -- Chillbot 9000
+				{ 130, 222980, "pet4542" },                                      -- Slim (ac41200)
+				{ 201, 224259, "pet4590" },                                      -- Flash
+				{ 202, 221849, "pet4465", [QUEST_EXTRA_ITTYPE] = 79110 },        -- Vanilla
+				{ 203, 222966, "pet4473" },                                      -- Spinner
+				{ 204, 231310, "pet4684" },                                      -- Timbered Sky Snakelet
+				{ 205, 221760, "pet4513" },                                      -- Pillarnest Bonedrinker
+				{ 206, 221848, "pet4463", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Tiberius
+				{ 207, 224101, "pet4586", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Brown Leafbug
+				{ 208, 224261, "pet4589" },                                      -- Gale
+				{ 209, 232531, "pet4691" },                                      -- Grunch
+				{ 210, 221494, "pet4495", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Skippy
+				{ 211, 221761, "pet4511", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Venomwing
+				{ 212, 224260, "pet4591" },                                      -- Thundo
+				{ 213, 222964, "pet4520", [QUEST_EXTRA_ITTYPE] = 80316 },        -- Fathom Incher
+				{ 214, 223623, "pet4576", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Guacamole
+				{ 215, 223625, "pet4570", [QUEST_EXTRA_ITTYPE] = 79683 },        -- Cinderwold Sizzlestinger
+				{ 216, 228740, "pet4614" },                                      -- Gizmo the Pure
+				{ 217, 235358, "pet4733" },                                      -- Merriment
+				{ 218, 224579, "pet3362" },                                      -- Sapphire Crab
+				{ 219, 221548, "pet4536" },                                      -- Blightbud
+				{ 220, 224760, "pet4597", [PRICE_EXTRA_ITTYPE] = "224642:1" },   -- Wobbles
+				{ 221, 231365, "pet4689", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Karazhan Syphoner
+				{ 222, 232923, "pet4704", [PRICE_EXTRA_ITTYPE] = "lovetoken:40" }, -- Living Rose
+				{ 223, 233366, "pet4719", [PRICE_EXTRA_ITTYPE] = "tender:300" }, -- Wind-Up Woofer
+				{ 224, 224410, "pet4593", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Craggles
+				{ 225, 234395, "pet4727", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Skitterbite
+				{ 226, 222965, "pet4530", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
+				{ 227, 223802, "pet4581" },                                      -- Ruby-Eyed Stagshell (ac40088)
+				{ 228, 234396, "pet4728", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Teatuft Tamer
+				{ 229, 234397, "pet4729", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Fullbelly Rollingpaw
+				{ 230, 228758, "pet4615" },                                      -- Parrlok
+				{ 301, 230011, "pet4679" },                                      -- Lil'Kaz's Hilt
+				{ 302, 233247, "pet4692" },                                      -- Sparklesnap
+				{ 303, 233361, "pet4718", [PRICE_EXTRA_ITTYPE] = "tender:300" }, -- Wind-Up Wuffi
+				{ 304, 218086, "pet4450", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Riverpaw
+				{ 305, 222978, "pet4546", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Sandstone Ramolith
+				{ 306, 225935, "pet4582", [QUEST_EXTRA_ITTYPE] = 79123 },        -- Rak-Ush Battleshell
+				{ 307, 228781, "pet4678" },                                      -- Lil'Doomy's Hilt
+				{ 308, 224406, "pet4592", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Misty
+				{ 309, 233251, "pet4426" },                                      -- Bubbles
+				{ 310, 218245, "pet4451", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Construct
+				{ 311, 232653, "pet4694" },                                      -- Portentous Present
+				{ 312, 218246, "pet4452", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Spawn
+				{ 313, 221811, "pet4524", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Starkstripe Hopper
+				{ 314, 235989, "pet4695" },                                      -- Parley
+				{ 315, 231356, "pet4686", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Specter
+				{ 316, 225934, "pet4500" },                                      -- Lil' Bonechewer (ac41085)
+				{ 317, 226104, "pet4602", [PRICE_EXTRA_ITTYPE] = "tender:330" }, -- Claudius
+				{ 318, 229993, "pet4669", [PRICE_EXTRA_ITTYPE] = "tender:400" }, -- Bluedoo
+				{ 319, 233252, "pet4435" },                                      -- Happy
+				{ 320, 233248, "pet4425" },                                      -- Glamrok
+				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
+				-- { 312, 221764, "pet4519" }, -- Burntram
+				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
+				-- { 322, 221759, "pet4512" }, -- Sceaduthax
+				-- { 323, 221851, "pet4466" }, -- Argos
+				-- { 325, 222979, "pet4545" }, -- Clay Stonecharger
+				-- { 327, 221195, "pet4458" }, -- Illskitter
+				-- { 324, 234905, "pet4730" }, -- Mech-Friend Maya
+				-- { 324, 221492, "pet4459" }, -- Moss Skipper
+				-- { 325, 221493, "pet4493" }, -- Admiral
+				-- { 326, 221495, "pet4497" }, -- Waddles
+				-- { 327, 222967, "pet4475" }, -- Webbers
+				-- { 102, 232857, "pet4635" }, -- Goggles
+				-- { 114, 232856, "pet4633" }, -- Scruff
+				-- { 203, 232854, "pet4634" }, -- Grinner
+			}
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			-- CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   190583, "pet3248" }, -- Ichabod
 				{ 2,   191126 }, -- Obsidian Whelpling
 				{ 3,   191886, "pet3274" }, -- Alvin the Anvil
 				{ 4,   191915 }, -- Time-Lost Feral Rabbit
@@ -5539,7 +5670,7 @@ data["COMPANIONS"]         = {
 				{ 220, 201707, "pet3416" }, -- Troubled Tome
 				{ 221, 201838 }, -- Snowclaw Cub
 				{ 222, 202085 }, -- Bugbiter Tortoise
-			},
+			}
 		},
 	},
 }
