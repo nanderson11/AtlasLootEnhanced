@@ -5589,87 +5589,87 @@ data["COMPANIONS"]         = {
 			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   190583, "pet3248" }, -- Ichabod
-				{ 2,   191126 }, -- Obsidian Whelpling
+				{ 2,   191126, "pet3256" }, -- Obsidian Whelpling
 				{ 3,   191886, "pet3274" }, -- Alvin the Anvil
-				{ 4,   191915 }, -- Time-Lost Feral Rabbit
-				{ 5,   191930 }, -- Blue Phoenix Hatchling
+				{ 4,   191915, "pet3259" }, -- Shaggy
+				{ 5,   191930, "pet3261" }, -- Wakyn
 				{ 6,   191932, "pet3262" }, -- Violet Violence
 				{ 7,   191936, "pet3263" }, -- Secretive Frogduck
 				{ 8,   191941, "pet3264" }, -- Crystalline Mini-Monster
 				{ 9,   191946, "pet3265" }, -- Mister Muskoxeles
 				{ 10,  192459, "pet3270" }, -- Jean's Lucky Fish
 				{ 11,  193066, "pet3275" }, -- Chestnut
-				{ 12,  193068 }, -- Time-Lost Treeflitter
-				{ 13,  193071, "pet3278" }, -- Pistachio
-				{ 14,  193225, "pet3284" }, -- Whiskuk
-				{ 15,  193235 }, -- Scarlet Ottuk Pup
-				{ 16,  193363 }, -- Auburntusk Calf
-				{ 17,  193364 }, -- Time-Lost Baby Mammoth
-				{ 18,  193373 }, -- Phoenix Wishwing
-				{ 19,  193374 }, -- Crimson Phoenix Hatchling
-				{ 20,  193377 }, -- Time-Lost Phoenix Hatchling
-				{ 21,  193380 }, -- Pink Salamanther
-				{ 22,  193429 }, -- Time-Lost Salamanther
-				{ 23,  193484, "pet3302" }, -- Pilot
-				{ 24,  193571, "pet3303" }, -- Mallard Duckling
-				{ 25,  193572, "pet3306" }, -- Quack-E
-				{ 26,  193587 }, -- Time-Lost Duck
-				{ 27,  193614 }, -- Groundshaker
-				{ 28,  193618, "pet3317" }, -- Hoofhelper
-				{ 29,  193619, "pet3319" }, -- Yipper
-				{ 30,  193620 }, -- Time-Lost Slyvern
-				{ 101, 193834, "pet3321" }, -- Blackfeather Nester
-				{ 102, 193835 }, -- Brightfeather
-				{ 103, 193837, "pet3326" }, -- Backswimmer Timbertooth
-				{ 104, 193850 }, -- Time-Lost Timbertooth
-				{ 105, 193851 }, -- Purple Frillfish
-				{ 106, 193852, "pet3269" }, -- Azure Frillfish
-				{ 107, 193853 }, -- Emerald Frillfish
-				{ 108, 193854 }, -- Blue Vorquin Foal
-				{ 109, 193855 }, -- Time-Lost Vorquin Foal
-				{ 110, 193885, "pet3345" }, -- Jeweled Amber Whelpling
-				{ 111, 193886, "pet3344" }, -- Jeweled Sapphire Whelpling
-				{ 112, 193887, "pet3346" }, -- Jeweled Ruby Whelpling
-				{ 113, 193888, "pet3347" }, -- Jeweled Emerald Whelpling
-				{ 114, 193889, "pet3256" }, -- Jeweled Onyx Whelpling
-				{ 115, 193908 }, -- Sapphire Crystalspine
-				{ 116, 194098, "pet3350" }, -- Lord Basilton
-				{ 117, 198353 }, -- Shiverweb Egg
-				{ 118, 198622 }, -- Spyragos
-				{ 119, 198725, "pet3381" }, -- Gray Marmoni
-				{ 120, 198726, "pet3380" }, -- Black Skitterbug
-				{ 121, 199109, "pet3348" }, -- Primal Stormling
-				{ 122, 199172, "pet3309" }, -- Viridescent Duck
-				{ 123, 199175, "pet3316" }, -- Lubbins
-				{ 124, 199326, "pet3376" }, -- Chip
-				{ 125, 199688, "pet3279" }, -- Bronze Racing Enthusiast
-				{ 126, 199757, "pet3378" }, -- Magic Nibbler
-				{ 127, 199758, "pet3379" }, -- Crimson Proto-Whelp
-				{ 128, 199916, "pet3365" }, -- Roseate Hopper
-				{ 129, 200114, "pet3382" }, -- Stormie
-				{ 130, 200173, "pet3287" }, -- Ghostflame
-				{ 201, 200183, "pet3355" }, -- Echo of the Cave
-				{ 202, 200255, "pet3289" }, -- Echo of the Inferno
-				{ 203, 200260, "pet3299" }, -- Echo of the Depths
-				{ 204, 200263, "pet3310" }, -- Echo of the Heights
-				{ 205, 200276, "pet3311" }, -- Ohuna Companion
-				{ 206, 200290, "pet3325" }, -- Bakar Companion
-				{ 207, 200479, "pet3390" }, -- Sophic Amalgamation
-				{ 208, 200519, "pet3286" }, -- Mister Toots
-				{ 209, 200872, "pet3405" }, -- Living Mud Mask
-				{ 210, 200874, "pet3406" }, -- Lady Feathersworth
-				{ 211, 200927, "pet3408" }, -- Petal
-				{ 212, 200930, "pet3414" }, -- Obsidian Proto-Whelp
-				{ 213, 201260, "pet3410" }, -- Dust Spirit
-				{ 214, 201261, "pet3411" }, -- Blaze Spirit
-				{ 215, 201262, "pet3412" }, -- Gale Spirit
-				{ 216, 201265, "pet3409" }, -- Tide Spirit
-				{ 217, 201441, "pet3407" }, -- Scout
-				{ 218, 201463, "pet3415" }, -- Cubbly
-				{ 219, 201703, "pet3417" }, -- Pinkie
-				{ 220, 201707, "pet3416" }, -- Troubled Tome
-				{ 221, 201838 }, -- Snowclaw Cub
-				{ 222, 202085 }, -- Bugbiter Tortoise
+				{ 12,  193071, "pet3278" }, -- Pistachio
+				{ 13,  193225, "pet3284" }, -- Whiskuk
+				{ 14,  193235, "pet3285" }, -- Luvvy
+				{ 15,  193363, "pet3290" }, -- Bunbo
+				{ 16,  193364, "pet3291" }, -- Scruffles
+				{ 17,  193373, "pet3292" }, -- Phoenix Wishwing
+				{ 18,  193374, "pet3293" }, -- Ashenwing
+				{ 19,  193377, "pet3294" }, -- Gerald
+				{ 20,  193429, "pet3297" }, -- Time-Lost Salamanther
+				{ 21,  193484, "pet3302" }, -- Pilot
+				{ 22,  193571, "pet3303" }, -- Mallard Duckling
+				{ 23,  193572, "pet3306" }, -- Quack-E
+				{ 24,  193618, "pet3317" }, -- Hoofhelper
+				{ 25,  193619, "pet3319" }, -- Yipper
+				{ 26,  193834, "pet3321" }, -- Blackfeather Nester
+				{ 27,  193835, "pet3323" }, -- Brightfeather
+				{ 28,  193837, "pet3326" }, -- Backswimmer Timbertooth
+				{ 29,  193850, "pet3330" }, -- Buckie
+				{ 30,  193851, "pet3332" }, -- Patos
+				{ 101, 193852, "pet3269" }, -- Azure Frillfish
+				{ 102, 193853, "pet3331" }, -- Emmah
+				{ 103, 193854, "pet3333" }, -- Berylmane
+				{ 104, 193855, "pet3334" }, -- Time-Lost Vorquin Foal
+				{ 105, 193885, "pet3345" }, -- Jeweled Amber Whelpling
+				{ 106, 193886, "pet3344" }, -- Jeweled Sapphire Whelpling
+				{ 107, 193887, "pet3346" }, -- Jeweled Ruby Whelpling
+				{ 108, 193888, "pet3347" }, -- Jeweled Emerald Whelpling
+				{ 109, 193889, "pet3256" }, -- Jeweled Onyx Whelpling
+				{ 110, 193908, "pet3338" }, -- Koboldt
+				{ 111, 194098, "pet3350" }, -- Lord Basilton
+				{ 112, 198353, "pet3368" }, -- Shiverweb Egg
+				{ 113, 198622, "pet3342" }, -- Spyragos
+				{ 114, 198725, "pet3381" }, -- Gray Marmoni
+				{ 115, 198726, "pet3380" }, -- Black Skitterbug
+				{ 116, 199109, "pet3348" }, -- Primal Stormling
+				{ 117, 199172, "pet3309" }, -- Viridescent Duck
+				{ 118, 199175, "pet3316" }, -- Lubbins
+				{ 119, 199326, "pet3376" }, -- Chip
+				{ 120, 199688, "pet3279" }, -- Bronze Racing Enthusiast
+				{ 121, 199757, "pet3378" }, -- Magic Nibbler
+				{ 122, 199758, "pet3379" }, -- Crimson Proto-Whelp
+				{ 123, 199916, "pet3365" }, -- Roseate Hopper
+				{ 124, 200114, "pet3382" }, -- Stormie
+				{ 125, 200173, "pet3287" }, -- Ghostflame
+				{ 126, 200183, "pet3355" }, -- Echo of the Cave
+				{ 127, 200255, "pet3289" }, -- Echo of the Inferno
+				{ 128, 200260, "pet3299" }, -- Echo of the Depths
+				{ 129, 200263, "pet3310" }, -- Echo of the Heights
+				{ 130, 200276, "pet3311" }, -- Ohuna Companion
+				{ 201, 200290, "pet3325" }, -- Bakar Companion
+				{ 202, 200479, "pet3390" }, -- Sophic Amalgamation
+				{ 203, 200519, "pet3286" }, -- Mister Toots
+				{ 204, 200872, "pet3405" }, -- Living Mud Mask
+				{ 205, 200874, "pet3406" }, -- Lady Feathersworth
+				{ 206, 200927, "pet3408" }, -- Petal
+				{ 207, 200930, "pet3414" }, -- Obsidian Proto-Whelp
+				{ 208, 201260, "pet3410" }, -- Dust Spirit
+				{ 209, 201261, "pet3411" }, -- Blaze Spirit
+				{ 210, 201262, "pet3412" }, -- Gale Spirit
+				{ 211, 201265, "pet3409" }, -- Tide Spirit
+				{ 212, 201441, "pet3407" }, -- Scout
+				{ 213, 201463, "pet3415" }, -- Cubbly
+				{ 214, 201703, "pet3417" }, -- Pinkie
+				{ 215, 201707, "pet3416" }, -- Troubled Tome
+				{ 216, 201838, "pet3359" }, -- Snowclaw Cub
+				{ 217, 202085, "pet3360" }, -- Bugbiter Tortoise
+				-- { 12,  193068 }, -- Time-Lost Treeflitter
+				-- { 21,  193380 }, -- Pink Salamanther
+				-- { 26,  193587 }, -- Time-Lost Duck
+				-- { 27,  193614 }, -- Groundshaker
+				-- { 30,  193620 }, -- Time-Lost Slyvern
 			}
 		},
 	},

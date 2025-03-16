@@ -4,9 +4,11 @@
 ### Added
 - Added TWW toys to Collections
 - Added TWW pets to Collections
+- Added secondary buttons to Dragonflight pets that were missing one
 ### Fixed
 - Fixed broken mount in WOTLK Timewalking Collection
 - Fixed pet model in secondary tooltip not loading the first time the tooltip opens
+- Removed a few unobtainable Dragonflight pets
 
 ## 8.22.0 - March 10, 2025
 ### Added
