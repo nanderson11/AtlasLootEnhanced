@@ -5684,82 +5684,82 @@ data["TOYS"]               = {
 			name = EXPANSION_NAME10,
 			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   236687 }, -- Explosive Hearthstone
-				{ 2,   226373 }, -- Everlasting Noggenfogger Elixir
-				{ 3,   237382 }, -- Undermine Supply Crate
-				{ 4,   226810 }, -- Infiltrator's Shroud
-				{ 5,   235041 }, -- Cyrce's Circlet
-				{ 6,   237345 }, -- Limited Edition Rocket Bobber
-				{ 7,   231064 }, -- Throwaway Gangster Disguise
-				{ 8,   230850 }, -- Delve-O-Bot 7001
-				{ 9,   237347 }, -- Organically-Sourced Wellington Bobber
-				{ 10,  234950 }, -- Atomic Regoblinator
-				{ 11,  230727 }, -- Explosive Victory
-				{ 12,  235050 }, -- Desk-in-a-Box
-				{ 13,  225659 }, -- Arathi Book Collection
-				{ 14,  221966 }, -- Wormhole Generator: Khaz Algar
-				{ 15,  235801 }, -- Personal Fishing Barge
-				{ 16,  237346 }, -- Artisan Beverage Goblet Bobber
-				{ 17,  225641 }, -- Illusive Kobyss Lure
-				{ 18,  230924 }, -- Spotlight Materializer 1000
-				{ 19,  235807 }, -- Storefront-in-a-Box
-				{ 20,  233202 }, -- G.O.L.E.M, Jr.
-				{ 21,  228940 }, -- Notorious Thread's Hearthstone
-				{ 22,  235220 }, -- Fireworks Hat
-				{ 23,  236769 }, -- Gallagio Pipeline Rerouter
-				{ 24,  234951 }, -- Uncracked Cold Ones
-				{ 25,  235017 }, -- Glittering Vault Shard
-				{ 26,  211931 }, -- Abyss Caller Horn
-				{ 27,  224251 }, -- Memory Chord
-				{ 28,  235519 }, -- Prized Legend's Pennant
-				{ 29,  228698 }, -- Candleflexer's Dumbbell
-				{ 30,  233486 }, -- Hallowfall Supply Cache
-				{ 101, 225910 }, -- Pileus Delight
-				{ 102, 219387 }, -- Barrel of Fireworks
-				{ 103, 236751 }, -- Take-Home Flarendo
-				{ 104, 228705 }, -- Arachnoserum
-				{ 105, 235015 }, -- Awakened Supply Crate
-				{ 106, 228914 }, -- Arachnophile Spectacles
-				{ 107, 236749 }, -- Take-Home Torq
-				{ 108, 228789 }, -- Coldflame Ring
-				{ 109, 221962 }, -- Defective Escape Pod
-				{ 110, 219403 }, -- Stonebound Lantern
-				{ 111, 215145 }, -- Remembrance Stone
-				{ 112, 228707 }, -- Trial of Burning Light
-				{ 113, 221964 }, -- Filmless Camera
-				{ 114, 225347 }, -- Web-Vandal's Spinning Wheel
-				{ 115, 228966 }, -- Starry-Eyed Goggles
-				{ 116, 224585 }, -- Hanna's Locket
-				{ 117, 226191 }, -- Web Pet Leash
-				{ 118, 225556 }, -- Ancient Construct
-				{ 119, 235671 }, -- Blackwater Cartel Banner
-				{ 120, 228413 }, -- Lampyridae Lure
-				{ 121, 224783 }, -- Sovereign's Finery Chest
-				{ 122, 225547 }, -- Toxic Victory
-				{ 123, 225933 }, -- Forged Legend's Pennant
-				{ 124, 235288 }, -- Sha-Warped Tea Set
-				{ 125, 234473 }, -- Soweezi's Comfy Lawn Chair
-				{ 126, 223312 }, -- Trusty Hat
-				{ 127, 235670 }, -- Bilgewater Cartel Banner
-				{ 128, 227539 }, -- Unbound Strategist's Pennant
-				{ 129, 235669 }, -- Steamwheedle Cartel Banner
-				{ 130, 235799 }, -- Throwin' Sawblade
-				{ 201, 235672 }, -- Venture Co. Banner
-				{ 202, 215147 }, -- Beautification Iris
-				{ 203, 225969 }, -- Forged Flag of Victory
-				{ 204, 224552 }, -- Cave Spelunker's Torch
-				{ 205, 218308 }, -- Winter Veil Cracker
-				{ 206, 227538 }, -- Unbound Legend's Pennant
-				{ 207, 228706 }, -- Rockslidomancer's Stone
-				{ 208, 224192 }, -- Practice Ravager
-				{ 209, 224643 }, -- Pet-Sized Candle
-				{ 210, 224554 }, -- Silver Linin' Scepter
-				{ 211, 226519 }, -- General's Expertise
-				{ 212, 232301 }, -- Tempered Banner of the Algari
-				{ 213, 232305 }, -- Forged Champion's Prestigious Banner
-				{ 214, 235016 }, -- Redeployment Module
-				{ 215, 229828 }, -- 20th Anniversary Balloon Chest
-				{ 216, 218310 }, -- Box of Puntables
+				{ 1,   236687 },                                     -- Explosive Hearthstone
+				{ 2,   226373, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Everlasting Noggenfogger Elixir
+				{ 3,   237382, [PRICE_EXTRA_ITTYPE] = "emptyKajaCola:999" }, -- Undermine Supply Crate
+				{ 4,   226810 },                                     -- Infiltrator's Shroud
+				{ 5,   235041, [QUEST_EXTRA_ITTYPE] = 85657 },       -- Cyrce's Circlet
+				{ 6,   237345, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Limited Edition Rocket Bobber
+				{ 7,   231064, [PRICE_EXTRA_ITTYPE] = "undercoin:2500" }, -- Throwaway Gangster Disguise
+				{ 8,   230850, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Delve-O-Bot 7001
+				{ 9,   237347, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Organically-Sourced Wellington Bobber
+				{ 10,  234950, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Atomic Regoblinator
+				{ 11,  230727, [QUEST_EXTRA_ITTYPE] = 85244 },       -- Explosive Victory
+				{ 12,  235050 },                                     -- Desk-in-a-Box (ac41588)
+				{ 13,  225659 },                                     -- Arathi Book Collection
+				{ 14,  221966 },                                     -- Wormhole Generator: Khaz Algar
+				{ 15,  235801, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Personal Fishing Barge
+				{ 16,  237346, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Artisan Beverage Goblet Bobber
+				{ 17,  225641 },                                     -- Illusive Kobyss Lure
+				{ 18,  230924 },                                     -- Spotlight Materializer 1000
+				{ 19,  235807, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Storefront-in-a-Box
+				{ 20,  233202, [QUEST_EXTRA_ITTYPE] = 84675 },       -- G.O.L.E.M, Jr.
+				{ 21,  228940, [PRICE_EXTRA_ITTYPE] = "kej:3000" },  -- Notorious Thread's Hearthstone
+				{ 22,  235220 },                                     -- Fireworks Hat
+				{ 23,  236769 },                                     -- Gallagio Pipeline Rerouter (ac41211)
+				{ 24,  234951 },                                     -- Uncracked Cold Ones
+				{ 25,  235017 },                                     -- Glittering Vault Shard
+				{ 26,  211931 },                                     -- Abyss Caller Horn
+				{ 27,  224251 },                                     -- Memory Chord (ac40314)
+				{ 28,  235519 },                                     -- Prized Legend's Pennant
+				{ 29,  228698, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Candleflexer's Dumbbell
+				{ 30,  233486, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Hallowfall Supply Cache
+				{ 101, 225910 },                                     -- Pileus Delight
+				{ 102, 219387 },                                     -- Barrel of Fireworks
+				{ 103, 236751 },                                     -- Take-Home Flarendo
+				{ 104, 228705, [PRICE_EXTRA_ITTYPE] = "kej:1750" },  -- Arachnoserum
+				{ 105, 235015, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Awakened Supply Crate
+				{ 106, 228914, [PRICE_EXTRA_ITTYPE] = "kej:1500" },  -- Arachnophile Spectacles
+				{ 107, 236749 },                                     -- Take-Home Torq
+				{ 108, 228789 },                                     -- Coldflame Ring
+				{ 109, 221962 },                                     -- Defective Escape Pod
+				{ 110, 219403 },                                     -- Stonebound Lantern
+				{ 111, 215145 },                                     -- Remembrance Stone
+				{ 112, 228707, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Trial of Burning Light
+				{ 113, 221964 },                                     -- Filmless Camera
+				{ 114, 225347 },                                     -- Web-Vandal's Spinning Wheel
+				{ 115, 228966 },                                     -- Starry-Eyed Goggles
+				{ 116, 224585 },                                     -- Hanna's Locket
+				{ 117, 226191, [PRICE_EXTRA_ITTYPE] = "money:7500" }, -- Web Pet Leash
+				{ 118, 225556 },                                     -- Ancient Construct
+				{ 119, 227539 },                                     -- Unbound Strategist's Pennant (ac40795)
+				{ 120, 228413 },                                     -- Lampyridae Lure
+				{ 121, 224783 },                                     -- Sovereign's Finery Chest
+				{ 122, 225547, [QUEST_EXTRA_ITTYPE] = 83500 },       -- Toxic Victory
+				{ 123, 225933 },                                     -- Forged Legend's Pennant
+				{ 124, 235288 },                                     -- Sha-Warped Tea Set
+				{ 125, 234473, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Soweezi's Comfy Lawn Chair
+				{ 126, 223312, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Trusty Hat
+				{ 127, 235670, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Bilgewater Cartel Banner
+				{ 128, 235671, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Blackwater Cartel Banner
+				{ 129, 235669, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Steamwheedle Cartel Banner
+				{ 130, 235672, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Venture Co. Banner
+				{ 201, 235799, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Throwin' Sawblade
+				{ 202, 215147 },                                     -- Beautification Iris
+				{ 203, 225969 },                                     -- Forged Flag of Victory (ac40096)
+				{ 204, 224552 },                                     -- Cave Spelunker's Torch
+				{ 205, 218308 },                                     -- Winter Veil Cracker
+				{ 206, 227538 },                                     -- Unbound Legend's Pennant (ac40792)
+				{ 207, 228706, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Rockslidomancer's Stone
+				{ 208, 224192, [PRICE_EXTRA_ITTYPE] = "timewarped:200" }, -- Practice Ravager
+				{ 209, 224643, [PRICE_EXTRA_ITTYPE] = "224642:1" },  -- Pet-Sized Candle
+				{ 210, 224554 },                                     -- Silver Linin' Scepter
+				{ 211, 226519, [PRICE_EXTRA_ITTYPE] = "kej:1100" },  -- General's Expertise
+				{ 212, 232301 },                                     -- Tempered Banner of the Algari
+				{ 213, 232305 },                                     -- Forged Champion's Prestigious Banner
+				{ 214, 229828 },                                     -- 20th Anniversary Balloon Chest
+				{ 215, 218310 },                                     -- Box of Puntables
+				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},
 		{ -- Dragonflight
