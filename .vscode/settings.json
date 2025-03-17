@@ -115,7 +115,8 @@
         "EXPANSION_NAME8",
         "EXPANSION_NAME9",
         "ITEM_QUALITY_COLORS",
-        "DEFAULT_CHAT_FRAME"
+        "DEFAULT_CHAT_FRAME",
+        "QuestEventListener"
     ],
     "Lua.diagnostics.disable": [
         "need-check-nil"
