@@ -311,7 +311,7 @@ data["TWWFACTIONS"] = {
 			FactionID = 2685,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				Need to add item to spell ids for mounts and still missing pet cost
+				Still missing pet cost
 				{ 1, "f2685rep38" },
 				{ 2, 229945, "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
 				{ 4, "f2685rep39" },

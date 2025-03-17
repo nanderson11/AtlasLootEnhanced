@@ -1,14 +1,15 @@
 ﻿# Changelog
 
-## 8.23.0 -
+## 8.23.0 - March 17, 2025
 ### Added
 - Added TWW toys to Collections
 - Added TWW pets to Collections
 - Added secondary buttons to Dragonflight pets that were missing one
 - A price consisting of items (like Artisan's Acuity) will be colored red or green depending on the amount currently in your inventory
 ### Fixed
-- Fixed broken mount in WOTLK Timewalking Collection
+- Fixed the quest name not displaying in the secondary text if there was a quest to obtain an item
 - Fixed pet model in secondary tooltip not loading the first time the tooltip opens
+- Fixed broken mount in WOTLK Timewalking Collection
 - Removed a few unobtainable Dragonflight pets
 
 ## 8.22.0 - March 10, 2025

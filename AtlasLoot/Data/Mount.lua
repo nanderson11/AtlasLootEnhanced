@@ -1148,6 +1148,9 @@ local MOUNT_INFO = {
 		[1221155] = 236960, -- Prototype A.S.M.R.
 		[1217760] = 235626, -- The Big G
 		[466018] = 229950, -- Darkfuse Demolisher
+		[466012] = 229945, -- Thunderdrum Misfire
+		[466000] = 229924, -- Darkfuse Chompactor
+		[466011] = 229940, -- Flarendo the Furious
 	},
 	["items"] = {
 		--[itemID] = spellID
