@@ -3,6 +3,10 @@
 ## 8.24.0 -
 ### Added
 - Added TWW mounts to Collections
+- Added secondary buttons to Dragonflight and Shadowlands mounts that were missing one
+### Fixed
+- Fixed Slumbering Worldsnail Shell price
+- Removed a few unobtainable Dragonflight and Shadowlands mounts
 
 ## 8.23.0 - March 17, 2025
 ### Added
