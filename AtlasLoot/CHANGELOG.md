@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 8.24.0 -
+### Added
+- Added TWW mounts to Collections
+
 ## 8.23.0 - March 17, 2025
 ### Added
 - Added TWW toys to Collections

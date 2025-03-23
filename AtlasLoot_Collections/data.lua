@@ -971,6 +971,139 @@ data["MOUNTS"]             = {
 	TableType = NORMAL_ITTYPE,
 	items =
 	{
+		{ -- The War Within
+			name = EXPANSION_NAME10,
+			[ALLIANCE_DIFF] = {
+				{ 1,   229947, "mount" },                                      -- Violet Goblin Shredder
+				{ 2,   229955, "mount" },                                      -- Darkfuse Spy-Eye
+				{ 3,   229953, "mount" },                                      -- Salvaged Goblin Gazillionaire's Flying Machine
+				{ 4,   229941, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Innovation Investigator
+				{ 5,   229954, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Margin Manipulator
+				{ 6,   229949, "mount" },                                      -- Personalized Goblin S.C.R.A.P.per
+				{ 7,   236960, "mount" },                                      -- Prototype A.S.M.R.
+				{ 8,   223270, "mount" },                                      -- Alunira
+				{ 9,   232639, "mount", [QUEST_EXTRA_ITTYPE] = 85811 },        -- Thrayir, Eyes of the Siren
+				{ 10,  237141, "mount" },                                      -- Enterprising Shreddertank
+				{ 11,  224150, "mount", [QUEST_EXTRA_ITTYPE] = 83722 },        -- Siesbarg
+				{ 12,  229950, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Darkfuse Demolisher
+				{ 13,  229974, "mount", [QUEST_EXTRA_ITTYPE] = 85243 },        -- Delver's Gob-Trotter
+				{ 14,  225548, "mount" },                                      -- Wick's Lead
+				{ 15,  233064, "mount" },                                      -- Bronze Goblin Waveshredder
+				{ 16,  223269, "mount" },                                      -- Machine Defense Unit 1-11
+				{ 17,  229952, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Asset Advocator
+				{ 18,  223153, "mount", [PRICE_EXTRA_ITTYPE] = "225557:900" }, -- Reins of the Soaring Meaderbee
+				{ 19,  221967, "mount" },                                      -- Crowd Pummeler 2-30
+				{ 20,  235549, "mount" },                                      -- Crimson Shreddertank (ac41533)
+				{ 21,  229940, "mount", [PRICE_EXTRA_ITTYPE] = "money:9712500" }, -- Flarendo the Furious
+				{ 22,  221765, "mount" },                                      -- Stonevault Mechsuit
+				{ 23,  231173, "mount" },                                      -- Junkmaestro's Magnetomech (ac41286)
+				{ 24,  229956, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Mean Green Flying Machine
+				{ 25,  223315, "mount" },                                      -- Beledar's Spawn
+				{ 26,  235626, "mount" },                                      -- Keys to the Big G
+				{ 27,  229418, "mount" },                                      -- Reins of the Trader's Gilded Brutosaur
+				{ 28,  229948, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Blackwater Shredder Deluxe Mk 2
+				{ 29,  229935, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Armored Growler
+				{ 30,  219391, "mount", [QUEST_EXTRA_ITTYPE] = 81510 },        -- Delver's Dirigible
+				{ 101, 223318, "mount" },                                      -- Dauntless Imperial Lynx
+				{ 102, 233489, "mount", [QUEST_EXTRA_ITTYPE] = 86485 },        -- Prismatic Snapdragon
+				{ 103, 229945, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
+				{ 104, 229946, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Ocher Delivery Rocket
+				{ 105, 229348, "mount" },                                      -- Keys to Incognitro, the Indecipherable Felcycle
+				{ 106, 224415, "mount" },                                      -- Ivory Goliathus (ac40438)
+				{ 107, 235515, "mount" },                                      -- Jani's Trashpile (ac40953)
+				{ 108, 234740, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Copper-Maned Quilen Reins
+				{ 109, 224147, "mount" },                                      -- Reins of the Sureki Skyrazor
+				{ 110, 229944, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- The Topskimmer Special
+				{ 111, 225250, "mount" },                                      -- Startouched Furline
+				{ 112, 233058, "mount", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:10000" }, -- Soweezi's Vintage Waveshredder
+				{ 113, 233286, "mount" },                                      -- Meeksi Brewthief
+				{ 114, 232991, "mount" },                                      -- The Breaker's Song (ac41133)
+				{ 115, 233285, "mount" },                                      -- Meeksi Teatuft
+				{ 116, 235646, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" }, -- Shimmermist Free Runner
+				{ 117, 229989, "mount" },                                      -- Vicious Electro Eel (ac41128)
+				{ 118, 234721, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Ur'zul Fleshripper Bridle
+				{ 119, 229924, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Darkfuse Chompactor
+				{ 120, 229987, "mount" },                                      -- Prized Gladiator's Fel Bat (ac41032)
+				{ 121, 224151, "mount" },                                      -- Reins of the Ascendant Skyrazor
+				{ 122, 229936, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Violet Armored Growler
+				{ 123, 235286, "mount" },                                      -- Sha-Warped Cloud Serpent
+				{ 124, 223314, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Shackled Shadow
+				{ 125, 229937, "mount" },                                      -- Blackwater Bonecrusher
+				{ 126, 223501, "mount" },                                      -- Regurgitated Mole Reins
+				{ 127, 234716, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Nightfall Skyreaver's Reins
+				{ 128, 229957, "mount" },                                      -- Bilgewater Bombardier
+				{ 129, 223276, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Widow's Undercrawler
+				{ 130, 205208, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
+				{ 201, 234730, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Broodling of Sinestra
+				{ 202, 228760, "mount" },                                      -- Reins of the Coldflame Tempest (ac40976)
+				{ 203, 232624, "mount" },                                      -- Timely Buzzbee (ac41056)
+				{ 204, 235650, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Pearlescent Butterfly
+				{ 205, 235287, "mount" },                                      -- Sha-Warped Riding Tiger
+				{ 206, 223158, "mount" },                                      -- Raging Cinderbee (ac40097)
+				{ 207, 226357, "mount" },                                      -- Diamond Mechsuit (ac20525)
+				{ 208, 233282, "mount" },                                      -- Meeksi Rufflefur
+				{ 209, 223267, "mount" },                                      -- Swarmite Skyhunter (ac40702)
+				{ 210, 222989, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
+				{ 211, 232901, "mount", [PRICE_EXTRA_ITTYPE] = "21100:75" },   -- Lunar Launcher
+				{ 212, 233283, "mount" },                                      -- Meeksi Softpaw
+				{ 213, 224398, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Frayfeather Hippogryph
+				{ 214, 221753, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
+				{ 215, 229951, "mount" },                                      -- Venture Co-ordinator
+				{ 216, 223317, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Vermillion Imperial Lynx
+				{ 217, 223278, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Heritage Undercrawler
+				{ 218, 235657, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Ruby Butterfly
+				{ 219, 232926, "mount" },                                      -- Love Witch's Sweeper
+				{ 220, 223266, "mount" },                                      -- Reins of the Shadowed Swarmite (ac40232)
+				{ 221, 223572, "mount" },                                      -- Reins of the Slatestone Ramolith (ac40307)
+				{ 222, 233023, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Silvermoon Sweeper
+				{ 223, 226506, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" }, -- Hand of Reshkigaal
+				{ 224, 231374, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Enchanted Spellweave Carpet
+				{ 225, 224399, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Amani Hunting Bear
+				{ 226, 223586, "mount" },                                      -- Forged Gladiator's Fel Bat (ac40393)
+				{ 227, 233284, "mount" },                                      -- Meeksi Rollingpaw
+				{ 228, 217985, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Golden Gryphon
+				{ 229, 223264, "mount", [PRICE_EXTRA_ITTYPE] = "kej:3940" },   -- Aquamarine Swarmite
+				{ 230, 223279, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Royal Court Undercrawler
+				{ 301, 228751, "mount" },                                      -- Gigantic Grrloc
+				{ 302, 230201, "mount" },                                      -- Chaos-Forged Wind Rider
+				{ 303, 230184, "mount" },                                      -- Chaos-Forged Gryphon
+				{ 304, 223571, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Shale Ramolith
+				{ 305, 223505, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Mudnose
+				{ 306, 230200, "mount" },                                      -- Chaos-Forged Dreadwing
+				{ 307, 230185, "mount" },                                      -- Chaos-Forged Hippogryph
+				{ 308, 223274, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2815" },   -- Ferocious Jawcrawler
+				{ 309, 227362, "mount" },                                      -- Golden Ashes of Al'ar
+				{ 310, 233241, "mount" },                                      -- Hooktalon
+				{ 311, 231297, "mount" },                                      -- Timbered Sky Snake
+				{ 312, 233240, "mount" },                                      -- Polly Roger
+				{ 313, 233020, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Twilight Witch's Sweeper
+				{ 314, 235344, "mount" },                                      -- Blazing Royal Fire Hawk
+				{ 315, 233019, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Sky Witch's Sweeper
+				{ 316, 233354, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" }, -- Savage Alabaster Battle Turtle
+				{ 317, 235556, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" }, -- Violet Darkmoon Charger
+				{ 318, 223511, "mount" },                                      -- Vicious Skyflayer (ac40396)
+				{ 319, 226041, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Keg Leg's Radiant Crocolisk
+				{ 320, 229128, "mount" },                                      -- Harmonious Salutations Bear
+				{ 321, 226042, "mount" },                                      -- Plunderlord's Midnight Crocolisk
+				{ 322, 233243, "mount" },                                      -- Silver Tidestallion
+				{ 323, 235662, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" }, -- Emerald Snail
+				{ 324, 226040, "mount" },                                      -- Plunderlord's Golden Crocolisk
+				{ 325, 226044, "mount" },                                      -- Plunderlord's Weathered Crocolisk
+				{ 326, 233242, "mount" },                                      -- Royal Seafeather
+				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
+				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
+				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
+				-- { 325, 235557, "mount" }, -- Snowy Darkmoon Charger (not yet available)
+				-- { 327, 235555, "mount" }, -- Lively Darkmoon Charger (not yet available)
+				-- { 327, 235658, "mount" }, -- Spring Butterfly (not yet available)
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 117, 229988, "mount" },                                      -- Vicious Electro Eel (ac41129)
+				{ 228, 217987, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Wind Rider
+				{ 318, 221813, "mount" },                                      -- Vicious Skyflayer (ac40397)
+			},
+		},
 		{ -- Dragonflight
 			name = EXPANSION_NAME9,
 			[ALLIANCE_DIFF] = {
