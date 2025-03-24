@@ -836,6 +836,9 @@ data["Nerub-ar Palace"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- The Bloodbound Horror
 			EncounterJournalID = 2611,
@@ -858,6 +861,9 @@ data["Nerub-ar Palace"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -886,6 +892,9 @@ data["Nerub-ar Palace"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- Rasha'nan
 			EncounterJournalID = 2609,
@@ -909,6 +918,9 @@ data["Nerub-ar Palace"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -936,6 +948,9 @@ data["Nerub-ar Palace"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- Nexus-Princess Ky'veza
 			EncounterJournalID = 2601,
@@ -961,6 +976,9 @@ data["Nerub-ar Palace"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- The Silken Court
 			EncounterJournalID = 2608,
@@ -984,6 +1002,9 @@ data["Nerub-ar Palace"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -1013,6 +1034,9 @@ data["Nerub-ar Palace"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 17, 224151, "mount" }, -- Reins of the Ascendant Skyrazor
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
 	}
@@ -1049,6 +1073,9 @@ data["Liberation of Undermine"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- Cauldron of Carnage
 			EncounterJournalID = 2640,
@@ -1072,6 +1099,9 @@ data["Liberation of Undermine"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -1099,6 +1129,9 @@ data["Liberation of Undermine"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- Stix Bunkjunker
 			EncounterJournalID = 2642,
@@ -1121,6 +1154,9 @@ data["Liberation of Undermine"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -1146,6 +1182,9 @@ data["Liberation of Undermine"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -1174,6 +1213,9 @@ data["Liberation of Undermine"] = {
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ -- Mug'Zee, Heads of Security
 			EncounterJournalID = 2645,
@@ -1199,6 +1241,9 @@ data["Liberation of Undermine"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 			},
 		},
@@ -1230,6 +1275,9 @@ data["Liberation of Undermine"] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
 				{ 18, 235626, "mount" }, -- Keys to the Big G
 			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
 		},
 		{ --Trash
 			name = AL["Trash Mobs"],
@@ -1247,6 +1295,7 @@ data["Liberation of Undermine"] = {
 			},
 			[HEROIC_PRE_DIFF] = NORMAL_RAID_DIFF,
 			[MYTHIC_PRE_DIFF] = NORMAL_RAID_DIFF,
+			[RF_DIFF] = NORMAL_RAID_DIFF,
 		},
 	}
 }
