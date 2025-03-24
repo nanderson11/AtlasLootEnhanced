@@ -3,6 +3,7 @@
 ## 8.24.0 -
 ### Added
 - Added TWW mounts to Collections
+- Added raid finder difficulty for Nerub-ar Palace and Liberation of Undermine
 - Added secondary buttons to Dragonflight and Shadowlands mounts that were missing one
 ### Fixed
 - Fixed Slumbering Worldsnail Shell price
