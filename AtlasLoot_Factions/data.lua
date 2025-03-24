@@ -307,22 +307,21 @@ data["TWWFACTIONS"] = {
 
 			}
 		},
-		--[[ { -- Gallagio Loyalty Rewards Club
+		{ -- Gallagio Loyalty Rewards Club
 			FactionID = 2685,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				Still missing pet cost
-				{ 1, "f2685rep38" },
-				{ 2, 229945, "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
-				{ 4, "f2685rep39" },
-				{ 5, 232844, "pet4640" }, -- Fuz-Size Flarendo
-				{ 6, 232806, "pet4643" }, -- Tiny Torq
-				{ 8, "f2685rep47" },
-				{ 9, 229924, "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Darkfuse Chompactor
+				{ 1,  "f2685rep38" },
+				{ 2,  229945,      "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
+				{ 4,  "f2685rep39" },
+				{ 5,  232844,      "pet4640" },                      -- Fuz-Size Flarendo
+				{ 6,  232806,      "pet4643" },                      -- Tiny Torq
+				{ 8,  "f2685rep47" },
+				{ 9,  229924,      "mount",  [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Darkfuse Chompactor
 				{ 11, "f2685rep50" },
-				{ 12, 229940, "mount", [PRICE_EXTRA_ITTYPE] = "money:9712500" }, -- Flarendo the Furious
+				{ 12, 229940,      "mount",  [PRICE_EXTRA_ITTYPE] = "money:9712500" }, -- Flarendo the Furious
 			}
-		}, ]]
+		},
 	}
 }
 

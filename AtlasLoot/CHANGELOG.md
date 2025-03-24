@@ -1,9 +1,10 @@
 ﻿# Changelog
 
-## 8.24.0 -
+## 8.24.0 - March 24, 2025
 ### Added
 - Added TWW mounts to Collections
 - Added raid finder difficulty for Nerub-ar Palace and Liberation of Undermine
+- Added Gallagio Loyalty Rewards Club to Factions
 - Added secondary buttons to Dragonflight and Shadowlands mounts that were missing one
 ### Fixed
 - Fixed Slumbering Worldsnail Shell price
