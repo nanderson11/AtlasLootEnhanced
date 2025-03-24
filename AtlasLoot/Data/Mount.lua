@@ -1279,12 +1279,6 @@ local MOUNT_INFO = {
 	["index"] = {},  -- [spellID] = index
 }
 
---[[
-local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfo(index);
-local creatureDisplayID, descriptionText, sourceText, isSelfMount, mountType = C_MountJournal.GetMountInfoExtra(index)
-MountJournal.MountDisplay.ModelFrame:SetDisplayInfo(creatureDisplayID)
-]] --
-
 local function LoadAllData()
 	if ALL_DATA_LOADED then return end
 
