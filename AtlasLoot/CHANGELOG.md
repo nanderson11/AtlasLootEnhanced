@@ -1,5 +1,10 @@
 ﻿# Changelog
 
+## 8.25.0 -
+### Fixed
+- Removed duplicate secondary button on TWW dungeons and raids
+
+
 ## 8.24.0 - March 24, 2025
 ### Added
 - Added TWW mounts to Collections
