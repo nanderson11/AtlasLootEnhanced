@@ -17,6 +17,27 @@ local MYTHIC_DIFF = Set:AddDifficulty(AL["Mythic"], "m")
 local HEROIC_PRE_DIFF = Set:AddDifficulty(AL["Heroic"], "hB1", { "HeroicRaid", "HeroicRaidWarforged" })
 local MYTHIC_PRE_DIFF = Set:AddDifficulty(AL["Mythic"], "mB1", { "MythicRaid", "MythicRaidWarforged" })
 
+local RF_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Raid Finder"], "LFRWithDifficulty", {
+	Item = {
+		addDifficultyBonus = true,
+	},
+}, 17)
+local NORMAL_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Normal"], "NormalWithDifficulty", {
+	Item = {
+		addDifficultyBonus = true,
+	},
+}, 14)
+local HEROIC_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Heroic"], "HeroicWithDifficulty", {
+	Item = {
+		addDifficultyBonus = true,
+	},
+}, 15)
+local MYTHIC_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Mythic"], "MythicWithDifficulty", {
+	Item = {
+		addDifficultyBonus = true,
+	},
+}, 16)
+
 local SOURCE_INFO = Set:AddInfoList(AL["Source"])
 
 local format = string.format
@@ -1175,6 +1196,225 @@ local SetTable = {
 				14623, -- Deathbone Legguards
 				14621, -- Deathbone Sabatons
 			},
+		},
+	},
+
+	["Tier33"] = { -- T33 Sets
+		name = format(AL["Tier %d Sets"], 33),
+		sourceTemplate = {
+			EJ_GetInstanceInfo(1296).." - "..EJ_GetEncounterInfo(2653), -- Chest
+			EJ_GetInstanceInfo(1296).." - "..EJ_GetEncounterInfo(2640), -- Hands
+			EJ_GetInstanceInfo(1296).." - "..EJ_GetEncounterInfo(2644), -- Head
+			EJ_GetInstanceInfo(1296).." - "..EJ_GetEncounterInfo(2642), -- Legs
+			EJ_GetInstanceInfo(1296).." - "..EJ_GetEncounterInfo(2641), -- Shoulder
+		},
+		{                                                      -- Deathknight, Cauldron Champion's Encore
+			name = ALIL["DEATHKNIGHT"],
+			subSetName = "dk",
+			icon = "dk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229256, -- Cauldron Champion's Ribcage
+				229254, -- Cauldron Champion's Fistguards
+				229253, -- Cauldron Champion's Crown
+				229252, -- Cauldron Champion's Tattered Cuisses
+				229251, -- Cauldron Champion's Screamplate
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Demon Hunter, Fel-Dealer's Contraband
+			name = ALIL["DEMONHUNTER"],
+			subSetName = "demonhunter",
+			icon = "dh",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229319, -- Fel-Dealer's Soul Engine
+				229317, -- Fel-Dealer's Underhandlers
+				229316, -- Fel-Dealer's Visor
+				229315, -- Fel-Dealer's Fur Kilt
+				229314, -- Fel-Dealer's Recycled Reavers
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Druid, Roots of Reclaiming Blight
+			name = ALIL["DRUID"],
+			subSetName = "druid",
+			icon = "druid",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229310, -- Robes of Reclaiming Blight
+				229308, -- Grips of Reclaiming Blight
+				229307, -- Branches of Reclaiming Blight
+				229306, -- Moccasins of Reclaiming Blight
+				229305, -- Jaws of Reclaiming Blight
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Evoker, Opulent Treasurescale's Hoard
+			name = ALIL["EVOKER"],
+			subSetName = "evoker",
+			icon = "evoker",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229283, -- Opulent Treasurescale's Tunic
+				229281, -- Opulent Treasurescale's Gold-Counters
+				229280, -- Opulent Treasurescale's Crowned Jewel
+				229279, -- Opulent Treasurescale's Petticoat
+				229278, -- Opulent Treasurescale's Gleaming Mantle
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Hunter, Tireless Collector's Bounties
+			name = ALIL["HUNTER"],
+			subSetName = "hunter",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229274, -- Tireless Collector's Battlegear
+				229272, -- Tireless Collector's Gauntlets
+				229271, -- Tireless Collector's Chained Cowl
+				229270, -- Tireless Collector's Armored Breeches
+				229269, -- Tireless Collector's Hunted Heads
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Mage, Jewels of the Aspectral Emissary
+			name = ALIL["MAGE"],
+			subSetName = "mage",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229346, -- Aspectral Emissary's Primal Robes
+				229344, -- Aspectral Emissary's Hardened Grasp
+				229343, -- Aspectral Emissary's Crystalline Cowl
+				229342, -- Aspectral Emissary's Trousers
+				229341, -- Aspectral Emissary's Arcane Vents
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Monk, Ageless Serpent's Foresight
+			name = ALIL["MONK"],
+			subSetName = "monk",
+			icon = "monk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229301, -- Ageless Serpent's Inked Coils
+				229299, -- Ageless Serpent's Handguards
+				229298, -- Ageless Serpent's Mane
+				229297, -- Ageless Serpent's Leggings
+				229296, -- Ageless Serpent's Shoulderpads
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Paladin, Oath of the Aureate Sentry
+			name = ALIL["PALADIN"],
+			subSetName = "paladin",
+			icon = "pala",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229247, -- Aureate Sentry's Encasement
+				229245, -- Aureate Sentry's Gauntlets
+				229244, -- Aureate Sentry's Pledge
+				229243, -- Aureate Sentry's Legguards
+				229242, -- Aureate Sentry's Roaring Will
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Priest, Confessor's Unshakable Virtue
+			name = ALIL["PRIEST"],
+			subSetName = "priest",
+			icon = "priest",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229337, -- Confessor's Unshakable Vestment
+				229335, -- Confessor's Unshakable Mitts
+				229334, -- Confessor's Unshakable Halo
+				229333, -- Confessor's Unshakable Leggings
+				229332, -- Confessor's Unshakable Radiance
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Rogue, Spectral Gambler's Last Call
+			name = ALIL["ROGUE"],
+			subSetName = "rogue",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229292, -- Spectral Gambler's Vest
+				229290, -- Spectral Gambler's Gloves
+				229289, -- Spectral Gambler's Damned Visage
+				229288, -- Spectral Gambler's Pantaloons
+				229287, -- Spectral Gambler's Bladed Mantle
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Shaman, Currents of the Gale Sovereign
+			name = ALIL["SHAMAN"],
+			subSetName = "shaman",
+			icon = "shaman",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229265, -- Gale Sovereign's Clouded Hauberk
+				229263, -- Gale Sovereign's Grasps
+				229262, -- Gale Sovereign's Charged Hood
+				229261, -- Gale Sovereign's Pantaloons
+				229260, -- Gale Sovereign's Zephyrs
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warlock, Spliced Fiendtrader's Influence
+			name = ALIL["WARLOCK"],
+			subSetName = "warlock",
+			icon = "warlock",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229328, -- Spliced Fiendtrader's Surgical Gown
+				229326, -- Spliced Fiendtrader's Demonic Grasp
+				229325, -- Spliced Fiendtrader's Transcendence
+				229324, -- Spliced Fiendtrader's Skin Tights
+				229323, -- Spliced Fiendtrader's Loyal Servants
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warrior, Underpin Strongarm's Muscle
+			name = ALIL["WARRIOR"],
+			subSetName = "warrior",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				229238, -- Enforcer's Backalley Vestplate
+				229236, -- Enforcer's Backalley Crushers
+				229235, -- Enforcer's Backalley Faceshield
+				229234, -- Enforcer's Backalley Chausses
+				229233, -- Enforcer's Backalley Shoulderplates
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 	},
 
