@@ -1418,6 +1418,225 @@ local SetTable = {
 		},
 	},
 
+	["Tier32"] = { -- T32 Sets
+		name = format(AL["Tier %d Sets"], 32),
+		sourceTemplate = {
+			EJ_GetInstanceInfo(1273).." - "..EJ_GetEncounterInfo(2612), -- Chest
+			EJ_GetInstanceInfo(1273).." - "..EJ_GetEncounterInfo(2599), -- Hands
+			EJ_GetInstanceInfo(1273).." - "..EJ_GetEncounterInfo(2608), -- Head
+			EJ_GetInstanceInfo(1273).." - "..EJ_GetEncounterInfo(2601), -- Legs
+			EJ_GetInstanceInfo(1273).." - "..EJ_GetEncounterInfo(2593), -- Shoulder
+		},
+		{                                                      -- Deathknight, Exhumed Centurion's Relics
+			name = ALIL["DEATHKNIGHT"],
+			subSetName = "dk",
+			icon = "dk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212005, -- Exhumed Centurion's Breastplate
+				212003, -- Exhumed Centurion's Gauntlets
+				212002, -- Exhumed Centurion's Galea
+				212001, -- Exhumed Centurion's Chausses
+				212000, -- Exhumed Centurion's Spikes
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Demon Hunter, Husk of the Hypogeal Nemesis
+			name = ALIL["DEMONHUNTER"],
+			subSetName = "demonhunter",
+			icon = "dh",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212068, -- Chestguard of the Hypogeal Nemesis
+				212066, -- Claws of the Hypogeal Nemesis
+				212065, -- Impalers of the Hypogeal Nemesis
+				212064, -- Pantaloons of the Hypogeal Nemesis
+				212063, -- War-Mantle of the Hypogeal Nemesis
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Druid, Mane of the Greatlynx
+			name = ALIL["DRUID"],
+			subSetName = "druid",
+			icon = "druid",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212059, -- Hide of the Greatlynx
+				212057, -- Eviscerators of the Greatlynx
+				212056, -- Mask of the Greatlynx
+				212055, -- Leggings of the Greatlynx
+				212054, -- Maw of the Greatlynx
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Evoker, Destroyer's Scarred Wards
+			name = ALIL["EVOKER"],
+			subSetName = "evoker",
+			icon = "evoker",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212032, -- Scales of the Destroyer
+				212030, -- Rippers of the Destroyer
+				212029, -- Horns of the Destroyer
+				212028, -- Legguards of the Destroyer
+				212027, -- Fumaroles of the Destroyer
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Hunter, Lightless Scavenger's Necessities
+			name = ALIL["HUNTER"],
+			subSetName = "hunter",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212023, -- Lightless Scavenger's Tunic
+				212021, -- Lightless Scavenger's Mitts
+				212020, -- Lightless Scavenger's Skull
+				212019, -- Lightless Scavenger's Stalkings
+				212018, -- Lightless Scavenger's Taxidermy
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Mage, Sparks of Violet Rebirth
+			name = ALIL["MAGE"],
+			subSetName = "mage",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212095, -- Runecoat of Violet Rebirth
+				212093, -- Jeweled Gauntlets of Violet Rebirth
+				212092, -- Hood of Violet Rebirth
+				212091, -- Coattails of Violet Rebirth
+				212090, -- Beacons of Violet Rebirth
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Monk, Gatecrasher's Fortitude
+			name = ALIL["MONK"],
+			subSetName = "monk",
+			icon = "monk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212050, -- Gatecrasher's Gi
+				212048, -- Gatecrasher's Protectors
+				212047, -- Gatecrasher's Horns
+				212046, -- Gatecrasher's Kilt
+				212045, -- Gatecrasher's Enduring Effigy
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Paladin, Entombed Seraph's Radiance
+			name = ALIL["PALADIN"],
+			subSetName = "paladin",
+			icon = "pala",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				211996, -- Entombed Seraph's Breastplate
+				211994, -- Entombed Seraph's Castigation
+				211993, -- Entombed Seraph's Casque
+				211992, -- Entombed Seraph's Greaves
+				211991, -- Entombed Seraph's Plumes
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Priest, Shards of Living Luster
+			name = ALIL["PRIEST"],
+			subSetName = "priest",
+			icon = "priest",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212086, -- Living Luster's Raiment
+				212084, -- Living Luster's Touch
+				212083, -- Living Luster's Semblance
+				212082, -- Living Luster's Trousers
+				212081, -- Living Luster's Dominion
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Rogue, K'areshi Phantom's Bindings
+			name = ALIL["ROGUE"],
+			subSetName = "rogue",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212041, -- K'areshi Phantom's Nexus Wraps
+				212039, -- K'areshi Phantom's Grips
+				212038, -- K'areshi Phantom's Emptiness
+				212037, -- K'areshi Phantom's Leggings
+				212036, -- K'areshi Phantom's Shoulderpads
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Shaman, Waves of the Forgotten Reservoir
+			name = ALIL["SHAMAN"],
+			subSetName = "shaman",
+			icon = "shaman",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212014, -- Vestments of the Forgotten Reservoir
+				212012, -- Covenant of the Forgotten Reservoir
+				212011, -- Noetic of the Forgotten Reservoir
+				212010, -- Sarong of the Forgotten Reservoir
+				212009, -- Concourse of the Forgotten Reservoir
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warlock, Rites of the Hexflame Coven
+			name = ALIL["WARLOCK"],
+			subSetName = "warlock",
+			icon = "warlock",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				212077, -- Hexflame Coven's Ritual Harness
+				212075, -- Hexflame Coven's Sleeves
+				212074, -- Hexflame Coven's All-Seeing Eye
+				212073, -- Hexflame Coven's Leggings
+				212072, -- Hexflame Coven's Altar
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warrior, Warsculptor's Masterwork
+			name = ALIL["WARRIOR"],
+			subSetName = "warrior",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				211987, -- Warsculptor's Furred Plastron
+				211985, -- Warsculptor's Crushers
+				211984, -- Warsculptor's Barbute
+				211983, -- Warsculptor's Cuisses
+				211982, -- Warsculptor's Horned Spaulders
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+	},
+
 	["Tier21"] = { -- T21 Sets
 		name = format(AL["Tier %d Sets"], 21),
 		-- Chest 	- Eonar the Life-Binder,	instanceID = 946, encounterID = 2025
