@@ -1,8 +1,10 @@
-# Changelog
+﻿# Changelog
 
 ## 8.25.0 -
 ### Added
 - Added TWW tier sets
+### Changed
+- Merged PvP seasons with more than one item in the dropdown to reduce the length of the list
 ### Fixed
 - Removed duplicate secondary button on TWW dungeons and raids
 - Fixed item level of Legion tier sets
