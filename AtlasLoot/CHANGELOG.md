@@ -1,10 +1,11 @@
-﻿# Changelog
+# Changelog
 
 ## 8.25.0 -
 ### Added
 - Added TWW tier sets
 ### Fixed
 - Removed duplicate secondary button on TWW dungeons and raids
+- Fixed item level of Legion tier sets
 
 ## 8.24.0 - March 24, 2025
 ### Added
