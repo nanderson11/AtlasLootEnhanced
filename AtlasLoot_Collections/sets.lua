@@ -1658,8 +1658,8 @@ local SetTable = {
 			subSetName = "dk",
 			icon = "dk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152112, -- Dreadwake Bonecage
 				152113, -- Dreadwake Greatcloak
 				152114, -- Dreadwake Gauntlets
@@ -1667,16 +1667,16 @@ local SetTable = {
 				152116, -- Dreadwake Legplates
 				152117, -- Dreadwake Pauldrons
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Demon Hunter, Felreaper Vestments
 			name = ALIL["DEMONHUNTER"],
 			subSetName = "demonhunter",
 			icon = "dh",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152118, -- Felreaper Vest
 				152119, -- Felreaper Drape
 				152120, -- Felreaper Gloves
@@ -1684,16 +1684,16 @@ local SetTable = {
 				152122, -- Felreaper Leggings
 				152123, -- Felreaper Spaulders
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Druid, Bearmantle Battlegear
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152124, -- Bearmantle Harness
 				152125, -- Bearmantle Cloak
 				152126, -- Bearmantle Paws
@@ -1701,16 +1701,16 @@ local SetTable = {
 				152128, -- Bearmantle Legguards
 				152129, -- Bearmantle Shoulders
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Hunter, Serpentstalker Guise
 			name = ALIL["HUNTER"],
 			subSetName = "hunter",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152130, -- Serpentstalker Tunic
 				152131, -- Serpentstalker Drape
 				152132, -- Serpentstalker Grips
@@ -1718,16 +1718,16 @@ local SetTable = {
 				152134, -- Serpentstalker Legguards
 				152135, -- Serpentstalker Mantle
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Mage, Runebound Regalia
 			name = ALIL["MAGE"],
 			subSetName = "mage",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152136, -- Runebound Cape
 				152137, -- Runebound Gloves
 				152138, -- Runebound Collar
@@ -1735,16 +1735,16 @@ local SetTable = {
 				152140, -- Runebound Tunic
 				152141, -- Runebound Mantle
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Monk, Chi'Ji's Battlegear
 			name = ALIL["MONK"],
 			subSetName = "monk",
 			icon = "monk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152142, -- Tunic of Chi'Ji
 				152143, -- Cloak of Chi'Ji
 				152144, -- Grips of Chi'Ji
@@ -1752,16 +1752,16 @@ local SetTable = {
 				152146, -- Leggings of Chi'Ji
 				152147, -- Meditation Spheres of Chi'Ji
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Paladin, Light's Vanguard Battleplate
 			name = ALIL["PALADIN"],
 			subSetName = "paladin",
 			icon = "pala",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152148, -- Light's Vanguard Breastplate
 				152149, -- Light's Vanguard Greatcloak
 				152150, -- Light's Vanguard Gauntlets
@@ -1769,16 +1769,16 @@ local SetTable = {
 				152152, -- Light's Vanguard Legplates
 				152153, -- Light's Vanguard Shoulderplates
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Priest, Gilded Seraph's Raiment
 			name = ALIL["PRIEST"],
 			subSetName = "priest",
 			icon = "priest",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152154, -- Gilded Seraph's Drape
 				152155, -- Gilded Seraph's Handwraps
 				152156, -- Gilded Seraph's Crown
@@ -1786,16 +1786,16 @@ local SetTable = {
 				152158, -- Gilded Seraph's Robes
 				152159, -- Gilded Seraph's Amice
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Rogue, Regalia of the Dashing Scoundrel
 			name = ALIL["ROGUE"],
 			subSetName = "rogue",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152160, -- Vest of the Dashing Scoundrel
 				152161, -- Cloak of the Dashing Scoundrel
 				152162, -- Gloves of the Dashing Scoundrel
@@ -1803,16 +1803,16 @@ local SetTable = {
 				152164, -- Pants of the Dashing Scoundrel
 				152165, -- Shoulderpads of the Dashing Scoundrel
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Shaman, Garb of Venerated Spirits
 			name = ALIL["SHAMAN"],
 			subSetName = "shaman",
 			icon = "shaman",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152166, -- Robes of Venerated Spirits
 				152167, -- Drape of Venerated Spirits
 				152168, -- Gloves of Venerated Spirits
@@ -1820,16 +1820,16 @@ local SetTable = {
 				152170, -- Leggings of Venerated Spirits
 				152171, -- Pauldrons of Venerated Spirits
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warlock, Grim Inquisitor's Regalia
 			name = ALIL["WARLOCK"],
 			subSetName = "warlock",
 			icon = "warlock",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152172, -- Grim Inquisitor's Cloak
 				152173, -- Grim Inquisitor's Gloves
 				152174, -- Grim Inquisitor's Death Mask
@@ -1837,16 +1837,16 @@ local SetTable = {
 				152176, -- Grim Inquisitor's Robes
 				152177, -- Grim Inquisitor's Shoulderguards
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warrior, Juggernaut Battlegear
 			name = ALIL["WARRIOR"],
 			subSetName = "warrior",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				152178, -- Juggernaut Breastplate
 				152179, -- Juggernaut Cloak
 				152180, -- Juggernaut Gauntlets
@@ -1854,8 +1854,8 @@ local SetTable = {
 				152182, -- Juggernaut Legplates
 				152183, -- Juggernaut Pauldrons
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 	},
 
@@ -1880,8 +1880,8 @@ local SetTable = {
 			subSetName = "dk",
 			icon = "dk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147121, -- Gravewarden Chestplate
 				147122, -- Gravewarden Cloak
 				147123, -- Gravewarden Handguards
@@ -1889,16 +1889,16 @@ local SetTable = {
 				147125, -- Gravewarden Legplates
 				147126, -- Gravewarden Pauldrons
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Demon Hunter, Demonbane Armor
 			name = ALIL["DEMONHUNTER"],
 			subSetName = "demonhunter",
 			icon = "dh",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147127, -- Demonbane Harness
 				147128, -- Demonbane Shroud
 				147129, -- Demonbane Gauntlets
@@ -1906,16 +1906,16 @@ local SetTable = {
 				147131, -- Demonbane Leggings
 				147132, -- Demonbane Shoulderpads
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Druid, Stormheart Raiment
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147133, -- Stormheart Tunic
 				147134, -- Stormheart Drape
 				147135, -- Stormheart Gloves
@@ -1923,16 +1923,16 @@ local SetTable = {
 				147137, -- Stormheart Legguards
 				147138, -- Stormheart Mantle
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Hunter, Wildstalker Armor
 			name = ALIL["HUNTER"],
 			subSetName = "hunter",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147139, -- Wildstalker Chestguard
 				147140, -- Wildstalker Cape
 				147141, -- Wildstalker Gauntlets
@@ -1940,16 +1940,16 @@ local SetTable = {
 				147143, -- Wildstalker Leggings
 				147144, -- Wildstalker Spaulders
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Mage, Regalia of the Arcane Tempest
 			name = ALIL["MAGE"],
 			subSetName = "mage",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147145, -- Drape of the Arcane Tempest
 				147146, -- Gloves of the Arcane Tempest
 				147147, -- Crown of the Arcane Tempest
@@ -1957,16 +1957,16 @@ local SetTable = {
 				147149, -- Robes of the Arcane Tempest
 				147150, -- Mantle of the Arcane Tempest
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Monk, Xuen's Battlegear
 			name = ALIL["MONK"],
 			subSetName = "monk",
 			icon = "monk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147151, -- Xuen's Tunic
 				147152, -- Xuen's Cloak
 				147153, -- Xuen's Gauntlets
@@ -1974,16 +1974,16 @@ local SetTable = {
 				147155, -- Xuens' Legguards
 				147156, -- Xuen's Shoulderguards
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Paladin, Radiant Lightbringer Armor
 			name = ALIL["PALADIN"],
 			subSetName = "paladin",
 			icon = "pala",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147157, -- Radiant Lightbringer Breastplate
 				147158, -- Radiant Lightbringer Cape
 				147159, -- Radiant Lightbringer Gauntlets
@@ -1991,16 +1991,16 @@ local SetTable = {
 				147161, -- Radiant Lightbringer Greaves
 				147162, -- Radiant Lightbringer Shoulderguards
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Priest, Vestments of Blind Absolution
 			name = ALIL["PRIEST"],
 			subSetName = "priest",
 			icon = "priest",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147163, -- Shawl of Blind Absolution
 				147164, -- Gloves of Blind Absolution
 				147165, -- Hood of Blind Absolution
@@ -2008,16 +2008,16 @@ local SetTable = {
 				147167, -- Robes of Blind Absolution
 				147168, -- Mantle of Blind Absolution
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Rogue, Fanged Slayer's Armor
 			name = ALIL["ROGUE"],
 			subSetName = "rogue",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147169, -- Fanged Slayer's Chestguard
 				147170, -- Fanged Slayer's Shroud
 				147171, -- Fanged Slayer's Handguards
@@ -2025,16 +2025,16 @@ local SetTable = {
 				147173, -- Fanged Slayer's Legguards
 				147174, -- Fanged Slayer's Shoulderpads
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Shaman, Regalia of the Skybreaker
 			name = ALIL["SHAMAN"],
 			subSetName = "shaman",
 			icon = "shaman",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147175, -- Harness of the Skybreaker
 				147176, -- Drape of the Skybreaker
 				147177, -- Grips of the Skybreaker
@@ -2042,16 +2042,16 @@ local SetTable = {
 				147179, -- Legguards of the Skybreaker
 				147180, -- Pauldrons of the Skybreaker
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warlock, Diabolic Raiment
 			name = ALIL["WARLOCK"],
 			subSetName = "warlock",
 			icon = "warlock",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147181, -- Diabolic Shroud
 				147182, -- Diabolic Gloves
 				147183, -- Diabolic Helm
@@ -2059,16 +2059,16 @@ local SetTable = {
 				147185, -- Diabolic Robe
 				147186, -- Diabolic Mantle
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warrior, Titanic Onslaught Armor
 			name = ALIL["WARRIOR"],
 			subSetName = "warrior",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				147187, -- Titanic Onslaught Breastplate
 				147188, -- Titanic Onslaught Cloak
 				147189, -- Titanic Onslaught Handguards
@@ -2076,8 +2076,8 @@ local SetTable = {
 				147191, -- Titanic Onslaught Greaves
 				147192, -- Titanic Onslaught Pauldrons
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 	},
 
@@ -2102,8 +2102,8 @@ local SetTable = {
 			subSetName = "dk",
 			icon = "dk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138355, -- Dreadwyrm Crown
 				138361, -- Dreadwyrm Shoulderguards
 				138349, -- Dreadwyrm Breastplate
@@ -2111,16 +2111,16 @@ local SetTable = {
 				138358, -- Dreadwyrm Legplates
 				138364, -- Dreadwyrm Greatcloak
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Demon Hunter, Vestment of Second Sight
 			name = ALIL["DEMONHUNTER"],
 			subSetName = "demonhunter",
 			icon = "dh",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138378, -- Mask of Second Sight
 				138380, -- Shoulderguards of Second Sight
 				138376, -- Tunic of Second Sight
@@ -2128,16 +2128,16 @@ local SetTable = {
 				138379, -- Legwraps of Second Sight
 				138375, -- Cape of Second Sight
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Druid, Garb of the Astral Warden
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138330, -- Hood of the Astral Warden
 				138336, -- Mantle of the Astral Warden
 				138324, -- Robe of the Astral Warden
@@ -2145,16 +2145,16 @@ local SetTable = {
 				138333, -- Leggings of the Astral Warden
 				138366, -- Cloak of the Astral Warden
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Hunter, Eagletalon Battlegear
 			name = ALIL["HUNTER"],
 			subSetName = "hunter",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138342, -- Eagletalon Cowl
 				138347, -- Eagletalon Spaulders
 				138339, -- Eagletalon Tunic
@@ -2162,16 +2162,16 @@ local SetTable = {
 				138344, -- Eagletalon Legchains
 				138368, -- Eagletalon Cloak
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Mage, Regalia of Everburning Knowledge
 			name = ALIL["MAGE"],
 			subSetName = "mage",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138312, -- Hood of Everburning Knowledge
 				138321, -- Mantle of Everburning Knowledge
 				138318, -- Robe of Everburning Knowledge
@@ -2179,16 +2179,16 @@ local SetTable = {
 				138315, -- Leggings of Everburning Knowledge
 				138365, -- Cloak of Everburning Knowledge
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Monk, Vestments of Enveloped Dissonance
 			name = ALIL["MONK"],
 			subSetName = "monk",
 			icon = "monk",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138331, -- Hood of Enveloped Dissonance
 				138337, -- Pauldrons of Enveloped Dissonance
 				138325, -- Tunic of Enveloped Dissonance
@@ -2196,16 +2196,16 @@ local SetTable = {
 				138334, -- Leggings of Enveloped Dissonance
 				138367, -- Cloak of Enveloped Dissonance
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Paladin, Battleplate of the Highlord
 			name = ALIL["PALADIN"],
 			subSetName = "paladin",
 			icon = "pala",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138356, -- Helmet of the Highlord
 				138362, -- Pauldrons of the Highlord
 				138350, -- Breastplate of the Highlord
@@ -2213,16 +2213,16 @@ local SetTable = {
 				138359, -- Legplates of the Highlord
 				138369, -- Greatmantle of the Highlord
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Priest, Vestments of the Purifier
 			name = ALIL["PRIEST"],
 			subSetName = "priest",
 			icon = "priest",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138313, -- Purifier's Gorget
 				138322, -- Purifier's Mantle
 				138319, -- Purifier's Cassock
@@ -2230,16 +2230,16 @@ local SetTable = {
 				138316, -- Purifier's Leggings
 				138370, -- Purifier's Drape
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Rogue, Doomblade Battlegear
 			name = ALIL["ROGUE"],
 			subSetName = "rogue",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138322, -- Doomblade Cowl
 				138338, -- Doomblade Spaulders
 				138326, -- Doomblade Tunic
@@ -2247,16 +2247,16 @@ local SetTable = {
 				138335, -- Doomblade Pants
 				138371, -- Doomblade Shadowwrap
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Shaman, Regalia of Bound Elements
 			name = ALIL["SHAMAN"],
 			subSetName = "shaman",
 			icon = "shaman",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138343, -- Helm of Shackled Elements
 				138348, -- Pauldrons of Shackled Elements
 				138346, -- Raiment of Shackled Elements
@@ -2264,16 +2264,16 @@ local SetTable = {
 				138345, -- Leggings of Shackled Elements
 				138372, -- Cloak of Shackled Elements
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warlock, Legacy of Azj'Aqir
 			name = ALIL["WARLOCK"],
 			subSetName = "warlock",
 			icon = "warlock",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138314, -- Eyes of Azj'Aqir
 				138323, -- Pauldrons of Azj'Aqir
 				138320, -- Finery of Azj'Aqir
@@ -2281,16 +2281,16 @@ local SetTable = {
 				138317, -- Leggings of Azj'Aqir
 				138373, -- Cloak of Azj'Aqir
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 		{ -- Warrior, Cloak of Azj'Aqir
 			name = ALIL["WARRIOR"],
 			subSetName = "warrior",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
-			[RF_DIFF] = NORMAL_DIFF,
-			[NORMAL_DIFF] = {
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
 				138357, -- Warhelm of the Obsidian Aspect
 				138363, -- Shoulderplates of the Obsidian Aspect
 				138351, -- Chestplate of the Obsidian Aspect
@@ -2298,8 +2298,8 @@ local SetTable = {
 				138360, -- Legplates of the Obsidian Aspect
 				138374, -- Greatcloak of the Obsidian Aspect
 			},
-			[HEROIC_PRE_DIFF] = NORMAL_DIFF,
-			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
 		},
 	},
 
