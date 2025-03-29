@@ -3,6 +3,7 @@
 ## 8.25.0 -
 ### Added
 - Added TWW tier sets
+- Added TWW PvP rewards
 ### Changed
 - Merged PvP seasons with more than one item in the dropdown to reduce the length of the list
 ### Fixed

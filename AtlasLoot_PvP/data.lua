@@ -162,6 +162,82 @@ data["LEGION7GEAR"] = {
 }
 --]]
 
+data["TWWSEASON2"] = {
+	name = format(EXPANSION_NAME10.." "..AL["Season %d"], 2),
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1,  229987, "mount" },                     -- Prized Gladiator's Fel Bat
+				{ 2,  229989, "mount" },                     -- Vicious Electro Eel
+				{ 3,  231637, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Prized Gladiator's Tabard
+				{ 4,  231638 },                              -- Prized Gladiator's Prestigious Cloak
+				{ 5,  235519 },                              -- Prized Legend's Pennant
+				{ 7,  230774, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Bludgeon
+				{ 8,  230775, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Pincer
+				{ 9,  230776, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Blaster
+				{ 10, 230777, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Warglaive
+				{ 11, 230778, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Drill
+				{ 12, 230779, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Staff
+				{ 13, 230780, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Torchblade
+				{ 14, 230781, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Pylon
+				{ 15, 230782, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Dagger
+				{ 16, 230783, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Flail
+				{ 17, 230784, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Army Knife
+				{ 18, 230785, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Conduit
+				{ 19, 230786, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Gasket
+				{ 20, 230787, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Prized Gladiator's Detonator
+				{ 21, 230788, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Bow
+				{ 22, 230789, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Greatsaw
+				{ 23, 230790, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Prized Gladiator's Pulverizer
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 2, 229988, "mount" }, -- Vicious Electro Eel
+			},
+		},
+	},
+}
+
+data["TWWSEASON1"] = {
+	name = format(EXPANSION_NAME10.." "..AL["Season %d"], 1),
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1,  223586, "mount" },                     -- Forged Gladiator's Fel Bat
+				{ 2,  223511, "mount" },                     -- Vicious Skyflayer
+				{ 3,  223616, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Forged Gladiator's Tabard
+				{ 4,  223617 },                              -- Forged Gladiator's Prestigious Cloak
+				{ 5,  225933 },                              -- Forged Legend's Pennant
+				{ 7,  225856, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Axe
+				{ 8,  225857, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Dagger
+				{ 9,  225858, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Pincer
+				{ 10, 225859, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Warglaive
+				{ 11, 225860, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Spear
+				{ 12, 225861, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Staff
+				{ 13, 225863, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Battlestaff
+				{ 14, 225864, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Crossbow
+				{ 15, 225865, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Scepter
+				{ 16, 225866, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Focus
+				{ 17, 225867, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Shield
+				{ 18, 225868, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Bulwark
+				{ 19, 225869, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Claws
+				{ 20, 225870, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Bow
+				{ 21, 225871, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Greataxe
+				{ 22, 225872, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Forged Gladiator's Pulverizer
+				{ 23, 225874, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Forged Gladiator's Wither-Blade
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 2, 221813, "mount" }, -- Vicious Skyflayer
+			},
+		},
+	},
+}
+
 data["DFSEASON1"] = {
 	name = format(EXPANSION_NAME9.." "..AL["Season %d"], 1),
 	ContentType = NORMAL_ITTYPE,
