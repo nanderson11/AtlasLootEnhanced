@@ -7,7 +7,7 @@
 ### Changed
 - Merged PvP seasons with more than one item in the dropdown to reduce the length of the list
 ### Fixed
-- Removed duplicate secondary button on TWW dungeons and raids
+- Removed duplicate secondary button on TWW, Dragonflight and Shadowlands dungeons and raids
 - Fixed item level of Legion tier sets
 
 ## 8.24.0 - March 24, 2025
