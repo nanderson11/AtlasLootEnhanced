@@ -27,7 +27,6 @@ local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 
 local LEGENDARY_DIFF = data:AddDifficulty(ITEM_QUALITY5_DESC)
 
-local LEGION_DIFF = data:AddDifficulty(EXPANSION_NAME6)
 local WOD_DIFF = data:AddDifficulty(EXPANSION_NAME5)
 local MOP_DIFF = data:AddDifficulty(EXPANSION_NAME4)
 local CATA_DIFF = data:AddDifficulty(EXPANSION_NAME3)
@@ -972,64 +971,188 @@ data["MOUNTS"]             = {
 	TableType = NORMAL_ITTYPE,
 	items =
 	{
-		{ -- Dragonflight
-			name = EXPANSION_NAME9,
+		{ -- The War Within
+			name = EXPANSION_NAME10,
 			[ALLIANCE_DIFF] = {
-				{ 1,   192601, "mount" },                   -- Loyal Magmammoth
-				{ 2,   192761, "mount" },                   -- Tamed Skitterfly
-				{ 3,   192762, "mount" },                   -- Azure Skitterfly
-				{ 4,   192764, "mount" },                   -- Verdant Skitterfly
-				{ 5,   192775, "mount" },                   -- Stormhide Salamanther
-				{ 6,   192777, "mount" },                   -- Magmashell
-				{ 7,   192779 },                            -- Scorchpath
-				{ 8,   192784, "ac16295" },                 -- Shellack
-				{ 9,   192786, [PRICE_EXTRA_ITTYPE] = "magmote:1000" }, -- Slumbering Worldsnail Shell
-				{ 10,  192791, "mount" },                   -- Plainswalker Bearer
-				--				{ 11, 192792 }, -- PH Thunder Lizard Green
-				--				{ 12, 192793 }, -- PH Thunder Lizard Black
-				--				{ 13, 192794 }, -- PH Thunder Lizard Blue
-				--				{ 14, 192796 }, -- PH Thunder Lizard Light
-				{ 11,  192799, "mount" }, -- Lizi's Reins
-				{ 12,  192800 }, -- Skyskin Hornstrider
-				--				{ 17, 192801 }, -- PH Primal Tallstrider White
-				--				{ 18, 192802 }, -- PH Primal Tallstrider Black
-				--				{ 19, 192803 }, -- PH Primal Tallstrider Red
-				{ 13,  192804 }, -- Restless Hornstrider
-				{ 14,  192806, "ac16355" }, -- Raging Magmammoth
-				--				{ 22, 192807 }, -- PH Lava Mammoth Yellow
-				{ 15,  194034, "mount" }, -- Renewed Proto-Drake
-				{ 16,  194106, "mount" }, -- Highland Drake
-				{ 17,  194521, "mount" }, -- Cliffside Wylderdrake
-				{ 18,  194549, "mount" }, -- Windborne Velocidrake
-				{ 19,  194705, "mount" }, -- Highland Drake
-				{ 20,  198654, "ac15834" }, -- Otterworldly Ottuk Carrier
-				{ 21,  198808, "mount" }, -- Guardian Vorquin
-				{ 22,  198809, "mount" }, -- Armored Vorquin Leystrider
-				{ 23,  198810, "mount" }, -- Swift Armored Vorquin
-				{ 24,  198811, "mount" }, -- Majestic Armored Vorquin
-				{ 25,  198821, "mount" }, -- Divine Kiss of Ohn'ahra
-				{ 26,  198825, "mount" }, -- Zenet Hatchling
-				{ 27,  198870, "mount" }, -- Otto
-				{ 28,  198871, "mount" }, -- Iskaara Trader's Ottuk
-				{ 29,  198872, "mount" }, -- Brown Scouting Ottuk
-				{ 30,  198873, "mount" }, -- Ivory Trader's Ottuk
-				{ 101, 199412, "mount" }, -- Hailstorm Armoredon
-				{ 102, 200118, "mount" }, -- Yellow Scouting Ottuk
-				{ 103, 201425, "mount" }, -- Yellow War Ottuk
-				{ 104, 201426, "mount" }, -- Brown War Ottuk
-				{ 105, 201440, "mount" }, -- Reins of the Liberated Slyvern
-				{ 106, 201454, "mount" }, -- Temperamental Skyclaw
-				{ 107, 201702, "mount" }, -- Crimson Vorquin
-				{ 108, 201704, "mount" }, -- Sapphire Vorquin
-				{ 109, 201719, "mount" }, -- Obsidian Vorquin
-				{ 110, 201720, "mount" }, -- Bronze Vorquin
-				{ 111, 201788, "mount" }, -- Vicious Sabertooth
-				{ 112, 201789, "mount" }, -- Vicious Sabertooth
-				{ 113, 202086, "mount" }, -- Crimson Gladiator's Drake
+				{ 1,   229947, "mount" },                                      -- Violet Goblin Shredder
+				{ 2,   229955, "mount" },                                      -- Darkfuse Spy-Eye
+				{ 3,   229953, "mount" },                                      -- Salvaged Goblin Gazillionaire's Flying Machine
+				{ 4,   229941, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Innovation Investigator
+				{ 5,   229954, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Margin Manipulator
+				{ 6,   229949, "mount" },                                      -- Personalized Goblin S.C.R.A.P.per
+				{ 7,   236960, "mount" },                                      -- Prototype A.S.M.R.
+				{ 8,   223270, "mount" },                                      -- Alunira
+				{ 9,   232639, "mount", [QUEST_EXTRA_ITTYPE] = 85811 },        -- Thrayir, Eyes of the Siren
+				{ 10,  237141, "mount" },                                      -- Enterprising Shreddertank
+				{ 11,  224150, "mount", [QUEST_EXTRA_ITTYPE] = 83722 },        -- Siesbarg
+				{ 12,  229950, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Darkfuse Demolisher
+				{ 13,  229974, "mount", [QUEST_EXTRA_ITTYPE] = 85243 },        -- Delver's Gob-Trotter
+				{ 14,  225548, "mount" },                                      -- Wick's Lead
+				{ 15,  233064, "mount" },                                      -- Bronze Goblin Waveshredder
+				{ 16,  223269, "mount" },                                      -- Machine Defense Unit 1-11
+				{ 17,  229952, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },  -- Asset Advocator
+				{ 18,  223153, "mount", [PRICE_EXTRA_ITTYPE] = "225557:900" }, -- Reins of the Soaring Meaderbee
+				{ 19,  221967, "mount" },                                      -- Crowd Pummeler 2-30
+				{ 20,  235549, "mount" },                                      -- Crimson Shreddertank (ac41533)
+				{ 21,  229940, "mount", [PRICE_EXTRA_ITTYPE] = "money:9712500" }, -- Flarendo the Furious
+				{ 22,  221765, "mount" },                                      -- Stonevault Mechsuit
+				{ 23,  231173, "mount" },                                      -- Junkmaestro's Magnetomech (ac41286)
+				{ 24,  229956, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Mean Green Flying Machine
+				{ 25,  223315, "mount" },                                      -- Beledar's Spawn
+				{ 26,  235626, "mount" },                                      -- Keys to the Big G
+				{ 27,  229418, "mount" },                                      -- Reins of the Trader's Gilded Brutosaur
+				{ 28,  229948, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Blackwater Shredder Deluxe Mk 2
+				{ 29,  229935, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Armored Growler
+				{ 30,  219391, "mount", [QUEST_EXTRA_ITTYPE] = 81510 },        -- Delver's Dirigible
+				{ 101, 223318, "mount" },                                      -- Dauntless Imperial Lynx
+				{ 102, 233489, "mount", [QUEST_EXTRA_ITTYPE] = 86485 },        -- Prismatic Snapdragon
+				{ 103, 229945, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Thunderdrum Misfire
+				{ 104, 229946, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Ocher Delivery Rocket
+				{ 105, 229348, "mount" },                                      -- Keys to Incognitro, the Indecipherable Felcycle
+				{ 106, 224415, "mount" },                                      -- Ivory Goliathus (ac40438)
+				{ 107, 235515, "mount" },                                      -- Jani's Trashpile (ac40953)
+				{ 108, 234740, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Copper-Maned Quilen Reins
+				{ 109, 224147, "mount" },                                      -- Reins of the Sureki Skyrazor
+				{ 110, 229944, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- The Topskimmer Special
+				{ 111, 225250, "mount" },                                      -- Startouched Furline
+				{ 112, 233058, "mount", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:10000" }, -- Soweezi's Vintage Waveshredder
+				{ 113, 233286, "mount" },                                      -- Meeksi Brewthief
+				{ 114, 232991, "mount" },                                      -- The Breaker's Song (ac41133)
+				{ 115, 233285, "mount" },                                      -- Meeksi Teatuft
+				{ 116, 235646, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" }, -- Shimmermist Free Runner
+				{ 117, 229989, "mount" },                                      -- Vicious Electro Eel (ac41128)
+				{ 118, 234721, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Ur'zul Fleshripper Bridle
+				{ 119, 229924, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" }, -- Darkfuse Chompactor
+				{ 120, 229987, "mount" },                                      -- Prized Gladiator's Fel Bat (ac41032)
+				{ 121, 224151, "mount" },                                      -- Reins of the Ascendant Skyrazor
+				{ 122, 229936, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Violet Armored Growler
+				{ 123, 235286, "mount" },                                      -- Sha-Warped Cloud Serpent
+				{ 124, 223314, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Shackled Shadow
+				{ 125, 229937, "mount" },                                      -- Blackwater Bonecrusher
+				{ 126, 223501, "mount" },                                      -- Regurgitated Mole Reins
+				{ 127, 234716, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Nightfall Skyreaver's Reins
+				{ 128, 229957, "mount" },                                      -- Bilgewater Bombardier
+				{ 129, 223276, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Widow's Undercrawler
+				{ 130, 205208, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
+				{ 201, 234730, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Broodling of Sinestra
+				{ 202, 228760, "mount" },                                      -- Reins of the Coldflame Tempest (ac40976)
+				{ 203, 232624, "mount" },                                      -- Timely Buzzbee (ac41056)
+				{ 204, 235650, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Pearlescent Butterfly
+				{ 205, 235287, "mount" },                                      -- Sha-Warped Riding Tiger
+				{ 206, 223158, "mount" },                                      -- Raging Cinderbee (ac40097)
+				{ 207, 226357, "mount" },                                      -- Diamond Mechsuit (ac20525)
+				{ 208, 233282, "mount" },                                      -- Meeksi Rufflefur
+				{ 209, 223267, "mount" },                                      -- Swarmite Skyhunter (ac40702)
+				{ 210, 222989, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
+				{ 211, 232901, "mount", [PRICE_EXTRA_ITTYPE] = "21100:75" },   -- Lunar Launcher
+				{ 212, 233283, "mount" },                                      -- Meeksi Softpaw
+				{ 213, 224398, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Frayfeather Hippogryph
+				{ 214, 221753, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
+				{ 215, 229951, "mount" },                                      -- Venture Co-ordinator
+				{ 216, 223317, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Vermillion Imperial Lynx
+				{ 217, 223278, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Heritage Undercrawler
+				{ 218, 235657, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Ruby Butterfly
+				{ 219, 232926, "mount" },                                      -- Love Witch's Sweeper
+				{ 220, 223266, "mount" },                                      -- Reins of the Shadowed Swarmite (ac40232)
+				{ 221, 223572, "mount" },                                      -- Reins of the Slatestone Ramolith (ac40307)
+				{ 222, 233023, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Silvermoon Sweeper
+				{ 223, 226506, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" }, -- Hand of Reshkigaal
+				{ 224, 231374, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Enchanted Spellweave Carpet
+				{ 225, 224399, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Amani Hunting Bear
+				{ 226, 223586, "mount" },                                      -- Forged Gladiator's Fel Bat (ac40393)
+				{ 227, 233284, "mount" },                                      -- Meeksi Rollingpaw
+				{ 228, 217985, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Golden Gryphon
+				{ 229, 223264, "mount", [PRICE_EXTRA_ITTYPE] = "kej:3940" },   -- Aquamarine Swarmite
+				{ 230, 223279, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },   -- Royal Court Undercrawler
+				{ 301, 228751, "mount" },                                      -- Gigantic Grrloc
+				{ 302, 230201, "mount" },                                      -- Chaos-Forged Wind Rider
+				{ 303, 230184, "mount" },                                      -- Chaos-Forged Gryphon
+				{ 304, 223571, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Shale Ramolith
+				{ 305, 223505, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Crimson Mudnose
+				{ 306, 230200, "mount" },                                      -- Chaos-Forged Dreadwing
+				{ 307, 230185, "mount" },                                      -- Chaos-Forged Hippogryph
+				{ 308, 223274, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2815" },   -- Ferocious Jawcrawler
+				{ 309, 227362, "mount" },                                      -- Golden Ashes of Al'ar
+				{ 310, 233241, "mount" },                                      -- Hooktalon
+				{ 311, 231297, "mount" },                                      -- Timbered Sky Snake
+				{ 312, 233240, "mount" },                                      -- Polly Roger
+				{ 313, 233020, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Twilight Witch's Sweeper
+				{ 314, 235344, "mount" },                                      -- Blazing Royal Fire Hawk
+				{ 315, 233019, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Sky Witch's Sweeper
+				{ 316, 233354, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" }, -- Savage Alabaster Battle Turtle
+				{ 317, 235556, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" }, -- Violet Darkmoon Charger
+				{ 318, 223511, "mount" },                                      -- Vicious Skyflayer (ac40396)
+				{ 319, 226041, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Keg Leg's Radiant Crocolisk
+				{ 320, 229128, "mount" },                                      -- Harmonious Salutations Bear
+				{ 321, 226042, "mount" },                                      -- Plunderlord's Midnight Crocolisk
+				{ 322, 233243, "mount" },                                      -- Silver Tidestallion
+				{ 323, 235662, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" }, -- Emerald Snail
+				{ 324, 226040, "mount" },                                      -- Plunderlord's Golden Crocolisk
+				{ 325, 226044, "mount" },                                      -- Plunderlord's Weathered Crocolisk
+				{ 326, 233242, "mount" },                                      -- Royal Seafeather
+				{ 327, 235555, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" }, -- Lively Darkmoon Charger
+				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
+				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
+				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
+				-- { 325, 235557, "mount" }, -- Snowy Darkmoon Charger (not yet available)
+				-- { 327, 235658, "mount" }, -- Spring Butterfly (not yet available)
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 20, 198654, "ac15833" }, -- Otterworldly Ottuk Carrier
+				{ 117, 229988, "mount" },                                      -- Vicious Electro Eel (ac41129)
+				{ 228, 217987, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Wind Rider
+				{ 318, 221813, "mount" },                                      -- Vicious Skyflayer (ac40397)
+			},
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			[ALLIANCE_DIFF] = {
+				{ 1,   192601, "mount" },                           -- Loyal Magmammoth
+				{ 2,   192761, "mount" },                           -- Tamed Skitterfly
+				{ 3,   192762, "mount" },                           -- Azure Skitterfly
+				{ 4,   192764, "mount" },                           -- Verdant Skitterfly
+				{ 5,   192775, "mount" },                           -- Stormhide Salamanther
+				{ 6,   192777, "mount" },                           -- Magmashell
+				{ 7,   192779, "mount" },                           -- Seething Slug
+				{ 8,   192784, "mount" },                           -- Shellack (ac16295)
+				{ 9,   192786, "mount", [PRICE_EXTRA_ITTYPE] = "202173:1000" }, -- Slumbering Worldsnail Shell
+				{ 10,  192791, "mount" },                           -- Plainswalker Bearer
+				{ 11,  192799, "mount" },                           -- Lizi's Reins
+				{ 12,  192800, "mount" },                           -- Skyskin Hornstrider
+				{ 13,  192806, "mount" },                           -- Raging Magmammoth (ac16355)
+				{ 14,  194034, "mount" },                           -- Renewed Proto-Drake
+				{ 15,  194106, "mount" },                           -- Highland Drake
+				{ 16,  194521, "mount" },                           -- Cliffside Wylderdrake
+				{ 17,  194549, "mount" },                           -- Windborne Velocidrake
+				{ 18,  194705, "mount" },                           -- Highland Drake
+				{ 19,  198654, "mount" },                           -- Otterworldly Ottuk Carrier (ac15834)
+				{ 20,  198808, "mount" },                           -- Guardian Vorquin
+				{ 21,  198809, "mount" },                           -- Armored Vorquin Leystrider
+				{ 22,  198810, "mount" },                           -- Swift Armored Vorquin
+				{ 23,  198811, "mount" },                           -- Majestic Armored Vorquin
+				{ 24,  198821, "mount" },                           -- Divine Kiss of Ohn'ahra
+				{ 25,  198825, "mount" },                           -- Zenet Hatchling
+				{ 26,  198870, "mount" },                           -- Otto
+				{ 27,  198871, "mount" },                           -- Iskaara Trader's Ottuk
+				{ 28,  198872, "mount" },                           -- Brown Scouting Ottuk
+				{ 29,  198873, "mount" },                           -- Ivory Trader's Ottuk
+				{ 30,  199412, "mount" },                           -- Hailstorm Armoredon
+				{ 101, 200118, "mount" },                           -- Yellow Scouting Ottuk
+				{ 102, 201425, "mount" },                           -- Yellow War Ottuk
+				{ 103, 201426, "mount" },                           -- Brown War Ottuk
+				{ 104, 201440, "mount" },                           -- Reins of the Liberated Slyvern
+				{ 105, 201454, "mount" },                           -- Temperamental Skyclaw
+				{ 106, 201702, "mount" },                           -- Crimson Vorquin
+				{ 107, 201704, "mount" },                           -- Sapphire Vorquin
+				{ 108, 201719, "mount" },                           -- Obsidian Vorquin
+				{ 109, 201720, "mount" },                           -- Bronze Vorquin
+				{ 110, 201788, "mount" },                           -- Vicious Sabertooth
+				{ 111, 201789, "mount" },                           -- Vicious Sabertooth
+				{ 112, 202086, "mount" },                           -- Crimson Gladiator's Drake
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 20, 198654, "mount" }, -- Otterworldly Ottuk Carrier (ac15833)
 			},
 		},
 		{ -- Shadowlands
@@ -1070,7 +1193,7 @@ data["MOUNTS"]             = {
 				{ 103, 181316, "mount" }, -- Silvertip Dredwing
 				{ 104, 181317, "mount" }, -- Dauntless Duskrunner
 				{ 105, 181815, "mount" }, -- Armored Bonehoof Tauralus
-				{ 106, 181817 }, -- Deathbringer's Flayedwing
+				{ 106, 192557, "mount" }, -- Restoration Deathwalker
 				{ 107, 181818, "mount" }, -- Chewed Reins of the Callow Flayedwing
 				{ 108, 181819, "mount" }, -- Marrowfang's Reins
 				{ 109, 181820, "mount" }, -- Armored Chosen Tauralus
@@ -1085,7 +1208,7 @@ data["MOUNTS"]             = {
 				{ 118, 182080, "mount" }, -- Predatory Plagueroc
 				{ 119, 182081, "mount" }, -- Reins of the Colossal Slaughterclaw
 				{ 120, 182082, "mount" }, -- Lurid Bloodtusk
-				{ 121, 182083 }, -- Bonecleaver's Skullboar
+				{ 121, 191566, "mount" }, -- Elusive Emerald Hawkstrider
 				{ 122, 182084, "mount" }, -- Gorespine
 				{ 123, 182085, "mount" }, -- Blisterback Bloodtusk
 				{ 124, 182209, "mount" }, -- Desire's Battle Gargon
@@ -1119,7 +1242,7 @@ data["MOUNTS"]             = {
 				{ 222, 184167, "mount" }, -- Mawsworn Soulhunter
 				{ 223, 184168, "mount" }, -- Bound Shadehound
 				{ 224, 184183, "mount" }, -- Voracious Gorger
-				{ 225, 185973 }, -- Chain of Bahmethra
+				{ 225, 185973, "mount" }, -- Chain of Bahmethra
 				{ 226, 185996, "mount" }, -- Harvester's Dredwing Saddle
 				{ 227, 186000, "mount" }, -- Legsplitter War Harness
 				{ 228, 186103, "mount" }, -- Undying Darkhound's Harness
@@ -1139,18 +1262,18 @@ data["MOUNTS"]             = {
 				{ 312, 186488, "mount" }, -- Regal Corpsefly Harness
 				{ 313, 186489, "mount" }, -- Lord of the Corpseflies
 				{ 314, 186490, "mount" }, -- Battlefield Swarmer Harness
-				{ 315, 186491 }, -- Spring Wilderling Harness
+				{ 315, 191290, "mount" }, -- Eternal Gladiator's Soul Eater
 				{ 316, 186492, "mount" }, -- Summer Wilderling Harness
 				{ 317, 186493, "mount" }, -- Ardenweald Wilderling Harness
 				{ 318, 186494, "mount" }, -- Autumnal Wilderling Harness
 				{ 319, 186495, "mount" }, -- Winter Wilderling Harness
 				{ 320, 186637, "mount" }, -- Tazavesh Gearglider
 				{ 321, 186638, "mount" }, -- Cartel Master's Gearglider
-				{ 322, 186639 }, -- Pilfered Gearglider
-				{ 323, 186640 }, -- Silver Gearglider
-				{ 324, 186641 }, -- Tamed Mauler Harness
-				{ 325, 186642 }, -- Vengeance's Reins
-				{ 326, 186643 }, -- Reins of the Wanderer
+				{ 322, 190766, "mount" }, -- Spectral Mawrat's Tail
+				{ 323, 191123, "mount" }, -- Grimhowl's Face Axe
+				{ 324, 186641, "mount" }, -- Tamed Mauler Harness
+				{ 325, 186642, "mount" }, -- Vengeance's Reins
+				{ 326, 186643, "mount" }, -- Reins of the Wanderer
 				{ 327, 186644, "mount" }, -- Beryl Shardhide
 				{ 328, 186645, "mount" }, -- Crimson Shardhide
 				{ 329, 186646, "mount" }, -- Darkmaul
@@ -1212,13 +1335,8 @@ data["MOUNTS"]             = {
 				{ 525, 190580, "mount" }, -- Heartbond Lupine
 				{ 526, 190581, "mount" }, -- Nether-Gorged Greatwyrm
 				{ 527, 190765, "mount" }, -- Iska's Mawrat Leash
-				{ 528, 190766, "mount" }, -- Spectral Mawrat's Tail
-				{ 529, 190768, "mount" }, -- Fractal Cypher of the Zereth Overseer
-				{ 530, 190771, "mount" }, -- Fractal Cypher of the Carcinized Zerethsteed
-				{ 601, 191123, "mount" }, -- Grimhowl's Face Axe
-				{ 602, 191290, "mount" }, -- Eternal Gladiator's Soul Eater
-				{ 603, 191566, "mount" }, -- Elusive Emerald Hawkstrider
-				{ 604, 192557, "mount" }, -- Restoration Deathwalker
+				{ 528, 190768, "mount" }, -- Fractal Cypher of the Zereth Overseer
+				{ 529, 190771, "mount" }, -- Fractal Cypher of the Carcinized Zerethsteed
 			},
 		},
 		{ -- Achievements
@@ -1751,7 +1869,7 @@ data["MOUNTS"]             = {
 				{ 21, 116773, "mount" }, -- Swift Breezestrider
 				{ 22, 116792, "mount" }, -- Sunhide Gronnling
 				{ 23, 116794, "mount" }, -- Garn Nighthowl
-				{ 25, 119180 }, -- Goren \"Log\" Roller
+				{ 25, 119180 }, -- Goren "Log" Roller
 				{ 26, 113543 }, -- Spirit of Shinri
 			},
 			[MOP_DIFF] = {
@@ -1956,9 +2074,6 @@ data["MOUNTS"]             = {
 				{ 114, 49096,  "mount" }, -- Crusader's White Warhorse
 				{ 115, 49098,  "mount" }, -- Crusader's Black Warhorse
 				{ 116, 76755,  "mount" }, -- Tyrael's Charger
-				-- { 118, 33182 }, -- Swift Flying Broom
-				-- { 119, 33184 }, -- Swift Magic Broom
-				-- { 120, 33183 }, -- Old Magic Broom
 				{ 117, 116788, "ac9496" }, -- Warlord's Deathwheel
 			},
 		},
@@ -3039,17 +3154,17 @@ data["TABARDS"]            = {
 			name = EXPANSION_NAME10,
 			CoinTexture = "Reputation",
 			[ALLIANCE_DIFF] = {
-				{ 1,   218352 },                                    -- Expeditionary Tabard
-				{ 2,   224166 },                                    -- Awakened Tabard
-				{ 3,   218349 },                                    -- Tabard of the Severed Threads
-				{ 4,   218346 },                                    -- Honorary Councilmember's Tabard
-				{ 5,   218343 },                                    -- Tabard of the Assembly
-				{ 6,   225946 },                                    -- Slightly Singed Arathi Tabard
-				{ 7,   225999 },                                    -- Earthen Adventurer's Tabard
-				{ 8,   226016 },                                    -- Darkened Tabard of the Arathi
-				{ 9,   233932 },                                    -- Awakened Ambassador's Tabard
-				{ 10,  233928 },                                    -- Adventurous Lamplighter's Tabard
-				{ 11,  226220 },                                    -- Machine-Warden's Tabard
+				{ 1,   218352 },                                     -- Expeditionary Tabard
+				{ 2,   224166 },                                     -- Awakened Tabard
+				{ 3,   218349 },                                     -- Tabard of the Severed Threads
+				{ 4,   218346 },                                     -- Honorary Councilmember's Tabard
+				{ 5,   218343 },                                     -- Tabard of the Assembly
+				{ 6,   225946 },                                     -- Slightly Singed Arathi Tabard
+				{ 7,   225999 },                                     -- Earthen Adventurer's Tabard
+				{ 8,   226016 },                                     -- Darkened Tabard of the Arathi
+				{ 9,   233932 },                                     -- Awakened Ambassador's Tabard
+				{ 10,  233928 },                                     -- Adventurous Lamplighter's Tabard
+				{ 11,  226220 },                                     -- Machine-Warden's Tabard
 				{ 12,  225977, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Camo Tabard
 				{ 13,  226369, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Faded Tabard
 				{ 14,  229999, [PRICE_EXTRA_ITTYPE] = "tender:100" }, -- Classic Cloudy Tabard
@@ -3064,12 +3179,16 @@ data["TABARDS"]            = {
 				{ 23,  234907, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Tattered Iron Horde Tabard
 				{ 24,  234906, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Auchenai Tabard
 				{ 25,  223616, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Forged Gladiator's Tabard
-				{ 26,  228908 },                                    -- Bot Wrangler's Violet Apron
-				{ 27,  228909 },                                    -- Bot Wrangler's Crimson Apron
-				{ 28,  228762 },                                    -- Classic Lively Tabard
-				{ 29,  228761 },                                    -- Classic Brick Tabard
-				{ 30,  228763 },                                    -- Classic Crimson Tabard
-				{ 101, 228764 },                                    -- Classic Sunny Tabard
+				{ 26,  228908 },                                     -- Bot Wrangler's Violet Apron
+				{ 27,  228909 },                                     -- Bot Wrangler's Crimson Apron
+				{ 28,  228762 },                                     -- Classic Lively Tabard
+				{ 29,  228761 },                                     -- Classic Brick Tabard
+				{ 30,  228763 },                                     -- Classic Crimson Tabard
+				{ 101, 228764 },                                     -- Classic Sunny Tabard
+				{ 102, 231526, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Bilgewater Undermine Tabard
+				{ 103, 231528, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Blackwater Undermine Tabard
+				{ 104, 231527, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Steamwheedle Undermine Tabard
+				{ 105, 231542, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Venture Co. Undermine Tabard
 				-- { 1, 233929 }, -- Sacred Tabard of the Priori (currently unobtainable)
 				-- { 1, 224169 }, -- Stonebound Tabard (currently unobtainable)
 			},
@@ -3460,646 +3579,403 @@ data["TIERSETS"]           = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = SET_ITTYPE,
 	items = {
-		{ -- Tier 1 Sets
-			name = format(AL["Tier %d Sets"], 1).." ("..EXPANSION_NAME0..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier1:druid:n" },
-				{ 3,  "Tier1:hunter:n" },
-				{ 5,  "Tier1:mage:n" },
-				{ 7,  "Tier1:paladin:n" },
-				{ 9,  "Tier1:priest:n" },
-				{ 16, "Tier1:rogue:n" },
-				{ 18, "Tier1:shaman:n" },
-				{ 20, "Tier1:warlock:n" },
-				{ 22, "Tier1:warrior:n" },
-			},
-		},
-		{ -- Tier 2 Sets
-			name = format(AL["Tier %d Sets"], 2).." ("..EXPANSION_NAME0..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier2:druid:n" },
-				{ 3,  "Tier2:hunter:n" },
-				{ 5,  "Tier2:mage:n" },
-				{ 7,  "Tier2:paladin:n" },
-				{ 9,  "Tier2:priest:n" },
-				{ 16, "Tier2:rogue:n" },
-				{ 18, "Tier2:shaman:n" },
-				{ 20, "Tier2:warlock:n" },
-				{ 22, "Tier2:warrior:n" },
-			},
-		},
-		{ -- Tier 3 Sets
-			name = format(AL["Tier %d Sets"], 3).." ("..EXPANSION_NAME0..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier3:druid:n" },
-				{ 3,  "Tier3:hunter:n" },
-				{ 5,  "Tier3:mage:n" },
-				{ 7,  "Tier3:paladin:n" },
-				{ 9,  "Tier3:priest:n" },
-				{ 16, "Tier3:rogue:n" },
-				{ 18, "Tier3:shaman:n" },
-				{ 20, "Tier3:warlock:n" },
-				{ 22, "Tier3:warrior:n" },
-			},
-		},
-		{ -- Tier 4 Sets
-			name = format(AL["Tier %d Sets"], 4).." ("..EXPANSION_NAME1..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier4:druidbalance:n" },
-				{ 2,  "Tier4:druidferal:n" },
-				{ 3,  "Tier4:druidrestoration:n" },
-				{ 5,  "Tier4:hunter:n" },
-				{ 7,  "Tier4:mage:n" },
-				{ 9,  "Tier4:paladinholy:n" },
-				{ 10, "Tier4:paladinprotection:n" },
-				{ 11, "Tier4:paladinretribution:n" },
-				{ 13, "Tier4:priestheal:n" },
-				{ 14, "Tier4:priestshadow:n" },
-				{ 16, "Tier4:rogue:n" },
-				{ 18, "Tier4:shamanelemental:n" },
-				{ 19, "Tier4:shamanenhancement:n" },
-				{ 20, "Tier4:shamanrestoration:n" },
-				{ 22, "Tier4:warlock:n" },
-				{ 24, "Tier4:warriordps:n" },
-				{ 25, "Tier4:warriorprotection:n" },
-			},
-		},
-		{ -- Tier 5 Sets
-			name = format(AL["Tier %d Sets"], 5).." ("..EXPANSION_NAME1..")",
-			[P25_DIFF] = {
-				{ 1,  "Tier5:druidbalance:p25" },
-				{ 2,  "Tier5:druidferal:p25" },
-				{ 3,  "Tier5:druidrestoration:p25" },
-				{ 5,  "Tier5:hunter:p25" },
-				{ 7,  "Tier5:mage:p25" },
-				{ 9,  "Tier5:paladinholy:p25" },
-				{ 10, "Tier5:paladinprotection:p25" },
-				{ 11, "Tier5:paladinretribution:p25" },
-				{ 13, "Tier5:priestheal:p25" },
-				{ 14, "Tier5:priestshadow:p25" },
-				{ 16, "Tier5:rogue:p25" },
-				{ 18, "Tier5:shamanelemental:p25" },
-				{ 19, "Tier5:shamanenhancement:p25" },
-				{ 20, "Tier5:shamanrestoration:p25" },
-				{ 22, "Tier5:warlock:p25" },
-				{ 24, "Tier5:warriordps:p25" },
-				{ 25, "Tier5:warriorprotection:p25" },
-			},
-		},
-		{ -- Tier 6 Sets
-			name = format(AL["Tier %d Sets"], 6).." ("..EXPANSION_NAME1..")",
-			[P25_DIFF] = {
-				{ 1,  "Tier6:druidbalance:p25" },
-				{ 2,  "Tier6:druidferal:p25" },
-				{ 3,  "Tier6:druidrestoration:p25" },
-				{ 5,  "Tier6:hunter:p25" },
-				{ 7,  "Tier6:mage:p25" },
-				{ 9,  "Tier6:paladinholy:p25" },
-				{ 10, "Tier6:paladinprotection:p25" },
-				{ 11, "Tier6:paladinretribution:p25" },
-				{ 13, "Tier6:priestheal:p25" },
-				{ 14, "Tier6:priestshadow:p25" },
-				{ 16, "Tier6:rogue:p25" },
-				{ 18, "Tier6:shamanelemental:p25" },
-				{ 19, "Tier6:shamanenhancement:p25" },
-				{ 20, "Tier6:shamanrestoration:p25" },
-				{ 22, "Tier6:warlock:p25" },
-				{ 24, "Tier6:warriordps:p25" },
-				{ 25, "Tier6:warriorprotection:p25" },
-			},
-		},
-		{ -- Tier 7 Sets
-			name = format(AL["Tier %d Sets"], 7).." ("..EXPANSION_NAME2..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier7:deathknightblood:n" },
-				{ 2,  "Tier7:deathknightdps:n" },
-				{ 4,  "Tier7:druidbalance:n" },
-				{ 5,  "Tier7:druidferal:n" },
-				{ 6,  "Tier7:druidrestoration:n" },
-				{ 8,  "Tier7:hunter:n" },
-				{ 10, "Tier7:mage:n" },
-				{ 12, "Tier7:paladinholy:n" },
-				{ 13, "Tier7:paladinprotection:n" },
-				{ 14, "Tier7:paladinretribution:n" },
-				{ 16, "Tier7:priestheal:n" },
-				{ 17, "Tier7:priestshadow:n" },
-				{ 19, "Tier7:rogue:n" },
-				{ 21, "Tier7:shamanelemental:n" },
-				{ 22, "Tier7:shamanenhancement:n" },
-				{ 23, "Tier7:shamanrestoration:n" },
-				{ 25, "Tier7:warlock:n" },
-				{ 27, "Tier7:warriordps:n" },
-				{ 28, "Tier7:warriorprotection:n" },
-			},
-			[P25_DIFF] = {
-				{ 1,  "Tier7:deathknightblood:p25" },
-				{ 2,  "Tier7:deathknightdps:p25" },
-				{ 4,  "Tier7:druidbalance:p25" },
-				{ 5,  "Tier7:druidferal:p25" },
-				{ 6,  "Tier7:druidrestoration:p25" },
-				{ 8,  "Tier7:hunter:p25" },
-				{ 10, "Tier7:mage:p25" },
-				{ 12, "Tier7:paladinholy:p25" },
-				{ 13, "Tier7:paladinprotection:p25" },
-				{ 14, "Tier7:paladinretribution:p25" },
-				{ 16, "Tier7:priestheal:p25" },
-				{ 17, "Tier7:priestshadow:p25" },
-				{ 19, "Tier7:rogue:p25" },
-				{ 21, "Tier7:shamanelemental:p25" },
-				{ 22, "Tier7:shamanenhancement:p25" },
-				{ 23, "Tier7:shamanrestoration:p25" },
-				{ 25, "Tier7:warlock:p25" },
-				{ 27, "Tier7:warriordps:p25" },
-				{ 28, "Tier7:warriorprotection:p25" },
-			},
-		},
-		{ -- Tier 8 Sets
-			name = format(AL["Tier %d Sets"], 8).." ("..EXPANSION_NAME2..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier8:deathknightblood:n" },
-				{ 2,  "Tier8:deathknightdps:n" },
-				{ 4,  "Tier8:druidbalance:n" },
-				{ 5,  "Tier8:druidferal:n" },
-				{ 6,  "Tier8:druidrestoration:n" },
-				{ 8,  "Tier8:hunter:n" },
-				{ 10, "Tier8:mage:n" },
-				{ 12, "Tier8:paladinholy:n" },
-				{ 13, "Tier8:paladinprotection:n" },
-				{ 14, "Tier8:paladinretribution:n" },
-				{ 16, "Tier8:priestheal:n" },
-				{ 17, "Tier8:priestshadow:n" },
-				{ 19, "Tier8:rogue:n" },
-				{ 21, "Tier8:shamanelemental:n" },
-				{ 22, "Tier8:shamanenhancement:n" },
-				{ 23, "Tier8:shamanrestoration:n" },
-				{ 25, "Tier8:warlock:n" },
-				{ 27, "Tier8:warriordps:n" },
-				{ 28, "Tier8:warriorprotection:n" },
-			},
-			[P25_DIFF] = {
-				{ 1,  "Tier8:deathknightblood:p25" },
-				{ 2,  "Tier8:deathknightdps:p25" },
-				{ 4,  "Tier8:druidbalance:p25" },
-				{ 5,  "Tier8:druidferal:p25" },
-				{ 6,  "Tier8:druidrestoration:p25" },
-				{ 8,  "Tier8:hunter:p25" },
-				{ 10, "Tier8:mage:p25" },
-				{ 12, "Tier8:paladinholy:p25" },
-				{ 13, "Tier8:paladinprotection:p25" },
-				{ 14, "Tier8:paladinretribution:p25" },
-				{ 16, "Tier8:priestheal:p25" },
-				{ 17, "Tier8:priestshadow:p25" },
-				{ 19, "Tier8:rogue:p25" },
-				{ 21, "Tier8:shamanelemental:p25" },
-				{ 22, "Tier8:shamanenhancement:p25" },
-				{ 23, "Tier8:shamanrestoration:p25" },
-				{ 25, "Tier8:warlock:p25" },
-				{ 27, "Tier8:warriordps:p25" },
-				{ 28, "Tier8:warriorprotection:p25" },
-			},
-		},
-		{ -- Tier 9 Sets
-			name = format(AL["Tier %d Sets"], 9).." ("..EXPANSION_NAME2..")",
-			[NORMAL_DIFF] = {
-				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:n",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:n" },
-				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:n",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:n" },
-				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:n",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:n" },
-				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:n" },
-				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:n",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:n" },
-				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:n",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:n" },
-				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:n",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:n" },
-				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:n",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:n" },
-				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:n" },
-				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:n", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:n" },
-				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:n" },
-				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:n",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:n" },
-				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:n",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:n" },
-				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:n",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:n" },
-				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:n" },
-				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:n" },
-				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:n",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:n" },
-				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:n" },
-				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:n" },
-			},
-			[P25_DIFF] = {
-				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:p25",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:p25" },
-				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:p25",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:p25" },
-				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:p25",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:p25" },
-				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:p25" },
-				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:p25",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:p25" },
-				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:p25",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:p25" },
-				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:p25",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:p25" },
-				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:p25",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:p25" },
-				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:p25" },
-				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:p25", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:p25" },
-				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:p25" },
-				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:p25",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:p25" },
-				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:p25",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:p25" },
-				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:p25",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:p25" },
-				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:p25" },
-				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:p25" },
-				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:p25",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:p25" },
-				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:p25" },
-				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:p25" },
-			},
-			[P25H_DIFF] = {
-				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:p25h",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:p25h" },
-				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:p25h",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:p25h" },
-				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:p25h",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:p25h" },
-				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:p25h" },
-				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:p25h",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:p25h" },
-				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:p25h",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:p25h" },
-				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:p25h",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:p25h" },
-				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:p25h",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:p25h" },
-				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:p25h" },
-				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:p25h", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:p25h" },
-				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:p25h" },
-				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:p25h",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:p25h" },
-				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:p25h",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:p25h" },
-				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:p25h",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:p25h" },
-				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:p25h" },
-				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:p25h" },
-				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:p25h",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:p25h" },
-				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:p25h" },
-				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:p25h" },
-			},
-		},
-		{ -- Tier 10 Sets
-			name = format(AL["Tier %d Sets"], 10).." ("..EXPANSION_NAME2..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier10:deathknightblood:n" },
-				{ 2,  "Tier10:deathknightdps:n" },
-				{ 4,  "Tier10:druidbalance:n" },
-				{ 5,  "Tier10:druidferal:n" },
-				{ 6,  "Tier10:druidrestoration:n" },
-				{ 8,  "Tier10:hunter:n" },
-				{ 10, "Tier10:mage:n" },
-				{ 12, "Tier10:paladinholy:n" },
-				{ 13, "Tier10:paladinprotection:n" },
-				{ 14, "Tier10:paladinretribution:n" },
-				{ 16, "Tier10:priestheal:n" },
-				{ 17, "Tier10:priestshadow:n" },
-				{ 19, "Tier10:rogue:n" },
-				{ 21, "Tier10:shamanelemental:n" },
-				{ 22, "Tier10:shamanenhancement:n" },
-				{ 23, "Tier10:shamanrestoration:n" },
-				{ 25, "Tier10:warlock:n" },
-				{ 27, "Tier10:warriordps:n" },
-				{ 28, "Tier10:warriorprotection:n" },
-			},
-			[P25_DIFF] = {
-				{ 1,  "Tier10:deathknightblood:p25" },
-				{ 2,  "Tier10:deathknightdps:p25" },
-				{ 4,  "Tier10:druidbalance:p25" },
-				{ 5,  "Tier10:druidferal:p25" },
-				{ 6,  "Tier10:druidrestoration:p25" },
-				{ 8,  "Tier10:hunter:p25" },
-				{ 10, "Tier10:mage:p25" },
-				{ 12, "Tier10:paladinholy:p25" },
-				{ 13, "Tier10:paladinprotection:p25" },
-				{ 14, "Tier10:paladinretribution:p25" },
-				{ 16, "Tier10:priestheal:p25" },
-				{ 17, "Tier10:priestshadow:p25" },
-				{ 19, "Tier10:rogue:p25" },
-				{ 21, "Tier10:shamanelemental:p25" },
-				{ 22, "Tier10:shamanenhancement:p25" },
-				{ 23, "Tier10:shamanrestoration:p25" },
-				{ 25, "Tier10:warlock:p25" },
-				{ 27, "Tier10:warriordps:p25" },
-				{ 28, "Tier10:warriorprotection:p25" },
-			},
-			[P25H_DIFF] = {
-				{ 1,  "Tier10:deathknightblood:p25h" },
-				{ 2,  "Tier10:deathknightdps:p25h" },
-				{ 4,  "Tier10:druidbalance:p25h" },
-				{ 5,  "Tier10:druidferal:p25h" },
-				{ 6,  "Tier10:druidrestoration:p25h" },
-				{ 8,  "Tier10:hunter:p25h" },
-				{ 10, "Tier10:mage:p25h" },
-				{ 12, "Tier10:paladinholy:p25h" },
-				{ 13, "Tier10:paladinprotection:p25h" },
-				{ 14, "Tier10:paladinretribution:p25h" },
-				{ 16, "Tier10:priestheal:p25h" },
-				{ 17, "Tier10:priestshadow:p25h" },
-				{ 19, "Tier10:rogue:p25h" },
-				{ 21, "Tier10:shamanelemental:p25h" },
-				{ 22, "Tier10:shamanenhancement:p25h" },
-				{ 23, "Tier10:shamanrestoration:p25h" },
-				{ 25, "Tier10:warlock:p25h" },
-				{ 27, "Tier10:warriordps:p25h" },
-				{ 28, "Tier10:warriorprotection:p25h" },
-			},
-		},
-		{ -- Tier 11 Sets
-			name = format(AL["Tier %d Sets"], 11).." ("..EXPANSION_NAME3..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier11:deathknightblood:n" },
-				{ 2,  "Tier11:deathknightdps:n" },
-				{ 4,  "Tier11:druidbalance:n" },
-				{ 5,  "Tier11:druidferal:n" },
-				{ 6,  "Tier11:druidrestoration:n" },
-				{ 8,  "Tier11:hunter:n" },
-				{ 10, "Tier11:mage:n" },
-				{ 12, "Tier11:paladinholy:n" },
-				{ 13, "Tier11:paladinprotection:n" },
-				{ 14, "Tier11:paladinretribution:n" },
-				{ 16, "Tier11:priestheal:n" },
-				{ 17, "Tier11:priestshadow:n" },
-				{ 19, "Tier11:rogue:n" },
-				{ 21, "Tier11:shamanelemental:n" },
-				{ 22, "Tier11:shamanenhancement:n" },
-				{ 23, "Tier11:shamanrestoration:n" },
-				{ 25, "Tier11:warlock:n" },
-				{ 27, "Tier11:warriordps:n" },
-				{ 28, "Tier11:warriorprotection:n" },
-			},
-			[HEROIC_DIFF] = {
-				{ 1,  "Tier11:deathknightblood:h" },
-				{ 2,  "Tier11:deathknightdps:h" },
-				{ 4,  "Tier11:druidbalance:h" },
-				{ 5,  "Tier11:druidferal:h" },
-				{ 6,  "Tier11:druidrestoration:h" },
-				{ 8,  "Tier11:hunter:h" },
-				{ 10, "Tier11:mage:h" },
-				{ 12, "Tier11:paladinholy:h" },
-				{ 13, "Tier11:paladinprotection:h" },
-				{ 14, "Tier11:paladinretribution:h" },
-				{ 16, "Tier11:priestheal:h" },
-				{ 17, "Tier11:priestshadow:h" },
-				{ 19, "Tier11:rogue:h" },
-				{ 21, "Tier11:shamanelemental:h" },
-				{ 22, "Tier11:shamanenhancement:h" },
-				{ 23, "Tier11:shamanrestoration:h" },
-				{ 25, "Tier11:warlock:h" },
-				{ 27, "Tier11:warriordps:h" },
-				{ 28, "Tier11:warriorprotection:h" },
-			},
-		},
-		{ -- Tier 12 Sets
-			name = format(AL["Tier %d Sets"], 12).." ("..EXPANSION_NAME3..")",
-			[NORMAL_DIFF] = {
-				{ 1,  "Tier12:deathknightblood:n" },
-				{ 2,  "Tier12:deathknightdps:n" },
-				{ 4,  "Tier12:druidbalance:n" },
-				{ 5,  "Tier12:druidferal:n" },
-				{ 6,  "Tier12:druidrestoration:n" },
-				{ 8,  "Tier12:hunter:n" },
-				{ 10, "Tier12:mage:n" },
-				{ 12, "Tier12:paladinholy:n" },
-				{ 13, "Tier12:paladinprotection:n" },
-				{ 14, "Tier12:paladinretribution:n" },
-				{ 16, "Tier12:priestheal:n" },
-				{ 17, "Tier12:priestshadow:n" },
-				{ 19, "Tier12:rogue:n" },
-				{ 21, "Tier12:shamanelemental:n" },
-				{ 22, "Tier12:shamanenhancement:n" },
-				{ 23, "Tier12:shamanrestoration:n" },
-				{ 25, "Tier12:warlock:n" },
-				{ 27, "Tier12:warriordps:n" },
-				{ 28, "Tier12:warriorprotection:n" },
-			},
-			[HEROIC_DIFF] = {
-				{ 1,  "Tier12:deathknightblood:h" },
-				{ 2,  "Tier12:deathknightdps:h" },
-				{ 4,  "Tier12:druidbalance:h" },
-				{ 5,  "Tier12:druidferal:h" },
-				{ 6,  "Tier12:druidrestoration:h" },
-				{ 8,  "Tier12:hunter:h" },
-				{ 10, "Tier12:mage:h" },
-				{ 12, "Tier12:paladinholy:h" },
-				{ 13, "Tier12:paladinprotection:h" },
-				{ 14, "Tier12:paladinretribution:h" },
-				{ 16, "Tier12:priestheal:h" },
-				{ 17, "Tier12:priestshadow:h" },
-				{ 19, "Tier12:rogue:h" },
-				{ 21, "Tier12:shamanelemental:h" },
-				{ 22, "Tier12:shamanenhancement:h" },
-				{ 23, "Tier12:shamanrestoration:h" },
-				{ 25, "Tier12:warlock:h" },
-				{ 27, "Tier12:warriordps:h" },
-				{ 28, "Tier12:warriorprotection:h" },
-			},
-		},
-		{ -- Tier 13 Sets
-			name = format(AL["Tier %d Sets"], 13).." ("..EXPANSION_NAME3..")",
+		{ -- Tier 33 Sets
+			name = format(AL["Tier %d Sets"], 33).." ("..EXPANSION_NAME10..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier13:deathknightblood:rf" },
-				{ 2,  "Tier13:deathknightdps:rf" },
-				{ 4,  "Tier13:druidbalance:rf" },
-				{ 5,  "Tier13:druidferal:rf" },
-				{ 6,  "Tier13:druidrestoration:rf" },
-				{ 8,  "Tier13:hunter:rf" },
-				{ 10, "Tier13:mage:rf" },
-				{ 12, "Tier13:paladinholy:rf" },
-				{ 13, "Tier13:paladinprotection:rf" },
-				{ 14, "Tier13:paladinretribution:rf" },
-				{ 16, "Tier13:priestheal:rf" },
-				{ 17, "Tier13:priestshadow:rf" },
-				{ 19, "Tier13:rogue:rf" },
-				{ 21, "Tier13:shamanelemental:rf" },
-				{ 22, "Tier13:shamanenhancement:rf" },
-				{ 23, "Tier13:shamanrestoration:rf" },
-				{ 25, "Tier13:warlock:rf" },
-				{ 27, "Tier13:warriordps:rf" },
-				{ 28, "Tier13:warriorprotection:rf" },
+				{ 1,  "Tier33:deathknight:LFRWithDifficulty" },
+				{ 3,  "Tier33:demonhunter:LFRWithDifficulty" },
+				{ 5,  "Tier33:druid:LFRWithDifficulty" },
+				{ 7,  "Tier33:evoker:LFRWithDifficulty" },
+				{ 9,  "Tier33:hunter:LFRWithDifficulty" },
+				{ 11, "Tier33:mage:LFRWithDifficulty" },
+				{ 13, "Tier33:monk:LFRWithDifficulty" },
+				{ 15, "Tier33:rogue:LFRWithDifficulty" },
+				{ 16, "Tier33:paladin:LFRWithDifficulty" },
+				{ 18, "Tier33:priest:LFRWithDifficulty" },
+				{ 20, "Tier33:shaman:LFRWithDifficulty" },
+				{ 22, "Tier33:warlock:LFRWithDifficulty" },
+				{ 24, "Tier33:warrior:LFRWithDifficulty" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier13:deathknightblood:n" },
-				{ 2,  "Tier13:deathknightdps:n" },
-				{ 4,  "Tier13:druidbalance:n" },
-				{ 5,  "Tier13:druidferal:n" },
-				{ 6,  "Tier13:druidrestoration:n" },
-				{ 8,  "Tier13:hunter:n" },
-				{ 10, "Tier13:mage:n" },
-				{ 12, "Tier13:paladinholy:n" },
-				{ 13, "Tier13:paladinprotection:n" },
-				{ 14, "Tier13:paladinretribution:n" },
-				{ 16, "Tier13:priestheal:n" },
-				{ 17, "Tier13:priestshadow:n" },
-				{ 19, "Tier13:rogue:n" },
-				{ 21, "Tier13:shamanelemental:n" },
-				{ 22, "Tier13:shamanenhancement:n" },
-				{ 23, "Tier13:shamanrestoration:n" },
-				{ 25, "Tier13:warlock:n" },
-				{ 27, "Tier13:warriordps:n" },
-				{ 28, "Tier13:warriorprotection:n" },
+				{ 1,  "Tier33:deathknight:NormalWithDifficulty" },
+				{ 3,  "Tier33:demonhunter:NormalWithDifficulty" },
+				{ 5,  "Tier33:druid:NormalWithDifficulty" },
+				{ 7,  "Tier33:evoker:NormalWithDifficulty" },
+				{ 9,  "Tier33:hunter:NormalWithDifficulty" },
+				{ 11, "Tier33:mage:NormalWithDifficulty" },
+				{ 13, "Tier33:monk:NormalWithDifficulty" },
+				{ 15, "Tier33:rogue:NormalWithDifficulty" },
+				{ 16, "Tier33:paladin:NormalWithDifficulty" },
+				{ 18, "Tier33:priest:NormalWithDifficulty" },
+				{ 20, "Tier33:shaman:NormalWithDifficulty" },
+				{ 22, "Tier33:warlock:NormalWithDifficulty" },
+				{ 24, "Tier33:warrior:NormalWithDifficulty" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier13:deathknightblood:h" },
-				{ 2,  "Tier13:deathknightdps:h" },
-				{ 4,  "Tier13:druidbalance:h" },
-				{ 5,  "Tier13:druidferal:h" },
-				{ 6,  "Tier13:druidrestoration:h" },
-				{ 8,  "Tier13:hunter:h" },
-				{ 10, "Tier13:mage:h" },
-				{ 12, "Tier13:paladinholy:h" },
-				{ 13, "Tier13:paladinprotection:h" },
-				{ 14, "Tier13:paladinretribution:h" },
-				{ 16, "Tier13:priestheal:h" },
-				{ 17, "Tier13:priestshadow:h" },
-				{ 19, "Tier13:rogue:h" },
-				{ 21, "Tier13:shamanelemental:h" },
-				{ 22, "Tier13:shamanenhancement:h" },
-				{ 23, "Tier13:shamanrestoration:h" },
-				{ 25, "Tier13:warlock:h" },
-				{ 27, "Tier13:warriordps:h" },
-				{ 28, "Tier13:warriorprotection:h" },
+				{ 1,  "Tier33:deathknight:HeroicWithDifficulty" },
+				{ 3,  "Tier33:demonhunter:HeroicWithDifficulty" },
+				{ 5,  "Tier33:druid:HeroicWithDifficulty" },
+				{ 7,  "Tier33:evoker:HeroicWithDifficulty" },
+				{ 9,  "Tier33:hunter:HeroicWithDifficulty" },
+				{ 11, "Tier33:mage:HeroicWithDifficulty" },
+				{ 13, "Tier33:monk:HeroicWithDifficulty" },
+				{ 15, "Tier33:rogue:HeroicWithDifficulty" },
+				{ 16, "Tier33:paladin:HeroicWithDifficulty" },
+				{ 18, "Tier33:priest:HeroicWithDifficulty" },
+				{ 20, "Tier33:shaman:HeroicWithDifficulty" },
+				{ 22, "Tier33:warlock:HeroicWithDifficulty" },
+				{ 24, "Tier33:warrior:HeroicWithDifficulty" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier33:deathknight:MythicWithDifficulty" },
+				{ 3,  "Tier33:demonhunter:MythicWithDifficulty" },
+				{ 5,  "Tier33:druid:MythicWithDifficulty" },
+				{ 7,  "Tier33:evoker:MythicWithDifficulty" },
+				{ 9,  "Tier33:hunter:MythicWithDifficulty" },
+				{ 11, "Tier33:mage:MythicWithDifficulty" },
+				{ 13, "Tier33:monk:MythicWithDifficulty" },
+				{ 15, "Tier33:rogue:MythicWithDifficulty" },
+				{ 16, "Tier33:paladin:MythicWithDifficulty" },
+				{ 18, "Tier33:priest:MythicWithDifficulty" },
+				{ 20, "Tier33:shaman:MythicWithDifficulty" },
+				{ 22, "Tier33:warlock:MythicWithDifficulty" },
+				{ 24, "Tier33:warrior:MythicWithDifficulty" },
 			},
 		},
-		{ -- Tier 14 Sets
-			name = format(AL["Tier %d Sets"], 14).." ("..EXPANSION_NAME4..")",
+		{ -- Tier 32 Sets
+			name = format(AL["Tier %d Sets"], 32).." ("..EXPANSION_NAME10..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier14:hunter:rf" },
-				{ 2,  "Tier14:mage:rf" },
-				{ 3,  "Tier14:rogue:rf" },
-				{ 4,  "Tier14:warlock:rf" },
-				{ 6,  "Tier14:deathknightblood:rf" },
-				{ 7,  "Tier14:deathknightdps:rf" },
-				{ 9,  "Tier14:druidbalance:rf" },
-				{ 10, "Tier14:druidferal:rf" },
-				{ 11, "Tier14:druidguardian:rf" },
-				{ 12, "Tier14:druidrestoration:rf" },
-				{ 14, "Tier14:priestheal:rf" },
-				{ 15, "Tier14:priestshadow:rf" },
-				{ 16, "Tier14:monkbrewmaster:rf" },
-				{ 17, "Tier14:monkmistweaver:rf" },
-				{ 18, "Tier14:monkwindwalker:rf" },
-				{ 20, "Tier14:paladinholy:rf" },
-				{ 21, "Tier14:paladinprotection:rf" },
-				{ 22, "Tier14:paladinretribution:rf" },
-				{ 24, "Tier14:shamanelemental:rf" },
-				{ 25, "Tier14:shamanenhancement:rf" },
-				{ 26, "Tier14:shamanrestoration:rf" },
-				{ 28, "Tier14:warriordps:rf" },
-				{ 29, "Tier14:warriorprotection:rf" },
+				{ 1,  "Tier32:deathknight:LFRWithDifficulty" },
+				{ 3,  "Tier32:demonhunter:LFRWithDifficulty" },
+				{ 5,  "Tier32:druid:LFRWithDifficulty" },
+				{ 7,  "Tier32:evoker:LFRWithDifficulty" },
+				{ 9,  "Tier32:hunter:LFRWithDifficulty" },
+				{ 11, "Tier32:mage:LFRWithDifficulty" },
+				{ 13, "Tier32:monk:LFRWithDifficulty" },
+				{ 15, "Tier32:rogue:LFRWithDifficulty" },
+				{ 16, "Tier32:paladin:LFRWithDifficulty" },
+				{ 18, "Tier32:priest:LFRWithDifficulty" },
+				{ 20, "Tier32:shaman:LFRWithDifficulty" },
+				{ 22, "Tier32:warlock:LFRWithDifficulty" },
+				{ 24, "Tier32:warrior:LFRWithDifficulty" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier14:hunter:n" },
-				{ 2,  "Tier14:mage:n" },
-				{ 3,  "Tier14:rogue:n" },
-				{ 4,  "Tier14:warlock:n" },
-				{ 6,  "Tier14:deathknightblood:n" },
-				{ 7,  "Tier14:deathknightdps:n" },
-				{ 9,  "Tier14:druidbalance:n" },
-				{ 10, "Tier14:druidferal:n" },
-				{ 11, "Tier14:druidguardian:n" },
-				{ 12, "Tier14:druidrestoration:n" },
-				{ 14, "Tier14:priestheal:n" },
-				{ 15, "Tier14:priestshadow:n" },
-				{ 16, "Tier14:monkbrewmaster:n" },
-				{ 17, "Tier14:monkmistweaver:n" },
-				{ 18, "Tier14:monkwindwalker:n" },
-				{ 20, "Tier14:paladinholy:n" },
-				{ 21, "Tier14:paladinprotection:n" },
-				{ 22, "Tier14:paladinretribution:n" },
-				{ 24, "Tier14:shamanelemental:n" },
-				{ 25, "Tier14:shamanenhancement:n" },
-				{ 26, "Tier14:shamanrestoration:n" },
-				{ 28, "Tier14:warriordps:n" },
-				{ 29, "Tier14:warriorprotection:n" },
+				{ 1,  "Tier32:deathknight:NormalWithDifficulty" },
+				{ 3,  "Tier32:demonhunter:NormalWithDifficulty" },
+				{ 5,  "Tier32:druid:NormalWithDifficulty" },
+				{ 7,  "Tier32:evoker:NormalWithDifficulty" },
+				{ 9,  "Tier32:hunter:NormalWithDifficulty" },
+				{ 11, "Tier32:mage:NormalWithDifficulty" },
+				{ 13, "Tier32:monk:NormalWithDifficulty" },
+				{ 15, "Tier32:rogue:NormalWithDifficulty" },
+				{ 16, "Tier32:paladin:NormalWithDifficulty" },
+				{ 18, "Tier32:priest:NormalWithDifficulty" },
+				{ 20, "Tier32:shaman:NormalWithDifficulty" },
+				{ 22, "Tier32:warlock:NormalWithDifficulty" },
+				{ 24, "Tier32:warrior:NormalWithDifficulty" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier14:hunter:h" },
-				{ 2,  "Tier14:mage:h" },
-				{ 3,  "Tier14:rogue:h" },
-				{ 4,  "Tier14:warlock:h" },
-				{ 6,  "Tier14:deathknightblood:h" },
-				{ 7,  "Tier14:deathknightdps:h" },
-				{ 9,  "Tier14:druidbalance:h" },
-				{ 10, "Tier14:druidferal:h" },
-				{ 11, "Tier14:druidguardian:h" },
-				{ 12, "Tier14:druidrestoration:h" },
-				{ 14, "Tier14:priestheal:h" },
-				{ 15, "Tier14:priestshadow:h" },
-				{ 16, "Tier14:monkbrewmaster:h" },
-				{ 17, "Tier14:monkmistweaver:h" },
-				{ 18, "Tier14:monkwindwalker:h" },
-				{ 20, "Tier14:paladinholy:h" },
-				{ 21, "Tier14:paladinprotection:h" },
-				{ 22, "Tier14:paladinretribution:h" },
-				{ 24, "Tier14:shamanelemental:h" },
-				{ 25, "Tier14:shamanenhancement:h" },
-				{ 26, "Tier14:shamanrestoration:h" },
-				{ 28, "Tier14:warriordps:h" },
-				{ 29, "Tier14:warriorprotection:h" },
+				{ 1,  "Tier32:deathknight:HeroicWithDifficulty" },
+				{ 3,  "Tier32:demonhunter:HeroicWithDifficulty" },
+				{ 5,  "Tier32:druid:HeroicWithDifficulty" },
+				{ 7,  "Tier32:evoker:HeroicWithDifficulty" },
+				{ 9,  "Tier32:hunter:HeroicWithDifficulty" },
+				{ 11, "Tier32:mage:HeroicWithDifficulty" },
+				{ 13, "Tier32:monk:HeroicWithDifficulty" },
+				{ 15, "Tier32:rogue:HeroicWithDifficulty" },
+				{ 16, "Tier32:paladin:HeroicWithDifficulty" },
+				{ 18, "Tier32:priest:HeroicWithDifficulty" },
+				{ 20, "Tier32:shaman:HeroicWithDifficulty" },
+				{ 22, "Tier32:warlock:HeroicWithDifficulty" },
+				{ 24, "Tier32:warrior:HeroicWithDifficulty" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier32:deathknight:MythicWithDifficulty" },
+				{ 3,  "Tier32:demonhunter:MythicWithDifficulty" },
+				{ 5,  "Tier32:druid:MythicWithDifficulty" },
+				{ 7,  "Tier32:evoker:MythicWithDifficulty" },
+				{ 9,  "Tier32:hunter:MythicWithDifficulty" },
+				{ 11, "Tier32:mage:MythicWithDifficulty" },
+				{ 13, "Tier32:monk:MythicWithDifficulty" },
+				{ 15, "Tier32:rogue:MythicWithDifficulty" },
+				{ 16, "Tier32:paladin:MythicWithDifficulty" },
+				{ 18, "Tier32:priest:MythicWithDifficulty" },
+				{ 20, "Tier32:shaman:MythicWithDifficulty" },
+				{ 22, "Tier32:warlock:MythicWithDifficulty" },
+				{ 24, "Tier32:warrior:MythicWithDifficulty" },
 			},
 		},
-		{ -- Tier 15 Sets
-			name = format(AL["Tier %d Sets"], 15).." ("..EXPANSION_NAME4..")",
+		{ -- Tier 21 Sets
+			name = format(AL["Tier %d Sets"], 21).." ("..EXPANSION_NAME6..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier15:hunter:rf" },
-				{ 2,  "Tier15:mage:rf" },
-				{ 3,  "Tier15:rogue:rf" },
-				{ 4,  "Tier15:warlock:rf" },
-				{ 6,  "Tier15:deathknightblood:rf" },
-				{ 7,  "Tier15:deathknightdps:rf" },
-				{ 9,  "Tier15:druidbalance:rf" },
-				{ 10, "Tier15:druidferal:rf" },
-				{ 11, "Tier15:druidguardian:rf" },
-				{ 12, "Tier15:druidrestoration:rf" },
-				{ 14, "Tier15:priestheal:rf" },
-				{ 15, "Tier15:priestshadow:rf" },
-				{ 16, "Tier15:monkbrewmaster:rf" },
-				{ 17, "Tier15:monkmistweaver:rf" },
-				{ 18, "Tier15:monkwindwalker:rf" },
-				{ 20, "Tier15:paladinholy:rf" },
-				{ 21, "Tier15:paladinprotection:rf" },
-				{ 22, "Tier15:paladinretribution:rf" },
-				{ 24, "Tier15:shamanelemental:rf" },
-				{ 25, "Tier15:shamanenhancement:rf" },
-				{ 26, "Tier15:shamanrestoration:rf" },
-				{ 28, "Tier15:warriordps:rf" },
-				{ 29, "Tier15:warriorprotection:rf" },
+				{ 1,  "Tier21:deathknight:LFRWithDifficulty" },
+				{ 3,  "Tier21:demonhunter:LFRWithDifficulty" },
+				{ 5,  "Tier21:druid:LFRWithDifficulty" },
+				{ 7,  "Tier21:hunter:LFRWithDifficulty" },
+				{ 9,  "Tier21:mage:LFRWithDifficulty" },
+				{ 11, "Tier21:monk:LFRWithDifficulty" },
+				{ 13, "Tier21:rogue:LFRWithDifficulty" },
+				{ 15, "Tier21:paladin:LFRWithDifficulty" },
+				{ 16, "Tier21:priest:LFRWithDifficulty" },
+				{ 18, "Tier21:shaman:LFRWithDifficulty" },
+				{ 20, "Tier21:warlock:LFRWithDifficulty" },
+				{ 22, "Tier21:warrior:LFRWithDifficulty" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier15:hunter:n" },
-				{ 2,  "Tier15:mage:n" },
-				{ 3,  "Tier15:rogue:n" },
-				{ 4,  "Tier15:warlock:n" },
-				{ 6,  "Tier15:deathknightblood:n" },
-				{ 7,  "Tier15:deathknightdps:n" },
-				{ 9,  "Tier15:druidbalance:n" },
-				{ 10, "Tier15:druidferal:n" },
-				{ 11, "Tier15:druidguardian:n" },
-				{ 12, "Tier15:druidrestoration:n" },
-				{ 14, "Tier15:priestheal:n" },
-				{ 15, "Tier15:priestshadow:n" },
-				{ 16, "Tier15:monkbrewmaster:n" },
-				{ 17, "Tier15:monkmistweaver:n" },
-				{ 18, "Tier15:monkwindwalker:n" },
-				{ 20, "Tier15:paladinholy:n" },
-				{ 21, "Tier15:paladinprotection:n" },
-				{ 22, "Tier15:paladinretribution:n" },
-				{ 24, "Tier15:shamanelemental:n" },
-				{ 25, "Tier15:shamanenhancement:n" },
-				{ 26, "Tier15:shamanrestoration:n" },
-				{ 28, "Tier15:warriordps:n" },
-				{ 29, "Tier15:warriorprotection:n" },
+				{ 1,  "Tier21:deathknight:NormalWithDifficulty" },
+				{ 3,  "Tier21:demonhunter:NormalWithDifficulty" },
+				{ 5,  "Tier21:druid:NormalWithDifficulty" },
+				{ 7,  "Tier21:hunter:NormalWithDifficulty" },
+				{ 9,  "Tier21:mage:NormalWithDifficulty" },
+				{ 11, "Tier21:monk:NormalWithDifficulty" },
+				{ 13, "Tier21:rogue:NormalWithDifficulty" },
+				{ 15, "Tier21:paladin:NormalWithDifficulty" },
+				{ 16, "Tier21:priest:NormalWithDifficulty" },
+				{ 18, "Tier21:shaman:NormalWithDifficulty" },
+				{ 20, "Tier21:warlock:NormalWithDifficulty" },
+				{ 22, "Tier21:warrior:NormalWithDifficulty" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier15:hunter:h" },
-				{ 2,  "Tier15:mage:h" },
-				{ 3,  "Tier15:rogue:h" },
-				{ 4,  "Tier15:warlock:h" },
-				{ 6,  "Tier15:deathknightblood:h" },
-				{ 7,  "Tier15:deathknightdps:h" },
-				{ 9,  "Tier15:druidbalance:h" },
-				{ 10, "Tier15:druidferal:h" },
-				{ 11, "Tier15:druidguardian:h" },
-				{ 12, "Tier15:druidrestoration:h" },
-				{ 14, "Tier15:priestheal:h" },
-				{ 15, "Tier15:priestshadow:h" },
-				{ 16, "Tier15:monkbrewmaster:h" },
-				{ 17, "Tier15:monkmistweaver:h" },
-				{ 18, "Tier15:monkwindwalker:h" },
-				{ 20, "Tier15:paladinholy:h" },
-				{ 21, "Tier15:paladinprotection:h" },
-				{ 22, "Tier15:paladinretribution:h" },
-				{ 24, "Tier15:shamanelemental:h" },
-				{ 25, "Tier15:shamanenhancement:h" },
-				{ 26, "Tier15:shamanrestoration:h" },
-				{ 28, "Tier15:warriordps:h" },
-				{ 29, "Tier15:warriorprotection:h" },
+				{ 1,  "Tier21:deathknight:HeroicWithDifficulty" },
+				{ 3,  "Tier21:demonhunter:HeroicWithDifficulty" },
+				{ 5,  "Tier21:druid:HeroicWithDifficulty" },
+				{ 7,  "Tier21:hunter:HeroicWithDifficulty" },
+				{ 9,  "Tier21:mage:HeroicWithDifficulty" },
+				{ 11, "Tier21:monk:HeroicWithDifficulty" },
+				{ 13, "Tier21:rogue:HeroicWithDifficulty" },
+				{ 15, "Tier21:paladin:HeroicWithDifficulty" },
+				{ 16, "Tier21:priest:HeroicWithDifficulty" },
+				{ 18, "Tier21:shaman:HeroicWithDifficulty" },
+				{ 20, "Tier21:warlock:HeroicWithDifficulty" },
+				{ 22, "Tier21:warrior:HeroicWithDifficulty" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier21:deathknight:MythicWithDifficulty" },
+				{ 3,  "Tier21:demonhunter:MythicWithDifficulty" },
+				{ 5,  "Tier21:druid:MythicWithDifficulty" },
+				{ 7,  "Tier21:hunter:MythicWithDifficulty" },
+				{ 9,  "Tier21:mage:MythicWithDifficulty" },
+				{ 11, "Tier21:monk:MythicWithDifficulty" },
+				{ 13, "Tier21:rogue:MythicWithDifficulty" },
+				{ 15, "Tier21:paladin:MythicWithDifficulty" },
+				{ 16, "Tier21:priest:MythicWithDifficulty" },
+				{ 18, "Tier21:shaman:MythicWithDifficulty" },
+				{ 20, "Tier21:warlock:MythicWithDifficulty" },
+				{ 22, "Tier21:warrior:MythicWithDifficulty" },
+			},
+		},
+		{ -- Tier 20 Sets
+			name = format(AL["Tier %d Sets"], 20).." ("..EXPANSION_NAME6..")",
+			[RF_DIFF] = {
+				{ 1,  "Tier20:deathknight:LFRWithDifficulty" },
+				{ 3,  "Tier20:demonhunter:LFRWithDifficulty" },
+				{ 5,  "Tier20:druid:LFRWithDifficulty" },
+				{ 7,  "Tier20:hunter:LFRWithDifficulty" },
+				{ 9,  "Tier20:mage:LFRWithDifficulty" },
+				{ 11, "Tier20:monk:LFRWithDifficulty" },
+				{ 13, "Tier20:rogue:LFRWithDifficulty" },
+				{ 15, "Tier20:paladin:LFRWithDifficulty" },
+				{ 16, "Tier20:priest:LFRWithDifficulty" },
+				{ 18, "Tier20:shaman:LFRWithDifficulty" },
+				{ 20, "Tier20:warlock:LFRWithDifficulty" },
+				{ 22, "Tier20:warrior:LFRWithDifficulty" },
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier20:deathknight:NormalWithDifficulty" },
+				{ 3,  "Tier20:demonhunter:NormalWithDifficulty" },
+				{ 5,  "Tier20:druid:NormalWithDifficulty" },
+				{ 7,  "Tier20:hunter:NormalWithDifficulty" },
+				{ 9,  "Tier20:mage:NormalWithDifficulty" },
+				{ 11, "Tier20:monk:NormalWithDifficulty" },
+				{ 13, "Tier20:rogue:NormalWithDifficulty" },
+				{ 15, "Tier20:paladin:NormalWithDifficulty" },
+				{ 16, "Tier20:priest:NormalWithDifficulty" },
+				{ 18, "Tier20:shaman:NormalWithDifficulty" },
+				{ 20, "Tier20:warlock:NormalWithDifficulty" },
+				{ 22, "Tier20:warrior:NormalWithDifficulty" },
+			},
+			[HEROIC_DIFF] = {
+				{ 1,  "Tier20:deathknight:HeroicWithDifficulty" },
+				{ 3,  "Tier20:demonhunter:HeroicWithDifficulty" },
+				{ 5,  "Tier20:druid:HeroicWithDifficulty" },
+				{ 7,  "Tier20:hunter:HeroicWithDifficulty" },
+				{ 9,  "Tier20:mage:HeroicWithDifficulty" },
+				{ 11, "Tier20:monk:HeroicWithDifficulty" },
+				{ 13, "Tier20:rogue:HeroicWithDifficulty" },
+				{ 15, "Tier20:paladin:HeroicWithDifficulty" },
+				{ 16, "Tier20:priest:HeroicWithDifficulty" },
+				{ 18, "Tier20:shaman:HeroicWithDifficulty" },
+				{ 20, "Tier20:warlock:HeroicWithDifficulty" },
+				{ 22, "Tier20:warrior:HeroicWithDifficulty" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier20:deathknight:MythicWithDifficulty" },
+				{ 3,  "Tier20:demonhunter:MythicWithDifficulty" },
+				{ 5,  "Tier20:druid:MythicWithDifficulty" },
+				{ 7,  "Tier20:hunter:MythicWithDifficulty" },
+				{ 9,  "Tier20:mage:MythicWithDifficulty" },
+				{ 11, "Tier20:monk:MythicWithDifficulty" },
+				{ 13, "Tier20:rogue:MythicWithDifficulty" },
+				{ 15, "Tier20:paladin:MythicWithDifficulty" },
+				{ 16, "Tier20:priest:MythicWithDifficulty" },
+				{ 18, "Tier20:shaman:MythicWithDifficulty" },
+				{ 20, "Tier20:warlock:MythicWithDifficulty" },
+				{ 22, "Tier20:warrior:MythicWithDifficulty" },
+			},
+		},
+		{ -- Tier 19 Sets
+			name = format(AL["Tier %d Sets"], 19).." ("..EXPANSION_NAME6..")",
+			[RF_DIFF] = {
+				{ 1,  "Tier19:deathknight:LFRWithDifficulty" },
+				{ 3,  "Tier19:demonhunter:LFRWithDifficulty" },
+				{ 5,  "Tier19:druid:LFRWithDifficulty" },
+				{ 7,  "Tier19:hunter:LFRWithDifficulty" },
+				{ 9,  "Tier19:mage:LFRWithDifficulty" },
+				{ 11, "Tier19:monk:LFRWithDifficulty" },
+				{ 13, "Tier19:rogue:LFRWithDifficulty" },
+				{ 15, "Tier19:paladin:LFRWithDifficulty" },
+				{ 16, "Tier19:priest:LFRWithDifficulty" },
+				{ 18, "Tier19:shaman:LFRWithDifficulty" },
+				{ 20, "Tier19:warlock:LFRWithDifficulty" },
+				{ 22, "Tier19:warrior:LFRWithDifficulty" },
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier19:deathknight:NormalWithDifficulty" },
+				{ 3,  "Tier19:demonhunter:NormalWithDifficulty" },
+				{ 5,  "Tier19:druid:NormalWithDifficulty" },
+				{ 7,  "Tier19:hunter:NormalWithDifficulty" },
+				{ 9,  "Tier19:mage:NormalWithDifficulty" },
+				{ 11, "Tier19:monk:NormalWithDifficulty" },
+				{ 13, "Tier19:rogue:NormalWithDifficulty" },
+				{ 15, "Tier19:paladin:NormalWithDifficulty" },
+				{ 16, "Tier19:priest:NormalWithDifficulty" },
+				{ 18, "Tier19:shaman:NormalWithDifficulty" },
+				{ 20, "Tier19:warlock:NormalWithDifficulty" },
+				{ 22, "Tier19:warrior:NormalWithDifficulty" },
+			},
+			[HEROIC_DIFF] = {
+				{ 1,  "Tier19:deathknight:HeroicWithDifficulty" },
+				{ 3,  "Tier19:demonhunter:HeroicWithDifficulty" },
+				{ 5,  "Tier19:druid:HeroicWithDifficulty" },
+				{ 7,  "Tier19:hunter:HeroicWithDifficulty" },
+				{ 9,  "Tier19:mage:HeroicWithDifficulty" },
+				{ 11, "Tier19:monk:HeroicWithDifficulty" },
+				{ 13, "Tier19:rogue:HeroicWithDifficulty" },
+				{ 15, "Tier19:paladin:HeroicWithDifficulty" },
+				{ 16, "Tier19:priest:HeroicWithDifficulty" },
+				{ 18, "Tier19:shaman:HeroicWithDifficulty" },
+				{ 20, "Tier19:warlock:HeroicWithDifficulty" },
+				{ 22, "Tier19:warrior:HeroicWithDifficulty" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier19:deathknight:MythicWithDifficulty" },
+				{ 3,  "Tier19:demonhunter:MythicWithDifficulty" },
+				{ 5,  "Tier19:druid:MythicWithDifficulty" },
+				{ 7,  "Tier19:hunter:MythicWithDifficulty" },
+				{ 9,  "Tier19:mage:MythicWithDifficulty" },
+				{ 11, "Tier19:monk:MythicWithDifficulty" },
+				{ 13, "Tier19:rogue:MythicWithDifficulty" },
+				{ 15, "Tier19:paladin:MythicWithDifficulty" },
+				{ 16, "Tier19:priest:MythicWithDifficulty" },
+				{ 18, "Tier19:shaman:MythicWithDifficulty" },
+				{ 20, "Tier19:warlock:MythicWithDifficulty" },
+				{ 22, "Tier19:warrior:MythicWithDifficulty" },
+			},
+		},
+		{ -- Tier 18 Sets
+			name = format(AL["Tier %d Sets"], 18).." ("..EXPANSION_NAME5..")",
+			[RF_DIFF] = {
+				{ 1,  "Tier18:rfcloth:rf" },
+				{ 3,  "Tier18:rfleather:rf" },
+				{ 16, "Tier18:rfmail:rf" },
+				{ 18, "Tier18:rfplate:rf" },
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier18:dk:n" },
+				{ 3,  "Tier18:druid:n" },
+				{ 5,  "Tier18:hunter:n" },
+				{ 7,  "Tier18:mage:n" },
+				{ 9,  "Tier18:monk:n" },
+				{ 11, "Tier18:paladin:n" },
+				{ 16, "Tier18:priest:n" },
+				{ 18, "Tier18:rogue:n" },
+				{ 20, "Tier18:shaman:n" },
+				{ 22, "Tier18:warlock:n" },
+				{ 24, "Tier18:warrior:n" },
+			},
+			[HEROIC_DIFF] = {
+				{ 1,  "Tier18:dk:hB1" },
+				{ 3,  "Tier18:druid:hB1" },
+				{ 5,  "Tier18:hunter:hB1" },
+				{ 7,  "Tier18:mage:hB1" },
+				{ 9,  "Tier18:monk:hB1" },
+				{ 11, "Tier18:paladin:hB1" },
+				{ 16, "Tier18:priest:hB1" },
+				{ 18, "Tier18:rogue:hB1" },
+				{ 20, "Tier18:shaman:hB1" },
+				{ 22, "Tier18:warlock:hB1" },
+				{ 24, "Tier18:warrior:hB1" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier18:dk:mB1" },
+				{ 3,  "Tier18:druid:mB1" },
+				{ 5,  "Tier18:hunter:mB1" },
+				{ 7,  "Tier18:mage:mB1" },
+				{ 9,  "Tier18:monk:mB1" },
+				{ 11, "Tier18:paladin:mB1" },
+				{ 16, "Tier18:priest:mB1" },
+				{ 18, "Tier18:rogue:mB1" },
+				{ 20, "Tier18:shaman:mB1" },
+				{ 22, "Tier18:warlock:mB1" },
+				{ 24, "Tier18:warrior:mB1" },
+			},
+		},
+		{ -- Tier 17 Sets
+			name = format(AL["Tier %d Sets"], 17).." ("..EXPANSION_NAME5..")",
+			[RF_DIFF] = {
+				{ 1,  "Tier17:rfcloth:rf" },
+				{ 3,  "Tier17:rfleather:rf" },
+				{ 16, "Tier17:rfmail:rf" },
+				{ 18, "Tier17:rfplate:rf" },
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier17:dk:n" },
+				{ 3,  "Tier17:druid:n" },
+				{ 5,  "Tier17:hunter:n" },
+				{ 7,  "Tier17:mage:n" },
+				{ 9,  "Tier17:monk:n" },
+				{ 11, "Tier17:paladin:n" },
+				{ 16, "Tier17:priest:n" },
+				{ 18, "Tier17:rogue:n" },
+				{ 20, "Tier17:shaman:n" },
+				{ 22, "Tier17:warlock:n" },
+				{ 24, "Tier17:warrior:n" },
+			},
+			[HEROIC_DIFF] = {
+				{ 1,  "Tier17:dk:hB1" },
+				{ 3,  "Tier17:druid:hB1" },
+				{ 5,  "Tier17:hunter:hB1" },
+				{ 7,  "Tier17:mage:hB1" },
+				{ 9,  "Tier17:monk:hB1" },
+				{ 11, "Tier17:paladin:hB1" },
+				{ 16, "Tier17:priest:hB1" },
+				{ 18, "Tier17:rogue:hB1" },
+				{ 20, "Tier17:shaman:hB1" },
+				{ 22, "Tier17:warlock:hB1" },
+				{ 24, "Tier17:warrior:hB1" },
+			},
+			[MYTHIC_DIFF] = {
+				{ 1,  "Tier17:dk:mB1" },
+				{ 3,  "Tier17:druid:mB1" },
+				{ 5,  "Tier17:hunter:mB1" },
+				{ 7,  "Tier17:mage:mB1" },
+				{ 9,  "Tier17:monk:mB1" },
+				{ 11, "Tier17:paladin:mB1" },
+				{ 16, "Tier17:priest:mB1" },
+				{ 18, "Tier17:rogue:mB1" },
+				{ 20, "Tier17:shaman:mB1" },
+				{ 22, "Tier17:warlock:mB1" },
+				{ 24, "Tier17:warrior:mB1" },
 			},
 		},
 		{ -- Tier 16 Sets
@@ -4205,279 +4081,646 @@ data["TIERSETS"]           = {
 				{ 29, "Tier16:warriorprotection:m" },
 			},
 		},
-		{ -- Tier 17 Sets
-			name = format(AL["Tier %d Sets"], 17).." ("..EXPANSION_NAME5..")",
+		{ -- Tier 15 Sets
+			name = format(AL["Tier %d Sets"], 15).." ("..EXPANSION_NAME4..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier17:rfcloth:rf" },
-				{ 3,  "Tier17:rfleather:rf" },
-				{ 16, "Tier17:rfmail:rf" },
-				{ 18, "Tier17:rfplate:rf" },
+				{ 1,  "Tier15:hunter:rf" },
+				{ 2,  "Tier15:mage:rf" },
+				{ 3,  "Tier15:rogue:rf" },
+				{ 4,  "Tier15:warlock:rf" },
+				{ 6,  "Tier15:deathknightblood:rf" },
+				{ 7,  "Tier15:deathknightdps:rf" },
+				{ 9,  "Tier15:druidbalance:rf" },
+				{ 10, "Tier15:druidferal:rf" },
+				{ 11, "Tier15:druidguardian:rf" },
+				{ 12, "Tier15:druidrestoration:rf" },
+				{ 14, "Tier15:priestheal:rf" },
+				{ 15, "Tier15:priestshadow:rf" },
+				{ 16, "Tier15:monkbrewmaster:rf" },
+				{ 17, "Tier15:monkmistweaver:rf" },
+				{ 18, "Tier15:monkwindwalker:rf" },
+				{ 20, "Tier15:paladinholy:rf" },
+				{ 21, "Tier15:paladinprotection:rf" },
+				{ 22, "Tier15:paladinretribution:rf" },
+				{ 24, "Tier15:shamanelemental:rf" },
+				{ 25, "Tier15:shamanenhancement:rf" },
+				{ 26, "Tier15:shamanrestoration:rf" },
+				{ 28, "Tier15:warriordps:rf" },
+				{ 29, "Tier15:warriorprotection:rf" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier17:dk:n" },
-				{ 3,  "Tier17:druid:n" },
-				{ 5,  "Tier17:hunter:n" },
-				{ 7,  "Tier17:mage:n" },
-				{ 9,  "Tier17:monk:n" },
-				{ 11, "Tier17:paladin:n" },
-				{ 16, "Tier17:priest:n" },
-				{ 18, "Tier17:rogue:n" },
-				{ 20, "Tier17:shaman:n" },
-				{ 22, "Tier17:warlock:n" },
-				{ 24, "Tier17:warrior:n" },
+				{ 1,  "Tier15:hunter:n" },
+				{ 2,  "Tier15:mage:n" },
+				{ 3,  "Tier15:rogue:n" },
+				{ 4,  "Tier15:warlock:n" },
+				{ 6,  "Tier15:deathknightblood:n" },
+				{ 7,  "Tier15:deathknightdps:n" },
+				{ 9,  "Tier15:druidbalance:n" },
+				{ 10, "Tier15:druidferal:n" },
+				{ 11, "Tier15:druidguardian:n" },
+				{ 12, "Tier15:druidrestoration:n" },
+				{ 14, "Tier15:priestheal:n" },
+				{ 15, "Tier15:priestshadow:n" },
+				{ 16, "Tier15:monkbrewmaster:n" },
+				{ 17, "Tier15:monkmistweaver:n" },
+				{ 18, "Tier15:monkwindwalker:n" },
+				{ 20, "Tier15:paladinholy:n" },
+				{ 21, "Tier15:paladinprotection:n" },
+				{ 22, "Tier15:paladinretribution:n" },
+				{ 24, "Tier15:shamanelemental:n" },
+				{ 25, "Tier15:shamanenhancement:n" },
+				{ 26, "Tier15:shamanrestoration:n" },
+				{ 28, "Tier15:warriordps:n" },
+				{ 29, "Tier15:warriorprotection:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier17:dk:hB1" },
-				{ 3,  "Tier17:druid:hB1" },
-				{ 5,  "Tier17:hunter:hB1" },
-				{ 7,  "Tier17:mage:hB1" },
-				{ 9,  "Tier17:monk:hB1" },
-				{ 11, "Tier17:paladin:hB1" },
-				{ 16, "Tier17:priest:hB1" },
-				{ 18, "Tier17:rogue:hB1" },
-				{ 20, "Tier17:shaman:hB1" },
-				{ 22, "Tier17:warlock:hB1" },
-				{ 24, "Tier17:warrior:hB1" },
-			},
-			[MYTHIC_DIFF] = {
-				{ 1,  "Tier17:dk:mB1" },
-				{ 3,  "Tier17:druid:mB1" },
-				{ 5,  "Tier17:hunter:mB1" },
-				{ 7,  "Tier17:mage:mB1" },
-				{ 9,  "Tier17:monk:mB1" },
-				{ 11, "Tier17:paladin:mB1" },
-				{ 16, "Tier17:priest:mB1" },
-				{ 18, "Tier17:rogue:mB1" },
-				{ 20, "Tier17:shaman:mB1" },
-				{ 22, "Tier17:warlock:mB1" },
-				{ 24, "Tier17:warrior:mB1" },
+				{ 1,  "Tier15:hunter:h" },
+				{ 2,  "Tier15:mage:h" },
+				{ 3,  "Tier15:rogue:h" },
+				{ 4,  "Tier15:warlock:h" },
+				{ 6,  "Tier15:deathknightblood:h" },
+				{ 7,  "Tier15:deathknightdps:h" },
+				{ 9,  "Tier15:druidbalance:h" },
+				{ 10, "Tier15:druidferal:h" },
+				{ 11, "Tier15:druidguardian:h" },
+				{ 12, "Tier15:druidrestoration:h" },
+				{ 14, "Tier15:priestheal:h" },
+				{ 15, "Tier15:priestshadow:h" },
+				{ 16, "Tier15:monkbrewmaster:h" },
+				{ 17, "Tier15:monkmistweaver:h" },
+				{ 18, "Tier15:monkwindwalker:h" },
+				{ 20, "Tier15:paladinholy:h" },
+				{ 21, "Tier15:paladinprotection:h" },
+				{ 22, "Tier15:paladinretribution:h" },
+				{ 24, "Tier15:shamanelemental:h" },
+				{ 25, "Tier15:shamanenhancement:h" },
+				{ 26, "Tier15:shamanrestoration:h" },
+				{ 28, "Tier15:warriordps:h" },
+				{ 29, "Tier15:warriorprotection:h" },
 			},
 		},
-		{ -- Tier 18 Sets
-			name = format(AL["Tier %d Sets"], 18).." ("..EXPANSION_NAME5..")",
+		{ -- Tier 14 Sets
+			name = format(AL["Tier %d Sets"], 14).." ("..EXPANSION_NAME4..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier18:rfcloth:rf" },
-				{ 3,  "Tier18:rfleather:rf" },
-				{ 16, "Tier18:rfmail:rf" },
-				{ 18, "Tier18:rfplate:rf" },
+				{ 1,  "Tier14:hunter:rf" },
+				{ 2,  "Tier14:mage:rf" },
+				{ 3,  "Tier14:rogue:rf" },
+				{ 4,  "Tier14:warlock:rf" },
+				{ 6,  "Tier14:deathknightblood:rf" },
+				{ 7,  "Tier14:deathknightdps:rf" },
+				{ 9,  "Tier14:druidbalance:rf" },
+				{ 10, "Tier14:druidferal:rf" },
+				{ 11, "Tier14:druidguardian:rf" },
+				{ 12, "Tier14:druidrestoration:rf" },
+				{ 14, "Tier14:priestheal:rf" },
+				{ 15, "Tier14:priestshadow:rf" },
+				{ 16, "Tier14:monkbrewmaster:rf" },
+				{ 17, "Tier14:monkmistweaver:rf" },
+				{ 18, "Tier14:monkwindwalker:rf" },
+				{ 20, "Tier14:paladinholy:rf" },
+				{ 21, "Tier14:paladinprotection:rf" },
+				{ 22, "Tier14:paladinretribution:rf" },
+				{ 24, "Tier14:shamanelemental:rf" },
+				{ 25, "Tier14:shamanenhancement:rf" },
+				{ 26, "Tier14:shamanrestoration:rf" },
+				{ 28, "Tier14:warriordps:rf" },
+				{ 29, "Tier14:warriorprotection:rf" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier18:dk:n" },
-				{ 3,  "Tier18:druid:n" },
-				{ 5,  "Tier18:hunter:n" },
-				{ 7,  "Tier18:mage:n" },
-				{ 9,  "Tier18:monk:n" },
-				{ 11, "Tier18:paladin:n" },
-				{ 16, "Tier18:priest:n" },
-				{ 18, "Tier18:rogue:n" },
-				{ 20, "Tier18:shaman:n" },
-				{ 22, "Tier18:warlock:n" },
-				{ 24, "Tier18:warrior:n" },
+				{ 1,  "Tier14:hunter:n" },
+				{ 2,  "Tier14:mage:n" },
+				{ 3,  "Tier14:rogue:n" },
+				{ 4,  "Tier14:warlock:n" },
+				{ 6,  "Tier14:deathknightblood:n" },
+				{ 7,  "Tier14:deathknightdps:n" },
+				{ 9,  "Tier14:druidbalance:n" },
+				{ 10, "Tier14:druidferal:n" },
+				{ 11, "Tier14:druidguardian:n" },
+				{ 12, "Tier14:druidrestoration:n" },
+				{ 14, "Tier14:priestheal:n" },
+				{ 15, "Tier14:priestshadow:n" },
+				{ 16, "Tier14:monkbrewmaster:n" },
+				{ 17, "Tier14:monkmistweaver:n" },
+				{ 18, "Tier14:monkwindwalker:n" },
+				{ 20, "Tier14:paladinholy:n" },
+				{ 21, "Tier14:paladinprotection:n" },
+				{ 22, "Tier14:paladinretribution:n" },
+				{ 24, "Tier14:shamanelemental:n" },
+				{ 25, "Tier14:shamanenhancement:n" },
+				{ 26, "Tier14:shamanrestoration:n" },
+				{ 28, "Tier14:warriordps:n" },
+				{ 29, "Tier14:warriorprotection:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier18:dk:hB1" },
-				{ 3,  "Tier18:druid:hB1" },
-				{ 5,  "Tier18:hunter:hB1" },
-				{ 7,  "Tier18:mage:hB1" },
-				{ 9,  "Tier18:monk:hB1" },
-				{ 11, "Tier18:paladin:hB1" },
-				{ 16, "Tier18:priest:hB1" },
-				{ 18, "Tier18:rogue:hB1" },
-				{ 20, "Tier18:shaman:hB1" },
-				{ 22, "Tier18:warlock:hB1" },
-				{ 24, "Tier18:warrior:hB1" },
-			},
-			[MYTHIC_DIFF] = {
-				{ 1,  "Tier18:dk:mB1" },
-				{ 3,  "Tier18:druid:mB1" },
-				{ 5,  "Tier18:hunter:mB1" },
-				{ 7,  "Tier18:mage:mB1" },
-				{ 9,  "Tier18:monk:mB1" },
-				{ 11, "Tier18:paladin:mB1" },
-				{ 16, "Tier18:priest:mB1" },
-				{ 18, "Tier18:rogue:mB1" },
-				{ 20, "Tier18:shaman:mB1" },
-				{ 22, "Tier18:warlock:mB1" },
-				{ 24, "Tier18:warrior:mB1" },
+				{ 1,  "Tier14:hunter:h" },
+				{ 2,  "Tier14:mage:h" },
+				{ 3,  "Tier14:rogue:h" },
+				{ 4,  "Tier14:warlock:h" },
+				{ 6,  "Tier14:deathknightblood:h" },
+				{ 7,  "Tier14:deathknightdps:h" },
+				{ 9,  "Tier14:druidbalance:h" },
+				{ 10, "Tier14:druidferal:h" },
+				{ 11, "Tier14:druidguardian:h" },
+				{ 12, "Tier14:druidrestoration:h" },
+				{ 14, "Tier14:priestheal:h" },
+				{ 15, "Tier14:priestshadow:h" },
+				{ 16, "Tier14:monkbrewmaster:h" },
+				{ 17, "Tier14:monkmistweaver:h" },
+				{ 18, "Tier14:monkwindwalker:h" },
+				{ 20, "Tier14:paladinholy:h" },
+				{ 21, "Tier14:paladinprotection:h" },
+				{ 22, "Tier14:paladinretribution:h" },
+				{ 24, "Tier14:shamanelemental:h" },
+				{ 25, "Tier14:shamanenhancement:h" },
+				{ 26, "Tier14:shamanrestoration:h" },
+				{ 28, "Tier14:warriordps:h" },
+				{ 29, "Tier14:warriorprotection:h" },
 			},
 		},
-		{ -- Tier 19 Sets
-			name = format(AL["Tier %d Sets"], 19).." ("..EXPANSION_NAME6..")",
+		{ -- Tier 13 Sets
+			name = format(AL["Tier %d Sets"], 13).." ("..EXPANSION_NAME3..")",
 			[RF_DIFF] = {
-				{ 1,  "Tier19:deathknight:rf" },
-				{ 3,  "Tier19:demonhunter:rf" },
-				{ 5,  "Tier19:druid:rf" },
-				{ 7,  "Tier19:hunter:rf" },
-				{ 9,  "Tier19:mage:rf" },
-				{ 11, "Tier19:monk:rf" },
-				{ 13, "Tier19:rogue:rf" },
-				{ 15, "Tier19:paladin:rf" },
-				{ 16, "Tier19:priest:rf" },
-				{ 18, "Tier19:shaman:rf" },
-				{ 20, "Tier19:warlock:rf" },
-				{ 22, "Tier19:warrior:rf" },
+				{ 1,  "Tier13:deathknightblood:rf" },
+				{ 2,  "Tier13:deathknightdps:rf" },
+				{ 4,  "Tier13:druidbalance:rf" },
+				{ 5,  "Tier13:druidferal:rf" },
+				{ 6,  "Tier13:druidrestoration:rf" },
+				{ 8,  "Tier13:hunter:rf" },
+				{ 10, "Tier13:mage:rf" },
+				{ 12, "Tier13:paladinholy:rf" },
+				{ 13, "Tier13:paladinprotection:rf" },
+				{ 14, "Tier13:paladinretribution:rf" },
+				{ 16, "Tier13:priestheal:rf" },
+				{ 17, "Tier13:priestshadow:rf" },
+				{ 19, "Tier13:rogue:rf" },
+				{ 21, "Tier13:shamanelemental:rf" },
+				{ 22, "Tier13:shamanenhancement:rf" },
+				{ 23, "Tier13:shamanrestoration:rf" },
+				{ 25, "Tier13:warlock:rf" },
+				{ 27, "Tier13:warriordps:rf" },
+				{ 28, "Tier13:warriorprotection:rf" },
 			},
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier19:deathknight:n" },
-				{ 3,  "Tier19:demonhunter:n" },
-				{ 5,  "Tier19:druid:n" },
-				{ 7,  "Tier19:hunter:n" },
-				{ 9,  "Tier19:mage:n" },
-				{ 11, "Tier19:monk:n" },
-				{ 13, "Tier19:rogue:n" },
-				{ 15, "Tier19:paladin:n" },
-				{ 16, "Tier19:priest:n" },
-				{ 18, "Tier19:shaman:n" },
-				{ 20, "Tier19:warlock:n" },
-				{ 22, "Tier19:warrior:n" },
+				{ 1,  "Tier13:deathknightblood:n" },
+				{ 2,  "Tier13:deathknightdps:n" },
+				{ 4,  "Tier13:druidbalance:n" },
+				{ 5,  "Tier13:druidferal:n" },
+				{ 6,  "Tier13:druidrestoration:n" },
+				{ 8,  "Tier13:hunter:n" },
+				{ 10, "Tier13:mage:n" },
+				{ 12, "Tier13:paladinholy:n" },
+				{ 13, "Tier13:paladinprotection:n" },
+				{ 14, "Tier13:paladinretribution:n" },
+				{ 16, "Tier13:priestheal:n" },
+				{ 17, "Tier13:priestshadow:n" },
+				{ 19, "Tier13:rogue:n" },
+				{ 21, "Tier13:shamanelemental:n" },
+				{ 22, "Tier13:shamanenhancement:n" },
+				{ 23, "Tier13:shamanrestoration:n" },
+				{ 25, "Tier13:warlock:n" },
+				{ 27, "Tier13:warriordps:n" },
+				{ 28, "Tier13:warriorprotection:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier19:deathknight:hB1" },
-				{ 3,  "Tier19:demonhunter:hB1" },
-				{ 5,  "Tier19:druid:hB1" },
-				{ 7,  "Tier19:hunter:hB1" },
-				{ 9,  "Tier19:mage:hB1" },
-				{ 11, "Tier19:monk:hB1" },
-				{ 13, "Tier19:rogue:hB1" },
-				{ 15, "Tier19:paladin:hB1" },
-				{ 16, "Tier19:priest:hB1" },
-				{ 18, "Tier19:shaman:hB1" },
-				{ 20, "Tier19:warlock:hB1" },
-				{ 22, "Tier19:warrior:hB1" },
-			},
-			[MYTHIC_DIFF] = {
-				{ 1,  "Tier19:deathknight:mB1" },
-				{ 3,  "Tier19:demonhunter:mB1" },
-				{ 5,  "Tier19:druid:mB1" },
-				{ 7,  "Tier19:hunter:mB1" },
-				{ 9,  "Tier19:mage:mB1" },
-				{ 11, "Tier19:monk:mB1" },
-				{ 13, "Tier19:rogue:mB1" },
-				{ 15, "Tier19:paladin:mB1" },
-				{ 16, "Tier19:priest:mB1" },
-				{ 18, "Tier19:shaman:mB1" },
-				{ 20, "Tier19:warlock:mB1" },
-				{ 22, "Tier19:warrior:mB1" },
+				{ 1,  "Tier13:deathknightblood:h" },
+				{ 2,  "Tier13:deathknightdps:h" },
+				{ 4,  "Tier13:druidbalance:h" },
+				{ 5,  "Tier13:druidferal:h" },
+				{ 6,  "Tier13:druidrestoration:h" },
+				{ 8,  "Tier13:hunter:h" },
+				{ 10, "Tier13:mage:h" },
+				{ 12, "Tier13:paladinholy:h" },
+				{ 13, "Tier13:paladinprotection:h" },
+				{ 14, "Tier13:paladinretribution:h" },
+				{ 16, "Tier13:priestheal:h" },
+				{ 17, "Tier13:priestshadow:h" },
+				{ 19, "Tier13:rogue:h" },
+				{ 21, "Tier13:shamanelemental:h" },
+				{ 22, "Tier13:shamanenhancement:h" },
+				{ 23, "Tier13:shamanrestoration:h" },
+				{ 25, "Tier13:warlock:h" },
+				{ 27, "Tier13:warriordps:h" },
+				{ 28, "Tier13:warriorprotection:h" },
 			},
 		},
-		{ -- Tier 20 Sets
-			-- NOTE: item level is currently wrong except for LFR
-			name = format(AL["Tier %d Sets"], 20).." ("..EXPANSION_NAME6..")",
-			[RF_DIFF] = {
-				{ 1,  "Tier20:deathknight:rf" },
-				{ 3,  "Tier20:demonhunter:rf" },
-				{ 5,  "Tier20:druid:rf" },
-				{ 7,  "Tier20:hunter:rf" },
-				{ 9,  "Tier20:mage:rf" },
-				{ 11, "Tier20:monk:rf" },
-				{ 13, "Tier20:rogue:rf" },
-				{ 15, "Tier20:paladin:rf" },
-				{ 16, "Tier20:priest:rf" },
-				{ 18, "Tier20:shaman:rf" },
-				{ 20, "Tier20:warlock:rf" },
-				{ 22, "Tier20:warrior:rf" },
-			},
+		{ -- Tier 12 Sets
+			name = format(AL["Tier %d Sets"], 12).." ("..EXPANSION_NAME3..")",
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier20:deathknight:n" },
-				{ 3,  "Tier20:demonhunter:n" },
-				{ 5,  "Tier20:druid:n" },
-				{ 7,  "Tier20:hunter:n" },
-				{ 9,  "Tier20:mage:n" },
-				{ 11, "Tier20:monk:n" },
-				{ 13, "Tier20:rogue:n" },
-				{ 15, "Tier20:paladin:n" },
-				{ 16, "Tier20:priest:n" },
-				{ 18, "Tier20:shaman:n" },
-				{ 20, "Tier20:warlock:n" },
-				{ 22, "Tier20:warrior:n" },
+				{ 1,  "Tier12:deathknightblood:n" },
+				{ 2,  "Tier12:deathknightdps:n" },
+				{ 4,  "Tier12:druidbalance:n" },
+				{ 5,  "Tier12:druidferal:n" },
+				{ 6,  "Tier12:druidrestoration:n" },
+				{ 8,  "Tier12:hunter:n" },
+				{ 10, "Tier12:mage:n" },
+				{ 12, "Tier12:paladinholy:n" },
+				{ 13, "Tier12:paladinprotection:n" },
+				{ 14, "Tier12:paladinretribution:n" },
+				{ 16, "Tier12:priestheal:n" },
+				{ 17, "Tier12:priestshadow:n" },
+				{ 19, "Tier12:rogue:n" },
+				{ 21, "Tier12:shamanelemental:n" },
+				{ 22, "Tier12:shamanenhancement:n" },
+				{ 23, "Tier12:shamanrestoration:n" },
+				{ 25, "Tier12:warlock:n" },
+				{ 27, "Tier12:warriordps:n" },
+				{ 28, "Tier12:warriorprotection:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier20:deathknight:hB1" },
-				{ 3,  "Tier20:demonhunter:hB1" },
-				{ 5,  "Tier20:druid:hB1" },
-				{ 7,  "Tier20:hunter:hB1" },
-				{ 9,  "Tier20:mage:hB1" },
-				{ 11, "Tier20:monk:hB1" },
-				{ 13, "Tier20:rogue:hB1" },
-				{ 15, "Tier20:paladin:hB1" },
-				{ 16, "Tier20:priest:hB1" },
-				{ 18, "Tier20:shaman:hB1" },
-				{ 20, "Tier20:warlock:hB1" },
-				{ 22, "Tier20:warrior:hB1" },
-			},
-			[MYTHIC_DIFF] = {
-				{ 1,  "Tier20:deathknight:mB1" },
-				{ 3,  "Tier20:demonhunter:mB1" },
-				{ 5,  "Tier20:druid:mB1" },
-				{ 7,  "Tier20:hunter:mB1" },
-				{ 9,  "Tier20:mage:mB1" },
-				{ 11, "Tier20:monk:mB1" },
-				{ 13, "Tier20:rogue:mB1" },
-				{ 15, "Tier20:paladin:mB1" },
-				{ 16, "Tier20:priest:mB1" },
-				{ 18, "Tier20:shaman:mB1" },
-				{ 20, "Tier20:warlock:mB1" },
-				{ 22, "Tier20:warrior:mB1" },
+				{ 1,  "Tier12:deathknightblood:h" },
+				{ 2,  "Tier12:deathknightdps:h" },
+				{ 4,  "Tier12:druidbalance:h" },
+				{ 5,  "Tier12:druidferal:h" },
+				{ 6,  "Tier12:druidrestoration:h" },
+				{ 8,  "Tier12:hunter:h" },
+				{ 10, "Tier12:mage:h" },
+				{ 12, "Tier12:paladinholy:h" },
+				{ 13, "Tier12:paladinprotection:h" },
+				{ 14, "Tier12:paladinretribution:h" },
+				{ 16, "Tier12:priestheal:h" },
+				{ 17, "Tier12:priestshadow:h" },
+				{ 19, "Tier12:rogue:h" },
+				{ 21, "Tier12:shamanelemental:h" },
+				{ 22, "Tier12:shamanenhancement:h" },
+				{ 23, "Tier12:shamanrestoration:h" },
+				{ 25, "Tier12:warlock:h" },
+				{ 27, "Tier12:warriordps:h" },
+				{ 28, "Tier12:warriorprotection:h" },
 			},
 		},
-		{ -- Tier 21 Sets
-			-- NOTE: item level is currently wrong except for LFR
-			name = format(AL["Tier %d Sets"], 21).." ("..EXPANSION_NAME6..")",
-			[RF_DIFF] = {
-				{ 1,  "Tier21:deathknight:rf" },
-				{ 3,  "Tier21:demonhunter:rf" },
-				{ 5,  "Tier21:druid:rf" },
-				{ 7,  "Tier21:hunter:rf" },
-				{ 9,  "Tier21:mage:rf" },
-				{ 11, "Tier21:monk:rf" },
-				{ 13, "Tier21:rogue:rf" },
-				{ 15, "Tier21:paladin:rf" },
-				{ 16, "Tier21:priest:rf" },
-				{ 18, "Tier21:shaman:rf" },
-				{ 20, "Tier21:warlock:rf" },
-				{ 22, "Tier21:warrior:rf" },
-			},
+		{ -- Tier 11 Sets
+			name = format(AL["Tier %d Sets"], 11).." ("..EXPANSION_NAME3..")",
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier21:deathknight:n" },
-				{ 3,  "Tier21:demonhunter:n" },
-				{ 5,  "Tier21:druid:n" },
-				{ 7,  "Tier21:hunter:n" },
-				{ 9,  "Tier21:mage:n" },
-				{ 11, "Tier21:monk:n" },
-				{ 13, "Tier21:rogue:n" },
-				{ 15, "Tier21:paladin:n" },
-				{ 16, "Tier21:priest:n" },
-				{ 18, "Tier21:shaman:n" },
-				{ 20, "Tier21:warlock:n" },
-				{ 22, "Tier21:warrior:n" },
+				{ 1,  "Tier11:deathknightblood:n" },
+				{ 2,  "Tier11:deathknightdps:n" },
+				{ 4,  "Tier11:druidbalance:n" },
+				{ 5,  "Tier11:druidferal:n" },
+				{ 6,  "Tier11:druidrestoration:n" },
+				{ 8,  "Tier11:hunter:n" },
+				{ 10, "Tier11:mage:n" },
+				{ 12, "Tier11:paladinholy:n" },
+				{ 13, "Tier11:paladinprotection:n" },
+				{ 14, "Tier11:paladinretribution:n" },
+				{ 16, "Tier11:priestheal:n" },
+				{ 17, "Tier11:priestshadow:n" },
+				{ 19, "Tier11:rogue:n" },
+				{ 21, "Tier11:shamanelemental:n" },
+				{ 22, "Tier11:shamanenhancement:n" },
+				{ 23, "Tier11:shamanrestoration:n" },
+				{ 25, "Tier11:warlock:n" },
+				{ 27, "Tier11:warriordps:n" },
+				{ 28, "Tier11:warriorprotection:n" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  "Tier21:deathknight:hB1" },
-				{ 3,  "Tier21:demonhunter:hB1" },
-				{ 5,  "Tier21:druid:hB1" },
-				{ 7,  "Tier21:hunter:hB1" },
-				{ 9,  "Tier21:mage:hB1" },
-				{ 11, "Tier21:monk:hB1" },
-				{ 13, "Tier21:rogue:hB1" },
-				{ 15, "Tier21:paladin:hB1" },
-				{ 16, "Tier21:priest:hB1" },
-				{ 18, "Tier21:shaman:hB1" },
-				{ 20, "Tier21:warlock:hB1" },
-				{ 22, "Tier21:warrior:hB1" },
+				{ 1,  "Tier11:deathknightblood:h" },
+				{ 2,  "Tier11:deathknightdps:h" },
+				{ 4,  "Tier11:druidbalance:h" },
+				{ 5,  "Tier11:druidferal:h" },
+				{ 6,  "Tier11:druidrestoration:h" },
+				{ 8,  "Tier11:hunter:h" },
+				{ 10, "Tier11:mage:h" },
+				{ 12, "Tier11:paladinholy:h" },
+				{ 13, "Tier11:paladinprotection:h" },
+				{ 14, "Tier11:paladinretribution:h" },
+				{ 16, "Tier11:priestheal:h" },
+				{ 17, "Tier11:priestshadow:h" },
+				{ 19, "Tier11:rogue:h" },
+				{ 21, "Tier11:shamanelemental:h" },
+				{ 22, "Tier11:shamanenhancement:h" },
+				{ 23, "Tier11:shamanrestoration:h" },
+				{ 25, "Tier11:warlock:h" },
+				{ 27, "Tier11:warriordps:h" },
+				{ 28, "Tier11:warriorprotection:h" },
 			},
-			[MYTHIC_DIFF] = {
-				{ 1,  "Tier21:deathknight:mB1" },
-				{ 3,  "Tier21:demonhunter:mB1" },
-				{ 5,  "Tier21:druid:mB1" },
-				{ 7,  "Tier21:hunter:mB1" },
-				{ 9,  "Tier21:mage:mB1" },
-				{ 11, "Tier21:monk:mB1" },
-				{ 13, "Tier21:rogue:mB1" },
-				{ 15, "Tier21:paladin:mB1" },
-				{ 16, "Tier21:priest:mB1" },
-				{ 18, "Tier21:shaman:mB1" },
-				{ 20, "Tier21:warlock:mB1" },
-				{ 22, "Tier21:warrior:mB1" },
+		},
+		{ -- Tier 10 Sets
+			name = format(AL["Tier %d Sets"], 10).." ("..EXPANSION_NAME2..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier10:deathknightblood:n" },
+				{ 2,  "Tier10:deathknightdps:n" },
+				{ 4,  "Tier10:druidbalance:n" },
+				{ 5,  "Tier10:druidferal:n" },
+				{ 6,  "Tier10:druidrestoration:n" },
+				{ 8,  "Tier10:hunter:n" },
+				{ 10, "Tier10:mage:n" },
+				{ 12, "Tier10:paladinholy:n" },
+				{ 13, "Tier10:paladinprotection:n" },
+				{ 14, "Tier10:paladinretribution:n" },
+				{ 16, "Tier10:priestheal:n" },
+				{ 17, "Tier10:priestshadow:n" },
+				{ 19, "Tier10:rogue:n" },
+				{ 21, "Tier10:shamanelemental:n" },
+				{ 22, "Tier10:shamanenhancement:n" },
+				{ 23, "Tier10:shamanrestoration:n" },
+				{ 25, "Tier10:warlock:n" },
+				{ 27, "Tier10:warriordps:n" },
+				{ 28, "Tier10:warriorprotection:n" },
+			},
+			[P25_DIFF] = {
+				{ 1,  "Tier10:deathknightblood:p25" },
+				{ 2,  "Tier10:deathknightdps:p25" },
+				{ 4,  "Tier10:druidbalance:p25" },
+				{ 5,  "Tier10:druidferal:p25" },
+				{ 6,  "Tier10:druidrestoration:p25" },
+				{ 8,  "Tier10:hunter:p25" },
+				{ 10, "Tier10:mage:p25" },
+				{ 12, "Tier10:paladinholy:p25" },
+				{ 13, "Tier10:paladinprotection:p25" },
+				{ 14, "Tier10:paladinretribution:p25" },
+				{ 16, "Tier10:priestheal:p25" },
+				{ 17, "Tier10:priestshadow:p25" },
+				{ 19, "Tier10:rogue:p25" },
+				{ 21, "Tier10:shamanelemental:p25" },
+				{ 22, "Tier10:shamanenhancement:p25" },
+				{ 23, "Tier10:shamanrestoration:p25" },
+				{ 25, "Tier10:warlock:p25" },
+				{ 27, "Tier10:warriordps:p25" },
+				{ 28, "Tier10:warriorprotection:p25" },
+			},
+			[P25H_DIFF] = {
+				{ 1,  "Tier10:deathknightblood:p25h" },
+				{ 2,  "Tier10:deathknightdps:p25h" },
+				{ 4,  "Tier10:druidbalance:p25h" },
+				{ 5,  "Tier10:druidferal:p25h" },
+				{ 6,  "Tier10:druidrestoration:p25h" },
+				{ 8,  "Tier10:hunter:p25h" },
+				{ 10, "Tier10:mage:p25h" },
+				{ 12, "Tier10:paladinholy:p25h" },
+				{ 13, "Tier10:paladinprotection:p25h" },
+				{ 14, "Tier10:paladinretribution:p25h" },
+				{ 16, "Tier10:priestheal:p25h" },
+				{ 17, "Tier10:priestshadow:p25h" },
+				{ 19, "Tier10:rogue:p25h" },
+				{ 21, "Tier10:shamanelemental:p25h" },
+				{ 22, "Tier10:shamanenhancement:p25h" },
+				{ 23, "Tier10:shamanrestoration:p25h" },
+				{ 25, "Tier10:warlock:p25h" },
+				{ 27, "Tier10:warriordps:p25h" },
+				{ 28, "Tier10:warriorprotection:p25h" },
+			},
+		},
+		{ -- Tier 9 Sets
+			name = format(AL["Tier %d Sets"], 9).." ("..EXPANSION_NAME2..")",
+			[NORMAL_DIFF] = {
+				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:n",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:n" },
+				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:n",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:n" },
+				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:n",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:n" },
+				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:n" },
+				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:n",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:n" },
+				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:n",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:n" },
+				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:n",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:n" },
+				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:n",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:n" },
+				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:n" },
+				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:n", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:n" },
+				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:n" },
+				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:n",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:n" },
+				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:n",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:n" },
+				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:n",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:n" },
+				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:n" },
+				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:n" },
+				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:n",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:n" },
+				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:n",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:n" },
+				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:n",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:n" },
+			},
+			[P25_DIFF] = {
+				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:p25",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:p25" },
+				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:p25",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:p25" },
+				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:p25",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:p25" },
+				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:p25" },
+				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:p25",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:p25" },
+				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:p25",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:p25" },
+				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:p25",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:p25" },
+				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:p25",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:p25" },
+				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:p25" },
+				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:p25", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:p25" },
+				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:p25" },
+				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:p25",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:p25" },
+				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:p25",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:p25" },
+				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:p25",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:p25" },
+				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:p25" },
+				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:p25" },
+				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:p25",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:p25" },
+				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:p25",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:p25" },
+				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:p25",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:p25" },
+			},
+			[P25H_DIFF] = {
+				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:p25h",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:p25h" },
+				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:p25h",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:p25h" },
+				{ 4,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidbalance:p25h",       [ATLASLOOT_IT_HORDE] = "Tier9H:druidbalance:p25h" },
+				{ 5,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidferal:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:druidferal:p25h" },
+				{ 6,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:druidrestoration:p25h",   [ATLASLOOT_IT_HORDE] = "Tier9H:druidrestoration:p25h" },
+				{ 8,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:hunter:p25h",             [ATLASLOOT_IT_HORDE] = "Tier9H:hunter:p25h" },
+				{ 10, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:mage:p25h",               [ATLASLOOT_IT_HORDE] = "Tier9H:mage:p25h" },
+				{ 12, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinholy:p25h",        [ATLASLOOT_IT_HORDE] = "Tier9H:paladinholy:p25h" },
+				{ 13, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinprotection:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:paladinprotection:p25h" },
+				{ 14, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:paladinretribution:p25h", [ATLASLOOT_IT_HORDE] = "Tier9H:paladinretribution:p25h" },
+				{ 16, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestheal:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:priestheal:p25h" },
+				{ 17, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:priestshadow:p25h",       [ATLASLOOT_IT_HORDE] = "Tier9H:priestshadow:p25h" },
+				{ 19, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:rogue:p25h",              [ATLASLOOT_IT_HORDE] = "Tier9H:rogue:p25h" },
+				{ 21, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanelemental:p25h",    [ATLASLOOT_IT_HORDE] = "Tier9H:shamanelemental:p25h" },
+				{ 22, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanenhancement:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanenhancement:p25h" },
+				{ 23, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:shamanrestoration:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:shamanrestoration:p25h" },
+				{ 25, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warlock:p25h",            [ATLASLOOT_IT_HORDE] = "Tier9H:warlock:p25h" },
+				{ 27, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriordps:p25h",         [ATLASLOOT_IT_HORDE] = "Tier9H:warriordps:p25h" },
+				{ 28, [ATLASLOOT_IT_ALLIANCE] = "Tier9A:warriorprotection:p25h",  [ATLASLOOT_IT_HORDE] = "Tier9H:warriorprotection:p25h" },
+			},
+		},
+		{ -- Tier 8 Sets
+			name = format(AL["Tier %d Sets"], 8).." ("..EXPANSION_NAME2..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier8:deathknightblood:n" },
+				{ 2,  "Tier8:deathknightdps:n" },
+				{ 4,  "Tier8:druidbalance:n" },
+				{ 5,  "Tier8:druidferal:n" },
+				{ 6,  "Tier8:druidrestoration:n" },
+				{ 8,  "Tier8:hunter:n" },
+				{ 10, "Tier8:mage:n" },
+				{ 12, "Tier8:paladinholy:n" },
+				{ 13, "Tier8:paladinprotection:n" },
+				{ 14, "Tier8:paladinretribution:n" },
+				{ 16, "Tier8:priestheal:n" },
+				{ 17, "Tier8:priestshadow:n" },
+				{ 19, "Tier8:rogue:n" },
+				{ 21, "Tier8:shamanelemental:n" },
+				{ 22, "Tier8:shamanenhancement:n" },
+				{ 23, "Tier8:shamanrestoration:n" },
+				{ 25, "Tier8:warlock:n" },
+				{ 27, "Tier8:warriordps:n" },
+				{ 28, "Tier8:warriorprotection:n" },
+			},
+			[P25_DIFF] = {
+				{ 1,  "Tier8:deathknightblood:p25" },
+				{ 2,  "Tier8:deathknightdps:p25" },
+				{ 4,  "Tier8:druidbalance:p25" },
+				{ 5,  "Tier8:druidferal:p25" },
+				{ 6,  "Tier8:druidrestoration:p25" },
+				{ 8,  "Tier8:hunter:p25" },
+				{ 10, "Tier8:mage:p25" },
+				{ 12, "Tier8:paladinholy:p25" },
+				{ 13, "Tier8:paladinprotection:p25" },
+				{ 14, "Tier8:paladinretribution:p25" },
+				{ 16, "Tier8:priestheal:p25" },
+				{ 17, "Tier8:priestshadow:p25" },
+				{ 19, "Tier8:rogue:p25" },
+				{ 21, "Tier8:shamanelemental:p25" },
+				{ 22, "Tier8:shamanenhancement:p25" },
+				{ 23, "Tier8:shamanrestoration:p25" },
+				{ 25, "Tier8:warlock:p25" },
+				{ 27, "Tier8:warriordps:p25" },
+				{ 28, "Tier8:warriorprotection:p25" },
+			},
+		},
+		{ -- Tier 7 Sets
+			name = format(AL["Tier %d Sets"], 7).." ("..EXPANSION_NAME2..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier7:deathknightblood:n" },
+				{ 2,  "Tier7:deathknightdps:n" },
+				{ 4,  "Tier7:druidbalance:n" },
+				{ 5,  "Tier7:druidferal:n" },
+				{ 6,  "Tier7:druidrestoration:n" },
+				{ 8,  "Tier7:hunter:n" },
+				{ 10, "Tier7:mage:n" },
+				{ 12, "Tier7:paladinholy:n" },
+				{ 13, "Tier7:paladinprotection:n" },
+				{ 14, "Tier7:paladinretribution:n" },
+				{ 16, "Tier7:priestheal:n" },
+				{ 17, "Tier7:priestshadow:n" },
+				{ 19, "Tier7:rogue:n" },
+				{ 21, "Tier7:shamanelemental:n" },
+				{ 22, "Tier7:shamanenhancement:n" },
+				{ 23, "Tier7:shamanrestoration:n" },
+				{ 25, "Tier7:warlock:n" },
+				{ 27, "Tier7:warriordps:n" },
+				{ 28, "Tier7:warriorprotection:n" },
+			},
+			[P25_DIFF] = {
+				{ 1,  "Tier7:deathknightblood:p25" },
+				{ 2,  "Tier7:deathknightdps:p25" },
+				{ 4,  "Tier7:druidbalance:p25" },
+				{ 5,  "Tier7:druidferal:p25" },
+				{ 6,  "Tier7:druidrestoration:p25" },
+				{ 8,  "Tier7:hunter:p25" },
+				{ 10, "Tier7:mage:p25" },
+				{ 12, "Tier7:paladinholy:p25" },
+				{ 13, "Tier7:paladinprotection:p25" },
+				{ 14, "Tier7:paladinretribution:p25" },
+				{ 16, "Tier7:priestheal:p25" },
+				{ 17, "Tier7:priestshadow:p25" },
+				{ 19, "Tier7:rogue:p25" },
+				{ 21, "Tier7:shamanelemental:p25" },
+				{ 22, "Tier7:shamanenhancement:p25" },
+				{ 23, "Tier7:shamanrestoration:p25" },
+				{ 25, "Tier7:warlock:p25" },
+				{ 27, "Tier7:warriordps:p25" },
+				{ 28, "Tier7:warriorprotection:p25" },
+			},
+		},
+		{ -- Tier 6 Sets
+			name = format(AL["Tier %d Sets"], 6).." ("..EXPANSION_NAME1..")",
+			[P25_DIFF] = {
+				{ 1,  "Tier6:druidbalance:p25" },
+				{ 2,  "Tier6:druidferal:p25" },
+				{ 3,  "Tier6:druidrestoration:p25" },
+				{ 5,  "Tier6:hunter:p25" },
+				{ 7,  "Tier6:mage:p25" },
+				{ 9,  "Tier6:paladinholy:p25" },
+				{ 10, "Tier6:paladinprotection:p25" },
+				{ 11, "Tier6:paladinretribution:p25" },
+				{ 13, "Tier6:priestheal:p25" },
+				{ 14, "Tier6:priestshadow:p25" },
+				{ 16, "Tier6:rogue:p25" },
+				{ 18, "Tier6:shamanelemental:p25" },
+				{ 19, "Tier6:shamanenhancement:p25" },
+				{ 20, "Tier6:shamanrestoration:p25" },
+				{ 22, "Tier6:warlock:p25" },
+				{ 24, "Tier6:warriordps:p25" },
+				{ 25, "Tier6:warriorprotection:p25" },
+			},
+		},
+		{ -- Tier 5 Sets
+			name = format(AL["Tier %d Sets"], 5).." ("..EXPANSION_NAME1..")",
+			[P25_DIFF] = {
+				{ 1,  "Tier5:druidbalance:p25" },
+				{ 2,  "Tier5:druidferal:p25" },
+				{ 3,  "Tier5:druidrestoration:p25" },
+				{ 5,  "Tier5:hunter:p25" },
+				{ 7,  "Tier5:mage:p25" },
+				{ 9,  "Tier5:paladinholy:p25" },
+				{ 10, "Tier5:paladinprotection:p25" },
+				{ 11, "Tier5:paladinretribution:p25" },
+				{ 13, "Tier5:priestheal:p25" },
+				{ 14, "Tier5:priestshadow:p25" },
+				{ 16, "Tier5:rogue:p25" },
+				{ 18, "Tier5:shamanelemental:p25" },
+				{ 19, "Tier5:shamanenhancement:p25" },
+				{ 20, "Tier5:shamanrestoration:p25" },
+				{ 22, "Tier5:warlock:p25" },
+				{ 24, "Tier5:warriordps:p25" },
+				{ 25, "Tier5:warriorprotection:p25" },
+			},
+		},
+		{ -- Tier 4 Sets
+			name = format(AL["Tier %d Sets"], 4).." ("..EXPANSION_NAME1..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier4:druidbalance:n" },
+				{ 2,  "Tier4:druidferal:n" },
+				{ 3,  "Tier4:druidrestoration:n" },
+				{ 5,  "Tier4:hunter:n" },
+				{ 7,  "Tier4:mage:n" },
+				{ 9,  "Tier4:paladinholy:n" },
+				{ 10, "Tier4:paladinprotection:n" },
+				{ 11, "Tier4:paladinretribution:n" },
+				{ 13, "Tier4:priestheal:n" },
+				{ 14, "Tier4:priestshadow:n" },
+				{ 16, "Tier4:rogue:n" },
+				{ 18, "Tier4:shamanelemental:n" },
+				{ 19, "Tier4:shamanenhancement:n" },
+				{ 20, "Tier4:shamanrestoration:n" },
+				{ 22, "Tier4:warlock:n" },
+				{ 24, "Tier4:warriordps:n" },
+				{ 25, "Tier4:warriorprotection:n" },
+			},
+		},
+		{ -- Tier 3 Sets
+			name = format(AL["Tier %d Sets"], 3).." ("..EXPANSION_NAME0..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier3:druid:n" },
+				{ 3,  "Tier3:hunter:n" },
+				{ 5,  "Tier3:mage:n" },
+				{ 7,  "Tier3:paladin:n" },
+				{ 9,  "Tier3:priest:n" },
+				{ 16, "Tier3:rogue:n" },
+				{ 18, "Tier3:shaman:n" },
+				{ 20, "Tier3:warlock:n" },
+				{ 22, "Tier3:warrior:n" },
+			},
+		},
+		{ -- Tier 2 Sets
+			name = format(AL["Tier %d Sets"], 2).." ("..EXPANSION_NAME0..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier2:druid:n" },
+				{ 3,  "Tier2:hunter:n" },
+				{ 5,  "Tier2:mage:n" },
+				{ 7,  "Tier2:paladin:n" },
+				{ 9,  "Tier2:priest:n" },
+				{ 16, "Tier2:rogue:n" },
+				{ 18, "Tier2:shaman:n" },
+				{ 20, "Tier2:warlock:n" },
+				{ 22, "Tier2:warrior:n" },
+			},
+		},
+		{ -- Tier 1 Sets
+			name = format(AL["Tier %d Sets"], 1).." ("..EXPANSION_NAME0..")",
+			[NORMAL_DIFF] = {
+				{ 1,  "Tier1:druid:n" },
+				{ 3,  "Tier1:hunter:n" },
+				{ 5,  "Tier1:mage:n" },
+				{ 7,  "Tier1:paladin:n" },
+				{ 9,  "Tier1:priest:n" },
+				{ 16, "Tier1:rogue:n" },
+				{ 18, "Tier1:shaman:n" },
+				{ 20, "Tier1:warlock:n" },
+				{ 22, "Tier1:warrior:n" },
 			},
 		},
 	},
@@ -4551,35 +4794,51 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 216, "Tier18:dk:n" },
 				{ 217, "Tier18:dk:hB1" },
 				{ 218, "Tier18:dk:mB1" },
-				{ 220, "Tier19:deathknight:rf" },
-				{ 221, "Tier19:deathknight:n" },
-				{ 222, "Tier19:deathknight:hB1" },
-				{ 223, "Tier19:deathknight:mB1" },
-				{ 225, "Tier20:deathknight:rf" },
-				{ 226, "Tier20:deathknight:n" },
-				{ 227, "Tier20:deathknight:hB1" },
-				{ 228, "Tier20:deathknight:mB1" },
-				{ 301, "Tier21:deathknight:rf" },
-				{ 302, "Tier21:deathknight:n" },
-				{ 303, "Tier21:deathknight:hB1" },
-				{ 304, "Tier21:deathknight:mB1" },
+				{ 220, "Tier19:deathknight:LFRWithDifficulty" },
+				{ 221, "Tier19:deathknight:NormalWithDifficulty" },
+				{ 222, "Tier19:deathknight:HeroicWithDifficulty" },
+				{ 223, "Tier19:deathknight:MythicWithDifficulty" },
+				{ 225, "Tier20:deathknight:LFRWithDifficulty" },
+				{ 226, "Tier20:deathknight:NormalWithDifficulty" },
+				{ 227, "Tier20:deathknight:HeroicWithDifficulty" },
+				{ 228, "Tier20:deathknight:MythicWithDifficulty" },
+				{ 301, "Tier21:deathknight:LFRWithDifficulty" },
+				{ 302, "Tier21:deathknight:NormalWithDifficulty" },
+				{ 303, "Tier21:deathknight:HeroicWithDifficulty" },
+				{ 304, "Tier21:deathknight:MythicWithDifficulty" },
+				{ 306, "Tier32:deathknight:LFRWithDifficulty" },
+				{ 307, "Tier32:deathknight:NormalWithDifficulty" },
+				{ 308, "Tier32:deathknight:HeroicWithDifficulty" },
+				{ 309, "Tier32:deathknight:MythicWithDifficulty" },
+				{ 311, "Tier33:deathknight:LFRWithDifficulty" },
+				{ 312, "Tier33:deathknight:NormalWithDifficulty" },
+				{ 313, "Tier33:deathknight:HeroicWithDifficulty" },
+				{ 314, "Tier33:deathknight:MythicWithDifficulty" },
 			},
 		},
 		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[NORMAL_DIFF] = {
-				{ 1,  "Tier19:demonhunter:rf" },
-				{ 2,  "Tier19:demonhunter:n" },
-				{ 3,  "Tier19:demonhunter:hB1" },
-				{ 4,  "Tier19:demonhunter:mB1" },
-				{ 6,  "Tier20:demonhunter:rf" },
-				{ 7,  "Tier20:demonhunter:n" },
-				{ 8,  "Tier20:demonhunter:hB1" },
-				{ 9,  "Tier20:demonhunter:mB1" },
-				{ 11, "Tier21:demonhunter:rf" },
-				{ 12, "Tier21:demonhunter:n" },
-				{ 13, "Tier21:demonhunter:hB1" },
-				{ 14, "Tier21:demonhunter:mB1" },
+				{ 1,  "Tier19:demonhunter:LFRWithDifficulty" },
+				{ 2,  "Tier19:demonhunter:NormalWithDifficulty" },
+				{ 3,  "Tier19:demonhunter:HeroicWithDifficulty" },
+				{ 4,  "Tier19:demonhunter:MythicWithDifficulty" },
+				{ 6,  "Tier20:demonhunter:LFRWithDifficulty" },
+				{ 7,  "Tier20:demonhunter:NormalWithDifficulty" },
+				{ 8,  "Tier20:demonhunter:HeroicWithDifficulty" },
+				{ 9,  "Tier20:demonhunter:MythicWithDifficulty" },
+				{ 11, "Tier21:demonhunter:LFRWithDifficulty" },
+				{ 12, "Tier21:demonhunter:NormalWithDifficulty" },
+				{ 13, "Tier21:demonhunter:HeroicWithDifficulty" },
+				{ 14, "Tier21:demonhunter:MythicWithDifficulty" },
+				{ 16, "Tier32:demonhunter:LFRWithDifficulty" },
+				{ 17, "Tier32:demonhunter:NormalWithDifficulty" },
+				{ 18, "Tier32:demonhunter:HeroicWithDifficulty" },
+				{ 19, "Tier32:demonhunter:MythicWithDifficulty" },
+				{ 21, "Tier33:demonhunter:LFRWithDifficulty" },
+				{ 22, "Tier33:demonhunter:NormalWithDifficulty" },
+				{ 23, "Tier33:demonhunter:HeroicWithDifficulty" },
+				{ 24, "Tier33:demonhunter:MythicWithDifficulty" },
 			},
 		},
 		{ -- DRUID
@@ -4694,18 +4953,39 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 422, "Tier18:druid:n" },
 				{ 423, "Tier18:druid:hB1" },
 				{ 424, "Tier18:druid:mB1" },
-				{ 426, "Tier19:druid:rf" },
-				{ 427, "Tier19:druid:n" },
-				{ 428, "Tier19:druid:hB1" },
-				{ 429, "Tier19:druid:mB1" },
-				{ 501, "Tier20:druid:rf" },
-				{ 502, "Tier20:druid:n" },
-				{ 503, "Tier20:druid:hB1" },
-				{ 504, "Tier20:druid:mB1" },
-				{ 506, "Tier21:druid:rf" },
-				{ 507, "Tier21:druid:n" },
-				{ 508, "Tier21:druid:hB1" },
-				{ 509, "Tier21:druid:mB1" },
+				{ 426, "Tier19:druid:LFRWithDifficulty" },
+				{ 427, "Tier19:druid:NormalWithDifficulty" },
+				{ 428, "Tier19:druid:HeroicWithDifficulty" },
+				{ 429, "Tier19:druid:MythicWithDifficulty" },
+				{ 501, "Tier20:druid:LFRWithDifficulty" },
+				{ 502, "Tier20:druid:NormalWithDifficulty" },
+				{ 503, "Tier20:druid:HeroicWithDifficulty" },
+				{ 504, "Tier20:druid:MythicWithDifficulty" },
+				{ 506, "Tier21:druid:LFRWithDifficulty" },
+				{ 507, "Tier21:druid:NormalWithDifficulty" },
+				{ 508, "Tier21:druid:HeroicWithDifficulty" },
+				{ 509, "Tier21:druid:MythicWithDifficulty" },
+				{ 511, "Tier32:druid:LFRWithDifficulty" },
+				{ 512, "Tier32:druid:NormalWithDifficulty" },
+				{ 513, "Tier32:druid:HeroicWithDifficulty" },
+				{ 514, "Tier32:druid:MythicWithDifficulty" },
+				{ 516, "Tier33:druid:LFRWithDifficulty" },
+				{ 517, "Tier33:druid:NormalWithDifficulty" },
+				{ 518, "Tier33:druid:HeroicWithDifficulty" },
+				{ 519, "Tier33:druid:MythicWithDifficulty" },
+			},
+		},
+		{ -- EVOKER
+			name = ATLASLOOT_EVOKER_COLOR..ALIL["EVOKER"],
+			[NORMAL_DIFF] = {
+				{ 1, "Tier32:evoker:LFRWithDifficulty" },
+				{ 2, "Tier32:evoker:NormalWithDifficulty" },
+				{ 3, "Tier32:evoker:HeroicWithDifficulty" },
+				{ 4, "Tier32:evoker:MythicWithDifficulty" },
+				{ 6, "Tier33:evoker:LFRWithDifficulty" },
+				{ 7, "Tier33:evoker:NormalWithDifficulty" },
+				{ 8, "Tier33:evoker:HeroicWithDifficulty" },
+				{ 9, "Tier33:evoker:MythicWithDifficulty" },
 			},
 		},
 		{ -- HUNTER
@@ -4750,18 +5030,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 125, "Tier18:hunter:n" },
 				{ 126, "Tier18:hunter:hB1" },
 				{ 127, "Tier18:hunter:mB1" },
-				{ 201, "Tier19:hunter:rf" },
-				{ 202, "Tier19:hunter:n" },
-				{ 203, "Tier19:hunter:hB1" },
-				{ 204, "Tier19:hunter:mB1" },
-				{ 206, "Tier20:hunter:rf" },
-				{ 207, "Tier20:hunter:n" },
-				{ 208, "Tier20:hunter:hB1" },
-				{ 209, "Tier20:hunter:mB1" },
-				{ 211, "Tier21:hunter:rf" },
-				{ 212, "Tier21:hunter:n" },
-				{ 213, "Tier21:hunter:hB1" },
-				{ 214, "Tier21:hunter:mB1" },
+				{ 201, "Tier19:hunter:LFRWithDifficulty" },
+				{ 202, "Tier19:hunter:NormalWithDifficulty" },
+				{ 203, "Tier19:hunter:HeroicWithDifficulty" },
+				{ 204, "Tier19:hunter:MythicWithDifficulty" },
+				{ 206, "Tier20:hunter:LFRWithDifficulty" },
+				{ 207, "Tier20:hunter:NormalWithDifficulty" },
+				{ 208, "Tier20:hunter:HeroicWithDifficulty" },
+				{ 209, "Tier20:hunter:MythicWithDifficulty" },
+				{ 211, "Tier21:hunter:LFRWithDifficulty" },
+				{ 212, "Tier21:hunter:NormalWithDifficulty" },
+				{ 213, "Tier21:hunter:HeroicWithDifficulty" },
+				{ 214, "Tier21:hunter:MythicWithDifficulty" },
+				{ 216, "Tier32:hunter:LFRWithDifficulty" },
+				{ 217, "Tier32:hunter:NormalWithDifficulty" },
+				{ 218, "Tier32:hunter:HeroicWithDifficulty" },
+				{ 219, "Tier32:hunter:MythicWithDifficulty" },
+				{ 221, "Tier33:hunter:LFRWithDifficulty" },
+				{ 222, "Tier33:hunter:NormalWithDifficulty" },
+				{ 223, "Tier33:hunter:HeroicWithDifficulty" },
+				{ 224, "Tier33:hunter:MythicWithDifficulty" },
 			},
 		},
 		{ -- MAGE
@@ -4806,18 +5094,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 125, "Tier18:mage:n" },
 				{ 126, "Tier18:mage:hB1" },
 				{ 127, "Tier18:mage:mB1" },
-				{ 201, "Tier19:mage:rf" },
-				{ 202, "Tier19:mage:n" },
-				{ 203, "Tier19:mage:hB1" },
-				{ 204, "Tier19:mage:mB1" },
-				{ 206, "Tier20:mage:rf" },
-				{ 207, "Tier20:mage:n" },
-				{ 208, "Tier20:mage:hB1" },
-				{ 209, "Tier20:mage:mB1" },
-				{ 211, "Tier21:mage:rf" },
-				{ 212, "Tier21:mage:n" },
-				{ 213, "Tier21:mage:hB1" },
-				{ 214, "Tier21:mage:mB1" },
+				{ 201, "Tier19:mage:LFRWithDifficulty" },
+				{ 202, "Tier19:mage:NormalWithDifficulty" },
+				{ 203, "Tier19:mage:HeroicWithDifficulty" },
+				{ 204, "Tier19:mage:MythicWithDifficulty" },
+				{ 206, "Tier20:mage:LFRWithDifficulty" },
+				{ 207, "Tier20:mage:NormalWithDifficulty" },
+				{ 208, "Tier20:mage:HeroicWithDifficulty" },
+				{ 209, "Tier20:mage:MythicWithDifficulty" },
+				{ 211, "Tier21:mage:LFRWithDifficulty" },
+				{ 212, "Tier21:mage:NormalWithDifficulty" },
+				{ 213, "Tier21:mage:HeroicWithDifficulty" },
+				{ 214, "Tier21:mage:MythicWithDifficulty" },
+				{ 216, "Tier32:mage:LFRWithDifficulty" },
+				{ 217, "Tier32:mage:NormalWithDifficulty" },
+				{ 218, "Tier32:mage:HeroicWithDifficulty" },
+				{ 219, "Tier32:mage:MythicWithDifficulty" },
+				{ 221, "Tier33:mage:LFRWithDifficulty" },
+				{ 222, "Tier33:mage:NormalWithDifficulty" },
+				{ 223, "Tier33:mage:HeroicWithDifficulty" },
+				{ 224, "Tier33:mage:MythicWithDifficulty" },
 			},
 		},
 		{ -- MONK
@@ -4859,18 +5155,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 120, "Tier18:monk:n" },
 				{ 121, "Tier18:monk:hB1" },
 				{ 122, "Tier18:monk:mB1" },
-				{ 124, "Tier19:monk:rf" },
-				{ 125, "Tier19:monk:n" },
-				{ 126, "Tier19:monk:hB1" },
-				{ 127, "Tier19:monk:mB1" },
-				{ 201, "Tier20:monk:rf" },
-				{ 202, "Tier20:monk:n" },
-				{ 203, "Tier20:monk:hB1" },
-				{ 204, "Tier20:monk:mB1" },
-				{ 206, "Tier21:monk:rf" },
-				{ 207, "Tier21:monk:n" },
-				{ 208, "Tier21:monk:hB1" },
-				{ 209, "Tier21:monk:mB1" },
+				{ 124, "Tier19:monk:LFRWithDifficulty" },
+				{ 125, "Tier19:monk:NormalWithDifficulty" },
+				{ 126, "Tier19:monk:HeroicWithDifficulty" },
+				{ 127, "Tier19:monk:MythicWithDifficulty" },
+				{ 201, "Tier20:monk:LFRWithDifficulty" },
+				{ 202, "Tier20:monk:NormalWithDifficulty" },
+				{ 203, "Tier20:monk:HeroicWithDifficulty" },
+				{ 204, "Tier20:monk:MythicWithDifficulty" },
+				{ 206, "Tier21:monk:LFRWithDifficulty" },
+				{ 207, "Tier21:monk:NormalWithDifficulty" },
+				{ 208, "Tier21:monk:HeroicWithDifficulty" },
+				{ 209, "Tier21:monk:MythicWithDifficulty" },
+				{ 211, "Tier32:monk:LFRWithDifficulty" },
+				{ 212, "Tier32:monk:NormalWithDifficulty" },
+				{ 213, "Tier32:monk:HeroicWithDifficulty" },
+				{ 214, "Tier32:monk:MythicWithDifficulty" },
+				{ 216, "Tier33:monk:LFRWithDifficulty" },
+				{ 217, "Tier33:monk:NormalWithDifficulty" },
+				{ 218, "Tier33:monk:HeroicWithDifficulty" },
+				{ 219, "Tier33:monk:MythicWithDifficulty" },
 			},
 		},
 		{ -- PALADIN
@@ -4975,18 +5279,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 420, "Tier18:paladin:n" },
 				{ 421, "Tier18:paladin:hB1" },
 				{ 422, "Tier18:paladin:mB1" },
-				{ 424, "Tier19:paladin:rf" },
-				{ 425, "Tier19:paladin:n" },
-				{ 426, "Tier19:paladin:hB1" },
-				{ 427, "Tier19:paladin:mB1" },
-				{ 501, "Tier20:paladin:rf" },
-				{ 502, "Tier20:paladin:n" },
-				{ 503, "Tier20:paladin:hB1" },
-				{ 504, "Tier20:paladin:mB1" },
-				{ 506, "Tier21:paladin:rf" },
-				{ 507, "Tier21:paladin:n" },
-				{ 508, "Tier21:paladin:hB1" },
-				{ 509, "Tier21:paladin:mB1" },
+				{ 424, "Tier19:paladin:LFRWithDifficulty" },
+				{ 425, "Tier19:paladin:NormalWithDifficulty" },
+				{ 426, "Tier19:paladin:HeroicWithDifficulty" },
+				{ 427, "Tier19:paladin:MythicWithDifficulty" },
+				{ 501, "Tier20:paladin:LFRWithDifficulty" },
+				{ 502, "Tier20:paladin:NormalWithDifficulty" },
+				{ 503, "Tier20:paladin:HeroicWithDifficulty" },
+				{ 504, "Tier20:paladin:MythicWithDifficulty" },
+				{ 506, "Tier21:paladin:LFRWithDifficulty" },
+				{ 507, "Tier21:paladin:NormalWithDifficulty" },
+				{ 508, "Tier21:paladin:HeroicWithDifficulty" },
+				{ 509, "Tier21:paladin:MythicWithDifficulty" },
+				{ 511, "Tier32:paladin:LFRWithDifficulty" },
+				{ 512, "Tier32:paladin:NormalWithDifficulty" },
+				{ 513, "Tier32:paladin:HeroicWithDifficulty" },
+				{ 514, "Tier32:paladin:MythicWithDifficulty" },
+				{ 516, "Tier33:paladin:LFRWithDifficulty" },
+				{ 517, "Tier33:paladin:NormalWithDifficulty" },
+				{ 518, "Tier33:paladin:HeroicWithDifficulty" },
+				{ 519, "Tier33:paladin:MythicWithDifficulty" },
 			},
 		},
 		{ -- PRIEST
@@ -5061,18 +5373,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 305, "Tier18:priest:n" },
 				{ 306, "Tier18:priest:hB1" },
 				{ 307, "Tier18:priest:mB1" },
-				{ 309, "Tier19:priest:rf" },
-				{ 310, "Tier19:priest:n" },
-				{ 311, "Tier19:priest:hB1" },
-				{ 312, "Tier19:priest:mB1" },
-				{ 316, "Tier20:priest:rf" },
-				{ 317, "Tier20:priest:n" },
-				{ 318, "Tier20:priest:hB1" },
-				{ 319, "Tier20:priest:mB1" },
-				{ 321, "Tier21:priest:rf" },
-				{ 322, "Tier21:priest:n" },
-				{ 323, "Tier21:priest:hB1" },
-				{ 324, "Tier21:priest:mB1" },
+				{ 309, "Tier19:priest:LFRWithDifficulty" },
+				{ 310, "Tier19:priest:NormalWithDifficulty" },
+				{ 311, "Tier19:priest:HeroicWithDifficulty" },
+				{ 312, "Tier19:priest:MythicWithDifficulty" },
+				{ 316, "Tier20:priest:LFRWithDifficulty" },
+				{ 317, "Tier20:priest:NormalWithDifficulty" },
+				{ 318, "Tier20:priest:HeroicWithDifficulty" },
+				{ 319, "Tier20:priest:MythicWithDifficulty" },
+				{ 321, "Tier21:priest:LFRWithDifficulty" },
+				{ 322, "Tier21:priest:NormalWithDifficulty" },
+				{ 323, "Tier21:priest:HeroicWithDifficulty" },
+				{ 324, "Tier21:priest:MythicWithDifficulty" },
+				{ 326, "Tier32:priest:LFRWithDifficulty" },
+				{ 327, "Tier32:priest:NormalWithDifficulty" },
+				{ 328, "Tier32:priest:HeroicWithDifficulty" },
+				{ 329, "Tier32:priest:MythicWithDifficulty" },
+				{ 401, "Tier33:priest:LFRWithDifficulty" },
+				{ 402, "Tier33:priest:NormalWithDifficulty" },
+				{ 403, "Tier33:priest:HeroicWithDifficulty" },
+				{ 404, "Tier33:priest:MythicWithDifficulty" },
 			},
 		},
 		{ -- ROGUE
@@ -5117,18 +5437,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 125, "Tier18:rogue:n" },
 				{ 126, "Tier18:rogue:hB1" },
 				{ 127, "Tier18:rogue:mB1" },
-				{ 201, "Tier19:rogue:rf" },
-				{ 202, "Tier19:rogue:n" },
-				{ 203, "Tier19:rogue:hB1" },
-				{ 204, "Tier19:rogue:mB1" },
-				{ 206, "Tier20:rogue:rf" },
-				{ 207, "Tier20:rogue:n" },
-				{ 208, "Tier20:rogue:hB1" },
-				{ 209, "Tier20:rogue:mB1" },
-				{ 211, "Tier21:rogue:rf" },
-				{ 212, "Tier21:rogue:n" },
-				{ 213, "Tier21:rogue:hB1" },
-				{ 214, "Tier21:rogue:mB1" },
+				{ 201, "Tier19:rogue:LFRWithDifficulty" },
+				{ 202, "Tier19:rogue:NormalWithDifficulty" },
+				{ 203, "Tier19:rogue:HeroicWithDifficulty" },
+				{ 204, "Tier19:rogue:MythicWithDifficulty" },
+				{ 206, "Tier20:rogue:LFRWithDifficulty" },
+				{ 207, "Tier20:rogue:NormalWithDifficulty" },
+				{ 208, "Tier20:rogue:HeroicWithDifficulty" },
+				{ 209, "Tier20:rogue:MythicWithDifficulty" },
+				{ 211, "Tier21:rogue:LFRWithDifficulty" },
+				{ 212, "Tier21:rogue:NormalWithDifficulty" },
+				{ 213, "Tier21:rogue:HeroicWithDifficulty" },
+				{ 214, "Tier21:rogue:MythicWithDifficulty" },
+				{ 216, "Tier32:rogue:LFRWithDifficulty" },
+				{ 217, "Tier32:rogue:NormalWithDifficulty" },
+				{ 218, "Tier32:rogue:HeroicWithDifficulty" },
+				{ 219, "Tier32:rogue:MythicWithDifficulty" },
+				{ 221, "Tier33:rogue:LFRWithDifficulty" },
+				{ 222, "Tier33:rogue:NormalWithDifficulty" },
+				{ 223, "Tier33:rogue:HeroicWithDifficulty" },
+				{ 224, "Tier33:rogue:MythicWithDifficulty" },
 			},
 		},
 		{ -- SHAMAN
@@ -5233,18 +5561,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 420, "Tier18:shaman:n" },
 				{ 421, "Tier18:shaman:hB1" },
 				{ 422, "Tier18:shaman:mB1" },
-				{ 424, "Tier19:shaman:rf" },
-				{ 425, "Tier19:shaman:n" },
-				{ 426, "Tier19:shaman:hB1" },
-				{ 427, "Tier19:shaman:mB1" },
-				{ 501, "Tier20:shaman:rf" },
-				{ 502, "Tier20:shaman:n" },
-				{ 503, "Tier20:shaman:hB1" },
-				{ 504, "Tier20:shaman:mB1" },
-				{ 506, "Tier21:shaman:rf" },
-				{ 507, "Tier21:shaman:n" },
-				{ 508, "Tier21:shaman:hB1" },
-				{ 509, "Tier21:shaman:mB1" },
+				{ 424, "Tier19:shaman:LFRWithDifficulty" },
+				{ 425, "Tier19:shaman:NormalWithDifficulty" },
+				{ 426, "Tier19:shaman:HeroicWithDifficulty" },
+				{ 427, "Tier19:shaman:MythicWithDifficulty" },
+				{ 501, "Tier20:shaman:LFRWithDifficulty" },
+				{ 502, "Tier20:shaman:NormalWithDifficulty" },
+				{ 503, "Tier20:shaman:HeroicWithDifficulty" },
+				{ 504, "Tier20:shaman:MythicWithDifficulty" },
+				{ 506, "Tier21:shaman:LFRWithDifficulty" },
+				{ 507, "Tier21:shaman:NormalWithDifficulty" },
+				{ 508, "Tier21:shaman:HeroicWithDifficulty" },
+				{ 509, "Tier21:shaman:MythicWithDifficulty" },
+				{ 511, "Tier32:shaman:LFRWithDifficulty" },
+				{ 512, "Tier32:shaman:NormalWithDifficulty" },
+				{ 513, "Tier32:shaman:HeroicWithDifficulty" },
+				{ 514, "Tier32:shaman:MythicWithDifficulty" },
+				{ 516, "Tier33:shaman:LFRWithDifficulty" },
+				{ 517, "Tier33:shaman:NormalWithDifficulty" },
+				{ 518, "Tier33:shaman:HeroicWithDifficulty" },
+				{ 519, "Tier33:shaman:MythicWithDifficulty" },
 			},
 		},
 		{ -- WARLOCK
@@ -5289,18 +5625,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 125, "Tier18:warlock:n" },
 				{ 126, "Tier18:warlock:hB1" },
 				{ 127, "Tier18:warlock:mB1" },
-				{ 201, "Tier19:warlock:rf" },
-				{ 202, "Tier19:warlock:n" },
-				{ 203, "Tier19:warlock:hB1" },
-				{ 204, "Tier19:warlock:mB1" },
-				{ 206, "Tier20:warlock:rf" },
-				{ 207, "Tier20:warlock:n" },
-				{ 208, "Tier20:warlock:hB1" },
-				{ 209, "Tier20:warlock:mB1" },
-				{ 211, "Tier21:warlock:rf" },
-				{ 212, "Tier21:warlock:n" },
-				{ 213, "Tier21:warlock:hB1" },
-				{ 214, "Tier21:warlock:mB1" },
+				{ 201, "Tier19:warlock:LFRWithDifficulty" },
+				{ 202, "Tier19:warlock:NormalWithDifficulty" },
+				{ 203, "Tier19:warlock:HeroicWithDifficulty" },
+				{ 204, "Tier19:warlock:MythicWithDifficulty" },
+				{ 206, "Tier20:warlock:LFRWithDifficulty" },
+				{ 207, "Tier20:warlock:NormalWithDifficulty" },
+				{ 208, "Tier20:warlock:HeroicWithDifficulty" },
+				{ 209, "Tier20:warlock:MythicWithDifficulty" },
+				{ 211, "Tier21:warlock:LFRWithDifficulty" },
+				{ 212, "Tier21:warlock:NormalWithDifficulty" },
+				{ 213, "Tier21:warlock:HeroicWithDifficulty" },
+				{ 214, "Tier21:warlock:MythicWithDifficulty" },
+				{ 216, "Tier32:warlock:LFRWithDifficulty" },
+				{ 217, "Tier32:warlock:NormalWithDifficulty" },
+				{ 218, "Tier32:warlock:HeroicWithDifficulty" },
+				{ 219, "Tier32:warlock:MythicWithDifficulty" },
+				{ 221, "Tier33:warlock:LFRWithDifficulty" },
+				{ 222, "Tier33:warlock:NormalWithDifficulty" },
+				{ 223, "Tier33:warlock:HeroicWithDifficulty" },
+				{ 224, "Tier33:warlock:MythicWithDifficulty" },
 			},
 		},
 		{ -- WARRIOR
@@ -5375,18 +5719,26 @@ data["TIERSETS_BYCLASS"]   = {
 				{ 305, "Tier18:warrior:n" },
 				{ 306, "Tier18:warrior:hB1" },
 				{ 307, "Tier18:warrior:mB1" },
-				{ 309, "Tier19:warrior:rf" },
-				{ 310, "Tier19:warrior:n" },
-				{ 311, "Tier19:warrior:hB1" },
-				{ 312, "Tier19:warrior:mB1" },
-				{ 316, "Tier20:warrior:rf" },
-				{ 317, "Tier20:warrior:n" },
-				{ 318, "Tier20:warrior:hB1" },
-				{ 319, "Tier20:warrior:mB1" },
-				{ 321, "Tier21:warrior:rf" },
-				{ 322, "Tier21:warrior:n" },
-				{ 323, "Tier21:warrior:hB1" },
-				{ 324, "Tier21:warrior:mB1" },
+				{ 309, "Tier19:warrior:LFRWithDifficulty" },
+				{ 310, "Tier19:warrior:NormalWithDifficulty" },
+				{ 311, "Tier19:warrior:HeroicWithDifficulty" },
+				{ 312, "Tier19:warrior:MythicWithDifficulty" },
+				{ 316, "Tier20:warrior:LFRWithDifficulty" },
+				{ 317, "Tier20:warrior:NormalWithDifficulty" },
+				{ 318, "Tier20:warrior:HeroicWithDifficulty" },
+				{ 319, "Tier20:warrior:MythicWithDifficulty" },
+				{ 321, "Tier21:warrior:LFRWithDifficulty" },
+				{ 322, "Tier21:warrior:NormalWithDifficulty" },
+				{ 323, "Tier21:warrior:HeroicWithDifficulty" },
+				{ 324, "Tier21:warrior:MythicWithDifficulty" },
+				{ 326, "Tier32:warrior:LFRWithDifficulty" },
+				{ 327, "Tier32:warrior:NormalWithDifficulty" },
+				{ 328, "Tier32:warrior:HeroicWithDifficulty" },
+				{ 329, "Tier32:warrior:MythicWithDifficulty" },
+				{ 401, "Tier33:warrior:LFRWithDifficulty" },
+				{ 402, "Tier33:warrior:NormalWithDifficulty" },
+				{ 403, "Tier33:warrior:HeroicWithDifficulty" },
+				{ 404, "Tier33:warrior:MythicWithDifficulty" },
 			},
 		},
 
@@ -5461,93 +5813,224 @@ data["COMPANIONS"]         = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{
-			name = COMPANIONS,
-			--CoinTexture = "Reputation",
+		{ -- The War Within
+			name = EXPANSION_NAME10,
+			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   190583 }, -- Ichabod
-				{ 2,   191126 }, -- Obsidian Whelpling
+				{ 1,   232843, "pet4642" },                                      -- Gorillion
+				{ 2,   232838, "pet4639" },                                      -- Viridian Mechasaur
+				{ 3,   238796, "pet4791" },                                      -- Thrrrdgl
+				{ 4,   232852, "pet4636" },                                      -- Mutt
+				{ 5,   236768, "pet4759" },                                      -- Craboom
+				{ 6,   232847, "pet4646" },                                      -- Personal-Use Sapper
+				{ 7,   232848, "pet4647" },                                      -- Mr. DELVER
+				{ 8,   223155, "pet4469" },                                      -- Bop
+				{ 9,   224766, "pet4596" },                                      -- Faithful Dog
+				{ 10,  232858, "pet4655", [PRICE_EXTRA_ITTYPE] = "vintageKajaCola:1" }, -- Cruncher
+				{ 11,  232859, "pet4653", [PRICE_EXTRA_ITTYPE] = "vintageKajaCola:3" }, -- Lab Rat
+				{ 12,  238261, "pet4762" },                                      -- Tock the Clocker Spaniel
+				{ 13,  233056, "pet4708", [QUEST_EXTRA_ITTYPE] = 86261 },        -- Marmaduke
+				{ 14,  232839, "pet4637", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Wavebreaker Mechasaur
+				{ 15,  232840, "pet4661", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Mechagopher
+				{ 16,  232842, "pet4638", [PRICE_EXTRA_ITTYPE] = "234741:10" },  -- Crimson Mechasaur
+				{ 17,  232853, "pet4632", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Eepy
+				{ 18,  221496, "pet4496" },                                      -- Wriggle
+				{ 19,  221850, "pet4464", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Freshly Webbed Kebab / Bean
+				{ 20,  234379, "pet4726" },                                      -- Crackleroar
+				{ 21,  221546, "pet4534" },                                      -- Nightfarm Growthling
+				{ 22,  223624, "pet4575" },                                      -- Sneef
+				{ 23,  232851, "pet4641", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Rocketfist
+				{ 24,  225337, "pet4506" },                                      -- Violet Sporbit
+				{ 25,  232845, "pet4645", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Bilgewater Junkhauler
+				{ 26,  232844, "pet4640" },                                      -- Fuz-Size Flarendo
+				{ 27,  221819, "pet4472" },                                      -- Shadowbog Hopper
+				{ 28,  222971, "pet4489" },                                      -- Bouncer
+				{ 29,  232841, "pet4644", [PRICE_EXTRA_ITTYPE] = "234741:8" },   -- Professor Punch
+				{ 30,  232849, "pet4650", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Venture Companyman
+				{ 101, 220782, "pet4462", [QUEST_EXTRA_ITTYPE] = 82007 },        -- Thunder
+				{ 102, 232895, "pet4701", [QUEST_EXTRA_ITTYPE] = 85711 },        -- Spotty
+				{ 103, 222974, "pet4543", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Sir Shady Mrrgglton Junior
+				{ 104, 220771, "pet4467" },                                      -- Hallowed Glowfly
+				{ 105, 229366, "pet4629" },                                      -- Brrrgl
+				{ 106, 224646, "pet4598", [PRICE_EXTRA_ITTYPE] = "224642:1" },   -- Coppers the Kobold
+				{ 107, 232850, "pet4649", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Blackwater Kegmover
+				{ 108, 221486, "pet4455", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Rak-Ush Threadling
+				{ 109, 232806, "pet4643" },                                      -- Tiny Torq
+				{ 110, 231294, "pet4682" },                                      -- Reven
+				{ 111, 232846, "pet4648", [PRICE_EXTRA_ITTYPE] = "234741:5" },   -- Steamwheedle Flunkie
+				{ 112, 225544, "pet4599" },                                      -- Mind Slurp
+				{ 113, 222972, "pet4491", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Jump Jump
+				{ 114, 224549, "pet4594" },                                      -- Sewer Turtle Whistle
+				{ 115, 222968, "pet4476", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Itchbite
+				{ 116, 221821, "pet4517" },                                      -- Waxwick (ac41683)
+				{ 117, 232855, "pet4631" },                                      -- Foreman (ac41551)
+				{ 118, 222970, "pet4490" },                                      -- Fuzzy (ac41213)
+				{ 119, 223487, "pet4482" },                                      -- Writhing Transmutagen
+				{ 120, 229368, "pet4630" },                                      -- Gill'el
+				{ 121, 222973, "pet4492", [PRICE_EXTRA_ITTYPE] = "kej:2250" },   -- Fringe
+				{ 122, 221820, "pet4537" },                                      -- Chester
+				{ 123, 228765, "pet4616" },                                      -- Gummi
+				{ 124, 232807, "pet4664" },                                      -- Iron Chick (ac41349)
+				{ 125, 232519, "pet4690" },                                      -- Razeshi B.
+				{ 126, 224439, "pet4470" },                                      -- Oop'lajax
+				{ 127, 224450, "pet4527" },                                      -- Lil' Moss Rosy
+				{ 128, 228790, "pet4617" },                                      -- Thrillbot 9000
+				{ 129, 228793, "pet4618" },                                      -- Chillbot 9000
+				{ 130, 222980, "pet4542" },                                      -- Slim (ac41200)
+				{ 201, 224259, "pet4590" },                                      -- Flash
+				{ 202, 221849, "pet4465", [QUEST_EXTRA_ITTYPE] = 79110 },        -- Vanilla
+				{ 203, 222966, "pet4473" },                                      -- Spinner
+				{ 204, 231310, "pet4684" },                                      -- Timbered Sky Snakelet
+				{ 205, 221760, "pet4513" },                                      -- Pillarnest Bonedrinker
+				{ 206, 221848, "pet4463", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Tiberius
+				{ 207, 224101, "pet4586", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Brown Leafbug
+				{ 208, 224261, "pet4589" },                                      -- Gale
+				{ 209, 232531, "pet4691" },                                      -- Grunch
+				{ 210, 221494, "pet4495", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Skippy
+				{ 211, 221761, "pet4511", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Venomwing
+				{ 212, 224260, "pet4591" },                                      -- Thundo
+				{ 213, 222964, "pet4520", [QUEST_EXTRA_ITTYPE] = 80316 },        -- Fathom Incher
+				{ 214, 223623, "pet4576", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Guacamole
+				{ 215, 223625, "pet4570", [QUEST_EXTRA_ITTYPE] = 79683 },        -- Cinderwold Sizzlestinger
+				{ 216, 228740, "pet4614" },                                      -- Gizmo the Pure
+				{ 217, 235358, "pet4733" },                                      -- Merriment
+				{ 218, 224579, "pet3362" },                                      -- Sapphire Crab
+				{ 219, 221548, "pet4536" },                                      -- Blightbud
+				{ 220, 224760, "pet4597", [PRICE_EXTRA_ITTYPE] = "224642:1" },   -- Wobbles
+				{ 221, 231365, "pet4689", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Karazhan Syphoner
+				{ 222, 232923, "pet4704", [PRICE_EXTRA_ITTYPE] = "lovetoken:40" }, -- Living Rose
+				{ 223, 233366, "pet4719", [PRICE_EXTRA_ITTYPE] = "tender:300" }, -- Wind-Up Woofer
+				{ 224, 224410, "pet4593", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Craggles
+				{ 225, 234395, "pet4727", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Skitterbite
+				{ 226, 222965, "pet4530", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
+				{ 227, 223802, "pet4581" },                                      -- Ruby-Eyed Stagshell (ac40088)
+				{ 228, 234396, "pet4728", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Teatuft Tamer
+				{ 229, 234397, "pet4729", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Fullbelly Rollingpaw
+				{ 230, 228758, "pet4615" },                                      -- Parrlok
+				{ 301, 230011, "pet4679" },                                      -- Lil'Kaz's Hilt
+				{ 302, 233247, "pet4692" },                                      -- Sparklesnap
+				{ 303, 233361, "pet4718", [PRICE_EXTRA_ITTYPE] = "tender:300" }, -- Wind-Up Wuffi
+				{ 304, 218086, "pet4450", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Riverpaw
+				{ 305, 222978, "pet4546", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Sandstone Ramolith
+				{ 306, 225935, "pet4582", [QUEST_EXTRA_ITTYPE] = 79123 },        -- Rak-Ush Battleshell
+				{ 307, 228781, "pet4678" },                                      -- Lil'Doomy's Hilt
+				{ 308, 224406, "pet4592", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Misty
+				{ 309, 233251, "pet4426" },                                      -- Bubbles
+				{ 310, 218245, "pet4451", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Construct
+				{ 311, 232653, "pet4694" },                                      -- Portentous Present
+				{ 312, 218246, "pet4452", [PRICE_EXTRA_ITTYPE] = "residualMemories:10000" }, -- Remembered Spawn
+				{ 313, 221811, "pet4524", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" }, -- Starkstripe Hopper
+				{ 314, 235989, "pet4695" },                                      -- Parley
+				{ 315, 231356, "pet4686", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Specter
+				{ 316, 225934, "pet4500" },                                      -- Lil' Bonechewer (ac41085)
+				{ 317, 226104, "pet4602", [PRICE_EXTRA_ITTYPE] = "tender:330" }, -- Claudius
+				{ 318, 229993, "pet4669", [PRICE_EXTRA_ITTYPE] = "tender:400" }, -- Bluedoo
+				{ 319, 233252, "pet4435" },                                      -- Happy
+				{ 320, 233248, "pet4425" },                                      -- Glamrok
+				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
+				-- { 312, 221764, "pet4519" }, -- Burntram
+				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
+				-- { 322, 221759, "pet4512" }, -- Sceaduthax
+				-- { 323, 221851, "pet4466" }, -- Argos
+				-- { 325, 222979, "pet4545" }, -- Clay Stonecharger
+				-- { 327, 221195, "pet4458" }, -- Illskitter
+				-- { 324, 234905, "pet4730" }, -- Mech-Friend Maya
+				-- { 324, 221492, "pet4459" }, -- Moss Skipper
+				-- { 325, 221493, "pet4493" }, -- Admiral
+				-- { 326, 221495, "pet4497" }, -- Waddles
+				-- { 327, 222967, "pet4475" }, -- Webbers
+				-- { 102, 232857, "pet4635" }, -- Goggles
+				-- { 114, 232856, "pet4633" }, -- Scruff
+				-- { 203, 232854, "pet4634" }, -- Grinner
+			}
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			-- CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   190583, "pet3248" }, -- Ichabod
+				{ 2,   191126, "pet3256" }, -- Obsidian Whelpling
 				{ 3,   191886, "pet3274" }, -- Alvin the Anvil
-				{ 4,   191915 }, -- Time-Lost Feral Rabbit
-				{ 5,   191930 }, -- Blue Phoenix Hatchling
+				{ 4,   191915, "pet3259" }, -- Shaggy
+				{ 5,   191930, "pet3261" }, -- Wakyn
 				{ 6,   191932, "pet3262" }, -- Violet Violence
 				{ 7,   191936, "pet3263" }, -- Secretive Frogduck
 				{ 8,   191941, "pet3264" }, -- Crystalline Mini-Monster
 				{ 9,   191946, "pet3265" }, -- Mister Muskoxeles
 				{ 10,  192459, "pet3270" }, -- Jean's Lucky Fish
 				{ 11,  193066, "pet3275" }, -- Chestnut
-				{ 12,  193068 }, -- Time-Lost Treeflitter
-				{ 13,  193071, "pet3278" }, -- Pistachio
-				{ 14,  193225, "pet3284" }, -- Whiskuk
-				{ 15,  193235 }, -- Scarlet Ottuk Pup
-				{ 16,  193363 }, -- Auburntusk Calf
-				{ 17,  193364 }, -- Time-Lost Baby Mammoth
-				{ 18,  193373 }, -- Phoenix Wishwing
-				{ 19,  193374 }, -- Crimson Phoenix Hatchling
-				{ 20,  193377 }, -- Time-Lost Phoenix Hatchling
-				{ 21,  193380 }, -- Pink Salamanther
-				{ 22,  193429 }, -- Time-Lost Salamanther
-				{ 23,  193484, "pet3302" }, -- Pilot
-				{ 24,  193571, "pet3303" }, -- Mallard Duckling
-				{ 25,  193572, "pet3306" }, -- Quack-E
-				{ 26,  193587 }, -- Time-Lost Duck
-				{ 27,  193614 }, -- Groundshaker
-				{ 28,  193618, "pet3317" }, -- Hoofhelper
-				{ 29,  193619, "pet3319" }, -- Yipper
-				{ 30,  193620 }, -- Time-Lost Slyvern
-				{ 101, 193834, "pet3321" }, -- Blackfeather Nester
-				{ 102, 193835 }, -- Brightfeather
-				{ 103, 193837, "pet3326" }, -- Backswimmer Timbertooth
-				{ 104, 193850 }, -- Time-Lost Timbertooth
-				{ 105, 193851 }, -- Purple Frillfish
-				{ 106, 193852, "pet3269" }, -- Azure Frillfish
-				{ 107, 193853 }, -- Emerald Frillfish
-				{ 108, 193854 }, -- Blue Vorquin Foal
-				{ 109, 193855 }, -- Time-Lost Vorquin Foal
-				{ 110, 193885, "pet3345" }, -- Jeweled Amber Whelpling
-				{ 111, 193886, "pet3344" }, -- Jeweled Sapphire Whelpling
-				{ 112, 193887, "pet3346" }, -- Jeweled Ruby Whelpling
-				{ 113, 193888, "pet3347" }, -- Jeweled Emerald Whelpling
-				{ 114, 193889, "pet3256" }, -- Jeweled Onyx Whelpling
-				{ 115, 193908 }, -- Sapphire Crystalspine
-				{ 116, 194098, "pet3350" }, -- Lord Basilton
-				{ 117, 198353 }, -- Shiverweb Egg
-				{ 118, 198622 }, -- Spyragos
-				{ 119, 198725, "pet3381" }, -- Gray Marmoni
-				{ 120, 198726, "pet3380" }, -- Black Skitterbug
-				{ 121, 199109, "pet3348" }, -- Primal Stormling
-				{ 122, 199172, "pet3309" }, -- Viridescent Duck
-				{ 123, 199175, "pet3316" }, -- Lubbins
-				{ 124, 199326, "pet3376" }, -- Chip
-				{ 125, 199688, "pet3279" }, -- Bronze Racing Enthusiast
-				{ 126, 199757, "pet3378" }, -- Magic Nibbler
-				{ 127, 199758, "pet3379" }, -- Crimson Proto-Whelp
-				{ 128, 199916, "pet3365" }, -- Roseate Hopper
-				{ 129, 200114, "pet3382" }, -- Stormie
-				{ 130, 200173, "pet3287" }, -- Ghostflame
-				{ 201, 200183, "pet3355" }, -- Echo of the Cave
-				{ 202, 200255, "pet3289" }, -- Echo of the Inferno
-				{ 203, 200260, "pet3299" }, -- Echo of the Depths
-				{ 204, 200263, "pet3310" }, -- Echo of the Heights
-				{ 205, 200276, "pet3311" }, -- Ohuna Companion
-				{ 206, 200290, "pet3325" }, -- Bakar Companion
-				{ 207, 200479, "pet3390" }, -- Sophic Amalgamation
-				{ 208, 200519, "pet3286" }, -- Mister Toots
-				{ 209, 200872, "pet3405" }, -- Living Mud Mask
-				{ 210, 200874, "pet3406" }, -- Lady Feathersworth
-				{ 211, 200927, "pet3408" }, -- Petal
-				{ 212, 200930, "pet3414" }, -- Obsidian Proto-Whelp
-				{ 213, 201260, "pet3410" }, -- Dust Spirit
-				{ 214, 201261, "pet3411" }, -- Blaze Spirit
-				{ 215, 201262, "pet3412" }, -- Gale Spirit
-				{ 216, 201265, "pet3409" }, -- Tide Spirit
-				{ 217, 201441, "pet3407" }, -- Scout
-				{ 218, 201463, "pet3415" }, -- Cubbly
-				{ 219, 201703, "pet3417" }, -- Pinkie
-				{ 220, 201707, "pet3416" }, -- Troubled Tome
-				{ 221, 201838 }, -- Snowclaw Cub
-				{ 222, 202085 }, -- Bugbiter Tortoise
-			},
+				{ 12,  193071, "pet3278" }, -- Pistachio
+				{ 13,  193225, "pet3284" }, -- Whiskuk
+				{ 14,  193235, "pet3285" }, -- Luvvy
+				{ 15,  193363, "pet3290" }, -- Bunbo
+				{ 16,  193364, "pet3291" }, -- Scruffles
+				{ 17,  193373, "pet3292" }, -- Phoenix Wishwing
+				{ 18,  193374, "pet3293" }, -- Ashenwing
+				{ 19,  193377, "pet3294" }, -- Gerald
+				{ 20,  193429, "pet3297" }, -- Time-Lost Salamanther
+				{ 21,  193484, "pet3302" }, -- Pilot
+				{ 22,  193571, "pet3303" }, -- Mallard Duckling
+				{ 23,  193572, "pet3306" }, -- Quack-E
+				{ 24,  193618, "pet3317" }, -- Hoofhelper
+				{ 25,  193619, "pet3319" }, -- Yipper
+				{ 26,  193834, "pet3321" }, -- Blackfeather Nester
+				{ 27,  193835, "pet3323" }, -- Brightfeather
+				{ 28,  193837, "pet3326" }, -- Backswimmer Timbertooth
+				{ 29,  193850, "pet3330" }, -- Buckie
+				{ 30,  193851, "pet3332" }, -- Patos
+				{ 101, 193852, "pet3269" }, -- Azure Frillfish
+				{ 102, 193853, "pet3331" }, -- Emmah
+				{ 103, 193854, "pet3333" }, -- Berylmane
+				{ 104, 193855, "pet3334" }, -- Time-Lost Vorquin Foal
+				{ 105, 193885, "pet3345" }, -- Jeweled Amber Whelpling
+				{ 106, 193886, "pet3344" }, -- Jeweled Sapphire Whelpling
+				{ 107, 193887, "pet3346" }, -- Jeweled Ruby Whelpling
+				{ 108, 193888, "pet3347" }, -- Jeweled Emerald Whelpling
+				{ 109, 193889, "pet3256" }, -- Jeweled Onyx Whelpling
+				{ 110, 193908, "pet3338" }, -- Koboldt
+				{ 111, 194098, "pet3350" }, -- Lord Basilton
+				{ 112, 198353, "pet3368" }, -- Shiverweb Egg
+				{ 113, 198622, "pet3342" }, -- Spyragos
+				{ 114, 198725, "pet3381" }, -- Gray Marmoni
+				{ 115, 198726, "pet3380" }, -- Black Skitterbug
+				{ 116, 199109, "pet3348" }, -- Primal Stormling
+				{ 117, 199172, "pet3309" }, -- Viridescent Duck
+				{ 118, 199175, "pet3316" }, -- Lubbins
+				{ 119, 199326, "pet3376" }, -- Chip
+				{ 120, 199688, "pet3279" }, -- Bronze Racing Enthusiast
+				{ 121, 199757, "pet3378" }, -- Magic Nibbler
+				{ 122, 199758, "pet3379" }, -- Crimson Proto-Whelp
+				{ 123, 199916, "pet3365" }, -- Roseate Hopper
+				{ 124, 200114, "pet3382" }, -- Stormie
+				{ 125, 200173, "pet3287" }, -- Ghostflame
+				{ 126, 200183, "pet3355" }, -- Echo of the Cave
+				{ 127, 200255, "pet3289" }, -- Echo of the Inferno
+				{ 128, 200260, "pet3299" }, -- Echo of the Depths
+				{ 129, 200263, "pet3310" }, -- Echo of the Heights
+				{ 130, 200276, "pet3311" }, -- Ohuna Companion
+				{ 201, 200290, "pet3325" }, -- Bakar Companion
+				{ 202, 200479, "pet3390" }, -- Sophic Amalgamation
+				{ 203, 200519, "pet3286" }, -- Mister Toots
+				{ 204, 200872, "pet3405" }, -- Living Mud Mask
+				{ 205, 200874, "pet3406" }, -- Lady Feathersworth
+				{ 206, 200927, "pet3408" }, -- Petal
+				{ 207, 200930, "pet3414" }, -- Obsidian Proto-Whelp
+				{ 208, 201260, "pet3410" }, -- Dust Spirit
+				{ 209, 201261, "pet3411" }, -- Blaze Spirit
+				{ 210, 201262, "pet3412" }, -- Gale Spirit
+				{ 211, 201265, "pet3409" }, -- Tide Spirit
+				{ 212, 201441, "pet3407" }, -- Scout
+				{ 213, 201463, "pet3415" }, -- Cubbly
+				{ 214, 201703, "pet3417" }, -- Pinkie
+				{ 215, 201707, "pet3416" }, -- Troubled Tome
+				{ 216, 201838, "pet3359" }, -- Snowclaw Cub
+				{ 217, 202085, "pet3360" }, -- Bugbiter Tortoise
+				-- { 12,  193068 }, -- Time-Lost Treeflitter
+				-- { 21,  193380 }, -- Pink Salamanther
+				-- { 26,  193587 }, -- Time-Lost Duck
+				-- { 27,  193614 }, -- Groundshaker
+				-- { 30,  193620 }, -- Time-Lost Slyvern
+			}
 		},
 	},
 }
@@ -5557,9 +6040,91 @@ data["TOYS"]               = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
-		{
-			name = TOY,
-			--CoinTexture = "Reputation",
+		{ -- The War Within
+			name = EXPANSION_NAME10,
+			-- CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   236687 },                                     -- Explosive Hearthstone
+				{ 2,   226373, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Everlasting Noggenfogger Elixir
+				{ 3,   237382, [PRICE_EXTRA_ITTYPE] = "emptyKajaCola:999" }, -- Undermine Supply Crate
+				{ 4,   226810 },                                     -- Infiltrator's Shroud
+				{ 5,   235041, [QUEST_EXTRA_ITTYPE] = 85657 },       -- Cyrce's Circlet
+				{ 6,   237345, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Limited Edition Rocket Bobber
+				{ 7,   231064, [PRICE_EXTRA_ITTYPE] = "undercoin:2500" }, -- Throwaway Gangster Disguise
+				{ 8,   230850, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Delve-O-Bot 7001
+				{ 9,   237347, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Organically-Sourced Wellington Bobber
+				{ 10,  234950, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Atomic Regoblinator
+				{ 11,  230727, [QUEST_EXTRA_ITTYPE] = 85244 },       -- Explosive Victory
+				{ 12,  235050 },                                     -- Desk-in-a-Box (ac41588)
+				{ 13,  225659 },                                     -- Arathi Book Collection
+				{ 14,  221966 },                                     -- Wormhole Generator: Khaz Algar
+				{ 15,  235801, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Personal Fishing Barge
+				{ 16,  237346, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Artisan Beverage Goblet Bobber
+				{ 17,  225641 },                                     -- Illusive Kobyss Lure
+				{ 18,  230924 },                                     -- Spotlight Materializer 1000
+				{ 19,  235807, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Storefront-in-a-Box
+				{ 20,  233202, [QUEST_EXTRA_ITTYPE] = 84675 },       -- G.O.L.E.M, Jr.
+				{ 21,  228940, [PRICE_EXTRA_ITTYPE] = "kej:3000" },  -- Notorious Thread's Hearthstone
+				{ 22,  235220 },                                     -- Fireworks Hat
+				{ 23,  236769 },                                     -- Gallagio Pipeline Rerouter (ac41211)
+				{ 24,  234951 },                                     -- Uncracked Cold Ones
+				{ 25,  235017 },                                     -- Glittering Vault Shard
+				{ 26,  211931 },                                     -- Abyss Caller Horn
+				{ 27,  224251 },                                     -- Memory Chord (ac40314)
+				{ 28,  235519 },                                     -- Prized Legend's Pennant
+				{ 29,  228698, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Candleflexer's Dumbbell
+				{ 30,  233486, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Hallowfall Supply Cache
+				{ 101, 225910 },                                     -- Pileus Delight
+				{ 102, 219387 },                                     -- Barrel of Fireworks
+				{ 103, 236751 },                                     -- Take-Home Flarendo
+				{ 104, 228705, [PRICE_EXTRA_ITTYPE] = "kej:1750" },  -- Arachnoserum
+				{ 105, 235015, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Awakened Supply Crate
+				{ 106, 228914, [PRICE_EXTRA_ITTYPE] = "kej:1500" },  -- Arachnophile Spectacles
+				{ 107, 236749 },                                     -- Take-Home Torq
+				{ 108, 228789 },                                     -- Coldflame Ring
+				{ 109, 221962 },                                     -- Defective Escape Pod
+				{ 110, 219403 },                                     -- Stonebound Lantern
+				{ 111, 215145 },                                     -- Remembrance Stone
+				{ 112, 228707, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Trial of Burning Light
+				{ 113, 221964 },                                     -- Filmless Camera
+				{ 114, 225347 },                                     -- Web-Vandal's Spinning Wheel
+				{ 115, 228966 },                                     -- Starry-Eyed Goggles
+				{ 116, 224585 },                                     -- Hanna's Locket
+				{ 117, 226191, [PRICE_EXTRA_ITTYPE] = "money:7500" }, -- Web Pet Leash
+				{ 118, 225556 },                                     -- Ancient Construct
+				{ 119, 227539 },                                     -- Unbound Strategist's Pennant (ac40795)
+				{ 120, 228413 },                                     -- Lampyridae Lure
+				{ 121, 224783 },                                     -- Sovereign's Finery Chest
+				{ 122, 225547, [QUEST_EXTRA_ITTYPE] = 83500 },       -- Toxic Victory
+				{ 123, 225933 },                                     -- Forged Legend's Pennant
+				{ 124, 235288 },                                     -- Sha-Warped Tea Set
+				{ 125, 234473, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Soweezi's Comfy Lawn Chair
+				{ 126, 223312, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Trusty Hat
+				{ 127, 235670, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Bilgewater Cartel Banner
+				{ 128, 235671, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Blackwater Cartel Banner
+				{ 129, 235669, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Steamwheedle Cartel Banner
+				{ 130, 235672, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Venture Co. Banner
+				{ 201, 235799, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Throwin' Sawblade
+				{ 202, 215147 },                                     -- Beautification Iris
+				{ 203, 225969 },                                     -- Forged Flag of Victory (ac40096)
+				{ 204, 224552 },                                     -- Cave Spelunker's Torch
+				{ 205, 218308 },                                     -- Winter Veil Cracker
+				{ 206, 227538 },                                     -- Unbound Legend's Pennant (ac40792)
+				{ 207, 228706, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Rockslidomancer's Stone
+				{ 208, 224192, [PRICE_EXTRA_ITTYPE] = "timewarped:200" }, -- Practice Ravager
+				{ 209, 224643, [PRICE_EXTRA_ITTYPE] = "224642:1" },  -- Pet-Sized Candle
+				{ 210, 224554 },                                     -- Silver Linin' Scepter
+				{ 211, 226519, [PRICE_EXTRA_ITTYPE] = "kej:1100" },  -- General's Expertise
+				{ 212, 232301 },                                     -- Tempered Banner of the Algari
+				{ 213, 232305 },                                     -- Forged Champion's Prestigious Banner
+				{ 214, 229828 },                                     -- 20th Anniversary Balloon Chest
+				{ 215, 218310 },                                     -- Box of Puntables
+				-- { 214, 235016 },                                     -- Redeployment Module
+			}
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   191891 }, -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
 				{ 2,   192443 }, -- Element-Infused Rocket Helmet
@@ -5614,7 +6179,7 @@ data["TOYS"]               = {
 				{ 121, 199899 }, -- Iskaara Tug Sled
 				{ 122, 199902 }, -- Wayfinder's Compass
 				{ 123, 200116 }, -- Everlasting Horn of Lavaswimming
-				{ 124, 200142 }, -- Generous Goblin Grenade
+				-- { 124, 200142 }, -- Generous Goblin Grenade (unobtainable)
 				{ 125, 200148 }, -- A Collection Of Me
 				{ 126, 200160 }, -- Notfar's Favorite Food
 				{ 127, 200178 }, -- Infected Ichor
@@ -5645,7 +6210,7 @@ data["TOYS"]               = {
 				{ 222, 202022 }, -- Yennu's Kite
 				{ 223, 202042 }, -- Aquatic Shades
 				{ 224, 202711 }, -- Lost Compass
-			},
+			}
 		},
 	},
 }
