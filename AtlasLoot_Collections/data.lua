@@ -1090,11 +1090,11 @@ data["MOUNTS"]             = {
 				{ 324, 226040, "mount" },                                      -- Plunderlord's Golden Crocolisk
 				{ 325, 226044, "mount" },                                      -- Plunderlord's Weathered Crocolisk
 				{ 326, 233242, "mount" },                                      -- Royal Seafeather
+				{ 327, 235555, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" }, -- Lively Darkmoon Charger
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
 				-- { 325, 235557, "mount" }, -- Snowy Darkmoon Charger (not yet available)
-				-- { 327, 235555, "mount" }, -- Lively Darkmoon Charger (not yet available)
 				-- { 327, 235658, "mount" }, -- Spring Butterfly (not yet available)
 			},
 			[HORDE_DIFF] = {
