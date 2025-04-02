@@ -119,7 +119,9 @@
 		"EXPANSION_NAME9",
 		"ITEM_QUALITY_COLORS",
 		"DEFAULT_CHAT_FRAME",
-		"QuestEventListener"
+		"QuestEventListener",
+		"StaticPopupDialogs",
+		"StaticPopup_Show"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

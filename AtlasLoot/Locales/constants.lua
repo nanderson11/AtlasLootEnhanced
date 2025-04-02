@@ -292,3 +292,5 @@ AL["World Bosses"] = "World Bosses"
 AL["World Events"] = "World Events"
 AL["Yellow Gems"] = "Yellow Gems"
 AL["Zen'Vorka"] = "Zen'Vorka"
+
+AL["Profile base list"] = "Profile base list"

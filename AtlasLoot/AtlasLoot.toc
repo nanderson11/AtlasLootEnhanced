@@ -116,3 +116,5 @@ GUI\SetViewFrame.lua
 
 Addons\Addons.lua
 Addons\BonusRoll.lua
+Addons\Favourites.lua
+Addons\Favourites_GUI.lua
