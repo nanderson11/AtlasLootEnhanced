@@ -603,7 +603,7 @@ function GUI:ShowLoadingInfo(addonName, noWipe, displayType)
 end
 
 local ModuleSelectFunction_FirstCall = true
-local function ModuleSelectFunction(id)
+local function ModuleSelectFunction(self, id, arg)
 	db.selected[1] = id
 	if ModuleSelectFunction_FirstCall then
 		ModuleSelectFunction_FirstCall = false
@@ -819,7 +819,7 @@ function GUI:Create()
 	GUI_CREATED = true
 	local frameName = "AtlasLoot_GUI-Frame"
 
-	local frame = CreateFrame("Frame", frameName, nil, "PortraitFrameTemplate")
+	local frame = CreateFrame("Frame", frameName, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	frame:ClearAllPoints()
 	frame:SetParent(UIParent)
 	frame:SetPoint(db.point[1], db.point[2], db.point[3], db.point[4], db.point[5])
@@ -834,15 +834,26 @@ function GUI:Create()
 	frame:SetScript("OnShow", FrameOnShow)
 	frame:SetToplevel(true)
 	frame:SetClampedToScreen(true)
+	frame:SetBackdrop(ALPrivate.BOX_BACKDROP)
+	--frame:SetBackdropColor(0.45,0.45,0.45,1)
 	frame:Hide()
 	tinsert(UISpecialFrames, frameName) -- allow ESC close
 
-	frame:SetPortraitToAsset("Interface\\Icons\\INV_Box_01");
-	frame:SetTitle(AL["AtlasLoot"]);
+	frame.CloseButton = CreateFrame("Button", frameName.."-CloseButton", frame, "UIPanelCloseButton")
+	frame.CloseButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, 0)
+
+	--frame.Title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+	--frame.Title:SetPoint("TOP", frame, "TOP", 0, -10)
+	--frame.Title:SetText(AL["AtlasLoot"])
+
+	frame.titleFrame = AtlasLoot.GUI.CreateTextWithBg(frame, 0, 0)
+	frame.titleFrame:SetPoint("TOPLEFT", frame, 10, -7)
+	frame.titleFrame:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -30, -25)
+	frame.titleFrame.text:SetText(AL["AtlasLoot"])
 
 	frame.moduleSelect = GUI:CreateDropDown()
-	frame.moduleSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 70, -40)
-	frame.moduleSelect:SetWidth(210)
+	frame.moduleSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 10, -40)
+	frame.moduleSelect:SetWidth(270)
 	frame.moduleSelect:SetTitle(AL["Select Module"])
 	frame.moduleSelect:SetText("Select Module")
 	frame.moduleSelect:SetButtonOnClick(ModuleSelectFunction)
@@ -875,7 +886,7 @@ function GUI:Create()
 
 	frameName = "AtlasLoot_GUI-ItemFrame"
 
-	frame.contentFrame = CreateFrame("Frame", frameName, nil, "InsetFrameTemplate")
+	frame.contentFrame = CreateFrame("Frame", frameName)
 	frame.contentFrame:ClearAllPoints()
 	frame.contentFrame:SetParent(frame)
 	frame.contentFrame:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -70)
@@ -1117,11 +1128,11 @@ function GUI.RefreshContentBackGround()
 
 	-- content Bg
 	if db.content.showBgImage and GUI.curBgInfo and GUI.curBgInfo[2] ~= (GUI.lastBgInfo and GUI.lastBgInfo[2] or nil) then
-		--GUI.frame.contentFrame.itemBG:SetTexture(GUI.curBgInfo[2])
-		--GUI.frame.contentFrame.itemBG:SetAlpha(db.content.bgColor[4])
+		GUI.frame.contentFrame.itemBG:SetTexture(GUI.curBgInfo[2])
+		GUI.frame.contentFrame.itemBG:SetAlpha(db.content.bgColor[4])
 	elseif not db.content.showBgImage or not GUI.curBgInfo[2] then
-		--GUI.frame.contentFrame.itemBG:SetAlpha(1)
-		--GUI.frame.contentFrame.itemBG:SetColorTexture(db.content.bgColor[1], db.content.bgColor[2], db.content.bgColor[3], db.content.bgColor[4])
+		GUI.frame.contentFrame.itemBG:SetAlpha(1)
+		GUI.frame.contentFrame.itemBG:SetColorTexture(db.content.bgColor[1], db.content.bgColor[2], db.content.bgColor[3], db.content.bgColor[4])
 	end
 
 	-- bottom Bg
@@ -1139,10 +1150,10 @@ function GUI.RefreshMainFrame()
 	if not GUI.frame then return end
 
 	local frame = GUI.frame
-	--frame:SetBackdropColor(db.mainFrame.bgColor[1], db.mainFrame.bgColor[2], db.mainFrame.bgColor[3], db.mainFrame.bgColor[4])
-	--frame.titleFrame:SetBackdropColor(db.mainFrame.title.bgColor[1], db.mainFrame.title.bgColor[2], db.mainFrame.title.bgColor[3], db.mainFrame.title.bgColor[4])
-	--frame.titleFrame.text:SetTextColor(db.mainFrame.title.textColor[1], db.mainFrame.title.textColor[2], db.mainFrame.title.textColor[3], db.mainFrame.title.textColor[4])
-	--frame.titleFrame.text:SetFont(LibSharedMedia:Fetch("font", db.mainFrame.title.font), db.mainFrame.title.size)
+	frame:SetBackdropColor(db.mainFrame.bgColor[1], db.mainFrame.bgColor[2], db.mainFrame.bgColor[3], db.mainFrame.bgColor[4])
+	frame.titleFrame:SetBackdropColor(db.mainFrame.title.bgColor[1], db.mainFrame.title.bgColor[2], db.mainFrame.title.bgColor[3], db.mainFrame.title.bgColor[4])
+	frame.titleFrame.text:SetTextColor(db.mainFrame.title.textColor[1], db.mainFrame.title.textColor[2], db.mainFrame.title.textColor[3], db.mainFrame.title.textColor[4])
+	frame.titleFrame.text:SetFont(LibSharedMedia:Fetch("font", db.mainFrame.title.font), db.mainFrame.title.size)
 
 	frame:SetScale(db.mainFrame.scale)
 end

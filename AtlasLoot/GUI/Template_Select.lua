@@ -438,10 +438,19 @@ function GUI.CreateSelect()
 	self.ttSource = GameTooltip
 
 
-	self.frame = CreateFrame("ScrollFrame", frameName, nil, "InsetFrameTemplate")
+	self.frame = CreateFrame("ScrollFrame", frameName, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	local frame = self.frame
 	frame:ClearAllPoints()
 	frame:EnableMouse(true)
+	frame:SetBackdrop({
+		bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+		edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+		tile = true,
+		tileSize = 16,
+		edgeSize = 16,
+		insets = { left = 4, right = 4, top = 4, bottom = 4 }
+	})
+	frame:SetBackdropColor(0, 0, 0, 1)
 	frame:EnableMouseWheel(true)
 	frame:SetScript("OnMouseWheel", OnMouseWheel)
 	frame.obj = self
