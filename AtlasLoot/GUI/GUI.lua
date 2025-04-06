@@ -777,14 +777,14 @@ end
 
 function GUI:RefreshNextPrevButtons()
 	if GUI.frame.contentFrame.nextPageButton.info then
-		GUI.frame.contentFrame.nextPageButton:Show()
+		GUI.frame.contentFrame.nextPageButton:Enable()
 	else
-		GUI.frame.contentFrame.nextPageButton:Hide()
+		GUI.frame.contentFrame.nextPageButton:Disable()
 	end
 	if GUI.frame.contentFrame.prevPageButton.info then
-		GUI.frame.contentFrame.prevPageButton:Show()
+		GUI.frame.contentFrame.prevPageButton:Enable()
 	else
-		GUI.frame.contentFrame.prevPageButton:Hide()
+		GUI.frame.contentFrame.prevPageButton:Disable()
 	end
 end
 
