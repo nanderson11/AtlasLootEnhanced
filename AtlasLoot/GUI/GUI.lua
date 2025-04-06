@@ -85,21 +85,6 @@ local function UpdateFrames(noPageUpdate)
 		GUI.frame.contentFrame.modelButton:Hide()
 	end
 
-	-- SOUNDS
-	if moduleData[dataID].items[bossID].npcId then
-		GUI.SoundFrame.npcId = moduleData[dataID].items[bossID].npcId
-		GUI.frame.contentFrame.soundsButton:Show()
-	else
-		GUI.SoundFrame.npcId = nil
-		GUI.frame.contentFrame.soundsButton:Hide()
-		if GUI.frame.contentFrame.shownFrame == GUI.SoundFrame.frame then
-			GUI.frame.contentFrame.shownFrame = nil
-			if GUI.SoundFrame.frame then
-				GUI.SoundFrame.frame:Hide()
-			end
-		end
-	end
-
 	-- AtlasMapID
 	if (AtlasLoot.AtlasIntegration.IsEnabled() and moduleData[dataID].AtlasMapID and AtlasLoot.AtlasIntegration.GetAtlasZoneData(moduleData[dataID].AtlasMapID)) then
 		GUI.frame.contentFrame.AtlasMapButton.AtlasMapID = moduleData[dataID].AtlasMapID
@@ -194,11 +179,6 @@ end
 local function ItemButtonOnClick(self)
 	GUI.ItemFrame:Show(true)
 	UpdateFrames()
-end
-
-local function SoundButtonOnClick(self)
-	GUI.SoundFrame:Show()
-	UpdateFrames(true)
 end
 
 local function ModelButtonOnClick(self)
@@ -976,13 +956,6 @@ function GUI:Create()
 	icon:SetTexture("Interface\\WorldMap\\WorldMap-Icon")
 	icon:SetPoint("CENTER", frame.contentFrame.AtlasMapButton, "CENTER")
 
-	-- Sound
-	frame.contentFrame.soundsButton = GUI.CreateButton()
-	frame.contentFrame.soundsButton:SetPoint("RIGHT", frame.contentFrame.modelButton, "LEFT", -5, 0)
-	frame.contentFrame.soundsButton:SetText(AL["Sounds"])
-	frame.contentFrame.soundsButton:SetScript("OnClick", SoundButtonOnClick)
-
-
 	-- #####
 	-- Left -> Right
 	-- #####
@@ -1047,7 +1020,6 @@ function GUI:Create()
 	GUI.RefreshMainFrame()
 
 	self.ItemFrame:Create()
-	--self.SoundFrame:Create()
 end
 
 function GUI.RefreshStyle()

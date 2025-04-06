@@ -83,7 +83,6 @@ Data\Token.lua
 Data\Sets.lua
 
 ItemDB\ItemDB.lua
-ItemDB\SoundData.lua
 
 Button\Button.lua
 Button\Item_type.lua
@@ -110,7 +109,6 @@ GUI\Template_TextWithBg.lua
 GUI\Template_Model.lua
 GUI\ItemFrame.lua
 GUI\ModelFrame.lua
-GUI\SoundFrame.lua
 GUI\QuickLootFrame.lua
 GUI\SetViewFrame.lua
 
