@@ -104,13 +104,6 @@ local function UpdateFrames(noPageUpdate)
 	if (AtlasLoot.AtlasIntegration.IsEnabled() and moduleData[dataID].AtlasMapID and AtlasLoot.AtlasIntegration.GetAtlasZoneData(moduleData[dataID].AtlasMapID)) then
 		GUI.frame.contentFrame.AtlasMapButton.AtlasMapID = moduleData[dataID].AtlasMapID
 		GUI.frame.contentFrame.AtlasMapButton:Show()
-		if (GUI.frame.contentFrame.soundsButton:IsVisible()) then
-			GUI.frame.contentFrame.AtlasMapButton:SetPoint("RIGHT", GUI.frame.contentFrame.soundsButton, "LEFT", -2, 0)
-		elseif (GUI.frame.contentFrame.modelButton:IsVisible()) then
-			GUI.frame.contentFrame.AtlasMapButton:SetPoint("RIGHT", GUI.frame.contentFrame.modelButton, "LEFT", -2, 0)
-		else
-			GUI.frame.contentFrame.AtlasMapButton:SetPoint("RIGHT", GUI.frame.contentFrame.mapButton, "LEFT", -2, 0)
-		end
 	else
 		GUI.frame.contentFrame.AtlasMapButton.AtlasMapID = nil
 		GUI.frame.contentFrame.AtlasMapButton:Hide()
@@ -880,7 +873,7 @@ function GUI:Create()
 	frame.contentFrame:SetParent(frame)
 	frame.contentFrame:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -70)
 	frame.contentFrame:SetWidth(560) -- Frame = 560, Abstand = 20, Button = 270
-	frame.contentFrame:SetHeight(510) -- Frame = 460, Abstand = 10, Button = 30
+	frame.contentFrame:SetHeight(480) -- Frame = 460, Abstand = 10, Button = 30
 	frame.contentFrame.shownFrame = nil
 
 	frame.contentFrame.title = frame.contentFrame:CreateFontString(frameName.."-title", "ARTWORK", "GameFontHighlightLarge")
@@ -896,7 +889,7 @@ function GUI:Create()
 	frame.contentFrame.topBG:SetHeight(30)
 
 	frame.contentFrame.downBG = frame.contentFrame:CreateTexture(frameName.."-downBG", "BACKGROUND")
-	frame.contentFrame.downBG:SetPoint("TOPLEFT", frame.contentFrame, "TOPLEFT", 0, -480)
+	frame.contentFrame.downBG:SetPoint("TOPLEFT", frame.contentFrame, "BOTTOMLEFT", 0, -5)
 	frame.contentFrame.downBG:SetWidth(560)
 	frame.contentFrame.downBG:SetHeight(30)
 
@@ -921,12 +914,19 @@ function GUI:Create()
 	frame.contentFrame.nextPageButton:SetScript("OnClick", NextPrevButtonOnClick)
 	frame.contentFrame.nextPageButton.typ = "next"
 
+	-- Model
+	frame.contentFrame.modelButton = GUI.CreateButton()
+	frame.contentFrame.modelButton:SetPoint("RIGHT", frame.contentFrame.nextPageButton, "LEFT", -2, 0)
+	frame.contentFrame.modelButton:SetText(AL["Model"])
+	frame.contentFrame.modelButton:SetScript("OnClick", ModelButtonOnClick)
+	frame.contentFrame.modelButton:Hide()
+
 	-- mapButton
 	frame.contentFrame.mapButton = CreateFrame("Button", frameName.."-mapButton")
 	frame.contentFrame.mapButton:SetParent(frame.contentFrame)
 	frame.contentFrame.mapButton:SetWidth(48)
 	frame.contentFrame.mapButton:SetHeight(32)
-	frame.contentFrame.mapButton:SetPoint("RIGHT", frame.contentFrame.nextPageButton, "LEFT", 0, 0)
+	frame.contentFrame.mapButton:SetPoint("RIGHT", frame.contentFrame.modelButton, "LEFT", -2, 0)
 	frame.contentFrame.mapButton:SetScript("OnClick", MapButtonOnClick)
 	frame.contentFrame.mapButton:SetScript("OnMouseDown", function(self) self.texture:SetTexCoord(0.125, 0.875, 0.5, 1.0) end)
 	frame.contentFrame.mapButton:SetScript("OnMouseUp", function(self) self.texture:SetTexCoord(0.125, 0.875, 0.0, 0.5) end)
@@ -948,36 +948,32 @@ function GUI:Create()
 	frame.contentFrame.mapButton.highlight:SetTexture("Interface\\BUTTONS\\ButtonHilight-Square")
 	frame.contentFrame.mapButton.highlight:SetBlendMode("ADD")
 
-	-- Model
-	frame.contentFrame.modelButton = GUI.CreateButton()
-	frame.contentFrame.modelButton:SetPoint("RIGHT", frame.contentFrame.mapButton, "LEFT", -2, 0)
-	frame.contentFrame.modelButton:SetText(AL["Model"])
-	frame.contentFrame.modelButton:SetScript("OnClick", ModelButtonOnClick)
-	frame.contentFrame.modelButton:Hide()
-
 	-- AtlasMapButton
 	frame.contentFrame.AtlasMapButton = CreateFrame("Button", frameName.."-AtlasMapButton")
 	frame.contentFrame.AtlasMapButton:SetParent(frame.contentFrame)
-	frame.contentFrame.AtlasMapButton:SetWidth(32)
-	frame.contentFrame.AtlasMapButton:SetHeight(32)
-	frame.contentFrame.AtlasMapButton:SetPoint("RIGHT", frame.contentFrame.modelButton, "LEFT", -2, 0)
+	frame.contentFrame.AtlasMapButton:SetWidth(31)
+	frame.contentFrame.AtlasMapButton:SetHeight(31)
+	frame.contentFrame.AtlasMapButton:SetPoint("RIGHT", frame.contentFrame.mapButton, "LEFT", -2, 0)
 	frame.contentFrame.AtlasMapButton:RegisterForClicks("LeftButtonDown", "RightButtonDown")
 	frame.contentFrame.AtlasMapButton:SetScript("OnClick", AtlasMapButton_OnClick)
 	frame.contentFrame.AtlasMapButton:SetScript("OnEnter", AtlasMapButton_OnEnter)
 	frame.contentFrame.AtlasMapButton:SetScript("OnLeave", function(self) GetAlTooltip():Hide() end)
+	frame.contentFrame.AtlasMapButton:SetHighlightTexture("Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight")
 
-	frame.contentFrame.AtlasMapButton.texture = frame.contentFrame.AtlasMapButton:CreateTexture(frameName.."-AtlasMapButton-texture", "ARTWORK")
-	frame.contentFrame.AtlasMapButton.texture:SetPoint("RIGHT", frame.contentFrame.AtlasMapButton)
-	frame.contentFrame.AtlasMapButton.texture:SetWidth(32)
-	frame.contentFrame.AtlasMapButton.texture:SetHeight(32)
-	frame.contentFrame.AtlasMapButton.texture:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\Atlas_Button")
+	local overlay = frame.contentFrame.AtlasMapButton:CreateTexture(nil, "OVERLAY")
+	overlay:SetSize(50, 50)
+	overlay:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+	overlay:SetPoint("TOPLEFT", frame.contentFrame.AtlasMapButton, "TOPLEFT")
 
-	frame.contentFrame.AtlasMapButton.highlight = frame.contentFrame.AtlasMapButton:CreateTexture(frameName.."-AtlasMapButton-highlight", "HIGHLIGHT")
-	frame.contentFrame.AtlasMapButton.highlight:SetPoint("CENTER", frame.contentFrame.AtlasMapButton, 0, 0)
-	frame.contentFrame.AtlasMapButton.highlight:SetWidth(48)
-	frame.contentFrame.AtlasMapButton.highlight:SetHeight(48)
-	frame.contentFrame.AtlasMapButton.highlight:SetTexture("Interface\\Buttons\\UI-Common-MouseHilight")
-	frame.contentFrame.AtlasMapButton.highlight:SetBlendMode("ADD")
+	local background = frame.contentFrame.AtlasMapButton:CreateTexture(nil, "BACKGROUND")
+	background:SetSize(24, 24)
+	background:SetTexture("Interface\\Minimap\\UI-Minimap-Background")
+	background:SetPoint("CENTER", frame.contentFrame.AtlasMapButton, "CENTER")
+
+	local icon = frame.contentFrame.AtlasMapButton:CreateTexture(nil, "ARTWORK")
+	icon:SetSize(18, 18)
+	icon:SetTexture("Interface\\WorldMap\\WorldMap-Icon")
+	icon:SetPoint("CENTER", frame.contentFrame.AtlasMapButton, "CENTER")
 
 	-- Sound
 	frame.contentFrame.soundsButton = GUI.CreateButton()
@@ -1114,35 +1110,12 @@ function GUI.RefreshContentBackGround()
 		frame.topBG:SetColorTexture(db.contentTopBar.bgColor[1], db.contentTopBar.bgColor[2], db.contentTopBar.bgColor[3], db.contentTopBar.bgColor[4])
 		frame.topBG.curColor = db.contentTopBar.bgColor
 	end
-
-	-- content Bg
-	if db.content.showBgImage and GUI.curBgInfo and GUI.curBgInfo[2] ~= (GUI.lastBgInfo and GUI.lastBgInfo[2] or nil) then
-		--GUI.frame.contentFrame.itemBG:SetTexture(GUI.curBgInfo[2])
-		--GUI.frame.contentFrame.itemBG:SetAlpha(db.content.bgColor[4])
-	elseif not db.content.showBgImage or not GUI.curBgInfo[2] then
-		--GUI.frame.contentFrame.itemBG:SetAlpha(1)
-		--GUI.frame.contentFrame.itemBG:SetColorTexture(db.content.bgColor[1], db.content.bgColor[2], db.content.bgColor[3], db.content.bgColor[4])
-	end
-
-	-- bottom Bg
-	if db.contentBottomBar.useContentColor and (frame.downBG.curAlpha ~= db.contentBottomBar.bgColor[4] or frame.downBG.curColor ~= GUI.curBgInfo[1]) then
-		frame.downBG:SetColorTexture(GUI.curBgInfo[1][1], GUI.curBgInfo[1][2], GUI.curBgInfo[1][3], db.contentBottomBar.bgColor[4])
-		frame.downBG.curColor = GUI.curBgInfo[1]
-		frame.downBG.curAlpha = db.contentBottomBar.bgColor[4]
-	elseif not db.contentBottomBar.useContentColor and frame.downBG.curColor ~= db.contentBottomBar.bgColor then
-		frame.downBG:SetColorTexture(db.contentBottomBar.bgColor[1], db.contentBottomBar.bgColor[2], db.contentBottomBar.bgColor[3], db.contentBottomBar.bgColor[4])
-		frame.downBG.curColor = db.contentBottomBar.bgColor
-	end
 end
 
 function GUI.RefreshMainFrame()
 	if not GUI.frame then return end
 
 	local frame = GUI.frame
-	--frame:SetBackdropColor(db.mainFrame.bgColor[1], db.mainFrame.bgColor[2], db.mainFrame.bgColor[3], db.mainFrame.bgColor[4])
-	--frame.titleFrame:SetBackdropColor(db.mainFrame.title.bgColor[1], db.mainFrame.title.bgColor[2], db.mainFrame.title.bgColor[3], db.mainFrame.title.bgColor[4])
-	--frame.titleFrame.text:SetTextColor(db.mainFrame.title.textColor[1], db.mainFrame.title.textColor[2], db.mainFrame.title.textColor[3], db.mainFrame.title.textColor[4])
-	--frame.titleFrame.text:SetFont(LibSharedMedia:Fetch("font", db.mainFrame.title.font), db.mainFrame.title.size)
 
 	frame:SetScale(db.mainFrame.scale)
 end

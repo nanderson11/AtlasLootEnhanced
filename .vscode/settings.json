@@ -12,7 +12,7 @@
 		"utf8": "disable"
 	},
 	"Lua.workspace.library": [
-		"~\\.vscode\\extensions\\ketho.wow-api-0.18.2\\Annotations"
+		"~\\.vscode\\extensions\\ketho.wow-api-0.19.1\\Annotations"
 	],
 	"Lua.workspace.ignoreDir": [
 		"AtlasLoot/Libs"
@@ -119,7 +119,11 @@
 		"EXPANSION_NAME9",
 		"ITEM_QUALITY_COLORS",
 		"DEFAULT_CHAT_FRAME",
-		"QuestEventListener"
+		"QuestEventListener",
+		"BackdropTemplateMixin",
+		"ShoppingTooltip1",
+		"ShoppingTooltip2",
+		"ItemRefTooltip"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
