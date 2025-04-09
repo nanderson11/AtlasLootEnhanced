@@ -123,7 +123,13 @@
 		"BackdropTemplateMixin",
 		"ShoppingTooltip1",
 		"ShoppingTooltip2",
-		"ItemRefTooltip"
+		"ItemRefTooltip",
+		"SELECTED_CHAT_FRAME",
+		"Settings",
+		"NORMAL_FONT_COLOR_CODE",
+		"FONT_COLOR_CODE_CLOSE",
+		"CLOSE",
+		"NOT_BOUND"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
