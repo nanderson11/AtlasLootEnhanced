@@ -3,7 +3,6 @@
 -- ----------------------------------------------------------------------------
 -- Functions
 local _G = getfenv(0)
-local pairs, select = _G.pairs, _G.select
 
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
@@ -48,10 +47,6 @@ end
 
 function AtlasLootWorldMapButtonMixin:Refresh()
 
-end
-
-local function AdjustOtherWorldMapButton(adjust)
-	profile = AtlasLoot.db.WorldMap
 end
 
 local function ButtonBinding()

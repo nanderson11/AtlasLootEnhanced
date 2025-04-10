@@ -6,7 +6,7 @@ AtlasLoot.AtlasLootDBDefaults = {
 			},
 		},
 		Tooltip = { -- Core\Tooltip.lua
-			tooltip = "AtlasLootTooltip",
+			useGameTooltip = false,
 		},
 		GUI = { -- GUI\GUI.lua
 			point = { "CENTER" },
@@ -44,16 +44,8 @@ AtlasLoot.AtlasLootDBDefaults = {
 				useContentColor = false,
 			},
 		},
-		OptionsFrame = {
-			point = { "CENTER", nil, "CENTER", 0, 0 },
-		},
-		Map = { -- Map\
-			point = { "CENTER" },
-			locked = false,
-		},
 		WorldMap = {
 			showbutton = true,
-			buttonOnTitleBar = true,
 		},
 		QuickLootFrame = {
 			point = { "CENTER" },

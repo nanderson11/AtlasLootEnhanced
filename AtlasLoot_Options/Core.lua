@@ -15,6 +15,114 @@ local options = {
 	type = "group",
 	name = AL["AtlasLoot"],
 	args = {
+		general = {
+			order = 1,
+			name = AL["General"],
+			type = "group",
+			args = {
+				autoselect = {
+					order = 1,
+					type = "toggle",
+					width = "full",
+					name = AL["Auto select current instance's loot tables."],
+					get = function(info) return db.GUI.autoselect end,
+					set = function(info, value) db.GUI.autoselect = value end,
+				},
+				showbutton = {
+					order = 2,
+					type = "toggle",
+					width = "full",
+					name = AL["Show AtlasLoot button on WorldMap."],
+					get = function(info) return db.WorldMap.showbutton end,
+					set = function(info, value)
+						db.WorldMap.showbutton = value;
+						AtlasLoot.WorldMap.ToggleButtonOnChange();
+					end,
+				},
+				ExpansionIcon = {
+					order = 3,
+					type = "toggle",
+					width = "full",
+					name = AL["Show expansion icons in module dropdown."],
+					desc = AL["Change will take effect in next login."],
+					get = function(info) return db.GUI.ExpansionIcon end,
+					set = function(info, value) db.GUI.ExpansionIcon = value end,
+				},
+				shown = {
+					order = 4,
+					type = "toggle",
+					width = "full",
+					name = AL["Show minimap button."],
+					get = function(info) return db.minimap.shown end,
+					set = function(info, value)
+						db.minimap.shown = value;
+						AtlasLoot.MiniMapButton.Options_Toggle();
+					end,
+				},
+				scale = {
+					order = 5,
+					type = "range",
+					name = AL["Scale"],
+					min = 0.5,
+					max = 1.5,
+					bigStep = 0.01,
+					isPercent = true,
+					width = "full",
+					get = function(info) return db.GUI.mainFrame.scale end,
+					set = function(info, value)
+						db.GUI.mainFrame.scale = value
+						AtlasLoot.GUI.RefreshMainFrame()
+					end,
+				},
+			}
+		},
+		tooltip = {
+			order = 2,
+			name = AL["Tooltip"],
+			type = "group",
+			args = {
+				useGameTooltip = {
+					order = 1,
+					type = "toggle",
+					width = "full",
+					name = AL["Use GameTooltip"],
+					desc = AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"],
+					get = function(info) return db.Tooltip.useGameTooltip end,
+					set = function(info, value) db.Tooltip.useGameTooltip = value end,
+				},
+				alwaysShowCompareTT = {
+					order = 2,
+					type = "toggle",
+					width = "full",
+					name = AL["Always show item comparison."],
+					get = function(info) return db.Button.Item.alwaysShowCompareTT end,
+					set = function(info, value) db.Button.Item.alwaysShowCompareTT = value end,
+				},
+				alwaysShowPreviewTT = {
+					order = 3,
+					type = "toggle",
+					width = "full",
+					name = AL["Always show quick preview."],
+					get = function(info) return db.Button.Item.alwaysShowPreviewTT end,
+					set = function(info, value) db.Button.Item.alwaysShowPreviewTT = value end,
+				},
+			}
+		},
+		bonusloot = {
+			order = 3,
+			name = AL["AddOn: Bonus Loot"],
+			type = "group",
+			args = {
+				enabled = {
+					order = 1,
+					type = "toggle",
+					width = "full",
+					name = ENABLE,
+					get = function(info) return db.Addons.BonusRoll.enabled end,
+					set = function(info, value) db.Addons.BonusRoll.enabled = value end,
+				},
+			}
+		}
 	},
 }
 
@@ -24,148 +132,3 @@ AtlasLoot.optionsFrame = ACD:AddToBlizOptions("AtlasLoot_options", "AtlasLoot")
 local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(AtlasLoot.dbRaw);
 AC:RegisterOptionsTable("AtlasLoot_Profiles", profiles)
 ACD:AddToBlizOptions("AtlasLoot_Profiles", "Profiles", "AtlasLoot")
-
--- atlasloot
-local function atlasloot(gui, content)
-	local last
-
-	last = gui:Add("CheckBox")
-		:Point("TOP", 0, -5)
-		:Size("full")
-		:Text(AL["Always show item comparison."])
-		:DB(db.Button.Item, "alwaysShowCompareTT")
-
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:Text(AL["Auto select current instance's loot tables."])
-		:DB(db.GUI, "autoselect")
-
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:Text(AL["Always show quick preview."])
-		:DB(db.Button.Item, "alwaysShowPreviewTT")
-
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:Text(AL["Use GameTooltip"])
-		:Tooltip("text", AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"])
-		:DB(db.Tooltip, "useGameTooltip", AtlasLoot.Tooltip.Refresh)
-
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:Text(AL["Show AtlasLoot button on WorldMap."])
-		:DB(db.WorldMap, "showbutton", AtlasLoot.WorldMap.ToggleButtonOnChange)
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM", 0, 0)
-		:Size("full")
-		:Text(AL["Show expansion icons in module dropdown."])
-		:Tooltip("text", AL["Change will take effect in next login."])
-		:DB(db.GUI, "ExpansionIcon")
-
-	last = gui:Add("Slider")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:MinMaxStep(0.5, 1.5, 0.01)
-		:Text(AL["Scale"])
-		:DB(db.GUI.mainFrame, "scale", AtlasLoot.GUI.RefreshMainFrame)
-end
-
--- minimap Button
-local function minimapbutton(gui, content)
-	local last
-	last = gui:Add("CheckBox")
-		:Point("TOP", 0, -5)
-		:Size("full")
-		:Text(AL["Show minimap button."])
-		:DB(db.minimap, "shown", AtlasLoot.MiniMapButton.Options_Toggle)
-	last = gui:Add("CheckBox")
-		:Point("TOP", last, "BOTTOM")
-		:Size("full")
-		:Text(AL["Lock minimap button."])
-		:DB(db.minimap, "locked", AtlasLoot.MiniMapButton.Lock_Toggle)
-
-	last = gui:Add("Button")
-		:Point("BOTTOMRIGHT", nil, "BOTTOMRIGHT", -2, 2)
-		:Text(AL["Reset position of minimap button"])
-		:Click(AtlasLoot.MiniMapButton.ResetFrames)
-		:Confirm(AL["Reset position of the |cff33ff99\"Minimap button\"|r."])
-end
-
--- addons -> bonusloot
-local function addons_bonusloot(gui, content)
-	gui:Add("CheckBox")
-		:Point("TOPLEFT")
-		:Size("half")
-		:Text(ENABLE)
-		:DB(db.Addons.BonusRoll, "enabled")
-end
-
-local ALOptions = {
-	{
-		title = AL["AtlasLoot"],
-		quickSelect = "start",
-		clickFunc = atlasloot,
-	},
-	{
-		title = AL["Windows"],
-		quickSelect = "windows",
-		clickFunc = windows,
-		content = {
-			{
-				title = AL["AtlasLoot"],
-				clickFunc = windows_atlasloot,
-				content = {
-					{
-						title = AL["Content top bar"],
-						clickFunc = windows_atlasloot_contenttopbar,
-					},
-					{
-						title = AL["Content"],
-						clickFunc = windows_atlasloot_content,
-					},
-					{
-						title = AL["Content bottom bar"],
-						clickFunc = windows_atlasloot_contentbottombar,
-					},
-				},
-			},
-			{
-				title = AL["Set View"],
-				clickFunc = windows_setview,
-				content = {
-					{
-						title = AL["Content top/bottom bar"],
-						clickFunc = windows_setview_contenttopbottom,
-					},
-					{
-						title = AL["Content"],
-						clickFunc = windows_setview_content,
-					},
-				}
-			},
-			{
-				title = AL["Quick Loot"],
-				clickFunc = windows_quickloot,
-			}
-		},
-	},
-	{
-		title = AL["Minimap Button"],
-		clickFunc = minimapbutton,
-	},
-	{
-		title = ADDONS,
-		content = {
-			{
-				title = AL["Bonus Loot"],
-				desc = AL["A window with possible loot is shown if a Bonus Roll is started."],
-				clickFunc = addons_bonusloot,
-			},
-		},
-	},
-
-}
