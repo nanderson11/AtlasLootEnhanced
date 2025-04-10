@@ -129,7 +129,9 @@
 		"NORMAL_FONT_COLOR_CODE",
 		"FONT_COLOR_CODE_CLOSE",
 		"CLOSE",
-		"NOT_BOUND"
+		"NOT_BOUND",
+		"StaticPopupDialogs",
+		"StaticPopup_Show"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

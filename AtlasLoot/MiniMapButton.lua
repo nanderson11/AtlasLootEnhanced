@@ -29,13 +29,17 @@ local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasL
 	OnTooltipShow = function(tooltip)
 		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
 		tooltip:AddLine(AL["AtlasLoot_Minimap_Clicks"]);
+		-- TODO: tooltip text
 	end,
 	OnClick = function(self, button)
-		if button == "RightButton" then return end
-		if IsShiftKeyDown() then
-			SlashCommands:Run("options")
+		if button == "RightButton" then
+			AtlasLoot.Addons:GetAddon("Favourites").GUI:Toggle()
 		else
-			SlashCommands:Run("")
+			if IsShiftKeyDown() then
+				SlashCommands:Run("options")
+			else
+				SlashCommands:Run("")
+			end
 		end
 	end,
 })
@@ -48,6 +52,7 @@ function MiniMapButton.Init()
 
 	ALButton:Register("AtlasLoot", MiniMapLDB, profile.minimap);
 end
+
 AtlasLoot:AddInitFunc(MiniMapButton.Init)
 
 function MiniMapButton.ResetFrames()
