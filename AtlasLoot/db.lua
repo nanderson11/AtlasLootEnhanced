@@ -122,5 +122,9 @@ AtlasLoot.AtlasLootDBDefaults = {
 				point = { "CENTER" },
 			},
 		},
+	},
+	global = {
+		Addons = {},
+		VendorPrice = {}
 	}
 }

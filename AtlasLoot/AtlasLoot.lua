@@ -53,6 +53,7 @@ end
 function AtlasLoot:OnInitialize()
 	self.dbRaw = LibStub("AceDB-3.0"):New("AtlasLootDB", AtlasLoot.AtlasLootDBDefaults, true)
 	self.db = self.dbRaw.profile
+	self.dbGlobal = self.dbRaw.global
 
 	-- bindings
 	BINDING_HEADER_ATLASLOOT = AL["AtlasLoot"]
