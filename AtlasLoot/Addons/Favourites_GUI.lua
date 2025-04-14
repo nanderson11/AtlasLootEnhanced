@@ -10,15 +10,13 @@ if not Favourites then return end
 local GUI = {}
 Favourites.GUI = GUI
 
-local LibSharedMedia = LibStub("LibSharedMedia-3.0")
-
 -- lua
 local type = _G.type
 local pairs = _G.pairs
 local format = _G.format
 
 -- WoW
-local GetItemQuality, GetItemIcon, GetItemInfoInstant, ItemExist = _G.C_Item.GetItemQualityByID, _G.C_Item.GetItemIconByID, _G.C_Item.GetItemInfoInstant, _G.C_Item.DoesItemExistByID
+local GetItemQuality, GetItemInfoInstant, ItemExist = _G.C_Item.GetItemQualityByID, _G.C_Item.GetItemInfoInstant, _G.C_Item.DoesItemExistByID
 
 -- AL
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
@@ -179,16 +177,12 @@ end
 -- ###########################
 local function GUI_FrameOnDragStart(self, arg1)
 	if arg1 == "LeftButton" then
-		--if not db.DefaultFrameLocked then
 		self:StartMoving()
-		--end
 	end
 end
 
 local function GUI_FrameOnDragStop(self)
 	self:StopMovingOrSizing()
-	local a, b, c, d, e = self:GetPoint()
-	--db.point = { a, nil, c, d, e }
 end
 
 local function GUI_FrameOnShow(self)
@@ -781,7 +775,6 @@ function GUI:Create()
 		frame.content.editBox:SetMaxLetters(6)
 		frame.content.editBox:SetNumeric(true)
 		frame.content.editBox:SetScript("OnEnterPressed", GUI_EditBoxOnEnterPressed)
-		--frame.content.editBox:SetScript("OnTextChanged", GUI_EditBoxOnTextChange)
 
 		frame.content.editBox.text = frame.content.bottomBg:CreateFontString(nil, "ARTWORK", "GameFontNormal")
 		frame.content.editBox.text:SetPoint("RIGHT", frame.content.editBox, "LEFT", -7, 0)
