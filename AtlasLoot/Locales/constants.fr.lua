@@ -32,8 +32,6 @@ AL["AtlasLoot Modules"] = "Modules d'AtlasLoot"
 AL["AtlasLoot Search"] = "Recherche d'AtlasLoot"
 AL["AtlasLoot Set View"] = "Vue d'ensemble de l'AtlasLoot"
 AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader n'est plus utilisé.\\nSupprimez le de votre dossier AddOns."
-AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000Clic droit: |cffFFFFFFOuvrir AtlasLoot
-|cffFF0000Maj-Clic : |cffFFFFFFOuvrir les options d'AtlasLoot]=]
 AL["Attack/Spell Power"] = "Puissance d'attaque / des sorts"
 AL["Attributes"] = "Attributs"
 AL["Avatar of the Martyred"] = "Avatar des martyrs"

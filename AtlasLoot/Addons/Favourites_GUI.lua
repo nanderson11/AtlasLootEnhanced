@@ -27,65 +27,65 @@ local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 local TT_INFO_ENTRY = "|cFFCFCFCF%s:|r %s"
 local EMPTY_SLOT_DUMMY = 136509 -- emptyslot
 local EMPTY_SLOTS = {
-    [INVSLOT_AMMO]      = 136510, -- ammo
-    [INVSLOT_HEAD]      = 136516, -- head
-    [INVSLOT_NECK]      = 136519, -- neck
-    [INVSLOT_SHOULDER]  = 136526, -- shoulder
-    [INVSLOT_BODY]      = 136525, -- shirt
-    [INVSLOT_CHEST]     = 136512, -- chest
-    [INVSLOT_WAIST]     = 136529, -- waist
-    [INVSLOT_LEGS]      = 136517, -- legs
-    [INVSLOT_FEET]      = 136513, -- feet
-    [INVSLOT_WRIST]     = 136530, -- wrists
-    [INVSLOT_HAND]      = 136515, -- hands
-    [INVSLOT_FINGER1]   = 136514, -- finger
-    [INVSLOT_FINGER2]   = 136514, -- finger
-    [INVSLOT_TRINKET1]  = 136528, -- trinket
-    [INVSLOT_TRINKET2]  = 136528, -- trinket
-    [INVSLOT_BACK]      = 136512, -- chest ( back )
-    [INVSLOT_MAINHAND]  = 136518, -- mainhand
-    [INVSLOT_OFFHAND]   = 136524, -- secondaryhand
-    [INVSLOT_RANGED]    = 136520, -- ranged
-    [INVSLOT_TABARD]    = 136527, -- tabard
+	[INVSLOT_AMMO]     = 136510, -- ammo
+	[INVSLOT_HEAD]     = 136516, -- head
+	[INVSLOT_NECK]     = 136519, -- neck
+	[INVSLOT_SHOULDER] = 136526, -- shoulder
+	[INVSLOT_BODY]     = 136525, -- shirt
+	[INVSLOT_CHEST]    = 136512, -- chest
+	[INVSLOT_WAIST]    = 136529, -- waist
+	[INVSLOT_LEGS]     = 136517, -- legs
+	[INVSLOT_FEET]     = 136513, -- feet
+	[INVSLOT_WRIST]    = 136530, -- wrists
+	[INVSLOT_HAND]     = 136515, -- hands
+	[INVSLOT_FINGER1]  = 136514, -- finger
+	[INVSLOT_FINGER2]  = 136514, -- finger
+	[INVSLOT_TRINKET1] = 136528, -- trinket
+	[INVSLOT_TRINKET2] = 136528, -- trinket
+	[INVSLOT_BACK]     = 136512, -- chest ( back )
+	[INVSLOT_MAINHAND] = 136518, -- mainhand
+	[INVSLOT_OFFHAND]  = 136524, -- secondaryhand
+	[INVSLOT_RANGED]   = 136520, -- ranged
+	[INVSLOT_TABARD]   = 136527, -- tabard
     --[0] = 136522, -- relic
     -- Bags
-    [20] = 136511, -- bag
-    [21] = 136511, -- bag
-    [22] = 136511, -- bag
-    [23] = 136511, -- bag
+	[20]               = 136511, -- bag
+	[21]               = 136511, -- bag
+	[22]               = 136511, -- bag
+	[23]               = 136511, -- bag
 }
 local SLOT_CHECK = {
-    ["INVTYPE_AMMO"]        	= INVSLOT_AMMO,
-    ["INVTYPE_HEAD"]        	= INVSLOT_HEAD,
-    ["INVTYPE_NECK"]        	= INVSLOT_NECK,
-    ["INVTYPE_SHOULDER"]    	= INVSLOT_SHOULDER,
-    ["INVTYPE_BODY"]        	= INVSLOT_BODY,
-    ["INVTYPE_CHEST"]       	= INVSLOT_CHEST,
-    ["INVTYPE_ROBE"]        	= INVSLOT_CHEST,
-    ["INVTYPE_WAIST"]       	= INVSLOT_WAIST,
-    ["INVTYPE_LEGS"]        	= INVSLOT_LEGS,
-    ["INVTYPE_FEET"]        	= INVSLOT_FEET,
-    ["INVTYPE_WRIST"]       	= INVSLOT_WRIST,
-    ["INVTYPE_HAND"]        	= INVSLOT_HAND,
-    ["INVTYPE_FINGER"]      	= { [INVSLOT_FINGER1] = true, [INVSLOT_FINGER2] = true },
-    ["INVTYPE_TRINKET"]     	= { [INVSLOT_TRINKET1] = true, [INVSLOT_TRINKET2] = true },
-    ["INVTYPE_CLOAK"]       	= INVSLOT_BACK,
-    ["INVTYPE_WEAPON"]      	= { [INVSLOT_MAINHAND] = true, [INVSLOT_OFFHAND] = true },
-    ["INVTYPE_SHIELD"]      	= INVSLOT_OFFHAND,
-    ["INVTYPE_2HWEAPON"]        = INVSLOT_MAINHAND,
-    ["INVTYPE_WEAPONMAINHAND"]  = INVSLOT_MAINHAND,
-    ["INVTYPE_WEAPONOFFHAND"]   = INVSLOT_OFFHAND,
-    ["INVTYPE_HOLDABLE"]        = INVSLOT_OFFHAND,
-    ["INVTYPE_RANGED"]          = INVSLOT_RANGED,
-    ["INVTYPE_THROWN"]          = INVSLOT_RANGED,
-    ["INVTYPE_RANGEDRIGHT"]     = INVSLOT_RANGED,
-    ["INVTYPE_RELIC"]           = INVSLOT_RANGED,
-    ["INVTYPE_TABARD"]          = INVSLOT_TABARD,
-    ["INVTYPE_BAG"]             = { [20] = true, [21] = true, [22] = true, [23] = true },
-    ["INVTYPE_QUIVER"]          = { [20] = true, [21] = true, [22] = true, [23] = true },
+	["INVTYPE_AMMO"]           = INVSLOT_AMMO,
+	["INVTYPE_HEAD"]           = INVSLOT_HEAD,
+	["INVTYPE_NECK"]           = INVSLOT_NECK,
+	["INVTYPE_SHOULDER"]       = INVSLOT_SHOULDER,
+	["INVTYPE_BODY"]           = INVSLOT_BODY,
+	["INVTYPE_CHEST"]          = INVSLOT_CHEST,
+	["INVTYPE_ROBE"]           = INVSLOT_CHEST,
+	["INVTYPE_WAIST"]          = INVSLOT_WAIST,
+	["INVTYPE_LEGS"]           = INVSLOT_LEGS,
+	["INVTYPE_FEET"]           = INVSLOT_FEET,
+	["INVTYPE_WRIST"]          = INVSLOT_WRIST,
+	["INVTYPE_HAND"]           = INVSLOT_HAND,
+	["INVTYPE_FINGER"]         = { [INVSLOT_FINGER1] = true, [INVSLOT_FINGER2] = true },
+	["INVTYPE_TRINKET"]        = { [INVSLOT_TRINKET1] = true, [INVSLOT_TRINKET2] = true },
+	["INVTYPE_CLOAK"]          = INVSLOT_BACK,
+	["INVTYPE_WEAPON"]         = { [INVSLOT_MAINHAND] = true, [INVSLOT_OFFHAND] = true },
+	["INVTYPE_SHIELD"]         = INVSLOT_OFFHAND,
+	["INVTYPE_2HWEAPON"]       = INVSLOT_MAINHAND,
+	["INVTYPE_WEAPONMAINHAND"] = INVSLOT_MAINHAND,
+	["INVTYPE_WEAPONOFFHAND"]  = INVSLOT_OFFHAND,
+	["INVTYPE_HOLDABLE"]       = INVSLOT_OFFHAND,
+	["INVTYPE_RANGED"]         = INVSLOT_RANGED,
+	["INVTYPE_THROWN"]         = INVSLOT_RANGED,
+	["INVTYPE_RANGEDRIGHT"]    = INVSLOT_RANGED,
+	["INVTYPE_RELIC"]          = INVSLOT_RANGED,
+	["INVTYPE_TABARD"]         = INVSLOT_TABARD,
+	["INVTYPE_BAG"]            = { [20] = true, [21] = true, [22] = true, [23] = true },
+	["INVTYPE_QUIVER"]         = { [20] = true, [21] = true, [22] = true, [23] = true },
 }
 local SLOTID_ITYPE = {}
-for k,v in pairs(SLOT_CHECK) do
+for k, v in pairs(SLOT_CHECK) do
     if type(v) == "table" then
         for x, y in pairs(v) do
             if not SLOTID_ITYPE[x] then SLOTID_ITYPE[x] = {} end
@@ -165,7 +165,7 @@ local function ShowItemList(slotID)
             local itemID = itemList.ALL[i]
             -- IDToEquipLoc
             if slot.equipLoc[itemList.IDToEquipLoc[itemID]] then
-                newList[#newList+1] = itemID
+				newList[#newList + 1] = itemID
             end
         end
         itemList.ItemsBySlot[slotID] = newList
@@ -187,7 +187,7 @@ end
 
 local function GUI_FrameOnDragStop(self)
 	self:StopMovingOrSizing()
-	local a,b,c,d,e = self:GetPoint()
+	local a, b, c, d, e = self:GetPoint()
 	--db.point = { a, nil, c, d, e }
 end
 
@@ -395,7 +395,7 @@ local function Slot_CreateSlotRow(frame, slotList, frameSlots, size, startAnchor
     local maxCount = #slotList
     gap = gap or 0
     size = size or 30
-    local fullSize = ( size * maxCount ) + ( gap * maxCount ) - gap
+	local fullSize = (size * maxCount) + (gap * maxCount) - gap
     local rowFrame = CreateFrame("FRAME", nil, frame)
     rowFrame:SetPoint(startAnchor, startX or 0, startY or 0)
     if direction == "LEFT" or direction == "RIGHT" then
@@ -414,13 +414,13 @@ local function Slot_CreateSlotRow(frame, slotList, frameSlots, size, startAnchor
         if i == 1 then
             slot:SetPoint("TOPLEFT", 0, 0)
         elseif direction == "LEFT" then
-            slot:SetPoint("RIGHT", frameSlots[ slotList[i - 1] ], "LEFT", -gap, 0)
+			slot:SetPoint("RIGHT", frameSlots[slotList[i - 1]], "LEFT", -gap, 0)
         elseif direction == "RIGHT" then
-            slot:SetPoint("LEFT", frameSlots[ slotList[i - 1] ], "RIGHT", gap, 0)
+			slot:SetPoint("LEFT", frameSlots[slotList[i - 1]], "RIGHT", gap, 0)
         elseif direction == "UP" then
-            slot:SetPoint("BOTTOM", frameSlots[ slotList[i - 1] ], "TOP", 0, gap)
+			slot:SetPoint("BOTTOM", frameSlots[slotList[i - 1]], "TOP", 0, gap)
         elseif direction == "DOWN" then
-            slot:SetPoint("TOP", frameSlots[ slotList[i - 1] ], "BOTTOM", 0, - gap)
+			slot:SetPoint("TOP", frameSlots[slotList[i - 1]], "BOTTOM", 0, -gap)
         end
        slot:SetSlotItem() -- init with empty slot
         slot:Show()
@@ -486,7 +486,7 @@ local function Slot_Update(self)
                             setn[elTab[1]] = true
                             set = true
                         elseif #elTab > 1 then
-                            for j=1, #elTab do
+							for j = 1, #elTab do
                                 if not setn[elTab[j]] then
                                     slot:SetSlotItem(elTab[j])
                                     setn[elTab[j]] = true
@@ -508,9 +508,9 @@ local function Slot_CreateSlotFrame(frame)
     frame.modelFrame = CreateFrame("DressUpModel", nil, frame, "ModelWithControlsTemplate")
     frame.slots = {}
     frame.rowFrame = {}
-    frame.rowFrame.left = Slot_CreateSlotRow(frame, SLOTS_ROWS.left, frame.slots, EQUIP_ITEM_SIZE, "TOPLEFT", 0, 0, "DOWN", 2)
-    frame.rowFrame.right = Slot_CreateSlotRow(frame, SLOTS_ROWS.right, frame.slots, EQUIP_ITEM_SIZE, "TOPRIGHT", 0, 0, "DOWN", 2)
-    frame.rowFrame.bottom = Slot_CreateSlotRow(frame, SLOTS_ROWS.bottom, frame.slots, EQUIP_ITEM_SIZE, "TOP", 0, -(frame.rowFrame.left:GetHeight() - (EQUIP_ITEM_SIZE * 0.5)), "RIGHT", 2)
+	frame.rowFrame.left = Slot_CreateSlotRow(frame, SLOTS_ROWS.left, frame.slots, EQUIP_ITEM_SIZE, "TOPLEFT", 4, -4, "DOWN", 2)
+	frame.rowFrame.right = Slot_CreateSlotRow(frame, SLOTS_ROWS.right, frame.slots, EQUIP_ITEM_SIZE, "TOPRIGHT", -4, -4, "DOWN", 2)
+	frame.rowFrame.bottom = Slot_CreateSlotRow(frame, SLOTS_ROWS.bottom, frame.slots, EQUIP_ITEM_SIZE, "TOP", 0, -(frame.rowFrame.left:GetHeight() - (EQUIP_ITEM_SIZE * 0.5) - 4), "RIGHT", 2)
 
     frame.modelFrame:SetPoint("TOPLEFT", frame.rowFrame.left, "TOPRIGHT", 0, 0)
     frame.modelFrame:SetPoint("BOTTOMRIGHT", frame.rowFrame.right, "BOTTOMLEFT", 0, EQUIP_ITEM_SIZE * 0.5)
@@ -537,10 +537,10 @@ local function ItemScroll_GetStartAndEndPos(self)
         return 1, self.maxItems
     end
 
-    local startPos, endPos = 1,1
+	local startPos, endPos = 1, 1
 
-    startPos = ( (self.curPos-1) * self.maxItemsPerRow )
-    startPos = startPos <= 0 and 1 or startPos+1
+	startPos = ((self.curPos - 1) * self.maxItemsPerRow)
+	startPos = startPos <= 0 and 1 or startPos + 1
     endPos = startPos + self.maxItems - 1
 
     return startPos, endPos
@@ -567,10 +567,10 @@ local function ItemScroll_Update(self)
                 item:SetSize(LIST_ITEM_SIZE, LIST_ITEM_SIZE)
                 if i == 1 then
                     item:SetPoint("TOPLEFT", 0, 0)
-                elseif (i-1) % self.maxItemsPerRow == 0 then
-                    item:SetPoint("TOP", self.itemButtons[i-self.maxItemsPerRow], "BOTTOM", 0, -(self.itemGapH))
+				elseif (i - 1) % self.maxItemsPerRow == 0 then
+					item:SetPoint("TOP", self.itemButtons[i - self.maxItemsPerRow], "BOTTOM", 0, -(self.itemGapH))
                 else
-                    item:SetPoint("LEFT", self.itemButtons[i-1], "RIGHT", self.itemGapV, 0)
+					item:SetPoint("LEFT", self.itemButtons[i - 1], "RIGHT", self.itemGapV, 0)
                 end
                 self.itemButtons[i] = item
             end
@@ -600,7 +600,7 @@ local function ItemScroll_SetItems(self, itemList, forceUpdate)
     ItemScroll_ClearItems(self)
 
     self.curPos = 1
-    self.maxScroll = ( floor((#itemList / self.maxItemsPerRow)+0.5) - self.maxItemRows ) + 1
+	self.maxScroll = (floor((#itemList / self.maxItemsPerRow) + 0.5) - self.maxItemRows) + 1
     if self.maxScroll > 0 then
         self.scrollEnabled = true
         self.scrollbar:SetValue(1)
@@ -652,7 +652,7 @@ function GUI:UpdateDropDown()
         [1] = {
             info = {
                 name = AL["Lists"],
-                bgColor = {0, 0, 0, 1},		-- Background color
+				bgColor = { 0, 0, 0, 1 }, -- Background color
             }
         }
     }
@@ -664,8 +664,8 @@ function GUI:UpdateDropDown()
     else
         listDb = Favourites:GetProfileLists(true)
     end
-    for i,v in ipairs(listDb) do
-        dataEntrys[ #dataEntrys + 1 ] = {
+	for i, v in ipairs(listDb) do
+		dataEntrys[#dataEntrys + 1] = {
             id = v.id,
             name = v.nameIcon,
             tt_title = v.nameIcon,
@@ -689,10 +689,9 @@ end
 function GUI:Create()
     if not self.frame then
         local frameName = "AtlasLoot_GUI-FavouritesFrame"
-        local frame = CreateFrame("Frame", frameName, nil, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+		local frame = CreateFrame("Frame", frameName, nil, "PortraitFrameTemplate")
         frame:ClearAllPoints()
         frame:SetParent(UIParent)
-        --frame:SetPoint(db.point[1], db.point[2], db.point[3], db.point[4], db.point[5])
         frame:SetPoint("CENTER")
         frame:SetWidth(600)
         frame:SetHeight(380)
@@ -706,49 +705,41 @@ function GUI:Create()
         frame:SetScript("OnHide", GUI_FrameOnHide)
         frame:SetToplevel(true)
         frame:SetClampedToScreen(true)
-        frame:SetBackdrop(ALPrivate.BOX_BACKDROP)
-        tinsert(UISpecialFrames, frameName)	-- allow ESC close
+		tinsert(UISpecialFrames, frameName) -- allow ESC close
 
-        frame.CloseButton = CreateFrame("Button", frameName.."-CloseButton", frame, "UIPanelCloseButton")
-        frame.CloseButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 3, 2)
-
-        frame.titleFrame = AtlasLoot.GUI.CreateTextWithBg(frame, 0, 0)
-        frame.titleFrame:SetPoint("TOPLEFT", frame, 5, -5)
-        frame.titleFrame:SetPoint("BOTTOMRIGHT", frame, "TOPRIGHT", -27, -23)
-        frame.titleFrame.text:SetText(AL["AtlasLoot"].." - "..AL["Favourites"])
+		--frame:SetPortraitAtlasRaw("auctionhouse-icon-favorite");
+		frame:SetTitle(AL["AtlasLoot"].." - "..AL["Favourites"]);
 
         frame.infoButton = CreateFrame("Button", nil, frame, "UIPanelInfoButton")
-        frame.infoButton:SetPoint("RIGHT", frame.titleFrame, "RIGHT", -1, 0)
+		frame.infoButton:SetPoint("RIGHT", frame.CloseButton, "LEFT", -8, 0)
         frame.infoButton:SetScript("OnEnter", GUI_InfoOnEnter)
         frame.infoButton:SetScript("OnLeave", GUI_InfoOnLeave)
+		frame.infoButton:SetFrameLevel(999)
 
         frame.content = CreateFrame("Frame", nil, frame)
-        frame.content:SetPoint("TOPLEFT", frame.titleFrame, "BOTTOMLEFT", 0, -3)
+		frame.content:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, -20)
         frame.content:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -5, 5)
 
-        frame.content.slotBg = CreateFrame("Frame", nil, frame.content, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+
+		frame.content.slotBg = CreateFrame("Frame", nil, frame.content)
         frame.content.slotBg:SetPoint("TOPLEFT", frame.content, "TOPLEFT", 0, 0)
         frame.content.slotBg:SetPoint("BOTTOMRIGHT", frame.content, "BOTTOMLEFT", 275, 0)
-        frame.content.slotBg:SetBackdrop(ALPrivate.BOX_BACKDROP)
 
-        frame.content.headerBg = CreateFrame("Frame", nil, frame.content, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+		frame.content.headerBg = CreateFrame("Frame", nil, frame.content)
         frame.content.headerBg:SetPoint("TOPLEFT", frame.content.slotBg, "TOPRIGHT", 0, 0)
         frame.content.headerBg:SetPoint("BOTTOMRIGHT", frame.content, "TOPRIGHT", 0, -27)
-        frame.content.headerBg:SetBackdrop(ALPrivate.BOX_BACKDROP)
 
-        frame.content.bottomBg = CreateFrame("Frame", nil, frame.content, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+		frame.content.bottomBg = CreateFrame("Frame", nil, frame.content)
         frame.content.bottomBg:SetPoint("TOPLEFT", frame.content.slotBg, "BOTTOMRIGHT", 2, 27)
         frame.content.bottomBg:SetPoint("BOTTOMRIGHT", frame.content, "BOTTOMRIGHT", 0, 0)
-        frame.content.bottomBg:SetBackdrop(ALPrivate.BOX_BACKDROP)
 
-        frame.content.itemListBg = CreateFrame("Frame", nil, frame.content, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-        frame.content.itemListBg:SetPoint("TOPLEFT", frame.content.headerBg, "BOTTOMLEFT", 2, -2)
+		frame.content.itemListBg = CreateFrame("Frame", nil, frame.content, "InsetFrameTemplate")
+		frame.content.itemListBg:SetPoint("TOPLEFT", frame.content.headerBg, "BOTTOMLEFT", 2, -12)
         frame.content.itemListBg:SetPoint("BOTTOMRIGHT", frame.content.bottomBg, "TOPRIGHT", 0, 2)
-        frame.content.itemListBg:SetBackdrop(ALPrivate.BOX_BACKDROP)
 
         frame.content.listSelect = AtlasLoot.GUI:CreateDropDown()
-        frame.content.listSelect:SetParPoint("TOPLEFT", frame.content, "TOPLEFT", 2, -2)
-        frame.content.listSelect:SetWidth(frame.content.slotBg:GetWidth()-5)
+		frame.content.listSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 60, -30)
+		frame.content.listSelect:SetWidth(frame.content.slotBg:GetWidth() - 65)
         frame.content.listSelect:SetTitle("")
         frame.content.listSelect:SetText(AL["Active list"])
         frame.content.listSelect:SetButtonOnClick(GUI_ListDropDownOnSelect)
@@ -792,23 +783,22 @@ function GUI:Create()
         frame.content.editBox.text:SetJustifyV("MIDDLE")
         frame.content.editBox.text:SetText(AL["Add ItemID"])
 
-        frame.content.slotFrame = CreateFrame("Frame", nil, frame.content)
-        frame.content.slotFrame:SetPoint("TOPLEFT", frame.content.listSelect.frame, "BOTTOMLEFT", 0, -5)
+		frame.content.slotFrame = CreateFrame("Frame", nil, frame.content, "InsetFrameTemplate")
         frame.content.slotFrame:SetPoint("TOPRIGHT", frame.content.listSelect.frame, "BOTTOMRIGHT", 0, -5)
-        frame.content.slotFrame:SetPoint("BOTTOMLEFT", frame.content, "BOTTOMLEFT", 0, 5)
+		frame.content.slotFrame:SetPoint("BOTTOMLEFT", frame.content, "BOTTOMLEFT", 5, 5)
 
         local scrollFrame = CreateFrame("ScrollFrame", frameName.."-scroll", frame.content)
         scrollFrame:EnableMouse(true)
         scrollFrame:EnableMouseWheel(true)
-        scrollFrame:SetPoint("TOPLEFT", frame.content.itemListBg, "TOPLEFT", 0, 0)
-        scrollFrame:SetPoint("BOTTOMRIGHT", frame.content.itemListBg, "BOTTOMRIGHT", 0, 0)
+		scrollFrame:SetPoint("TOPLEFT", frame.content.itemListBg, "TOPLEFT", 4, -4)
+		scrollFrame:SetPoint("BOTTOMRIGHT", frame.content.itemListBg, "BOTTOMRIGHT", -4, 4)
         scrollFrame:SetScript("OnMouseWheel", ItemScroll_OnMouseWheel)
         scrollFrame.contentWidth = scrollFrame:GetWidth() - 22
         scrollFrame.maxItemsPerRow = math.floor(scrollFrame.contentWidth / LIST_ITEM_SIZE)
         scrollFrame.maxItemRows = math.floor(scrollFrame:GetHeight() / LIST_ITEM_SIZE)
         scrollFrame.maxItems = scrollFrame.maxItemsPerRow * scrollFrame.maxItemRows
-        scrollFrame.itemGapV = (scrollFrame.contentWidth - ( scrollFrame.maxItemsPerRow * LIST_ITEM_SIZE )) / ( scrollFrame.maxItemsPerRow - 1 )
-        scrollFrame.itemGapH = (scrollFrame:GetHeight() - ( scrollFrame.maxItemRows * LIST_ITEM_SIZE )) / ( scrollFrame.maxItemRows - 1 )
+		scrollFrame.itemGapV = (scrollFrame.contentWidth - (scrollFrame.maxItemsPerRow * LIST_ITEM_SIZE)) / (scrollFrame.maxItemsPerRow - 1)
+		scrollFrame.itemGapH = (scrollFrame:GetHeight() - (scrollFrame.maxItemRows * LIST_ITEM_SIZE)) / (scrollFrame.maxItemRows - 1)
 
         scrollFrame.scrollbar = CreateFrame("Slider", frameName.."-scrollbar", scrollFrame, "UIPanelScrollBarTemplate")
         scrollFrame.scrollbar:SetPoint("TOPLEFT", scrollFrame, "TOPRIGHT", -20, -20)
@@ -869,19 +859,7 @@ function GUI:UpdateStyle()
         local frame = self.frame
 
         -- main
-        frame:SetBackdropColor(db.bgColor.r, db.bgColor.b, db.bgColor.g, db.bgColor.a)
         frame:SetScale(db.scale)
-
-        -- title
-        frame.titleFrame:SetBackdropColor(db.title.bgColor.r, db.title.bgColor.g, db.title.bgColor.b, db.title.bgColor.a)
-        frame.titleFrame:SetFont(LibSharedMedia:Fetch("font", db.title.font), db.title.size)
-        frame.titleFrame.text:SetTextColor(db.title.textColor.r, db.title.textColor.g, db.title.textColor.b, db.title.textColor.a)
-
-        -- content
-        frame.content.slotBg:SetBackdropColor(db.content.bgColor.r, db.content.bgColor.g, db.content.bgColor.b, db.content.bgColor.a)
-        frame.content.headerBg:SetBackdropColor(db.content.bgColor.r, db.content.bgColor.g, db.content.bgColor.b, db.content.bgColor.a)
-        frame.content.itemListBg:SetBackdropColor(db.content.bgColor.r, db.content.bgColor.g, db.content.bgColor.b, db.content.bgColor.a)
-        frame.content.bottomBg:SetBackdropColor(db.content.bgColor.r, db.content.bgColor.g, db.content.bgColor.b, db.content.bgColor.a)
     end
 end
 

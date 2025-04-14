@@ -17,6 +17,7 @@ local AL = AtlasLoot.Locales
 local profile
 local ALButton = LibStub("LibDBIcon-1.0")
 
+local TT_ENTRY = "|cFFCFCFCF%s:|r %s"
 
 -- LDB
 if not LibStub:GetLibrary("LibDataBroker-1.1", true) then return end
@@ -28,8 +29,9 @@ local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasL
 	icon = "Interface\\Icons\\INV_Box_01",
 	OnTooltipShow = function(tooltip)
 		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
-		tooltip:AddLine(AL["AtlasLoot_Minimap_Clicks"]);
-		-- TODO: tooltip text
+		tooltip:AddLine(format(TT_ENTRY, AL["Left Click"], AL["Open AtlasLoot"]))
+		tooltip:AddLine(format(TT_ENTRY, AL["Shift + Left Click"], AL["Open Options"]))
+		tooltip:AddLine(format(TT_ENTRY, AL["Right Click"], AL["Open Favourites"]))
 	end,
 	OnClick = function(self, button)
 		if button == "RightButton" then

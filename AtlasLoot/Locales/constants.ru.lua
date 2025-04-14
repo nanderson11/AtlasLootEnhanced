@@ -33,8 +33,6 @@ AL["AtlasLoot Search"] = "AtlasLoot Поиск"
 AL["AtlasLoot Set View"] = "AtlasLoot Просмотр"
 AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader больше не используется.
 Удалите его из вашей папки AddOns]=]
-AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000ЛКМ: |cffFFFFFFОткрыть AtlasLoot
-|cffFF0000Shift+ЛКМ: |cffFFFFFFОткрыть настройки AtlasLoot]=]
 AL["Attack/Spell Power"] = "Атака/Сила заклинаний"
 AL["Attributes"] = "Характеристики"
 AL["Avatar of the Martyred"] = "Аватара Мученика"

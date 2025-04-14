@@ -33,8 +33,6 @@ AL["AtlasLoot Search"] = "AtlasLoot 검색"
 AL["AtlasLoot Set View"] = "AtlasLoot 세트 보기"
 AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader는 더 이상 사용되지 않습니다.
 AddOns 폴더에서 삭제하세요]=]
-AL["AtlasLoot_Minimap_Clicks"] = [=[|cffFF0000클릭: |cffFFFFFF AtlasLoot 열기
-|cffFF0000Shift+클릭: |cffFFFFFFAtlasLoot-설정 열기 ]=]
 AL["Attack/Spell Power"] = "전투력/주문력"
 AL["Attributes"] = "속성"
 AL["Avatar of the Martyred"] = "순교자의 화신"
