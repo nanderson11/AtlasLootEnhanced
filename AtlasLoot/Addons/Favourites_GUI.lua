@@ -310,11 +310,11 @@ local function SlotButton_SetSlotItem(self, itemID)
 		if not self.slotID or (self.equipLoc and self.equipLoc[itemEquipLoc]) then
 			self.ItemID = itemID
 			local quality = GetItemQuality(itemID)
-			self.overlay:SetQualityBorder(quality)
 			if not quality then
 				self:RegisterEvent("GET_ITEM_INFO_RECEIVED")
 			else
 				self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
+				self.overlay:SetQualityBorder(quality)
 			end
 			self.overlay:Show()
 			self.icon:SetTexture(icon)
