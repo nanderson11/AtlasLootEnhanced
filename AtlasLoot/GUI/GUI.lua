@@ -19,6 +19,7 @@ local GUI_CREATED = false
 local FIRST_SHOW = true
 local PLAYER_CLASS, PLAYER_CLASS_FN
 
+local TT_INFO_ENTRY = "|cFFCFCFCF%s:|r %s"
 local LOADER_STRING = "GUI_LOADING"
 
 local db
@@ -483,6 +484,20 @@ local function NextPrevButtonOnClick(self)
 	end
 end
 
+local function GUI_InfoOnEnter(self)
+	local tooltip = GetAlTooltip()
+	tooltip:SetOwner(self, "ANCHOR_LEFT", (self:GetWidth() * 0.5), 5)
+	tooltip:AddLine("AtlasLoot", 0, 1, 0)
+	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Shift + Left Click"], AL["Add item into chat"]))
+	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Ctrl + Left Click"], AL["Shows the item in the Dressing room"]))
+	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Alt + Left Click"], AL["Set/Remove the item as favourite"]))
+	tooltip:Show()
+end
+
+local function GUI_InfoOnLeave(self)
+	GetAlTooltip():Hide()
+end
+
 -- ################################
 -- DropDowns/Select
 -- ################################
@@ -813,6 +828,12 @@ function GUI:Create()
 
 	frame:SetPortraitToAsset("Interface\\Icons\\INV_Box_01");
 	frame:SetTitle(AL["AtlasLoot"]);
+
+	frame.infoButton = CreateFrame("Button", nil, frame, "UIPanelInfoButton")
+	frame.infoButton:SetPoint("RIGHT", frame.CloseButton, "LEFT", -8, 0)
+	frame.infoButton:SetScript("OnEnter", GUI_InfoOnEnter)
+	frame.infoButton:SetScript("OnLeave", GUI_InfoOnLeave)
+	frame.infoButton:SetFrameLevel(999)
 
 	frame.moduleSelect = GUI:CreateDropDown()
 	frame.moduleSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 70, -40)
