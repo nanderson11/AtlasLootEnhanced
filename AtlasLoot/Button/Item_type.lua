@@ -27,8 +27,13 @@ local ITEM_COLORS = {}
 
 local ItemClickHandler = nil
 local itemIsOnEnter = nil
+local Favourites
 
-function Item.OnSet(button, second)
+local function OnFavouritesAddonLoad(addon, enabled)
+	Favourites = enabled and addon or nil
+end
+
+local function OnInit()
 	if not ItemClickHandler then
 		db = AtlasLoot.db.Button.Item
 		ItemClickHandler = ClickHandler:Add(
@@ -36,25 +41,36 @@ function Item.OnSet(button, second)
 			{
 				ChatLink = { "LeftButton", "Shift" },
 				DressUp = { "LeftButton", "Ctrl" },
+				SetFavourite = { "LeftButton", "Alt" },
 				Azerite = { "RightButton", "Shift" },
 				types = {
 					ChatLink = true,
 					DressUp = true,
+					SetFavourite = true,
 					Azerite = true,
 				},
 			},
 			db.ClickHandler,
 			{
-				{ "ChatLink", AL["Chat Link"], AL["Add item into chat"] },
-				{ "DressUp",  AL["Dress up"],  AL["Shows the item in the Dressing room"] },
-				{ "Azerite",  "Azerite",       "Azerite" },
-			})
+				{ "ChatLink",     AL["Chat Link"],     AL["Add item into chat"] },
+				{ "DressUp",      AL["Dress up"],      AL["Shows the item in the Dressing room"] },
+				{ "SetFavourite", AL["Set Favourite"], AL["Set/Remove the item as favourite"] },
+				{ "Azerite",      "Azerite",           "Azerite" },
+			}
+		)
+
+		AtlasLoot.Addons:GetAddon("Favourites", OnFavouritesAddonLoad)
+
 		-- create item colors
 		for i = 0, 7 do
 			local _, _, _, itemQuality = C_Item.GetItemQualityColor(i)
 			ITEM_COLORS[i] = itemQuality
 		end
 	end
+end
+AtlasLoot:AddInitFunc(OnInit)
+
+function Item.OnSet(button, second)
 	if not button then return end
 	if second and button.__atlaslootinfo.secType then
 		if button.ItemID and IsAzeriteItem(button.ItemID) then
@@ -102,6 +118,31 @@ function Item.OnMouseAction(button, mouseButton)
 		itemLink = itemLink or button.ItemString
 		if itemLink then
 			DressUpItemLink(itemLink)
+		end
+	elseif mouseButton == "SetFavourite" then
+		if Favourites then
+			if Favourites:IsFavouriteItemID(button.ItemID, true) then
+				Favourites:RemoveItemID(button.ItemID)
+				if Favourites:IsFavouriteItemID(button.ItemID) then
+					Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+				else
+					if button.favourite then
+						button.favourite:Hide()
+					end
+				end
+			else
+				if Favourites:AddItemID(button.ItemID) then
+					Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+					if button.favourite then
+						button.favourite:Show()
+					end
+				end
+			end
+			if Favourites:TooltipHookEnabled() then
+				Item.OnLeave(button)
+				Item.OnEnter(button)
+			end
+			--AtlasLoot.Button:ExtraItemFrame_Refresh(button)
 		end
 	elseif mouseButton == "MouseWheelUp" and Item.previewTooltipFrame and Item.previewTooltipFrame:IsShown() then -- ^
 		local frame = Item.previewTooltipFrame.modelFrame
