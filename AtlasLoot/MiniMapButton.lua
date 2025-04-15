@@ -31,11 +31,15 @@ local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasL
 		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
 		tooltip:AddLine(format(TT_ENTRY, AL["Left Click"], AL["Open AtlasLoot"]))
 		tooltip:AddLine(format(TT_ENTRY, AL["Shift + Left Click"], AL["Open Options"]))
-		tooltip:AddLine(format(TT_ENTRY, AL["Right Click"], AL["Open Favourites"]))
+		if (AtlasLoot.db.Addons.Favourites.enabled) then
+			tooltip:AddLine(format(TT_ENTRY, AL["Right Click"], AL["Open Favourites"]))
+		end
 	end,
 	OnClick = function(self, button)
 		if button == "RightButton" then
-			AtlasLoot.Addons:GetAddon("Favourites").GUI:Toggle()
+			if (AtlasLoot.db.Addons.Favourites.enabled) then
+				AtlasLoot.Addons:GetAddon("Favourites").GUI:Toggle()
+			end
 		else
 			if IsShiftKeyDown() then
 				SlashCommands:Run("options")

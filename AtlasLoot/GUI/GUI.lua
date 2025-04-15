@@ -490,7 +490,9 @@ local function GUI_InfoOnEnter(self)
 	tooltip:AddLine("AtlasLoot", 0, 1, 0)
 	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Shift + Left Click"], AL["Add item into chat"]))
 	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Ctrl + Left Click"], AL["Shows the item in the Dressing room"]))
-	tooltip:AddLine(format(TT_INFO_ENTRY, AL["Alt + Left Click"], AL["Set/Remove the item as favourite"]))
+	if (AtlasLoot.db.Addons.Favourites.enabled) then
+		tooltip:AddLine(format(TT_INFO_ENTRY, AL["Alt + Left Click"], AL["Set/Remove the item as favourite"]))
+	end
 	tooltip:Show()
 end
 
