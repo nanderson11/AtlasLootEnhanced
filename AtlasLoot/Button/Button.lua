@@ -136,8 +136,6 @@ function Button:Create()
 	button:SetWidth(270)
 	button:SetHeight(28)
 	button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
-	--button:SetNormalTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
-	--button:RegisterForClicks("LeftButtonDown", "RightButtonDown")
 	button:EnableMouseWheel(true)
 	button:RegisterForClicks("AnyDown") --"AnyUp",
 	button:SetScript("OnEnter", Button_OnEnter)
@@ -161,17 +159,6 @@ function Button:Create()
 	button.icon:SetWidth(26)
 	button.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
-	--[[
-	button.icon.glow = CreateFrame("FRAME")
-	button.icon.glow:ClearAllPoints()
-	button.icon.glow:SetParent(button)
-	button.icon.glow:SetHeight(26)
-	button.icon.glow:SetWidth(26)
-	button.icon.glow:SetAllPoints(button.icon)
-	ActionButton_ShowOverlayGlow(button.icon.glow)
-	--ActionButton_HideOverlayGlow(self)
-	]] --
-
 	button.qualityBorder = button:CreateTexture(buttonName.."_qualityBorder")
 	button.qualityBorder:SetPoint("TOPLEFT", button.icon, "TOPLEFT")
 	button.qualityBorder:SetPoint("BOTTOMRIGHT", button.icon, "BOTTOMRIGHT")
@@ -191,6 +178,14 @@ function Button:Create()
 	button.completed:SetWidth(20)
 	button.completed:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
 	button.completed:Hide()
+
+	button.favourite = button:CreateTexture(buttonName.."_favourite")
+	button.favourite:SetDrawLayer("OVERLAY", 3)
+	button.favourite:SetPoint("TOPLEFT", button.icon, -2, 2)
+	button.favourite:SetHeight(12)
+	button.favourite:SetWidth(12)
+	button.favourite:SetAtlas("auctionhouse-icon-favorite")
+	button.favourite:Hide()
 
 	-- ItemName <FontString>
 	button.name = button:CreateFontString(buttonName.."_name", "ARTWORK", "GameFontNormal")
@@ -386,6 +381,7 @@ function Proto:Clear()
 		if self.count then self.count:Hide() end
 		self.overlay:SetSize(self.icon:GetWidth(), self.icon:GetHeight())
 		if self.completed and self.completed:IsShown() then self.completed:Hide() end
+		if self.favourite then self.favourite:Hide() end
 		self:Hide()
 	end
 	if self.secButton then

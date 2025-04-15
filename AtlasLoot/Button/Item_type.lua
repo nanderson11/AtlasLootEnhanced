@@ -124,7 +124,7 @@ function Item.OnMouseAction(button, mouseButton)
 			if Favourites:IsFavouriteItemID(button.ItemID, true) then
 				Favourites:RemoveItemID(button.ItemID)
 				if Favourites:IsFavouriteItemID(button.ItemID) then
-					Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+					--Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
 				else
 					if button.favourite then
 						button.favourite:Hide()
@@ -132,7 +132,7 @@ function Item.OnMouseAction(button, mouseButton)
 				end
 			else
 				if Favourites:AddItemID(button.ItemID) then
-					Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+					--Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
 					if button.favourite then
 						button.favourite:Show()
 					end
@@ -222,6 +222,7 @@ end
 
 function Item.Refresh(button)
 	if not button.ItemID then return end
+	local itemID = button.ItemID
 	local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture = GetItemInfo(button.ItemString or button.ItemID)
 	if not itemName then
 		Query:Add(button)
@@ -230,7 +231,6 @@ function Item.Refresh(button)
 
 	button.overlay:Show()
 	button.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
-	--button.overlay:SetAtlas(LOOT_BORDER_BY_QUALITY[itemQuality] or LOOT_BORDER_BY_QUALITY[LE_ITEM_QUALITY_UNCOMMON])
 	button.overlay:SetVertexColor(
 		ITEM_QUALITY_COLORS[itemQuality].r,
 		ITEM_QUALITY_COLORS[itemQuality].g,
@@ -259,6 +259,12 @@ function Item.Refresh(button)
 		-- description
 		-- ##################
 		button.extra:SetText(GetItemDescInfo(itemEquipLoc, itemType, itemSubType))
+	end
+	if Favourites and Favourites:IsFavouriteItemID(itemID) then
+		--Favourites:SetFavouriteIcon(itemID, button.favourite)
+		button.favourite:Show()
+	else
+		button.favourite:Hide()
 	end
 	if db.showCompletedHook then
 		local itemCount = C_Item.GetItemCount(button.ItemString, true)
