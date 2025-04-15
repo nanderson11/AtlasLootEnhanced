@@ -429,12 +429,12 @@ local function ChatFilterFunc(_, event, msg, player, l, cs, t, flag, channelId, 
 	local remaining = msg;
 	local done;
 	repeat
-		local start, finish, characterName, displayName = remaining:find("%[AtlasLootClassic: ([^%s]+) %- (.*)%]");
+		local start, finish, characterName, displayName = remaining:find("%[AtlasLoot: ([^%s]+) %- (.*)%]");
 		if (characterName and displayName) then
 			characterName = characterName:gsub("|c[Ff][Ff]......", ""):gsub("|r", "");
 			displayName = displayName:gsub("|c[Ff][Ff]......", ""):gsub("|r", "");
 			newMsg = newMsg..remaining:sub(1, start - 1);
-			newMsg = newMsg.."|Hgarrmission:atlaslootclassic_fav|h|cFF8800FF["..characterName.." |r|cFF8800FF- "..displayName.."]|h|r";
+			newMsg = newMsg.."|Hgarrmission:atlasloot_fav|h|cFF8800FF["..characterName.." |r|cFF8800FF- "..displayName.."]|h|r";
 			remaining = remaining:sub(finish + 1);
 		else
 			done = true;
@@ -540,15 +540,15 @@ function Favourites.OnInitialize()
 	Favourites.GUI.OnInitialize()
 	-- Import via chat link
 	hooksecurefunc("SetItemRef", function(link, text)
-		if (link == "garrmission:atlaslootclassic_fav") then
-			local _, _, characterName, displayName = text:find("|Hgarrmission:atlaslootclassic_fav|h|cFF8800FF%[([^%s]+) |r|cFF8800FF%- (.*)%]|h");
+		if (link == "garrmission:atlasloot_fav") then
+			local _, _, characterName, displayName = text:find("|Hgarrmission:atlasloot_fav|h|cFF8800FF%[([^%s]+) |r|cFF8800FF%- (.*)%]|h");
 			if (characterName and displayName) then
 				characterName = characterName:gsub("|c[Ff][Ff]......", ""):gsub("|r", "");
 				displayName = displayName:gsub("|c[Ff][Ff]......", ""):gsub("|r", "");
 				if (IsShiftKeyDown()) then
 					local editbox = GetCurrentKeyBoardFocus();
 					if (editbox) then
-						editbox:Insert("[AtlasLootClassic: "..characterName.." - "..displayName.."]");
+						editbox:Insert("[AtlasLoot: "..characterName.." - "..displayName.."]");
 					end
 				else
 					characterName = characterName:gsub("%.", "")
@@ -556,13 +556,13 @@ function Favourites.OnInitialize()
 				end
 			else
 				ShowTooltip({
-					{ 1, "AtlasLootClassic",   0.5, 0, 1 },
+					{ 1, "AtlasLoot",          0.5, 0, 1 },
 					{ 1, AL["Malformed link"], 1,   0, 0 }
 				});
 			end
 		end
 	end)
-	Comm:RegisterComm("AtlasLootClassic", function(prefix, text, channel, sender)
+	Comm:RegisterComm("AtlasLoot", function(prefix, text, channel, sender)
 		-- Comm received
 		local cmd, params = strsplit(":", text, 2)
 		if (cmd == "requestList") then
@@ -583,7 +583,7 @@ function Favourites.OnInitialize()
 			else
 				ChatLinkData = listData;
 				ShowTooltip({
-					{ 2, "AtlasLootClassic",                               listName, 0.5,  0, 1, 1, 1, 1 },
+					{ 2, "AtlasLoot",                                      listName, 0.5,  0, 1, 1, 1, 1 },
 					{ 1, AL["List received. Click link again to import!"], 1,        0.82, 0 }
 				});
 			end
@@ -627,7 +627,7 @@ function Favourites:InsertChatLink()
 	if editbox and self.activeList then
 		local characterName = UnitName("player").."-"..GetRealmName()
 		local displayName = self.activeList.__name
-		editbox:Insert("[AtlasLootClassic: "..characterName.." - "..displayName.."]");
+		editbox:Insert("[AtlasLoot: "..characterName.." - "..displayName.."]");
 	end
 end
 
@@ -642,16 +642,16 @@ function Favourites:RequestList(characterName, listName)
 			ChatLinkPending = false
 			ChatLinkData = false
 			ShowTooltip({
-				{ 2, "AtlasLootClassic", listName, 0.5,  0, 1, 1, 1, 1 },
+				{ 2, "AtlasLoot",        listName, 0.5,  0, 1, 1, 1, 1 },
 				{ 1, AL["Import done!"], 1,        0.82, 0 }
 			});
 		end
 	else
 		ChatLinkPending = listIdent
 		ChatLinkData = false
-		Comm:SendCommMessage("AtlasLootClassic", "requestList:"..listName, "WHISPER", characterName)
+		Comm:SendCommMessage("AtlasLoot", "requestList:"..listName, "WHISPER", characterName)
 		ShowTooltip({
-			{ 2, "AtlasLootClassic",                                               listName, 0.5,  0, 1, 1, 1, 1 },
+			{ 2, "AtlasLoot",                                                      listName, 0.5,  0, 1, 1, 1, 1 },
 			{ 1, AL["Requesting favorite list from %s ..."]:format(characterName), 1,        0.82, 0 }
 		});
 	end
@@ -659,7 +659,7 @@ end
 
 function Favourites:SendListData(characterName, listName, listId, listIsGlobal)
 	local listContent = self:ExportItemList(listId, listIsGlobal)
-	Comm:SendCommMessage("AtlasLootClassic", "sendList:"..listName..":"..listContent, "WHISPER", characterName)
+	Comm:SendCommMessage("AtlasLoot", "sendList:"..listName..":"..listContent, "WHISPER", characterName)
 end
 
 function Favourites:SendList(characterName, listNameTarget)
