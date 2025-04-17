@@ -67,6 +67,7 @@ local function OnInit()
 			ITEM_COLORS[i] = itemQuality
 		end
 	end
+	Item.ItemClickHandler = ItemClickHandler
 end
 AtlasLoot:AddInitFunc(OnInit)
 

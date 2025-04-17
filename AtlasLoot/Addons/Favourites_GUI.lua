@@ -121,7 +121,7 @@ local function ShowFavOptions()
 end
 
 local function ShowOptionsOnClick()
-	AtlasLoot.Loader:LoadModule("AtlasLootClassic_Options", ShowFavOptions)
+	AtlasLoot.Loader:LoadModule("AtlasLoot_Options", ShowFavOptions)
 end
 
 local function ChatLinkOnClick()
@@ -757,15 +757,16 @@ function GUI:Create()
 		frame.content.optionsButton:SetText(AL["Settings"])
 		frame.content.optionsButton:SetScript("OnClick", ShowOptionsOnClick)
 
-		frame.content.chatLinkButton = AtlasLoot.GUI.CreateButton()
+		--[[ frame.content.chatLinkButton = AtlasLoot.GUI.CreateButton()
 		frame.content.chatLinkButton:SetPoint("LEFT", frame.content.optionsButton, "RIGHT", 5, 0)
 		frame.content.chatLinkButton:SetText(AL["Chat-Link"])
-		frame.content.chatLinkButton:SetScript("OnClick", ChatLinkOnClick)
+		frame.content.chatLinkButton:SetScript("OnClick", ChatLinkOnClick) ]]
 
 		frame.content.showAllItems = AtlasLoot.GUI.CreateButton()
 		frame.content.showAllItems:SetPoint("LEFT", frame.content.bottomBg, "LEFT", 2, 0)
 		frame.content.showAllItems:SetText(AL["Show all items"])
 		frame.content.showAllItems:SetScript("OnClick", ShowAllItemsOnClick)
+		frame.content.showAllItems:Disable()
 
 		frame.content.editBox = CreateFrame("EditBox", nil, frame.content, "InputBoxTemplate")
 		frame.content.editBox:SetWidth(60)
@@ -874,8 +875,10 @@ function GUI:SelectSlot(slotID)
 	if not self.frame then return end
 	if slotID and self.frame.content.slotFrame.slots[slotID] then
 		GUI.selectedSlot = slotID
+		self.frame.content.showAllItems:Enable()
 	else
 		GUI.selectedSlot = nil
+		self.frame.content.showAllItems:Disable()
 	end
 	ShowItemList(slotID)
 end
