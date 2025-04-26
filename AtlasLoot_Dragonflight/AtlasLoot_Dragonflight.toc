@@ -1,4 +1,4 @@
-## Interface: 110100
+## Interface: 110105
 
 ## Title: AtlasLoot |cFF0099FF[Dragonflight]|r
 ## Title-zhTW: AtlasLoot |cFF0099FF[巨龍崛起]|r
