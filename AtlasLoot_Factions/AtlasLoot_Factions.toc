@@ -1,4 +1,4 @@
-﻿## Interface: 110100
+﻿## Interface: 110105
 
 ## Title: AtlasLoot |cFF0099FF[Factions]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Fraktionen]|r
