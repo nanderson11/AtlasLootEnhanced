@@ -1,5 +1,10 @@
 ﻿# Changelog
 
+## 8.26.0 - April 26, 2025
+### Added
+- Added Flame's Radiance to Factions
+- Added missing Noblegarden loot to World Events
+
 ## 8.25.1 - April 25, 2025
 ### Changed
 - Update TOC to 11.1.5
