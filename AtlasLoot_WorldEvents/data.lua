@@ -1103,12 +1103,24 @@ data["ChildrensWeek"] = {
 				{ 13, "INV_Box_01", nil,                                ALIL["Northrend"],    ALIL["Dalaran"] },
 				{ 14, 46545,        "pet225" },         -- Curious Oracle Hatchling
 				{ 15, 46544,        "pet226" },         -- Curious Wolvar Pup
-				{ 16, "INV_Box_01", nil,                                AL["Common Rewards"], nil },
-				{ 17, 71153 },                          -- Magical Pet Biscuit
-				{ 18, 23022 },                          -- Curmudgeon's Payoff
-				{ 20, "INV_Box_01", nil,                                AL["Vendor"],         nil },
-				{ 21, 69895,        [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Green Balloon
-				{ 22, 69896,        [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Yellow Balloon
+				{ 16,  "INV_Box_01", nil, ALIL["Kul Tiras"].." / "..ALIL["Zandalar"], ALIL["Boralus"].." / "..ALIL["Dazar'alor"] },
+				{ 17,  167009,        "pet2578" },         -- Enchanted Saurolisk Scale (Scaley)
+				{ 18,  167008,        "pet2575" },         -- Sandy Hermit Crab Shell (Mr. Crabs)
+				{ 19,  167010,        "pet2576" },         -- Beakbert
+				{ 20,  167011,        "pet2577" },         -- Slimy Pouch (Froglet)
+				{ 22,  "INV_Box_01", nil, ALIL["Khaz Algar"], ALIL["Dornogal"] },
+				{ 23,  221851,        "pet4466" },         -- Argos's Bell (Argos)
+				{ 24,  232857,        "pet4635" },         -- Goggles's Favorite Chew-Wrench (Goggle)
+				{ 25,  241193,        "pet3245" },         -- Threadis's Workshop Bot 2.0 (Helpful Workshop Bot)
+				{ 26,  242260 },         -- Arsenal: Children's Stormwind Guard Weapon Set
+				{ 27,  242265 },         -- Arsenal: Children's Orgrimmar Guard Weapon Set
+				{ 101, "INV_Box_01", nil,                                AL["Common Rewards"], nil },
+				{ 102, 116202 },                          -- Pet Care Package
+				{ 103, 23022 },                           -- Curmudgeon's Payoff
+				{ 104, 241215 },                          -- Well-loved Figurine
+				{ 106, "INV_Box_01", nil,                                AL["Vendor"],         nil },
+				{ 107, 69895,        [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Green Balloon
+				{ 108, 69896,        [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Yellow Balloon
 			},
 		},
 	}

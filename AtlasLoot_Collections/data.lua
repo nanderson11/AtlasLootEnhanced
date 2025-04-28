@@ -5930,11 +5930,13 @@ data["COMPANIONS"]         = {
 				{ 320, 233248, "pet4425" },                                      -- Glamrok
 				{ 321, 238986, "pet4794", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Mister Mans
 				{ 322, 241188, "pet4804", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Swiftpaw
+				{ 323, 221851, "pet4466" }, -- Argos
+				{ 324, 232857, "pet4635" }, -- Goggles
+				{ 325, 241193, "pet3245" }, -- Helpful Workshop Bot
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
 				-- { 322, 221759, "pet4512" }, -- Sceaduthax
-				-- { 323, 221851, "pet4466" }, -- Argos
 				-- { 325, 222979, "pet4545" }, -- Clay Stonecharger
 				-- { 327, 221195, "pet4458" }, -- Illskitter
 				-- { 324, 234905, "pet4730" }, -- Mech-Friend Maya
@@ -5942,7 +5944,6 @@ data["COMPANIONS"]         = {
 				-- { 325, 221493, "pet4493" }, -- Admiral
 				-- { 326, 221495, "pet4497" }, -- Waddles
 				-- { 327, 222967, "pet4475" }, -- Webbers
-				-- { 102, 232857, "pet4635" }, -- Goggles
 				-- { 114, 232856, "pet4633" }, -- Scruff
 				-- { 203, 232854, "pet4634" }, -- Grinner
 			}
