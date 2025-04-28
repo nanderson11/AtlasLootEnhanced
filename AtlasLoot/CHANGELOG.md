@@ -1,5 +1,10 @@
 ﻿# Changelog
 
+## 8.27.0 - April 28, 2025
+### Added
+- Added new Children's Week loot to World Events
+- Added Children's Week and Noblegarden loot to Collections
+
 ## 8.26.0 - April 26, 2025
 ### Added
 - Added Flame's Radiance to Factions
