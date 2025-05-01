@@ -412,7 +412,7 @@ end
 
 local function InitTooltips()
 	if TooltipsHooked then return end
-	Tooltip:AddHookFunction("OnTooltipSetItem", OnTooltipSetItem_Hook)
+	--Tooltip:AddHookFunction("OnTooltipSetItem", OnTooltipSetItem_Hook)
 	TooltipsHooked = true
 end
 

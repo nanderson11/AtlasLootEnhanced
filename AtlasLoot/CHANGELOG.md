@@ -1,5 +1,14 @@
 ﻿# Changelog
 
+## 9.0.0 -
+### Added
+- settings profiles
+- favorites
+- new UI
+### Removed
+- sound
+- some UI customization options
+
 ## 8.27.0 - April 28, 2025
 ### Added
 - Added new Children's Week loot to World Events

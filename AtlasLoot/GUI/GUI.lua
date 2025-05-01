@@ -878,6 +878,7 @@ function GUI:Create()
 	frame.contentFrame:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -70)
 	frame.contentFrame:SetWidth(560) -- Frame = 560, Abstand = 20, Button = 270
 	frame.contentFrame:SetHeight(480) -- Frame = 460, Abstand = 10, Button = 30
+	--frame.contentFrame.Bg:SetAtlas("auctionhouse-background-index")
 	frame.contentFrame.shownFrame = nil
 
 	frame.contentFrame.title = frame.contentFrame:CreateFontString(frameName.."-title", "ARTWORK", "GameFontHighlightLarge")

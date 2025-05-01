@@ -117,7 +117,7 @@ local function UpdateItemFrame(notPushChange)
 end
 
 local function ShowFavOptions()
-	AtlasLoot.Options:ShowAddon("favourite")
+	Settings.OpenToCategory("AtlasLoot");
 end
 
 local function ShowOptionsOnClick()
@@ -759,7 +759,7 @@ function GUI:Create()
 
 		--[[ frame.content.chatLinkButton = AtlasLoot.GUI.CreateButton()
 		frame.content.chatLinkButton:SetPoint("LEFT", frame.content.optionsButton, "RIGHT", 5, 0)
-		frame.content.chatLinkButton:SetText(AL["Chat-Link"])
+		frame.content.chatLinkButton:SetText(AL["Chat Link"])
 		frame.content.chatLinkButton:SetScript("OnClick", ChatLinkOnClick) ]]
 
 		frame.content.showAllItems = AtlasLoot.GUI.CreateButton()

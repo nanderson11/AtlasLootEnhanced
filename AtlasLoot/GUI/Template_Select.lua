@@ -444,6 +444,7 @@ function GUI.CreateSelect()
 	frame:EnableMouse(true)
 	frame:EnableMouseWheel(true)
 	frame:SetScript("OnMouseWheel", OnMouseWheel)
+	--frame.Bg:SetAtlas("Professions-background-summarylist")
 	frame.obj = self
 
 	frame.scrollbar = CreateFrame("Slider", frameName.."-scrollbar", frame, "UIPanelScrollBarTemplate")
