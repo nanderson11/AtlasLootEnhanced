@@ -9,6 +9,10 @@
 - sound
 - some UI customization options
 
+## 8.28.0 - May 2, 2025
+### Added
+- Added three mounts and three pets from the May Trading Post to Collections
+
 ## 8.27.0 - April 28, 2025
 ### Added
 - Added new Children's Week loot to World Events
