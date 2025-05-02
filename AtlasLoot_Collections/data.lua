@@ -1092,6 +1092,8 @@ data["MOUNTS"]             = {
 				{ 326, 233242, "mount" },                                      -- Royal Seafeather
 				{ 327, 235555, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" }, -- Lively Darkmoon Charger
 				{ 328, 238829, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Radiant Imperial Lynx
+				{ 329, 238897, "mount", [PRICE_EXTRA_ITTYPE] = "tender:550" }, -- Spring Harvesthog
+				{ 330, 210141, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" }, -- Brown-Furred Spiky Bakar
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -1150,6 +1152,8 @@ data["MOUNTS"]             = {
 				{ 110, 201788, "mount" },                           -- Vicious Sabertooth
 				{ 111, 201789, "mount" },                           -- Vicious Sabertooth
 				{ 112, 202086, "mount" },                           -- Crimson Gladiator's Drake
+				{ 113, 192766, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Amber Skitterfly
+
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -5930,9 +5934,12 @@ data["COMPANIONS"]         = {
 				{ 320, 233248, "pet4425" },                                      -- Glamrok
 				{ 321, 238986, "pet4794", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Mister Mans
 				{ 322, 241188, "pet4804", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Swiftpaw
-				{ 323, 221851, "pet4466" }, -- Argos
-				{ 324, 232857, "pet4635" }, -- Goggles
-				{ 325, 241193, "pet3245" }, -- Helpful Workshop Bot
+				{ 323, 221851, "pet4466" },                                      -- Argos
+				{ 324, 232857, "pet4635" },                                      -- Goggles
+				{ 325, 241193, "pet3245" },                                      -- Helpful Workshop Bot
+				{ 326, 236409, "pet4757", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Frumpy Softpaw
+				{ 327, 34492,  "pet168",  [PRICE_EXTRA_ITTYPE] = "tender:200" }, -- Rocket Chicken
+				{ 328, 238942, "pet4793" },                                      -- Weechi
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
@@ -5952,83 +5959,83 @@ data["COMPANIONS"]         = {
 			name = EXPANSION_NAME9,
 			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   190583, "pet3248" }, -- Ichabod
-				{ 2,   191126, "pet3256" }, -- Obsidian Whelpling
-				{ 3,   191886, "pet3274" }, -- Alvin the Anvil
-				{ 4,   191915, "pet3259" }, -- Shaggy
-				{ 5,   191930, "pet3261" }, -- Wakyn
-				{ 6,   191932, "pet3262" }, -- Violet Violence
-				{ 7,   191936, "pet3263" }, -- Secretive Frogduck
-				{ 8,   191941, "pet3264" }, -- Crystalline Mini-Monster
-				{ 9,   191946, "pet3265" }, -- Mister Muskoxeles
-				{ 10,  192459, "pet3270" }, -- Jean's Lucky Fish
-				{ 11,  193066, "pet3275" }, -- Chestnut
-				{ 12,  193071, "pet3278" }, -- Pistachio
-				{ 13,  193225, "pet3284" }, -- Whiskuk
-				{ 14,  193235, "pet3285" }, -- Luvvy
-				{ 15,  193363, "pet3290" }, -- Bunbo
-				{ 16,  193364, "pet3291" }, -- Scruffles
-				{ 17,  193373, "pet3292" }, -- Phoenix Wishwing
-				{ 18,  193374, "pet3293" }, -- Ashenwing
-				{ 19,  193377, "pet3294" }, -- Gerald
-				{ 20,  193429, "pet3297" }, -- Time-Lost Salamanther
-				{ 21,  193484, "pet3302" }, -- Pilot
-				{ 22,  193571, "pet3303" }, -- Mallard Duckling
-				{ 23,  193572, "pet3306" }, -- Quack-E
-				{ 24,  193618, "pet3317" }, -- Hoofhelper
-				{ 25,  193619, "pet3319" }, -- Yipper
-				{ 26,  193834, "pet3321" }, -- Blackfeather Nester
-				{ 27,  193835, "pet3323" }, -- Brightfeather
-				{ 28,  193837, "pet3326" }, -- Backswimmer Timbertooth
-				{ 29,  193850, "pet3330" }, -- Buckie
-				{ 30,  193851, "pet3332" }, -- Patos
-				{ 101, 193852, "pet3269" }, -- Azure Frillfish
-				{ 102, 193853, "pet3331" }, -- Emmah
-				{ 103, 193854, "pet3333" }, -- Berylmane
-				{ 104, 193855, "pet3334" }, -- Time-Lost Vorquin Foal
-				{ 105, 193885, "pet3345" }, -- Jeweled Amber Whelpling
-				{ 106, 193886, "pet3344" }, -- Jeweled Sapphire Whelpling
-				{ 107, 193887, "pet3346" }, -- Jeweled Ruby Whelpling
-				{ 108, 193888, "pet3347" }, -- Jeweled Emerald Whelpling
-				{ 109, 193889, "pet3256" }, -- Jeweled Onyx Whelpling
-				{ 110, 193908, "pet3338" }, -- Koboldt
-				{ 111, 194098, "pet3350" }, -- Lord Basilton
-				{ 112, 198353, "pet3368" }, -- Shiverweb Egg
-				{ 113, 198622, "pet3342" }, -- Spyragos
-				{ 114, 198725, "pet3381" }, -- Gray Marmoni
-				{ 115, 198726, "pet3380" }, -- Black Skitterbug
-				{ 116, 199109, "pet3348" }, -- Primal Stormling
-				{ 117, 199172, "pet3309" }, -- Viridescent Duck
-				{ 118, 199175, "pet3316" }, -- Lubbins
-				{ 119, 199326, "pet3376" }, -- Chip
-				{ 120, 199688, "pet3279" }, -- Bronze Racing Enthusiast
-				{ 121, 199757, "pet3378" }, -- Magic Nibbler
-				{ 122, 199758, "pet3379" }, -- Crimson Proto-Whelp
-				{ 123, 199916, "pet3365" }, -- Roseate Hopper
-				{ 124, 200114, "pet3382" }, -- Stormie
-				{ 125, 200173, "pet3287" }, -- Ghostflame
-				{ 126, 200183, "pet3355" }, -- Echo of the Cave
-				{ 127, 200255, "pet3289" }, -- Echo of the Inferno
-				{ 128, 200260, "pet3299" }, -- Echo of the Depths
-				{ 129, 200263, "pet3310" }, -- Echo of the Heights
-				{ 130, 200276, "pet3311" }, -- Ohuna Companion
-				{ 201, 200290, "pet3325" }, -- Bakar Companion
-				{ 202, 200479, "pet3390" }, -- Sophic Amalgamation
-				{ 203, 200519, "pet3286" }, -- Mister Toots
-				{ 204, 200872, "pet3405" }, -- Living Mud Mask
-				{ 205, 200874, "pet3406" }, -- Lady Feathersworth
-				{ 206, 200927, "pet3408" }, -- Petal
-				{ 207, 200930, "pet3414" }, -- Obsidian Proto-Whelp
-				{ 208, 201260, "pet3410" }, -- Dust Spirit
-				{ 209, 201261, "pet3411" }, -- Blaze Spirit
-				{ 210, 201262, "pet3412" }, -- Gale Spirit
-				{ 211, 201265, "pet3409" }, -- Tide Spirit
-				{ 212, 201441, "pet3407" }, -- Scout
-				{ 213, 201463, "pet3415" }, -- Cubbly
-				{ 214, 201703, "pet3417" }, -- Pinkie
-				{ 215, 201707, "pet3416" }, -- Troubled Tome
-				{ 216, 201838, "pet3359" }, -- Snowclaw Cub
-				{ 217, 202085, "pet3360" }, -- Bugbiter Tortoise
+				{ 1,   190583, "pet3248" },                                        -- Ichabod
+				{ 2,   191126, "pet3256" },                                        -- Obsidian Whelpling
+				{ 3,   191886, "pet3274" },                                        -- Alvin the Anvil
+				{ 4,   191915, "pet3259" },                                        -- Shaggy
+				{ 5,   191930, "pet3261" },                                        -- Wakyn
+				{ 6,   191932, "pet3262" },                                        -- Violet Violence
+				{ 7,   191936, "pet3263" },                                        -- Secretive Frogduck
+				{ 8,   191941, "pet3264" },                                        -- Crystalline Mini-Monster
+				{ 9,   191946, "pet3265" },                                        -- Mister Muskoxeles
+				{ 10,  192459, "pet3270" },                                        -- Jean's Lucky Fish
+				{ 11,  193066, "pet3275" },                                        -- Chestnut
+				{ 12,  193071, "pet3278" },                                        -- Pistachio
+				{ 13,  193225, "pet3284" },                                        -- Whiskuk
+				{ 14,  193235, "pet3285" },                                        -- Luvvy
+				{ 15,  193363, "pet3290" },                                        -- Bunbo
+				{ 16,  193364, "pet3291" },                                        -- Scruffles
+				{ 17,  193373, "pet3292" },                                        -- Phoenix Wishwing
+				{ 18,  193374, "pet3293" },                                        -- Ashenwing
+				{ 19,  193377, "pet3294" },                                        -- Gerald
+				{ 20,  193429, "pet3297" },                                        -- Time-Lost Salamanther
+				{ 21,  193484, "pet3302" },                                        -- Pilot
+				{ 22,  193571, "pet3303" },                                        -- Mallard Duckling
+				{ 23,  193572, "pet3306" },                                        -- Quack-E
+				{ 24,  193618, "pet3317" },                                        -- Hoofhelper
+				{ 25,  193619, "pet3319" },                                        -- Yipper
+				{ 26,  193834, "pet3321" },                                        -- Blackfeather Nester
+				{ 27,  193835, "pet3323" },                                        -- Brightfeather
+				{ 28,  193837, "pet3326" },                                        -- Backswimmer Timbertooth
+				{ 29,  193850, "pet3330" },                                        -- Buckie
+				{ 30,  193851, "pet3332" },                                        -- Patos
+				{ 101, 193852, "pet3269" },                                        -- Azure Frillfish
+				{ 102, 193853, "pet3331" },                                        -- Emmah
+				{ 103, 193854, "pet3333" },                                        -- Berylmane
+				{ 104, 193855, "pet3334" },                                        -- Time-Lost Vorquin Foal
+				{ 105, 193885, "pet3345" },                                        -- Jeweled Amber Whelpling
+				{ 106, 193886, "pet3344" },                                        -- Jeweled Sapphire Whelpling
+				{ 107, 193887, "pet3346" },                                        -- Jeweled Ruby Whelpling
+				{ 108, 193888, "pet3347" },                                        -- Jeweled Emerald Whelpling
+				{ 109, 193889, "pet3256" },                                        -- Jeweled Onyx Whelpling
+				{ 110, 193908, "pet3338" },                                        -- Koboldt
+				{ 111, 194098, "pet3350" },                                        -- Lord Basilton
+				{ 112, 198353, "pet3368" },                                        -- Shiverweb Egg
+				{ 113, 198622, "pet3342" },                                        -- Spyragos
+				{ 114, 198725, "pet3381" },                                        -- Gray Marmoni
+				{ 115, 198726, "pet3380" },                                        -- Black Skitterbug
+				{ 116, 199109, "pet3348" },                                        -- Primal Stormling
+				{ 117, 199172, "pet3309" },                                        -- Viridescent Duck
+				{ 118, 199175, "pet3316" },                                        -- Lubbins
+				{ 119, 199326, "pet3376" },                                        -- Chip
+				{ 120, 199688, "pet3279" },                                        -- Bronze Racing Enthusiast
+				{ 121, 199757, "pet3378" },                                        -- Magic Nibbler
+				{ 122, 199758, "pet3379" },                                        -- Crimson Proto-Whelp
+				{ 123, 199916, "pet3365" },                                        -- Roseate Hopper
+				{ 124, 200114, "pet3382" },                                        -- Stormie
+				{ 125, 200173, "pet3287" },                                        -- Ghostflame
+				{ 126, 200183, "pet3355" },                                        -- Echo of the Cave
+				{ 127, 200255, "pet3289" },                                        -- Echo of the Inferno
+				{ 128, 200260, "pet3299" },                                        -- Echo of the Depths
+				{ 129, 200263, "pet3310" },                                        -- Echo of the Heights
+				{ 130, 200276, "pet3311" },                                        -- Ohuna Companion
+				{ 201, 200290, "pet3325" },                                        -- Bakar Companion
+				{ 202, 200479, "pet3390" },                                        -- Sophic Amalgamation
+				{ 203, 200519, "pet3286" },                                        -- Mister Toots
+				{ 204, 200872, "pet3405" },                                        -- Living Mud Mask
+				{ 205, 200874, "pet3406" },                                        -- Lady Feathersworth
+				{ 206, 200927, "pet3408" },                                        -- Petal
+				{ 207, 200930, "pet3414" },                                        -- Obsidian Proto-Whelp
+				{ 208, 201260, "pet3410" },                                        -- Dust Spirit
+				{ 209, 201261, "pet3411" },                                        -- Blaze Spirit
+				{ 210, 201262, "pet3412" },                                        -- Gale Spirit
+				{ 211, 201265, "pet3409" },                                        -- Tide Spirit
+				{ 212, 201441, "pet3407" },                                        -- Scout
+				{ 213, 201463, "pet3415" },                                        -- Cubbly
+				{ 214, 201703, "pet3417" },                                        -- Pinkie
+				{ 215, 201707, "pet3416" },                                        -- Troubled Tome
+				{ 216, 201838, "pet3359" },                                        -- Snowclaw Cub
+				{ 217, 202085, "pet3360" },                                        -- Bugbiter Tortoise
 				{ 218, 212786, "pet4409", [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:250" }, -- Lovely Duckling
 				-- { 12,  193068 }, -- Time-Lost Treeflitter
 				-- { 21,  193380 }, -- Pink Salamanther
@@ -6134,91 +6141,91 @@ data["TOYS"]               = {
 			name = EXPANSION_NAME9,
 			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   191891 }, -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
-				{ 2,   192443 }, -- Element-Infused Rocket Helmet
-				{ 3,   192495 }, -- Malfunctioning Stealthman 54
-				{ 4,   193032 }, -- Jeweled Offering
-				{ 5,   193033 }, -- Convergent Prism
-				{ 6,   193476 }, -- Gnoll Tent
-				{ 7,   193478 }, -- Tuskarr Beanbag
-				{ 8,   194052 }, -- Forlorn Funeral Pall
-				{ 9,   194056 }, -- Duck-Stuffed Duck Lovie
-				{ 10,  194057 }, -- Cushion of Time Travel
-				{ 11,  194058 }, -- Cold Cushion
-				{ 12,  194059 }, -- Market Tent
-				{ 13,  194060 }, -- Dragonscale Expedition's Expedition Tent
-				{ 14,  194885 }, -- Ohuna Perch
-				{ 15,  197719 }, -- Artisan's Sign
-				{ 16,  197961 }, -- Whelps on Strings
-				{ 17,  197986 }, -- Murglasses
-				{ 18,  198039 }, -- Rock of Appreciation
-				{ 19,  198090 }, -- Jar of Excess Slime
-				{ 20,  198156 }, -- Wyrmhole Generator
-				{ 21,  198173 }, -- Atomic Recalibrator
-				{ 22,  198206 }, -- Environmental Emulator
-				{ 23,  198227 }, -- Giggle Goggles
-				{ 24,  198264 }, -- Centralized Precipitation Emitter
-				{ 25,  198402 }, -- Maruuk Cooking Pot
-				{ 26,  198409 }, -- Personal Shell
-				{ 27,  198428 }, -- Tuskarr Dinghy
-				{ 28,  198474 }, -- Artist's Easel
-				{ 29,  198537 }, -- Taivan's Trumpet
-				{ 30,  198646 }, -- Ornate Dragon Statue
-				{ 101, 198720 }, -- Soft Purple Pillow
-				{ 102, 198721 }, -- Skinny Reliquary Pillow
-				{ 103, 198722 }, -- Small Triangular Pillow
-				{ 104, 198728 }, -- Explorer's League Banner
-				{ 105, 198729 }, -- Reliquary Banner
-				{ 106, 198827 }, -- Magical Snow Sled
-				{ 107, 198857 }, -- Lucky Duck
-				{ 108, 199337 }, -- Bag of Furious Winds
-				{ 109, 199554 }, -- S.E.A.T.
-				{ 110, 199649 }, -- Dragon Tea Set
-				{ 111, 199650 }, -- Whale Bone Tea Set
-				{ 112, 199767 }, -- Red Dragon Banner
-				{ 113, 199768 }, -- Black Dragon Banner
-				{ 114, 199769 }, -- Blue Dragon Banner
-				{ 115, 199770 }, -- Bronze Dragon Banner
-				{ 116, 199771 }, -- Green Dragon Banner
-				{ 117, 199892 }, -- Tuskarr Traveling Soup Pot
-				{ 118, 199894 }, -- Fisherman's Folly
-				{ 119, 199896 }, -- Rubbery Fish Head
-				{ 120, 199897 }, -- Blue-Covered Beanbag
-				{ 121, 199899 }, -- Iskaara Tug Sled
-				{ 122, 199902 }, -- Wayfinder's Compass
-				{ 123, 200116 }, -- Everlasting Horn of Lavaswimming
+				{ 1,   191891 },                                        -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
+				{ 2,   192443 },                                        -- Element-Infused Rocket Helmet
+				{ 3,   192495 },                                        -- Malfunctioning Stealthman 54
+				{ 4,   193032 },                                        -- Jeweled Offering
+				{ 5,   193033 },                                        -- Convergent Prism
+				{ 6,   193476 },                                        -- Gnoll Tent
+				{ 7,   193478 },                                        -- Tuskarr Beanbag
+				{ 8,   194052 },                                        -- Forlorn Funeral Pall
+				{ 9,   194056 },                                        -- Duck-Stuffed Duck Lovie
+				{ 10,  194057 },                                        -- Cushion of Time Travel
+				{ 11,  194058 },                                        -- Cold Cushion
+				{ 12,  194059 },                                        -- Market Tent
+				{ 13,  194060 },                                        -- Dragonscale Expedition's Expedition Tent
+				{ 14,  194885 },                                        -- Ohuna Perch
+				{ 15,  197719 },                                        -- Artisan's Sign
+				{ 16,  197961 },                                        -- Whelps on Strings
+				{ 17,  197986 },                                        -- Murglasses
+				{ 18,  198039 },                                        -- Rock of Appreciation
+				{ 19,  198090 },                                        -- Jar of Excess Slime
+				{ 20,  198156 },                                        -- Wyrmhole Generator
+				{ 21,  198173 },                                        -- Atomic Recalibrator
+				{ 22,  198206 },                                        -- Environmental Emulator
+				{ 23,  198227 },                                        -- Giggle Goggles
+				{ 24,  198264 },                                        -- Centralized Precipitation Emitter
+				{ 25,  198402 },                                        -- Maruuk Cooking Pot
+				{ 26,  198409 },                                        -- Personal Shell
+				{ 27,  198428 },                                        -- Tuskarr Dinghy
+				{ 28,  198474 },                                        -- Artist's Easel
+				{ 29,  198537 },                                        -- Taivan's Trumpet
+				{ 30,  198646 },                                        -- Ornate Dragon Statue
+				{ 101, 198720 },                                        -- Soft Purple Pillow
+				{ 102, 198721 },                                        -- Skinny Reliquary Pillow
+				{ 103, 198722 },                                        -- Small Triangular Pillow
+				{ 104, 198728 },                                        -- Explorer's League Banner
+				{ 105, 198729 },                                        -- Reliquary Banner
+				{ 106, 198827 },                                        -- Magical Snow Sled
+				{ 107, 198857 },                                        -- Lucky Duck
+				{ 108, 199337 },                                        -- Bag of Furious Winds
+				{ 109, 199554 },                                        -- S.E.A.T.
+				{ 110, 199649 },                                        -- Dragon Tea Set
+				{ 111, 199650 },                                        -- Whale Bone Tea Set
+				{ 112, 199767 },                                        -- Red Dragon Banner
+				{ 113, 199768 },                                        -- Black Dragon Banner
+				{ 114, 199769 },                                        -- Blue Dragon Banner
+				{ 115, 199770 },                                        -- Bronze Dragon Banner
+				{ 116, 199771 },                                        -- Green Dragon Banner
+				{ 117, 199892 },                                        -- Tuskarr Traveling Soup Pot
+				{ 118, 199894 },                                        -- Fisherman's Folly
+				{ 119, 199896 },                                        -- Rubbery Fish Head
+				{ 120, 199897 },                                        -- Blue-Covered Beanbag
+				{ 121, 199899 },                                        -- Iskaara Tug Sled
+				{ 122, 199902 },                                        -- Wayfinder's Compass
+				{ 123, 200116 },                                        -- Everlasting Horn of Lavaswimming
 				-- { 124, 200142 }, -- Generous Goblin Grenade (unobtainable)
-				{ 125, 200148 }, -- A Collection Of Me
-				{ 126, 200160 }, -- Notfar's Favorite Food
-				{ 127, 200178 }, -- Infected Ichor
-				{ 128, 200198 }, -- Primalist Prison
-				{ 129, 200249 }, -- Mage's Chewed Wand
-				{ 130, 200469 }, -- Khadgar's Disenchanting Rod
-				{ 201, 200550 }, -- Very Comfortable Pelt
-				{ 202, 200551 }, -- Comfortable Pile of Pelts
-				{ 203, 200597 }, -- Lover's Bouquet
-				{ 204, 200628 }, -- Somewhat-Stabilized Arcana
-				{ 205, 200630 }, -- Ohn'ir Windsage's Hearthstone
-				{ 206, 200631 }, -- Happy Tuskarr Palooza
-				{ 207, 200636 }, -- Primal Invocation Quintessence
-				{ 208, 200640 }, -- Obsidian Egg Clutch
-				{ 209, 200707 }, -- Armoire of Endless Cloaks
-				{ 210, 200857 }, -- Talisman of Sargha
-				{ 211, 200869 }, -- Ohn Lite Branded Horn
-				{ 212, 200878 }, -- Wheeled Floaty Boaty Controller
-				{ 213, 200926 }, -- Compendium of Love
-				{ 214, 200960 }, -- Seed of Renewed Souls
-				{ 215, 200999 }, -- The Super Shellkhan Gang
-				{ 216, 201435 }, -- Shuffling Sands
-				{ 217, 201815 }, -- Cloak of Many Faces
-				{ 218, 201927 }, -- Gleaming Arcanocrystal
-				{ 219, 201933 }, -- Black Dragon's Challenge Dummy
-				{ 220, 202019 }, -- Golden Dragon Goblet
-				{ 221, 202021 }, -- Breaker's Flag of Victory
-				{ 222, 202022 }, -- Yennu's Kite
-				{ 223, 202042 }, -- Aquatic Shades
-				{ 224, 202711 }, -- Lost Compass
-				{ 225,  204675,  [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" }, -- A Drake's Big Basket of Eggs
+				{ 125, 200148 },                                        -- A Collection Of Me
+				{ 126, 200160 },                                        -- Notfar's Favorite Food
+				{ 127, 200178 },                                        -- Infected Ichor
+				{ 128, 200198 },                                        -- Primalist Prison
+				{ 129, 200249 },                                        -- Mage's Chewed Wand
+				{ 130, 200469 },                                        -- Khadgar's Disenchanting Rod
+				{ 201, 200550 },                                        -- Very Comfortable Pelt
+				{ 202, 200551 },                                        -- Comfortable Pile of Pelts
+				{ 203, 200597 },                                        -- Lover's Bouquet
+				{ 204, 200628 },                                        -- Somewhat-Stabilized Arcana
+				{ 205, 200630 },                                        -- Ohn'ir Windsage's Hearthstone
+				{ 206, 200631 },                                        -- Happy Tuskarr Palooza
+				{ 207, 200636 },                                        -- Primal Invocation Quintessence
+				{ 208, 200640 },                                        -- Obsidian Egg Clutch
+				{ 209, 200707 },                                        -- Armoire of Endless Cloaks
+				{ 210, 200857 },                                        -- Talisman of Sargha
+				{ 211, 200869 },                                        -- Ohn Lite Branded Horn
+				{ 212, 200878 },                                        -- Wheeled Floaty Boaty Controller
+				{ 213, 200926 },                                        -- Compendium of Love
+				{ 214, 200960 },                                        -- Seed of Renewed Souls
+				{ 215, 200999 },                                        -- The Super Shellkhan Gang
+				{ 216, 201435 },                                        -- Shuffling Sands
+				{ 217, 201815 },                                        -- Cloak of Many Faces
+				{ 218, 201927 },                                        -- Gleaming Arcanocrystal
+				{ 219, 201933 },                                        -- Black Dragon's Challenge Dummy
+				{ 220, 202019 },                                        -- Golden Dragon Goblet
+				{ 221, 202021 },                                        -- Breaker's Flag of Victory
+				{ 222, 202022 },                                        -- Yennu's Kite
+				{ 223, 202042 },                                        -- Aquatic Shades
+				{ 224, 202711 },                                        -- Lost Compass
+				{ 225, 204675, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" }, -- A Drake's Big Basket of Eggs
 			}
 		},
 	},
