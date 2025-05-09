@@ -168,10 +168,11 @@ local function loadItemsFromOtherModule(moduleLoader, loadString, contentTable, 
 		end
 
 		-- TIERSETS used to have Tier 14 be the 14th element in the array, but now it's not. This will iterate through the array to find the element that references "Tier14"
+		-- value.name is used because WOTLK has an unusual table structure
 		if (addonName == "AtlasLoot_Collections" and contentName == "TIERSETS") then
 			local newBossID;
 			for key, value in ipairs(ItemDB.Storage[addonName][contentName].items) do
-				if (value[newDif] and value[newDif][1] and value[newDif][1][2] and strfind(value[newDif][1][2], "Tier"..bossID)) then
+				if (value.name and strfind(value.name, " "..bossID.." ")) then
 					newBossID = key
 				end
 			end
