@@ -709,7 +709,7 @@ function GUI:Create()
 		frame:SetClampedToScreen(true)
 		tinsert(UISpecialFrames, frameName) -- allow ESC close
 
-		--frame:SetPortraitAtlasRaw("auctionhouse-icon-favorite");
+		--frame:SetPortraitTextureRaw(ALPrivate.ICONS_PATH.."VignetteKill");
 		frame:SetTitle(AL["AtlasLoot"].." - "..AL["Favourites"]);
 
 		frame.infoButton = CreateFrame("Button", nil, frame, "UIPanelInfoButton")

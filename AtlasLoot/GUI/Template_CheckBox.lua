@@ -9,7 +9,7 @@ local CHECK_BOX_COUNT = 0
 
 local function SetOnClickFunc(self, func)
 	assert(type(func) == "function", "'func' must be a function")
-	OnClickFunc = func
+	self.onClickFunc = func
 end
 
 local function SetChecked(self, checked)
@@ -23,8 +23,8 @@ end
 
 
 local function OnClick(self, ...)
-	if self.obj.OnClickFunc then
-		self.obj:OnClickFunc(...)
+	if self.obj.onClickFunc then
+		self.obj:onClickFunc(self:GetChecked())
 	end
 end
 
@@ -40,8 +40,8 @@ function GUI.CreateCheckBox()
 	self.SetText = SetText
 
 	-- data
-	onClickFunc = nil -- Run on OnClick
-	checked = false
+	self.onClickFunc = nil -- Run on OnClick
+	self.checked = false
 
 	self.frame = CreateFrame("CheckButton", frameName, nil, "UICheckButtonTemplate")
 	self.frame:SetWidth(25)
