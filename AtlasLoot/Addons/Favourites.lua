@@ -25,6 +25,7 @@ local ICONS_PATH = ALPrivate.ICONS_PATH
 local BASE_NAME_P, BASE_NAME_G, LIST_BASE_NAME = "ProfileBase", "GlobalBase", "List"
 local NEW_LIST_ID_PATTERN = "%s%s"
 local TEXT_WITH_TEXTURE = "|T%s:0|t %s"
+local TEXT_WITH_ATLAS = "|A:%s:12:12|a %s"
 local ATLAS_ICON_IDENTIFIER = "#"
 local IMPORT_EXPORT_DELIMITER, IMPORT_PATTERN, EXPORT_PATTERN = ",", "(%w+):(%d+)(:?([^,]*))", "%s:%d:%s"
 local STD_ICON, STD_ICON2

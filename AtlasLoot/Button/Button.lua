@@ -10,6 +10,8 @@
 	}
 ]]
 
+local ALName, ALPrivate = ...
+
 -- Functions
 local _G = getfenv(0)
 
@@ -181,10 +183,10 @@ function Button:Create()
 
 	button.favourite = button:CreateTexture(buttonName.."_favourite")
 	button.favourite:SetDrawLayer("OVERLAY", 3)
-	button.favourite:SetPoint("TOPLEFT", button.icon, -2, 2)
-	button.favourite:SetHeight(12)
-	button.favourite:SetWidth(12)
-	button.favourite:SetAtlas("auctionhouse-icon-favorite")
+	button.favourite:SetPoint("TOPLEFT", button.icon, -4, 4)
+	button.favourite:SetHeight(20)
+	button.favourite:SetWidth(20)
+	button.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
 	button.favourite:Hide()
 
 	-- ItemName <FontString>
