@@ -274,6 +274,14 @@ function Button:Create()
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite", "OVERLAY")
+	button.secButton.favourite:SetDrawLayer(button.secButton.icon:GetDrawLayer(), 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
+
 	-- factionIcon
 	button.factionIcon = button:CreateTexture(buttonName.."_factionIcon", "ARTWORK")
 	button.factionIcon:SetPoint("RIGHT", button.secButton, "LEFT", -2, 0)
@@ -342,6 +350,13 @@ function Button:CreateSecOnly(frame)
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite")
+	button.secButton.favourite:SetDrawLayer(button.secButton.overlay:GetDrawLayer(), 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
 
 	button.secButton.SetNormalTexture = Button_SetNormalTexture
 
