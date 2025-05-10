@@ -3586,6 +3586,7 @@ data["TIERSETS"]           = {
 	items = {
 		{ -- Tier 33 Sets
 			name = format(AL["Tier %d Sets"], 33).." ("..EXPANSION_NAME10..")",
+			tier = 33,
 			[RF_DIFF] = {
 				{ 1,  "Tier33:deathknight:LFRWithDifficulty" },
 				{ 3,  "Tier33:demonhunter:LFRWithDifficulty" },
@@ -3649,6 +3650,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 32 Sets
 			name = format(AL["Tier %d Sets"], 32).." ("..EXPANSION_NAME10..")",
+			tier = 32,
 			[RF_DIFF] = {
 				{ 1,  "Tier32:deathknight:LFRWithDifficulty" },
 				{ 3,  "Tier32:demonhunter:LFRWithDifficulty" },
@@ -3712,6 +3714,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 21 Sets
 			name = format(AL["Tier %d Sets"], 21).." ("..EXPANSION_NAME6..")",
+			tier = 21,
 			[RF_DIFF] = {
 				{ 1,  "Tier21:deathknight:LFRWithDifficulty" },
 				{ 3,  "Tier21:demonhunter:LFRWithDifficulty" },
@@ -3771,6 +3774,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 20 Sets
 			name = format(AL["Tier %d Sets"], 20).." ("..EXPANSION_NAME6..")",
+			tier = 20,
 			[RF_DIFF] = {
 				{ 1,  "Tier20:deathknight:LFRWithDifficulty" },
 				{ 3,  "Tier20:demonhunter:LFRWithDifficulty" },
@@ -3830,6 +3834,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 19 Sets
 			name = format(AL["Tier %d Sets"], 19).." ("..EXPANSION_NAME6..")",
+			tier = 19,
 			[RF_DIFF] = {
 				{ 1,  "Tier19:deathknight:LFRWithDifficulty" },
 				{ 3,  "Tier19:demonhunter:LFRWithDifficulty" },
@@ -3889,6 +3894,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 18 Sets
 			name = format(AL["Tier %d Sets"], 18).." ("..EXPANSION_NAME5..")",
+			tier = 18,
 			[RF_DIFF] = {
 				{ 1,  "Tier18:rfcloth:rf" },
 				{ 3,  "Tier18:rfleather:rf" },
@@ -3937,6 +3943,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 17 Sets
 			name = format(AL["Tier %d Sets"], 17).." ("..EXPANSION_NAME5..")",
+			tier = 17,
 			[RF_DIFF] = {
 				{ 1,  "Tier17:rfcloth:rf" },
 				{ 3,  "Tier17:rfleather:rf" },
@@ -3985,6 +3992,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 16 Sets
 			name = format(AL["Tier %d Sets"], 16).." ("..EXPANSION_NAME4..")",
+			tier = 16,
 			[RF_DIFF] = {
 				{ 1,  "Tier16:hunter:rf" },
 				{ 2,  "Tier16:mage:rf" },
@@ -4088,6 +4096,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 15 Sets
 			name = format(AL["Tier %d Sets"], 15).." ("..EXPANSION_NAME4..")",
+			tier = 15,
 			[RF_DIFF] = {
 				{ 1,  "Tier15:hunter:rf" },
 				{ 2,  "Tier15:mage:rf" },
@@ -4166,6 +4175,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 14 Sets
 			name = format(AL["Tier %d Sets"], 14).." ("..EXPANSION_NAME4..")",
+			tier = 14,
 			[RF_DIFF] = {
 				{ 1,  "Tier14:hunter:rf" },
 				{ 2,  "Tier14:mage:rf" },
@@ -4244,6 +4254,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 13 Sets
 			name = format(AL["Tier %d Sets"], 13).." ("..EXPANSION_NAME3..")",
+			tier = 13,
 			[RF_DIFF] = {
 				{ 1,  "Tier13:deathknightblood:rf" },
 				{ 2,  "Tier13:deathknightdps:rf" },
@@ -4310,6 +4321,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 12 Sets
 			name = format(AL["Tier %d Sets"], 12).." ("..EXPANSION_NAME3..")",
+			tier = 12,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier12:deathknightblood:n" },
 				{ 2,  "Tier12:deathknightdps:n" },
@@ -4355,6 +4367,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 11 Sets
 			name = format(AL["Tier %d Sets"], 11).." ("..EXPANSION_NAME3..")",
+			tier = 11,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier11:deathknightblood:n" },
 				{ 2,  "Tier11:deathknightdps:n" },
@@ -4400,6 +4413,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 10 Sets
 			name = format(AL["Tier %d Sets"], 10).." ("..EXPANSION_NAME2..")",
+			tier = 10,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier10:deathknightblood:n" },
 				{ 2,  "Tier10:deathknightdps:n" },
@@ -4466,6 +4480,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 9 Sets
 			name = format(AL["Tier %d Sets"], 9).." ("..EXPANSION_NAME2..")",
+			tier = 9,
 			[NORMAL_DIFF] = {
 				{ 1,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightblood:n",   [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightblood:n" },
 				{ 2,  [ATLASLOOT_IT_ALLIANCE] = "Tier9A:deathknightdps:n",     [ATLASLOOT_IT_HORDE] = "Tier9H:deathknightdps:n" },
@@ -4532,6 +4547,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 8 Sets
 			name = format(AL["Tier %d Sets"], 8).." ("..EXPANSION_NAME2..")",
+			tier = 8,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier8:deathknightblood:n" },
 				{ 2,  "Tier8:deathknightdps:n" },
@@ -4577,6 +4593,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 7 Sets
 			name = format(AL["Tier %d Sets"], 7).." ("..EXPANSION_NAME2..")",
+			tier = 7,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier7:deathknightblood:n" },
 				{ 2,  "Tier7:deathknightdps:n" },
@@ -4622,6 +4639,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 6 Sets
 			name = format(AL["Tier %d Sets"], 6).." ("..EXPANSION_NAME1..")",
+			tier = 6,
 			[P25_DIFF] = {
 				{ 1,  "Tier6:druidbalance:p25" },
 				{ 2,  "Tier6:druidferal:p25" },
@@ -4644,6 +4662,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 5 Sets
 			name = format(AL["Tier %d Sets"], 5).." ("..EXPANSION_NAME1..")",
+			tier = 5,
 			[P25_DIFF] = {
 				{ 1,  "Tier5:druidbalance:p25" },
 				{ 2,  "Tier5:druidferal:p25" },
@@ -4666,6 +4685,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 4 Sets
 			name = format(AL["Tier %d Sets"], 4).." ("..EXPANSION_NAME1..")",
+			tier = 4,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier4:druidbalance:n" },
 				{ 2,  "Tier4:druidferal:n" },
@@ -4688,6 +4708,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 3 Sets
 			name = format(AL["Tier %d Sets"], 3).." ("..EXPANSION_NAME0..")",
+			tier = 3,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier3:druid:n" },
 				{ 3,  "Tier3:hunter:n" },
@@ -4702,6 +4723,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 2 Sets
 			name = format(AL["Tier %d Sets"], 2).." ("..EXPANSION_NAME0..")",
+			tier = 2,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier2:druid:n" },
 				{ 3,  "Tier2:hunter:n" },
@@ -4716,6 +4738,7 @@ data["TIERSETS"]           = {
 		},
 		{ -- Tier 1 Sets
 			name = format(AL["Tier %d Sets"], 1).." ("..EXPANSION_NAME0..")",
+			tier = 1,
 			[NORMAL_DIFF] = {
 				{ 1,  "Tier1:druid:n" },
 				{ 3,  "Tier1:hunter:n" },
