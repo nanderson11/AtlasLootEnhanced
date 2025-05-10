@@ -691,7 +691,8 @@ end
 function GUI:Create()
 	if not self.frame then
 		local frameName = "AtlasLoot_GUI-FavouritesFrame"
-		local frame = CreateFrame("Frame", frameName, nil, "PortraitFrameTemplate")
+		local frame = CreateFrame("Frame", frameName, nil, "DefaultPanelTemplate")
+		frame.CloseButton = CreateFrame("Button", nil, frame, "UIPanelCloseButtonDefaultAnchors")
 		frame:ClearAllPoints()
 		frame:SetParent(UIParent)
 		frame:SetPoint("CENTER")
@@ -719,12 +720,12 @@ function GUI:Create()
 		frame.infoButton:SetFrameLevel(999)
 
 		frame.content = CreateFrame("Frame", nil, frame)
-		frame.content:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, -20)
+		frame.content:SetPoint("TOPLEFT", frame, "TOPLEFT", 2, -20)
 		frame.content:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -5, 5)
 
 
 		frame.content.slotBg = CreateFrame("Frame", nil, frame.content)
-		frame.content.slotBg:SetPoint("TOPLEFT", frame.content, "TOPLEFT", 0, 0)
+		frame.content.slotBg:SetPoint("TOPLEFT", frame.content, "TOPLEFT", -5, 0)
 		frame.content.slotBg:SetPoint("BOTTOMRIGHT", frame.content, "BOTTOMLEFT", 275, 0)
 
 		frame.content.headerBg = CreateFrame("Frame", nil, frame.content)
@@ -740,8 +741,8 @@ function GUI:Create()
 		frame.content.itemListBg:SetPoint("BOTTOMRIGHT", frame.content.bottomBg, "TOPRIGHT", 0, 2)
 
 		frame.content.listSelect = AtlasLoot.GUI:CreateDropDown()
-		frame.content.listSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 60, -30)
-		frame.content.listSelect:SetWidth(frame.content.slotBg:GetWidth() - 65)
+		frame.content.listSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 8, -30)
+		frame.content.listSelect:SetWidth(frame.content.slotBg:GetWidth() - 15)
 		frame.content.listSelect:SetTitle("")
 		frame.content.listSelect:SetText(AL["Active list"])
 		frame.content.listSelect:SetButtonOnClick(GUI_ListDropDownOnSelect)
