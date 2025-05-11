@@ -157,7 +157,9 @@
 		"PET_TYPE_SUFFIX",
 		"RAID_CLASS_COLORS",
 		"LOCALIZED_CLASS_NAMES_FEMALE",
-		"LOCALIZED_CLASS_NAMES_MALE"
+		"LOCALIZED_CLASS_NAMES_MALE",
+		"TooltipDataProcessor",
+		"TooltipUtil"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

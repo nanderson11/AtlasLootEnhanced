@@ -377,7 +377,7 @@ end
 
 local function OnTooltipSetItem_Hook(self)
 	if self:IsForbidden() or not Favourites.db.enabled or (not Favourites.db.showIconInTT and not Favourites.db.showListInTT) then return end
-	local _, item = self:GetItem()
+	local _, item = TooltipUtil.GetDisplayedItem(self)
 	if not item then return end
 	if not TooltipCache[item] then
 		TooltipCache[item] = tonumber(strmatch(item, "item:(%d+)"))
@@ -413,7 +413,7 @@ end
 
 local function InitTooltips()
 	if TooltipsHooked then return end
-	--Tooltip:AddHookFunction("OnTooltipSetItem", OnTooltipSetItem_Hook)
+	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, OnTooltipSetItem_Hook)
 	TooltipsHooked = true
 end
 
