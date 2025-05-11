@@ -28,7 +28,7 @@ local db
 -- //\\
 local SVF_FRAME_NAME = "AtlasLoot-SetViewFrame"
 local SVF_FRAME_WIDTH = 800
-local SVF_FRAME_HEIGHT = 400
+local SVF_FRAME_HEIGHT = 450
 
 local MODEL_FRAME_WIDTH = 220
 local MODEL_FRAME_HEIGHT = 300
