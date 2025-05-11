@@ -173,7 +173,7 @@ function Mount.ShowToolTipFrame(button)
 		local name = "AtlasLoot-MountToolTip"
 		local frame = CreateFrame("Frame", name, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 		frame:SetClampedToScreen(true)
-		frame:SetSize(300, 50)
+		frame:SetSize(315, 55)
 		frame:SetBackdrop({
 			bgFile = "Interface/Tooltips/UI-Tooltip-Background",
 			edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
@@ -182,10 +182,10 @@ function Mount.ShowToolTipFrame(button)
 			edgeSize = 16,
 			insets = { left = 4, right = 4, top = 4, bottom = 4 }
 		})
-		frame:SetBackdropColor(0, 0, 0, 1)
+		frame:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR:GetRGBA())
 
 		frame.icon = frame:CreateTexture(name.."-icon", "ARTWORK")
-		frame.icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 5, -5)
+		frame.icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -10)
 		frame.icon:SetHeight(26)
 		frame.icon:SetWidth(26)
 		frame.icon:SetTexture(NO_MOUNT_TEXTURE)
@@ -194,7 +194,6 @@ function Mount.ShowToolTipFrame(button)
 		frame.name:SetPoint("TOPLEFT", frame.icon, "TOPRIGHT", 3, 0)
 		frame.name:SetJustifyH("LEFT")
 		frame.name:SetWidth(250)
-		--frame.name:SetHeight(12)
 		frame.name:SetTextColor(1, 1, 1, 1)
 
 		frame.source = frame:CreateFontString(name.."-source", "ARTWORK", "GameFontNormalSmall")
@@ -202,18 +201,17 @@ function Mount.ShowToolTipFrame(button)
 		frame.source:SetJustifyH("LEFT")
 		frame.source:SetJustifyV("TOP")
 		frame.source:SetWidth(250)
-		--frame.info:SetHeight(20)
 		frame.source:SetTextColor(1, 1, 1, 1)
 
 		frame.model = CreateFrame("PlayerModel", name.."-model")
 		frame.model:ClearAllPoints()
 		frame.model:SetParent(frame)
-		frame.model:SetPoint("TOPLEFT", frame.icon, "BOTTOMLEFT", 0, -3)
+		frame.model:SetPoint("TOPLEFT", frame.icon, "BOTTOMLEFT", 0, -8)
 		frame.model:SetSize(145, 145)
 		frame.model:SetRotation(MODELFRAME_DEFAULT_ROTATION)
 
 		frame.desc = frame:CreateFontString(name.."-desc", "ARTWORK", "GameFontNormalSmall")
-		frame.desc:SetPoint("TOPLEFT", frame.model, "TOPRIGHT", 0, -3)
+		frame.desc:SetPoint("TOPLEFT", frame.model, "TOPRIGHT", 5, -3)
 		frame.desc:SetJustifyH("LEFT")
 		frame.desc:SetJustifyV("TOP")
 		frame.desc:SetWidth(145)
