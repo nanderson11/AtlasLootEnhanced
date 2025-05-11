@@ -223,7 +223,7 @@ function Button:Create()
 	button.secButton:SetPoint("TOPRIGHT", button, "TOPRIGHT", -1, -1)
 	button.secButton:SetHeight(26)
 	button.secButton:SetWidth(26)
-	button.secButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+	button.secButton:SetHighlightTexture("Interface\\buttons\\buttonhilight-square", "ADD")
 	button.secButton.OriSetNormalTexture = button.secButton.SetNormalTexture
 	button.secButton.type = "secButton"
 	button.secButton.obj = button
@@ -311,7 +311,7 @@ function Button:CreateSecOnly(frame)
 
 	button.secButton = CreateFrame("BUTTON", buttonName, button)
 	button.secButton:SetAllPoints(button)
-	button.secButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+	button.secButton:SetHighlightTexture("Interface\\buttons\\buttonhilight-square", "ADD")
 	button.secButton.OriSetNormalTexture = button.secButton.SetNormalTexture
 	button.secButton.type = "secButton" -- now we can use button functions ;)
 	button.secButton.obj = button
