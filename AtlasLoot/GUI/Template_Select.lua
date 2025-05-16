@@ -17,13 +17,12 @@ local GUI = AtlasLoot.GUI
 
 -- lua
 local assert, type = assert, type
-local next, wipe = next, table.wipe
-local min, floor = min, floor
+local wipe = table.wipe
 
 --//\\
 local SELECT_COUNT = 0
 
-local BUTTON_HEIGHT = 15
+local BUTTON_HEIGHT = 20
 
 local COIN_TEXTURE = ALPrivate.COIN_TEXTURE
 
@@ -39,15 +38,6 @@ end
 local function SetNumEntrys(self, num)
 	self.numEntrys = num or 1
 	self:Update()
-end
-
-local function SetButtonHeight(self, height)
-	self.buttonHeight = height
-	self:Update()
-end
-
-local function SetBgColor(self, r, g, b, alpha)
-	self.frame:SetBackdropColor(r, g, b, alpha or 1)
 end
 
 --- Select a entry
@@ -113,10 +103,13 @@ local function CheckIfPrev(self)
 end
 
 local function SetData(self, data, startValue)
+	local DataProvider = self.frame.ScrollBox:GetDataProvider();
+
 	if not data then
-		self:Clear()
+		DataProvider:Flush()
 		return
 	end
+
 	assert(type(data) == "table", "'data' must be a table. See 'GUI/Template_Select.lua' for infos.")
 	self.data = data
 	self.numContent = #data
@@ -124,11 +117,13 @@ local function SetData(self, data, startValue)
 	if startValue then
 		self:SetSelected(startValue, nil, true)
 	end
-	self:Update()
-end
 
-local function ShowSelectedCoin(self, enabled)
-	self.showSelectedCoin = enabled
+	DataProvider:Flush()
+	for index, value in ipairs(data) do
+		DataProvider:Insert(value)
+	end
+
+	self:Update()
 end
 
 local function SetToolTipFunc(self, OnEnter, OnLeave)
@@ -162,16 +157,6 @@ end
 -- local UpdateContent, UpdateScroll
 do
 	local BUTTON_COUNT = 0
-
-	local cache = {}
-
-	local function GetButtonFromCache()
-		local frame = next(cache)
-		if frame then
-			cache[frame] = nil
-		end
-		return frame
-	end
 
 	local function ClearButtonList(self)
 		if not self or not self.buttons then return end
@@ -216,7 +201,7 @@ do
 	end
 
 	local function CreateButton(self)
-		local frame = GetButtonFromCache()
+		local frame
 		if not frame then
 			BUTTON_COUNT = BUTTON_COUNT + 1
 			local frameName = "AtlasLoot-Select-Button"..BUTTON_COUNT
@@ -224,21 +209,17 @@ do
 			frame = CreateFrame("CheckButton", frameName)
 			frame:SetHeight(self.buttonHeight)
 			frame:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
-			-- Below will now cover the text and currently not transparent
-			--frame:SetCheckedTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
 			frame:RegisterForClicks("LeftButtonDown", "RightButtonDown")
 			frame:SetChecked(false)
 			frame:SetScript("OnClick", ButtonOnClick)
 
 			frame.label = frame:CreateFontString(frameName.."-label", "ARTWORK", "GameFontNormal")
-			--frame.label:SetPoint("LEFT", frame, "LEFT")
 			frame.label:SetHeight(self.buttonHeight)
 			frame.label:SetJustifyH("LEFT")
 			frame.label:SetText(frameName.."-label")
 
 			frame.coin = frame:CreateTexture(frameName.."-coin", "ARTWORK")
 			frame.coin:SetPoint("RIGHT", frame, "RIGHT")
-			--frame.coin:SetTexture(_G.AtlasLoot.IMAGE_PATH.."silver")--gold
 			frame.coin:SetHeight(16)
 			frame.coin:SetWidth(16)
 
@@ -266,34 +247,6 @@ do
 		return frame
 	end
 
-	local function SetupCoin(coinTexture, button, selected)
-		button.coin:SetDesaturated(false)
-		if coinTexture == "Achievement" then
-			button.coin:SetTexture(COIN_TEXTURE.AC)
-			button.coin:SetTexCoord(0, 0.625, 0, 0.625)
-			if selected then
-				button.coin:SetDesaturated(false)
-			else
-				button.coin:SetDesaturated(true)
-			end
-		elseif coinTexture == "Reputation" or coinTexture == "Faction" then
-			button.coin:SetTexCoord(0, 1, 0, 1)
-			button.coin:SetTexture(COIN_TEXTURE.REPUTATION)
-			if selected then
-				button.coin:SetDesaturated(false)
-			else
-				button.coin:SetDesaturated(true)
-			end
-		else
-			button.coin:SetTexCoord(0, 1, 0, 1)
-			if selected then
-				button.coin:SetTexture(COIN_TEXTURE.GOLD)
-			else
-				button.coin:SetTexture(COIN_TEXTURE.SILVER)
-			end
-		end
-	end
-
 	function UpdateScroll(self)
 		if not self or not self.data or self.numContent < 1 then return end
 		local startPos, endPos = GetStartAndEndPos(self)
@@ -310,20 +263,8 @@ do
 				button.label:SetText(info.name or UNKNOWN)
 				if self.selected and self.selected[2] == info.id then
 					button:SetChecked(true)
-					if self.showSelectedCoin then
-						SetupCoin(info.coinTexture, button, true)
-						button.coin:Show()
-					else
-						button.coin:Hide()
-					end
 				else
 					button:SetChecked(false)
-					if self.showSelectedCoin then
-						SetupCoin(info.coinTexture, button, false)
-						button.coin:Show()
-					else
-						button.coin:Hide()
-					end
 				end
 			else
 				button:Hide()
@@ -342,7 +283,7 @@ do
 			count = self.numContent + 1
 		end
 		for i = 1, count do
-			self.buttons[i] = CreateButton(self)
+			--self.buttons[i] = CreateButton(self)
 		end
 		UpdateScroll(self)
 	end
@@ -356,44 +297,21 @@ end
 local function Update(self)
 	self.frame:SetWidth(self.width)
 	self.buttonWidth = self.width - 10
-	self.height = (self.numEntrys * (self.buttonHeight + self.space)) + 10 - self.space
+	self.height = (self.numEntrys * (self.buttonHeight + self.space)) + 5 - self.space
 	self.frame:SetHeight(self.height)
 
 	if self.numEntrys < self.numContent then
-		self.frame.scrollbar:Show()
 		self.enableScroll = true
 		self.buttonWidth = self.buttonWidth - 20
 		self.maxScroll = self.numContent - self.numEntrys + 1
-		self.frame.scrollbar:SetMinMaxValues(1, self.maxScroll)
-		self.frame.scrollbar:SetValue(1)
 	else
-		self.frame.scrollbar:Hide()
 		self.enableScroll = false
 	end
 
 	self:UpdateContent()
 end
 
--- value: up +1, down -1
-local function OnMouseWheel(self, value)
-	if not self.obj.enableScroll then return end
-	self = self.obj
-	self.curPos = self.curPos - value
-	if self.curPos >= self.maxScroll then self.curPos = self.maxScroll end
-	if self.curPos <= 0 then self.curPos = 1 end
-	self.frame.scrollbar:SetValue(min(self.curPos, self.maxScroll))
-end
-
-local function OnValueChanged(self, value)
-	if not self.obj.enableScroll then return end
-	self = self.obj
-	self.curPos = floor(value)
-
-	if self.curPos <= 0 then self.curPos = 1 end
-	UpdateScroll(self)
-end
-
-function GUI.CreateSelect()
+function GUI.CreateSelect(self, height)
 	SELECT_COUNT = SELECT_COUNT + 1
 	local frameName = "AtlasLoot-Select-"..SELECT_COUNT
 	local self = {}
@@ -402,8 +320,6 @@ function GUI.CreateSelect()
 	self.SetWidth = SetWidth
 	self.SetParPoint = GUI.Temp_SetParPoint
 	self.SetNumEntrys = SetNumEntrys
-	self.SetButtonHeight = SetButtonHeight
-	self.SetBgColor = SetBgColor
 	-- set the selected entry (id, dataNum, startSelect)
 	self.SetSelected = SetSelected
 	-- goto next entry ()
@@ -413,7 +329,6 @@ function GUI.CreateSelect()
 	self.CheckIfPrev = CheckIfPrev
 	-- set the table data (data, startValue)
 	self.SetData = SetData
-	self.ShowSelectedCoin = ShowSelectedCoin
 	self.SetToolTipFunc = SetToolTipFunc
 	self.SetButtonOnClick = SetButtonOnClick
 	self.Clear = Clear
@@ -434,34 +349,89 @@ function GUI.CreateSelect()
 	self.numContent = 0            -- number of content in data tabel (#self.data)
 	self.buttonHeight = BUTTON_HEIGHT -- button height
 	self.enableScroll = false      -- scrollbar is shown
-	self.showSelectedCoin = true   -- show grey/gold coin on the right side
 	self.ttSource = GameTooltip
 
 
 	self.frame = CreateFrame("ScrollFrame", frameName, nil, "InsetFrameTemplate")
 	local frame = self.frame
 	frame:ClearAllPoints()
-	frame:EnableMouse(true)
-	frame:EnableMouseWheel(true)
-	frame:SetScript("OnMouseWheel", OnMouseWheel)
 	--frame.Bg:SetAtlas("Professions-background-summarylist")
 	frame.obj = self
 
-	frame.scrollbar = CreateFrame("Slider", frameName.."-scrollbar", frame, "UIPanelScrollBarTemplate")
-	frame.scrollbar:SetPoint("TOPLEFT", frame, "TOPRIGHT", -20, -20)
-	frame.scrollbar:SetPoint("BOTTOMLEFT", frame, "BOTTOMRIGHT", 20, 20)
-	frame.scrollbar:SetMinMaxValues(0, 1000)
-	frame.scrollbar:SetValueStep(1)
-	frame.scrollbar.scrollStep = 1
-	frame.scrollbar:SetValue(0)
-	frame.scrollbar:SetWidth(16)
-	frame.scrollbar:Hide()
-	frame.scrollbar:SetScript("OnValueChanged", OnValueChanged)
-	frame.scrollbar.obj = self
+	local ScrollBox = CreateFrame("Frame", nil, frame, "WowScrollBoxList")
+	ScrollBox:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -5)
+	ScrollBox:SetSize(290, height)
+	frame.ScrollBox = ScrollBox
 
-	local scrollbg = frame.scrollbar:CreateTexture(nil, "BACKGROUND")
-	scrollbg:SetAllPoints(frame.scrollbar)
-	scrollbg:SetColorTexture(0, 0, 0, 0.4)
+	local ScrollBar = CreateFrame("EventFrame", nil, frame, "MinimalScrollBar")
+	ScrollBar:SetPoint("TOPLEFT", ScrollBox, "TOPRIGHT", 0, -2)
+	ScrollBar:SetPoint("BOTTOMLEFT", ScrollBox, "BOTTOMRIGHT", 0, -2)
+
+	local DataProvider = CreateDataProvider()
+	local ScrollView = CreateScrollBoxListLinearView()
+	ScrollView:SetDataProvider(DataProvider)
+	ScrollUtil.InitScrollBoxListWithScrollBar(ScrollBox, ScrollBar, ScrollView)
+
+	-- Set selection behavior
+	local SelectionBehavior = ScrollUtil.AddSelectionBehavior(ScrollBox)
+	local function OnSelectionChanged(_, elementData, selected)
+		local button = ScrollBox:FindFrame(elementData)
+		if button then
+			if selected then
+				button.obj:SetSelected(button.info.id)
+				button.SelectedOverlay:SetShown(true);
+				button.HighlightOverlay:SetShown(false);
+				button.coin:SetDesaturated(false)
+			else
+				button.SelectedOverlay:SetShown(false);
+				button.HighlightOverlay:SetShown(true);
+				button.coin:SetDesaturated(true)
+			end
+		end
+	end
+	SelectionBehavior:RegisterCallback(SelectionBehaviorMixin.Event.OnSelectionChanged, OnSelectionChanged)
+
+	-- Set button initializer
+	local function Initializer(button, data)
+		local selected = SelectionBehavior:IsElementDataSelected(data)
+		if selected then
+			button.obj:SetSelected(button.info.id)
+			button.SelectedOverlay:SetShown(true);
+			button.HighlightOverlay:SetShown(false);
+		else
+			button.SelectedOverlay:SetShown(false);
+			button.HighlightOverlay:SetShown(true);
+		end
+
+		button:SetScript("OnClick", function()
+			SelectionBehavior:Select(button)
+		end)
+
+		button.Label:SetText(data.name)
+		button.obj = self
+		button.info = data
+
+		button.coin:SetTexture()
+		button.coin:SetDesaturated(true)
+		if data.coinTexture == "Achievement" then
+			button.coin:SetTexture(COIN_TEXTURE.AC)
+			button.coin:SetTexCoord(0, 0.625, 0, 0.625)
+		elseif data.coinTexture == "Reputation" or data.coinTexture == "Faction" then
+			button.coin:SetTexCoord(0, 1, 0, 1)
+			button.coin:SetTexture(COIN_TEXTURE.REPUTATION)
+		end
+	end
+	ScrollView:SetElementInitializer("AtlasLootSelectButtonTemplate", Initializer)
+
+	--[[ local anchorsWithScrollBar = {
+		CreateAnchor("TOPLEFT", 10, -5),
+		CreateAnchor("BOTTOMRIGHT", ScrollBar, 0, -5),
+	};
+	local anchorsWithoutScrollBar = {
+		CreateAnchor("TOPLEFT", 10, -5),
+		CreateAnchor("BOTTOMRIGHT", 0, -5),
+	};
+	ScrollUtil.AddManagedScrollBarVisibilityBehavior(ScrollBox, ScrollBar, anchorsWithScrollBar, anchorsWithoutScrollBar); ]]
 
 	self:Update()
 

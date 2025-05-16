@@ -950,23 +950,22 @@ function GUI:Create()
 	frame.subCatSelect:SetText("Select Subcategory")
 	frame.subCatSelect:SetButtonOnClick(SubCatSelectFunction)
 
-	frame.difficulty = GUI:CreateSelect()
+	frame.difficulty = GUI:CreateSelect(4 * 20)
 	frame.difficulty:SetParPoint("TOPRIGHT", frame, "TOPRIGHT", -10, -40)
 	frame.difficulty:SetWidth(320)
 	frame.difficulty:SetNumEntrys(4)
-	frame.difficulty:ShowSelectedCoin(true)
 	frame.difficulty:SetButtonOnClick(DifficultySelectFunction)
 
-	frame.boss = GUI:CreateSelect()
+	frame.boss = GUI:CreateSelect(16 * 20)
 	frame.boss:SetParPoint("TOPLEFT", frame.difficulty.frame, "BOTTOMLEFT", 0, -10)
 	frame.boss:SetWidth(320)
-	frame.boss:SetNumEntrys(20)
+	frame.boss:SetNumEntrys(15)
 	frame.boss:SetButtonOnClick(BossSelectFunction)
 
-	frame.extra = GUI:CreateSelect()
+	frame.extra = GUI:CreateSelect(4 * 20)
 	frame.extra:SetParPoint("TOPLEFT", frame.boss.frame, "BOTTOMLEFT", 0, -10)
 	frame.extra:SetWidth(320)
-	frame.extra:SetNumEntrys(5)
+	frame.extra:SetNumEntrys(4)
 	frame.extra:SetButtonOnClick(ExtraSelectFunction)
 
 	frameName = "AtlasLoot_GUI-ItemFrame"

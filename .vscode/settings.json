@@ -159,7 +159,12 @@
 		"LOCALIZED_CLASS_NAMES_FEMALE",
 		"LOCALIZED_CLASS_NAMES_MALE",
 		"TooltipDataProcessor",
-		"TooltipUtil"
+		"TooltipUtil",
+		"ScrollUtil",
+		"CreateDataProvider",
+		"CreateScrollBoxListLinearView",
+		"SelectionBehaviorMixin",
+		"CreateAnchor"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
