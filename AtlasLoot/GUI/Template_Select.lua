@@ -47,6 +47,7 @@ local function SetSelected(self, id, dataNum, startSelect)
 	if not id and not dataNum then
 		if self.selected then
 			self.selected = nil
+			SelectionBehavior:DeselectSelectedElements()
 		end
 		return
 	end
