@@ -126,7 +126,7 @@ local function UpdateFrames(noPageUpdate)
 
 		-- refresh current page
 		if GUI.frame.contentFrame.shownFrame and GUI.frame.contentFrame.shownFrame.Refresh then
-			GUI.frame.contentFrame.shownFrame:Refresh()
+			GUI.frame.contentFrame.shownFrame:Refresh(true)
 		elseif not GUI.frame.contentFrame.shownFrame then
 			GUI.ItemFrame:Show()
 		end
@@ -791,7 +791,7 @@ local function DifficultySelectFunction(self, id, arg, start)
 			boss.tt_text = (boss.tt_text_org or "")..favText
 			boss.name = boss.name_org..Favourites:GetFavouriteCountText(favOverall)
 		end
-		GUI.frame.boss:UpdateContent()
+		--GUI.frame.boss:UpdateContent()
 	end
 	UpdateFrames()
 end
