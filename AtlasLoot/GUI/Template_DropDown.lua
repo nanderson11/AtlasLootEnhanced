@@ -38,7 +38,7 @@ local function SetData(self, data, startValue)
 	self.selectedId = startValue
 
 	local function IsSelected(index) return index == self.selectedId; end
-	local function SetSelection(index) self:SetSelected(index); end
+	local function SetSelection(index) self:SetSelected(index, true); end
 
 	local function GeneratorFunction(dropdown, rootDescription)
 		for _, category in ipairs(data) do
@@ -90,7 +90,7 @@ local function SetButtonOnClick(self, func)
 end
 
 -- must be a unique id
-local function SetSelected(self, id)
+local function SetSelected(self, id, userClick)
 	if not id then return end
 	local arg
 	for i = 1, #self.data do
@@ -107,7 +107,7 @@ local function SetSelected(self, id)
 	end
 
 	if self.ButtonOnClick then
-		self:ButtonOnClick(id, arg)
+		self:ButtonOnClick(id, arg, userClick)
 	end
 	self.selectedId = id
 end
