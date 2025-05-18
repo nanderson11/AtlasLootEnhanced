@@ -164,7 +164,9 @@
 		"CreateDataProvider",
 		"CreateScrollBoxListLinearView",
 		"SelectionBehaviorMixin",
-		"CreateAnchor"
+		"CreateAnchor",
+		"GameTooltip_SetTitle",
+		"GameTooltip_AddNormalLine"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

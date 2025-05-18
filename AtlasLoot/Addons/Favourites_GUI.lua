@@ -744,7 +744,6 @@ function GUI:Create()
 		frame.content.listSelect:SetParPoint("TOPLEFT", frame, "TOPLEFT", 8, -30)
 		frame.content.listSelect:SetWidth(frame.content.slotBg:GetWidth() - 15)
 		frame.content.listSelect:SetTitle("")
-		frame.content.listSelect:SetText(AL["Active list"])
 		frame.content.listSelect:SetButtonOnClick(GUI_ListDropDownOnSelect)
 
 		frame.content.isGlobal = AtlasLoot.GUI.CreateCheckBox()
