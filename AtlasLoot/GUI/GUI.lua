@@ -174,6 +174,7 @@ end
 local function FrameOnShow(self)
 	if FIRST_SHOW then
 		self.moduleSelect:SetSelected(db.selected[1])
+		self.moduleSelect.frame:GenerateMenu()
 	end
 	FIRST_SHOW = false
 	if (AtlasLoot.db.GUI.autoselect) then
