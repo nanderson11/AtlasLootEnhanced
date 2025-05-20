@@ -122,18 +122,17 @@ function Item.OnMouseAction(button, mouseButton)
 		end
 	elseif mouseButton == "SetFavourite" then
 		if Favourites then
-			if Favourites:IsFavouriteItemID(button.ItemID, true) then
-				Favourites:RemoveItemID(button.ItemID)
-				if Favourites:IsFavouriteItemID(button.ItemID) then
-					--Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+			local item = button.ItemString or button.ItemID
+			if Favourites:IsFavouriteItemID(item, true) then
+				Favourites:RemoveItemID(item)
+				if Favourites:IsFavouriteItemID(item) then
 				else
 					if button.favourite then
 						button.favourite:Hide()
 					end
 				end
 			else
-				if Favourites:AddItemID(button.ItemID) then
-					--Favourites:SetFavouriteIcon(button.ItemID, button.favourite)
+				if Favourites:AddItemID(item) then
 					if button.favourite then
 						button.favourite:Show()
 					end
@@ -223,7 +222,6 @@ end
 
 function Item.Refresh(button)
 	if not button.ItemID then return end
-	local itemID = button.ItemID
 	local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture = GetItemInfo(button.ItemString or button.ItemID)
 	if not itemName then
 		Query:Add(button)
@@ -261,7 +259,7 @@ function Item.Refresh(button)
 		-- ##################
 		button.extra:SetText(GetItemDescInfo(itemEquipLoc, itemType, itemSubType))
 	end
-	if Favourites and Favourites:IsFavouriteItemID(itemID) then
+	if Favourites and Favourites:IsFavouriteItemID(button.ItemString or button.ItemID) then
 		--Favourites:SetFavouriteIcon(itemID, button.favourite)
 		button.favourite:Show()
 	else

@@ -298,12 +298,24 @@ local function SlotButton_SetSlot(self, slotID)
 	end
 end
 
-local function SlotButton_SetSlotItem(self, itemID)
-	if itemID and itemID ~= true and ItemExist(itemID) then
-		local _, _, _, itemEquipLoc, icon = GetItemInfoInstant(itemID)
+local function SlotButton_SetSlotItem(self, item)
+	local itemID, itemString
+	if item and item ~= true then
+		if (strfind(item, ":")) then
+			itemID = strmatch(item, "item:(%d+)")
+			itemString = item
+		else
+			itemID = item
+			itemString = nil
+		end
+	end
+
+	if item and item ~= true and ItemExist(itemString or itemID) then
+		local _, _, _, itemEquipLoc, icon = GetItemInfoInstant(itemString or itemID)
 		if not self.slotID or (self.equipLoc and self.equipLoc[itemEquipLoc]) then
 			self.ItemID = itemID
-			local quality = GetItemQuality(itemID)
+			self.ItemString = itemString
+			local quality = GetItemQuality(itemString or itemID)
 			if not quality then
 				self:RegisterEvent("GET_ITEM_INFO_RECEIVED")
 			else
@@ -313,9 +325,10 @@ local function SlotButton_SetSlotItem(self, itemID)
 			self.overlay:Show()
 			self.icon:SetTexture(icon)
 			if self.modelFrame then
-				self.modelFrame:TryOn("item:"..itemID)
+				self.modelFrame:TryOn(itemString or ("item:"..itemID))
 			end
 		end
+		-- This may potentially need to also accept itemString, not really sure what it does right now
 		local obsoleteType = Favourites:IsItemEquippedOrObsolete(itemID)
 		if obsoleteType then
 			if obsoleteType == "obsolete" then
@@ -335,6 +348,7 @@ local function SlotButton_SetSlotItem(self, itemID)
 		end
 		self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 		self.ItemID = nil
+		self.ItemString = nil
 		self.ownedItem:Hide()
 	end
 end

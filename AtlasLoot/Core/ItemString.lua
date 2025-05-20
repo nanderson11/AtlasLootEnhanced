@@ -205,11 +205,13 @@ end
 -- difficultyID = http://wow.gamepedia.com/DifficultyID
 function ItemString.AddBonusByDifficultyID(itemID, difficultyID)
 	if not itemID then return elseif not difficultyID then return ItemString.Create(itemID) end
+	local difficultyBonusID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(difficultyID)
 
 	return format(ITEM_FORMAT_BONUS_STRING,
 		itemID,
+		difficulty,
 		1,
-		BonusIDInfo.GetItemBonusIDByDiff(itemID, difficultyID) or 0
+		difficultyBonusID[1]
 	)
 end
 

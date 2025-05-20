@@ -166,7 +166,8 @@
 		"SelectionBehaviorMixin",
 		"CreateAnchor",
 		"GameTooltip_SetTitle",
-		"GameTooltip_AddNormalLine"
+		"GameTooltip_AddNormalLine",
+		"LinkUtil"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

@@ -379,8 +379,17 @@ local function OnTooltipSetItem_Hook(self)
 	if self:IsForbidden() or not Favourites.db.enabled or (not Favourites.db.showIconInTT and not Favourites.db.showListInTT) then return end
 	local _, item = TooltipUtil.GetDisplayedItem(self)
 	if not item then return end
+
+	local _, linkOptions, _ = LinkUtil.ExtractLink(item)
+	local itemArr = strsplittable(":", linkOptions)
+	if (itemArr[12] ~= "" and itemArr[13] ~= "" and itemArr[14] ~= "") then
+		item = "item:"..itemArr[1]..":::::::::::"..itemArr[12]..":"..itemArr[13]..":"..itemArr[14]
+	else
+		item = tonumber(itemArr[1])
+	end
+
 	if not TooltipCache[item] then
-		TooltipCache[item] = tonumber(strmatch(item, "item:(%d+)"))
+		TooltipCache[item] = item
 	end
 
 	item = TooltipCache[item]
@@ -848,7 +857,20 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 		for i, item in ipairs(items) do
 			if type(item[2]) == "number" then
 				local itemID = item[2]
+				if diffData['difficultyID'] then
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'])
+				end
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
+					result[listName] = (result[listName] or 0) + 1
+				end
+			elseif type(item[2]) == "string" and not strfind(item[2], "%a") and not tonumber(item[2]) then
+				local bonus = {}
+				for value in string.gmatch(item[2], "(%d+)") do
+					tinsert(bonus, value)
+				end
+				local itemID = table.remove(bonus, 1)
+				local temp = AtlasLoot.ItemString.AddBonus(itemID, bonus)
+				if listData[temp] and (includeObsolete or not self:IsItemEquippedOrObsolete(temp, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end
 			end
@@ -860,7 +882,20 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 		for i, item in ipairs(items) do
 			if type(item[2]) == "number" then
 				local itemID = item[2]
+				if diffData['difficultyID'] then
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'])
+				end
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
+					result[listName] = (result[listName] or 0) + 1
+				end
+			elseif type(item[2]) == "string" and not strfind(item[2], "%a") and not tonumber(item[2]) then
+				local bonus = {}
+				for value in string.gmatch(item[2], "(%d+)") do
+					tinsert(bonus, value)
+				end
+				local itemID = table.remove(bonus, 1)
+				local temp = AtlasLoot.ItemString.AddBonus(itemID, bonus)
+				if listData[temp] and (includeObsolete or not self:IsItemEquippedOrObsolete(temp, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end
 			end
