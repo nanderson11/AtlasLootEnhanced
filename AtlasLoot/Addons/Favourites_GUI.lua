@@ -281,7 +281,7 @@ end
 
 local function SlotButton_OnEvent(self, event, itemID, success)
 	if event == "GET_ITEM_INFO_RECEIVED" and itemID == self.ItemID and success then
-		self.overlay:SetQualityBorder(GetItemQuality(itemID))
+		self.overlay:SetQualityBorder(GetItemQuality(self.ItemString or self.ItemID))
 		self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 	end
 end
@@ -302,10 +302,10 @@ local function SlotButton_SetSlotItem(self, item)
 	local itemID, itemString
 	if item and item ~= true then
 		if (strfind(item, ":")) then
-			itemID = strmatch(item, "item:(%d+)")
 			-- Add current spec ID to the displayed item
 			local parsedItem = AtlasLoot.ItemString.Parse(item)
 			parsedItem.specializationID = PlayerUtil.GetCurrentSpecID()
+			itemID = parsedItem.itemID
 			itemString = AtlasLoot.ItemString.Create(parsedItem)
 		else
 			itemID = item
