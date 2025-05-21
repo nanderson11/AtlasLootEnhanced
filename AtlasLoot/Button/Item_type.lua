@@ -122,7 +122,19 @@ function Item.OnMouseAction(button, mouseButton)
 		end
 	elseif mouseButton == "SetFavourite" then
 		if Favourites then
-			local item = button.ItemString or button.ItemID
+			local item
+			if (button.ItemString) then
+				local parsedItem = AtlasLoot.ItemString.Parse(button.ItemString)
+				-- only copy the stuff we want
+				item = AtlasLoot.ItemString.Create({
+					itemID = parsedItem.itemID,
+					itemContext = parsedItem.itemContext,
+					bonusIDs = parsedItem.bonusIDs
+				})
+			else
+				item = button.ItemID
+			end
+
 			if Favourites:IsFavouriteItemID(item, true) then
 				Favourites:RemoveItemID(item)
 				if Favourites:IsFavouriteItemID(item) then
@@ -259,9 +271,26 @@ function Item.Refresh(button)
 		-- ##################
 		button.extra:SetText(GetItemDescInfo(itemEquipLoc, itemType, itemSubType))
 	end
-	if Favourites and Favourites:IsFavouriteItemID(button.ItemString or button.ItemID) then
-		--Favourites:SetFavouriteIcon(itemID, button.favourite)
-		button.favourite:Show()
+	if Favourites then
+		local item
+		if (button.ItemString) then
+			local parsedItem = AtlasLoot.ItemString.Parse(button.ItemString)
+			-- only copy the stuff we want
+			item = AtlasLoot.ItemString.Create({
+				itemID = parsedItem.itemID,
+				itemContext = parsedItem.itemContext,
+				bonusIDs = parsedItem.bonusIDs
+			})
+		else
+			item = button.ItemID
+		end
+
+		if Favourites:IsFavouriteItemID(item) then
+			--Favourites:SetFavouriteIcon(itemID, button.favourite)
+			button.favourite:Show()
+		else
+			button.favourite:Hide()
+		end
 	else
 		button.favourite:Hide()
 	end

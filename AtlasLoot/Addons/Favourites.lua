@@ -381,11 +381,15 @@ local function OnTooltipSetItem_Hook(self)
 	if not item then return end
 
 	local _, linkOptions, _ = LinkUtil.ExtractLink(item)
-	local itemArr = strsplittable(":", linkOptions)
-	if (itemArr[12] ~= "" and itemArr[13] ~= "" and itemArr[14] ~= "") then
-		item = "item:"..itemArr[1]..":::::::::::"..itemArr[12]..":"..itemArr[13]..":"..itemArr[14]
+	local parsedItem = AtlasLoot.ItemString.Parse(linkOptions)
+	if (parsedItem.bonusIDs) then
+		item = AtlasLoot.ItemString.Create({
+			itemID = parsedItem.itemID,
+			itemContext = parsedItem.itemContext,
+			bonusIDs = parsedItem.bonusIDs
+		})
 	else
-		item = tonumber(itemArr[1])
+		item = tonumber(parsedItem.itemID)
 	end
 
 	if not TooltipCache[item] then
@@ -858,8 +862,9 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 			if type(item[2]) == "number" then
 				local itemID = item[2]
 				if diffData['difficultyID'] then
-					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'])
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false)
 				end
+
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end
@@ -869,7 +874,11 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 					tinsert(bonus, value)
 				end
 				local itemID = table.remove(bonus, 1)
-				local temp = AtlasLoot.ItemString.AddBonus(itemID, bonus)
+				local temp = AtlasLoot.ItemString.Create({
+					itemID = itemID,
+					bonusIDs = bonus
+				})
+
 				if listData[temp] and (includeObsolete or not self:IsItemEquippedOrObsolete(temp, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end
@@ -883,8 +892,9 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 			if type(item[2]) == "number" then
 				local itemID = item[2]
 				if diffData['difficultyID'] then
-					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'])
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false)
 				end
+
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end
@@ -894,7 +904,11 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 					tinsert(bonus, value)
 				end
 				local itemID = table.remove(bonus, 1)
-				local temp = AtlasLoot.ItemString.AddBonus(itemID, bonus)
+				local temp = AtlasLoot.ItemString.Create({
+					itemID = itemID,
+					bonusIDs = bonus
+				})
+
 				if listData[temp] and (includeObsolete or not self:IsItemEquippedOrObsolete(temp, l)) then
 					result[listName] = (result[listName] or 0) + 1
 				end

@@ -303,7 +303,10 @@ local function SlotButton_SetSlotItem(self, item)
 	if item and item ~= true then
 		if (strfind(item, ":")) then
 			itemID = strmatch(item, "item:(%d+)")
-			itemString = item
+			-- Add current spec ID to the displayed item
+			local parsedItem = AtlasLoot.ItemString.Parse(item)
+			parsedItem.specializationID = PlayerUtil.GetCurrentSpecID()
+			itemString = AtlasLoot.ItemString.Create(parsedItem)
 		else
 			itemID = item
 			itemString = nil

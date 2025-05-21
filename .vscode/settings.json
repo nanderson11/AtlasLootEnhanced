@@ -167,7 +167,8 @@
 		"CreateAnchor",
 		"GameTooltip_SetTitle",
 		"GameTooltip_AddNormalLine",
-		"LinkUtil"
+		"LinkUtil",
+		"PlayerUtil"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
