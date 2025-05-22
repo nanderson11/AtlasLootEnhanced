@@ -31,4 +31,3 @@
 ## X-AtlasLoot-LootModule: 1
 
 data.lua
-sounds.lua

@@ -10,6 +10,8 @@
 	}
 ]]
 
+local ALName, ALPrivate = ...
+
 -- Functions
 local _G = getfenv(0)
 
@@ -136,8 +138,6 @@ function Button:Create()
 	button:SetWidth(270)
 	button:SetHeight(28)
 	button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
-	--button:SetNormalTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
-	--button:RegisterForClicks("LeftButtonDown", "RightButtonDown")
 	button:EnableMouseWheel(true)
 	button:RegisterForClicks("AnyDown") --"AnyUp",
 	button:SetScript("OnEnter", Button_OnEnter)
@@ -161,17 +161,6 @@ function Button:Create()
 	button.icon:SetWidth(26)
 	button.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
-	--[[
-	button.icon.glow = CreateFrame("FRAME")
-	button.icon.glow:ClearAllPoints()
-	button.icon.glow:SetParent(button)
-	button.icon.glow:SetHeight(26)
-	button.icon.glow:SetWidth(26)
-	button.icon.glow:SetAllPoints(button.icon)
-	ActionButton_ShowOverlayGlow(button.icon.glow)
-	--ActionButton_HideOverlayGlow(self)
-	]] --
-
 	button.qualityBorder = button:CreateTexture(buttonName.."_qualityBorder")
 	button.qualityBorder:SetPoint("TOPLEFT", button.icon, "TOPLEFT")
 	button.qualityBorder:SetPoint("BOTTOMRIGHT", button.icon, "BOTTOMRIGHT")
@@ -191,6 +180,14 @@ function Button:Create()
 	button.completed:SetWidth(20)
 	button.completed:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
 	button.completed:Hide()
+
+	button.favourite = button:CreateTexture(buttonName.."_favourite")
+	button.favourite:SetDrawLayer("OVERLAY", 3)
+	button.favourite:SetPoint("TOPLEFT", button.icon, -4, 4)
+	button.favourite:SetHeight(20)
+	button.favourite:SetWidth(20)
+	button.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.favourite:Hide()
 
 	-- ItemName <FontString>
 	button.name = button:CreateFontString(buttonName.."_name", "ARTWORK", "GameFontNormal")
@@ -226,7 +223,7 @@ function Button:Create()
 	button.secButton:SetPoint("TOPRIGHT", button, "TOPRIGHT", -1, -1)
 	button.secButton:SetHeight(26)
 	button.secButton:SetWidth(26)
-	button.secButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+	button.secButton:SetHighlightTexture("Interface\\buttons\\buttonhilight-square", "ADD")
 	button.secButton.OriSetNormalTexture = button.secButton.SetNormalTexture
 	button.secButton.type = "secButton"
 	button.secButton.obj = button
@@ -277,6 +274,14 @@ function Button:Create()
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite", "OVERLAY")
+	button.secButton.favourite:SetDrawLayer(button.secButton.icon:GetDrawLayer(), 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
+
 	-- factionIcon
 	button.factionIcon = button:CreateTexture(buttonName.."_factionIcon", "ARTWORK")
 	button.factionIcon:SetPoint("RIGHT", button.secButton, "LEFT", -2, 0)
@@ -306,7 +311,7 @@ function Button:CreateSecOnly(frame)
 
 	button.secButton = CreateFrame("BUTTON", buttonName, button)
 	button.secButton:SetAllPoints(button)
-	button.secButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+	button.secButton:SetHighlightTexture("Interface\\buttons\\buttonhilight-square", "ADD")
 	button.secButton.OriSetNormalTexture = button.secButton.SetNormalTexture
 	button.secButton.type = "secButton" -- now we can use button functions ;)
 	button.secButton.obj = button
@@ -345,6 +350,13 @@ function Button:CreateSecOnly(frame)
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
 
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite")
+	button.secButton.favourite:SetDrawLayer(button.secButton.overlay:GetDrawLayer(), 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
 
 	button.secButton.SetNormalTexture = Button_SetNormalTexture
 
@@ -386,6 +398,7 @@ function Proto:Clear()
 		if self.count then self.count:Hide() end
 		self.overlay:SetSize(self.icon:GetWidth(), self.icon:GetHeight())
 		if self.completed and self.completed:IsShown() then self.completed:Hide() end
+		if self.favourite then self.favourite:Hide() end
 		self:Hide()
 	end
 	if self.secButton then
