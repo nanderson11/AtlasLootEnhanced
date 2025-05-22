@@ -789,10 +789,15 @@ local function DifficultySelectFunction(self, id, arg, start)
 				favText = favText.."\n"..Favourites:GetFavouriteListText(favList, favItems)
 				favOverall = favOverall + favItems
 			end
-			boss.tt_text = (boss.tt_text_org or "")..favText
-			boss.name = boss.name_org..Favourites:GetFavouriteCountText(favOverall)
+
+			-- Manually replace the tt_text and button text
+			-- Going through the DataProvider triggers a circular set of event calsl between difficulty and boss
+			GUI.frame.boss.data[i].tt_text = (boss.tt_text_org or "")..favText
+			local name = boss.name_org..Favourites:GetFavouriteCountText(favOverall)
+			GUI.frame.boss.data[i].name = name
+			local frames = GUI.frame.boss.frame.ScrollBox:GetFrames()
+			frames[i].Label:SetText(name)
 		end
-		--GUI.frame.boss:UpdateContent()
 	end
 	UpdateFrames()
 end
