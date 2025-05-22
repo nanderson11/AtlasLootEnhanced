@@ -1,13 +1,19 @@
 ﻿# Changelog
 
-## 9.0.0 -
+## 9.0.0 - May 22, 2025
+Welcome to AtlasLoot v9! There are a few major changes to read about below. Due to this, settings have been reset, but the addition of profiles means you only have to change things once.
 ### Added
-- settings profiles
-- favorites
-- new UI
+- Added the favorites functionality from AtlasLoot Classic. It's been updated to work with item strings (which separates items by raid difficuty, for example)
+- The UI has been updated to match the modern Blizzard UI. Nearly everything has been updated, including item icons, lists, dropdowns, scrollbars, buttons and backgrounds
+- Settings now use the Ace3 profile system, so you don't have to set up AtlasLoot on every character
+- Items will now display with the stats for your current spec
+### Changed
+- Settings are now in the Blizzard Addon Options menu
 ### Removed
-- sound
-- some UI customization options
+- Removed the ability to play sound clips from boss encounters. It was broken, didn't cover most encounters and doesn't really fit with AtlasLoot
+- Removed some UI customization options that are no longer relevant in the new UI
+### Fixed
+- Fixed broken tier sets in Collections caused by reordering the list
 
 ## 8.28.0 - May 2, 2025
 ### Added
