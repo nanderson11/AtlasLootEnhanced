@@ -575,7 +575,7 @@ end
 
 function Faction.ShowToolTipFrame(button)
 	if not Faction.tooltipFrame then
-		local WIDTH = 200
+		local WIDTH = 210
 		local name = "AtlasLoot-FactionToolTip"
 		local frame = CreateFrame("Frame", name, nil, BackdropTemplateMixin and "BackdropTemplate" or nil)
 		frame:SetClampedToScreen(true)
@@ -588,10 +588,10 @@ function Faction.ShowToolTipFrame(button)
 			edgeSize = 16,
 			insets = { left = 4, right = 4, top = 4, bottom = 4 }
 		})
-		frame:SetBackdropColor(0, 0, 0, 1)
+		frame:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR:GetRGBA())
 
 		frame.icon = frame:CreateTexture(name.."-icon", "ARTWORK")
-		frame.icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 5, -5)
+		frame.icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -10)
 		frame.icon:SetHeight(15)
 		frame.icon:SetWidth(15)
 		frame.icon:SetTexture(FACTION_IMAGES[0])
@@ -599,14 +599,13 @@ function Faction.ShowToolTipFrame(button)
 		frame.name = frame:CreateFontString(name.."-name", "ARTWORK", "GameFontNormal")
 		frame.name:SetPoint("TOPLEFT", frame.icon, "TOPRIGHT", 3, 0)
 		frame.name:SetJustifyH("LEFT")
-		frame.name:SetWidth(WIDTH - 25)
+		frame.name:SetWidth(WIDTH - 35)
 		frame.name:SetHeight(15)
-		--frame.name:SetTextColor(1, 1, 1, 1)
 
 		frame.standing = CreateFrame("FRAME", name.."-standing", frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-		frame.standing:SetWidth(WIDTH - 10)
+		frame.standing:SetWidth(WIDTH - 20)
 		frame.standing:SetHeight(20)
-		frame.standing:SetPoint("TOPLEFT", frame.icon, "BOTTOMLEFT", 0, -1)
+		frame.standing:SetPoint("TOPLEFT", frame.icon, "BOTTOMLEFT", 0, -5)
 		frame.standing:SetBackdrop({
 			bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
 			edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
@@ -632,10 +631,10 @@ function Faction.ShowToolTipFrame(button)
 		frame.standing.text:SetTextColor(1, 1, 1, 1)
 
 		frame.desc = frame:CreateFontString(name.."-desc", "ARTWORK", "GameFontNormalSmall")
-		frame.desc:SetPoint("TOPLEFT", frame.standing, "BOTTOMLEFT", 0, -1)
+		frame.desc:SetPoint("TOPLEFT", frame.standing, "BOTTOMLEFT", 0, -5)
 		frame.desc:SetJustifyH("LEFT")
 		frame.desc:SetJustifyV("TOP")
-		frame.desc:SetWidth(WIDTH - 10)
+		frame.desc:SetWidth(WIDTH - 20)
 		frame.desc:SetTextColor(1, 1, 1, 1)
 
 		Faction.tooltipFrame = frame
@@ -658,7 +657,7 @@ function Faction.ShowToolTipFrame(button)
 	if (standingID == MAX_REPUTATION_REACTION) then
 		isCapped = true;
 	end
-	--local friendID, friendRep, _, _, _, _, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(button.FactionID)
+
 	-- check if this is a friendship faction or a Major Faction
 	local isMajorFaction = factionID and C_Reputation.IsMajorFaction(factionID);
 	local repInfo = factionID and C_GossipInfo.GetFriendshipReputation(factionID);
@@ -712,6 +711,6 @@ function Faction.ShowToolTipFrame(button)
 		frame.standing.text:SetText(str_format("%s ( %d / %d )", factionStandingtext, barValue - barMin, barMax - barMin))
 	end
 
-	frame:SetHeight(20 + 21 + frame.desc:GetHeight() + 5)
+	frame:SetHeight(20 + 21 + frame.desc:GetHeight() + 23)
 	frame:Show()
 end

@@ -1,6 +1,8 @@
 ﻿# Changelog
 
-## 9.0.1 -
+## 9.0.1 - May 27, 2025
+### Changed
+- Added padding to the faction tooltip
 ### Fixed
 - Removed Glyph of the Headhunter from Legion Inscription Crafting
 
