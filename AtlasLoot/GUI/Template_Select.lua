@@ -200,7 +200,9 @@ function GUI.CreateSelect(self, height)
 	-- Set selection behavior
 	local SelectionBehavior = ScrollUtil.AddSelectionBehavior(ScrollBox)
 	local function OnSelectionChanged(_, elementData, selected)
-		local button = ScrollBox:FindFrame(elementData)
+		local button = ScrollBox:FindFrameByPredicate(function(frame)
+			return frame.info.id == elementData.id;
+		end)
 		if button then
 			if selected then
 				button.obj:SetSelected(button.info.id)
@@ -221,7 +223,8 @@ function GUI.CreateSelect(self, height)
 	local function Initializer(button, data)
 		local selected = SelectionBehavior:IsElementDataSelected(data)
 		if selected then
-			button.obj:SetSelected(button.info.id)
+			-- Seems like this doesn't make a difference, but leaving it here for now in case it turns out that it does
+			--button.obj:SetSelected(button.info.id)
 			button.SelectedOverlay:SetShown(true);
 			button.HighlightOverlay:SetShown(false);
 		else

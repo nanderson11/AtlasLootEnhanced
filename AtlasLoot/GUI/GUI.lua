@@ -791,12 +791,16 @@ local function DifficultySelectFunction(self, id, arg, start)
 			end
 
 			-- Manually replace the tt_text and button text
-			-- Going through the DataProvider triggers a circular set of event calsl between difficulty and boss
+			-- Going through the DataProvider triggers a circular set of event calls between difficulty and boss
 			GUI.frame.boss.data[i].tt_text = (boss.tt_text_org or "")..favText
 			local name = boss.name_org..Favourites:GetFavouriteCountText(favOverall)
 			GUI.frame.boss.data[i].name = name
-			local frames = GUI.frame.boss.frame.ScrollBox:GetFrames()
-			frames[i].Label:SetText(name)
+			local button = GUI.frame.boss.frame.ScrollBox:FindFrameByPredicate(function(frame)
+				return frame.info.id == i;
+			end)
+			if button then
+				button.Label:SetText(name)
+			end
 		end
 	end
 	UpdateFrames()
