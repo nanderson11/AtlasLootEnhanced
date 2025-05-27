@@ -5,6 +5,7 @@
 - Added padding to the faction tooltip
 ### Fixed
 - Fix error on boss list frames that scroll (like TBC Factions)
+- Used stored faction name for factions you haven't encountered instead of hiding them completely
 - Removed Glyph of the Headhunter from Legion Inscription Crafting
 
 ## 9.0.0 - May 26, 2025

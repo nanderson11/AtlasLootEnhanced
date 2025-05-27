@@ -443,9 +443,10 @@ function ItemDB.ContentProto:GetNameForItemTable(index)
 	elseif self.items[index].FactionID then
 		local temp = C_Reputation.GetFactionDataByID(self.items[index].FactionID)
 		if (temp == nil) then
-			return nil
+			local BF = AtlasLoot.LibBabble:Get("LibBabble-Faction-3.0")
+			return BF[AtlasLoot.Data.Faction.FACTION_KEY[self.items[index].FactionID]] or FACTION.." "..self.items[index].FactionID
 		else
-			return temp.name --or "Faction "..self.items[index].FactionID
+			return temp.name
 		end
 	else
 		return UNKNOWN

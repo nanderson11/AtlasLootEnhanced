@@ -80,6 +80,7 @@ MiniMapButton.lua
 Data\Mount.lua
 Data\Token.lua
 Data\Sets.lua
+Data\Faction.lua
 
 ItemDB\ItemDB.lua
 
