@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.0.1 -
+### Fixed
+- Removed Glyph of the Headhunter from Legion Inscription Crafting
+
 ## 9.0.0 - May 26, 2025
 Welcome to AtlasLoot v9! There are a few major changes to read about below. Due to this, settings have been reset, but the addition of profiles means you only have to change things once.
 ### Added

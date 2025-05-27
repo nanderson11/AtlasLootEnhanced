@@ -4229,12 +4229,11 @@ data["Inscription"] = {
 				{ 1, 43350,  58301 }, -- Glyph of Lesser Proportion
 				{ 2, 137238, 225543 }, -- Glyph of the Trident
 				{ 3, 137239, 225541 }, -- Glyph of the Hook
-				{ 4, 137240, 225540 }, -- Glyph of the Headhunter
-				{ 5, 137249, 225535 }, -- Glyph of Arachnophobia
-				{ 6, 137250, 225536 }, -- Glyph of Nesingwary's Nemeses
-				{ 7, 137267, 225539 }, -- Glyph of the Goblin Anti-Grav Flare
-				{ 8, 137269, 192845 }, -- Glyph of Stellar Flare
-				{ 9, 139288, 225538 }, -- Glyph of the Dire Stable
+				{ 4, 137249, 225535 }, -- Glyph of Arachnophobia
+				{ 5, 137250, 225536 }, -- Glyph of Nesingwary's Nemeses
+				{ 6, 137267, 225539 }, -- Glyph of the Goblin Anti-Grav Flare
+				{ 7, 137269, 192845 }, -- Glyph of Stellar Flare
+				{ 8, 139288, 225538 }, -- Glyph of the Dire Stable
 			},
 		},
 		{ --InscriptionMage
