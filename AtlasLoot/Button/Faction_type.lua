@@ -209,25 +209,30 @@ local FACTION_IMAGES = {
 	[2478] = "Interface\\Icons\\inv_tabard_enlightenedbrokers_c_01", -- The Enlightened
 
 	-- Dragonflight
+	[2503] = 4687627,                                              -- Maruuk Centaur
+	[2507] = 4687628,                                              -- Dragonscale Expedition
+	[2510] = 4687630,                                              -- Valdrakken Accord
+	[2511] = 4687629,                                              -- Iskaara Tuskarr
+	[2564] = "interface\\icons\\ui_majorfaction_niffen",           -- Loamm Niffen
+	[2574] = "interface\\icons\\ui_majorfaction_denizens",         -- Dream Wardens
+	[2517] = 1394891,                                              -- Wrathion
+	[2518] = 4559236,                                              -- Sabellian
+	[2550] = 1394893,                                              -- Cobalt Assembly
+	[2526] = "interface\\icons\\inv_10_misc_winterpeltfurbolg_totem", -- Winterpelt Furbolg
 
-	[2503] = 4687627, -- Maruuk Centaur
-	[2509] = 4639175, -- Clan Shikaar
-	[2512] = 237385, -- Clan Aylaag
-	[2513] = 4639177, -- Clan Ohn'ir
-	[2522] = 4639174, -- Clan Teerai
-	--		[2554] = "Interface\\Icons\\...", -- Clan Toghus
-	[2507] = 4687628, -- Dragonscale Expedition
-	[2510] = 4687630, -- Valdrakken Accord
-	[2517] = 1394891, -- Wrathion
-	[2518] = 4559236, -- Sabellian
-	[2544] = 134446, -- Artisan's Consortium - Dragon Isles Branch
-	[2550] = 1394893, -- Cobalt Assembly
-	[2511] = 4687629, -- Iskaara Tuskarr
-	[2520] = 4639176, -- Clan Nokhud
-	--[2526] = "Interface\\Icons\\...", -- Winterpelt Furbolg
-	--[2542] = "Interface\\Icons\\...", -- Clan Ukhel
-	--[2555] = "Interface\\Icons\\...", -- Clan Kaighan
-
+	-- TWW
+	[2590] = "interface\\icons\\ui_majorfactions_storm",      -- Council of Dornogal
+	[2594] = "interface\\icons\\ui_majorfactions_candle",     -- The Assembly of the Deeps
+	[2570] = "interface\\icons\\ui_majorfactions_flame",      -- Hallowfall Arathi
+	[2600] = "interface\\icons\\ui_majorfactions_web",        -- The Severed Threads
+	[2653] = "interface\\icons\\ui_majorfactions_rocket",     -- The Cartels of Undermine
+	[2673] = "interface\\icons\\inv_tabard_bilgewater_b_01",  -- Bilgewater Cartel
+	[2675] = "interface\\icons\\inv_tabard_blackwater_b_01",  -- Blackwater Cartel
+	[2677] = "interface\\icons\\inv_tabard_steamwheedle_b_01", -- Steamwheedle Cartel
+	[2671] = "interface\\icons\\inv_tabard_ventureco_b_01",   -- Venture Company
+	[2669] = "interface\\icons\\inv_111_tabard_darkfusefaction", -- Darkfuse Solutions
+	[2685] = "interface\\icons\\ui_majorfactions_stars",      -- Gallagio Loyalty Rewards Club
+	[2688] = "interface\\icons\\ui_majorfactions_ nightfall", -- Flame's Radiance
 }
 
 local function GetLocRepStanding(id)
@@ -254,15 +259,10 @@ function Faction.OnSet(button, second)
 		FactionClickHandler = ClickHandler:Add(
 			"Faction",
 			{
-				--ChatLink = { "LeftButton", "Shift" },
-				types = {
-					--ChatLink = true,
-				},
+				types = {},
 			},
 			AtlasLoot.db.Button.Faction.ClickHandler,
-			{
-				--{ "ChatLink", 	AL["Chat Link"], 	AL["Add item into chat"] },
-			}
+			{}
 		)
 
 		PlayerSex = UnitSex("player")
@@ -310,9 +310,6 @@ end
 function Faction.OnMouseAction(button, mouseButton)
 	if not mouseButton then return end
 	mouseButton = FactionClickHandler:Get(mouseButton)
-	--if mouseButton == "ChatLink" then
-
-	--end
 end
 
 function Faction.OnEnter(button, owner)
@@ -386,16 +383,8 @@ function Faction.Refresh(button)
 	if button.type == "secButton" then
 		button:SetNormalTexture(FACTION_IMAGES[factionID] or FACTION_IMAGES[0])
 	else
-		-- ##################
-		-- name
-		-- ##################
 		button.name:SetText(color..name)
-
 		--button.extra:SetText("|cFF"..FACTION_REP_COLORS[RepID or standingID]..GetLocRepStanding(RepID or standingID))
-
-		-- ##################
-		-- icon
-		-- ##################
 		button.icon:SetTexture(FACTION_IMAGES[factionID] or FACTION_IMAGES[0])
 
 		local reqRepText = friendshipFactionID and FRIEND_REP_TEXT[RepID] or GetLocRepStanding(RepID or standingID) or ""

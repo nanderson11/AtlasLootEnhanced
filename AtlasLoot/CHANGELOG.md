@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.1.0 -
+### Added
+- Added faction-specific icons for TWW factions
+
 ## 9.0.1 - May 27, 2025
 ### Changed
 - Added padding to the faction tooltip
