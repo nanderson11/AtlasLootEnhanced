@@ -377,12 +377,16 @@ end
 
 local function OnTooltipSetItem_Hook(self)
 	if self:IsForbidden() or not Favourites.db.enabled or (not Favourites.db.showIconInTT and not Favourites.db.showListInTT) then return end
-	local _, item = TooltipUtil.GetDisplayedItem(self)
+	local _, item, tooltipID = TooltipUtil.GetDisplayedItem(self)
 	if not item then return end
 
 	local _, linkOptions, _ = LinkUtil.ExtractLink(item)
 	local parsedItem = AtlasLoot.ItemString.Parse(linkOptions)
-	if (parsedItem.bonusIDs) then
+	if (tooltipID ~= parsedItem.itemID) then
+		-- When the tooltipID is not the same as the parsed itemID, we have a recipe
+		-- The parsed itemID has the recipe result, so use the tooltipID, which is the recipe item
+		item = tonumber(tooltipID)
+	elseif (parsedItem.bonusIDs) then
 		item = AtlasLoot.ItemString.Create({
 			itemID = parsedItem.itemID,
 			itemContext = parsedItem.itemContext,

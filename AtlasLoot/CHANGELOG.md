@@ -3,6 +3,8 @@
 ## 9.1.0 -
 ### Added
 - Added faction-specific icons for TWW factions
+### Fixed
+- Fix some recipe items not having their favorite list in the tooltip
 
 ## 9.0.1 - May 27, 2025
 ### Changed
