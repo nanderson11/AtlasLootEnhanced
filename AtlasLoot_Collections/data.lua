@@ -1103,6 +1103,9 @@ data["MOUNTS"]             = {
 				{ 407, 235706, "mount" },                                                -- Void-Scarred Pack Mother's Harness
 				{ 408, 235707, "mount" },                                                -- Reins of the Void-Scarred Windrider
 				{ 409, 211089, "mount" },                                                -- Felreaver Deathcycle
+				{ 410, 174654, "mount" },                                                -- Black Serpent of N'Zoth (ac41929)
+				{ 411, 174653, "mount" },                                                -- Mail Muncher
+				{ 412, 174770, "mount", [PRICE_EXTRA_ITTYPE] = "displacedCorruptedMementos:20000" }, -- Ny'alothan Shadow Worm (ac41966)
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -5980,6 +5983,14 @@ data["COMPANIONS"]         = {
 				{ 401, 235793, "pet4748" },                                               -- Parrot Cage (Void-Scarred Parrot)
 				{ 402, 235795, "pet4749" },                                               -- Void-Scarred Scorpid
 				{ 403, 235797, "pet4750" },                                               -- Void-Scarred Egg
+				{ 404, 174461, "pet2842" },                                               -- Swirling Black Bottle (Anomalus)
+				{ 405, 174457, "pet2838" },                                               -- C'Thuffer
+				{ 406, 174463, "pet2844" },                                               -- Reek (ac41928)
+				{ 407, 174459, "pet2840" },                                               -- Voidwoven Cat Collar (Void-Scarred Cat)
+				{ 408, 174458, "pet2839" },                                               -- Void-Scarred Hare
+				{ 409, 174646, "pet2797" },                                               -- Void-Link Frostwolf Collar (Void-Scarred Pup)
+				{ 410, 174460, "pet2841" },                                               -- Box Labeled "Danger: Void Rat Inside" (Void-Scarred Rat)
+				{ 411, 173726, "pet2796" },                                               -- Box With Faintly Glowing 'Air' Holes (Void-Scarred Toad)
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
@@ -6174,6 +6185,11 @@ data["TOYS"]               = {
 				{ 216, 238850, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Arathi Entertainer's Flame
 				{ 217, 238852, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Flame's Radiance Banner
 				{ 218, 239693, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Radiant Lynx Whistle
+				{ 219, 174920 },                                     -- Coifcurl's Close Shave Kit
+				{ 220, 174926 },                                     -- Overly Sensitive Void Spectacles
+				{ 221, 174928 },                                     -- Rotten Apple
+				{ 222, 174921 },                                     -- Void-Touched Skull
+				{ 223, 174924 },                                     -- Void-Touched Souvenir Totem
 				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},

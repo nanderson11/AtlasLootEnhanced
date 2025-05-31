@@ -4,6 +4,7 @@
 ### Added
 - Added faction-specific icons for TWW factions
 - Added new mounts and pets from Revisited Horrific Visions to Collections
+- Added returning mounts, pets and toys from the original Horrific Visions to Collections (under TWW because they were never added to AtlasLoot originally)
 - Added recipe from Revisited Horrific Visions to Jewelcrafting
 - Added Flame's Radiance tabards to both Factions and Tabard Collections
 ### Fixed
