@@ -4627,6 +4627,7 @@ data["Jewelcrafting"] = {
 				{ 18, 213785, 435339 },                                   -- Algari Ruby Prism
 				{ 19, 213788, 435369 },                                   -- Algari Onyx Prism
 				{ 20, 213782, 435338 },                                   -- Algari Emerald Prism
+				{ 22, 235712, 1226650 },                                  -- Design: Void-Crystal Panther
 			},
 			[BFA_DIFF] = {
 				{ 1, 162112, 278419 }, -- Kaleidoscopic Lens

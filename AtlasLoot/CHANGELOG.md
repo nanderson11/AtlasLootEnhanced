@@ -3,6 +3,8 @@
 ## 9.1.0 -
 ### Added
 - Added faction-specific icons for TWW factions
+- Added new mounts and pets from Revisited Horrific Visions to Collections
+- Added recipe from Revisited Horrific Visions to Jewelcrafting
 ### Fixed
 - Fix some recipe items not having their favorite list in the tooltip
 
