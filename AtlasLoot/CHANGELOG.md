@@ -5,6 +5,7 @@
 - Added faction-specific icons for TWW factions
 - Added new mounts and pets from Revisited Horrific Visions to Collections
 - Added recipe from Revisited Horrific Visions to Jewelcrafting
+- Added Flame's Radiance tabards to both Factions and Tabard Collections
 ### Fixed
 - Fix some recipe items not having their favorite list in the tooltip
 

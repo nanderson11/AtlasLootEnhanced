@@ -3203,6 +3203,9 @@ data["TABARDS"]            = {
 				{ 103, 231528, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Blackwater Undermine Tabard
 				{ 104, 231527, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Steamwheedle Undermine Tabard
 				{ 105, 231542, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" }, -- Venture Co. Undermine Tabard
+				{ 106, 233288 },                                     -- Radiant Recruit's Tabard
+				{ 107, 233289 },                                     -- Radiant Stalwart's Tabard
+				{ 108, 233290 },                                     -- Sacred Templar's Tabard
 				-- { 1, 233929 }, -- Sacred Tabard of the Priori (currently unobtainable)
 				-- { 1, 224169 }, -- Stonebound Tabard (currently unobtainable)
 			},
