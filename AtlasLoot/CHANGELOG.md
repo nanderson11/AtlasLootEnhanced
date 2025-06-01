@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.1.0 -
+## 9.1.0 - June 1, 2025
 ### Added
 - Added faction-specific icons for TWW factions
 - Added new mounts and pets from Revisited Horrific Visions to Collections
@@ -9,9 +9,10 @@
 - Added Flame's Radiance tabards to both Factions and Tabard Collections
 - Added June Trading Post items to Collections
 ### Changed
-- Updated lib: Krowi's World Map Buttons
+- Updated lib Krowi's World Map Buttons
 ### Fixed
 - Fix some recipe items not having their favorite list in the tooltip
+- Fix for lua error on items with quest names (known issue: uncached quest names may appear on the wrong item)
 - Fixed world map button scale and highlight
 
 ## 9.0.1 - May 27, 2025
