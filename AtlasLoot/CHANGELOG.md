@@ -7,8 +7,11 @@
 - Added returning mounts, pets and toys from the original Horrific Visions to Collections (under TWW because they were never added to AtlasLoot originally)
 - Added recipe from Revisited Horrific Visions to Jewelcrafting
 - Added Flame's Radiance tabards to both Factions and Tabard Collections
+### Changed
+- Updated lib: Krowi's World Map Buttons
 ### Fixed
 - Fix some recipe items not having their favorite list in the tooltip
+- Fixed world map button scale and highlight
 
 ## 9.0.1 - May 27, 2025
 ### Changed
