@@ -1105,7 +1105,10 @@ data["MOUNTS"]             = {
 				{ 409, 211089, "mount" },                                                -- Felreaver Deathcycle
 				{ 410, 174654, "mount" },                                                -- Black Serpent of N'Zoth (ac41929)
 				{ 411, 174653, "mount" },                                                -- Mail Muncher
-				{ 412, 174770, "mount", [PRICE_EXTRA_ITTYPE] = "displacedCorruptedMementos:20000" }, -- Ny'alothan Shadow Worm (ac41966)
+				{ 412, 174770, "mount", [PRICE_EXTRA_ITTYPE] = "displacedCorruptedMementos:20000" }, -- Wicked Swarmer
+				{ 413, 238967, "mount" },                                                -- Molten Cormaera
+				{ 414, 238941, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Coldflame Cormaera
+				{ 415, 236415, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Reins of the Spotted Black Riding Goat
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -1165,6 +1168,7 @@ data["MOUNTS"]             = {
 				{ 111, 201789, "mount" },                           -- Vicious Sabertooth
 				{ 112, 202086, "mount" },                           -- Crimson Gladiator's Drake
 				{ 113, 192766, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Amber Skitterfly
+				{ 114, 221814, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Pearlescent Goblin Wave Shredder
 
 			},
 			[HORDE_DIFF] = {
@@ -6088,6 +6092,7 @@ data["COMPANIONS"]         = {
 				{ 216, 201838, "pet3359" },                                        -- Snowclaw Cub
 				{ 217, 202085, "pet3360" },                                        -- Bugbiter Tortoise
 				{ 218, 212786, "pet4409", [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:250" }, -- Lovely Duckling
+				{ 219, 223145, "pet4548", [PRICE_EXTRA_ITTYPE] = "tender:500" },   -- Marrlok
 				-- { 12,  193068 }, -- Time-Lost Treeflitter
 				-- { 21,  193380 }, -- Pink Salamanther
 				-- { 26,  193587 }, -- Time-Lost Duck
@@ -6282,6 +6287,7 @@ data["TOYS"]               = {
 				{ 223, 202042 },                                        -- Aquatic Shades
 				{ 224, 202711 },                                        -- Lost Compass
 				{ 225, 204675, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" }, -- A Drake's Big Basket of Eggs
+				{ 226, 218112, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Colorful Beach Chair
 			}
 		},
 	},
