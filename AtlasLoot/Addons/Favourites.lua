@@ -866,7 +866,7 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 			if type(item[2]) == "number" then
 				local itemID = item[2]
 				if diffData['difficultyID'] then
-					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false)
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false) or item[2]
 				end
 
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
@@ -896,7 +896,7 @@ function Favourites:CountFavouritesByList(addonName, contentName, boss, dif, inc
 			if type(item[2]) == "number" then
 				local itemID = item[2]
 				if diffData['difficultyID'] then
-					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false)
+					itemID = AtlasLoot.ItemString.AddBonusByDifficultyID(item[2], diffData['difficultyID'], false) or item[2]
 				end
 
 				if listData[itemID] and (includeObsolete or not self:IsItemEquippedOrObsolete(itemID, l)) then
