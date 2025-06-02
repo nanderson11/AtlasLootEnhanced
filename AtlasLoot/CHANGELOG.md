@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.1.1 -
+### Fixed
+- Fix lua error when viewing items in Legion instances
+
 ## 9.1.0 - June 1, 2025
 ### Added
 - Added faction-specific icons for TWW factions

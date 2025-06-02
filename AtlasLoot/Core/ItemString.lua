@@ -38,9 +38,14 @@ local function GetScaledItem(itemID, difficultyID, newLvl)
 	if not baseILvl then return end
 	local cacheString = baseILvl..difficultyID..newLvl
 	if not GetScaledItem_Cache[cacheString] then
+		local specID
+		if (GetSpecialization()) then
+			specID = GetSpecializationInfo(GetSpecialization())
+		end
+
 		local difficultyBonusID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(difficultyID)
 		-- New effectiveILvl
-		effectiveILvl, isPreview, baseILvl = GetDetailedItemLevelInfo(format(ITEM_FORMAT_BONUS_STRING, itemID, difficulty, #difficultyBonusID, difficultyBonusID[1] or ""))
+		effectiveILvl, isPreview, baseILvl = GetDetailedItemLevelInfo(format(ITEM_FORMAT_BONUS_STRING, itemID, specID or "", difficulty, #difficultyBonusID, difficultyBonusID[1] or ""))
 
 		if effectiveILvl >= newLvl then
 			GetScaledItem_Cache[cacheString] = difficultyBonusID
