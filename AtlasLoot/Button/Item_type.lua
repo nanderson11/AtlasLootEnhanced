@@ -227,8 +227,10 @@ function Item.OnClear(button)
 	button.secButton.ItemString = nil
 	if button.overlay then
 		button.overlay:SetDesaturated(false)
+		button.overlay:SetVertexColor(1, 1, 1, 1)
 		button.overlay:Hide()
 	end
+	button.secButton.overlay:SetVertexColor(1, 1, 1, 1)
 	button.secButton.overlay:Hide()
 end
 
