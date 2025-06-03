@@ -5,6 +5,7 @@
 - Fix lua error when viewing items in Legion instances
 - Item difficulty bonuses only get added to weapons, armor and gems now (this means that items like mounts, pets and recipes are seen as the same across all difficulties for Favorites functionality)
 - Fixed issue where item icons could cause non-item icons to have the wrong color border
+- Fixed issue where achievement and pet icons could cause item icons to not have a border
 
 ## 9.1.0 - June 1, 2025
 ### Added

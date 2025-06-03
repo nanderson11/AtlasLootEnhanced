@@ -84,7 +84,7 @@ function Pet.OnClear(button)
 	button.overlay:SetWidth(button.icon:GetWidth())
 
 	button.secButton.overlay:Hide()
-	button.secButton.overlay:SetTexCoord(1, 1, 1, 1)
+	button.secButton.overlay:SetTexCoord(0, 1, 0, 1)
 	button.secButton.overlay:SetHeight(button.icon:GetWidth())
 	button.secButton.overlay:SetWidth(button.icon:GetWidth())
 end
@@ -108,13 +108,11 @@ function Pet.Refresh(button)
 		button.extra:SetText(_G["BATTLE_PET_NAME_"..petType])
 	end
 
-
 	button.overlay:Show()
 	button.overlay:SetTexture(PET_JOURNAL_TEXTURE)
 	button.overlay:SetTexCoord(0.41992188, 0.52343750, 0.02246094, 0.07519531)
 	button.overlay:SetHeight(button.icon:GetHeight() * 1.2)
 	button.overlay:SetWidth(button.icon:GetWidth() * 1.2)
-
 
 	button.icon:SetTexture(speciesIcon)
 	button.info = { speciesName, speciesIcon, petType, tooltipSource, tooltipDescription, creatureDisplayID }
