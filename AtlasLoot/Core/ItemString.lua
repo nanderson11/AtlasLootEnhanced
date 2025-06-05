@@ -70,6 +70,15 @@ local function GetScaledItem(itemID, difficultyID, newLvl)
 	return GetScaledItem_Cache[cacheString]
 end
 
+local function needsBonus(itemID)
+	local _, _, _, _, _, typeID = C_Item.GetItemInfoInstant(itemID)
+	if (typeID ~= 2 and typeID ~= 3 and typeID ~= 4 and not AtlasLoot.Data.Token.Token[itemID]) then
+		return false
+	else
+		return true
+	end
+end
+
 local C_ITEM_BONUS_PRESET = {
 	["nil"] = {}
 }
@@ -258,9 +267,8 @@ end
 
 --|cff0070dd|Hitem:151433::::::::110:581::1:1:3524:::|h[Thick Shellplate Shoulders]|h|r
 function ItemString.AddBonus(itemID, bonus, difficultyID, baseLvl)
-	-- Only add bonuses for weapons, gems and armor
-	local _, _, _, _, _, typeID = C_Item.GetItemInfoInstant(itemID)
-	if (typeID ~= 2 and typeID ~= 3 and typeID ~= 4) then return end
+	-- Only add bonuses for weapons, gems, armor and tier tokens
+	if not needsBonus(itemID) then return end
 
 	bonus = bonus and (ITEM_BONUS_PRESET[bonus] or ITEM_BONUS_PRESET[bonus[1]]) or bonus
 	if bonus and type(bonus) == "string" then print(bonus) elseif bonus and type(bonus) == "function" then bonus = bonus(itemID, difficultyID, baseLvl) end
@@ -292,9 +300,8 @@ end
 
 -- difficultyID = http://wow.gamepedia.com/DifficultyID
 function ItemString.AddBonusByDifficultyID(itemID, difficultyID, includeSpecID)
-	-- Only add bonuses for weapons, gems and armor
-	local _, _, _, _, _, typeID = C_Item.GetItemInfoInstant(itemID)
-	if (typeID ~= 2 and typeID ~= 3 and typeID ~= 4) then return end
+	-- Only add bonuses for weapons, gems, armor and tier tokens
+	if not needsBonus(itemID) then return end
 
 	local difficultyBonusID, difficulty = BonusIDInfo.GetItemBonusIDByDiff(difficultyID)
 
