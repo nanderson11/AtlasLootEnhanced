@@ -1260,6 +1260,7 @@ local MOUNT_INFO = {
 		[1226740] = 238941, -- Coldflame Cormaera
 		[1219705] = 236415, -- Reins of the Spotted Black Riding Goat
 		[447413] = 221814, -- Pearlescent Goblin Wave Shredder
+		[1227076] = 239020, -- Tyrannotort's Treat
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

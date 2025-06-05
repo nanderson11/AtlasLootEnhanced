@@ -1109,6 +1109,7 @@ data["MOUNTS"]             = {
 				{ 413, 238967, "mount" },                                                -- Molten Cormaera
 				{ 414, 238941, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Coldflame Cormaera
 				{ 415, 236415, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Reins of the Spotted Black Riding Goat
+				{ 416, 239020, "mount" },                                                -- Tyrannotort's Treat
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -5995,6 +5996,7 @@ data["COMPANIONS"]         = {
 				{ 409, 174646, "pet2797" },                                               -- Void-Link Frostwolf Collar (Void-Scarred Pup)
 				{ 410, 174460, "pet2841" },                                               -- Box Labeled "Danger: Void Rat Inside" (Void-Scarred Rat)
 				{ 411, 173726, "pet2796" },                                               -- Box With Faintly Glowing 'Air' Holes (Void-Scarred Toad)
+				{ 412, 239019, "pet4806" },                                               -- Mean-Ball Ball Bag
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
@@ -6195,6 +6197,8 @@ data["TOYS"]               = {
 				{ 221, 174928 },                                     -- Rotten Apple
 				{ 222, 174921 },                                     -- Void-Touched Skull
 				{ 223, 174924 },                                     -- Void-Touched Souvenir Totem
+				{ 224, 239007 },                                     -- Dastardly Banner
+				{ 225, 239018 },                                     -- Winner's Podium
 				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},
