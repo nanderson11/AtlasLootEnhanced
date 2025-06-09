@@ -8,7 +8,6 @@ AL["/al - Open the AtlasLoot window."] = "/al - Открыть окно AtlasLoo
 AL["/al mmb - Toggle MiniMapButton"] = "/al mmb - Переключение кнопки мини-карты"
 AL["/al options - Open AtlasLoot Options window."] = "/al options - Открывает окно опций AtlasLoot."
 AL["/al slash - Prints a list of all slash commands."] = "/al slash - Выводит список всех / команд."
-AL["/al togglebg - Toggle the background image on loottables."] = "/al togglebg - Переключение фонового изображения на таблицы добычи."
 AL["|cff00ff00Right-Click:|r Change Spec"] = "|cff00ff00Клик ПКМ:|r Сменить специализацию"
 AL["25 Player"] = "25 игроков"
 AL["25 Player Heroic"] = "25 Чел. Героический"

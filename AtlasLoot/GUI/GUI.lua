@@ -877,7 +877,6 @@ function GUI.Init()
 	end
 
 	AtlasLoot.SlashCommands:AddResetFunction(GUI.ResetFrames, "frames", "gui")
-	AtlasLoot.SlashCommands:Add("togglebg", function() db.hideBGImage = not db.hideBGImage end, AL["/al togglebg - Toggle the background image on loottables."])
 
 	-- if auto-select is enabled, pre-load all instance modules to save the first-time AL frame's loading time
 	if (AtlasLoot.db.GUI.autoselect) then
