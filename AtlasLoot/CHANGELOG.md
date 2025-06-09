@@ -3,6 +3,7 @@
 ## 9.3.0 -
 ### Added
 - Added cosmetic item border/overlay on cosmetic items
+- Added BFA, Shadowlands and Dragonflight legendaries to Collections
 
 ## 9.2.0 - June 5, 2025
 ### Added

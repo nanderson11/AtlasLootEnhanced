@@ -2985,6 +2985,26 @@ data["LEGENDARIES"]        = {
 	name = AL["Legendary Items"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			[NORMAL_DIFF] = {
+				{ 1, 204177 }, -- Nasz'uro, the Unbound Legacy
+				{ 3, 207728 }, -- Fyr'alath the Dreamrender
+				{ 4, 206448 }, -- Fyr'alath the Dreamrender
+			},
+		},
+		{ -- Shadowlands
+			name = EXPANSION_NAME8,
+			[NORMAL_DIFF] = {
+				{ 1, 186414, "ac15191" }, -- Rae'shalare, Death's Whisper
+			},
+		},
+		{ -- BFA
+			name = EXPANSION_NAME7,
+			[NORMAL_DIFF] = {
+				{ 1, 169223 }, -- Ashjra'kamas, Shroud of Resolve
+			},
+		},
 		{ -- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[ALLIANCE_DIFF] = {
