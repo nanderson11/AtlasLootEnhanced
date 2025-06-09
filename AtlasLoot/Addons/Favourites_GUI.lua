@@ -281,7 +281,11 @@ end
 
 local function SlotButton_OnEvent(self, event, itemID, success)
 	if event == "GET_ITEM_INFO_RECEIVED" and itemID == self.ItemID and success then
-		self.overlay:SetQualityBorder(GetItemQuality(self.ItemString or self.ItemID))
+		self.qualityBorder:SetQualityBorder(GetItemQuality(self.ItemString or self.ItemID))
+		if C_Item.IsCosmeticItem(itemID) then
+			self.overlay:SetAtlas("CosmeticIconFrame");
+			self.overlay:Show()
+		end
 		self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 	end
 end
@@ -313,6 +317,7 @@ local function SlotButton_SetSlotItem(self, item)
 		end
 	end
 
+	self.overlay:Hide()
 	if item and item ~= true and ItemExist(itemString or itemID) then
 		local _, _, _, itemEquipLoc, icon = GetItemInfoInstant(itemString or itemID)
 		if not self.slotID or (self.equipLoc and self.equipLoc[itemEquipLoc]) then
@@ -323,9 +328,13 @@ local function SlotButton_SetSlotItem(self, item)
 				self:RegisterEvent("GET_ITEM_INFO_RECEIVED")
 			else
 				self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
-				self.overlay:SetQualityBorder(quality)
+				self.qualityBorder:SetQualityBorder(quality)
+				if C_Item.IsCosmeticItem(itemString or itemID) then
+					self.overlay:SetAtlas("CosmeticIconFrame");
+					self.overlay:Show()
+				end
 			end
-			self.overlay:Show()
+			self.qualityBorder:Show()
 			self.icon:SetTexture(icon)
 			if self.modelFrame then
 				self.modelFrame:TryOn(itemString or ("item:"..itemID))
@@ -345,7 +354,7 @@ local function SlotButton_SetSlotItem(self, item)
 		end
 	else
 		self.icon:SetTexture(EMPTY_SLOTS[self.slotID] or EMPTY_SLOT_DUMMY)
-		self.overlay:Hide()
+		self.qualityBorder:Hide()
 		if self.modelFrame then
 			self.modelFrame:UndressSlot(self.slotID)
 		end
@@ -365,16 +374,14 @@ local function Slot_CreateSlotButton(parFrame, slotID, modelFrame)
 	frame:SetScript("OnEvent", SlotButton_OnEvent)
 	frame:RegisterForClicks("AnyDown")
 
-	-- secButtonTexture <texture>
 	frame.icon = frame:CreateTexture(nil, "ARTWORK")
 	frame.icon:SetAllPoints(frame)
 
-	-- secButtonOverlay <texture>
-	frame.overlay = frame:CreateTexture(nil, "OVERLAY")
-	frame.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
-	frame.overlay:SetAllPoints(frame.icon)
-	frame.overlay:Hide()
-	frame.overlay.SetQualityBorder = function(self, quality)
+	frame.qualityBorder = frame:CreateTexture(nil, "OVERLAY")
+	frame.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
+	frame.qualityBorder:SetAllPoints(frame.icon)
+	frame.qualityBorder:Hide()
+	frame.qualityBorder.SetQualityBorder = function(self, quality)
 		self:SetVertexColor(
 			ITEM_QUALITY_COLORS[quality].r,
 			ITEM_QUALITY_COLORS[quality].g,
@@ -382,6 +389,11 @@ local function Slot_CreateSlotButton(parFrame, slotID, modelFrame)
 			1
 		)
 	end
+
+	frame.overlay = frame:CreateTexture()
+	frame.overlay:SetDrawLayer("OVERLAY", 1)
+	frame.overlay:SetAllPoints(frame.icon)
+	frame.overlay:Hide()
 
 	-- count
 	frame.count = frame:CreateFontString(nil, "ARTWORK", "AtlasLoot_ItemAmountFont")
@@ -395,7 +407,7 @@ local function Slot_CreateSlotButton(parFrame, slotID, modelFrame)
 	frame.ownedItem:SetHeight(20)
 	frame.ownedItem:SetWidth(20)
 	frame.ownedItem:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
-	frame.ownedItem:SetDrawLayer(frame.overlay:GetDrawLayer(), 2)
+	frame.ownedItem:SetDrawLayer(frame.qualityBorder:GetDrawLayer(), 2)
 	frame.ownedItem:Hide()
 
 	--info

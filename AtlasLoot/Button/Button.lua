@@ -161,20 +161,22 @@ function Button:Create()
 	button.icon:SetWidth(26)
 	button.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
-	button.qualityBorder = button:CreateTexture(buttonName.."_qualityBorder")
-	button.qualityBorder:SetPoint("TOPLEFT", button.icon, "TOPLEFT")
-	button.qualityBorder:SetPoint("BOTTOMRIGHT", button.icon, "BOTTOMRIGHT")
+	button.qualityBorder = button:CreateTexture(buttonName.."_qualityBorder", "OVERLAY")
+	button.qualityBorder:SetPoint("CENTER", button.icon, "CENTER")
+	button.qualityBorder:SetHeight(26)
+	button.qualityBorder:SetWidth(26)
 	button.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.qualityBorder:Hide()
 
-	-- secButtonTexture <texture>
-	button.overlay = button:CreateTexture(buttonName.."_overlay", "OVERLAY")
+	button.overlay = button:CreateTexture(buttonName.."_overlay")
+	button.overlay:SetDrawLayer("OVERLAY", 1)
 	button.overlay:SetPoint("CENTER", button.icon, "CENTER")
 	button.overlay:SetHeight(26)
 	button.overlay:SetWidth(26)
 	button.overlay:Hide()
 
-	button.completed = button:CreateTexture(buttonName.."_completed", "OVERLAY")
+	button.completed = button:CreateTexture(buttonName.."_completed")
+	button.completed:SetDrawLayer("OVERLAY", 2)
 	button.completed:SetPoint("BOTTOMRIGHT", button.icon)
 	button.completed:SetHeight(20)
 	button.completed:SetWidth(20)
@@ -239,10 +241,35 @@ function Button:Create()
 	button.secButton.icon:SetAllPoints(button.secButton)
 	button.secButton.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
-	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "ARTWORK")
+	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "OVERLAY")
 	button.secButton.qualityBorder:SetAllPoints(button.secButton)
 	button.secButton.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.secButton.qualityBorder:Hide()
+
+	-- secButtonOverlay <texture>
+	button.secButton.overlay = button.secButton:CreateTexture(buttonName.."_secButtonOverlay")
+	button.secButton.overlay:SetDrawLayer("OVERLAY", 1)
+	button.secButton.overlay:SetPoint("CENTER", button.secButton.icon, "CENTER")
+	button.secButton.overlay:SetHeight(26)
+	button.secButton.overlay:SetWidth(26)
+	button.secButton.overlay:Hide()
+
+
+	button.secButton.completed = button.secButton:CreateTexture(buttonName.."_secCompleted")
+	button.secButton.completed:SetDrawLayer("OVERLAY", 2)
+	button.secButton.completed:SetPoint("BOTTOMRIGHT", button.secButton.icon)
+	button.secButton.completed:SetHeight(20)
+	button.secButton.completed:SetWidth(20)
+	button.secButton.completed:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
+	button.secButton.completed:Hide()
+
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite")
+	button.secButton.favourite:SetDrawLayer("OVERLAY", 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
 
 	-- secButtonMini <texture>
 	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini", "ARTWORK")
@@ -252,35 +279,12 @@ function Button:Create()
 	button.secButton.mini:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 	button.secButton.mini:Hide()
 
-	-- secButtonOverlay <texture>
-	button.secButton.overlay = button.secButton:CreateTexture(buttonName.."_secButtonOverlay", "OVERLAY")
-	button.secButton.overlay:SetPoint("CENTER", button.secButton.icon, "CENTER")
-	button.secButton.overlay:SetHeight(26)
-	button.secButton.overlay:SetWidth(26)
-	button.secButton.overlay:Hide()
-
-
-	button.secButton.completed = button.secButton:CreateTexture(buttonName.."_secCompleted", "OVERLAY")
-	button.secButton.completed:SetPoint("BOTTOMRIGHT", button.secButton.icon)
-	button.secButton.completed:SetHeight(20)
-	button.secButton.completed:SetWidth(20)
-	button.secButton.completed:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
-	button.secButton.completed:Hide()
-
 	button.secButton.count = button.secButton:CreateFontString(buttonName.."_secCount", "ARTWORK", "AtlasLoot_ItemAmountFont")
 	button.secButton.count:SetPoint("BOTTOMRIGHT", button.secButton.icon, "BOTTOMRIGHT", 0, 1)
 	button.secButton.count:SetJustifyH("RIGHT")
 	button.secButton.count:SetHeight(15)
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
-
-	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite", "OVERLAY")
-	button.secButton.favourite:SetDrawLayer(button.secButton.icon:GetDrawLayer(), 3)
-	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
-	button.secButton.favourite:SetHeight(20)
-	button.secButton.favourite:SetWidth(20)
-	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
-	button.secButton.favourite:Hide()
 
 	-- factionIcon
 	button.factionIcon = button:CreateTexture(buttonName.."_factionIcon", "ARTWORK")

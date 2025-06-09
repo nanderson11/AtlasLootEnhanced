@@ -222,15 +222,15 @@ function Item.OnClear(button)
 	button.ItemID = nil
 	button.Droprate = nil
 	button.ItemString = nil
+	button.qualityBorder:SetVertexColor(1, 1, 1, 1)
 	button.secButton.ItemID = nil
 	button.secButton.Droprate = nil
 	button.secButton.ItemString = nil
+	button.secButton.qualityBorder:SetVertexColor(1, 1, 1, 1)
 	if button.overlay then
 		button.overlay:SetDesaturated(false)
-		button.overlay:SetVertexColor(1, 1, 1, 1)
 		button.overlay:Hide()
 	end
-	button.secButton.overlay:SetVertexColor(1, 1, 1, 1)
 	button.secButton.overlay:Hide()
 end
 
@@ -242,14 +242,18 @@ function Item.Refresh(button)
 		return false
 	end
 
-	button.overlay:Show()
-	button.overlay:SetTexture("Interface\\Common\\WhiteIconFrame")
-	button.overlay:SetVertexColor(
+	button.qualityBorder:Show()
+	button.qualityBorder:SetVertexColor(
 		ITEM_QUALITY_COLORS[itemQuality].r,
 		ITEM_QUALITY_COLORS[itemQuality].g,
 		ITEM_QUALITY_COLORS[itemQuality].b,
 		1
 	)
+
+	if C_Item.IsCosmeticItem(button.ItemString or button.ItemID) then
+		button.overlay:SetAtlas("CosmeticIconFrame");
+		button.overlay:Show()
+	end
 
 	if not LOOT_BORDER_BY_QUALITY[itemQuality] then
 		button.overlay:SetDesaturated(true)

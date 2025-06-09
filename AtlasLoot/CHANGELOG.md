@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.3.0 -
+### Added
+- Added cosmetic item border/overlay on cosmetic items
+
 ## 9.2.0 - June 5, 2025
 ### Added
 - Added new pet, mount and toys from Dastardly Duos to Collections
