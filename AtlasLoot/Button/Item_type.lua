@@ -222,11 +222,13 @@ function Item.OnClear(button)
 	button.ItemID = nil
 	button.Droprate = nil
 	button.ItemString = nil
-	button.qualityBorder:SetVertexColor(1, 1, 1, 1)
 	button.secButton.ItemID = nil
 	button.secButton.Droprate = nil
 	button.secButton.ItemString = nil
 	button.secButton.qualityBorder:SetVertexColor(1, 1, 1, 1)
+	if button.qualityBorder then
+		button.qualityBorder:SetVertexColor(1, 1, 1, 1)
+	end
 	if button.overlay then
 		button.overlay:SetDesaturated(false)
 		button.overlay:Hide()

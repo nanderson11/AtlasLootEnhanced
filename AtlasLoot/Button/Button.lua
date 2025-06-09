@@ -329,10 +329,24 @@ function Button:CreateSecOnly(frame)
 	button.secButton.icon:SetAllPoints(button.secButton)
 	button.secButton.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
-	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "ARTWORK")
+	button.secButton.qualityBorder = button.secButton:CreateTexture(buttonName.."_secButtonQualityBorder", "OVERLAY")
 	button.secButton.qualityBorder:SetAllPoints(button.secButton)
 	button.secButton.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame")
 	button.secButton.qualityBorder:Hide()
+
+	-- secButtonOverlay <texture>
+	button.secButton.overlay = button.secButton:CreateTexture(buttonName.."_secButtonOverlay")
+	button.secButton.overlay:SetDrawLayer("OVERLAY", 1)
+	button.secButton.overlay:SetAllPoints(button.secButton)
+	button.secButton.overlay:Hide()
+
+	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite")
+	button.secButton.favourite:SetDrawLayer("OVERLAY", 3)
+	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
+	button.secButton.favourite:SetHeight(20)
+	button.secButton.favourite:SetWidth(20)
+	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
+	button.secButton.favourite:Hide()
 
 	-- secButtonMini <texture>
 	button.secButton.mini = button.secButton:CreateTexture(buttonName.."_secButtonMini", "ARTWORK")
@@ -342,25 +356,12 @@ function Button:CreateSecOnly(frame)
 	button.secButton.mini:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 	button.secButton.mini:Hide()
 
-	-- secButtonOverlay <texture>
-	button.secButton.overlay = button.secButton:CreateTexture(buttonName.."_secButtonOverlay", "OVERLAY")
-	button.secButton.overlay:SetAllPoints(button.secButton)
-	button.secButton.overlay:Hide()
-
 	button.secButton.count = button.secButton:CreateFontString(buttonName.."_secCount", "ARTWORK", "AtlasLoot_ItemAmountFont")
 	button.secButton.count:SetPoint("BOTTOMRIGHT", button.secButton.icon, "BOTTOMRIGHT", 0, 1)
 	button.secButton.count:SetJustifyH("RIGHT")
 	button.secButton.count:SetHeight(15)
 	button.secButton.count:SetWidth(15)
 	button.secButton.count:Hide()
-
-	button.secButton.favourite = button.secButton:CreateTexture(buttonName.."_favourite")
-	button.secButton.favourite:SetDrawLayer(button.secButton.overlay:GetDrawLayer(), 3)
-	button.secButton.favourite:SetPoint("TOPLEFT", button.secButton.icon, -4, 4)
-	button.secButton.favourite:SetHeight(20)
-	button.secButton.favourite:SetWidth(20)
-	button.secButton.favourite:SetTexture(ALPrivate.ICONS_PATH.."VignetteKill")
-	button.secButton.favourite:Hide()
 
 	button.secButton.SetNormalTexture = Button_SetNormalTexture
 
