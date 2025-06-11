@@ -6218,7 +6218,7 @@ data["TOYS"]               = {
 				{ 222, 174921 },                                     -- Void-Touched Skull
 				{ 223, 174924 },                                     -- Void-Touched Souvenir Totem
 				{ 224, 239007 },                                     -- Dastardly Banner
-				{ 225, 239018 },                                     -- Winner's Podium
+				{ 225, 239018, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Winner's Podium
 				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},
