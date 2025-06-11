@@ -1,12 +1,14 @@
 ﻿# Changelog
 
-## 9.3.0 -
+## 9.3.0 - June 11, 2025
 ### Added
 - Added cosmetic item border/overlay on cosmetic items
 - Added BFA, Shadowlands and Dragonflight legendaries to Collections
 - Added resonance crystal cost to Winner's Podium
 - Updated Love is in the Air World Event
 - Added Heartseeker Mana Ray to Collections
+### Fixed
+- Fixed item tooltip showing up on mount secondary buttons, sometimes on top of the mount tooltip
 
 ## 9.2.0 - June 5, 2025
 ### Added

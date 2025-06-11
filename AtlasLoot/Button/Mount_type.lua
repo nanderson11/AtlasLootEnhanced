@@ -68,8 +68,10 @@ function Mount.OnSet(button, second)
 		if not setButton.MountID then
 			error("Unknown mount! <"..button.ItemID.."> ")
 		end
-		setButton.ItemID = setTable[2][2] or MountData.GetItemIDfromSpellID(setButton.MountID)
-		setButton.MountIndex = MountData.GetIndexFromItemID(setButton.ItemID)
+		-- If ItemID exists on the button, the item tooltip will appear, which we don't want for secondary buttons
+		-- I'm not really sure when we would want it to appear, but trying to make as small a change as possible
+		--setButton.ItemID = setTable[2][2] or MountData.GetItemIDfromSpellID(setButton.MountID)
+		setButton.MountIndex = MountData.GetIndexFromItemID(setTable[2][2] or MountData.GetItemIDfromSpellID(setButton.MountID))
 	elseif setTable[2] then
 		setButton.MountID = setTable[2]
 		setButton.ItemID = MountData.GetItemIDfromSpellID(setTable[2])
