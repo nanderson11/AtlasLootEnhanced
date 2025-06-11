@@ -5,6 +5,8 @@
 - Added cosmetic item border/overlay on cosmetic items
 - Added BFA, Shadowlands and Dragonflight legendaries to Collections
 - Added resonance crystal cost to Winner's Podium
+- Updated Love is in the Air World Event
+- Added Heartseeker Mana Ray to Collections
 
 ## 9.2.0 - June 5, 2025
 ### Added

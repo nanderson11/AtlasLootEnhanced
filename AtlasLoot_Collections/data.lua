@@ -1126,50 +1126,51 @@ data["MOUNTS"]             = {
 		{ -- Dragonflight
 			name = EXPANSION_NAME9,
 			[ALLIANCE_DIFF] = {
-				{ 1,   192601, "mount" },                           -- Loyal Magmammoth
-				{ 2,   192761, "mount" },                           -- Tamed Skitterfly
-				{ 3,   192762, "mount" },                           -- Azure Skitterfly
-				{ 4,   192764, "mount" },                           -- Verdant Skitterfly
-				{ 5,   192775, "mount" },                           -- Stormhide Salamanther
-				{ 6,   192777, "mount" },                           -- Magmashell
-				{ 7,   192779, "mount" },                           -- Seething Slug
-				{ 8,   192784, "mount" },                           -- Shellack (ac16295)
+				{ 1,   192601, "mount" },                             -- Loyal Magmammoth
+				{ 2,   192761, "mount" },                             -- Tamed Skitterfly
+				{ 3,   192762, "mount" },                             -- Azure Skitterfly
+				{ 4,   192764, "mount" },                             -- Verdant Skitterfly
+				{ 5,   192775, "mount" },                             -- Stormhide Salamanther
+				{ 6,   192777, "mount" },                             -- Magmashell
+				{ 7,   192779, "mount" },                             -- Seething Slug
+				{ 8,   192784, "mount" },                             -- Shellack (ac16295)
 				{ 9,   192786, "mount", [PRICE_EXTRA_ITTYPE] = "202173:1000" }, -- Slumbering Worldsnail Shell
-				{ 10,  192791, "mount" },                           -- Plainswalker Bearer
-				{ 11,  192799, "mount" },                           -- Lizi's Reins
-				{ 12,  192800, "mount" },                           -- Skyskin Hornstrider
-				{ 13,  192806, "mount" },                           -- Raging Magmammoth (ac16355)
-				{ 14,  194034, "mount" },                           -- Renewed Proto-Drake
-				{ 15,  194106, "mount" },                           -- Highland Drake
-				{ 16,  194521, "mount" },                           -- Cliffside Wylderdrake
-				{ 17,  194549, "mount" },                           -- Windborne Velocidrake
-				{ 18,  194705, "mount" },                           -- Highland Drake
-				{ 19,  198654, "mount" },                           -- Otterworldly Ottuk Carrier (ac15834)
-				{ 20,  198808, "mount" },                           -- Guardian Vorquin
-				{ 21,  198809, "mount" },                           -- Armored Vorquin Leystrider
-				{ 22,  198810, "mount" },                           -- Swift Armored Vorquin
-				{ 23,  198811, "mount" },                           -- Majestic Armored Vorquin
-				{ 24,  198821, "mount" },                           -- Divine Kiss of Ohn'ahra
-				{ 25,  198825, "mount" },                           -- Zenet Hatchling
-				{ 26,  198870, "mount" },                           -- Otto
-				{ 27,  198871, "mount" },                           -- Iskaara Trader's Ottuk
-				{ 28,  198872, "mount" },                           -- Brown Scouting Ottuk
-				{ 29,  198873, "mount" },                           -- Ivory Trader's Ottuk
-				{ 30,  199412, "mount" },                           -- Hailstorm Armoredon
-				{ 101, 200118, "mount" },                           -- Yellow Scouting Ottuk
-				{ 102, 201425, "mount" },                           -- Yellow War Ottuk
-				{ 103, 201426, "mount" },                           -- Brown War Ottuk
-				{ 104, 201440, "mount" },                           -- Reins of the Liberated Slyvern
-				{ 105, 201454, "mount" },                           -- Temperamental Skyclaw
-				{ 106, 201702, "mount" },                           -- Crimson Vorquin
-				{ 107, 201704, "mount" },                           -- Sapphire Vorquin
-				{ 108, 201719, "mount" },                           -- Obsidian Vorquin
-				{ 109, 201720, "mount" },                           -- Bronze Vorquin
-				{ 110, 201788, "mount" },                           -- Vicious Sabertooth
-				{ 111, 201789, "mount" },                           -- Vicious Sabertooth
-				{ 112, 202086, "mount" },                           -- Crimson Gladiator's Drake
+				{ 10,  192791, "mount" },                             -- Plainswalker Bearer
+				{ 11,  192799, "mount" },                             -- Lizi's Reins
+				{ 12,  192800, "mount" },                             -- Skyskin Hornstrider
+				{ 13,  192806, "mount" },                             -- Raging Magmammoth (ac16355)
+				{ 14,  194034, "mount" },                             -- Renewed Proto-Drake
+				{ 15,  194106, "mount" },                             -- Highland Drake
+				{ 16,  194521, "mount" },                             -- Cliffside Wylderdrake
+				{ 17,  194549, "mount" },                             -- Windborne Velocidrake
+				{ 18,  194705, "mount" },                             -- Highland Drake
+				{ 19,  198654, "mount" },                             -- Otterworldly Ottuk Carrier (ac15834)
+				{ 20,  198808, "mount" },                             -- Guardian Vorquin
+				{ 21,  198809, "mount" },                             -- Armored Vorquin Leystrider
+				{ 22,  198810, "mount" },                             -- Swift Armored Vorquin
+				{ 23,  198811, "mount" },                             -- Majestic Armored Vorquin
+				{ 24,  198821, "mount" },                             -- Divine Kiss of Ohn'ahra
+				{ 25,  198825, "mount" },                             -- Zenet Hatchling
+				{ 26,  198870, "mount" },                             -- Otto
+				{ 27,  198871, "mount" },                             -- Iskaara Trader's Ottuk
+				{ 28,  198872, "mount" },                             -- Brown Scouting Ottuk
+				{ 29,  198873, "mount" },                             -- Ivory Trader's Ottuk
+				{ 30,  199412, "mount" },                             -- Hailstorm Armoredon
+				{ 101, 200118, "mount" },                             -- Yellow Scouting Ottuk
+				{ 102, 201425, "mount" },                             -- Yellow War Ottuk
+				{ 103, 201426, "mount" },                             -- Brown War Ottuk
+				{ 104, 201440, "mount" },                             -- Reins of the Liberated Slyvern
+				{ 105, 201454, "mount" },                             -- Temperamental Skyclaw
+				{ 106, 201702, "mount" },                             -- Crimson Vorquin
+				{ 107, 201704, "mount" },                             -- Sapphire Vorquin
+				{ 108, 201719, "mount" },                             -- Obsidian Vorquin
+				{ 109, 201720, "mount" },                             -- Bronze Vorquin
+				{ 110, 201788, "mount" },                             -- Vicious Sabertooth
+				{ 111, 201789, "mount" },                             -- Vicious Sabertooth
+				{ 112, 202086, "mount" },                             -- Crimson Gladiator's Drake
 				{ 113, 192766, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Amber Skitterfly
 				{ 114, 221814, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" }, -- Pearlescent Goblin Wave Shredder
+				{ 115, 210973, "mount", [PRICE_EXTRA_ITTYPE] = "lovetoken:270" }, -- Heartseeker Mana Ray
 
 			},
 			[HORDE_DIFF] = {
