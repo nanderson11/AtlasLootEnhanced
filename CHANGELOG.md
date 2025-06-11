@@ -5,7 +5,7 @@
 - Added cosmetic item border/overlay on cosmetic items
 - Added BFA, Shadowlands and Dragonflight legendaries to Collections
 - Added resonance crystal cost to Winner's Podium
-- Updated Love is in the Air World Event
+- Updated Love is in the Air items
 - Added Heartseeker Mana Ray to Collections
 ### Fixed
 - Fixed item tooltip showing up on mount secondary buttons, sometimes on top of the mount tooltip
