@@ -1176,7 +1176,7 @@ data["MOUNTS"]             = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 20, 198654, "mount", [ACH_EXTRA_ITTYPE] = 15833 }, -- Otterworldly Ottuk Carrier
+				{ 19, 198654, "mount", [ACH_EXTRA_ITTYPE] = 15833 }, -- Otterworldly Ottuk Carrier
 			},
 		},
 		{ -- Shadowlands
