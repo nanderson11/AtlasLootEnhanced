@@ -52,6 +52,7 @@ local I_A_ITTYPE         = data:AddItemTableType("Item", "Achievement")
 
 local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
+local ACH_EXTRA_ITTYPE   = data:AddExtraItemTableType("Achievement")
 
 local COLLECTION_CONTENT = data:AddContentType(AL["Collections"], ATLASLOOT_COLLECTION_COLOR)
 
@@ -993,10 +994,10 @@ data["MOUNTS"]             = {
 				{ 17,  229952, "mount", [PRICE_EXTRA_ITTYPE] = "234741:25" },            -- Asset Advocator
 				{ 18,  223153, "mount", [PRICE_EXTRA_ITTYPE] = "225557:900" },           -- Reins of the Soaring Meaderbee
 				{ 19,  221967, "mount" },                                                -- Crowd Pummeler 2-30
-				{ 20,  235549, "mount" },                                                -- Crimson Shreddertank (ac41533)
+				{ 20,  235549, "mount", [ACH_EXTRA_ITTYPE] = 41533 },                    -- Crimson Shreddertank
 				{ 21,  229940, "mount", [PRICE_EXTRA_ITTYPE] = "money:9712500" },        -- Flarendo the Furious
 				{ 22,  221765, "mount" },                                                -- Stonevault Mechsuit
-				{ 23,  231173, "mount" },                                                -- Junkmaestro's Magnetomech (ac41286)
+				{ 23,  231173, "mount", [ACH_EXTRA_ITTYPE] = 41286 },                    -- Junkmaestro's Magnetomech
 				{ 24,  229956, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Mean Green Flying Machine
 				{ 25,  223315, "mount" },                                                -- Beledar's Spawn
 				{ 26,  235626, "mount" },                                                -- Keys to the Big G
@@ -1009,21 +1010,21 @@ data["MOUNTS"]             = {
 				{ 103, 229945, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" },        -- Thunderdrum Misfire
 				{ 104, 229946, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Ocher Delivery Rocket
 				{ 105, 229348, "mount" },                                                -- Keys to Incognitro, the Indecipherable Felcycle
-				{ 106, 224415, "mount" },                                                -- Ivory Goliathus (ac40438)
-				{ 107, 235515, "mount" },                                                -- Jani's Trashpile (ac40953)
+				{ 106, 224415, "mount", [ACH_EXTRA_ITTYPE] = 40438 },                    -- Ivory Goliathus
+				{ 107, 235515, "mount", [ACH_EXTRA_ITTYPE] = 40953 },                    -- Jani's Trashpile
 				{ 108, 234740, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Copper-Maned Quilen Reins
 				{ 109, 224147, "mount" },                                                -- Reins of the Sureki Skyrazor
 				{ 110, 229944, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- The Topskimmer Special
 				{ 111, 225250, "mount" },                                                -- Startouched Furline
 				{ 112, 233058, "mount", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:10000" }, -- Soweezi's Vintage Waveshredder
 				{ 113, 233286, "mount" },                                                -- Meeksi Brewthief
-				{ 114, 232991, "mount" },                                                -- The Breaker's Song (ac41133)
+				{ 114, 232991, "mount", [ACH_EXTRA_ITTYPE] = 41133 },                    -- The Breaker's Song
 				{ 115, 233285, "mount" },                                                -- Meeksi Teatuft
 				{ 116, 235646, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Shimmermist Free Runner
-				{ 117, 229989, "mount" },                                                -- Vicious Electro Eel (ac41128)
+				{ 117, 229989, "mount", [ACH_EXTRA_ITTYPE] = 41128 },                    -- Vicious Electro Eel
 				{ 118, 234721, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Ur'zul Fleshripper Bridle
 				{ 119, 229924, "mount", [PRICE_EXTRA_ITTYPE] = "money:6250000" },        -- Darkfuse Chompactor
-				{ 120, 229987, "mount" },                                                -- Prized Gladiator's Fel Bat (ac41032)
+				{ 120, 229987, "mount", [ACH_EXTRA_ITTYPE] = 41032 },                    -- Prized Gladiator's Fel Bat
 				{ 121, 224151, "mount" },                                                -- Reins of the Ascendant Skyrazor
 				{ 122, 229936, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Violet Armored Growler
 				{ 123, 235286, "mount" },                                                -- Sha-Warped Cloud Serpent
@@ -1035,14 +1036,14 @@ data["MOUNTS"]             = {
 				{ 129, 223276, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },             -- Widow's Undercrawler
 				{ 130, 205208, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Sandy Shalewing
 				{ 201, 234730, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Broodling of Sinestra
-				{ 202, 228760, "mount" },                                                -- Reins of the Coldflame Tempest (ac40976)
-				{ 203, 232624, "mount" },                                                -- Timely Buzzbee (ac41056)
+				{ 202, 228760, "mount", [ACH_EXTRA_ITTYPE] = 40976 },                    -- Reins of the Coldflame Tempest
+				{ 203, 232624, "mount", [ACH_EXTRA_ITTYPE] = 41056 },                    -- Timely Buzzbee
 				{ 204, 235650, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Pearlescent Butterfly
 				{ 205, 235287, "mount" },                                                -- Sha-Warped Riding Tiger
-				{ 206, 223158, "mount" },                                                -- Raging Cinderbee (ac40097)
-				{ 207, 226357, "mount" },                                                -- Diamond Mechsuit (ac20525)
+				{ 206, 223158, "mount", [ACH_EXTRA_ITTYPE] = 40097 },                    -- Raging Cinderbee
+				{ 207, 226357, "mount", [ACH_EXTRA_ITTYPE] = 20525 },                    -- Diamond Mechsuit
 				{ 208, 233282, "mount" },                                                -- Meeksi Rufflefur
-				{ 209, 223267, "mount" },                                                -- Swarmite Skyhunter (ac40702)
+				{ 209, 223267, "mount", [ACH_EXTRA_ITTYPE] = 40702 },                    -- Swarmite Skyhunter
 				{ 210, 222989, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
 				{ 211, 232901, "mount", [PRICE_EXTRA_ITTYPE] = "21100:75" },             -- Lunar Launcher
 				{ 212, 233283, "mount" },                                                -- Meeksi Softpaw
@@ -1053,13 +1054,13 @@ data["MOUNTS"]             = {
 				{ 217, 223278, "mount", [PRICE_EXTRA_ITTYPE] = "kej:2020" },             -- Heritage Undercrawler
 				{ 218, 235657, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Ruby Butterfly
 				{ 219, 232926, "mount" },                                                -- Love Witch's Sweeper
-				{ 220, 223266, "mount" },                                                -- Reins of the Shadowed Swarmite (ac40232)
-				{ 221, 223572, "mount" },                                                -- Reins of the Slatestone Ramolith (ac40307)
+				{ 220, 223266, "mount", [ACH_EXTRA_ITTYPE] = 40232 },                    -- Reins of the Shadowed Swarmite
+				{ 221, 223572, "mount", [ACH_EXTRA_ITTYPE] = 40307 },                    -- Reins of the Slatestone Ramolith
 				{ 222, 233023, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },           -- Silvermoon Sweeper
 				{ 223, 226506, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" },           -- Hand of Reshkigaal
 				{ 224, 231374, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Enchanted Spellweave Carpet
 				{ 225, 224399, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Amani Hunting Bear
-				{ 226, 223586, "mount" },                                                -- Forged Gladiator's Fel Bat (ac40393)
+				{ 226, 223586, "mount", [ACH_EXTRA_ITTYPE] = 40393 },                    -- Forged Gladiator's Fel Bat
 				{ 227, 233284, "mount" },                                                -- Meeksi Rollingpaw
 				{ 228, 217985, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Golden Gryphon
 				{ 229, 223264, "mount", [PRICE_EXTRA_ITTYPE] = "kej:3940" },             -- Aquamarine Swarmite
@@ -1081,7 +1082,7 @@ data["MOUNTS"]             = {
 				{ 315, 233019, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },           -- Sky Witch's Sweeper
 				{ 316, 233354, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },           -- Savage Alabaster Battle Turtle
 				{ 317, 235556, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" },           -- Violet Darkmoon Charger
-				{ 318, 223511, "mount" },                                                -- Vicious Skyflayer (ac40396)
+				{ 318, 223511, "mount", [ACH_EXTRA_ITTYPE] = 40396 },                    -- Vicious Skyflayer
 				{ 319, 226041, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },           -- Keg Leg's Radiant Crocolisk
 				{ 320, 229128, "mount" },                                                -- Harmonious Salutations Bear
 				{ 321, 226042, "mount" },                                                -- Plunderlord's Midnight Crocolisk
@@ -1096,14 +1097,14 @@ data["MOUNTS"]             = {
 				{ 330, 210141, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Brown-Furred Spiky Bakar
 				{ 401, 235711, "mount", [PRICE_EXTRA_ITTYPE] = "displacedCorruptedMementos:40000" }, -- Corruption of the Aspects
 				{ 402, 223265, "mount" },                                                -- Nesting Swarmite
-				{ 403, 235709, "mount" },                                                -- Ny'alothan Shadow Worm (ac41966)
+				{ 403, 235709, "mount", [ACH_EXTRA_ITTYPE] = 41966 },                    -- Ny'alothan Shadow Worm
 				{ 404, 235712, "mount" },                                                -- Void-Crystal Panther
 				{ 405, 235705, "mount" },                                                -- Void-Forged Stallion's Reins
 				{ 406, 235700, "mount" },                                                -- Reins of the Void-Scarred Gryphon
 				{ 407, 235706, "mount" },                                                -- Void-Scarred Pack Mother's Harness
 				{ 408, 235707, "mount" },                                                -- Reins of the Void-Scarred Windrider
 				{ 409, 211089, "mount" },                                                -- Felreaver Deathcycle
-				{ 410, 174654, "mount" },                                                -- Black Serpent of N'Zoth (ac41929)
+				{ 410, 174654, "mount", [ACH_EXTRA_ITTYPE] = 41929 },                    -- Black Serpent of N'Zoth
 				{ 411, 174653, "mount" },                                                -- Mail Muncher
 				{ 412, 174770, "mount", [PRICE_EXTRA_ITTYPE] = "displacedCorruptedMementos:20000" }, -- Wicked Swarmer
 				{ 413, 238967, "mount" },                                                -- Molten Cormaera
@@ -1118,9 +1119,9 @@ data["MOUNTS"]             = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 117, 229988, "mount" },                                      -- Vicious Electro Eel (ac41129)
+				{ 117, 229988, "mount", [ACH_EXTRA_ITTYPE] = 41129 },          -- Vicious Electro Eel
 				{ 228, 217987, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Wind Rider
-				{ 318, 221813, "mount" },                                      -- Vicious Skyflayer (ac40397)
+				{ 318, 221813, "mount", [ACH_EXTRA_ITTYPE] = 40397 },          -- Vicious Skyflayer
 			},
 		},
 		{ -- Dragonflight
@@ -1133,18 +1134,18 @@ data["MOUNTS"]             = {
 				{ 5,   192775, "mount" },                             -- Stormhide Salamanther
 				{ 6,   192777, "mount" },                             -- Magmashell
 				{ 7,   192779, "mount" },                             -- Seething Slug
-				{ 8,   192784, "mount" },                             -- Shellack (ac16295)
+				{ 8,   192784, "mount", [ACH_EXTRA_ITTYPE] = 16295 }, -- Shellack
 				{ 9,   192786, "mount", [PRICE_EXTRA_ITTYPE] = "202173:1000" }, -- Slumbering Worldsnail Shell
 				{ 10,  192791, "mount" },                             -- Plainswalker Bearer
 				{ 11,  192799, "mount" },                             -- Lizi's Reins
 				{ 12,  192800, "mount" },                             -- Skyskin Hornstrider
-				{ 13,  192806, "mount" },                             -- Raging Magmammoth (ac16355)
+				{ 13,  192806, "mount", [ACH_EXTRA_ITTYPE] = 16355 }, -- Raging Magmammoth
 				{ 14,  194034, "mount" },                             -- Renewed Proto-Drake
 				{ 15,  194106, "mount" },                             -- Highland Drake
 				{ 16,  194521, "mount" },                             -- Cliffside Wylderdrake
 				{ 17,  194549, "mount" },                             -- Windborne Velocidrake
 				{ 18,  194705, "mount" },                             -- Highland Drake
-				{ 19,  198654, "mount" },                             -- Otterworldly Ottuk Carrier (ac15834)
+				{ 19,  198654, "mount", [ACH_EXTRA_ITTYPE] = 15834 }, -- Otterworldly Ottuk Carrier
 				{ 20,  198808, "mount" },                             -- Guardian Vorquin
 				{ 21,  198809, "mount" },                             -- Armored Vorquin Leystrider
 				{ 22,  198810, "mount" },                             -- Swift Armored Vorquin
@@ -1175,7 +1176,7 @@ data["MOUNTS"]             = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 20, 198654, "mount" }, -- Otterworldly Ottuk Carrier (ac15833)
+				{ 20, 198654, "mount", [ACH_EXTRA_ITTYPE] = 15833 }, -- Otterworldly Ottuk Carrier
 			},
 		},
 		{ -- Shadowlands
@@ -5931,21 +5932,21 @@ data["COMPANIONS"]         = {
 				{ 113, 222972, "pet4491", [PRICE_EXTRA_ITTYPE] = "kej:2250" },            -- Jump Jump
 				{ 114, 224549, "pet4594" },                                               -- Sewer Turtle Whistle
 				{ 115, 222968, "pet4476", [PRICE_EXTRA_ITTYPE] = "kej:2250" },            -- Itchbite
-				{ 116, 221821, "pet4517" },                                               -- Waxwick (ac41683)
-				{ 117, 232855, "pet4631" },                                               -- Foreman (ac41551)
-				{ 118, 222970, "pet4490" },                                               -- Fuzzy (ac41213)
+				{ 116, 221821, "pet4517", [ACH_EXTRA_ITTYPE] = 40194 },                   -- Waxwick
+				{ 117, 232855, "pet4631", [ACH_EXTRA_ITTYPE] = 41551 },                   -- Foreman
+				{ 118, 222970, "pet4490", [ACH_EXTRA_ITTYPE] = 40980 },                   -- Fuzzy
 				{ 119, 223487, "pet4482" },                                               -- Writhing Transmutagen
 				{ 120, 229368, "pet4630" },                                               -- Gill'el
 				{ 121, 222973, "pet4492", [PRICE_EXTRA_ITTYPE] = "kej:2250" },            -- Fringe
 				{ 122, 221820, "pet4537" },                                               -- Chester
 				{ 123, 228765, "pet4616" },                                               -- Gummi
-				{ 124, 232807, "pet4664" },                                               -- Iron Chick (ac41349)
+				{ 124, 232807, "pet4664", [ACH_EXTRA_ITTYPE] = 41349 },                   -- Iron Chick
 				{ 125, 232519, "pet4690" },                                               -- Razeshi B.
 				{ 126, 224439, "pet4470" },                                               -- Oop'lajax
 				{ 127, 224450, "pet4527" },                                               -- Lil' Moss Rosy
 				{ 128, 228790, "pet4617" },                                               -- Thrillbot 9000
 				{ 129, 228793, "pet4618" },                                               -- Chillbot 9000
-				{ 130, 222980, "pet4542" },                                               -- Slim (ac41200)
+				{ 130, 222980, "pet4542", [ACH_EXTRA_ITTYPE] = 41200 },                   -- Slim
 				{ 201, 224259, "pet4590" },                                               -- Flash
 				{ 202, 221849, "pet4465", [QUEST_EXTRA_ITTYPE] = 79110 },                 -- Vanilla
 				{ 203, 222966, "pet4473" },                                               -- Spinner
@@ -5972,7 +5973,7 @@ data["COMPANIONS"]         = {
 				{ 224, 224410, "pet4593", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Craggles
 				{ 225, 234395, "pet4727", [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Skitterbite
 				{ 226, 222965, "pet4530", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Loamy
-				{ 227, 223802, "pet4581" },                                               -- Ruby-Eyed Stagshell (ac40088)
+				{ 227, 223802, "pet4581", [ACH_EXTRA_ITTYPE] = 40088 },                   -- Ruby-Eyed Stagshell
 				{ 228, 234396, "pet4728", [PRICE_EXTRA_ITTYPE] = "tender:350" },          -- Teatuft Tamer
 				{ 229, 234397, "pet4729", [PRICE_EXTRA_ITTYPE] = "tender:350" },          -- Fullbelly Rollingpaw
 				{ 230, 228758, "pet4615" },                                               -- Parrlok
@@ -5991,7 +5992,7 @@ data["COMPANIONS"]         = {
 				{ 313, 221811, "pet4524", [PRICE_EXTRA_ITTYPE] = "PetCharm:50" },         -- Starkstripe Hopper
 				{ 314, 235989, "pet4695" },                                               -- Parley
 				{ 315, 231356, "pet4686", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Specter
-				{ 316, 225934, "pet4500" },                                               -- Lil' Bonechewer (ac41085)
+				{ 316, 225934, "pet4500", [ACH_EXTRA_ITTYPE] = 40869 },                   -- Lil' Bonechewer
 				{ 317, 226104, "pet4602", [PRICE_EXTRA_ITTYPE] = "tender:330" },          -- Claudius
 				{ 318, 229993, "pet4669", [PRICE_EXTRA_ITTYPE] = "tender:400" },          -- Bluedoo
 				{ 319, 233252, "pet4435" },                                               -- Happy
@@ -6011,7 +6012,7 @@ data["COMPANIONS"]         = {
 				{ 403, 235797, "pet4750" },                                               -- Void-Scarred Egg
 				{ 404, 174461, "pet2842" },                                               -- Swirling Black Bottle (Anomalus)
 				{ 405, 174457, "pet2838" },                                               -- C'Thuffer
-				{ 406, 174463, "pet2844" },                                               -- Reek (ac41928)
+				{ 406, 174463, "pet2844", [ACH_EXTRA_ITTYPE] = 41928 },                   -- Reek
 				{ 407, 174459, "pet2840" },                                               -- Voidwoven Cat Collar (Void-Scarred Cat)
 				{ 408, 174458, "pet2839" },                                               -- Void-Scarred Hare
 				{ 409, 174646, "pet2797" },                                               -- Void-Link Frostwolf Collar (Void-Scarred Pup)
@@ -6146,7 +6147,7 @@ data["TOYS"]               = {
 				{ 9,   237347, [PRICE_EXTRA_ITTYPE] = "227673:5" },  -- Organically-Sourced Wellington Bobber
 				{ 10,  234950, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Atomic Regoblinator
 				{ 11,  230727, [QUEST_EXTRA_ITTYPE] = 85244 },       -- Explosive Victory
-				{ 12,  235050 },                                     -- Desk-in-a-Box (ac41588)
+				{ 12,  235050, [ACH_EXTRA_ITTYPE] = 41588 },         -- Desk-in-a-Box
 				{ 13,  225659 },                                     -- Arathi Book Collection
 				{ 14,  221966 },                                     -- Wormhole Generator: Khaz Algar
 				{ 15,  235801, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Personal Fishing Barge
@@ -6157,11 +6158,11 @@ data["TOYS"]               = {
 				{ 20,  233202, [QUEST_EXTRA_ITTYPE] = 84675 },       -- G.O.L.E.M, Jr.
 				{ 21,  228940, [PRICE_EXTRA_ITTYPE] = "kej:3000" },  -- Notorious Thread's Hearthstone
 				{ 22,  235220 },                                     -- Fireworks Hat
-				{ 23,  236769 },                                     -- Gallagio Pipeline Rerouter (ac41211)
+				{ 23,  236769, [ACH_EXTRA_ITTYPE] = 41211 },         -- Gallagio Pipeline Rerouter
 				{ 24,  234951 },                                     -- Uncracked Cold Ones
 				{ 25,  235017 },                                     -- Glittering Vault Shard
 				{ 26,  211931 },                                     -- Abyss Caller Horn
-				{ 27,  224251 },                                     -- Memory Chord (ac40314)
+				{ 27,  224251, [ACH_EXTRA_ITTYPE] = 40314 },         -- Memory Chord
 				{ 28,  235519 },                                     -- Prized Legend's Pennant
 				{ 29,  228698, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Candleflexer's Dumbbell
 				{ 30,  233486, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:750" }, -- Hallowfall Supply Cache
@@ -6183,7 +6184,7 @@ data["TOYS"]               = {
 				{ 116, 224585 },                                     -- Hanna's Locket
 				{ 117, 226191, [PRICE_EXTRA_ITTYPE] = "money:7500" }, -- Web Pet Leash
 				{ 118, 225556 },                                     -- Ancient Construct
-				{ 119, 227539 },                                     -- Unbound Strategist's Pennant (ac40795)
+				{ 119, 227539, [ACH_EXTRA_ITTYPE] = 40795 },         -- Unbound Strategist's Pennant
 				{ 120, 228413 },                                     -- Lampyridae Lure
 				{ 121, 224783 },                                     -- Sovereign's Finery Chest
 				{ 122, 225547, [QUEST_EXTRA_ITTYPE] = 83500 },       -- Toxic Victory
@@ -6197,10 +6198,10 @@ data["TOYS"]               = {
 				{ 130, 235672, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Venture Co. Banner
 				{ 201, 235799, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Throwin' Sawblade
 				{ 202, 215147 },                                     -- Beautification Iris
-				{ 203, 225969 },                                     -- Forged Flag of Victory (ac40096)
+				{ 203, 225969, [ACH_EXTRA_ITTYPE] = 40096 },         -- Forged Flag of Victory
 				{ 204, 224552 },                                     -- Cave Spelunker's Torch
 				{ 205, 218308 },                                     -- Winter Veil Cracker
-				{ 206, 227538 },                                     -- Unbound Legend's Pennant (ac40792)
+				{ 206, 227538, [ACH_EXTRA_ITTYPE] = 40792 },         -- Unbound Legend's Pennant
 				{ 207, 228706, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Rockslidomancer's Stone
 				{ 208, 224192, [PRICE_EXTRA_ITTYPE] = "timewarped:200" }, -- Practice Ravager
 				{ 209, 224643, [PRICE_EXTRA_ITTYPE] = "224642:1" },  -- Pet-Sized Candle

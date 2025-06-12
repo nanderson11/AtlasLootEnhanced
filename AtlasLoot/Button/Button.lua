@@ -687,6 +687,11 @@ local EnhancedDescriptionProto = {
 		iconFrame:SetParent(self)
 
 		iconFrame:SetTexture(path or "Interface\\Icons\\INV_Misc_QuestionMark")
+		if (path == "Interface\\AchievementFrame\\UI-Achievement-TinyShield") then
+			iconFrame:SetTexCoord(0, 0.625, 0, 0.625)
+		else
+			iconFrame:SetTexCoord(0, 1, 0, 1)
+		end
 
 		iconFrame:SetSize(size, size)
 
@@ -722,6 +727,13 @@ local function enhancedDescription_OnLeave(self)
 	GetAlTooltip():Hide()
 end
 
+local function enhancedDescription_OnClick(self, button)
+	if button == 'LeftButton' then
+		if not self.ttInfo or not extra_button_types[self.ttInfo].OnClick then return end
+		extra_button_types[self.ttInfo].OnClick(self)
+	end
+end
+
 function Proto:AddEnhancedDescription()
 	if self.enhancedDesc then return end
 	local desc = getEnhancedDescription("desc")
@@ -729,6 +741,7 @@ function Proto:AddEnhancedDescription()
 		desc = CreateFrame("FRAME")
 		desc:SetScript("OnEnter", enhancedDescription_OnEnter)
 		desc:SetScript("OnLeave", enhancedDescription_OnLeave)
+		desc:SetScript("OnMouseDown", enhancedDescription_OnClick)
 
 		desc.content = {}
 

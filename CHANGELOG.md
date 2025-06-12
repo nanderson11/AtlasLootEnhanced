@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.4.0 -
+### Added
+- Added the ability to list an achievement as the method of acquisition on the secondary line. Mostly useful for mounts and pets where the secondary button is already used. Necessary data is only on TWW and DF mounts, pets and toys in Collections right now, but will get added elsewhere in the future.
+
 ## 9.3.0 - June 11, 2025
 ### Added
 - Added cosmetic item border/overlay on cosmetic items
