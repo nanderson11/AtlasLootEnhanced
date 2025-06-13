@@ -5,8 +5,6 @@ local ALIL = AtlasLoot.IngameLocales
 local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 local Set = AtlasLoot.Data.Sets:RegisterNewSets(addonname)
 
-local BIS = AtlasLoot.LibBabble:Get("LibBabble-ItemSet-3.0")
-
 local RF_DIFF = Set:AddDifficulty(AL["Raid Finder"], "rf")
 local NORMAL_DIFF = Set:AddDifficulty(AL["Normal"], "n")
 local HEROIC_DIFF = Set:AddDifficulty(AL["Heroic"], "h")
@@ -289,7 +287,7 @@ local SetTable = {
 	["ClassicMisc"] = { -- Miscellaneous Classic Sets
 		name = AL["Miscellaneous"].." "..AL["Sets"],
 		{            -- Ironweave Battlesuit
-			name = BIS["Ironweave Battlesuit"].." ("..AL["Cloth"]..")",
+			name = C_Item.GetItemSetInfo(520).." ("..AL["Cloth"]..")",
 			subSetName = "ironweavebattlesuit",
 			icon = "mage",
 			[NORMAL_DIFF] = {
@@ -304,7 +302,7 @@ local SetTable = {
 			},
 		},
 		{ -- The Gladiator
-			name = BIS["The Gladiator"].." ("..AL["Mail"]..")",
+			name = C_Item.GetItemSetInfo(1).." ("..AL["Mail"]..")",
 			subSetName = "thegladiator",
 			icon = "hunter",
 			[NORMAL_DIFF] = {
@@ -316,7 +314,7 @@ local SetTable = {
 			},
 		},
 		{ -- The Postmaster
-			name = BIS["The Postmaster"].." ("..AL["Cloth"]..")",
+			name = C_Item.GetItemSetInfo(81).." ("..AL["Cloth"]..")",
 			subSetName = "thepostmaster",
 			icon = "mage",
 			[NORMAL_DIFF] = {
@@ -328,7 +326,7 @@ local SetTable = {
 			},
 		},
 		{ -- Chain of the Scarlet Crusade
-			name = BIS["Chain of the Scarlet Crusade"].." ("..AL["Mail"]..")",
+			name = C_Item.GetItemSetInfo(163).." ("..AL["Mail"]..")",
 			subSetName = "chainofthescarletcrusade",
 			icon = "warri",
 			[NORMAL_DIFF] = {
@@ -341,7 +339,7 @@ local SetTable = {
 			},
 		},
 		{ -- Embrace of the Viper
-			name = BIS["Embrace of the Viper"].." ("..AL["Leather"]..")",
+			name = C_Item.GetItemSetInfo(162).." ("..AL["Leather"]..")",
 			subSetName = "embraceoftheviper",
 			icon = "rogue",
 			[NORMAL_DIFF] = {
@@ -353,7 +351,7 @@ local SetTable = {
 			},
 		},
 		{ -- Defias Leather
-			name = BIS["Defias Leather"].." ("..AL["Leather"]..")",
+			name = C_Item.GetItemSetInfo(161).." ("..AL["Leather"]..")",
 			subSetName = "defiasleather",
 			icon = "rogue",
 			[NORMAL_DIFF] = {
@@ -559,7 +557,7 @@ local SetTable = {
 	["Dungeon3"] = { -- Dungeon 3 Sets
 		name = format(AL["Dungeon %d Sets"], 3),
 		{         -- Moonglade Raiment
-			name = ALIL["DRUID"].." ("..BIS["Moonglade Raiment"]..")",
+			name = ALIL["DRUID"].." ("..C_Item.GetItemSetInfo(637)..")",
 			subSetName = "moongladeraiment",
 			icon = "druid",
 			[NORMAL_DIFF] = {
@@ -571,7 +569,7 @@ local SetTable = {
 			},
 		},
 		{ -- Beast Lord Armor
-			name = ALIL["HUNTER"].." ("..BIS["Beast Lord Armor"]..")",
+			name = ALIL["HUNTER"].." ("..C_Item.GetItemSetInfo(650)..")",
 			subSetName = "beastlordarmor",
 			icon = "hunter",
 			[NORMAL_DIFF] = {
@@ -583,7 +581,7 @@ local SetTable = {
 			},
 		},
 		{ -- Incanter's Regalia
-			name = ALIL["MAGE"].." ("..BIS["Incanter's Regalia"]..")",
+			name = ALIL["MAGE"].." ("..C_Item.GetItemSetInfo(647)..")",
 			subSetName = "incantersregalia",
 			icon = "mage",
 			[NORMAL_DIFF] = {
@@ -595,7 +593,7 @@ local SetTable = {
 			},
 		},
 		{ -- Righteous Armor
-			name = ALIL["PALADIN"].." ("..BIS["Righteous Armor"]..")",
+			name = ALIL["PALADIN"].." ("..C_Item.GetItemSetInfo(623)..")",
 			subSetName = "righteousarmor",
 			icon = "pala",
 			[NORMAL_DIFF] = {
@@ -607,7 +605,7 @@ local SetTable = {
 			},
 		},
 		{ -- Hallowed Raiment
-			name = ALIL["PRIEST"].." ("..BIS["Hallowed Raiment"]..")",
+			name = ALIL["PRIEST"].." ("..C_Item.GetItemSetInfo(662)..")",
 			subSetName = "hallowedraiment",
 			icon = "priest",
 			[NORMAL_DIFF] = {
@@ -619,7 +617,7 @@ local SetTable = {
 			},
 		},
 		{ -- Assassination Armor
-			name = ALIL["ROGUE"].." ("..BIS["Assassination Armor"]..")",
+			name = ALIL["ROGUE"].." ("..C_Item.GetItemSetInfo(620)..")",
 			subSetName = "assassinationarmor",
 			icon = "rogue",
 			[NORMAL_DIFF] = {
@@ -631,7 +629,7 @@ local SetTable = {
 			},
 		},
 		{ -- Tidefury Raiment
-			name = ALIL["SHAMAN"].." ("..BIS["Tidefury Raiment"]..")",
+			name = ALIL["SHAMAN"].." ("..C_Item.GetItemSetInfo(630)..")",
 			subSetName = "tidefuryraiment",
 			icon = "shaman",
 			[NORMAL_DIFF] = {
@@ -643,7 +641,7 @@ local SetTable = {
 			},
 		},
 		{ -- Oblivion Raiment
-			name = ALIL["WARLOCK"].." ("..BIS["Oblivion Raiment"]..")",
+			name = ALIL["WARLOCK"].." ("..C_Item.GetItemSetInfo(644)..")",
 			subSetName = "oblivionraiment",
 			icon = "warlock",
 			[NORMAL_DIFF] = {
@@ -655,7 +653,7 @@ local SetTable = {
 			},
 		},
 		{ -- Bold Armor
-			name = ALIL["WARRIOR"].." ("..BIS["Bold Armor"]..")",
+			name = ALIL["WARRIOR"].." ("..C_Item.GetItemSetInfo(653)..")",
 			subSetName = "boldarmor",
 			icon = "warri",
 			[NORMAL_DIFF] = {
@@ -667,7 +665,7 @@ local SetTable = {
 			},
 		},
 		{ -- Mana-Etched Regalia
-			name = AL["Cloth"].." ("..BIS["Mana-Etched Regalia"]..")",
+			name = AL["Cloth"].." ("..C_Item.GetItemSetInfo(658)..")",
 			subSetName = "manaechedregalia",
 			icon = "Interface\\Icons\\inv_chest_cloth_42",
 			[NORMAL_DIFF] = {
@@ -679,7 +677,7 @@ local SetTable = {
 			},
 		},
 		{ -- Wastewalker Armor
-			name = AL["Leather"].." ("..BIS["Wastewalker Armor"]..")",
+			name = AL["Leather"].." ("..C_Item.GetItemSetInfo(659)..")",
 			subSetName = "wastewalkerarmor",
 			icon = "Interface\\Icons\\inv_chest_chain_17",
 			[NORMAL_DIFF] = {
@@ -691,7 +689,7 @@ local SetTable = {
 			},
 		},
 		{ -- Desolation Battlegear
-			name = AL["Mail"].." ("..BIS["Desolation Battlegear"]..")",
+			name = AL["Mail"].." ("..C_Item.GetItemSetInfo(660)..")",
 			subSetName = "desolationbattlegear",
 			icon = "Interface\\Icons\\inv_chest_chain_03",
 			[NORMAL_DIFF] = {
@@ -703,7 +701,7 @@ local SetTable = {
 			},
 		},
 		{ -- Doomplate Battlegear
-			name = AL["Plate"].." ("..BIS["Doomplate Battlegear"]..")",
+			name = AL["Plate"].." ("..C_Item.GetItemSetInfo(661)..")",
 			subSetName = "doomplatebattlegear",
 			icon = "Interface\\Icons\\inv_chest_chain_15",
 			[NORMAL_DIFF] = {
@@ -1146,7 +1144,7 @@ local SetTable = {
 			AL["No longer available"],
 		},
 		{ -- Scholomance Cloth
-			name = BIS["Necropile Raiment"].." ("..AL["Cloth"]..")",
+			name = C_Item.GetItemSetInfo(122).." ("..AL["Cloth"]..")",
 			subSetName = "scholocloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1159,7 +1157,7 @@ local SetTable = {
 			},
 		},
 		{ -- Scholomance Leather
-			name = BIS["Cadaverous Garb"].." ("..AL["Leather"]..")",
+			name = C_Item.GetItemSetInfo(121).." ("..AL["Leather"]..")",
 			subSetName = "schololeather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1172,7 +1170,7 @@ local SetTable = {
 			},
 		},
 		{ -- Scholomance Mail
-			name = BIS["Bloodmail Regalia"].." ("..AL["Mail"]..")",
+			name = C_Item.GetItemSetInfo(123).." ("..AL["Mail"]..")",
 			subSetName = "scholomail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
@@ -1185,7 +1183,7 @@ local SetTable = {
 			},
 		},
 		{ -- Scholomance Plate
-			name = BIS["Deathbone Guardian"].." ("..AL["Plate"]..")",
+			name = C_Item.GetItemSetInfo(124).." ("..AL["Plate"]..")",
 			subSetName = "scholoplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
