@@ -490,7 +490,7 @@ data["BlackrockDepths"] = {
 			[NORMAL_DIFF] = "AtlasLoot_Collections:CLASSICSETS:4",
 		},
 		{ --BrewfestCorenDirebrew
-			name = BB["Coren Direbrew"].." ("..AL["Brewfest"]..")",
+			name = AL["Coren Direbrew"].." ("..AL["Brewfest"]..")",
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_WorldEvents:Brewfest:1",
 		},
@@ -1571,7 +1571,7 @@ data["ScarletMonastery"] = {
 			[HEROIC_DIFF] = "AtlasLoot_MistsofPandaria",
 		},
 		{ --HallowsEndHeadlessHorseman
-			name = BB["Headless Horseman"].." ("..AL["Hallow's End"]..")",
+			name = AL["Headless Horseman"].." ("..AL["Hallow's End"]..")",
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_WorldEvents:HallowsEnd:1",
 		},
@@ -1746,7 +1746,7 @@ data["ShadowfangKeep"] = {
 			},
 		},
 		{ --LoveisintheAirTrio
-			name = BB["Apothecary Hummel"].." ("..AL["Love is in the Air"]..")",
+			name = AL["Apothecary Hummel"].." ("..AL["Love is in the Air"]..")",
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_WorldEvents:LoveisintheAir:1",
 		},

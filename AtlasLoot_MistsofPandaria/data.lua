@@ -25,7 +25,6 @@ local ADD_SCALING = {
 
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", nil, 7)
 local RF_SOO_DIFF = data:AddDifficulty(AL["Raid Finder"], "lfrWithPreset", {
@@ -409,11 +408,11 @@ data["ScarletHalls"] = {
 			EncounterJournalID = 654,
 			[NORMAL_DIFF] = "AtlasLoot_Classic",
 			[HEROIC_DIFF] = {
-				{ 1,  81699 },                        -- Scarlet Sandals
-				{ 2,  81700 },                        -- Lightblade Bracer
-				{ 3,  81698 },                        -- Harlan's Shoulders
-				{ 4,  81568 },                        -- Armsmaster's Sealed Locket
-				{ 5,  81697 },                        -- The Gleaming Ravager
+				{ 1,  81699 },                           -- Scarlet Sandals
+				{ 2,  81700 },                           -- Lightblade Bracer
+				{ 3,  81698 },                           -- Harlan's Shoulders
+				{ 4,  81568 },                           -- Armsmaster's Sealed Locket
+				{ 5,  81697 },                           -- The Gleaming Ravager
 				{ 7,  23192,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Tabard of the Scarlet Crusade
 				{ 16, "ac6427" },
 			},
@@ -422,17 +421,17 @@ data["ScarletHalls"] = {
 			EncounterJournalID = 656,
 			[NORMAL_DIFF] = "AtlasLoot_Classic",
 			[HEROIC_DIFF] = {
-				{ 1,  87550 },                         -- Vithrak, Gaze of the Deadman
-				{ 2,  82817 },                         -- Robes of Koegler
-				{ 3,  82818 },                         -- Vellum-Ripper Gloves
-				{ 4,  82815 },                         -- Bindburner Belt
-				{ 5,  82819 },                         -- Bradbury's Entropic Legguards
-				{ 6,  82812 },                         -- Pyretic Legguards
-				{ 7,  81564 },                         -- Scorched Scarlet Key
-				{ 8,  81565 },                         -- Temperature-Sensing Necklace
-				{ 9,  82816 },                         -- Melted Hypnotic Blade
-				{ 10, 82813 },                         -- Koegler's Ritual Knife
-				{ 11, 82814 },                         -- Mograine's Immaculate Might
+				{ 1,  87550 },                           -- Vithrak, Gaze of the Deadman
+				{ 2,  82817 },                           -- Robes of Koegler
+				{ 3,  82818 },                           -- Vellum-Ripper Gloves
+				{ 4,  82815 },                           -- Bindburner Belt
+				{ 5,  82819 },                           -- Bradbury's Entropic Legguards
+				{ 6,  82812 },                           -- Pyretic Legguards
+				{ 7,  81564 },                           -- Scorched Scarlet Key
+				{ 8,  81565 },                           -- Temperature-Sensing Necklace
+				{ 9,  82816 },                           -- Melted Hypnotic Blade
+				{ 10, 82813 },                           -- Koegler's Ritual Knife
+				{ 11, 82814 },                           -- Mograine's Immaculate Might
 				{ 13, 87268,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Codex of the Crusade
 				{ 16, "ac6760" },
 			},
@@ -493,7 +492,7 @@ data["ScarletMonastery"] = {
 			},
 		},
 		{ --HallowsEndHeadlessHorseman
-			name = BB["Headless Horseman"].." ("..AL["Hallow's End"]..")",
+			name = AL["Headless Horseman"].." ("..AL["Hallow's End"]..")",
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_WorldEvents:HallowsEnd:1",
 		},
@@ -1487,39 +1486,39 @@ data["MoguShanVaults"] = {
 				{ 23, 86796 }, -- Torch of the Celestial Spark
 			},
 			[NORMAL_RAID_DIFF] = {
-				{ 1,  89822 },                                 -- Galaxyfire Girdle
-				{ 2,  86139 },                                 -- Orbital Belt
-				{ 3,  86136 },                                 -- Chestguard of Total Annihilation
-				{ 4,  86138 },                                 -- Phasewalker Striders
-				{ 5,  86141 },                                 -- Shoulders of Empyreal Focus
-				{ 6,  89821 },                                 -- Crown of Keening Stars
-				{ 7,  86135 },                                 -- Starcrusher Gauntlets
+				{ 1,  89822 },                                    -- Galaxyfire Girdle
+				{ 2,  86139 },                                    -- Orbital Belt
+				{ 3,  86136 },                                    -- Chestguard of Total Annihilation
+				{ 4,  86138 },                                    -- Phasewalker Striders
+				{ 5,  86141 },                                    -- Shoulders of Empyreal Focus
+				{ 6,  89821 },                                    -- Crown of Keening Stars
+				{ 7,  86135 },                                    -- Starcrusher Gauntlets
 				{ 9,  87777,   "mount", [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Reins of the Astral Cloud Serpent
-				{ 16, 89824 },                                 -- Band of Bursting Novas
-				{ 17, 86132 },                                 -- Bottle of Infinite Stars
-				{ 18, 86133 },                                 -- Light of the Cosmos
-				{ 19, 86131 },                                 -- Vial of Dragon's Blood
-				{ 21, 86130 },                                 -- Elegion, the Fanged Crescent
-				{ 22, 86140 },                                 -- Starshatter
-				{ 23, 86137 },                                 -- Torch of the Celestial Spark
+				{ 16, 89824 },                                    -- Band of Bursting Novas
+				{ 17, 86132 },                                    -- Bottle of Infinite Stars
+				{ 18, 86133 },                                    -- Light of the Cosmos
+				{ 19, 86131 },                                    -- Vial of Dragon's Blood
+				{ 21, 86130 },                                    -- Elegion, the Fanged Crescent
+				{ 22, 86140 },                                    -- Starshatter
+				{ 23, 86137 },                                    -- Torch of the Celestial Spark
 				{ 25, "ac6686" },
 			},
 			[HEROIC_RAID_DIFF] = {
-				{ 1,  89938 },                                 -- Galaxyfire Girdle
-				{ 2,  87064 },                                 -- Orbital Belt
-				{ 3,  87058 },                                 -- Chestguard of Total Annihilation
-				{ 4,  87067 },                                 -- Phasewalker Striders
-				{ 5,  87068 },                                 -- Shoulders of Empyreal Focus
-				{ 6,  89939 },                                 -- Crown of Keening Stars
-				{ 7,  87059 },                                 -- Starcrusher Gauntlets
+				{ 1,  89938 },                                    -- Galaxyfire Girdle
+				{ 2,  87064 },                                    -- Orbital Belt
+				{ 3,  87058 },                                    -- Chestguard of Total Annihilation
+				{ 4,  87067 },                                    -- Phasewalker Striders
+				{ 5,  87068 },                                    -- Shoulders of Empyreal Focus
+				{ 6,  89939 },                                    -- Crown of Keening Stars
+				{ 7,  87059 },                                    -- Starcrusher Gauntlets
 				{ 9,  87777,   "mount", [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Reins of the Astral Cloud Serpent
-				{ 16, 89937 },                                 -- Band of Bursting Novas
-				{ 17, 87057 },                                 -- Bottle of Infinite Stars
-				{ 18, 87065 },                                 -- Light of the Cosmos
-				{ 19, 87063 },                                 -- Vial of Dragon's Blood
-				{ 21, 87062 },                                 -- Elegion, the Fanged Crescent
-				{ 22, 87061 },                                 -- Starshatter
-				{ 23, 87066 },                                 -- Torch of the Celestial Spark
+				{ 16, 89937 },                                    -- Band of Bursting Novas
+				{ 17, 87057 },                                    -- Bottle of Infinite Stars
+				{ 18, 87065 },                                    -- Light of the Cosmos
+				{ 19, 87063 },                                    -- Vial of Dragon's Blood
+				{ 21, 87062 },                                    -- Elegion, the Fanged Crescent
+				{ 22, 87061 },                                    -- Starshatter
+				{ 23, 87066 },                                    -- Torch of the Celestial Spark
 				{ 25, "ac6723" },
 				{ 26, "ac6686" },
 			},
@@ -1613,17 +1612,17 @@ data["Pandaria"] = {
 			name = ALIL["The August Celestials"],
 			[NORMAL_RAID_DIFF] = {
 				{ 1,   "ICON_spell_nature_starfall",           nil,                               ALIL["DRUID"],       ALIL["Balance"] },
-				{ 2,   99174 },                                               -- Gloves of the Shattered Vale
-				{ 3,   99176 },                                               -- Leggings of the Shattered Vale
+				{ 2,   99174 },                                                          -- Gloves of the Shattered Vale
+				{ 3,   99176 },                                                          -- Leggings of the Shattered Vale
 				{ 5,   "ICON_ability_druid_catform",           nil,                               ALIL["DRUID"],       ALIL["Feral"] },
-				{ 6,   99181 },                                               -- Grips of the Shattered Vale
-				{ 7,   99183 },                                               -- Legguards of the Shattered Vale
+				{ 6,   99181 },                                                          -- Grips of the Shattered Vale
+				{ 7,   99183 },                                                          -- Legguards of the Shattered Vale
 				{ 9,   "ICON_spell_nature_healingtouch",       nil,                               ALIL["DRUID"],       ALIL["Restoration"] },
-				{ 10,  99185 },                                               -- Handwraps of the Shattered Vale
-				{ 11,  99171 },                                               -- Legwraps of the Shattered Vale
+				{ 10,  99185 },                                                          -- Handwraps of the Shattered Vale
+				{ 11,  99171 },                                                          -- Legwraps of the Shattered Vale
 				{ 13,  "ICON_ability_racial_bearform",         nil,                               ALIL["DRUID"],       ALIL["Guardian"] },
-				{ 14,  99163 },                                               -- Handguards of the Shattered Vale
-				{ 15,  99165 },                                               -- Breeches of the Shattered Vale
+				{ 14,  99163 },                                                          -- Handguards of the Shattered Vale
+				{ 15,  99165 },                                                          -- Breeches of the Shattered Vale
 				{ 16,  "ICON_spell_nature_starfall",           nil,                               ALIL["DRUID"],       ALIL["Balance"] },
 				{ 17,  [ATLASLOOT_IT_ALLIANCE] = 102696,       [ATLASLOOT_IT_HORDE] = 103398 }, -- Prideful Gladiator's Wyrmhide Gloves
 				{ 18,  [ATLASLOOT_IT_ALLIANCE] = 102767,       [ATLASLOOT_IT_HORDE] = 103400 }, -- Prideful Gladiator's Wyrmhide Legguards
@@ -1634,17 +1633,17 @@ data["Pandaria"] = {
 				{ 25,  [ATLASLOOT_IT_ALLIANCE] = 102657,       [ATLASLOOT_IT_HORDE] = 103389 }, -- Prideful Gladiator's Kodohide Gloves
 				{ 26,  [ATLASLOOT_IT_ALLIANCE] = 102761,       [ATLASLOOT_IT_HORDE] = 103391 }, -- Prideful Gladiator's Kodohide Legguards
 				{ 101, "ICON_inv_weapon_bow_07",               nil,                               ALIL["HUNTER"],      nil },
-				{ 102, 99168 },                                               -- Gloves of the Unblinking Vigil
-				{ 103, 99158 },                                               -- Legguards of the Unblinking Vigil
+				{ 102, 99168 },                                                          -- Gloves of the Unblinking Vigil
+				{ 103, 99158 },                                                          -- Legguards of the Unblinking Vigil
 				{ 105, "ICON_inv_staff_13",                    nil,                               ALIL["MAGE"],        nil },
-				{ 106, 99160 },                                               -- Chronomancer Gloves
-				{ 107, 99162 },                                               -- Chronomancer Leggings
+				{ 106, 99160 },                                                          -- Chronomancer Gloves
+				{ 107, 99162 },                                                          -- Chronomancer Leggings
 				{ 109, "ICON_inv_throwingknife_04",            nil,                               ALIL["ROGUE"],       nil },
-				{ 110, 99113 },                                               -- Gloves of the Barbed Assassin
-				{ 111, 99115 },                                               -- Legguards of the Barbed Assassin
+				{ 110, 99113 },                                                          -- Gloves of the Barbed Assassin
+				{ 111, 99115 },                                                          -- Legguards of the Barbed Assassin
 				{ 113, "ICON_spell_nature_drowsy",             nil,                               ALIL["WARLOCK"],     nil },
-				{ 114, 99096 },                                               -- Gloves of the Horned Nightmare
-				{ 115, 99098 },                                               -- Leggings of the Horned Nightmare
+				{ 114, 99096 },                                                          -- Gloves of the Horned Nightmare
+				{ 115, 99098 },                                                          -- Leggings of the Horned Nightmare
 				{ 116, "ICON_inv_weapon_bow_07",               nil,                               ALIL["HUNTER"],      nil },
 				{ 117, [ATLASLOOT_IT_ALLIANCE] = 102737,       [ATLASLOOT_IT_HORDE] = 103417 }, -- Prideful Gladiator's Chain Gauntlets
 				{ 118, [ATLASLOOT_IT_ALLIANCE] = 102670,       [ATLASLOOT_IT_HORDE] = 103419 }, -- Prideful Gladiator's Chain Leggings
@@ -1658,14 +1657,14 @@ data["Pandaria"] = {
 				{ 129, [ATLASLOOT_IT_ALLIANCE] = 102725,       [ATLASLOOT_IT_HORDE] = 103520 }, -- Prideful Gladiator's Felweave Handguards
 				{ 130, [ATLASLOOT_IT_ALLIANCE] = 102755,       [ATLASLOOT_IT_HORDE] = 103522 }, -- Prideful Gladiator's Felweave Trousers
 				{ 201, "ICON_spell_monk_mistweaver_spec",      nil,                               ALIL["MONK"],        ALIL["Mistweaver"] },
-				{ 202, 99147 },                                               -- Handwraps of Seven Sacred Seals
-				{ 203, 99149 },                                               -- Legwraps of Seven Sacred Seals
+				{ 202, 99147 },                                                          -- Handwraps of Seven Sacred Seals
+				{ 203, 99149 },                                                          -- Legwraps of Seven Sacred Seals
 				{ 205, "ICON_spell_monk_windwalker_spec",      nil,                               ALIL["MONK"],        ALIL["Windwalker"] },
-				{ 206, 99155 },                                               -- Grips of Seven Sacred Seals
-				{ 207, 99145 },                                               -- Leggings of Seven Sacred Seals
+				{ 206, 99155 },                                                          -- Grips of Seven Sacred Seals
+				{ 207, 99145 },                                                          -- Leggings of Seven Sacred Seals
 				{ 209, "ICON_spell_monk_brewmaster_spec",      nil,                               ALIL["MONK"],        ALIL["Brewmaster"] },
-				{ 210, 99141 },                                               -- Gauntlets of Seven Sacred Seals
-				{ 211, 99143 },                                               -- Legguards of Seven Sacred Seals
+				{ 210, 99141 },                                                          -- Gauntlets of Seven Sacred Seals
+				{ 211, 99143 },                                                          -- Legguards of Seven Sacred Seals
 				{ 216, "ICON_spell_monk_mistweaver_spec",      nil,                               ALIL["MONK"],        ALIL["Mistweaver"] },
 				{ 217, [ATLASLOOT_IT_ALLIANCE] = 102627,       [ATLASLOOT_IT_HORDE] = 103434 }, -- Prideful Gladiator's Copperskin Gloves
 				{ 218, [ATLASLOOT_IT_ALLIANCE] = 102762,       [ATLASLOOT_IT_HORDE] = 103436 }, -- Prideful Gladiator's Copperskin Legguards
@@ -1673,14 +1672,14 @@ data["Pandaria"] = {
 				{ 221, [ATLASLOOT_IT_ALLIANCE] = 102675,       [ATLASLOOT_IT_HORDE] = 103429 }, -- Prideful Gladiator's Ironskin Gloves
 				{ 222, [ATLASLOOT_IT_ALLIANCE] = 102656,       [ATLASLOOT_IT_HORDE] = 103431 }, -- Prideful Gladiator's Ironskin Legguards
 				{ 301, "ICON_Spell_Holy_HolyBolt",             nil,                               ALIL["PALADIN"],     ALIL["Holy"] },
-				{ 302, 99134 },                                               -- Gloves of Winged Triumph
-				{ 303, 99124 },                                               -- Greaves of Winged Triumph
+				{ 302, 99134 },                                                          -- Gloves of Winged Triumph
+				{ 303, 99124 },                                                          -- Greaves of Winged Triumph
 				{ 305, "ICON_Spell_Holy_AuraOfLight",          nil,                               ALIL["PALADIN"],     ALIL["Retribution"] },
-				{ 306, 99137 },                                               -- Gauntlets of Winged Triumph
-				{ 307, 99139 },                                               -- Legplates of Winged Triumph
+				{ 306, 99137 },                                                          -- Gauntlets of Winged Triumph
+				{ 307, 99139 },                                                          -- Legplates of Winged Triumph
 				{ 309, "ICON_spell_holy_devotionaura",         nil,                               ALIL["PALADIN"],     ALIL["Protection"] },
-				{ 310, 99127 },                                               -- Handguards of Winged Triumph
-				{ 311, 99129 },                                               -- Legguards of Winged Triumph
+				{ 310, 99127 },                                                          -- Handguards of Winged Triumph
+				{ 311, 99129 },                                                          -- Legguards of Winged Triumph
 				{ 316, "ICON_Spell_Holy_HolyBolt",             nil,                               ALIL["PALADIN"],     ALIL["Holy"] },
 				{ 317, [ATLASLOOT_IT_ALLIANCE] = 102722,       [ATLASLOOT_IT_HORDE] = 103451 }, -- Prideful Gladiator's Ornamented Gloves
 				{ 318, [ATLASLOOT_IT_ALLIANCE] = 102768,       [ATLASLOOT_IT_HORDE] = 103453 }, -- Prideful Gladiator's Ornamented Legplates
@@ -1688,11 +1687,11 @@ data["Pandaria"] = {
 				{ 321, [ATLASLOOT_IT_ALLIANCE] = 102630,       [ATLASLOOT_IT_HORDE] = 103440 }, -- Prideful Gladiator's Scaled Gauntlets
 				{ 322, [ATLASLOOT_IT_ALLIANCE] = 102780,       [ATLASLOOT_IT_HORDE] = 103442 }, -- Prideful Gladiator's Scaled Legguards
 				{ 401, "ICON_spell_holy_guardianspirit",       nil,                               ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
-				{ 402, 99131 },                                               -- Handwraps of the Ternion Glory
-				{ 403, 99118 },                                               -- Legwraps of the Ternion Glory
+				{ 402, 99131 },                                                          -- Handwraps of the Ternion Glory
+				{ 403, 99118 },                                                          -- Legwraps of the Ternion Glory
 				{ 405, "ICON_spell_shadow_shadowwordpain",     nil,                               ALIL["PRIEST"],      ALIL["Shadow"] },
-				{ 406, 99121 },                                               -- Gloves of the Ternion Glory
-				{ 407, 99123 },                                               -- Leggings of the Ternion Glory
+				{ 406, 99121 },                                                          -- Gloves of the Ternion Glory
+				{ 407, 99123 },                                                          -- Leggings of the Ternion Glory
 				{ 416, "ICON_spell_holy_guardianspirit",       nil,                               ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
 				{ 417, [ATLASLOOT_IT_ALLIANCE] = 102615,       [ATLASLOOT_IT_HORDE] = 103462 }, -- Prideful Gladiator's Mooncloth Gloves
 				{ 418, [ATLASLOOT_IT_ALLIANCE] = 102704,       [ATLASLOOT_IT_HORDE] = 103464 }, -- Prideful Gladiator's Mooncloth Leggings
@@ -1700,14 +1699,14 @@ data["Pandaria"] = {
 				{ 421, [ATLASLOOT_IT_ALLIANCE] = 102707,       [ATLASLOOT_IT_HORDE] = 103467 }, -- Prideful Gladiator's Satin Gloves
 				{ 422, [ATLASLOOT_IT_ALLIANCE] = 102621,       [ATLASLOOT_IT_HORDE] = 103469 }, -- Prideful Gladiator's Satin Leggings
 				{ 501, "ICON_Spell_Nature_Lightning",          nil,                               ALIL["SHAMAN"],      ALIL["Elemental"] },
-				{ 502, 99092 },                                               -- Gloves of Celestial Harmony
-				{ 503, 99094 },                                               -- Kilt of Celestial Harmony
+				{ 502, 99092 },                                                          -- Gloves of Celestial Harmony
+				{ 503, 99094 },                                                          -- Kilt of Celestial Harmony
 				{ 505, "ICON_spell_nature_lightningshield",    nil,                               ALIL["SHAMAN"],      ALIL["Enhancement"] },
-				{ 506, 99102 },                                               -- Grips of Celestial Harmony
-				{ 507, 99104 },                                               -- Legguards of Celestial Harmony
+				{ 506, 99102 },                                                          -- Grips of Celestial Harmony
+				{ 507, 99104 },                                                          -- Legguards of Celestial Harmony
 				{ 509, "ICON_spell_nature_magicimmunity",      nil,                               ALIL["SHAMAN"],      ALIL["Restoration"] },
-				{ 510, 99108 },                                               -- Handwraps of Celestial Harmony
-				{ 511, 99099 },                                               -- Legwraps of Celestial Harmony
+				{ 510, 99108 },                                                          -- Handwraps of Celestial Harmony
+				{ 511, 99099 },                                                          -- Legwraps of Celestial Harmony
 				{ 516, "ICON_Spell_Nature_Lightning",          nil,                               ALIL["SHAMAN"],      ALIL["Elemental"] },
 				{ 517, [ATLASLOOT_IT_ALLIANCE] = 102692,       [ATLASLOOT_IT_HORDE] = 103497 }, -- Prideful Gladiator's Mail Gauntlets
 				{ 518, [ATLASLOOT_IT_ALLIANCE] = 102781,       [ATLASLOOT_IT_HORDE] = 103499 }, -- Prideful Gladiator's Mail Leggings
@@ -1718,17 +1717,17 @@ data["Pandaria"] = {
 				{ 525, [ATLASLOOT_IT_ALLIANCE] = 102774,       [ATLASLOOT_IT_HORDE] = 103486 }, -- Prideful Gladiator's Ringmail Gauntlets
 				{ 526, [ATLASLOOT_IT_ALLIANCE] = 102719,       [ATLASLOOT_IT_HORDE] = 103488 }, -- Prideful Gladiator's Ringmail Leggings
 				{ 601, "ICON_spell_deathknight_frostpresence", nil,                               ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
-				{ 602, 99193 },                                               -- Gauntlets of Cyclopean Dread
-				{ 603, 99186 },                                               -- Greaves of Cyclopean Dread
+				{ 602, 99193 },                                                          -- Gauntlets of Cyclopean Dread
+				{ 603, 99186 },                                                          -- Greaves of Cyclopean Dread
 				{ 605, "ICON_spell_deathknight_bloodpresence", nil,                               ALIL["DEATHKNIGHT"], ALIL["Blood"] },
-				{ 606, 99189 },                                               -- Handguards of Cyclopean Dread
-				{ 607, 99191 },                                               -- Legguards of Cyclopean Dread
+				{ 606, 99189 },                                                          -- Handguards of Cyclopean Dread
+				{ 607, 99191 },                                                          -- Legguards of Cyclopean Dread
 				{ 609, "ICON_ability_warrior_innerrage",       nil,                               ALIL["WARRIOR"],     ALIL["Arms"].." / "..ALIL["Fury"] },
-				{ 610, 99198 },                                               -- Gauntlets of the Prehistoric Marauder
-				{ 611, 99199 },                                               -- Legplates of the Prehistoric Marauder
+				{ 610, 99198 },                                                          -- Gauntlets of the Prehistoric Marauder
+				{ 611, 99199 },                                                          -- Legplates of the Prehistoric Marauder
 				{ 613, "ICON_ability_warrior_defensivestance", nil,                               ALIL["WARRIOR"],     ALIL["Protection"] },
-				{ 614, 99202 },                                               -- Handguards of the Prehistoric Marauder
-				{ 615, 99195 },                                               -- Legguards of the Prehistoric Marauder
+				{ 614, 99202 },                                                          -- Handguards of the Prehistoric Marauder
+				{ 615, 99195 },                                                          -- Legguards of the Prehistoric Marauder
 				{ 616, "ICON_Spell_deathknight_classicon",     nil,                               ALIL["DEATHKNIGHT"], nil },
 				{ 617, [ATLASLOOT_IT_ALLIANCE] = 103005,       [ATLASLOOT_IT_HORDE] = 103377 }, -- Prideful Gladiator's Dreadplate Gauntlets
 				{ 618, [ATLASLOOT_IT_ALLIANCE] = 102651,       [ATLASLOOT_IT_HORDE] = 103379 }, -- Prideful Gladiator's Dreadplate Legguards
@@ -1808,83 +1807,83 @@ data["Pandaria"] = {
 		{ --Ordos
 			EncounterJournalID = 861,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   105810 },                         -- Buc-Zakai Burning Hood
-				{ 2,   105808 },                         -- Damien's Ice-Vein Mask
-				{ 3,   105795 },                         -- Bo He Me's Deathwind Mantle
-				{ 4,   105797 },                         -- Shay-Nii's Popping Shoulderpads
-				{ 5,   105774 },                         -- Catia's Flowing Robes
-				{ 6,   105773 },                         -- Ulmaas' Robes of Crushing Magma
-				{ 7,   105789 },                         -- Bjam's Blasting Bracers
-				{ 8,   105788 },                         -- Paululum's Doodled Wraps
-				{ 9,   105778 },                         -- Derevka's Gleaming Girdle
-				{ 10,  105781 },                         -- Venruki's Venerable Sash
-				{ 11,  105757 },                         -- Shipley's Shady Silks
-				{ 16,  105806 },                         -- Circlet of the Panser
-				{ 17,  105803 },                         -- Stickney's Grey-Shade Hood
-				{ 18,  105798 },                         -- Flame Healer's Shoulderguards
-				{ 19,  105801 },                         -- Spaulders of Dominating Dreams
-				{ 20,  105768 },                         -- Pamela's Muuscat Wrap
-				{ 21,  105770 },                         -- Zoo-Per's Superior Chestguard
-				{ 22,  105793 },                         -- Bracers of Simmering Fury
-				{ 23,  105787 },                         -- Burnseal Bracers
-				{ 24,  105782 },                         -- Belt of Glowing Embers
-				{ 25,  105780 },                         -- Windflame Girdle
-				{ 26,  105758 },                         -- Arielle's Ancient Legwraps
-				{ 27,  105760 },                         -- Hamlet's Wind-Whipped Leggings
+				{ 1,   105810 },                          -- Buc-Zakai Burning Hood
+				{ 2,   105808 },                          -- Damien's Ice-Vein Mask
+				{ 3,   105795 },                          -- Bo He Me's Deathwind Mantle
+				{ 4,   105797 },                          -- Shay-Nii's Popping Shoulderpads
+				{ 5,   105774 },                          -- Catia's Flowing Robes
+				{ 6,   105773 },                          -- Ulmaas' Robes of Crushing Magma
+				{ 7,   105789 },                          -- Bjam's Blasting Bracers
+				{ 8,   105788 },                          -- Paululum's Doodled Wraps
+				{ 9,   105778 },                          -- Derevka's Gleaming Girdle
+				{ 10,  105781 },                          -- Venruki's Venerable Sash
+				{ 11,  105757 },                          -- Shipley's Shady Silks
+				{ 16,  105806 },                          -- Circlet of the Panser
+				{ 17,  105803 },                          -- Stickney's Grey-Shade Hood
+				{ 18,  105798 },                          -- Flame Healer's Shoulderguards
+				{ 19,  105801 },                          -- Spaulders of Dominating Dreams
+				{ 20,  105768 },                          -- Pamela's Muuscat Wrap
+				{ 21,  105770 },                          -- Zoo-Per's Superior Chestguard
+				{ 22,  105793 },                          -- Bracers of Simmering Fury
+				{ 23,  105787 },                          -- Burnseal Bracers
+				{ 24,  105782 },                          -- Belt of Glowing Embers
+				{ 25,  105780 },                          -- Windflame Girdle
+				{ 26,  105758 },                          -- Arielle's Ancient Legwraps
+				{ 27,  105760 },                          -- Hamlet's Wind-Whipped Leggings
 				{ 29,  "ac8533" },
-				{ 101, 105809 },                         -- Crest of Burning Deeds
-				{ 102, 105811 },                         -- Olivia's Graceful Gaze
-				{ 103, 105800 },                         -- Firearrow Shoulderpads
-				{ 104, 105799 },                         -- Fleshsmoke Chain Shoulders
-				{ 105, 105771 },                         -- Chestguard of Pyrrhic Immolation
-				{ 106, 105772 },                         -- Moonhee's Mean Vest
-				{ 107, 105792 },                         -- Bowflight Wristguard
-				{ 108, 105790 },                         -- Firetotem Bracers
-				{ 109, 105784 },                         -- Binkenstein's Burnished Belt
-				{ 110, 105779 },                         -- Light Kindler Waistguard
-				{ 111, 105754 },                         -- Desirae's Dashing Leggings
-				{ 112, 105755 },                         -- Moshne's Keen Kilt
-				{ 116, 105804 },                         -- Aladya's Spiritfire Greathelm
-				{ 117, 105805 },                         -- Dominik's Casque of Raging Flame
-				{ 118, 105807 },                         -- Magdalena's Murderous Crown
-				{ 119, 105796 },                         -- Rossi's Rosin-Soaked Shoulderplates
-				{ 120, 105794 },                         -- Starry Spaulders of Durability
-				{ 121, 105802 },                         -- Yaungol Deathcult Shoulderguards
-				{ 122, 105775 },                         -- Gleaming Eye Spellplate
-				{ 123, 105767 },                         -- Hoodrych's Bloodied Chestplate
-				{ 124, 105769 },                         -- Omegal's Crushing Carapace
-				{ 125, 105791 },                         -- Bracers of Unquestioning Belief
-				{ 126, 105786 },                         -- Ordosian Cultist's Bracers
-				{ 127, 105785 },                         -- Vanguard's Burly Bracers
-				{ 201, 105776 },                         -- Belt of the Burning Soul
-				{ 202, 105783 },                         -- Greatbelt of the Crendor
-				{ 203, 105777 },                         -- Remnar's Ruinous Girdle
-				{ 204, 105759 },                         -- Magmaplates of Jian Wu Xi Feng
-				{ 205, 105761 },                         -- Partik's Purified Legplates
-				{ 206, 105756 },                         -- Poxleitner's Leggings of Lights
+				{ 101, 105809 },                          -- Crest of Burning Deeds
+				{ 102, 105811 },                          -- Olivia's Graceful Gaze
+				{ 103, 105800 },                          -- Firearrow Shoulderpads
+				{ 104, 105799 },                          -- Fleshsmoke Chain Shoulders
+				{ 105, 105771 },                          -- Chestguard of Pyrrhic Immolation
+				{ 106, 105772 },                          -- Moonhee's Mean Vest
+				{ 107, 105792 },                          -- Bowflight Wristguard
+				{ 108, 105790 },                          -- Firetotem Bracers
+				{ 109, 105784 },                          -- Binkenstein's Burnished Belt
+				{ 110, 105779 },                          -- Light Kindler Waistguard
+				{ 111, 105754 },                          -- Desirae's Dashing Leggings
+				{ 112, 105755 },                          -- Moshne's Keen Kilt
+				{ 116, 105804 },                          -- Aladya's Spiritfire Greathelm
+				{ 117, 105805 },                          -- Dominik's Casque of Raging Flame
+				{ 118, 105807 },                          -- Magdalena's Murderous Crown
+				{ 119, 105796 },                          -- Rossi's Rosin-Soaked Shoulderplates
+				{ 120, 105794 },                          -- Starry Spaulders of Durability
+				{ 121, 105802 },                          -- Yaungol Deathcult Shoulderguards
+				{ 122, 105775 },                          -- Gleaming Eye Spellplate
+				{ 123, 105767 },                          -- Hoodrych's Bloodied Chestplate
+				{ 124, 105769 },                          -- Omegal's Crushing Carapace
+				{ 125, 105791 },                          -- Bracers of Unquestioning Belief
+				{ 126, 105786 },                          -- Ordosian Cultist's Bracers
+				{ 127, 105785 },                          -- Vanguard's Burly Bracers
+				{ 201, 105776 },                          -- Belt of the Burning Soul
+				{ 202, 105783 },                          -- Greatbelt of the Crendor
+				{ 203, 105777 },                          -- Remnar's Ruinous Girdle
+				{ 204, 105759 },                          -- Magmaplates of Jian Wu Xi Feng
+				{ 205, 105761 },                          -- Partik's Purified Legplates
+				{ 206, 105756 },                          -- Poxleitner's Leggings of Lights
 				{ 208, 104273,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Flame-Scarred Cache of Offerings
-				{ 216, 105766 },                         -- Anafielle's Spiked Choker
-				{ 217, 105765 },                         -- Bladeforger Necklace
-				{ 218, 105763 },                         -- Penate's Perilous Pendant
-				{ 219, 105764 },                         -- Rising New Moon Talisman
-				{ 220, 105762 },                         -- Smoldering Eye
+				{ 216, 105766 },                          -- Anafielle's Spiked Choker
+				{ 217, 105765 },                          -- Bladeforger Necklace
+				{ 218, 105763 },                          -- Penate's Perilous Pendant
+				{ 219, 105764 },                          -- Rising New Moon Talisman
+				{ 220, 105762 },                          -- Smoldering Eye
 			},
 		},
 		{ --Nalak
 			EncounterJournalID = 814,
 			[NORMAL_RAID_DIFF] = {
 				{ 1,   "ICON_spell_nature_starfall",           nil,                               ALIL["DRUID"],       ALIL["Balance"] },
-				{ 2,   95245 },                                             -- Gloves of the Haunted Forest
-				{ 3,   95247 },                                             -- Leggings of the Haunted Forest
+				{ 2,   95245 },                                                          -- Gloves of the Haunted Forest
+				{ 3,   95247 },                                                          -- Leggings of the Haunted Forest
 				{ 5,   "ICON_ability_druid_catform",           nil,                               ALIL["DRUID"],       ALIL["Feral"] },
-				{ 6,   95236 },                                             -- Grips of the Haunted Forest
-				{ 7,   95238 },                                             -- Legguards of the Haunted Forest
+				{ 6,   95236 },                                                          -- Grips of the Haunted Forest
+				{ 7,   95238 },                                                          -- Legguards of the Haunted Forest
 				{ 9,   "ICON_spell_nature_healingtouch",       nil,                               ALIL["DRUID"],       ALIL["Restoration"] },
-				{ 10,  95240 },                                             -- Handwraps of the Haunted Forest
-				{ 11,  95242 },                                             -- Legwraps of the Haunted Forest
+				{ 10,  95240 },                                                          -- Handwraps of the Haunted Forest
+				{ 11,  95242 },                                                          -- Legwraps of the Haunted Forest
 				{ 13,  "ICON_ability_racial_bearform",         nil,                               ALIL["DRUID"],       ALIL["Guardian"] },
-				{ 14,  95251 },                                             -- Handguards of the Haunted Forest
-				{ 15,  95253 },                                             -- Breeches of the Haunted Forest
+				{ 14,  95251 },                                                          -- Handguards of the Haunted Forest
+				{ 15,  95253 },                                                          -- Breeches of the Haunted Forest
 				{ 16,  "ICON_spell_nature_starfall",           nil,                               ALIL["DRUID"],       ALIL["Balance"] },
 				{ 17,  [ATLASLOOT_IT_ALLIANCE] = 91189,        [ATLASLOOT_IT_HORDE] = 94412 }, -- Tyrannical Gladiator's Wyrmhide Gloves
 				{ 18,  [ATLASLOOT_IT_ALLIANCE] = 91193,        [ATLASLOOT_IT_HORDE] = 94483 }, -- Tyrannical Gladiator's Wyrmhide Legguards
@@ -1895,17 +1894,17 @@ data["Pandaria"] = {
 				{ 25,  [ATLASLOOT_IT_ALLIANCE] = 91172,        [ATLASLOOT_IT_HORDE] = 94371 }, -- Tyrannical Gladiator's Kodohide Gloves
 				{ 26,  [ATLASLOOT_IT_ALLIANCE] = 91176,        [ATLASLOOT_IT_HORDE] = 94477 }, -- Tyrannical Gladiator's Kodohide Legguards
 				{ 101, "ICON_inv_weapon_bow_07",               nil,                               ALIL["HUNTER"],      nil },
-				{ 102, 95256 },                                             -- Saurok Stalker's Gloves
-				{ 103, 95258 },                                             -- Saurok Stalker's Legguards
+				{ 102, 95256 },                                                          -- Saurok Stalker's Gloves
+				{ 103, 95258 },                                                          -- Saurok Stalker's Legguards
 				{ 105, "ICON_inv_staff_13",                    nil,                               ALIL["MAGE"],        nil },
-				{ 106, 95260 },                                             -- Gloves of the Chromatic Hydra
-				{ 107, 95262 },                                             -- Leggings of the Chromatic Hydra
+				{ 106, 95260 },                                                          -- Gloves of the Chromatic Hydra
+				{ 107, 95262 },                                                          -- Leggings of the Chromatic Hydra
 				{ 109, "ICON_inv_throwingknife_04",            nil,                               ALIL["ROGUE"],       nil },
-				{ 110, 95306 },                                             -- Nine-Tailed Gloves
-				{ 111, 95308 },                                             -- Nine-Tailed Legguards
+				{ 110, 95306 },                                                          -- Nine-Tailed Gloves
+				{ 111, 95308 },                                                          -- Nine-Tailed Legguards
 				{ 113, "ICON_spell_nature_drowsy",             nil,                               ALIL["WARLOCK"],     nil },
-				{ 114, 95325 },                                             -- Gloves of the Thousandfold Hells
-				{ 115, 95327 },                                             -- Leggings of the Thousandfold Hells
+				{ 114, 95325 },                                                          -- Gloves of the Thousandfold Hells
+				{ 115, 95327 },                                                          -- Leggings of the Thousandfold Hells
 				{ 116, "ICON_inv_weapon_bow_07",               nil,                               ALIL["HUNTER"],      nil },
 				{ 117, [ATLASLOOT_IT_ALLIANCE] = 91224,        [ATLASLOOT_IT_HORDE] = 94453 }, -- Tyrannical Gladiator's Chain Gauntlets
 				{ 118, [ATLASLOOT_IT_ALLIANCE] = 91228,        [ATLASLOOT_IT_HORDE] = 94384 }, -- Tyrannical Gladiator's Chain Leggings
@@ -1919,14 +1918,14 @@ data["Pandaria"] = {
 				{ 129, [ATLASLOOT_IT_ALLIANCE] = 91420,        [ATLASLOOT_IT_HORDE] = 94441 }, -- Tyrannical Gladiator's Felweave Handguards
 				{ 130, [ATLASLOOT_IT_ALLIANCE] = 91424,        [ATLASLOOT_IT_HORDE] = 94471 }, -- Tyrannical Gladiator's Felweave Trousers
 				{ 201, "ICON_spell_monk_mistweaver_spec",      nil,                               ALIL["MONK"],        ALIL["Mistweaver"] },
-				{ 202, 95270 },                                             -- Fire-Charm Handwraps
-				{ 203, 95272 },                                             -- Fire-Charm Legwraps
+				{ 202, 95270 },                                                          -- Fire-Charm Handwraps
+				{ 203, 95272 },                                                          -- Fire-Charm Legwraps
 				{ 205, "ICON_spell_monk_windwalker_spec",      nil,                               ALIL["MONK"],        ALIL["Windwalker"] },
-				{ 206, 95266 },                                             -- Fire-Charm Grips
-				{ 207, 95268 },                                             -- Fire-Charm Leggings
+				{ 206, 95266 },                                                          -- Fire-Charm Grips
+				{ 207, 95268 },                                                          -- Fire-Charm Leggings
 				{ 209, "ICON_spell_monk_brewmaster_spec",      nil,                               ALIL["MONK"],        ALIL["Brewmaster"] },
-				{ 210, 95276 },                                             -- Fire-Charm Gauntlets
-				{ 211, 95278 },                                             -- Fire-Charm Legguards
+				{ 210, 95276 },                                                          -- Fire-Charm Gauntlets
+				{ 211, 95278 },                                                          -- Fire-Charm Legguards
 				{ 216, "ICON_spell_monk_mistweaver_spec",      nil,                               ALIL["MONK"],        ALIL["Mistweaver"] },
 				{ 217, [ATLASLOOT_IT_ALLIANCE] = 91257,        [ATLASLOOT_IT_HORDE] = 94340 }, -- Tyrannical Gladiator's Copperskin Gloves
 				{ 218, [ATLASLOOT_IT_ALLIANCE] = 91261,        [ATLASLOOT_IT_HORDE] = 94478 }, -- Tyrannical Gladiator's Copperskin Legguards
@@ -1934,14 +1933,14 @@ data["Pandaria"] = {
 				{ 221, [ATLASLOOT_IT_ALLIANCE] = 91247,        [ATLASLOOT_IT_HORDE] = 94391 }, -- Tyrannical Gladiator's Ironskin Gloves
 				{ 222, [ATLASLOOT_IT_ALLIANCE] = 91251,        [ATLASLOOT_IT_HORDE] = 94370 }, -- Tyrannical Gladiator's Ironskin Legguards
 				{ 301, "ICON_Spell_Holy_HolyBolt",             nil,                               ALIL["PALADIN"],     ALIL["Holy"] },
-				{ 302, 95286 },                                             -- Lightning Emperor's Gloves
-				{ 303, 95288 },                                             -- Lightning Emperor's Greaves
+				{ 302, 95286 },                                                          -- Lightning Emperor's Gloves
+				{ 303, 95288 },                                                          -- Lightning Emperor's Greaves
 				{ 305, "ICON_Spell_Holy_AuraOfLight",          nil,                               ALIL["PALADIN"],     ALIL["Retribution"] },
-				{ 306, 95281 },                                             -- Lightning Emperor's Gauntlets
-				{ 307, 95283 },                                             -- Lightning Emperor's Legplates
+				{ 306, 95281 },                                                          -- Lightning Emperor's Gauntlets
+				{ 307, 95283 },                                                          -- Lightning Emperor's Legplates
 				{ 309, "ICON_spell_holy_devotionaura",         nil,                               ALIL["PALADIN"],     ALIL["Protection"] },
-				{ 310, 95291 },                                             -- Lightning Emperor's Handguards
-				{ 311, 95293 },                                             -- Lightning Emperor's Legguards
+				{ 310, 95291 },                                                          -- Lightning Emperor's Handguards
+				{ 311, 95293 },                                                          -- Lightning Emperor's Legguards
 				{ 316, "ICON_Spell_Holy_HolyBolt",             nil,                               ALIL["PALADIN"],     ALIL["Holy"] },
 				{ 317, [ATLASLOOT_IT_ALLIANCE] = 91289,        [ATLASLOOT_IT_HORDE] = 94438 }, -- Tyrannical Gladiator's Ornamented Gloves
 				{ 318, [ATLASLOOT_IT_ALLIANCE] = 91293,        [ATLASLOOT_IT_HORDE] = 94484 }, -- Tyrannical Gladiator's Ornamented Legplates
@@ -1949,11 +1948,11 @@ data["Pandaria"] = {
 				{ 321, [ATLASLOOT_IT_ALLIANCE] = 91269,        [ATLASLOOT_IT_HORDE] = 94343 }, -- Tyrannical Gladiator's Scaled Gauntlets
 				{ 322, [ATLASLOOT_IT_ALLIANCE] = 91273,        [ATLASLOOT_IT_HORDE] = 94496 }, -- Tyrannical Gladiator's Scaled Legguards
 				{ 401, "ICON_spell_holy_guardianspirit",       nil,                               ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
-				{ 402, 95295 },                                             -- Handwraps of the Exorcist
-				{ 403, 95297 },                                             -- Legwraps of the Exorcist
+				{ 402, 95295 },                                                          -- Handwraps of the Exorcist
+				{ 403, 95297 },                                                          -- Legwraps of the Exorcist
 				{ 405, "ICON_spell_shadow_shadowwordpain",     nil,                               ALIL["PRIEST"],      ALIL["Shadow"] },
-				{ 406, 95300 },                                             -- Gloves of the Exorcist
-				{ 407, 95302 },                                             -- Leggings of the Exorcist
+				{ 406, 95300 },                                                          -- Gloves of the Exorcist
+				{ 407, 95302 },                                                          -- Leggings of the Exorcist
 				{ 416, "ICON_spell_holy_guardianspirit",       nil,                               ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
 				{ 417, [ATLASLOOT_IT_ALLIANCE] = 91309,        [ATLASLOOT_IT_HORDE] = 94328 }, -- Tyrannical Gladiator's Mooncloth Gloves
 				{ 418, [ATLASLOOT_IT_ALLIANCE] = 91313,        [ATLASLOOT_IT_HORDE] = 94420 }, -- Tyrannical Gladiator's Mooncloth Leggings
@@ -1961,14 +1960,14 @@ data["Pandaria"] = {
 				{ 421, [ATLASLOOT_IT_ALLIANCE] = 91319,        [ATLASLOOT_IT_HORDE] = 94423 }, -- Tyrannical Gladiator's Satin Gloves
 				{ 422, [ATLASLOOT_IT_ALLIANCE] = 91323,        [ATLASLOOT_IT_HORDE] = 94334 }, -- Tyrannical Gladiator's Satin Leggings
 				{ 501, "ICON_Spell_Nature_Lightning",          nil,                               ALIL["SHAMAN"],      ALIL["Elemental"] },
-				{ 502, 95321 },                                             -- Gloves of the Witch Doctor
-				{ 503, 95323 },                                             -- Kilt of the Witch Doctor
+				{ 502, 95321 },                                                          -- Gloves of the Witch Doctor
+				{ 503, 95323 },                                                          -- Kilt of the Witch Doctor
 				{ 505, "ICON_spell_nature_lightningshield",    nil,                               ALIL["SHAMAN"],      ALIL["Enhancement"] },
-				{ 506, 95316 },                                             -- Grips of the Witch Doctor
-				{ 507, 95318 },                                             -- Legguards of the Witch Doctor
+				{ 506, 95316 },                                                          -- Grips of the Witch Doctor
+				{ 507, 95318 },                                                          -- Legguards of the Witch Doctor
 				{ 509, "ICON_spell_nature_magicimmunity",      nil,                               ALIL["SHAMAN"],      ALIL["Restoration"] },
-				{ 510, 95311 },                                             -- Handwraps of the Witch Doctor
-				{ 511, 95313 },                                             -- Legwraps of the Witch Doctor
+				{ 510, 95311 },                                                          -- Handwraps of the Witch Doctor
+				{ 511, 95313 },                                                          -- Legwraps of the Witch Doctor
 				{ 516, "ICON_Spell_Nature_Lightning",          nil,                               ALIL["SHAMAN"],      ALIL["Elemental"] },
 				{ 517, [ATLASLOOT_IT_ALLIANCE] = 91382,        [ATLASLOOT_IT_HORDE] = 94408 }, -- Tyrannical Gladiator's Mail Gauntlets
 				{ 518, [ATLASLOOT_IT_ALLIANCE] = 91386,        [ATLASLOOT_IT_HORDE] = 94497 }, -- Tyrannical Gladiator's Mail Leggings
@@ -1979,17 +1978,17 @@ data["Pandaria"] = {
 				{ 525, [ATLASLOOT_IT_ALLIANCE] = 91360,        [ATLASLOOT_IT_HORDE] = 94490 }, -- Tyrannical Gladiator's Ringmail Gauntlets
 				{ 526, [ATLASLOOT_IT_ALLIANCE] = 91364,        [ATLASLOOT_IT_HORDE] = 94435 }, -- Tyrannical Gladiator's Ringmail Leggings
 				{ 601, "ICON_spell_deathknight_frostpresence", nil,                               ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
-				{ 602, 95226 },                                             -- Gauntlets of the All-Consuming Maw
-				{ 603, 95228 },                                             -- Greaves of the All-Consuming Maw
+				{ 602, 95226 },                                                          -- Gauntlets of the All-Consuming Maw
+				{ 603, 95228 },                                                          -- Greaves of the All-Consuming Maw
 				{ 605, "ICON_spell_deathknight_bloodpresence", nil,                               ALIL["DEATHKNIGHT"], ALIL["Blood"] },
-				{ 606, 95231 },                                             -- Handguards of the All-Consuming Maw
-				{ 607, 95233 },                                             -- Legguards of the All-Consuming Maw
+				{ 606, 95231 },                                                          -- Handguards of the All-Consuming Maw
+				{ 607, 95233 },                                                          -- Legguards of the All-Consuming Maw
 				{ 609, "ICON_ability_warrior_innerrage",       nil,                               ALIL["WARRIOR"],     ALIL["Arms"].." / "..ALIL["Fury"] },
-				{ 610, 95332 },                                             -- Gauntlets of the Last Mogu
-				{ 611, 95333 },                                             -- Legplates of the Last Mogu
+				{ 610, 95332 },                                                          -- Gauntlets of the Last Mogu
+				{ 611, 95333 },                                                          -- Legplates of the Last Mogu
 				{ 613, "ICON_ability_warrior_defensivestance", nil,                               ALIL["WARRIOR"],     ALIL["Protection"] },
-				{ 614, 95336 },                                             -- Handguards of the Last Mogu
-				{ 615, 95338 },                                             -- Legguards of the Last Mogu
+				{ 614, 95336 },                                                          -- Handguards of the Last Mogu
+				{ 615, 95338 },                                                          -- Legguards of the Last Mogu
 				{ 616, "ICON_Spell_deathknight_classicon",     nil,                               ALIL["DEATHKNIGHT"], nil },
 				{ 617, [ATLASLOOT_IT_ALLIANCE] = 91149,        [ATLASLOOT_IT_HORDE] = 94364 }, -- Tyrannical Gladiator's Dreadplate Gauntlets
 				{ 618, [ATLASLOOT_IT_ALLIANCE] = 91153,        [ATLASLOOT_IT_HORDE] = 94365 }, -- Tyrannical Gladiator's Dreadplate Legguards
@@ -2062,7 +2061,7 @@ data["Pandaria"] = {
 				{ 920, [ATLASLOOT_IT_ALLIANCE] = 91105,        [ATLASLOOT_IT_HORDE] = 94357 }, -- Tyrannical Gladiator's Ring of Cruelty
 				{ 921, [ATLASLOOT_IT_ALLIANCE] = 91417,        [ATLASLOOT_IT_HORDE] = 94462 }, -- Tyrannical Gladiator's Signet of Accuracy
 				{ 922, [ATLASLOOT_IT_ALLIANCE] = 91416,        [ATLASLOOT_IT_HORDE] = 94417 }, -- Tyrannical Gladiator's Signet of Cruelty
-				{ 924, 95057,                                  "mount" },   -- Reins of the Thundering Cobalt Cloud Serpent
+				{ 924, 95057,                                  "mount" },                -- Reins of the Thundering Cobalt Cloud Serpent
 				{ 925, 95602,                                  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Stormtouched Cache
 				{ 927, "ac8028" },
 			},
@@ -2070,236 +2069,236 @@ data["Pandaria"] = {
 		{ --Oondasta
 			EncounterJournalID = 826,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   95182 },                         -- Robes of Zalmoxes
-				{ 2,   95183 },                         -- Waistband of Elder Falcarius
-				{ 3,   95194 },                         -- Gloves of Tyranomancy
-				{ 4,   95193 },                         -- Gloves of Varsoon the Greater
-				{ 5,   95184 },                         -- Girdle of Dimorphodontics
-				{ 6,   95185 },                         -- Terrorful Weave
-				{ 8,   95147 },                         -- Fancifully Frilled Tunic
-				{ 9,   95148 },                         -- Vest of the Bordomorono
-				{ 10,  95196 },                         -- Gloves of Gastric Rumbling
-				{ 11,  95195 },                         -- Gloves of Unliving Fossil
-				{ 12,  95186 },                         -- Belt of Crushed Dreams
-				{ 13,  95187 },                         -- Girdle of the Derrodoccus
-				{ 16,  95149 },                         -- Gorgoraptor Scale Chest
-				{ 17,  95150 },                         -- Mail of the Mosschopper
-				{ 18,  95200 },                         -- Orndo Mando's Gloves
-				{ 19,  95197 },                         -- Therapsid Scale Gloves
-				{ 20,  95188 },                         -- Belt of the Arch Avimimus
-				{ 21,  95189 },                         -- Belt of the Dying Diemetradon
+				{ 1,   95182 },                           -- Robes of Zalmoxes
+				{ 2,   95183 },                           -- Waistband of Elder Falcarius
+				{ 3,   95194 },                           -- Gloves of Tyranomancy
+				{ 4,   95193 },                           -- Gloves of Varsoon the Greater
+				{ 5,   95184 },                           -- Girdle of Dimorphodontics
+				{ 6,   95185 },                           -- Terrorful Weave
+				{ 8,   95147 },                           -- Fancifully Frilled Tunic
+				{ 9,   95148 },                           -- Vest of the Bordomorono
+				{ 10,  95196 },                           -- Gloves of Gastric Rumbling
+				{ 11,  95195 },                           -- Gloves of Unliving Fossil
+				{ 12,  95186 },                           -- Belt of Crushed Dreams
+				{ 13,  95187 },                           -- Girdle of the Derrodoccus
+				{ 16,  95149 },                           -- Gorgoraptor Scale Chest
+				{ 17,  95150 },                           -- Mail of the Mosschopper
+				{ 18,  95200 },                           -- Orndo Mando's Gloves
+				{ 19,  95197 },                           -- Therapsid Scale Gloves
+				{ 20,  95188 },                           -- Belt of the Arch Avimimus
+				{ 21,  95189 },                           -- Belt of the Dying Diemetradon
 				{ 23,  "ac8123" },
-				{ 101, 95152 },                         -- Breastplate of the Iguanocolossus
-				{ 102, 95151 },                         -- Scorched Spiritfire Drape
-				{ 103, 95153 },                         -- Tyrant King Battleplate
-				{ 104, 95199 },                         -- Carnotaur Battlegloves
-				{ 105, 95201 },                         -- Skullsmashing Gauntlets
-				{ 106, 95198 },                         -- Vulcanodon Gauntlets
-				{ 107, 95192 },                         -- Belt of the Tyrannotitan
-				{ 108, 95191 },                         -- Voolar's Bloodied Belt
-				{ 109, 95190 },                         -- Waistband of Furious Stomping
-				{ 111, 94228,   "mount" },              -- Reins of the Cobalt Primordial Direhorn
+				{ 101, 95152 },                           -- Breastplate of the Iguanocolossus
+				{ 102, 95151 },                           -- Scorched Spiritfire Drape
+				{ 103, 95153 },                           -- Tyrant King Battleplate
+				{ 104, 95199 },                           -- Carnotaur Battlegloves
+				{ 105, 95201 },                           -- Skullsmashing Gauntlets
+				{ 106, 95198 },                           -- Vulcanodon Gauntlets
+				{ 107, 95192 },                           -- Belt of the Tyrannotitan
+				{ 108, 95191 },                           -- Voolar's Bloodied Belt
+				{ 109, 95190 },                           -- Waistband of Furious Stomping
+				{ 111, 94228,   "mount" },                -- Reins of the Cobalt Primordial Direhorn
 				{ 112, 95601,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shiny Pile of Refuse
 				{ 113, 94295,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Primal Egg
 				{ 114, 94288,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Giant Dinosaur Bone
-				{ 116, 95181 },                         -- Amulet of the Titanorex
-				{ 117, 95177 },                         -- Choker of Stygimolochy
-				{ 118, 95178 },                         -- Lootraptor's Amulet
-				{ 119, 95179 },                         -- Necklace of the Hazillosaurus
-				{ 120, 95180 },                         -- Overcompensating Chain of the Alpha Male
-				{ 122, 95165 },                         -- Achillobator Ring
-				{ 123, 95164 },                         -- Eye of Oondasta
-				{ 124, 95166 },                         -- Forzarra's Last Meal
-				{ 125, 95167 },                         -- Ring of King Kangrom
-				{ 126, 95163 },                         -- Ring of Shamuru
+				{ 116, 95181 },                           -- Amulet of the Titanorex
+				{ 117, 95177 },                           -- Choker of Stygimolochy
+				{ 118, 95178 },                           -- Lootraptor's Amulet
+				{ 119, 95179 },                           -- Necklace of the Hazillosaurus
+				{ 120, 95180 },                           -- Overcompensating Chain of the Alpha Male
+				{ 122, 95165 },                           -- Achillobator Ring
+				{ 123, 95164 },                           -- Eye of Oondasta
+				{ 124, 95166 },                           -- Forzarra's Last Meal
+				{ 125, 95167 },                           -- Ring of King Kangrom
+				{ 126, 95163 },                           -- Ring of Shamuru
 			},
 		},
 		{ --ShaofAnger
 			EncounterJournalID = 691,
 			[NORMAL_RAID_DIFF] = {
 				{ 1,    "ICON_spell_nature_starfall",           nil,                         ALIL["DRUID"],       ALIL["Balance"] },
-				{ 2,    85308 },                   -- Eternal Blossom Gloves
-				{ 3,    85306 },                   -- Eternal Blossom Leggings
+				{ 2,    85308 },                                                    -- Eternal Blossom Gloves
+				{ 3,    85306 },                                                    -- Eternal Blossom Leggings
 				{ 5,    "ICON_ability_druid_catform",           nil,                         ALIL["DRUID"],       ALIL["Feral"] },
-				{ 6,    85312 },                   -- Eternal Blossom Grips
-				{ 7,    85310 },                   -- Eternal Blossom Legguards
+				{ 6,    85312 },                                                    -- Eternal Blossom Grips
+				{ 7,    85310 },                                                    -- Eternal Blossom Legguards
 				{ 9,    "ICON_spell_nature_healingtouch",       nil,                         ALIL["DRUID"],       ALIL["Restoration"] },
-				{ 10,   85358 },                   -- Eternal Blossom Handwraps
-				{ 11,   85356 },                   -- Eternal Blossom Legwraps
+				{ 10,   85358 },                                                    -- Eternal Blossom Handwraps
+				{ 11,   85356 },                                                    -- Eternal Blossom Legwraps
 				{ 13,   "ICON_ability_racial_bearform",         nil,                         ALIL["DRUID"],       ALIL["Guardian"] },
-				{ 14,   85380 },                   -- Eternal Blossom Handguards
-				{ 15,   85382 },                   -- Eternal Blossom Breeches
+				{ 14,   85380 },                                                    -- Eternal Blossom Handguards
+				{ 15,   85382 },                                                    -- Eternal Blossom Breeches
 				{ 16,   "ICON_spell_nature_starfall",           nil,                         ALIL["DRUID"],       ALIL["Balance"] },
-				{ 17,   84843 },                   -- Malevolent Gladiator's Wyrmhide Gloves
+				{ 17,   84843 },                                                    -- Malevolent Gladiator's Wyrmhide Gloves
 				{ 20,   "ICON_ability_druid_catform",           nil,                         ALIL["DRUID"],       ALIL["Feral"] },
-				{ 21,   84832 },                   -- Malevolent Gladiator's Dragonhide Gloves
+				{ 21,   84832 },                                                    -- Malevolent Gladiator's Dragonhide Gloves
 				{ 24,   "ICON_spell_nature_healingtouch",       nil,                         ALIL["DRUID"],       ALIL["Restoration"] },
-				{ 25,   84833 },                   -- Malevolent Gladiator's Kodohide Gloves
+				{ 25,   84833 },                                                    -- Malevolent Gladiator's Kodohide Gloves
 				{ 101,  "ICON_inv_weapon_bow_07",               nil,                         ALIL["HUNTER"],      nil },
-				{ 102,  85297 },                   -- Yaungol Slayer's Gloves
-				{ 103,  85295 },                   -- Yaungol Slayer's Legguards
+				{ 102,  85297 },                                                    -- Yaungol Slayer's Gloves
+				{ 103,  85295 },                                                    -- Yaungol Slayer's Legguards
 				{ 105,  "ICON_inv_staff_13",                    nil,                         ALIL["MAGE"],        nil },
-				{ 106,  85378 },                   -- Gloves of the Burning Scroll
-				{ 107,  85376 },                   -- Leggings of the Burning Scroll
+				{ 106,  85378 },                                                    -- Gloves of the Burning Scroll
+				{ 107,  85376 },                                                    -- Leggings of the Burning Scroll
 				{ 109,  "ICON_inv_throwingknife_04",            nil,                         ALIL["ROGUE"],       nil },
-				{ 110,  85302 },                   -- Gloves of the Thousandfold Blades
-				{ 111,  85300 },                   -- Legguards of the Thousandfold Blades
+				{ 110,  85302 },                                                    -- Gloves of the Thousandfold Blades
+				{ 111,  85300 },                                                    -- Legguards of the Thousandfold Blades
 				{ 113,  "ICON_spell_nature_drowsy",             nil,                         ALIL["WARLOCK"],     nil },
-				{ 114,  85369 },                   -- Sha-Skin Gloves
-				{ 115,  85371 },                   -- Sha-Skin Leggings
+				{ 114,  85369 },                                                    -- Sha-Skin Gloves
+				{ 115,  85371 },                                                    -- Sha-Skin Leggings
 				{ 116,  "ICON_inv_weapon_bow_07",               nil,                         ALIL["HUNTER"],      nil },
-				{ 117,  84841 },                   -- Malevolent Gladiator's Chain Gauntlets
+				{ 117,  84841 },                                                    -- Malevolent Gladiator's Chain Gauntlets
 				{ 120,  "ICON_inv_staff_13",                    nil,                         ALIL["MAGE"],        nil },
-				{ 121,  84837 },                   -- Malevolent Gladiator's Silk Handguards
+				{ 121,  84837 },                                                    -- Malevolent Gladiator's Silk Handguards
 				{ 124,  "ICON_inv_throwingknife_04",            nil,                         ALIL["ROGUE"],       nil },
-				{ 125,  84830 },                   -- Malevolent Gladiator's Leather Gloves
+				{ 125,  84830 },                                                    -- Malevolent Gladiator's Leather Gloves
 				{ 128,  "ICON_spell_nature_drowsy",             nil,                         ALIL["WARLOCK"],     nil },
-				{ 129,  84842 },                   -- Malevolent Gladiator's Felweave Handguards
+				{ 129,  84842 },                                                    -- Malevolent Gladiator's Felweave Handguards
 				{ 201,  "ICON_spell_monk_mistweaver_spec",      nil,                         ALIL["MONK"],        ALIL["Mistweaver"] },
-				{ 202,  85389 },                   -- Red Crane Handwraps
-				{ 203,  85391 },                   -- Red Crane Legwraps
+				{ 202,  85389 },                                                    -- Red Crane Handwraps
+				{ 203,  85391 },                                                    -- Red Crane Legwraps
 				{ 205,  "ICON_spell_monk_windwalker_spec",      nil,                         ALIL["MONK"],        ALIL["Windwalker"] },
-				{ 206,  85395 },                   -- Red Crane Grips
-				{ 207,  85397 },                   -- Red Crane Leggings
+				{ 206,  85395 },                                                    -- Red Crane Grips
+				{ 207,  85397 },                                                    -- Red Crane Leggings
 				{ 209,  "ICON_spell_monk_brewmaster_spec",      nil,                         ALIL["MONK"],        ALIL["Brewmaster"] },
-				{ 210,  85387 },                   -- Red Crane Gauntlets
-				{ 211,  85385 },                   -- Red Crane Legguards
+				{ 210,  85387 },                                                    -- Red Crane Gauntlets
+				{ 211,  85385 },                                                    -- Red Crane Legguards
 				{ 216,  "ICON_spell_monk_mistweaver_spec",      nil,                         ALIL["MONK"],        ALIL["Mistweaver"] },
-				{ 217,  84836 },                   -- Malevolent Gladiator's Copperskin Gloves
+				{ 217,  84836 },                                                    -- Malevolent Gladiator's Copperskin Gloves
 				{ 220,  "ICON_spell_monk_windwalker_spec",      nil,                         ALIL["MONK"],        ALIL["Windwalker"] },
-				{ 221,  84839 },                   -- Malevolent Gladiator's Ironskin Gloves
+				{ 221,  84839 },                                                    -- Malevolent Gladiator's Ironskin Gloves
 				{ 301,  "ICON_Spell_Holy_HolyBolt",             nil,                         ALIL["PALADIN"],     ALIL["Holy"] },
-				{ 302,  85347 },                   -- White Tiger Gloves
-				{ 303,  85345 },                   -- White Tiger Greaves
+				{ 302,  85347 },                                                    -- White Tiger Gloves
+				{ 303,  85345 },                                                    -- White Tiger Greaves
 				{ 305,  "ICON_Spell_Holy_AuraOfLight",          nil,                         ALIL["PALADIN"],     ALIL["Retribution"] },
-				{ 306,  85342 },                   -- White Tiger Gauntlets
-				{ 307,  85340 },                   -- White Tiger Legplates
+				{ 306,  85342 },                                                    -- White Tiger Gauntlets
+				{ 307,  85340 },                                                    -- White Tiger Legplates
 				{ 309,  "ICON_spell_holy_devotionaura",         nil,                         ALIL["PALADIN"],     ALIL["Protection"] },
-				{ 310,  85322 },                   -- White Tiger Handguards
-				{ 311,  85320 },                   -- White Tiger Legguards
+				{ 310,  85322 },                                                    -- White Tiger Handguards
+				{ 311,  85320 },                                                    -- White Tiger Legguards
 				{ 316,  "ICON_Spell_Holy_HolyBolt",             nil,                         ALIL["PALADIN"],     ALIL["Holy"] },
-				{ 317,  84831 },                   -- Malevolent Gladiator's Ornamented Gloves
+				{ 317,  84831 },                                                    -- Malevolent Gladiator's Ornamented Gloves
 				{ 320,  "ICON_Spell_Holy_AuraOfLight",          nil,                         ALIL["PALADIN"],     ALIL["Retribution"] },
-				{ 321,  84834 },                   -- Malevolent Gladiator's Scaled Gauntlets
+				{ 321,  84834 },                                                    -- Malevolent Gladiator's Scaled Gauntlets
 				{ 401,  "ICON_spell_holy_guardianspirit",       nil,                         ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
-				{ 402,  85363 },                   -- Guardian Serpent Handwraps
-				{ 403,  85361 },                   -- Guardian Serpent Legwraps
+				{ 402,  85363 },                                                    -- Guardian Serpent Handwraps
+				{ 403,  85361 },                                                    -- Guardian Serpent Legwraps
 				{ 405,  "ICON_spell_shadow_shadowwordpain",     nil,                         ALIL["PRIEST"],      ALIL["Shadow"] },
-				{ 406,  85364 },                   -- Guardian Serpent Gloves
-				{ 407,  85366 },                   -- Guardian Serpent Leggings
+				{ 406,  85364 },                                                    -- Guardian Serpent Gloves
+				{ 407,  85366 },                                                    -- Guardian Serpent Leggings
 				{ 416,  "ICON_spell_holy_guardianspirit",       nil,                         ALIL["PRIEST"],      ALIL["Discipline"].." / "..ALIL["Holy"] },
-				{ 417,  84846 },                   -- Malevolent Gladiator's Mooncloth Gloves
+				{ 417,  84846 },                                                    -- Malevolent Gladiator's Mooncloth Gloves
 				{ 420,  "ICON_spell_shadow_shadowwordpain",     nil,                         ALIL["PRIEST"],      ALIL["Shadow"] },
-				{ 421,  84838 },                   -- Malevolent Gladiator's Satin Gloves
+				{ 421,  84838 },                                                    -- Malevolent Gladiator's Satin Gloves
 				{ 501,  "ICON_Spell_Nature_Lightning",          nil,                         ALIL["SHAMAN"],      ALIL["Elemental"] },
-				{ 502,  85290 },                   -- Firebird's Gloves
-				{ 503,  85292 },                   -- Firebird's Kilt
+				{ 502,  85290 },                                                    -- Firebird's Gloves
+				{ 503,  85292 },                                                    -- Firebird's Kilt
 				{ 505,  "ICON_spell_nature_lightningshield",    nil,                         ALIL["SHAMAN"],      ALIL["Enhancement"] },
-				{ 506,  85287 },                   -- Firebird's Grips
-				{ 507,  85285 },                   -- Firebird's Legguards
+				{ 506,  85287 },                                                    -- Firebird's Grips
+				{ 507,  85285 },                                                    -- Firebird's Legguards
 				{ 509,  "ICON_spell_nature_magicimmunity",      nil,                         ALIL["SHAMAN"],      ALIL["Restoration"] },
-				{ 510,  85352 },                   -- Firebird's Handwraps
-				{ 511,  85350 },                   -- Firebird's Legwraps
+				{ 510,  85352 },                                                    -- Firebird's Handwraps
+				{ 511,  85350 },                                                    -- Firebird's Legwraps
 				{ 516,  "ICON_Spell_Nature_Lightning",          nil,                         ALIL["SHAMAN"],      ALIL["Elemental"] },
-				{ 517,  84845 },                   -- Malevolent Gladiator's Mail Gauntlets
+				{ 517,  84845 },                                                    -- Malevolent Gladiator's Mail Gauntlets
 				{ 520,  "ICON_spell_nature_lightningshield",    nil,                         ALIL["SHAMAN"],      ALIL["Enhancement"] },
-				{ 521,  84844 },                   -- Malevolent Gladiator's Linked Gauntlets
+				{ 521,  84844 },                                                    -- Malevolent Gladiator's Linked Gauntlets
 				{ 524,  "ICON_spell_nature_magicimmunity",      nil,                         ALIL["SHAMAN"],      ALIL["Restoration"] },
-				{ 525,  84847 },                   -- Malevolent Gladiator's Ringmail Gauntlets
+				{ 525,  84847 },                                                    -- Malevolent Gladiator's Ringmail Gauntlets
 				{ 601,  "ICON_spell_deathknight_frostpresence", nil,                         ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
-				{ 602,  85337 },                   -- Gauntlets of the Lost Catacomb
-				{ 603,  85335 },                   -- Greaves of the Lost Catacomb
+				{ 602,  85337 },                                                    -- Gauntlets of the Lost Catacomb
+				{ 603,  85335 },                                                    -- Greaves of the Lost Catacomb
 				{ 605,  "ICON_spell_deathknight_bloodpresence", nil,                         ALIL["DEATHKNIGHT"], ALIL["Blood"] },
-				{ 606,  85317 },                   -- Handguards of the Lost Catacomb
-				{ 607,  85315 },                   -- Legguards of the Lost Catacomb
+				{ 606,  85317 },                                                    -- Handguards of the Lost Catacomb
+				{ 607,  85315 },                                                    -- Legguards of the Lost Catacomb
 				{ 609,  "ICON_ability_warrior_innerrage",       nil,                         ALIL["WARRIOR"],     ALIL["Arms"].." / "..ALIL["Fury"] },
-				{ 610,  85331 },                   -- Gauntlets of Resounding Rings
-				{ 611,  85330 },                   -- Legplates of Resounding Rings
+				{ 610,  85331 },                                                    -- Gauntlets of Resounding Rings
+				{ 611,  85330 },                                                    -- Legplates of Resounding Rings
 				{ 613,  "ICON_ability_warrior_defensivestance", nil,                         ALIL["WARRIOR"],     ALIL["Protection"] },
-				{ 614,  85327 },                   -- Handguards of Resounding Rings
-				{ 615,  85325 },                   -- Legguards of Resounding Rings
+				{ 614,  85327 },                                                    -- Handguards of Resounding Rings
+				{ 615,  85325 },                                                    -- Legguards of Resounding Rings
 				{ 616,  "ICON_Spell_deathknight_classicon",     nil,                         ALIL["DEATHKNIGHT"], nil },
-				{ 617,  84835 },                   -- Malevolent Gladiator's Dreadplate Gauntlets
+				{ 617,  84835 },                                                    -- Malevolent Gladiator's Dreadplate Gauntlets
 				{ 624,  "ICON_inv_sword_27",                    nil,                         ALIL["WARRIOR"],     nil },
-				{ 625,  84840 },                   -- Malevolent Gladiator's Plate Gauntlets
-				{ 701,  84977 },                   -- Malevolent Gladiator's Cuffs of Accuracy
-				{ 702,  84955 },                   -- Malevolent Gladiator's Cord of Accuracy
-				{ 703,  84815 },                   -- Malevolent Gladiator's Treads of Alacrity
-				{ 705,  84979 },                   -- Malevolent Gladiator's Cuffs of Meditation
-				{ 706,  84956 },                   -- Malevolent Gladiator's Cord of Meditation
-				{ 707,  84816 },                   -- Malevolent Gladiator's Treads of Meditation
-				{ 709,  84978 },                   -- Malevolent Gladiator's Cuffs of Prowess
-				{ 710,  84954 },                   -- Malevolent Gladiator's Cord of Cruelty
-				{ 711,  84814 },                   -- Malevolent Gladiator's Treads of Cruelty
-				{ 716,  84973 },                   -- Malevolent Gladiator's Armwraps of Accuracy
-				{ 717,  84948 },                   -- Malevolent Gladiator's Waistband of Accuracy
-				{ 718,  84808 },                   -- Malevolent Gladiator's Boots of Cruelty
-				{ 720,  84972 },                   -- Malevolent Gladiator's Armwraps of Alacrity
-				{ 721,  84947 },                   -- Malevolent Gladiator's Waistband of Cruelty
-				{ 722,  84809 },                   -- Malevolent Gladiator's Boots of Alacrity
-				{ 724,  84982 },                   -- Malevolent Gladiator's Bindings of Prowess
-				{ 725,  84960 },                   -- Malevolent Gladiator's Belt of Cruelty
-				{ 726,  84819 },                   -- Malevolent Gladiator's Footguards of Alacrity
-				{ 728,  84976 },                   -- Malevolent Gladiator's Bindings of Meditation
-				{ 729,  84953 },                   -- Malevolent Gladiator's Belt of Meditation
-				{ 730,  84813 },                   -- Malevolent Gladiator's Footguards of Meditation
-				{ 801,  84984 },                   -- Malevolent Gladiator's Armbands of Meditation
-				{ 802,  84946 },                   -- Malevolent Gladiator's Waistguard of Meditation
-				{ 803,  84821 },                   -- Malevolent Gladiator's Footguards of Meditation
-				{ 805,  84983 },                   -- Malevolent Gladiator's Armbands of Prowess
-				{ 806,  84959 },                   -- Malevolent Gladiator's Waistguard of Cruelty
-				{ 807,  84820 },                   -- Malevolent Gladiator's Footguards of Alacrity
-				{ 809,  84980 },                   -- Malevolent Gladiator's Wristguards of Alacrity
-				{ 810,  84958 },                   -- Malevolent Gladiator's Links of Cruelty
-				{ 811,  84818 },                   -- Malevolent Gladiator's Sabatons of Alacrity
-				{ 813,  84981 },                   -- Malevolent Gladiator's Wristguards of Accuracy
-				{ 814,  84957 },                   -- Malevolent Gladiator's Links of Accuracy
-				{ 815,  84817 },                   -- Malevolent Gladiator's Sabatons of Cruelty
-				{ 816,  84975 },                   -- Malevolent Gladiator's Bracers of Meditation
-				{ 817,  84952 },                   -- Malevolent Gladiator's Clasp of Meditation
-				{ 818,  84812 },                   -- Malevolent Gladiator's Greaves of Meditation
-				{ 820,  84985 },                   -- Malevolent Gladiator's Armplates of Proficiency
-				{ 821,  84949 },                   -- Malevolent Gladiator's Girdle of Accuracy
-				{ 822,  84810 },                   -- Malevolent Gladiator's Warboots of Cruelty
-				{ 824,  84974 },                   -- Malevolent Gladiator's Bracers of Prowess
-				{ 825,  84951 },                   -- Malevolent Gladiator's Clasp of Cruelty
-				{ 826,  84811 },                   -- Malevolent Gladiator's Greaves of Alacrity
-				{ 828,  84986 },                   -- Malevolent Gladiator's Armplates of Alacrity
-				{ 829,  84950 },                   -- Malevolent Gladiator's Girdle of Prowess
-				{ 830,  84822 },                   -- Malevolent Gladiator's Warboots of Alacrity
-				{ 901,  84804 },                   -- Malevolent Gladiator's Cape of Cruelty
-				{ 902,  84805 },                   -- Malevolent Gladiator's Cape of Prowess
-				{ 903,  84807 },                   -- Malevolent Gladiator's Cloak of Alacrity
-				{ 904,  84806 },                   -- Malevolent Gladiator's Cloak of Prowess
-				{ 905,  84801 },                   -- Malevolent Gladiator's Drape of Cruelty
-				{ 906,  84802 },                   -- Malevolent Gladiator's Drape of Meditation
-				{ 907,  84803 },                   -- Malevolent Gladiator's Drape of Prowess
-				{ 909,  84892 },                   -- Malevolent Gladiator's Choker of Accuracy
-				{ 910,  84891 },                   -- Malevolent Gladiator's Choker of Proficiency
-				{ 911,  84889 },                   -- Malevolent Gladiator's Necklace of Proficiency
-				{ 912,  84890 },                   -- Malevolent Gladiator's Necklace of Prowess
-				{ 913,  84886 },                   -- Malevolent Gladiator's Pendant of Alacrity
-				{ 914,  84887 },                   -- Malevolent Gladiator's Pendant of Cruelty
-				{ 915,  84888 },                   -- Malevolent Gladiator's Pendant of Meditation
-				{ 916,  84824 },                   -- Malevolent Gladiator's Band of Accuracy
-				{ 917,  84823 },                   -- Malevolent Gladiator's Band of Cruelty
-				{ 918,  84825 },                   -- Malevolent Gladiator's Band of Meditation
-				{ 919,  84827 },                   -- Malevolent Gladiator's Ring of Accuracy
-				{ 920,  84826 },                   -- Malevolent Gladiator's Ring of Cruelty
-				{ 921,  84829 },                   -- Malevolent Gladiator's Signet of Accuracy
-				{ 922,  84828 },                   -- Malevolent Gladiator's Signet of Cruelty
+				{ 625,  84840 },                                                    -- Malevolent Gladiator's Plate Gauntlets
+				{ 701,  84977 },                                                    -- Malevolent Gladiator's Cuffs of Accuracy
+				{ 702,  84955 },                                                    -- Malevolent Gladiator's Cord of Accuracy
+				{ 703,  84815 },                                                    -- Malevolent Gladiator's Treads of Alacrity
+				{ 705,  84979 },                                                    -- Malevolent Gladiator's Cuffs of Meditation
+				{ 706,  84956 },                                                    -- Malevolent Gladiator's Cord of Meditation
+				{ 707,  84816 },                                                    -- Malevolent Gladiator's Treads of Meditation
+				{ 709,  84978 },                                                    -- Malevolent Gladiator's Cuffs of Prowess
+				{ 710,  84954 },                                                    -- Malevolent Gladiator's Cord of Cruelty
+				{ 711,  84814 },                                                    -- Malevolent Gladiator's Treads of Cruelty
+				{ 716,  84973 },                                                    -- Malevolent Gladiator's Armwraps of Accuracy
+				{ 717,  84948 },                                                    -- Malevolent Gladiator's Waistband of Accuracy
+				{ 718,  84808 },                                                    -- Malevolent Gladiator's Boots of Cruelty
+				{ 720,  84972 },                                                    -- Malevolent Gladiator's Armwraps of Alacrity
+				{ 721,  84947 },                                                    -- Malevolent Gladiator's Waistband of Cruelty
+				{ 722,  84809 },                                                    -- Malevolent Gladiator's Boots of Alacrity
+				{ 724,  84982 },                                                    -- Malevolent Gladiator's Bindings of Prowess
+				{ 725,  84960 },                                                    -- Malevolent Gladiator's Belt of Cruelty
+				{ 726,  84819 },                                                    -- Malevolent Gladiator's Footguards of Alacrity
+				{ 728,  84976 },                                                    -- Malevolent Gladiator's Bindings of Meditation
+				{ 729,  84953 },                                                    -- Malevolent Gladiator's Belt of Meditation
+				{ 730,  84813 },                                                    -- Malevolent Gladiator's Footguards of Meditation
+				{ 801,  84984 },                                                    -- Malevolent Gladiator's Armbands of Meditation
+				{ 802,  84946 },                                                    -- Malevolent Gladiator's Waistguard of Meditation
+				{ 803,  84821 },                                                    -- Malevolent Gladiator's Footguards of Meditation
+				{ 805,  84983 },                                                    -- Malevolent Gladiator's Armbands of Prowess
+				{ 806,  84959 },                                                    -- Malevolent Gladiator's Waistguard of Cruelty
+				{ 807,  84820 },                                                    -- Malevolent Gladiator's Footguards of Alacrity
+				{ 809,  84980 },                                                    -- Malevolent Gladiator's Wristguards of Alacrity
+				{ 810,  84958 },                                                    -- Malevolent Gladiator's Links of Cruelty
+				{ 811,  84818 },                                                    -- Malevolent Gladiator's Sabatons of Alacrity
+				{ 813,  84981 },                                                    -- Malevolent Gladiator's Wristguards of Accuracy
+				{ 814,  84957 },                                                    -- Malevolent Gladiator's Links of Accuracy
+				{ 815,  84817 },                                                    -- Malevolent Gladiator's Sabatons of Cruelty
+				{ 816,  84975 },                                                    -- Malevolent Gladiator's Bracers of Meditation
+				{ 817,  84952 },                                                    -- Malevolent Gladiator's Clasp of Meditation
+				{ 818,  84812 },                                                    -- Malevolent Gladiator's Greaves of Meditation
+				{ 820,  84985 },                                                    -- Malevolent Gladiator's Armplates of Proficiency
+				{ 821,  84949 },                                                    -- Malevolent Gladiator's Girdle of Accuracy
+				{ 822,  84810 },                                                    -- Malevolent Gladiator's Warboots of Cruelty
+				{ 824,  84974 },                                                    -- Malevolent Gladiator's Bracers of Prowess
+				{ 825,  84951 },                                                    -- Malevolent Gladiator's Clasp of Cruelty
+				{ 826,  84811 },                                                    -- Malevolent Gladiator's Greaves of Alacrity
+				{ 828,  84986 },                                                    -- Malevolent Gladiator's Armplates of Alacrity
+				{ 829,  84950 },                                                    -- Malevolent Gladiator's Girdle of Prowess
+				{ 830,  84822 },                                                    -- Malevolent Gladiator's Warboots of Alacrity
+				{ 901,  84804 },                                                    -- Malevolent Gladiator's Cape of Cruelty
+				{ 902,  84805 },                                                    -- Malevolent Gladiator's Cape of Prowess
+				{ 903,  84807 },                                                    -- Malevolent Gladiator's Cloak of Alacrity
+				{ 904,  84806 },                                                    -- Malevolent Gladiator's Cloak of Prowess
+				{ 905,  84801 },                                                    -- Malevolent Gladiator's Drape of Cruelty
+				{ 906,  84802 },                                                    -- Malevolent Gladiator's Drape of Meditation
+				{ 907,  84803 },                                                    -- Malevolent Gladiator's Drape of Prowess
+				{ 909,  84892 },                                                    -- Malevolent Gladiator's Choker of Accuracy
+				{ 910,  84891 },                                                    -- Malevolent Gladiator's Choker of Proficiency
+				{ 911,  84889 },                                                    -- Malevolent Gladiator's Necklace of Proficiency
+				{ 912,  84890 },                                                    -- Malevolent Gladiator's Necklace of Prowess
+				{ 913,  84886 },                                                    -- Malevolent Gladiator's Pendant of Alacrity
+				{ 914,  84887 },                                                    -- Malevolent Gladiator's Pendant of Cruelty
+				{ 915,  84888 },                                                    -- Malevolent Gladiator's Pendant of Meditation
+				{ 916,  84824 },                                                    -- Malevolent Gladiator's Band of Accuracy
+				{ 917,  84823 },                                                    -- Malevolent Gladiator's Band of Cruelty
+				{ 918,  84825 },                                                    -- Malevolent Gladiator's Band of Meditation
+				{ 919,  84827 },                                                    -- Malevolent Gladiator's Ring of Accuracy
+				{ 920,  84826 },                                                    -- Malevolent Gladiator's Ring of Cruelty
+				{ 921,  84829 },                                                    -- Malevolent Gladiator's Signet of Accuracy
+				{ 922,  84828 },                                                    -- Malevolent Gladiator's Signet of Cruelty
 				{ 1001, 89317,                                  [QUEST_EXTRA_ITTYPE] = 31809 }, -- Claw of Anger
-				{ 1002, 90911 },                   -- Furyheart Treads
-				{ 1003, 90913 },                   -- Sandals of the Shadow
-				{ 1004, 90914 },                   -- Boots of Raging Haze
-				{ 1005, 90908 },                   -- Crushing Treads of Anger
-				{ 1006, 90907 },                   -- Boots of Unbreakable Umbrage
-				{ 1007, 90906 },                   -- Treads of Ardent Antagonism
-				{ 1008, 90912 },                   -- Angerforged Stompers
-				{ 1009, 90909 },                   -- Intemperate Greatboots
-				{ 1010, 90910 },                   -- Mindfire Sollerets
-				{ 1016, 87771,                                  "mount" }, -- Reins of the Heavenly Onyx Cloud Serpent
-				{ 1017, 90839 },                   -- Cache of Sha-Touched Gold
+				{ 1002, 90911 },                                                    -- Furyheart Treads
+				{ 1003, 90913 },                                                    -- Sandals of the Shadow
+				{ 1004, 90914 },                                                    -- Boots of Raging Haze
+				{ 1005, 90908 },                                                    -- Crushing Treads of Anger
+				{ 1006, 90907 },                                                    -- Boots of Unbreakable Umbrage
+				{ 1007, 90906 },                                                    -- Treads of Ardent Antagonism
+				{ 1008, 90912 },                                                    -- Angerforged Stompers
+				{ 1009, 90909 },                                                    -- Intemperate Greatboots
+				{ 1010, 90910 },                                                    -- Mindfire Sollerets
+				{ 1016, 87771,                                  "mount" },          -- Reins of the Heavenly Onyx Cloud Serpent
+				{ 1017, 90839 },                                                    -- Cache of Sha-Touched Gold
 				{ 1019, "ac6480" },
 			},
 		},
@@ -2912,89 +2911,89 @@ data["SiegeofOrgrimmar"] = {
 				{ 26, 112940 }, -- Revelations of Y'Shaarj
 			},
 			[NORMAL_SOO_DIFF] = {
-				{ 1,   112937 },                         -- Ebon Ritual Hood
-				{ 2,   112936 },                         -- Belt of the Broken Pact
-				{ 3,   112926 },                         -- Kor'kron Elite Skullmask
-				{ 4,   112942 },                         -- Hopeglow Spaulders
-				{ 5,   112929 },                         -- Cord of Black Dreams
-				{ 6,   112941 },                         -- Seal of Karmic Return
-				{ 7,   112943 },                         -- Cowl of Smoking Dreams
-				{ 8,   112930 },                         -- Penetrating Gaze of Y'Shaarj
-				{ 9,   112927 },                         -- Shoulderguards of Intended Power
-				{ 10,  112931 },                         -- Chestguard of Relentless Tyranny
-				{ 11,  112928 },                         -- Greathelm of the Warchief
-				{ 12,  112945 },                         -- Mantle of Looming Darkness
-				{ 13,  112934 },                         -- Spaulders of the Fallen Warchief
-				{ 14,  112944 },                         -- Chestplate of Fallen Passion
-				{ 15,  112933 },                         -- Legplates of Unthinking Strife
-				{ 16,  105864 },                         -- Essence of the Cursed Conqueror
-				{ 17,  105863 },                         -- Essence of the Cursed Protector
-				{ 18,  105865 },                         -- Essence of the Cursed Vanquisher
-				{ 20,  112938 },                         -- Black Blood of Y'Shaarj
-				{ 21,  112924 },                         -- Curse of Hubris
-				{ 23,  112939 },                         -- Horned Mace of the Old Ones
-				{ 24,  112932 },                         -- Kor'kron Spire of Supremacy
-				{ 25,  112925 },                         -- Xal'atoh, Desecrated Image of Gorehowl
-				{ 26,  112940 },                         -- Revelations of Y'Shaarj
-				{ 101, 105672 },                         -- Hellscream's Cleaver
-				{ 102, 105679 },                         -- Hellscream's Decapitator
-				{ 103, 105678 },                         -- Hellscream's Doomblade
-				{ 104, 105673 },                         -- Hellscream's Pig Sticker
-				{ 105, 105671 },                         -- Hellscream's Razor
-				{ 106, 105677 },                         -- Hellscream's War Staff
-				{ 107, 105670 },                         -- Hellscream's Warbow
-				{ 108, 105675 },                         -- Hellscream's Warmace
-				{ 109, 105674 },                         -- Hellscream's Barrier
-				{ 110, 105680 },                         -- Hellscream's Shield Wall
+				{ 1,   112937 },                          -- Ebon Ritual Hood
+				{ 2,   112936 },                          -- Belt of the Broken Pact
+				{ 3,   112926 },                          -- Kor'kron Elite Skullmask
+				{ 4,   112942 },                          -- Hopeglow Spaulders
+				{ 5,   112929 },                          -- Cord of Black Dreams
+				{ 6,   112941 },                          -- Seal of Karmic Return
+				{ 7,   112943 },                          -- Cowl of Smoking Dreams
+				{ 8,   112930 },                          -- Penetrating Gaze of Y'Shaarj
+				{ 9,   112927 },                          -- Shoulderguards of Intended Power
+				{ 10,  112931 },                          -- Chestguard of Relentless Tyranny
+				{ 11,  112928 },                          -- Greathelm of the Warchief
+				{ 12,  112945 },                          -- Mantle of Looming Darkness
+				{ 13,  112934 },                          -- Spaulders of the Fallen Warchief
+				{ 14,  112944 },                          -- Chestplate of Fallen Passion
+				{ 15,  112933 },                          -- Legplates of Unthinking Strife
+				{ 16,  105864 },                          -- Essence of the Cursed Conqueror
+				{ 17,  105863 },                          -- Essence of the Cursed Protector
+				{ 18,  105865 },                          -- Essence of the Cursed Vanquisher
+				{ 20,  112938 },                          -- Black Blood of Y'Shaarj
+				{ 21,  112924 },                          -- Curse of Hubris
+				{ 23,  112939 },                          -- Horned Mace of the Old Ones
+				{ 24,  112932 },                          -- Kor'kron Spire of Supremacy
+				{ 25,  112925 },                          -- Xal'atoh, Desecrated Image of Gorehowl
+				{ 26,  112940 },                          -- Revelations of Y'Shaarj
+				{ 101, 105672 },                          -- Hellscream's Cleaver
+				{ 102, 105679 },                          -- Hellscream's Decapitator
+				{ 103, 105678 },                          -- Hellscream's Doomblade
+				{ 104, 105673 },                          -- Hellscream's Pig Sticker
+				{ 105, 105671 },                          -- Hellscream's Razor
+				{ 106, 105677 },                          -- Hellscream's War Staff
+				{ 107, 105670 },                          -- Hellscream's Warbow
+				{ 108, 105675 },                          -- Hellscream's Warmace
+				{ 109, 105674 },                          -- Hellscream's Barrier
+				{ 110, 105680 },                          -- Hellscream's Shield Wall
 				{ 111, 105676,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Hellscream's Tome of Destruction
 				{ 116, "ac8537" },
 			},
 			[HEROIC_SOO_DIFF] = {
 				GetItemsFromDiff = NORMAL_SOO_DIFF,
-				{ 14,  112935 },                                    -- Tusks of Mannoroth
-				{ 15,  112944 },                                    -- Chestplate of Fallen Passion
-				{ 16,  112933 },                                    -- Legplates of Unthinking Strife
+				{ 14,  112935 },                                                                                     -- Tusks of Mannoroth
+				{ 15,  112944 },                                                                                     -- Chestplate of Fallen Passion
+				{ 16,  112933 },                                                                                     -- Legplates of Unthinking Strife
 				{ 17,  nil },
-				{ 18,  "105858:0",                         false }, -- Essence of the Cursed Conqueror
-				{ 19,  "105857:0",                         false }, -- Essence of the Cursed Protector
-				{ 20,  "105859:0",                         false }, -- Essence of the Cursed Vanquisher
+				{ 18,  "105858:0",                         false },                                                  -- Essence of the Cursed Conqueror
+				{ 19,  "105857:0",                         false },                                                  -- Essence of the Cursed Protector
+				{ 20,  "105859:0",                         false },                                                  -- Essence of the Cursed Vanquisher
 				{ 21,  nil },
-				{ 22,  112938 },                                    -- Black Blood of Y'Shaarj
-				{ 23,  112924 },                                    -- Curse of Hubris
+				{ 22,  112938 },                                                                                     -- Black Blood of Y'Shaarj
+				{ 23,  112924 },                                                                                     -- Curse of Hubris
 				{ 24,  nil },
-				{ 25,  112939 },                                    -- Horned Mace of the Old Ones
-				{ 26,  112932 },                                    -- Kor'kron Spire of Supremacy
-				{ 27,  112925 },                                    -- Xal'atoh, Desecrated Image of Gorehowl
-				{ 28,  112940 },                                    -- Revelations of Y'Shaarj
-				{ 101, "104404:0",                         false }, -- Hellscream's Cleaver
-				{ 102, "104405:0",                         false }, -- Hellscream's Decapitator
-				{ 103, "104401:0",                         false }, -- Hellscream's Doomblade
-				{ 104, "104403:0",                         false }, -- Hellscream's Pig Sticker
-				{ 105, "104400:0",                         false }, -- Hellscream's Razor
-				{ 106, "104406:0",                         false }, -- Hellscream's War Staff
-				{ 107, "104399:0",                         false }, -- Hellscream's Warbow
-				{ 108, "104402:0",                         false }, -- Hellscream's Warmace
-				{ 109, "104409:0",                         false }, -- Hellscream's Barrier
-				{ 110, "104407:0",                         false }, -- Hellscream's Shield Wall
+				{ 25,  112939 },                                                                                     -- Horned Mace of the Old Ones
+				{ 26,  112932 },                                                                                     -- Kor'kron Spire of Supremacy
+				{ 27,  112925 },                                                                                     -- Xal'atoh, Desecrated Image of Gorehowl
+				{ 28,  112940 },                                                                                     -- Revelations of Y'Shaarj
+				{ 101, "104404:0",                         false },                                                  -- Hellscream's Cleaver
+				{ 102, "104405:0",                         false },                                                  -- Hellscream's Decapitator
+				{ 103, "104401:0",                         false },                                                  -- Hellscream's Doomblade
+				{ 104, "104403:0",                         false },                                                  -- Hellscream's Pig Sticker
+				{ 105, "104400:0",                         false },                                                  -- Hellscream's Razor
+				{ 106, "104406:0",                         false },                                                  -- Hellscream's War Staff
+				{ 107, "104399:0",                         false },                                                  -- Hellscream's Warbow
+				{ 108, "104402:0",                         false },                                                  -- Hellscream's Warmace
+				{ 109, "104409:0",                         false },                                                  -- Hellscream's Barrier
+				{ 110, "104407:0",                         false },                                                  -- Hellscream's Shield Wall
 				{ 111, "104408:0",                         false,                          [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Hellscream's Tome of Destruction
 				{ 117, [ATLASLOOT_IT_ALLIANCE] = "ac8679", [ATLASLOOT_IT_HORDE] = "ac8680" },
 			},
 			[MYTHIC_SOO_DIFF] = {
 				GetItemsFromDiff = HEROIC_SOO_DIFF,
-				{ 18,  "105867:0", false },                         -- Essence of the Cursed Conqueror
-				{ 19,  "105866:0", false },                         -- Essence of the Cursed Protector
-				{ 20,  "105868:0", false },                         -- Essence of the Cursed Vanquisher
-				{ 30,  "104253:0", "mount" },                       -- Kor'kron Juggernaut
-				{ 101, "105685:0", false },                         -- Hellscream's Cleaver
-				{ 102, "105692:0", false },                         -- Hellscream's Decapitator
-				{ 103, "105691:0", false },                         -- Hellscream's Doomblade
-				{ 104, "105686:0", false },                         -- Hellscream's Pig Sticker
-				{ 105, "105684:0", false },                         -- Hellscream's Razor
-				{ 106, "105690:0", false },                         -- Hellscream's War Staff
-				{ 107, "105683:0", false },                         -- Hellscream's Warbow
-				{ 108, "105688:0", false },                         -- Hellscream's Warmace
-				{ 109, "105687:0", false },                         -- Hellscream's Barrier
-				{ 110, "105693:0", false },                         -- Hellscream's Shield Wall
+				{ 18,  "105867:0", false },                          -- Essence of the Cursed Conqueror
+				{ 19,  "105866:0", false },                          -- Essence of the Cursed Protector
+				{ 20,  "105868:0", false },                          -- Essence of the Cursed Vanquisher
+				{ 30,  "104253:0", "mount" },                        -- Kor'kron Juggernaut
+				{ 101, "105685:0", false },                          -- Hellscream's Cleaver
+				{ 102, "105692:0", false },                          -- Hellscream's Decapitator
+				{ 103, "105691:0", false },                          -- Hellscream's Doomblade
+				{ 104, "105686:0", false },                          -- Hellscream's Pig Sticker
+				{ 105, "105684:0", false },                          -- Hellscream's Razor
+				{ 106, "105690:0", false },                          -- Hellscream's War Staff
+				{ 107, "105683:0", false },                          -- Hellscream's Warbow
+				{ 108, "105688:0", false },                          -- Hellscream's Warmace
+				{ 109, "105687:0", false },                          -- Hellscream's Barrier
+				{ 110, "105693:0", false },                          -- Hellscream's Shield Wall
 				{ 111, "105689:0", false,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Hellscream's Tome of Destruction
 				{ 118, "ac8482" },
 			},
@@ -3338,32 +3337,32 @@ data["TerraceofEndlessSpring"] = {
 				{ 18, 89273 },                         -- Helm of the Shadowy Vanquisher
 			},
 			[NORMAL_RAID_DIFF] = {
-				{ 1,  89887 },                         -- Robes of Pinioned Eyes
-				{ 2,  86389 },                         -- Dreadwoven Leggings of Failure
-				{ 3,  89886 },                         -- Wrap of Instant Petrification
-				{ 4,  89839 },                         -- Shadowgrip Girdle
-				{ 6,  86388 },                         -- Essence of Terror
-				{ 8,  86387 },                         -- Kilrak, Jaws of Terror
-				{ 9,  86386 },                         -- Shin'ka, Execution of Dominion
+				{ 1,  89887 },                           -- Robes of Pinioned Eyes
+				{ 2,  86389 },                           -- Dreadwoven Leggings of Failure
+				{ 3,  89886 },                           -- Wrap of Instant Petrification
+				{ 4,  89839 },                           -- Shadowgrip Girdle
+				{ 6,  86388 },                           -- Essence of Terror
+				{ 8,  86387 },                           -- Kilrak, Jaws of Terror
+				{ 9,  86386 },                           -- Shin'ka, Execution of Dominion
 				{ 11, 87210,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Chimera of Fear
-				{ 16, 89235 },                         -- Helm of the Shadowy Conqueror
-				{ 17, 89236 },                         -- Helm of the Shadowy Protector
-				{ 18, 89234 },                         -- Helm of the Shadowy Vanquisher
+				{ 16, 89235 },                           -- Helm of the Shadowy Conqueror
+				{ 17, 89236 },                           -- Helm of the Shadowy Protector
+				{ 18, 89234 },                           -- Helm of the Shadowy Vanquisher
 				{ 20, "ac6926" },
 				{ 21, "ac6825" },
 			},
 			[HEROIC_RAID_DIFF] = {
-				{ 1,  89949 },                         -- Robes of Pinioned Eyes
-				{ 2,  87174 },                         -- Dreadwoven Leggings of Failure
-				{ 3,  89950 },                         -- Wrap of Instant Petrification
-				{ 4,  89951 },                         -- Shadowgrip Girdle
-				{ 6,  87175 },                         -- Essence of Terror
-				{ 8,  87173 },                         -- Kilrak, Jaws of Terror
-				{ 9,  87176 },                         -- Shin'ka, Execution of Dominion
+				{ 1,  89949 },                           -- Robes of Pinioned Eyes
+				{ 2,  87174 },                           -- Dreadwoven Leggings of Failure
+				{ 3,  89950 },                           -- Wrap of Instant Petrification
+				{ 4,  89951 },                           -- Shadowgrip Girdle
+				{ 6,  87175 },                           -- Essence of Terror
+				{ 8,  87173 },                           -- Kilrak, Jaws of Terror
+				{ 9,  87176 },                           -- Shin'ka, Execution of Dominion
 				{ 11, 87210,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Chimera of Fear
-				{ 16, 89259 },                         -- Helm of the Shadowy Conqueror
-				{ 17, 89260 },                         -- Helm of the Shadowy Protector
-				{ 18, 89258 },                         -- Helm of the Shadowy Vanquisher
+				{ 16, 89259 },                           -- Helm of the Shadowy Conqueror
+				{ 17, 89260 },                           -- Helm of the Shadowy Protector
+				{ 18, 89258 },                           -- Helm of the Shadowy Vanquisher
 				{ 20, "ac6734" },
 				{ 21, "ac6926" },
 				{ 22, "ac6825" },
@@ -3769,9 +3768,9 @@ data["ThroneofThunder"] = {
 				{ 8,  94807,   96097 }, -- Egg-Shard Grips
 				{ 10, 95059,   "mount" }, -- Clutch of Ji-Kun
 				{ 11, 94835,   "pet1202" }, -- Ji-Kun Hatchling
-				{ 16, 95576 }, -- Leggings of the Crackling Conqueror
-				{ 17, 95581 }, -- Leggings of the Crackling Protector
-				{ 18, 95572 }, -- Leggings of the Crackling Vanquisher
+				{ 16, 95576 },  -- Leggings of the Crackling Conqueror
+				{ 17, 95581 },  -- Leggings of the Crackling Protector
+				{ 18, 95572 },  -- Leggings of the Crackling Vanquisher
 				{ 20, 94515,   96098 }, -- Fabled Feather of Ji-Kun
 				{ 21, 94527,   96099 }, -- Ji-Kun's Rising Winds
 				{ 23, 94805,   96092 }, -- Giorgio's Caduceus of Pure Moods
@@ -3788,9 +3787,9 @@ data["ThroneofThunder"] = {
 				{ 8,  96469,   96841 }, -- Egg-Shard Grips
 				{ 10, 95059,   "mount" }, -- Clutch of Ji-Kun
 				{ 11, 94835,   "pet1202" }, -- Ji-Kun Hatchling
-				{ 16, 96632 }, -- Leggings of the Crackling Conqueror
-				{ 17, 96633 }, -- Leggings of the Crackling Protector
-				{ 18, 96631 }, -- Leggings of the Crackling Vanquisher
+				{ 16, 96632 },  -- Leggings of the Crackling Conqueror
+				{ 17, 96633 },  -- Leggings of the Crackling Protector
+				{ 18, 96631 },  -- Leggings of the Crackling Vanquisher
 				{ 20, 96470,   96842 }, -- Fabled Feather of Ji-Kun
 				{ 21, 96471,   96843 }, -- Ji-Kun's Rising Winds
 				{ 23, 96464,   96836 }, -- Giorgio's Caduceus of Pure Moods
@@ -3977,9 +3976,9 @@ data["ThroneofThunder"] = {
 				{ 8,  94961,   96141 }, -- Gore-Soaked Gear
 				{ 9,  94531,   96144 }, -- Cha-Ye's Essence of Brilliance
 				{ 10, 94518,   96151 }, -- Delicate Vial of the Sanguinaire
-				{ 16, 95574 }, -- Chest of the Crackling Conqueror
-				{ 17, 95579 }, -- Chest of the Crackling Protector
-				{ 18, 95569 }, -- Chest of the Crackling Vanquisher
+				{ 16, 95574 },  -- Chest of the Crackling Conqueror
+				{ 17, 95579 },  -- Chest of the Crackling Protector
+				{ 18, 95569 },  -- Chest of the Crackling Vanquisher
 				{ 20, 94955,   96146 }, -- Athame of the Sanguine Ritual
 				{ 21, 94954,   96142 }, -- Hand of the Dark Animus
 				{ 23, 94152,   "pet1183" }, -- Son of Animus
@@ -3995,9 +3994,9 @@ data["ThroneofThunder"] = {
 				{ 8,  96513,   96885 }, -- Gore-Soaked Gear
 				{ 9,  96516,   96888 }, -- Cha-Ye's Essence of Brilliance
 				{ 10, 96523,   96895 }, -- Delicate Vial of the Sanguinaire
-				{ 16, 96567 }, -- Chest of the Crackling Conqueror
-				{ 17, 96568 }, -- Chest of the Crackling Protector
-				{ 18, 96566 }, -- Chest of the Crackling Vanquisher
+				{ 16, 96567 },  -- Chest of the Crackling Conqueror
+				{ 17, 96568 },  -- Chest of the Crackling Protector
+				{ 18, 96566 },  -- Chest of the Crackling Vanquisher
 				{ 20, 96518,   96890 }, -- Athame of the Sanguine Ritual
 				{ 21, 96514,   96886 }, -- Hand of the Dark Animus
 				{ 23, 94152,   "pet1183" }, -- Son of Animus
@@ -4139,51 +4138,51 @@ data["ThroneofThunder"] = {
 				{ 26, 95818 },                         -- Lei Shen's Orb of Command
 			},
 			[NORMAL_RAID_DIFF] = {
-				{ 1,  94993,   96185 },                -- Gloves of the Maimed Vizier
-				{ 2,  94990,   96184 },                -- Legwraps of Cardinality
-				{ 3,  94987,   96176 },                -- Fusion Slasher Chestguard
-				{ 4,  94991,   96191 },                -- Grips of Slicing Electricity
-				{ 5,  94986,   96177 },                -- Conduit-Breaker Chain Leggings
-				{ 6,  94992,   96192 },                -- Leggings of the Violent Gale
-				{ 7,  94984,   96178 },                -- Doomed Crown of Lei Shen
-				{ 8,  94989,   96193 },                -- Lei Shen's Grounded Carapace
-				{ 9,  95535,   96179 },                -- Legplates of the Lightning Throne
-				{ 10, 94985,   96180 },                -- Legplates of Whipping Ionization
+				{ 1,  94993,   96185 },                  -- Gloves of the Maimed Vizier
+				{ 2,  94990,   96184 },                  -- Legwraps of Cardinality
+				{ 3,  94987,   96176 },                  -- Fusion Slasher Chestguard
+				{ 4,  94991,   96191 },                  -- Grips of Slicing Electricity
+				{ 5,  94986,   96177 },                  -- Conduit-Breaker Chain Leggings
+				{ 6,  94992,   96192 },                  -- Leggings of the Violent Gale
+				{ 7,  94984,   96178 },                  -- Doomed Crown of Lei Shen
+				{ 8,  94989,   96193 },                  -- Lei Shen's Grounded Carapace
+				{ 9,  95535,   96179 },                  -- Legplates of the Lightning Throne
+				{ 10, 94985,   96180 },                  -- Legplates of Whipping Ionization
 				{ 12, 94867,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Heart of the Thunder King
-				{ 16, 94994,   96188 },                -- Soul Prism of Lei Shen
-				{ 17, 94530,   96189 },                -- Lightning-Imbued Chalice
-				{ 18, 94532,   96174 },                -- Rune of Re-Origination
-				{ 19, 94528,   96183 },                -- Soul Barrier
-				{ 20, 94524,   96186 },                -- Unerring Vision of Lei Shen
-				{ 22, 94983,   96175 },                -- Shan-Dun, Breaker of Hope
-				{ 23, 94988,   96187 },                -- Torall, Rod of the Shattered Throne
-				{ 24, 94982,   96181 },                -- Uroe, Harbinger of Terror
-				{ 25, 95472,   96182 },                -- Ultimate Protection of the Emperor
-				{ 26, 95473,   96190 },                -- Lei Shen's Orb of Command
+				{ 16, 94994,   96188 },                  -- Soul Prism of Lei Shen
+				{ 17, 94530,   96189 },                  -- Lightning-Imbued Chalice
+				{ 18, 94532,   96174 },                  -- Rune of Re-Origination
+				{ 19, 94528,   96183 },                  -- Soul Barrier
+				{ 20, 94524,   96186 },                  -- Unerring Vision of Lei Shen
+				{ 22, 94983,   96175 },                  -- Shan-Dun, Breaker of Hope
+				{ 23, 94988,   96187 },                  -- Torall, Rod of the Shattered Throne
+				{ 24, 94982,   96181 },                  -- Uroe, Harbinger of Terror
+				{ 25, 95472,   96182 },                  -- Ultimate Protection of the Emperor
+				{ 26, 95473,   96190 },                  -- Lei Shen's Orb of Command
 				{ 28, "ac8090" },
 			},
 			[HEROIC_RAID_DIFF] = {
-				{ 1,  96557,   96929 },                -- Gloves of the Maimed Vizier
-				{ 2,  96556,   96928 },                -- Legwraps of Cardinality
-				{ 3,  96548,   96920 },                -- Fusion Slasher Chestguard
-				{ 4,  96563,   96935 },                -- Grips of Slicing Electricity
-				{ 5,  96549,   96921 },                -- Conduit-Breaker Chain Leggings
-				{ 6,  96564,   96936 },                -- Leggings of the Violent Gale
-				{ 7,  96550,   96922 },                -- Doomed Crown of Lei Shen
-				{ 8,  96565,   96937 },                -- Lei Shen's Grounded Carapace
-				{ 9,  96551,   96923 },                -- Legplates of the Lightning Throne
-				{ 10, 96552,   96924 },                -- Legplates of Whipping Ionization
+				{ 1,  96557,   96929 },                  -- Gloves of the Maimed Vizier
+				{ 2,  96556,   96928 },                  -- Legwraps of Cardinality
+				{ 3,  96548,   96920 },                  -- Fusion Slasher Chestguard
+				{ 4,  96563,   96935 },                  -- Grips of Slicing Electricity
+				{ 5,  96549,   96921 },                  -- Conduit-Breaker Chain Leggings
+				{ 6,  96564,   96936 },                  -- Leggings of the Violent Gale
+				{ 7,  96550,   96922 },                  -- Doomed Crown of Lei Shen
+				{ 8,  96565,   96937 },                  -- Lei Shen's Grounded Carapace
+				{ 9,  96551,   96923 },                  -- Legplates of the Lightning Throne
+				{ 10, 96552,   96924 },                  -- Legplates of Whipping Ionization
 				{ 12, 94867,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Heart of the Thunder King
-				{ 16, 96560,   96932 },                -- Soul Prism of Lei Shen
-				{ 17, 96561,   96933 },                -- Lightning-Imbued Chalice
-				{ 18, 96546,   96918 },                -- Rune of Re-Origination
-				{ 19, 96555,   96927 },                -- Soul Barrier
-				{ 20, 96558,   96930 },                -- Unerring Vision of Lei Shen
-				{ 22, 96547,   96919 },                -- Shan-Dun, Breaker of Hope
-				{ 23, 96559,   96931 },                -- Torall, Rod of the Shattered Throne
-				{ 24, 96553,   96925 },                -- Uroe, Harbinger of Terror
-				{ 25, 96554,   96926 },                -- Ultimate Protection of the Emperor
-				{ 26, 96562,   96934 },                -- Lei Shen's Orb of Command
+				{ 16, 96560,   96932 },                  -- Soul Prism of Lei Shen
+				{ 17, 96561,   96933 },                  -- Lightning-Imbued Chalice
+				{ 18, 96546,   96918 },                  -- Rune of Re-Origination
+				{ 19, 96555,   96927 },                  -- Soul Barrier
+				{ 20, 96558,   96930 },                  -- Unerring Vision of Lei Shen
+				{ 22, 96547,   96919 },                  -- Shan-Dun, Breaker of Hope
+				{ 23, 96559,   96931 },                  -- Torall, Rod of the Shattered Throne
+				{ 24, 96553,   96925 },                  -- Uroe, Harbinger of Terror
+				{ 25, 96554,   96926 },                  -- Ultimate Protection of the Emperor
+				{ 26, 96562,   96934 },                  -- Lei Shen's Orb of Command
 				{ 28, "ac8067" },
 				{ 29, "ac8090" },
 			},

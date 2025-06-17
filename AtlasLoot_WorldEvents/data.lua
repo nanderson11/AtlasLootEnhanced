@@ -16,7 +16,6 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
 
@@ -877,7 +876,7 @@ data["LoveisintheAir"] = {
 	ContentType = SEASONALEVENTS_CONTENT,
 	items = {
 		{ --LoveisintheAirTrio
-			name = BB["Apothecary Hummel"].." ("..ALIL["Shadowfang Keep"]..")",
+			name = AL["Apothecary Hummel"].." ("..ALIL["Shadowfang Keep"]..")",
 			[NORMAL_DIFF] = {
 				{ 1,  "117369:12068" }, -- Choker of the Pure Heart
 				{ 2,  "117366:12068" }, -- Heartbreak Charm
@@ -949,30 +948,30 @@ data["LoveisintheAir"] = {
 		{ --LoveisintheAirMisc
 			name = AL["Miscellaneous"],
 			[NORMAL_DIFF] = {
-				{ 1,  116651, "ac9394" },                             -- True Love Prism
+				{ 1,  116651, "ac9394" },                                                        -- True Love Prism
 				{ 3,  50160,  "ac1694",                             [PRICE_EXTRA_ITTYPE] = "lovetoken:20" }, -- Lovely Dress Box
-				{ 4,  22279 },                                        -- Lovely Black Dress
-				{ 5,  22278 },                                        -- Lovely Blue Dress
-				{ 6,  22276 },                                        -- Lovely Red Dress
-				{ 7,  22280 },                                        -- Lovely Purple Dress
-				{ 9,  50161,  [PRICE_EXTRA_ITTYPE] = "lovetoken:20" }, -- Dinner Suit Box
-				{ 10, 22281 },                                        -- Blue Dinner Suit
-				{ 11, 22282 },                                        -- Purple Dinner Suit
-				{ 12, 22277 },                                        -- Red Dinner Suit
+				{ 4,  22279 },                                                                   -- Lovely Black Dress
+				{ 5,  22278 },                                                                   -- Lovely Blue Dress
+				{ 6,  22276 },                                                                   -- Lovely Red Dress
+				{ 7,  22280 },                                                                   -- Lovely Purple Dress
+				{ 9,  50161,  [PRICE_EXTRA_ITTYPE] = "lovetoken:20" },                           -- Dinner Suit Box
+				{ 10, 22281 },                                                                   -- Blue Dinner Suit
+				{ 11, 22282 },                                                                   -- Purple Dinner Suit
+				{ 12, 22277 },                                                                   -- Red Dinner Suit
 				{ 16, 49909,  "ac1702",                             [PRICE_EXTRA_ITTYPE] = "lovetoken:10" }, -- Box of Chocolates
-				{ 17, 22237 },                                        -- Dark Desire
-				{ 18, 22238 },                                        -- Very Berry Cream
-				{ 19, 22236 },                                        -- Buttermilk Delight
-				{ 20, 22239 },                                        -- Sweet Surprise
+				{ 17, 22237 },                                                                   -- Dark Desire
+				{ 18, 22238 },                                                                   -- Very Berry Cream
+				{ 19, 22236 },                                                                   -- Buttermilk Delight
+				{ 20, 22239 },                                                                   -- Sweet Surprise
 				{ 22, 21813,  "ac1701",                             [PRICE_EXTRA_ITTYPE] = "lovetoken:2" }, -- Bag of Heart Candies
-				{ 23, 21816 },                                        -- Heart Candy
-				{ 24, 21817 },                                        -- Heart Candy
-				{ 25, 21818 },                                        -- Heart Candy
-				{ 26, 21819 },                                        -- Heart Candy
-				{ 27, 21820 },                                        -- Heart Candy
-				{ 28, 21821 },                                        -- Heart Candy
-				{ 29, 21822 },                                        -- Heart Candy
-				{ 30, 21823 },                                        -- Heart Candy
+				{ 23, 21816 },                                                                   -- Heart Candy
+				{ 24, 21817 },                                                                   -- Heart Candy
+				{ 25, 21818 },                                                                   -- Heart Candy
+				{ 26, 21819 },                                                                   -- Heart Candy
+				{ 27, 21820 },                                                                   -- Heart Candy
+				{ 28, 21821 },                                                                   -- Heart Candy
+				{ 29, 21822 },                                                                   -- Heart Candy
+				{ 30, 21823 },                                                                   -- Heart Candy
 			},
 		},
 	}
@@ -1158,7 +1157,7 @@ data["MidsummerFireFestival"] = {
 	ContentType = SEASONALEVENTS_CONTENT,
 	items = {
 		{ --MidsummerFireFestivalAhune
-			name = BB["Ahune"].." ("..ALIL["The Slave Pens"]..")",
+			name = AL["Ahune"].." ("..ALIL["The Slave Pens"]..")",
 			[NORMAL_DIFF] = {
 				{ 1,  "117372:1800" },                  -- Cloak of the Frigid Winds
 				{ 2,  "117374:1800" },                  -- Icebound Cloak
@@ -1239,7 +1238,7 @@ data["Brewfest"] = {
 	ContentType = SEASONALEVENTS_CONTENT,
 	items = {
 		{ --BrewfestCorenDirebrew
-			name = BB["Coren Direbrew"].." ("..ALIL["Blackrock Depths"]..")",
+			name = AL["Coren Direbrew"].." ("..ALIL["Blackrock Depths"]..")",
 			[NORMAL_DIFF] = {
 				{ 1,  "117361:1800" },                                     -- Bitterest Balebrew Charm
 				{ 2,  "117357:1800" },                                     -- Brawler's Statue
@@ -1346,7 +1345,7 @@ data["HallowsEnd"] = {
 	ContentType = SEASONALEVENTS_CONTENT,
 	items = {
 		{ --Hallows End Headless Horseman
-			name = BB["Headless Horseman"].." ("..ALIL["Scarlet Monastery"]..")",
+			name = AL["Headless Horseman"].." ("..ALIL["Scarlet Monastery"]..")",
 			[NORMAL_DIFF] = {
 				{ 1,  "117363:3493" }, -- Band of the Petrified Pumpkin
 				{ 2,  "117364:3493" }, -- Seal of Ghoulish Glee

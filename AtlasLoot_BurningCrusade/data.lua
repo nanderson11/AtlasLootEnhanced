@@ -26,7 +26,6 @@ local ADD_SCALING = {
 
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
@@ -134,16 +133,16 @@ data["AuchAuchenaiCrypts"] = {
 				{ 16, "ac666" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29354 },                         -- Light-Touched Stole of Altruism
-				{ 2,  29257 },                         -- Sash of Arcane Visions
-				{ 3,  29244 },                         -- Wave-Song Girdle
-				{ 5,  27867 },                         -- Boots of the Unjust
-				{ 6,  27871 },                         -- Maladaar's Blessed Chaplet
-				{ 7,  27869 },                         -- Soulpriest's Ring of Resolve
-				{ 8,  27523 },                         -- Exarch's Diamond Band
-				{ 9,  27872 },                         -- The Harvester of Souls
+				{ 1,  29354 },                          -- Light-Touched Stole of Altruism
+				{ 2,  29257 },                          -- Sash of Arcane Visions
+				{ 3,  29244 },                          -- Wave-Song Girdle
+				{ 5,  27867 },                          -- Boots of the Unjust
+				{ 6,  27871 },                          -- Maladaar's Blessed Chaplet
+				{ 7,  27869 },                          -- Soulpriest's Ring of Resolve
+				{ 8,  27523 },                          -- Exarch's Diamond Band
+				{ 9,  27872 },                          -- The Harvester of Souls
 				{ 11, 33836,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Exarch's Soul Gem
-				{ 13, 27870 },                         -- Doomplate Legguards
+				{ 13, 27870 },                          -- Doomplate Legguards
 				{ 16, 30587,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Champion's Fire Opal
 				{ 17, 30588,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Potent Fire Opal
 				{ 18, 30586,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Purified Tanzanite
@@ -216,28 +215,28 @@ data["HCHellfireRamparts"] = {
 		{ --HCRampOmor
 			EncounterJournalID = 528,
 			[NORMAL_DIFF] = {
-				{ 1,  24090 },                        -- Bloodstained Ravager Gauntlets
-				{ 2,  24091 },                        -- Tenacious Defender
-				{ 3,  24073 },                        -- Garrote-String Necklace
-				{ 4,  24096 },                        -- Heartblood Prayer Beads
-				{ 5,  24094 },                        -- Heart Fire Warhammer
-				{ 6,  24069 },                        -- Crystalfire Staff
+				{ 1,  24090 },                          -- Bloodstained Ravager Gauntlets
+				{ 2,  24091 },                          -- Tenacious Defender
+				{ 3,  24073 },                          -- Garrote-String Necklace
+				{ 4,  24096 },                          -- Heartblood Prayer Beads
+				{ 5,  24094 },                          -- Heart Fire Warhammer
+				{ 6,  24069 },                          -- Crystalfire Staff
 				{ 8,  23886,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Omor's Hoof
 				{ 16, "ac647" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  27466 },                         -- Headdress of Alacrity
-				{ 2,  27462 },                         -- Crimson Bracers of Gloom
-				{ 3,  27467 },                         -- Silent-Strider Kneeboots
-				{ 4,  27478 },                         -- Girdle of the Blasted Reaches
-				{ 5,  27539 },                         -- Justice Bearer's Pauldrons
-				{ 6,  27906 },                         -- Crimsonforge Breastplate
-				{ 8,  27464 },                         -- Omor's Unyielding Will
-				{ 9,  27895 },                         -- Band of Many Prisms
-				{ 11, 27463 },                         -- Terror Flame Dagger
-				{ 12, 27476 },                         -- Truncheon of Five Hells
-				{ 13, 27477 },                         -- Faol's Signet of Cleansing
-				{ 15, 27465 },                         -- Mana-Etched Gloves
+				{ 1,  27466 },                          -- Headdress of Alacrity
+				{ 2,  27462 },                          -- Crimson Bracers of Gloom
+				{ 3,  27467 },                          -- Silent-Strider Kneeboots
+				{ 4,  27478 },                          -- Girdle of the Blasted Reaches
+				{ 5,  27539 },                          -- Justice Bearer's Pauldrons
+				{ 6,  27906 },                          -- Crimsonforge Breastplate
+				{ 8,  27464 },                          -- Omor's Unyielding Will
+				{ 9,  27895 },                          -- Band of Many Prisms
+				{ 11, 27463 },                          -- Terror Flame Dagger
+				{ 12, 27476 },                          -- Truncheon of Five Hells
+				{ 13, 27477 },                          -- Faol's Signet of Cleansing
+				{ 15, 27465 },                          -- Mana-Etched Gloves
 				{ 16, 30593,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Potent Fire Opal
 				{ 17, 30594,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Regal Chrysoprase
 				{ 18, 30592,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Steady Chrysoprase
@@ -247,43 +246,43 @@ data["HCHellfireRamparts"] = {
 		{ --HCRampVazruden
 			EncounterJournalID = 529,
 			[NORMAL_DIFF] = {
-				{ 1,  24150 },                                -- Mok'Nathal Wildercloak
-				{ 2,  24083 },                                -- Lifegiver Britches
-				{ 3,  24063 },                                -- Shifting Sash of Midnight
-				{ 4,  24046 },                                -- Kilt of Rolling Thunders
-				{ 5,  24064 },                                -- Ironsole Clompers
-				{ 6,  24045 },                                -- Band of Renewal
-				{ 7,  24154 },                                -- Witching Band
-				{ 8,  24151 },                                -- Mok'Nathal Clan Ring
-				{ 9,  24044 },                                -- Hellreaver
-				{ 10, 24155 },                                -- Ursol's Claw
+				{ 1,  24150 },                                                              -- Mok'Nathal Wildercloak
+				{ 2,  24083 },                                                              -- Lifegiver Britches
+				{ 3,  24063 },                                                              -- Shifting Sash of Midnight
+				{ 4,  24046 },                                                              -- Kilt of Rolling Thunders
+				{ 5,  24064 },                                                              -- Ironsole Clompers
+				{ 6,  24045 },                                                              -- Band of Renewal
+				{ 7,  24154 },                                                              -- Witching Band
+				{ 8,  24151 },                                                              -- Mok'Nathal Clan Ring
+				{ 9,  24044 },                                                              -- Hellreaver
+				{ 10, 24155 },                                                              -- Ursol's Claw
 				{ 16, "INV_Box_01", nil,                               EJ_GetEncounterInfo(529), nil }, --Vazruden the Herald
-				{ 17, 23892,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Ominous Letter
-				{ 19, "INV_Box_01", nil,                               BB["Nazan"],              nil },
-				{ 20, 23901,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Nazan's Head
+				{ 17, 23892,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Ominous Letter
+				{ 19, "INV_Box_01", nil,                               AL["Nazan"],              nil },
+				{ 20, 23901,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Nazan's Head
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29264 },                                -- Tree-Mender's Belt
-				{ 2,  32077 },                                -- Wrath Infused Gauntlets
-				{ 3,  29238 },                                -- Lion's Heart Girdle
-				{ 4,  29346 },                                -- Feltooth Eviscerator
-				{ 6,  27452 },                                -- Light Scribe Bands
-				{ 7,  27461 },                                -- Chestguard of the Prowler
-				{ 8,  27456 },                                -- Raiments of Nature's Breath
-				{ 9,  27454 },                                -- Volcanic Pauldrons
-				{ 10, 27458 },                                -- Oceansong Kilt
-				{ 11, 27455 },                                -- Irondrake Faceguard
-				{ 12, 27459 },                                -- Vambraces of Daring
-				{ 13, 27457 },                                -- Life Bearer's Gauntlets
-				{ 16, 30593,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Potent Fire Opal
-				{ 17, 30594,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Regal Chrysoprase
-				{ 18, 30592,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Steady Chrysoprase
-				{ 20, 27453 },                                -- Averinn's Ring of Slaying
-				{ 21, 27460 },                                -- Reavers' Ring
+				{ 1,  29264 },                                                              -- Tree-Mender's Belt
+				{ 2,  32077 },                                                              -- Wrath Infused Gauntlets
+				{ 3,  29238 },                                                              -- Lion's Heart Girdle
+				{ 4,  29346 },                                                              -- Feltooth Eviscerator
+				{ 6,  27452 },                                                              -- Light Scribe Bands
+				{ 7,  27461 },                                                              -- Chestguard of the Prowler
+				{ 8,  27456 },                                                              -- Raiments of Nature's Breath
+				{ 9,  27454 },                                                              -- Volcanic Pauldrons
+				{ 10, 27458 },                                                              -- Oceansong Kilt
+				{ 11, 27455 },                                                              -- Irondrake Faceguard
+				{ 12, 27459 },                                                              -- Vambraces of Daring
+				{ 13, 27457 },                                                              -- Life Bearer's Gauntlets
+				{ 16, 30593,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Potent Fire Opal
+				{ 17, 30594,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Regal Chrysoprase
+				{ 18, 30592,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Steady Chrysoprase
+				{ 20, 27453 },                                                              -- Averinn's Ring of Slaying
+				{ 21, 27460 },                                                              -- Reavers' Ring
 				{ 23, "INV_Box_01", nil,                               EJ_GetEncounterInfo(529), nil }, --Vazruden the Herald
-				{ 24, 23892,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Ominous Letter
-				{ 26, "INV_Box_01", nil,                               BB["Nazan"],              nil },
-				{ 27, 23901,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Nazan's Head
+				{ 24, 23892,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Ominous Letter
+				{ 26, "INV_Box_01", nil,                               AL["Nazan"],              nil },
+				{ 27, 23901,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Nazan's Head
 				{ 29, "ac667" },
 			},
 		},
@@ -374,36 +373,36 @@ data["MagistersTerrace"] = {
 		{ --SMTKaelthas
 			EncounterJournalID = 533,
 			[NORMAL_DIFF] = {
-				{ 1,  34810 },                                   -- Cloak of Blade Turning
-				{ 2,  34808 },                                   -- Gloves of Arcane Acuity
-				{ 3,  34809 },                                   -- Sunrage Treads
-				{ 4,  34799 },                                   -- Hauberk of the War Bringer
-				{ 5,  34807 },                                   -- Sunstrider Warboots
-				{ 6,  34625 },                                   -- Kharmaa's Ring of Fate
-				{ 8,  34157,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Head of Kael'thas
-				{ 16, 34793 },                                   -- Cord of Reconstruction
-				{ 17, 34796 },                                   -- Robes of Summer Flame
-				{ 18, 34795 },                                   -- Helm of Sanctification
-				{ 19, 34798 },                                   -- Band of Celerity
-				{ 20, 34794 },                                   -- Axe of Shattered Dreams
-				{ 21, 34797 },                                   -- Sun-Infused Focus Staff
+				{ 1,  34810 },                                                             -- Cloak of Blade Turning
+				{ 2,  34808 },                                                             -- Gloves of Arcane Acuity
+				{ 3,  34809 },                                                             -- Sunrage Treads
+				{ 4,  34799 },                                                             -- Hauberk of the War Bringer
+				{ 5,  34807 },                                                             -- Sunstrider Warboots
+				{ 6,  34625 },                                                             -- Kharmaa's Ring of Fate
+				{ 8,  34157,  [ATLASLOOT_IT_FILTERIGNORE] = true },                        -- Head of Kael'thas
+				{ 16, 34793 },                                                             -- Cord of Reconstruction
+				{ 17, 34796 },                                                             -- Robes of Summer Flame
+				{ 18, 34795 },                                                             -- Helm of Sanctification
+				{ 19, 34798 },                                                             -- Band of Celerity
+				{ 20, 34794 },                                                             -- Axe of Shattered Dreams
+				{ 21, 34797 },                                                             -- Sun-Infused Focus Staff
 				{ 23, 35504,  "pet175",                          [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Phoenix Hatchling
 				{ 25, "ac661" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  34610 },                         -- Scarlet Sin'dorei Robes
-				{ 2,  34613 },                         -- Shoulderpads of the Silvermoon Retainer
-				{ 3,  34614 },                         -- Tunic of the Ranger Lord
-				{ 4,  34615 },                         -- Netherforce Chestplate
-				{ 5,  34612 },                         -- Greaves of the Penitent Knight
-				{ 7,  35275 },                         -- Orb of the Sin'dorei
+				{ 1,  34610 },                          -- Scarlet Sin'dorei Robes
+				{ 2,  34613 },                          -- Shoulderpads of the Silvermoon Retainer
+				{ 3,  34614 },                          -- Tunic of the Ranger Lord
+				{ 4,  34615 },                          -- Netherforce Chestplate
+				{ 5,  34612 },                          -- Greaves of the Penitent Knight
+				{ 7,  35275 },                          -- Orb of the Sin'dorei
 				{ 9,  34157,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Head of Kael'thas
 				{ 10, 34160,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Signet Ring of Prince Kael'thas
-				{ 16, 34609 },                         -- Quickening Blade of the Prince
-				{ 17, 34616 },                         -- Breeching Comet
-				{ 18, 34611 },                         -- Cudgel of Consecration
-				{ 20, 35513,  "mount" },               -- Swift White Hawkstrider
-				{ 22, 35504,  "pet175" },              -- Phoenix Hatchling
+				{ 16, 34609 },                          -- Quickening Blade of the Prince
+				{ 17, 34616 },                          -- Breeching Comet
+				{ 18, 34611 },                          -- Cudgel of Consecration
+				{ 20, 35513,  "mount" },                -- Swift White Hawkstrider
+				{ 22, 35504,  "pet175" },               -- Phoenix Hatchling
 				{ 24, "ac682" },
 			},
 		},
@@ -498,38 +497,38 @@ data["AuchManaTombs"] = {
 		{ --AuchManaNexusPrince
 			EncounterJournalID = 537,
 			[NORMAL_DIFF] = {
-				{ 1,  25957 },                         -- Ethereal Boots of the Skystrider
-				{ 2,  25955 },                         -- Mask of the Howling Storm
-				{ 3,  25956 },                         -- Nexus-Bracers of Vigor
-				{ 4,  25954 },                         -- Sigil of Shaffar
-				{ 5,  25962 },                         -- Longstrider's Loop
-				{ 6,  25953 },                         -- Ethereal Warp-Bow
+				{ 1,  25957 },                          -- Ethereal Boots of the Skystrider
+				{ 2,  25955 },                          -- Mask of the Howling Storm
+				{ 3,  25956 },                          -- Nexus-Bracers of Vigor
+				{ 4,  25954 },                          -- Sigil of Shaffar
+				{ 5,  25962 },                          -- Longstrider's Loop
+				{ 6,  25953 },                          -- Ethereal Warp-Bow
 				{ 8,  22921,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Recipe: Major Frost Protection Potion
 				{ 10, 28490,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shaffar's Wrappings
 				{ 16, "ac651" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29240 },                         -- Bands of Negation
-				{ 2,  30535 },                         -- Forestwalker Kilt
-				{ 3,  29352 },                         -- Cobalt Band of Tyrigosa
-				{ 4,  32082 },                         -- The Fel Barrier
-				{ 6,  27831 },                         -- Mantle of the Unforgiven
-				{ 7,  27843 },                         -- Glyph-Lined Sash
-				{ 8,  27827 },                         -- Lucid Dream Bracers
-				{ 9,  27835 },                         -- Stillwater Girdle
-				{ 10, 27844 },                         -- Pauldrons of Swift Retribution
-				{ 11, 27798 },                         -- Gauntlets of Vindication
+				{ 1,  29240 },                          -- Bands of Negation
+				{ 2,  30535 },                          -- Forestwalker Kilt
+				{ 3,  29352 },                          -- Cobalt Band of Tyrigosa
+				{ 4,  32082 },                          -- The Fel Barrier
+				{ 6,  27831 },                          -- Mantle of the Unforgiven
+				{ 7,  27843 },                          -- Glyph-Lined Sash
+				{ 8,  27827 },                          -- Lucid Dream Bracers
+				{ 9,  27835 },                          -- Stillwater Girdle
+				{ 10, 27844 },                          -- Pauldrons of Swift Retribution
+				{ 11, 27798 },                          -- Gauntlets of Vindication
 				{ 13, 33835,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shaffar's Wondrous Amulet
 				{ 14, 28490,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shaffar's Wrappings
 				{ 16, 30584,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Inscribed Fire Opal
 				{ 17, 30585,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Polished Fire Opal
 				{ 18, 30583,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Timeless Tanzanite
-				{ 20, 27837 },                         -- Wastewalker Leggings
-				{ 22, 27828 },                         -- Warp-Scarab Brooch
-				{ 23, 28400 },                         -- Warp-Storm Warblade
-				{ 24, 27829 },                         -- Axe of the Nexus-Kings
-				{ 25, 27840 },                         -- Scepter of Sha'tar
-				{ 26, 27842 },                         -- Grand Scepter of the Nexus-Kings
+				{ 20, 27837 },                          -- Wastewalker Leggings
+				{ 22, 27828 },                          -- Warp-Scarab Brooch
+				{ 23, 28400 },                          -- Warp-Storm Warblade
+				{ 24, 27829 },                          -- Axe of the Nexus-Kings
+				{ 25, 27840 },                          -- Scepter of Sha'tar
+				{ 26, 27842 },                          -- Grand Scepter of the Nexus-Kings
 				{ 28, 22921,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Recipe: Major Frost Protection Potion
 				{ 30, "ac671" },
 			},
@@ -611,35 +610,35 @@ data["CoTOldHillsbrad"] = {
 		{ --CoTHillsbradHunter
 			EncounterJournalID = 540,
 			[NORMAL_DIFF] = {
-				{ 1,  27433 },                         -- Pauldrons of Sufferance
-				{ 2,  27434 },                         -- Mantle of Perenolde
-				{ 3,  27440 },                         -- Diamond Prism of Recurrence
-				{ 4,  27432 },                         -- Broxigar's Ring of Valor
-				{ 5,  27431 },                         -- Time-Shifted Dagger
+				{ 1,  27433 },                          -- Pauldrons of Sufferance
+				{ 2,  27434 },                          -- Mantle of Perenolde
+				{ 3,  27440 },                          -- Diamond Prism of Recurrence
+				{ 4,  27432 },                          -- Broxigar's Ring of Valor
+				{ 5,  27431 },                          -- Time-Shifted Dagger
 				{ 16, 24173,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Design: Circlet of Arcane Might
 				{ 18, "ac652" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29250 },                         -- Cord of Sanctification
-				{ 2,  29246 },                         -- Nightfall Wristguards
-				{ 3,  30534 },                         -- Wyrmscale Greaves
-				{ 4,  30536 },                         -- Greaves of the Martyr
-				{ 6,  27911 },                         -- Epoch's Whispering Cinch
-				{ 7,  28344 },                         -- Wyrmfury Pauldrons
-				{ 8,  28233 },                         -- Necklace of Resplendent Hope
-				{ 9,  27904 },                         -- Resounding Ring of Glory
-				{ 10, 28227 },                         -- Sparking Arcanite Ring
-				{ 11, 28223 },                         -- Arcanist's Stone
-				{ 12, 28226 },                         -- Timeslicer
-				{ 13, 28222 },                         -- Reaver of the Infinites
+				{ 1,  29250 },                          -- Cord of Sanctification
+				{ 2,  29246 },                          -- Nightfall Wristguards
+				{ 3,  30534 },                          -- Wyrmscale Greaves
+				{ 4,  30536 },                          -- Greaves of the Martyr
+				{ 6,  27911 },                          -- Epoch's Whispering Cinch
+				{ 7,  28344 },                          -- Wyrmfury Pauldrons
+				{ 8,  28233 },                          -- Necklace of Resplendent Hope
+				{ 9,  27904 },                          -- Resounding Ring of Glory
+				{ 10, 28227 },                          -- Sparking Arcanite Ring
+				{ 11, 28223 },                          -- Arcanist's Stone
+				{ 12, 28226 },                          -- Timeslicer
+				{ 13, 28222 },                          -- Reaver of the Infinites
 				{ 16, 30589,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Purified Tanzanite
 				{ 17, 30591,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Lucent Fire Opal
 				{ 18, 30590,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Regal Chrysoprase
 				{ 20, 24173,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Design: Circlet of Arcane Might
-				{ 22, 28191 },                         -- Mana-Etched Vestments
-				{ 23, 28224 },                         -- Wastewalker Helm
-				{ 24, 28401 },                         -- Hauberk of Desolation
-				{ 25, 28225 },                         -- Doomplate Warhelm
+				{ 22, 28191 },                          -- Mana-Etched Vestments
+				{ 23, 28224 },                          -- Wastewalker Helm
+				{ 24, 28401 },                          -- Hauberk of Desolation
+				{ 25, 28225 },                          -- Doomplate Warhelm
 				{ 27, 33847,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Epoch Hunter's Head
 				{ 29, "ac673" },
 			},
@@ -721,40 +720,40 @@ data["AuchSethekkHalls"] = {
 		{ --AuchSethekkTalonKing
 			EncounterJournalID = 543,
 			[NORMAL_DIFF] = {
-				{ 1,  27948 },                         -- Trousers of Oblivion
-				{ 2,  27838 },                         -- Incanter's Trousers
-				{ 3,  27875 },                         -- Hallowed Trousers
-				{ 4,  27776 },                         -- Shoulderpads of Assassination
-				{ 5,  27936 },                         -- Greaves of Desolation
-				{ 7,  27946 },                         -- Avian Cloak of Feathers
-				{ 8,  27981 },                         -- Sethekk Oracle Cloak
-				{ 9,  27985 },                         -- Deathforge Girdle
-				{ 10, 27925 },                         -- Ravenclaw Band
-				{ 11, 27980 },                         -- Terokk's Nightmace
-				{ 12, 27986 },                         -- Crow Wing Reaper
+				{ 1,  27948 },                          -- Trousers of Oblivion
+				{ 2,  27838 },                          -- Incanter's Trousers
+				{ 3,  27875 },                          -- Hallowed Trousers
+				{ 4,  27776 },                          -- Shoulderpads of Assassination
+				{ 5,  27936 },                          -- Greaves of Desolation
+				{ 7,  27946 },                          -- Avian Cloak of Feathers
+				{ 8,  27981 },                          -- Sethekk Oracle Cloak
+				{ 9,  27985 },                          -- Deathforge Girdle
+				{ 10, 27925 },                          -- Ravenclaw Band
+				{ 11, 27980 },                          -- Terokk's Nightmace
+				{ 12, 27986 },                          -- Crow Wing Reaper
 				{ 14, 27632,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Terokk's Quill
 				{ 16, "ac653" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  27948 },                         -- Trousers of Oblivion
-				{ 2,  27838 },                         -- Incanter's Trousers
-				{ 3,  27875 },                         -- Hallowed Trousers
-				{ 4,  27776 },                         -- Shoulderpads of Assassination
-				{ 5,  27936 },                         -- Greaves of Desolation
-				{ 7,  27946 },                         -- Avian Cloak of Feathers
-				{ 8,  27981 },                         -- Sethekk Oracle Cloak
-				{ 9,  27985 },                         -- Deathforge Girdle
-				{ 10, 27925 },                         -- Ravenclaw Band
-				{ 11, 27980 },                         -- Terokk's Nightmace
-				{ 12, 27986 },                         -- Crow Wing Reaper
+				{ 1,  27948 },                          -- Trousers of Oblivion
+				{ 2,  27838 },                          -- Incanter's Trousers
+				{ 3,  27875 },                          -- Hallowed Trousers
+				{ 4,  27776 },                          -- Shoulderpads of Assassination
+				{ 5,  27936 },                          -- Greaves of Desolation
+				{ 7,  27946 },                          -- Avian Cloak of Feathers
+				{ 8,  27981 },                          -- Sethekk Oracle Cloak
+				{ 9,  27985 },                          -- Deathforge Girdle
+				{ 10, 27925 },                          -- Ravenclaw Band
+				{ 11, 27980 },                          -- Terokk's Nightmace
+				{ 12, 27986 },                          -- Crow Wing Reaper
 				{ 14, 27632,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Terokk's Quill
 				{ 16, 30553,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Glinting Tanzanite
 				{ 17, 30554,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Stalwart Fire Opal
 				{ 18, 30552,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Timeless Tanzanite
-				{ 20, 29249 },                         -- Bands of the Benevolent
-				{ 21, 29259 },                         -- Bracers of the Hunt
-				{ 22, 32073 },                         -- Spaulders of Dementia
-				{ 23, 29355 },                         -- Terokk's Shadowstaff
+				{ 20, 29249 },                          -- Bands of the Benevolent
+				{ 21, 29259 },                          -- Bracers of the Hunt
+				{ 22, 32073 },                          -- Spaulders of Dementia
+				{ 23, 29355 },                          -- Terokk's Shadowstaff
 				{ 25, 33834,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Headfeathers of Ikiss
 				{ 27, "ac674" },
 			},
@@ -861,45 +860,45 @@ data["AuchShadowLabyrinth"] = {
 			EncounterJournalID = 547,
 			[NORMAL_DIFF] = {
 				{ 1,  24309,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Spellstrike Pants
-				{ 3,  27902 },                        -- Silent Slippers of Meditation
-				{ 4,  27912 },                        -- Harness of the Deep Currents
-				{ 5,  27913 },                        -- Whispering Blade of Slaying
-				{ 6,  27905 },                        -- Greatsword of Horrid Dreams
-				{ 7,  27903 },                        -- Sonic Spear
-				{ 8,  27910 },                        -- Silvermoon Crest Shield
-				{ 10, 27778 },                        -- Spaulders of Oblivion
-				{ 11, 28232 },                        -- Robe of Oblivion
-				{ 12, 28230 },                        -- Hallowed Garments
-				{ 13, 27908 },                        -- Leggings of Assassination
-				{ 14, 27909 },                        -- Tidefury Kilt
-				{ 15, 27803 },                        -- Shoulderguards of the Bold
-				{ 16, 30532 },                        -- Kirin Tor Master's Trousers
-				{ 17, 29357 },                        -- Master Thief's Gloves
-				{ 18, 29261 },                        -- Girdle of Ferocity
-				{ 19, 29353 },                        -- Shockwave Truncheon
+				{ 3,  27902 },                          -- Silent Slippers of Meditation
+				{ 4,  27912 },                          -- Harness of the Deep Currents
+				{ 5,  27913 },                          -- Whispering Blade of Slaying
+				{ 6,  27905 },                          -- Greatsword of Horrid Dreams
+				{ 7,  27903 },                          -- Sonic Spear
+				{ 8,  27910 },                          -- Silvermoon Crest Shield
+				{ 10, 27778 },                          -- Spaulders of Oblivion
+				{ 11, 28232 },                          -- Robe of Oblivion
+				{ 12, 28230 },                          -- Hallowed Garments
+				{ 13, 27908 },                          -- Leggings of Assassination
+				{ 14, 27909 },                          -- Tidefury Kilt
+				{ 15, 27803 },                          -- Shoulderguards of the Bold
+				{ 16, 30532 },                          -- Kirin Tor Master's Trousers
+				{ 17, 29357 },                          -- Master Thief's Gloves
+				{ 18, 29261 },                          -- Girdle of Ferocity
+				{ 19, 29353 },                          -- Shockwave Truncheon
 				{ 21, "ac654" },
 			},
 			[HEROIC_DIFF] = {
 				{ 1,  24309,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Spellstrike Pants
-				{ 3,  27902 },                         -- Silent Slippers of Meditation
-				{ 4,  27912 },                         -- Harness of the Deep Currents
-				{ 5,  27913 },                         -- Whispering Blade of Slaying
-				{ 6,  27905 },                         -- Greatsword of Horrid Dreams
-				{ 7,  27903 },                         -- Sonic Spear
-				{ 8,  27910 },                         -- Silvermoon Crest Shield
-				{ 10, 27778 },                         -- Spaulders of Oblivion
-				{ 11, 28232 },                         -- Robe of Oblivion
-				{ 12, 28230 },                         -- Hallowed Garments
-				{ 13, 27908 },                         -- Leggings of Assassination
-				{ 14, 27909 },                         -- Tidefury Kilt
-				{ 15, 27803 },                         -- Shoulderguards of the Bold
+				{ 3,  27902 },                          -- Silent Slippers of Meditation
+				{ 4,  27912 },                          -- Harness of the Deep Currents
+				{ 5,  27913 },                          -- Whispering Blade of Slaying
+				{ 6,  27905 },                          -- Greatsword of Horrid Dreams
+				{ 7,  27903 },                          -- Sonic Spear
+				{ 8,  27910 },                          -- Silvermoon Crest Shield
+				{ 10, 27778 },                          -- Spaulders of Oblivion
+				{ 11, 28232 },                          -- Robe of Oblivion
+				{ 12, 28230 },                          -- Hallowed Garments
+				{ 13, 27908 },                          -- Leggings of Assassination
+				{ 14, 27909 },                          -- Tidefury Kilt
+				{ 15, 27803 },                          -- Shoulderguards of the Bold
 				{ 16, 30563,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Regal Chyroprase
 				{ 17, 30559,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Etched Tanzanite
 				{ 18, 30560,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Misty Chrysoprase
-				{ 20, 30532 },                         -- Kirin Tor Master's Trousers
-				{ 21, 29357 },                         -- Master Thief's Gloves
-				{ 22, 29261 },                         -- Girdle of Ferocity
-				{ 23, 29353 },                         -- Shockwave Truncheon
+				{ 20, 30532 },                          -- Kirin Tor Master's Trousers
+				{ 21, 29357 },                          -- Master Thief's Gloves
+				{ 22, 29261 },                          -- Girdle of Ferocity
+				{ 23, 29353 },                          -- Shockwave Truncheon
 				{ 25, 31722,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Murmur's Essence
 				{ 26, 33840,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Murmur's Whisper
 				{ 28, "ac675" },
@@ -1014,25 +1013,25 @@ data["TempestKeepArcatraz"] = {
 				{ 16, "ac660" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  28415 },                         -- Hood of Oblivion
-				{ 2,  28413 },                         -- Hallowed Crown
-				{ 3,  28414 },                         -- Helm of Assassination
-				{ 4,  28231 },                         -- Tidefury Chestpiece
-				{ 5,  28403 },                         -- Doomplate Chestguard
-				{ 6,  28205 },                         -- Breastplate of the Bold
-				{ 8,  28406 },                         -- Sigil-Laced Boots
-				{ 9,  28419 },                         -- Choker of Fluid Thought
-				{ 10, 28407 },                         -- Elementium Band of the Sentry
-				{ 11, 28418 },                         -- Shiffar's Nexus-Horn
-				{ 12, 28412 },                         -- Lamp of Peaceful Radiance
-				{ 13, 28416 },                         -- Hungering Spineripper
+				{ 1,  28415 },                          -- Hood of Oblivion
+				{ 2,  28413 },                          -- Hallowed Crown
+				{ 3,  28414 },                          -- Helm of Assassination
+				{ 4,  28231 },                          -- Tidefury Chestpiece
+				{ 5,  28403 },                          -- Doomplate Chestguard
+				{ 6,  28205 },                          -- Breastplate of the Bold
+				{ 8,  28406 },                          -- Sigil-Laced Boots
+				{ 9,  28419 },                          -- Choker of Fluid Thought
+				{ 10, 28407 },                          -- Elementium Band of the Sentry
+				{ 11, 28418 },                          -- Shiffar's Nexus-Horn
+				{ 12, 28412 },                          -- Lamp of Peaceful Radiance
+				{ 13, 28416 },                          -- Hungering Spineripper
 				{ 16, 30582,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Deadly Fire Opal
 				{ 17, 30575,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Nimble Chrysoprase
 				{ 18, 30581,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Willful Fire Opal
-				{ 20, 29241 },                         -- Belt of Depravity
-				{ 21, 29248 },                         -- Shadowstep Striders
-				{ 22, 29252 },                         -- Bracers of Dignity
-				{ 23, 29360 },                         -- Vileblade of the Betrayer
+				{ 20, 29241 },                          -- Belt of Depravity
+				{ 21, 29248 },                          -- Shadowstep Striders
+				{ 22, 29252 },                          -- Bracers of Dignity
+				{ 23, 29360 },                          -- Vileblade of the Betrayer
 				{ 25, 33861,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Scroll of Skyriss
 				{ 27, "ac681" },
 			},
@@ -1132,25 +1131,25 @@ data["CoTBlackMorass"] = {
 				{ 16, "ac655" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  28193 },                         -- Mana-Etched Crown
-				{ 2,  27509 },                         -- Handgrips of Assassination
-				{ 3,  27873 },                         -- Moonglade Pants
-				{ 4,  28192 },                         -- Helm of Desolation
-				{ 5,  27977 },                         -- Legplates of the Bold
-				{ 6,  27839 },                         -- Legplates of the Righteous
-				{ 8,  28206 },                         -- Cowl of the Guiltless
-				{ 9,  28194 },                         -- Primal Surge Bracers
-				{ 10, 28207 },                         -- Pauldrons of the Crimson Flight
-				{ 11, 28190 },                         -- Scarab of the Infinite Cycle
-				{ 12, 28189 },                         -- Latro's Shifting Sword
-				{ 13, 28188 },                         -- Bloodfire Greatstaff
+				{ 1,  28193 },                          -- Mana-Etched Crown
+				{ 2,  27509 },                          -- Handgrips of Assassination
+				{ 3,  27873 },                          -- Moonglade Pants
+				{ 4,  28192 },                          -- Helm of Desolation
+				{ 5,  27977 },                          -- Legplates of the Bold
+				{ 6,  27839 },                          -- Legplates of the Righteous
+				{ 8,  28206 },                          -- Cowl of the Guiltless
+				{ 9,  28194 },                          -- Primal Surge Bracers
+				{ 10, 28207 },                          -- Pauldrons of the Crimson Flight
+				{ 11, 28190 },                          -- Scarab of the Infinite Cycle
+				{ 12, 28189 },                          -- Latro's Shifting Sword
+				{ 13, 28188 },                          -- Bloodfire Greatstaff
 				{ 16, 30558,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Stalwart Fire Opal
 				{ 17, 30556,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Glinting Tanzanite
 				{ 18, 30555,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Timeless Tanzanite
-				{ 20, 30531 },                         -- Breeches of the Occultist
-				{ 21, 29247 },                         -- Girdle of the Deathdealer
-				{ 22, 29253 },                         -- Girdle of Valorous Deeds
-				{ 23, 29356 },                         -- Quantum Blade
+				{ 20, 30531 },                          -- Breeches of the Occultist
+				{ 21, 29247 },                          -- Girdle of the Deathdealer
+				{ 22, 29253 },                          -- Girdle of Valorous Deeds
+				{ 23, 29356 },                          -- Quantum Blade
 				{ 25, 33858,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Aeonus' Hourglass
 				{ 27, "ac676" },
 			},
@@ -1235,25 +1234,25 @@ data["HCBloodFurnace"] = {
 				{ 16, "ac648" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  32080 },                         -- Mantle of Shadowy Embrace
-				{ 2,  29245 },                         -- Wave-Crest Striders
-				{ 3,  29239 },                         -- Eaglecrest Warboots
-				{ 4,  29347 },                         -- Talisman of the Breaker
-				{ 6,  27506 },                         -- Robe of Effervescent Light
-				{ 7,  27514 },                         -- Leggings of the Unrepentant
-				{ 8,  27522 },                         -- World's End Bracers
-				{ 9,  27494 },                         -- Emerald Eye Bracer
-				{ 10, 27505 },                         -- Ruby Helm of the Just
-				{ 11, 27788 },                         -- Bloodsworn Warboots
-				{ 13, 28264 },                         -- Wastewalker Tunic
-				{ 14, 27497 },                         -- Doomplate Gauntlets
+				{ 1,  32080 },                          -- Mantle of Shadowy Embrace
+				{ 2,  29245 },                          -- Wave-Crest Striders
+				{ 3,  29239 },                          -- Eaglecrest Warboots
+				{ 4,  29347 },                          -- Talisman of the Breaker
+				{ 6,  27506 },                          -- Robe of Effervescent Light
+				{ 7,  27514 },                          -- Leggings of the Unrepentant
+				{ 8,  27522 },                          -- World's End Bracers
+				{ 9,  27494 },                          -- Emerald Eye Bracer
+				{ 10, 27505 },                          -- Ruby Helm of the Just
+				{ 11, 27788 },                          -- Bloodsworn Warboots
+				{ 13, 28264 },                          -- Wastewalker Tunic
+				{ 14, 27497 },                          -- Doomplate Gauntlets
 				{ 16, 30601,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Steady Chrysoprase
 				{ 17, 30600,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Purified Tanzanite
 				{ 18, 30602,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Jagged Chrysoprase
-				{ 20, 27495 },                         -- Soldier's Dog Tags
-				{ 21, 28121 },                         -- Icon of Unyielding Courage
-				{ 22, 27512 },                         -- The Willbreaker
-				{ 23, 27507 },                         -- Adamantine Repeater
+				{ 20, 27495 },                          -- Soldier's Dog Tags
+				{ 21, 28121 },                          -- Icon of Unyielding Courage
+				{ 22, 27512 },                          -- The Willbreaker
+				{ 23, 27507 },                          -- Adamantine Repeater
 				{ 25, 33814,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Keli'dan's Feathered Stave
 				{ 27, "ac668" },
 			},
@@ -1377,45 +1376,45 @@ data["TempestKeepBotanica"] = {
 		{ --TKBotSplinter
 			EncounterJournalID = 562,
 			[NORMAL_DIFF] = {
-				{ 1,  28371 },                         -- Netherfury Cape
-				{ 2,  28342 },                         -- Warp Infused Drape
-				{ 3,  28347 },                         -- Warpscale Leggings
-				{ 4,  28343 },                         -- Jagged Bark Pendant
-				{ 5,  28370 },                         -- Bangle of Endless Blessings
-				{ 6,  28345 },                         -- Warp Splinter's Thorn
-				{ 7,  28367 },                         -- Greatsword of Forlorn Visions
-				{ 8,  28341 },                         -- Warpstaff of Arcanum
+				{ 1,  28371 },                          -- Netherfury Cape
+				{ 2,  28342 },                          -- Warp Infused Drape
+				{ 3,  28347 },                          -- Warpscale Leggings
+				{ 4,  28343 },                          -- Jagged Bark Pendant
+				{ 5,  28370 },                          -- Bangle of Endless Blessings
+				{ 6,  28345 },                          -- Warp Splinter's Thorn
+				{ 7,  28367 },                          -- Greatsword of Forlorn Visions
+				{ 8,  28341 },                          -- Warpstaff of Arcanum
 				{ 10, 31085,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Top Shard of the Arcatraz Key
-				{ 16, 28229 },                         -- Incanter's Robe
-				{ 17, 28348 },                         -- Moonglade Cowl
-				{ 18, 28349 },                         -- Tidefury Helm
-				{ 19, 28228 },                         -- Beast Lord Curiass
-				{ 20, 28350 },                         -- Warhelm of the Bold
+				{ 16, 28229 },                          -- Incanter's Robe
+				{ 17, 28348 },                          -- Moonglade Cowl
+				{ 18, 28349 },                          -- Tidefury Helm
+				{ 19, 28228 },                          -- Beast Lord Curiass
+				{ 20, 28350 },                          -- Warhelm of the Bold
 				{ 22, 24311,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Whitemend Hood
 				{ 24, "ac659" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29258 },                         -- Boots of Ethereal Manipulation
-				{ 2,  29262 },                         -- Boots of the Endless Hunt
-				{ 3,  32072 },                         -- Gauntlets of Dissension
-				{ 4,  29359 },                         -- Feral Staff of Lashing
-				{ 6,  28371 },                         -- Netherfury Cape
-				{ 7,  28342 },                         -- Warp Infused Drape
-				{ 8,  28347 },                         -- Warpscale Leggings
-				{ 9,  28343 },                         -- Jagged Bark Pendant
-				{ 10, 28370 },                         -- Bangle of Endless Blessings
-				{ 11, 28345 },                         -- Warp Splinter's Thorn
-				{ 12, 28367 },                         -- Greatsword of Forlorn Visions
-				{ 13, 28341 },                         -- Warpstaff of Arcanum
+				{ 1,  29258 },                          -- Boots of Ethereal Manipulation
+				{ 2,  29262 },                          -- Boots of the Endless Hunt
+				{ 3,  32072 },                          -- Gauntlets of Dissension
+				{ 4,  29359 },                          -- Feral Staff of Lashing
+				{ 6,  28371 },                          -- Netherfury Cape
+				{ 7,  28342 },                          -- Warp Infused Drape
+				{ 8,  28347 },                          -- Warpscale Leggings
+				{ 9,  28343 },                          -- Jagged Bark Pendant
+				{ 10, 28370 },                          -- Bangle of Endless Blessings
+				{ 11, 28345 },                          -- Warp Splinter's Thorn
+				{ 12, 28367 },                          -- Greatsword of Forlorn Visions
+				{ 13, 28341 },                          -- Warpstaff of Arcanum
 				{ 15, "ac680" },
 				{ 16, 30574,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shifting Tanzanite
 				{ 17, 30572,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Purified Tanzanite
 				{ 18, 30573,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Mysterious Tanzanite
-				{ 20, 28229 },                         -- Incanter's Robe
-				{ 21, 28348 },                         -- Moonglade Cowl
-				{ 22, 28349 },                         -- Tidefury Helm
-				{ 23, 28228 },                         -- Beast Lord Curiass
-				{ 24, 28350 },                         -- Warhelm of the Bold
+				{ 20, 28229 },                          -- Incanter's Robe
+				{ 21, 28348 },                          -- Moonglade Cowl
+				{ 22, 28349 },                          -- Tidefury Helm
+				{ 23, 28228 },                          -- Beast Lord Curiass
+				{ 24, 28350 },                          -- Warhelm of the Bold
 				{ 26, 24311,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Whitemend Hood
 				{ 28, 31085,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Top Shard of the Arcatraz Key
 				{ 29, 33859,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Warp Splinter Clipping
@@ -1473,9 +1472,9 @@ data["TempestKeepMechanar"] = {
 			},
 		},
 		{ --TKMechCacheoftheLegion
-			name = BB["Cache of the Legion"],
+			name = AL["Cache of the Legion"],
 			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, BB["Cache of the Legion"], nil },
+				{ 1, "INV_Box_01", nil, AL["Cache of the Legion"], nil },
 				{ 2, 28249 }, -- Capacitus' Cloak of Calibration
 				{ 3, 28250 }, -- Vestia's Pauldrons of Inner Grace
 				{ 4, 28252 }, -- Bloodfyre Robes of Annihilation
@@ -1506,43 +1505,43 @@ data["TempestKeepMechanar"] = {
 		{ --TKMechCalc
 			EncounterJournalID = 565,
 			[NORMAL_DIFF] = {
-				{ 1,  28269 },                         -- Baba's Cloak of Arcanistry
-				{ 2,  28266 },                         -- Molten Earth Kilt
-				{ 3,  28265 },                         -- Dath'Remar's Ring of Defense
-				{ 4,  28288 },                         -- Abacus of Violent Odds
-				{ 5,  27899 },                         -- Mana Wrath
-				{ 6,  28267 },                         -- Edge of the Cosmos
-				{ 7,  28286 },                         -- Telescopic Sharprifle
+				{ 1,  28269 },                          -- Baba's Cloak of Arcanistry
+				{ 2,  28266 },                          -- Molten Earth Kilt
+				{ 3,  28265 },                          -- Dath'Remar's Ring of Defense
+				{ 4,  28288 },                          -- Abacus of Violent Odds
+				{ 5,  27899 },                          -- Mana Wrath
+				{ 6,  28267 },                          -- Edge of the Cosmos
+				{ 7,  28286 },                          -- Telescopic Sharprifle
 				{ 9,  21907,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Arcanoweave Robe
 				{ 11, 31086,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Bottom Shard of the Arcatraz Key
-				{ 16, 28278 },                         -- Incanter's Cowl
-				{ 17, 28202 },                         -- Moonglade Robe
-				{ 18, 28204 },                         -- Tunic of Assassination
-				{ 19, 28275 },                         -- Beast Lord Helm
-				{ 20, 28285 },                         -- Helm of the Righteous
+				{ 16, 28278 },                          -- Incanter's Cowl
+				{ 17, 28202 },                          -- Moonglade Robe
+				{ 18, 28204 },                          -- Tunic of Assassination
+				{ 19, 28275 },                          -- Beast Lord Helm
+				{ 20, 28285 },                          -- Helm of the Righteous
 				{ 22, "ac658" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29251 },                         -- Boots of the Pious
-				{ 2,  32076 },                         -- Handguards of the Steady
-				{ 3,  30533 },                         -- Vanquisher's Legplates
-				{ 4,  29362 },                         -- The Sun Eater
-				{ 6,  28269 },                         -- Baba's Cloak of Arcanistry
-				{ 7,  28266 },                         -- Molten Earth Kilt
-				{ 8,  28265 },                         -- Dath'Remar's Ring of Defense
-				{ 9,  28288 },                         -- Abacus of Violent Odds
-				{ 10, 27899 },                         -- Mana Wrath
-				{ 11, 28267 },                         -- Edge of the Cosmos
-				{ 12, 28286 },                         -- Telescopic Sharprifle
+				{ 1,  29251 },                          -- Boots of the Pious
+				{ 2,  32076 },                          -- Handguards of the Steady
+				{ 3,  30533 },                          -- Vanquisher's Legplates
+				{ 4,  29362 },                          -- The Sun Eater
+				{ 6,  28269 },                          -- Baba's Cloak of Arcanistry
+				{ 7,  28266 },                          -- Molten Earth Kilt
+				{ 8,  28265 },                          -- Dath'Remar's Ring of Defense
+				{ 9,  28288 },                          -- Abacus of Violent Odds
+				{ 10, 27899 },                          -- Mana Wrath
+				{ 11, 28267 },                          -- Edge of the Cosmos
+				{ 12, 28286 },                          -- Telescopic Sharprifle
 				{ 14, 21907,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Arcanoweave Robe
 				{ 16, 30565,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Jagged Chrysoprase
 				{ 17, 30566,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Defender's Tanzanite
 				{ 18, 30564,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Veiled Tanzanite
-				{ 20, 28278 },                         -- Incanter's Cowl
-				{ 21, 28202 },                         -- Moonglade Robe
-				{ 22, 28204 },                         -- Tunic of Assassination
-				{ 23, 28275 },                         -- Beast Lord Helm
-				{ 24, 28285 },                         -- Helm of the Righteous
+				{ 20, 28278 },                          -- Incanter's Cowl
+				{ 21, 28202 },                          -- Moonglade Robe
+				{ 22, 28204 },                          -- Tunic of Assassination
+				{ 23, 28275 },                          -- Beast Lord Helm
+				{ 24, 28285 },                          -- Helm of the Righteous
 				{ 26, 31086,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Bottom Shard of the Arcatraz Key
 				{ 27, 33860,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pathaleon's Projector
 				{ 29, "ac679" },
@@ -1643,42 +1642,42 @@ data["HCTheShatteredHalls"] = {
 		{ --HCHallsKargath
 			EncounterJournalID = 569,
 			[NORMAL_DIFF] = {
-				{ 1,  27536 },                         -- Hallowed Handwraps
-				{ 2,  27537 },                         -- Gloves of Oblivion
-				{ 3,  27531 },                         -- Wastewalker Gloves
-				{ 4,  27474 },                         -- Beast Lord Handguards
-				{ 5,  27528 },                         -- Gauntlets of Desolation
-				{ 6,  27535 },                         -- Gauntlets of the Righteous
-				{ 8,  27527 },                         -- Greaves of the Shatterer
-				{ 9,  27529 },                         -- Figurine of the Colossus
-				{ 10, 27533 },                         -- Demonblood Eviscerator
-				{ 11, 27538 },                         -- Lightsworn Hammer
-				{ 12, 27540 },                         -- Nexus Torch
-				{ 13, 27534 },                         -- Hortus' Seal of Brilliance
+				{ 1,  27536 },                          -- Hallowed Handwraps
+				{ 2,  27537 },                          -- Gloves of Oblivion
+				{ 3,  27531 },                          -- Wastewalker Gloves
+				{ 4,  27474 },                          -- Beast Lord Handguards
+				{ 5,  27528 },                          -- Gauntlets of Desolation
+				{ 6,  27535 },                          -- Gauntlets of the Righteous
+				{ 8,  27527 },                          -- Greaves of the Shatterer
+				{ 9,  27529 },                          -- Figurine of the Colossus
+				{ 10, 27533 },                          -- Demonblood Eviscerator
+				{ 11, 27538 },                          -- Lightsworn Hammer
+				{ 12, 27540 },                          -- Nexus Torch
+				{ 13, 27534 },                          -- Hortus' Seal of Brilliance
 				{ 15, 23723,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Warchief Kargath's Fist
 				{ 16, "ac657" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  27536 },                         -- Hallowed Handwraps
-				{ 2,  27537 },                         -- Gloves of Oblivion
-				{ 3,  27531 },                         -- Wastewalker Gloves
-				{ 4,  27474 },                         -- Beast Lord Handguards
-				{ 5,  27528 },                         -- Gauntlets of Desolation
-				{ 6,  27535 },                         -- Gauntlets of the Righteous
-				{ 8,  27527 },                         -- Greaves of the Shatterer
-				{ 9,  27529 },                         -- Figurine of the Colossus
-				{ 10, 27534 },                         -- Hortus' Seal of Brilliance
-				{ 11, 27533 },                         -- Demonblood Eviscerator
-				{ 12, 27538 },                         -- Lightsworn Hammer
-				{ 13, 27540 },                         -- Nexus Torch
+				{ 1,  27536 },                          -- Hallowed Handwraps
+				{ 2,  27537 },                          -- Gloves of Oblivion
+				{ 3,  27531 },                          -- Wastewalker Gloves
+				{ 4,  27474 },                          -- Beast Lord Handguards
+				{ 5,  27528 },                          -- Gauntlets of Desolation
+				{ 6,  27535 },                          -- Gauntlets of the Righteous
+				{ 8,  27527 },                          -- Greaves of the Shatterer
+				{ 9,  27529 },                          -- Figurine of the Colossus
+				{ 10, 27534 },                          -- Hortus' Seal of Brilliance
+				{ 11, 27533 },                          -- Demonblood Eviscerator
+				{ 12, 27538 },                          -- Lightsworn Hammer
+				{ 13, 27540 },                          -- Nexus Torch
 				{ 15, 23723,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Warchief Kargath's Fist
 				{ 16, 30548,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Jagged Chrysoprase
 				{ 17, 30547,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Reckless Fire Opal
 				{ 18, 30546,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Sovereign Tanzanite
-				{ 20, 29255 },                         -- Bands of Rarefied Magic
-				{ 21, 29263 },                         -- Forestheart Bracers
-				{ 22, 29254 },                         -- Boots of the Righteous Path
-				{ 23, 29348 },                         -- The Bladefist
+				{ 20, 29255 },                          -- Bands of Rarefied Magic
+				{ 21, 29263 },                          -- Forestheart Bracers
+				{ 22, 29254 },                          -- Boots of the Righteous Path
+				{ 23, 29348 },                          -- The Bladefist
 				{ 25, 33815,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Bladefist's Seal
 				{ 27, "ac678" },
 			},
@@ -1766,41 +1765,41 @@ data["CFRTheSlavePens"] = {
 		{ --CFRSlaveQuagmirran
 			EncounterJournalID = 572,
 			[NORMAL_DIFF] = {
-				{ 1,  24362 },                        -- Spore-Soaked Vaneer
-				{ 2,  24365 },                        -- Deft Handguards
-				{ 3,  24366 },                        -- Scorpid-Sting Mantle
-				{ 4,  24363 },                        -- Unscarred Breastplate
-				{ 5,  24364 },                        -- Azureplate Greaves
+				{ 1,  24362 },                          -- Spore-Soaked Vaneer
+				{ 2,  24365 },                          -- Deft Handguards
+				{ 3,  24366 },                          -- Scorpid-Sting Mantle
+				{ 4,  24363 },                          -- Unscarred Breastplate
+				{ 5,  24364 },                          -- Azureplate Greaves
 				{ 7,  72119,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Slave Master's Eye
 				{ 16, "ac649" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29242 },                         -- Boots of Blasphemy
-				{ 2,  30538 },                         -- Midnight Legguards
-				{ 3,  32078 },                         -- Pauldrons of Wild Magic
-				{ 4,  29349 },                         -- Adamantine Chain of the Unbroken
-				{ 6,  27742 },                         -- Mage-Fury Girdle
-				{ 7,  27712 },                         -- Shackles of Quagmirran
-				{ 8,  27800 },                         -- Earthsoul Britches
-				{ 9,  28337 },                         -- Breastplate of Righteous Fury
-				{ 10, 27672 },                         -- Girdle of the Immovable
-				{ 12, 27796 },                         -- Mana-Etched Spaulders
-				{ 13, 27713 },                         -- Pauldrons of Desolation
+				{ 1,  29242 },                          -- Boots of Blasphemy
+				{ 2,  30538 },                          -- Midnight Legguards
+				{ 3,  32078 },                          -- Pauldrons of Wild Magic
+				{ 4,  29349 },                          -- Adamantine Chain of the Unbroken
+				{ 6,  27742 },                          -- Mage-Fury Girdle
+				{ 7,  27712 },                          -- Shackles of Quagmirran
+				{ 8,  27800 },                          -- Earthsoul Britches
+				{ 9,  28337 },                          -- Breastplate of Righteous Fury
+				{ 10, 27672 },                          -- Girdle of the Immovable
+				{ 12, 27796 },                          -- Mana-Etched Spaulders
+				{ 13, 27713 },                          -- Pauldrons of Desolation
 				{ 16, 30604,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Resplendent Fire Opal
 				{ 17, 30605,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Nimble Chrysoprase
 				{ 18, 30603,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Purified Tanzanite
-				{ 20, 27740 },                         -- Band of Ursol
-				{ 21, 27683 },                         -- Quagmirran's Eye
-				{ 22, 27673 },                         -- Phosphorescent Blade
-				{ 23, 27741 },                         -- Bleeding Hollow Warhammer
-				{ 24, 27714 },                         -- Swamplight Lantern
+				{ 20, 27740 },                          -- Band of Ursol
+				{ 21, 27683 },                          -- Quagmirran's Eye
+				{ 22, 27673 },                          -- Phosphorescent Blade
+				{ 23, 27741 },                          -- Bleeding Hollow Warhammer
+				{ 24, 27714 },                          -- Swamplight Lantern
 				{ 26, 33821,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Heart of Quagmirran
 				{ 27, 72119,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Slave Master's Eye
 				{ 29, "ac669" },
 			},
 		},
 		{ --MidsummerFireFestivalAhune
-			name = BB["Ahune"].." ("..AL["Midsummer Fire Festival"]..")",
+			name = AL["Ahune"].." ("..AL["Midsummer Fire Festival"]..")",
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_WorldEvents:MidsummerFireFestival:1",
 		},
@@ -1875,41 +1874,41 @@ data["CFRTheSteamvault"] = {
 		{ --CFRSteamWarlord
 			EncounterJournalID = 575,
 			[NORMAL_DIFF] = {
-				{ 1,  27738 },                         -- Incanter's Pauldrons
-				{ 2,  27737 },                         -- Moonglade Shoulders
-				{ 3,  27801 },                         -- Beast Lord Mantle
-				{ 4,  27510 },                         -- Tidefury Gauntlets
-				{ 5,  27874 },                         -- Beast Lord Leggings
-				{ 6,  28203 },                         -- Breastplate of the Righteous
-				{ 7,  27475 },                         -- Gauntlets of the Bold
-				{ 9,  27804 },                         -- Devilshark Cape
-				{ 10, 27799 },                         -- Vermillion Robes of the Dominant
-				{ 11, 27795 },                         -- Sash of Serpentra
-				{ 12, 27806 },                         -- Fathomheart Gauntlets
-				{ 13, 27805 },                         -- Ring of the Silver Hand
+				{ 1,  27738 },                          -- Incanter's Pauldrons
+				{ 2,  27737 },                          -- Moonglade Shoulders
+				{ 3,  27801 },                          -- Beast Lord Mantle
+				{ 4,  27510 },                          -- Tidefury Gauntlets
+				{ 5,  27874 },                          -- Beast Lord Leggings
+				{ 6,  28203 },                          -- Breastplate of the Righteous
+				{ 7,  27475 },                          -- Gauntlets of the Bold
+				{ 9,  27804 },                          -- Devilshark Cape
+				{ 10, 27799 },                          -- Vermillion Robes of the Dominant
+				{ 11, 27795 },                          -- Sash of Serpentra
+				{ 12, 27806 },                          -- Fathomheart Gauntlets
+				{ 13, 27805 },                          -- Ring of the Silver Hand
 				{ 16, 24313,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Battlecast Hood
 				{ 18, "ac656" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  27738 },                         -- Incanter's Pauldrons
-				{ 2,  27737 },                         -- Moonglade Shoulders
-				{ 3,  27801 },                         -- Beast Lord Mantle
-				{ 4,  27510 },                         -- Tidefury Gauntlets
-				{ 5,  27874 },                         -- Beast Lord Leggings
-				{ 6,  28203 },                         -- Breastplate of the Righteous
-				{ 7,  27475 },                         -- Gauntlets of the Bold
-				{ 9,  27804 },                         -- Devilshark Cape
-				{ 10, 27799 },                         -- Vermillion Robes of the Dominant
-				{ 11, 27795 },                         -- Sash of Serpentra
-				{ 12, 27806 },                         -- Fathomheart Gauntlets
-				{ 13, 27805 },                         -- Ring of the Silver Hand
+				{ 1,  27738 },                          -- Incanter's Pauldrons
+				{ 2,  27737 },                          -- Moonglade Shoulders
+				{ 3,  27801 },                          -- Beast Lord Mantle
+				{ 4,  27510 },                          -- Tidefury Gauntlets
+				{ 5,  27874 },                          -- Beast Lord Leggings
+				{ 6,  28203 },                          -- Breastplate of the Righteous
+				{ 7,  27475 },                          -- Gauntlets of the Bold
+				{ 9,  27804 },                          -- Devilshark Cape
+				{ 10, 27799 },                          -- Vermillion Robes of the Dominant
+				{ 11, 27795 },                          -- Sash of Serpentra
+				{ 12, 27806 },                          -- Fathomheart Gauntlets
+				{ 13, 27805 },                          -- Ring of the Silver Hand
 				{ 16, 30550,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Misty Chrysoprase
 				{ 17, 30551,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Reckless Fire Opal
 				{ 18, 30549,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Shifting Tanzanite
-				{ 20, 30543 },                         -- Pontifex Kilt
-				{ 21, 29243 },                         -- Wave-Fury Vambraces
-				{ 22, 29463 },                         -- Amber Bands of the Aggressor
-				{ 23, 29351 },                         -- Wrathtide Longbow
+				{ 20, 30543 },                          -- Pontifex Kilt
+				{ 21, 29243 },                          -- Wave-Fury Vambraces
+				{ 22, 29463 },                          -- Amber Bands of the Aggressor
+				{ 23, 29351 },                          -- Wrathtide Longbow
 				{ 25, 24313,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Battlecast Hood
 				{ 27, 31721,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Kalithresh's Trident
 				{ 28, 33827,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Warlord's Treatise
@@ -2013,34 +2012,34 @@ data["CFRTheUnderbog"] = {
 		{ --CFRUnderStalker
 			EncounterJournalID = 579,
 			[NORMAL_DIFF] = {
-				{ 1,  24481 },                        -- Robes of the Augurer
-				{ 2,  24466 },                        -- Skulldugger's Leggings
-				{ 3,  24465 },                        -- Shamblehide Chestguard
-				{ 4,  24463 },                        -- Pauldrons of Brute Force
-				{ 5,  24464 },                        -- The Stalker's Fangs
+				{ 1,  24481 },                          -- Robes of the Augurer
+				{ 2,  24466 },                          -- Skulldugger's Leggings
+				{ 3,  24465 },                          -- Shamblehide Chestguard
+				{ 4,  24463 },                          -- Pauldrons of Brute Force
+				{ 5,  24464 },                          -- The Stalker's Fangs
 				{ 7,  24248,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Brain of the Black Stalker
 				{ 16, "ac650" },
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  29265 },                         -- Barkchip Boots
-				{ 2,  30541 },                         -- Stormsong Kilt
-				{ 3,  32081 },                         -- Eye of the Stalker
-				{ 4,  29350 },                         -- The Black Stalk
-				{ 6,  27781 },                         -- Demonfang Ritual Helm
-				{ 7,  27768 },                         -- Oracle Belt of Timeless Mystery
-				{ 8,  27938 },                         -- Savage Mask of the Lynx Lord
-				{ 9,  27773 },                         -- Barbaric Legstraps
-				{ 10, 27779 },                         -- Bone Chain Necklace
-				{ 11, 27780 },                         -- Ring of Fabled Hope
-				{ 12, 27896 },                         -- Alembic of Infernal Power
-				{ 13, 27770 },                         -- Argussian Compass
+				{ 1,  29265 },                          -- Barkchip Boots
+				{ 2,  30541 },                          -- Stormsong Kilt
+				{ 3,  32081 },                          -- Eye of the Stalker
+				{ 4,  29350 },                          -- The Black Stalk
+				{ 6,  27781 },                          -- Demonfang Ritual Helm
+				{ 7,  27768 },                          -- Oracle Belt of Timeless Mystery
+				{ 8,  27938 },                          -- Savage Mask of the Lynx Lord
+				{ 9,  27773 },                          -- Barbaric Legstraps
+				{ 10, 27779 },                          -- Bone Chain Necklace
+				{ 11, 27780 },                          -- Ring of Fabled Hope
+				{ 12, 27896 },                          -- Alembic of Infernal Power
+				{ 13, 27770 },                          -- Argussian Compass
 				{ 16, 30606,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Lightning Chrysoprase
 				{ 17, 30607,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Splendid Fire Opal
 				{ 18, 30608,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Radiant Chrysoprase
-				{ 20, 27907 },                         -- Mana-Etched Pantaloons
-				{ 21, 27771 },                         -- Doomplate Shoulderguards
-				{ 23, 27769 },                         -- Endbringer
-				{ 24, 27772 },                         -- Stormshield of Renewal
+				{ 20, 27907 },                          -- Mana-Etched Pantaloons
+				{ 21, 27771 },                          -- Doomplate Shoulderguards
+				{ 23, 27769 },                          -- Endbringer
+				{ 24, 27772 },                          -- Stormshield of Renewal
 				{ 26, 33826,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Black Stalker Egg
 				{ 27, 24248,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Brain of the Black Stalker
 				{ 29, "ac670" },
@@ -2490,17 +2489,17 @@ data["Karazhan"] = {
 		{ --KaraNamed
 			EncounterJournalID = 1552,
 			[NORMAL_DIFF] = {
-				{ 1,  "INV_Box_01", nil, BB["Hyakiss the Lurker"],   nil },
+				{ 1,  "INV_Box_01", nil, AL["Hyakiss the Lurker"],   nil },
 				{ 2,  30675 }, -- Lurker's Cord
 				{ 3,  30676 }, -- Lurker's Grasp
 				{ 4,  30677 }, -- Lurker's Belt
 				{ 5,  30678 }, -- Lurker's Girdle
-				{ 7,  "INV_Box_01", nil, BB["Rokad the Ravager"],    nil },
+				{ 7,  "INV_Box_01", nil, AL["Rokad the Ravager"],    nil },
 				{ 8,  30684 }, -- Ravager's Cuffs
 				{ 9,  30685 }, -- Ravager's Wrist-Wraps
 				{ 10, 30686 }, -- Ravager's Bands
 				{ 11, 30687 }, -- Ravager's Bracers
-				{ 16, "INV_Box_01", nil, BB["Shadikith the Glider"], nil },
+				{ 16, "INV_Box_01", nil, AL["Shadikith the Glider"], nil },
 				{ 17, 30680 }, -- Glider's Foot-Wraps
 				{ 18, 30681 }, -- Glider's Boots
 				{ 19, 30682 }, -- Glider's Sabatons
@@ -2563,31 +2562,31 @@ data["Karazhan"] = {
 			EncounterJournalID = 1556,
 			[NORMAL_DIFF] = {
 				{ 1,  "INV_Box_01", nil,      AL["Shared"],            nil },
-				{ 2,  28594 }, -- Trial-Fire Trousers
-				{ 3,  28591 }, -- Earthsoul Leggings
-				{ 4,  28589 }, -- Beastmaw Pauldrons
-				{ 5,  28593 }, -- Eternium Greathelm
-				{ 6,  28590 }, -- Ribbon of Sacrifice
-				{ 8,  "INV_Box_01", nil,      BB["The Crone"],         nil },
-				{ 9,  28586 }, -- Wicked Witch's Hat
-				{ 10, 28585 }, -- Ruby Slippers
-				{ 11, 28587 }, -- Legacy
-				{ 12, 28588 }, -- Blue Diamond Witchwand
-				{ 16, "INV_Box_01", nil,      BB["Romulo & Julianne"], nil },
-				{ 17, 28578 }, -- Masquerade Gown
-				{ 18, 28579 }, -- Romulo's Poison Vial
-				{ 19, 28572 }, -- Blade of the Unrequited
-				{ 20, 28573 }, -- Despair
-				{ 23, "INV_Box_01", nil,      BB["The Big Bad Wolf"],  nil },
-				{ 24, 28582 }, -- Red Riding Hood's Cloak
-				{ 25, 28583 }, -- Big Bad Wolf's Head
-				{ 26, 28584 }, -- Big Bad Wolf's Paw
-				{ 27, 28581 }, -- Wolfslayer Sniper Rifle
+				{ 2,  28594 },       -- Trial-Fire Trousers
+				{ 3,  28591 },       -- Earthsoul Leggings
+				{ 4,  28589 },       -- Beastmaw Pauldrons
+				{ 5,  28593 },       -- Eternium Greathelm
+				{ 6,  28590 },       -- Ribbon of Sacrifice
+				{ 8,  "INV_Box_01", nil,      AL["The Crone"],         nil },
+				{ 9,  28586 },       -- Wicked Witch's Hat
+				{ 10, 28585 },       -- Ruby Slippers
+				{ 11, 28587 },       -- Legacy
+				{ 12, 28588 },       -- Blue Diamond Witchwand
+				{ 16, "INV_Box_01", nil,      AL["Romulo & Julianne"], nil },
+				{ 17, 28578 },       -- Masquerade Gown
+				{ 18, 28579 },       -- Romulo's Poison Vial
+				{ 19, 28572 },       -- Blade of the Unrequited
+				{ 20, 28573 },       -- Despair
+				{ 23, "INV_Box_01", nil,      AL["The Big Bad Wolf"],  nil },
+				{ 24, 28582 },       -- Red Riding Hood's Cloak
+				{ 25, 28583 },       -- Big Bad Wolf's Head
+				{ 26, 28584 },       -- Big Bad Wolf's Paw
+				{ 27, 28581 },       -- Wolfslayer Sniper Rifle
 				{ 28, 97548,        "pet1226" }, -- Spiky Collar
 			},
 		},
 		{ --KaraNightbane
-			name = BB["Nightbane"],
+			name = AL["Nightbane"],
 			[NORMAL_DIFF] = {
 				{ 1,  28602 }, -- Robe of the Elder Scribes
 				{ 2,  28600 }, -- Stonebough Jerkin
@@ -3316,7 +3315,7 @@ data["WorldBossesBC"] = {
 	ContentType = RAID_CONTENT,
 	items = {
 		{ --DoomLordKazzak
-			name = BB["Doom Lord Kazzak"],
+			name = AL["Doom Lord Kazzak"],
 			[NORMAL_DIFF] = {
 				{ 1,  30735 }, -- Ancient Spellcloak of the Highborne
 				{ 2,  30734 }, -- Leggings of the Seventh Circle
@@ -3331,7 +3330,7 @@ data["WorldBossesBC"] = {
 			},
 		},
 		{ --Doomwalker
-			name = BB["Doomwalker"],
+			name = AL["Doomwalker"],
 			[NORMAL_DIFF] = {
 				{ 1,  30729 }, -- Black-Iron Battlecloak
 				{ 2,  30725 }, -- Anger-Spark Gloves

@@ -24,8 +24,6 @@ local ADD_SCALING = {
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
-
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
 local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
@@ -1048,7 +1046,7 @@ data["CoTOldStratholme"] = {
 				{ 1,  37117 },     -- King's Square Bracers
 				{ 2,  37116 },     -- Epaulets of Market Row
 				{ 3,  37115 },     -- Crusader's Square Pauldrons
-				{ 5,  "INV_Box_01", "ac1817", BB["Infinite Corruptor"], nil },
+				{ 5,  "INV_Box_01", "ac1817", AL["Infinite Corruptor"], nil },
 				{ 6,  43951,        "mount" }, -- Reins of the Bronze Drake
 				{ 16, "ac1872" },
 			},
@@ -3858,7 +3856,7 @@ data["TrialoftheCrusader"] = {
 			},
 		},
 		{ --TrialoftheCrusader FactionChampions
-			name = BB["Faction Champions"],
+			name = AL["Faction Champions"],
 			[NORMAL_DIFF] = {
 				{ 1,  [ATLASLOOT_IT_ALLIANCE] = 47721, [ATLASLOOT_IT_HORDE] = 47873 }, -- Sandals of the Silver Magus / Sunreaver Magus' Sandals
 				{ 2,  [ATLASLOOT_IT_ALLIANCE] = 47719, [ATLASLOOT_IT_HORDE] = 47878 }, -- Gloves of the Silver Assassin / Sunreaver Assassin's Gloves
