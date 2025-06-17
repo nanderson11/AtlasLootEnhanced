@@ -6221,6 +6221,9 @@ data["TOYS"]               = {
 				{ 223, 174924 },                                     -- Void-Touched Souvenir Totem
 				{ 224, 239007 },                                     -- Dastardly Banner
 				{ 225, 239018, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Winner's Podium
+				{ 226, 244888 },                                     -- Echo of the Xal'atath, Blade of the Black Empire
+				{ 227, 245567 },                                     -- K'aresh Memory Crystal
+				{ 228, 245631 },                                     -- Royal Visage
 				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},
