@@ -2,7 +2,6 @@ local addonname = ...
 local AtlasLoot = _G.AtlasLoot
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 local Set = AtlasLoot.Data.Sets:RegisterNewSets(addonname)
 
 local RF_DIFF = Set:AddDifficulty(AL["Raid Finder"], "rf")
@@ -318,11 +317,11 @@ local SetTable = {
 			subSetName = "thepostmaster",
 			icon = "mage",
 			[NORMAL_DIFF] = {
-				{ 13390, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..BB["Postmaster Malown"] }, -- The Postmaster's Band
-				{ 13388, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..BB["Postmaster Malown"] }, -- The Postmaster's Tunic
-				{ 13389, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..BB["Postmaster Malown"] }, -- The Postmaster's Trousers
-				{ 13391, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..BB["Postmaster Malown"] }, -- The Postmaster's Treads
-				{ 13392, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..BB["Postmaster Malown"] }, -- The Postmaster's Seal
+				{ 13390, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..EJ_GetEncounterInfo(2633) }, -- The Postmaster's Band
+				{ 13388, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..EJ_GetEncounterInfo(2633) }, -- The Postmaster's Tunic
+				{ 13389, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..EJ_GetEncounterInfo(2633) }, -- The Postmaster's Trousers
+				{ 13391, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..EJ_GetEncounterInfo(2633) }, -- The Postmaster's Treads
+				{ 13392, [SOURCE_INFO] = EJ_GetInstanceInfo(236).." - "..EJ_GetEncounterInfo(2633) }, -- The Postmaster's Seal
 			},
 		},
 		{ -- Chain of the Scarlet Crusade
@@ -7771,20 +7770,20 @@ local SetTable = {
 	["Tier8"] = { -- T8 Sets
 		name = format(AL["Tier %d Sets"], 8),
 		sourceTemplate = {
-			ALIL["Ulduar"].." - "..BB["Mimiron"], -- Head
-			ALIL["Ulduar"].." - "..BB["Thorim"], -- Shoulder
-			ALIL["Ulduar"].." - "..BB["Yogg-Saron"], -- Chest
-			ALIL["Ulduar"].." - "..BB["Freya"], -- Hands
-			ALIL["Ulduar"].." - "..BB["Hodir"], -- Legs
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1647), -- Head
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1645), -- Shoulder
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1649), -- Chest
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1646), -- Hands
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1644), -- Legs
 		},
 		sourceTemplatep25 = {
-			ALIL["Ulduar"].." - "..BB["Thorim"], -- Head
-			ALIL["Ulduar"].." - "..BB["Yogg-Saron"], -- Shoulder
-			ALIL["Ulduar"].." - "..BB["Hodir"], -- Chest
-			ALIL["Ulduar"].." - "..BB["Mimiron"], -- Hands
-			ALIL["Ulduar"].." - "..BB["Freya"], -- Legs
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1645), -- Head
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1649), -- Shoulder
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1644), -- Chest
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1647), -- Hands
+			ALIL["Ulduar"].." - "..EJ_GetEncounterInfo(1646), -- Legs
 		},
-		{                                   -- Deathknight - Blood
+		{                                            -- Deathknight - Blood
 			name = ALIL["DEATHKNIGHT"].." ("..ALIL["Blood"]..")",
 			subSetName = "deathknightblood",
 			icon = "dkTank",
@@ -8188,13 +8187,13 @@ local SetTable = {
 	["Tier7"] = { -- T7 Sets
 		name = format(AL["Tier %d Sets"], 7),
 		sourceTemplate = {
-			ALIL["Naxxramas"].." - "..BB["Kel'Thuzad"],   -- Head
-			ALIL["Naxxramas"].." - "..BB["Loatheb"],      -- Shoulder
-			ALIL["Naxxramas"].." - "..BB["The Four Horsemen"], -- Chest
-			ALIL["The Obsidian Sanctum"].." - "..BB["Sartharion"], -- Hands
-			ALIL["Naxxramas"].." - "..BB["Thaddius"],     -- Legs
+			ALIL["Naxxramas"].." - "..EJ_GetEncounterInfo(1615),   -- Head
+			ALIL["Naxxramas"].." - "..EJ_GetEncounterInfo(1606),   -- Shoulder
+			ALIL["Naxxramas"].." - "..EJ_GetEncounterInfo(1609),   -- Chest
+			ALIL["The Obsidian Sanctum"].." - "..EJ_GetEncounterInfo(1616), -- Hands
+			ALIL["Naxxramas"].." - "..EJ_GetEncounterInfo(1613),   -- Legs
 		},
-		{                                                 -- Deathknight - Blood
+		{                                                          -- Deathknight - Blood
 			name = ALIL["DEATHKNIGHT"].." ("..ALIL["Blood"]..")",
 			subSetName = "deathknightblood",
 			icon = "dkTank",
@@ -8579,16 +8578,16 @@ local SetTable = {
 	["Tier6"] = { -- T6 Sets
 		name = format(AL["Tier %d Sets"], 6),
 		sourceTemplate = {
-			ALIL["Hyjal Summit"].." - "..BB["Archimonde"],  -- Head
-			ALIL["Black Temple"].." - "..BB["Mother Shahraz"], -- Shoulder
-			ALIL["Black Temple"].." - "..BB["Illidan Stormrage"], -- Chest
-			ALIL["Sunwell Plateau"].." - "..BB["Kalecgos"], -- Wrist
-			ALIL["Hyjal Summit"].." - "..BB["Azgalor"],     -- Hands
-			ALIL["Sunwell Plateau"].." - "..BB["Brutallus"], -- Waist
-			ALIL["Black Temple"].." - "..BB["The Illidari Council"], -- Legs
-			ALIL["Sunwell Plateau"].." - "..BB["Felmyst"],  -- Feet
+			ALIL["Hyjal Summit"].." - "..EJ_GetEncounterInfo(1615), -- Head
+			ALIL["Black Temple"].." - "..EJ_GetEncounterInfo(1588), -- Shoulder
+			ALIL["Black Temple"].." - "..EJ_GetEncounterInfo(1590), -- Chest
+			ALIL["Sunwell Plateau"].." - "..EJ_GetEncounterInfo(1591), -- Wrist
+			ALIL["Hyjal Summit"].." - "..EJ_GetEncounterInfo(1580), -- Hands
+			ALIL["Sunwell Plateau"].." - "..EJ_GetEncounterInfo(1592), -- Waist
+			ALIL["Black Temple"].." - "..EJ_GetEncounterInfo(1589), -- Legs
+			ALIL["Sunwell Plateau"].." - "..EJ_GetEncounterInfo(1593), -- Feet
 		},
-		{                                                   -- Druid - Balance
+		{                                                     -- Druid - Balance
 			name = ALIL["DRUID"].." ("..ALIL["Balance"]..")",
 			subSetName = "druidbalance",
 			icon = "druidBalance",
@@ -8865,13 +8864,13 @@ local SetTable = {
 	["Tier5"] = { -- T5 Sets
 		name = format(AL["Tier %d Sets"], 5),
 		sourceTemplate = {
-			ALIL["Serpentshrine Cavern"].." - "..BB["Lady Vashj"],    -- Head
-			ALIL["Tempest Keep"].." - "..BB["Void Reaver"],           -- Shoulder
-			ALIL["Tempest Keep"].." - "..BB["Kael'thas Sunstrider"],  -- Chest
-			ALIL["Serpentshrine Cavern"].." - "..BB["Leotheras the Blind"], -- Hands
-			ALIL["Serpentshrine Cavern"].." - "..BB["Fathom-Lord Karathress"], -- Legs
+			ALIL["Serpentshrine Cavern"].." - "..EJ_GetEncounterInfo(1572), -- Head
+			ALIL["Tempest Keep"].." - "..EJ_GetEncounterInfo(1574), -- Shoulder
+			ALIL["Tempest Keep"].." - "..EJ_GetEncounterInfo(1576), -- Chest
+			ALIL["Serpentshrine Cavern"].." - "..EJ_GetEncounterInfo(1569), -- Hands
+			ALIL["Serpentshrine Cavern"].." - "..EJ_GetEncounterInfo(1570), -- Legs
 		},
-		{                                                             -- Druid - Balance
+		{                                                          -- Druid - Balance
 			name = ALIL["DRUID"].." ("..ALIL["Balance"]..")",
 			subSetName = "druidbalance",
 			icon = "druidBalance",
@@ -9097,13 +9096,13 @@ local SetTable = {
 	["Tier4"] = { -- T4 Sets
 		name = format(AL["Tier %d Sets"], 4),
 		sourceTemplate = {
-			ALIL["Karazhan"].." - "..BB["Prince Malchezaar"], -- Head
-			ALIL["Gruul's Lair"].." - "..BB["High King Maulgar"], -- Shoulder
-			ALIL["Magtheridon's Lair"].." - "..BB["Magtheridon"], -- Chest
-			ALIL["Karazhan"].." - "..BB["The Curator"],       -- Hands
-			ALIL["Gruul's Lair"].." - "..BB["Gruul the Dragonkiller"], -- Legs
+			ALIL["Karazhan"].." - "..EJ_GetEncounterInfo(1563),  -- Head
+			ALIL["Gruul's Lair"].." - "..EJ_GetEncounterInfo(1564), -- Shoulder
+			ALIL["Magtheridon's Lair"].." - "..EJ_GetEncounterInfo(1566), -- Chest
+			ALIL["Karazhan"].." - "..EJ_GetEncounterInfo(1557),  -- Hands
+			ALIL["Gruul's Lair"].." - "..EJ_GetEncounterInfo(1565), -- Legs
 		},
-		{                                                     -- Druid - Balance
+		{                                                        -- Druid - Balance
 			name = ALIL["DRUID"].." ("..ALIL["Balance"]..")",
 			subSetName = "druidbalance",
 			icon = "druidBalance",
@@ -9497,16 +9496,16 @@ local SetTable = {
 	["Tier2"] = { -- T2 Sets
 		name = format(AL["Tier %d Sets"], 2),
 		sourceTemplate = {
-			ALIL["Blackwing Lair"].." - "..BB["Nefarian"],                                  -- Head
-			ALIL["Blackwing Lair"].." - "..BB["Chromaggus"],                                -- Shoulder
-			ALIL["Blackwing Lair"].." - "..BB["Nefarian"],                                  -- Chest
-			ALIL["Blackwing Lair"].." - "..BB["Razorgore the Untamed"],                     -- Wrist
-			ALIL["Blackwing Lair"].." - "..BB["Firemaw"]..", "..BB["Ebonroc"]..", "..BB["Flamegor"], -- Hands
-			ALIL["Blackwing Lair"].." - "..BB["Vaelastrasz the Corrupt"],                   -- Waist
-			ALIL["Molten Core"].." - "..BB["Ragnaros"],                                     -- Legs
-			ALIL["Blackwing Lair"].." - "..BB["Broodlord Lashlayer"],                       -- Feet
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1536),                                                          -- Head
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1535),                                                          -- Shoulder
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1536),                                                          -- Chest
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1529),                                                          -- Wrist
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1532)..", "..EJ_GetEncounterInfo(1533)..", "..EJ_GetEncounterInfo(1534), -- Hands
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1530),                                                          -- Waist
+			ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1528),                                                             -- Legs
+			ALIL["Blackwing Lair"].." - "..EJ_GetEncounterInfo(1531),                                                          -- Feet
 		},
-		{                                                                                   -- Druid
+		{                                                                                                                      -- Druid
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
@@ -9655,29 +9654,29 @@ local SetTable = {
 	["Tier1"] = { -- T1 Sets
 		name = format(AL["Tier %d Sets"], 1),
 		sourceTemplate = {
-			ALIL["Molten Core"].." - "..BB["Garr"],            -- Head
-			nil,                                               -- Shoulder
-			ALIL["Molten Core"].." - "..BB["Golemagg the Incinerator"], -- Chest
-			ALIL["Molten Core"].." - "..AL["Trash Mobs"],      -- Wrist
-			nil,                                               -- Hands
-			ALIL["Molten Core"].." - "..AL["Trash Mobs"],      -- Waist
-			ALIL["Molten Core"].." - "..BB["Magmadar"],        -- Legs
-			nil,                                               -- Feet
+			ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1522), -- Head
+			nil,                                          -- Shoulder
+			ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1526), -- Chest
+			ALIL["Molten Core"].." - "..AL["Trash Mobs"], -- Wrist
+			nil,                                          -- Hands
+			ALIL["Molten Core"].." - "..AL["Trash Mobs"], -- Waist
+			ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1520), -- Legs
+			nil,                                          -- Feet
 		},
-		{                                                      -- Druid
+		{                                                 -- Druid
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16834,                                                         -- Cenarion Helm
-				{ 16836, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Baron Geddon"] }, -- Cenarion Spaulders
-				16833,                                                         -- Cenarion Vestments
-				16830,                                                         -- Cenarion Bracers
-				{ 16831, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Cenarion Gloves
-				16828,                                                         -- Cenarion Belt
-				16835,                                                         -- Cenarion Leggings
-				{ 16829, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Cenarion Boots
+				16834,                                                                -- Cenarion Helm
+				{ 16836, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1524) }, -- Cenarion Spaulders
+				16833,                                                                -- Cenarion Vestments
+				16830,                                                                -- Cenarion Bracers
+				{ 16831, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Cenarion Gloves
+				16828,                                                                -- Cenarion Belt
+				16835,                                                                -- Cenarion Leggings
+				{ 16829, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Cenarion Boots
 			},
 		},
 		{ -- Hunter
@@ -9686,14 +9685,14 @@ local SetTable = {
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16846,                                                               -- Giantstalker's Helmet
-				{ 16848, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Sulfuron Harbinger"] }, -- Giantstalker's Epaulets
-				16845,                                                               -- Giantstalker's Breastplate
-				16850,                                                               -- Giantstalker's Bracers
-				{ 16852, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Giantstalker's Gloves
-				16851,                                                               -- Giantstalker's Belt
-				16847,                                                               -- Giantstalker's Leggings
-				{ 16849, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Giantstalker's Boots
+				16846,                                                                -- Giantstalker's Helmet
+				{ 16848, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1525) }, -- Giantstalker's Epaulets
+				16845,                                                                -- Giantstalker's Breastplate
+				16850,                                                                -- Giantstalker's Bracers
+				{ 16852, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Giantstalker's Gloves
+				16851,                                                                -- Giantstalker's Belt
+				16847,                                                                -- Giantstalker's Leggings
+				{ 16849, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Giantstalker's Boots
 			},
 		},
 		{ -- Mage
@@ -9702,14 +9701,14 @@ local SetTable = {
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16795,                                                         -- Arcanist Crown
-				{ 16797, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Baron Geddon"] }, -- Arcanist Mantle
-				16798,                                                         -- Arcanist Robes
-				16799,                                                         -- Arcanist Bindings
-				{ 16801, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Arcanist Gloves
-				16802,                                                         -- Arcanist Belt
-				16796,                                                         -- Arcanist Leggings
-				{ 16800, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Arcanist Boots
+				16795,                                                                -- Arcanist Crown
+				{ 16797, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1524) }, -- Arcanist Mantle
+				16798,                                                                -- Arcanist Robes
+				16799,                                                                -- Arcanist Bindings
+				{ 16801, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Arcanist Gloves
+				16802,                                                                -- Arcanist Belt
+				16796,                                                                -- Arcanist Leggings
+				{ 16800, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Arcanist Boots
 			},
 		},
 		{ -- Paladin
@@ -9718,14 +9717,14 @@ local SetTable = {
 			icon = "pala",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16854,                                                         -- Lawbringer Helm
-				{ 16856, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Baron Geddon"] }, -- Lawbringer Spaulders
-				16853,                                                         -- Lawbringer Chestguard
-				16857,                                                         -- Lawbringer Bracers
-				{ 16860, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Lawbringer Gauntlets
-				16858,                                                         -- Lawbringer Belt
-				16855,                                                         -- Lawbringer Legplates
-				{ 16859, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Lawbringer Boots
+				16854,                                                                -- Lawbringer Helm
+				{ 16856, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1524) }, -- Lawbringer Spaulders
+				16853,                                                                -- Lawbringer Chestguard
+				16857,                                                                -- Lawbringer Bracers
+				{ 16860, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Lawbringer Gauntlets
+				16858,                                                                -- Lawbringer Belt
+				16855,                                                                -- Lawbringer Legplates
+				{ 16859, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Lawbringer Boots
 			},
 		},
 		{ -- Priest
@@ -9734,14 +9733,14 @@ local SetTable = {
 			icon = "priest",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16813,                                                               -- Circlet of Prophecy
-				{ 16816, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Sulfuron Harbinger"] }, -- Mantle of Prophecy
-				16815,                                                               -- Robes of Prophecy
-				16819,                                                               -- Vambraces of Prophecy
-				{ 16812, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Gloves of Prophecy
-				16817,                                                               -- Girdle of Prophecy
-				16814,                                                               -- Pants of Prophecy
-				{ 16811, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Boots of Prophecy
+				16813,                                                                -- Circlet of Prophecy
+				{ 16816, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1525) }, -- Mantle of Prophecy
+				16815,                                                                -- Robes of Prophecy
+				16819,                                                                -- Vambraces of Prophecy
+				{ 16812, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Gloves of Prophecy
+				16817,                                                                -- Girdle of Prophecy
+				16814,                                                                -- Pants of Prophecy
+				{ 16811, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Boots of Prophecy
 			},
 		},
 		{ -- Rogue
@@ -9750,14 +9749,14 @@ local SetTable = {
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16821,                                                               -- Nightslayer Cover
-				{ 16823, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Sulfuron Harbinger"] }, -- Nightslayer Shoulder Pads
-				16820,                                                               -- Nightslayer Chestpiece
-				16825,                                                               -- Nightslayer Bracelets
-				{ 16826, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Nightslayer Gloves
-				16827,                                                               -- Nightslayer Belt
-				16822,                                                               -- Nightslayer Pants
-				{ 16824, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Nightslayer Boots
+				16821,                                                                -- Nightslayer Cover
+				{ 16823, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1525) }, -- Nightslayer Shoulder Pads
+				16820,                                                                -- Nightslayer Chestpiece
+				16825,                                                                -- Nightslayer Bracelets
+				{ 16826, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Nightslayer Gloves
+				16827,                                                                -- Nightslayer Belt
+				16822,                                                                -- Nightslayer Pants
+				{ 16824, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Nightslayer Boots
 			},
 		},
 		{ -- Shaman
@@ -9766,14 +9765,14 @@ local SetTable = {
 			icon = "shaman",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16842,                                                         -- Earthfury Helmet
-				{ 16844, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Baron Geddon"] }, -- Earthfury Epaulets
-				16841,                                                         -- Earthfury Vestments
-				16840,                                                         -- Earthfury Bracers
-				{ 16839, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Earthfury Gauntlets
-				16838,                                                         -- Earthfury Belt
-				16843,                                                         -- Earthfury Legguards
-				{ 16837, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Earthfury Boots
+				16842,                                                                -- Earthfury Helmet
+				{ 16844, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1524) }, -- Earthfury Epaulets
+				16841,                                                                -- Earthfury Vestments
+				16840,                                                                -- Earthfury Bracers
+				{ 16839, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Earthfury Gauntlets
+				16838,                                                                -- Earthfury Belt
+				16843,                                                                -- Earthfury Legguards
+				{ 16837, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Earthfury Boots
 			},
 		},
 		{ -- Warlock
@@ -9782,14 +9781,14 @@ local SetTable = {
 			icon = "warlock",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16808,                                                         -- Felheart Horns
-				{ 16807, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Baron Geddon"] }, -- Felheart Shoulder Pads
-				16809,                                                         -- Felheart Robes
-				16804,                                                         -- Felheart Bracers
-				{ 16805, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Felheart Gloves
-				16806,                                                         -- Felheart Belt
-				16810,                                                         -- Felheart Pants
-				{ 16803, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Shazzrah"] }, -- Felheart Slippers
+				16808,                                                                -- Felheart Horns
+				{ 16807, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1524) }, -- Felheart Shoulder Pads
+				16809,                                                                -- Felheart Robes
+				16804,                                                                -- Felheart Bracers
+				{ 16805, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Felheart Gloves
+				16806,                                                                -- Felheart Belt
+				16810,                                                                -- Felheart Pants
+				{ 16803, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1523) }, -- Felheart Slippers
 			},
 		},
 		{ -- Warrior
@@ -9798,14 +9797,14 @@ local SetTable = {
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplate",
 			[NORMAL_DIFF] = {
-				16866,                                                               -- Helm of Might
-				{ 16868, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Sulfuron Harbinger"] }, -- Pauldrons of Might
-				16865,                                                               -- Breastplate of Might
-				16861,                                                               -- Bracers of Might
-				{ 16863, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Lucifron"] }, -- Gauntlets of Might
-				16864,                                                               -- Belt of Might
-				16867,                                                               -- Legplates of Might
-				{ 16862, [SOURCE_INFO] = ALIL["Molten Core"].." - "..BB["Gehennas"] }, -- Sabatons of Might
+				16866,                                                                -- Helm of Might
+				{ 16868, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1525) }, -- Pauldrons of Might
+				16865,                                                                -- Breastplate of Might
+				16861,                                                                -- Bracers of Might
+				{ 16863, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1519) }, -- Gauntlets of Might
+				16864,                                                                -- Belt of Might
+				16867,                                                                -- Legplates of Might
+				{ 16862, [SOURCE_INFO] = ALIL["Molten Core"].." - "..EJ_GetEncounterInfo(1521) }, -- Sabatons of Might
 			},
 		},
 	},
