@@ -3,6 +3,7 @@
 ## 9.4.0 - June 17, 2025
 ### Added
 - Added Lorewalking rewards to Toy Collection
+- Added BFA Timewalking rewards (cosmetic items to come later)
 - Added the ability to list an achievement as the method of acquisition on the secondary line. Mostly useful for mounts and pets where the secondary button is already used. Necessary data is only on TWW and DF mounts, pets and toys in Collections right now, but will get added elsewhere in the future.
 ### Changed
 - Update TOC to 11.1.7

@@ -344,12 +344,38 @@ data["TIMEWALKINGEVENT"]   = {
 	name = AL["Timewalking Dungeon Event"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		--[[
-		{-- Warlords of Draenor
-			name = EXPANSION_NAME5,
-			[NORMAL_DIFF] = {
+		{ -- Battle for Azeroth
+			name = EXPANSION_NAME7,
+			[ALLIANCE_DIFF] = {
+				{ 1,  245695, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Moonlit Nightsaber
+				{ 2,  245694, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Ivory Savagemane
+				{ 3,  205208, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
+				{ 4,  232624, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
+				{ 5,  245543, "pet4849",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Flotsam Harvester
+				{ 6,  245574, "pet4852",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Lil' Daz'ti
+				{ 7,  245942, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Sea-Blessed Shrine
+				{ 8,  246227, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Lightning-Blessed Spire
+				{ 10, 238821, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Champions of Azeroth
+				{ 11, 238822, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Tortollan Seekers
+				{ 12, 238823, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rustbolt Resistance
+				{ 13, 238826, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rajani
+				{ 14, 238827, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Uldum Accord
+
+				{ 15, 238803, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Order of Embers
+				{ 16, 238804, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Proudmoore Admiralty
+				{ 17, 238805, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Storm's Wake
+				{ 18, 238806, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the 7th Legion
+				{ 19, 238809, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Waveblade Ankoan
 			},
-		},]]
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 15, 238816, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Talanji's Expedition
+				{ 16, 238818, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Zandalari Empire
+				{ 17, 238817, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Voldunai
+				{ 18, 238819, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Honorbound
+				{ 19, 238820, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Unshackled
+			},
+		},
 		{ -- Mists of Pandaria
 			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
@@ -1111,6 +1137,8 @@ data["MOUNTS"]             = {
 				{ 414, 238941, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Coldflame Cormaera
 				{ 415, 236415, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Reins of the Spotted Black Riding Goat
 				{ 416, 239020, "mount" },                                                -- Tyrannotort's Treat
+				{ 417, 245695, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Moonlit Nightsaber
+				{ 418, 245694, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Ivory Savagemane
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -6019,6 +6047,8 @@ data["COMPANIONS"]         = {
 				{ 410, 174460, "pet2841" },                                               -- Box Labeled "Danger: Void Rat Inside" (Void-Scarred Rat)
 				{ 411, 173726, "pet2796" },                                               -- Box With Faintly Glowing 'Air' Holes (Void-Scarred Toad)
 				{ 412, 239019, "pet4806" },                                               -- Mean-Ball Ball Bag
+				{ 413, 245543, "pet4849", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Flotsam Harvester
+				{ 414, 245574, "pet4852", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Lil' Daz'ti
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
@@ -6224,6 +6254,8 @@ data["TOYS"]               = {
 				{ 226, 244888 },                                     -- Echo of the Xal'atath, Blade of the Black Empire
 				{ 227, 245567 },                                     -- K'aresh Memory Crystal
 				{ 228, 245631 },                                     -- Royal Visage
+				{ 229, 245942, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Sea-Blessed Shrine
+				{ 230, 246227, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Lightning-Blessed Spire
 				-- { 214, 235016 },                                     -- Redeployment Module
 			}
 		},
