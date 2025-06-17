@@ -29,7 +29,6 @@ local EJ_GetEncounterInfo = EJ_GetEncounterInfo
 
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
-local BB = AtlasLoot.LibBabble:Get("LibBabble-Boss-3.0")
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", ADD_SCALING, 17)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
@@ -263,7 +262,7 @@ data["BlackrockDepths"] = {
 				{ 6,  22205 },                                -- Black Steel Bindings
 				{ 7,  22255 },                                -- Magma Forged Band
 				{ 8,  22254 },                                -- Wand of Eternal Light
-				{ 16, "INV_Box_01", nil,                               BB["Dark Coffer"],     nil },
+				{ 16, "INV_Box_01", nil,                               AL["Dark Coffer"],     nil },
 				{ 17, 11752,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Black Blood of the Tormented
 				{ 18, 11751,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Burning Essence
 				{ 19, 11753,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Eye of Kajal
@@ -280,7 +279,7 @@ data["BlackrockDepths"] = {
 			},
 		},
 		{ --BRDVerek
-			name = BB["Verek"],
+			name = AL["Verek"],
 			[NORMAL_DIFF] = {
 				{ 1, 22242 }, -- Verek's Leash
 				{ 2, 11755 }, -- Verek's Collar
@@ -302,33 +301,33 @@ data["BlackrockDepths"] = {
 		{ --BRDArena
 			EncounterJournalID = 372,
 			[NORMAL_DIFF] = {
-				{ 1,   "INV_Box_01", nil,                               BB["Anub'shiah"],          nil }, --Anub'shiah
+				{ 1,   "INV_Box_01", nil,                               AL["Anub'shiah"],          nil }, --Anub'shiah
 				{ 2,   11677 },                                                               -- Graverot Cape
 				{ 3,   11675 },                                                               -- Shadefiend Boots
 				{ 4,   11731 },                                                               -- Savage Gladiator Greaves
 				{ 5,   11678 },                                                               -- Carapace of Anub'shiah
-				{ 7,   "INV_Box_01", nil,                               BB["Eviscerator"],         nil }, --Eviscerator
+				{ 7,   "INV_Box_01", nil,                               AL["Eviscerator"],         nil }, --Eviscerator
 				{ 8,   11685 },                                                               -- Splinthide Shoulders
 				{ 9,   11686 },                                                               -- Girdle of Beastial Fury
 				{ 10,  11730 },                                                               -- Savage Gladiator Grips
 				{ 11,  11679 },                                                               -- Rubicund Armguards
-				{ 16,  "INV_Box_01", nil,                               BB["Gorosh the Dervish"],  nil }, --Gorosh the Dervish
+				{ 16,  "INV_Box_01", nil,                               AL["Gorosh the Dervish"],  nil }, --Gorosh the Dervish
 				{ 17,  11726 },                                                               -- Savage Gladiator Chain
 				{ 19,  11662 },                                                               -- Ban'thok Sash
 				{ 20,  22271 },                                                               -- Leggings of Frenzied Magic
 				{ 21,  22257 },                                                               -- Bloodclot Band
 				{ 22,  22266 },                                                               -- Flarethorn
-				{ 24,  "INV_Box_01", nil,                               BB["Grizzle"],             nil }, --Grizzle
+				{ 24,  "INV_Box_01", nil,                               AL["Grizzle"],             nil }, --Grizzle
 				{ 25,  11722 },                                                               -- Dregmetal Spaulders
 				{ 26,  11703 },                                                               -- Stonewall Girdle
 				{ 27,  11702 },                                                               -- Grizzle's Skinner
 				{ 29,  11610,        [ATLASLOOT_IT_FILTERIGNORE] = true },                    -- Plans: Dark Iron Pulverizer
-				{ 101, "INV_Box_01", nil,                               BB["Hedrum the Creeper"],  nil }, --Hedrum the Creeper
+				{ 101, "INV_Box_01", nil,                               AL["Hedrum the Creeper"],  nil }, --Hedrum the Creeper
 				{ 102, 11634 },                                                               -- Silkweb Gloves
 				{ 103, 11729 },                                                               -- Savage Gladiator Helm
 				{ 104, 11633 },                                                               -- Spiderfang Carapace
 				{ 105, 11635 },                                                               -- Hookfang Shanker
-				{ 107, "INV_Box_01", nil,                               BB["Ok'thor the Breaker"], nil }, --Ok'thor the Breaker
+				{ 107, "INV_Box_01", nil,                               AL["Ok'thor the Breaker"], nil }, --Ok'thor the Breaker
 				{ 108, 11665 },                                                               -- Ogreseer Fists
 				{ 109, 11728 },                                                               -- Savage Gladiator Leggings
 				{ 110, 11824 },                                                               -- Cyclopean Band
@@ -371,7 +370,7 @@ data["BlackrockDepths"] = {
 				{ 12, 22212 },                                                              -- Golem Fitted Pauldrons
 				{ 13, 11745 },                                                              -- Fists of Phalanx
 				{ 14, 11744 },                                                              -- Bloodfist
-				{ 16, "INV_Box_01", nil,                               BB["Ribbly Screwspigot"], nil }, --Ribbly Screwspigot
+				{ 16, "INV_Box_01", nil,                               AL["Ribbly Screwspigot"], nil }, --Ribbly Screwspigot
 				{ 17, 11612,        [ATLASLOOT_IT_FILTERIGNORE] = true },                   -- Plans: Dark Iron Plate
 				{ 18, 11742 },                                                              -- Wayfarer's Knapsack
 				{ 20, "INV_Box_01", nil,                               EJ_GetEncounterInfo(383), nil }, --Plugger Spazzring
@@ -396,7 +395,7 @@ data["BlackrockDepths"] = {
 			},
 		},
 		{ --BRDPanzor
-			name = BB["Panzor the Invincible"].." ("..AL["Rare"]..")",
+			name = AL["Panzor the Invincible"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 22245 }, -- Soot Encrusted Footwear
 				{ 2, 11787 }, -- Shalehusk Boots
@@ -427,7 +426,7 @@ data["BlackrockDepths"] = {
 			},
 		},
 		{ --BRDHighPriestessofThaurissan; formerly PrincessMoira
-			name = BB["High Priestess of Thaurissan"],
+			name = AL["High Priestess of Thaurissan"],
 			[NORMAL_DIFF] = {
 				{ 1, 12556 }, -- High Priestess Boots
 				{ 2, 12554 }, -- Hands of the Exalted Herald
@@ -596,7 +595,7 @@ local DIREMAULENT_LOOT3 = {
 	{ 3,  18311 },                                         -- Quel'dorei Channeling Rod
 	{ 4,  18301 },                                         -- Lethtendris' Wand
 	{ 6,  18426,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Lethtendris' Web
-	{ 16, "INV_Box_01", nil,                               BB["Pimgib"], nil },
+	{ 16, "INV_Box_01", nil,                               AL["Pimgib"], nil },
 	{ 17, 18354,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pimgib's Collar
 }
 local DIREMAULENT_LOOT4 = {
@@ -775,7 +774,7 @@ data["DireMaul"] = {
 			[NORMAL_DIFF] = DIREMAULENT_LOOT3,
 		},
 		{ --Dire Maul East - Pusillin
-			name = BB["Pusillin"],
+			name = AL["Pusillin"],
 			[NORMAL_DIFF] = DIREMAULENT_LOOT4,
 		},
 		{ --Dire Maul East - Alzzin the Windshaper
@@ -795,7 +794,7 @@ data["DireMaul"] = {
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT3,
 		},
 		{ --Dire Maul West - Tsuzee
-			name = BB["Tsu'zee"].." ("..AL["Rare"]..")",
+			name = AL["Tsu'zee"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT4,
 		},
 		{ --Dire Maul West - Immolthar
@@ -803,7 +802,7 @@ data["DireMaul"] = {
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT5,
 		},
 		{ --Dire Maul West - Lord Helnurath
-			name = BB["Lord Hel'nurath"].." ("..AL["Summon"]..")",
+			name = AL["Lord Hel'nurath"].." ("..AL["Summon"]..")",
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT6,
 		},
 		{ --Dire Maul West - Prince Tortheldrin
@@ -935,7 +934,7 @@ data["Gnomeregan"] = {
 			[NORMAL_DIFF] = GNOMEREGAN_LOOT4,
 		},
 		{ --Dark Iron Ambassador
-			name = BB["Dark Iron Ambassador"].." ("..AL["Rare"]..")",
+			name = AL["Dark Iron Ambassador"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = GNOMEREGAN_LOOT5,
 		},
 		{ --Mekgineer Thermaplugg
@@ -958,14 +957,14 @@ data["LowerBlackrockSpire"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ --LBRSFelguard
-			name = BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")",
+			name = AL["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13181 }, -- Demonskin Gloves
 				{ 2, 13182 }, -- Phase Blade
 			},
 		},
 		{ --LBRSSpirestoneButcher
-			name = BB["Spirestone Butcher"].." ("..AL["Rare"]..")",
+			name = AL["Spirestone Butcher"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 12608 }, -- Butcher's Apron
 				{ 2, 13286 }, -- Rivenspike
@@ -984,14 +983,14 @@ data["LowerBlackrockSpire"] = {
 			},
 		},
 		{ --LBRSSpirestoneLord
-			name = BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")",
+			name = AL["Spirestone Battle Lord"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13284 }, -- Swiftdart Battleboots
 				{ 2, 13285 }, -- The Blackrock Slicer
 			},
 		},
 		{ --LBRSLordMagus
-			name = BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")",
+			name = AL["Spirestone Lord Magus"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13282 }, -- Ogreseer Tower Boots
 				{ 2, 13283 }, -- Magus Ring
@@ -1019,7 +1018,7 @@ data["LowerBlackrockSpire"] = {
 			},
 		},
 		{ --LBRSGrimaxe
-			name = BB["Bannok Grimaxe"].." ("..AL["Rare"]..")",
+			name = AL["Bannok Grimaxe"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 12634 },                         -- Chiselbrand Girdle
 				{ 2, 12637 },                         -- Backusarian Gauntlets
@@ -1038,7 +1037,7 @@ data["LowerBlackrockSpire"] = {
 			},
 		},
 		{ --LBRSCrystalFang
-			name = BB["Crystal Fang"].." ("..AL["Rare"]..")",
+			name = AL["Crystal Fang"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13185 }, -- Sunderseer Mantle
 				{ 2, 13184 }, -- Fallbrush Handgrips
@@ -1086,7 +1085,7 @@ data["LowerBlackrockSpire"] = {
 			},
 		},
 		{ --LBRSBashguud
-			name = BB["Ghok Bashguud"].." ("..AL["Rare"]..")",
+			name = AL["Ghok Bashguud"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13203 }, -- Armswake Cloak
 				{ 2, 13198 }, -- Hurd Smasher
@@ -1198,7 +1197,7 @@ data["Maraudon"] = {
 			[NORMAL_DIFF] = MARAUDON_LOOT2,
 		},
 		{ --Meshlok the Harvester
-			name = BB["Meshlok the Harvester"].." ("..AL["Rare"]..")",
+			name = AL["Meshlok the Harvester"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = MARAUDON_LOOT3,
 		},
 		{ --Lord Vyletongue
@@ -1658,7 +1657,7 @@ data["ShadowfangKeep"] = {
 	LoadDifficulty = NORMAL_DIFF,
 	items = {
 		{ --ShadowfangDeathswornCaptain
-			name = BB["Deathsworn Captain"].." ("..AL["Rare"]..")",
+			name = AL["Deathsworn Captain"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 6642 }, -- Phantom Armor
 				{ 2, 6641 }, -- Haunting Blade
@@ -1761,7 +1760,7 @@ data["Stratholme"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ --STRATSkull
-			name = BB["Skul"].." ("..AL["Rare"]..")",
+			name = AL["Skul"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13395 }, -- Skul's Fingerbone Claws
 				{ 2, 13394 }, -- Skul's Cold Embrace
@@ -1862,7 +1861,7 @@ data["Stratholme"] = {
 			},
 		},
 		{ --STRATStonespine
-			name = BB["Stonespine"].." ("..AL["Rare"]..")",
+			name = AL["Stonespine"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13397 }, -- Stoneskin Gargoyle Cape
 				{ 2, 13954 }, -- Verdant Footpads
@@ -1972,7 +1971,7 @@ data["Stratholme"] = {
 				{ 19, 16052,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Schematic: Voice Amplification Modulator
 				{ 20, 15777,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Runic Leather Shoulders
 				{ 21, 15768,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pattern: Wicked Leather Belt
-				{ 23, "INV_Box_01", nil,                               BB["Fras Siabi"], nil },
+				{ 23, "INV_Box_01", nil,                               AL["Fras Siabi"], nil },
 				{ 24, 13172 },                                -- Siabi's Premium Tobacco
 			},
 		},
@@ -2054,7 +2053,7 @@ data["TheSunkenTemple"] = {
 				{ 2,  10808 },                                -- Gloves of the Atal'ai Prophet
 				{ 3,  10807 },                                -- Kilt of the Atal'ai Prophet
 				{ 5,  6212,         [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Head of Jammal'an
-				{ 16, "INV_Box_01", nil,                               BB["Ogom the Wretched"], nil },
+				{ 16, "INV_Box_01", nil,                               AL["Ogom the Wretched"], nil },
 				{ 17, 10805 },                                -- Eater of the Dead
 				{ 18, 10804 },                                -- Fist of the Damned
 				{ 19, 10803 },                                -- Blade of the Wretched
@@ -2312,11 +2311,11 @@ data["WailingCaverns"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ --Boahn
-			name = BB["Boahn"].." ("..AL["Rare"]..", "..AL["Entrance"]..")",
+			name = AL["Boahn"].." ("..AL["Rare"]..", "..AL["Entrance"]..")",
 			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT1,
 		},
 		{ --Trigore the Lasher
-			name = BB["Trigore the Lasher"].." ("..AL["Rare"]..", "..AL["Entrance"]..")",
+			name = AL["Trigore the Lasher"].." ("..AL["Rare"]..", "..AL["Entrance"]..")",
 			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT2,
 		},
 		{ --Lady Anacondra
@@ -2340,7 +2339,7 @@ data["WailingCaverns"] = {
 			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT7,
 		},
 		{ --Deviate Faerie Dragon
-			name = BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")",
+			name = AL["Deviate Faerie Dragon"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT8,
 		},
 		{ --Lord Serpentis
@@ -2376,7 +2375,7 @@ data["ZulFarrak"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ --ZFZerillis
-			name = BB["Zerillis"].." ("..AL["Rare"]..")",
+			name = AL["Zerillis"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 12470 }, -- Sandstalker Ankleguards
 			},
@@ -2433,7 +2432,7 @@ data["ZulFarrak"] = {
 			},
 		},
 		{ --ZFDustwraith
-			name = BB["Dustwraith"].." ("..AL["Rare"]..")",
+			name = AL["Dustwraith"].." ("..AL["Rare"]..")",
 			[NORMAL_DIFF] = {
 				{ 1, 12471 }, -- Desertwalker Cane
 			},
@@ -2520,7 +2519,7 @@ data["AhnQiraj"] = {
 			},
 		},
 		{ --AQ40BugFam
-			name = BB["The Bug Family"],
+			name = AL["The Bug Family"],
 			[NORMAL_DIFF] = {
 				{ 1,  21697 }, -- Cape of the Trinity
 				{ 2,  21694 }, -- Ternary Mantle
@@ -2530,18 +2529,18 @@ data["AhnQiraj"] = {
 				{ 6,  21695 }, -- Angelista's Touch
 				{ 8,  21237 }, -- Imperial Qiraji Regalia
 				{ 9,  21232 }, -- Imperial Qiraji Armaments
-				{ 11, "INV_Box_01", nil, BB["Lord Kri"],      nil },
+				{ 11, "INV_Box_01", nil, AL["Lord Kri"],      nil },
 				{ 12, 21680 }, -- Vest of Swift Execution
 				{ 13, 21603 }, -- Wand of Qiraji Nobility
 				{ 14, 21681 }, -- Ring of the Devoured
 				{ 15, 21685 }, -- Petrified Scarab
-				{ 16, "INV_Box_01", nil, BB["Princess Yauj"], nil },
+				{ 16, "INV_Box_01", nil, AL["Princess Yauj"], nil },
 				{ 17, 21686 }, -- Mantle of Phrenic Power
 				{ 18, 21682 }, -- Bile-Covered Gauntlets
 				{ 19, 21684 }, -- Mantle of the Desert's Fury
 				{ 20, 21683 }, -- Mantle of the Desert Crusade
 				{ 21, 21687 }, -- Ukko's Ring of Darkness
-				{ 23, "INV_Box_01", nil, BB["Vem"],           nil },
+				{ 23, "INV_Box_01", nil, AL["Vem"],           nil },
 				{ 24, 21689 }, -- Gloves of Ebru
 				{ 25, 21691 }, -- Ooze-Ridden Gauntlets
 				{ 26, 21688 }, -- Boots of the Fallen Hero
@@ -3421,7 +3420,7 @@ data["TheRuinsofAhnQiraj"] = {
 				{ 17, 20885 },                                -- Qiraji Martial Drape
 				{ 18, 20884 },                                -- Qiraji Magisterial Ring
 				{ 19, 20888 },                                -- Qiraji Ceremonial Ring
-				{ 21, "INV_Box_01", nil,                               BB["Lieutenant General Andorov"], nil },
+				{ 21, "INV_Box_01", nil,                               AL["Lieutenant General Andorov"], nil },
 				{ 22, 22221,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Plans: Obsidian Mail Tunic
 				{ 23, 22219,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Plans: Jagged Obsidian Shield
 			},
