@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.5.0 -
+### Added
+- Added resonance crystal costs to Mean-Ball Ball Bag and Tyrannotort's Treat
+
 ## 9.4.0 - June 17, 2025
 ### Added
 - Added Lorewalking rewards to Toy Collection

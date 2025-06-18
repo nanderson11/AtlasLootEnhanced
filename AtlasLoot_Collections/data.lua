@@ -1136,7 +1136,7 @@ data["MOUNTS"]             = {
 				{ 413, 238967, "mount" },                                                -- Molten Cormaera
 				{ 414, 238941, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Coldflame Cormaera
 				{ 415, 236415, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Reins of the Spotted Black Riding Goat
-				{ 416, 239020, "mount" },                                                -- Tyrannotort's Treat
+				{ 416, 239020, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Tyrannotort's Treat
 				{ 417, 245695, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Moonlit Nightsaber
 				{ 418, 245694, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Ivory Savagemane
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
@@ -6046,7 +6046,7 @@ data["COMPANIONS"]         = {
 				{ 409, 174646, "pet2797" },                                               -- Void-Link Frostwolf Collar (Void-Scarred Pup)
 				{ 410, 174460, "pet2841" },                                               -- Box Labeled "Danger: Void Rat Inside" (Void-Scarred Rat)
 				{ 411, 173726, "pet2796" },                                               -- Box With Faintly Glowing 'Air' Holes (Void-Scarred Toad)
-				{ 412, 239019, "pet4806" },                                               -- Mean-Ball Ball Bag
+				{ 412, 239019, "pet4806", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Mean-Ball Ball Bag
 				{ 413, 245543, "pet4849", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Flotsam Harvester
 				{ 414, 245574, "pet4852", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Lil' Daz'ti
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
