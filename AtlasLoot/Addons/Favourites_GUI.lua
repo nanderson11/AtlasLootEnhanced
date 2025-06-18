@@ -281,13 +281,28 @@ end
 
 local function SlotButton_OnEvent(self, event, itemID, success)
 	if event == "GET_ITEM_INFO_RECEIVED" and itemID == self.ItemID and success then
-		self.qualityBorder:SetQualityBorder(GetItemQuality(self.ItemString or self.ItemID))
+		local quality = GetItemQuality(self.ItemString or self.ItemID)
+		self.qualityBorder:SetQualityBorder(quality)
 		if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(itemID) then
 			self.overlay:SetAtlas("AzeriteIconFrame");
 			self.overlay:Show();
 		elseif C_Item.IsCosmeticItem(itemID) then
 			self.overlay:SetAtlas("CosmeticIconFrame");
 			self.overlay:Show()
+		elseif C_Soulbinds.IsItemConduitByItemInfo(itemID) then
+			self.overlay:SetVertexColor(
+				ITEM_QUALITY_COLORS[quality].r,
+				ITEM_QUALITY_COLORS[quality].g,
+				ITEM_QUALITY_COLORS[quality].b,
+				1
+			);
+			self.overlay:SetAtlas("ConduitIconFrame");
+			self.overlay:Show();
+
+			if self.overlay2 then
+				self.overlay2:SetAtlas("ConduitIconFrame-Corners");
+				self.overlay2:Show();
+			end
 		end
 		self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 	end
@@ -321,6 +336,8 @@ local function SlotButton_SetSlotItem(self, item)
 	end
 
 	self.overlay:Hide()
+	self.overlay:SetVertexColor(1, 1, 1, 1)
+	self.overlay2:Hide()
 	if item and item ~= true and ItemExist(itemString or itemID) then
 		local _, _, _, itemEquipLoc, icon = GetItemInfoInstant(itemString or itemID)
 		if not self.slotID or (self.equipLoc and self.equipLoc[itemEquipLoc]) then
@@ -338,6 +355,20 @@ local function SlotButton_SetSlotItem(self, item)
 				elseif C_Item.IsCosmeticItem(itemString or itemID) then
 					self.overlay:SetAtlas("CosmeticIconFrame");
 					self.overlay:Show()
+				elseif C_Soulbinds.IsItemConduitByItemInfo(itemString or itemID) then
+					self.overlay:SetVertexColor(
+						ITEM_QUALITY_COLORS[quality].r,
+						ITEM_QUALITY_COLORS[quality].g,
+						ITEM_QUALITY_COLORS[quality].b,
+						1
+					);
+					self.overlay:SetAtlas("ConduitIconFrame");
+					self.overlay:Show();
+
+					if self.overlay2 then
+						self.overlay2:SetAtlas("ConduitIconFrame-Corners");
+						self.overlay2:Show();
+					end
 				end
 			end
 			self.qualityBorder:Show()
@@ -400,6 +431,11 @@ local function Slot_CreateSlotButton(parFrame, slotID, modelFrame)
 	frame.overlay:SetDrawLayer("OVERLAY", 1)
 	frame.overlay:SetAllPoints(frame.icon)
 	frame.overlay:Hide()
+
+	frame.overlay2 = frame:CreateTexture()
+	frame.overlay2:SetDrawLayer("OVERLAY", 2)
+	frame.overlay2:SetAllPoints(frame.icon)
+	frame.overlay2:Hide()
 
 	-- count
 	frame.count = frame:CreateFontString(nil, "ARTWORK", "AtlasLoot_ItemAmountFont")

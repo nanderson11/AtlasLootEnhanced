@@ -231,7 +231,11 @@ function Item.OnClear(button)
 	end
 	if button.overlay then
 		button.overlay:SetDesaturated(false)
+		button.overlay:SetVertexColor(1, 1, 1, 1)
 		button.overlay:Hide()
+	end
+	if button.overlay2 then
+		button.overlay2:Hide()
 	end
 	button.secButton.overlay:Hide()
 end
@@ -258,6 +262,20 @@ function Item.Refresh(button)
 	elseif C_Item.IsCosmeticItem(button.ItemString or button.ItemID) then
 		button.overlay:SetAtlas("CosmeticIconFrame");
 		button.overlay:Show()
+	elseif C_Soulbinds.IsItemConduitByItemInfo(button.ItemString or button.ItemID) then
+		button.overlay:SetVertexColor(
+			ITEM_QUALITY_COLORS[itemQuality].r,
+			ITEM_QUALITY_COLORS[itemQuality].g,
+			ITEM_QUALITY_COLORS[itemQuality].b,
+			1
+		);
+		button.overlay:SetAtlas("ConduitIconFrame");
+		button.overlay:Show();
+
+		if button.overlay2 then
+			button.overlay2:SetAtlas("ConduitIconFrame-Corners");
+			button.overlay2:Show();
+		end
 	end
 
 	if not LOOT_BORDER_BY_QUALITY[itemQuality] then
