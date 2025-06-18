@@ -252,7 +252,10 @@ function Item.Refresh(button)
 		1
 	)
 
-	if C_Item.IsCosmeticItem(button.ItemString or button.ItemID) then
+	if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(button.ItemString or button.ItemID) then
+		button.overlay:SetAtlas("AzeriteIconFrame");
+		button.overlay:Show();
+	elseif C_Item.IsCosmeticItem(button.ItemString or button.ItemID) then
 		button.overlay:SetAtlas("CosmeticIconFrame");
 		button.overlay:Show()
 	end

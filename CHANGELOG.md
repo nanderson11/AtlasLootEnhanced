@@ -2,6 +2,7 @@
 
 ## 9.5.0 -
 ### Added
+- Added Azerite item overlay on Azerite items
 - Added resonance crystal costs to Mean-Ball Ball Bag and Tyrannotort's Treat
 
 ## 9.4.0 - June 17, 2025

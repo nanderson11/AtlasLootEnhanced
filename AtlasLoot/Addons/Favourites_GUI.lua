@@ -282,7 +282,10 @@ end
 local function SlotButton_OnEvent(self, event, itemID, success)
 	if event == "GET_ITEM_INFO_RECEIVED" and itemID == self.ItemID and success then
 		self.qualityBorder:SetQualityBorder(GetItemQuality(self.ItemString or self.ItemID))
-		if C_Item.IsCosmeticItem(itemID) then
+		if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(itemID) then
+			self.overlay:SetAtlas("AzeriteIconFrame");
+			self.overlay:Show();
+		elseif C_Item.IsCosmeticItem(itemID) then
 			self.overlay:SetAtlas("CosmeticIconFrame");
 			self.overlay:Show()
 		end
@@ -329,7 +332,10 @@ local function SlotButton_SetSlotItem(self, item)
 			else
 				self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 				self.qualityBorder:SetQualityBorder(quality)
-				if C_Item.IsCosmeticItem(itemString or itemID) then
+				if C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(itemString or itemID) then
+					self.overlay:SetAtlas("AzeriteIconFrame");
+					self.overlay:Show();
+				elseif C_Item.IsCosmeticItem(itemString or itemID) then
 					self.overlay:SetAtlas("CosmeticIconFrame");
 					self.overlay:Show()
 				end
