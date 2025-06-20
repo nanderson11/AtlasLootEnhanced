@@ -366,22 +366,68 @@ data["TIMEWALKINGEVENT"]   = {
 		{ -- Battle for Azeroth
 			name = EXPANSION_NAME7,
 			[NORMAL_DIFF] = {
-				{ 1,  245695,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Moonlit Nightsaber
-				{ 2,  245694,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Ivory Savagemane
-				{ 3,  245543,                        "pet4849",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Flotsam Harvester
-				{ 4,  245574,                        "pet4852",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Lil' Daz'ti
-				{ 5,  245942,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                     -- Sea-Blessed Shrine
-				{ 6,  246227,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                     -- Lightning-Blessed Spire
-				{ 8,  238821,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Champions of Azeroth
-				{ 9,  238822,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Tortollan Seekers
-				{ 10, 238823,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Rustbolt Resistance
-				{ 11, 238826,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Rajani
-				{ 12, 238827,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Uldum Accord
-				{ 13, [ATLASLOOT_IT_HORDE] = 238816, [ATLASLOOT_IT_ALLIANCE] = 238803,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Order of Embers / Talanji's Expedition
-				{ 14, [ATLASLOOT_IT_HORDE] = 238818, [ATLASLOOT_IT_ALLIANCE] = 238804,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Proudmoore Admiralty / Zandalari Empire
-				{ 15, [ATLASLOOT_IT_HORDE] = 238817, [ATLASLOOT_IT_ALLIANCE] = 238805,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Storm's Wake / Voldunai
-				{ 16, [ATLASLOOT_IT_HORDE] = 238819, [ATLASLOOT_IT_ALLIANCE] = 238806,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the 7th Legion / Honorbound
-				{ 17, [ATLASLOOT_IT_HORDE] = 238820, [ATLASLOOT_IT_ALLIANCE] = 238809,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Waveblade Ankoan / Unshackled
+				{ 1,   245695,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Moonlit Nightsaber
+				{ 2,   245694,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Ivory Savagemane
+				{ 3,   245543,                        "pet4849",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Flotsam Harvester
+				{ 4,   245574,                        "pet4852",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Lil' Daz'ti
+				{ 5,   245942,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Sea-Blessed Shrine
+				{ 6,   246227,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Lightning-Blessed Spire
+				{ 8,   238821,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Champions of Azeroth
+				{ 9,   238822,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Tortollan Seekers
+				{ 10,  238823,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rustbolt Resistance
+				{ 11,  238826,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rajani
+				{ 12,  238827,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Uldum Accord
+				{ 13,  [ATLASLOOT_IT_HORDE] = 238816, [ATLASLOOT_IT_ALLIANCE] = 238803,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Order of Embers / Talanji's Expedition
+				{ 14,  [ATLASLOOT_IT_HORDE] = 238818, [ATLASLOOT_IT_ALLIANCE] = 238804,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Proudmoore Admiralty / Zandalari Empire
+				{ 15,  [ATLASLOOT_IT_HORDE] = 238817, [ATLASLOOT_IT_ALLIANCE] = 238805,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Storm's Wake / Voldunai
+				{ 16,  [ATLASLOOT_IT_HORDE] = 238819, [ATLASLOOT_IT_ALLIANCE] = 238806,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the 7th Legion / Honorbound
+				{ 17,  [ATLASLOOT_IT_HORDE] = 238820, [ATLASLOOT_IT_ALLIANCE] = 238809,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Waveblade Ankoan / Unshackled
+				{ 19,  244430,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Fang of the Dark Prophets
+				{ 20,  244432,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- 7th Legion Commander's Crest
+				{ 21,  244471,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Time-Lost Tempest Caller
+				{ 22,  244145,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2500" },                              -- Ensemble: Ashvane Smuggler's Attire
+				{ 23,  244224,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2500" },                              -- Ensemble: Bloodsail Smuggler's Attire
+				{ 24,  244306,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- Ensemble: Golden Fleet's Sailing Garb
+				{ 25,  244327,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- Ensemble: Zocalo Merchant's Wear
+				{ 26,  244426,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Dinomancer's Calming Rod
+				{ 27,  244427,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Blood Witch's Hex Cane
+				{ 28,  244428,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Fang of Sethraliss
+				{ 29,  244431,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Tideguard's Blessed Gavel
+				{ 30,  244433,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Waycrest Training Buckler
+				{ 101, 244434,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Witch-Hunter's Shortsword
+				{ 102, 244436,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Parrot King's Hook-Leg
+				{ 103, 244437,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Dark Ranger's Black Bow
+				{ 104, 244438,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Nazmani Blood Drinker
+				{ 105, 244439,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Stormcrook of the Faithless
+				{ 106, 244440,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Blade of the Rezani Prelate
+				{ 107, 244441,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Dazar's Ceremonial Negotiator
+				{ 108, 244445,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1800" },                              -- Razdunk's WR0-NC4 5300
+
+				{ 110, "243558:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Stormsong Mariner's Cuff
+				{ 111, "243559:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Pilfered Wristguards of Aka'ali
+				{ 112, "243560:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Naval Officer's Armband
+				{ 113, "243561:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Ancient Nazmani Bracelet
+				{ 114, "243562:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Mirestained Scout's Mantle
+				{ 115, "243563:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Tal'aman Ambassador's Amice
+				{ 116, "243564:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Boralus Cityguard Spaulders
+				{ 117, "243565:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Navigator's Flagship Mantle
+				{ 118, "243566:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Waycrest Sentry Cloak
+				{ 119, "243567:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Cloak of the Tideguard
+				{ 120, "243568:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Tidecaller's Ritual Cape
+				{ 121, "243569:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Bloodstained Shawl of Tal'Gurub
+				{ 122, "244150:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Seaglass Ritual Rod
+				{ 123, "244151:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Ashvane Ore Crusher
+				{ 124, "244152:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Pilfered Golden Scepter
+				{ 125, "244153:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Reclaimed Ancestral Blade of the Deeps
+				{ 126, "244154:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Freehold Boarding Halberd
+				{ 127, "244155:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Siren Slayer's Trident
+				{ 128, "244156:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Crackling Stormbow of the Devoted
+				{ 129, "244157:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Blessed Bulwark of Zanchul
+				{ 130, "244158:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Azerite-Carved Ritual Kris
+				{ 201, "244159:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Tol'Dagor Pocket Shank
+				{ 202, "244160:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Junkyard Clobberstick
+				{ 203, "244161:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Mugambala Champion's Axe
+				{ 204, "244162:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Bondo's Spare Mechano-Clamps
 			},
 		},
 		{ -- Mists of Pandaria
