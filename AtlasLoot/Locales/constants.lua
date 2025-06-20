@@ -289,6 +289,7 @@ AL["World Bosses"] = "World Bosses"
 AL["World Events"] = "World Events"
 AL["Yellow Gems"] = "Yellow Gems"
 AL["Zen'Vorka"] = "Zen'Vorka"
+AL["Any Timewalking Vendor"] = "Any Timewalking Vendor"
 
 AL["Profile base list"] = "Profile base list"
 AL["Global base list"] = "Global base list"

@@ -344,36 +344,44 @@ data["TIMEWALKINGEVENT"]   = {
 	name = AL["Timewalking Dungeon Event"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
+		{ -- Any Timewalking Vendor
+			name = AL["Any Timewalking Vendor"],
+			[NORMAL_DIFF] = {
+				{ 1,  205208, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
+				{ 2,  232624, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
+				{ 16, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                                -- Ancient Heirloom Armor Casing
+				{ 17, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" },                                -- Ancient Heirloom Scabbard
+				{ 18, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                               -- Timeworn Heirloom Armor Casing
+				{ 19, 122341, [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                               -- Timeworn Heirloom Scabbard
+				{ 20, 151614, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Weathered Heirloom Armor Casing
+				{ 21, 151615, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Weathered Heirloom Scabbard
+				{ 22, 167731, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Battle-Hardened Heirloom Armor Casing
+				{ 23, 167732, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Battle-Hardened Heirloom Scabbard
+				{ 24, 187997, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Eternal Heirloom Armor Casing
+				{ 25, 187998, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Eternal Heirloom Scabbard
+				{ 26, 204336, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Awakened Heirloom Armor Casing
+				{ 27, 204337, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Awakened Heirloom Scabbard
+			},
+		},
 		{ -- Battle for Azeroth
 			name = EXPANSION_NAME7,
-			[ALLIANCE_DIFF] = {
-				{ 1,  245695, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Moonlit Nightsaber
-				{ 2,  245694, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Ivory Savagemane
-				{ 3,  205208, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
-				{ 4,  232624, "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
-				{ 5,  245543, "pet4849",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Flotsam Harvester
-				{ 6,  245574, "pet4852",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Lil' Daz'ti
-				{ 7,  245942, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Sea-Blessed Shrine
-				{ 8,  246227, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Lightning-Blessed Spire
-				{ 10, 238821, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Champions of Azeroth
-				{ 11, 238822, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Tortollan Seekers
-				{ 12, 238823, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rustbolt Resistance
-				{ 13, 238826, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Rajani
-				{ 14, 238827, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Uldum Accord
-
-				{ 15, 238803, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Order of Embers
-				{ 16, 238804, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Proudmoore Admiralty
-				{ 17, 238805, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Storm's Wake
-				{ 18, 238806, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the 7th Legion
-				{ 19, 238809, [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Waveblade Ankoan
-			},
-			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 15, 238816, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Talanji's Expedition
-				{ 16, 238818, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Zandalari Empire
-				{ 17, 238817, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Voldunai
-				{ 18, 238819, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Honorbound
-				{ 19, 238820, [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Unshackled
+			[NORMAL_DIFF] = {
+				{ 1,  245695,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Moonlit Nightsaber
+				{ 2,  245694,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Reins of the Ivory Savagemane
+				{ 3,  245543,                        "pet4849",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Flotsam Harvester
+				{ 4,  245574,                        "pet4852",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Lil' Daz'ti
+				{ 5,  245942,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                     -- Sea-Blessed Shrine
+				{ 6,  246227,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                     -- Lightning-Blessed Spire
+				{ 8,  238821,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Champions of Azeroth
+				{ 9,  238822,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Tortollan Seekers
+				{ 10, 238823,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Rustbolt Resistance
+				{ 11, 238826,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Rajani
+				{ 12, 238827,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                       -- Commendation of the Uldum Accord
+				{ 13, [ATLASLOOT_IT_HORDE] = 238816, [ATLASLOOT_IT_ALLIANCE] = 238803,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Order of Embers / Talanji's Expedition
+				{ 14, [ATLASLOOT_IT_HORDE] = 238818, [ATLASLOOT_IT_ALLIANCE] = 238804,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Proudmoore Admiralty / Zandalari Empire
+				{ 15, [ATLASLOOT_IT_HORDE] = 238817, [ATLASLOOT_IT_ALLIANCE] = 238805,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of Storm's Wake / Voldunai
+				{ 16, [ATLASLOOT_IT_HORDE] = 238819, [ATLASLOOT_IT_ALLIANCE] = 238806,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the 7th Legion / Honorbound
+				{ 17, [ATLASLOOT_IT_HORDE] = 238820, [ATLASLOOT_IT_ALLIANCE] = 238809,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Waveblade Ankoan / Unshackled
 			},
 		},
 		{ -- Mists of Pandaria
@@ -409,15 +417,11 @@ data["TIMEWALKINGEVENT"]   = {
 			[NORMAL_DIFF] = {
 				{ 1,  133511,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                            -- Gurboggle's Gleaming Bauble
 				{ 3,  67414,                         [PRICE_EXTRA_ITTYPE] = "timewarped:150" },                             -- Bag of Shiny Things
-				{ 5,  122338,                        [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                             -- Ancient Heirloom Armor Casing
-				{ 6,  122340,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                            -- Timeworn Heirloom Armor Casing
 				{ 8,  133160,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                              -- Commendation of Therazane
 				{ 9,  133154,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                              -- Commendation of the Ramkahen
 				{ 10, [ATLASLOOT_IT_HORDE] = 133150, [ATLASLOOT_IT_ALLIANCE] = 133151,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Wildhammer Clan / Commendation of the Dragonmaw Clan
 				{ 16, 133542,                        [PRICE_EXTRA_ITTYPE] = "timewarped:3000" },                            -- Tosselwrench's Mega-Accurate Simulation Viewfinder
 				{ 18, [ATLASLOOT_IT_HORDE] = 133545, [ATLASLOOT_IT_ALLIANCE] = 49602,         [PRICE_EXTRA_ITTYPE] = "timewarped:10" }, -- Earl Black Tea / "New!" Kaja'Cola
-				{ 20, 122339,                        [PRICE_EXTRA_ITTYPE] = "timewarped:900" },                             -- Ancient Heirloom Scabbard
-				{ 21, 122341,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                            -- Timeworn Heirloom Scabbard
 				{ 23, 133159,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                              -- Commendation of The Earthen Ring
 				{ 24, 133152,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                              -- Commendation of the Guardians of Hyjal
 			},
@@ -428,16 +432,12 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 1,  129922,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bridle of the Ironbound Wraithcharger
 				{ 3,  129938,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Will of Northrend
 				{ 5,  44113,                         [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Small Spice Bag
-				{ 7,  122338,                        [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                               -- Ancient Heirloom Armor Casing
-				{ 8,  122340,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Timeworn Heirloom Armor Casing
 				{ 10, 129940,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Kirin Tor
 				{ 11, 129941,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Ebon Blade
 				{ 12, [ATLASLOOT_IT_HORDE] = 129954, [ATLASLOOT_IT_ALLIANCE] = 129955,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Alliance Vanguard / Commendation of the Horde Expedition
 				{ 16, 129965,                        [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                               -- Grizzlesnout's Fang
 				{ 18, 129952,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- Hourglass of Eternity
 				{ 20, 46007,                         [PRICE_EXTRA_ITTYPE] = "timewarped:150" },                               -- Bag of Fishing Treasures
-				{ 22, 122339,                        [PRICE_EXTRA_ITTYPE] = "timewarped:900" },                               -- Ancient Heirloom Scabbard
-				{ 23, 122341,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Timeworn Heirloom Scabbard
 				{ 25, 129942,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Argent Crusade
 				{ 26, 129943,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Sons of Hodir
 				{ 27, 129944,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Wyrmrest Accord
@@ -496,13 +496,6 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 117, 129852,                        [PRICE_EXTRA_ITTYPE] = "timewarped:25", },                                 -- Belt of the Silent Path
 				{ 118, 129855,                        [PRICE_EXTRA_ITTYPE] = "timewarped:25", },                                 -- Voodoo-Woven Belt
 				{ 119, 129853,                        [PRICE_EXTRA_ITTYPE] = "timewarped:25", },                                 -- Aftershock Waistguard
-
-				{ 121, 122338,                        [PRICE_EXTRA_ITTYPE] = "timewarped:750", },                                -- Ancient Heirloom Armor Casing
-				{ 122, 122339,                        [PRICE_EXTRA_ITTYPE] = "timewarped:900", },                                -- Ancient Heirloom Scabbard
-				{ 123, 122340,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                               -- Timeworn Heirloom Armor Casing
-				{ 124, 122341,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                               -- Timeworn Heirloom Scabbard
-				{ 125, 151614,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                               -- Weathered Heirloom Armor Casing
-				{ 126, 151615,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                               -- Weathered Heirloom Scabbard
 
 				{ 201, [ATLASLOOT_IT_HORDE] = 129947, [ATLASLOOT_IT_ALLIANCE] = 129948,         [PRICE_EXTRA_ITTYPE] = "timewarped:50", }, -- Commendation of Thrallmar / Commendation of Thrallmar
 				{ 202, 129945,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50", },                                 -- Commendation of The Consortium

@@ -277,6 +277,7 @@ AL["World Bosses"] = "Boss Mondiali"
 AL["World Events"] = "Eventi Mondiali"
 AL["Yellow Gems"] = "Gemme Gialle"
 AL["Zen'Vorka"] = "Zen'Vorka"
+AL["Any Timewalking Vendor"] = "Qualsiasi Mercante dei Viaggi nel Tempo"
 
 AL["Apothecary Hummel"] = "Speziale Hummel"
 AL["Headless Horseman"] = "Cavaliere Senzatesta"

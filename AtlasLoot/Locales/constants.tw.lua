@@ -289,6 +289,7 @@ AL["World Bosses"] = "世界首領"
 AL["World Events"] = "世界事件"
 AL["Yellow Gems"] = "黃色寶石"
 AL["Zen'Vorka"] = "贊沃卡"
+AL["Any Timewalking Vendor"] = "任意時光漫遊商人"
 
 AL["Profile base list"] = "設定檔清單"
 AL["Global base list"] = "整體清單"

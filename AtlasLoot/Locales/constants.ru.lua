@@ -289,6 +289,7 @@ AL["World Bosses"] = "Мировые боссы"
 AL["World Events"] = "Игровые события"
 AL["Yellow Gems"] = "Желтые самоцветы"
 AL["Zen'Vorka"] = "Зен'Ворка "
+AL["Any Timewalking Vendor"] = "любой продавец товаров для путешественников во времени"
 
 AL["Profile base list"] = "Список базовых профилей"
 AL["Global base list"] = "Глобальный базовый список"

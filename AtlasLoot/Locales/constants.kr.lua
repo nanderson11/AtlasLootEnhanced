@@ -287,6 +287,7 @@ AL["World Bosses"] = "야외 우두머리"
 AL["World Events"] = "이벤트"
 AL["Yellow Gems"] = "노란색 보석"
 AL["Zen'Vorka"] = "젠보르카"
+AL["Any Timewalking Vendor"] = "시간여행 상인"
 
 AL["Profile base list"] = "프로필 기반 목록"
 AL["Global base list"] = "전역 기반 목록"

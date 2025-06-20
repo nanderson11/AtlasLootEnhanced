@@ -181,6 +181,7 @@ AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences.
 AL["World Bosses"] = "Chefes do Mundo"
 AL["World Events"] = "Eventos Mundiais"
 AL["Yellow Gems"] = "Gemas amarelas"
+AL["Any Timewalking Vendor"] = "Qualquer Comerciante da Caminhada Temporal"
 
 AL["Profile base list"] = "Lista de base do perfil"
 AL["Global base list"] = "Lista de base global"
