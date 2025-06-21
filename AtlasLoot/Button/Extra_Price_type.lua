@@ -6,7 +6,7 @@ local string = string
 local type, tonumber, pairs = type, tonumber, pairs
 local str_split = string.split
 -- WoW
-local GetCurrencyInfo, GetItemInfo, GetItemCount, GetItemIcon = C_CurrencyInfo.GetCurrencyInfo, C_Item.GetItemInfo, C_Item.GetItemCount, C_Item.GetItemIconByID
+local GetItemInfo, GetItemIcon = C_Item.GetItemInfo, C_Item.GetItemIconByID
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -159,26 +159,26 @@ local PRICE_INFO = {
 	["tolbarad"]                   = { currencyID = 391 },
 	["worldtree"]                  = { currencyID = 416 },
 	["valor"]                      = { currencyID = 1191 },
-	["timewarped"]                 = { currencyID = 1166 },     -- Timewarped Badge
-	["honor"]                      = { currencyID = 1792 },     -- Honor
-	["stygia"]                     = { currencyID = 1767 },     -- Stygia, added in 9.0.1
-	["reservoiranima"]             = { currencyID = 1813 },     -- Reservoir Anima, added in 9.0.1
-	["sinstonefragments"]          = { currencyID = 1816 },     -- Sinstone Fragments, added in 9.0.1
-	["gratefuloffering"]           = { currencyID = 1885 },     -- Grateful Offering, added in 9.0.1
-	["catalogedresearch"]          = { currencyID = 1931 },     -- Cataloged Research, added in 9.1.0
-	["dragonSupplies"]             = { currencyID = 2003 },     -- Dragon Isles Supplies
-	["paracausalFlakes"]           = { currencyID = 2594 },     -- Paracausal Flakes
-	["tender"]                     = { currencyID = 2032 },     -- Trader's Tender
-	["resonanceCrystal"]           = { currencyID = 2815 },     -- Resonance Crystal
-	["kej"]                        = { currencyID = 3056 },     -- Kej
-	["flameBlessedIron"]           = { currencyID = 3090 },     -- Flame-Blessed Iron
-	["marketResearch"]             = { currencyID = 3226 },     -- Market Research
-	["mereldarDerbyMark"]          = { currencyID = 3055 },     -- Mereldar Derby Mark
-	["undercoin"]                  = { currencyID = 2803 },     -- Undercoin
-	["residualMemories"]           = { currencyID = 3089 },     -- ResidualMemories
-	["vintageKajaCola"]            = { currencyID = 3220 },     -- Vintage Kaja'Cola Can
-	["emptyKajaCola"]              = { currencyID = 3218 },     -- Empty Kaja'Cola Can
-	["displacedCorruptedMementos"] = { currencyID = 3149 },     -- Displaced Corrupted Mementos
+	["timewarped"]                 = { currencyID = 1166 }, -- Timewarped Badge
+	["honor"]                      = { currencyID = 1792 }, -- Honor
+	["stygia"]                     = { currencyID = 1767 }, -- Stygia, added in 9.0.1
+	["reservoiranima"]             = { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
+	["sinstonefragments"]          = { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
+	["gratefuloffering"]           = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
+	["catalogedresearch"]          = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
+	["dragonSupplies"]             = { currencyID = 2003 }, -- Dragon Isles Supplies
+	["paracausalFlakes"]           = { currencyID = 2594 }, -- Paracausal Flakes
+	["tender"]                     = { currencyID = 2032 }, -- Trader's Tender
+	["resonanceCrystal"]           = { currencyID = 2815 }, -- Resonance Crystal
+	["kej"]                        = { currencyID = 3056 }, -- Kej
+	["flameBlessedIron"]           = { currencyID = 3090 }, -- Flame-Blessed Iron
+	["marketResearch"]             = { currencyID = 3226 }, -- Market Research
+	["mereldarDerbyMark"]          = { currencyID = 3055 }, -- Mereldar Derby Mark
+	["undercoin"]                  = { currencyID = 2803 }, -- Undercoin
+	["residualMemories"]           = { currencyID = 3089 }, -- ResidualMemories
+	["vintageKajaCola"]            = { currencyID = 3220 }, -- Vintage Kaja'Cola Can
+	["emptyKajaCola"]              = { currencyID = 3218 }, -- Empty Kaja'Cola Can
+	["displacedCorruptedMementos"] = { currencyID = 3149 }, -- Displaced Corrupted Mementos
 
 	-- others
 	["money"]                      = { func = C_CurrencyInfo.GetCoinTextureString },
@@ -195,12 +195,12 @@ local function SetContentInfo(frame, typ, value, delimiter)
 		if PRICE_INFO[typ].func then
 			frame:AddText(PRICE_INFO[typ].func(value)..delimiter)
 		elseif PRICE_INFO[typ].icon then
-			local currentAmount = C_Item.GetItemCount(typ)
+			local currentAmount = C_Item.GetItemCount(PRICE_INFO[typ].itemID, true)
 			frame:AddIcon(PRICE_INFO[typ].icon, 12)
 			frame:AddText(currentAmount >= tonumber(value) and STRING_GREEN..value..delimiter or STRING_RED..value..delimiter)
 		elseif PRICE_INFO[typ].currencyID then
 			local currentAmount, texture
-			local info = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
+			local info = C_CurrencyInfo.GetCurrencyInfo(PRICE_INFO[typ].currencyID)
 			if info then
 				currentAmount = info.quantity
 				texture = info.iconFileID
@@ -208,11 +208,12 @@ local function SetContentInfo(frame, typ, value, delimiter)
 			end
 			frame:AddIcon(texture, 12)
 		elseif PRICE_INFO[typ].itemID then
+			-- This fetches the item icon and calls this function again so that it hits the PRICE_INFO[typ].icon if test
 			PRICE_INFO[typ].icon = GetItemIcon(PRICE_INFO[typ].itemID)
 			SetContentInfo(frame, typ, value, delimiter)
 		end
 	elseif tonumber(typ) and GetItemIcon(typ) then
-		local currentAmount = C_Item.GetItemCount(typ)
+		local currentAmount = C_Item.GetItemCount(typ, true)
 		frame:AddIcon(GetItemIcon(typ), 12)
 		frame:AddText(currentAmount >= tonumber(value) and STRING_GREEN..value..delimiter or STRING_RED..value..delimiter)
 	end
@@ -274,12 +275,9 @@ local function SetTooltip(tooltip, typ, value)
 	if PRICE_INFO[typ] then
 		if PRICE_INFO[typ].func then
 			tooltip:AddLine(PRICE_INFO[typ].func(value))
-			--elseif PRICE_INFO[typ].icon then
-			--	tooltip:AddLine(TT_ICON_AND_NAME:format(PRICE_INFO[typ].icon, PRICE_INFO[typ].name or ""))
-			--	tooltip:AddLine(TT_HAVE_AND_NEED_GREEN:format(value))
 		elseif PRICE_INFO[typ].currencyID then
 			local name, currentAmount, texture
-			local info = GetCurrencyInfo(PRICE_INFO[typ].currencyID)
+			local info = C_CurrencyInfo.GetCurrencyInfo(PRICE_INFO[typ].currencyID)
 			if info then
 				name = info.name
 				currentAmount = info.quantity
@@ -292,13 +290,13 @@ local function SetTooltip(tooltip, typ, value)
 		elseif PRICE_INFO[typ].itemID then
 			local itemName = GetItemInfo(PRICE_INFO[typ].itemID)
 			tooltip:AddLine(TT_ICON_AND_NAME:format(GetItemIcon(PRICE_INFO[typ].itemID), GetItemInfo(PRICE_INFO[typ].itemID) or ""))
-			local count = GetItemCount(PRICE_INFO[typ].itemID, true)
+			local count = C_Item.GetItemCount(PRICE_INFO[typ].itemID, true)
 			tooltip:AddLine(count >= value and TT_HAVE_AND_NEED_GREEN:format(count, value) or TT_HAVE_AND_NEED_RED:format(count, value))
 		end
 	elseif tonumber(typ) and GetItemIcon(typ) then
 		local itemName = GetItemInfo(typ)
 		tooltip:AddLine(TT_ICON_AND_NAME:format(GetItemIcon(typ), GetItemInfo(typ) or ""))
-		local count = GetItemCount(typ, true)
+		local count = C_Item.GetItemCount(typ, true)
 		tooltip:AddLine(count >= value and TT_HAVE_AND_NEED_GREEN:format(count, value) or TT_HAVE_AND_NEED_RED:format(count, value))
 	end
 end

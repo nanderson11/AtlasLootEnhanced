@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.5.1 -
+### Fixed
+- Fixed the extra price text always being red when the cost is certain items
+
 ## 9.5.0 - June 21, 2025
 ### Added
 - Added remaining BFA Timewalking rewards and moved items that are common to all timewalking vendors to a new section
