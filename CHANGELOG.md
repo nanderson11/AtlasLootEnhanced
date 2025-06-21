@@ -5,6 +5,7 @@
 - Added remaining BFA Timewalking rewards and moved items that are common to all timewalking vendors to a new section
 - Added Azerite item overlay on Azerite items
 - Added conduit item overlay on Shadowlands item conduits
+- Added Redeployment Module to Toys in Collections module
 - Added resonance crystal costs to Mean-Ball Ball Bag and Tyrannotort's Treat
 
 ## 9.4.0 - June 17, 2025

@@ -6152,7 +6152,7 @@ data["TOYS"]               = {
 				{ 228, 245631 },                                     -- Royal Visage
 				{ 229, 245942, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Sea-Blessed Shrine
 				{ 230, 246227, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Lightning-Blessed Spire
-				-- { 214, 235016 },                                     -- Redeployment Module
+				{ 301, 235016, [ACH_EXTRA_ITTYPE] = 42241 },         -- Redeployment Module
 			}
 		},
 		{ -- Dragonflight
