@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.5.0 -
+## 9.5.0 - June 21, 2025
 ### Added
 - Added remaining BFA Timewalking rewards and moved items that are common to all timewalking vendors to a new section
+- Updated Midsummer Fire Festival items
 - Added Azerite item overlay on Azerite items
 - Added conduit item overlay on Shadowlands item conduits
 - Added Redeployment Module to Toys in Collections module
