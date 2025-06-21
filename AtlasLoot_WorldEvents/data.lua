@@ -1185,7 +1185,7 @@ data["MidsummerFireFestival"] = {
 			},
 		},
 		{ --MidsummerFireFestival
-			name = AL["Midsummer Fire Festival"],
+			name = AL["Vendor"],
 			[ALLIANCE_DIFF] = {
 				{ 1,   116440, [PRICE_EXTRA_ITTYPE] = "burningblossom:500" },                                 -- Burning Defender's Medallion
 				{ 2,   141649, [PRICE_EXTRA_ITTYPE] = "burningblossom:500" },                                 -- Set of Matches
