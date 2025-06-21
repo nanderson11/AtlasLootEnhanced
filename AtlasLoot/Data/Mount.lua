@@ -1264,6 +1264,7 @@ local MOUNT_INFO = {
 		[427777] = 210973, -- Heartseeker Mana Ray
 		[1237631] = 245695, -- Reins of the Moonlit Nightsaber
 		[1237703] = 245694, -- Reins of the Ivory Savagemane
+		[1241263] = 246237, -- OC91 Chariot
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

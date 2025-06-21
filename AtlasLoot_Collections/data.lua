@@ -1035,6 +1035,7 @@ data["MOUNTS"]             = {
 				{ 416, 239020, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Tyrannotort's Treat
 				{ 417, 245695, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Moonlit Nightsaber
 				{ 418, 245694, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Ivory Savagemane
+				{ 419, 246237, "mount", [ACH_EXTRA_ITTYPE] = 42212 },                    -- OC91 Chariot
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
