@@ -402,7 +402,6 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 106, 244440,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Blade of the Rezani Prelate
 				{ 107, 244441,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Dazar's Ceremonial Negotiator
 				{ 108, 244445,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1800" },                              -- Razdunk's WR0-NC4 5300
-
 				{ 110, "243558:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Stormsong Mariner's Cuff
 				{ 111, "243559:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Pilfered Wristguards of Aka'ali
 				{ 112, "243560:12264",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Naval Officer's Armband
@@ -433,29 +432,81 @@ data["TIMEWALKINGEVENT"]   = {
 		{ -- Mists of Pandaria
 			name = EXPANSION_NAME4,
 			[NORMAL_DIFF] = {
-				{ 1,  143953,   "pet2017",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2017
-				{ 2,  143954,   "pet2018",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling, pet2018
-				{ 4,  87775,    "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Yu'lei, Daughter of Jade, mount476
-				{ 6,  144393,   [PRICE_EXTRA_ITTYPE] = "timewarped:500" },                               -- Portable Yak Wash
-				{ 7,  144072,   [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Adopted Puppy Crate, toy
-				{ 9,  143948,   [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chilled Satchel of Vegetables
-				{ 10, 88995,    [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Shado-Pan Dragon Gun
-				{ 12, 143935,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Klaxxi
-				{ 13, 143936,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Shado-Pan
-				{ 14, 143937,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Golden Lotus
-				{ 15, 143938,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The August Celestials
-				{ 16, 143939,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Sunreaver Onslaught
-				{ 17, 143940,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Kirin Tor Offensive
-				{ 18, 143941,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Tillers
-				{ 19, 143942,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Order of the Cloud Serpent
-				{ 20, 143943,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Dominance Offensive
-				{ 21, 143944,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Operation: Shieldwall
-				{ 22, 143945,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Shado-Pan Assault
-				{ 23, 143946,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Anglers
-				{ 24, 143947,   [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Emperor Shaohao
-				{ 26, 104228 },
-				{ 28, "ac6927", 87769 },
-				{ 30, 143776 }, -- Shrouded Timewarped Coin
+				{ 1,   87775,                         "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Yu'lei, Daughter of Jade
+				{ 2,   234740,                        "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Copper-Maned Quilen Reins
+				{ 3,   143953,                        "pet2017",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Infinite Hatchling
+				{ 4,   143954,                        "pet2018",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Paradox Spirit
+				{ 5,   144393,                        [PRICE_EXTRA_ITTYPE] = "timewarped:500" },                               -- Portable Yak Wash
+				{ 6,   144072,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Adopted Puppy Crate
+				{ 7,   234756,                        [PRICE_EXTRA_ITTYPE] = "timewarped:500" },                               -- Kor'kron Tabard
+				{ 8,   234755,                        [PRICE_EXTRA_ITTYPE] = "timewarped:500" },                               -- Tabard of the Pandaren Elders
+				{ 10,  143948,                        [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chilled Satchel of Vegetables
+				{ 11,  79264,                         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Ruby Shard
+				{ 12,  79265,                         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Blue Feather
+				{ 13,  79266,                         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Jade Cat
+				{ 14,  79267,                         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Lovely Apple
+				{ 15,  79268,                         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Marsh Lily
+				{ 16,  143935,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Klaxxi
+				{ 17,  143936,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Shado-Pan
+				{ 18,  143937,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Golden Lotus
+				{ 19,  143938,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The August Celestials
+				{ 20,  [ATLASLOOT_IT_HORDE] = 143939, [ATLASLOOT_IT_ALLIANCE] = 143940,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Sunreaver Onslaught / Kirin Tor Offensive
+				{ 21,  143941,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Tillers
+				{ 22,  143942,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Order of the Cloud Serpent
+				{ 23,  [ATLASLOOT_IT_HORDE] = 143943, [ATLASLOOT_IT_ALLIANCE] = 143944,        [PRICE_EXTRA_ITTYPE] = "timewarped:50" }, -- Commendation of the Dominance Offensive / Operation: Shieldwall
+				{ 24,  143945,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Shado-Pan Assault
+				{ 25,  143946,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of The Anglers
+				{ 26,  143947,                        [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of Emperor Shaohao
+				{ 28,  234774,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Crimson Amber Incubator
+				{ 29,  234796,                        [PRICE_EXTRA_ITTYPE] = "timewarped:800" },                               -- Embroidered Shado-Pan Kilt
+				{ 30,  234762,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Embroidered Shado-Pan Robes
+				{ 101, 234764,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Fist of Knives
+				{ 102, 234794,                        [PRICE_EXTRA_ITTYPE] = "timewarped:800" },                               -- Gilded Shado-Pan Kilt
+				{ 103, 234759,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Gilded Shado-Pan Robes
+				{ 104, 234757,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Kor'kron Pauldrons
+				{ 105, 234772,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Kris of the Mogu Shaman
+				{ 106, 234771,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1800" },                              -- Mogu Lightning Spitter
+				{ 107, 234781,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Mogu'shan Vault's Improvised Shield
+				{ 108, 234787,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1800" },                              -- Mogu'shan Warden's Crystal Spear
+				{ 109, 234784,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1800" },                              -- Pandaren Bolt Thrower
+				{ 110, 234791,                        [PRICE_EXTRA_ITTYPE] = "timewarped:3000" },                              -- Reforged Harmonic Mallet
+				{ 111, 234790,                        [PRICE_EXTRA_ITTYPE] = "timewarped:2500" },                              -- Restored Harmonic Mallet
+				{ 112, 234795,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Shado-Pan Guise
+				{ 113, 234763,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Bloody Expeditionary Cleaver
+				{ 114, 234783,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Caravan Guard's Buckler
+				{ 115, 234767,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Flame-Bladed Long Sword
+				{ 116, 234765,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Flame-Bladed Steel Sword
+				{ 117, 234789,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Gourd-Topped Mallet
+				{ 118, 234773,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Imperial Gut Render
+				{ 119, 234770,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Pandaren Guard's Halberd
+				{ 120, 234769,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Pandaren Guard's Poleaxe
+				{ 121, 234766,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Ringed Pandaren Falchion
+				{ 122, 234776,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Saurok Mystic's Voodoo Stick
+				{ 123, 234778,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Staff of the Jade Serpent
+				{ 124, 234777,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Stave-Master's Spire
+				{ 125, 234768,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Jungle Gourd Splitter
+				{ 126, 234775,                        [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Amber Pandaren Fan
+				{ 128, "144059:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Ambersmith Legplates
+				{ 129, "144054:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Blackguard Cape
+				{ 130, "144052:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Bloodseeker's Solitaire
+				{ 201, "144053:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Choker of the Klaxxi'va
+				{ 202, "144057:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Dreadsworn Slayer Legs
+				{ 203, "144045:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Fingers of the Loneliest Monk
+				{ 204, "144047:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Gauntlets of Jade Sutras
+				{ 205, "144044:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Gloves of Red Feathers
+				{ 206, "144056:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Leggings of the Poisoned Soul
+				{ 207, "144058:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Locust Swarm Legguards
+				{ 208, "144060:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Mantle of the Golden Sun
+				{ 209, "144046:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Ravenmane's Gloves
+				{ 210, "144055:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Sagewhisper's Wrap
+				{ 211, "144049:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Sandals of the Elder Sage
+				{ 212, "144070:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Shado-Pan Dragon Gun
+				{ 213, "144063:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Stonetoe Spaulders
+				{ 214, "144051:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Storm-Sing Sandals
+				{ 215, "144050:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Tukka-Tuk's Hairy Boots
+				{ 216, "144061:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Whitepetal Shouldergarb
+				{ 217, "144062:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Windwalker Spaulders
+				{ 218, "144048:10845",                [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Yu'lon Guardian Boots
 			},
 		},
 		{ -- Cataclysm
@@ -5946,6 +5997,7 @@ data["COMPANIONS"]         = {
 				{ 412, 239019, "pet4806", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:100" }, -- Mean-Ball Ball Bag
 				{ 413, 245543, "pet4849", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Flotsam Harvester
 				{ 414, 245574, "pet4852", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Lil' Daz'ti
+				{ 415, 205013, "pet3518", [ACH_EXTRA_ITTYPE] = 41092 },                   -- Reek
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute

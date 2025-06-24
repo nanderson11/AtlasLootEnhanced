@@ -1,6 +1,9 @@
 ﻿# Changelog
 
-## 9.5.1 -
+## 9.6.0 - June 24, 2025
+### Added
+- Updated MoP Timewalking rewards
+- Added Lettuce pet to Collections
 ### Fixed
 - Fixed the extra price text always being red when the cost is certain items
 
