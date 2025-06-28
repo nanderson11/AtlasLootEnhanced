@@ -3,6 +3,7 @@
 ## 9.7.0 -
 ### Added
 - Updated TBC Timewalking rewards
+- Updated Lunar Festival rewards
 
 ## 9.6.0 - June 24, 2025
 ### Added

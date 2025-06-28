@@ -1037,7 +1037,7 @@ data["MOUNTS"]             = {
 				{ 208, 233282, "mount" },                                                -- Meeksi Rufflefur
 				{ 209, 223267, "mount", [ACH_EXTRA_ITTYPE] = 40702 },                    -- Swarmite Skyhunter
 				{ 210, 222989, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Cyan Glowmite
-				{ 211, 232901, "mount", [PRICE_EXTRA_ITTYPE] = "21100:75" },             -- Lunar Launcher
+				{ 211, 232901, "mount", [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },      -- Lunar Launcher
 				{ 212, 233283, "mount" },                                                -- Meeksi Softpaw
 				{ 213, 224398, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Frayfeather Hippogryph
 				{ 214, 221753, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Smoldering Cinderbee
