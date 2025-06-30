@@ -1,10 +1,13 @@
 ﻿# Changelog
 
-## 9.7.0 -
+## 9.7.0 - July 1, 2025
 ### Added
+- Added Legacy of Scholomance instance to the Dragonflight module
 - Updated TBC Timewalking rewards
 - Updated WOTLK Timewalking rewards
 - Updated Lunar Festival rewards
+### Fixed
+- Fixed Scholomance sets saying they're no longer available when they're available in Legacy of Scholomance
 
 ## 9.6.0 - June 24, 2025
 ### Added
