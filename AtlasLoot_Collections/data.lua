@@ -1167,6 +1167,9 @@ data["MOUNTS"]             = {
 				{ 417, 245695, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Moonlit Nightsaber
 				{ 418, 245694, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Reins of the Ivory Savagemane
 				{ 419, 246237, "mount", [ACH_EXTRA_ITTYPE] = 42212 },                    -- OC91 Chariot
+				{ 420, 245936, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Unarmored Deathtusk Felboar
+				{ 421, 243596, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" },           -- Wailing Banshee's Charger
+				{ 422, 243594, "mount" },                                                -- Forsaken's Grotesque Charger
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -6176,6 +6179,7 @@ data["COMPANIONS"]         = {
 				{ 217, 202085, "pet3360" },                                        -- Bugbiter Tortoise
 				{ 218, 212786, "pet4409", [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:250" }, -- Lovely Duckling
 				{ 219, 223145, "pet4548", [PRICE_EXTRA_ITTYPE] = "tender:500" },   -- Marrlok
+				{ 220, 206174, "pet3582", [PRICE_EXTRA_ITTYPE] = "tender:500" },   -- Blub
 				-- { 12,  193068 }, -- Time-Lost Treeflitter
 				-- { 21,  193380 }, -- Pink Salamanther
 				-- { 26,  193587 }, -- Time-Lost Duck

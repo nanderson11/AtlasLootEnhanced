@@ -3,6 +3,7 @@
 ## 9.7.0 - July 1, 2025
 ### Added
 - Added Legacy of Scholomance instance to the Dragonflight module
+- Added July Trading Post items to Collections
 - Updated TBC Timewalking rewards
 - Updated WOTLK Timewalking rewards
 - Updated Lunar Festival rewards
