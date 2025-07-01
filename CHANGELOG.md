@@ -8,6 +8,7 @@
 - Updated Lunar Festival rewards
 ### Fixed
 - Fixed Scholomance sets saying they're no longer available when they're available in Legacy of Scholomance
+- Fixed error when clicking on the Atlas button with Atlas (fork) v3.7.0
 
 ## 9.6.0 - June 24, 2025
 ### Added
