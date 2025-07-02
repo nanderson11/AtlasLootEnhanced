@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.8.0 -
+### Added
+- Added artifact relic item overlay on Legion artifact relics
+
 ## 9.7.0 - July 1, 2025
 ### Added
 - Added Legacy of Scholomance instance to the Dragonflight module
