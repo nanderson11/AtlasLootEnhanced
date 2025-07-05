@@ -2,6 +2,7 @@
 
 ## 9.8.0 -
 ### Added
+- Added WoD Timewalking rewards
 - Added artifact relic item overlay on Legion artifact relics
 
 ## 9.7.0 - July 1, 2025
