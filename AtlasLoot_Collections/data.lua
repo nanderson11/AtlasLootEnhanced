@@ -1152,7 +1152,7 @@ data["MOUNTS"]             = {
 				{ 130, 205208, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Sandy Shalewing
 				{ 201, 234730, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Broodling of Sinestra
 				{ 202, 228760, "mount", [ACH_EXTRA_ITTYPE] = 40976 },                    -- Reins of the Coldflame Tempest
-				{ 203, 232624, "mount", [ACH_EXTRA_ITTYPE] = 41056 },                    -- Timely Buzzbee
+				{ 203, 232624, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Timely Buzzbee
 				{ 204, 235650, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Pearlescent Butterfly
 				{ 205, 235287, "mount" },                                                -- Sha-Warped Riding Tiger
 				{ 206, 223158, "mount", [ACH_EXTRA_ITTYPE] = 40097 },                    -- Raging Cinderbee
@@ -1232,6 +1232,7 @@ data["MOUNTS"]             = {
 				{ 420, 245936, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Unarmored Deathtusk Felboar
 				{ 421, 243596, "mount", [PRICE_EXTRA_ITTYPE] = "tender:575" },           -- Wailing Banshee's Charger
 				{ 422, 243594, "mount" },                                                -- Forsaken's Grotesque Charger
+				{ 423, 238739, "mount", [ACH_EXTRA_ITTYPE] = 41779 },                    -- Chrono Corsair
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)

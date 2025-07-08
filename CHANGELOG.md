@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## 9.9.0 -
+### Added
+- Added Chrono Corsair to Collections
+### Fixed
+- Updated Timely Buzzbee acquisition method in Collections
+
 ## 9.8.0 - July 8, 2025
 ### Added
 - Added WoD Timewalking rewards, including the brand-new cosmetic items
