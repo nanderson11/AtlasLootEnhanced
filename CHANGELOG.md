@@ -1,9 +1,10 @@
 ﻿# Changelog
 
-## 9.9.0 -
+## 9.8.1 - July 8, 2025
 ### Added
 - Added Chrono Corsair to Collections
 ### Fixed
+- Fixed error on bonus rolls
 - Updated Timely Buzzbee acquisition method in Collections
 
 ## 9.8.0 - July 8, 2025
