@@ -57,6 +57,7 @@ function MiniMapButton.Init()
 	profile = AtlasLoot.db
 
 	ALButton:Register("AtlasLoot", MiniMapLDB, profile.minimap);
+	ALButton:AddButtonToCompartment("AtlasLoot")
 end
 
 AtlasLoot:AddInitFunc(MiniMapButton.Init)
