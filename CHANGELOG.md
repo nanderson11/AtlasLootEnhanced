@@ -3,6 +3,8 @@
 ## 9.9.0 -
 ### Added
 - Added AtlasLoot button to the Addon Compartment
+### Fixed
+- Fixed name and tooltip of the first boss in Battle of Dazar'alor
 
 ## 9.8.1 - July 8, 2025
 ### Added
