@@ -2,6 +2,7 @@
 
 ## 9.9.0 -
 ### Added
+- Added Legion Timewalking rewards
 - Added AtlasLoot button to the Addon Compartment
 ### Fixed
 - Fixed name of the first boss in Battle of Dazar'alor
