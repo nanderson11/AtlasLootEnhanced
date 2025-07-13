@@ -4,7 +4,8 @@
 ### Added
 - Added AtlasLoot button to the Addon Compartment
 ### Fixed
-- Fixed name and tooltip of the first boss in Battle of Dazar'alor
+- Fixed name of the first boss in Battle of Dazar'alor
+- Fixed tooltip/model/etc of the bosses in Battle of Dazar'alor so that they vary by faction as needed
 
 ## 9.8.1 - July 8, 2025
 ### Added

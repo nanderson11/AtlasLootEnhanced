@@ -1699,7 +1699,7 @@ data["Battle of Dazar'alor"] = {
 			},
 		},
 		{ -- Jadefire Masters
-			EncounterJournalID = 2323,
+			EncounterJournalID = UnitFactionGroup("player") == "Horde" and 2341 or 2323,
 			[RF_DIFF] = {
 				{ 1,  165503 }, -- Manceroy's Flamefists
 				{ 2,  165521 }, -- Cranedancer Leggings
