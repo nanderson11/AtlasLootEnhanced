@@ -1701,17 +1701,17 @@ data["Battle of Dazar'alor"] = {
 		{ -- Jadefire Masters
 			EncounterJournalID = UnitFactionGroup("player") == "Horde" and 2341 or 2323,
 			[RF_DIFF] = {
-				{ 1,  165503 }, -- Manceroy's Flamefists
-				{ 2,  165521 }, -- Cranedancer Leggings
-				{ 3,  165531 }, -- Grips of Harmonious Spirits
-				{ 4,  165552 }, -- Embersear Waistguard
-				{ 5,  165565 }, -- Band of Multi-Sided Strikes
-				{ 6,  165500 }, -- Blazewing Hood
-				{ 7,  165516 }, -- Mestrah's Singing Spaulders
-				{ 8,  165540 }, -- Mistfire Raiment
-				{ 9,  165548 }, -- Helm of Tempered Jade
-				{ 10, 165587 }, -- Phoenixfire Staff
-				{ 11, 165568 }, -- Invocation of Yu'lon
+				{ 1,  [ATLASLOOT_IT_HORDE] = 165503, [ATLASLOOT_IT_ALLIANCE] = 165764 }, -- Manceroy's Flamefists / Firecaller's Handwraps
+				{ 2,  165521 },                                              -- Cranedancer Leggings
+				{ 3,  165531 },                                              -- Grips of Harmonious Spirits
+				{ 4,  165552 },                                              -- Embersear Waistguard
+				{ 5,  165565 },                                              -- Band of Multi-Sided Strikes
+				{ 6,  165500 },                                              -- Blazewing Hood
+				{ 7,  [ATLASLOOT_IT_HORDE] = 165516, [ATLASLOOT_IT_ALLIANCE] = 165777 }, -- Mestrah's Singing Spaulders / Ma'ra's Boneblade Mantle
+				{ 8,  165540 },                                              -- Mistfire Raiment
+				{ 9,  165548 },                                              -- Helm of Tempered Jade
+				{ 10, 165587 },                                              -- Phoenixfire Staff
+				{ 11, 165568 },                                              -- Invocation of Yu'lon
 			},
 			[NORMAL_RAID_DIFF] = {
 				GetItemsFromDiff = RF_DIFF,
