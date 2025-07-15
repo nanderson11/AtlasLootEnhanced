@@ -1,8 +1,8 @@
 ﻿# Changelog
 
-## 9.9.0 -
+## 9.9.0 - July 15, 2025
 ### Added
-- Added Legion Timewalking rewards
+- Added Legion Timewalking rewards, including the brand-new cosmetic items
 - Updated Cataclysm Timewalking rewards
 - Added AtlasLoot button to the Addon Compartment
 ### Fixed
