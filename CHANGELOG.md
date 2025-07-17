@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.10.0 -
+### Added
+- Added Classic Timewalking rewards
+
 ## 9.9.0 - July 15, 2025
 ### Added
 - Added Legion Timewalking rewards, including the brand-new cosmetic items
