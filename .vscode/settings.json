@@ -167,7 +167,10 @@
 		"GameTooltip_SetTitle",
 		"GameTooltip_AddNormalLine",
 		"LinkUtil",
-		"PlayerUtil"
+		"PlayerUtil",
+		"WorldMapTrackingOptionsButtonMixin",
+		"WorldMapTrackingPinButtonMixin",
+		"SOUNDKIT"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
