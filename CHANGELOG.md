@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.10.0 -
+## 9.10.0 - July 22, 2025
 ### Added
 - Added Classic Timewalking rewards
 ### Fixed

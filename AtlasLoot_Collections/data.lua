@@ -869,7 +869,7 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 7,   6522,                             [PRICE_EXTRA_ITTYPE] = "timewarped:2" },                                 -- Deviate Fish
 				{ 8,   6657,                             [PRICE_EXTRA_ITTYPE] = "timewarped:10" },                                -- Savory Deviate Delight
 				{ 9,   8529,                             [PRICE_EXTRA_ITTYPE] = "timewarped:10" },                                -- Noggenfogger Elixir
-				{ 10,  225378,                           [PRICE_EXTRA_ITTYPE] = "timewarped:200" },                               -- Mohawk Grenade
+				{ 10,  225378,                           [PRICE_EXTRA_ITTYPE] = "timewarped:200", [ATLASLOOT_IT_AMOUNT1] = 25 },  -- Mohawk Grenade
 				{ 12,  224558,                           [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Brood of Nozdormu
 				{ 13,  224561,                           [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Hydraxian Waterlords
 				{ 14,  224567,                           [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Argent Dawn
