@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.10.1 -
+### Changed
+- Removed the one use of LibDialog and replaced with a print
+
 ## 9.10.0 - July 22, 2025
 ### Added
 - Added Classic Timewalking rewards

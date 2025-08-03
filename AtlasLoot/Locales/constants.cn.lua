@@ -30,8 +30,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot 模块"
 AL["AtlasLoot Search"] = "AtlasLoot 搜索"
 AL["AtlasLoot Set View"] = "AtlasLoot 套装查看"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader 已不再使用。
-从你的插件文件夹中删除它。]=]
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader 已不再使用。 从你的插件文件夹中删除它。"
 AL["Attack/Spell Power"] = "攻击/法术强度"
 AL["Attributes"] = "属性"
 AL["Avatar of the Martyred"] = "殉难者的化身"

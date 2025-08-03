@@ -30,8 +30,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "Moduli AtlasLoot"
 AL["AtlasLoot Search"] = "Ricerca AtlasLoot"
 AL["AtlasLoot Set View"] = "Visione Set AtlasLoot"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader non è più in uso.
-Cancellalo dalla tua cartella degli AddOns]=]
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader non è più in uso. Cancellalo dalla tua cartella degli AddOns"
 AL["Attack/Spell Power"] = "Attacco / Spell Potenza"
 AL["Attributes"] = "Statistiche"
 AL["Avatar of the Martyred"] = "Avatar del Martire"

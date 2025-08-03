@@ -30,8 +30,7 @@ AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "AtlasLoot 模組"
 AL["AtlasLoot Search"] = "AtlasLoot 搜索"
 AL["AtlasLoot Set View"] = "AtlasLoot 套裝檢視"
-AL["AtlasLoot_Loader_is_no_longer_in_use"] = [=[AtlasLoot_Loader沒用了。
-請從你的AddOns目錄下刪除]=]
+AL["AtlasLoot_Loader_is_no_longer_in_use"] = "AtlasLoot_Loader沒用了。 請從你的AddOns目錄下刪除"
 AL["Attack/Spell Power"] = "攻強/法術能量"
 AL["Attributes"] = "屬性"
 AL["Avatar of the Martyred"] = "馬丁瑞德的化身"
