@@ -1,4 +1,4 @@
-﻿## Interface: 110107
+﻿## Interface: 110200
 
 ## Title: AtlasLoot |cFF0099FF[Legion]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Legion]|r

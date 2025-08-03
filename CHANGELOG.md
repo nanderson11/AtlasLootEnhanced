@@ -4,6 +4,7 @@
 ### Added
 - Added August Trading Post items to Collections
 ### Changed
+- Updated TOC to 11.2.0
 - Removed the one use of LibDialog and replaced with a print
 
 ## 9.10.0 - July 22, 2025

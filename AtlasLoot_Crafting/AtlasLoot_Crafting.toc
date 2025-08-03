@@ -1,4 +1,4 @@
-﻿## Interface: 110107
+﻿## Interface: 110200
 
 ## Title: AtlasLoot |cFF0099FF[Crafting]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Berufe]|r
