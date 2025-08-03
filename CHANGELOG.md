@@ -1,6 +1,8 @@
 ﻿# Changelog
 
-## 9.10.1 -
+## 9.11.0 -
+### Added
+- Added August Trading Post items to Collections
 ### Changed
 - Removed the one use of LibDialog and replaced with a print
 
