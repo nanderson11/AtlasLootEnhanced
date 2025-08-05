@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.11.0 -
+## 9.11.0 - August 5, 2025
 ### Added
 - Added August Trading Post items to Collections
 ### Changed
