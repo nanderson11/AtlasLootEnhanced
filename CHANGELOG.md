@@ -2,6 +2,7 @@
 
 ## 9.11.0 - August 5, 2025
 ### Added
+- Added Trial of Style items to World Events
 - Added August Trading Post items to Collections
 ### Changed
 - Updated TOC to 11.2.0
