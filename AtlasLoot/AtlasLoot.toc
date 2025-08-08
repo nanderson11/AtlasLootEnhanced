@@ -70,7 +70,6 @@ Core\EncounterJournal.lua
 Core\ItemQuery.lua
 Data\BonusID_re.lua
 Core\ItemString.lua
-Core\MapPOI.lua
 Core\AtlasIntegration.lua
 Core\WorldMapIntegration.xml
 Core\Transmog.lua
