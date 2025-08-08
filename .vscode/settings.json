@@ -15,7 +15,8 @@
 		"~\\.vscode\\extensions\\ketho.wow-api-0.20.8\\Annotations\\Core"
 	],
 	"Lua.workspace.ignoreDir": [
-		"AtlasLoot/Libs"
+		"AtlasLoot/Libs",
+		"AtlasLoot_Options/Libs"
 	],
 	"Lua.diagnostics.globals": [
 		"EXPANSION_NAME7",
