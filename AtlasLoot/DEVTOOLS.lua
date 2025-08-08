@@ -1230,7 +1230,7 @@ local function startVendorScan(tab)
 			tab = {}
 			tab[1] = {}
 			for i = 1, GetMerchantNumItems() do
-				local name, texture, price, quantity, numAvailable, isUsable, extendedCost = GetMerchantItemInfo(i)
+				local name, texture, price, quantity, numAvailable, isUsable, extendedCost = C_MerchantFrame.GetItemInfo(i)
 				local itemCount = GetMerchantItemCostInfo(i)
 				local priceStr
 				local citemTexture, citemValue, citemLink, citemID, currencyID
