@@ -5,14 +5,8 @@ local _G = getfenv(0)
 local LibStub = _G.LibStub
 local AtlasLoot = _G.AtlasLoot
 local AceGUI = LibStub("AceGUI-3.0")
-local AL = AtlasLoot.Locales
-local ALIL = AtlasLoot.IngameLocales
-
-local tooltip = GetAppropriateTooltip()
-local EJ_GetLootInfoByIndex = C_EncounterJournal.GetLootInfoByIndex
 
 local Dev = {}
--- /////////////////////////////////////////////////////////////////////////
 AtlasLoot.Dev = Dev
 
 local EJ_DIFFICULTIES =
@@ -113,12 +107,11 @@ function Dev:ScanEJ(givenTierId)
 							local entry = EJ_DIFFICULTIES[diffIndex];
 							if EJ_IsValidInstanceDifficulty(entry.difficultyID) then
 								EJ_SetDifficulty(entry.difficultyID)
-								local diffName, groupType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID = GetDifficultyInfo(entry.difficultyID)
+								local diffName = GetDifficultyInfo(entry.difficultyID)
 								curDb[encounterName].items[diffName] = {}
-								--print(diffName, groupType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID)
 								local lootDb = curDb[encounterName].items[diffName]
 								for itemIndex = 1, EJ_GetNumLoot() do
-									local info = EJ_GetLootInfoByIndex(itemIndex)
+									local info = C_EncounterJournal.GetLootInfoByIndex(itemIndex)
 									if info and info.itemID then
 										lootDb[info.itemID] = info.name
 										print(info.name)
@@ -1117,6 +1110,38 @@ local function returnItemTableString(tab)
 	return lootTableString
 end
 
+local function returnInstanceItemTableString(tab)
+	local lootTableString = ""
+	if not tab then return "" end
+	for site, siteTab in ipairs(tab) do
+		if site == 1 then
+			lootTableString = lootTableString.."{\n"
+		else
+			lootTableString = lootTableString.."\n["..site.."] = {\n"
+		end
+		for _, item in ipairs(siteTab) do
+			local temp = ""
+			lootTableString = lootTableString.."{ "
+			for id, entry in ipairs(item) do
+				local trim = ", "
+				if id == (#item - 1) then
+					trim = ""
+				end
+				if id ~= #item then
+					if type(entry) == "string" then
+						temp = temp.."\""..entry.."\""..trim
+					elseif type(entry) == "number" then
+						temp = temp..entry..trim
+					end
+				end
+			end
+			lootTableString = lootTableString..temp.." }, -- "..item[3].."\n"
+		end
+		lootTableString = lootTableString.."}"
+	end
+	return lootTableString
+end
+
 local function getItemPrice(strg, newPrice, costItemID)
 	local retStrg
 	costItemID = tonumber(costItemID) or 0
@@ -1218,8 +1243,8 @@ local function startVendorScan(tab)
 				local itemLink = GetMerchantItemLink(i)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
 				itemID = itemID or 0
-				for site, siteTab in ipairs(tab) do
-					for itemNum, item in ipairs(siteTab) do
+				for _, siteTab in ipairs(tab) do
+					for _, item in ipairs(siteTab) do
 						if itemID and tonumber(itemID) and item[2] == tonumber(itemID) then
 							tab[1][i][6] = getItemPrice(item[6], itemValue, itemTexture)
 						end
@@ -1230,7 +1255,7 @@ local function startVendorScan(tab)
 			tab = {}
 			tab[1] = {}
 			for i = 1, GetMerchantNumItems() do
-				local name, texture, price, quantity, numAvailable, isUsable, extendedCost = C_MerchantFrame.GetItemInfo(i)
+				local name, texture, price = C_MerchantFrame.GetItemInfo(i)
 				local itemCount = GetMerchantItemCostInfo(i)
 				local priceStr
 				local citemTexture, citemValue, citemLink, citemID, currencyID
@@ -1238,8 +1263,6 @@ local function startVendorScan(tab)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
 				itemID = itemID or 0
 				itemID = tonumber(itemID)
-				local _, _, quality = C_Item.GetItemInfo(itemID)
-				if quality then quality = qualityTab[quality] end
 				local desc = FixTextBack(GetItemEquipInfo(itemID))
 				if (price > 0) then
 					priceStr = string.format("[PRICE_EXTRA_ITTYPE] = \"money:%d", price)
@@ -1355,7 +1378,7 @@ local function CheckTextParsing(entrys)
 			numberFound = numberFound + 1
 			local chacheString = ""
 			chacheString = chacheString.."\""..k.."\" ("..#v..")\n"
-			for i, j in ipairs(v) do
+			for _, j in ipairs(v) do
 				chacheString = chacheString.."-- "..j.."\n"
 			end
 			chacheString = chacheString.."\n\n"
@@ -1551,27 +1574,21 @@ end
 
 -- ######################################################
 -- ######################################################
-function startEJScan()
+local function startEJScan()
 	local num = EJ_GetNumLoot()
 	local rettab = {
 		[1] = {}
 	}
 	for i = 1, num do
-		--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(i)
-		local info = EJ_GetLootInfoByIndex(i)
-
-		local _, _, quality = C_Item.GetItemInfo(info.itemID)
-		quality = qualityTab[quality]
-
-		local desc = FixTextBack(GetItemEquipInfo(info.itemID))
-		rettab[1][i] = { i, info.itemID, "", quality..info.name, "=ds="..desc }
+		local info = C_EncounterJournal.GetLootInfoByIndex(i)
+		rettab[1][i] = { i, info.itemID, info.name }
 	end
 
 	return rettab
 end
 
 local function EJScan(container)
-	local lootTable, lootTableString
+	local lootTableString
 
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
@@ -1583,7 +1600,7 @@ local function EJScan(container)
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
 		lootTableString = startEJScan()
-		lootTableString = returnItemTableString(lootTableString)
+		lootTableString = returnInstanceItemTableString(lootTableString)
 		multiEditbox:SetText(lootTableString)
 	end)
 	button:SetWidth(200)
@@ -1635,15 +1652,14 @@ local function startBonusRollScan()
 			EncounterJournal_DisplayInstance(iniId)
 			EJ_SetDifficulty(diff)
 			for classId = 1, numClasses do
-				local numSpecs = GetNumSpecializationsForClassID(classId)
+				local numSpecs = C_SpecializationInfo.GetNumSpecializationsForClassID(classId)
 				for specId = 1, numSpecs do
-					local specID, specName = GetSpecializationInfoForClassID(classId, specId)
+					local specID = GetSpecializationInfoForClassID(classId, specId)
 					EJ_SetLootFilter(classId, specID)
 					local numLoot = EJ_GetNumLoot()
 					--print(numLoot)
 					for loot = 1, numLoot do
-						--local itemID, encounterID, name, icon, slot, armorType, link = EJ_GetLootInfoByIndex(loot)
-						local info = EJ_GetLootInfoByIndex(loot)
+						local info = C_EncounterJournal.GetLootInfoByIndex(loot)
 						if not tab[info.itemID] then tab[info.itemID] = {} end
 						if not tab[info.itemID][classId] then
 							tab[info.itemID][classId] = {}
@@ -1893,9 +1909,8 @@ local function WowHeadTSMStringCreate(text)
 	local ret = ""
 
 	for itemID in string.gmatch(text, "i:(%d+)") do
-		itemID = tonumber(itemID)
-		local itemName = C_Item.GetItemInfo(itemID) or "nil"
-		ret = ret.."{ 0, "..itemID.." }, --"..itemName.."\n"
+		local itemName = C_Item.GetItemInfo(tonumber(itemID)) or "nil"
+		ret = ret.."{ 0, "..tonumber(itemID).." }, --"..itemName.."\n"
 	end
 
 	return ret or ""
@@ -1935,7 +1950,7 @@ local function WowHeadTSMStringFrame(container)
 	container:AddChild(multiEditbox)
 end
 
-string.gmatch("i:162323,i:163043,i:163048", "i:(%d+)")
+--string.gmatch("i:162323,i:163043,i:163048", "i:(%d+)")
 --i:162323,i:163043,i:163048,i:160536,i:161586,i:161587,i:161589,i:161583,i:163778,i:162378,i:162302,i:163320,i:162306,i:162138,i:162132,i:162128,i:162275,i:162670,i:162261,i:162276,i:162139,i:162324,i:162346,i:162344,i:162345,i:163044,i:163047,i:163046,i:163041,i:161588,i:161590,i:161585,i:161584,i:160539
 --
 

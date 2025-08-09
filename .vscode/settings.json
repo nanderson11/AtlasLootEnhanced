@@ -172,7 +172,10 @@
 		"WorldMapTrackingOptionsButtonMixin",
 		"WorldMapTrackingPinButtonMixin",
 		"SOUNDKIT",
-		"Outfitter"
+		"Outfitter",
+		"AtlasFrameDropDownType_OnShow",
+		"AtlasFrameDropDown_OnShow",
+		"Atlas_Refresh"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"

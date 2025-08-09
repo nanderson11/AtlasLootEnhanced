@@ -16,7 +16,6 @@ local AtlasLoot = _G.AtlasLoot
 local ClickHandler = {}
 AtlasLoot.ClickHandler = ClickHandler
 local Proto = {}
-local AL = AtlasLoot.Locales
 
 -- lua
 local setmetatable = setmetatable

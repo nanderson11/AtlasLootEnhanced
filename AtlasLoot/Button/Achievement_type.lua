@@ -12,7 +12,6 @@ local AC = AtlasLoot.Button:AddType("Achievement", "ac")
 local AL = AtlasLoot.Locales
 local GetAlTooltip = AtlasLoot.Tooltip.GetTooltip
 
-local Tooltip = AtlasLoot.Tooltip
 local AcClickHandler = nil
 
 local AC_COLOR = "|cffffff00"
