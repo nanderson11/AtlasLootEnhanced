@@ -1273,6 +1273,7 @@ local MOUNT_INFO = {
 		[1235803] = 243591, -- Grandmaster's Royal Board
 		[449126] = 223449, -- Kor'kron Warsaber
 		[449140] = 223469, -- Sentinel War Wolf
+		[1234573] = 243061, -- Unbound Star-Eater
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

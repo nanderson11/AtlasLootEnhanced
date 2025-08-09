@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.12.0 -
+## 9.12.0 - August 9, 2025
 ### Added
+- Added Manaforge Omega instance loot
 - Added Eco-Dome Al'dani instance loot
 - Added Bloodstained Memento to Baron Braunpyke in Heroic and Mythic
 - Added Momma's Mega Medallion and Overpressure Platelegs to Big M.O.M.M.A. in Heroic and Mythic
