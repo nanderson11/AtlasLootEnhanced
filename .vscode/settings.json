@@ -171,7 +171,8 @@
 		"PlayerUtil",
 		"WorldMapTrackingOptionsButtonMixin",
 		"WorldMapTrackingPinButtonMixin",
-		"SOUNDKIT"
+		"SOUNDKIT",
+		"Outfitter"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil"
