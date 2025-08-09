@@ -510,7 +510,7 @@ function Favourites:UpdateDb()
 	-- init item count
 	local numItems = 0
 	for k in pairs(self.activeList) do
-		if type(k) == "number" then
+		if k ~= "__name" and k ~= "__icon" then
 			numItems = numItems + 1
 		end
 	end

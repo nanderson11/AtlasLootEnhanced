@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.11.1 -
+### Fixed
+- Fixed number of items in the Clear List button tooltip
+
 ## 9.11.0 - August 5, 2025
 ### Added
 - Added Trial of Style items to World Events
