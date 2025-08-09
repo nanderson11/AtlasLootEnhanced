@@ -772,6 +772,70 @@ data["Operation Floodgate"] = {
 	}
 }
 
+data["Eco-Dome Al'dani"] = {
+	EncounterJournalID = 1303,
+	MapID = 2449,
+	--AtlasMapID = "EcoDomeAldani",
+	ContentType = DUNGEON_CONTENT,
+	items = {
+		{ -- Azhiccar
+			EncounterJournalID = 2675,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, 242470 }, -- Mandibular Bonewhacker
+				{ 2, 242464 }, -- Swarmite's Frenzied Pedicel
+				{ 3, 242472 }, -- Consumed Wastelander's Epaulets
+				{ 4, 242468 }, -- Al'dani Attendant's Gauze
+				{ 5, 242475 }, -- Eco-Dome Access Bands
+				{ 6, 242473 }, -- Spittle-Stained Trousers
+				{ 7, 242497 }, -- Azhiccaran Parapodia
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Taah'bat and A'wazj
+			EncounterJournalID = 2676,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, 242481 }, -- Spellstrike Warplance
+				{ 2, 242476 }, -- Taahbat's Desert Carbine
+				{ 3, 242477 }, -- Wasteland Devotee's Wrappings
+				{ 4, 242482 }, -- Reinforced Stalkerhide Vest
+				{ 5, 242479 }, -- Girdle of Absolute Faith
+				{ 6, 242483 }, -- Greaves of the Wild Pair
+				{ 7, 242495 }, -- Incorporeal Warpclaw
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Soul-Scribe
+			EncounterJournalID = 2677,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, 242487 }, -- Fatebound Crusader
+				{ 2, 242484 }, -- Soul-Scribe's Tabiqa Dagger
+				{ 3, 242493 }, -- Starlit Safeguard
+				{ 4, 242486 }, -- Mantle of Wounded Fate
+				{ 5, 242488 }, -- Tunic of Sworn Revenge
+				{ 6, 242490 }, -- Ancient Oracle's Caress
+				{ 7, 242491 }, -- Whispers of K'aresh
+				{ 8, 242494 }, -- Lily of the Eternal Weave
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+	}
+}
+
 data["Nerub-ar Palace"] = {
 	EncounterJournalID = 1273,
 	MapID = 2291,
