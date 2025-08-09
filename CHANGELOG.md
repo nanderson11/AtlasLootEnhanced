@@ -1,6 +1,20 @@
 ﻿# Changelog
 
-## 9.11.1 -
+## 9.12.0 -
+### Added
+- Added Eco-Dome Al'dani instance loot
+- Added Bloodstained Memento to Baron Braunpyke in Heroic and Mythic
+- Added Momma's Mega Medallion and Overpressure Platelegs to Big M.O.M.M.A. in Heroic and Mythic
+- Added Fizzlefuse Cuffs to Demolition Duo in Heroic and Mythic
+- Added Swampface's Oozewalkers to Swampface in Heroic and Mythic
+### Changed
+- Changed Halls of Atonement instance loot on Heroic and Mythic for TWW Season 3
+- Changed Tazavesh, the Veiled Market instance loot for TWW Season 3
+### Removed
+- Removed Glorious Defender's Poleaxe from Captain Dailcry in Heroic and Mythic
+- Removed Swarmcaller's Shroud from Anub'zekt in Heroic and Mythic
+- Removed Refracting Aggression Module from Anub'zekt in all difficulties
+- Removed Blight Hunter's Scalpelglaive from Ki'katal the Harvester in Heroic and Mythic
 ### Fixed
 - Fixed number of items in the Clear List button tooltip
 

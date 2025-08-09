@@ -223,16 +223,16 @@ data["The Stonevault"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 8,  223121 }, -- Formula: Enchanted Weathered Harbinger Crest
-				{ 9,  223122 }, -- Formula: Enchanted Runed Harbinger Crest
-				{ 10, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
-				{ 11, 223088 }, -- Design: Elusive Blasphemite
+				{ 16, 223088 }, -- Design: Elusive Blasphemite
+				{ 17, 223121 }, -- Formula: Enchanted Weathered Harbinger Crest
+				{ 18, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
+				{ 19, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
-				{ 12, 221093 }, -- Deeply Corrupted Coil
-				{ 13, 223087 }, -- Design: Culminating Blasphemite
-				{ 14, 226683, "mount" }, -- Malfunctioning Mechsuit
+				{ 8,  221093 }, -- Deeply Corrupted Coil
+				{ 10, 226683, "mount" }, -- Malfunctioning Mechsuit
+				{ 20, 223087 }, -- Design: Culminating Blasphemite
 			},
 		},
 	}
@@ -257,9 +257,11 @@ data["Priory of the Sacred Flame"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, nil }
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, nil }
 			},
 		},
 		{ -- Baron Braunpyke
@@ -274,9 +276,11 @@ data["Priory of the Sacred Flame"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, 252009 }, -- Bloodstained Memento
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, 252009 }, -- Bloodstained Memento
 			},
 		},
 		{ -- Prioress Murrpray
@@ -293,16 +297,16 @@ data["Priory of the Sacred Flame"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 9,  223121 }, -- Formula: Enchanted Weathered Harbinger Crest
-				{ 10, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
-				{ 11, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
-				{ 12, 223088 }, -- Design: Elusive Blasphemite
-				{ 13, 223098 }, -- Pattern: Waders of the Unifying Flame
-				{ 14, 223117 }, -- Formula: Enchant Ring - Radiant Mastery
-				{ 15, 223115 }, -- Formula: Enchant Ring - Radiant Critical Strike
-				{ 16, 223116 }, -- Formula: Enchant Ring - Radiant Haste
-				{ 17, 223118 }, -- Formula: Enchant Ring - Radiant Versatility
-				{ 18, 223120 }, -- Formula: Enchant Weapon - Authority of Radiant Power
+				{ 16, 223098 }, -- Pattern: Waders of the Unifying Flame
+				{ 17, 223088 }, -- Design: Elusive Blasphemite
+				{ 18, 223121 }, -- Formula: Enchanted Weathered Harbinger Crest
+				{ 19, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
+				{ 20, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
+				{ 21, 223117 }, -- Formula: Enchant Ring - Radiant Mastery
+				{ 22, 223115 }, -- Formula: Enchant Ring - Radiant Critical Strike
+				{ 23, 223116 }, -- Formula: Enchant Ring - Radiant Haste
+				{ 24, 223118 }, -- Formula: Enchant Ring - Radiant Versatility
+				{ 25, 223120 }, -- Formula: Enchant Weapon - Authority of Radiant Power
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
@@ -336,45 +340,48 @@ data["Ara-Kara, City of Echoes"] = {
 		{ -- Anub'zekt
 			EncounterJournalID = 2584,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 221154 }, -- Swarmcaller's Shroud
+				{ 1, 219316 }, -- Ceaseless Swarmgland
 				{ 2, 221158 }, -- Burrower's Cinch
 				{ 3, 221156 }, -- Cryptbound Headpiece
 				{ 4, 221155 }, -- Swarm Monarch's Spaulders
 				{ 5, 221157 }, -- Unbreakable Beetlebane Bindings
-				{ 6, 219316 }, -- Ceaseless Swarmgland
-				{ 7, 219315 }, -- Refracting Aggression Module
+				{ 6, 221154 }, -- Swarmcaller's Shroud
+				--{ 7, 219315 }, -- Refracting Aggression Module
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 6, nil },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 6, nil },
 			},
 		},
 		{ -- Ki'katal the Harvester
 			EncounterJournalID = 2585,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1, 221164 }, -- Archaic Venomancer's Footwraps
-				{ 2, 221160 }, -- Blight Hunter's Scalpelglaive
+				{ 2, 221163 }, -- Whispering Mask
 				{ 3, 221162 }, -- Claws of Tainted Ichor
 				{ 4, 221161 }, -- Experimental Goresilk Chestguard
 				{ 5, 219317 }, -- Harvester's Edict
 				{ 6, 221159 }, -- Harvester's Interdiction
 				{ 7, 221165 }, -- Unceremonious Bloodletter
-				{ 8, 221163 }, -- Whispering Mask
+				{ 8, 221160 }, -- Blight Hunter's Scalpelglaive
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 9,  223121 }, -- Formula: Enchanted Weathered Harbinger Crest
-				{ 10, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
-				{ 11, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
-				{ 12, 223088 }, -- Design: Elusive Blasphemite
-				{ 13, 223142 }, -- Formula: Enchant Ring - Cursed Mastery
-				{ 14, 223143 }, -- Formula: Enchant Ring - Cursed Versatility
-				{ 15, 223141 }, -- Formula: Enchant Ring - Cursed Critical Strike
+				{ 8,  nil },
+				{ 16, 223088 }, -- Design: Elusive Blasphemite
+				{ 17, 223121 }, -- Formula: Enchanted Weathered Harbinger Crest
+				{ 18, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
+				{ 19, 223123 }, -- Formula: Enchanted Gilded Harbinger Crest
+				{ 20, 223142 }, -- Formula: Enchant Ring - Cursed Mastery
+				{ 21, 223143 }, -- Formula: Enchant Ring - Cursed Versatility
+				{ 22, 223141 }, -- Formula: Enchant Ring - Cursed Critical Strike
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 	}
@@ -713,9 +720,11 @@ data["Operation Floodgate"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 6, 251880 }, -- Momma's Mega Medallion
+				{ 7, 246278 }, -- Overpressure Platelegs
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Demolition Duo
@@ -729,9 +738,10 @@ data["Operation Floodgate"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 6, 246279 }, -- Fizzlefuse Cuffs
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Swampface
@@ -742,13 +752,14 @@ data["Operation Floodgate"] = {
 				{ 3, 234506 }, -- Muckdiver's Wading Plate
 				{ 4, 234495 }, -- Razorchoke Slacks
 				{ 5, 232543 }, -- Ringing Ritual Mud
-				{ 6, 236768, "pet4759" }, -- Craboom
+				{ 8, 236768, "pet4759" }, -- Craboom
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 6, 246277 }, -- Swampface's Oozewalkers
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Geezle Gigazap
