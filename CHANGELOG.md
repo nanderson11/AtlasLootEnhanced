@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.12.1 -
+### Added
+- Added new TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
+
 ## 9.12.0 - August 9, 2025
 ### Added
 - Added Manaforge Omega instance loot
