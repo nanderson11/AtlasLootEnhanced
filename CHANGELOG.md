@@ -4,7 +4,8 @@
 ### Added
 - Added The K'aresh Trust renown track
 - Added Manaforge Vandals raid renown track
-- Added new TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
+- Added TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
+- Added TWW 11.2 tabards to Collections
 
 ## 9.12.0 - August 9, 2025
 ### Added

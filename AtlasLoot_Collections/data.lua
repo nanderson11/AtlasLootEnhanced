@@ -3534,8 +3534,11 @@ data["TABARDS"]            = {
 				{ 106, 233288 },                                     -- Radiant Recruit's Tabard
 				{ 107, 233289 },                                     -- Radiant Stalwart's Tabard
 				{ 108, 233290 },                                     -- Sacred Templar's Tabard
+				{ 109, 245968 },                                     -- Tabard of the Trust
+				{ 110, 232908 },                                     -- Astral Gladiator's Tabard
 				-- { 1, 233929 }, -- Sacred Tabard of the Priori (currently unobtainable)
 				-- { 1, 224169 }, -- Stonebound Tabard (currently unobtainable)
+				-- { 1, 249562 }, -- Skymaster's Silver Tabard (currently unobtainable)
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
