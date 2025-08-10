@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.12.1 -
+## 9.13.0 -
 ### Added
 - Added The K'aresh Trust renown track
+- Added Manaforge Vandals raid renown track
 - Added new TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
 
 ## 9.12.0 - August 9, 2025
