@@ -2,6 +2,7 @@
 
 ## 9.12.1 -
 ### Added
+- Added The K'aresh Trust renown track
 - Added new TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
 
 ## 9.12.0 - August 9, 2025

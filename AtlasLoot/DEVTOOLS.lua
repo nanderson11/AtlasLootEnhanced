@@ -1142,6 +1142,34 @@ local function returnInstanceItemTableString(tab)
 	return lootTableString
 end
 
+local function returnVendorItemTableString(tab)
+	local lootTableString = ""
+	if not tab then return "" end
+	for site, siteTab in ipairs(tab) do
+		if site == 1 then
+			lootTableString = lootTableString.."{\n"
+		else
+			lootTableString = lootTableString.."\n["..site.."] = {\n"
+		end
+		for _, item in ipairs(siteTab) do
+			local temp = ""
+			lootTableString = lootTableString.."{ "
+			for id, entry in ipairs(item) do
+				local trim = ", "
+				if id == (#item - 1) then
+					trim = ""
+				end
+				if id ~= #item then
+					temp = temp..entry..trim
+				end
+			end
+			lootTableString = lootTableString..temp.." }, -- "..item[4].."\n"
+		end
+		lootTableString = lootTableString.."}"
+	end
+	return lootTableString
+end
+
 local function getItemPrice(strg, newPrice, costItemID)
 	local retStrg
 	costItemID = tonumber(costItemID) or 0
@@ -1173,6 +1201,8 @@ local function getItemPrice(strg, newPrice, costItemID)
 		[1508] = "VeiledArgunite",  -- Veiled Argunite, added in 7.3.0
 		-- DragonFlight
 		[2003] = "dragonSupplies",  -- Dragon Isles Supplies
+		-- TWW
+		[2815] = "resonanceCrystal",
 	}
 	--	/run print(getItemPrice("2175 #justice# / 60 #champseal#", 5000, "Interface\\Icons\\pvecurrency-justice"))
 	--	local englishFaction, _ = UnitFactionGroup("player")
@@ -1182,20 +1212,9 @@ local function getItemPrice(strg, newPrice, costItemID)
 			itemUpdated = itemUpdated + 1
 		end
 	end
-	if not retStrg then retStrg = strg or "" end
+	if not retStrg then retStrg = string.format("%d:%d", costItemID, newPrice) end
 	return retStrg
 end
-
-local qualityTab = {
-	--"=q0=",
-	"=q1=",
-	"=q2=",
-	"=q3=",
-	"=q4=",
-	"=q5=",
-	"=q6=",
-	"=q7=",
-}
 
 local function FixTextBack(text)
 	if not text or string.trim(text) == "" then return "" end
@@ -1246,7 +1265,7 @@ local function startVendorScan(tab)
 				for _, siteTab in ipairs(tab) do
 					for _, item in ipairs(siteTab) do
 						if itemID and tonumber(itemID) and item[2] == tonumber(itemID) then
-							tab[1][i][6] = getItemPrice(item[6], itemValue, itemTexture)
+							--tab[1][i][6] = getItemPrice(item[6], itemValue, itemTexture)
 						end
 					end
 				end
@@ -1255,32 +1274,33 @@ local function startVendorScan(tab)
 			tab = {}
 			tab[1] = {}
 			for i = 1, GetMerchantNumItems() do
-				local name, texture, price = C_MerchantFrame.GetItemInfo(i)
+				local temp = C_MerchantFrame.GetItemInfo(i)
+				local name = temp.name
+				local price = temp.price
 				local itemCount = GetMerchantItemCostInfo(i)
 				local priceStr
-				local citemTexture, citemValue, citemLink, citemID, currencyID
+				local citemValue, citemLink, citemID, currencyID
 				local itemLink = GetMerchantItemLink(i)
 				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
 				itemID = itemID or 0
 				itemID = tonumber(itemID)
-				local desc = FixTextBack(GetItemEquipInfo(itemID))
 				if (price > 0) then
-					priceStr = string.format("[PRICE_EXTRA_ITTYPE] = \"money:%d", price)
+					priceStr = string.format("[PRICE_EXTRA_ITTYPE] = \"money:%d\"", price)
 				else
 					priceStr = "[PRICE_EXTRA_ITTYPE] = \""
 					for j = 1, itemCount do
-						citemTexture, citemValue, citemLink = GetMerchantItemCostItem(i, j)
+						_, citemValue, citemLink = GetMerchantItemCostItem(i, j)
 						citemID = string.match(citemLink or "item:0:", "item:(%d+):")
 						if not citemID then
-							currencyID = string.match(citemLink or "|Hcurrency:0|h", "|Hcurrency:(%d+)|h")
+							currencyID = string.match(citemLink or "|Hcurrency:0|h", "currency:(%d+)")
 						end
 						priceStr = priceStr..getItemPrice(nil, citemValue, citemID or currencyID)
 						if j < itemCount then priceStr = priceStr..":" end
 					end
+					priceStr = priceStr.."\""
 				end
 
-				--tab[1][i] = { i, itemID, "", string.format("%s%s", quality or "", name or ""), "=ds="..desc, getItemPrice(nil, itemValue, itemTexture) }
-				tab[1][i] = { i, itemID, priceStr or "", format("-- %s, %s", name or "", desc), texture, itemTexture }
+				tab[1][i] = { i, itemID, priceStr or "", name }
 			end
 		end
 	else
@@ -1325,7 +1345,7 @@ local function VendorFrame(container)
 		end
 		desc:SetText(itemUpdated.." items updated.")
 		lootTableString = startVendorScan(newTab)
-		lootTableString = returnItemTableString(lootTableString)
+		lootTableString = returnVendorItemTableString(lootTableString)
 		multiEditbox:SetText(lootTableString)
 		multiEditbox.editBox:SetFocus()
 	end)

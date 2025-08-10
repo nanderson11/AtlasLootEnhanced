@@ -327,28 +327,79 @@ data["TWWFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   "f2688rep31" },
-				{ 2,   233288 },                                                                           -- Radiant Recruit's Tabard
+				{ 2,   233288 },                                                                                                                        -- Radiant Recruit's Tabard
 				{ 4,   "f2688rep32" },
-				{ 5,   238850,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Arathi Entertainer's Flame
+				{ 5,   238850,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                    -- Arathi Entertainer's Flame
 				{ 7,   "f2688rep33" },
 				{ 8,   238986,                                     "pet4794",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Mister Mans
 				{ 10,  "f2688rep34" },
-				{ 11,  238852,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Flame's Radiance Banner
+				{ 11,  238852,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                    -- Flame's Radiance Banner
 				{ 13,  "f2688rep35" },
-				{ 14,  233289 },                                                                           -- Radiant Stalwart's Tabard
+				{ 14,  233289 },                                                                                                                        -- Radiant Stalwart's Tabard
 				{ 16,  "f2688rep36" },
-				{ 17,  239693,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Radiant Lynx Whistle
+				{ 17,  239693,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" },                                    -- Radiant Lynx Whistle
 				{ 18,  241188,                                     "pet4804",                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:6500" }, -- Swiftpaw
 				{ 20,  "f2688rep37" },
-				{ 21,  238824,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" }, -- Radiant Traveler's Backpack
+				{ 21,  238824,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" },                                    -- Radiant Traveler's Backpack
 				{ 23,  "f2688rep38" },
-				{ 24,  238837,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" }, -- Delver's Dirigible Schematic: Pale Paint
-				{ 25,  238839,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" }, -- Delver's Dirigible Schematic: Arathi Decal
+				{ 24,  238837,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" },                                    -- Delver's Dirigible Schematic: Pale Paint
+				{ 25,  238839,                                     [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                    -- Delver's Dirigible Schematic: Arathi Decal
 				{ 27,  "f2688rep39" },
 				{ 28,  238829,                                     "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Radiant Imperial Lynx
 				{ 101, "f2688rep40" },
-				{ 102, "237433:11977:6652:10394:10392:1498:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" }, -- Necklace of the Devout
-				{ 103, 233290 },                                                                           -- Sacred Templar's Tabard
+				{ 102, "237433:11977:6652:10394:10392:1498:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                    -- Necklace of the Devout
+				{ 103, 233290 },                                                                                                                        -- Sacred Templar's Tabard
+			}
+		},
+		{ -- The K'aresh Trust
+			FactionID = 2658,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2658rep35" },
+				{ 2,   239487,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Pure Dexterous Fiber
+				{ 3,   239485,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Pure Energizing Fiber
+				{ 4,   239486,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Pure Chronomantic Fiber
+				{ 5,   239488,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Pattern: Pure Precise Fiber
+				{ 6,   244043,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Contract: The K'aresh Trust
+				{ 7,   244334,                                [PRICE_EXTRA_ITTYPE] = "210814:150" },                                                -- Technique: Vantus Rune: Manaforge Omega
+				{ 9,   "f2658rep36" },
+				{ 10,  245967,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1625" },                                     -- Shawl of the Trust
+				{ 12,  "f2658rep37" },
+				{ 13,  "245975:12282:12239:3197:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Consortium Brute's Chestguard
+				{ 14,  "245976:12282:12239:3197:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Consortium Skirmisher's Cuirass
+				{ 15,  "245977:12282:12239:3197:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Consortium Scout's Jacket
+				{ 16,  "245978:12282:12239:3197:10255",       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2600" },                                     -- Consortium Magi's Robes
+				{ 18,  "f2658rep42" },
+				{ 19,  235855,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Tailoring Knowledge
+				{ 20,  235856,                                [PRICE_EXTRA_ITTYPE] = "210814:75" },                                                 -- Ethereal Tome of Skinning Knowledge
+				{ 21,  235857,                                [PRICE_EXTRA_ITTYPE] = "210814:75" },                                                 -- Ethereal Tome of Mining Knowledge
+				{ 22,  235858,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Leatherworking Knowledge
+				{ 23,  235859,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Jewelcrafting Knowledge
+				{ 24,  235860,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Inscription Knowledge
+				{ 25,  235861,                                [PRICE_EXTRA_ITTYPE] = "210814:75" },                                                 -- Ethereal Tome of Herbalism Knowledge
+				{ 26,  235862,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Engineering Knowledge
+				{ 27,  235863,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Enchanting Knowledge
+				{ 28,  235864,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Blacksmithing Knowledge
+				{ 29,  235865,                                [PRICE_EXTRA_ITTYPE] = "210814:50" },                                                 -- Ethereal Tome of Alchemy Knowledge
+				{ 101, "f2658rep43" },
+				{ 102, 245969,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3250" },                                     -- Mantle of the Trust
+				{ 104, "f2658rep44" },
+				{ 105, 245693,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:2250" },                                     -- K'areshi Ribbon Stash
+				{ 107, "f2658rep45" },
+				{ 108, 242729,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Ruby Void Creeper
+				{ 110, "f2658rep46" },
+				{ 111, "245971:12290:12239:12921:3210:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Consortium Brute's Clasp
+				{ 112, "245972:12290:12239:12921:3210:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Consortium Skirmisher's Armbands
+				{ 113, "245973:12290:12239:12921:3210:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Consortium Scout's Armlets
+				{ 114, "245974:12290:12239:12921:3210:10255", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:3900" },                                     -- Consortium Magi's Cuffs
+				{ 116, "f2658rep47" },
+				{ 117, 245980,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1150" },                                     -- Inter-Phase Scoop
+				{ 118, 245979,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1150" },                                     -- Arcano-Charged Wrench
+				{ 119, 245981,                                [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1150" },                                     -- K'areshi Multi-Tool
+				{ 121, "f2658rep48" },
+				{ 122, 243191,                                [PRICE_EXTRA_ITTYPE] = "money:1000000000" },                                          -- Ethereal Augment Rune
+				{ 124, "f2658rep49" },
+				{ 125, 237484,                                "mount",                                       [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Terror of the Wastes
 			}
 		},
 	}
