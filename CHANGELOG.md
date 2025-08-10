@@ -1,9 +1,10 @@
 ﻿# Changelog
 
-## 9.13.0 -
+## 9.13.0 - August 10, 2025
 ### Added
 - Added The K'aresh Trust renown track
 - Added Manaforge Vandals raid renown track
+- Added Tier 34 sets
 - Added TWW 11.2 Alchemy, Enchanting, Inscription and Tailoring recipes
 - Added TWW 11.2 tabards to Collections
 
