@@ -85,20 +85,20 @@ data["De Other Side"] = {
 		{ -- Hakkar the Soulflayer
 			EncounterJournalID = 2408,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  183504 }, -- Well-Placed Steel
-				{ 2,  182621 }, -- One With the Beast
+				{ 1,  179330 }, -- Zin'khas, Blade of the Fallen God
+				{ 2,  179328 }, -- Bloodspiller
 				{ 3,  179325 }, -- Hakkari Revenant's Grips
-				{ 4,  181737 }, -- Nourishing Chi
-				{ 5,  182134 }, -- Unruly Winds
-				{ 6,  179331 }, -- Blood-Spattered Scale
-				{ 7,  182307 }, -- Shielding Words
-				{ 8,  183479 }, -- Umbral Intensity
-				{ 9,  179322 }, -- Windscale Moccasins
-				{ 10, 179324 }, -- Soulfeather Breeches
-				{ 11, 179326 }, -- Girdle of the Soulflayer
-				{ 12, 179328 }, -- Bloodspiller
-				{ 13, 179330 }, -- Zin'khas, Blade of the Fallen God
-				{ 14, 181834 }, -- Chilled Resilience
+				{ 4,  179326 }, -- Girdle of the Soulflayer
+				{ 5,  179324 }, -- Soulfeather Breeches
+				{ 6,  179322 }, -- Windscale Moccasins
+				{ 7,  179331 }, -- Blood-Spattered Scale
+				{ 9,  181834 }, -- Chilled Resilience
+				{ 10, 181737 }, -- Nourishing Chi
+				{ 11, 182621 }, -- One With the Beast
+				{ 12, 182307 }, -- Shielding Words
+				{ 13, 183479 }, -- Umbral Intensity
+				{ 14, 182134 }, -- Unruly Winds
+				{ 15, 183504 }, -- Well-Placed Steel
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -110,21 +110,20 @@ data["De Other Side"] = {
 		{ -- The Manastorms
 			EncounterJournalID = 2409,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  183369 }, -- Memory of Wilfred's Sigil of Superior Summoning
-				{ 2,  180896 }, -- Safeguard
-				{ 3,  179338 }, -- Dynamo Doomstompers
-				{ 4,  179340 }, -- Supercollider
-				{ 5,  179342 }, -- Overwhelming Power Crystal
-				{ 6,  183216 }, -- Memory of a Burning Wound
-				{ 7,  181509 }, -- Arcane Prodigy
-				{ 8,  179335 }, -- Manastorm's Magnificent Threads
-				{ 9,  179337 }, -- Techno-Coil Legguards
-				{ 10, 179339 }, -- Whizblast Walking Stick
-				{ 11, 183271 }, -- Memory of the Infinite Arcane
-				{ 12, 182748 }, -- Borne of Blood
-				{ 13, 179336 }, -- Rocket Chicken Handlers
+				{ 1,  179339 }, -- Whizblast Walking Stick
+				{ 2,  179340 }, -- Supercollider
+				{ 3,  179335 }, -- Manastorm's Magnificent Threads
+				{ 4,  179336 }, -- Rocket Chicken Handlers
+				{ 5,  179337 }, -- Techno-Coil Legguards
+				{ 6,  179338 }, -- Dynamo Doomstompers
+				{ 7,  179342 }, -- Overwhelming Power Crystal
+				{ 9,  183216 }, -- Memory of a Burning Wound
+				{ 10, 183271 }, -- Memory of the Infinite Arcane
+				{ 11, 183369 }, -- Memory of Wilfred's Sigil of Superior Summoning
+				{ 12, 181509 }, -- Arcane Prodigy
+				{ 13, 182748 }, -- Borne of Blood
 				{ 14, 181842 }, -- Power Unto Others
-
+				{ 15, 180896 }, -- Safeguard
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -137,18 +136,18 @@ data["De Other Side"] = {
 			EncounterJournalID = 2398,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,  179347 }, -- Collector's Pulse Staff
-				{ 2,  179349 }, -- Dealer Xy'exa's Cape
-				{ 3,  182624 }, -- Show of Force
-				{ 4,  179344 }, -- Far Traveler's Shoulderpads
-				{ 5,  183396 }, -- Flame Infusion
-				{ 6,  179348 }, -- Xy Cartel Crossbow
-				{ 7,  183265 }, -- Memory of a Wildfire Cluster
-				{ 8,  183464 }, -- Tough as Bark
-				{ 9,  183509 }, -- Sleight of Hand
-				{ 10, 179346 }, -- Breastplate of Fatal Contrivances
-				{ 11, 179343 }, -- Sash of Exquisite Acquisitions
-				{ 12, 179345 }, -- Spatial Rift Striders
-				{ 13, 179350 }, -- Inscrutable Quantum Device
+				{ 2,  179348 }, -- Xy Cartel Crossbow
+				{ 3,  179344 }, -- Far Traveler's Shoulderpads
+				{ 4,  179349 }, -- Dealer Xy'exa's Cape
+				{ 5,  179346 }, -- Breastplate of Fatal Contrivances
+				{ 6,  179343 }, -- Sash of Exquisite Acquisitions
+				{ 7,  179345 }, -- Spatial Rift Striders
+				{ 8,  179350 }, -- Inscrutable Quantum Device
+				{ 10, 183265 }, -- Memory of a Wildfire Cluster
+				{ 11, 183396 }, -- Flame Infusion
+				{ 12, 182624 }, -- Show of Force
+				{ 13, 183509 }, -- Sleight of Hand
+				{ 14, 183464 }, -- Tough as Bark
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -160,24 +159,24 @@ data["De Other Side"] = {
 		{ -- Mueh'zala
 			EncounterJournalID = 2410,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182344 }, -- Lost in Darkness
-				{ 2,  183282 }, -- Memory of the Fatal Touch
-				{ 3,  179353 }, -- Harness of Twisted Whims
-				{ 4,  182736 }, -- Rolling Agony
-				{ 5,  183329 }, -- Memory of a Prism of Shadow and Fire
-				{ 6,  179354 }, -- Reality-Shatter Vambraces
-				{ 7,  181943 }, -- Eradicating Blow
-				{ 8,  183350 }, -- Memory of the Great Sundering
-				{ 9,  179355 }, -- Death God's Signet
-				{ 10, 181467 }, -- Flow of Time
-				{ 11, 182684 }, -- Resolute Defender
+				{ 1,  179353 }, -- Harness of Twisted Whims
+				{ 2,  179354 }, -- Reality-Shatter Vambraces
+				{ 3,  179351 }, -- Mueh'zala's Hexthread Sarong
+				{ 4,  179352 }, -- Primeval Soul's Ankleguards
+				{ 5,  179355 }, -- Death God's Signet
+				{ 6,  179356 }, -- Shadowgrasp Totem
+				{ 8,  183329 }, -- Memory of a Prism of Shadow and Fire
+				{ 9,  183282 }, -- Memory of the Fatal Touch
+				{ 10, 183350 }, -- Memory of the Great Sundering
+				{ 11, 181943 }, -- Eradicating Blow
 				{ 12, 183490 }, -- Floral Recycling
-				{ 13, 181376 }, -- Inner Fury
-				{ 14, 182138 }, -- Mind Devourer
-				{ 15, 179352 }, -- Primeval Soul's Ankleguards
-				{ 16, 179356 }, -- Shadowgrasp Totem
-				{ 17, 179351 }, -- Mueh'zala's Hexthread Sarong
-				{ 18, 182145 }, -- Heavy Rainfall
+				{ 13, 181467 }, -- Flow of Time
+				{ 14, 182145 }, -- Heavy Rainfall
+				{ 15, 181376 }, -- Inner Fury
+				{ 16, 182344 }, -- Lost in Darkness
+				{ 17, 182138 }, -- Mind Devourer
+				{ 18, 182684 }, -- Resolute Defender
+				{ 19, 182736 }, -- Rolling Agony
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -344,22 +343,22 @@ data["Mists of Tirna Scithe"] = {
 		{ -- Ingra Maloch
 			EncounterJournalID = 2400,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  183491 }, -- Ready for Anything
-				{ 2,  178704 }, -- Deathshackle Wristwraps
-				{ 3,  181466 }, -- Grounding Breath
-				{ 4,  178708 }, -- Unbound Changeling
-				{ 5,  182143 }, -- Swirling Currents
-				{ 6,  182582 }, -- Enkindled Spirit
-				{ 7,  178713 }, -- Drustlord's Greataxe
-				{ 8,  182686 }, -- Powerful Precision
-				{ 9,  181844 }, -- Pain Transformation
-				{ 10, 178709 }, -- Scithewood Scepter
-				{ 11, 178692 }, -- Soulthorn Visage
-				{ 12, 178694 }, -- Wrathbark Greathelm
-				{ 13, 178696 }, -- Ingra Maloch's Mantle
-				{ 14, 178698 }, -- Rainshadow Hauberk
-				{ 15, 178700 }, -- Clasp of Waning Shadow
-				{ 16, 183253 }, -- Memory of the Soulforge Embers
+				{ 1,  178713 }, -- Drustlord's Greataxe
+				{ 2,  178709 }, -- Scithewood Scepter
+				{ 3,  178692 }, -- Soulthorn Visage
+				{ 4,  178694 }, -- Wrathbark Greathelm
+				{ 5,  178696 }, -- Ingra Maloch's Mantle
+				{ 6,  178698 }, -- Rainshadow Hauberk
+				{ 7,  178704 }, -- Deathshackle Wristwraps
+				{ 8,  178700 }, -- Clasp of Waning Shadow
+				{ 9,  178708 }, -- Unbound Changeling
+				{ 11, 183253 }, -- Memory of the Soulforge Embers
+				{ 12, 182582 }, -- Enkindled Spirit
+				{ 13, 181466 }, -- Grounding Breath
+				{ 14, 181844 }, -- Pain Transformation
+				{ 15, 182686 }, -- Powerful Precision
+				{ 16, 183491 }, -- Ready for Anything
+				{ 17, 182143 }, -- Swirling Currents
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -371,22 +370,22 @@ data["Mists of Tirna Scithe"] = {
 		{ -- Mistcaller
 			EncounterJournalID = 2402,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  181462 }, -- Coordinated Offensive
-				{ 2,  181734 }, -- Magi's Brand
-				{ 3,  183266 }, -- Memory of the Disciplinary Command
-				{ 4,  182754 }, -- Duplicitous Havoc
-				{ 5,  178710 }, -- Tanglewood Thorn
-				{ 6,  178697 }, -- Prankster's Pauldrons
-				{ 7,  183514 }, -- Perforated Veins
-				{ 8,  183336 }, -- Memory of the Duskwalker's Patch
-				{ 9,  182305 }, -- Crown of Autumnal Flora
-				{ 10, 178705 }, -- Tricksprite Gloves
-				{ 11, 178707 }, -- Trailspinner Pendant
-				{ 12, 178706 }, -- Fogweaver Gauntlets
-				{ 13, 178695 }, -- Wintersnap Shoulderguards
+				{ 1,  178710 }, -- Tanglewood Thorn
+				{ 2,  178691 }, -- Hood of the Hidden Path
+				{ 3,  178707 }, -- Trailspinner Pendant
+				{ 4,  178697 }, -- Prankster's Pauldrons
+				{ 5,  178695 }, -- Wintersnap Shoulderguards
+				{ 6,  178706 }, -- Fogweaver Gauntlets
+				{ 7,  178705 }, -- Tricksprite Gloves
+				{ 8,  178715 }, -- Mistcaller Ocarina
+				{ 10, 183266 }, -- Memory of the Disciplinary Command
+				{ 11, 183336 }, -- Memory of the Duskwalker's Patch
+				{ 12, 181462 }, -- Coordinated Offensive
+				{ 13, 182754 }, -- Duplicitous Havoc
 				{ 14, 182448 }, -- Light's Barding
-				{ 15, 178715 }, -- Mistcaller Ocarina
-				{ 16, 178691 }, -- Hood of the Hidden Path
+				{ 15, 181734 }, -- Magi's Brand
+				{ 16, 183514 }, -- Perforated Veins
+				{ 18, 182305 }, -- Crown of Autumnal Flora
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -398,40 +397,40 @@ data["Mists of Tirna Scithe"] = {
 		{ -- Tred'ova
 			EncounterJournalID = 2405,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182964 }, -- Soul Eater
-				{ 2,  178702 }, -- Bands of the Undergrowth
-				{ 3,  182767 }, -- The Long Summer
-				{ 4,  178714 }, -- Lakali's Spire of Knowledge
-				{ 5,  181539 }, -- Discipline of the Grove
-				{ 6,  182206 }, -- Convocation of the Dead
-				{ 7,  182384 }, -- Serrated Glaive
-				{ 8,  183132 }, -- Echoing Call
-				{ 9,  180935 }, -- Crash the Ramparts
-				{ 10, 183473 }, -- Conflux of Elements
-				{ 11, 178711 }, -- Axe of the Deadgrove
-				{ 12, 183229 }, -- Memory of a Timeworn Dreambinder
-				{ 13, 182129 }, -- Fae Fermata
-				{ 14, 182142 }, -- Embrace of Earth
-				{ 15, 182347 }, -- Essential Extraction
-				{ 16, 181775 }, -- Way of the Fae
-				{ 17, 183199 }, -- Withering Ground
-				{ 18, 182335 }, -- Spirit Attunement
-				{ 19, 178712 }, -- Acidslough Bulwark
-				{ 20, 183494 }, -- Septic Shock
-				{ 21, 183463 }, -- Unnatural Malice
-				{ 22, 178693 }, -- Cocoonsilk Cowl
-				{ 23, 182651 }, -- Destructive Reverberations
-				{ 24, 178701 }, -- Gormshell Greaves
-				{ 25, 183485 }, -- Savage Combatant
-				{ 26, 178699 }, -- Sapgorger Belt
-				{ 27, 178703 }, -- Hiveswarm Bracers
+				{ 1,  178714 }, -- Lakali's Spire of Knowledge
+				{ 2,  178711 }, -- Axe of the Deadgrove
+				{ 3,  178712 }, -- Acidslough Bulwark
+				{ 4,  178693 }, -- Cocoonsilk Cowl
+				{ 5,  178702 }, -- Bands of the Undergrowth
+				{ 6,  178703 }, -- Hiveswarm Bracers
+				{ 7,  178699 }, -- Sapgorger Belt
+				{ 8,  178701 }, -- Gormshell Greaves
+				{ 10, 183229 }, -- Memory of a Timeworn Dreambinder
+				{ 11, 183473 }, -- Conflux of Elements
+				{ 12, 182206 }, -- Convocation of the Dead
+				{ 13, 180935 }, -- Crash the Ramparts
+				{ 14, 182651 }, -- Destructive Reverberations
+				{ 15, 181539 }, -- Discipline of the Grove
+				{ 16, 183132 }, -- Echoing Call
+				{ 17, 182142 }, -- Embrace of Earth
+				{ 18, 182347 }, -- Essential Extraction
+				{ 19, 182129 }, -- Fae Fermata
+				{ 20, 183485 }, -- Savage Combatant
+				{ 21, 183494 }, -- Septic Shock
+				{ 22, 182384 }, -- Serrated Glaive
+				{ 23, 182964 }, -- Soul Eater
+				{ 24, 182335 }, -- Spirit Attunement
+				{ 25, 182767 }, -- The Long Summer
+				{ 26, 183463 }, -- Unnatural Malice
+				{ 27, 181775 }, -- Way of the Fae
+				{ 28, 183199 }, -- Withering Ground
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 28, 183623 }, -- Spinemaw Gormling
+				{ 30, 183623 }, -- Spinemaw Gormling
 			},
 		},
 	}
@@ -447,16 +446,16 @@ data["Plaguefall"] = {
 		{ -- Globgrog
 			EncounterJournalID = 2419,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  178762 }, -- Blightborne Chain Legguards
-				{ 2,  183506 }, -- Lethal Poisons
-				{ 3,  178753 }, -- Surgical Pustule Extractor
-				{ 4,  178770 }, -- Slimy Consumptive Organ
-				{ 5,  183486 }, -- Well-Honed Instincts
-				{ 6,  182465 }, -- Truth's Wake
-				{ 7,  181786 }, -- Eternal Hunger
-				{ 8,  178773 }, -- Plague Handler's Greathelm
-				{ 9,  178760 }, -- Digested Interrogator's Gaze
-				{ 10, 178756 }, -- Stradama's Misplaced Slippers
+				{ 1,  178753 }, -- Surgical Pustule Extractor
+				{ 2,  178760 }, -- Digested Interrogator's Gaze
+				{ 3,  178773 }, -- Plague Handler's Greathelm
+				{ 4,  178762 }, -- Blightborne Chain Legguards
+				{ 5,  178756 }, -- Stradama's Misplaced Slippers
+				{ 6,  178770 }, -- Slimy Consumptive Organ
+				{ 8,  181786 }, -- Eternal Hunger
+				{ 9,  183506 }, -- Lethal Poisons
+				{ 10, 182465 }, -- Truth's Wake
+				{ 11, 183486 }, -- Well-Honed Instincts
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -468,19 +467,19 @@ data["Plaguefall"] = {
 		{ -- Doctor Ickus
 			EncounterJournalID = 2403,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182752 }, -- Fel Commando
-				{ 2,  182126 }, -- High Voltage
-				{ 3,  181455 }, -- Icy Propulsion
-				{ 4,  178759 }, -- Depraved Physician's Mask
-				{ 5,  181495 }, -- Jade Bond
-				{ 6,  178763 }, -- Malodorous Gristle-Sown Spaulders
-				{ 7,  182140 }, -- Dissonant Echoes
-				{ 8,  178752 }, -- Sophisticated Bonecracker
-				{ 9,  183496 }, -- Nimble Fingers
-				{ 10, 178771 }, -- Phial of Putrefaction
-				{ 11, 180933 }, -- Ashen Juggernaut
-				{ 12, 178775 }, -- Fleshfused Crushers
-				{ 13, 178767 }, -- Tortured Assistant's Bindings
+				{ 1,  178752 }, -- Sophisticated Bonecracker
+				{ 2,  178759 }, -- Depraved Physician's Mask
+				{ 3,  178763 }, -- Malodorous Gristle-Sown Spaulders
+				{ 4,  178767 }, -- Tortured Assistant's Bindings
+				{ 5,  178775 }, -- Fleshfused Crushers
+				{ 6,  178771 }, -- Phial of Putrefaction
+				{ 8,  180933 }, -- Ashen Juggernaut
+				{ 9,  182140 }, -- Dissonant Echoes
+				{ 10, 182752 }, -- Fel Commando
+				{ 11, 182126 }, -- High Voltage
+				{ 12, 181455 }, -- Icy Propulsion
+				{ 13, 181495 }, -- Jade Bond
+				{ 14, 183496 }, -- Nimble Fingers
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -493,18 +492,18 @@ data["Plaguefall"] = {
 			EncounterJournalID = 2423,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,  178929 }, -- Halberd of the Aranakk
-				{ 2,  178931 }, -- Scarred Bloodbound Girdle
-				{ 3,  182368 }, -- Relentless Onslaught
-				{ 4,  183345 }, -- Memory of the Rotten
-				{ 5,  183167 }, -- Strength of the Pack
-				{ 6,  178928 }, -- Domina's Oozing Shiv
-				{ 7,  178930 }, -- Mitts of Flawless Duplication
-				{ 8,  178932 }, -- Belt of Wretched Manipulations
-				{ 9,  178934 }, -- Fastened Venombarb Binds
-				{ 10, 182108 }, -- Thunderous Paws
+				{ 2,  178928 }, -- Domina's Oozing Shiv
+				{ 3,  178934 }, -- Fastened Venombarb Binds
+				{ 4,  178930 }, -- Mitts of Flawless Duplication
+				{ 5,  178932 }, -- Belt of Wretched Manipulations
+				{ 6,  178931 }, -- Scarred Bloodbound Girdle
+				{ 7,  178933 }, -- Arachnid Cipher Ring
+				{ 9,  183260 }, -- Memory of the Serpentstalker's Trickery
+				{ 10, 183345 }, -- Memory of the Rotten
 				{ 11, 182208 }, -- Lingering Plague
-				{ 12, 183260 }, -- Memory of the Serpentstalker's Trickery
-				{ 13, 178933 }, -- Arachnid Cipher Ring
+				{ 12, 182368 }, -- Relentless Onslaught
+				{ 13, 183167 }, -- Strength of the Pack
+				{ 14, 182108 }, -- Thunderous Paws
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -516,39 +515,39 @@ data["Plaguefall"] = {
 		{ -- Margrave Stradama
 			EncounterJournalID = 2404,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  183212 }, -- Memory of a Darkglare Medallion
-				{ 2,  182139 }, -- Rabid Shadows
-				{ 3,  178764 }, -- Plagueborne Shoulderguards
-				{ 4,  182961 }, -- Fatal Decimation
-				{ 5,  182442 }, -- Veteran's Repute
-				{ 6,  181981 }, -- Festering Transfusion
-				{ 7,  178761 }, -- Leggings of the Erudite Scholar
-				{ 8,  183319 }, -- Memory of my Crystalline Reflection
-				{ 9,  182706 }, -- Brooding Pool
-				{ 10, 178757 }, -- Gloves of Obscure Rituals
-				{ 11, 181504 }, -- Infernal Cascade
-				{ 12, 183493 }, -- Sudden Fractures
-				{ 13, 178754 }, -- Poxstorm, Longsword of Pestilence
+				{ 1,  178754 }, -- Poxstorm, Longsword of Pestilence
+				{ 2,  178764 }, -- Plagueborne Shoulderguards
+				{ 3,  178755 }, -- Blighted Margrave's Cloak
+				{ 4,  178757 }, -- Gloves of Obscure Rituals
+				{ 5,  178761 }, -- Leggings of the Erudite Scholar
+				{ 6,  178774 }, -- Muckwallow Stompers
+				{ 7,  178769 }, -- Infinitely Divisible Ooze
+				{ 9,  183212 }, -- Memory of a Darkglare Medallion
+				{ 10, 182637 }, -- Memory of Death's Certainty
+				{ 11, 183319 }, -- Memory of my Crystalline Reflection
+				{ 12, 181770 }, -- Bone Marrow Hops
+				{ 13, 182706 }, -- Brooding Pool
 				{ 14, 182292 }, -- Brutal Grasp
-				{ 15, 182637 }, -- Memory of Death's Certainty
-				{ 16, 183478 }, -- Fury of the Skies
-				{ 17, 181553 }, -- Gift of the Lich
-				{ 18, 178774 }, -- Muckwallow Stompers
-				{ 19, 182339 }, -- Necrotic Barrage
-				{ 20, 182346 }, -- Tumbling Waves
-				{ 21, 178755 }, -- Blighted Margrave's Cloak
-				{ 22, 182747 }, -- Withering Bolt
-				{ 23, 181770 }, -- Bone Marrow Hops
-				{ 24, 183472 }, -- Evolved Swarm
-				{ 25, 182770 }, -- Righteous Might
-				{ 26, 178769 }, -- Infinitely Divisible Ooze
+				{ 15, 183472 }, -- Evolved Swarm
+				{ 16, 182961 }, -- Fatal Decimation
+				{ 17, 181981 }, -- Festering Transfusion
+				{ 18, 183478 }, -- Fury of the Skies
+				{ 19, 181553 }, -- Gift of the Lich
+				{ 20, 181504 }, -- Infernal Cascade
+				{ 21, 182339 }, -- Necrotic Barrage
+				{ 22, 182139 }, -- Rabid Shadows
+				{ 23, 182770 }, -- Righteous Might
+				{ 24, 183493 }, -- Sudden Fractures
+				{ 25, 182346 }, -- Tumbling Waves
+				{ 26, 182442 }, -- Veteran's Repute
+				{ 27, 182747 }, -- Withering Bolt
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 27, 181271 }, -- Sludge Feeler
+				{ 29, 181271 }, -- Sludge Feeler
 			},
 		},
 	}
@@ -564,21 +563,21 @@ data["Sanguine Depths"] = {
 		{ -- Kryxis the Voracious
 			EncounterJournalID = 2388,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  183202 }, -- Deadly Tandem
-				{ 2,  178854 }, -- Hungering Devourer's Twinblade
-				{ 3,  183480 }, -- Taste for Blood
-				{ 4,  181740 }, -- Evasive Stride
-				{ 5,  183234 }, -- Memory of a Luffa-Infused Embrace
-				{ 6,  182133 }, -- Insatiable Appetite
-				{ 7,  181776 }, -- Vicious Contempt
-				{ 8,  178853 }, -- Voracious Gorger Spine
-				{ 9,  181769 }, -- Tempest Barrier
+				{ 1,  178854 }, -- Hungering Devourer's Twinblade
+				{ 2,  178853 }, -- Voracious Gorger Spine
+				{ 3,  178835 }, -- Anima-Splattered Hide
+				{ 4,  178844 }, -- Essence Surge Binders
+				{ 5,  178846 }, -- Shackles of Alluring Vitality
+				{ 6,  178836 }, -- Sabatons of the Rushing Juggernaut
+				{ 7,  178848 }, -- Entwined Gorger Tendril
+				{ 9,  183234 }, -- Memory of a Luffa-Infused Embrace
 				{ 10, 183297 }, -- Memory of Xuen
-				{ 11, 178844 }, -- Essence Surge Binders
-				{ 12, 178846 }, -- Shackles of Alluring Vitality
-				{ 13, 178848 }, -- Entwined Gorger Tendril
-				{ 14, 178835 }, -- Anima-Splattered Hide
-				{ 15, 178836 }, -- Sabatons of the Rushing Juggernaut
+				{ 11, 183202 }, -- Deadly Tandem
+				{ 12, 181740 }, -- Evasive Stride
+				{ 13, 182133 }, -- Insatiable Appetite
+				{ 14, 183480 }, -- Taste for Blood
+				{ 15, 181769 }, -- Tempest Barrier
+				{ 16, 181776 }, -- Vicious Contempt
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -590,19 +589,19 @@ data["Sanguine Depths"] = {
 		{ -- Executor Tarvold
 			EncounterJournalID = 2415,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  181942 }, -- Focused Mending
-				{ 2,  182604 }, -- Roaring Fire
-				{ 3,  182203 }, -- Debilitating Malady
+				{ 1,  178855 }, -- Sinsmasher
+				{ 2,  178859 }, -- Castigator's Mantle
+				{ 3,  178851 }, -- Cloak of Enveloping Manifestations
 				{ 4,  178845 }, -- Vambraces of the Depraved Warden
-				{ 5,  183499 }, -- Quick Decisions
-				{ 6,  178851 }, -- Cloak of Enveloping Manifestations
-				{ 7,  182755 }, -- Ashen Remains
-				{ 8,  178855 }, -- Sinsmasher
-				{ 9,  178859 }, -- Castigator's Mantle
-				{ 10, 182464 }, -- Harmony of the Tortollan
-				{ 11, 178843 }, -- Executor's Prideful Girdle
-				{ 12, 178837 }, -- Sinsoaked Waders
-				{ 13, 178849 }, -- Overflowing Anima Cage
+				{ 5,  178843 }, -- Executor's Prideful Girdle
+				{ 6,  178837 }, -- Sinsoaked Waders
+				{ 7,  178849 }, -- Overflowing Anima Cage
+				{ 9,  182755 }, -- Ashen Remains
+				{ 10, 182203 }, -- Debilitating Malady
+				{ 11, 181942 }, -- Focused Mending
+				{ 12, 182464 }, -- Harmony of the Tortollan
+				{ 13, 183499 }, -- Quick Decisions
+				{ 14, 182604 }, -- Roaring Fire
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -615,47 +614,47 @@ data["Sanguine Depths"] = {
 			EncounterJournalID = 2421,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,  178852 }, -- Vessel of Shining Radiance
-				{ 2,  183489 }, -- Flash of Clarity
+				{ 2,  178847 }, -- Radiant Light Binders
 				{ 3,  178841 }, -- Iron Spiked Handgrips
-				{ 4,  182608 }, -- Virtuous Command
-				{ 5,  181847 }, -- Lasting Spirit
-				{ 6,  182137 }, -- Magma Fist
-				{ 7,  181506 }, -- Master Flame
+				{ 4,  178842 }, -- Waistguard of Expurged Anguish
+				{ 5,  178838 }, -- Beryllia's Leggings of Endless Torment
+				{ 6,  178850 }, -- Lingering Sunmote
 				{ 8,  183323 }, -- Memory of Flash Concentration
-				{ 9,  178838 }, -- Beryllia's Leggings of Endless Torment
-				{ 10, 178842 }, -- Waistguard of Expurged Anguish
-				{ 11, 182324 }, -- Felfire Haste
-				{ 12, 178847 }, -- Radiant Light Binders
-				{ 13, 183303 }, -- Memory of Maraad's Dying Breath
-				{ 14, 178850 }, -- Lingering Sunmote
-				{ 15, 180847 }, -- Inspiring Presence
+				{ 9,  183303 }, -- Memory of Maraad's Dying Breath
+				{ 10, 182324 }, -- Felfire Haste
+				{ 11, 183489 }, -- Flash of Clarity
+				{ 12, 180847 }, -- Inspiring Presence
+				{ 13, 181847 }, -- Lasting Spirit
+				{ 14, 182137 }, -- Magma Fist
+				{ 15, 181506 }, -- Master Flame
+				{ 16, 182608 }, -- Virtuous Command
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 16, 180591 }, -- Vial of Roiling Emotions
+				{ 18, 180591 }, -- Vial of Roiling Emotions
 			},
 		},
 		{ -- General Kaal
 			EncounterJournalID = 2407,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182677 }, -- Punish the Guilty
-				{ 2,  178839 }, -- Wind Dancer's Legguards
-				{ 3,  178856 }, -- Kaal's Gloomblade
-				{ 4,  183358 }, -- Memory of an Earthen Harmony
-				{ 5,  178860 }, -- Cowl of the Devoted General
-				{ 6,  181742 }, -- Walk with the Ox
-				{ 7,  183289 }, -- Memory of Stormstout
-				{ 8,  187506 }, -- Condensed Anima Sphere
-				{ 9,  182125 }, -- Pyroclastic Shock
-				{ 10, 183507 }, -- Triple Threat
-				{ 11, 178857 }, -- Stone General's Edge
-				{ 12, 178861 }, -- Decanter of Anima-Charged Winds
-				{ 13, 178858 }, -- Wicked Bladewing Pauldrons
-				{ 14, 178840 }, -- Guilewind Stone Talons
-				{ 15, 178862 }, -- Bladedancer's Armor Kit
+				{ 1,  178856 }, -- Kaal's Gloomblade
+				{ 2,  178857 }, -- Stone General's Edge
+				{ 3,  178860 }, -- Cowl of the Devoted General
+				{ 4,  178858 }, -- Wicked Bladewing Pauldrons
+				{ 5,  178840 }, -- Guilewind Stone Talons
+				{ 6,  178839 }, -- Wind Dancer's Legguards
+				{ 7,  178862 }, -- Bladedancer's Armor Kit
+				{ 8,  178861 }, -- Decanter of Anima-Charged Winds
+				{ 10, 183358 }, -- Memory of an Earthen Harmony
+				{ 11, 183289 }, -- Memory of Stormstout
+				{ 12, 187506 }, -- Condensed Anima Sphere
+				{ 13, 182677 }, -- Punish the Guilty
+				{ 14, 182125 }, -- Pyroclastic Shock
+				{ 15, 183507 }, -- Triple Threat
+				{ 16, 181742 }, -- Walk with the Ox
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -677,20 +676,20 @@ data["Spires of Ascension"] = {
 		{ -- Kin-Tara
 			EncounterJournalID = 2399,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182317 }, -- Shattered Restoration
-				{ 2,  180101 }, -- Warboots of Ruthless Conviction
-				{ 3,  182113 }, -- Fleeting Wind
-				{ 4,  182610 }, -- Ferocious Appetite
+				{ 1,  180097 }, -- Quarterstaff of Discordant Ethic
+				{ 2,  180115 }, -- Azure-Venom Choker
+				{ 3,  180100 }, -- Forsworn Stalker's Hauberk
+				{ 4,  180103 }, -- Winged Hunters' Gloves
 				{ 5,  180109 }, -- Kin-Tara's Baleful Cord
-				{ 6,  183231 }, -- Memory of a Cat-Eye Curio
-				{ 7,  182468 }, -- Mortal Combo
-				{ 8,  180115 }, -- Azure-Venom Choker
-				{ 9,  183513 }, -- Stiletto Staccato
-				{ 10, 182144 }, -- Nature's Focus
-				{ 11, 180097 }, -- Quarterstaff of Discordant Ethic
-				{ 12, 183483 }, -- Carnivorous Instinct
-				{ 13, 180100 }, -- Forsworn Stalker's Hauberk
-				{ 14, 180103 }, -- Winged Hunters' Gloves
+				{ 6,  180101 }, -- Warboots of Ruthless Conviction
+				{ 8,  183231 }, -- Memory of a Cat-Eye Curio
+				{ 9,  183483 }, -- Carnivorous Instinct
+				{ 10, 182610 }, -- Ferocious Appetite
+				{ 11, 182113 }, -- Fleeting Wind
+				{ 12, 182468 }, -- Mortal Combo
+				{ 13, 182144 }, -- Nature's Focus
+				{ 14, 182317 }, -- Shattered Restoration
+				{ 15, 183513 }, -- Stiletto Staccato
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -702,20 +701,20 @@ data["Spires of Ascension"] = {
 		{ -- Ventunax
 			EncounterJournalID = 2416,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  181389 }, -- Shivering Core
-				{ 2,  180116 }, -- Overcharged Anima Battery
-				{ 3,  183508 }, -- Ambidexterity
-				{ 4,  182462 }, -- Expurgation
-				{ 5,  180095 }, -- Penitent Edge
-				{ 6,  180111 }, -- Shadowhirl Waistwrap
-				{ 7,  183338 }, -- Memory of Celerity
-				{ 8,  181435 }, -- Calculated Strikes
-				{ 9,  180102 }, -- Dark Stride Footwraps
-				{ 10, 180104 }, -- Distorted Construct's Gauntlets
-				{ 11, 183365 }, -- Memory of the Consuming Wrath
+				{ 1,  180095 }, -- Penitent Edge
+				{ 2,  180104 }, -- Distorted Construct's Gauntlets
+				{ 3,  180110 }, -- Dark Praetorian's Clasp
+				{ 4,  180111 }, -- Shadowhirl Waistwrap
+				{ 5,  180102 }, -- Dark Stride Footwraps
+				{ 6,  180116 }, -- Overcharged Anima Battery
+				{ 8,  183338 }, -- Memory of Celerity
+				{ 9,  183365 }, -- Memory of the Consuming Wrath
+				{ 10, 183508 }, -- Ambidexterity
+				{ 11, 181435 }, -- Calculated Strikes
 				{ 12, 182478 }, -- Corrupting Leer
-				{ 13, 180110 }, -- Dark Praetorian's Clasp
+				{ 13, 182462 }, -- Expurgation
 				{ 14, 181827 }, -- Move with Grace
+				{ 15, 181389 }, -- Shivering Core
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -727,22 +726,22 @@ data["Spires of Ascension"] = {
 		{ -- Oryphrion
 			EncounterJournalID = 2414,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  187507 }, -- Adaptive Armor Fragment
-				{ 2,  180112 }, -- The Philosopher
-				{ 3,  182471 }, -- Soul Furnace
-				{ 4,  180118 }, -- Anima Field Emitter
-				{ 5,  180105 }, -- Absonant Construct's Handguards
-				{ 6,  183392 }, -- Memory of the Thunderlord
-				{ 7,  183469 }, -- Front of the Pack
-				{ 8,  180106 }, -- Vicious Surge Faceguard
-				{ 9,  182753 }, -- Royal Decree
-				{ 10, 180113 }, -- Thunderous Echo Vambraces
-				{ 11, 180117 }, -- Empyreal Ordnance
-				{ 12, 180944 }, -- Merciless Bonegrinder
-				{ 13, 182476 }, -- Resilience of the Hunter
-				{ 14, 182187 }, -- Meat Shield
-				{ 15, 180107 }, -- Purge Protocol Legwraps
-				{ 16, 183313 }, -- Memory of the Lightbringer's Tempest
+				{ 1,  180112 }, -- The Philosopher
+				{ 2,  180106 }, -- Vicious Surge Faceguard
+				{ 3,  180113 }, -- Thunderous Echo Vambraces
+				{ 4,  180105 }, -- Absonant Construct's Handguards
+				{ 5,  180107 }, -- Purge Protocol Legwraps
+				{ 6,  180118 }, -- Anima Field Emitter
+				{ 7,  180117 }, -- Empyreal Ordnance
+				{ 9,  183313 }, -- Memory of the Lightbringer's Tempest
+				{ 10, 183392 }, -- Memory of the Thunderlord
+				{ 11, 187507 }, -- Adaptive Armor Fragment
+				{ 12, 183469 }, -- Front of the Pack
+				{ 13, 182187 }, -- Meat Shield
+				{ 14, 180944 }, -- Merciless Bonegrinder
+				{ 15, 182476 }, -- Resilience of the Hunter
+				{ 16, 182753 }, -- Royal Decree
+				{ 17, 182471 }, -- Soul Furnace
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -754,24 +753,24 @@ data["Spires of Ascension"] = {
 		{ -- Devos, Paragon of Doubt
 			EncounterJournalID = 2412,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182340 }, -- Fel Celerity
-				{ 2,  182135 }, -- Focused Lightning
-				{ 3,  183290 }, -- Memory of Ancient Teachings
-				{ 4,  181465 }, -- Xuen's Bond
-				{ 5,  183488 }, -- Unstoppable Growth
-				{ 6,  181698 }, -- Cryo-Freeze
-				{ 7,  182667 }, -- Focused Light
-				{ 8,  180098 }, -- Sinister Requiem Vestments
-				{ 9,  180114 }, -- Fallen Paragon's Armguards
-				{ 10, 183257 }, -- Memory of the Rylakstalker's Fangs
-				{ 11, 183354 }, -- Memory of the Doom Winds
+				{ 1,  180096 }, -- Devos's Cacophonous Poleaxe
+				{ 2,  180123 }, -- Drape of Twisted Loyalties
+				{ 3,  180099 }, -- Breastplate of Brutal Dissonance
+				{ 4,  180098 }, -- Sinister Requiem Vestments
+				{ 5,  180114 }, -- Fallen Paragon's Armguards
+				{ 6,  180108 }, -- Abyssal Disharmony Breeches
+				{ 7,  180119 }, -- Boon of the Archon
+				{ 9,  183290 }, -- Memory of Ancient Teachings
+				{ 10, 183354 }, -- Memory of the Doom Winds
+				{ 11, 183257 }, -- Memory of the Rylakstalker's Fangs
 				{ 12, 182649 }, -- Brutal Projectiles
-				{ 13, 180119 }, -- Boon of the Archon
-				{ 14, 180123 }, -- Drape of Twisted Loyalties
-				{ 15, 180096 }, -- Devos's Cacophonous Poleaxe
-				{ 16, 180099 }, -- Breastplate of Brutal Dissonance
+				{ 13, 181698 }, -- Cryo-Freeze
+				{ 14, 182340 }, -- Fel Celerity
+				{ 15, 182667 }, -- Focused Light
+				{ 16, 182135 }, -- Focused Lightning
 				{ 17, 182141 }, -- Holy Oration
-				{ 18, 180108 }, -- Abyssal Disharmony Breeches
+				{ 18, 183488 }, -- Unstoppable Growth
+				{ 19, 181465 }, -- Xuen's Bond
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -993,18 +992,18 @@ data["The Necrotic Wake"] = {
 		{ -- Blightbone
 			EncounterJournalID = 2395,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  178732 }, -- Abominable Visage
-				{ 2,  178734 }, -- Fused Bone Greatbelt
-				{ 3,  182111 }, -- Spiritual Resonance
-				{ 4,  183482 }, -- Sudden Ambush
-				{ 5,  181641 }, -- Rising Sun Revival
-				{ 6,  178733 }, -- Blightbone Spaulders
-				{ 7,  183505 }, -- Maim, Mangle
-				{ 8,  181709 }, -- Unnerving Focus
-				{ 9,  178736 }, -- Stitchflesh's Misplaced Signet
-				{ 10, 178731 }, -- Viscera-Stitched Footpads
-				{ 11, 178730 }, -- Engorged Worm Smasher
-				{ 12, 178735 }, -- Blight Belcher
+				{ 1,  178730 }, -- Engorged Worm Smasher
+				{ 2,  178735 }, -- Blight Belcher
+				{ 3,  178732 }, -- Abominable Visage
+				{ 4,  178733 }, -- Blightbone Spaulders
+				{ 5,  178734 }, -- Fused Bone Greatbelt
+				{ 6,  178731 }, -- Viscera-Stitched Footpads
+				{ 7,  178736 }, -- Stitchflesh's Misplaced Signet
+				{ 9,  183505 }, -- Maim, Mangle
+				{ 10, 181641 }, -- Rising Sun Revival
+				{ 11, 182111 }, -- Spiritual Resonance
+				{ 12, 183482 }, -- Sudden Ambush
+				{ 13, 181709 }, -- Unnerving Focus
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1016,18 +1015,18 @@ data["The Necrotic Wake"] = {
 		{ -- Amarth, The Harvester
 			EncounterJournalID = 2391,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  178738 }, -- Rattling Deadeye Hood
-				{ 2,  178740 }, -- Reanimator's Mantle
-				{ 3,  181712 }, -- Depths of Insanity
-				{ 4,  178742 }, -- Bottled Flayedwing Toxin
-				{ 5,  182772 }, -- Infernal Brand
-				{ 6,  178741 }, -- Risen Monstrosity Cuffs
-				{ 7,  183387 }, -- Memory of the Deathmaker
-				{ 8,  178739 }, -- Legplates of Unholy Frenzy
-				{ 9,  183481 }, -- Incessant Hunter
-				{ 10, 181982 }, -- Everfrost
-				{ 11, 183402 }, -- Bloodletting
-				{ 12, 178737 }, -- Amarth's Spellblade
+				{ 1,  178737 }, -- Amarth's Spellblade
+				{ 2,  178738 }, -- Rattling Deadeye Hood
+				{ 3,  178740 }, -- Reanimator's Mantle
+				{ 4,  178741 }, -- Risen Monstrosity Cuffs
+				{ 5,  178739 }, -- Legplates of Unholy Frenzy
+				{ 6,  178742 }, -- Bottled Flayedwing Toxin
+				{ 8,  183387 }, -- Memory of the Deathmaker
+				{ 9,  183402 }, -- Bloodletting
+				{ 10, 181712 }, -- Depths of Insanity
+				{ 11, 181982 }, -- Everfrost
+				{ 12, 183481 }, -- Incessant Hunter
+				{ 13, 182772 }, -- Infernal Brand
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1039,20 +1038,20 @@ data["The Necrotic Wake"] = {
 		{ -- Surgeon Stitchflesh
 			EncounterJournalID = 2392,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  178749 }, -- Vile Butcher's Pauldrons
-				{ 2,  178751 }, -- Spare Meat Hook
-				{ 3,  183373 }, -- Memory of an Implosive Potential
-				{ 4,  182385 }, -- Growing Inferno
-				{ 5,  183512 }, -- Planned Execution
-				{ 6,  178744 }, -- Freshly Embalmed Jerkin
-				{ 7,  178748 }, -- Gory Surgeon's Gloves
-				{ 8,  178750 }, -- Encrusted Canopic Lid
-				{ 9,  178772 }, -- Satchel of Misbegotten Minions
-				{ 10, 178745 }, -- Striders of Restless Malice
-				{ 11, 181700 }, -- Scalding Brew
-				{ 12, 178743 }, -- Stitchflesh's Scalpel
-				{ 13, 182750 }, -- Carnivorous Stalkers
-				{ 14, 181738 }, -- Artifice of the Archmage
+				{ 1,  178743 }, -- Stitchflesh's Scalpel
+				{ 2,  178750 }, -- Encrusted Canopic Lid
+				{ 3,  178749 }, -- Vile Butcher's Pauldrons
+				{ 4,  178744 }, -- Freshly Embalmed Jerkin
+				{ 5,  178748 }, -- Gory Surgeon's Gloves
+				{ 6,  178745 }, -- Striders of Restless Malice
+				{ 7,  178772 }, -- Satchel of Misbegotten Minions
+				{ 8,  178751 }, -- Spare Meat Hook
+				{ 10, 183373 }, -- Memory of an Implosive Potential
+				{ 11, 181738 }, -- Artifice of the Archmage
+				{ 12, 182750 }, -- Carnivorous Stalkers
+				{ 13, 182385 }, -- Growing Inferno
+				{ 14, 183512 }, -- Planned Execution
+				{ 15, 181700 }, -- Scalding Brew
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1064,39 +1063,39 @@ data["The Necrotic Wake"] = {
 		{ -- Nalthor the Rimebinder
 			EncounterJournalID = 2396,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182960 }, -- Soul Tithe
-				{ 2,  182778 }, -- Ringing Clarity
-				{ 3,  183278 }, -- Memory of the Cold Front
-				{ 4,  182321 }, -- Enfeebled Mark
-				{ 5,  182201 }, -- Unleashed Frenzy
-				{ 6,  182345 }, -- Elysian Dirge
-				{ 7,  182136 }, -- Chilled to the Core
-				{ 8,  182295 }, -- Proliferation
-				{ 9,  181974 }, -- Courageous Ascension
-				{ 10, 183492 }, -- Reverberation
-				{ 11, 178777 }, -- Darkfrost Helmet
-				{ 12, 178781 }, -- Ritual Commander's Ring
-				{ 13, 181383 }, -- Unrelenting Cold
-				{ 14, 182633 }, -- Memory of the Biting Cold
-				{ 15, 178783 }, -- Siphoning Phylactery Shard
-				{ 16, 178779 }, -- Undying Chill Shoulderpads
-				{ 17, 178782 }, -- Necropolis Lord's Shackles
-				{ 18, 181843 }, -- Shining Radiance
-				{ 19, 178778 }, -- Lichbone Legguards
-				{ 20, 182440 }, -- Piercing Verdict
-				{ 21, 182622 }, -- Resplendent Light
-				{ 22, 183471 }, -- Deep Allegiance
-				{ 23, 181759 }, -- Strike with Clarity
-				{ 24, 181600 }, -- Ire of the Ascended
-				{ 25, 182646 }, -- Repeat Decree
-				{ 26, 178780 }, -- Rimebinder's Runeblade
+				{ 1,  178780 }, -- Rimebinder's Runeblade
+				{ 2,  178777 }, -- Darkfrost Helmet
+				{ 3,  178779 }, -- Undying Chill Shoulderpads
+				{ 4,  178782 }, -- Necropolis Lord's Shackles
+				{ 5,  178778 }, -- Lichbone Legguards
+				{ 6,  178781 }, -- Ritual Commander's Ring
+				{ 7,  178783 }, -- Siphoning Phylactery Shard
+				{ 9,  182633 }, -- Memory of the Biting Cold
+				{ 10, 183278 }, -- Memory of the Cold Front
+				{ 11, 182136 }, -- Chilled to the Core
+				{ 12, 181974 }, -- Courageous Ascension
+				{ 13, 183471 }, -- Deep Allegiance
+				{ 14, 182345 }, -- Elysian Dirge
+				{ 15, 182321 }, -- Enfeebled Mark
+				{ 16, 181600 }, -- Ire of the Ascended
+				{ 17, 182440 }, -- Piercing Verdict
+				{ 18, 182295 }, -- Proliferation
+				{ 19, 182646 }, -- Repeat Decree
+				{ 20, 182622 }, -- Resplendent Light
+				{ 21, 183492 }, -- Reverberation
+				{ 22, 182778 }, -- Ringing Clarity
+				{ 23, 181843 }, -- Shining Radiance
+				{ 24, 182960 }, -- Soul Tithe
+				{ 25, 181759 }, -- Strike with Clarity
+				{ 26, 182201 }, -- Unleashed Frenzy
+				{ 27, 181383 }, -- Unrelenting Cold
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 27, 181819 }, -- Marrowfang's Reins
+				{ 29, 181819 }, -- Marrowfang's Reins
 			},
 		},
 	}
@@ -1112,20 +1111,20 @@ data["Theater of Pain"] = {
 		{ -- An Affront of Challengers
 			EncounterJournalID = 2397,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182107 }, -- Vital Accretion
-				{ 2,  182441 }, -- Marksman's Advantage
-				{ 3,  178800 }, -- Galvanized Oxxein Legguards
-				{ 4,  183197 }, -- Controlled Destruction
-				{ 5,  183484 }, -- Unchecked Aggression
-				{ 6,  178866 }, -- Dessia's Decimating Decapitator
-				{ 7,  183503 }, -- Poisoned Katar
-				{ 8,  181705 }, -- Celestial Effervescence
+				{ 1,  178866 }, -- Dessia's Decimating Decapitator
+				{ 2,  178799 }, -- Amphitheater Stalker's Hood
+				{ 3,  178803 }, -- Plague-Licked Amice
+				{ 4,  178795 }, -- Vest of Concealed Secrets
+				{ 5,  178800 }, -- Galvanized Oxxein Legguards
+				{ 6,  178871 }, -- Bloodoath Signet
+				{ 7,  178810 }, -- Vial of Spectral Essence
 				{ 9,  183332 }, -- Memory of the Master Assassin's Mark
-				{ 10, 178799 }, -- Amphitheater Stalker's Hood
-				{ 11, 178795 }, -- Vest of Concealed Secrets
-				{ 12, 178803 }, -- Plague-Licked Amice
-				{ 13, 178871 }, -- Bloodoath Signet
-				{ 14, 178810 }, -- Vial of Spectral Essence
+				{ 10, 181705 }, -- Celestial Effervescence
+				{ 11, 183197 }, -- Controlled Destruction
+				{ 12, 182441 }, -- Marksman's Advantage
+				{ 13, 183503 }, -- Poisoned Katar
+				{ 14, 183484 }, -- Unchecked Aggression
+				{ 15, 182107 }, -- Vital Accretion
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1137,15 +1136,15 @@ data["Theater of Pain"] = {
 		{ -- Gorechop
 			EncounterJournalID = 2401,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 178869 }, -- Fleshfused Circle
-				{ 2, 178798 }, -- Grips of Overwhelming Beatings
-				{ 3, 183510 }, -- Count the Odds
-				{ 4, 180932 }, -- Fueled by Violence
-				{ 5, 178806 }, -- Contaminated Gauze Wristwraps
-				{ 6, 178808 }, -- Viscera of Coalesced Hatred
-				{ 7, 181840 }, -- Light's Inspiration
-				{ 8, 181866 }, -- Withering Plague
-				{ 9, 178793 }, -- Abdominal Securing Chestguard
+				{ 1,  178793 }, -- Abdominal Securing Chestguard
+				{ 2,  178806 }, -- Contaminated Gauze Wristwraps
+				{ 3,  178798 }, -- Grips of Overwhelming Beatings
+				{ 4,  178869 }, -- Fleshfused Circle
+				{ 5,  178808 }, -- Viscera of Coalesced Hatred
+				{ 7,  183510 }, -- Count the Odds
+				{ 8,  180932 }, -- Fueled by Violence
+				{ 9,  181840 }, -- Light's Inspiration
+				{ 10, 181866 }, -- Withering Plague
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1157,20 +1156,20 @@ data["Theater of Pain"] = {
 		{ -- Xav the Unfallen
 			EncounterJournalID = 2390,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  178807 }, -- Pit Fighter's Wristguards
-				{ 2,  182559 }, -- Templar's Vindication
-				{ 3,  182383 }, -- Dancing with Fate
-				{ 4,  183300 }, -- Memory of the Magistrate's Judgment
-				{ 5,  182657 }, -- Deadly Chain
-				{ 6,  178864 }, -- Gorebound Predator's Gavel
-				{ 7,  183220 }, -- Memory of Razelikh's Defilement
-				{ 8,  183385 }, -- Memory of the Unhinged
-				{ 9,  178794 }, -- Triumphant Combatant's Chainmail
-				{ 10, 178789 }, -- Fleshcrafter's Knife
-				{ 11, 178801 }, -- Fearless Challenger's Leggings
-				{ 12, 178863 }, -- Gorestained Cleaver
-				{ 13, 178865 }, -- Xav's Pike of Authority
-				{ 14, 180844 }, -- Brutal Vitality
+				{ 1,  178865 }, -- Xav's Pike of Authority
+				{ 2,  178789 }, -- Fleshcrafter's Knife
+				{ 3,  178864 }, -- Gorebound Predator's Gavel
+				{ 4,  178863 }, -- Gorestained Cleaver
+				{ 5,  178794 }, -- Triumphant Combatant's Chainmail
+				{ 6,  178807 }, -- Pit Fighter's Wristguards
+				{ 7,  178801 }, -- Fearless Challenger's Leggings
+				{ 9,  183220 }, -- Memory of Razelikh's Defilement
+				{ 10, 183300 }, -- Memory of the Magistrate's Judgment
+				{ 11, 183385 }, -- Memory of the Unhinged
+				{ 12, 180844 }, -- Brutal Vitality
+				{ 13, 182383 }, -- Dancing with Fate
+				{ 14, 182657 }, -- Deadly Chain
+				{ 15, 182559 }, -- Templar's Vindication
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1182,18 +1181,18 @@ data["Theater of Pain"] = {
 		{ -- Kul'tharok
 			EncounterJournalID = 2389,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1,  182617 }, -- Memory of Death's Embrace
-				{ 2,  182769 }, -- Combusting Engine
-				{ 3,  182456 }, -- Wrench Evil
-				{ 4,  182128 }, -- Call of Flame
-				{ 5,  181980 }, -- Embrace Death
-				{ 6,  181624 }, -- Swift Transference
-				{ 7,  178870 }, -- Ritual Bone Band
-				{ 8,  178792 }, -- Soulsewn Vestments
-				{ 9,  178796 }, -- Boots of Shuddering Matter
-				{ 10, 183375 }, -- Memory of the Diabolic Raiment
-				{ 11, 178805 }, -- Girdle of Shattered Dreams
-				{ 12, 178809 }, -- Soulletting Ruby
+				{ 1,  178792 }, -- Soulsewn Vestments
+				{ 2,  178805 }, -- Girdle of Shattered Dreams
+				{ 3,  178796 }, -- Boots of Shuddering Matter
+				{ 4,  178870 }, -- Ritual Bone Band
+				{ 5,  178809 }, -- Soulletting Ruby
+				{ 7,  182617 }, -- Memory of Death's Embrace
+				{ 8,  183375 }, -- Memory of the Diabolic Raiment
+				{ 9,  182128 }, -- Call of Flame
+				{ 10, 182769 }, -- Combusting Engine
+				{ 11, 181980 }, -- Embrace Death
+				{ 12, 181624 }, -- Swift Transference
+				{ 13, 182456 }, -- Wrench Evil
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1206,19 +1205,19 @@ data["Theater of Pain"] = {
 			EncounterJournalID = 2417,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,  178867 }, -- Barricade of the Endless Empire
-				{ 2,  183476 }, -- Stellar Inspiration
-				{ 3,  182743 }, -- Focused Malignancy
-				{ 4,  183225 }, -- Memory of Lycara
-				{ 5,  178802 }, -- Unyielding Combatant's Pauldrons
-				{ 6,  178804 }, -- Fallen Empress's Cord
-				{ 7,  182648 }, -- Sharpshooter's Focus
-				{ 8,  181511 }, -- Nether Precision
-				{ 9,  178797 }, -- Vanquished Usurper's Footpads
-				{ 10, 183314 }, -- Memory of Cauterizing Shadows
-				{ 11, 182131 }, -- Haunting Apparitions
-				{ 12, 178868 }, -- Deathwalker's Promise
-				{ 13, 178872 }, -- Ring of Perpetual Conflict
-				{ 14, 178811 }, -- Grim Codex
+				{ 2,  178868 }, -- Deathwalker's Promise
+				{ 3,  178802 }, -- Unyielding Combatant's Pauldrons
+				{ 4,  178804 }, -- Fallen Empress's Cord
+				{ 5,  178797 }, -- Vanquished Usurper's Footpads
+				{ 6,  178872 }, -- Ring of Perpetual Conflict
+				{ 7,  178811 }, -- Grim Codex
+				{ 9,  183314 }, -- Memory of Cauterizing Shadows
+				{ 10, 183225 }, -- Memory of Lycara
+				{ 11, 182743 }, -- Focused Malignancy
+				{ 12, 182131 }, -- Haunting Apparitions
+				{ 13, 181511 }, -- Nether Precision
+				{ 14, 182648 }, -- Sharpshooter's Focus
+				{ 15, 183476 }, -- Stellar Inspiration
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1243,281 +1242,281 @@ data["Shadowlands"] = {
 		{ -- Valinor, the Light of Eons
 			EncounterJournalID = 2430,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   183472 }, -- Evolved Swarm
-				{ 2,   182346 }, -- Tumbling Waves
-				{ 3,   182685 }, -- Increased Scrutiny
-				{ 4,   182646 }, -- Repeat Decree
-				{ 5,   182339 }, -- Necrotic Barrage
-				{ 6,   182347 }, -- Essential Extraction
-				{ 7,   182292 }, -- Brutal Grasp
-				{ 8,   182442 }, -- Veteran's Repute
-				{ 9,   182962 }, -- Catastrophic Origin
-				{ 10,  183474 }, -- Endless Thirst
-				{ 11,  182348 }, -- Lavish Harvest
-				{ 12,  181600 }, -- Ire of the Ascended
-				{ 13,  184136 }, -- Anima-Charged Wristbanding
-				{ 14,  181553 }, -- Gift of the Lich
-				{ 15,  183199 }, -- Withering Ground
-				{ 16,  183473 }, -- Conflux of Elements
-				{ 17,  182961 }, -- Fatal Decimation
-				{ 18,  181774 }, -- Imbued Reflections
-				{ 19,  184141 }, -- Shroud of the Penitent
-				{ 20,  181759 }, -- Strike with Clarity
-				{ 21,  184125 }, -- Servo-Chain Waistguard
-				{ 22,  183325 }, -- Memory of Archbishop Benedictus
-				{ 23,  182129 }, -- Fae Fermata
-				{ 24,  182767 }, -- The Long Summer
-				{ 25,  182964 }, -- Soul Eater
-				{ 26,  181775 }, -- Way of the Fae
-				{ 27,  182345 }, -- Elysian Dirge
-				{ 28,  183492 }, -- Reverberation
-				{ 29,  183311 }, -- Memory of the Final Verdict
-				{ 30,  182463 }, -- Harrowing Punishment
-				{ 101, 182130 }, -- Shattered Perceptions
-				{ 102, 183463 }, -- Unnatural Malice
-				{ 103, 182335 }, -- Spirit Attunement
-				{ 104, 184170 }, -- Doubtweaver's Handwraps
-				{ 105, 182288 }, -- Impenetrable Gloom
-				{ 106, 183493 }, -- Sudden Fractures
-				{ 107, 182295 }, -- Proliferation
-				{ 108, 184139 }, -- Valinor's Ground Pounders
-				{ 109, 182778 }, -- Ringing Clarity
-				{ 110, 182706 }, -- Brooding Pool
-				{ 111, 182777 }, -- Hallowed Discernment
-				{ 112, 181981 }, -- Festering Transfusion
-				{ 113, 181974 }, -- Courageous Ascension
-				{ 114, 183494 }, -- Septic Shock
-				{ 115, 184132 }, -- Oversized Centurion Helm
-				{ 116, 182651 }, -- Destructive Reverberations
-				{ 117, 182321 }, -- Enfeebled Mark
-				{ 118, 182770 }, -- Righteous Might
-				{ 119, 183471 }, -- Deep Allegiance
-				{ 120, 183353 }, -- Memory of the Windspeaker's Lava Resurgence
-				{ 121, 181639 }, -- Siphoned Malice
-				{ 122, 183495 }, -- Lashing Scars
-				{ 123, 182331 }, -- Empowered Release
-				{ 124, 182440 }, -- Piercing Verdict
-				{ 125, 181539 }, -- Discipline of the Grove
-				{ 126, 182960 }, -- Soul Tithe
-				{ 127, 181770 }, -- Bone Marrow Hops
+				{ 1,   184132 }, -- Oversized Centurion Helm
+				{ 2,   184141 }, -- Shroud of the Penitent
+				{ 3,   184136 }, -- Anima-Charged Wristbanding
+				{ 4,   184170 }, -- Doubtweaver's Handwraps
+				{ 5,   184125 }, -- Servo-Chain Waistguard
+				{ 6,   184139 }, -- Valinor's Ground Pounders
+				{ 8,   183325 }, -- Memory of Archbishop Benedictus
+				{ 9,   183311 }, -- Memory of the Final Verdict
+				{ 10,  183353 }, -- Memory of the Windspeaker's Lava Resurgence
+				{ 11,  181770 }, -- Bone Marrow Hops
+				{ 12,  182706 }, -- Brooding Pool
+				{ 13,  182292 }, -- Brutal Grasp
+				{ 14,  182962 }, -- Catastrophic Origin
+				{ 15,  183473 }, -- Conflux of Elements
+				{ 16,  181974 }, -- Courageous Ascension
+				{ 17,  183471 }, -- Deep Allegiance
+				{ 18,  182651 }, -- Destructive Reverberations
+				{ 19,  181539 }, -- Discipline of the Grove
+				{ 20,  182345 }, -- Elysian Dirge
+				{ 21,  182331 }, -- Empowered Release
+				{ 22,  183474 }, -- Endless Thirst
+				{ 23,  182321 }, -- Enfeebled Mark
+				{ 24,  182347 }, -- Essential Extraction
+				{ 25,  183472 }, -- Evolved Swarm
+				{ 26,  182129 }, -- Fae Fermata
+				{ 27,  182961 }, -- Fatal Decimation
+				{ 28,  181981 }, -- Festering Transfusion
+				{ 29,  181553 }, -- Gift of the Lich
+				{ 30,  182777 }, -- Hallowed Discernment
+				{ 101, 182463 }, -- Harrowing Punishment
+				{ 102, 181774 }, -- Imbued Reflections
+				{ 103, 182288 }, -- Impenetrable Gloom
+				{ 104, 182685 }, -- Increased Scrutiny
+				{ 105, 181600 }, -- Ire of the Ascended
+				{ 106, 183495 }, -- Lashing Scars
+				{ 107, 182348 }, -- Lavish Harvest
+				{ 108, 182339 }, -- Necrotic Barrage
+				{ 109, 182440 }, -- Piercing Verdict
+				{ 110, 182295 }, -- Proliferation
+				{ 111, 182646 }, -- Repeat Decree
+				{ 112, 183492 }, -- Reverberation
+				{ 113, 182770 }, -- Righteous Might
+				{ 114, 182778 }, -- Ringing Clarity
+				{ 115, 183494 }, -- Septic Shock
+				{ 116, 182130 }, -- Shattered Perceptions
+				{ 117, 181639 }, -- Siphoned Malice
+				{ 118, 182964 }, -- Soul Eater
+				{ 119, 182960 }, -- Soul Tithe
+				{ 120, 182335 }, -- Spirit Attunement
+				{ 121, 181759 }, -- Strike with Clarity
+				{ 122, 183493 }, -- Sudden Fractures
+				{ 123, 182767 }, -- The Long Summer
+				{ 124, 182346 }, -- Tumbling Waves
+				{ 125, 183463 }, -- Unnatural Malice
+				{ 126, 182442 }, -- Veteran's Repute
+				{ 127, 181775 }, -- Way of the Fae
+				{ 128, 183199 }, -- Withering Ground
 			},
 		},
 		{ -- Mortanis
 			EncounterJournalID = 2431,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   183472 }, -- Evolved Swarm
-				{ 2,   184173 }, -- Bone Crushing Vicegrips
-				{ 3,   182685 }, -- Increased Scrutiny
-				{ 4,   183386 }, -- Memory of Fujieda
-				{ 5,   182646 }, -- Repeat Decree
-				{ 6,   182339 }, -- Necrotic Barrage
-				{ 7,   182347 }, -- Essential Extraction
-				{ 8,   182292 }, -- Brutal Grasp
-				{ 9,   184135 }, -- Shoulderblade Vambraces
-				{ 10,  182442 }, -- Veteran's Repute
-				{ 11,  182962 }, -- Catastrophic Origin
-				{ 12,  183474 }, -- Endless Thirst
-				{ 13,  182348 }, -- Lavish Harvest
-				{ 14,  181600 }, -- Ire of the Ascended
-				{ 15,  184128 }, -- Mortanis's Ribcage
-				{ 16,  181553 }, -- Gift of the Lich
-				{ 17,  183199 }, -- Withering Ground
-				{ 18,  183341 }, -- Memory of a Guile Charm
-				{ 19,  181774 }, -- Imbued Reflections
-				{ 20,  182331 }, -- Empowered Release
-				{ 21,  183473 }, -- Conflux of Elements
-				{ 22,  184143 }, -- Band of the Risen Bonelord
-				{ 23,  182129 }, -- Fae Fermata
-				{ 24,  181759 }, -- Strike with Clarity
-				{ 25,  182964 }, -- Soul Eater
-				{ 26,  181775 }, -- Way of the Fae
-				{ 27,  183295 }, -- Memory of Keefer
-				{ 28,  181539 }, -- Discipline of the Grove
-				{ 29,  182961 }, -- Fatal Decimation
-				{ 30,  182295 }, -- Proliferation
-				{ 101, 182130 }, -- Shattered Perceptions
-				{ 102, 181639 }, -- Siphoned Malice
-				{ 103, 182335 }, -- Spirit Attunement
-				{ 104, 181981 }, -- Festering Transfusion
-				{ 105, 182288 }, -- Impenetrable Gloom
-				{ 106, 183493 }, -- Sudden Fractures
-				{ 107, 182777 }, -- Hallowed Discernment
-				{ 108, 182463 }, -- Harrowing Punishment
-				{ 109, 183463 }, -- Unnatural Malice
-				{ 110, 182706 }, -- Brooding Pool
-				{ 111, 182651 }, -- Destructive Reverberations
-				{ 112, 182778 }, -- Ringing Clarity
-				{ 113, 181974 }, -- Courageous Ascension
-				{ 114, 183494 }, -- Septic Shock
-				{ 115, 183492 }, -- Reverberation
-				{ 116, 184140 }, -- Bone-Cleated Footpads
-				{ 117, 182321 }, -- Enfeebled Mark
-				{ 118, 182770 }, -- Righteous Might
-				{ 119, 181770 }, -- Bone Marrow Hops
-				{ 120, 182345 }, -- Elysian Dirge
-				{ 121, 183471 }, -- Deep Allegiance
-				{ 122, 183495 }, -- Lashing Scars
-				{ 123, 184133 }, -- Spine Crawler Waistcord
-				{ 124, 182440 }, -- Piercing Verdict
-				{ 125, 182767 }, -- The Long Summer
-				{ 126, 182960 }, -- Soul Tithe
-				{ 127, 182346 }, -- Tumbling Waves
+				{ 1,   184128 }, -- Mortanis's Ribcage
+				{ 2,   184135 }, -- Shoulderblade Vambraces
+				{ 3,   184173 }, -- Bone Crushing Vicegrips
+				{ 4,   184133 }, -- Spine Crawler Waistcord
+				{ 5,   184140 }, -- Bone-Cleated Footpads
+				{ 6,   184143 }, -- Band of the Risen Bonelord
+				{ 8,   183341 }, -- Memory of a Guile Charm
+				{ 9,   183386 }, -- Memory of Fujieda
+				{ 10,  183295 }, -- Memory of Keefer
+				{ 11,  181770 }, -- Bone Marrow Hops
+				{ 12,  182706 }, -- Brooding Pool
+				{ 13,  182292 }, -- Brutal Grasp
+				{ 14,  182962 }, -- Catastrophic Origin
+				{ 15,  183473 }, -- Conflux of Elements
+				{ 16,  181974 }, -- Courageous Ascension
+				{ 17,  183471 }, -- Deep Allegiance
+				{ 18,  182651 }, -- Destructive Reverberations
+				{ 19,  181539 }, -- Discipline of the Grove
+				{ 20,  182345 }, -- Elysian Dirge
+				{ 21,  182331 }, -- Empowered Release
+				{ 22,  183474 }, -- Endless Thirst
+				{ 23,  182321 }, -- Enfeebled Mark
+				{ 24,  182347 }, -- Essential Extraction
+				{ 25,  183472 }, -- Evolved Swarm
+				{ 26,  182129 }, -- Fae Fermata
+				{ 27,  182961 }, -- Fatal Decimation
+				{ 28,  181981 }, -- Festering Transfusion
+				{ 29,  181553 }, -- Gift of the Lich
+				{ 30,  182777 }, -- Hallowed Discernment
+				{ 101, 182463 }, -- Harrowing Punishment
+				{ 102, 181774 }, -- Imbued Reflections
+				{ 103, 182288 }, -- Impenetrable Gloom
+				{ 104, 182685 }, -- Increased Scrutiny
+				{ 105, 181600 }, -- Ire of the Ascended
+				{ 106, 183495 }, -- Lashing Scars
+				{ 107, 182348 }, -- Lavish Harvest
+				{ 108, 182339 }, -- Necrotic Barrage
+				{ 109, 182440 }, -- Piercing Verdict
+				{ 110, 182295 }, -- Proliferation
+				{ 111, 182646 }, -- Repeat Decree
+				{ 112, 183492 }, -- Reverberation
+				{ 113, 182770 }, -- Righteous Might
+				{ 114, 182778 }, -- Ringing Clarity
+				{ 115, 183494 }, -- Septic Shock
+				{ 116, 182130 }, -- Shattered Perceptions
+				{ 117, 181639 }, -- Siphoned Malice
+				{ 118, 182964 }, -- Soul Eater
+				{ 119, 182960 }, -- Soul Tithe
+				{ 120, 182335 }, -- Spirit Attunement
+				{ 121, 181759 }, -- Strike with Clarity
+				{ 122, 183493 }, -- Sudden Fractures
+				{ 123, 182767 }, -- The Long Summer
+				{ 124, 182346 }, -- Tumbling Waves
+				{ 125, 183463 }, -- Unnatural Malice
+				{ 126, 182442 }, -- Veteran's Repute
+				{ 127, 181775 }, -- Way of the Fae
+				{ 128, 183199 }, -- Withering Ground
 			},
 		},
 		{ -- Oranomonos the Everbranching
 			EncounterJournalID = 2432,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   183472 }, -- Evolved Swarm
-				{ 2,   182346 }, -- Tumbling Waves
-				{ 3,   184126 }, -- Ironroot Bindings
-				{ 4,   182685 }, -- Increased Scrutiny
-				{ 5,   184142 }, -- Twisted Witherroot Band
-				{ 6,   182646 }, -- Repeat Decree
-				{ 7,   182339 }, -- Necrotic Barrage
-				{ 8,   182347 }, -- Essential Extraction
-				{ 9,   182292 }, -- Brutal Grasp
-				{ 10,  184127 }, -- Slippers of the Leafy Undergrowth
-				{ 11,  183261 }, -- Memory of Surging Shots
-				{ 12,  182962 }, -- Catastrophic Origin
-				{ 13,  183474 }, -- Endless Thirst
-				{ 14,  182348 }, -- Lavish Harvest
-				{ 15,  183238 }, -- Memory of the Verdant Infusion
-				{ 16,  181553 }, -- Gift of the Lich
-				{ 17,  183199 }, -- Withering Ground
-				{ 18,  181774 }, -- Imbued Reflections
-				{ 19,  182331 }, -- Empowered Release
-				{ 20,  182442 }, -- Veteran's Repute
-				{ 21,  184129 }, -- Oranomonos's Diaphanous Leggings
-				{ 22,  182767 }, -- The Long Summer
-				{ 23,  182129 }, -- Fae Fermata
-				{ 24,  181759 }, -- Strike with Clarity
-				{ 25,  182964 }, -- Soul Eater
-				{ 26,  181775 }, -- Way of the Fae
-				{ 27,  181639 }, -- Siphoned Malice
-				{ 28,  181539 }, -- Discipline of the Grove
-				{ 29,  181981 }, -- Festering Transfusion
-				{ 30,  184138 }, -- Stonebark Girdle
-				{ 101, 182130 }, -- Shattered Perceptions
-				{ 102, 181770 }, -- Bone Marrow Hops
-				{ 103, 182335 }, -- Spirit Attunement
-				{ 104, 183463 }, -- Unnatural Malice
-				{ 105, 182288 }, -- Impenetrable Gloom
-				{ 106, 183493 }, -- Sudden Fractures
-				{ 107, 184172 }, -- Seed-Tender's Handwraps
-				{ 108, 182778 }, -- Ringing Clarity
-				{ 109, 182770 }, -- Righteous Might
-				{ 110, 182706 }, -- Brooding Pool
-				{ 111, 182777 }, -- Hallowed Discernment
+				{ 1,   184126 }, -- Ironroot Bindings
+				{ 2,   184172 }, -- Seed-Tender's Handwraps
+				{ 3,   184138 }, -- Stonebark Girdle
+				{ 4,   184129 }, -- Oranomonos's Diaphanous Leggings
+				{ 5,   184127 }, -- Slippers of the Leafy Undergrowth
+				{ 6,   184142 }, -- Twisted Witherroot Band
+				{ 8,   183274 }, -- Memory of a Fevered Incantation
+				{ 9,   183261 }, -- Memory of Surging Shots
+				{ 10,  183238 }, -- Memory of the Verdant Infusion
+				{ 11,  181770 }, -- Bone Marrow Hops
+				{ 12,  182706 }, -- Brooding Pool
+				{ 13,  182292 }, -- Brutal Grasp
+				{ 14,  182962 }, -- Catastrophic Origin
+				{ 15,  183473 }, -- Conflux of Elements
+				{ 16,  181974 }, -- Courageous Ascension
+				{ 17,  183471 }, -- Deep Allegiance
+				{ 18,  182651 }, -- Destructive Reverberations
+				{ 19,  181539 }, -- Discipline of the Grove
+				{ 20,  182345 }, -- Elysian Dirge
+				{ 21,  182331 }, -- Empowered Release
+				{ 22,  183474 }, -- Endless Thirst
+				{ 23,  182321 }, -- Enfeebled Mark
+				{ 24,  182347 }, -- Essential Extraction
+				{ 25,  183472 }, -- Evolved Swarm
+				{ 26,  182129 }, -- Fae Fermata
+				{ 27,  182961 }, -- Fatal Decimation
+				{ 28,  181981 }, -- Festering Transfusion
+				{ 29,  181553 }, -- Gift of the Lich
+				{ 30,  182777 }, -- Hallowed Discernment
+				{ 101, 182463 }, -- Harrowing Punishment
+				{ 102, 181774 }, -- Imbued Reflections
+				{ 103, 182288 }, -- Impenetrable Gloom
+				{ 104, 182685 }, -- Increased Scrutiny
+				{ 105, 181600 }, -- Ire of the Ascended
+				{ 106, 183495 }, -- Lashing Scars
+				{ 107, 182348 }, -- Lavish Harvest
+				{ 108, 182339 }, -- Necrotic Barrage
+				{ 109, 182440 }, -- Piercing Verdict
+				{ 110, 182295 }, -- Proliferation
+				{ 111, 182646 }, -- Repeat Decree
 				{ 112, 183492 }, -- Reverberation
-				{ 113, 181974 }, -- Courageous Ascension
-				{ 114, 183494 }, -- Septic Shock
-				{ 115, 182295 }, -- Proliferation
-				{ 116, 182651 }, -- Destructive Reverberations
-				{ 117, 182321 }, -- Enfeebled Mark
-				{ 118, 183274 }, -- Memory of a Fevered Incantation
-				{ 119, 182463 }, -- Harrowing Punishment
-				{ 120, 182345 }, -- Elysian Dirge
-				{ 121, 183471 }, -- Deep Allegiance
-				{ 122, 183495 }, -- Lashing Scars
-				{ 123, 181600 }, -- Ire of the Ascended
-				{ 124, 182440 }, -- Piercing Verdict
-				{ 125, 182961 }, -- Fatal Decimation
-				{ 126, 182960 }, -- Soul Tithe
-				{ 127, 183473 }, -- Conflux of Elements
+				{ 113, 182770 }, -- Righteous Might
+				{ 114, 182778 }, -- Ringing Clarity
+				{ 115, 183494 }, -- Septic Shock
+				{ 116, 182130 }, -- Shattered Perceptions
+				{ 117, 181639 }, -- Siphoned Malice
+				{ 118, 182964 }, -- Soul Eater
+				{ 119, 182960 }, -- Soul Tithe
+				{ 120, 182335 }, -- Spirit Attunement
+				{ 121, 181759 }, -- Strike with Clarity
+				{ 122, 183493 }, -- Sudden Fractures
+				{ 123, 182767 }, -- The Long Summer
+				{ 124, 182346 }, -- Tumbling Waves
+				{ 125, 183463 }, -- Unnatural Malice
+				{ 126, 182442 }, -- Veteran's Repute
+				{ 127, 181775 }, -- Way of the Fae
+				{ 128, 183199 }, -- Withering Ground
 			},
 		},
 		{ -- Nurgash Muckformed
 			EncounterJournalID = 2433,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,   183472 }, -- Evolved Swarm
-				{ 2,   182346 }, -- Tumbling Waves
-				{ 3,   182685 }, -- Increased Scrutiny
-				{ 4,   182638 }, -- Memory of a Frenzied Monstrosity
-				{ 5,   182331 }, -- Empowered Release
-				{ 6,   182339 }, -- Necrotic Barrage
-				{ 7,   182347 }, -- Essential Extraction
-				{ 8,   182292 }, -- Brutal Grasp
-				{ 9,   182442 }, -- Veteran's Repute
-				{ 10,  182962 }, -- Catastrophic Origin
-				{ 11,  183474 }, -- Endless Thirst
-				{ 12,  182348 }, -- Lavish Harvest
-				{ 13,  181600 }, -- Ire of the Ascended
-				{ 14,  181553 }, -- Gift of the Lich
-				{ 15,  183199 }, -- Withering Ground
-				{ 16,  184134 }, -- Jingling Stone Stompers
-				{ 17,  183215 }, -- Memory of an Erratic Fel Core
-				{ 18,  181774 }, -- Imbued Reflections
-				{ 19,  183473 }, -- Conflux of Elements
-				{ 20,  181539 }, -- Discipline of the Grove
-				{ 21,  182767 }, -- The Long Summer
-				{ 22,  184137 }, -- Sinstone Shoulderpadding
-				{ 23,  182129 }, -- Fae Fermata
-				{ 24,  181759 }, -- Strike with Clarity
-				{ 25,  182964 }, -- Soul Eater
-				{ 26,  181775 }, -- Way of the Fae
-				{ 27,  181639 }, -- Siphoned Malice
-				{ 28,  183492 }, -- Reverberation
-				{ 29,  184130 }, -- Nurgash's Belt of Many Sinstones
-				{ 30,  181770 }, -- Bone Marrow Hops
-				{ 101, 182130 }, -- Shattered Perceptions
-				{ 102, 181981 }, -- Festering Transfusion
-				{ 103, 182335 }, -- Spirit Attunement
-				{ 104, 182777 }, -- Hallowed Discernment
-				{ 105, 182288 }, -- Impenetrable Gloom
-				{ 106, 183493 }, -- Sudden Fractures
-				{ 107, 184131 }, -- Comfortable Slumberwraps
-				{ 108, 182463 }, -- Harrowing Punishment
-				{ 109, 183463 }, -- Unnatural Malice
-				{ 110, 182706 }, -- Brooding Pool
-				{ 111, 182651 }, -- Destructive Reverberations
-				{ 112, 184171 }, -- Hardened Castle Crushers
-				{ 113, 181974 }, -- Courageous Ascension
-				{ 114, 183494 }, -- Septic Shock
-				{ 115, 183376 }, -- Memory of Azj'Aqir's Madness
-				{ 116, 182646 }, -- Repeat Decree
-				{ 117, 182321 }, -- Enfeebled Mark
-				{ 118, 182770 }, -- Righteous Might
-				{ 119, 182778 }, -- Ringing Clarity
-				{ 120, 182345 }, -- Elysian Dirge
-				{ 121, 183471 }, -- Deep Allegiance
-				{ 122, 183495 }, -- Lashing Scars
-				{ 123, 182295 }, -- Proliferation
-				{ 124, 182440 }, -- Piercing Verdict
-				{ 125, 182961 }, -- Fatal Decimation
-				{ 126, 182960 }, -- Soul Tithe
-				{ 127, 184144 }, -- Muckformed Chain Choker
+				{ 1,   184144 }, -- Muckformed Chain Choker
+				{ 2,   184137 }, -- Sinstone Shoulderpadding
+				{ 3,   184131 }, -- Comfortable Slumberwraps
+				{ 4,   184171 }, -- Hardened Castle Crushers
+				{ 5,   184130 }, -- Nurgash's Belt of Many Sinstones
+				{ 6,   184134 }, -- Jingling Stone Stompers
+				{ 8,   182638 }, -- Memory of a Frenzied Monstrosity
+				{ 9,   183215 }, -- Memory of an Erratic Fel Core
+				{ 10,  183376 }, -- Memory of Azj'Aqir's Madness
+				{ 11,  181770 }, -- Bone Marrow Hops
+				{ 12,  182706 }, -- Brooding Pool
+				{ 13,  182292 }, -- Brutal Grasp
+				{ 14,  182962 }, -- Catastrophic Origin
+				{ 15,  183473 }, -- Conflux of Elements
+				{ 16,  181974 }, -- Courageous Ascension
+				{ 17,  183471 }, -- Deep Allegiance
+				{ 18,  182651 }, -- Destructive Reverberations
+				{ 19,  181539 }, -- Discipline of the Grove
+				{ 20,  182345 }, -- Elysian Dirge
+				{ 21,  182331 }, -- Empowered Release
+				{ 22,  183474 }, -- Endless Thirst
+				{ 23,  182321 }, -- Enfeebled Mark
+				{ 24,  182347 }, -- Essential Extraction
+				{ 25,  183472 }, -- Evolved Swarm
+				{ 26,  182129 }, -- Fae Fermata
+				{ 27,  182961 }, -- Fatal Decimation
+				{ 28,  181981 }, -- Festering Transfusion
+				{ 29,  181553 }, -- Gift of the Lich
+				{ 30,  182777 }, -- Hallowed Discernment
+				{ 101, 182463 }, -- Harrowing Punishment
+				{ 102, 181774 }, -- Imbued Reflections
+				{ 103, 182288 }, -- Impenetrable Gloom
+				{ 104, 182685 }, -- Increased Scrutiny
+				{ 105, 181600 }, -- Ire of the Ascended
+				{ 106, 183495 }, -- Lashing Scars
+				{ 107, 182348 }, -- Lavish Harvest
+				{ 108, 182339 }, -- Necrotic Barrage
+				{ 109, 182440 }, -- Piercing Verdict
+				{ 110, 182295 }, -- Proliferation
+				{ 111, 182646 }, -- Repeat Decree
+				{ 112, 183492 }, -- Reverberation
+				{ 113, 182770 }, -- Righteous Might
+				{ 114, 182778 }, -- Ringing Clarity
+				{ 115, 183494 }, -- Septic Shock
+				{ 116, 182130 }, -- Shattered Perceptions
+				{ 117, 181639 }, -- Siphoned Malice
+				{ 118, 182964 }, -- Soul Eater
+				{ 119, 182960 }, -- Soul Tithe
+				{ 120, 182335 }, -- Spirit Attunement
+				{ 121, 181759 }, -- Strike with Clarity
+				{ 122, 183493 }, -- Sudden Fractures
+				{ 123, 182767 }, -- The Long Summer
+				{ 124, 182346 }, -- Tumbling Waves
+				{ 125, 183463 }, -- Unnatural Malice
+				{ 126, 182442 }, -- Veteran's Repute
+				{ 127, 181775 }, -- Way of the Fae
+				{ 128, 183199 }, -- Withering Ground
 			},
 		},
 		{ -- Mor'geth, Tormentor of the Damned
 			EncounterJournalID = 2456,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,  187507 }, -- Adaptive Armor Fragment
-				{ 2,  187061 }, -- Shard of Rev
-				{ 3,  186360 }, -- Tormented Soul Harness
-				{ 4,  187506 }, -- Condensed Anima Sphere
-				{ 5,  186368 }, -- Mor'geth's Gauntlets of Damnation
-				{ 6,  186355 }, -- Wristwraps of Anguish
-				{ 7,  186372 }, -- Tormentor's Greatbelt
-				{ 8,  187447 }, -- Soul Cage Fragment
-				{ 9,  186361 }, -- Grips of Unleashed Suffering
-				{ 10, 186366 }, -- Stygian Chain Greaves
-				{ 11, 186357 }, -- Sorrowful Trousers
-				{ 12, 186370 }, -- Caged Legplates
+				{ 1,  187061 }, -- Shard of Rev
+				{ 2,  186360 }, -- Tormented Soul Harness
+				{ 3,  186368 }, -- Mor'geth's Gauntlets of Damnation
+				{ 4,  186355 }, -- Wristwraps of Anguish
+				{ 5,  186372 }, -- Tormentor's Greatbelt
+				{ 6,  187447 }, -- Soul Cage Fragment
+				{ 7,  186361 }, -- Grips of Unleashed Suffering
+				{ 8,  186366 }, -- Stygian Chain Greaves
+				{ 9,  186357 }, -- Sorrowful Trousers
+				{ 10, 186370 }, -- Caged Legplates
+				{ 12, 187507 }, -- Adaptive Armor Fragment
+				{ 13, 187506 }, -- Condensed Anima Sphere
 			},
 		},
 		{ -- Antros
 			EncounterJournalID = 2468,
 			[NORMAL_RAID_DIFF] = {
-				{ 1,  187507 }, -- Adaptive Armor Fragment
-				{ 2,  190614 }, -- Antros' Entrusted Bascinet
-				{ 3,  190616 }, -- Controlled Sequence Clasp
-				{ 4,  190618 }, -- Lattice of the Distant Keeper
-				{ 5,  190620 }, -- Sav'thul's Calamitous Tantour
-				{ 6,  187506 }, -- Condensed Anima Sphere
-				{ 7,  190615 }, -- Cosmic Guardian's Casing
-				{ 8,  190617 }, -- Destruction-Core Handlers
-				{ 9,  190619 }, -- Antecedent's Aliform Joggers
-				{ 10, 190621 }, -- Dealic Deterrent Stockings
+				{ 1,  190614 }, -- Antros' Entrusted Bascinet
+				{ 2,  190616 }, -- Controlled Sequence Clasp
+				{ 3,  190618 }, -- Lattice of the Distant Keeper
+				{ 4,  190620 }, -- Sav'thul's Calamitous Tantour
+				{ 5,  190615 }, -- Cosmic Guardian's Casing
+				{ 6,  190617 }, -- Destruction-Core Handlers
+				{ 7,  190619 }, -- Antecedent's Aliform Joggers
+				{ 8,  190621 }, -- Dealic Deterrent Stockings
+				{ 10, 187507 }, -- Adaptive Armor Fragment
+				{ 11, 187506 }, -- Condensed Anima Sphere
 			},
 		},
 	}

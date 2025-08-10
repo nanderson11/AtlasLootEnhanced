@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.13.1 -
+### Changed
+- Reordered Shadowlands instance loot so that gear and conduits/memories are grouped together
+
 ## 9.13.0 - August 10, 2025
 ### Added
 - Added The K'aresh Trust renown track
