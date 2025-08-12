@@ -1,6 +1,10 @@
 ﻿# Changelog
 
 ## 9.13.1 -
+### Added
+- Added Eye of Extermination pet to The Eye of the Jailer in Mythic
+- Added Vengeance's Reins to Sylvanas Windrunner in Mythic
+- Added Fractal Cypher of the Zereth Overseer to The Jailer in Mythic
 ### Changed
 - Reordered Shadowlands instance loot so that gear and conduits/memories are grouped together
 
