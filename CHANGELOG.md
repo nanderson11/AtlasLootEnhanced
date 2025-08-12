@@ -8,7 +8,7 @@
 ### Changed
 - Reordered Shadowlands instance loot so that gear and conduits/memories are grouped together
 ### Fixed
-- More items will be properly highlighted by the transmog filter, such as Shadowlands dungeons on Mythic
+- More items will be highlighted by the transmog filter, such as Shadowlands dungeons on Mythic
 
 ## 9.13.0 - August 10, 2025
 ### Added
