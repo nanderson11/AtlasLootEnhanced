@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.14.0 -
+## 9.14.0 - August 14, 2025
 ### Added
+- Added TWW 11.2 mounts to Collections
 - Added TWW 11.2 pets to Collections
 - Added TWW 11.2 toys to Collections
 - Added Zo'ya and Looker Gaz'kreth Jr. to Manaforge Vandals

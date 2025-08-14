@@ -1407,17 +1407,42 @@ data["MOUNTS"]             = {
 				{ 423, 238739, "mount", [ACH_EXTRA_ITTYPE] = 41779 },                    -- Chrono Corsair
 				{ 424, 243572, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- Grandmaster's Prophetic Board
 				{ 425, 243591, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },           -- Grandmaster's Royal Board
+				{ 426, 250240, "mount", [ACH_EXTRA_ITTYPE] = 61017 },                    -- Phase-Lost Slateback
+				{ 427, 238051, "mount", [QUEST_EXTRA_ITTYPE] = 91782 },                  -- Delver's Mana-Skimmer
+				{ 428, 246160, "mount" },                                                -- Sthaarbs's Last Lunch
+				{ 429, 242733, "mount", [QUEST_EXTRA_ITTYPE] = 90769 },                  -- Blue Barry
+				{ 430, 246159, "mount" },                                                -- Translocated Gorger
+				{ 501, 242734, "mount" },                                                -- Curious Slateback
+				{ 502, 243061, "mount" },                                                -- Unbound Star-Eater
+				{ 503, 237485, "mount", [ACH_EXTRA_ITTYPE] = 41980 },                    -- Terror of the Night
+				{ 504, 242713, "mount" },                                                -- Resplendent K'arroc
+				{ 505, 242714, "mount", [ACH_EXTRA_ITTYPE] = 41597 },                    -- Umbral K'arroc
+				{ 506, 246067, "mount" },                                                -- Pearlescent Krolusk
+				{ 507, 246445, "mount", [QUEST_EXTRA_ITTYPE] = 91413 },                  -- Reins of the Royal Voidwing
+				{ 508, 248248, "mount", [ACH_EXTRA_ITTYPE] = 41973 },                    -- Azure Void Flyer
+				{ 509, 247822, "mount", [ACH_EXTRA_ITTYPE] = 42172 },                    -- Scarlet Void Flyer
+				{ 510, 243157, "mount", [ACH_EXTRA_ITTYPE] = 42043 },                    -- Vicious Void Creeper
+				{ 511, 232617, "mount", [ACH_EXTRA_ITTYPE] = 41049 },                    -- Astral Gladiator's Fel Bat
+				{ 512, 186640, "mount" },                                                -- Vandal's Gearglider
+				{ 513, 242728, "mount" },                                                -- The Bone Freezer
+				{ 514, 242729, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:8125" }, -- Ruby Void Creeper
+				{ 515, 237484, "mount", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:11375" }, -- Terror of the Wastes
+				{ 516, 242730, "mount", [PRICE_EXTRA_ITTYPE] = "untetheredCoin:7" },     -- Acidic Void Creeper
+				{ 517, 242717, "mount", [PRICE_EXTRA_ITTYPE] = "untetheredCoin:10" },    -- Lavender K'arroc
+				{ 518, 246698, "mount" },                                                -- Sunwarmed Furline
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
 				-- { 325, 235557, "mount" }, -- Snowy Darkmoon Charger (not yet available)
 				-- { 327, 235658, "mount" }, -- Spring Butterfly (not yet available)
+				-- { 327, 186639, "mount" }, -- Xy Trustee's Gearglider (not yet available)
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 117, 229988, "mount", [ACH_EXTRA_ITTYPE] = 41129 },          -- Vicious Electro Eel
 				{ 228, 217987, "mount", [PRICE_EXTRA_ITTYPE] = "residualMemories:20000" }, -- Remembered Wind Rider
 				{ 318, 221813, "mount", [ACH_EXTRA_ITTYPE] = 40397 },          -- Vicious Skyflayer
+				{ 510, 243159, "mount", [ACH_EXTRA_ITTYPE] = 42042 },          -- Vicious Void Creeper
 			},
 		},
 		{ -- Dragonflight
