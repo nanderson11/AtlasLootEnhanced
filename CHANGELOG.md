@@ -3,6 +3,7 @@
 ## 9.13.1 -
 ### Added
 - Added TWW 11.2 toys to Collections
+- Added Zo'ya and Looker Gaz'kreth Jr. to Manaforge Vandals
 - Added Eye of Extermination pet to The Eye of the Jailer in Mythic
 - Added Vengeance's Reins to Sylvanas Windrunner in Mythic
 - Added Fractal Cypher of the Zereth Overseer to The Jailer in Mythic
