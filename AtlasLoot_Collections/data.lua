@@ -6649,6 +6649,19 @@ data["TOYS"]               = {
 				{ 229, 245942, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Sea-Blessed Shrine
 				{ 230, 246227, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Lightning-Blessed Spire
 				{ 301, 235016, [ACH_EXTRA_ITTYPE] = 42241 },         -- Redeployment Module
+				{ 302, 244470, [QUEST_EXTRA_ITTYPE] = 91089 },       -- Etheric Victory
+				{ 303, 246903, [PRICE_EXTRA_ITTYPE] = "untetheredCoin:3" }, -- Guise of the Phase Diver
+				{ 304, 246905, [PRICE_EXTRA_ITTYPE] = "untetheredCoin:3" }, -- Overtuned K'areshi Goggles
+				{ 305, 246907, [PRICE_EXTRA_ITTYPE] = "untetheredCoin:3" }, -- Broker Supply Crate
+				{ 306, 246908, [PRICE_EXTRA_ITTYPE] = "untetheredCoin:3" }, -- K'areshi Supply Crate
+				{ 307, 250722, [PRICE_EXTRA_ITTYPE] = "untetheredCoin:3" }, -- Ethereal Stall
+				{ 308, 246565 },                                     -- Cosmic Hearthstone
+				{ 309, 245970 },                                     -- P.O.S.T. Master's Express Hearthstone
+				{ 310, 242323 },                                     -- Chowdar's Favorite Ribbon
+				{ 311, 244792, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Etheric Brannmorpher
+				{ 312, 243056, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Delver's Mana-Bound Ethergate
+				-- { 310, 249713 },                                     -- Cartel Transmorpher (currently unobtainable)
+				-- { 310, 245946 },                                     -- Brewer's Balloon
 			}
 		},
 		{ -- Dragonflight
