@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.13.1 -
+## 9.14.0 -
 ### Added
+- Added TWW 11.2 pets to Collections
 - Added TWW 11.2 toys to Collections
 - Added Zo'ya and Looker Gaz'kreth Jr. to Manaforge Vandals
 - Added Eye of Extermination pet to The Eye of the Jailer in Mythic

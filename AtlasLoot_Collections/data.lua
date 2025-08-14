@@ -6439,6 +6439,30 @@ data["COMPANIONS"]         = {
 				{ 413, 245543, "pet4849", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Flotsam Harvester
 				{ 414, 245574, "pet4852", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" },     -- Lil' Daz'ti
 				{ 415, 205013, "pet3518", [ACH_EXTRA_ITTYPE] = 41092 },                   -- Reek
+				{ 416, 239082, "pet4796" },                                               -- Sa'bak's Blessed
+				{ 417, 246451, "pet4858" },                                               -- Shadefur Brewthief
+				{ 418, 245272, "pet4846" },                                               -- Heka'Tarnos, Bringer of Discord
+				{ 419, 245254, "pet4842" },                                               -- Duskthief
+				{ 420, 245214, "pet4838" },                                               -- Palek'ti, the Mouth of Nothingness
+				{ 421, 244915, "pet4834" },                                               -- Jimmy
+				{ 422, 245269, "pet4845" },                                               -- Mr. Long-Legs
+				{ 423, 243158, "pet4813" },                                               -- Ixthal the Observling
+				{ 424, 245256, "pet4843" },                                               -- Sao'rhon
+				{ 425, 246723, "pet4860" },                                               -- Unfazed Diver
+				{ 426, 245255, "pet4841", [ACH_EXTRA_ITTYPE] = 41979 },                   -- Starlight
+				{ 427, 244910, "pet4829", [PRICE_EXTRA_ITTYPE] = "untetheredCoin:4" },    -- Penumbral Terror
+				{ 428, 244467, "pet4825" },                                               -- Veridian Thorntail
+				{ 429, 245274, "pet4848" },                                               -- Cerulean Lapbug
+				{ 430, 245273, "pet4847" },                                               -- Copper Lapbug
+				{ 501, 244907, "pet4827" },                                               -- Dread Horrorling
+				{ 502, 244909, "pet4828" },                                               -- Impartial Watcher
+				{ 503, 244916, "pet4835" },                                               -- Cyan Siphonmite
+				{ 504, 244468, "pet4826" },                                               -- Scrappy Thorntail
+				{ 505, 245252, "pet4840" },                                               -- Graceful Cosmic Ray Pup
+				{ 506, 245215, "pet4839" },                                               -- Shimmering Inchshifter
+				{ 507, 245212, "pet4836" },                                               -- Vitriolic Inchshifter
+				{ 508, 245253, "pet4844" },                                               -- Inquisitive Cosmic Ray Pup
+				{ 509, 244914, "pet4833" },                                               -- Xanthous Siphonmite
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
