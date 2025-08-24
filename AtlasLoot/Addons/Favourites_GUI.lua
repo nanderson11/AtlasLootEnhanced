@@ -266,7 +266,7 @@ local function SlotButton_OnClick(self, button, down)
 				self:SetSlotItem()
 			end
 		end
-	elseif self.ItemID then
+	elseif self.ItemString or self.ItemID then
 		if button == "LeftButton" then
 			local b = ItemButtonType.ItemClickHandler:Get(button)
 			ItemButtonType.OnMouseAction(self, button)
@@ -274,7 +274,7 @@ local function SlotButton_OnClick(self, button, down)
 				UpdateItemFrame(true)
 			end
 		elseif button == "RightButton" then
-			GUI:OnItemNoteChange(self.ItemID)
+			GUI:OnItemNoteChange(self.ItemString or self.ItemID)
 		end
 	end
 end
@@ -930,7 +930,7 @@ function GUI:Create()
 	end
 end
 
-function GUI:OnItemNoteChange(itemId, note)
+function GUI:OnItemNoteChange(itemId)
 	self.popupNoteId = itemId
 	local _, itemLink = C_Item.GetItemInfo(itemId)
 	local itemNote = Favourites:GetItemNote(itemId)

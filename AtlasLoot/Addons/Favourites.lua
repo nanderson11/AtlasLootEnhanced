@@ -309,22 +309,8 @@ end
 local function PopulateListNotes(db, dest)
 	for k, v in pairs(db) do
 		if v.notes then
-			local cleanup = false
 			for item, note in pairs(v.notes) do
-				if (type(item) == "string") or not v[item] then
-					cleanup = true
-				end
 				dest[k.."-"..item] = "  "..format(TEXT_WITH_TEXTURE, "Interface/FriendsFrame/UI-FriendsFrame-Note:8:8:0:0:8:8", "|cffB0B0B0"..note.."|r")
-			end
-			if cleanup then
-				-- Fix string item ids in db
-				local notesFixed = {}
-				for item, note in pairs(v.notes) do
-					if v[tonumber(item)] then
-						notesFixed[tonumber(item)] = note
-					end
-				end
-				v.notes = notesFixed
 			end
 		end
 	end
@@ -714,23 +700,45 @@ function Favourites:GetItemNote(itemID, list)
 	if not list.notes then
 		return nil
 	end
-	return list.notes[tonumber(itemID)]
+
+	-- If there's an item string, strip the spec id from it
+	local item
+	if (strfind(itemID, ":")) then
+		-- Remove spec ID from the displayed item
+		local parsedItem = AtlasLoot.ItemString.Parse(itemID)
+		parsedItem.specializationID = nil
+		item = AtlasLoot.ItemString.Create(parsedItem)
+	else
+		item = tonumber(itemID)
+	end
+	return list.notes[item]
 end
 
-function Favourites:SetItemNote(itemID, note, list, listID)
+function Favourites:SetItemNote(itemID, note, list)
 	if not list then
-		return self:SetItemNote(itemID, note, self.activeList, self.activeListID)
+		return self:SetItemNote(itemID, note, self.activeList)
 	end
 	if not list.notes then
 		list.notes = {}
 	end
 
-	--Remove note if its an empty string
+	-- Remove note if its an empty string
 	if note == "" then
 		note = nil
 	end
 
-	list.notes[tonumber(itemID)] = note
+	-- If there's an item string, strip the spec id from it
+	local item
+	if (strfind(itemID, ":")) then
+		-- Remove spec ID from the displayed item
+		local parsedItem = AtlasLoot.ItemString.Parse(itemID)
+		parsedItem.specializationID = nil
+		item = AtlasLoot.ItemString.Create(parsedItem)
+	else
+		item = tonumber(itemID)
+	end
+	list.notes[item] = note
+
 	-- Refresh cache
 	ListNoteCache = {}
 	PopulateListNotes(self.db.lists, ListNoteCache)
@@ -934,11 +942,13 @@ function Favourites:GetFavouriteItemText(itemId, listId)
 	local listData = self.db.lists[listId] or self.globalDb.lists[listId]
 	local obsolete = self:IsItemEquippedOrObsolete(itemId, listId)
 	local text = ""
+
 	if obsolete then
 		text = format(TEXT_WITH_TEXTURE, tostring(listData.__icon or STD_ICON), "|cffB0B0B0"..(listData.__name or LIST_BASE_NAME).."|r")
 	else
 		text = format(TEXT_WITH_TEXTURE, tostring(listData.__icon or STD_ICON), (listData.__name or LIST_BASE_NAME))
 	end
+
 	if ListNoteCache[listId.."-"..itemId] then
 		text = text..ListNoteCache[listId.."-"..itemId]
 		if obsolete == "equipped" then
@@ -947,6 +957,7 @@ function Favourites:GetFavouriteItemText(itemId, listId)
 			text = text.." |cffB0B0B0"..AL["(obsolete)"].."|r"
 		end
 	end
+
 	return text
 end
 

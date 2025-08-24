@@ -3,6 +3,7 @@
 ## 9.14.2 -
 ### Fixed
 - Fixed error when adding notes to favorites
+- Fixed adding notes to favorites that are item strings
 
 ## 9.14.1 - August 18, 2025
 ### Added
