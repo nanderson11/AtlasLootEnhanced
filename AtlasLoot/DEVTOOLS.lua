@@ -135,33 +135,6 @@ function Dev:ScanEJ(givenTierId)
 	end
 end
 
---[[
-local db
-local ORIGetItemInfo = GetItemInfo
-function GetItemInfo(xxx)
-	if not db then
-		if not AtlasLoot.db.itemInfo then
-			AtlasLoot.db.itemInfo = {}
-		end
-		db = AtlasLoot.db.itemInfo
-	end
-	local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, vendorPrice = ORIGetItemInfo(xxx)
-	if itemSubType and itemType then
-		if not db[itemType] then
-			db[itemType] = {}
-		end
-		db[itemType][itemSubType] = true
-	end
-	if itemEquipLoc then
-		if not db.slot then db.slot = {} end
-		db[itemEquipLoc] = nil
-		db.slot[itemEquipLoc] = true
-	end
-	return itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, vendorPrice
-end
-]] --
-
--- /////////////////////////////////////////////////////////////////////////
 local AtlasLoot_TextParsing = {
 	--[[
 	-- Classes
@@ -1047,7 +1020,7 @@ function Dev:GetEntryInfos()
 	local numItemIds = 0
 	local spellIDs = {}
 	local numSpellIds = 0
-	for dataID, data in pairs(AtlasLoot_Data) do
+	for _, data in pairs(AtlasLoot_Data) do
 		for _, tableType in ipairs(lootTableTypes) do
 			if data[tableType] then
 				for _, itemTable in ipairs(data[tableType]) do
@@ -1079,7 +1052,6 @@ function Dev:GetEntryInfos()
 	print("ITEMS: "..numItemIds.." --- SPELLS: "..numSpellIds)
 end
 
--- ######################################################
 local function returnItemTableString(tab)
 	local lootTableString = ""
 	if not tab then return "" end
@@ -1216,44 +1188,8 @@ local function getItemPrice(strg, newPrice, costItemID)
 	return retStrg
 end
 
-local function FixTextBack(text)
-	if not text or string.trim(text) == "" then return "" end
-
-	text = gsub(text, "Miscellaneous", "#m20#");
-	for k in ipairs(AtlasLoot_TextParsing) do
-		text = gsub(text, AtlasLoot_TextParsing[k][2], AtlasLoot_TextParsing[k][1]);
-	end
-
-	return text;
-end
-
---- Gets item equip infos and format it
--- self creats a string that contains infos about the item (Amortype, Weapon,...)
--- @param itemID The item ID
--- @return item equip-info string
--- @usage local itemEquipInfo = GetItemEquipInfo(12345)
-local function GetItemEquipInfo(itemID)
-	if not itemID or itemID == "" or type(itemID) ~= "number" then return "" end
-	local _, _, _, _, _, itemType, itemSubType, _, itemEquipLoc = C_Item.GetItemInfo(itemID)
-	if not itemType or not itemEquipLoc then return "" end
-	local tempText = ""
-	if _G[itemEquipLoc] then
-		if itemType == ENCHSLOT_WEAPON then
-			tempText = itemSubType..', '..itemType
-		else
-			tempText = _G[itemEquipLoc]..', '..itemSubType
-		end
-	elseif itemSubType and string.find(itemSubType, MONEY) then
-		tempText = MONEY
-	end
-	return tempText
-end
-
 local function startVendorScan(tab)
 	itemUpdated = 0
-	-- itemTexture, itemValue, itemLink = GetMerchantItemCostItem(index, itemIndex)
-	-- numItems = GetMerchantNumItems();
-	-- itemID = string.match(itemLink, "item:(%d+):")
 
 	if MerchantFrame:IsShown() then
 		if tab then
@@ -1314,8 +1250,10 @@ end
 local function VendorFrame(container)
 	local lootTable, lootTableString
 
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUIEditBox
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("LootTable:")
 	editbox:SetWidth(200)
@@ -1330,10 +1268,11 @@ local function VendorFrame(container)
 	end)
 	container:AddChild(editbox)
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
-	--desc:SetFullWidth(true)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1357,11 +1296,8 @@ local function VendorFrame(container)
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
--- ######################################################
--- ######################################################
 
 local function CheckTextParsing(entrys)
 	entrys = entrys or 0
@@ -1396,14 +1332,13 @@ local function CheckTextParsing(entrys)
 	for k, v in pairs(checkTable) do
 		if #v <= entrys then
 			numberFound = numberFound + 1
-			local chacheString = ""
-			chacheString = chacheString.."\""..k.."\" ("..#v..")\n"
+			local cacheString = ""
+			cacheString = cacheString.."\""..k.."\" ("..#v..")\n"
 			for _, j in ipairs(v) do
-				chacheString = chacheString.."-- "..j.."\n"
+				cacheString = cacheString.."-- "..j.."\n"
 			end
-			chacheString = chacheString.."\n\n"
-			checkString = checkString..chacheString
-			chacheString = nil
+			cacheString = cacheString.."\n\n"
+			checkString = checkString..cacheString
 		end
 	end
 
@@ -1411,22 +1346,26 @@ local function CheckTextParsing(entrys)
 end
 
 local function TextParsingFrame(container)
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 	local numEntrys
 
+	---@class AceGUIEditBox
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("Less than x entrys:")
 	editbox:SetWidth(200)
 	editbox:SetCallback("OnEnterPressed", function(widget, event, text)
 		numEntrys = tonumber(text)
-		editbox:SetText(numEntrys)
+		editbox:SetText(tostring(numEntrys))
 		multiEditbox.editBox:SetFocus()
 	end)
 	container:AddChild(editbox)
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("0")
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1438,6 +1377,8 @@ local function TextParsingFrame(container)
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
+
+	---@class AceGUIButton
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Mark all")
 	button2:SetCallback("OnClick", function()
@@ -1450,12 +1391,9 @@ local function TextParsingFrame(container)
 	multiEditbox:SetLabel("TextParsing:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
 
--- ######################################################
--- ######################################################
 local ATLASLOOT_INSTANCE_MODULE_LIST = {
 	"AtlasLoot_BattleforAzeroth",
 	"AtlasLoot_Legion",
@@ -1475,7 +1413,6 @@ local function CheckInstanceList()
 		moduleList[v] = k
 	end
 	for iniName, iniTable in pairs(AtlasLoot_Data) do
-		--iniTable.info.module
 		if not iniTable or not iniTable.info or not iniTable.info.module then
 			print("ERROR "..iniName)
 		else
@@ -1494,8 +1431,10 @@ end
 
 
 local function InstanceInfoFrame(container)
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1506,6 +1445,8 @@ local function InstanceInfoFrame(container)
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
+
+	---@class AceGUIButton
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Mark all")
 	button2:SetCallback("OnClick", function()
@@ -1518,12 +1459,8 @@ local function InstanceInfoFrame(container)
 	multiEditbox:SetLabel("InstanceList:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
-
--- ######################################################
--- ######################################################
 
 local AchievementIDs = {
 	1312, -- BC
@@ -1552,11 +1489,10 @@ end
 
 local function AchievementScanFrame(container)
 	local textAID
-
-	local editbox2 = AceGUI:Create("EditBox")
-
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUIEditBox
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("AchievementID:")
 	editbox:SetWidth(200)
@@ -1567,6 +1503,7 @@ local function AchievementScanFrame(container)
 	end)
 	container:AddChild(editbox)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1576,6 +1513,7 @@ local function AchievementScanFrame(container)
 	button:SetWidth(200)
 	container:AddChild(button)
 
+	---@class AceGUIButton
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Scan All")
 	button2:SetCallback("OnClick", function()
@@ -1588,12 +1526,9 @@ local function AchievementScanFrame(container)
 	multiEditbox:SetLabel("Achievement Info:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
 
--- ######################################################
--- ######################################################
 local function startEJScan()
 	local num = EJ_GetNumLoot()
 	local rettab = {
@@ -1609,13 +1544,14 @@ end
 
 local function EJScan(container)
 	local lootTableString
-
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
-	--desc:SetFullWidth(true)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1631,7 +1567,6 @@ local function EJScan(container)
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
 
@@ -1665,7 +1600,6 @@ local function startBonusRollScan()
 	EJ_ClearSearch()
 	EJ_SetDifficulty(1)
 
-	--EncounterJournal_DisplayInstance(
 	for _, iniId in ipairs(instanceList) do
 		for _, diff in ipairs(difficultys) do --for diff=1,6 do
 			EncounterJournal_ListInstances()
@@ -1677,7 +1611,6 @@ local function startBonusRollScan()
 					local specID = GetSpecializationInfoForClassID(classId, specId)
 					EJ_SetLootFilter(classId, specID)
 					local numLoot = EJ_GetNumLoot()
-					--print(numLoot)
 					for loot = 1, numLoot do
 						local info = C_EncounterJournal.GetLootInfoByIndex(loot)
 						if not tab[info.itemID] then tab[info.itemID] = {} end
@@ -1735,14 +1668,16 @@ end
 
 --EJ_SetLootFilter(classID, specID)
 local function BonusRollScanFrame(container)
-	local lootTable, lootTableString
+	local lootTableString
 
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
-	--desc:SetFullWidth(true)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1754,6 +1689,7 @@ local function BonusRollScanFrame(container)
 	button:SetWidth(200)
 	container:AddChild(button)
 
+	---@class AceGUIButton
 	local button2 = AceGUI:Create("Button")
 	button2:SetText("Class Scan")
 	button2:SetCallback("OnClick", function()
@@ -1770,13 +1706,9 @@ local function BonusRollScanFrame(container)
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
--- ######################################################
 
--- ######################################################
--- ######################################################
 local CategoryInfos = {}
 
 local function ProfGetString(tab, strg)
@@ -1869,7 +1801,6 @@ local function ProfessionScan()
 			if not categoryInfo.parentCategoryID then break end
 			local categoryInfoLoc = C_TradeSkillUI.GetCategoryInfo(categoryInfo.parentCategoryID)
 			if not categoryInfoLoc then break end
-			--print(categoryInfoLoc.categoryID, categoryInfoLoc.name)
 
 			categoryInfo = categoryInfoLoc
 			orderSort[#orderSort + 1] = categoryInfo.categoryID
@@ -1889,19 +1820,20 @@ local function ProfessionScan()
 		}
 	end
 
-	-- retString
 	ret = ProfGetString(retTable, ret)
 
 	return ret
 end
 
 local function ProfessionScanFrame(container)
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
-	--desc:SetFullWidth(true)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1918,7 +1850,6 @@ local function ProfessionScanFrame(container)
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
 
@@ -1937,8 +1868,10 @@ local function WowHeadTSMStringCreate(text)
 end
 
 local function WowHeadTSMStringFrame(container)
+	---@class AceGUIMultiLineEditBox
 	local multiEditbox = AceGUI:Create("MultiLineEditBox")
 
+	---@class AceGUIEditBox
 	local editbox = AceGUI:Create("EditBox")
 	editbox:SetLabel("TSMGroupString:")
 	editbox:SetWidth(200)
@@ -1948,10 +1881,11 @@ local function WowHeadTSMStringFrame(container)
 	end)
 	container:AddChild(editbox)
 
+	---@class AceGUILabel
 	local desc = AceGUI:Create("Label")
 	desc:SetText("")
-	--desc:SetFullWidth(true)
 
+	---@class AceGUIButton
 	local button = AceGUI:Create("Button")
 	button:SetText("Start Scan")
 	button:SetCallback("OnClick", function()
@@ -1966,13 +1900,8 @@ local function WowHeadTSMStringFrame(container)
 	multiEditbox:SetLabel("LootTable:")
 	multiEditbox:SetFullWidth(true)
 	multiEditbox:SetFullHeight(true)
-	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
-
---string.gmatch("i:162323,i:163043,i:163048", "i:(%d+)")
---i:162323,i:163043,i:163048,i:160536,i:161586,i:161587,i:161589,i:161583,i:163778,i:162378,i:162302,i:163320,i:162306,i:162138,i:162132,i:162128,i:162275,i:162670,i:162261,i:162276,i:162139,i:162324,i:162346,i:162344,i:162345,i:163044,i:163047,i:163046,i:163041,i:161588,i:161590,i:161585,i:161584,i:160539
---
 
 -- Callback function for OnGroupSelected
 local function SelectGroup(container, event, group)
@@ -1998,6 +1927,7 @@ end
 
 
 function Dev:DevTool_CreateFrame()
+	---@class AceGUIFrame
 	local frame = AceGUI:Create("Frame")
 	frame:SetTitle("DevTools")
 	frame:SetStatusText("DevTools Frame")
@@ -2006,6 +1936,7 @@ function Dev:DevTool_CreateFrame()
 	frame:SetLayout("Fill")
 
 	-- Create the TabGroup
+	---@class AceGUITabGroup
 	local tab = AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
@@ -2040,11 +1971,11 @@ end
 function Dev:GetPetInfo()
 	AtlasLoot.db.PETINFO = AtlasLoot.db.PETINFO or {}
 
-	local petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName
+	local speciesID, speciesName
 	local numPets = C_PetJournal.GetNumPets()
 
 	for i = 1, numPets do
-		petID, speciesID, owned, customName, level, favorite, isRevoked, speciesName = C_PetJournal.GetPetInfoByIndex(i)
+		_, speciesID, _, _, _, _, _, speciesName = C_PetJournal.GetPetInfoByIndex(i)
 		if speciesName and speciesID then
 			AtlasLoot.db.PETINFO[speciesName] = speciesID
 		end
@@ -2053,12 +1984,11 @@ end
 
 function Dev:GetMountInfo()
 	AtlasLoot.db.MOUNTINFO = {}
-	local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID
+	local creatureName, spellID, mountID
 	local numMounts = C_MountJournal.GetNumMounts()
 
 	for i = 1, numMounts do
-		--print(C_MountJournal.GetMountInfoByID(i))
-		creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID(i)
+		creatureName, spellID, _, _, _, _, _, _, _, _, _, mountID = C_MountJournal.GetMountInfoByID(i)
 		if creatureName and mountID then
 			AtlasLoot.db.MOUNTINFO[creatureName] = {}
 			AtlasLoot.db.MOUNTINFO[creatureName]["mountID"] = mountID
@@ -2076,10 +2006,8 @@ function Dev:GetEJDetails(bool)
 		EJ_SelectInstance(iniID)
 		bossIndex = 1
 		bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
-		--print(iniName, " = ", iniID)#
 		self.db.profile.EJINFO[iniID] = { [iniName] = true }
 		while bossName and bossIndex < 50 do
-			--print("	", bossName, " = ", bossID)
 			self.db.profile.EJINFO[iniID][bossID] = bossName
 			bossIndex = bossIndex + 1
 			bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
@@ -2091,88 +2019,5 @@ function Dev:GetEJDetails(bool)
 		AtlasLoot:GetEJDetails(true)
 	end
 end
-
-local atlasSupportRemoved = false
-function Dev:ReduceMemoryUsage()
-	for iniName, iniTable in pairs(AtlasLoot_Data) do
-		if iniTable.info and iniTable.info.module then
-			iniTable.info.module = nil
-		end
-		if not string.find(iniName, "MENU") then
-			for tableType, tableTypeTable in pairs(iniTable) do
-				if tableType ~= "info" then
-					for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
-						if type(tableNumberTable) == "table" then
-							for itemNum, itemTable in ipairs(tableNumberTable) do
-								if itemTable[4] ~= "INV_Box_01" and itemTable[4] ~= "inv_box_04" then
-									itemTable[4] = nil
-									itemTable[5] = nil
-									itemTable[6] = nil
-									itemTable[7] = nil
-									itemTable[8] = nil
-								end
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-
-	if not atlasSupportRemoved and not C_AddOns.IsAddOnLoaded("Atlas") then
-		for k, v in pairs(AtlasLoot_LootTableRegister["Instances"]) do
-			if type(v) == "table" and v["Bosses"] then
-				for i, j in ipairs(v["Bosses"]) do
-					j[2] = nil
-				end
-			end
-		end
-
-		AtlasLoot.SetupForAtlas = nil
-		AtlasLoot.AtlasInitialize = nil
-		AtlasLoot.Atlas_OnShow = nil
-		AtlasLoot.AtlasRefreshHook = nil
-		AtlasLoot.AtlasScrollBar_Update = nil
-		AtlasLoot.Atlas_SetBoss = nil
-		AtlasLoot.Boss_OnClick = nil
-		atlasSupportRemoved = true
-	end
-	collectgarbage("collect")
-end
-
---[[ EVENTLOG
-local eventSave = {}
-local eventFrame = CreateFrame("FRAME")
-local functioneventFrameOnEvent = function(self, event, ...)
-	if event then
-		if not eventSave[event] then eventSave[event] = {} end
-		table.insert(eventSave[event], {...})
-		print(event, ...)
-	end
-end
-eventFrame:SetScript("OnEvent", functioneventFrameOnEvent)
-
-function AtlasLoot_PrintEventLog()
-	for event,eventTab in pairs(eventSave) do
-		if eventTab and type(eventTab) == "table" then
-			for i,args in ipairs(eventTab) do
-				local argString = event.." - "
-				local tmp = ""
-				for k,v in ipairs(args) do
-					tmp = string.format("## arg%d:%s", k, tostring(v or "nil"))
-					argString = argString..tmp
-				end
-				print(argString)
-			end
-		end
-	end
-end
-
-eventFrame:RegisterEvent("SPELL_CONFIRMATION_PROMPT")
-eventFrame:RegisterEvent("SPELL_CONFIRMATION_TIMEOUT")
-eventFrame:RegisterEvent("BONUS_ROLL_STARTED")
-eventFrame:RegisterEvent("BONUS_ROLL_FAILED")
-eventFrame:RegisterEvent("BONUS_ROLL_RESULT")
-]] --
 
 --@end-do-not-package@
