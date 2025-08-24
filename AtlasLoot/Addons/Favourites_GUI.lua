@@ -454,7 +454,6 @@ local function Slot_CreateSlotButton(parFrame, slotID, modelFrame)
 	frame.count:SetPoint("BOTTOMRIGHT", frame.icon, "BOTTOMRIGHT", -3, 2)
 	frame.count:SetJustifyH("RIGHT")
 	frame.count:SetHeight(15)
-	frame.count:SetText(0)
 
 	frame.ownedItem = frame:CreateTexture(nil, "OVERLAY")
 	frame.ownedItem:SetPoint("BOTTOMLEFT", frame.icon)
