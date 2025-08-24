@@ -1,6 +1,8 @@
 ﻿# Changelog
 
-## 9.14.2 -
+## 9.15.0 - August 24, 2025
+### Added
+- Added Scarlet Monastery of Old to the Dragonflight module
 ### Fixed
 - Fixed Import and Export List buttons in Favorites settings
 - Fixed error when adding notes to favorites
