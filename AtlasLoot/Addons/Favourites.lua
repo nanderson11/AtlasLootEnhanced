@@ -333,7 +333,7 @@ local function ClearActiveList(self)
 	local new = {}
 
 	for k, v in pairs(self.activeList) do
-		if type(k) ~= "number" and k ~= "mainItems" then
+		if type(k) ~= "number" and not strfind(k, "item:") and k ~= "mainItems" and k ~= "notes" then
 			new[k] = v
 		end
 	end

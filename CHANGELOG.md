@@ -4,6 +4,7 @@
 ### Fixed
 - Fixed error when adding notes to favorites
 - Fixed adding notes to favorites that are item strings
+- Fixed Clear List not clearing favorites that are item strings
 
 ## 9.14.1 - August 18, 2025
 ### Added
