@@ -921,7 +921,7 @@ function GUI:Create()
 			hasEditBox = true,
 			OnAccept = function(self, data, data2)
 				if gui.popupNoteId then
-					Favourites:SetItemNote(gui.popupNoteId, self.editBox:GetText())
+					Favourites:SetItemNote(gui.popupNoteId, self.EditBox:GetText())
 					gui.popupNoteId = nil
 				end
 			end,
@@ -932,10 +932,10 @@ end
 
 function GUI:OnItemNoteChange(itemId, note)
 	self.popupNoteId = itemId
-	local itemName, itemLink = C_Item.GetItemInfo(itemId)
+	local _, itemLink = C_Item.GetItemInfo(itemId)
 	local itemNote = Favourites:GetItemNote(itemId)
 	local popup = StaticPopup_Show("ATLASLOOT_FAVOURITE_NOTE_POPUP", itemLink)
-	popup.editBox:SetText(itemNote or "")
+	popup.EditBox:SetText(itemNote or "")
 end
 
 function GUI:UpdateStyle()

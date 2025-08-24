@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.14.2 -
+### Fixed
+- Fixed error when adding notes to favorites
+
 ## 9.14.1 - August 18, 2025
 ### Added
 - Added Atlas map buttons for Eco-Dome Al'dani and Manaforge Omega
