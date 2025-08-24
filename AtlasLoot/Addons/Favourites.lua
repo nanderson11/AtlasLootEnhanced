@@ -6,7 +6,6 @@ local Addons = AtlasLoot.Addons
 local AL = AtlasLoot.Locales
 local ItemDB = AtlasLoot.ItemDB
 local Favourites = Addons:RegisterNewAddon("Favourites")
-local Tooltip = AtlasLoot.Tooltip
 local Comm = LibStub:GetLibrary("AceComm-3.0")
 
 -- lua
@@ -27,7 +26,7 @@ local NEW_LIST_ID_PATTERN = "%s%s"
 local TEXT_WITH_TEXTURE = "|T%s:0|t %s"
 local TEXT_WITH_ATLAS = "|A:%s:12:12|a %s"
 local ATLAS_ICON_IDENTIFIER = "#"
-local IMPORT_EXPORT_DELIMITER, IMPORT_PATTERN, EXPORT_PATTERN = ",", "(%w+):(%d+)(:?([^,]*))", "%s:%d:%s"
+local IMPORT_EXPORT_DELIMITER, IMPORT_PATTERN = ",", "(%w+):([^;]+)(;?([^,]*))"
 local STD_ICON, STD_ICON2
 local KEY_WEAK_MT = { __mode = "k" }
 
@@ -496,7 +495,7 @@ function Favourites:UpdateDb()
 	-- init item count
 	local numItems = 0
 	for k in pairs(self.activeList) do
-		if k ~= "__name" and k ~= "__icon" then
+		if k ~= "__name" and k ~= "__icon" and k ~= "notes" and k ~= "mainItems" then
 			numItems = numItems + 1
 		end
 	end
@@ -1178,11 +1177,10 @@ function Favourites:ExportItemList(listID, isGlobalList)
 	if not list then return end
 	local ret = {}
 	for entry in pairs(list) do
-		if strsub(entry, 1, 2) ~= "__" then
-			local exportString = format(EXPORT_PATTERN, "i", entry, list.notes and list.notes[entry] or "")
-			if strsub(exportString, -1) == ":" then
-				-- Remove tailing ":" if no note is supplied
-				exportString = strsub(exportString, 1, -2)
+		if strsub(entry, 1, 2) ~= "__" and entry ~= "notes" and entry ~= "mainItems" then
+			local exportString = (strfind(entry, ":")) and entry or "i:"..entry
+			if list.notes and list.notes[entry] then
+				exportString = exportString..";"..list.notes[entry]
 			end
 			ret[#ret + 1] = exportString
 		end
@@ -1203,12 +1201,16 @@ function Favourites:ImportItemList(listID, isGlobalList, newList, replace)
 		for i = 1, #stList do
 			local eType, entry, _, note = strmatch(stList[i], IMPORT_PATTERN)
 			if entry then
-				entry = tonumber(entry)
-				if eType == "i" and not list[entry] and ItemExist(entry) then
+				if eType == "i" then
+					entry = tonumber(entry)
+				elseif eType == "item" then
+					entry = "item:"..entry
+				end
+				if not list[entry] and ItemExist(entry) then
 					list[entry] = true
 					if note and note ~= "" then
 						local noteLC = strlower(note)
-						list.notes[tonumber(entry)] = note
+						list.notes[entry] = note
 						if strmatch(noteLC, "bis") or strmatch(noteLC, "best") then
 							-- Set as main item
 							local slotId = nil
