@@ -261,7 +261,9 @@ function GUI.CreateSelect(self, height)
 	end
 	ScrollView:SetElementInitializer("AtlasLootSelectButtonTemplate", Initializer)
 
-	--[[ local anchorsWithScrollBar = {
+	--[[ ScrollBar:SetHideIfUnscrollable(true)
+
+	local anchorsWithScrollBar = {
 		CreateAnchor("TOPLEFT", 10, -5),
 		CreateAnchor("BOTTOMRIGHT", ScrollBar, 0, -5),
 	};
