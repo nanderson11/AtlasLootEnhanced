@@ -6803,6 +6803,7 @@ data["TOYS"]               = {
 				{ 224, 202711 },                                        -- Lost Compass
 				{ 225, 204675, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" }, -- A Drake's Big Basket of Eggs
 				{ 226, 218112, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Colorful Beach Chair
+				{ 227, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
 			}
 		},
 	},

@@ -969,6 +969,40 @@ data["TrialOfStyle"] = {
 	}
 }
 
+data["SkyridingCups"] = {
+	name = AL["Skyriding Cups"],
+	ContentType = PERMRECEVENTS_CONTENT,
+	items = {
+		{ -- Eastern Kingdoms Cup
+			name = AL["Eastern Kingdoms Cup"],
+			[NORMAL_DIFF] = {
+				{ 1,  249560, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Silver Mantle
+				{ 2,  249561, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Silver Cloak
+				{ 3,  249562, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Skymaster's Silver Tabard
+				{ 4,  249563, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Crown
+				{ 5,  249565, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Epaulets
+				{ 6,  249564, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Shoulderguards
+				{ 7,  203355, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:50" }, -- Winding Slitherdrake: Yellow Scales
+				{ 8,  203336, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Winding Slitherdrake: Paired Horns
+				{ 9,  203306, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Winding Slitherdrake: Horned Brow
+				{ 10, 203359, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Winding Slitherdrake: Shark Finned Tail
+				{ 11, 206589, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Shoulderpads
+				{ 12, 206588, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Helmet
+				{ 13, 206590, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Jersey
+				{ 14, 206591, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Handwraps
+				{ 15, 206592, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Belt
+				{ 16, 206593, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Leggings
+				{ 17, 206594, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:20" }, -- Drake Racer's Boots
+				{ 18, 211877, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:5" }, -- Drake Racer's Scarf
+				{ 19, 202280, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Renewed Proto-Drake: Pronged Tail
+				{ 20, 197619, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Windborne Velocidrake: Hooked Snout
+				{ 21, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
+				{ 22, 213635, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Checkered Pennant
+			},
+		},
+	}
+}
+
 data["LoveisintheAir"] = {
 	name = AL["Love is in the Air"].." ("..ALIL["February"]..")",
 	ContentType = SEASONALEVENTS_CONTENT,

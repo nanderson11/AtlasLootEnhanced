@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.16.0 - August 26, 2025
+### Added
+- Added Skyriding Cups to the World Events module
+
 ## 9.15.0 - August 24, 2025
 ### Added
 - Added Scarlet Monastery of Old to the Dragonflight module
