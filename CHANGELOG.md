@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.17.0 -
+### Added
+- Added new Cataclysm Timewalking cosmetic items
+
 ## 9.16.0 - August 26, 2025
 ### Added
 - Added Skyriding Cups to the World Events module
