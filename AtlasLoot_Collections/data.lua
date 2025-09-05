@@ -1449,6 +1449,9 @@ data["MOUNTS"]             = {
 				{ 516, 242730, "mount", [PRICE_EXTRA_ITTYPE] = "untetheredCoin:7" },     -- Acidic Void Creeper
 				{ 517, 242717, "mount", [PRICE_EXTRA_ITTYPE] = "untetheredCoin:10" },    -- Lavender K'arroc
 				{ 518, 246698, "mount" },                                                -- Sunwarmed Furline
+				{ 519, 247792, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- High Shaman's Aerie Gryphon
+				{ 520, 247793, "mount", [PRICE_EXTRA_ITTYPE] = "tender:650" },           -- Cinder-Plumed Highland Gryphon
+				{ 521, 247795, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Ornery Breezestrider
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)

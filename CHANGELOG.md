@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.17.0 -
+## 9.17.0 - September 4, 2025
 ### Added
 - Added new Cataclysm Timewalking cosmetic items
+- Added September Trading Post items to Collections
 
 ## 9.16.0 - August 26, 2025
 ### Added
