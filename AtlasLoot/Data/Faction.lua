@@ -1,11 +1,11 @@
 -- Functions
 local _G = getfenv(0)
 
-local BF = AtlasLoot.LibBabble:Get("LibBabble-Faction-3.0")
-
 local AtlasLoot = _G.AtlasLoot
 local Faction = {}
 AtlasLoot.Data.Faction = Faction
+
+local AL = AtlasLoot.Locales
 
 Faction.FACTION_KEY = {
 	-- Classic
@@ -176,54 +176,54 @@ Faction.FriendshipRanks = {
 	},
 	-- The Archivists' Codex
 	[2472] = {
-		[1] = BF["Rank 1"],
-		[2] = BF["Rank 2"],
-		[3] = BF["Rank 3"],
-		[4] = BF["Rank 4"],
-		[5] = BF["Rank 5"],
-		[6] = BF["Rank 6"],
+		[1] = AL["Tier 1"],
+		[2] = AL["Tier 2"],
+		[3] = AL["Tier 3"],
+		[4] = AL["Tier 4"],
+		[5] = AL["Tier 5"],
+		[6] = AL["Tier 6"],
 	},
 	-- Ve'nari
 	[2432] = {
-		[1] = "Dubious",
-		[2] = "Apprehensive",
-		[3] = "Tentative",
-		[4] = "Ambivalent",
-		[5] = "Cordial",
-		[6] = "Appreciative",
+		[1] = AL["Dubious"],
+		[2] = AL["Apprehensive"],
+		[3] = AL["Tentative"],
+		[4] = AL["Ambivalent"],
+		[5] = AL["Cordial"],
+		[6] = AL["Appreciative"],
 	},
 	-- Wrathion
 	[2517] = {
-		[1] = "Acquaintance",
-		[2] = "Cohort",
-		[3] = "Ally",
-		[4] = "Fang",
-		[5] = "Friend",
-		[6] = "True Friend",
+		[1] = AL["Acquaintance"],
+		[2] = AL["Cohort"],
+		[3] = AL["Ally"],
+		[4] = AL["Fang"],
+		[5] = AL["Friend"],
+		[6] = AL["True Friend"],
 	},
 	-- Sabellian
 	[2518] = {
-		[1] = "Acquaintance",
-		[2] = "Cohort",
-		[3] = "Ally",
-		[4] = "Fang",
-		[5] = "Friend",
-		[6] = "True Friend",
+		[1] = AL["Acquaintance"],
+		[2] = AL["Cohort"],
+		[3] = AL["Ally"],
+		[4] = AL["Fang"],
+		[5] = AL["Friend"],
+		[6] = AL["True Friend"],
 	},
 	-- Artisan's Consortium
 	[2544] = {
-		[1] = "Neutral",
-		[2] = "Preferred",
-		[3] = "Respected",
-		[4] = "Valued",
-		[5] = "Esteemed",
+		[1] = AL["Neutral"],
+		[2] = AL["Preferred"],
+		[3] = AL["Respected"],
+		[4] = AL["Valued"],
+		[5] = AL["Esteemed"],
 	},
 	-- Cobalt Assembly
 	[2550] = {
-		[1] = "Empty",
-		[2] = "Low",
-		[3] = "Medium",
-		[4] = "High",
-		[5] = "Maximum",
+		[1] = AL["Empty"],
+		[2] = AL["Low"],
+		[3] = AL["Medium"],
+		[4] = AL["High"],
+		[5] = AL["Maximum"],
 	},
 }
