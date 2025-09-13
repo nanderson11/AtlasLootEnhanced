@@ -1434,7 +1434,7 @@ data["MOUNTS"]             = {
 				{ 501, 242734, "mount" },                                                -- Curious Slateback
 				{ 502, 243061, "mount" },                                                -- Unbound Star-Eater
 				{ 503, 237485, "mount", [ACH_EXTRA_ITTYPE] = 41980 },                    -- Terror of the Night
-				{ 504, 242713, "mount" },                                                -- Resplendent K'arroc
+				{ 504, 242713, "mount", [QUEST_EXTRA_ITTYPE] = 88976 },                  -- Resplendent K'arroc
 				{ 505, 242714, "mount", [ACH_EXTRA_ITTYPE] = 41597 },                    -- Umbral K'arroc
 				{ 506, 246067, "mount" },                                                -- Pearlescent Krolusk
 				{ 507, 246445, "mount", [QUEST_EXTRA_ITTYPE] = 91413 },                  -- Reins of the Royal Voidwing

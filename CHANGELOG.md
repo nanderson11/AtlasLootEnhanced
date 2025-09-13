@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.17.1 -
+### Added
+- Added source for Resplendent K'arroc mount
+
 ## 9.17.0 - September 4, 2025
 ### Added
 - Added new Cataclysm Timewalking cosmetic items
