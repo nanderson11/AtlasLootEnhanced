@@ -421,12 +421,12 @@ data["TWWFACTIONS"] = {
 				{ 13,  248983,      [PRICE_EXTRA_ITTYPE] = "245510:1" }, -- Ensemble: Inquisitor's All-Seeing Madness
 				{ 14,  248984,      [PRICE_EXTRA_ITTYPE] = "245510:1" }, -- Ensemble: Living Weapon's Capes
 				{ 16,  "f2736rep38" },
-				{ 17,  186640,      "mount" },                -- Vandal's Gearglider
-				{ 18,  249709 },                              -- Formula: Gleeful Glamour - Ethereal
-				{ 19,  249703 },                              -- Technique: Deal: Cartel Ba
-				{ 20,  249705 },                              -- Technique: Deal: Cartel Om
-				{ 21,  249701 },                              -- Technique: Deal: Cartel Zo
-				{ 22,  246694,      "pet4859" },              -- Zo'ya
+				{ 17,  186640,      "mount" },               -- Vandal's Gearglider
+				{ 18,  249709 },                             -- Formula: Gleeful Glamour - Ethereal
+				{ 19,  249703 },                             -- Technique: Deal: Cartel Ba
+				{ 20,  249705 },                             -- Technique: Deal: Cartel Om
+				{ 21,  249701 },                             -- Technique: Deal: Cartel Zo
+				{ 22,  246694,      "pet4859" },             -- Zo'ya
 				{ 24,  "f2736rep42" },
 				{ 25,  249145,      [PRICE_EXTRA_ITTYPE] = "246727:1" }, -- Manaforge Raider's Gamma Shockmace
 				{ 26,  249146,      [PRICE_EXTRA_ITTYPE] = "246727:1" }, -- Manaforge Raider's Gamma Plexhammer
@@ -502,9 +502,9 @@ data["TWWFACTIONS"] = {
 				{ 306, 249216,      [PRICE_EXTRA_ITTYPE] = "246727:1" }, -- Manaforge Raider's Umbral Starcrusher
 				{ 307, 249217,      [PRICE_EXTRA_ITTYPE] = "246727:1" }, -- Manaforge Raider's Devouring Starcrusher
 				{ 309, "f2736rep43" },
-				{ 310, 244913,      "pet4832" },              -- Looker Gaz'kreth Jr.
+				{ 310, 244913,      "pet4832" },             -- Looker Gaz'kreth Jr.
 				{ 312, "f2736rep44" },
-				{ 313, 242728,      "mount" },                -- The Bone Freezer
+				{ 313, 242728,      "mount" },               -- The Bone Freezer
 			}
 		},
 	}
@@ -1015,6 +1015,222 @@ data["DRAGONFLIGHTFACTIONS"] = {
 				{ 526, 201426,      "mount",                                                                [PRICE_EXTRA_ITTYPE] = "201403:5:201400:5:dragonSupplies:1000" }, -- Brown War Ottuk
 			},
 		},
+		{ -- Wrathion
+			FactionID = 2517,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2517rep2" },                                                                                                                   -- Cohort
+				{ 2,  200707,     [PRICE_EXTRA_ITTYPE] = "193050:20:dragonSupplies:100" },                                                             -- Armoire of Endless Cloaks
+				{ 3,  200952,     [PRICE_EXTRA_ITTYPE] = "190316:4:190321:4:dragonSupplies:750" },                                                     -- Ensemble: Obsidian Dracthyr Battlegear Mail Armor
+				{ 5,  "f2517rep3" },                                                                                                                   -- Ally
+				{ 6,  200930,     "pet3414",                                                      [PRICE_EXTRA_ITTYPE] = "201399:3:201402:1:dragonSupplies:150" }, -- Obsidian Proto-Whelp
+				{ 8,  "f2517rep4" },                                                                                                                   -- Fang
+				{ 9,  199740,     [PRICE_EXTRA_ITTYPE] = "200867:1:201404:5:dragonSupplies:600" },                                                     -- Onyx Dragonflame Blade
+				{ 10, 200985,     [PRICE_EXTRA_ITTYPE] = "190396:10:193214:10:dragonSupplies:600" },                                                   -- Obsidian Wingedguard Polearm
+				{ 11, 200998,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" },                                                    -- Obsidian Wing Glaive
+				{ 12, 200987,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" },                                                    -- Obsidian Spellcarver's Stave
+				{ 13, 200992,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" },                                                    -- Obsidian Spellweaver's Scepter
+				{ 14, 200997,     [PRICE_EXTRA_ITTYPE] = "188658:5:201404:5:dragonSupplies:600" },                                                     -- Obsidian Guard's Saber
+				{ 15, 200996,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" },                                                    -- Obsidian Guard's Claw
+				{ 16, "f2517rep5" },                                                                                                                   -- Friend
+				{ 17, 200970,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                                                       -- Obsidian Collar
+				{ 18, 196964,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" },                                                    -- Cliffside Wylderdrake: Gold and Black Armor
+				{ 19, 197090,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" },                                                    -- Highland Drake: Gold and Black Armor
+				{ 20, 197346,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" },                                                    -- Renewed Proto-Drake: Gold and Black Armor
+				{ 22, "f2517rep6" },                                                                                                                   -- True Friend
+				{ 23, 200971,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                                                       -- Obsidian Cape
+				{ 24, 201840,     [PRICE_EXTRA_ITTYPE] = "money:8000000" },                                                                            -- Sturdy Obsidian Glasses
+				{ 25, 197013,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },                                                              -- Cliffside Wylderdrake: Black Scales
+				{ 26, 197142,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },                                                              -- Highland Drake: Black Scales
+				{ 27, 197392,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },                                                              -- Renewed Proto-Drake: Black Scales
+				{ 28, 197611,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },                                                              -- Windborne Velocidrake: Black Scales
+			},
+		},
+		{ -- Sabellian
+			FactionID = 2518,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2518rep2" },                                                        -- Cohort
+				{ 2,  200640,     [PRICE_EXTRA_ITTYPE] = "201399:1:201402:1:dragonSupplies:100" }, -- Obsidian Egg Clutch
+				{ 3,  200952,     [PRICE_EXTRA_ITTYPE] = "190316:4:190321:4:dragonSupplies:750" }, -- Ensemble: Obsidian Dracthyr Battlegear Mail Armor
+				{ 5,  "f2518rep3" },                                                        -- Ally
+				{ 6,  200963,     [PRICE_EXTRA_ITTYPE] = "TatteredWildercloth:40:dragonSupplies:750" }, -- Ensemble: Sabellian's Battlegear Cloth Armor
+				{ 8,  "f2518rep4" },                                                        -- Fang
+				{ 9,  199740,     [PRICE_EXTRA_ITTYPE] = "200867:1:201404:5:dragonSupplies:600" }, -- Onyx Dragonflame Blade
+				{ 10, 200983,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Obsidian Wingguard Polearm
+				{ 11, 200986,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Obsidian Spellweaver's Stave
+				{ 12, 200990,     [PRICE_EXTRA_ITTYPE] = "190396:10:201406:1:dragonSupplies:600" }, -- Obsidian Guard's Cutlass
+				{ 13, 200993,     [PRICE_EXTRA_ITTYPE] = "198397:1:193214:10:dragonSupplies:600" }, -- Obsidian Guard's Barrier
+				{ 14, 200988,     [PRICE_EXTRA_ITTYPE] = "198397:1:193214:10:dragonSupplies:600" }, -- Obsidian Guard's Skullsplitter
+				{ 15, 200996,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Obsidian Guard's Claw
+				{ 16, "f2518rep5" },                                                        -- Friend
+				{ 17, 200970,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },            -- Obsidian Collar
+				{ 18, 196964,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" }, -- Cliffside Wylderdrake: Gold and Black Armor
+				{ 19, 197090,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" }, -- Highland Drake: Gold and Black Armor
+				{ 20, 197346,     [PRICE_EXTRA_ITTYPE] = "188658:20:201399:6:dragonSupplies:750" }, -- Renewed Proto-Drake: Gold and Black Armor
+				{ 22, "f2518rep6" },                                                        -- True Friend
+				{ 23, 200971,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },            -- Obsidian Cape
+				{ 24, 201839,     [PRICE_EXTRA_ITTYPE] = "money:8000000" },                 -- Netherforged Lavaproof Boots
+				{ 25, 197013,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },   -- Cliffside Wylderdrake: Black Scales
+				{ 26, 197142,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },   -- Highland Drake: Black Scales
+				{ 27, 197392,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },   -- Renewed Proto-Drake: Black Scales
+				{ 28, 197611,     [PRICE_EXTRA_ITTYPE] = "190316:1:dragonSupplies:400" },   -- Windborne Velocidrake: Black Scales
+			},
+		},
+		{ -- Artisan's Consortium
+			FactionID = 2544,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2544rep2" },                             -- Preferred
+				{ 2,   199290,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Schematic: Red Fireflight
+				{ 3,   200600,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Resourcefulness
+				{ 4,   200601,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Multicraft
+				{ 5,   200599,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Ingenuity
+				{ 6,   200604,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Perception
+				{ 7,   200603,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Finesse
+				{ 8,   200605,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Deftness
+				{ 9,   200602,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Draconic Missive of Crafting Speed
+				{ 10,  200972,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Blacksmith's Diagrams
+				{ 11,  200973,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Scribe's Runic Drawings
+				{ 12,  200974,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Alchemist's Research
+				{ 13,  200975,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Tailor's Diagrams
+				{ 14,  200976,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Enchanter's Research
+				{ 15,  200977,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Engineer's Scribblings
+				{ 16,  200978,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Jeweler's Illustrations
+				{ 17,  200979,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Leatherworker's Diagrams
+				{ 18,  200980,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Herbalist's Notes
+				{ 19,  200981,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Miner's Notes
+				{ 20,  200982,     [PRICE_EXTRA_ITTYPE] = "190456:100" }, -- Dusty Skinner's Notes
+				{ 22,  "f2544rep3" },                             -- Respected
+				{ 23,  194493,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Plans: Armor Spikes
+				{ 24,  199242,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Schematic: Portable Alchemist's Lab Bench
+				{ 25,  199243,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Schematic: Portable Tinker's Workbench
+				{ 26,  199289,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Schematic: Blue Fireflight
+				{ 27,  191590,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Recipe: Stable Fluidic Draconium
+				{ 28,  198533,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Recipe: Aerated Phial of Quick Hands
+				{ 101, "f2544rep4" },                             -- Valued
+				{ 102, 198615,     [PRICE_EXTRA_ITTYPE] = "money:75000" }, -- Pentagold Seal
+				{ 103, 194293,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Pattern: Vibrant Polishing Cloth
+				{ 104, 194286,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Pattern: Chromatic Embroidery Thread
+				{ 105, 194506,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Plans: Primal Razorstone
+				{ 106, 194662,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Design: Alexstraszite Loupes
+				{ 107, 198938,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Technique: Contract: Artisan's Consortium
+				{ 108, 198943,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Alchemist's Brilliant Mixing Rod
+				{ 109, 198947,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Chef's Splendid Rolling Pin
+				{ 110, 199285,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Schematic: Khaz'gorite Encased Samophlange
+				{ 111, 199286,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Schematic: Khaz'gorite Brainwave Amplifier
+				{ 112, 199295,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Schematic: Black Fireflight
+				{ 113, 199804,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Formula: Enchant Tool - Draconic Deftness
+				{ 114, 199802,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Formula: Enchant Tool - Draconic Finesse
+				{ 115, 199803,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Formula: Enchant Tool - Draconic Perception
+				{ 116, 191586,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Recipe: Sagacious Incense
+				{ 117, 191593,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Recipe: Agitating Potion Augmentation
+				{ 118, 191594,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Recipe: Reactive Phial Embellishment
+				{ 119, 201268,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Blacksmith's Diagrams
+				{ 120, 201269,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Scribe's Runic Drawings
+				{ 121, 201270,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Alchemist's Research
+				{ 122, 201271,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Tailor's Diagrams
+				{ 123, 201272,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Enchanter's Research
+				{ 124, 201273,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Engineer's Scribblings
+				{ 125, 201274,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Jeweler's Illustrations
+				{ 126, 201275,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Leatherworker's Diagrams
+				{ 127, 201276,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Herbalist's Notes
+				{ 128, 201277,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Miner's Notes
+				{ 129, 201278,     [PRICE_EXTRA_ITTYPE] = "190456:150" }, -- Rare Skinner's Notes
+				{ 201, "f2544rep5" },                             -- Esteemed
+				{ 202, 198802,     [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Artisan's Consortium Tabard
+				{ 203, 198598,     [PRICE_EXTRA_ITTYPE] = "190456:75" }, -- Technique: Scroll of Sales
+				{ 204, 198618,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Pattern: Artisan's Sign
+				{ 205, 198098,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Recipe: Ooey-Gooey Chocolate
+				{ 206, 199240,     [PRICE_EXTRA_ITTYPE] = "money:2000000" }, -- Schematic: Green Fireflight
+				{ 207, 201279,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Blacksmith's Diagrams
+				{ 208, 201280,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Scribe's Runic Drawings
+				{ 209, 201281,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Alchemist's Research
+				{ 210, 201282,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Tailor's Diagrams
+				{ 211, 201283,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Enchanter's Research
+				{ 212, 201284,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Engineer's Scribblings
+				{ 213, 201285,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Jeweler's Illustrations
+				{ 214, 201286,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Leatherworker's Diagrams
+				{ 215, 201287,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Herbalist's Notes
+				{ 216, 201288,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Miner's Notes
+				{ 217, 201289,     [PRICE_EXTRA_ITTYPE] = "190456:200" }, -- Ancient Skinner's Notes
+			},
+		},
+		{ -- Cobalt Assembly
+			FactionID = 2550,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2550rep1" },                                                     -- Empty
+				{ 2,   197584,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },          -- Windborne Velocidrake: Finned Back
+				{ 4,   "f2550rep2" },                                                     -- Low
+				{ 5,   196969,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },         -- Cliffside Wylderdrake: Finned Back
+				{ 6,   197355,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },         -- Renewed Proto-Drake: Thick Spined Jaw
+				{ 8,   "f2550rep3" },                                                     -- Medium
+				{ 9,   191579,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },          -- Recipe: Transmute: Awakened Frost
+				{ 10,  194265,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },          -- Pattern: Blue Silken Lining
+				{ 11,  197620,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },         -- Windborne Velocidrake: Beaked Snout
+				{ 13,  "f2550rep4" },                                                     -- High
+				{ 14,  202118,     [PRICE_EXTRA_ITTYPE] = "money:1867139" },              -- Assembly Guardian's Ring
+				{ 15,  202119,     [PRICE_EXTRA_ITTYPE] = "money:1874149" },              -- Assembly Scholar's Loop
+				{ 16,  202117,     [PRICE_EXTRA_ITTYPE] = "money:1860129" },              -- Assembly Preserver's Band
+				{ 17,  194261,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },          -- Pattern: Frozen Spellthread
+				{ 18,  201733,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },          -- Pattern: Frosted Armor Kit
+				{ 19,  198895,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:25" },          -- Technique: Highland Drake: Spined Head
+				{ 20,  197148,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:400" },         -- Highland Drake: Vertical Finned Tail
+				{ 21,  197018,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:400" },         -- Cliffside Wylderdrake: Finned Tail
+				{ 22,  191836,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Cover
+				{ 23,  191835,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Bracers
+				{ 24,  191834,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Belt
+				{ 25,  191833,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Pauldron
+				{ 26,  191832,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Leggings
+				{ 27,  191831,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Helm
+				{ 28,  191830,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Grips
+				{ 29,  191829,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Hauberk
+				{ 30,  217891,     [PRICE_EXTRA_ITTYPE] = "190329:1:dragonSupplies:100" }, -- Cobalt Guardian's Cloak
+				{ 101, "f2550rep5" },                                                     -- Maximum
+				{ 102, 197368,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:600" },         -- Renewed Proto-Drake: Blue Hair
+				{ 103, 200559,     [PRICE_EXTRA_ITTYPE] = "188658:5:201404:5:dragonSupplies:600" }, -- Cobalt Duelist's Saber
+				{ 104, 199735,     [PRICE_EXTRA_ITTYPE] = "190396:10:201406:1:dragonSupplies:600" }, -- Cobalt Guardian's Cutlass
+				{ 105, 199733,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Defender's Wingglaive
+				{ 106, 199731,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Bladewing Staff
+				{ 107, 199729,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Essence Weaver's Staff
+				{ 108, 199727,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Essence Weaver's Scepter
+				{ 109, 199708,     [PRICE_EXTRA_ITTYPE] = "190396:10:193214:10:dragonSupplies:600" }, -- Cobalt Wingguard's Polearm
+				{ 110, 199706,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Stalker's Lancet
+				{ 111, 199703,     [PRICE_EXTRA_ITTYPE] = "198397:1:193214:10:dragonSupplies:600" }, -- Steadfast Cobalt Bulwark
+				{ 112, 201371,     [PRICE_EXTRA_ITTYPE] = "190396:10:201404:5:dragonSupplies:600" }, -- Cobalt Defender's Shredder
+				{ 113, 199701,     [PRICE_EXTRA_ITTYPE] = "198397:1:193214:10:dragonSupplies:600" }, -- Cobalt Dragonwing Decapitator
+				{ 114, 199737,     [PRICE_EXTRA_ITTYPE] = "200866:1:201404:5:dragonSupplies:600" }, -- Cobalt Dragonflame Blade
+			},
+		},
+		{ -- Winterpelt Furbolg
+			FactionID = 2526,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2526rep5" },
+				{ 2,  202314,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:15" },                                  -- Big Chunk o' Meat
+				{ 3,  202315,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:15" },                                  -- Frozen Solid Tea
+				{ 5,  "f2526rep6" },
+				{ 6,  202282,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" },                                 -- Winterpelt Mending Totem
+				{ 7,  203995,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:75" },                                  -- Winter Pelt Cloak
+				{ 8,  204354,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:500" },                                 -- Hollowed Furbolg Food Pack
+				{ 9,  197006,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },                                  -- Cliffside Wylderdrake: Plated Nose
+				{ 10, 197129,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },                                  -- Highland Drake: Sleek Horns
+				{ 11, 202273,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },                                  -- Renewed Proto-Drake: Stubby Snout
+				{ 12, 197583,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:50" },                                  -- Windborne Velocidrake: Exposed Finned Back
+				{ 16, "f2526rep7" },
+				{ 17, 203734,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },                                 -- Snow Blanket
+				{ 18, 204678,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },                                 -- Pattern: Paw-Made Winterpelt Reagent Bag
+				{ 19, 202289,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:750" },                                 -- Recipe: Firewater Sorbet
+				{ 20, 204355,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:500" },                                 -- Hollowed Winterpelt Food Pack
+				{ 21, 196995,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                 -- Cliffside Wylderdrake: Spiked Horns
+				{ 22, 197102,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                 -- Highland Drake: Horned Chin
+				{ 23, 202279,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                 -- Renewed Proto-Drake: Malevolent Horns
+				{ 24, 197629,     [PRICE_EXTRA_ITTYPE] = "dragonSupplies:100" },                                 -- Windborne Velocidrake: Spiked Neck
+				{ 26, "f2526rep8" },
+				{ 27, 202255,     "pet3427",                                  [PRICE_EXTRA_ITTYPE] = "dragonSupplies:150" }, -- Driftling
+			},
+		},
 		{ -- Loamm Niffen
 			FactionID = 2564,
 			CoinTexture = "Reputation",
@@ -1185,18 +1401,18 @@ data["SHADOWLANDSFACTIONS"] = {
 			FactionID = 2464,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,  "f2464rep5" },                                                      -- Friendly
+				{ 1,  "f2464rep2" },                                                      -- Friendly
 				{ 2,  182182,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:5" }, --Lupine Soul
 				{ 3,  182174,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:5" }, --Leonine Soul
 				{ 4,  180636,     [PRICE_EXTRA_ITTYPE] = "PetCharm:250:gratefuloffering:5" }, --Willowbreeze
 				{ 5,  182664,     [PRICE_EXTRA_ITTYPE] = "PetCharm:250:gratefuloffering:5" }, --Stemmins
-				{ 7,  "f2464rep6" },                                                      -- Honored
+				{ 7,  "f2464rep3" },                                                      -- Honored
 				{ 8,  181308,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:5" }, --Winterwoven Bulb
 				{ 9,  181312,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:5" }, --Winterwoven Pack
-				{ 11, "f2464rep7" },                                                      -- Revered
+				{ 11, "f2464rep4" },                                                      -- Revered
 				{ 12, 183053,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000:gratefuloffering:5" }, --Umbral Scythehorn
 				{ 13, 180415,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000:gratefuloffering:5" }, --Winterborn Runestag
-				{ 16, "f2464rep8" },                                                      -- Exalted
+				{ 16, "f2464rep5" },                                                      -- Exalted
 				{ 17, 184115,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:25000:gratefuloffering:5" }, --Ensemble: Winterborn Raiment
 				{ 18, 184117,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:25000:gratefuloffering:5" }, --Ensemble: Winterborn Warbark
 				{ 19, 184116,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:25000:gratefuloffering:5" }, --Ensemble: Winterborn Guise
@@ -1239,33 +1455,33 @@ data["SHADOWLANDSFACTIONS"] = {
 			FactionID = 2472,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   "f2472rep17" },                                     -- Rank1
-				{ 2,   187508, },                                          -- Trained Gromit Carrier
-				{ 4,   "f2472rep18" },                                     -- Rank2
-				{ 5,   186714,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:100" }, --Research Report: All-Seeing Crystal
-				{ 6,   187145,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:800" }, --Treatise: Recognizing Stygia and its Uses
-				{ 8,   "f2472rep19" },                                     -- Rank3
-				{ 9,   186718,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:50" }, -- Teleporter Repair Kit
-				{ 11,  "f2472rep20" },                                     -- Rank4
-				{ 12,  186731,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:100" }, -- Repaired Riftkey
-				{ 13,  186991,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2000" }, -- Transmute: Stones to Ore
-				{ 14,  186470,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2500" }, -- Recipe: Crafter's Mark of the Chained Isle
-				{ 15,  187706,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1000" }, -- Treatise: Bonds of Stygia in Mortals
-				{ 16,  "f2472rep21" },                                     -- Rank5
-				{ 17,  187409,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:500" }, -- Cloak of the Korthian Scholar
-				{ 18,  186716,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1000" }, -- Research Report: Ancient Shrines
-				{ 19,  186722,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1500" }, -- Treatise: The Study of Anima and Harnessing Every Drop
-				{ 101, "f2472rep22" },                                     -- Rank6
-				{ 102, 186648,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:5000" }, -- Soaring Razorwing
-				{ 103, 187535,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Attendant Scholar's Waistcord
-				{ 104, 187537,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Subtle Mortality Manipulators
-				{ 105, 187534,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Korthite Crystal Waistguard
-				{ 106, 187536,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Prototype Guardian Grips
-				{ 107, 186721,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2000" }, -- Treatise: Relics Abound in the Shadowlands
-				{ 108, 187148,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:3000" }, -- Death-Bound Shard
-				{ 109, 187134,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:5000" }, -- Alloy-Warping Facetor
-				{ 110, 186717,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Research Report: Adaptive Alloys
-				{ 111, 187138,      [PRICE_EXTRA_ITTYPE] = "catalogedresearch:8000" }, -- Research Report: First Alloys
+				{ 1,   "f2472rep1" },                                     -- Rank1
+				{ 2,   187508, },                                         -- Trained Gromit Carrier
+				{ 4,   "f2472rep2" },                                     -- Rank2
+				{ 5,   186714,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:100" }, --Research Report: All-Seeing Crystal
+				{ 6,   187145,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:800" }, --Treatise: Recognizing Stygia and its Uses
+				{ 8,   "f2472rep3" },                                     -- Rank3
+				{ 9,   186718,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:50" }, -- Teleporter Repair Kit
+				{ 11,  "f2472rep4" },                                     -- Rank4
+				{ 12,  186731,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:100" }, -- Repaired Riftkey
+				{ 13,  186991,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2000" }, -- Transmute: Stones to Ore
+				{ 14,  186470,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2500" }, -- Recipe: Crafter's Mark of the Chained Isle
+				{ 15,  187706,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1000" }, -- Treatise: Bonds of Stygia in Mortals
+				{ 16,  "f2472rep5" },                                     -- Rank5
+				{ 17,  187409,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:500" }, -- Cloak of the Korthian Scholar
+				{ 18,  186716,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1000" }, -- Research Report: Ancient Shrines
+				{ 19,  186722,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:1500" }, -- Treatise: The Study of Anima and Harnessing Every Drop
+				{ 101, "f2472rep6" },                                     -- Rank6
+				{ 102, 186648,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:5000" }, -- Soaring Razorwing
+				{ 103, 187535,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Attendant Scholar's Waistcord
+				{ 104, 187537,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Subtle Mortality Manipulators
+				{ 105, 187534,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Korthite Crystal Waistguard
+				{ 106, 187536,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Prototype Guardian Grips
+				{ 107, 186721,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:2000" }, -- Treatise: Relics Abound in the Shadowlands
+				{ 108, 187148,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:3000" }, -- Death-Bound Shard
+				{ 109, 187134,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:5000" }, -- Alloy-Warping Facetor
+				{ 110, 186717,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:4000" }, -- Research Report: Adaptive Alloys
+				{ 111, 187138,     [PRICE_EXTRA_ITTYPE] = "catalogedresearch:8000" }, -- Research Report: First Alloys
 			},
 		},
 		{ -- The Avowed
@@ -1350,32 +1566,32 @@ data["SHADOWLANDSFACTIONS"] = {
 			FactionID = 2432,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   "f2432rep23" },                          -- Dubious
-				{ 2,   180817,      [PRICE_EXTRA_ITTYPE] = "stygia:60" }, --Cypher of Relocation
-				{ 4,   "f2432rep24" },                          -- Apprehensive
-				{ 5,   184620,      [PRICE_EXTRA_ITTYPE] = "stygia:527" }, --Vessel of Unfortunate Spirits
-				{ 6,   184615,      [PRICE_EXTRA_ITTYPE] = "stygia:800" }, --Extradimensional Pockets
-				{ 7,   180953,      [PRICE_EXTRA_ITTYPE] = "stygia:205" }, --Soultwinning Scepter
-				{ 8,   181245,      [PRICE_EXTRA_ITTYPE] = "stygia:165" }, --Oil of Ethereal Force
-				{ 10,  "f2432rep25" },                          -- Tentative
-				{ 11,  184617,      [PRICE_EXTRA_ITTYPE] = "stygia:1135" }, --Bangle of Seniority
-				{ 12,  184605,      [PRICE_EXTRA_ITTYPE] = "stygia:666" }, --Sigil of the Unseen
-				{ 13,  184653,      [PRICE_EXTRA_ITTYPE] = "stygia:1050" }, --Animated Levitating Chain
-				{ 14,  180949,      [PRICE_EXTRA_ITTYPE] = "stygia:1650" }, --Animaflow Stabilizer
-				{ 15,  184651,      [PRICE_EXTRA_ITTYPE] = "stygia:230" }, --Maw-Touched Miasma
-				{ 16,  184664,      [PRICE_EXTRA_ITTYPE] = "stygia:210" }, --Sticky-Fingered Skeletal Hand
-				{ 19,  "f2432rep26" },                          -- Ambivalent
-				{ 20,  184588,      [PRICE_EXTRA_ITTYPE] = "stygia:775" }, --Soul-Stabilizing Talisman
-				{ 21,  184621,      [PRICE_EXTRA_ITTYPE] = "stygia:1025" }, --Ritual Prism of Fortune
-				{ 22,  184652,      [PRICE_EXTRA_ITTYPE] = "stygia:3760" }, --Phantasmic Infuser
-				{ 23,  183248,      [PRICE_EXTRA_ITTYPE] = "stygia:4986" }, --Memory of Jailer's Eye
-				{ 101, "f2432rep27" },                          -- Cordial
-				{ 102, 184619,      [PRICE_EXTRA_ITTYPE] = "stygia:1330" }, --Loupe of Unusual Charm
-				{ 103, 184618,      [PRICE_EXTRA_ITTYPE] = "stygia:1575" }, --Rank Insignia: Acquisitionist
-				{ 104, 183870,      [PRICE_EXTRA_ITTYPE] = "stygia:300" }, --Recipe: Crafter's Mark II
-				{ 106, "f2432rep28" },                          -- Appreciative
-				{ 107, 180952,      [PRICE_EXTRA_ITTYPE] = "stygia:1525" }, --Possibility Matrix
-				{ 108, 184901,      [PRICE_EXTRA_ITTYPE] = "stygia:875" }, --Broker Traversal Enhancer
+				{ 1,   "f2432rep1" },                          -- Dubious
+				{ 2,   180817,     [PRICE_EXTRA_ITTYPE] = "stygia:60" }, --Cypher of Relocation
+				{ 4,   "f2432rep2" },                          -- Apprehensive
+				{ 5,   184620,     [PRICE_EXTRA_ITTYPE] = "stygia:527" }, --Vessel of Unfortunate Spirits
+				{ 6,   184615,     [PRICE_EXTRA_ITTYPE] = "stygia:800" }, --Extradimensional Pockets
+				{ 7,   180953,     [PRICE_EXTRA_ITTYPE] = "stygia:205" }, --Soultwinning Scepter
+				{ 8,   181245,     [PRICE_EXTRA_ITTYPE] = "stygia:165" }, --Oil of Ethereal Force
+				{ 10,  "f2432rep3" },                          -- Tentative
+				{ 11,  184617,     [PRICE_EXTRA_ITTYPE] = "stygia:1135" }, --Bangle of Seniority
+				{ 12,  184605,     [PRICE_EXTRA_ITTYPE] = "stygia:666" }, --Sigil of the Unseen
+				{ 13,  184653,     [PRICE_EXTRA_ITTYPE] = "stygia:1050" }, --Animated Levitating Chain
+				{ 14,  180949,     [PRICE_EXTRA_ITTYPE] = "stygia:1650" }, --Animaflow Stabilizer
+				{ 15,  184651,     [PRICE_EXTRA_ITTYPE] = "stygia:230" }, --Maw-Touched Miasma
+				{ 16,  184664,     [PRICE_EXTRA_ITTYPE] = "stygia:210" }, --Sticky-Fingered Skeletal Hand
+				{ 18,  "f2432rep4" },                          -- Ambivalent
+				{ 19,  184588,     [PRICE_EXTRA_ITTYPE] = "stygia:775" }, --Soul-Stabilizing Talisman
+				{ 20,  184621,     [PRICE_EXTRA_ITTYPE] = "stygia:1025" }, --Ritual Prism of Fortune
+				{ 21,  184652,     [PRICE_EXTRA_ITTYPE] = "stygia:3760" }, --Phantasmic Infuser
+				{ 22,  183248,     [PRICE_EXTRA_ITTYPE] = "stygia:4986" }, --Memory of Jailer's Eye
+				{ 24,  "f2432rep5" },                          -- Cordial
+				{ 25,  184619,     [PRICE_EXTRA_ITTYPE] = "stygia:1330" }, --Loupe of Unusual Charm
+				{ 26,  184618,     [PRICE_EXTRA_ITTYPE] = "stygia:1575" }, --Rank Insignia: Acquisitionist
+				{ 27,  183870,     [PRICE_EXTRA_ITTYPE] = "stygia:300" }, --Recipe: Crafter's Mark II
+				{ 101, "f2432rep6" },                          -- Appreciative
+				{ 102, 180952,     [PRICE_EXTRA_ITTYPE] = "stygia:1525" }, --Possibility Matrix
+				{ 103, 184901,     [PRICE_EXTRA_ITTYPE] = "stygia:875" }, --Broker Traversal Enhancer
 			},
 		},
 	}

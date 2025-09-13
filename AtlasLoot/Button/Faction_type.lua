@@ -1,17 +1,11 @@
 local _G = getfenv(0)
 
 -- lua
-local tonumber, type = tonumber, type
 local str_match, str_format = string.match, string.format
-
--- WoW
-local UnitSex = UnitSex
-local C_GossipInfo = C_GossipInfo
 
 local AtlasLoot = _G.AtlasLoot
 local Faction = AtlasLoot.Button:AddType("Faction", "f")
 local BF = AtlasLoot.LibBabble:Get("LibBabble-Faction-3.0")
-local AL = AtlasLoot.Locales
 local ClickHandler = AtlasLoot.ClickHandler
 
 --[[
@@ -25,46 +19,11 @@ local ClickHandler = AtlasLoot.ClickHandler
 	6. Honored
 	7. Revered
 	8. Exalted
-	-- if rep index is in between 11 and 16, means it has friendship reputation
 ]]
-
---[[
-	1 => 11 - Stranger
-	2 => 12 - Acquaintance
-	3 => 13 - Buddy
-	4 => 14 - Friend
-	5 => 15 - Good Friend
-	6 => 16 - Best Friend
-]]
-local FRIEND_REP_TEXT = {
-	[11] = BF["Stranger"],
-	[12] = BF["Acquaintance"],
-	[13] = BF["Buddy"],
-	[14] = BF["Friend"],
-	[15] = BF["Good Friend"],
-	[16] = BF["Best Friend"],
-	--We are no strangers to rep grind in SL
-	[17] = BF["Rank 1"],
-	[18] = BF["Rank 2"],
-	[19] = BF["Rank 3"],
-	[20] = BF["Rank 4"],
-	[21] = BF["Rank 5"],
-	[22] = BF["Rank 6"],
-	--Venari rep. Let's see if it works
-	[23] = "Dubious",
-	[24] = "Apprehensive",
-	[25] = "Tentative",
-	[26] = "Ambivalent",
-	[27] = "Cordial",
-	[28] = "Appreciative",
-	-- Renown Level, use rep > 30.
-	-- For example, rep31 refer to renown level 1; rep52 refer to renown level 22
-}
 
 local FactionClickHandler
 local PlayerSex
 
-local FACTION_REP_COLORS
 local FACTION_IMAGES = {
 	[0] = "Interface\\Icons\\Achievement_Reputation_08", -- dummy
 
@@ -209,50 +168,44 @@ local FACTION_IMAGES = {
 	[2478] = "Interface\\Icons\\inv_tabard_enlightenedbrokers_c_01", -- The Enlightened
 
 	-- Dragonflight
-	[2503] = 4687627,                                              -- Maruuk Centaur
-	[2507] = 4687628,                                              -- Dragonscale Expedition
-	[2510] = 4687630,                                              -- Valdrakken Accord
-	[2511] = 4687629,                                              -- Iskaara Tuskarr
-	[2564] = "interface\\icons\\ui_majorfaction_niffen",           -- Loamm Niffen
-	[2574] = "interface\\icons\\ui_majorfaction_denizens",         -- Dream Wardens
-	[2517] = 1394891,                                              -- Wrathion
-	[2518] = 4559236,                                              -- Sabellian
-	[2550] = 1394893,                                              -- Cobalt Assembly
+	[2503] = 4687627,                                                 -- Maruuk Centaur
+	[2507] = 4687628,                                                 -- Dragonscale Expedition
+	[2510] = 4687630,                                                 -- Valdrakken Accord
+	[2511] = 4687629,                                                 -- Iskaara Tuskarr
+	[2564] = "interface\\icons\\ui_majorfaction_niffen",              -- Loamm Niffen
+	[2574] = "interface\\icons\\ui_majorfaction_denizens",            -- Dream Wardens
+	[2517] = 1394891,                                                 -- Wrathion
+	[2518] = 4559236,                                                 -- Sabellian
+	[2550] = 1394893,                                                 -- Cobalt Assembly
+	[2544] = "interface\\icons\\inv_10_gearcraft_artisansmettle_color4", -- Artisan's Consortium
 	[2526] = "interface\\icons\\inv_10_misc_winterpeltfurbolg_totem", -- Winterpelt Furbolg
 
 	-- TWW
-	[2590] = "interface\\icons\\ui_majorfactions_storm",      -- Council of Dornogal
-	[2594] = "interface\\icons\\ui_majorfactions_candle",     -- The Assembly of the Deeps
-	[2570] = "interface\\icons\\ui_majorfactions_flame",      -- Hallowfall Arathi
-	[2600] = "interface\\icons\\ui_majorfactions_web",        -- The Severed Threads
-	[2653] = "interface\\icons\\ui_majorfactions_rocket",     -- The Cartels of Undermine
-	[2673] = "interface\\icons\\inv_tabard_bilgewater_b_01",  -- Bilgewater Cartel
-	[2675] = "interface\\icons\\inv_tabard_blackwater_b_01",  -- Blackwater Cartel
-	[2677] = "interface\\icons\\inv_tabard_steamwheedle_b_01", -- Steamwheedle Cartel
-	[2671] = "interface\\icons\\inv_tabard_ventureco_b_01",   -- Venture Company
-	[2669] = "interface\\icons\\inv_111_tabard_darkfusefaction", -- Darkfuse Solutions
-	[2685] = "interface\\icons\\ui_majorfactions_stars",      -- Gallagio Loyalty Rewards Club
-	[2688] = "interface\\icons\\ui_majorfactions_ nightfall", -- Flame's Radiance
+	[2590] = "interface\\icons\\ui_majorfactions_storm",               -- Council of Dornogal
+	[2594] = "interface\\icons\\ui_majorfactions_candle",              -- The Assembly of the Deeps
+	[2570] = "interface\\icons\\ui_majorfactions_flame",               -- Hallowfall Arathi
+	[2600] = "interface\\icons\\ui_majorfactions_web",                 -- The Severed Threads
+	[2653] = "interface\\icons\\ui_majorfactions_rocket",              -- The Cartels of Undermine
+	[2673] = "interface\\icons\\inv_tabard_bilgewater_b_01",           -- Bilgewater Cartel
+	[2675] = "interface\\icons\\inv_tabard_blackwater_b_01",           -- Blackwater Cartel
+	[2677] = "interface\\icons\\inv_tabard_steamwheedle_b_01",         -- Steamwheedle Cartel
+	[2671] = "interface\\icons\\inv_tabard_ventureco_b_01",            -- Venture Company
+	[2669] = "interface\\icons\\inv_111_tabard_darkfusefaction",       -- Darkfuse Solutions
+	[2685] = "interface\\icons\\ui_majorfactions_stars",               -- Gallagio Loyalty Rewards Club
+	[2688] = "interface\\icons\\ui_majorfactions_ nightfall",          -- Flame's Radiance
+	[2658] = "interface\\icons\\ui_majorfactions_ karesh",             -- The K'aresh Trust
+	[2736] = "interface\\icons\\inv_112_achievement_raid_manaforgeomega", -- Manaforge Vandals
 }
 
 local function GetLocRepStanding(id)
 	if (id > 30) then -- if it's renown
 		local i = id - 30
 		return format(COVENANT_RENOWN_LEVEL_TOAST, i)
-	elseif (id > 10) then
-		return FRIEND_REP_TEXT[id] or FACTION_STANDING_LABEL4_FEMALE
 	else
 		return PlayerSex == 3 and _G["FACTION_STANDING_LABEL"..(id or 4).."_FEMALE"] or _G["FACTION_STANDING_LABEL"..(id or 4)]
 	end
 end
 
-local function RGBToHex(t)
-	local r, g, b = t.r * 255, t.g * 255, t.b * 255
-	r = r <= 255 and r >= 0 and r or 0
-	g = g <= 255 and g >= 0 and g or 0
-	b = b <= 255 and b >= 0 and b or 0
-	return str_format("%02x%02x%02x", r, g, b)
-end
 
 function Faction.OnSet(button, second)
 	if not FactionClickHandler then
@@ -264,27 +217,7 @@ function Faction.OnSet(button, second)
 			AtlasLoot.db.Button.Faction.ClickHandler,
 			{}
 		)
-
 		PlayerSex = UnitSex("player")
-
-		FACTION_REP_COLORS = {}
-		--[[
-		FACTION_BAR_COLORS =
-		{
-			FACTION_RED_COLOR,		-- 1
-			FACTION_RED_COLOR,		-- 2
-			FACTION_ORANGE_COLOR,	-- 3
-			FACTION_YELLOW_COLOR,	-- 4
-			FACTION_GREEN_COLOR,	-- 5
-			FACTION_GREEN_COLOR,	-- 6
-			FACTION_GREEN_COLOR,	-- 7
-			FACTION_GREEN_COLOR,	-- 8
-		};
-		]]
-		for i = 1, #FACTION_BAR_COLORS do
-			FACTION_REP_COLORS[i] = RGBToHex(FACTION_BAR_COLORS[i])
-		end
-		RGBToHex = nil
 	end
 	if not button then return end
 
@@ -368,26 +301,19 @@ function Faction.Refresh(button)
 		majorFactionData = C_MajorFactions.GetMajorFactionData(factionID);
 		renownLevel = majorFactionData.renownLevel;
 	end
-	local color
-
-	if friendshipFactionID and RepID then
-		color = "|cFF"..FACTION_REP_COLORS[RepID > 12 and 5 or 4]
-	elseif (isMajorFaction and RepID > 30) then
-		local i = RepID - 30
-
-		color = "|cFF"..FACTION_REP_COLORS[renownLevel >= i and 5 or 4]
-	else
-		color = "|cFF"..FACTION_REP_COLORS[RepID or standingID]
-	end
 
 	if button.type == "secButton" then
 		button:SetNormalTexture(FACTION_IMAGES[factionID] or FACTION_IMAGES[0])
 	else
-		button.name:SetText(color..name)
-		--button.extra:SetText("|cFF"..FACTION_REP_COLORS[RepID or standingID]..GetLocRepStanding(RepID or standingID))
+		button.name:SetText("|cFFe6b300"..name)
 		button.icon:SetTexture(FACTION_IMAGES[factionID] or FACTION_IMAGES[0])
 
-		local reqRepText = friendshipFactionID and FRIEND_REP_TEXT[RepID] or GetLocRepStanding(RepID or standingID) or ""
+		local reqRepText
+		if friendshipFactionID and friendshipFactionID > 0 then
+			reqRepText = AtlasLoot.Data.Faction.FriendshipRanks[factionID][RepID] or ""
+		else
+			reqRepText = GetLocRepStanding(RepID or standingID) or ""
+		end
 
 		if RepID and isMajorFaction then
 			local i = RepID - 30
@@ -395,7 +321,15 @@ function Faction.Refresh(button)
 				button.icon:SetDesaturated(true)
 				button.extra:SetText("|cffff0000"..reqRepText)
 			else
-				button.extra:SetText(color..reqRepText)
+				button.extra:SetText("|cFF00991a"..reqRepText)
+			end
+		elseif RepID and friendshipFactionID and friendshipFactionID > 0 then
+			local rank = C_GossipInfo.GetFriendshipReputationRanks(friendshipFactionID)
+			if rank.currentLevel < RepID then
+				button.icon:SetDesaturated(true)
+				button.extra:SetText("|cffff0000"..reqRepText)
+			else
+				button.extra:SetText("|cFF00991a"..reqRepText)
 			end
 		elseif RepID and standingID and RepID > standingID then
 			button.icon:SetDesaturated(true)
@@ -403,7 +337,7 @@ function Faction.Refresh(button)
 		elseif not standingID then
 			button.extra:SetText("|cffff0000"..reqRepText)
 		else
-			button.extra:SetText(color..reqRepText)
+			button.extra:SetText("|cFF00991a"..reqRepText)
 		end
 	end
 

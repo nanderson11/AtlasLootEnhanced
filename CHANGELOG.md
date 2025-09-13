@@ -1,8 +1,14 @@
 ﻿# Changelog
 
-## 9.17.1 -
+## 9.18.0 -
 ### Added
+- Added minor Dragonflight factions (Wrathion, Sabellian, Artisan's Consortium, Cobalt Assembly and Winterpelt Furbolg)
 - Added source for Resplendent K'arroc mount
+### Changed
+- Faction names will always be yellow, and faction rank will be red or green
+### Fixed
+- Fixed friendship ranks always being red
+- Added missing 11.2 faction icons
 
 ## 9.17.0 - September 4, 2025
 ### Added

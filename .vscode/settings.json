@@ -175,7 +175,11 @@
 		"Outfitter",
 		"AtlasFrameDropDownType_OnShow",
 		"AtlasFrameDropDown_OnShow",
-		"Atlas_Refresh"
+		"Atlas_Refresh",
+		"FACTION_STANDING_LABEL5",
+		"FACTION_STANDING_LABEL6",
+		"FACTION_STANDING_LABEL7",
+		"FACTION_STANDING_LABEL8"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",

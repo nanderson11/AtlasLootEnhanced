@@ -1,6 +1,8 @@
 -- Functions
 local _G = getfenv(0)
 
+local BF = AtlasLoot.LibBabble:Get("LibBabble-Faction-3.0")
+
 local AtlasLoot = _G.AtlasLoot
 local Faction = {}
 AtlasLoot.Data.Faction = Faction
@@ -161,4 +163,67 @@ Faction.FACTION_KEY = {
 	[2669] = "Darkfuse Solutions",
 	[2685] = "Gallagio Loyalty Rewards Club",
 	[2688] = "Flame's Radiance",
+}
+
+Faction.FriendshipRanks = {
+	-- Court of Night
+	[2464] = {
+		[1] = FACTION_STANDING_LABEL4,
+		[2] = FACTION_STANDING_LABEL5,
+		[3] = FACTION_STANDING_LABEL6,
+		[4] = FACTION_STANDING_LABEL7,
+		[5] = FACTION_STANDING_LABEL8,
+	},
+	-- The Archivists' Codex
+	[2472] = {
+		[1] = BF["Rank 1"],
+		[2] = BF["Rank 2"],
+		[3] = BF["Rank 3"],
+		[4] = BF["Rank 4"],
+		[5] = BF["Rank 5"],
+		[6] = BF["Rank 6"],
+	},
+	-- Ve'nari
+	[2432] = {
+		[1] = "Dubious",
+		[2] = "Apprehensive",
+		[3] = "Tentative",
+		[4] = "Ambivalent",
+		[5] = "Cordial",
+		[6] = "Appreciative",
+	},
+	-- Wrathion
+	[2517] = {
+		[1] = "Acquaintance",
+		[2] = "Cohort",
+		[3] = "Ally",
+		[4] = "Fang",
+		[5] = "Friend",
+		[6] = "True Friend",
+	},
+	-- Sabellian
+	[2518] = {
+		[1] = "Acquaintance",
+		[2] = "Cohort",
+		[3] = "Ally",
+		[4] = "Fang",
+		[5] = "Friend",
+		[6] = "True Friend",
+	},
+	-- Artisan's Consortium
+	[2544] = {
+		[1] = "Neutral",
+		[2] = "Preferred",
+		[3] = "Respected",
+		[4] = "Valued",
+		[5] = "Esteemed",
+	},
+	-- Cobalt Assembly
+	[2550] = {
+		[1] = "Empty",
+		[2] = "Low",
+		[3] = "Medium",
+		[4] = "High",
+		[5] = "Maximum",
+	},
 }
