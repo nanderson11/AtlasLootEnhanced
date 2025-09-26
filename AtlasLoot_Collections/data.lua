@@ -1452,6 +1452,7 @@ data["MOUNTS"]             = {
 				{ 519, 247792, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- High Shaman's Aerie Gryphon
 				{ 520, 247793, "mount", [PRICE_EXTRA_ITTYPE] = "tender:650" },           -- Cinder-Plumed Highland Gryphon
 				{ 521, 247795, "mount", [PRICE_EXTRA_ITTYPE] = "tender:325" },           -- Ornery Breezestrider
+				{ 522, 248761, "mount" },                                                -- Brewfest Bomber
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -6731,8 +6732,8 @@ data["TOYS"]               = {
 				{ 310, 242323 },                                     -- Chowdar's Favorite Ribbon
 				{ 311, 244792, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Etheric Brannmorpher
 				{ 312, 243056, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:10" }, -- Delver's Mana-Bound Ethergate
+				{ 313, 245946, [PRICE_EXTRA_ITTYPE] = "brewfest:200" }, -- Brewer's Balloon
 				-- { 310, 249713 },                                     -- Cartel Transmorpher (currently unobtainable)
-				-- { 310, 245946 },                                     -- Brewer's Balloon
 			}
 		},
 		{ -- Dragonflight

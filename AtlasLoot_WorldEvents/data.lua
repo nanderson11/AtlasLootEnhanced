@@ -1410,20 +1410,23 @@ data["Brewfest"] = {
 		{ --BrewfestCorenDirebrew
 			name = AL["Coren Direbrew"].." ("..ALIL["Blackrock Depths"]..")",
 			[NORMAL_DIFF] = {
-				{ 1,  "117361:1800" },                                     -- Bitterest Balebrew Charm
-				{ 2,  "117357:1800" },                                     -- Brawler's Statue
-				{ 3,  "117391:1800" },                                     -- Bubbliest Brightbrew Charm
-				{ 4,  "117360:1800" },                                     -- Coren's Cold Chromium Coaster
-				{ 5,  "117358:1800" },                                     -- Mithril Wristwatch
-				{ 6,  "117359:1800" },                                     -- Thousand-Year Pickled Egg
-				{ 8,  [ATLASLOOT_IT_ALLIANCE] = 38281, [ATLASLOOT_IT_HORDE] = 38280 }, -- Direbrew's Dire Brew
+				{ 1,  "117361:12380" },                                    -- Bitterest Balebrew Charm
+				{ 2,  "117357:12380" },                                    -- Brawler's Statue
+				{ 3,  "117391:12380" },                                    -- Bubbliest Brightbrew Charm
+				{ 4,  "117360:12380" },                                    -- Coren's Cold Chromium Coaster
+				{ 5,  "117358:12380" },                                    -- Mithril Wristwatch
+				{ 6,  "117359:12380" },                                    -- Thousand-Year Pickled Egg
+				{ 7,  [ATLASLOOT_IT_ALLIANCE] = 38280, [ATLASLOOT_IT_HORDE] = 38281 }, -- Direbrew's Dire Brew
 				{ 16, 117393 },                                            -- Keg-Shaped Treasure Chest (Daily reward)
-				{ 17, "117378:1800" },                                     -- Direbrew's Bloodied Shanker
-				{ 18, "117379:1800" },                                     -- Tremendous Tankard O' Terror
-				{ 19, 37828,                           "mount" },          -- Great Brewfest Kodo
-				{ 20, 33977,                           "mount" },          -- Swift Brewfest Ram
-				{ 21, 37863 },                                             -- Direbrew's Remote
-				{ 22, 37829 },                                             -- Brewfest Prize Token
+				{ 17, "117378:12380" },                                    -- Direbrew's Bloodied Shanker
+				{ 18, "117379:12380" },                                    -- Tremendous Tankard O' Terror
+				{ 19, "150922:12380" },                                    -- Terrific Tankard O' Terror
+				{ 20, 37828,                           "mount" },          -- Great Brewfest Kodo
+				{ 21, 33977,                           "mount" },          -- Swift Brewfest Ram
+				{ 22, 248761,                          "mount" },          -- Brewfest Bomber
+				{ 23, 208742 },                                            -- Renewed Proto-Drake: Brewfest Armor
+				{ 24, 37863 },                                             -- Direbrew's Remote
+				{ 25, 37829 },                                             -- Brewfest Prize Token
 			},
 		},
 		{ --BrewfestVendor
@@ -1437,74 +1440,125 @@ data["Brewfest"] = {
 				{ 7,   71137,                           [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brewfest Keg Pony
 				{ 8,   90427,                           [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Pandaren Brewpack
 				{ 9,   116757,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Steamworks Sausage Grill
-				{ 10,  138900,                          [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Gravil Goldbraid's Famous Sausage Hat
-				{ 12,  37816,                           [PRICE_EXTRA_ITTYPE] = "brewfest:20" },                            -- Preserved Brewfest Hops
-				{ 13,  90426,                           [PRICE_EXTRA_ITTYPE] = "brewfest:2" },                             -- Brewhelm
-				{ 15,  37750,                           [PRICE_EXTRA_ITTYPE] = "brewfest:2" },                             -- Fresh Brewfest Hops
-				{ 15,  [ATLASLOOT_IT_ALLIANCE] = 39477, [ATLASLOOT_IT_HORDE] = 39476,         [PRICE_EXTRA_ITTYPE] = "brewfest:5" }, -- Fresh Dwarven Brewfest Hops / Fresh Goblin Brewfest Hops
-				{ 16,  [ATLASLOOT_IT_ALLIANCE] = 33047, [ATLASLOOT_IT_HORDE] = 34008,         [PRICE_EXTRA_ITTYPE] = "brewfest:100" }, -- Belbi's Eyesight Enhancing Romance Goggles / Blix's Eyesight Enhancing Romance Goggles
-				{ 17,  138730,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Synthebrew Goggles XL
-				{ 19,  33968,                           [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Blue Brewfest Hat
-				{ 20,  33864,                           [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Brown Brewfest Hat
-				{ 21,  33967,                           [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Green Brewfest Hat
-				{ 22,  33969,                           [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Purple Brewfest Hat
-				{ 24,  33863,                           [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brewfest Dress
-				{ 25,  33862,                           [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brewfest Regalia
-				{ 26,  33868,                           [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Brewfest Boots
-				{ 27,  33966,                           [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Brewfest Slippers
-				{ 29,  37599,                           [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- "Brew of the Month" Club Membership Form
-				{ 30,  119209,                          [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Angry Brewfest Letter
-				{ 101, 122339,                          [PRICE_EXTRA_ITTYPE] = "brewfest:300" },                           -- Ancient Heirloom Scabbard
-				{ 102, 122341,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Timeworn Heirloom Scabbard
-				{ 104, 138884 }                                                                                            --Throwing Sausage
+				{ 10,  245946,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brewer's Balloon
+				{ 11,  209052,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brew Barrel
+				{ 12,  166747,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Brewfest Reveler's Hearthstone
+				{ 13,  138900,                          [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Gravil Goldbraid's Famous Sausage Hat
+				{ 16,  37816,                           [PRICE_EXTRA_ITTYPE] = "brewfest:20" },                            -- Preserved Brewfest Hops
+				{ 17,  37750,                           [PRICE_EXTRA_ITTYPE] = "brewfest:2" },                             -- Fresh Brewfest Hops
+				{ 18,  [ATLASLOOT_IT_ALLIANCE] = 39476, [ATLASLOOT_IT_HORDE] = 39477,         [PRICE_EXTRA_ITTYPE] = "brewfest:5" }, -- Fresh Goblin Brewfest Hops / Fresh Dwarven Brewfest Hops
+				{ 20,  227795,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Homebrewer's Sampling Mantle
+				{ 21,  248319,                          [PRICE_EXTRA_ITTYPE] = "brewfest:250" },                           -- Dark Iron's Ceremonial Crown
+				{ 22,  248320,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Dark Iron's Draping Mantle
+				{ 23,  248394,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Dark Iron's Crystal Mantle
+				{ 24,  248321,                          [PRICE_EXTRA_ITTYPE] = "brewfest:150" },                           -- Dark Iron's Ceremonial Chestplate
+				{ 25,  248324,                          [PRICE_EXTRA_ITTYPE] = "brewfest:150" },                           -- Dark Iron's Ceremonial Legguards
+				{ 26,  248325,                          [PRICE_EXTRA_ITTYPE] = "brewfest:150" },                           -- Dark Iron's Ceremonial Gauntlets
+				{ 27,  248323,                          [PRICE_EXTRA_ITTYPE] = "brewfest:100" },                           -- Dark Iron's Ceremonial Boots
+				{ 28,  248322,                          [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Dark Iron's Ceremonial Belt
+				{ 29,  248326,                          [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Dark Iron's Ceremonial Cloak
+				{ 30,  209044,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Orange Brewfest Bulwark
+				{ 101, 169448,                          [PRICE_EXTRA_ITTYPE] = "brewfest:10" },                            -- Bottomless Brewfest Stein
+				{ 102, 168915,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Tabard of Brew
+				{ 103, 169461,                          [PRICE_EXTRA_ITTYPE] = "brewfest:150" },                           -- Garland of Grain
+				{ 104, 245947,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Barrel Helm
+				{ 105, 241344,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Black Beret
+				{ 106, 241266,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Black Shoulder Cape
+				{ 107, 241348,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Black Kilt
+				{ 108, 249860,                          [PRICE_EXTRA_ITTYPE] = "37829:150" },                              -- Brewer's Black Belt
+				{ 109, 241346,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Green Beret
+				{ 110, 241342,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Green Shoulder Cape
+				{ 111, 241351,                          [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewer's Green Kilt
+				{ 112, 249859,                          [PRICE_EXTRA_ITTYPE] = "37829:150" },                              -- Brewer's Green Belt
+				{ 113, 33968,                           [PRICE_EXTRA_ITTYPE] = "37829:50" },                               -- Blue Brewfest Hat
+				{ 114, 33864,                           [PRICE_EXTRA_ITTYPE] = "37829:50" },                               -- Brown Brewfest Hat
+				{ 115, 33967,                           [PRICE_EXTRA_ITTYPE] = "37829:50" },                               -- Green Brewfest Hat
+				{ 116, 33969,                           [PRICE_EXTRA_ITTYPE] = "37829:50" },                               -- Purple Brewfest Hat
+				{ 117, 33863,                           [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewfest Dress
+				{ 118, 33966,                           [PRICE_EXTRA_ITTYPE] = "37829:100" },                              -- Brewfest Slippers
+				{ 119, 33862,                           [PRICE_EXTRA_ITTYPE] = "37829:200" },                              -- Brewfest Regalia
+				{ 120, 33868,                           [PRICE_EXTRA_ITTYPE] = "37829:100" },                              -- Brewfest Boots
+				{ 121, [ATLASLOOT_IT_ALLIANCE] = 33047, [ATLASLOOT_IT_HORDE] = 34008,         [PRICE_EXTRA_ITTYPE] = "brewfest:100" }, -- Belbi's Eyesight Enhancing Romance Goggles / Blix's Eyesight Enhancing Romance Goggles
+				{ 122, 138730,                          [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- Synthebrew Goggles XL
+				{ 123, 90426,                           [PRICE_EXTRA_ITTYPE] = "brewfest:2" },                             -- Brewhelm
+				{ 125, 37599,                           [PRICE_EXTRA_ITTYPE] = "brewfest:200" },                           -- "Brew of the Month" Club Membership Form
+				{ 126, 119209,                          [PRICE_EXTRA_ITTYPE] = "brewfest:50" },                            -- Angry Brewfest Letter
+				{ 127, 138884,                          [PRICE_EXTRA_ITTYPE] = "money:29000" },                            --Throwing Sausage
+				{ 129, 122339,                          [PRICE_EXTRA_ITTYPE] = "brewfest:300" },                           -- Ancient Heirloom Scabbard
+				{ 130, 122341,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Timeworn Heirloom Scabbard
+				{ 201, 151615,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Weathered Heirloom Scabbard
+				{ 202, 167732,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Battle-Hardened Heirloom Scabbard
+				{ 203, 187998,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Eternal Heirloom Scabbard
+				{ 204, 204337,                          [PRICE_EXTRA_ITTYPE] = "brewfest:500" },                           -- Awakened Heirloom Scabbard
 			},
 		},
 		{ --BrewfestFoodDrinks
 			name = AL["Food"].." & "..AL["Drinks"],
 			[NORMAL_DIFF] = {
-				{ 1,  33030 }, -- Barleybrew Clear
-				{ 2,  33028 }, -- Barleybrew Light
-				{ 3,  33029 }, -- Barleybrew Dark
-				{ 5,  33031 }, -- Thunder 45
-				{ 6,  33032 }, -- Thunderbrew Ale
-				{ 7,  33033 }, -- Thunderbrew Stout
-				{ 9,  33034 }, -- Gordok Grog
-				{ 10, 33036 }, -- Mudder's Milk
-				{ 11, 33035 }, -- Ogre Mead
-				{ 13, 34017 }, -- Small Step Brew
-				{ 14, 34018 }, -- Long Stride Brew
-				{ 15, 34019 }, -- Path of Brew
-				{ 16, 34020 }, -- Jungle River Water
-				{ 17, 34021 }, -- Brewdoo Magic
-				{ 18, 34022 }, -- Stout Shrunken Head
-				{ 20, 33929 }, -- Brewfest Brew
-				{ 22, 34063 }, -- Dried Sausage
-				{ 23, 33024 }, -- Pickled Sausage
-				{ 24, 38428 }, -- Rock-Salted Pretzel
-				{ 25, 33023 }, -- Savory Sausage
-				{ 26, 34065 }, -- Spiced Onion Cheese
-				{ 27, 33025 }, -- Spicy Smoked Sausage
-				{ 28, 34064 }, -- Succulent Sausage
-				{ 29, 33043 }, -- The Essential Brewfest Pretzel
-				{ 30, 33026 }, -- The Golden Link
+				{ 1,   [ATLASLOOT_IT_ALLIANCE] = 33030, [ATLASLOOT_IT_HORDE] = 34017,         [PRICE_EXTRA_ITTYPE] = "money:3" }, -- Barleybrew Clear / Small Step Brew
+				{ 2,   [ATLASLOOT_IT_ALLIANCE] = 33028, [ATLASLOOT_IT_HORDE] = 34018,         [PRICE_EXTRA_ITTYPE] = "money:15" }, -- Barleybrew Light / Long Stride Brew
+				{ 3,   [ATLASLOOT_IT_ALLIANCE] = 33029, [ATLASLOOT_IT_HORDE] = 34019,         [PRICE_EXTRA_ITTYPE] = "money:50" }, -- Barleybrew Dark / Path of Brew
+				{ 5,   33031 },                                                                                        -- Thunder 45
+				{ 6,   33032 },                                                                                        -- Thunderbrew Ale
+				{ 7,   33033 },                                                                                        -- Thunderbrew Stout
+				{ 9,   33034,                           [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Gordok Grog
+				{ 10,  33035,                           [PRICE_EXTRA_ITTYPE] = "money:640" },                          -- Ogre Mead
+				{ 11,  33036,                           [PRICE_EXTRA_ITTYPE] = "money:640" },                          -- Mudder's Milk
+				{ 12,  46403,                           [PRICE_EXTRA_ITTYPE] = "money:1040" },                         -- Chuganpug's Delight
+				{ 13,  138869,                          [PRICE_EXTRA_ITTYPE] = "money:9900" },                         -- Gordok Bock
+				{ 16,  46402,                           [PRICE_EXTRA_ITTYPE] = "money:1040" },                         -- Promise of the Pandaren
+				{ 17,  138868,                          [PRICE_EXTRA_ITTYPE] = "money:9900" },                         -- Mannoroth's Blood Red Ale
+				{ 18,  138871,                          [PRICE_EXTRA_ITTYPE] = "money:9900" },                         -- Storming Saison
+				{ 20,  34020,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                          -- Jungle River Water
+				{ 21,  34021,                           [PRICE_EXTRA_ITTYPE] = "money:200" },                          -- Brewdoo Magic
+				{ 22,  34022,                           [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Stout Shrunken Head
+				{ 23,  46401,                           [PRICE_EXTRA_ITTYPE] = "money:1040" },                         -- Crimson Stripe
+				{ 24,  138870,                          [PRICE_EXTRA_ITTYPE] = "money:9900" },                         -- Spirit Spirits
+				{ 26,  33929 },                                                                                        -- Brewfest Brew
+				{ 28,  169521,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Butterhoof Milk Stout
+				{ 29,  128841,                          [PRICE_EXTRA_ITTYPE] = "money:10000" },                        -- Highmountain Tiswin
+				{ 30,  169527,                          [PRICE_EXTRA_ITTYPE] = "money:800" },                          -- Thunder Stumbler
+				{ 101, 169469,                          [PRICE_EXTRA_ITTYPE] = "money:200" },                          -- Mag'helada
+				{ 102, 169468,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Ancestral Ale
+				{ 103, 169467,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Doomlager
+				{ 104, 169466,                          [PRICE_EXTRA_ITTYPE] = "money:800" },                          -- Everbloom IPA
+				{ 106, 169463,                          [PRICE_EXTRA_ITTYPE] = "money:200" },                          -- Nightwine Cooler
+				{ 107, 169462,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Boxed Nightwine
+				{ 108, 169464,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Sparkling Suramar Spritz
+				{ 109, 141209,                          [PRICE_EXTRA_ITTYPE] = "money:250000" },                       -- Distilled Nightwine
+				{ 111, 169459,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Saurid Sipper
+				{ 112, 169460,                          [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Really Really Really Old Fashioned
+				{ 113, 169458,                          [PRICE_EXTRA_ITTYPE] = "money:800" },                          -- Vol'dunshine
+				{ 114, 162573,                          [PRICE_EXTRA_ITTYPE] = "money:32400" },                        -- Amani Mule
+				{ 115, 166420,                          [PRICE_EXTRA_ITTYPE] = "money:32400" },                        -- Xibala Kombucha
+				{ 116, 34063,                           [PRICE_EXTRA_ITTYPE] = "money:50" },                           -- Dried Sausage
+				{ 117, 33024,                           [PRICE_EXTRA_ITTYPE] = "money:400" },                          -- Pickled Sausage
+				{ 118, 33023,                           [PRICE_EXTRA_ITTYPE] = "money:200" },                          -- Savory Sausage
+				{ 119, 33025,                           [PRICE_EXTRA_ITTYPE] = "money:500" },                          -- Spicy Smoked Sausage
+				{ 120, 34064,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                          -- Succulent Sausage
+				{ 121, 33026,                           [PRICE_EXTRA_ITTYPE] = "money:800" },                          -- The Golden Link
+				{ 122, 34065,                           [PRICE_EXTRA_ITTYPE] = "money:15" },                           -- Spiced Onion Cheese
+				{ 123, 33043,                           [PRICE_EXTRA_ITTYPE] = "money:3" },                            -- The Essential Brewfest Pretzel
+				{ 124, 38428,                           [PRICE_EXTRA_ITTYPE] = "money:8000" },                         -- Rock-Salted Pretzel
 			},
 		},
 		{ --BrewfestMonthClub
 			name = AL["Brew of the Month Club"],
 			[NORMAL_DIFF] = {
-				{ 1,  37599, [PRICE_EXTRA_ITTYPE] = "brewfest:200" }, -- "Brew of the Month" Club Membership Form
-				{ 3,  37488 },                            -- Wild Winter Pilsner (January)
-				{ 4,  37489 },                            -- Izzard's Ever Flavor (February)
-				{ 5,  37490 },                            -- Aromatic Honey Brew (March)
-				{ 6,  37491 },                            -- Metok's Bubble Bock (April)
-				{ 7,  37492 },                            -- Springtime Stout (May)
-				{ 8,  37493 },                            -- Blackrock Lager (June)
-				{ 18, 37494 },                            -- Stranglethorn Brew (July)
-				{ 19, 37495 },                            -- Draenic Pale Ale (August)
-				{ 20, 37496 },                            -- Binary Brew (September)
-				{ 21, 37497 },                            -- Autumnal Acorn Ale (October)
-				{ 22, 37498 },                            -- Bartlett's Bitter Brew (November)
-				{ 23, 37499 },                            -- Lord of Frost's Private Label (December)
+				{ 1,  37599,  [PRICE_EXTRA_ITTYPE] = "brewfest:200" }, -- "Brew of the Month" Club Membership Form
+				{ 3,  37488 },                             -- Wild Winter Pilsner (January)
+				{ 4,  37489 },                             -- Izzard's Ever Flavor (February)
+				{ 5,  37490 },                             -- Aromatic Honey Brew (March)
+				{ 6,  37491 },                             -- Metok's Bubble Bock (April)
+				{ 7,  37492 },                             -- Springtime Stout (May)
+				{ 8,  37493 },                             -- Blackrock Lager (June)
+				{ 16, 119209, [PRICE_EXTRA_ITTYPE] = "brewfest:50" }, -- Angry Brewfest Letter
+				{ 18, 37494 },                             -- Stranglethorn Brew (July)
+				{ 19, 37495 },                             -- Draenic Pale Ale (August)
+				{ 20, 37496 },                             -- Binary Brew (September)
+				{ 21, 37497 },                             -- Autumnal Acorn Ale (October)
+				{ 22, 37498 },                             -- Bartlett's Bitter Brew (November)
+				{ 23, 37499 },                             -- Lord of Frost's Private Label (December)
 			},
 		},
 	}

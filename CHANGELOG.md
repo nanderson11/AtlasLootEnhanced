@@ -1,6 +1,8 @@
 ﻿# Changelog
 
-## 9.18.1 -
+## 9.18.1 - September 25, 2025
+### Added
+- Added new Brewfest loot
 ### Changed
 - Made the filter and transmogrify buttons look a bit nicer
 

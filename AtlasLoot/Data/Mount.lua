@@ -1299,6 +1299,7 @@ local MOUNT_INFO = {
 		[1245358] = 247792, -- High Shaman's Aerie Gryphon
 		[1245359] = 247793, -- Cinder-Plumed Highland Gryphon
 		[1245370] = 247795, -- Ornery Breezestrider
+		[1247662] = 248761, -- Brewfest Bomber
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly
