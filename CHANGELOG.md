@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.18.1 -
+### Changed
+- Made the filter and transmogrify buttons look a bit nicer
+
 ## 9.18.0 - September 13, 2025
 ### Added
 - Added minor Dragonflight factions (Wrathion, Sabellian, Artisan's Consortium, Cobalt Assembly and Winterpelt Furbolg)

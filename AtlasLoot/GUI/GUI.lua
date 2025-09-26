@@ -1118,15 +1118,18 @@ function GUI:Create()
 	frame.contentFrame.clasFilterButton:SetScript("OnEvent", ClassFilterButton_OnEvent)
 	frame.contentFrame.clasFilterButton:SetScript("OnEnter", ClassFilterButton_OnEnter)
 	frame.contentFrame.clasFilterButton:SetScript("OnLeave", ClassFilterButton_OnLeave)
+	frame.contentFrame.clasFilterButton:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square")
+	frame.contentFrame.clasFilterButton:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
+	frame.contentFrame.clasFilterButton:CreateTexture(nil, "ARTWORK", "ActionBarFlyoutButton-IconFrame", -1)
 	frame.contentFrame.clasFilterButton.mainButton = true
 	frame.contentFrame.clasFilterButton:Hide()
 
-	frame.contentFrame.clasFilterButton.texture = frame.contentFrame.clasFilterButton:CreateTexture(frameName.."-clasFilterButton-texture", "ARTWORK")
+	frame.contentFrame.clasFilterButton.texture = frame.contentFrame.clasFilterButton:CreateTexture(frameName.."-clasFilterButton-texture", "BORDER")
 	frame.contentFrame.clasFilterButton.texture:SetAllPoints(frame.contentFrame.clasFilterButton)
 	frame.contentFrame.clasFilterButton.texture:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 
 	-- Transmog
-	frame.contentFrame.transmogButton = CreateFrame("Button", frameName.."-transmofButton")
+	frame.contentFrame.transmogButton = CreateFrame("Button", frameName.."-transmogButton")
 	frame.contentFrame.transmogButton:SetParent(frame.contentFrame)
 	frame.contentFrame.transmogButton:RegisterForClicks("LeftButtonUp", "RightButtonUp");
 	frame.contentFrame.transmogButton:SetWidth(25)
@@ -1138,9 +1141,12 @@ function GUI:Create()
 	--frame.contentFrame.transmogButton:SetScript("OnEvent", TransmogButton_OnEvent)
 	frame.contentFrame.transmogButton:SetScript("OnEnter", TransmogButton_OnEnter)
 	frame.contentFrame.transmogButton:SetScript("OnLeave", TransmogButton_OnLeave)
+	frame.contentFrame.transmogButton:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square")
+	frame.contentFrame.transmogButton:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
+	frame.contentFrame.transmogButton:CreateTexture(nil, "ARTWORK", "ActionBarFlyoutButton-IconFrame", -1)
 	--frame.contentFrame.transmogButton:Hide()
 
-	frame.contentFrame.transmogButton.texture = frame.contentFrame.transmogButton:CreateTexture(frameName.."-transmogButton-texture", "ARTWORK")
+	frame.contentFrame.transmogButton.texture = frame.contentFrame.transmogButton:CreateTexture(frameName.."-transmogButton-texture", "BORDER")
 	frame.contentFrame.transmogButton.texture:SetAllPoints(frame.contentFrame.transmogButton)
 	frame.contentFrame.transmogButton.texture:SetTexture("Interface\\Icons\\INV_Arcane_Orb")
 
