@@ -3,6 +3,8 @@
 ## 9.18.2 -
 ### Added
 - Atlas maps can be opened in combat
+### Fixed
+- Fixed Harvest Festival quest tooltip not showing the Horde quest for Horde
 
 ## 9.18.1 - September 25, 2025
 ### Added

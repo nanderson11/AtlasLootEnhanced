@@ -1392,12 +1392,13 @@ data["HarvestFestival"] = {
 		{ --HarvestFestival
 			name = AL["Harvest Festival"],
 			[NORMAL_DIFF] = {
-				{ 1,  19995 },                                                                          -- Harvest Boar
-				{ 2,  19996 },                                                                          -- Harvest Fish
-				{ 3,  19994 },                                                                          -- Harvest Fruit
-				{ 4,  19997 },                                                                          -- Harvest Nectar
-				{ 16, 19697 },                                                                          -- Bounty of the Harvest
-				{ 17, [ATLASLOOT_IT_ALLIANCE] = 20009, [ATLASLOOT_IT_HORDE] = 20010, [QUEST_EXTRA_ITTYPE] = 8149 }, -- For the Light! / The Horde's Hellscream
+				{ 1,  19995 },                                                                                                                              -- Harvest Boar
+				{ 2,  19996 },                                                                                                                              -- Harvest Fish
+				{ 3,  19994 },                                                                                                                              -- Harvest Fruit
+				{ 4,  19997 },                                                                                                                              -- Harvest Nectar
+				{ 16, [ATLASLOOT_IT_ALLIANCE] = 20009, [ATLASLOOT_IT_HORDE] = 20010, [QUEST_EXTRA_ITTYPE] = (UnitFactionGroup("player") == "Horde") and 8150 or 8149 }, -- For the Light! / The Horde's Hellscream
+				{ 17, 19697 },                                                                                                                              -- Bounty of the Harvest
+				{ 18, 19696 },                                                                                                                              -- Harvest Bread
 			},
 		},
 	}
