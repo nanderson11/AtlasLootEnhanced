@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.18.2 -
+### Added
+- Atlas maps can be opened in combat
+
 ## 9.18.1 - September 25, 2025
 ### Added
 - Added new Brewfest loot
