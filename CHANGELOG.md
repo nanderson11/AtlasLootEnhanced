@@ -3,6 +3,7 @@
 ## 9.18.2 -
 ### Added
 - Atlas maps can be opened in combat
+- Updated Harvest Festival items with some purchaseable fireworks that never got added to AtlasLoot
 ### Fixed
 - Fixed Harvest Festival quest tooltip not showing the Horde quest for Horde
 
