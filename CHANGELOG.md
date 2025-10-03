@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.18.2 -
+## 9.18.2 - October 2, 2025
 ### Added
+- Added October Trading Post items to Collections
 - Atlas maps can be opened in combat
 - Updated Harvest Festival items with some purchaseable fireworks that never got added to AtlasLoot
 ### Fixed
