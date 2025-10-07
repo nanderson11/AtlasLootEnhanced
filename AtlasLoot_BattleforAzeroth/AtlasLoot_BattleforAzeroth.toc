@@ -1,4 +1,4 @@
-﻿## Interface: 110200
+﻿## Interface: 110205
 
 ## Title: AtlasLoot |cFF0099FF[Battle for Azeroth]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Battle for Azeroth]|r

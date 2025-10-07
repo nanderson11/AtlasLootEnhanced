@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## 9.18.3 - October 7, 2025
+### Changed
+- Updated TOC to 11.2.5
+### Fixed
+- Fixed error on load
+
 ## 9.18.2 - October 2, 2025
 ### Added
 - Added October Trading Post items to Collections
