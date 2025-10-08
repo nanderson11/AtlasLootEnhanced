@@ -1175,6 +1175,7 @@ local function getItemPrice(strg, newPrice, costItemID)
 		[2003] = "dragonSupplies",  -- Dragon Isles Supplies
 		-- TWW
 		[2815] = "resonanceCrystal",
+		[3252] = "bronze",
 	}
 	--	/run print(getItemPrice("2175 #justice# / 60 #champseal#", 5000, "Interface\\Icons\\pvecurrency-justice"))
 	--	local englishFaction, _ = UnitFactionGroup("player")
