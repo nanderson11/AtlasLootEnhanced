@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.19.0 -
+## 9.19.0 - October 9, 2025
 ### Added
 - Added Legion Remix items to World Events (items from vendors and achievements, including the phase it's available in)
+- Expanded the Transmog highlight (renamed to Collected) to also work with mounts, pets and toys
 
 ## 9.18.3 - October 7, 2025
 ### Changed
