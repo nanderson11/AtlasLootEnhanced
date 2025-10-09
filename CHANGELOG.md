@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.0 -
+### Added
+- Added Legion Remix items to World Events (items from vendors and achievements, including the phase it's available in)
+
 ## 9.18.3 - October 7, 2025
 ### Changed
 - Updated TOC to 11.2.5
