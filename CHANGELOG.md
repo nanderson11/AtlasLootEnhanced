@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.2 -
+### Added
+- Added November Trading Post items to Collections
+
 ## 9.19.1 - October 22, 2025
 ### Added
 - Added new Hallow's End loot
