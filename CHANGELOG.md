@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.19.2 -
+## 9.19.2 - November 1, 2025
 ### Added
+- Added new Day of the Dead items to World Events
 - Added November Trading Post items to Collections
 
 ## 9.19.1 - October 22, 2025
