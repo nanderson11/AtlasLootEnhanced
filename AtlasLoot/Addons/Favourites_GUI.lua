@@ -283,7 +283,7 @@ local function SlotButton_OnEvent(self, event, itemID, success)
 	if event == "GET_ITEM_INFO_RECEIVED" and itemID == self.ItemID and success then
 		local quality = GetItemQuality(self.ItemString or self.ItemID)
 		self.qualityBorder:SetQualityBorder(quality)
-		if IsArtifactRelicItem(self.ItemString or self.ItemID) then
+		if C_ItemSocketInfo.IsArtifactRelicItem(self.ItemString or self.ItemID) then
 			self.qualityBorder:SetTexture("Interface\\Artifacts\\RelicIconFrame");
 		else
 			self.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame");
@@ -355,7 +355,7 @@ local function SlotButton_SetSlotItem(self, item)
 			else
 				self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 				self.qualityBorder:SetQualityBorder(quality)
-				if IsArtifactRelicItem(itemString or itemID) then
+				if C_ItemSocketInfo.IsArtifactRelicItem(itemString or itemID) then
 					self.qualityBorder:SetTexture("Interface\\Artifacts\\RelicIconFrame");
 				else
 					self.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame");

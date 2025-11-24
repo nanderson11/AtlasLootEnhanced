@@ -254,7 +254,7 @@ function Item.Refresh(button)
 		ITEM_QUALITY_COLORS[itemQuality].b,
 		1
 	)
-	if IsArtifactRelicItem(button.ItemString or button.ItemID) then
+	if C_ItemSocketInfo.IsArtifactRelicItem(button.ItemString or button.ItemID) then
 		button.qualityBorder:SetTexture("Interface\\Artifacts\\RelicIconFrame");
 	else
 		button.qualityBorder:SetTexture("Interface\\Common\\WhiteIconFrame");
