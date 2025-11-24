@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.3 - November 24, 2025
+### Added
+- Added new Pilgrim's Bounty items to World Events
+
 ## 9.19.2 - November 1, 2025
 ### Added
 - Added new Day of the Dead items to World Events

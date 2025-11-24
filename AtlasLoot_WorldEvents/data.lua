@@ -2205,43 +2205,47 @@ data["PilgrimsBounty"]        = {
 		{ --PilgrimsBounty
 			name = AL["Pilgrim's Bounty"],
 			[ALLIANCE_DIFF] = {
-				{ 1,  44810,  "pet201" },         -- Turkey Cage (ACM 1694)
-				{ 3,  46809 },                    -- Bountiful Cookbook
-				{ 4,  44860 },                    -- Recipe: Spice Bread Stuffing (p3 1)
-				{ 5,  44862 },                    -- Recipe: Pumpkin Pie (p3 100)
-				{ 6,  44858 },                    -- Recipe: Cranberry Chutney (p3 160)
-				{ 7,  44859 },                    -- Recipe: Candied Sweet Potato (p3 220)
-				{ 8,  44861 },                    -- Recipe: Slow-Roasted Turkey (p3 280)
-				{ 10, 46888 },                    -- Bountiful Basket (p3 350)
-				{ 11, 44855,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Teldrassil Sweet Potato
-				{ 12, 44854,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Tangy Wetland Cranberries
-				{ 13, 46784,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Ripe Elwynn Pumpkin
-				{ 14, 44835,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Autumnal Herbs
-				{ 15, 44853,  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Honey
-				{ 16, 44844,  [QUEST_EXTRA_ITTYPE] = 14035 }, -- Turkey Caller
-				{ 18, 46723 },                    -- Pilgrim's Hat (Daily reward)
-				{ 19, 46800 },                    -- Pilgrim's Attire (Daily reward)
-				{ 20, 44785 },                    -- Pilgrim's Dress (Daily reward)
-				{ 21, 46824 },                    -- Pilgrim's Robe (Daily reward)
-				{ 22, 44788 },                    -- Pilgrim's Boots (Daily reward)
-				{ 23, 44812 },                    -- Turkey Shooter (Daily reward)
-				{ 25, 116404 },                   -- Pilgrim's Bounty
-				{ 26, 116401 },                   -- Fine Pilgrim's Hat
-				{ 27, 116403, "pet1516" },        -- Frightened Bush Chicken
-				{ 28, 116400 },                   -- Silver-Plated Turkey Shooter
+				{ 1,  44810,  "pet201" },                                           -- Turkey Cage (ACM 1694)
+				{ 2,  44844,  [QUEST_EXTRA_ITTYPE] = 14035 },                       -- Turkey Caller
+				{ 3,  46809,  [PRICE_EXTRA_ITTYPE] = "money:100" },                 -- Bountiful Cookbook
+				{ 4,  44860 },                                                      -- Recipe: Spice Bread Stuffing (p3 1)
+				{ 5,  44862 },                                                      -- Recipe: Pumpkin Pie (p3 100)
+				{ 6,  44858 },                                                      -- Recipe: Cranberry Chutney (p3 160)
+				{ 7,  44859 },                                                      -- Recipe: Candied Sweet Potato (p3 220)
+				{ 8,  44861 },                                                      -- Recipe: Slow-Roasted Turkey (p3 280)
+				{ 10, 46888,  [PRICE_EXTRA_ITTYPE] = "money:2000" },                -- Bountiful Basket (p3 350)
+				{ 11, 44855,  [ATLASLOOT_IT_AMOUNT1] = 5 },                         -- Teldrassil Sweet Potato
+				{ 12, 44854,  [ATLASLOOT_IT_AMOUNT1] = 5 },                         -- Tangy Wetland Cranberries
+				{ 13, 46784,  [ATLASLOOT_IT_AMOUNT1] = 5 },                         -- Ripe Elwynn Pumpkin
+				{ 14, 44835,  [PRICE_EXTRA_ITTYPE] = "money:10",  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Autumnal Herbs
+				{ 15, 44853,  [PRICE_EXTRA_ITTYPE] = "money:25",  [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Honey
+				{ 16, 46723 },                                                      -- Pilgrim's Hat (Daily reward)
+				{ 17, 46800 },                                                      -- Pilgrim's Attire (Daily reward)
+				{ 18, 44785 },                                                      -- Pilgrim's Dress (Daily reward)
+				{ 19, 46824 },                                                      -- Pilgrim's Robe (Daily reward)
+				{ 20, 44788 },                                                      -- Pilgrim's Boots (Daily reward)
+				{ 21, 44812 },                                                      -- Turkey Shooter (Daily reward)
+				{ 23, 116404 },                                                     -- Pilgrim's Bounty
+				{ 24, 116401 },                                                     -- Fine Pilgrim's Hat
+				{ 25, 116403, "pet1516" },                                          -- Frightened Bush Chicken
+				{ 26, 116400 },                                                     -- Silver-Plated Turkey Shooter
+				{ 27, 248716 },                                                     -- Green Bountiful Backpack
+				{ 28, 248718 },                                                     -- Purple Bountiful Backpack
+				{ 29, 248717 },                                                     -- Orange Bountiful Backpack
+				{ 30, 248719 },                                                     -- White Bountiful Backpack
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 3,  46810 },                   -- Bountiful Cookbook
-				{ 4,  46803 },                   -- Recipe: Spice Bread Stuffing (p3 1)
-				{ 5,  46804 },                   -- Recipe: Pumpkin Pie (p3 100)
-				{ 6,  46805 },                   -- Cranberry Chutney (p3 160)
-				{ 7,  46806 },                   -- Recipe: Candied Sweet Potato (p3 220)
-				{ 8,  46807 },                   -- Recipe: Slow-Roasted Turkey (p3 280)
+				{ 2,  44844, [QUEST_EXTRA_ITTYPE] = 14047 }, -- Turkey Caller
+				{ 3,  46810, [PRICE_EXTRA_ITTYPE] = "money:100" }, -- Bountiful Cookbook
+				{ 4,  46803 },                         -- Recipe: Spice Bread Stuffing (p3 1)
+				{ 5,  46804 },                         -- Recipe: Pumpkin Pie (p3 100)
+				{ 6,  46805 },                         -- Cranberry Chutney (p3 160)
+				{ 7,  46806 },                         -- Recipe: Candied Sweet Potato (p3 220)
+				{ 8,  46807 },                         -- Recipe: Slow-Roasted Turkey (p3 280)
 				{ 11, 46797, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Mulgore Sweet Potato
 				{ 12, 46793, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Tangy Southfury Cranberries
 				{ 13, 46796, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Ripe Tirisfal Pumpkin
-				{ 16, 44844, [QUEST_EXTRA_ITTYPE] = 14047 }, -- Turkey Caller
 			},
 		},
 	}
