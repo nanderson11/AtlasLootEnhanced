@@ -1517,6 +1517,11 @@ data["MOUNTS"]             = {
 				{ 527, 250926, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },           -- Highlands Gobbler
 				{ 528, 258515, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Crimson Lupine
 				{ 529, 259463, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Snowpaw Glimmerfur Prowler
+				{ 530, 258188, "mount", [ACH_EXTRA_ITTYPE] = 61451 },                    -- Geargrinder Mk. 11
+				{ 601, 257511, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Wilderling Harness
+				{ 602, 257514, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Corpsefly Harness
+				{ 603, 257516, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Gravewing Harness
+				{ 604, 257513, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Aquilon Harness
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
