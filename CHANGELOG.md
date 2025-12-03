@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.5 -
+### Added
+- Added Illusion: Nightmare and Illusion: Chronos to Horos in Legion Remix
+
 ## 9.19.4 - December 3, 2025
 ### Added
 - Added Shadowlands Timewalking rewards

@@ -1314,6 +1314,8 @@ data["Remix"]                 = {
 				{ 126, 152982,       [PRICE_EXTRA_ITTYPE] = "bronze:80000" },                             -- Vixx's Chest of Tricks
 				{ 127, 153004,       [PRICE_EXTRA_ITTYPE] = "bronze:100000" },                            -- Unstable Portal Emitter
 				{ 128, 153194,       [PRICE_EXTRA_ITTYPE] = "bronze:25000" },                             -- Legion Communication Orb
+				{ 129, 138827,       [PRICE_EXTRA_ITTYPE] = "bronze:80000" },                             -- Illusion: Nightmare
+				{ 130, 138828,       [PRICE_EXTRA_ITTYPE] = "bronze:100000" },                            -- Illusion: Chronos
 			}
 		},
 		{
