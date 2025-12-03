@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.4 - December 3, 2025
+### Changed
+- Updated TOC to 11.2.7
+
 ## 9.19.3 - November 24, 2025
 ### Added
 - Added new Pilgrim's Bounty items to World Events

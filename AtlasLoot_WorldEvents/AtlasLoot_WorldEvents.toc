@@ -1,4 +1,4 @@
-﻿## Interface: 110205
+﻿## Interface: 110207
 
 ## Title: AtlasLoot |cFF0099FF[World Events]|r
 ## Title-deDE: AtlasLoot |cFF0099FF[Weltereignisse]|r

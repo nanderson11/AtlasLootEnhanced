@@ -1,4 +1,4 @@
-## Interface: 110205
+## Interface: 110207
 
 ## Title: AtlasLoot |cFF0099FF[Shadowlands]|r
 ## Title-zhTW: AtlasLoot |cFF0099FF[暗影之境]|r
