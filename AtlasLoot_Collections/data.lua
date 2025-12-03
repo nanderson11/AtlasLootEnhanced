@@ -1522,6 +1522,9 @@ data["MOUNTS"]             = {
 				{ 602, 257514, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Corpsefly Harness
 				{ 603, 257516, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Gravewing Harness
 				{ 604, 257513, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Aquilon Harness
+				{ 605, 212228, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" },           -- Reins of the Soaring Sky Fox
+				{ 606, 248994, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },           -- Kalu'ak Crest-Horn
+				{ 607, 211085, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- Jeweled Sapphire Scarab
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -6582,6 +6585,7 @@ data["COMPANIONS"]         = {
 				{ 509, 244914, "pet4833" },                                               -- Xanthous Siphonmite
 				{ 510, 205148, "pet3542", [PRICE_EXTRA_ITTYPE] = "tender:200" },          -- Soot-Stained Shalewing
 				{ 511, 246337, "pet4853", [PRICE_EXTRA_ITTYPE] = "tender:250" },          -- Rustyroot Fel Snooter
+				{ 512, 252200, "pet4900", [PRICE_EXTRA_ITTYPE] = "tender:250" },          -- Bundled-Up Bob
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute

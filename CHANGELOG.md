@@ -3,6 +3,7 @@
 ## 9.19.4 - December 3, 2025
 ### Added
 - Added Shadowlands Timewalking rewards
+- Added December Trading Post items to Collections
 - Added mounts from Master of the Turbulent Timeways IV and Worldsoul-Searching to Collections
 ### Changed
 - Updated TOC to 11.2.7
