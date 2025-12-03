@@ -347,8 +347,9 @@ data["TIMEWALKINGEVENT"]   = {
 		{ -- Any Timewalking Vendor
 			name = AL["Any Timewalking Vendor"],
 			[NORMAL_DIFF] = {
-				{ 1,  205208, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
-				{ 2,  232624, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
+				{ 1,  238739, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Chrono Corsair
+				{ 2,  205208, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
+				{ 3,  232624, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
 				{ 16, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                                -- Ancient Heirloom Armor Casing
 				{ 17, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" },                                -- Ancient Heirloom Scabbard
 				{ 18, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                               -- Timeworn Heirloom Armor Casing
@@ -361,6 +362,62 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 25, 187998, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Eternal Heirloom Scabbard
 				{ 26, 204336, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Awakened Heirloom Armor Casing
 				{ 27, 204337, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Awakened Heirloom Scabbard
+			},
+		},
+		{ -- Shadowlands
+			name = EXPANSION_NAME8,
+			[NORMAL_DIFF] = {
+				{ 1,   258515,         "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Crimson Lupine
+				{ 2,   259463,         "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Snowpaw Glimmerfur Prowler
+				{ 3,   254876,         "pet4911",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- P.O.S.T. Assistant
+				{ 4,   256893,         [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Wretched Dredger's Brand
+				{ 5,   256881,         [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Steward's Bauble
+				{ 7,   254760,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of the Ascended
+				{ 8,   254746,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of the Court of Harvesters
+				{ 9,   254771,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of the Death's Advance
+				{ 10,  254775,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of the Enlightened
+				{ 11,  254758,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of The Wild Hunt
+				{ 12,  254759,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Commendation of the Undying Army
+				{ 14,  254845,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Hammer of the Fallen Lightbringer
+				{ 15,  254844,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Hammer of the Righteous Lightbringer
+				{ 16,  258528,         [PRICE_EXTRA_ITTYPE] = "timewarped:2500" }, -- Greathammer of the Righteous Lightbringer
+				{ 17,  258527,         [PRICE_EXTRA_ITTYPE] = "timewarped:2500" }, -- Greathammer of the Fallen Lightbringer
+				{ 18,  254864,         [PRICE_EXTRA_ITTYPE] = "timewarped:600" }, -- Oozeframe of the Mad Alchemist
+				{ 19,  254851,         [PRICE_EXTRA_ITTYPE] = "timewarped:600" }, -- Maw Stalker's Quiver
+				{ 20,  254852,         [PRICE_EXTRA_ITTYPE] = "timewarped:600" }, -- Spirit Marksman's Quiver
+				{ 21,  254865,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Shell of the Forbidden Land
+				{ 22,  254854,         [PRICE_EXTRA_ITTYPE] = "timewarped:450" }, -- Putrid Necromancer Mantle
+				{ 23,  254855,         [PRICE_EXTRA_ITTYPE] = "timewarped:450" }, -- Amice of the Dark Necromancer
+				{ 24,  254873,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Zerith Vibroblade
+				{ 25,  254858,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Crossbow of the First Ones
+				{ 26,  254857,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Maw Executioner's Guillotine
+				{ 27,  254866,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Progenitor's Fractured Smasher
+				{ 28,  254853,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Lance of the Architects
+				{ 29,  254856,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Soul Harvester's Scythe
+				{ 30,  254872,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Creator's Rod of Origin
+				{ 101, 254860,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Longsword of the First Ones
+				{ 102, 254862,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Runeblade of the Maldraxxus Paragon
+				{ 103, 254861,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Sinstone Cleaver
+				{ 104, 258662,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Progenitor's Custodial Sentry
+				{ 105, 254867,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" }, -- Progenitor's Fix-It-Up
+				{ 106, 254863,         [PRICE_EXTRA_ITTYPE] = "timewarped:100" }, -- Staff of the Penitent
+				{ 108, "256336:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:100" }, -- Kyrian Sky Splitter
+				{ 109, "254868:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Sacred Bell of the Ascended
+				{ 110, "256337:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:100" }, -- The Price Adjuster
+				{ 111, "256339:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Anima Drinker's Rapier
+				{ 112, "256338:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Dagger of Forgotten Vows
+				{ 113, "256340:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:100" }, -- Skyguard's Longbow
+				{ 114, "256341:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:100" }, -- Faithspire Redeemer
+				{ 115, "256348:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Fallen Ascendant's Bulwark
+				{ 116, "256349:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },  -- Warglaives of Devotion
+				{ 117, "256350:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Animaforged Sentinel's Plate
+				{ 118, "256351:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Robe of the Forsworn Seer
+				{ 119, "256352:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Mantle of Harmonized Spirit
+				{ 120, "256353:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Elysian Pathfinder's Mail
+				{ 121, "256359:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Cowl of the Forsworn Seer
+				{ 122, "256360:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Mask of Harmonized Spirit
+				{ 123, "256358:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Elysian Pathfinder's Visor
+				{ 124, "256355:12377", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },  -- Animaforged Sentinel's Helm
 			},
 		},
 		{ -- Battle for Azeroth

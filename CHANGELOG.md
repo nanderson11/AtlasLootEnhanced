@@ -1,6 +1,8 @@
 ﻿# Changelog
 
 ## 9.19.4 - December 3, 2025
+### Added
+- Added Shadowlands Timewalking rewards
 ### Changed
 - Updated TOC to 11.2.7
 
