@@ -5,6 +5,7 @@
 - Added Shadowlands Timewalking rewards
 ### Changed
 - Updated TOC to 11.2.7
+- Updated Chrono Corsair and OC91 Chariot acquisition from achievement to currency
 
 ## 9.19.3 - November 24, 2025
 ### Added
