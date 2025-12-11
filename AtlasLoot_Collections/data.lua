@@ -1525,6 +1525,8 @@ data["MOUNTS"]             = {
 				{ 605, 212228, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" },           -- Reins of the Soaring Sky Fox
 				{ 606, 248994, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },           -- Kalu'ak Crest-Horn
 				{ 607, 211085, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- Jeweled Sapphire Scarab
+				{ 608, 259227, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000" },       -- Brawlin' Bruno
+				{ 609, 259238, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" },      -- Ballistic Bronco
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
