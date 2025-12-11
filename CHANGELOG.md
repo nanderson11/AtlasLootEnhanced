@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.19.5 -
+## 9.19.5 - December 10, 2025
 ### Added
 - Updated Brawler's Guild rewards in World Events
+- Added support for housing decor in the Collected highlight (more decor items coming)
 - Added K'arroc Swiftwing mount to Collections
 - Added Illusion: Nightmare and Illusion: Chronos to Horos in Legion Remix
 
