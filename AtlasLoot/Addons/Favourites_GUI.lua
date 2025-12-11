@@ -309,6 +309,16 @@ local function SlotButton_OnEvent(self, event, itemID, success)
 				self.overlay2:SetAtlas("ConduitIconFrame-Corners");
 				self.overlay2:Show();
 			end
+		elseif C_Item.IsDecorItem(itemID) then
+			local color = HIGHLIGHT_FONT_COLOR;
+			self.overlay:SetVertexColor(
+				color.r,
+				color.g,
+				color.b,
+				1
+			);
+			self.overlay:SetAtlas("housing-item-wood-frame_64");
+			self.overlay:Show();
 		end
 		self:UnregisterEvent("GET_ITEM_INFO_RECEIVED")
 	end
@@ -381,6 +391,16 @@ local function SlotButton_SetSlotItem(self, item)
 						self.overlay2:SetAtlas("ConduitIconFrame-Corners");
 						self.overlay2:Show();
 					end
+				elseif C_Item.IsDecorItem(itemString or itemID) then
+					local color = HIGHLIGHT_FONT_COLOR;
+					self.overlay:SetVertexColor(
+						color.r,
+						color.g,
+						color.b,
+						1
+					);
+					self.overlay:SetAtlas("housing-item-wood-frame_64");
+					self.overlay:Show();
 				end
 			end
 			self.qualityBorder:Show()

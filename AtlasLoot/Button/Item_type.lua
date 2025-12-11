@@ -280,6 +280,16 @@ function Item.Refresh(button)
 			button.overlay2:SetAtlas("ConduitIconFrame-Corners");
 			button.overlay2:Show();
 		end
+	elseif C_Item.IsDecorItem(button.ItemString or button.ItemID) then
+		local color = HIGHLIGHT_FONT_COLOR;
+		button.overlay:SetVertexColor(
+			color.r,
+			color.g,
+			color.b,
+			1
+		);
+		button.overlay:SetAtlas("housing-item-wood-frame_64");
+		button.overlay:Show();
 	end
 
 	if not LOOT_BORDER_BY_QUALITY[itemQuality] then
