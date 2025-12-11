@@ -244,154 +244,138 @@ data["BrawlersGuild"]         = {
 	name = ALIL["Bizmo's Brawlpub"].." / "..ALIL["Brawl'gar Arena"],
 	ContentType = PERMRECEVENTS_CONTENT,
 	items = {
-		{ --Rank1-4
+		{ --Rank 1-4
 			name = format(AL["Rank %d"], 1).." - "..format(AL["Rank %d"], 4),
 			[ALLIANCE_DIFF] = {
-				--{ 1, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 2), nil },
-				-- no longer available { 2, 118907, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
-
-				{ 1,  "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 3),              nil },
-				{ 2,  93025,                                     "pet1142",                              [PRICE_EXTRA_ITTYPE] = "money:3000" }, -- Clock'em
-				{ 3,  144394,                                    "pet2022",                              [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden, Added in patch 7.1.5.23360
-
-				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 4),              nil },
-				--[[ no longer available
-				{ 17, 98079, [QUEST_EXTRA_ITTYPE] = 32837 },	-- Floot-Tooter's Tunic
-				{ 18, 98081, [QUEST_EXTRA_ITTYPE] = 32841 },	-- The Boomshirt
-				{ 19, 98082, [QUEST_EXTRA_ITTYPE] = 32859 },	-- Undisputed Champion's Shirt
-				{ 20, 118913, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Agility Potion
-				{ 21, 118914, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Intellect Potion
-				{ 22, 118915, [PRICE_EXTRA_ITTYPE] = "money:1000000" },	-- Brawler's Bottomless Draenic Strength Potion
-				]]
-				{ 17, 144391,                                    [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
-				--{ 27, 93195, "ac9169" },	-- Brawler's Pass
-				{ 18, 93195,                                     "ac11563" },                   -- Brawler's Pass
+				{ 1,  "f2767rep2" },
+				{ 2,  263026,     [PRICE_EXTRA_ITTYPE] = "money:5000000" },                             -- Brawler's Barricade
+				{ 4,  "f2767rep3" },
+				{ 5,  93025,      "pet1142",                              [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Clock'em
+				{ 6,  144394,     "pet2022",                              [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden
+				{ 16, "f2767rep4" },
+				{ 17, 144391,     [PRICE_EXTRA_ITTYPE] = "money:20000000" },                            -- Pugilist's Powerful Punching Ring
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				-- { 14, 118908, [PRICE_EXTRA_ITTYPE] = "money:200000000" },	-- Pit Fighter's Punching Ring
-				{ 17, 144392, [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring, Added in patch 7.1.5.23360
-				--{ 27, 93228, "ac9173" },	-- Brawler's Pass
-				{ 18, 93228,  "ac11564" },                   -- Brawler's Pass
+				{ 1,  "f2766rep2" },
+				{ 4,  "f2766rep3" },
+				{ 16, "f2766rep4" },
+				{ 17, 144392,     [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring
 			},
 		},
-		{ --Rank5-8
+		{ --Rank 5-8
 			name = format(AL["Rank %d"], 5).." - "..format(AL["Rank %d"], 8),
 			[ALLIANCE_DIFF] = {
-				{ 1,  "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 5),               nil },
-				{ 2,  98084,                                     [QUEST_EXTRA_ITTYPE] = 32845 },                                        -- Ooze-Soaked Shirt
-				{ 3,  98083,                                     [QUEST_EXTRA_ITTYPE] = 32843 },                                        -- Sharkskin Tunic
-				{ 4,  98086,                                     [QUEST_EXTRA_ITTYPE] = 32849 },                                        -- Tuxedo-Like Shirt
-				{ 6,  "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 6),               nil },
-				{ 7,  98080,                                     [QUEST_EXTRA_ITTYPE] = 32839 },                                        -- Gorgeous Blouse
-				{ 8,  98091,                                     [QUEST_EXTRA_ITTYPE] = 32851 },                                        -- Last Season's Shirt
-				{ 9,  127773,                                    [PRICE_EXTRA_ITTYPE] = "money:10000000" },                             -- Gemcutter Module: Mastery
-				{ 16, "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 7),               nil },
-				{ 17, 98543,                                     "ac9176" },                                                            -- Wraps of the Blood-Soaked Brawler
-				{ 18, 98085,                                     [QUEST_EXTRA_ITTYPE] = 32847 },                                        -- Brucehide Jersey
-				{ 19, 98092,                                     [QUEST_EXTRA_ITTYPE] = 32853 },                                        -- Digmaster's Bodysleeve
-				{ 20, 98087,                                     [QUEST_EXTRA_ITTYPE] = 32857 },                                        -- Paper Shirt
-				{ 21, 98093,                                     [QUEST_EXTRA_ITTYPE] = 32855 },                                        -- Sightless Mantle
-				{ 23, "ICON_warrior_talent_icon_furyintheblood", nil,                                    format(AL["Rank %d"], 8),               nil },
-				{ 24, 122396,                                    [PRICE_EXTRA_ITTYPE] = "money:10000000" },                             -- Brawler's Razor Claws
-				{ 25, 98405,                                     "mount",                                [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Brawler's Burly Mushan Beast
-				{ 26, 142403,                                    "mount",                                [PRICE_EXTRA_ITTYPE] = "money:40000000" }, -- Brawler's Burly Basilisk
-
+				{ 1,  "f2767rep5" },
+				{ 2,  167812,     [PRICE_EXTRA_ITTYPE] = "money:30000000" },                               -- Brawler's Guild Tabard
+				{ 3,  259071,     [PRICE_EXTRA_ITTYPE] = "money:40000000" },                               -- Brawler's Guild Punching BagIndex
+				{ 5,  "f2767rep6" },
+				{ 6,  259227,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:40000000" }, -- Brawlin' Bruno
+				{ 16, "f2767rep7" },
+				{ 17, 255840,     [PRICE_EXTRA_ITTYPE] = "money:80000000" },                               -- Champion Brawler's Gloves
+				{ 19, "f2767rep8" },
+				{ 20, 122396,     [PRICE_EXTRA_ITTYPE] = "money:10000000" },                               -- Brawler's Razor Claws
+				{ 21, 167892,     [PRICE_EXTRA_ITTYPE] = "money:100000000" },                              -- Ensemble: Brawler's Garb
+				{ 22, 259238,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Ballistic Bronco
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 17, 98543, "ac9177" }, -- Wraps of the Blood-Soaked Brawler
+				{ 1,  "f2766rep5" },
+				{ 5,  "f2766rep6" },
+				{ 16, "f2766rep7" },
+				{ 19, "f2766rep8" },
 			},
 		},
 		{ -- Challenge Card
 			name = AL["Challenge Card"],
 			[ALLIANCE_DIFF] = {
-				{ 1,   "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 1), nil },
-				{ 2,   143899 }, -- Challenge Card: Oso the Betrayer
-				{ 3,   97285 }, -- Challenge Card: Grandpa Grumplefloot
-				{ 4,   142042 }, -- Challenge Card: Ooliss
-				{ 5,   142035 }, -- Challenge Card: Warhammer Council
-				{ 6,   "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 2), nil },
-				{ 7,   94162 }, -- Challenge Card: Dippy
-				{ 8,   142041 }, -- Challenge Card: Bill the Janitor
-				{ 9,   94167 }, -- Challenge Card: Sanoriak
-				{ 10,  142036 }, --Challenge Card: Master Paku
-				{ 11,  "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 3), nil },
-				{ 12,  142043 }, -- Challenge Card: Doomflipper
-				{ 13,  94166 }, -- Challenge Card: Blat
-				{ 14,  142032 }, -- Challenge Card: Johnny Awesome
-				{ 15,  142039 }, -- Challenge Card: Shadowmaster Aameen
-				{ 16,  "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 4), nil },
-				{ 17,  142030 }, -- Challenge Card: Burnstachio
-				{ 18,  94181 }, -- Challenge Card: Meatball
-				{ 19,  94178 }, -- Challenge Card: G.G. Engineering
-				{ 20,  142045 }, -- Challenge Card: Stitches
-				{ 21,  "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 5), nil },
-				{ 22,  142026 }, -- Challenge Card: Blackmange
-				{ 23,  97566 }, -- Challenge Card: Razorgrin
-				{ 24,  94177 }, -- Challenge Card: Leper Gnomes
-				{ 25,  142028 }, -- Challenge Card: Thwack U
-				{ 26,  "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 6), nil },
-				{ 27,  142033 }, -- Challenge Card: Carl
-				{ 28,  94174 }, -- Challenge Card: Millie Watt
-				{ 29,  142029 }, -- Challenge Card: Ogrewatch
-				{ 30,  142037 }, -- Challenge Card: Topps
-				{ 101, "ICON_warrior_talent_icon_furyintheblood", nil, format(AL["Rank %d"], 7), nil },
-				{ 102, 97283 }, -- Challenge Card: Nibbleh
-				{ 103, 142038 }, -- Challenge Card: Serpent of Old
-				{ 104, 94182 }, -- Challenge Card: Epicus Maximus
-				{ 105, 142031 }, -- Challenge Card: Ray D. Tear
-				{ 106, 143794 }, -- Challenge Card: A Seagull
-				{ 107, 142040 }, -- Challenge Card: Ash'katzuum
-				{ 108, 142034 }, -- Challenge Card: Beat Box
-				{ 109, 142044 }, -- Challenge Card: Strange Thing
+				{ 1,   "f2767rep8" },
+				{ 2,   253581,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Sunny
+				{ 3,   142043,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Doomflipper
+				{ 4,   94160,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Goredome
+				{ 5,   94162,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Dippy
+				{ 6,   93823,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Bruce
+				{ 7,   142041,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Bill the Janitor
+				{ 8,   253868,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: The Quacken
+				{ 9,   97566,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Razorgrin
+				{ 10,  143899,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Oso the Betrayer
+				{ 11,  94166,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Blat
+				{ 12,  142042,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Ooliss
+				{ 13,  94165,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: King Kulaka
+				{ 14,  94181,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Meatball
+				{ 15,  142040,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Ash'katzuum
+				{ 16,  94170,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Crush
+				{ 17,  253515,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Glorp
+				{ 18,  144439,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Klunk
+				{ 19,  142045,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Stitches
+				{ 20,  142037,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Topps
+				{ 21,  142033,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Carl
+				{ 22,  94177,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Leper Gnomes
+				{ 23,  97563,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Mecha-Bruce
+				{ 24,  94178,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: G.G. Engineering
+				{ 25,  97280,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Dippy & Doopy
+				{ 26,  253575,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Renegade Swabbie
+				{ 27,  142029,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Ogrewatch
+				{ 28,  97445,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Blingtron 3000
+				{ 29,  94182,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Epicus Maximus
+				{ 30,  94186,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Unguloxx
+				{ 101, 97283,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Nibbleh
+				{ 102, 166809,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Thog Hammerspace
+				{ 103, 142032,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Johnny Awesome
+				{ 104, 165709,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Mama Stormstout
+				{ 105, 94164,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Fran & Riddoh
+				{ 106, 94161,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Vishas
+				{ 107, 94168,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Ixx
+				{ 108, 94171,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Leona
+				{ 109, 94172,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Dominika
+				{ 110, 94173,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Deeken
+				{ 111, 94176,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Proboskus
+				{ 112, 142026,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Blackmange
+				{ 113, 93824,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Vian
+				{ 114, 94163,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Kirrawk
+				{ 115, 94174,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Millie Watt
+				{ 116, 94175,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Fjoll
+				{ 117, 97321,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Blind Hero
+				{ 118, 143794,     [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: A Seagull
+				{ 119, 94179,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Dark Summoner
+				{ 120, 94167,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Sanoriak
+				{ 121, 94183,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Yikkan Izu
+				{ 122, 94184,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: Akama
+				{ 123, 97559,      [PRICE_EXTRA_ITTYPE] = "money:30000" }, -- Challenge Card: T440 Dual-Mode Robot
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, "f2766rep8" },
 			},
 		},
 		{ -- Miscellaneous
 			name = AL["Miscellaneous"],
 			[ALLIANCE_DIFF] = {
 				-- Potions
-				--[[ no longer available
-				{ 1, 118916, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Healing Tonic
-				{ 2, 118910, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Agility Potion
-				{ 3, 118911, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Intellect Potion
-				{ 4, 118912, [PRICE_EXTRA_ITTYPE] = "money:15000", [ATLASLOOT_IT_AMOUNT1] = 5 },	-- Brawler's Draenic Strength Potion
-				]]
-				{ 1,   142325, [PRICE_EXTRA_ITTYPE] = "money:20000" },                     -- Brawler's Ancient Healing Potion, added in 7.1.5.23360
-				{ 2,   142326, [PRICE_EXTRA_ITTYPE] = "money:150000" },                    -- Brawler's Potion of Prolonged Power, added in 7.1.5.23360
+				{ 1,  253011, [PRICE_EXTRA_ITTYPE] = "money:24000" },                     -- Brawler's Healing Brute Punch
+				{ 2,  253016, [PRICE_EXTRA_ITTYPE] = "money:200000" },                    -- Brawler's Fight Tonic of Intellect
+				{ 3,  253015, [PRICE_EXTRA_ITTYPE] = "money:200000" },                    -- Brawler's Fight Tonic of Agility
+				{ 4,  253014, [PRICE_EXTRA_ITTYPE] = "money:200000" },                    -- Brawler's Fight Tonic of Strength
 
-				{ 4,   93043,  [PRICE_EXTRA_ITTYPE] = "money:10000",     [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Apple
-				{ 5,   93044,  [PRICE_EXTRA_ITTYPE] = "money:10000",     [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Banana
-				{ 6,   93045,  [PRICE_EXTRA_ITTYPE] = "money:10000",     [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Watermelon
-				{ 7,   93158,  [PRICE_EXTRA_ITTYPE] = "money:10000",     [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Expired Blackout Brew
+				{ 6,  93043,  [PRICE_EXTRA_ITTYPE] = "money:8000",      [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Apple
+				{ 7,  93044,  [PRICE_EXTRA_ITTYPE] = "money:8000",      [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Banana
+				{ 8,  93045,  [PRICE_EXTRA_ITTYPE] = "money:8000",      [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rotten Watermelon
+				{ 9,  93158,  [PRICE_EXTRA_ITTYPE] = "money:8000",      [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Expired Blackout Brew
 
-				{ 16,  144371 },                                                           -- Gorestained Tunic
-				{ 17,  144366 },                                                           -- Dubvest
-				{ 18,  144367 },                                                           -- Observer's Shirt
-				{ 19,  144372 },                                                           -- Hide of the Murderaffe
-				{ 20,  144365 },                                                           -- The Very Best Shirt
-				{ 21,  144370 },                                                           -- Croc-Tooth Harness
-				{ 22,  144368 },                                                           -- Felfeather Jersey
-				{ 23,  151263 },                                                           -- Electrified Compression Shirt
+				{ 16, 144371 },                                                           -- Gorestained Tunic
+				{ 17, 144366 },                                                           -- Dubvest
+				{ 18, 144367 },                                                           -- Observer's Shirt
+				{ 19, 144372 },                                                           -- Hide of the Murderaffe
+				{ 20, 144365 },                                                           -- The Very Best Shirt
+				{ 21, 144370 },                                                           -- Croc-Tooth Harness
+				{ 22, 144368 },                                                           -- Felfeather Jersey
+				{ 23, 151263 },                                                           -- Electrified Compression Shirt
+				{ 25, 98080,  [PRICE_EXTRA_ITTYPE] = "money:1000000" },                   -- Gorgeous Blouse
 
-
-				{ 101, 143762, [PRICE_EXTRA_ITTYPE] = "brawlergold:100" }, -- High Roller's Contract, ", 1500888, "" },
-				{ 102, 143763, [PRICE_EXTRA_ITTYPE] = "brawlergold:100" }, -- Bag of Chipped Dice, ", 237284, "" },
-				{ 103, 143761, [PRICE_EXTRA_ITTYPE] = "brawlergold:250" }, -- Blood-Soaked Angel Figurine, ", 237542, "" },
-				{ 104, 143760, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Brawler's Potion Dispenser, ", 132623, "" },
-				{ 105, 142288, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Grief Warden, ", 979582, "" },
-				{ 106, 142289, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Penguin Stampede, ", 979582, "" },
-				{ 107, 142290, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Battle of the Brew, ", 979582, "" },
-				{ 108, 142291, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Senya, ", 979582, "" },
-				{ 109, 142292, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Stranglethorn Streak, ", 979582, "" },
-				{ 110, 142293, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Mindbreaker Gzzaj, ", 979582, "" },
-				{ 111, 142294, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" }, -- Rumble Card: Mazhareen, ", 979582, "" },
-				{ 112, 143758, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" }, -- Free Drinks Voucher, ", 237446, "" },
-				{ 113, 143759, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" }, -- VIP Room Rental Form, ", 1500889, "" },
-
+				{ 27, 142319, [PRICE_EXTRA_ITTYPE] = "brawlergold:100" },                 -- Bag of Chipped Dice
+				{ 28, 142314, [PRICE_EXTRA_ITTYPE] = "brawlergold:500" },                 -- Brawler's Potion Dispenser
+				{ 29, 142311, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" },                -- Free Drinks Voucher
+				{ 30, 142313, [PRICE_EXTRA_ITTYPE] = "brawlergold:1000" },                -- Zeppelin Rental Form
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -400,21 +384,21 @@ data["BrawlersGuild"]         = {
 		{ -- achievements
 			name = ACHIEVEMENTS,
 			[ALLIANCE_DIFF] = {
-				{ 1, "ac11558" }, -- The First Rule of Brawler's Guild
-				{ 2, "ac11560" }, -- You Are Not Your $#*@! Legplates
-				{ 3, "ac11563" }, -- The Second Rule of Brawler's Guild
-				{ 4, "ac11565" }, -- King of the Guild
-				{ 5, "ac11567" }, -- You Are Not The Contents Of Your Wallet
-				{ 6, "ac11570" }, -- Educated Guesser
-				{ 7, "ac11572" }, -- I Am Thrall's Complete Lack Of Surprise
-				{ 8, "ac11573" }, -- Rumble Club
+				{ 1,  "ac61413" }, -- The First Rule of Brawler's Guild
+				{ 2,  "ac61466" }, -- The Best There Is
+				{ 3,  "ac61419" }, -- Brawler's Chilled
+				{ 4,  "ac61420" }, -- Let Me Solo It
+				{ 5,  "ac61421" }, -- A Prime Ordeal
+				{ 6,  "ac61422" }, -- Audience Participation
+				{ 7,  "ac61423" }, -- Featherweight Brawler
+				{ 8,  "ac61424" }, -- Brawlzilla
+				{ 9,  "ac61425" }, -- Hot Footed
+				{ 10, "ac61426" }, -- Bare Knuckle Brawl
+				{ 11, "ac61429" }, -- Brawl Star
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1, "ac11559" }, -- The First Rule of Brawler's Guild
-				{ 2, "ac11561" }, -- You Are Not Your $#*@! Legplates
-				{ 3, "ac11564" }, -- The Second Rule of Brawler's Guild
-				{ 4, "ac11566" }, -- King of the Guild
+				{ 1, "ac61414" }, -- The First Rule of Brawler's Guild
 			},
 		},
 	}

@@ -2,6 +2,7 @@
 
 ## 9.19.5 -
 ### Added
+- Updated Brawler's Guild rewards in World Events
 - Added Illusion: Nightmare and Illusion: Chronos to Horos in Legion Remix
 
 ## 9.19.4 - December 3, 2025
