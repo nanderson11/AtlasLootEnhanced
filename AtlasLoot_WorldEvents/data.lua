@@ -245,45 +245,37 @@ data["BrawlersGuild"]         = {
 	ContentType = PERMRECEVENTS_CONTENT,
 	items = {
 		{ --Rank 1-4
-			name = format(AL["Rank %d"], 1).." - "..format(AL["Rank %d"], 4),
+			name = format(AL["Rank %d"], 1).." - "..format(AL["Rank %d"], 8),
 			[ALLIANCE_DIFF] = {
 				{ 1,  "f2767rep2" },
-				{ 2,  263026,     [PRICE_EXTRA_ITTYPE] = "money:5000000" },                             -- Brawler's Barricade
+				{ 2,  263026,     [PRICE_EXTRA_ITTYPE] = "money:5000000" },                                -- Brawler's Barricade
 				{ 4,  "f2767rep3" },
-				{ 5,  93025,      "pet1142",                              [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Clock'em
-				{ 6,  144394,     "pet2022",                              [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden
-				{ 16, "f2767rep4" },
-				{ 17, 144391,     [PRICE_EXTRA_ITTYPE] = "money:20000000" },                            -- Pugilist's Powerful Punching Ring
+				{ 5,  93025,      "pet1142",                               [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Clock'em
+				{ 6,  144394,     "pet2022",                               [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tylarr Gronnden
+				{ 8,  "f2767rep4" },
+				{ 9,  144391,     [PRICE_EXTRA_ITTYPE] = "money:20000000" },                               -- Pugilist's Powerful Punching Ring
+				{ 11, "f2767rep5" },
+				{ 12, 167812,     [PRICE_EXTRA_ITTYPE] = "money:30000000" },                               -- Brawler's Guild Tabard
+				{ 13, 259071,     [PRICE_EXTRA_ITTYPE] = "money:40000000" },                               -- Brawler's Guild Punching BagIndex
+				{ 16, "f2767rep6" },
+				{ 17, 259227,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:40000000" }, -- Brawlin' Bruno
+				{ 19, "f2767rep7" },
+				{ 20, 255840,     [PRICE_EXTRA_ITTYPE] = "money:80000000" },                               -- Champion Brawler's Gloves
+				{ 22, "f2767rep8" },
+				{ 23, 122396,     [PRICE_EXTRA_ITTYPE] = "money:10000000" },                               -- Brawler's Razor Claws
+				{ 24, 167892,     [PRICE_EXTRA_ITTYPE] = "money:100000000" },                              -- Ensemble: Brawler's Garb
+				{ 25, 259238,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Ballistic Bronco
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 1,  "f2766rep2" },
 				{ 4,  "f2766rep3" },
-				{ 16, "f2766rep4" },
-				{ 17, 144392,     [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring
-			},
-		},
-		{ --Rank 5-8
-			name = format(AL["Rank %d"], 5).." - "..format(AL["Rank %d"], 8),
-			[ALLIANCE_DIFF] = {
-				{ 1,  "f2767rep5" },
-				{ 2,  167812,     [PRICE_EXTRA_ITTYPE] = "money:30000000" },                               -- Brawler's Guild Tabard
-				{ 3,  259071,     [PRICE_EXTRA_ITTYPE] = "money:40000000" },                               -- Brawler's Guild Punching BagIndex
-				{ 5,  "f2767rep6" },
-				{ 6,  259227,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:40000000" }, -- Brawlin' Bruno
-				{ 16, "f2767rep7" },
-				{ 17, 255840,     [PRICE_EXTRA_ITTYPE] = "money:80000000" },                               -- Champion Brawler's Gloves
-				{ 19, "f2767rep8" },
-				{ 20, 122396,     [PRICE_EXTRA_ITTYPE] = "money:10000000" },                               -- Brawler's Razor Claws
-				{ 21, 167892,     [PRICE_EXTRA_ITTYPE] = "money:100000000" },                              -- Ensemble: Brawler's Garb
-				{ 22, 259238,     "mount",                                 [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Ballistic Bronco
-			},
-			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 1,  "f2766rep5" },
-				{ 5,  "f2766rep6" },
-				{ 16, "f2766rep7" },
-				{ 19, "f2766rep8" },
+				{ 8,  "f2766rep4" },
+				{ 9,  144392,     [PRICE_EXTRA_ITTYPE] = "money:20000000" }, -- Pugilist's Powerful Punching Ring
+				{ 11, "f2766rep5" },
+				{ 16, "f2766rep6" },
+				{ 19, "f2766rep7" },
+				{ 22, "f2766rep8" },
 			},
 		},
 		{ -- Challenge Card
