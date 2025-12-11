@@ -1361,6 +1361,7 @@ local MOUNT_INFO = {
 		[428062] = 211085, -- Jeweled Sapphire Scarab
 		[1264621] = 259227, -- Brawlin' Bruno
 		[1264643] = 259238, -- Ballistic Bronco
+		[1233516] = 242715, -- K'arroc Swiftwing
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

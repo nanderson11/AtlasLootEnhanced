@@ -1527,6 +1527,7 @@ data["MOUNTS"]             = {
 				{ 607, 211085, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- Jeweled Sapphire Scarab
 				{ 608, 259227, "mount", [PRICE_EXTRA_ITTYPE] = "money:40000000" },       -- Brawlin' Bruno
 				{ 609, 259238, "mount", [PRICE_EXTRA_ITTYPE] = "money:100000000" },      -- Ballistic Bronco
+				{ 610, 242715, "mount", [QUEST_EXTRA_ITTYPE] = 85213 },                  -- K'arroc Swiftwing
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
