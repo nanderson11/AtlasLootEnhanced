@@ -2235,77 +2235,113 @@ data["Winterveil"]            = {
 	items = {
 		{ --WinterveilStolenPresent
 			name = ALIL["Stolen Present"],
-			[NORMAL_DIFF] = {
-				{ 1,  116762,       [QUEST_EXTRA_ITTYPE] = 7043 }, -- Stolen Present
-				{ 2,  "117371:1800" },                 -- Miniature Winter Veil Tree
-				{ 3,  70923 },                         -- Gaudy Winter Veil Sweater
-				{ 5,  54436,        "pet254" },        -- Blue Clockwork Rocket Bot
-				{ 6,  34425,        "pet191" },        -- Clockwork Rocket Bot
-				{ 7,  73797,        "pet337" },        -- Lump of Coal
-				{ 8,  104317,       "pet1349" },       -- Rotten Little Helper
-				{ 10, 21215 },                         -- Graccu's Mince Meat Fruitcake
-				{ 11, 44481 },                         -- Grindgear Toy Gorilla
-				{ 12, 44601 },                         -- Heavy Copper Racer
-				{ 13, 34498 },                         -- Paper Zeppelin Kit
-				{ 14, 44482 },                         -- Trusty Copper Racer
-				{ 15, 44599 },                         -- Zippy Copper Racer
-				{ 17, 104318 },                        -- Crashin' Thrashin' Flyer Controller
-				{ 18, 46709 },                         -- MiniZep Controller
-				{ 19, 44606 },                         -- Toy Train Set
-				{ 20, 45057 },                         -- Wind-Up Train Wrecker
-				{ 21, 54343 },                         -- Blue Crashin' Thrashin' Racer Controller
-				{ 22, 37710 },                         -- Crashin' Thrashin' Racer Controller
-				{ 23, 90888 },                         -- Foot Ball
-				{ 24, 90883 },                         -- The Pigskin
-				{ 25, 54438 },                         -- Tiny Blue Ragdoll
-				{ 26, 54437 },                         -- Tiny Green Ragdoll
-				{ 27, 46725 },                         -- Red Rider Air Rifle
-				{ 28, 116456 },                        -- Scroll of Storytelling
+			[ALLIANCE_DIFF] = {
+				{ 1,   116762,        [QUEST_EXTRA_ITTYPE] = 7043 }, -- Stolen Present
+				{ 2,   "117371:12380" },                 -- Miniature Winter Veil Tree
+				{ 3,   "151351:12380" },                 -- Glowing Gift
+				{ 4,   210432 },                         -- Highland Drake: Winter Veil Armor
+				{ 5,   143898 },                         -- Miniature Winter Veil Tree (cosmetic)
+				{ 6,   70923 },                          -- Gaudy Winter Veil Sweater
+				{ 7,   118572 },                         -- Illusion: Flames of Ragnaros
+				{ 8,   128649 },                         -- Illusion: Winter's Grasp
+				{ 10,  178533,        "pet2622" },       -- Shaking Pet Carrier
+				{ 11,  232531,        "pet4691" },       -- Grunch
+				{ 12,  54436,         "pet254" },        -- Blue Clockwork Rocket Bot
+				{ 13,  34425,         "pet191" },        -- Clockwork Rocket Bot
+				{ 14,  73797,         "pet337" },        -- Lump of Coal
+				{ 15,  104317,        "pet1349" },       -- Rotten Little Helper
+				{ 17,  104318 },                         -- Crashin' Thrashin' Flyer Controller
+				{ 18,  116763 },                         -- Crashin' Thrashin' Shredder Controller
+				{ 19,  108632 },                         -- Crashin' Thrashin' Flamer Controller
+				{ 20,  37710 },                          -- Crashin' Thrashin' Racer Controller
+				{ 21,  54343 },                          -- Blue Crashin' Thrashin' Racer Controller
+				{ 22,  45057 },                          -- Wind-Up Train Wrecker
+				{ 23,  90888 },                          -- Special Edition Foot Ball
+				{ 24,  90883 },                          -- The Pigskin
+				{ 25,  54438 },                          -- Tiny Blue Ragdoll
+				{ 26,  54437 },                          -- Tiny Green Ragdoll
+				{ 27,  116691 },                         -- Zhevra Lounge Cushion
+				{ 28,  116692 },                         -- Fuzzy Green Lounge Cushion
+				{ 29,  116689 },                         -- Pineapple Lounge Cushion
+				{ 30,  116690 },                         -- Safari Lounge Cushion
+				{ 101, 116456 },                         -- Scroll of Storytelling
+				{ 102, 46709 },                          -- MiniZep Controller
+				{ 103, 44606 },                          -- Toy Train Set
+				{ 104, 128776 },                         -- Red Wooden Sled
+				{ 105, 209859 },                         -- Festive Trans-Dimensional Bird Whistle
+				{ 106, 139337 },                         -- Disposable Winter Veil Suits
+				{ 107, 128636 },                         -- Endothermic Blaster
+				{ 108, 162973 },                         -- Greatfather Winter's Hearthstone
+				{ 109, 178530 },                         -- Wreath-A-Rang
+				{ 110, 172219 },                         -- Wild Holly
+				{ 111, 172223 },                         -- Crashin' Thrashin' Battleship
+				{ 112, 162643 },                         -- Toy Armor Set
+				{ 113, 151343 },                         -- Hearthstation
+				{ 114, 151349 },                         -- Toy Weapon Set
+				{ 115, 210656 },                         -- Winter Veil Socks
+				{ 116, 187422 },                         -- Rockin' Rollin' Racer Customizer 19.9.3
+				{ 117, 191937 },                         -- Falling Star Catcher
+				{ 118, 191925 },                         -- Falling Star Flinger
+				{ 119, 208825 },                         -- Junior Timekeeper's Racing Belt
+				{ 120, 218308 },                         -- Winter Veil Cracker
+				{ 121, 218310 },                         -- Box of Puntables
+				{ 123, 46725 },                          -- Red Rider Air Rifle
+				{ 124, 21215 },                          -- Graccu's Mince Meat Fruitcake
+				{ 125, 44481 },                          -- Grindgear Toy Gorilla
+				{ 126, 44601 },                          -- Heavy Copper Racer
+				{ 127, 34498 },                          -- Paper Zeppelin Kit
+				{ 128, 44482 },                          -- Trusty Copper Racer
+				{ 129, 44599 },                          -- Zippy Copper Racer
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1,   116762, [QUEST_EXTRA_ITTYPE] = 6983 }, -- Stolen Present
+				{ 111, 172222 },                  -- Crashin' Thrashin' Juggernaught
+				{ 112, 162642 },                  -- Toy Armor Set
+				{ 113, 151344 },                  -- Hearthstation
+				{ 114, 151348 },                  -- Toy Weapon Set
 			},
 		},
 		{ --WinterveilGiftsPresents
 			name = AL["Gifts & Presents"],
 			[ALLIANCE_DIFF] = {
-				{ 1,   21310,                              [QUEST_EXTRA_ITTYPE] = 8768 }, -- Gaily Wrapped Present
-				{ 2,   21301,                              "pet119" },         -- Green Helper Box
-				{ 3,   21308,                              "pet118" },         -- Jingling Bell
-				{ 4,   21305,                              "pet120" },         -- Red Helper Box
-				{ 5,   21309,                              "pet117" },         -- Snowman Kit
-				{ 7,   21271,                              [QUEST_EXTRA_ITTYPE] = 8788 }, -- Gently Shaken Gift
-				{ 8,   116692 },                                               -- Fuzzy Green Lounge Cushion
-				{ 9,   116689 },                                               -- Pineapple Lounge Cushion
-				{ 10,  116690 },                                               -- Safari Lounge Cushion
-				{ 11,  116691 },                                               -- Zhevra Lounge Cushion
-				{ 12,  21235 },                                                -- Winter Veil Roast
-				{ 13,  21241 },                                                -- Winter Veil Eggnog
-				{ 16,  21327,                              [QUEST_EXTRA_ITTYPE] = 8769 }, -- Ticking Present
-				{ 17,  17720 },                                                -- Schematic: Snowmaster 9000 (p5 190)
-				{ 18,  17706 },                                                -- Plans: Edge of Winter (p2 190)
-				{ 19,  17725 },                                                -- Formula: Enchant Weapon - Winter's Might (p4 190)
-				{ 20,  17722 },                                                -- Pattern: Gloves of the Greatfather (p7 190)
-				{ 21,  17709 },                                                -- Recipe: Elixir of Frost Power (p1 190)
-				{ 22,  17724 },                                                -- Pattern: Green Holiday Shirt (p8 190)
-				{ 23,  21325 },                                                -- Mechanical Greench
-				{ 24,  21213 },                                                -- Preserved Holly
-				{ 26,  116761,                             [QUEST_EXTRA_ITTYPE] = 36617 }, -- Winter Veil Gift
-				{ 27,  116763 },                                               -- Crashin' Thrashin' Shredder Controller (2014)
-				{ 101, 21191,                              [QUEST_EXTRA_ITTYPE] = 8744 }, -- Carefully Wrapped Present
-				{ 102, 116451 },                                               -- Warm Blue Woolen Socks
-				{ 103, 116450 },                                               -- Warm Green Woolen Socks
-				{ 104, 116448 },                                               -- Warm Red Woolen Socks
-				{ 105, 21254 },                                                -- Winter Veil Cookie
-				{ 107, 21363,                              [QUEST_EXTRA_ITTYPE] = 8803 }, -- Festive Gift
-				{ 108, 21328 },                                                -- Wand of Holiday Cheer
-				{ 116, 21216,                              [QUEST_EXTRA_ITTYPE] = 7045 }, -- Smokywood Pastures Extra-Special Gift
-				{ 117, 21215 },                                                -- Graccu's Mince Meat Fruitcake
+				{ 1,   21310,                              [QUEST_EXTRA_ITTYPE] = 8768 },                  -- Gaily Wrapped Present
+				{ 2,   21301,                              "pet119" },                                     -- Green Helper Box
+				{ 3,   21308,                              "pet118" },                                     -- Jingling Bell
+				{ 4,   21305,                              "pet120" },                                     -- Red Helper Box
+				{ 5,   21309,                              "pet117" },                                     -- Snowman Kit
+				{ 7,   21271,                              [QUEST_EXTRA_ITTYPE] = 8788 },                  -- Gently Shaken Gift
+				{ 8,   "INV_Box_01",                       nil,                         "???",                 nil }, -- ???
+				{ 9,   21235 },                                                                            -- Winter Veil Roast
+				{ 10,  21241 },                                                                            -- Winter Veil Eggnog
+				{ 16,  21327,                              [QUEST_EXTRA_ITTYPE] = 8769 },                  -- Ticking Present
+				{ 17,  17720 },                                                                            -- Schematic: Snowmaster 9000 (p5 190)
+				{ 18,  17706 },                                                                            -- Plans: Edge of Winter (p2 190)
+				{ 19,  17725 },                                                                            -- Formula: Enchant Weapon - Winter's Might (p4 190)
+				{ 20,  17722 },                                                                            -- Pattern: Gloves of the Greatfather (p7 190)
+				{ 21,  17709 },                                                                            -- Recipe: Elixir of Frost Power (p1 190)
+				{ 22,  17724 },                                                                            -- Pattern: Green Holiday Shirt (p8 190)
+				{ 23,  21325 },                                                                            -- Mechanical Greench
+				{ 24,  21213 },                                                                            -- Preserved Holly
+				{ 26,  116761,                             [QUEST_EXTRA_ITTYPE] = 36617 },                 -- Winter Veil Gift
+				{ 27,  "INV_Box_01",                       nil,                         "???",                 nil }, -- ???
+				{ 101, 21191,                              [QUEST_EXTRA_ITTYPE] = 8744 },                  -- Carefully Wrapped Present
+				{ 102, 116451 },                                                                           -- Warm Blue Woolen Socks
+				{ 103, 116450 },                                                                           -- Warm Green Woolen Socks
+				{ 104, 116448 },                                                                           -- Warm Red Woolen Socks
+				{ 105, 21254 },                                                                            -- Winter Veil Cookie
+				{ 107, 21363,                              [QUEST_EXTRA_ITTYPE] = 8803 },                  -- Festive Gift
+				{ 108, 21328 },                                                                            -- Wand of Holiday Cheer
+				{ 116, 21216,                              [QUEST_EXTRA_ITTYPE] = 7045 },                  -- Smokywood Pastures Extra-Special Gift
+				{ 117, 21215 },                                                                            -- Graccu's Mince Meat Fruitcake
 				{ 119, "INV_Holiday_Christmas_Present_01", nil,                         AL["Special Rewards"], nil },
-				{ 120, 21525 },                                                -- Green Winter Hat
-				{ 121, 21524 },                                                -- Red Winter Hat
-				{ 122, 17712,                              [QUEST_EXTRA_ITTYPE] = 7045 }, -- Winter Veil Disguise Kit (mailed 24h after quest)
-				{ 123, 17202 },                                                -- Snowball
-				{ 124, 21215 },                                                -- Handful of Snowflakes
-				{ 125, 21212 },                                                -- Fresh Holly
-				{ 126, 21519 },                                                -- Mistletoe
+				{ 120, 21525 },                                                                            -- Green Winter Hat
+				{ 121, 21524 },                                                                            -- Red Winter Hat
+				{ 122, 17712,                              [QUEST_EXTRA_ITTYPE] = 7045 },                  -- Winter Veil Disguise Kit (mailed 24h after quest)
+				{ 123, 17202 },                                                                            -- Snowball
+				{ 124, 21215 },                                                                            -- Handful of Snowflakes
+				{ 125, 21212 },                                                                            -- Fresh Holly
+				{ 126, 21519 },                                                                            -- Mistletoe
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -2316,30 +2352,46 @@ data["Winterveil"]            = {
 		{ --WinterveilVendor
 			name = AL["Smokywood Pastures Vendor"],
 			[NORMAL_DIFF] = {
-				{ 1,  70923 }, -- Gaudy Winter Veil Sweater
-				{ 3,  34262 }, -- Pattern: Winter Boots (p7 (85)
-				{ 4,  34319 }, -- Pattern: Red Winter Clothes (p8 250)
-				{ 5,  34261 }, -- Pattern: Green Winter Clothes (p8 250)
-				{ 6,  34413 }, -- Recipe: Hot Apple Cider (p3 325)
-				{ 7,  17201 }, -- Recipe: Egg Nog (p3 35)
-				{ 8,  17200 }, -- Recipe: Gingerbread Cookie (p3 1)
-				{ 9,  17194 }, -- Holiday Spices
-				{ 11, 17303 }, -- Blue Ribboned Wrapping Paper
-				{ 12, 17304 }, -- Green Ribboned Wrapping Paper
-				{ 13, 17307 }, -- Purple Ribboned Wrapping Paper
-				{ 15, 17202 }, -- Snowball
-				{ 16, 17344 }, -- Candy Cane
-				{ 17, 17406 }, -- Holiday Cheesewheel
-				{ 18, 17407 }, -- Graccu's Homemade Meat Pie
-				{ 19, 21215 }, -- Graccu's Mince Meat Fruitcake
-				{ 20, 17408 }, -- Spicy Beefstick
-				{ 21, 34410 }, -- Honeyed Holiday Ham
-				{ 22, 17404 }, -- Blended Bean Brew
-				{ 23, 17405 }, -- Green Garden Tea
-				{ 24, 34412 }, -- Sparkling Apple Cider
-				{ 25, 17196 }, -- Holiday Spirits
-				{ 26, 17403 }, -- Steamwheedle Fizzy Spirits
-				{ 27, 17402 }, -- Greatfather's Winter Ale
+				{ 1,   188680,                          [PRICE_EXTRA_ITTYPE] = "money:52" }, -- Winter Veil Chorus Book
+				{ 3,   [ATLASLOOT_IT_HORDE] = 34261,    [PRICE_EXTRA_ITTYPE] = "money:5000" }, -- Pattern: Green Winter Clothes
+				{ 4,   [ATLASLOOT_IT_ALLIANCE] = 34319, [PRICE_EXTRA_ITTYPE] = "money:5000" }, -- Pattern: Red Winter Clothes
+				{ 5,   34262,                           [PRICE_EXTRA_ITTYPE] = "money:5000" }, -- Pattern: Winter Boots
+				{ 6,   17200,                           [PRICE_EXTRA_ITTYPE] = "money:25" }, -- Recipe: Gingerbread Cookie
+				{ 7,   17201,                           [PRICE_EXTRA_ITTYPE] = "money:240" }, -- Recipe: Winter Veil Eggnog
+				{ 8,   34413,                           [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Recipe: Hot Apple Cider
+				{ 10,  70923,                           [PRICE_EXTRA_ITTYPE] = "money:38" }, -- Gaudy Winter Veil Sweater
+				{ 11,  234400,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Red Holiday Coat
+				{ 12,  234594,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Red Holiday Vest
+				{ 13,  234399,                          [PRICE_EXTRA_ITTYPE] = "money:150000" }, -- Festive Red Holiday Belt
+				{ 14,  234402,                          [PRICE_EXTRA_ITTYPE] = "money:250000" }, -- Festive Red Holiday Pants
+				{ 15,  234404,                          [PRICE_EXTRA_ITTYPE] = "money:250000" }, -- Festive Red Holiday Shorts
+				{ 16,  234406,                          [PRICE_EXTRA_ITTYPE] = "money:150000" }, -- Festive Red Holiday Boots
+				{ 17,  234401,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Green Holiday Coat
+				{ 18,  234593,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Green Holiday Vest
+				{ 19,  234398,                          [PRICE_EXTRA_ITTYPE] = "money:150000" }, -- Festive Green Holiday Belt
+				{ 20,  234403,                          [PRICE_EXTRA_ITTYPE] = "money:250000" }, -- Festive Green Holiday Pants
+				{ 21,  234405,                          [PRICE_EXTRA_ITTYPE] = "money:250000" }, -- Festive Green Holiday Shorts
+				{ 22,  234407,                          [PRICE_EXTRA_ITTYPE] = "money:150000" }, -- Festive Green Holiday Boots
+				{ 23,  234598,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Red Holiday Shirt
+				{ 24,  234597,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Green Holiday Shirt
+				{ 25,  234596,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Green Holiday Sweater
+				{ 26,  234595,                          [PRICE_EXTRA_ITTYPE] = "money:300000" }, -- Festive Red Holiday Sweater
+				{ 28,  17303,                           [PRICE_EXTRA_ITTYPE] = "money:10" }, -- Blue Ribboned Wrapping Paper
+				{ 29,  17304,                           [PRICE_EXTRA_ITTYPE] = "money:10" }, -- Green Ribboned Wrapping Paper
+				{ 30,  17307,                           [PRICE_EXTRA_ITTYPE] = "money:10" }, -- Purple Ribboned Wrapping Paper
+				{ 101, 17202,                           [PRICE_EXTRA_ITTYPE] = "money:10" }, -- Snowball
+				{ 102, 17194,                           [PRICE_EXTRA_ITTYPE] = "money:10" }, -- Holiday Spices
+				{ 103, 17196,                           [PRICE_EXTRA_ITTYPE] = "money:50" }, -- Holiday Spirits
+				{ 105, 21215,                           [PRICE_EXTRA_ITTYPE] = "money:999900" }, -- Graccu's Mince Meat Fruitcake
+				{ 106, 17404,                           [PRICE_EXTRA_ITTYPE] = "money:125" }, -- Blended Bean Brew
+				{ 107, 17405,                           [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Green Garden Tea
+				{ 108, 34412,                           [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Sparkling Apple Cider
+				{ 109, 17406,                           [PRICE_EXTRA_ITTYPE] = "money:125" }, -- Holiday Cheesewheel
+				{ 110, 17407,                           [PRICE_EXTRA_ITTYPE] = "money:1000" }, -- Graccu's Homemade Meat Pie
+				{ 111, 17408,                           [PRICE_EXTRA_ITTYPE] = "money:2000" }, -- Spicy Beefstick
+				{ 112, 34410,                           [PRICE_EXTRA_ITTYPE] = "money:4000" }, -- Honeyed Holiday Ham
+				{ 113, 17403,                           [PRICE_EXTRA_ITTYPE] = "money:150" }, -- Steamwheedle Fizzy Spirits
+				{ 114, 17402,                           [PRICE_EXTRA_ITTYPE] = "money:2000" }, -- Greatfather's Winter Ale
 			},
 		},
 	}

@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.6 - December 16, 2025
+### Added
+- Updated Winter Veil items in World Events
+
 ## 9.19.5 - December 10, 2025
 ### Added
 - Updated Brawler's Guild rewards in World Events
