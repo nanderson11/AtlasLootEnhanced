@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.19.7 - December 20, 2025
+### Added
+- Added pet icon to the Strange Humming Crystal in Legion Remix
+
 ## 9.19.6 - December 16, 2025
 ### Added
 - Updated Winter Veil items in World Events
