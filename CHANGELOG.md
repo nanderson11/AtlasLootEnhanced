@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.20.1 - February 10, 2026
+### Added
+- Added February Trading Post items to Collections
+
 ## 9.20.0 - January 19, 2026
 ### Added
 - Added support for Midnight (no new loot yet)

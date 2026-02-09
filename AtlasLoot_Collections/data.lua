@@ -1575,6 +1575,7 @@ data["MOUNTS"]             = {
 				{ 724, 250804, "mount", [PRICE_EXTRA_ITTYPE] = "bronze:10000" },         -- Longhorned Bleakhoof Talbuk
 				{ 725, 250802, "mount", [PRICE_EXTRA_ITTYPE] = "bronze:10000" },         -- Reins of the Longhorned Sable Talbuk
 				-- { 619, 253024, [PRICE_EXTRA_ITTYPE] = "bronze:20000" }, -- Feldruid's Scornwing Idol (druid flight form, not really a mount)
+				{ 726, 260580, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },           -- Cloudborn Razorwing
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
@@ -6672,6 +6673,7 @@ data["COMPANIONS"]         = {
 				{ 514, 246339, "pet4854", [ACH_EXTRA_ITTYPE] = 42541 },                   -- Duskytooth Fel Snooter
 				{ 515, 239705, "pet4802", [PRICE_EXTRA_ITTYPE] = "bronze:5000" },         -- Morsel
 				{ 516, 239699, "pet4801", [PRICE_EXTRA_ITTYPE] = "bronze:5000" },         -- Tidbit
+				{ 517, 234397, "pet4729", [PRICE_EXTRA_ITTYPE] = "tender:350" },          -- Fullbelly Rollingpaw
 				-- { 311, 233057, "pet4709" }, -- Rock Hound Mica
 				-- { 312, 221764, "pet4519" }, -- Burntram
 				-- { 317, 222969, "pet4474" }, -- Anub'Rekyute
