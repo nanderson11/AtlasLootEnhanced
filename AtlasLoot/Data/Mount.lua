@@ -1367,11 +1367,11 @@ local MOUNT_INFO = {
 		[1266579] = 260580, -- Cloudborn Razorwing
 		[451487] = 224148, -- Retrained Skyrazor
 		[1243003] = 246594, -- Light-Forged Mechsuit
+		[1218013] = 235658, -- Spring Butterfly
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly
 		-- [1217343] = 235557, -- Snowy Darkmoon Charger
-		-- [1218013] = 235658, -- Spring Butterfly
 	},
 	["items"] = {
 		--[itemID] = spellID

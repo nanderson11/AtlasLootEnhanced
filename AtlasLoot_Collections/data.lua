@@ -1578,11 +1578,11 @@ data["MOUNTS"]             = {
 				{ 726, 260580, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },           -- Cloudborn Razorwing
 				{ 727, 224148, "mount", [PRICE_EXTRA_ITTYPE] = "twilightsBladeInsignia:100" }, -- Retrained Skyrazor
 				{ 728, 246594, "mount", [ACH_EXTRA_ITTYPE] = 42300 },                    -- Light-Forged Mechsuit
+				{ 729, 235658, "mount" },                                                -- Spring Butterfly
 				-- { 329, 223570, "mount" }, -- Reins of the Ebonhide Ramolith (not yet available)
 				-- { 321, 235554, "mount" }, -- Midnight Darkmoon Charger (not yet available)
 				-- { 323, 235659, "mount" }, -- Midnight Butterfly (not yet available)
 				-- { 325, 235557, "mount" }, -- Snowy Darkmoon Charger (not yet available)
-				-- { 327, 235658, "mount" }, -- Spring Butterfly (not yet available)
 				-- { 327, 186639, "mount" }, -- Xy Trustee's Gearglider (not yet available)
 			},
 			[HORDE_DIFF] = {

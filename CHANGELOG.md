@@ -2,6 +2,7 @@
 
 ## 9.20.1 - February 10, 2026
 ### Added
+- Added new Love is in the Air items
 - Added February Trading Post items to Collections
 - Added Midnight Pre-Patch mounts, pets, toys and tabards to Collections
 
