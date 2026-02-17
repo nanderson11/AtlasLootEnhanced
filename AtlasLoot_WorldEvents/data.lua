@@ -1115,50 +1115,52 @@ data["LunarFestival"]         = {
 				{ 13,  143828,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:10" },                                                                       -- Red Dragon Body Costume
 				{ 14,  165675,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:10" },                                                                       -- Green Dragon Body Costume
 				{ 15,  165672,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:10" },                                                                       -- Blue Dragon Body Costume
-				{ 16,  151355,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Courage
-				{ 17,  151352,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Good Fortune
-				{ 18,  151354,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Prosperity
-				{ 19,  151353,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Dark Blossoms
-				{ 20,  21157,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Green Dress
-				{ 21,  21538,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Pink Dress
-				{ 22,  21539,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Purple Dress
-				{ 23,  21541,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Black Pant Suit
-				{ 24,  21544,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Blue Pant Suit
-				{ 25,  21543,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Teal Pant Suit
-				{ 27,  116172,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Perky Blaster
-				{ 28,  185910,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Star Lantern
-				{ 29,  21537,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Festival Dumplings
-
-				{ 101, 211868,                          [PRICE_EXTRA_ITTYPE] = "money:500000000" },                                                                       -- Winding Slitherdrake: Lunar Festival Armor
-				{ 102, 21721,                           [PRICE_EXTRA_ITTYPE] = "money:15" },                                                                              -- Moonglow
-				{ 103, 21713,                           [PRICE_EXTRA_ITTYPE] = "money:1000" },                                                                            -- Elune's Candle
-				{ 104, 21747,                           [PRICE_EXTRA_ITTYPE] = "money:300" },                                                                             -- Festival Firecracker
-				{ 105, 21558,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Blue Rocket
-				{ 106, 21559,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Green Rocket
-				{ 107, 21557,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Red Rocket
-				{ 108, 21571,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Blue Rocket Cluster
-				{ 109, 21574,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Green Rocket Cluster
-				{ 110, 21576,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Red Rocket Cluster
-
-				{ 112, 122338,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:40" },                                                                       -- Ancient Heirloom Armor Casing
-				{ 113, 122340,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Timeworn Heirloom Armor Casing
-				{ 114, 151614,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Weathered Heirloom Armor Casing
-				{ 115, 167731,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Battle-Hardened Heirloom Armor Casing
-				{ 116, 187997,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Eternal Heirloom Armor Casing
-				{ 117, 204336,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Awakened Heirloom Armor Casing
-
-				-- Page 2
-				{ 119, 21640,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" }, -- Lunar Festival Fireworks Pack
-				{ 120, 21558 },                                                        -- Small Blue Rocket
-				{ 121, 21559 },                                                        -- Small Green Rocket
-				{ 122, 21557 },                                                        -- Small Red Rocket
-				{ 123, 21561 },                                                        -- Small White Rocket
-				{ 124, 21562 },                                                        -- Small Yellow Rocket
-				{ 125, 21589 },                                                        -- Large Blue Rocket
-				{ 126, 21590 },                                                        -- Large Green Rocket
-				{ 127, 21592 },                                                        -- Large Red Rocket
-				{ 128, 21593 },                                                        -- Large White Rocket
-				{ 129, 21595 },                                                        -- Large Yellow Rocket
+				{ 16,  234059,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Ensemble: Ornate Violet Lunar Festival Attire
+				{ 17,  233235,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Violet Lunar Firewhacker
+				{ 18,  233231,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Steel Lunar Polearm
+				{ 19,  233221,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Violet Lunar Lantern
+				{ 20,  233224,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Obsidian Lunar Blade
+				{ 21,  233239,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Sunny Pack of Lunar Explosives
+				{ 22,  151355,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Courage
+				{ 23,  151352,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Good Fortune
+				{ 24,  151354,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Prosperity
+				{ 25,  151353,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:25" },                                                                       -- Crown of Dark Blossoms
+				{ 26,  21157,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Green Dress
+				{ 27,  21538,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Pink Dress
+				{ 28,  21539,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Purple Dress
+				{ 29,  21541,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Black Pant Suit
+				{ 30,  21544,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Blue Pant Suit
+				{ 101, 21543,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Festive Teal Pant Suit
+				{ 102, 116172,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Perky Blaster
+				{ 103, 185910,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Star Lantern
+				{ 104, 21537,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:1" },                                                                        -- Festival Dumplings
+				{ 106, 211868,                          [PRICE_EXTRA_ITTYPE] = "money:500000000" },                                                                       -- Winding Slitherdrake: Lunar Festival Armor
+				{ 107, 21721,                           [PRICE_EXTRA_ITTYPE] = "money:15" },                                                                              -- Moonglow
+				{ 108, 21713,                           [PRICE_EXTRA_ITTYPE] = "money:1000" },                                                                            -- Elune's Candle
+				{ 109, 21747,                           [PRICE_EXTRA_ITTYPE] = "money:300" },                                                                             -- Festival Firecracker
+				{ 110, 21558,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Blue Rocket
+				{ 111, 21559,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Green Rocket
+				{ 112, 21557,                           [PRICE_EXTRA_ITTYPE] = "money:25" },                                                                              -- Small Red Rocket
+				{ 113, 21571,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Blue Rocket Cluster
+				{ 114, 21574,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Green Rocket Cluster
+				{ 115, 21576,                           [PRICE_EXTRA_ITTYPE] = "money:100" },                                                                             -- Red Rocket Cluster
+				{ 116, 122338,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:40" },                                                                       -- Ancient Heirloom Armor Casing
+				{ 117, 122340,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Timeworn Heirloom Armor Casing
+				{ 118, 151614,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Weathered Heirloom Armor Casing
+				{ 119, 167731,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Battle-Hardened Heirloom Armor Casing
+				{ 120, 187997,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Eternal Heirloom Armor Casing
+				{ 121, 204336,                          [PRICE_EXTRA_ITTYPE] = "ancestrycoin:75" },                                                                       -- Awakened Heirloom Armor Casing
+				{ 123, 21640,                           [PRICE_EXTRA_ITTYPE] = "ancestrycoin:5" },                                                                        -- Lunar Festival Fireworks Pack
+				{ 124, 21558 },                                                                                                                                           -- Small Blue Rocket
+				{ 125, 21559 },                                                                                                                                           -- Small Green Rocket
+				{ 126, 21557 },                                                                                                                                           -- Small Red Rocket
+				{ 127, 21561 },                                                                                                                                           -- Small White Rocket
+				{ 128, 21562 },                                                                                                                                           -- Small Yellow Rocket
+				{ 129, 21589 },                                                                                                                                           -- Large Blue Rocket
+				{ 130, 21590 },                                                                                                                                           -- Large Green Rocket
+				{ 201, 21592 },                                                                                                                                           -- Large Red Rocket
+				{ 202, 21593 },                                                                                                                                           -- Large White Rocket
+				{ 203, 21595 },                                                                                                                                           -- Large Yellow Rocket
 			},
 		},
 		{ --LunarFestivalRecipes

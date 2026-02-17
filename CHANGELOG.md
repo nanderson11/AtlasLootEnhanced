@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.20.2 - February 17, 2026
+### Added
+- Added new Lunar Festival items
+
 ## 9.20.1 - February 10, 2026
 ### Added
 - Added new Love is in the Air items
