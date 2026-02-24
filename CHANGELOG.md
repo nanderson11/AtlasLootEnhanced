@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.20.3 - February 25, 2026
+## 9.20.3 - February 24, 2026
 ### Added
+- Added Outland Cup items
 - Added Wormhide Boots to Ouro in AQ40
 
 ## 9.20.2 - February 17, 2026
