@@ -1,5 +1,13 @@
 ﻿# Changelog
 
+## 9.21.0 -
+### Added
+- Added The Enlightened, Marasmius and Stitchmasters Shadowlands factions
+- Added five missing items in existing Shadowlands factions
+- Added secondary buttons to pets and mounts in Shadowlands factions
+### Fixed
+- Fixed duplicate item in Death's Advance faction
+
 ## 9.20.3 - February 24, 2026
 ### Added
 - Added Outland Cup items
