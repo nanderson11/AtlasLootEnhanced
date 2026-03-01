@@ -1392,7 +1392,7 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 19, 184727,     [PRICE_EXTRA_ITTYPE] = "money:2370000" },                                    --Courtier's Shoulderguard
 				{ 20, 184725,     [PRICE_EXTRA_ITTYPE] = "money:2370000" },                                    --Courtier's Shoulderplate
 				{ 22, "f2413rep8" },                                                                           -- Exalted
-				{ 23, 183518,     "mount",                                     [PRICE_EXTRA_ITTYPE] = "money:300000000" }, --Court Sinrunner
+				{ 23, 183518,     "mount",                                     [PRICE_EXTRA_ITTYPE] = "money:240000000" }, --Court Sinrunner
 				{ 24, 182207,     [PRICE_EXTRA_ITTYPE] = "money:12500000" },                                   --Illusion: Sinsedge
 				{ 25, 179282,     [PRICE_EXTRA_ITTYPE] = "money:2500000" },                                    --Court of Harvesters Tabard
 				{ 26, 184755,     [PRICE_EXTRA_ITTYPE] = "money:1980000" },                                    --Reinforced High Collar
@@ -1418,7 +1418,7 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 16, 184744,     [PRICE_EXTRA_ITTYPE] = "money:1990000" },                               --Gnarled Boneloop
 				{ 17, 183244,     [PRICE_EXTRA_ITTYPE] = "money:10450000" },                              --Memory of the Rattle of the Maw
 				{ 19, "f2410rep8" },                                                                      -- Exalted
-				{ 20, 182082,     "mount",                                [PRICE_EXTRA_ITTYPE] = "money:300000000" }, --Lurid Bloodtusk
+				{ 20, 182082,     "mount",                                [PRICE_EXTRA_ITTYPE] = "money:240000000" }, --Lurid Bloodtusk
 				{ 21, 184736,     [PRICE_EXTRA_ITTYPE] = "money:3020000" },                               --Robe of the March Warden
 				{ 22, 184745,     [PRICE_EXTRA_ITTYPE] = "money:3210000" },                               --Tunic of the March Warden
 				{ 23, 184738,     [PRICE_EXTRA_ITTYPE] = "money:3040000" },                               --Chainmail of the March Warden
@@ -1450,7 +1450,7 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 17, 184748,     [PRICE_EXTRA_ITTYPE] = "money:2060000" },                                    --Gametender's Wading Boots
 				{ 18, 184749,     [PRICE_EXTRA_ITTYPE] = "money:2060000" },                                    --Gametender's Bramblewards
 				{ 20, "f2465rep8" },                                                                           -- Exalted
-				{ 21, 180729,     "mount",                                     [PRICE_EXTRA_ITTYPE] = "money:255000000" }, --Duskflutter Ardenmoth
+				{ 21, 180729,     "mount",                                     [PRICE_EXTRA_ITTYPE] = "money:240000000" }, --Duskflutter Ardenmoth
 				{ 22, 183134,     [PRICE_EXTRA_ITTYPE] = "money:10620000" },                                   --Illusion: Hunt's Favor
 				{ 23, 184752,     [PRICE_EXTRA_ITTYPE] = "money:4390000" },                                    --Gormscale Leggings
 				{ 24, 184753,     [PRICE_EXTRA_ITTYPE] = "money:4390000" },                                    --Tree-Scaler's Britches
@@ -1523,7 +1523,7 @@ data["SHADOWLANDSFACTIONS"] = {
 			FactionID = 2462,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,  "f2462rep3" },                                                                                               -- Honored
+				{ 1,  "f2462rep3" },                                                                                           -- Honored
 				{ 2,  180815,     "pet2931",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Brightscale Hatchling
 				{ 3,  180814,     "pet2933",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Sable
 				{ 4,  181264,     "pet2954",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Plaguelouse Larva
@@ -1532,17 +1532,17 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 7,  180639,     "pet2912",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Dusty Sporeflutterer
 				{ 8,  180603,     "pet2904",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Violet Dredwing Pup
 				{ 9,  181315,     "pet2965",                                               [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" }, -- Bloodfeaster Spiderling
-				{ 11, "f2462rep4" },                                                                                               -- Revered
-				{ 12, 184048,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                                  -- Weapon Satchel of the Wild Hunt
-				{ 13, 184047,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                                  -- Ascended Chest of Arms
-				{ 14, 184045,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                                  -- Martial Tithe of the Court of Harvesters
-				{ 15, 184046,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                                  -- Undying Army Weapon Cache
-				{ 16, "f2462rep5" },                                                                                               -- Exalted
+				{ 11, "f2462rep4" },                                                                                           -- Revered
+				{ 12, 184048,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                              -- Weapon Satchel of the Wild Hunt
+				{ 13, 184047,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                              -- Ascended Chest of Arms
+				{ 14, 184045,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                              -- Martial Tithe of the Court of Harvesters
+				{ 15, 184046,     [PRICE_EXTRA_ITTYPE] = "reservoiranima:1000" },                                              -- Undying Army Weapon Cache
+				{ 16, "f2462rep5" },                                                                                           -- Exalted
 				{ 17, 181317,     "mount",                                                 [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" }, -- Dauntless Duskrunner
 				{ 18, 181300,     "mount",                                                 [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" }, -- Gruesome Flayedwing
 				{ 19, 180726,     "mount",                                                 [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" }, -- Pale Acidmaw
 				{ 20, 181316,     "mount",                                                 [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" }, -- Silvertip Dredwing
-				{ 21, 184303,     [PRICE_EXTRA_ITTYPE] = "184304:750:reservoiranima:30000" },                                      -- Arsenal: Stitchmasters' Weapons
+				{ 21, 184303,     [PRICE_EXTRA_ITTYPE] = "184304:750:reservoiranima:30000" },                                  -- Arsenal: Stitchmasters' Weapons
 			},
 		},
 		{ -- Ve'nari
