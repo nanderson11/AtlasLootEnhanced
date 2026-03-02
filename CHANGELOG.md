@@ -1,8 +1,8 @@
 ﻿# Changelog
 
-## 9.21.0 -
+## 9.21.0 - March 2, 2026
 ### Added
-- Added Midnight instance loot
+- Added Midnight instance loot (more Midnight items to be added in the next week)
 - Added March Trading Post items to Collections
 - Added The Enlightened, Marasmius and Stitchmasters Shadowlands factions
 - Added five missing items in existing Shadowlands factions
