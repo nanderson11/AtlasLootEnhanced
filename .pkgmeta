@@ -23,6 +23,7 @@ move-folders:
   AtlasLoot/AtlasLoot_Shadowlands: AtlasLoot_Shadowlands
   AtlasLoot/AtlasLoot_Dragonflight: AtlasLoot_Dragonflight
   AtlasLoot/AtlasLoot_TheWarWithin: AtlasLoot_TheWarWithin
+  AtlasLoot/AtlasLoot_Midnight: AtlasLoot_Midnight
 
 # Ignore takes place before folder's moving takes place
 ignore:

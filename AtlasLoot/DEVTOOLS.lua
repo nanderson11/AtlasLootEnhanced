@@ -1396,6 +1396,10 @@ local function TextParsingFrame(container)
 end
 
 local ATLASLOOT_INSTANCE_MODULE_LIST = {
+	"AtlasLoot_Midnight",
+	"AtlasLoot_TheWarWithin",
+	"AtlasLoot_Dragonflight",
+	"AtlasLoot_Shadowlands",
 	"AtlasLoot_BattleforAzeroth",
 	"AtlasLoot_Legion",
 	"AtlasLoot_WarlordsofDraenor",
@@ -1742,38 +1746,7 @@ local function ProfessionScan()
 		local workingTab = retTable
 		recipeID = recipeIDs[i]
 		local recipeInfo = C_TradeSkillUI.GetRecipeInfo(recipeID)
-		--[[
-		[recipeInfo]={
-		  productQuality=1,
-		  sourceType=1,
-		  hiddenUnlessLearned=false,
-		  disabled=false,
-		  craftable=true,
-		  type="recipe",
-		  recipeID=161001,
-		  icon=1045948,
-		  numAvailable=0,
-		  numSkillUps=1,
-		  categoryID=344,
-		  numIndents=1,
-		  learned=true,
-		  difficulty="medium",
-		  favorite=false,
-		  name="Saberfish Broth"
-		}
-		]] --
 		local categoryInfo = C_TradeSkillUI.GetCategoryInfo(recipeInfo.categoryID)
-		--[[
-		[categoryInfo]={
-			numIndents=1,
-			type="subheader",
-			name="Fish Dishes",
-			hasProgressBar=false,
-			enabled=true,
-			parentCategoryID=342,
-			categoryID=344
-		}
-		]] --
 		local orderSort = { recipeInfo.categoryID }
 
 		--[[
@@ -1807,12 +1780,11 @@ local function ProfessionScan()
 			orderSort[#orderSort + 1] = categoryInfo.categoryID
 		until (categoryInfo.type == "header")
 
-
-
 		for i = #orderSort, 1, -1 do
 			workingTab[orderSort[i]] = workingTab[orderSort[i]] or {}
 			workingTab = workingTab[orderSort[i]]
 		end
+
 		local itemLink = C_TradeSkillUI.GetRecipeItemLink(recipeID)
 		itemLink = string.match(itemLink, "item:(%d+)")
 		workingTab[recipeID] = {
@@ -1933,21 +1905,16 @@ function Dev:DevTool_CreateFrame()
 	frame:SetTitle("DevTools")
 	frame:SetStatusText("DevTools Frame")
 	frame:SetCallback("OnClose", function(widget) AceGUI:Release(widget) end)
-	-- Fill Layout - the TabGroup widget will fill the whole frame
 	frame:SetLayout("Fill")
 
-	-- Create the TabGroup
 	---@class AceGUITabGroup
 	local tab = AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
-	-- Setup which tabs to show
 	tab:SetTabs({ { text = "Vendor Scan", value = "tab1" }, { text = "TextParsing Scan", value = "tab2" }, { text = "InstanceInfo Scan", value = "tab3" }, { text = "EJ Scan", value = "tab4" }, { text = "Achievement Scan", value = "tab5" }, { text = "BonusRoll Scan", value = "tab6" }, { text = "TradeSkill Scan", value = "tab7" }, { text = "TSM Format", value = "tab8" } })
-	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)
 	tab:SelectTab("tab1")
 
-	-- add to the frame container
 	frame:AddChild(tab)
 end
 

@@ -180,7 +180,8 @@
 		"FACTION_STANDING_LABEL6",
 		"FACTION_STANDING_LABEL7",
 		"FACTION_STANDING_LABEL8",
-		"COLLECTED"
+		"COLLECTED",
+		"EXPANSION_NAME11"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",
