@@ -2,6 +2,7 @@
 
 ## 9.21.0 -
 ### Added
+- Added March Trading Post items to Collections
 - Added The Enlightened, Marasmius and Stitchmasters Shadowlands factions
 - Added five missing items in existing Shadowlands factions
 - Added secondary buttons to pets and mounts in Shadowlands factions
