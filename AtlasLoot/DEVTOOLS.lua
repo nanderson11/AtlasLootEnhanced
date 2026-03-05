@@ -1176,6 +1176,20 @@ local function getItemPrice(strg, newPrice, costItemID)
 		-- TWW
 		[2815] = "resonanceCrystal",
 		[3252] = "bronze",
+		-- Midnight
+		[3316] = "voidlightMarl",
+		[3379] = "brimmingArcana",
+		[3256] = "alchemyMoxie",
+		[3264] = "miningMoxie",
+		[3260] = "herbalismMoxie",
+		[3265] = "skinningMoxie",
+		[3258] = "enchantingMoxie",
+		[3266] = "tailoringMoxie",
+		[3257] = "blacksmithingMoxie",
+		[3263] = "leatherworkingMoxie",
+		[3262] = "jewelcraftingMoxie",
+		[3261] = "scribingMoxie",
+		[3259] = "engineeringMoxie",
 	}
 	--	/run print(getItemPrice("2175 #justice# / 60 #champseal#", 5000, "Interface\\Icons\\pvecurrency-justice"))
 	--	local englishFaction, _ = UnitFactionGroup("player")
