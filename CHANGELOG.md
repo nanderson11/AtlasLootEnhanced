@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.21.2 -
+### Fixed
+- Fixed item level of Midnight faction gear
+
 ## 9.21.1 - March 5, 2026
 ### Added
 - Added Midnight factions (except The Singularity)
