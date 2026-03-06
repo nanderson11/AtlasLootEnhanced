@@ -1743,7 +1743,7 @@ local function ProfGetString(tab, strg)
 			end
 			strg = ProfGetString(v, strg)
 		elseif type(v) == "table" and v.name then
-			strg = strg.."{ 0, "..(v.item or "nil")..", "..(k or "nil").." }, -- "..(v.name or "nil").."\n"
+			strg = strg.."{ 0, "..(v.item or "nil")..", "..(k or "nil")..v.quantityStr.." }, -- "..(v.name or "nil").."\n"
 		end
 	end
 
@@ -1801,9 +1801,23 @@ local function ProfessionScan()
 
 		local itemLink = C_TradeSkillUI.GetRecipeItemLink(recipeID)
 		itemLink = string.match(itemLink, "item:(%d+)")
+
+		local schematic = C_TradeSkillUI.GetRecipeSchematic(recipeID, false)
+		local min, max = schematic.quantityMin, schematic.quantityMax
+		local quantityStr = ""
+		if (min ~= 1 or max ~= 1) then
+			quantityStr = ", [ATLASLOOT_IT_AMOUNT1] = "
+			if min == max then
+				quantityStr = quantityStr..min
+			else
+				quantityStr = quantityStr.."\""..min.."-"..max.."\""
+			end
+		end
+
 		workingTab[recipeID] = {
 			item = itemLink,
-			name = recipeInfo.name
+			name = recipeInfo.name,
+			quantityStr = quantityStr
 		}
 	end
 
