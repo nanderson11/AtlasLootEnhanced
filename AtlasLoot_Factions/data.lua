@@ -206,7 +206,62 @@ data["MIDNIGHTFACTIONS"] = {
 			FactionID = 2699,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1, "f2699rep32" },
+				{ 1,   "f2699rep32" },
+				{ 2,   "267607:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                        -- Hazy Penumbral Handwraps
+				{ 3,   "267606:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                        -- Gloves of Infinite Gravity
+				{ 4,   "267605:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                        -- Neverending Vortex Grasps
+				{ 5,   "267604:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                        -- Clutches of the Colossal Behemoths
+				{ 7,   "f2699rep33" },
+				{ 8,   262607,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Void Elf Throne
+				{ 9,   248964,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Void Table
+				{ 10,  264509,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Void Elf Barrel
+				{ 12,  "f2699rep34" },
+				{ 13,  263723,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Shawl of the Gilded Collapsed Star
+				{ 14,  266979,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Shawl of the Darkened Collapsed Star
+				{ 15,  266984,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Shawl of the Nebulous Collapsed Star
+				{ 16,  "f2699rep35" },
+				{ 17,  262473,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Chalice
+				{ 18,  263499,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Sturdy Void Elf Trunk
+				{ 19,  256758,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                  -- Formula: Enchant Tool - Ren'dorei Ingenuity
+				{ 20,  256757,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                  -- Formula: Enchant Weapon - Acuity of the Ren'dorei
+				{ 21,  268044,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                  -- Formula: Endless Codex of the Voidtouched
+				{ 22,  258128,               [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150:voidlightMarl:1500" },                                   -- Pattern: Lush Telogrus Carpet
+				{ 23,  259459,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" },                                     -- Recipe: Potion of Recklessness
+				{ 24,  258500,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" },                                    -- Technique: Floating Void-Touched Tome
+				{ 25,  263445,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" },                                    -- Technique: Contract: The Singularity
+				{ 26,  265534,               [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150" },                                                  -- Plans: Ren'dorei Anvil
+				{ 101, "f2699rep38" },
+				{ 102, 262462,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Dark Void Inkwell
+				{ 103, 262466,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Void Elf Table
+				{ 104, 264344,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Void Orb
+				{ 106, "f2699rep39" },
+				{ 107, 262645,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:75:voidlightMarl:750" },                                       -- Beyond the Event Horizon: Alchemy
+				{ 108, 262644,               [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:75:voidlightMarl:750" },                                 -- Beyond the Event Horizon: Blacksmithing
+				{ 109, 262646,               [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:75:voidlightMarl:750" },                                   -- Beyond the Event Horizon: Engineering
+				{ 111, "f2699rep40" },
+				{ 112, 263572,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Tabard of the Gilded Collapsed Star
+				{ 113, 266981,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Tabard of the Darkened Collapsed Star
+				{ 114, 266982,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Tabard of the Nebulous Collapsed Star
+				{ 116, "f2699rep42" },
+				{ 117, 264351,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Ornate Void Elf Banner
+				{ 118, 262609,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Void Elf Floating Lantern
+				{ 119, 262463,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Void Ashwell
+				{ 121, "f2699rep44" },
+				{ 122, 263492,               "pet4952",                                                       [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Blitzcreek
+				{ 124, "f2699rep45" },
+				{ 125, 263573,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Pauldrons of the Gilded Collapsed Star
+				{ 126, 266980,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Pauldrons of the Darkened Collapsed Star
+				{ 127, 266983,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                      -- Pauldrons of the Nebulous Collapsed Star
+				{ 129, "f2699rep46" },
+				{ 130, 263244,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" },                                                      -- Enigmatic Fountain
+				{ 201, "f2699rep47" },
+				{ 202, 257445,               "mount",                                                         [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Ravenous Shredclaw
+				{ 204, "f2699rep48" },
+				{ 205, 264341,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Void Crate
+				{ 206, 264339,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:750" },                                                       -- Cosmic Void Summoning Crystal
+				{ 207, 264337,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" },                                                      -- Cosmic Void Training Dummy
+				{ 209, "f2699rep49" },
+				{ 210, 260696,               "mount",                                                         [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Voidbound Stormray
 			}
 		},
 		{ -- Silvermoon Court: Blood Knights

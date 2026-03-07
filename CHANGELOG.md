@@ -1,6 +1,8 @@
 ﻿# Changelog
 
 ## 9.21.2 -
+### Added
+- Added The Singularity faction
 ### Fixed
 - Fixed item level of Midnight faction gear
 
