@@ -181,7 +181,9 @@
 		"FACTION_STANDING_LABEL7",
 		"FACTION_STANDING_LABEL8",
 		"COLLECTED",
-		"EXPANSION_NAME11"
+		"EXPANSION_NAME11",
+		"ProfessionsUtil",
+		"BINDING_TAG_DECOR"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",

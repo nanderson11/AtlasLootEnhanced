@@ -5,6 +5,7 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
+local MIDNIGHT_DIFF = data:AddDifficulty(EXPANSION_NAME11)
 local TWW_DIFF = data:AddDifficulty(EXPANSION_NAME10)
 local DF_DIFF = data:AddDifficulty(EXPANSION_NAME9)
 local SL_DIFF = data:AddDifficulty(EXPANSION_NAME8)
@@ -39,6 +40,16 @@ data["Alchemy"] = {
 	items = {
 		{ --AlchemyFlask
 			name = AL["Flasks"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  241327, 1230878, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flask of the Shattered Sun
+				{ 2,  241323, 1230876, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flask of the Magisters
+				{ 3,  241325, 1230877, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flask of the Blood Knights
+				{ 4,  241321, 1230875, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flask of Thalassian Resistance
+				{ 6,  241334, 1230883, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Vicious Thalassian Flask of Honor
+				{ 16, 241313, 1230872, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Haranir Phial of Ingenuity
+				{ 17, 241311, 1230870, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Haranir Phial of Finesse
+				{ 18, 241317, 1230873, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Haranir Phial of Perception
+			},
 			[TWW_DIFF] = {
 				{ 1,  212281, 430605, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Alchemical Chaos
 				{ 2,  212299, 430612, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Flask of Saving Graces
@@ -130,6 +141,21 @@ data["Alchemy"] = {
 		},
 		{ --AlchemyPotions
 			name = AL["Potions"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  241299, 1230864, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Amani Extract
+				{ 2,  241289, 1230859, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Recklessness
+				{ 3,  241293, 1230860, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Draught of Rampant Abandon
+				{ 4,  268954, 1230854, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Entropic Extract
+				{ 5,  241295, 1230862, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Devoured Dreams
+				{ 6,  241303, 1230867, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Void-Shrouded Tincture
+				{ 8,  241297, 1230863, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Zealotry
+				{ 9,  241301, 1230865, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Lightfused Mana Potion
+				{ 10, 241305, 1230866, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Silvermoon Health Potion
+				{ 11, 241339, 1230886, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Enlightenment Tonic
+				{ 12, 241307, 1230868, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Refreshing Serum
+				{ 13, 241309, 1230869, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Light's Potential
+				{ 14, 241287, 1230858, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Light's Preservation
+			},
 			[TWW_DIFF] = {
 				{ 1,  211878, 430590,  [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Algari Healing Potion
 				{ 2,  212239, 430591,  [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Algari Mana Potion
@@ -366,6 +392,12 @@ data["Alchemy"] = {
 		},
 		{ --AlchemyMisc
 			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 241340, 1230885 }, -- Magister's Alchemist Stone
+				{ 2, 241291, 1230861 }, -- Primal Philosopher's Stone
+				{ 4, 241285, 1230857 }, -- Voidlight Potion Cauldron
+				{ 5, 241319, 1230874 }, -- Cauldron of Sin'dorei Flasks
+			},
 			[TWW_DIFF] = {
 				{ 1, 210816, 427185, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Algari Alchemist Stone
 				{ 3, 212719, 432962 },                          -- Algari Flask Cauldron
@@ -459,126 +491,19 @@ data["Alchemy"] = {
 				{ 18, 3824,  3449 },                  -- Shadow Oil : =ds=#sr# 165 : =ds=AtlasLoot["Vendor"]
 			},
 		},
-		{ --AlchemyElixirs
-			name = AL["Elixirs"],
-			[LEGION_DIFF] = {
-				{ 1, 127838, 188310 }, -- Sylvan Elixir
-				{ 2, 127838, 188311 }, -- Sylvan Elixir
-				{ 3, 127838, 188312 }, -- Sylvan Elixir
-				{ 5, 127839, 188313 }, -- Avalanche Elixir
-				{ 6, 127839, 188314 }, -- Avalanche Elixir
-				{ 7, 127839, 188315 }, -- Avalanche Elixir
-			},
-			[WOD_DIFF] = {
-				{ 1, 112090, 162403, [PRICE_EXTRA_ITTYPE] = "118700:1", [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Transmorphic Tincture (Sold, Ashran)
-				{ 3, 116271, 175866 },                                                    -- Draenic Water Breathing Elixir (Learnt by item 109558)
-				{ 4, 118711, 175869 },                                                    -- Draenic Water Walking Elixir (Learnt by item 109558)
-			},
-			[MOP_DIFF] = {
-				{ 1,  76079, 114764 }, -- Elixir of Peace : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
-				{ 2,  76080, 114762 }, -- Elixir of Perfection : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
-				{ 3,  76078, 114759 }, -- Elixir of the Rapids : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
-				{ 4,  76077, 114756 }, -- Elixir of Weaponry : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
-				{ 5,  76076, 114754 }, -- Mad Hozen Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
-				{ 6,  76083, 114758 }, -- Monk's Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
-				{ 16, 76081, 114763 }, -- Elixir of Mirrors : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
-				{ 17, 76075, 114755 }, -- Mantid Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
-			},
-			[CATA_DIFF] = {
-				{ 1,  58148, 80497 }, -- Elixir of the Master : =ds=#sr# 495 : =ds=AtlasLoot["Trainer"]
-				{ 2,  58144, 80493 }, -- Elixir of Mighty Speed : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
-				{ 3,  58094, 80491 }, -- Elixir of Impossible Accuracy : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
-				{ 4,  58092, 80484 }, -- Elixir of the Cobra : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
-				{ 5,  58089, 80480 }, -- Elixir of the Naga : =ds=#sr# 455 : =ds=AtlasLoot["Trainer"]
-				{ 6,  58084, 80477 }, -- Ghost Elixir : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 16, 58143, 80492 }, -- Prismatic Elixir : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
-				{ 17, 58093, 80488 }, -- Elixir of Deep Earth : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1,  44325, 60354 }, -- Elixir of Accuracy : =ds=#sr# 400 : =ds=spell60893
-				{ 2,  44330, 60365 }, -- Elixir of Armor Piercing : =ds=#sr# 400 : =ds=spell60893
-				{ 3,  44327, 60355 }, -- Elixir of Deadly Strikes : =ds=#sr# 400 : =ds=spell60893
-				{ 4,  44329, 60357 }, -- Elixir of Expertise : =ds=#sr# 400 : =ds=spell60893
-				{ 5,  44331, 60366 }, -- Elixir of Lightning Speed : =ds=#sr# 400 : =ds=spell60893
-				{ 6,  40109, 56519 }, -- Elixir of Mighty Mageblood : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
-				{ 7,  39666, 53840 }, -- Elixir of Mighty Agility : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
-				{ 8,  40073, 54218 }, -- Elixir of Mighty Strength : =ds=#sr# 385 : =ds=AtlasLoot["Trainer"]
-				{ 9,  40072, 53847 }, -- Elixir of Spirit : =ds=#sr# 385 : =ds=AtlasLoot["Trainer"]
-				{ 10, 40076, 53848 }, -- Guru's Elixir : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 11, 40070, 53842 }, -- Spellpower Elixir : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
-				{ 12, 40068, 53841 }, -- Wrath Elixir : =ds=#sr# 355 : =ds=AtlasLoot["Trainer"]
-				{ 16, 44328, 60356 }, -- Elixir of Mighty Defense : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
-				{ 17, 40097, 54220 }, -- Elixir of Protection : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
-				{ 18, 8827,  62410 }, -- Elixir of Water Walking : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
-				{ 19, 44332, 60367 }, -- Elixir of Mighty Thoughts : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
-				{ 20, 40078, 53898 }, -- Elixir of Mighty Fortitude : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1,  22848, 28578 }, -- Elixir of Empowerment : =ds=#sr# 365 : =ds=AtlasLoot["World Drop"]
-				{ 2,  22840, 28570 }, -- Elixir of Major Mageblood : =ds=#sr# 355 : =ds=AtlasLoot["World Drop"]
-				{ 3,  22835, 28558 }, -- Elixir of Major Shadow Power : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Lower City"] - AtlasLoot["Revered"]
-				{ 4,  22833, 28556 }, -- Elixir of Major Firepower : =ds=#sr# 345 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Revered"]
-				{ 5,  31679, 38960 }, -- Fel Strength Elixir : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Shadowmoon Valley"]
-				{ 6,  22831, 28553 }, -- Elixir of Major Agility : =ds=#sr# 330 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Honored"]
-				{ 7,  32067, 39638 }, -- Elixir of Draenic Wisdom : =ds=#sr# 320 : =ds=AtlasLoot["Trainer"]
-				{ 8,  22827, 28549 }, -- Elixir of Major Frost Power : =ds=#sr# 320 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Zangarmarsh"]
-				{ 9,  28104, 33741 }, -- Elixir of Mastery : =ds=#sr# 315 : =ds=AtlasLoot["Trainer"]
-				{ 10, 22825, 28545 }, -- Elixir of Healing Power : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
-				{ 11, 22824, 28544 }, -- Elixir of Major Strength : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-				{ 12, 28103, 33740 }, -- Adept's Elixir : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 13, 28102, 33738 }, -- Onslaught Elixir : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 16, 22834, 28557 }, -- Elixir of Major Defense : =ds=#sr# 345 : =ds=AtlasLoot["Vendor"]
-				{ 17, 32068, 39639 }, -- Elixir of Ironskin : =ds=#sr# 330 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
-				{ 18, 32063, 39637 }, -- Earthen Elixir : =ds=#sr# 320 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
-				{ 19, 32062, 39636 }, -- Elixir of Major Fortitude : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
-				{ 21, 22830, 28552 }, -- Elixir of the Searching Eye : =ds=#sr# 325 : =ds=AtlasLoot["World Drop"]
-				{ 22, 22823, 28543 }, -- Elixir of Camouflage : =ds=#sr# 305 : =ds=AtlasLoot["Vendor"]
-			},
-			[CLASSIC_DIFF] = {
-				{ 1,   21546, 26277 }, -- Elixir of Greater Firepower : =ds=#sr# 290 : =ds=AtlasLoot_IngameLocales["Searing Gorge"]
-				{ 2,   13454, 17573 }, -- Greater Arcane Elixir : =ds=#sr# 285 : =ds=AtlasLoot["Trainer"]
-				{ 3,   9155,  11461 }, -- Arcane Elixir : =ds=#sr# 285 : =ds=AtlasLoot["Trainer"]
-				{ 4,   13452, 17571 }, -- Elixir of the Mongoose : =ds=#sr# 280 : =ds=AtlasLoot_IngameLocales["Felwood"]
-				{ 5,   13453, 17557 }, -- Elixir of Brute Force : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 6,   20007, 24365 }, -- Mageblood Elixir : =ds=#sr# 275 : =ds=AtlasLoot["No Longer Available"]
-				{ 7,   13447, 17555 }, -- Elixir of the Sages : =ds=#sr# 270 : =ds=AtlasLoot["Trainer"]
-				{ 8,   9224,  11477 }, -- Elixir of Demonslaying : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]
-				{ 9,   9264,  11476 }, -- Elixir of Shadow Power : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"] ALIL["Stormwind City"] / ALIL["Undercity"]
-				{ 10,  9206,  11472 }, -- Elixir of Giants : =ds=#sr# 245 : =ds=AtlasLoot["World Drop"]
-				{ 11,  9187,  11467 }, -- Elixir of Greater Agility : =ds=#sr# 240 : =ds=AtlasLoot["Trainer"]
-				{ 12,  9179,  11465 }, -- Elixir of Greater Intellect : =ds=#sr# 235 : =ds=AtlasLoot["Trainer"]
-				{ 13,  17708, 21923 }, -- Elixir of Frost Power : =ds=#sr# 190 : =ds=AtlasLoot["Feast of Winter Veil"]
-				{ 14,  8949,  11449 }, -- Elixir of Agility : =ds=#sr# 185 : =ds=AtlasLoot["Trainer"]
-				{ 15,  3391,  3188 }, -- Elixir of Ogre's Strength : =ds=#sr# 150 : =ds=AtlasLoot["World Drop"]
-				{ 16,  6373,  7845 }, -- Elixir of Firepower : =ds=#sr# 140 : =ds=AtlasLoot["Trainer"]
-				{ 17,  3390,  2333 }, -- Elixir of Lesser Agility : =ds=#sr# 140 : =ds=AtlasLoot["World Drop"]
-				{ 18,  45621, 63732 }, -- Elixir of Minor Accuracy : =ds=#sr# 135 : =ds=AtlasLoot["Trainer"]
-				{ 19,  6662,  8240 }, -- Elixir of Giant Growth : =ds=#sr# 90 : =ds=AtlasLoot_IngameLocales["Northern Barrens"] / AtlasLoot_IngameLocales["Southern Barrens"]
-				{ 20,  3383,  3171 }, -- Elixir of Wisdom : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
-				{ 21,  2457,  3230 }, -- Elixir of Minor Agility : =ds=#sr# 50 : =ds=AtlasLoot["World Drop"]
-				{ 22,  2454,  2329 }, -- Elixir of Lion's Strength : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 101, 20004, 24368 }, -- Mighty Troll's Blood Elixir : =ds=#sr# 290 : =ds=AtlasLoot["No Longer Available"]
-				{ 102, 13445, 17554 }, -- Elixir of Superior Defense : =ds=#sr# 265 : =ds=AtlasLoot["Vendor"] ALIL["Ironforge"] / ALIL["Orgrimmar"]
-				{ 103, 9088,  11466 }, -- Gift of Arthas : =ds=#sr# 240 : =ds=AtlasLoot_IngameLocales["Western Plaguelands"]
-				{ 104, 10592, 12609 }, -- Catseye Elixir : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 105, 8951,  11450 }, -- Elixir of Greater Defense : =ds=#sr# 195 : =ds=AtlasLoot["Trainer"]
-				{ 106, 3826,  3451 }, -- Major Troll's Blood Elixir : =ds=#sr# 180 : =ds=AtlasLoot["World Drop"]
-				{ 107, 3825,  3450 }, -- Elixir of Fortitude : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 108, 3389,  3177 }, -- Elixir of Defense : =ds=#sr# 130 : =ds=AtlasLoot["Trainer"]
-				{ 109, 3388,  3176 }, -- Strong Troll's Blood Potion : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 110, 2458,  2334 }, -- Elixir of Minor Fortitude : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 111, 3382,  3170 }, -- Weak Troll's Blood Elixir : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
-				{ 112, 5997,  7183 }, -- Elixir of Minor Defense : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 116, 9233,  11478 }, -- Elixir of Detect Demon : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 117, 9197,  11468 }, -- Elixir of Dream Vision : =ds=#sr# 240 : =ds=AtlasLoot["World Drop"]
-				{ 118, 9154,  11460 }, -- Elixir of Detect Undead : =ds=#sr# 230 : =ds=AtlasLoot["Trainer"]
-				{ 119, 18294, 22808 }, -- Elixir of Greater Water Breathing : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
-				{ 120, 3828,  3453 }, -- Elixir of Detect Lesser Invisibility : =ds=#sr# 195 : =ds=AtlasLoot["World Drop"]
-				{ 121, 5996,  7179 }, -- Elixir of Water Breathing : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
-			},
-		},
 		{ --AlchemyTransmute
 			name = AL["Transmutes"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  241283, 1230856 },                 -- Wondrous Synergist
+				{ 2,  241281, 1230855, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Composite Flora
+				{ 4,  236951, 1230887, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Transmute: Mote of Wild Magic
+				{ 5,  236952, 1230888, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Transmute: Mote of Pure Void
+				{ 6,  236950, 1230889, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Transmute: Mote of Primal Energy
+				{ 7,  236949, 1230890, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Transmute: Mote of Light
+				{ 9,  245647, 1230893 },                 -- School of Gems
+				{ 10, 242650, 1230891 },                 -- Box of Rocks
+				{ 11, 245650, 1230892 },                 -- Bouquet of Herbs
+			},
 			[TWW_DIFF] = {
 				{ 1,  212514, 430624 }, -- Blasphemite
 				{ 2,  225677, 449938 }, -- Gleaming Chaos
@@ -713,6 +638,135 @@ data["Alchemy"] = {
 				{ 22, 7080,  17563 },                 -- Transmute: Undeath to Water : =ds=#sr# 275 : =ds=AtlasLoot["World Drop"]
 				{ 23, 7082,  17562 },                 -- Transmute: Water to Air : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Western Plaguelands"]
 				{ 24, 12808, 17564 },                 -- Transmute: Water to Undeath : =ds=#sr# 275 : =ds=AtlasLoot["World Drop"]
+			},
+		},
+		{ -- AlchemyHouseDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 257420, 1233138 }, -- Silvermoon Spire Fountain
+				{ 2, 262355, 1233132 }, -- Entropic Illuminant
+				{ 3, 253506, 1233133 }, -- Rootbound Vat
+				{ 4, 256356, 1233135 }, -- Sunsmoke Censer
+				{ 5, 262354, 1233136 }, -- Riftstone
+				{ 6, 262356, 1233137 }, -- Haranir Preserving Agents
+			},
+		},
+		{ --AlchemyElixirs
+			name = AL["Elixirs"],
+			[LEGION_DIFF] = {
+				{ 1, 127838, 188310 }, -- Sylvan Elixir
+				{ 2, 127838, 188311 }, -- Sylvan Elixir
+				{ 3, 127838, 188312 }, -- Sylvan Elixir
+				{ 5, 127839, 188313 }, -- Avalanche Elixir
+				{ 6, 127839, 188314 }, -- Avalanche Elixir
+				{ 7, 127839, 188315 }, -- Avalanche Elixir
+			},
+			[WOD_DIFF] = {
+				{ 1, 112090, 162403, [PRICE_EXTRA_ITTYPE] = "118700:1", [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Transmorphic Tincture (Sold, Ashran)
+				{ 3, 116271, 175866 },                                                    -- Draenic Water Breathing Elixir (Learnt by item 109558)
+				{ 4, 118711, 175869 },                                                    -- Draenic Water Walking Elixir (Learnt by item 109558)
+			},
+			[MOP_DIFF] = {
+				{ 1,  76079, 114764 }, -- Elixir of Peace : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
+				{ 2,  76080, 114762 }, -- Elixir of Perfection : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
+				{ 3,  76078, 114759 }, -- Elixir of the Rapids : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
+				{ 4,  76077, 114756 }, -- Elixir of Weaponry : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
+				{ 5,  76076, 114754 }, -- Mad Hozen Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
+				{ 6,  76083, 114758 }, -- Monk's Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
+				{ 16, 76081, 114763 }, -- Elixir of Mirrors : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
+				{ 17, 76075, 114755 }, -- Mantid Elixir : =ds=#sr# 525 : =ds=AtlasLoot["Discovery"]
+			},
+			[CATA_DIFF] = {
+				{ 1,  58148, 80497 }, -- Elixir of the Master : =ds=#sr# 495 : =ds=AtlasLoot["Trainer"]
+				{ 2,  58144, 80493 }, -- Elixir of Mighty Speed : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
+				{ 3,  58094, 80491 }, -- Elixir of Impossible Accuracy : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
+				{ 4,  58092, 80484 }, -- Elixir of the Cobra : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
+				{ 5,  58089, 80480 }, -- Elixir of the Naga : =ds=#sr# 455 : =ds=AtlasLoot["Trainer"]
+				{ 6,  58084, 80477 }, -- Ghost Elixir : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 16, 58143, 80492 }, -- Prismatic Elixir : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
+				{ 17, 58093, 80488 }, -- Elixir of Deep Earth : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,  44325, 60354 }, -- Elixir of Accuracy : =ds=#sr# 400 : =ds=spell60893
+				{ 2,  44330, 60365 }, -- Elixir of Armor Piercing : =ds=#sr# 400 : =ds=spell60893
+				{ 3,  44327, 60355 }, -- Elixir of Deadly Strikes : =ds=#sr# 400 : =ds=spell60893
+				{ 4,  44329, 60357 }, -- Elixir of Expertise : =ds=#sr# 400 : =ds=spell60893
+				{ 5,  44331, 60366 }, -- Elixir of Lightning Speed : =ds=#sr# 400 : =ds=spell60893
+				{ 6,  40109, 56519 }, -- Elixir of Mighty Mageblood : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
+				{ 7,  39666, 53840 }, -- Elixir of Mighty Agility : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
+				{ 8,  40073, 54218 }, -- Elixir of Mighty Strength : =ds=#sr# 385 : =ds=AtlasLoot["Trainer"]
+				{ 9,  40072, 53847 }, -- Elixir of Spirit : =ds=#sr# 385 : =ds=AtlasLoot["Trainer"]
+				{ 10, 40076, 53848 }, -- Guru's Elixir : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 11, 40070, 53842 }, -- Spellpower Elixir : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
+				{ 12, 40068, 53841 }, -- Wrath Elixir : =ds=#sr# 355 : =ds=AtlasLoot["Trainer"]
+				{ 16, 44328, 60356 }, -- Elixir of Mighty Defense : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
+				{ 17, 40097, 54220 }, -- Elixir of Protection : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
+				{ 18, 8827,  62410 }, -- Elixir of Water Walking : =ds=#sr# 400 : =ds=AtlasLoot["Discovery"]
+				{ 19, 44332, 60367 }, -- Elixir of Mighty Thoughts : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
+				{ 20, 40078, 53898 }, -- Elixir of Mighty Fortitude : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1,  22848, 28578 }, -- Elixir of Empowerment : =ds=#sr# 365 : =ds=AtlasLoot["World Drop"]
+				{ 2,  22840, 28570 }, -- Elixir of Major Mageblood : =ds=#sr# 355 : =ds=AtlasLoot["World Drop"]
+				{ 3,  22835, 28558 }, -- Elixir of Major Shadow Power : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Lower City"] - AtlasLoot["Revered"]
+				{ 4,  22833, 28556 }, -- Elixir of Major Firepower : =ds=#sr# 345 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Revered"]
+				{ 5,  31679, 38960 }, -- Fel Strength Elixir : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Shadowmoon Valley"]
+				{ 6,  22831, 28553 }, -- Elixir of Major Agility : =ds=#sr# 330 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Honored"]
+				{ 7,  32067, 39638 }, -- Elixir of Draenic Wisdom : =ds=#sr# 320 : =ds=AtlasLoot["Trainer"]
+				{ 8,  22827, 28549 }, -- Elixir of Major Frost Power : =ds=#sr# 320 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Zangarmarsh"]
+				{ 9,  28104, 33741 }, -- Elixir of Mastery : =ds=#sr# 315 : =ds=AtlasLoot["Trainer"]
+				{ 10, 22825, 28545 }, -- Elixir of Healing Power : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
+				{ 11, 22824, 28544 }, -- Elixir of Major Strength : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+				{ 12, 28103, 33740 }, -- Adept's Elixir : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 13, 28102, 33738 }, -- Onslaught Elixir : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 16, 22834, 28557 }, -- Elixir of Major Defense : =ds=#sr# 345 : =ds=AtlasLoot["Vendor"]
+				{ 17, 32068, 39639 }, -- Elixir of Ironskin : =ds=#sr# 330 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
+				{ 18, 32063, 39637 }, -- Earthen Elixir : =ds=#sr# 320 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
+				{ 19, 32062, 39636 }, -- Elixir of Major Fortitude : =ds=#sr# 310 : =ds=AtlasLoot["Trainer"]
+				{ 21, 22830, 28552 }, -- Elixir of the Searching Eye : =ds=#sr# 325 : =ds=AtlasLoot["World Drop"]
+				{ 22, 22823, 28543 }, -- Elixir of Camouflage : =ds=#sr# 305 : =ds=AtlasLoot["Vendor"]
+			},
+			[CLASSIC_DIFF] = {
+				{ 1,   21546, 26277 }, -- Elixir of Greater Firepower : =ds=#sr# 290 : =ds=AtlasLoot_IngameLocales["Searing Gorge"]
+				{ 2,   13454, 17573 }, -- Greater Arcane Elixir : =ds=#sr# 285 : =ds=AtlasLoot["Trainer"]
+				{ 3,   9155,  11461 }, -- Arcane Elixir : =ds=#sr# 285 : =ds=AtlasLoot["Trainer"]
+				{ 4,   13452, 17571 }, -- Elixir of the Mongoose : =ds=#sr# 280 : =ds=AtlasLoot_IngameLocales["Felwood"]
+				{ 5,   13453, 17557 }, -- Elixir of Brute Force : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 6,   20007, 24365 }, -- Mageblood Elixir : =ds=#sr# 275 : =ds=AtlasLoot["No Longer Available"]
+				{ 7,   13447, 17555 }, -- Elixir of the Sages : =ds=#sr# 270 : =ds=AtlasLoot["Trainer"]
+				{ 8,   9224,  11477 }, -- Elixir of Demonslaying : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]
+				{ 9,   9264,  11476 }, -- Elixir of Shadow Power : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"] ALIL["Stormwind City"] / ALIL["Undercity"]
+				{ 10,  9206,  11472 }, -- Elixir of Giants : =ds=#sr# 245 : =ds=AtlasLoot["World Drop"]
+				{ 11,  9187,  11467 }, -- Elixir of Greater Agility : =ds=#sr# 240 : =ds=AtlasLoot["Trainer"]
+				{ 12,  9179,  11465 }, -- Elixir of Greater Intellect : =ds=#sr# 235 : =ds=AtlasLoot["Trainer"]
+				{ 13,  17708, 21923 }, -- Elixir of Frost Power : =ds=#sr# 190 : =ds=AtlasLoot["Feast of Winter Veil"]
+				{ 14,  8949,  11449 }, -- Elixir of Agility : =ds=#sr# 185 : =ds=AtlasLoot["Trainer"]
+				{ 15,  3391,  3188 }, -- Elixir of Ogre's Strength : =ds=#sr# 150 : =ds=AtlasLoot["World Drop"]
+				{ 16,  6373,  7845 }, -- Elixir of Firepower : =ds=#sr# 140 : =ds=AtlasLoot["Trainer"]
+				{ 17,  3390,  2333 }, -- Elixir of Lesser Agility : =ds=#sr# 140 : =ds=AtlasLoot["World Drop"]
+				{ 18,  45621, 63732 }, -- Elixir of Minor Accuracy : =ds=#sr# 135 : =ds=AtlasLoot["Trainer"]
+				{ 19,  6662,  8240 }, -- Elixir of Giant Growth : =ds=#sr# 90 : =ds=AtlasLoot_IngameLocales["Northern Barrens"] / AtlasLoot_IngameLocales["Southern Barrens"]
+				{ 20,  3383,  3171 }, -- Elixir of Wisdom : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
+				{ 21,  2457,  3230 }, -- Elixir of Minor Agility : =ds=#sr# 50 : =ds=AtlasLoot["World Drop"]
+				{ 22,  2454,  2329 }, -- Elixir of Lion's Strength : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 101, 20004, 24368 }, -- Mighty Troll's Blood Elixir : =ds=#sr# 290 : =ds=AtlasLoot["No Longer Available"]
+				{ 102, 13445, 17554 }, -- Elixir of Superior Defense : =ds=#sr# 265 : =ds=AtlasLoot["Vendor"] ALIL["Ironforge"] / ALIL["Orgrimmar"]
+				{ 103, 9088,  11466 }, -- Gift of Arthas : =ds=#sr# 240 : =ds=AtlasLoot_IngameLocales["Western Plaguelands"]
+				{ 104, 10592, 12609 }, -- Catseye Elixir : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 105, 8951,  11450 }, -- Elixir of Greater Defense : =ds=#sr# 195 : =ds=AtlasLoot["Trainer"]
+				{ 106, 3826,  3451 }, -- Major Troll's Blood Elixir : =ds=#sr# 180 : =ds=AtlasLoot["World Drop"]
+				{ 107, 3825,  3450 }, -- Elixir of Fortitude : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 108, 3389,  3177 }, -- Elixir of Defense : =ds=#sr# 130 : =ds=AtlasLoot["Trainer"]
+				{ 109, 3388,  3176 }, -- Strong Troll's Blood Potion : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 110, 2458,  2334 }, -- Elixir of Minor Fortitude : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
+				{ 111, 3382,  3170 }, -- Weak Troll's Blood Elixir : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
+				{ 112, 5997,  7183 }, -- Elixir of Minor Defense : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 116, 9233,  11478 }, -- Elixir of Detect Demon : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 117, 9197,  11468 }, -- Elixir of Dream Vision : =ds=#sr# 240 : =ds=AtlasLoot["World Drop"]
+				{ 118, 9154,  11460 }, -- Elixir of Detect Undead : =ds=#sr# 230 : =ds=AtlasLoot["Trainer"]
+				{ 119, 18294, 22808 }, -- Elixir of Greater Water Breathing : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
+				{ 120, 3828,  3453 }, -- Elixir of Detect Lesser Invisibility : =ds=#sr# 195 : =ds=AtlasLoot["World Drop"]
+				{ 121, 5996,  7179 }, -- Elixir of Water Breathing : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 	}

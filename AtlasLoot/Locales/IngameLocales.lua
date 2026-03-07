@@ -198,6 +198,11 @@ local IngameLocales = {
 	["SHAMAN"]                = AtlasLoot_GetClassName("SHAMAN"),
 	["WARLOCK"]               = AtlasLoot_GetClassName("WARLOCK"),
 	["WARRIOR"]               = AtlasLoot_GetClassName("WARRIOR"),
+
+	-- ######################################################################
+	-- Other
+	-- ######################################################################
+	["Decor"]                 = BINDING_TAG_DECOR,
 }
 AtlasLoot.IngameLocales = IngameLocales
 
