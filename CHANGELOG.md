@@ -3,6 +3,8 @@
 ## 9.21.2 -
 ### Added
 - Added The Singularity faction
+- Added Midnight Alchemy recipes
+- Added Midnight Cooking recipes
 ### Fixed
 - Fixed item level of Midnight faction gear
 

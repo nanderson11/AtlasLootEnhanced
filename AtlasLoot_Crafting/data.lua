@@ -8703,6 +8703,14 @@ data["Cooking"] = {
 	items = {
 		{ --CookingAttributes
 			name = AL["Attributes"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 242275, 1226171, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Royal Roast
+				{ 2, 255847, 1259654, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Impossibly Royal Roast
+				{ 3, 242288, 1226184, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Twilight Angler's Medley
+				{ 4, 242289, 1226185, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Spellfire Filet
+				{ 5, 242302, 1226198, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Bloom Skewers
+				{ 6, 242303, 1226199, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Mana-Infused Stew
+			},
 			[TWW_DIFF] = {
 				{ 1, 222713, 445093, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Tender Twilight Jerky
 				{ 2, 222712, 445092, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Sweet and Sour Meatballs
@@ -8782,6 +8790,34 @@ data["Cooking"] = {
 		},
 		{ --CookingRatings
 			name = AL["Ratings"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  255848, 1259660, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flora Frenzy
+				{ 2,  242274, 1226170, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Champion's Bento
+				{ 3,  242287, 1226183, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Arcano Cutlets
+				{ 4,  242278, 1226174, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tasty Smoked Tetra
+				{ 5,  242283, 1226179, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sun-Seared Lumifin
+				{ 6,  242277, 1226173, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Crimson Calamari
+				{ 7,  242286, 1226182, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Fel-Kissed Filet
+				{ 8,  242282, 1226178, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Null and Void Plate
+				{ 9,  242281, 1226177, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Glitter Skewers
+				{ 10, 242285, 1226181, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Warped Wise Wings
+				{ 11, 242276, 1226172, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Braised Blood Hunter
+				{ 12, 242280, 1226176, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Buttered Root Crab
+				{ 13, 242284, 1226180, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Void-Kissed Fish Rolls
+				{ 16, 242290, 1226186, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Wise Tails
+				{ 17, 242291, 1226187, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Fried Bloomtail
+				{ 18, 242292, 1226188, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Eversong Pudding
+				{ 19, 242293, 1226189, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Sunwell Delight
+				{ 20, 242294, 1226190, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Felberry Figs
+				{ 21, 242295, 1226191, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Hearthflame Supper
+				{ 22, 242296, 1226192, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Bloodthistle-Wrapped Cutlets
+				{ 24, 242309, 1226166, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Farstrider Rations
+				{ 25, 242306, 1226202, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Forager's Medley
+				{ 26, 242307, 1226203, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Quick Sandwich
+				{ 27, 242308, 1226204, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Portable Snack
+				{ 28, 242304, 1226200, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Spiced Biscuits
+				{ 29, 242305, 1226201, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Silvermoon Standard
+			},
 			[TWW_DIFF] = {
 				{ 1,  223968, 447872,  [PRICE_EXTRA_ITTYPE] = "kej:1500" },                       -- Spongey Scramble
 				{ 2,  222704, 445084,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Unseasoned Field Steak
@@ -8974,6 +9010,12 @@ data["Cooking"] = {
 		},
 		{ --CookingBanquetFeast
 			name = AL["Banquets/Feasts"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 242272, 1226168, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Quel'dorei Medley
+				{ 2, 255846, 1226175, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Harandar Celebration
+				{ 3, 255845, 1257796, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Silvermoon Parade
+				{ 4, 242273, 1226169, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Blooming Feast
+			},
 			[TWW_DIFF] = {
 				{ 1, 222720, 445100, [ATLASLOOT_IT_AMOUNT1] = "3" },                                     -- The Sushi Special
 				{ 2, 222733, 445113, [ATLASLOOT_IT_AMOUNT1] = "5" },                                     -- Feast of the Midnight Masquerade
@@ -9017,36 +9059,13 @@ data["Cooking"] = {
 				{ 29, 87232,  125595, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Great Banquet of the Wok : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Way of the Wok"]
 			},
 		},
-		{ --CookingAPSP
-			name = AL["Attack/Spell Power"],
-			[NORMAL_DIFF] = {
-				{ 1,  43015,                                      57423 },                       -- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  34754,                                      45555 },                       -- Mega Mammoth Meal : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,  34766,                                      45567 },                       -- Poached Northern Sculpin : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,  43268,                                      58065 },                       -- Dalaran Clam Chowder : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 5,  34753,                                      45554 },                       -- Great Feast : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 6,  34762,                                      45563 },                       -- Grilled Sculpin : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 7,  34748,                                      45549 },                       -- Mammoth Meal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 8,  27655,                                      33284 },                       -- Ravager Dog : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hellfire Peninsula"]
-				{ 9,  35563,                                      46684 },                       -- Charred Bear Kabobs : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Felwood"]
-				{ 10, 33004,                                      64054 },                       -- Clamlette Magnifique : =ds=#sr# 250 : =ds=LibBabble-Inventory-3.0["Quest"]
-				{ 11, [ATLASLOOT_IT_ALLIANCE] = { 44838, 62045 }, [ATLASLOOT_IT_HORDE] = { 44838, 66037 } }, -- Slow-Roasted Turkey : =ds=#sr# 280 : =ds=AtlasLoot["Vendor"]
-				{ 16, 43015,                                      57423 },                       -- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 17, 34767,                                      45568 },                       -- Firecracker Salmon : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 18, 34755,                                      45556 },                       -- Tender Shoveltusk Steak : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 19, 43268,                                      58065 },                       -- Dalaran Clam Chowder : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 20, 34753,                                      45554 },                       -- Great Feast : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 21, 34749,                                      45550 },                       -- Shoveltusk Steak : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 22, 34763,                                      45564 },                       -- Smoked Salmon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 23, 27657,                                      33286 },                       -- Blackened Basilisk : =ds=#sr# 315 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Terokkar Forest"]
-				{ 24, 31673,                                      38868 },                       -- Crunchy Serpent : =ds=#sr# 335 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Blade's Edge Mountains"]
-				{ 25, 27666,                                      33295 },                       -- Golden Fish Sticks : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Terokkar Forest"]
-				{ 26, 27665,                                      33294 },                       -- Poached Bluefish : =ds=#sr# 320 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
-				{ 27, [ATLASLOOT_IT_ALLIANCE] = { 44840, 62049 }, [ATLASLOOT_IT_HORDE] = { 44840, 66035 } }, -- Cranberry Chutney : =ds=#sr# 160 : =ds=AtlasLoot["Vendor"]
-			},
-		},
 		{ --CookingSpecial
 			name = AL["Special"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 242298, 1226194, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Argentleaf Tea
+				{ 2, 242299, 1226195, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sanguithorn Tea
+				{ 3, 242301, 1226197, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Azeroot Tea
+			},
 			[TWW_DIFF] = {
 				{ 1, 223970, 447874, [ATLASLOOT_IT_AMOUNT1] = "3" },                                                    -- Little Buddy Biscuits
 				{ 2, 222748, 445483, [ATLASLOOT_IT_AMOUNT1] = "10" },                                                   -- Sticky Sweet Treat
@@ -9103,6 +9122,10 @@ data["Cooking"] = {
 		},
 		{ --CookingStandard
 			name = AL["Food without Buffs"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 242300, 1226196, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tranquility Bloom Tea
+				{ 2, 242297, 1226193, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Mana Lily Tea
+			},
 			[TWW_DIFF] = {
 				{ 1, 222744, 445479, [ATLASLOOT_IT_AMOUNT1] = "10", [PRICE_EXTRA_ITTYPE] = "money:200000" }, -- Cinder Nectar
 			},
@@ -9171,6 +9194,34 @@ data["Cooking"] = {
 				{ 21, 30816, 37836 },                 -- Spice Bread : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 				{ 23, 2682,  2545 },                  -- Cooked Crab Claw : =ds=#sr# 85 : =ds=AtlasLoot["World Drop"]
 				{ 25, 10841, 13028, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Goldthorn Tea : =ds=#sr# 175 : =ds=AtlasLoot_IngameLocales["Razorfen Downs"]
+			},
+		},
+		{ --CookingAPSP
+			name = AL["Attack/Spell Power"],
+			[NORMAL_DIFF] = {
+				{ 1,  43015,                                      57423 },                       -- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,  34754,                                      45555 },                       -- Mega Mammoth Meal : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,  34766,                                      45567 },                       -- Poached Northern Sculpin : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,  43268,                                      58065 },                       -- Dalaran Clam Chowder : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 5,  34753,                                      45554 },                       -- Great Feast : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 6,  34762,                                      45563 },                       -- Grilled Sculpin : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 7,  34748,                                      45549 },                       -- Mammoth Meal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 8,  27655,                                      33284 },                       -- Ravager Dog : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hellfire Peninsula"]
+				{ 9,  35563,                                      46684 },                       -- Charred Bear Kabobs : =ds=#sr# 250 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Felwood"]
+				{ 10, 33004,                                      64054 },                       -- Clamlette Magnifique : =ds=#sr# 250 : =ds=LibBabble-Inventory-3.0["Quest"]
+				{ 11, [ATLASLOOT_IT_ALLIANCE] = { 44838, 62045 }, [ATLASLOOT_IT_HORDE] = { 44838, 66037 } }, -- Slow-Roasted Turkey : =ds=#sr# 280 : =ds=AtlasLoot["Vendor"]
+				{ 16, 43015,                                      57423 },                       -- Fish Feast : =ds=#sr# 450 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 17, 34767,                                      45568 },                       -- Firecracker Salmon : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 18, 34755,                                      45556 },                       -- Tender Shoveltusk Steak : =ds=#sr# 400 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 19, 43268,                                      58065 },                       -- Dalaran Clam Chowder : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 20, 34753,                                      45554 },                       -- Great Feast : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 21, 34749,                                      45550 },                       -- Shoveltusk Steak : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 22, 34763,                                      45564 },                       -- Smoked Salmon : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 23, 27657,                                      33286 },                       -- Blackened Basilisk : =ds=#sr# 315 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Terokkar Forest"]
+				{ 24, 31673,                                      38868 },                       -- Crunchy Serpent : =ds=#sr# 335 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Blade's Edge Mountains"]
+				{ 25, 27666,                                      33295 },                       -- Golden Fish Sticks : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Terokkar Forest"]
+				{ 26, 27665,                                      33294 },                       -- Poached Bluefish : =ds=#sr# 320 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
+				{ 27, [ATLASLOOT_IT_ALLIANCE] = { 44840, 62049 }, [ATLASLOOT_IT_HORDE] = { 44840, 66035 } }, -- Cranberry Chutney : =ds=#sr# 160 : =ds=AtlasLoot["Vendor"]
 			},
 		},
 	}
