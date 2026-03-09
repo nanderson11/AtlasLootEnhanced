@@ -1786,7 +1786,7 @@ local function ProfessionScan()
 				print "KILL"
 				return
 			end
-			if not categoryInfo.parentCategoryID then break end
+			if not categoryInfo or not categoryInfo.parentCategoryID then break end
 			local categoryInfoLoc = C_TradeSkillUI.GetCategoryInfo(categoryInfo.parentCategoryID)
 			if not categoryInfoLoc then break end
 

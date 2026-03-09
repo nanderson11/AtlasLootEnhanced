@@ -1,12 +1,15 @@
 ﻿# Changelog
 
-## 9.21.2 -
+## 9.21.2 - March 9, 2026
 ### Added
 - Added The Singularity faction
 - Added Midnight Alchemy recipes
 - Added Midnight Cooking recipes
+- Added Midnight Blacksmithing recipes
+- Added Midnight Enchanting recipes
 ### Fixed
 - Fixed item level of Midnight faction gear
+- Fixed missing Earthen Master's Hammer in TWW Blacksmithing
 
 ## 9.21.1 - March 5, 2026
 ### Added

@@ -183,7 +183,8 @@
 		"COLLECTED",
 		"EXPANSION_NAME11",
 		"ProfessionsUtil",
-		"BINDING_TAG_DECOR"
+		"BINDING_TAG_DECOR",
+		"INVTYPE_HEAD"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",
