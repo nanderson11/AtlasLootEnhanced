@@ -3096,6 +3096,59 @@ data["Engineering"] = {
 	items = {
 		{ --EngineeringArmorWeapons
 			name = AL["Armor"].." & "..AL["Weapons"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,   244746, 1229873 },                          -- Aetherlume Sun Guard
+				{ 2,   244774, 1229881 },                          -- Aetherlume Stompers
+				{ 3,   244750, 1229877 },                          -- Aetherlume Guards
+				{ 4,   244770, 1229893 },                          -- Quel'dorei Stompers
+				{ 5,   244758, 1229889 },                          -- Quel'dorei Guards
+				{ 6,   244762, 1229885 },                          -- Quel'dorei Visor
+				{ 7,   244754, 1229865 },                          -- Evercore Vision Guard
+				{ 8,   245340, 1229938 },                          -- Evercore Greaseplates
+				{ 9,   245344, 1229869 },                          -- Evercore Gear Weight
+				{ 10,  244742, 1229915, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Plate Bindings
+				{ 11,  244738, 1229911, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Plate Guard
+				{ 12,  244766, 1261493, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Plate Dunkers
+				{ 16,  244749, 1229876 },                          -- Aetherlume Bracelets
+				{ 17,  244745, 1229872 },                          -- Aetherlume Vision Shroud
+				{ 18,  244773, 1229880 },                          -- Aetherlume Clonkers
+				{ 19,  244757, 1229888 },                          -- Quel'dorei Bracelets
+				{ 20,  244769, 1229892 },                          -- Quel'dorei Clonkers
+				{ 21,  244761, 1229884 },                          -- Quel'dorei Mail Shroud
+				{ 22,  244753, 1229864 },                          -- Evercore Reconissance
+				{ 23,  245339, 1229937 },                          -- Evercore Turbochains
+				{ 24,  245343, 1229868 },                          -- Evercore Chainguards
+				{ 25,  244737, 1229910, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Mail Visor
+				{ 26,  244741, 1229914, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Mail Links
+				{ 27,  244765, 1261492, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Mail Footlinks
+				{ 101, 244748, 1229875 },                          -- Aetherlume Bands
+				{ 102, 244744, 1229871 },                          -- Aetherlume Optics
+				{ 103, 244772, 1229879 },                          -- Aetherlume Runners
+				{ 104, 244768, 1229891 },                          -- Quel'dorei Runners
+				{ 105, 244760, 1229883 },                          -- Quel'dorei Leather Optics
+				{ 106, 244756, 1229887 },                          -- Quel'dorei Bands
+				{ 107, 244752, 1229863 },                          -- Evercore Shade
+				{ 108, 245338, 1229936 },                          -- Evercore Stichwraps
+				{ 109, 245342, 1229867 },                          -- Evercore Binding
+				{ 110, 244736, 1229909, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Leather Optics
+				{ 111, 244740, 1229913, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Leather Bands
+				{ 112, 244764, 1261491, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Leather Sliders
+				{ 116, 244747, 1229874 },                          -- Aetherlume Silken Cuffs
+				{ 117, 244771, 1229878 },                          -- Aetherlume Softsteppers
+				{ 118, 244743, 1229870 },                          -- Aetherlume Eye Wrap
+				{ 119, 244767, 1229890 },                          -- Quel'dorei Softsteppers
+				{ 120, 244755, 1229886 },                          -- Quel'dorei Silken Cuffs
+				{ 121, 244759, 1229882 },                          -- Quel'dorei Cloth Goggles
+				{ 122, 244751, 1229862 },                          -- Evercore Zoomshroud
+				{ 123, 245341, 1229866 },                          -- Evercore Wrist Latch
+				{ 124, 245337, 1229935 },                          -- Evercore Swiftfeet
+				{ 125, 244763, 1261490, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Tip-Toes
+				{ 126, 244735, 1229908, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Goggles
+				{ 127, 244739, 1229912, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Cuffs
+				{ 201, 268477, 1282456 },                          -- P.O.W. x3
+				{ 202, 268475, 1282455 },                          -- Evercore Dome Dinger
+				{ 203, 268479, 1282457, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Rifle
+			},
 			[TWW_DIFF] = {
 				{ 1,  225642, 447375 },                          -- Acolyte's Goggles
 				{ 2,  225643, 447376 },                          -- Spelunker's Goggles
@@ -3341,6 +3394,13 @@ data["Engineering"] = {
 		},
 		{ --EngineeringDevices
 			name = AL["Devices"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 248486, 1229923 }, -- Emergency Soul Link
+				{ 2, 248138, 1229927 }, -- Curious Red Button
+				{ 3, 248485, 1229928 }, -- Wormhole Generator: Quel'Thalas
+				{ 4, 248409, 1229926 }, -- W-47CH D0G
+				{ 5, 248137, 1229924 }, -- M3DDY
+			},
 			[TWW_DIFF] = {
 				{ 1,  221949, 447365,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pausing Pylon
 				{ 2,  221957, 447367,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Algari Repair Bot 11O
@@ -3374,6 +3434,418 @@ data["Engineering"] = {
 				{ 20, 153510, 256080 }, -- Interdimensional Companion Repository
 				{ 21, 153510, 256082 }, -- Interdimensional Companion Repository
 				{ 22, 153510, 256084 }, -- Interdimensional Companion Repository
+			},
+		},
+		{ --EngineeringCogwheel
+			name = AL["Cogwheels"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 244703, 1229858 }, -- Consistent Cogwheel
+				{ 2, 244697, 1229859 }, -- Flux Cogwheel
+				{ 3, 244699, 1229857 }, -- Greased Cogwheel
+				{ 4, 244701, 1229856 }, -- Perfected Cogwheel
+			},
+			[TWW_DIFF] = {
+				{ 1, 221920, 447356 }, -- Adjustable Cogwheel
+				{ 2, 221917, 447355 }, -- Impeccable Cogwheel
+				{ 3, 221914, 447354 }, -- Overclocked Cogwheel
+				{ 4, 221911, 447353 }, -- Serrated Cogwheel
+			},
+			[MOP_DIFF] = {
+				{ 1, 77544, 131211 }, -- Flashing Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 2, 77547, 131212 }, -- Fractured Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 3, 77543, 131213 }, -- Precise Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 4, 77542, 131214 }, -- Quick Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 5, 77545, 131215 }, -- Rigid Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 6, 77541, 131216 }, -- Smooth Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 7, 77546, 131217 }, -- Sparkling Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 8, 77540, 131218 }, -- Subtle Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1, 59480 }, -- Fractured Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 2, 59491 }, -- Flashing Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 3, 68660 }, -- Mystic Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 4, 59489 }, -- Precise Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 5, 59479 }, -- Quick Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 6, 59493 }, -- Rigid Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 7, 59496 }, -- Sparkling Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 8, 59478 }, -- Smooth Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+				{ 9, 59477 }, -- Subtle Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  259173, 1264524, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Rock Bonkin' Hardhat
+				{ 2,  259179, 1264527, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Sin'dorei Reeler's Rod
+				{ 3,  259175, 1264525, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Heavy-Duty Rock Assister
+				{ 4,  259171, 1264523, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Head-Mounted Beam Bummer
+				{ 5,  259177, 1264526, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Self-Sharpening Sin'dorei Snippers
+				{ 6,  259181, 1264528, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Giga-Gem Grippers
+				{ 7,  259183, 1264529, [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:200" }, -- Turbo-Junker's Multitool v9
+				{ 8,  244720, 1229906 },                                    -- Junker's Big Ol' Bag
+				{ 9,  244708, 1229907 },                                    -- Sin'dorei Snippers
+				{ 10, 244710, 1229894 },                                    -- Sin'dorei Headlamp
+				{ 11, 244716, 1229897 },                                    -- Sin'dorei Gilded Hardhat
+				{ 12, 244712, 1229902 },                                    -- Sin'dorei Angler's Rod
+				{ 13, 244718, 1229903 },                                    -- Turbo-Junker's Multitool
+				{ 14, 244714, 1229905 },                                    -- Sin'dorei Clampers
+				{ 15, 244717, 1229896 },                                    -- Junker's Multitool
+				{ 16, 244709, 1229901 },                                    -- Junker's Junk Visor
+				{ 17, 244719, 1229899 },                                    -- Farstrider Rock Satchel
+				{ 18, 244711, 1229895 },                                    -- Farstrider Hobbyist Rod
+				{ 19, 244713, 1229898 },                                    -- Farstrider Clampers
+				{ 20, 244707, 1229900 },                                    -- Farstrider Fabric Cutters
+				{ 21, 244715, 1229904 },                                    -- Farstrider Hardhat
+			},
+			[TWW_DIFF] = {
+				{ 1,  221789, 447325 }, -- Aqirite Brainwave Projector
+				{ 2,  221791, 447327 }, -- Aqirite Fisherfriend
+				{ 3,  221796, 447331 }, -- Aqirite Miner's Headgear
+				{ 4,  221798, 447333 }, -- Aqirite Fueled Samophlange
+				{ 5,  221793, 447329 }, -- Lapidary's Aqirite Clamps
+				{ 6,  221800, 447335 }, -- Miner's Aqirite Hoard
+				{ 7,  221787, 447323 }, -- Spring-Loaded Aqirite Fabric Cutters
+				{ 8,  221788, 447324 }, -- Bismuth Brainwave Projector
+				{ 9,  221790, 447326 }, -- Bismuth Fisherfriend
+				{ 10, 221795, 447330 }, -- Bismuth Miner's Headgear
+				{ 11, 221797, 447332 }, -- Bismuth-Fueled Samophlange
+				{ 12, 221792, 447328 }, -- Lapidary's Bismuth Clamps
+				{ 13, 221799, 447334 }, -- Miner's Bismuth Hoard
+				{ 14, 221786, 447322 }, -- Spring-Loaded Bismuth Fabric Cutters
+			},
+		},
+		{ --EngineeringReagents
+			name = AL["Reagents"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  248132, 1229919 }, -- Kinetic Ankle Primers
+				{ 2,  248130, 1229916 }, -- Lucky Keychain
+				{ 3,  248135, 1229922 }, -- B1P, Scorcher of Souls
+				{ 4,  248136, 1229917 }, -- M3DDY, Travel-Sized
+				{ 5,  257735, 1261945 }, -- B0P, Curator of Booms
+				{ 6,  255843, 1229921 }, -- HU5H, Nonchalant Pup
+				{ 16, 243576, 1229853 }, -- Soul Sprocket
+				{ 17, 243574, 1229755 }, -- Song Gear
+			},
+			[TWW_DIFF] = {
+				{ 1,  225987, 459299 }, -- Bottled Brilliance
+				{ 3,  221938, 447362 }, -- Concealed Chaos Module
+				{ 4,  221941, 447363 }, -- Energy Redistribution Beacon
+				{ 5,  221935, 447361 }, -- Pouch of Pocket Grenades
+				{ 7,  221926, 447358 }, -- Blame Redirection Device
+				{ 8,  221932, 447360 }, -- Complicated Fuse Box
+				{ 9,  221923, 447357 }, -- Recalibrated Safety Switch
+				{ 16, 221865, 447340 }, -- Chaos Circuit
+				{ 17, 221868, 447341 }, -- Entropy Enhancer
+				{ 18, 221862, 447339 }, -- Safety Switch
+				{ 19, 221859, 447338 }, -- Gyrating Gear
+				{ 20, 221853, 447336 }, -- Handful of Bismuth Bolts
+				{ 21, 221856, 447337 }, -- Whimsical Wiring
+			},
+			[WOD_DIFF] = {
+				{ 1, 111366, 169080, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Gearspring Parts (Learnt by item 111921)
+				{ 2, 111366, 182120 },                    -- Gearspring Parts (Learnt by item 111921)
+				{ 4, 119299, 177054 },                    -- Secrets of Draenor Engineering (Learnt by item 111921)
+			},
+			[MOP_DIFF] = {
+				{ 1, 94113, 139176 },                 -- Jard's Peculiar Energy Source : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 2, 90146, 131563, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tinker's Kit : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 3, 77467, 127113, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Ghost Iron Bolts : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 4, 77468, 127114, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- High-Explosive Gunpowder : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1, 67749, 94748, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Electrified Ether : =ds=#sr# 445 : =ds=AtlasLoot["Trainer"]
+				{ 2, 60224, 84403, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- Handful of Obsidium Bolts : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1, 39683, 56471 },                     -- Froststeel Tube : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 2, 39682, 56464 },                     -- Overcharged Capacitor : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 3, 39681, 56349, [ATLASLOOT_IT_AMOUNT1] = "1-3" }, -- Handful of Cobalt Bolts : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 4, 39690, 53281, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Volatile Blasting Trigger : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1, 23787, 30309 },                  -- Felsteel Stabilizer : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
+				{ 2, 23785, 30307 },                  -- Hardened Adamantite Tube : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
+				{ 3, 23786, 30308 },                  -- Khorium Power Core : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
+				{ 4, 32423, 39971, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Icy Blasting Primers : =ds=#sr# 335 : =ds=AtlasLoot["Trainer"]
+				{ 5, 23784, 30306 },                  -- Adamantite Frame : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 6, 23783, 30305 },                  -- Handful of Fel Iron Bolts : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 7, 23781, 30303, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Elemental Blasting Powder : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 8, 23782, 30304 },                  -- Fel Iron Casing : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+			[CLASSIC_DIFF] = {
+				{ 1,  16006, 19815 },                 -- Delicate Arcanite Converter : =ds=#sr# 285 : =ds=AtlasLoot["Vendor"]
+				{ 2,  16000, 19795 },                 -- Thorium Tube : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
+				{ 3,  7191,  39895, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Fused Wiring : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]
+				{ 4,  15994, 19791 },                 -- Thorium Widget : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
+				{ 5,  18631, 23071 },                 -- Truesilver Transformer : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
+				{ 6,  15992, 19788 },                 -- Dense Blasting Powder : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 7,  10561, 12599 },                 -- Mithril Casing : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
+				{ 8,  10560, 12591 },                 -- Unstable Trigger : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 9,  10559, 12589 },                 -- Mithril Tube : =ds=#sr# 195 : =ds=AtlasLoot["Trainer"]
+				{ 10, 10498, 12590 },                 -- Gyromatic Micro-Adjustor : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 11, 10505, 12585 },                 -- Solid Blasting Powder : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 12, 4389,  3961 },                  -- Gyrochronatom : =ds=#sr# 170 : =ds=AtlasLoot["Trainer"]
+				{ 13, 4387,  3958 },                  -- Iron Strut : =ds=#sr# 160 : =ds=AtlasLoot["Trainer"]
+				{ 14, 10558, 12584, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Gold Power Core : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 15, 4382,  3953 },                  -- Bronze Framework : =ds=#sr# 145 : =ds=AtlasLoot["Trainer"]
+				{ 16, 4375,  3942 },                  -- Whirring Bronze Gizmo : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 17, 4377,  3945 },                  -- Heavy Blasting Powder : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 18, 4371,  3938 },                  -- Bronze Tube : =ds=#sr# 105 : =ds=AtlasLoot["Trainer"]
+				{ 19, 4404,  3973 },                  -- Silver Contact : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
+				{ 20, 4364,  3929 },                  -- Coarse Blasting Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 21, 4361,  3924 },                  -- Copper Tube : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
+				{ 22, 4359,  3922 },                  -- Handful of Copper Bolts : =ds=#sr# 30 : =ds=AtlasLoot["Trainer"]
+				{ 23, 4357,  3918 },                  -- Rough Blasting Powder : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --EngineeringScopes
+			name = AL["Scopes"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 257745, 1261866 }, -- Farstrider's Hawkeye
+				{ 2, 257747, 1261893 }, -- Smuggler's Lynxeye
+			},
+			[BFA_DIFF] = {
+				{ 1,  158203, 265097 }, -- Incendiary Ammunition
+				{ 2,  158203, 265098 }, -- Incendiary Ammunition
+				{ 3,  158203, 265099 }, -- Incendiary Ammunition
+
+				{ 5,  158377, 265100 }, -- Frost-Laced Ammunition
+				{ 6,  158377, 265101 }, -- Frost-Laced Ammunition
+				{ 7,  158377, 265102 }, -- Frost-Laced Ammunition
+
+				{ 16, 158212, 264960 }, -- Crow's Nest Scope
+				{ 17, 158212, 264961 }, -- Crow's Nest Scope
+				{ 18, 158212, 264962 }, -- Crow's Nest Scope
+
+				{ 20, 158327, 264964 }, -- Monelite Scope of Alacrity
+				{ 21, 158327, 264966 }, -- Monelite Scope of Alacrity
+				{ 22, 158327, 264967 }, -- Monelite Scope of Alacrity
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  118008, 173289, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Hemet's Heartseeker (Sold, Ashran)
+				{ 2,  109122, 162203, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Megawatt Filament (Sold, Ashran)
+				{ 3,  109120, 162202, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Oglethorpe's Missile Splitter (Sold, Ashran)
+				{ 5,  77529,  127115 },                        -- Lord Blastington's Scope of Doom : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 6,  77531,  127116 },                        -- Mirror Scope : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 8,  70139,  100587 },                        -- Flintlocke's Woodchucker : =ds=#sr# 515 : =ds=AtlasLoot_IngameLocales["Molten Front"]
+				{ 9,  59594,  84428 },                         -- Gnomish X-Ray Scope : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
+				{ 10, 59596,  84410 },                         -- Safety Catch Removal Kit : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 11, 59595,  84408 },                         -- R19 Threatfinder : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 13, 41167,  56478 },                         -- Heartseeker Scope : =ds=#sr# 430 : =ds=AtlasLoot["Trainer"]
+				{ 14, 41146,  56470 },                         -- Sun Scope : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 15, 44739,  61471 },                         -- Diamond-Cut Refractor Scope : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 16, 23766,  30334 },                         -- Stabilized Eternium Scope : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Karazhan"]
+				{ 17, 23765,  30332 },                         -- Khorium Scope : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Netherstorm"]
+				{ 18, 23764,  30329 },                         -- Adamantite Scope : =ds=#sr# 335 : =ds=AtlasLoot["Vendor"]
+				{ 20, 18283,  22793 },                         -- Biznicks 247x128 Accurascope : =ds=#sr# 300 : =ds=AtlasLoot_IngameLocales["Molten Core"]
+				{ 21, 10548,  12620 },                         -- Sniper Scope : =ds=#sr# 240 : =ds=AtlasLoot["World Drop"]
+				{ 22, 10546,  12597 },                         -- Deadly Scope : =ds=#sr# 210 : =ds=AtlasLoot["Vendor"]
+				{ 23, 4407,   3979 },                          -- Accurate Scope : =ds=#sr# 180 : =ds=AtlasLoot["Vendor"]
+				{ 24, 4406,   3978 },                          -- Standard Scope : =ds=#sr# 110 : =ds=AtlasLoot["Trainer"]
+				{ 25, 4405,   3977 },                          -- Crude Scope : =ds=#sr# 60 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --EngineeringMisc
+			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 257751, 1261913 }, -- Weighted Boomshots
+				{ 2, 257749, 1261895 }, -- Laced Zoomshots
+			},
+			[BFA_DIFF] = {
+				{ 1,  162107,      278411 }, -- Makeshift Azerite Detector
+				{ 16, 162111,      278413 }, -- Monelite Fish Finder
+
+				{ 3,  "prof255940" }, -- Belt Enchant: Personal Space Amplifier
+				{ 4,  "prof269123" }, -- Belt Enchant: Miniaturized Plasma Shield
+				{ 18, "prof255936" }, -- Belt Enchant: Holographic Horror Projector
+			},
+			[LEGION_DIFF] = {
+				{ 1,  132517, 198979 }, -- Intra-Dalaran Wormhole Generator
+				{ 3,  132518, 198980 }, -- Blingtron's Circuit Design Tutorial
+				{ 5,  132982, 200466 }, -- Sonic Environment Enhancer
+				{ 16, 132523, 198982 }, -- Reaves Battery
+				{ 17, 132524, 198983 }, -- Reaves Module: Wormhole Generator Mode
+				{ 18, 132525, 198984 }, -- Reaves Module: Repair Mode
+				{ 19, 132526, 198985 }, -- Reaves Module: Failure Detection Mode
+				{ 20, 132528, 198987 }, -- Reaves Module: Fireworks Display Mode
+				{ 21, 132529, 198988 }, -- Reaves Module: Snack Distribution Mode
+				{ 22, 132530, 198989 }, -- Reaves Module: Bling Mode
+				{ 23, 132531, 198990 }, -- Reaves Module: Piloted Combat Mode
+				-- 7.3.0
+				{ 7,  151651, 247717 }, -- Gravitational Reduction Slippers
+				{ 8,  151652, 247744 }, -- Wormhole Generator: Argus
+			},
+			[WOD_DIFF] = {
+				{ 1,  111821, 162218, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Blingtron 5000 (Sold, Ashran)
+				{ 2,  109167, 162205, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Findle's Loot-a-Rang (Sold, Ashran)
+				{ 3,  108745, 162214, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Personal Hologram (Sold, Ashran)
+				{ 4,  111820, 162217, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Swapblaster (Sold, Ashran)
+				{ 5,  114943, 169140 },                         -- Ultimate Gnomish Army Knife (Learnt by item 111921)
+				{ 6,  109183, 162206, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- World Shrinker (Sold, Ashran)
+				{ 7,  112059, 162216, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Wormhole Centrifuge (Sold, Ashran)
+				{ 8,  109253, 162208 },                         -- Ultimate Gnomish Army Knife (Learnt by item 111921)
+				{ 16, 128011, 169076, [PRICE_EXTRA_ITTYPE] = "119299:5" }, -- Linkgrease Locksprocket (Sold, Ashran)
+				{ 17, 127720, 187497, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Bi-Directional Fizzle Reducer (Sold, Ashran)
+				{ 18, 127738, 187521, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Infrablue-Blocker Lenses (Sold, Garrison)
+				{ 20, 128017, 177363, [PRICE_EXTRA_ITTYPE] = "119299:5" }, -- True Iron Trigger (Sold, Ashran)
+				{ 21, 127719, 187496, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Advanced Muzzlesprocket (Sold, Ashran)
+				{ 22, 127737, 187520, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Taladite Firing Pin (Sold, Ashran)
+				{ 24, 114056, 169078, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Didi's Delicate Assembly (Sold, Ashran)
+			},
+			[MOP_DIFF] = {
+				{ 1, 87214, 127129 }, -- Blingtron 4000 : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 2, 92747, 139197 }, -- Advanced Refrigeration Unit : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 3, 87215, 127132 }, -- Wormhole Generator: Pandaria : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 4, 87216, 127131 }, -- Thermal Anvil : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1, 68049, 84430, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Heat-Treated Spinning Lure : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
+				{ 2, 60858, 84429 },                 -- Goblin Barbecue : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
+				{ 3, 40727, 95705 },                 -- Gnomish Gravity Well : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 4, 60854, 84421 },                 -- Loot-a-Rang : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
+				{ 5, 60217, 84416 },                 -- Elementium Toolbox : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 6, 60218, 84415 },                 -- Lure Master Tackle Box : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 7, 60223, 84411 },                 -- High-Powered Bolt Gun : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
+				{ 8, 67494, 95703 },                 -- Electrostatic Condenser : =ds=#sr# 440 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,  49040, 68067 },                 -- Jeeves : =ds=#sr# 450 : =ds=AtlasLoot["Drop"]
+				{ 2,  40772, 56462 },                 -- Gnomish Army Knife : =ds=#sr# 435 : =ds=AtlasLoot["Trainer"]
+				{ 3,  40895, 56473 },                 -- Gnomish X-Ray Specs : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 4,  40768, 56472 },                 -- MOLL-E : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 5,  42546, 56477, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Mana Injector Kit : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
+				{ 6,  40769, 55252, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scrapbot Construction Kit : =ds=#sr# 415 : =ds=#QUESTID:12889#
+				{ 7,  48933, 67920 },                 -- Wormhole Generator: Northrend : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
+				{ 8,  37567, 56476, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Healing Injector Kit : =ds=#sr# 410 : =ds=AtlasLoot["Trainer"]
+				{ 9,  23775, 30349 },                 -- Titanium Toolbox : =ds=#sr# 405 : =ds=AtlasLoot["Drop"]
+				{ 10, 47828, 67326 },                 -- Goblin Beam Welder : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 11, 40893, 56461 },                 -- Bladed Pickaxe : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 12, 40892, 56459 },                 -- Hammer Pick : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1, 34113, 44391, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Field Repair Bot 110G : =ds=#sr# 360 : =ds=AtlasLoot["Drop"]
+				{ 2, 30542, 36954 },                  -- Dimensional Ripper - Area 52 : =ds=#sr# 350 : nil
+				{ 3, 30544, 36955 },                  -- Ultrasafe Transporter - Toshley's Station : =ds=#sr# 350 : nil
+				{ 4, 33093, 30552, [ATLASLOOT_IT_AMOUNT1] = 20 }, -- Mana Potion Injector : =ds=#sr# 345 : =ds=AtlasLoot["Drop"]
+				{ 5, 33092, 30551, [ATLASLOOT_IT_AMOUNT1] = 20 }, -- Healing Potion Injector : =ds=#sr# 330 : =ds=AtlasLoot["Drop"]
+				{ 6, 23767, 30337 },                  -- Crashin' Thrashin' Robot : =ds=#sr# 325 : =ds=AtlasLoot["Drop"]
+				{ 7, 23774, 30348 },                  -- Fel Iron Toolbox : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]
+				{ 8, 23841, 30568, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Gnomish Flame Turret : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 9, 23821, 30548 },                  -- Zapthrottle Mote Extractor : =ds=#sr# 305 : =ds=LibBabble-Inventory-3.0["Quest"]
+			},
+			[CLASSIC_DIFF] = {
+				{ 1,  18232, 22704 },                 -- Field Repair Bot 74A : =ds=#sr# 300 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
+				{ 2,  16023, 19814 },                 -- Masterwork Target Dummy : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]
+				{ 3,  22728, 28327 },                 -- Steam Tonk Controller : =ds=#sr# 275 : =ds=AtlasLoot_IngameLocales["Darkmoon Faire"]
+				{ 4,  18645, 23096, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Gnomish Alarm-O-Bot : =ds=#sr# 265 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
+				{ 5,  18587, 23078 },                 -- Goblin Jumper Cables XL : =ds=#sr# 265 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
+				{ 6,  18660, 23129 },                 -- World Enlarger : =ds=#sr# 260 : =ds=AtlasLoot["Drop"]
+				{ 7,  10720, 12902 },                 -- Gnomish Net-o-Matic Projector : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
+				{ 8,  10644, 12715 },                 -- Recipe: Goblin Rocket Fuel : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
+				{ 9,  10713, 12895 },                 -- Plans: Inlaid Mithril Cylinder : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
+				{ 10, 11590, 15255 },                 -- Mechanical Repair Kit : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 11, 17716, 21940 },                 -- Snowmaster 9000 : =ds=#sr# 190 : =ds=AtlasLoot["Feast of Winter Veil"]
+				{ 12, 4392,  3965 },                  -- Advanced Target Dummy : =ds=#sr# 185 : =ds=AtlasLoot["Trainer"]
+				{ 13, 4391,  3963 },                  -- Compact Harvest Reaper Kit : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 14, 7148,  9273 },                  -- Goblin Jumper Cables : =ds=#sr# 165 : =ds=AtlasLoot["Vendor"]
+				{ 15, 4388,  3959 },                  -- Discombobulator Ray : =ds=#sr# 160 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
+				{ 16, 4386,  3957 },                  -- Ice Deflector : =ds=#sr# 155 : =ds=???
+				{ 17, 6533,  9271,  [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Aquadynamic Fish Attractor : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 18, 5507,  6458 },                  -- Ornate Spyglass : =ds=#sr# 135 : =ds=AtlasLoot["Trainer"]
+				{ 19, 4376,  3944 },                  -- Flame Deflector : =ds=#sr# 125 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
+				{ 20, 6712,  8334 },                  -- Practice Lock : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 21, 4366,  3932 },                  -- Target Dummy : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- EngineeringDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 262617, 1248615 }, -- Ren'dorei Crafting Framework
+				{ 2, 262602, 1248616 }, -- Ren'dorei Warp Orb
+				{ 3, 262618, 1248610 }, -- Ren'dorei Void Projector
+				{ 4, 263049, 1248611 }, -- Ren'dorei Lightpost
+				{ 5, 246460, 1248612 }, -- Ambient Aethercharged Crystal
+				{ 6, 262465, 1248613 }, -- Ren'dorei Stargazer
+				{ 7, 262789, 1248614 }, -- Small Telogrus Lamp
+			},
+		},
+		{ --EngineeringMountsPets
+			name = AL["Mounts"].." & "..AL["Pets"],
+			[TWW_DIFF] = {
+				{ 1, 221967, 447373 }, -- Crowd Pummeler 2-30
+			},
+			[BFA_DIFF] = {
+				{ 1, 161134, 274621 }, -- Mecha-Mogul Mk2
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  132519, 198981 },                        -- Trigger
+				{ 3,  112057, 162210, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Lifelike Mechanical Frostboar (Sold, Ashran)
+				{ 4,  111402, 162209, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Mechanical Axebeak (Sold, Ashran)
+				{ 5,  118741, 176732, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Mechanical Scorpid (Sold, Ashran)
+				{ 6,  94903,  139196 },                        -- Pierre : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 7,  100905, 143714 },                        -- Rascal-Bot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 8,  87526,  127135 },                        -- Mechanical Pandaren Dragonling : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 9,  60216,  84413 },                         -- De-Weaponized Mechanical Companion : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"], #p17#
+				{ 10, 59597,  84412 },                         -- Personal World Destroyer : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"], #p18#
+				{ 11, 15996,  19793 },                         -- Lifelike Mechanical Toad : =ds=#sr# 265 : =ds=AtlasLoot["World Drop"]
+				{ 12, 21277,  26011 },                         -- Tranquil Mechanical Yeti : =ds=#sr# 250 : =ds=AtlasLoot["Quest Reward"]
+				{ 13, 11826,  15633 },                         -- Lil' Smoky : =ds=#sr# 205 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
+				{ 14, 11825,  15628 },                         -- Pet Bombling : =ds=#sr# 205 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
+				{ 15, 4401,   3928 },                          -- Mechanical Squirrel Box : =ds=#sr# 75 : =ds=AtlasLoot["World Drop"]
+				{ 16, 95416,  139192 },                        -- Sky Golem : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 17, 87251,  127139 },                        -- Geosynchronous World Spinner : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"], #p17#
+				{ 18, 87250,  127138 },                        -- Depleted-Kyparium Rocket : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"], #p18#
+				{ 19, 41508,  60866 },                         -- Mechano-Hog : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Horde Expedition"] - AtlasLoot["Exalted"]
+				{ 20, 44413,  60867 },                         -- Mekgineer's Chopper : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Alliance Vanguard"] - AtlasLoot["Exalted"]
+				{ 21, 34061,  44157 },                         -- Turbo-Charged Flying Machine Control : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
+				{ 22, 34060,  44155 },                         -- Flying Machine Control : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --EngineeringTinker
+			name = AL["Tinker"],
+			[TWW_DIFF] = {
+				{ 1, 221904, 447350 }, -- Tinker: Earthen Delivery Drill
+				{ 2, 221908, 447351 }, -- Tinker: Heartseeking Health Injector
+			},
+			[LEGION_DIFF] = {
+				{ 1,  132509, 198972 }, -- Deployable Bullet Dispenser
+				{ 2,  132509, 198999 }, -- Deployable Bullet Dispenser
+				{ 3,  132509, 199013 }, -- Deployable Bullet Dispenser
+				{ 5,  132510, 198973 }, -- Gunpowder Charge
+				{ 6,  132510, 199000 }, -- Gunpowder Charge
+				{ 7,  132510, 199014 }, -- Gunpowder Charge
+				{ 9,  132511, 198974 }, -- Pump-Action Bandage Gun
+				{ 10, 132511, 199001 }, -- Pump-Action Bandage Gun
+				{ 11, 132511, 199015 }, -- Pump-Action Bandage Gun
+				{ 16, 132514, 198976 }, -- Auto-Hammer
+				{ 17, 132514, 199003 }, -- Auto-Hammer
+				{ 18, 132514, 199017 }, -- Auto-Hammer
+				{ 20, 132515, 198977 }, -- Failure Detection Pylon
+				{ 21, 132515, 199004 }, -- Failure Detection Pylon
+				{ 22, 132515, 199018 }, -- Failure Detection Pylon
+				{ 24, 132513, 198975 }, -- Gunpack
+				{ 25, 132513, 199002 }, -- Gunpack
+				{ 26, 132513, 199016 }, -- Gunpack
+				{ 27, 132516, 198978 }, -- Gunshoes
+				{ 29, 136606, 209645 }, -- Leystone Buoy
+				{ 30, 134125, 209646 }, -- Mecha-Bond Imprint Matrix
+			},
+			[WOD_DIFF] = {
+				{ 1,  109076,      162204, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Goblin Glider Kit (Learnt by item 111921)
+				{ 2,  118007,      173308, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Mecha-Blast Rocket (Learnt by item 111921)
+				{ 3,  118006,      173309, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Shieldtronic Shield (Learnt by item 111921)
+				{ 4,  109184,      162207, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Stealthman 54 (Learnt by item 111921)
+				{ 6,  "prof126392" },                        -- Goblin Glider : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 7,  "prof55002" },                         -- Flexweave Underlay : =ds=#sr# 380 : =ds=AtlasLoot["Trainer"]
+				{ 16, "prof109099" },                        -- Watergliding Jets : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 17, "prof84424" },                         -- Invisibility Field : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
+				{ 18, "prof84425" },                         -- Cardboard Assassin : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
+				{ 19, "prof84427" },                         -- Grounded Plasma Shield : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
+				{ 20, "prof55016" },                         -- Nitro Boosts : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
+				{ 21, "prof67839" },                         -- Mind Amplification Dish : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 22, "prof54736" },                         -- Personal Electromagnetic Pulse Generator : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 23, "prof54793" },                         -- Frag Belt : =ds=#sr# 380 : =ds=AtlasLoot["Trainer"]
+				{ 24, "prof82200" },                         -- Spinal Healing Injector : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
 			},
 		},
 		{ --EngineeringExplosives
@@ -3484,256 +3956,11 @@ data["Engineering"] = {
 				{ 30, 21557, 26418,  [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Small Red Rocket : =ds=#sr# 125 : =ds=AtlasLoot["Lunar Festival"]
 			},
 		},
-		{ --EngineeringCogwheel
-			name = AL["Cogwheels"],
-			[TWW_DIFF] = {
-				{ 1, 221920, 447356 }, -- Adjustable Cogwheel
-				{ 2, 221917, 447355 }, -- Impeccable Cogwheel
-				{ 3, 221914, 447354 }, -- Overclocked Cogwheel
-				{ 4, 221911, 447353 }, -- Serrated Cogwheel
-			},
-			[MOP_DIFF] = {
-				{ 1, 77544, 131211 }, -- Flashing Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 2, 77547, 131212 }, -- Fractured Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 3, 77543, 131213 }, -- Precise Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 4, 77542, 131214 }, -- Quick Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 5, 77545, 131215 }, -- Rigid Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 6, 77541, 131216 }, -- Smooth Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 7, 77546, 131217 }, -- Sparkling Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 8, 77540, 131218 }, -- Subtle Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-			},
-			[CATA_DIFF] = {
-				{ 1, 59480 }, -- Fractured Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 2, 59491 }, -- Flashing Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 3, 68660 }, -- Mystic Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 4, 59489 }, -- Precise Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 5, 59479 }, -- Quick Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 6, 59493 }, -- Rigid Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 7, 59496 }, -- Sparkling Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 8, 59478 }, -- Smooth Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-				{ 9, 59477 }, -- Subtle Cogwheel : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"]
-			},
-		},
-		{ -- Profession Equipment
-			name = AL["Profession Equipment"],
-			[TWW_DIFF] = {
-				{ 1,  221788, 447324 }, -- Bismuth Brainwave Projector
-				{ 2,  221790, 447326 }, -- Bismuth Fisherfriend
-				{ 3,  221795, 447330 }, -- Bismuth Miner's Headgear
-				{ 4,  221797, 447332 }, -- Bismuth-Fueled Samophlange
-				{ 5,  221792, 447328 }, -- Lapidary's Bismuth Clamps
-				{ 6,  221799, 447334 }, -- Miner's Bismuth Hoard
-				{ 7,  221786, 447322 }, -- Spring-Loaded Bismuth Fabric Cutters
-				{ 8,  221789, 447325 }, -- Aqirite Brainwave Projector
-				{ 9,  221791, 447327 }, -- Aqirite Fisherfriend
-				{ 10, 221796, 447331 }, -- Aqirite Miner's Headgear
-				{ 11, 221798, 447333 }, -- Aqirite Fueled Samophlange
-				{ 12, 221793, 447329 }, -- Lapidary's Aqirite Clamps
-				{ 13, 221800, 447335 }, -- Miner's Aqirite Hoard
-				{ 14, 221787, 447323 }, -- Spring-Loaded Aqirite Fabric Cutters
-			},
-		},
-		{ --EngineeringMountsPets
-			name = AL["Mounts"].." & "..AL["Pets"],
-			[TWW_DIFF] = {
-				{ 1, 221967, 447373 }, -- Crowd Pummeler 2-30
-			},
-			[BFA_DIFF] = {
-				{ 1, 161134, 274621 }, -- Mecha-Mogul Mk2
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  132519, 198981 },                        -- Trigger
-				{ 3,  112057, 162210, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Lifelike Mechanical Frostboar (Sold, Ashran)
-				{ 4,  111402, 162209, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Mechanical Axebeak (Sold, Ashran)
-				{ 5,  118741, 176732, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Mechanical Scorpid (Sold, Ashran)
-				{ 6,  94903,  139196 },                        -- Pierre : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 7,  100905, 143714 },                        -- Rascal-Bot : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 8,  87526,  127135 },                        -- Mechanical Pandaren Dragonling : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 9,  60216,  84413 },                         -- De-Weaponized Mechanical Companion : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"], #p17#
-				{ 10, 59597,  84412 },                         -- Personal World Destroyer : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"], #p18#
-				{ 11, 15996,  19793 },                         -- Lifelike Mechanical Toad : =ds=#sr# 265 : =ds=AtlasLoot["World Drop"]
-				{ 12, 21277,  26011 },                         -- Tranquil Mechanical Yeti : =ds=#sr# 250 : =ds=AtlasLoot["Quest Reward"]
-				{ 13, 11826,  15633 },                         -- Lil' Smoky : =ds=#sr# 205 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
-				{ 14, 11825,  15628 },                         -- Pet Bombling : =ds=#sr# 205 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
-				{ 15, 4401,   3928 },                          -- Mechanical Squirrel Box : =ds=#sr# 75 : =ds=AtlasLoot["World Drop"]
-				{ 16, 95416,  139192 },                        -- Sky Golem : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 17, 87251,  127139 },                        -- Geosynchronous World Spinner : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"], #p17#
-				{ 18, 87250,  127138 },                        -- Depleted-Kyparium Rocket : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"], #p18#
-				{ 19, 41508,  60866 },                         -- Mechano-Hog : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Horde Expedition"] - AtlasLoot["Exalted"]
-				{ 20, 44413,  60867 },                         -- Mekgineer's Chopper : =ds=#sr# 450 : =ds=AtlasLoot_IngameLocales["Alliance Vanguard"] - AtlasLoot["Exalted"]
-				{ 21, 34061,  44157 },                         -- Turbo-Charged Flying Machine Control : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 22, 34060,  44155 },                         -- Flying Machine Control : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --EngineeringReagents
-			name = AL["Reagents"],
-			[TWW_DIFF] = {
-				{ 1,  225987, 459299 }, -- Bottled Brilliance
-				{ 3,  221938, 447362 }, -- Concealed Chaos Module
-				{ 4,  221941, 447363 }, -- Energy Redistribution Beacon
-				{ 5,  221935, 447361 }, -- Pouch of Pocket Grenades
-				{ 7,  221926, 447358 }, -- Blame Redirection Device
-				{ 8,  221932, 447360 }, -- Complicated Fuse Box
-				{ 9,  221923, 447357 }, -- Recalibrated Safety Switch
-				{ 16, 221865, 447340 }, -- Chaos Circuit
-				{ 17, 221868, 447341 }, -- Entropy Enhancer
-				{ 18, 221862, 447339 }, -- Safety Switch
-				{ 19, 221859, 447338 }, -- Gyrating Gear
-				{ 20, 221853, 447336 }, -- Handful of Bismuth Bolts
-				{ 21, 221856, 447337 }, -- Whimsical Wiring
-			},
-			[WOD_DIFF] = {
-				{ 1, 111366, 169080, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Gearspring Parts (Learnt by item 111921)
-				{ 2, 111366, 182120 },                    -- Gearspring Parts (Learnt by item 111921)
-				{ 4, 119299, 177054 },                    -- Secrets of Draenor Engineering (Learnt by item 111921)
-			},
-			[MOP_DIFF] = {
-				{ 1, 94113, 139176 },                 -- Jard's Peculiar Energy Source : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 2, 90146, 131563, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tinker's Kit : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 3, 77467, 127113, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Ghost Iron Bolts : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 4, 77468, 127114, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- High-Explosive Gunpowder : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-			},
-			[CATA_DIFF] = {
-				{ 1, 67749, 94748, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Electrified Ether : =ds=#sr# 445 : =ds=AtlasLoot["Trainer"]
-				{ 2, 60224, 84403, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- Handful of Obsidium Bolts : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1, 39683, 56471 },                     -- Froststeel Tube : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 2, 39682, 56464 },                     -- Overcharged Capacitor : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 3, 39681, 56349, [ATLASLOOT_IT_AMOUNT1] = "1-3" }, -- Handful of Cobalt Bolts : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 4, 39690, 53281, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Volatile Blasting Trigger : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1, 23787, 30309 },                  -- Felsteel Stabilizer : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
-				{ 2, 23785, 30307 },                  -- Hardened Adamantite Tube : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
-				{ 3, 23786, 30308 },                  -- Khorium Power Core : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
-				{ 4, 32423, 39971, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Icy Blasting Primers : =ds=#sr# 335 : =ds=AtlasLoot["Trainer"]
-				{ 5, 23784, 30306 },                  -- Adamantite Frame : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 6, 23783, 30305 },                  -- Handful of Fel Iron Bolts : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 7, 23781, 30303, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Elemental Blasting Powder : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 8, 23782, 30304 },                  -- Fel Iron Casing : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-			},
-			[CLASSIC_DIFF] = {
-				{ 1,  16006, 19815 },                 -- Delicate Arcanite Converter : =ds=#sr# 285 : =ds=AtlasLoot["Vendor"]
-				{ 2,  16000, 19795 },                 -- Thorium Tube : =ds=#sr# 275 : =ds=AtlasLoot["Trainer"]
-				{ 3,  7191,  39895, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Fused Wiring : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]
-				{ 4,  15994, 19791 },                 -- Thorium Widget : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
-				{ 5,  18631, 23071 },                 -- Truesilver Transformer : =ds=#sr# 260 : =ds=AtlasLoot["Trainer"]
-				{ 6,  15992, 19788 },                 -- Dense Blasting Powder : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 7,  10561, 12599 },                 -- Mithril Casing : =ds=#sr# 215 : =ds=AtlasLoot["Trainer"]
-				{ 8,  10560, 12591 },                 -- Unstable Trigger : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 9,  10559, 12589 },                 -- Mithril Tube : =ds=#sr# 195 : =ds=AtlasLoot["Trainer"]
-				{ 10, 10498, 12590 },                 -- Gyromatic Micro-Adjustor : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 11, 10505, 12585 },                 -- Solid Blasting Powder : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 12, 4389,  3961 },                  -- Gyrochronatom : =ds=#sr# 170 : =ds=AtlasLoot["Trainer"]
-				{ 13, 4387,  3958 },                  -- Iron Strut : =ds=#sr# 160 : =ds=AtlasLoot["Trainer"]
-				{ 14, 10558, 12584, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Gold Power Core : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 15, 4382,  3953 },                  -- Bronze Framework : =ds=#sr# 145 : =ds=AtlasLoot["Trainer"]
-				{ 16, 4375,  3942 },                  -- Whirring Bronze Gizmo : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 17, 4377,  3945 },                  -- Heavy Blasting Powder : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 18, 4371,  3938 },                  -- Bronze Tube : =ds=#sr# 105 : =ds=AtlasLoot["Trainer"]
-				{ 19, 4404,  3973 },                  -- Silver Contact : =ds=#sr# 90 : =ds=AtlasLoot["Trainer"]
-				{ 20, 4364,  3929 },                  -- Coarse Blasting Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 21, 4361,  3924 },                  -- Copper Tube : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 22, 4359,  3922 },                  -- Handful of Copper Bolts : =ds=#sr# 30 : =ds=AtlasLoot["Trainer"]
-				{ 23, 4357,  3918 },                  -- Rough Blasting Powder : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
-		},
 		{ --EngineeringRelic
 			name = AL["Relic"],
 			[LEGION_DIFF] = {
 				{ 1, 136687, 209501 }, -- "The Felic"
 				{ 2, 136688, 209502 }, -- Shockinator
-			},
-		},
-		{ --EngineeringScopes
-			name = AL["Scopes"],
-			[BFA_DIFF] = {
-				{ 1,  158203, 265097 }, -- Incendiary Ammunition
-				{ 2,  158203, 265098 }, -- Incendiary Ammunition
-				{ 3,  158203, 265099 }, -- Incendiary Ammunition
-
-				{ 5,  158377, 265100 }, -- Frost-Laced Ammunition
-				{ 6,  158377, 265101 }, -- Frost-Laced Ammunition
-				{ 7,  158377, 265102 }, -- Frost-Laced Ammunition
-
-				{ 16, 158212, 264960 }, -- Crow's Nest Scope
-				{ 17, 158212, 264961 }, -- Crow's Nest Scope
-				{ 18, 158212, 264962 }, -- Crow's Nest Scope
-
-				{ 20, 158327, 264964 }, -- Monelite Scope of Alacrity
-				{ 21, 158327, 264966 }, -- Monelite Scope of Alacrity
-				{ 22, 158327, 264967 }, -- Monelite Scope of Alacrity
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  118008, 173289, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Hemet's Heartseeker (Sold, Ashran)
-				{ 2,  109122, 162203, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Megawatt Filament (Sold, Ashran)
-				{ 3,  109120, 162202, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Oglethorpe's Missile Splitter (Sold, Ashran)
-				{ 5,  77529,  127115 },                        -- Lord Blastington's Scope of Doom : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 6,  77531,  127116 },                        -- Mirror Scope : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 8,  70139,  100587 },                        -- Flintlocke's Woodchucker : =ds=#sr# 515 : =ds=AtlasLoot_IngameLocales["Molten Front"]
-				{ 9,  59594,  84428 },                         -- Gnomish X-Ray Scope : =ds=#sr# 515 : =ds=AtlasLoot["Trainer"]
-				{ 10, 59596,  84410 },                         -- Safety Catch Removal Kit : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 11, 59595,  84408 },                         -- R19 Threatfinder : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 13, 41167,  56478 },                         -- Heartseeker Scope : =ds=#sr# 430 : =ds=AtlasLoot["Trainer"]
-				{ 14, 41146,  56470 },                         -- Sun Scope : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 15, 44739,  61471 },                         -- Diamond-Cut Refractor Scope : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 16, 23766,  30334 },                         -- Stabilized Eternium Scope : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Karazhan"]
-				{ 17, 23765,  30332 },                         -- Khorium Scope : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Netherstorm"]
-				{ 18, 23764,  30329 },                         -- Adamantite Scope : =ds=#sr# 335 : =ds=AtlasLoot["Vendor"]
-				{ 20, 18283,  22793 },                         -- Biznicks 247x128 Accurascope : =ds=#sr# 300 : =ds=AtlasLoot_IngameLocales["Molten Core"]
-				{ 21, 10548,  12620 },                         -- Sniper Scope : =ds=#sr# 240 : =ds=AtlasLoot["World Drop"]
-				{ 22, 10546,  12597 },                         -- Deadly Scope : =ds=#sr# 210 : =ds=AtlasLoot["Vendor"]
-				{ 23, 4407,   3979 },                          -- Accurate Scope : =ds=#sr# 180 : =ds=AtlasLoot["Vendor"]
-				{ 24, 4406,   3978 },                          -- Standard Scope : =ds=#sr# 110 : =ds=AtlasLoot["Trainer"]
-				{ 25, 4405,   3977 },                          -- Crude Scope : =ds=#sr# 60 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --EngineeringTinker
-			name = AL["Tinker"],
-			[TWW_DIFF] = {
-				{ 1, 221904, 447350 }, -- Tinker: Earthen Delivery Drill
-				{ 2, 221908, 447351 }, -- Tinker: Heartseeking Health Injector
-			},
-			[LEGION_DIFF] = {
-				{ 1,  132509, 198972 }, -- Deployable Bullet Dispenser
-				{ 2,  132509, 198999 }, -- Deployable Bullet Dispenser
-				{ 3,  132509, 199013 }, -- Deployable Bullet Dispenser
-				{ 5,  132510, 198973 }, -- Gunpowder Charge
-				{ 6,  132510, 199000 }, -- Gunpowder Charge
-				{ 7,  132510, 199014 }, -- Gunpowder Charge
-				{ 9,  132511, 198974 }, -- Pump-Action Bandage Gun
-				{ 10, 132511, 199001 }, -- Pump-Action Bandage Gun
-				{ 11, 132511, 199015 }, -- Pump-Action Bandage Gun
-				{ 16, 132514, 198976 }, -- Auto-Hammer
-				{ 17, 132514, 199003 }, -- Auto-Hammer
-				{ 18, 132514, 199017 }, -- Auto-Hammer
-				{ 20, 132515, 198977 }, -- Failure Detection Pylon
-				{ 21, 132515, 199004 }, -- Failure Detection Pylon
-				{ 22, 132515, 199018 }, -- Failure Detection Pylon
-				{ 24, 132513, 198975 }, -- Gunpack
-				{ 25, 132513, 199002 }, -- Gunpack
-				{ 26, 132513, 199016 }, -- Gunpack
-				{ 27, 132516, 198978 }, -- Gunshoes
-				{ 29, 136606, 209645 }, -- Leystone Buoy
-				{ 30, 134125, 209646 }, -- Mecha-Bond Imprint Matrix
-			},
-			[WOD_DIFF] = {
-				{ 1,  109076,      162204, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Goblin Glider Kit (Learnt by item 111921)
-				{ 2,  118007,      173308, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Mecha-Blast Rocket (Learnt by item 111921)
-				{ 3,  118006,      173309, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Shieldtronic Shield (Learnt by item 111921)
-				{ 4,  109184,      162207, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Stealthman 54 (Learnt by item 111921)
-				{ 6,  "prof126392" },                        -- Goblin Glider : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 7,  "prof55002" },                         -- Flexweave Underlay : =ds=#sr# 380 : =ds=AtlasLoot["Trainer"]
-				{ 16, "prof109099" },                        -- Watergliding Jets : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 17, "prof84424" },                         -- Invisibility Field : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
-				{ 18, "prof84425" },                         -- Cardboard Assassin : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
-				{ 19, "prof84427" },                         -- Grounded Plasma Shield : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
-				{ 20, "prof55016" },                         -- Nitro Boosts : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
-				{ 21, "prof67839" },                         -- Mind Amplification Dish : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 22, "prof54736" },                         -- Personal Electromagnetic Pulse Generator : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 23, "prof54793" },                         -- Frag Belt : =ds=#sr# 380 : =ds=AtlasLoot["Trainer"]
-				{ 24, "prof82200" },                         -- Spinal Healing Injector : =ds=#sr# 450+ : =ds=AtlasLoot["Discovery"]
 			},
 		},
 		{ --EngineeringTrinkets
@@ -3763,114 +3990,6 @@ data["Engineering"] = {
 				{ 22, 4396,  3969 }, -- Mechanical Dragonling : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]
 				{ 23, 4381,  3952 }, -- Minor Recombobulator : =ds=#sr# 140 : =ds=AtlasLoot["Vendor"]
 				{ 24, 7506,  9269 }, -- Gnomish Universal Remote : =ds=#sr# 125 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
-			},
-		},
-		{ --EngineeringMisc
-			name = AL["Miscellaneous"],
-			[BFA_DIFF] = {
-				{ 1,  162107,      278411 }, -- Makeshift Azerite Detector
-				{ 16, 162111,      278413 }, -- Monelite Fish Finder
-
-				{ 3,  "prof255940" }, -- Belt Enchant: Personal Space Amplifier
-				{ 4,  "prof269123" }, -- Belt Enchant: Miniaturized Plasma Shield
-				{ 18, "prof255936" }, -- Belt Enchant: Holographic Horror Projector
-			},
-			[LEGION_DIFF] = {
-				{ 1,  132517, 198979 }, -- Intra-Dalaran Wormhole Generator
-				{ 3,  132518, 198980 }, -- Blingtron's Circuit Design Tutorial
-				{ 5,  132982, 200466 }, -- Sonic Environment Enhancer
-				{ 16, 132523, 198982 }, -- Reaves Battery
-				{ 17, 132524, 198983 }, -- Reaves Module: Wormhole Generator Mode
-				{ 18, 132525, 198984 }, -- Reaves Module: Repair Mode
-				{ 19, 132526, 198985 }, -- Reaves Module: Failure Detection Mode
-				{ 20, 132528, 198987 }, -- Reaves Module: Fireworks Display Mode
-				{ 21, 132529, 198988 }, -- Reaves Module: Snack Distribution Mode
-				{ 22, 132530, 198989 }, -- Reaves Module: Bling Mode
-				{ 23, 132531, 198990 }, -- Reaves Module: Piloted Combat Mode
-				-- 7.3.0
-				{ 7,  151651, 247717 }, -- Gravitational Reduction Slippers
-				{ 8,  151652, 247744 }, -- Wormhole Generator: Argus
-			},
-			[WOD_DIFF] = {
-				{ 1,  111821, 162218, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Blingtron 5000 (Sold, Ashran)
-				{ 2,  109167, 162205, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Findle's Loot-a-Rang (Sold, Ashran)
-				{ 3,  108745, 162214, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Personal Hologram (Sold, Ashran)
-				{ 4,  111820, 162217, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Swapblaster (Sold, Ashran)
-				{ 5,  114943, 169140 },                         -- Ultimate Gnomish Army Knife (Learnt by item 111921)
-				{ 6,  109183, 162206, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- World Shrinker (Sold, Ashran)
-				{ 7,  112059, 162216, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Wormhole Centrifuge (Sold, Ashran)
-				{ 8,  109253, 162208 },                         -- Ultimate Gnomish Army Knife (Learnt by item 111921)
-				{ 16, 128011, 169076, [PRICE_EXTRA_ITTYPE] = "119299:5" }, -- Linkgrease Locksprocket (Sold, Ashran)
-				{ 17, 127720, 187497, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Bi-Directional Fizzle Reducer (Sold, Ashran)
-				{ 18, 127738, 187521, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Infrablue-Blocker Lenses (Sold, Garrison)
-				{ 20, 128017, 177363, [PRICE_EXTRA_ITTYPE] = "119299:5" }, -- True Iron Trigger (Sold, Ashran)
-				{ 21, 127719, 187496, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Advanced Muzzlesprocket (Sold, Ashran)
-				{ 22, 127737, 187520, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Taladite Firing Pin (Sold, Ashran)
-				{ 24, 114056, 169078, [PRICE_EXTRA_ITTYPE] = "119299:1" }, -- Didi's Delicate Assembly (Sold, Ashran)
-			},
-			[MOP_DIFF] = {
-				{ 1, 87214, 127129 }, -- Blingtron 4000 : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 2, 92747, 139197 }, -- Advanced Refrigeration Unit : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 3, 87215, 127132 }, -- Wormhole Generator: Pandaria : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 4, 87216, 127131 }, -- Thermal Anvil : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-			},
-			[CATA_DIFF] = {
-				{ 1, 68049, 84430, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Heat-Treated Spinning Lure : =ds=#sr# 510 : =ds=AtlasLoot["Trainer"]
-				{ 2, 60858, 84429 },                 -- Goblin Barbecue : =ds=#sr# 505 : =ds=AtlasLoot["Trainer"]
-				{ 3, 40727, 95705 },                 -- Gnomish Gravity Well : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 4, 60854, 84421 },                 -- Loot-a-Rang : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
-				{ 5, 60217, 84416 },                 -- Elementium Toolbox : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 6, 60218, 84415 },                 -- Lure Master Tackle Box : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 7, 60223, 84411 },                 -- High-Powered Bolt Gun : =ds=#sr# 465 : =ds=AtlasLoot["Trainer"]
-				{ 8, 67494, 95703 },                 -- Electrostatic Condenser : =ds=#sr# 440 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1,  49040, 68067 },                 -- Jeeves : =ds=#sr# 450 : =ds=AtlasLoot["Drop"]
-				{ 2,  40772, 56462 },                 -- Gnomish Army Knife : =ds=#sr# 435 : =ds=AtlasLoot["Trainer"]
-				{ 3,  40895, 56473 },                 -- Gnomish X-Ray Specs : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 4,  40768, 56472 },                 -- MOLL-E : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 5,  42546, 56477, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Mana Injector Kit : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
-				{ 6,  40769, 55252, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Scrapbot Construction Kit : =ds=#sr# 415 : =ds=#QUESTID:12889#
-				{ 7,  48933, 67920 },                 -- Wormhole Generator: Northrend : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
-				{ 8,  37567, 56476, [ATLASLOOT_IT_AMOUNT1] = 8 }, -- Healing Injector Kit : =ds=#sr# 410 : =ds=AtlasLoot["Trainer"]
-				{ 9,  23775, 30349 },                 -- Titanium Toolbox : =ds=#sr# 405 : =ds=AtlasLoot["Drop"]
-				{ 10, 47828, 67326 },                 -- Goblin Beam Welder : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 11, 40893, 56461 },                 -- Bladed Pickaxe : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-				{ 12, 40892, 56459 },                 -- Hammer Pick : =ds=#sr# 375 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1, 34113, 44391, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Field Repair Bot 110G : =ds=#sr# 360 : =ds=AtlasLoot["Drop"]
-				{ 2, 30542, 36954 },                  -- Dimensional Ripper - Area 52 : =ds=#sr# 350 : nil
-				{ 3, 30544, 36955 },                  -- Ultrasafe Transporter - Toshley's Station : =ds=#sr# 350 : nil
-				{ 4, 33093, 30552, [ATLASLOOT_IT_AMOUNT1] = 20 }, -- Mana Potion Injector : =ds=#sr# 345 : =ds=AtlasLoot["Drop"]
-				{ 5, 33092, 30551, [ATLASLOOT_IT_AMOUNT1] = 20 }, -- Healing Potion Injector : =ds=#sr# 330 : =ds=AtlasLoot["Drop"]
-				{ 6, 23767, 30337 },                  -- Crashin' Thrashin' Robot : =ds=#sr# 325 : =ds=AtlasLoot["Drop"]
-				{ 7, 23774, 30348 },                  -- Fel Iron Toolbox : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]
-				{ 8, 23841, 30568, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Gnomish Flame Turret : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 9, 23821, 30548 },                  -- Zapthrottle Mote Extractor : =ds=#sr# 305 : =ds=LibBabble-Inventory-3.0["Quest"]
-			},
-			[CLASSIC_DIFF] = {
-				{ 1,  18232, 22704 },                 -- Field Repair Bot 74A : =ds=#sr# 300 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
-				{ 2,  16023, 19814 },                 -- Masterwork Target Dummy : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]
-				{ 3,  22728, 28327 },                 -- Steam Tonk Controller : =ds=#sr# 275 : =ds=AtlasLoot_IngameLocales["Darkmoon Faire"]
-				{ 4,  18645, 23096, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Gnomish Alarm-O-Bot : =ds=#sr# 265 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
-				{ 5,  18587, 23078 },                 -- Goblin Jumper Cables XL : =ds=#sr# 265 : =ds=AtlasLoot_IngameLocales["Blackrock Depths"]
-				{ 6,  18660, 23129 },                 -- World Enlarger : =ds=#sr# 260 : =ds=AtlasLoot["Drop"]
-				{ 7,  10720, 12902 },                 -- Gnomish Net-o-Matic Projector : =ds=#sr# 210 : =ds=AtlasLoot["Trainer"]
-				{ 8,  10644, 12715 },                 -- Recipe: Goblin Rocket Fuel : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
-				{ 9,  10713, 12895 },                 -- Plans: Inlaid Mithril Cylinder : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
-				{ 10, 11590, 15255 },                 -- Mechanical Repair Kit : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 11, 17716, 21940 },                 -- Snowmaster 9000 : =ds=#sr# 190 : =ds=AtlasLoot["Feast of Winter Veil"]
-				{ 12, 4392,  3965 },                  -- Advanced Target Dummy : =ds=#sr# 185 : =ds=AtlasLoot["Trainer"]
-				{ 13, 4391,  3963 },                  -- Compact Harvest Reaper Kit : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 14, 7148,  9273 },                  -- Goblin Jumper Cables : =ds=#sr# 165 : =ds=AtlasLoot["Vendor"]
-				{ 15, 4388,  3959 },                  -- Discombobulator Ray : =ds=#sr# 160 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
-				{ 16, 4386,  3957 },                  -- Ice Deflector : =ds=#sr# 155 : =ds=???
-				{ 17, 6533,  9271,  [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Aquadynamic Fish Attractor : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 18, 5507,  6458 },                  -- Ornate Spyglass : =ds=#sr# 135 : =ds=AtlasLoot["Trainer"]
-				{ 19, 4376,  3944 },                  -- Flame Deflector : =ds=#sr# 125 : =ds=AtlasLoot_IngameLocales["Gnomeregan"]
-				{ 20, 6712,  8334 },                  -- Practice Lock : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 21, 4366,  3932 },                  -- Target Dummy : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{ --EngineeringGnomish
