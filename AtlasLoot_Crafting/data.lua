@@ -4057,11 +4057,19 @@ data["Inscription"] = {
 	items = {
 		{ --InscriptionStaves
 			name = AL["Staves"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 245771, 1230059 },                          -- Aln'hara Pikestaff
+				{ 2, 245770, 1230060 },                          -- Aln'hara Cane
+				{ 3, 245772, 1230056 },                          -- Floratender's Crutch
+				{ 4, 245773, 1230055 },                          -- Faunatender's Baton
+				{ 5, 245868, 1230066, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Pillar
+				{ 6, 268365, 1230065, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Staff
+			},
 			[TWW_DIFF] = {
-				{ 1, 222570, 444201 },                          -- Inquisitor's Baton
-				{ 2, 222569, 444200 },                          -- Inquisitor's Crutch
-				{ 3, 222568, 444199 },                          -- Vagabond's Bounding Baton
-				{ 4, 222567, 444198 },                          -- Vagabond's Careful Crutch
+				{ 1, 222568, 444199 },                          -- Vagabond's Bounding Baton
+				{ 2, 222567, 444198 },                          -- Vagabond's Careful Crutch
+				{ 3, 222570, 444201 },                          -- Inquisitor's Baton
+				{ 4, 222569, 444200 },                          -- Inquisitor's Crutch
 				{ 5, 225369, 455008, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Staff
 				{ 6, 225368, 455007, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Pillar
 			},
@@ -4099,6 +4107,11 @@ data["Inscription"] = {
 		},
 		{ --InscriptionOffHand
 			name = AL["Off-Hands"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 245769, 1230061 },                          -- Aln'hara Lantern
+				{ 2, 245768, 1230057 },                          -- Rootwarden's Lamp
+				{ 3, 245870, 1230064, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Lamp
+			},
 			[TWW_DIFF] = {
 				{ 1, 222565, 444196 },                          -- Inquisitor's Torch
 				{ 2, 222566, 444197 },                          -- Vagabond's Torch
@@ -4142,6 +4155,19 @@ data["Inscription"] = {
 		},
 		{ --InscriptionTrinketsDarkmoonFaireCards
 			name = AL["Trinkets"].." / "..AL["Darkmoon Cards"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  245871, 1230074 },                          -- Darkmoon Sigil: Blood
+				{ 2,  245877, 1230075 },                          -- Darkmoon Sigil: Rot
+				{ 3,  245875, 1230076 },                          -- Darkmoon Sigil: Hunt
+				{ 4,  245873, 1230077 },                          -- Darkmoon Sigil: Void
+				{ 6,  246306, 1230071 },                          -- Darkmoon Dominion: Rot
+				{ 7,  246304, 1230072 },                          -- Darkmoon Dominion: Hunt
+				{ 8,  246305, 1230070 },                          -- Darkmoon Dominion: Blood
+				{ 9,  246307, 1230073 },                          -- Darkmoon Dominion: Void
+				{ 11, 245753, 1230067, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Emblem
+				{ 12, 245752, 1230068, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Insignia of Alacrity
+				{ 13, 245751, 1230069, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Medallion
+			},
 			[TWW_DIFF] = {
 				{ 1, 226022, 444192 },                          -- Darkmoon Sigil: Ascension
 				{ 2, 226025, 444193 },                          -- Darkmoon Sigil: Radiance
@@ -4226,6 +4252,12 @@ data["Inscription"] = {
 		},
 		{ --Contracts
 			name = AL["Contracts"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 245795, 1230053, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Hara'ti
+				{ 2, 245799, 1230051, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Silvermoon Court
+				{ 3, 245797, 1230052, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Amani Tribe
+				{ 4, 245793, 1230054, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Singularity
+			},
 			[TWW_DIFF] = {
 				{ 1,  222597, 444220,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Council of Dornogal
 				{ 2,  222600, 444217,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Assembly of the Deeps
@@ -4264,51 +4296,49 @@ data["Inscription"] = {
 				{ 30, 153664, 256286 }, -- Contract: Zandalari Empire
 			},
 		},
-		{ --InscriptionItemEnhancements
-			name = AL["Item Enhancements"],
-			[NORMAL_DIFF] = {
-				{ 1,   128018,     178248, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Ensorcelled Tarot (Sold, Ashran)
-				{ 2,   127718,     187495, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Ensorcelled Tarot (Sold, Ashran)
-				{ 3,   127736,     187519, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Ensorcelled Tarot (Sold, Garrison)
-				{ 5,   128010,     166366, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Weapon Crystal (Sold, Ashran)
-				{ 6,   127717,     187494, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Weapon Crystal (Sold, Ashran)
-				{ 7,   127735,     187518, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Weapon Crystal (Sold, Garrison)
-				{ 9,   113289,     166432, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Volatile Crystal (Sold, Ashran)
-				{ 16,  87582,      127023 },                         -- Secret Crane Wing Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 17,  87581,      127024 },                         -- Secret Ox Horn Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 18,  87584,      127021 },                         -- Secret Tiger Claw Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 19,  87585,      127020 },                         -- Secret Tiger Fang Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 21,  87559,      126995 },                         -- Greater Crane Wing Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 22,  87560,      126994 },                         -- Greater Ox Horn Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 23,  83007,      126996 },                         -- Greater Tiger Claw Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 24,  83006,      126997 },                         -- Greater Tiger Fang Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 26,  87578,      127018 },                         -- Crane Wing Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 27,  87577,      127019 },                         -- Ox Horn Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 28,  87579,      127017 },                         -- Tiger Claw Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 29,  87580,      127016 },                         -- Tiger Fang Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 101, "prof86403" },                                -- Felfire Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 102, "prof86402" },                                -- Inscription of the Earthen Prince : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 103, "prof86401" },                                -- Lionsmane Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 104, "prof86375" },                                -- Swiftsteel Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 106, "prof61117" },                                -- Master's Inscription of the Axe : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 107, "prof61118" },                                -- Master's Inscription of the Crag : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 108, "prof61119" },                                -- Master's Inscription of the Pinnacle : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 109, "prof61120" },                                -- Master's Inscription of the Storm : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-			},
-		},
 		{ -- Profession Equipment
 			name = AL["Profession Equipment"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 259205, 1264550, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:200" }, -- Gilded Alchemist's Mixing Rod
+				{ 2, 259209, 1264552, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:200" }, -- Gilded Sin'dorei Quill
+				{ 3, 259207, 1264551, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:200" }, -- Gilded Sin'dorei Rolling Pin
+				{ 4, 245780, 1230023 },                                 -- Sin'dorei Rolling Pin
+				{ 5, 245778, 1230024 },                                 -- Sin'dorei Alchemist's Mixing Rod
+				{ 6, 245776, 1230025 },                                 -- Sin'dorei Quill
+				{ 7, 245775, 1230022 },                                 -- Hobbyist Scribe's Quill
+				{ 8, 245779, 1230020 },                                 -- Hobbyist Rolling Pin
+				{ 9, 245777, 1230021 },                                 -- Hobbyist Alchemist's Mixing Rod
+			},
 			[TWW_DIFF] = {
-				{ 1, 222577, 444208 }, -- Burnt Rolling Pin
-				{ 2, 222573, 444204 }, -- Lightweight Scribe's Quill
-				{ 3, 222575, 444206 }, -- Hasty Alchemist's Mixing Rod
-				{ 4, 222578, 444209 }, -- Inscribed Rolling Pin
-				{ 5, 222574, 444205 }, -- Silver Tongue's Quill
-				{ 6, 222576, 444207 }, -- Patient Alchemist's Mixing Rod
+				{ 1, 222578, 444209 }, -- Inscribed Rolling Pin
+				{ 2, 222574, 444205 }, -- Silver Tongue's Quill
+				{ 3, 222576, 444207 }, -- Patient Alchemist's Mixing Rod
+				{ 4, 222577, 444208 }, -- Burnt Rolling Pin
+				{ 5, 222573, 444204 }, -- Lightweight Scribe's Quill
+				{ 6, 222575, 444206 }, -- Hasty Alchemist's Mixing Rod
 			},
 		},
 		{ --InscriptionReagents
 			name = AL["Reagents"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  245791, 1230037 },                                 -- Thalassian Missive of the Quickblade
+				{ 2,  245789, 1230038 },                                 -- Thalassian Missive of the Peerless
+				{ 3,  245787, 1230039 },                                 -- Thalassian Missive of the Harmonious
+				{ 4,  245785, 1230040 },                                 -- Thalassian Missive of the Fireflash
+				{ 5,  245783, 1230041 },                                 -- Thalassian Missive of the Feverflare
+				{ 6,  245781, 1230042 },                                 -- Thalassian Missive of the Aurora
+				{ 8,  245824, 1230044, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Perception
+				{ 9,  245822, 1230045, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Finesse
+				{ 10, 245820, 1230046, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Crafting Speed
+				{ 11, 245818, 1230047, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Multicraft
+				{ 12, 245816, 1230048, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Resourcefulness
+				{ 13, 245814, 1230049, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Ingenuity
+				{ 14, 245826, 1230043, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Thalassian Missive of Deftness
+				{ 16, 245801, 1230017, [ATLASLOOT_IT_AMOUNT1] = 2 },     -- Munsell Ink
+				{ 17, 245805, 1230016, [ATLASLOOT_IT_AMOUNT1] = 2 },     -- Sienna Ink
+				{ 18, 245764, 1230018 },                                 -- Codified Azeroot
+				{ 19, 245766, 1230019, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Soul Cipher
+			},
 			[TWW_DIFF] = {
 				{ 1,  222582, 444211 },                          -- Algari Missive of the Feverflare
 				{ 2,  222579, 444210 },                          -- Algari Missive of the Aurora
@@ -4374,15 +4404,11 @@ data["Inscription"] = {
 				{ 28, 39469,  52843 },                          -- Moonglow Ink : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --InscriptionRelic
-			name = AL["Relic"],
-			[LEGION_DIFF] = {
-				{ 1, 136692, 209510 }, -- Aqual Mark
-				{ 2, 136693, 209511 }, -- Straszan Mark
-			},
-		},
 		{ --InscriptionRunes
 			name = AL["Runes"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 245879, 1230050 }, -- Vantus Rune: Radiant
+			},
 			[TWW_DIFF] = {
 				{ 1, 226034, 444203 },                           -- Vantus Rune: Nerub-ar Palace
 				{ 2, 232935, 472951,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Vantus Rune: Liberation of Undermine
@@ -4454,6 +4480,94 @@ data["Inscription"] = {
 				{ 220, 142103, 229179 }, -- Vantus Rune: Helya
 				{ 221, 142103, 229182 }, -- Vantus Rune: Helya
 				{ 222, 142103, 229185 }, -- Vantus Rune: Helya
+			},
+		},
+		{ -- Treatises
+			name = AL["Treatises"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  245755, 1230034 }, -- Thalassian Treatise on Alchemy
+				{ 2,  245763, 1230026 }, -- Thalassian Treatise on Blacksmithing
+				{ 3,  245759, 1230030 }, -- Thalassian Treatise on Enchanting
+				{ 4,  245809, 1230036 }, -- Thalassian Treatise on Engineering
+				{ 5,  245761, 1230028 }, -- Thalassian Treatise on Herbalism
+				{ 6,  245757, 1230032 }, -- Thalassian Treatise on Inscription
+				{ 7,  245760, 1230029 }, -- Thalassian Treatise on Jewelcrafting
+				{ 8,  245758, 1230031 }, -- Thalassian Treatise on Leatherworking
+				{ 9,  245762, 1230027 }, -- Thalassian Treatise on Mining
+				{ 10, 245828, 1230035 }, -- Thalassian Treatise on Skinning
+				{ 11, 245756, 1230033 }, -- Thalassian Treatise on Tailoring
+			},
+			[TWW_DIFF] = {
+				{ 1,  222546, 444187 }, -- Algari Treatise on Alchemy
+				{ 2,  222554, 444184 }, -- Algari Treatise on Blacksmithing
+				{ 3,  222550, 444188 }, -- Algari Treatise on Enchanting
+				{ 4,  222621, 444223 }, -- Algari Treatise on Engineering
+				{ 5,  222552, 444182 }, -- Algari Treatise on Herbalism
+				{ 6,  222548, 447868 }, -- Algari Treatise on Inscription
+				{ 7,  222551, 444189 }, -- Algari Treatise on Jewelcrafting
+				{ 8,  222549, 444185 }, -- Algari Treatise on Leatherworking
+				{ 9,  222553, 444183 }, -- Algari Treatise on Mining
+				{ 10, 222649, 444236 }, -- Algari Treatise on Skinning
+				{ 11, 222547, 444186 }, -- Algari Treatise on Tailoring
+			},
+		},
+		{ --InscriptionMisc
+			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 265337, 1230062, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Aln'hara Sprigshot
+				{ 2, 265336, 1230058, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Faunatender's Trust
+				{ 3, 245869, 1260760, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Bow
+			},
+			[TWW_DIFF] = {
+				{ 1, 246809, 1243994, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Inspired Writer's Quill
+			},
+			[BFA_DIFF] = {
+				{ 1, 162114, 278422 }, -- Crimson Ink Well
+			},
+			[LEGION_DIFF] = {
+				-- 7.3.0
+				{ 1, 152725, 247861 }, -- Mass Mill Astral Glory
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  113355, 166669 },                -- Card of Omens (Learnt by item 111923)
+				{ 3,  113992, 167950 },                -- Research: Warbinder's Ink (Learnt by item 111923)
+				{ 5,  119297, 177045 },                -- Secrets of Draenor Inscription (Learnt by item 111923)
+				{ 7,  87811,  127378 },                -- Commissioned Painting : =ds=#sr# 600 : =ds=#QUESTID:31539#
+				{ 8,  87814,  127391 },                -- Engraved Jade Disk : =ds=#sr# 600 : =ds=#QUESTID:31541#
+				{ 9,  87817,  127475 },                -- Incarnadine Ink : =ds=#sr# 600 : =ds=#QUESTID:31542#
+				{ 10, 87831,  127481 },                -- Inscribed Monument : =ds=#sr# 600 : =ds=#QUESTID:31544#
+				{ 11, 88806,  128922 },                -- Portrait of Madam Goya : =ds=#sr# 600 : =ds=#QUESTID:31543#
+				{ 16, 102483, 146638 },                -- Crafted Malevolent Gladiator's Medallion of Tenacity : =ds=#s14# / =q1=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 17, 89368,  127009 },                -- Chi-ji Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 18, 87647,  126988 },                -- Origami Crane : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 19, 87648,  126989 },                -- Origami Frog : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 20, 89367,  127007 },                -- Yu'lon Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
+				{ 21, 141640, 227561 },                -- Tome of the Clear Mind : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 22, 63276,  86654 },                 -- Forged Documents : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 23, 63246,  86646 },                 -- Origami Beetle : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
+				{ 24, 62238,  86645 },                 -- Origami Rock : =ds=#sr# 490 : =ds=AtlasLoot["World Drop"]
+				{ 25, 62239,  86644 },                 -- Origami Slime : =ds=#sr# 480 : =ds=AtlasLoot["World Drop"]
+				--{ 26, 63388, 92027, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Dust of Disappearance : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 27, 43850,  59387 },                 -- Certificate of Ownership : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 28, 64670,  92026 },                 -- Vanishing Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
+				{ 29, 38682,  52739, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Enchanting Vellum : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- InscriptionDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  262615, 1248626, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:brimmingArcana:200" }, -- Sin'dorei Phoenix Quill
+				{ 2,  262601, 1248628, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:remnantOfAnguish:500" }, -- Wild Hanging Scroll
+				{ 3,  262612, 1248619, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:remnantOfAnguish:500" }, -- Sturdy Ren'dorei Cask
+				{ 4,  253508, 1248630, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Harandar Signpost
+				{ 5,  263034, 1248631, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Magnificent Towering Bookcase
+				{ 6,  262464, 1248621, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Floating Void-Touched Tome
+				{ 7,  262594, 1248622, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },          -- Homely Sin'dorei Shelf
+				{ 8,  262616, 1248623, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },          -- Lively Songwriter's Quill
+				{ 9,  262598, 1248624, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },          -- Opened Sin'dorei Scroll
+				{ 10, 262597, 1248625, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },          -- Gilded Eversong Book
+				{ 11, 262595, 1248627 },                                                      -- Homely Wall Shelves
+				{ 12, 262790, 1248620 },                                                      -- Restful Bronze Bench
 			},
 		},
 		{ --InscriptionScrolls
@@ -4540,57 +4654,43 @@ data["Inscription"] = {
 				{ 224, 954,   58484 },                  -- Scroll of Strength : =ds=#sr# 15 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ -- Treatises
-			name = AL["Treatises"],
-			[TWW_DIFF] = {
-				{ 1,  222546, 444187 }, -- Algari Treatise on Alchemy
-				{ 2,  222554, 444184 }, -- Algari Treatise on Blacksmithing
-				{ 3,  222550, 444188 }, -- Algari Treatise on Enchanting
-				{ 4,  222621, 444223 }, -- Algari Treatise on Engineering
-				{ 5,  222552, 444182 }, -- Algari Treatise on Herbalism
-				{ 6,  222548, 447868 }, -- Algari Treatise on Inscription
-				{ 7,  222551, 444189 }, -- Algari Treatise on Jewelcrafting
-				{ 8,  222549, 444185 }, -- Algari Treatise on Leatherworking
-				{ 9,  222553, 444183 }, -- Algari Treatise on Mining
-				{ 10, 222649, 444236 }, -- Algari Treatise on Skinning
-				{ 11, 222547, 444186 }, -- Algari Treatise on Tailoring
+		{ --InscriptionRelic
+			name = AL["Relic"],
+			[LEGION_DIFF] = {
+				{ 1, 136692, 209510 }, -- Aqual Mark
+				{ 2, 136693, 209511 }, -- Straszan Mark
 			},
 		},
-		{ --InscriptionMisc
-			name = AL["Miscellaneous"],
-			[TWW_DIFF] = {
-				{ 1, 246809, 1243994, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Inspired Writer's Quill
-			},
-			[BFA_DIFF] = {
-				{ 1, 162114, 278422 }, -- Crimson Ink Well
-			},
-			[LEGION_DIFF] = {
-				-- 7.3.0
-				{ 1, 152725, 247861 }, -- Mass Mill Astral Glory
-			},
+		{ --InscriptionItemEnhancements
+			name = AL["Item Enhancements"],
 			[NORMAL_DIFF] = {
-				{ 1,  113355, 166669 },                -- Card of Omens (Learnt by item 111923)
-				{ 3,  113992, 167950 },                -- Research: Warbinder's Ink (Learnt by item 111923)
-				{ 5,  119297, 177045 },                -- Secrets of Draenor Inscription (Learnt by item 111923)
-				{ 7,  87811,  127378 },                -- Commissioned Painting : =ds=#sr# 600 : =ds=#QUESTID:31539#
-				{ 8,  87814,  127391 },                -- Engraved Jade Disk : =ds=#sr# 600 : =ds=#QUESTID:31541#
-				{ 9,  87817,  127475 },                -- Incarnadine Ink : =ds=#sr# 600 : =ds=#QUESTID:31542#
-				{ 10, 87831,  127481 },                -- Inscribed Monument : =ds=#sr# 600 : =ds=#QUESTID:31544#
-				{ 11, 88806,  128922 },                -- Portrait of Madam Goya : =ds=#sr# 600 : =ds=#QUESTID:31543#
-				{ 16, 102483, 146638 },                -- Crafted Malevolent Gladiator's Medallion of Tenacity : =ds=#s14# / =q1=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 17, 89368,  127009 },                -- Chi-ji Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 18, 87647,  126988 },                -- Origami Crane : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 19, 87648,  126989 },                -- Origami Frog : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 20, 89367,  127007 },                -- Yu'lon Kite : =ds=#sr# 600 : =ds=AtlasLoot["Trainer"]
-				{ 21, 141640, 227561 },                -- Tome of the Clear Mind : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 22, 63276,  86654 },                 -- Forged Documents : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 23, 63246,  86646 },                 -- Origami Beetle : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-				{ 24, 62238,  86645 },                 -- Origami Rock : =ds=#sr# 490 : =ds=AtlasLoot["World Drop"]
-				{ 25, 62239,  86644 },                 -- Origami Slime : =ds=#sr# 480 : =ds=AtlasLoot["World Drop"]
-				--{ 26, 63388, 92027, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Dust of Disappearance : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 27, 43850,  59387 },                 -- Certificate of Ownership : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 28, 64670,  92026 },                 -- Vanishing Powder : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
-				{ 29, 38682,  52739, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Enchanting Vellum : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+				{ 1,   128018,     178248, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Ensorcelled Tarot (Sold, Ashran)
+				{ 2,   127718,     187495, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Ensorcelled Tarot (Sold, Ashran)
+				{ 3,   127736,     187519, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Ensorcelled Tarot (Sold, Garrison)
+				{ 5,   128010,     166366, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Weapon Crystal (Sold, Ashran)
+				{ 6,   127717,     187494, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Weapon Crystal (Sold, Ashran)
+				{ 7,   127735,     187518, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Savage Weapon Crystal (Sold, Garrison)
+				{ 9,   113289,     166432, [PRICE_EXTRA_ITTYPE] = "119297:1" }, -- Volatile Crystal (Sold, Ashran)
+				{ 16,  87582,      127023 },                         -- Secret Crane Wing Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 17,  87581,      127024 },                         -- Secret Ox Horn Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 18,  87584,      127021 },                         -- Secret Tiger Claw Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 19,  87585,      127020 },                         -- Secret Tiger Fang Inscription : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 21,  87559,      126995 },                         -- Greater Crane Wing Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 22,  87560,      126994 },                         -- Greater Ox Horn Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 23,  83007,      126996 },                         -- Greater Tiger Claw Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 24,  83006,      126997 },                         -- Greater Tiger Fang Inscription : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 26,  87578,      127018 },                         -- Crane Wing Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 27,  87577,      127019 },                         -- Ox Horn Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 28,  87579,      127017 },                         -- Tiger Claw Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 29,  87580,      127016 },                         -- Tiger Fang Inscription : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 101, "prof86403" },                                -- Felfire Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 102, "prof86402" },                                -- Inscription of the Earthen Prince : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 103, "prof86401" },                                -- Lionsmane Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 104, "prof86375" },                                -- Swiftsteel Inscription : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 106, "prof61117" },                                -- Master's Inscription of the Axe : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 107, "prof61118" },                                -- Master's Inscription of the Crag : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 108, "prof61119" },                                -- Master's Inscription of the Pinnacle : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 109, "prof61120" },                                -- Master's Inscription of the Storm : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 		{ --InscriptionDeathKnight

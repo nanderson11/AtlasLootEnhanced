@@ -3,6 +3,7 @@
 ## 9.21.3 -
 ### Added
 - Added Midnight Engineering recipes
+- Added Midnight Inscription recipes
 
 ## 9.21.2 - March 9, 2026
 ### Added
