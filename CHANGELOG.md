@@ -6,6 +6,7 @@
 - Added Midnight Inscription recipes
 - Added Midnight Leatherworking recipes
 - Added Midnight Jewelcrafting recipes
+- Added Midnight Tailoring recipes
 
 ## 9.21.2 - March 9, 2026
 ### Added

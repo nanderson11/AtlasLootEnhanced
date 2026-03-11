@@ -7996,31 +7996,68 @@ data["Tailoring"] = {
 	items = {
 		{ --TailoringArmor
 			name = AL["Armor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,   239658, 1228982 },                          -- Sunfire Cloak
+				{ 2,   239659, 1228983 },                          -- Sunfire Treads
+				{ 3,   239657, 1228981 },                          -- Sunfire Bracers
+				{ 4,   239663, 1228987 },                          -- Sunfire Sash
+				{ 5,   239661, 1228985 },                          -- Arcanoweave Cloak
+				{ 6,   239662, 1228986 },                          -- Arcanoweave Treads
+				{ 7,   239660, 1228984 },                          -- Arcanoweave Bracers
+				{ 8,   239664, 1228988 },                          -- Arcanoweave Cord
+				{ 9,   239656, 1228950 },                          -- Adherent's Silken Shroud
+				{ 10,  239648, 1228945 },                          -- Martyr's Bindings
+				{ 11,  239655, 1228946 },                          -- Martyr's Vestments
+				{ 12,  239651, 1228947 },                          -- Martyr's Leggings
+				{ 13,  239654, 1228948 },                          -- Martyr's Slippers
+				{ 14,  239650, 1228949 },                          -- Martyr's Mantle
+				{ 15,  239652, 1228942 },                          -- Martyr's Crown
+				{ 16,  239653, 1228943 },                          -- Martyr's Gloves
+				{ 17,  239649, 1228944 },                          -- Martyr's Waistwrap
+				{ 18,  239668, 1228951 },                          -- Courtly Helm
+				{ 19,  239669, 1228952 },                          -- Courtly Gloves
+				{ 20,  239670, 1228953 },                          -- Courtly Belt
+				{ 21,  239671, 1228954 },                          -- Courtly Wrists
+				{ 22,  239672, 1228955 },                          -- Courtly Robes
+				{ 23,  239676, 1228956 },                          -- Courtly Pants
+				{ 24,  239673, 1228957 },                          -- Courtly Slippers
+				{ 25,  239674, 1228958 },                          -- Courtly Cloak
+				{ 26,  239675, 1228959 },                          -- Courtly Shoulders
+				{ 27,  239677, 1228989, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Bands
+				{ 28,  239678, 1228990, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Cloak
+				{ 29,  239679, 1228991, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Gloves
+				{ 30,  239680, 1228992, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Hood
+				{ 101, 239681, 1228993, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Leggings
+				{ 102, 239682, 1228994, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Sash
+				{ 103, 239683, 1228995, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Shoulderpads
+				{ 104, 239684, 1228996, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Treads
+				{ 105, 239685, 1228997, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Cloth Tunic
+			},
 			[TWW_DIFF] = {
-				{ 1,   222840, 446963 },                          -- Pioneer's Perfected Gloves
-				{ 2,   222839, 446962 },                          -- Pioneer's Perfected Mantle
-				{ 3,   222836, 446959 },                          -- Pioneer's Perfected Hood
-				{ 4,   222835, 446958 },                          -- Pioneer's Perfected Cloak
-				{ 5,   222838, 446961 },                          -- Pioneer's Perfected Leggings
-				{ 6,   222834, 446957 },                          -- Pioneer's Perfected Cord
-				{ 7,   222837, 446960 },                          -- Pioneer's Cloth Robe
-				{ 8,   222832, 446955 },                          -- Pioneer's Cloth Slippers
-				{ 9,   222833, 446956 },                          -- Pioneer's Cloth Cuffs
-				{ 10,  222812, 446935 },                          -- Cool Sunset Bracers
-				{ 11,  222809, 446932 },                          -- Gloves of the Woven Dusk
-				{ 12,  222810, 446933 },                          -- Slippers of the Woven Dusk
-				{ 13,  222811, 446934 },                          -- Warm Sunrise Bracers
-				{ 14,  222807, 446930 },                          -- Grips of the Woven Dawn
-				{ 15,  222808, 446931 },                          -- Treads of the Woven Dawn
-				{ 16,  222817, 446940 },                          -- Consecrated Cloak
-				{ 17,  222816, 446939 },                          -- Consecrated Cord
-				{ 18,  222815, 446938 },                          -- Consecrated Cuffs
-				{ 19,  222822, 446945 },                          -- Consecrated Gloves
-				{ 20,  222818, 446941 },                          -- Consecrated Hood
-				{ 21,  222820, 446943 },                          -- Consecrated Leggings
-				{ 22,  222821, 446944 },                          -- Consecrated Mantle
-				{ 23,  222819, 446942 },                          -- Consecrated Robe
-				{ 24,  222814, 446937 },                          -- Consecrated Slippers
+				{ 1,   222812, 446935 },                          -- Cool Sunset Bracers
+				{ 2,   222809, 446932 },                          -- Gloves of the Woven Dusk
+				{ 3,   222810, 446933 },                          -- Slippers of the Woven Dusk
+				{ 4,   222811, 446934 },                          -- Warm Sunrise Bracers
+				{ 5,   222807, 446930 },                          -- Grips of the Woven Dawn
+				{ 6,   222808, 446931 },                          -- Treads of the Woven Dawn
+				{ 7,   222817, 446940 },                          -- Consecrated Cloak
+				{ 8,   222816, 446939 },                          -- Consecrated Cord
+				{ 9,   222815, 446938 },                          -- Consecrated Cuffs
+				{ 10,  222822, 446945 },                          -- Consecrated Gloves
+				{ 11,  222818, 446941 },                          -- Consecrated Hood
+				{ 12,  222820, 446943 },                          -- Consecrated Leggings
+				{ 13,  222821, 446944 },                          -- Consecrated Mantle
+				{ 14,  222819, 446942 },                          -- Consecrated Robe
+				{ 15,  222814, 446937 },                          -- Consecrated Slippers
+				{ 16,  222840, 446963 },                          -- Pioneer's Perfected Gloves
+				{ 17,  222839, 446962 },                          -- Pioneer's Perfected Mantle
+				{ 18,  222836, 446959 },                          -- Pioneer's Perfected Hood
+				{ 19,  222835, 446958 },                          -- Pioneer's Perfected Cloak
+				{ 20,  222838, 446961 },                          -- Pioneer's Perfected Leggings
+				{ 21,  222834, 446957 },                          -- Pioneer's Perfected Cord
+				{ 22,  222837, 446960 },                          -- Pioneer's Cloth Robe
+				{ 23,  222832, 446955 },                          -- Pioneer's Cloth Slippers
+				{ 24,  222833, 446956 },                          -- Pioneer's Cloth Cuffs
 				{ 25,  217120, 438892, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Cloth Bands
 				{ 26,  217125, 438897, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Cloth Cloak
 				{ 27,  217122, 438894, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Cloth Gloves
@@ -8723,11 +8760,17 @@ data["Tailoring"] = {
 		},
 		{ --TailoringBags
 			name = AL["Bags"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240161, 1228980 }, -- Sunfire Silk Backpack
+				{ 2, 240158, 1228979 }, -- Arcanoweave Reagent Rucksack
+				{ 3, 240160, 1228977 }, -- Imbued Bright Linen Backpack
+				{ 4, 240159, 1228978 }, -- Bright Linen Reagent Satchel
+			},
 			[TWW_DIFF] = {
-				{ 1,  222853, 446976 },                                   -- Weavercloth Bag
-				{ 2,  222855, 446978 },                                   -- Weavercloth Reagent Bag
-				{ 3,  222856, 446979 },                                   -- Duskweave Bag
-				{ 4,  222854, 446977 },                                   -- Dawnweave Reagent Bag
+				{ 1,  222856, 446979 },                                   -- Duskweave Bag
+				{ 2,  222854, 446977 },                                   -- Dawnweave Reagent Bag
+				{ 3,  222853, 446976 },                                   -- Weavercloth Bag
+				{ 4,  222855, 446978 },                                   -- Weavercloth Reagent Bag
 				{ 16, 222859, 446982, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Concoctor's Clutch
 				{ 17, 222864, 446987, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Darkmoon Duffle
 				{ 18, 222866, 446989, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Excavator's Haversack
@@ -8797,10 +8840,15 @@ data["Tailoring"] = {
 		},
 		{ --TailoringArmorEnhancements
 			name = AL["Armor Enhancements"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240154, 1228975, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150:voidlightMarl:1500" }, -- Arcanoweave Spellthread
+				{ 2, 240094, 1228974 },                                                     -- Sunfire Silk Spellthread
+				{ 3, 240156, 1228976 },                                                     -- Bright Linen Spellthread
+			},
 			[TWW_DIFF] = {
-				{ 1, 222888, 446999 },                           -- Weavercloth Spellthread
-				{ 2, 222894, 447001 },                           -- Daybreak Spellthread
-				{ 3, 222891, 447000 },                           -- Sunset Spellthread
+				{ 1, 222894, 447001 },                           -- Daybreak Spellthread
+				{ 2, 222891, 447000 },                           -- Sunset Spellthread
+				{ 3, 222888, 446999 },                           -- Weavercloth Spellthread
 				{ 5, 238045, 1228344, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Pure Chronomantic Fiber
 				{ 6, 238042, 1228343, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Pure Dexterous Fiber
 				{ 7, 238046, 1228338, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Pure Energizing Fiber
@@ -8842,32 +8890,62 @@ data["Tailoring"] = {
 		},
 		{ -- Profession Equipment
 			name = AL["Profession Equipment"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  267052, 1279123, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:200" }, -- Thalassian Alchemy Coveralls
+				{ 2,  267056, 1279125, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:200" }, -- Thalassian Enchanter's Bonnet
+				{ 3,  267060, 1279128, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:200" }, -- Thalassian Herbalist's Cowl
+				{ 4,  267062, 1279129, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:200" }, -- Thalassian Tailor's Threads
+				{ 5,  267054, 1279124, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:200" }, -- Thalassian Chef's Chapeau
+				{ 6,  239635, 1228962, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Alchemy Coveralls
+				{ 7,  239636, 1228963, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Cooking Hat
+				{ 8,  239637, 1228964, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Enchanting Hat
+				{ 9,  239638, 1228965, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Fishing Hat
+				{ 10, 239640, 1228967, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Tailoring Robe
+				{ 11, 239639, 1228966, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150" }, -- Elegant Artisan's Herbalism Hat
+				{ 12, 239641, 1228968 },                                  -- Bright Linen Alchemy Apron
+				{ 13, 239642, 1228969 },                                  -- Chef's Bright Linen Cooking Chapeau
+				{ 14, 239643, 1228970 },                                  -- Bright Linen Enchanting Hat
+				{ 15, 239644, 1228971 },                                  -- Bright Linen Fishing Hat
+				{ 16, 239645, 1228972 },                                  -- Bright Linen Herbalism Hat
+				{ 17, 239646, 1228973 },                                  -- Bright Linen Tailoring Robe
+			},
 			[TWW_DIFF] = {
 				{ 1,  225729, 456706 },                                   -- Algari Weaverline
-				{ 2,  222845, 446968 },                                   -- Weavercloth Alchemist's Robe
-				{ 3,  222846, 446969 },                                   -- Weavercloth Chef's Hat
-				{ 4,  222843, 446966 },                                   -- Weavercloth Enchanter's Hat
-				{ 5,  222842, 446965 },                                   -- Weavercloth Fishing Cap
-				{ 6,  222841, 446964 },                                   -- Weavercloth Gardening Hat
-				{ 7,  222844, 446967 },                                   -- Weavercloth Tailor's Coat
-				{ 8,  222850, 446973, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Artisan Alchemist's Robe
-				{ 9,  222851, 446974 },                                   -- Artisan Chef's Hat
-				{ 10, 222849, 446972, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Enchanter's Hat
-				{ 11, 222848, 446971, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Fishing Cap
-				{ 12, 222847, 446970, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Gardening Hat
-				{ 13, 222852, 446975 },                                   -- Artisan Tailor's Coat
+				{ 2,  222850, 446973, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Artisan Alchemist's Robe
+				{ 3,  222851, 446974 },                                   -- Artisan Chef's Hat
+				{ 4,  222849, 446972, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Enchanter's Hat
+				{ 5,  222848, 446971, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Fishing Cap
+				{ 6,  222847, 446970, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Artisan Gardening Hat
+				{ 7,  222852, 446975 },                                   -- Artisan Tailor's Coat
+				{ 8,  222845, 446968 },                                   -- Weavercloth Alchemist's Robe
+				{ 9,  222846, 446969 },                                   -- Weavercloth Chef's Hat
+				{ 10, 222843, 446966 },                                   -- Weavercloth Enchanter's Hat
+				{ 11, 222842, 446965 },                                   -- Weavercloth Fishing Cap
+				{ 12, 222841, 446964 },                                   -- Weavercloth Gardening Hat
+				{ 13, 222844, 446967 },                                   -- Weavercloth Tailor's Coat
 			},
 		},
 		{ --TailoringMisc
 			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  240166, 1228961 }, -- Arcanoweave Lining
+				{ 2,  240164, 1228960 }, -- Sunfire Silk Lining
+				{ 3,  239711, 1228941 }, -- Bright Linen Bandage
+				{ 16, 267445, 1280542 }, -- Silvermoon Agent's Drape
+				{ 17, 267446, 1280543 }, -- Scout's Cape
+				{ 18, 267447, 1280544 }, -- Farstrider's Embroidered Cover
+				{ 19, 267448, 1280545 }, -- Blood-Tempered Cape
+				{ 20, 267449, 1280546 }, -- Spellbreaker's Shroud
+				{ 21, 267444, 1280541 }, -- Smuggler's Cloak
+			},
 			[TWW_DIFF] = {
-				{ 1, 224440, 447002 }, -- Weavercloth Bandage
-				{ 2, 222879, 446996 }, -- Bright Polishing Cloth
-				{ 3, 222876, 446998 }, -- Gritty Polishing Cloth
-				{ 4, 222882, 446997 }, -- Weavercloth Embroidery Thread
-				{ 5, 222885, 446995 }, -- Preserving Embroidery Thread
-				{ 6, 222868, 446991 }, -- Dawnthread Lining
-				{ 7, 222871, 446992 }, -- Duskthread Lining
+				{ 1, 222868, 446991 }, -- Dawnthread Lining
+				{ 2, 222871, 446992 }, -- Duskthread Lining
+				{ 3, 222879, 446996 }, -- Bright Polishing Cloth
+				{ 4, 222876, 446998 }, -- Gritty Polishing Cloth
+				{ 5, 222882, 446997 }, -- Weavercloth Embroidery Thread
+				{ 6, 222885, 446995 }, -- Preserving Embroidery Thread
+				{ 7, 224440, 447002 }, -- Weavercloth Bandage
 			},
 			[BFA_DIFF] = {
 				{ 1,  159792, 268983 }, -- Hooked Deep Sea Net
@@ -8911,11 +8989,17 @@ data["Tailoring"] = {
 		},
 		{ --TailoringCloth
 			name = AL["Cloth"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 239198, 1227926, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Arcanoweave Bolt
+				{ 2, 239201, 1228060, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sunfire Silk Bolt
+				{ 3, 239702, 1228940 },                 -- Imbued Bright Linen Bolt
+				{ 4, 239700, 1228939 },                 -- Bright Linen Bolt
+			},
 			[TWW_DIFF] = {
-				{ 1, 222804, 446929 },                   -- Weavercloth Bolt
-				{ 2, 224832, 454397 },                   -- Exquisite Weavercloth Bolt
-				{ 3, 222798, 446927, [ATLASLOOT_IT_AMOUNT1] = "2" }, -- Duskweave Bolt
-				{ 4, 222801, 446928, [ATLASLOOT_IT_AMOUNT1] = "2" }, -- Dawnweave Bolt
+				{ 1, 222798, 446927, [ATLASLOOT_IT_AMOUNT1] = "2" }, -- Duskweave Bolt
+				{ 2, 222801, 446928, [ATLASLOOT_IT_AMOUNT1] = "2" }, -- Dawnweave Bolt
+				{ 3, 224832, 454397 },                   -- Exquisite Weavercloth Bolt
+				{ 4, 222804, 446929 },                   -- Weavercloth Bolt
 			},
 			[BFA_DIFF] = {
 				{ 1, 158378, 272440 }, -- Embroidered Deep Sea Satin
@@ -8965,6 +9049,17 @@ data["Tailoring"] = {
 				{ 5, 4305,  3839 }, -- Bolt of Silk Cloth : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
 				{ 6, 2997,  2964 }, -- Bolt of Woolen Cloth : =ds=#sr# 75 : =ds=AtlasLoot["Trainer"]
 				{ 7, 2996,  2963 }, -- Bolt of Linen Cloth : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- TailoringDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 262592, 1229003, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150:voidlightMarl:1500" }, -- Plush Silvermoon Bed
+				{ 2, 262593, 1246919, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150:voidlightMarl:1500" }, -- Chic Silvermoon Pillow
+				{ 3, 262352, 1229001, [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:150:voidlightMarl:1500" }, -- Lush Telogrus Carpet
+				{ 4, 262591, 1229002 },                                                     -- Luxurious Silvermoon Lounge Cushion
+				{ 5, 262599, 1229000 },                                                     -- Silvermoon Curtains
+				{ 6, 262611, 1246929 },                                                     -- Voidstrider Saddlebag
 			},
 		},
 		{ --TailoringShirts
