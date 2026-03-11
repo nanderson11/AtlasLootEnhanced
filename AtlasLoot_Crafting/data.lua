@@ -4862,6 +4862,24 @@ data["Jewelcrafting"] = {
 	items = {
 		{ --JewelPrismatic
 			name = AL["Prismatic Gems"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240966, 1230470 },                          -- Powerful Eversong Diamond
+				{ 2, 240968, 1230471 },                          -- Telluric Eversong Diamond
+				{ 3, 240970, 1230472 },                          -- Stoic Eversong Diamond
+				{ 4, 240982, 1230473 },                          -- Indecipherable Eversong Diamond
+				{ 6, 241142, 1230500, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Determined Heliotrope
+				{ 7, 241143, 1230501, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Cognitive Heliotrope
+				{ 8, 241144, 1230502, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Enduring Heliotrope
+			},
+			[TWW_DIFF] = {
+				{ 1, 213741, 435318 },                             -- Culminating Blasphemite
+				{ 2, 213738, 435230 },                             -- Insightful Blasphemite
+				{ 3, 213744, 435319 },                             -- Elusive Blasphemite
+				{ 4, 217113, 435392, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Cubic Blasphemia
+				{ 6, 213748, 435321, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Cognitive Bloodstone
+				{ 7, 213749, 435322, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Determined Bloodstone
+				{ 8, 213747, 435320, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Enduring Bloodstone
+			},
 			[BFA_DIFF] = {
 				{ 1,  153709, 256702 }, -- Kraken's Eye of Intellect
 				{ 2,  153708, 256701 }, -- Kraken's Eye of Agility
@@ -4930,12 +4948,470 @@ data["Jewelcrafting"] = {
 				{ 1, 45054, 62941 }, -- Prismatic Black Diamond : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
 			},
 		},
+		{ --JewelRed
+			name = AL["Red Gems"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240905, 1230466 }, -- Flawless Quick Garnet
+				{ 2, 240903, 1230467 }, -- Flawless Deadly Garnet
+				{ 3, 240907, 1230468 }, -- Flawless Masterful Garnet
+				{ 4, 240909, 1230469 }, -- Flawless Versatile Garnet
+				{ 5, 240873, 1230462 }, -- Quick Garnet
+				{ 6, 240871, 1230463 }, -- Deadly Garnet
+				{ 7, 240875, 1230464 }, -- Masterful Garnet
+				{ 8, 240877, 1230465 }, -- Versatile Garnet
+			},
+			[TWW_DIFF] = {
+				{ 1, 213462, 434549 }, -- Deadly Ruby
+				{ 2, 213456, 434551 }, -- Masterful Ruby
+				{ 3, 213453, 434550 }, -- Quick Ruby
+				{ 4, 213459, 434552 }, -- Versatile Ruby
+			},
+			[MOP_DIFF] = {
+				{ 1,  76696, 107705 }, -- Bold Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
+				{ 2,  76694, 107706 }, -- Brilliant Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
+				{ 3,  76692, 107707 }, -- Delicate Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
+				{ 4,  76695, 107708 }, -- Flashing Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
+				{ 5,  76693, 107709 }, -- Precise Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
+				{ 16, 76564, 107622 }, -- Bold Pandarian Garnet : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 17, 76562, 107623 }, -- Brilliant Pandarian Garnet : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 18, 76563, 107625 }, -- Flashing Pandarian Garnet : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 19, 76561, 107626 }, -- Precise Pandarian Garnet : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 20, 76560, 107622 }, -- Delicate Pandarian Garnet : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1,  71883, 101799 }, -- Bold Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 2,  71881, 101797 }, -- Brilliant Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 3,  71879, 101795 }, -- Delicate Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 4,  71882, 101798 }, -- Flashing Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 5,  71880, 101796 }, -- Precise Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 7,  52206, 73335 }, -- Bold Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 8,  52207, 73338 }, -- Brilliant Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 9,  52212, 73336 }, -- Delicate Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 10, 52216, 73337 }, -- Flashing Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 11, 52230, 73339 }, -- Precise Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 16, 52081, 73222 }, -- Bold Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 17, 52084, 73225 }, -- Brilliant Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 18, 52082, 73223 }, -- Delicate Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 19, 52083, 73224 }, -- Flashing Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 20, 52085, 73226 }, -- Precise Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,  40111, 66447 }, -- Bold Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,  40113, 66446 }, -- Brilliant Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,  40112, 66448 }, -- Delicate Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,  40116, 66453 }, -- Flashing Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 5,  40118, 66450 }, -- Precise Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 7,  39996, 53830 }, -- Bold Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,  39998, 53946 }, -- Brilliant Scarlet Ruby : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Kirin Tor"] - AtlasLoot["Exalted"]
+				{ 9,  39997, 53945 }, -- Delicate Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 10, 40001, 53949 }, -- Flashing Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 11, 40003, 53951 }, -- Precise Scarlet Ruby : =ds=#sr# 390 : =ds=Herald Volazj584 (AtlasLoot["Heroic"])
+				{ 16, 39900, 53831 }, -- Bold Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 17, 39912, 53852 }, -- Brilliant Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 18, 39905, 53832 }, -- Delicate Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 19, 39908, 53844 }, -- Flashing Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 20, 39910, 54017 }, -- Precise Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1,  32193, 39705 }, -- Bold Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 2,  32196, 39711 }, -- Brilliant Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 3,  32194, 39706 }, -- Delicate Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 4,  32199, 39714 }, -- Flashing Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 6,  33131, 42589 }, -- Crimson Sun : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Revered"]
+				{ 7,  33133, 42558 }, -- Don Julio's Heart : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Revered"]
+				{ 8,  33134, 42588 }, -- Kailee's Rose : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Honored"]
+				{ 16, 24027, 31084 }, -- Bold Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 17, 24030, 31088 }, -- Brilliant Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 18, 24028, 31085 }, -- Delicate Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 19, 24036, 31091 }, -- Flashing Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 21, 23095, 28905 }, -- Bold Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+				{ 22, 23094, 28903 }, -- Brilliant Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Friendly"]
+				{ 23, 28595, 34590 }, -- Delicate Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --JewelBlue
+			name = AL["Blue Gems"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240915, 1230450 }, -- Flawless Quick Lapis
+				{ 2, 240913, 1230451 }, -- Flawless Deadly Lapis
+				{ 3, 240911, 1230453 }, -- Flawless Versatile Lapis
+				{ 4, 240917, 1230452 }, -- Flawless Masterful Lapis
+				{ 5, 240883, 1230446 }, -- Quick Lapis
+				{ 6, 240881, 1230447 }, -- Deadly Lapis
+				{ 7, 240885, 1230448 }, -- Masterful Lapis
+				{ 8, 240879, 1230449 }, -- Versatile Lapis
+			},
+			[TWW_DIFF] = {
+				{ 1, 213465, 434553 }, -- Deadly Sapphire
+				{ 2, 213471, 434555 }, -- Masterful Sapphire
+				{ 3, 213468, 434554 }, -- Quick Sapphire
+				{ 4, 213474, 434563 }, -- Versatile Sapphire
+			},
+			[LEGION_DIFF] = {
+				{ 1, 151585, 247774 }, -- Versatile Labradorite
+			},
+			[MOP_DIFF] = {
+				{ 1,  76636, 106947 }, -- Rigid River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
+				{ 2,  76639, 106950 }, -- Solid River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
+				{ 3,  76638, 106949 }, -- Sparkling River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
+				{ 4,  76637, 106948 }, -- Stormy River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
+				{ 16, 76504, 107621 }, -- Stormy Lapis Lazuli : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 17, 76505, 107620 }, -- Sparkling Lapis Lazuli : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 18, 76506, 107619 }, -- Solid Lapis Lazuli : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 19, 76502, 107617 }, -- Rigid Lapis Lazuli : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1,  71817, 101735 }, -- Rigid Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 2,  71820, 101742 }, -- Solid Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 3,  71819, 101741 }, -- Sparkling Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 4,  71818, 101740 }, -- Stormy Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 6,  52235, 73344 }, -- Rigid Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 7,  52242, 73340 }, -- Solid Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 8,  52244, 73341 }, -- Sparkling Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 9,  52246, 73343 }, -- Stormy Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 16, 52089, 73230 }, -- Rigid Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 17, 52086, 73227 }, -- Solid Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 18, 52087, 73228 }, -- Sparkling Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 19, 52088, 73229 }, -- Stormy Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,  40125, 66501 }, -- Rigid Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,  40119, 66497 }, -- Solid Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,  40120, 66498 }, -- Sparkling Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,  40122, 66499 }, -- Stormy Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 6,  40014, 53958 }, -- Rigid Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 7,  40008, 53952 }, -- Solid Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,  40010, 53954 }, -- Sparkling Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 9,  40011, 53955 }, -- Stormy Sky Sapphire : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 16, 39915, 53854 }, -- Rigid Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 17, 39919, 53934 }, -- Solid Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 18, 39927, 53941 }, -- Sparkling Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 19, 39932, 53943 }, -- Stormy Chalcedony : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+			},
+			[BC_DIFF] = {
+				{ 1,  32206, 39721 }, -- Rigid Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 2,  32200, 39715 }, -- Solid Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 3,  32201, 39716 }, -- Sparkling Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 4,  32203, 39718 }, -- Stormy Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 5,  33135, 42590 }, -- Falling Star : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Lower City"] - AtlasLoot["Revered"]
+				{ 7,  24051, 31098 }, -- Rigid Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 8,  24033, 31092 }, -- Solid Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 9,  24035, 31149 }, -- Sparkling Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 10, 24039, 31095 }, -- Stormy Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 16, 23116, 28948 }, -- Rigid Azure Moonstone : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 17, 23120, 28955 }, -- Stormy Azure Moonstone : =ds=#sr# 315 : =ds=AtlasLoot["World Drop"]
+				{ 18, 23118, 28950 }, -- Solid Azure Moonstone : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+				{ 19, 23119, 28953 }, -- Sparkling Azure Moonstone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --JewelGreen
+			name = AL["Green Gems"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240889, 1230443 }, -- Flawless Deadly Peridot
+				{ 2, 240891, 1230444 }, -- Flawless Masterful Peridot
+				{ 3, 240893, 1230445 }, -- Flawless Versatile Peridot
+				{ 4, 240887, 1230442 }, -- Flawless Quick Peridot
+				{ 5, 240855, 1230437 }, -- Quick Peridot
+				{ 6, 240857, 1230439 }, -- Deadly Peridot
+				{ 7, 240859, 1230440 }, -- Masterful Peridot
+				{ 8, 240861, 1230441 }, -- Versatile Peridot
+			},
+			[TWW_DIFF] = {
+				{ 1, 213477, 434541 }, -- Deadly Emerald
+				{ 2, 213480, 434543 }, -- Masterful Emerald
+				{ 3, 213486, 434542 }, -- Quick Emerald
+				{ 4, 213483, 434544 }, -- Versatile Emerald
+			},
+			[MOP_DIFF] = {
+				{ 1,   76646, 106960 }, -- Balanced Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 2,   76644, 106957 }, -- Effulgent Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 3,   76651, 107737 }, -- Energized Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 4,   76654, 107738 }, -- Forceful Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 5,   76652, 107739 }, -- Jagged Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 6,   76642, 106955 }, -- Lightning Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 7,   76640, 106953 }, -- Misty Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 8,   76655, 107740 }, -- Nimble Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 9,   76641, 106954 }, -- Piercing Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 16,  76656, 107742 }, -- Puissant Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 17,  76649, 107743 }, -- Radiant Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 18,  76653, 107744 }, -- Regal Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 19,  76643, 106956 }, -- Sensei's Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 20,  76650, 107745 }, -- Shattered Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 21,  76657, 107746 }, -- Steady Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 22,  76648, 106962 }, -- Turbid Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 23,  76647, 106961 }, -- Vivid Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 24,  76645, 106958 }, -- Zen Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
+				{ 101, 76517, 107609 }, -- Radiant Alexandrite : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 102, 76524, 107608 }, -- Puissant Alexandrite : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 103, 76522, 107601 }, -- Forceful Alexandrite : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
+				{ 104, 76519, 107607 }, -- Energized Alexandrite : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 105, 76508, 107607 }, -- Piercing Alexandrite : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 106, 76525, 107613 }, -- Steady Alexandrite : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 107, 76513, 107598 }, -- Balanced Alexandrite : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 108, 76511, 107599 }, -- Effulgent Alexandrite : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 109, 76510, 107611 }, -- Sensei's Alexandrite : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 116, 76515, 107614 }, -- Turbid Alexandrite : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 117, 76507, 107605 }, -- Misty Alexandrite : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 118, 76518, 107612 }, -- Shattered Alexandrite : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 119, 76521, 107610 }, -- Regal Alexandrite : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 120, 76512, 107616 }, -- Zen Alexandrite : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 121, 76520, 107602 }, -- Jagged Alexandrite : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
+				{ 122, 76523, 107606 }, -- Nimble Alexandrite : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
+				{ 123, 76509, 107604 }, -- Lightning Alexandrite : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 124, 76514, 107615 }, -- Vivid Alexandrite : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1,   71828, 101749 }, -- Balanced Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 2,   71833, 101754 }, -- Energized Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 3,   71836, 101757 }, -- Forceful Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 4,   71826, 101747 }, -- Infused Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 5,   71834, 101755 }, -- Jagged Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 6,   71824, 101745 }, -- Lightning Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 7,   71822, 101743 }, -- Misty Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 8,   71837, 101758 }, -- Nimble Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 9,   71823, 101744 }, -- Piercing Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 16,  71838, 101759 }, -- Puissant Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 17,  71831, 101752 }, -- Radiant Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 18,  71835, 101756 }, -- Regal Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 19,  71825, 101746 }, -- Sensei's Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 20,  71832, 101753 }, -- Shattered Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 21,  71839, 101760 }, -- Steady Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 22,  71830, 101751 }, -- Turbid Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 23,  71829, 101750 }, -- Vivid Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 24,  71827, 101748 }, -- Zen Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 101, 52218, 73380 }, -- Forceful Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 102, 52223, 73377 }, -- Jagged Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 103, 52225, 73381 }, -- Lightning Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 104, 52227, 73376 }, -- Nimble Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 105, 52228, 73378 }, -- Piercing Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 106, 52231, 73382 }, -- Puissant Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 107, 52233, 73375 }, -- Regal Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 108, 52237, 73384 }, -- Sensei's Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 109, 52245, 73379 }, -- Steady Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 110, 68741, 96226 }, -- Vivid Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 111, 52250, 73383 }, -- Zen Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 116, 52124, 73277 }, -- Forceful Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 117, 52121, 73274 }, -- Jagged Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 118, 52125, 73278 }, -- Lightning Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 119, 52120, 73273 }, -- Nimble Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 120, 52122, 73275 }, -- Piercing Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 121, 52126, 73279 }, -- Puissant Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 122, 52119, 73272 }, -- Regal Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 123, 52128, 73281 }, -- Sensei's Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 124, 52123, 73276 }, -- Steady Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 125, 52127, 73280 }, -- Zen Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,   40179, 66442 }, -- Energized Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,   40169, 66434 }, -- Forceful Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,   40165, 66431 }, -- Jagged Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,   40177, 66439 }, -- Lightning Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 5,   40171, 66435 }, -- Misty Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 6,   40166, 66429 }, -- Nimble Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 7,   40180, 66441 }, -- Radiant Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,   40167, 66338 }, -- Regal Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 9,   40182, 66443 }, -- Shattered Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 10,  40168, 66428 }, -- Steady Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 11,  40173, 66445 }, -- Turbid Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 16,  40105, 54011 }, -- Energized Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 17,  40091, 54001 }, -- Forceful Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 18,  40086, 53996 }, -- Jagged Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Frenzyheart Tribe"] - AtlasLoot["Revered"]
+				{ 19,  40100, 54009 }, -- Lightning Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 20,  40095, 54003 }, -- Misty Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["The Oracles"] - AtlasLoot["Revered"]
+				{ 21,  40088, 53997 }, -- Nimble Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 22,  40098, 54012 }, -- Radiant Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
+				{ 23,  40089, 53998 }, -- Regal Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 24,  40106, 54014 }, -- Shattered Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 25,  40090, 54000 }, -- Steady Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 26,  40102, 54005 }, -- Turbid Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 101, 39983, 53925 }, -- Energized Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 102, 39978, 53920 }, -- Forceful Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 103, 39933, 53870 }, -- Jagged Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 104, 39981, 53923 }, -- Lightning Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 105, 39980, 53922 }, -- Misty Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 106, 39975, 53917 }, -- Nimble Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Oracles"] - AtlasLoot["Friendly"]
+				{ 107, 39991, 53932 }, -- Radiant Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 108, 39976, 53918 }, -- Regal Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 109, 39992, 53933 }, -- Shattered Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 110, 39977, 53919 }, -- Steady Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 111, 39982, 53924 }, -- Turbid Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+			},
+			[BC_DIFF] = {
+				{ 1,  35759, 47053 }, -- Forceful Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 2,  32226, 39742 }, -- Jagged Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
+				{ 3,  32224, 39740 }, -- Radiant Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
+				{ 4,  32223, 39739 }, -- Regal Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 5,  35758, 47054 }, -- Steady Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 7,  35318, 46405 }, -- Forceful Talasite : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 8,  24067, 31113 }, -- Jagged Talasite : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 9,  24066, 31111 }, -- Radiant Talasite : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 10, 35707, 46803 }, -- Regal Talasite : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 11, 33782, 43493 }, -- Steady Talasite : =ds=#sr# 350 : =ds=#sr# AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
+				{ 16, 23105, 28918 }, -- Regal Deep Peridot : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["Honor Hold"] - AtlasLoot["Friendly"]
+				--{ 16, 23105, 28918 },	-- Regal Deep Peridot : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["Thrallmar"] - AtlasLoot["Friendly"] Horde version
+				{ 17, 23104, 28917 }, -- Jagged Deep Peridot : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
+				{ 18, 23103, 28916 }, -- Radiant Deep Peridot : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ --JewelPurple
+			name = AL["Purple Gems"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 240899, 1230458 }, -- Flawless Quick Amethyst
+				{ 2, 240897, 1230459 }, -- Flawless Deadly Amethyst
+				{ 3, 240895, 1230460 }, -- Flawless Masterful Amethyst
+				{ 4, 240901, 1230461 }, -- Flawless Versatile Amethyst
+				{ 5, 240867, 1230454 }, -- Quick Amethyst
+				{ 6, 240865, 1230455 }, -- Deadly Amethyst
+				{ 7, 240863, 1230456 }, -- Masterful Amethyst
+				{ 8, 240869, 1230457 }, -- Versatile Amethyst
+
+			},
+			[TWW_DIFF] = {
+				{ 1, 213489, 434545 }, -- Deadly Onyx
+				{ 2, 213498, 434547 }, -- Masterful Onyx
+				{ 3, 213492, 434546 }, -- Quick Onyx
+				{ 4, 213495, 434548 }, -- Versatile Onyx
+			},
+			[LEGION_DIFF] = {
+				{ 1, 151584, 247773 }, -- Masterful Argulite
+			},
+			[MOP_DIFF] = {
+				{ 1,  89680, 130657 }, -- Assassin's Imperial Amethyst : =ds=#sr# 600 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 2,  89674, 130658 }, -- Tense Imperial Amethyst : =ds=#sr# 600 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 3,  76681, 107693 }, -- Accurate Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 4,  76690, 107694 }, -- Defender's Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 5,  76684, 107695 }, -- Etched Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 6,  76680, 107696 }, -- Glinting Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 7,  76688, 107697 }, -- Guardian's Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 8,  76685, 107698 }, -- Mysterious Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 9,  76686, 107699 }, -- Purified Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 10, 76683, 107700 }, -- Retaliating Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 11, 76687, 107701 }, -- Shifting Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 12, 76691, 107702 }, -- Sovereign Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 13, 76689, 107703 }, -- Timeless Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 14, 76682, 107704 }, -- Veiled Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
+				{ 16, 76551, 107635 }, -- Retaliating Roguestone : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 17, 89675, 130655 }, -- Tense Roguestone : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
+				{ 18, 76554, 107634 }, -- Purified Roguestone : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
+				{ 19, 76557, 107638 }, -- Timeless Roguestone : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
+				{ 20, 76558, 107628 }, -- Defender's Roguestone : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 21, 76549, 107627 }, -- Accurate Roguestone : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 22, 76556, 107632 }, -- Guardian's Roguestone : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 23, 76548, 107631 }, -- Glinting Roguestone : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
+				{ 24, 76555, 107636 }, -- Shifting Roguestone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 25, 76559, 107637 }, -- Sovereign Roguestone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 26, 89678, 130656 }, -- Assassin's Roguestone : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
+				{ 27, 76550, 107639 }, -- Veiled Roguestone : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
+				{ 28, 76552, 107630 }, -- Etched Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 29, 76553, 107633 }, -- Mysterious Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1,   71863, 101784 }, -- Accurate Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 2,   71872, 101793 }, -- Defender's Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 3,   71866, 101787 }, -- Etched Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 4,   71862, 101783 }, -- Glinting Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 5,   71870, 101791 }, -- Guardian's Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 6,   71867, 101788 }, -- Mysterious Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 7,   71868, 101789 }, -- Purified Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 8,   71865, 101786 }, -- Retaliating Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 9,   71869, 101790 }, -- Shifting Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 10,  71873, 101794 }, -- Sovereign Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 11,  71871, 101792 }, -- Timeless Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 12,  71864, 101785 }, -- Veiled Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 16,  52203, 73360 }, -- Accurate Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 17,  52210, 73352 }, -- Defender's Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 18,  52213, 73356 }, -- Etched Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 19,  52220, 73357 }, -- Glinting Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 20,  52221, 73354 }, -- Guardian's Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 21,  52236, 73355 }, -- Purified Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 22,  52234, 73358 }, -- Retaliating Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 23,  52238, 73351 }, -- Shifting Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 24,  52243, 73350 }, -- Souvereign Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 25,  52248, 73353 }, -- Timeless Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 26,  52217, 73359 }, -- Veiled Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 101, 52105, 73250 }, -- Accurate Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 102, 52097, 73242 }, -- Defender's Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 103, 52101, 73246 }, -- Etched Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 104, 52102, 73247 }, -- Glinting Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 105, 52099, 73244 }, -- Guardian's Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 106, 52100, 73245 }, -- Purified Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 107, 52103, 73248 }, -- Retaliating Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 108, 52096, 73241 }, -- Shifting Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 109, 52095, 73240 }, -- Souvereign Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 110, 52098, 73243 }, -- Timeless Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 111, 52104, 73249 }, -- Veiled Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1,   40162, 66576 }, -- Accurate Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,   40139, 66560 }, -- Defender's Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,   40143, 66572 }, -- Etched Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,   40157, 66573 }, -- Glinting Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 5,   40141, 66561 }, -- Guardian's Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 6,   40135, 66562 }, -- Mysterious Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 7,   40133, 66556 }, -- Purified Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,   40130, 66557 }, -- Shifting Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 9,   40129, 66554 }, -- Sovereign Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 10,  40164, 66432 }, -- Timeless Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 11,  40153, 66570 }, -- Veiled Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 16,  40058, 53994 }, -- Accurate Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
+				{ 17,  40032, 53972 }, -- Defender's Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
+				{ 18,  40038, 53976 }, -- Etched Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
+				{ 19,  40044, 53980 }, -- Glinting Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 20,  40034, 53974 }, -- Guardian's Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Argent Crusade"] - AtlasLoot["Revered"]
+				{ 21,  40028, 53968 }, -- Mysterious Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 22,  40026, 53966 }, -- Purified Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
+				{ 23,  40023, 53963 }, -- Shifting Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 24,  40022, 53962 }, -- Sovereign Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
+				{ 25,  40025, 53965 }, -- Timeless Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Knights of the Ebon Blade"] - AtlasLoot["Exalted"]
+				{ 26,  40049, 53985 }, -- Veiled Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 101, 39966, 53892 }, -- Accurate Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 102, 39939, 53869 }, -- Defender's Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Honored"]
+				{ 103, 39948, 53873 }, -- Etched Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 104, 39942, 53861 }, -- Glinting Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 105, 39940, 53871 }, -- Guardian's Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 106, 39945, 53865 }, -- Mysterious Shadow Crystal : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 107, 39979, 53921 }, -- Purified Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Friendly"]
+				{ 108, 39935, 53860 }, -- Shifting Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 109, 39934, 53859 }, -- Sovereign Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 110, 39968, 53894 }, -- Timeless Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 111, 39957, 53883 }, -- Veiled Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1,  32220, 39736 }, -- Glinting Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
+				{ 2,  32225, 39741 }, -- Purified Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
+				{ 3,  32212, 39728 }, -- Shifting Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 4,  32211, 39727 }, -- Sovereign Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 5,  32215, 39731 }, -- Timeless Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
+				{ 6,  32221, 39737 }, -- Veiled Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 8,  24061, 31109 }, -- Glinting Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 9,  24065, 31112 }, -- Purified Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 10, 24055, 31103 }, -- Shifting Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 11, 24054, 31102 }, -- Sovereign Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 12, 24056, 31104 }, -- Timeless Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 13, 31867, 39470 }, -- Veiled Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 14, 32836, 41429 }, -- Purified Shadow Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 16, 32833, 41420 }, -- Purified Jaggal Pearl : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 17, 23110, 28933 }, -- Shifting Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]
+				{ 18, 23111, 28936 }, -- Sovereign Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 19, 31866, 39466 }, -- Veiled Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Blade's Edge Mountains"]
+				{ 20, 23100, 28914 }, -- Glinting Shadow Draenite : =ds=#sr# 315 : =ds=AtlasLoot["Trainer"]
+				{ 21, 23109, 28927 }, -- Purified Shadow Draenite : =ds=#sr# 305 : =ds=AtlasLoot_IngameLocales["The Aldor"] / AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Honored"]
+				{ 22, 23108, 28925 }, -- Timeless Shadow Draenite : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+		},
 		{ --JewelRings
 			name = AL["Rings"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 241140, 1230487, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150:voidlightMarl:1500" }, -- Signet of Azerothian Blessings
+				{ 2, 251513, 1230479, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150:voidlightMarl:1500" }, -- Loa Worshiper's Band
+				{ 3, 240949, 1230485 },                                                         -- Masterwork Sin'dorei Band
+				{ 4, 240947, 1230489 },                                                         -- Gleaming Copper Band
+				{ 5, 240951, 1230503, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                    -- Thalassian Competitor's Signet
+			},
 			[TWW_DIFF] = {
-				{ 1, 215130, 435379 }, -- Malleable Band
-				{ 2, 215135, 435384 }, -- Ring of Earthen Craftsmanship
-				{ 3, 215133, 435382 }, -- Binding of Binding
+				{ 1, 215135, 435384 }, -- Ring of Earthen Craftsmanship
+				{ 2, 215133, 435382 }, -- Binding of Binding
+				{ 3, 215130, 435379 }, -- Malleable Band
 				{ 4, 215137, 435386 }, -- Algari Competitor's Signet
 			},
 			[BFA_DIFF] = {
@@ -5116,129 +5592,15 @@ data["Jewelcrafting"] = {
 				{ 104, 21931, 26925 }, -- Woven Copper Ring : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --JewelMisc
-			name = AL["Miscellaneous"],
-			[TWW_DIFF] = {
-				{ 1,  213777, 435334 },                                   -- Magnificent Jeweler's Setting
-				{ 2,  213753, 435325 },                                   -- Decorative Lens
-				{ 3,  213756, 435326, [ATLASLOOT_IT_AMOUNT1] = "3" },     -- Marbled Stone
-				{ 4,  213750, 435324, [ATLASLOOT_IT_AMOUNT1] = "2" },     -- Engraved Gemcutter
-				{ 5,  211806, 435323, [ATLASLOOT_IT_AMOUNT1] = "4" },     -- Gilded Vial
-				{ 6,  213759, 435327 },                                   -- Inverted Prism
-				{ 8,  213765, 435330, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Ominous Energy Crystal
-				{ 9,  213762, 435329, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Sifted Cave Sand
-				{ 10, 213774, 435333, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Captured Starlight
-				{ 11, 213768, 435331 },                                   -- Elemental Focusing Lens
-				{ 12, 213771, 435332 },                                   -- Prismatic Null Stone
-				{ 14, 215145, 435389, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Remembrance Stone
-				{ 15, 215147, 435391 },                                   -- Beautification Iris
-				{ 16, 213779, 435337 },                                   -- Algari Amber Prism
-				{ 17, 213791, 435370 },                                   -- Algari Sapphire Prism
-				{ 18, 213785, 435339 },                                   -- Algari Ruby Prism
-				{ 19, 213788, 435369 },                                   -- Algari Onyx Prism
-				{ 20, 213782, 435338 },                                   -- Algari Emerald Prism
-				{ 22, 235712, 1226650 },                                  -- Design: Void-Crystal Panther
-			},
-			[BFA_DIFF] = {
-				{ 1, 162112, 278419 }, -- Kaleidoscopic Lens
-			},
-			[LEGION_DIFF] = {
-				{ 1,  130250, 195881 }, -- Jeweled Lockpick
-				{ 3,  130251, 195882 }, -- JewelCraft
-				{ 4,  130254, 195883 }, -- Chatterstone
-				{ 16, 130172, 225902 }, -- Mass Prospect Leystone
-				{ 17, 130172, 225904 }, -- Mass Prospect Felslate
-			},
-			[WOD_DIFF] = {
-				{ 1,  115524, 170700, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Taladite Crystal (Learnt by item 115359)
-				{ 2,  115524, 182127, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Taladite Crystal (Sold, Garrison)
-				{ 4,  112498, 170732, [PRICE_EXTRA_ITTYPE] = "118723:3" }, -- Prismatic Focusing Lens (Sold, Ashran)
-				{ 5,  112384, 170731, [PRICE_EXTRA_ITTYPE] = "118723:3" }, -- Reflecting Prism (Sold, Ashran)
-				{ 7,  118723, 176087 },                         -- Secrets of Draenor Jewelcrafting (Learnt by item 115359)
-				{ 16, 128013, 170702, [PRICE_EXTRA_ITTYPE] = "118723:5" }, -- Taladite Amplifier (Sold, Ashran)
-				{ 17, 127716, 187493, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Mighty Taladite Amplifier (Sold, Ashran)
-				{ 18, 127734, 187517, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Taladite Amplifier (Sold, Garrison)
-				{ 20, 115526, 170701, [PRICE_EXTRA_ITTYPE] = "118723:1" }, -- Taladite Recrystalizer (Sold, Ashran)
-			},
-			[MOP_DIFF] = {
-				{ 1,  82453, 120045 }, -- Jeweled Onyx Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Exalted"]
-				{ 2,  83088, 121844 }, -- Jade Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Honored"]
-				{ 3,  83087, 121841 }, -- Ruby Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Revered"]
-				{ 4,  83090, 121842 }, -- Sapphire Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Revered"]
-				{ 5,  83089, 121843 }, -- Sunstone Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Honored"]
-				{ 7,  82774, 131897 }, -- Jade Owl : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Treasures of the Vale"]
-				{ 8,  82775, 131898 }, -- Sapphire Cub : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Treasures of the Vale"]
-				{ 16, 90401, 131686 }, -- Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 17, 90406, 131759 }, -- Secrets of the Stone : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 18, 90399, 131691 }, -- Imperial Amethyst : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 19, 90400, 131690 }, -- Vermilion Onyx : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 20, 90397, 131688 }, -- Wild Jade : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 21, 90395, 131593 }, -- River's Heart : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 22, 90398, 131695 }, -- Sun's Radiance : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 23, 83795, 122663 }, -- Scrying Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 24, 76132, 140060 }, -- Primal Diamond : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-				{ 25, 95469, 140050 }, -- Serpent's Heart : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-			},
-			[CATA_DIFF] = {
-				{ 1, 52489, 73623 }, -- Rhinestone Sunglasses : =ds=#sr# 525 : =ds=AtlasLoot["World Drop"]
-				{ 2, 52304, 73478 }, -- Fire Prism : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 3, 52493, 73621 }, -- The Perforator : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
-				{ 4, 52487, 73627 }, -- Jeweler's Amber Monocle : =ds=#sr# 460 : =ds=AtlasLoot["World Drop"]
-				{ 5, 52492, 73620 }, -- Carnelian Spikes : =ds=#sr# 460 : =ds=AtlasLoot["Trainer"]
-				{ 6, 52486, 73626 }, -- Jeweler's Sapphire Monocle : =ds=#sr# 455 : =ds=AtlasLoot["World Drop"]
-				{ 7, 52485, 73625 }, -- Jeweler's Ruby Monocle : =ds=#sr# 450 : =ds=AtlasLoot["World Drop"]
-				{ 8, 52490, 73622 }, -- Stardust : =ds=#sr# 435 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1, 44943, 62242 }, -- Icy Prism : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 2, 42421, 56208 }, -- Shadow Jade Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 3, 42420, 56206 }, -- Shadow Crystal Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 4, 41367, 56205 }, -- Dark Jade Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1, 24122, 31077 }, -- Coronet of the Verdant Flame : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["The Botanica"]
-				{ 2, 24123, 31078 }, -- Circlet of Arcane Might : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]
-				{ 3, 32776, 41418 }, -- Crown of the Sea Witch : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
-				{ 4, 35945, 47280 }, -- Brilliant Glass : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 5, 31079, 38068 }, -- Mercurial Adamantite : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-			},
-			[CLASSIC_DIFF] = {
-				{ 1,  21774, 26906 }, -- Emerald Crown of Destruction : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
-				{ 2,  20969, 26878 }, -- Ruby Crown of Restoration : =ds=#sr# 225 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Arathi Highlands"]
-				{ 3,  21752, 26880 }, -- Thorium Setting : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 4,  25883, 32809 }, -- Dense Stone Statue : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
-				{ 5,  25882, 32808 }, -- Solid Stone Statue : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
-				{ 6,  20963, 25615 }, -- Mithril Filigree : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 7,  20954, 25612 }, -- Heavy Iron Knuckles : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
-				{ 8,  20832, 25321 }, -- Moonsoul Crown : =ds=#sr# 120 : =ds=AtlasLoot["Trainer"]
-				{ 9,  25881, 32807 }, -- Heavy Stone Statue : =ds=#sr# 110 : =ds=AtlasLoot["Trainer"]
-				{ 10, 20817, 25278 }, -- Bronze Setting : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 11, 25880, 32801 }, -- Coarse Stone Statue : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
-				{ 12, 20816, 25255 }, -- Delicate Copper Wire : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-				{ 13, 25498, 32259 }, -- Rough Stone Statue : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --JewelWeapons
-			name = AL["Weapons"],
-			[BFA_DIFF] = {
-				{ 1,  153640, 256258 }, -- Scarlet Diamond Staff of Intuition
-				{ 2,  153640, 256259 }, -- Scarlet Diamond Staff of Intuition
-				{ 3,  153640, 256260 }, -- Scarlet Diamond Staff of Intuition
-
-				{ 5,  159939, 269734 }, -- Honorable Combatant's Staff of Intuition
-				{ 6,  159939, 269735 }, -- Honorable Combatant's Staff of Intuition
-				{ 7,  159939, 269736 }, -- Honorable Combatant's Staff of Intuition
-
-				{ 16, 153639, 256255 }, -- Laribole Staff of Alacrity
-				{ 17, 153639, 256256 }, -- Laribole Staff of Alacrity
-				{ 18, 153639, 256257 }, -- Laribole Staff of Alacrity
-
-				{ 9,  153637, 256254 }, -- Rubellite Staff of Intuition
-				{ 24, 153638, 256253 }, -- Viridium Staff of Alacrity
-			},
-		},
 		{ --JewelNecks
 			name = AL["Necklaces"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 241139, 1230488 },                          -- Thalassian Phoenix Torque
+				{ 2, 240950, 1230486 },                          -- Masterwork Sin'dorei Amulet
+				{ 3, 251073, 1251983 },                          -- Voidstone Shielding Array
+				{ 4, 240948, 1230490 },                          -- Nocturnal Charm
+				{ 5, 240952, 1230504, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Amulet
+			},
 			[TWW_DIFF] = {
 				{ 1, 215131, 435380 }, -- Malleable Pendant
 				{ 2, 215136, 435385 }, -- Amulet of Earthen Craftsmanship
@@ -5389,260 +5751,156 @@ data["Jewelcrafting"] = {
 				{ 18, 25438, 32178 }, -- Malachite Pendant : =ds=#sr# 20 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --JewelBoPGems
-			name = AL["BoP Gems"],
-			[MOP_DIFF] = {
-				{ 1,  83141, 122675 },                         -- Bold Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 2,  83150, 122676 },                         -- Brilliant Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 3,  83151, 122674 },                         -- Delicate Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 4,  83152, 122685 },                         -- Flashing Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 5,  83147, 122683 },                         -- Precise Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 7,  83143, 122684 },                         -- Fractured Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 8,  83142, 122682 },                         -- Quick Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 9,  83146, 122680 },                         -- Smooth Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 10, 83145, 122679 },                         -- Subtle Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 12, 76734, [PRICE_EXTRA_ITTYPE] = "spiritofharmony:1" }, --=q3=Serpent's Eye
-				{ 16, 83144, 122681 },                         -- Rigid Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 17, 83148, 122678 },                         -- Solid Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 18, 83149, 122677 },                         -- Sparkling Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 20, 93409, 136274 },                         -- Assassin's Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 21, 93405, 136270 },                         -- Lucent Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 22, 93410, 136275 },                         -- Mysterious Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 23, 93404, 136269 },                         -- Resplendent Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 24, 93408, 136273 },                         -- Tense Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 25, 93406, 136272 },                         -- Willful Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+		{ --JewelMisc
+			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  240974, 1230474 }, -- Kaleidoscopic Prism
+				{ 2,  240972, 1230475 }, -- Sin'dorei Lens
+				{ 3,  240991, 1230476 }, -- Sunglass Vial
+				{ 5,  251489, 1230478 }, -- Stabilizing Gemstone Bandolier
+				{ 6,  251487, 1230477 }, -- Prismatic Focusing Iris
+				{ 8,  241141, 1230499 }, -- Monologuer's Chalice
+				{ 16, 241135, 1230484 }, -- Sanguine Garnet Prism
+				{ 17, 241132, 1230482 }, -- Amani Lapis Prism
+				{ 18, 241133, 1230483 }, -- Tenebrous Amethyst Prism
+				{ 19, 241137, 1230481 }, -- Harandar Peridot Prism
 			},
-			[CATA_DIFF] = {
-				{ 1,  52255, 73396 }, -- Bold Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 2,  52257, 73399 }, -- Brilliant Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 3,  52258, 73397 }, -- Delicate Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 4,  52259, 73398 }, -- Flashing Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 5,  52260, 73400 }, -- Precise Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 7,  52269, 73409 }, -- Fractured Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 8,  52267, 73407 }, -- Mystic Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 9,  52268, 73408 }, -- Quick Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 10, 52266, 73406 }, -- Smooth Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 11, 52265, 73405 }, -- Subtle Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 16, 52264, 73404 }, -- Rigid Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 17, 52261, 73401 }, -- Solid Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 18, 52262, 73402 }, -- Sparkling Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 19, 52263, 73403 }, -- Stormy Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
-				{ 21, 52196 }, -- Chimera's Eye : #CATAJW:1#AtlasLoot["Vendor"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1,  42142, 56049 }, -- Bold Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  42148, 56053 }, -- Brilliant Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,  42143, 56052 }, -- Delicate Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,  42152, 56056 }, -- Flashing Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 5,  42154, 56081 }, -- Precise Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 7,  42158, 56079 }, -- Mystic Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,  42150, 56083 }, -- Quick Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 9,  42149, 56085 }, -- Smooth Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 10, 42151, 56055 }, -- Subtle Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 16, 42156, 56084 }, -- Rigid Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 17, 36767, 56086 }, -- Solid Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 18, 42145, 56087 }, -- Sparkling Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 19, 42155, 56088 }, -- Stormy Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 21, 42225 }, -- Dragon's Eye : #DALARANJW:1#AtlasLoot["Vendor"]
-			},
-		},
-		{ --JewelRed
-			name = AL["Red Gems"],
 			[TWW_DIFF] = {
-				{ 1, 213462, 434549 }, -- Deadly Ruby
-				{ 2, 213456, 434551 }, -- Masterful Ruby
-				{ 3, 213453, 434550 }, -- Quick Ruby
-				{ 4, 213459, 434552 }, -- Versatile Ruby
+				{ 1,  213777, 435334 },                                   -- Magnificent Jeweler's Setting
+				{ 2,  213753, 435325 },                                   -- Decorative Lens
+				{ 3,  213756, 435326, [ATLASLOOT_IT_AMOUNT1] = "3" },     -- Marbled Stone
+				{ 4,  213750, 435324, [ATLASLOOT_IT_AMOUNT1] = "2" },     -- Engraved Gemcutter
+				{ 5,  211806, 435323, [ATLASLOOT_IT_AMOUNT1] = "4" },     -- Gilded Vial
+				{ 6,  213759, 435327 },                                   -- Inverted Prism
+				{ 8,  213765, 435330, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Ominous Energy Crystal
+				{ 9,  213762, 435329, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Sifted Cave Sand
+				{ 10, 213774, 435333, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Captured Starlight
+				{ 11, 213768, 435331 },                                   -- Elemental Focusing Lens
+				{ 12, 213771, 435332 },                                   -- Prismatic Null Stone
+				{ 14, 215145, 435389, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Remembrance Stone
+				{ 15, 215147, 435391 },                                   -- Beautification Iris
+				{ 16, 213779, 435337 },                                   -- Algari Amber Prism
+				{ 17, 213791, 435370 },                                   -- Algari Sapphire Prism
+				{ 18, 213785, 435339 },                                   -- Algari Ruby Prism
+				{ 19, 213788, 435369 },                                   -- Algari Onyx Prism
+				{ 20, 213782, 435338 },                                   -- Algari Emerald Prism
+				{ 22, 235712, 1226650 },                                  -- Design: Void-Crystal Panther
 			},
-			[MOP_DIFF] = {
-				{ 1,  76696, 107705 }, -- Bold Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
-				{ 2,  76694, 107706 }, -- Brilliant Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
-				{ 3,  76692, 107707 }, -- Delicate Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
-				{ 4,  76695, 107708 }, -- Flashing Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
-				{ 5,  76693, 107709 }, -- Precise Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
-				{ 16, 76564, 107622 }, -- Bold Pandarian Garnet : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 17, 76562, 107623 }, -- Brilliant Pandarian Garnet : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 18, 76563, 107625 }, -- Flashing Pandarian Garnet : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 19, 76561, 107626 }, -- Precise Pandarian Garnet : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 20, 76560, 107622 }, -- Delicate Pandarian Garnet : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
-			},
-			[CATA_DIFF] = {
-				{ 1,  71883, 101799 }, -- Bold Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 2,  71881, 101797 }, -- Brilliant Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 3,  71879, 101795 }, -- Delicate Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 4,  71882, 101798 }, -- Flashing Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 5,  71880, 101796 }, -- Precise Queen's Garnet : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 7,  52206, 73335 }, -- Bold Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 8,  52207, 73338 }, -- Brilliant Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 9,  52212, 73336 }, -- Delicate Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 10, 52216, 73337 }, -- Flashing Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 11, 52230, 73339 }, -- Precise Inferno Ruby : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 16, 52081, 73222 }, -- Bold Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 17, 52084, 73225 }, -- Brilliant Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 18, 52082, 73223 }, -- Delicate Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 19, 52083, 73224 }, -- Flashing Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 20, 52085, 73226 }, -- Precise Carnelian : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1,  40111, 66447 }, -- Bold Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  40113, 66446 }, -- Brilliant Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,  40112, 66448 }, -- Delicate Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,  40116, 66453 }, -- Flashing Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 5,  40118, 66450 }, -- Precise Cardinal Ruby : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 7,  39996, 53830 }, -- Bold Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,  39998, 53946 }, -- Brilliant Scarlet Ruby : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Kirin Tor"] - AtlasLoot["Exalted"]
-				{ 9,  39997, 53945 }, -- Delicate Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 10, 40001, 53949 }, -- Flashing Scarlet Ruby : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 11, 40003, 53951 }, -- Precise Scarlet Ruby : =ds=#sr# 390 : =ds=Herald Volazj584 (AtlasLoot["Heroic"])
-				{ 16, 39900, 53831 }, -- Bold Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 17, 39912, 53852 }, -- Brilliant Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 18, 39905, 53832 }, -- Delicate Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 19, 39908, 53844 }, -- Flashing Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 20, 39910, 54017 }, -- Precise Bloodstone : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1,  32193, 39705 }, -- Bold Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 2,  32196, 39711 }, -- Brilliant Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 3,  32194, 39706 }, -- Delicate Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 4,  32199, 39714 }, -- Flashing Crimson Spinel : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 6,  33131, 42589 }, -- Crimson Sun : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Revered"]
-				{ 7,  33133, 42558 }, -- Don Julio's Heart : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Revered"]
-				{ 8,  33134, 42588 }, -- Kailee's Rose : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Honored"]
-				{ 16, 24027, 31084 }, -- Bold Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 17, 24030, 31088 }, -- Brilliant Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 18, 24028, 31085 }, -- Delicate Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 19, 24036, 31091 }, -- Flashing Living Ruby : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 21, 23095, 28905 }, -- Bold Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-				{ 22, 23094, 28903 }, -- Brilliant Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Friendly"]
-				{ 23, 28595, 34590 }, -- Delicate Blood Garnet : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --JewelBlue
-			name = AL["Blue Gems"],
-			[TWW_DIFF] = {
-				{ 1, 213465, 434553 }, -- Deadly Sapphire
-				{ 2, 213471, 434555 }, -- Masterful Sapphire
-				{ 3, 213468, 434554 }, -- Quick Sapphire
-				{ 4, 213474, 434563 }, -- Versatile Sapphire
+			[BFA_DIFF] = {
+				{ 1, 162112, 278419 }, -- Kaleidoscopic Lens
 			},
 			[LEGION_DIFF] = {
-				{ 1, 151585, 247774 }, -- Versatile Labradorite
+				{ 1,  130250, 195881 }, -- Jeweled Lockpick
+				{ 3,  130251, 195882 }, -- JewelCraft
+				{ 4,  130254, 195883 }, -- Chatterstone
+				{ 16, 130172, 225902 }, -- Mass Prospect Leystone
+				{ 17, 130172, 225904 }, -- Mass Prospect Felslate
+			},
+			[WOD_DIFF] = {
+				{ 1,  115524, 170700, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Taladite Crystal (Learnt by item 115359)
+				{ 2,  115524, 182127, [PRICE_EXTRA_ITTYPE] = "109119:60" }, -- Taladite Crystal (Sold, Garrison)
+				{ 4,  112498, 170732, [PRICE_EXTRA_ITTYPE] = "118723:3" }, -- Prismatic Focusing Lens (Sold, Ashran)
+				{ 5,  112384, 170731, [PRICE_EXTRA_ITTYPE] = "118723:3" }, -- Reflecting Prism (Sold, Ashran)
+				{ 7,  118723, 176087 },                         -- Secrets of Draenor Jewelcrafting (Learnt by item 115359)
+				{ 16, 128013, 170702, [PRICE_EXTRA_ITTYPE] = "118723:5" }, -- Taladite Amplifier (Sold, Ashran)
+				{ 17, 127716, 187493, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Mighty Taladite Amplifier (Sold, Ashran)
+				{ 18, 127734, 187517, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Taladite Amplifier (Sold, Garrison)
+				{ 20, 115526, 170701, [PRICE_EXTRA_ITTYPE] = "118723:1" }, -- Taladite Recrystalizer (Sold, Ashran)
 			},
 			[MOP_DIFF] = {
-				{ 1,  76636, 106947 }, -- Rigid River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
-				{ 2,  76639, 106950 }, -- Solid River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
-				{ 3,  76638, 106949 }, -- Sparkling River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
-				{ 4,  76637, 106948 }, -- Stormy River's Heart : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131593
-				{ 16, 76504, 107621 }, -- Stormy Lapis Lazuli : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 17, 76505, 107620 }, -- Sparkling Lapis Lazuli : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 18, 76506, 107619 }, -- Solid Lapis Lazuli : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 19, 76502, 107617 }, -- Rigid Lapis Lazuli : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 1,  82453, 120045 }, -- Jeweled Onyx Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Exalted"]
+				{ 2,  83088, 121844 }, -- Jade Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Honored"]
+				{ 3,  83087, 121841 }, -- Ruby Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Revered"]
+				{ 4,  83090, 121842 }, -- Sapphire Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Revered"]
+				{ 5,  83089, 121843 }, -- Sunstone Panther : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Order of the Cloud Serpent"] - AtlasLoot["Honored"]
+				{ 7,  82774, 131897 }, -- Jade Owl : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Treasures of the Vale"]
+				{ 8,  82775, 131898 }, -- Sapphire Cub : =ds=#sr# 600 : =ds=AtlasLoot_IngameLocales["Treasures of the Vale"]
+				{ 16, 90401, 131686 }, -- Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 17, 90406, 131759 }, -- Secrets of the Stone : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 18, 90399, 131691 }, -- Imperial Amethyst : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 19, 90400, 131690 }, -- Vermilion Onyx : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 20, 90397, 131688 }, -- Wild Jade : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 21, 90395, 131593 }, -- River's Heart : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 22, 90398, 131695 }, -- Sun's Radiance : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 23, 83795, 122663 }, -- Scrying Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 24, 76132, 140060 }, -- Primal Diamond : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
+				{ 25, 95469, 140050 }, -- Serpent's Heart : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
 			},
 			[CATA_DIFF] = {
-				{ 1,  71817, 101735 }, -- Rigid Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 2,  71820, 101742 }, -- Solid Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 3,  71819, 101741 }, -- Sparkling Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 4,  71818, 101740 }, -- Stormy Deepholm Iolite : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 6,  52235, 73344 }, -- Rigid Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 7,  52242, 73340 }, -- Solid Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 8,  52244, 73341 }, -- Sparkling Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 9,  52246, 73343 }, -- Stormy Ocean Sapphire : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 16, 52089, 73230 }, -- Rigid Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 17, 52086, 73227 }, -- Solid Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 18, 52087, 73228 }, -- Sparkling Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 19, 52088, 73229 }, -- Stormy Zephyrite : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 1, 52489, 73623 }, -- Rhinestone Sunglasses : =ds=#sr# 525 : =ds=AtlasLoot["World Drop"]
+				{ 2, 52304, 73478 }, -- Fire Prism : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 3, 52493, 73621 }, -- The Perforator : =ds=#sr# 490 : =ds=AtlasLoot["Trainer"]
+				{ 4, 52487, 73627 }, -- Jeweler's Amber Monocle : =ds=#sr# 460 : =ds=AtlasLoot["World Drop"]
+				{ 5, 52492, 73620 }, -- Carnelian Spikes : =ds=#sr# 460 : =ds=AtlasLoot["Trainer"]
+				{ 6, 52486, 73626 }, -- Jeweler's Sapphire Monocle : =ds=#sr# 455 : =ds=AtlasLoot["World Drop"]
+				{ 7, 52485, 73625 }, -- Jeweler's Ruby Monocle : =ds=#sr# 450 : =ds=AtlasLoot["World Drop"]
+				{ 8, 52490, 73622 }, -- Stardust : =ds=#sr# 435 : =ds=AtlasLoot["Trainer"]
 			},
 			[WOTLK_DIFF] = {
-				{ 1,  40125, 66501 }, -- Rigid Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  40119, 66497 }, -- Solid Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,  40120, 66498 }, -- Sparkling Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,  40122, 66499 }, -- Stormy Majestic Zircon : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 6,  40014, 53958 }, -- Rigid Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 7,  40008, 53952 }, -- Solid Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,  40010, 53954 }, -- Sparkling Sky Sapphire : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 9,  40011, 53955 }, -- Stormy Sky Sapphire : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 16, 39915, 53854 }, -- Rigid Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 17, 39919, 53934 }, -- Solid Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 18, 39927, 53941 }, -- Sparkling Chalcedony : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 19, 39932, 53943 }, -- Stormy Chalcedony : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 1, 44943, 62242 }, -- Icy Prism : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 2, 42421, 56208 }, -- Shadow Jade Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 3, 42420, 56206 }, -- Shadow Crystal Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 4, 41367, 56205 }, -- Dark Jade Focusing Lens : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
 			},
 			[BC_DIFF] = {
-				{ 1,  32206, 39721 }, -- Rigid Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 2,  32200, 39715 }, -- Solid Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 3,  32201, 39716 }, -- Sparkling Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 4,  32203, 39718 }, -- Stormy Empyrean Sapphire : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 5,  33135, 42590 }, -- Falling Star : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Lower City"] - AtlasLoot["Revered"]
-				{ 7,  24051, 31098 }, -- Rigid Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 8,  24033, 31092 }, -- Solid Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 9,  24035, 31149 }, -- Sparkling Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 10, 24039, 31095 }, -- Stormy Star of Elune : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 16, 23116, 28948 }, -- Rigid Azure Moonstone : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 17, 23120, 28955 }, -- Stormy Azure Moonstone : =ds=#sr# 315 : =ds=AtlasLoot["World Drop"]
-				{ 18, 23118, 28950 }, -- Solid Azure Moonstone : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-				{ 19, 23119, 28953 }, -- Sparkling Azure Moonstone : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 1, 24122, 31077 }, -- Coronet of the Verdant Flame : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["The Botanica"]
+				{ 2, 24123, 31078 }, -- Circlet of Arcane Might : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]
+				{ 3, 32776, 41418 }, -- Crown of the Sea Witch : =ds=#sr# 365 : =ds=AtlasLoot["Trainer"]
+				{ 4, 35945, 47280 }, -- Brilliant Glass : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 5, 31079, 38068 }, -- Mercurial Adamantite : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+			},
+			[CLASSIC_DIFF] = {
+				{ 1,  21774, 26906 }, -- Emerald Crown of Destruction : =ds=#sr# 275 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Silithus"]
+				{ 2,  20969, 26878 }, -- Ruby Crown of Restoration : =ds=#sr# 225 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Arathi Highlands"]
+				{ 3,  21752, 26880 }, -- Thorium Setting : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 4,  25883, 32809 }, -- Dense Stone Statue : =ds=#sr# 225 : =ds=AtlasLoot["Trainer"]
+				{ 5,  25882, 32808 }, -- Solid Stone Statue : =ds=#sr# 175 : =ds=AtlasLoot["Trainer"]
+				{ 6,  20963, 25615 }, -- Mithril Filigree : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 7,  20954, 25612 }, -- Heavy Iron Knuckles : =ds=#sr# 125 : =ds=AtlasLoot["Trainer"]
+				{ 8,  20832, 25321 }, -- Moonsoul Crown : =ds=#sr# 120 : =ds=AtlasLoot["Trainer"]
+				{ 9,  25881, 32807 }, -- Heavy Stone Statue : =ds=#sr# 110 : =ds=AtlasLoot["Trainer"]
+				{ 10, 20817, 25278 }, -- Bronze Setting : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
+				{ 11, 25880, 32801 }, -- Coarse Stone Statue : =ds=#sr# 50 : =ds=AtlasLoot["Trainer"]
+				{ 12, 20816, 25255 }, -- Delicate Copper Wire : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+				{ 13, 25498, 32259 }, -- Rough Stone Statue : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --JewelYellow
-			name = AL["Yellow Gems"],
-			[LEGION_DIFF] = {
-				{ 1, 151583, 247772 }, -- Quick Lightsphene
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  246526, 1242461, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:200" }, -- Mage-Eye Precision Loupes
+				{ 2,  246525, 1242462, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:200" }, -- Thalassian Scribe's Crystalline Lens
+				{ 3,  246524, 1242463, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:200" }, -- Flawless Text Scrutinizers
+				{ 4,  246527, 1242464, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:200" }, -- Attuned Thalassian Rune-Prism
+				{ 5,  240960, 1230495, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" }, -- Sin'dorei Enchanter's Crystal
+				{ 6,  240959, 1230496, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" }, -- Sin'dorei Jeweler's Loupes
+				{ 7,  240958, 1230497, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" }, -- Improved Right-Handed Magnifying Glass
+				{ 8,  240957, 1230498, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" }, -- Sin'dorei Scribe's Spectacles
+				{ 9,  240955, 1230492 },                                      -- Silvermoon Loupes
+				{ 10, 240956, 1230491 },                                      -- Silvermoon Focusing Shard
+				{ 11, 240954, 1230493 },                                      -- Fantastic Font Focuser
+				{ 12, 240953, 1230494 },                                      -- Bold Biographer's Bifocals
 			},
-			[MOP_DIFF] = {
-				{ 1,  76700, 107710 }, -- Fractured Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
-				{ 2,  76701, 107711 }, -- Mystic Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
-				{ 3,  76699, 107712 }, -- Quick Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
-				{ 4,  76697, 107713 }, -- Smooth Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
-				{ 5,  76698, 107714 }, -- Subtle Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
-				{ 16, 76566, 107644 }, -- Subtle Sunstone : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 17, 76565, 107643 }, -- Smooth Sunstone : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
-				{ 18, 76567, 107642 }, -- Quick Sunstone : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 19, 76569, 107641 }, -- Mystic Sunstone : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 20, 76568, 107640 }, -- Fractured Sunstone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+			[TWW_DIFF] = {
+				{ 1, 215125, 435374, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchanter's Crystal
+				{ 2, 215124, 435372, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Extravagant Loupes
+				{ 3, 215123, 435376, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Forger's Font Inspector
+				{ 4, 215122, 435378, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Novelist's Specs
+				{ 5, 215121, 435373 },                          -- Incanter's Shard
+				{ 6, 215120, 435371 },                          -- Radiant Loupes
+				{ 7, 215119, 435375 },                          -- Right-Handed Magnifying Glass
+				{ 8, 215117, 435377 },                          -- Storyteller's Glasses
 			},
-			[CATA_DIFF] = {
-				{ 1,  71877, 101803 }, -- Fractured Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 2,  71878, 101804 }, -- Mystic Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 3,  71876, 101802 }, -- Quick Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 4,  71874, 101800 }, -- Smooth Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 5,  71875, 101801 }, -- Subtle Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 7,  52219, 73349 }, -- Fractured Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 8,  52226, 73347 }, -- Mystic Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 9,  52232, 73348 }, -- Quick Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 10, 52241, 73346 }, -- Smooth Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 11, 52247, 73345 }, -- Subtle Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 16, 52094, 73239 }, -- Fractured Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 17, 52093, 73234 }, -- Quick Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 18, 52091, 73232 }, -- Smooth Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 19, 52090, 73231 }, -- Subtle Alicite : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1,  40127, 66505 }, -- Mystic King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,  40128, 66506 }, -- Quick King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,  40124, 66502 }, -- Smooth King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,  40115, 66452 }, -- Subtle King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 6,  40016, 53960 }, -- Mystic Autumn's Glow : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 7,  40017, 53961 }, -- Quick Autumn's Glow : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,  40013, 53957 }, -- Smooth Autumn's Glow : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["The Sons of Hodir"] - AtlasLoot["Exalted"]
-				{ 9,  40000, 53948 }, -- Subtle Autumn's Glow : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 16, 39917, 53857 }, -- Mystic Sun Crystal : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 17, 39918, 53856 }, -- Quick Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 18, 39909, 53845 }, -- Smooth Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 19, 39907, 53843 }, -- Subtle Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1,  32209, 39724 }, -- Mystic Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 2,  35761, 47056 }, -- Quick Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 3,  32205, 39720 }, -- Smooth Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 4,  32198, 39713 }, -- Subtle Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
-				{ 6,  33140, 42592 }, -- Blood of Amber : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Revered"]
-				{ 7,  33144, 42593 }, -- Facet of Eternity : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Honored"]
-				{ 8,  33143, 42591 }, -- Stone of Blades : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Revered"]
-				{ 16, 24053, 31101 }, -- Mystic Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
-				{ 17, 35315, 46403 }, -- Quick Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 18, 24048, 31097 }, -- Smooth Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 19, 24032, 31090 }, -- Subtle Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 21, 23114, 28944 }, -- Smooth Golden Draenite : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Aldor"] - AtlasLoot["Friendly"]
-				{ 22, 23115, 28947 }, -- Subtle Golden Draenite : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Honored"]
+		},
+		{ -- JewelcraftingDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 262471, 1246891, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150:voidlightMarl:1500" }, -- Bejeweled Sin'dorei Lyre
+				{ 2, 262613, 1246893 },                                                         -- Replica Haranir Mural
+				{ 3, 262454, 1246894 },                                                         -- Shining Sin'dorei Hourglass
+				{ 4, 262469, 1246895 },                                                         -- Brilliant Phoenix Harp
+				{ 5, 262461, 1246889 },                                                         -- Tenebrous Ren'dorei Armillary
+				{ 6, 248965, 1246892 },                                                         -- Resplendent Highborne Statue
 			},
 		},
 		{ --JewelOrange
@@ -5808,291 +6066,164 @@ data["Jewelcrafting"] = {
 				{ 19, 23098, 28910 }, -- Inscribed Flame Spessarite : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --JewelGreen
-			name = AL["Green Gems"],
-			[TWW_DIFF] = {
-				{ 1, 213477, 434541 }, -- Deadly Emerald
-				{ 2, 213480, 434543 }, -- Masterful Emerald
-				{ 3, 213486, 434542 }, -- Quick Emerald
-				{ 4, 213483, 434544 }, -- Versatile Emerald
+		{ --JewelYellow
+			name = AL["Yellow Gems"],
+			[LEGION_DIFF] = {
+				{ 1, 151583, 247772 }, -- Quick Lightsphene
 			},
 			[MOP_DIFF] = {
-				{ 1,   76646, 106960 }, -- Balanced Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 2,   76644, 106957 }, -- Effulgent Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 3,   76651, 107737 }, -- Energized Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 4,   76654, 107738 }, -- Forceful Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 5,   76652, 107739 }, -- Jagged Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 6,   76642, 106955 }, -- Lightning Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 7,   76640, 106953 }, -- Misty Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 8,   76655, 107740 }, -- Nimble Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 9,   76641, 106954 }, -- Piercing Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 16,  76656, 107742 }, -- Puissant Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 17,  76649, 107743 }, -- Radiant Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 18,  76653, 107744 }, -- Regal Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 19,  76643, 106956 }, -- Sensei's Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 20,  76650, 107745 }, -- Shattered Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 21,  76657, 107746 }, -- Steady Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 22,  76648, 106962 }, -- Turbid Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 23,  76647, 106961 }, -- Vivid Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 24,  76645, 106958 }, -- Zen Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
-				{ 101, 76517, 107609 }, -- Radiant Alexandrite : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 102, 76524, 107608 }, -- Puissant Alexandrite : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 103, 76522, 107601 }, -- Forceful Alexandrite : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
-				{ 104, 76519, 107607 }, -- Energized Alexandrite : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 105, 76508, 107607 }, -- Piercing Alexandrite : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 106, 76525, 107613 }, -- Steady Alexandrite : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 107, 76513, 107598 }, -- Balanced Alexandrite : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 108, 76511, 107599 }, -- Effulgent Alexandrite : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 109, 76510, 107611 }, -- Sensei's Alexandrite : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 116, 76515, 107614 }, -- Turbid Alexandrite : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 117, 76507, 107605 }, -- Misty Alexandrite : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 118, 76518, 107612 }, -- Shattered Alexandrite : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 119, 76521, 107610 }, -- Regal Alexandrite : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 120, 76512, 107616 }, -- Zen Alexandrite : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 121, 76520, 107602 }, -- Jagged Alexandrite : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
-				{ 122, 76523, 107606 }, -- Nimble Alexandrite : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
-				{ 123, 76509, 107604 }, -- Lightning Alexandrite : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 124, 76514, 107615 }, -- Vivid Alexandrite : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 1,  76700, 107710 }, -- Fractured Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
+				{ 2,  76701, 107711 }, -- Mystic Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
+				{ 3,  76699, 107712 }, -- Quick Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
+				{ 4,  76697, 107713 }, -- Smooth Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
+				{ 5,  76698, 107714 }, -- Subtle Sun's Radiance : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131695
+				{ 16, 76566, 107644 }, -- Subtle Sunstone : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
+				{ 17, 76565, 107643 }, -- Smooth Sunstone : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
+				{ 18, 76567, 107642 }, -- Quick Sunstone : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 19, 76569, 107641 }, -- Mystic Sunstone : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 20, 76568, 107640 }, -- Fractured Sunstone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
 			},
 			[CATA_DIFF] = {
-				{ 1,   71828, 101749 }, -- Balanced Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 2,   71833, 101754 }, -- Energized Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 3,   71836, 101757 }, -- Forceful Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 4,   71826, 101747 }, -- Infused Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 5,   71834, 101755 }, -- Jagged Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 6,   71824, 101745 }, -- Lightning Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 7,   71822, 101743 }, -- Misty Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 8,   71837, 101758 }, -- Nimble Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 9,   71823, 101744 }, -- Piercing Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 16,  71838, 101759 }, -- Puissant Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 17,  71831, 101752 }, -- Radiant Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 18,  71835, 101756 }, -- Regal Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 19,  71825, 101746 }, -- Sensei's Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 20,  71832, 101753 }, -- Shattered Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 21,  71839, 101760 }, -- Steady Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 22,  71830, 101751 }, -- Turbid Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 23,  71829, 101750 }, -- Vivid Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 24,  71827, 101748 }, -- Zen Elven Peridot : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 101, 52218, 73380 }, -- Forceful Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 102, 52223, 73377 }, -- Jagged Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 103, 52225, 73381 }, -- Lightning Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 104, 52227, 73376 }, -- Nimble Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 105, 52228, 73378 }, -- Piercing Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 106, 52231, 73382 }, -- Puissant Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 107, 52233, 73375 }, -- Regal Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 108, 52237, 73384 }, -- Sensei's Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 109, 52245, 73379 }, -- Steady Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 110, 68741, 96226 }, -- Vivid Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 111, 52250, 73383 }, -- Zen Dream Emerald : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 116, 52124, 73277 }, -- Forceful Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 117, 52121, 73274 }, -- Jagged Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 118, 52125, 73278 }, -- Lightning Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 119, 52120, 73273 }, -- Nimble Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 120, 52122, 73275 }, -- Piercing Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 121, 52126, 73279 }, -- Puissant Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 122, 52119, 73272 }, -- Regal Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 123, 52128, 73281 }, -- Sensei's Jasper : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 124, 52123, 73276 }, -- Steady Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 125, 52127, 73280 }, -- Zen Jasper : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
+				{ 1,  71877, 101803 }, -- Fractured Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 2,  71878, 101804 }, -- Mystic Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 3,  71876, 101802 }, -- Quick Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 4,  71874, 101800 }, -- Smooth Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 5,  71875, 101801 }, -- Subtle Lightstone : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
+				{ 7,  52219, 73349 }, -- Fractured Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 8,  52226, 73347 }, -- Mystic Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 9,  52232, 73348 }, -- Quick Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 10, 52241, 73346 }, -- Smooth Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 11, 52247, 73345 }, -- Subtle Amberjewel : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
+				{ 16, 52094, 73239 }, -- Fractured Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 17, 52093, 73234 }, -- Quick Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 18, 52091, 73232 }, -- Smooth Alicite : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 19, 52090, 73231 }, -- Subtle Alicite : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
 			},
 			[WOTLK_DIFF] = {
-				{ 1,   40179, 66442 }, -- Energized Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,   40169, 66434 }, -- Forceful Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,   40165, 66431 }, -- Jagged Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,   40177, 66439 }, -- Lightning Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 5,   40171, 66435 }, -- Misty Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 6,   40166, 66429 }, -- Nimble Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 7,   40180, 66441 }, -- Radiant Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,   40167, 66338 }, -- Regal Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 9,   40182, 66443 }, -- Shattered Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 10,  40168, 66428 }, -- Steady Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 11,  40173, 66445 }, -- Turbid Eye of Zul : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 16,  40105, 54011 }, -- Energized Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 17,  40091, 54001 }, -- Forceful Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 18,  40086, 53996 }, -- Jagged Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Frenzyheart Tribe"] - AtlasLoot["Revered"]
-				{ 19,  40100, 54009 }, -- Lightning Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 20,  40095, 54003 }, -- Misty Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["The Oracles"] - AtlasLoot["Revered"]
-				{ 21,  40088, 53997 }, -- Nimble Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 22,  40098, 54012 }, -- Radiant Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
-				{ 23,  40089, 53998 }, -- Regal Forest Emerald : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 24,  40106, 54014 }, -- Shattered Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 25,  40090, 54000 }, -- Steady Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 26,  40102, 54005 }, -- Turbid Forest Emerald : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 101, 39983, 53925 }, -- Energized Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 102, 39978, 53920 }, -- Forceful Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 103, 39933, 53870 }, -- Jagged Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 104, 39981, 53923 }, -- Lightning Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 105, 39980, 53922 }, -- Misty Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 106, 39975, 53917 }, -- Nimble Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Oracles"] - AtlasLoot["Friendly"]
-				{ 107, 39991, 53932 }, -- Radiant Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 108, 39976, 53918 }, -- Regal Dark Jade : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 109, 39992, 53933 }, -- Shattered Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 110, 39977, 53919 }, -- Steady Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 111, 39982, 53924 }, -- Turbid Dark Jade : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 1,  40127, 66505 }, -- Mystic King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,  40128, 66506 }, -- Quick King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,  40124, 66502 }, -- Smooth King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,  40115, 66452 }, -- Subtle King's Amber : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 6,  40016, 53960 }, -- Mystic Autumn's Glow : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
+				{ 7,  40017, 53961 }, -- Quick Autumn's Glow : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,  40013, 53957 }, -- Smooth Autumn's Glow : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["The Sons of Hodir"] - AtlasLoot["Exalted"]
+				{ 9,  40000, 53948 }, -- Subtle Autumn's Glow : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 16, 39917, 53857 }, -- Mystic Sun Crystal : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 17, 39918, 53856 }, -- Quick Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 18, 39909, 53845 }, -- Smooth Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 19, 39907, 53843 }, -- Subtle Sun Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
 			},
 			[BC_DIFF] = {
-				{ 1,  35759, 47053 }, -- Forceful Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 2,  32226, 39742 }, -- Jagged Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
-				{ 3,  32224, 39740 }, -- Radiant Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
-				{ 4,  32223, 39739 }, -- Regal Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 5,  35758, 47054 }, -- Steady Seaspray Emerald : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 7,  35318, 46405 }, -- Forceful Talasite : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 8,  24067, 31113 }, -- Jagged Talasite : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 9,  24066, 31111 }, -- Radiant Talasite : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 10, 35707, 46803 }, -- Regal Talasite : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
-				{ 11, 33782, 43493 }, -- Steady Talasite : =ds=#sr# 350 : =ds=#sr# AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
-				{ 16, 23105, 28918 }, -- Regal Deep Peridot : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["Honor Hold"] - AtlasLoot["Friendly"]
-				--{ 16, 23105, 28918 },	-- Regal Deep Peridot : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["Thrallmar"] - AtlasLoot["Friendly"] Horde version
-				{ 17, 23104, 28917 }, -- Jagged Deep Peridot : =ds=#sr# 305 : =ds=AtlasLoot["Trainer"]
-				{ 18, 23103, 28916 }, -- Radiant Deep Peridot : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 1,  32209, 39724 }, -- Mystic Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 2,  35761, 47056 }, -- Quick Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Revered"]
+				{ 3,  32205, 39720 }, -- Smooth Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 4,  32198, 39713 }, -- Subtle Lionseye : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Friendly"]
+				{ 6,  33140, 42592 }, -- Blood of Amber : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Revered"]
+				{ 7,  33144, 42593 }, -- Facet of Eternity : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Honored"]
+				{ 8,  33143, 42591 }, -- Stone of Blades : =ds=#sr# 360 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Revered"]
+				{ 16, 24053, 31101 }, -- Mystic Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Nagrand"]
+				{ 17, 35315, 46403 }, -- Quick Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
+				{ 18, 24048, 31097 }, -- Smooth Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 19, 24032, 31090 }, -- Subtle Dawnstone : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
+				{ 21, 23114, 28944 }, -- Smooth Golden Draenite : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Aldor"] - AtlasLoot["Friendly"]
+				{ 22, 23115, 28947 }, -- Subtle Golden Draenite : =ds=#sr# 315 : =ds=AtlasLoot_IngameLocales["The Consortium"] - AtlasLoot["Honored"]
 			},
 		},
-		{ --JewelPurple
-			name = AL["Purple Gems"],
-			[TWW_DIFF] = {
-				{ 1, 213489, 434545 }, -- Deadly Onyx
-				{ 2, 213498, 434547 }, -- Masterful Onyx
-				{ 3, 213492, 434546 }, -- Quick Onyx
-				{ 4, 213495, 434548 }, -- Versatile Onyx
+		{ --JewelWeapons
+			name = AL["Weapons"],
+			[BFA_DIFF] = {
+				{ 1,  153640, 256258 }, -- Scarlet Diamond Staff of Intuition
+				{ 2,  153640, 256259 }, -- Scarlet Diamond Staff of Intuition
+				{ 3,  153640, 256260 }, -- Scarlet Diamond Staff of Intuition
+
+				{ 5,  159939, 269734 }, -- Honorable Combatant's Staff of Intuition
+				{ 6,  159939, 269735 }, -- Honorable Combatant's Staff of Intuition
+				{ 7,  159939, 269736 }, -- Honorable Combatant's Staff of Intuition
+
+				{ 16, 153639, 256255 }, -- Laribole Staff of Alacrity
+				{ 17, 153639, 256256 }, -- Laribole Staff of Alacrity
+				{ 18, 153639, 256257 }, -- Laribole Staff of Alacrity
+
+				{ 9,  153637, 256254 }, -- Rubellite Staff of Intuition
+				{ 24, 153638, 256253 }, -- Viridium Staff of Alacrity
 			},
+		},
+		{ --JewelHeadArmor
+			name = HEADSLOT,
 			[LEGION_DIFF] = {
-				{ 1, 151584, 247773 }, -- Masterful Argulite
+				{ 1,  151587, 247751 }, -- Empyrial Cosmic Crown
+				{ 2,  151587, 247754 }, -- Empyrial Cosmic Crown
+				{ 3,  151587, 247755 }, -- Empyrial Cosmic Crown
+				{ 5,  151588, 247756 }, -- Empyrial Deep Crown
+				{ 6,  151588, 247757 }, -- Empyrial Deep Crown
+				{ 7,  151588, 247758 }, -- Empyrial Deep Crown
+				{ 9,  151589, 247762 }, -- Empyrial Elemental Crown
+				{ 10, 151589, 247763 }, -- Empyrial Elemental Crown
+				{ 11, 151589, 247764 }, -- Empyrial Elemental Crown
+				{ 13, 151590, 247765 }, -- Empyrial Titan Crown
+				{ 14, 151590, 247766 }, -- Empyrial Titan Crown
+				{ 15, 151590, 247767 }, -- Empyrial Titan Crown
 			},
+		},
+		{ --JewelBoPGems
+			name = AL["BoP Gems"],
 			[MOP_DIFF] = {
-				{ 1,  89680, 130657 }, -- Assassin's Imperial Amethyst : =ds=#sr# 600 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 2,  89674, 130658 }, -- Tense Imperial Amethyst : =ds=#sr# 600 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 3,  76681, 107693 }, -- Accurate Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 4,  76690, 107694 }, -- Defender's Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 5,  76684, 107695 }, -- Etched Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 6,  76680, 107696 }, -- Glinting Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 7,  76688, 107697 }, -- Guardian's Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 8,  76685, 107698 }, -- Mysterious Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 9,  76686, 107699 }, -- Purified Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 10, 76683, 107700 }, -- Retaliating Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 11, 76687, 107701 }, -- Shifting Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 12, 76691, 107702 }, -- Sovereign Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 13, 76689, 107703 }, -- Timeless Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 14, 76682, 107704 }, -- Veiled Imperial Amethyst : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131691
-				{ 16, 76551, 107635 }, -- Retaliating Roguestone : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
-				{ 17, 89675, 130655 }, -- Tense Roguestone : =ds=#sr# 570 : =ds=AtlasLoot["Trainer"]
-				{ 18, 76554, 107634 }, -- Purified Roguestone : =ds=#sr# 565 : =ds=AtlasLoot["Trainer"]
-				{ 19, 76557, 107638 }, -- Timeless Roguestone : =ds=#sr# 560 : =ds=AtlasLoot["Trainer"]
-				{ 20, 76558, 107628 }, -- Defender's Roguestone : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 21, 76549, 107627 }, -- Accurate Roguestone : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 22, 76556, 107632 }, -- Guardian's Roguestone : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 23, 76548, 107631 }, -- Glinting Roguestone : =ds=#sr# 540 : =ds=AtlasLoot["Trainer"]
-				{ 24, 76555, 107636 }, -- Shifting Roguestone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 25, 76559, 107637 }, -- Sovereign Roguestone : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 26, 89678, 130656 }, -- Assassin's Roguestone : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
-				{ 27, 76550, 107639 }, -- Veiled Roguestone : =ds=#sr# 530 : =ds=AtlasLoot["Trainer"]
-				{ 28, 76552, 107630 }, -- Etched Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-				{ 29, 76553, 107633 }, -- Mysterious Roguestone : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+				{ 1,  83141, 122675 },                         -- Bold Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 2,  83150, 122676 },                         -- Brilliant Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 3,  83151, 122674 },                         -- Delicate Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 4,  83152, 122685 },                         -- Flashing Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 5,  83147, 122683 },                         -- Precise Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 7,  83143, 122684 },                         -- Fractured Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 8,  83142, 122682 },                         -- Quick Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 9,  83146, 122680 },                         -- Smooth Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 10, 83145, 122679 },                         -- Subtle Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 12, 76734, [PRICE_EXTRA_ITTYPE] = "spiritofharmony:1" }, --=q3=Serpent's Eye
+				{ 16, 83144, 122681 },                         -- Rigid Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 17, 83148, 122678 },                         -- Solid Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 18, 83149, 122677 },                         -- Sparkling Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 20, 93409, 136274 },                         -- Assassin's Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 21, 93405, 136270 },                         -- Lucent Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 22, 93410, 136275 },                         -- Mysterious Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 23, 93404, 136269 },                         -- Resplendent Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 24, 93408, 136273 },                         -- Tense Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 25, 93406, 136272 },                         -- Willful Serpent's Eye : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
 			},
 			[CATA_DIFF] = {
-				{ 1,   71863, 101784 }, -- Accurate Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 2,   71872, 101793 }, -- Defender's Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 3,   71866, 101787 }, -- Etched Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 4,   71862, 101783 }, -- Glinting Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 5,   71870, 101791 }, -- Guardian's Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 6,   71867, 101788 }, -- Mysterious Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 7,   71868, 101789 }, -- Purified Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 8,   71865, 101786 }, -- Retaliating Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 9,   71869, 101790 }, -- Shifting Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 10,  71873, 101794 }, -- Sovereign Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 11,  71871, 101792 }, -- Timeless Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 12,  71864, 101785 }, -- Veiled Shadow Spinel : =ds=#sr# 525 : #CATAJW:5#AtlasLoot["Vendor"]
-				{ 16,  52203, 73360 }, -- Accurate Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 17,  52210, 73352 }, -- Defender's Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 18,  52213, 73356 }, -- Etched Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 19,  52220, 73357 }, -- Glinting Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 20,  52221, 73354 }, -- Guardian's Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 21,  52236, 73355 }, -- Purified Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 22,  52234, 73358 }, -- Retaliating Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 23,  52238, 73351 }, -- Shifting Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 24,  52243, 73350 }, -- Souvereign Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 25,  52248, 73353 }, -- Timeless Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 26,  52217, 73359 }, -- Veiled Demonseye : =ds=#sr# 465 : #CATAJW:3#AtlasLoot["Vendor"]
-				{ 101, 52105, 73250 }, -- Accurate Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 102, 52097, 73242 }, -- Defender's Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 103, 52101, 73246 }, -- Etched Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 104, 52102, 73247 }, -- Glinting Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 105, 52099, 73244 }, -- Guardian's Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 106, 52100, 73245 }, -- Purified Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 107, 52103, 73248 }, -- Retaliating Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["World Drop"]
-				{ 108, 52096, 73241 }, -- Shifting Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 109, 52095, 73240 }, -- Souvereign Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 110, 52098, 73243 }, -- Timeless Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 111, 52104, 73249 }, -- Veiled Nightstone : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 1,  52255, 73396 }, -- Bold Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 2,  52257, 73399 }, -- Brilliant Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 3,  52258, 73397 }, -- Delicate Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 4,  52259, 73398 }, -- Flashing Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 5,  52260, 73400 }, -- Precise Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 7,  52269, 73409 }, -- Fractured Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 8,  52267, 73407 }, -- Mystic Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 9,  52268, 73408 }, -- Quick Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 10, 52266, 73406 }, -- Smooth Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 11, 52265, 73405 }, -- Subtle Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 16, 52264, 73404 }, -- Rigid Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 17, 52261, 73401 }, -- Solid Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 18, 52262, 73402 }, -- Sparkling Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 19, 52263, 73403 }, -- Stormy Chimera's Eye : =ds=#sr# 500 : #CATAJW:2#AtlasLoot["Vendor"]
+				{ 21, 52196 }, -- Chimera's Eye : #CATAJW:1#AtlasLoot["Vendor"]
 			},
 			[WOTLK_DIFF] = {
-				{ 1,   40162, 66576 }, -- Accurate Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 2,   40139, 66560 }, -- Defender's Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 3,   40143, 66572 }, -- Etched Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 4,   40157, 66573 }, -- Glinting Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 5,   40141, 66561 }, -- Guardian's Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 6,   40135, 66562 }, -- Mysterious Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 7,   40133, 66556 }, -- Purified Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 8,   40130, 66557 }, -- Shifting Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 9,   40129, 66554 }, -- Sovereign Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 10,  40164, 66432 }, -- Timeless Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 11,  40153, 66570 }, -- Veiled Dreadstone : =ds=#sr# 450 : #DALARANJW:4#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 16,  40058, 53994 }, -- Accurate Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
-				{ 17,  40032, 53972 }, -- Defender's Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["The Storm Peaks"]
-				{ 18,  40038, 53976 }, -- Etched Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
-				{ 19,  40044, 53980 }, -- Glinting Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 20,  40034, 53974 }, -- Guardian's Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Argent Crusade"] - AtlasLoot["Revered"]
-				{ 21,  40028, 53968 }, -- Mysterious Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Wintergrasp"]
-				{ 22,  40026, 53966 }, -- Purified Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
-				{ 23,  40023, 53963 }, -- Shifting Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 24,  40022, 53962 }, -- Sovereign Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot["World Drop"]
-				{ 25,  40025, 53965 }, -- Timeless Twilight Opal : =ds=#sr# 390 : =ds=AtlasLoot_IngameLocales["Knights of the Ebon Blade"] - AtlasLoot["Exalted"]
-				{ 26,  40049, 53985 }, -- Veiled Twilight Opal : =ds=#sr# 390 : #DALARANJW:3#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 101, 39966, 53892 }, -- Accurate Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 102, 39939, 53869 }, -- Defender's Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Honored"]
-				{ 103, 39948, 53873 }, -- Etched Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 104, 39942, 53861 }, -- Glinting Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 105, 39940, 53871 }, -- Guardian's Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 106, 39945, 53865 }, -- Mysterious Shadow Crystal : =ds=#sr# 350 : #DALARANJW:1#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
-				{ 107, 39979, 53921 }, -- Purified Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Friendly"]
-				{ 108, 39935, 53860 }, -- Shifting Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 109, 39934, 53859 }, -- Sovereign Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 110, 39968, 53894 }, -- Timeless Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 111, 39957, 53883 }, -- Veiled Shadow Crystal : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1,  32220, 39736 }, -- Glinting Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
-				{ 2,  32225, 39741 }, -- Purified Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
-				{ 3,  32212, 39728 }, -- Shifting Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 4,  32211, 39727 }, -- Sovereign Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 5,  32215, 39731 }, -- Timeless Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Honored"]
-				{ 6,  32221, 39737 }, -- Veiled Shadowsong Amethyst : =ds=#sr# 375 : =ds=AtlasLoot_IngameLocales["Shattered Sun Offensive"] - AtlasLoot["Exalted"]
-				{ 8,  24061, 31109 }, -- Glinting Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 9,  24065, 31112 }, -- Purified Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 10, 24055, 31103 }, -- Shifting Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 11, 24054, 31102 }, -- Sovereign Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 12, 24056, 31104 }, -- Timeless Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 13, 31867, 39470 }, -- Veiled Nightseye : =ds=#sr# 350 : =ds=AtlasLoot["World Drop"]
-				{ 14, 32836, 41429 }, -- Purified Shadow Pearl : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 16, 32833, 41420 }, -- Purified Jaggal Pearl : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 17, 23110, 28933 }, -- Shifting Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Vendor"]
-				{ 18, 23111, 28936 }, -- Sovereign Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 19, 31866, 39466 }, -- Veiled Shadow Draenite : =ds=#sr# 325 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Blade's Edge Mountains"]
-				{ 20, 23100, 28914 }, -- Glinting Shadow Draenite : =ds=#sr# 315 : =ds=AtlasLoot["Trainer"]
-				{ 21, 23109, 28927 }, -- Purified Shadow Draenite : =ds=#sr# 305 : =ds=AtlasLoot_IngameLocales["The Aldor"] / AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Honored"]
-				{ 22, 23108, 28925 }, -- Timeless Shadow Draenite : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 1,  42142, 56049 }, -- Bold Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 2,  42148, 56053 }, -- Brilliant Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 3,  42143, 56052 }, -- Delicate Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 4,  42152, 56056 }, -- Flashing Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 5,  42154, 56081 }, -- Precise Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 7,  42158, 56079 }, -- Mystic Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 8,  42150, 56083 }, -- Quick Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 9,  42149, 56085 }, -- Smooth Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 10, 42151, 56055 }, -- Subtle Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 16, 42156, 56084 }, -- Rigid Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 17, 36767, 56086 }, -- Solid Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 18, 42145, 56087 }, -- Sparkling Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 19, 42155, 56088 }, -- Stormy Dragon's Eye : =ds=#sr# 370 : #DALARANJW:2#AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Dalaran"]
+				{ 21, 42225 }, -- Dragon's Eye : #DALARANJW:1#AtlasLoot["Vendor"]
 			},
 		},
 		{ --JewelMeta
 			name = AL["Meta Gems"],
-			[TWW_DIFF] = {
-				{ 1, 213741, 435318 },                             -- Culminating Blasphemite
-				{ 2, 213738, 435230 },                             -- Insightful Blasphemite
-				{ 3, 213744, 435319 },                             -- Elusive Blasphemite
-				{ 4, 217113, 435392, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Cubic Blasphemia
-				{ 6, 213748, 435321, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Cognitive Bloodstone
-				{ 7, 213749, 435322, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Determined Bloodstone
-				{ 8, 213747, 435320, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Enduring Bloodstone
-			},
 			[MOP_DIFF] = {
 				{ 1,  76884, 107753 }, -- Agile Primal Diamond : =ds=#sr# 575 : =ds=AtlasLoot["World Drop"]
 				{ 2,  76895, 107754 }, -- Austere Primal Diamond : =ds=#sr# 575 : =ds=AtlasLoot["World Drop"]
@@ -6207,36 +6338,6 @@ data["Jewelcrafting"] = {
 				{ 9, 21748, 26872 }, -- Figurine - Jade Owl : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
 			},
 		},
-		{ --JewelHeadArmor
-			name = HEADSLOT,
-			[LEGION_DIFF] = {
-				{ 1,  151587, 247751 }, -- Empyrial Cosmic Crown
-				{ 2,  151587, 247754 }, -- Empyrial Cosmic Crown
-				{ 3,  151587, 247755 }, -- Empyrial Cosmic Crown
-				{ 5,  151588, 247756 }, -- Empyrial Deep Crown
-				{ 6,  151588, 247757 }, -- Empyrial Deep Crown
-				{ 7,  151588, 247758 }, -- Empyrial Deep Crown
-				{ 9,  151589, 247762 }, -- Empyrial Elemental Crown
-				{ 10, 151589, 247763 }, -- Empyrial Elemental Crown
-				{ 11, 151589, 247764 }, -- Empyrial Elemental Crown
-				{ 13, 151590, 247765 }, -- Empyrial Titan Crown
-				{ 14, 151590, 247766 }, -- Empyrial Titan Crown
-				{ 15, 151590, 247767 }, -- Empyrial Titan Crown
-			},
-		},
-		{ -- Profession Equipment
-			name = AL["Profession Equipment"],
-			[TWW_DIFF] = {
-				{ 1, 215121, 435373 },                          -- Incanter's Shard
-				{ 2, 215120, 435371 },                          -- Radiant Loupes
-				{ 3, 215119, 435375 },                          -- Right-Handed Magnifying Glass
-				{ 4, 215117, 435377 },                          -- Storyteller's Glasses
-				{ 5, 215125, 435374, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchanter's Crystal
-				{ 6, 215124, 435372, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Extravagant Loupes
-				{ 7, 215123, 435376, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Forger's Font Inspector
-				{ 8, 215122, 435378, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Novelist's Specs
-			},
-		},
 	}
 }
 
@@ -6247,28 +6348,59 @@ data["Leatherworking"] = {
 	items = {
 		{ --LeatherLeatherArmor
 			name = AL["Leather"].." "..AL["Armor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  244612, 1237486, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Row Walker's Deflectors
+				{ 2,  244613, 1237487 },                                                          -- Row Walker's Insurance
+				{ 3,  244614, 1237488 },                                                          -- Row Walker's Swiftgrips
+				{ 4,  244606, 1237489 },                                                          -- Hexwoven Strand
+				{ 5,  244601, 1237498, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- World Tree Rootwraps
+				{ 6,  244570, 1237507 },                                                          -- Silvermoon Agent's Coat
+				{ 7,  244569, 1237508 },                                                          -- Silvermoon Agent's Sneakers
+				{ 8,  244575, 1237509 },                                                          -- Silvermoon Agent's Handwraps
+				{ 9,  244571, 1237510 },                                                          -- Silvermoon Agent's Cover
+				{ 10, 244574, 1237511 },                                                          -- Silvermoon Agent's Leggings
+				{ 11, 244572, 1237512 },                                                          -- Silvermoon Agent's Mantle
+				{ 12, 244573, 1237513 },                                                          -- Silvermoon Agent's Utility Belt
+				{ 13, 244576, 1237514 },                                                          -- Silvermoon Agent's Deflectors
+				{ 14, 244587, 1237499 },                                                          -- Smuggler's Leather Tunic
+				{ 15, 244585, 1237500 },                                                          -- Smuggler's Leather Footpads
+				{ 16, 244593, 1237501 },                                                          -- Smuggler's Reinforced Gloves
+				{ 17, 244591, 1237502 },                                                          -- Smuggler's Reinforced Hood
+				{ 18, 244594, 1237503 },                                                          -- Smuggler's Reinforced Pants
+				{ 19, 244592, 1237504 },                                                          -- Smuggler's Reinforced Shoulderguards
+				{ 20, 244595, 1237505 },                                                          -- Smuggler's Reinforced Binding
+				{ 21, 244586, 1237506 },                                                          -- Smuggler's Leather Wristbands
+				{ 22, 244559, 1237492, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Gloves
+				{ 23, 244555, 1237493, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Mask
+				{ 24, 244558, 1237494, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Trousers
+				{ 25, 244556, 1237495, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Shoulderpads
+				{ 26, 244557, 1237496, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Belt
+				{ 27, 244553, 1237490, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Boots
+				{ 28, 244554, 1237491, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Chestpiece
+				{ 29, 244560, 1237497, [PRICE_EXTRA_ITTYPE] = "honor:7500" },                     -- Thalassian Competitor's Leather Wristwraps
+			},
 			[TWW_DIFF] = {
-				{ 1,  219476, 443698 },                          -- Spelunker's Practiced Hat
-				{ 2,  219479, 443699 },                          -- Spelunker's Practiced Britches
-				{ 3,  219477, 443700 },                          -- Spelunker's Practiced Shoulders
-				{ 4,  219478, 443697 },                          -- Spelunker's Practiced Mitts
-				{ 5,  219480, 443701 },                          -- Spelunker's Practiced Sash
-				{ 6,  219472, 443695 },                          -- Spelunker's Leather Jerkin
-				{ 7,  219470, 443696 },                          -- Spelunker's Leather Footpads
-				{ 8,  219471, 443702 },                          -- Spelunker's Leather Bands
-				{ 9,  219334, 441058 },                          -- Rune-Branded Armbands
-				{ 10, 219333, 441053 },                          -- Rune-Branded Grasps
-				{ 11, 219329, 441054 },                          -- Rune-Branded Hood
-				{ 12, 219327, 441052 },                          -- Rune-Branded Kickers
-				{ 13, 219332, 441055 },                          -- Rune-Branded Legwraps
-				{ 14, 219330, 441056 },                          -- Rune-Branded Mantle
-				{ 15, 219328, 441051 },                          -- Rune-Branded Tunic
-				{ 16, 219331, 441057 },                          -- Rune-Branded Waistband
-				{ 17, 219489, 444071 },                          -- Waders of the Unifying Flame
-				{ 18, 219512, 443951 },                          -- Weathered Stormfront Vest
-				{ 19, 219502, 444070 },                          -- Adrenal Surge Clasp
-				{ 20, 219513, 443950 },                          -- Roiling Thunderstrike Talons
-				{ 21, 219511, 443949 },                          -- Rook Feather Wristwraps
+				{ 1,  219334, 441058 },                          -- Rune-Branded Armbands
+				{ 2,  219333, 441053 },                          -- Rune-Branded Grasps
+				{ 3,  219329, 441054 },                          -- Rune-Branded Hood
+				{ 4,  219327, 441052 },                          -- Rune-Branded Kickers
+				{ 5,  219332, 441055 },                          -- Rune-Branded Legwraps
+				{ 6,  219330, 441056 },                          -- Rune-Branded Mantle
+				{ 7,  219328, 441051 },                          -- Rune-Branded Tunic
+				{ 8,  219331, 441057 },                          -- Rune-Branded Waistband
+				{ 9,  219489, 444071 },                          -- Waders of the Unifying Flame
+				{ 10, 219512, 443951 },                          -- Weathered Stormfront Vest
+				{ 11, 219502, 444070 },                          -- Adrenal Surge Clasp
+				{ 12, 219513, 443950 },                          -- Roiling Thunderstrike Talons
+				{ 13, 219511, 443949 },                          -- Rook Feather Wristwraps
+				{ 14, 219476, 443698 },                          -- Spelunker's Practiced Hat
+				{ 15, 219479, 443699 },                          -- Spelunker's Practiced Britches
+				{ 16, 219477, 443700 },                          -- Spelunker's Practiced Shoulders
+				{ 17, 219478, 443697 },                          -- Spelunker's Practiced Mitts
+				{ 18, 219480, 443701 },                          -- Spelunker's Practiced Sash
+				{ 19, 219472, 443695 },                          -- Spelunker's Leather Jerkin
+				{ 20, 219470, 443696 },                          -- Spelunker's Leather Footpads
+				{ 21, 219471, 443702 },                          -- Spelunker's Leather Bands
 				{ 22, 217130, 438902, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Belt
 				{ 23, 217126, 438898, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Boots
 				{ 24, 217127, 438899, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Chestpiece
@@ -6884,28 +7016,59 @@ data["Leatherworking"] = {
 		},
 		{ --LeatherMailArmor
 			name = AL["Mail"].." "..AL["Armor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  244602, 1237515 },                          -- Ranger-General's Grips
+				{ 2,  244605, 1237516 },                          -- Axe-Flingin' Bands
+				{ 3,  244609, 1237517 },                          -- World Tender's Trunkplate
+				{ 4,  244610, 1237518 },                          -- World Tender's Rootslippers
+				{ 5,  244611, 1237519 },                          -- World Tender's Barkclasp
+				{ 6,  244578, 1237536 },                          -- Farstrider's Scouting Vest
+				{ 7,  244577, 1237537 },                          -- Farstrider's Razor Talons
+				{ 8,  244583, 1237538 },                          -- Farstrider's Sharpened Claws
+				{ 9,  244579, 1237539 },                          -- Farstrider's Unwavering Visage
+				{ 10, 244582, 1237540 },                          -- Farstrider's Reinforced Faulds
+				{ 11, 244580, 1237541 },                          -- Farstrider's Brilliant Plumes
+				{ 12, 244581, 1237542 },                          -- Farstrider's Trophy Belt
+				{ 13, 244584, 1237543 },                          -- Farstrider's Plated Bracers
+				{ 14, 244590, 1237528 },                          -- Scout's Scaled Vest
+				{ 15, 244588, 1237529 },                          -- Scout's Scaled Boots
+				{ 16, 244598, 1237530 },                          -- Scout's Polished Gauntlets
+				{ 17, 244596, 1237531 },                          -- Scout's Polished Skullcap
+				{ 18, 244599, 1237532 },                          -- Scout's Polished Legguards
+				{ 19, 244597, 1237533 },                          -- Scout's Polished Spaulders
+				{ 20, 244600, 1237534 },                          -- Scout's Polished Wrap
+				{ 21, 244589, 1237535 },                          -- Scout's Scaled Bracers
+				{ 22, 244568, 1237527, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Cuffs
+				{ 23, 244561, 1237521, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Stompers
+				{ 24, 244567, 1237522, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Grips
+				{ 25, 244563, 1237523, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Cowl
+				{ 26, 244566, 1237524, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Leggings
+				{ 27, 244564, 1237525, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Epaulets
+				{ 28, 244565, 1237526, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Girdle
+				{ 29, 244562, 1237520, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Thalassian Competitor's Chain Tunic
+			},
 			[TWW_DIFF] = {
-				{ 1,  219481, 443706 },                          -- Tracker's Toughened Headgear
-				{ 2,  219484, 443707 },                          -- Tracker's Toughened Links
-				{ 3,  219482, 443708 },                          -- Tracker's Toughened Shoulderguards
-				{ 4,  219483, 443705 },                          -- Tracker's Toughened Handguards
-				{ 5,  219485, 443709 },                          -- Tracker's Toughened Girdle
-				{ 6,  219475, 443703 },                          -- Tracker's Chitin Hauberk
-				{ 7,  219473, 443704 },                          -- Tracker's Chitin Galoshes
-				{ 8,  219474, 443710 },                          -- Tracker's Chitin Cuffs
-				{ 9,  219339, 441065 },                          -- Glyph-Etched Binding
-				{ 10, 219336, 441059 },                          -- Glyph-Etched Breastplate
-				{ 11, 219340, 441063 },                          -- Glyph-Etched Cuisses
-				{ 12, 219338, 441064 },                          -- Glyph-Etched Epaulets
-				{ 13, 219341, 441061 },                          -- Glyph-Etched Gauntlets
-				{ 14, 219337, 441062 },                          -- Glyph-Etched Guise
-				{ 15, 219335, 441060 },                          -- Glyph-Etched Stompers
-				{ 16, 219342, 441066 },                          -- Glyph-Etched Vambraces
-				{ 17, 219508, 443960 },                          -- Reinforced Setae Flyers
-				{ 18, 219507, 443961 },                          -- Smoldering Pollen Hauberk
-				{ 19, 219492, 444073 },                          -- Sanctified Torchbearer's Grips
-				{ 20, 219501, 444068 },                          -- Vambraces of Deepening Darkness
-				{ 21, 219509, 443958 },                          -- Busy Bee's Buckle
+				{ 1,  219339, 441065 },                          -- Glyph-Etched Binding
+				{ 2,  219336, 441059 },                          -- Glyph-Etched Breastplate
+				{ 3,  219340, 441063 },                          -- Glyph-Etched Cuisses
+				{ 4,  219338, 441064 },                          -- Glyph-Etched Epaulets
+				{ 5,  219341, 441061 },                          -- Glyph-Etched Gauntlets
+				{ 6,  219337, 441062 },                          -- Glyph-Etched Guise
+				{ 7,  219335, 441060 },                          -- Glyph-Etched Stompers
+				{ 8,  219342, 441066 },                          -- Glyph-Etched Vambraces
+				{ 9,  219508, 443960 },                          -- Reinforced Setae Flyers
+				{ 10, 219507, 443961 },                          -- Smoldering Pollen Hauberk
+				{ 11, 219492, 444073 },                          -- Sanctified Torchbearer's Grips
+				{ 12, 219501, 444068 },                          -- Vambraces of Deepening Darkness
+				{ 13, 219509, 443958 },                          -- Busy Bee's Buckle
+				{ 14, 219481, 443706 },                          -- Tracker's Toughened Headgear
+				{ 15, 219484, 443707 },                          -- Tracker's Toughened Links
+				{ 16, 219482, 443708 },                          -- Tracker's Toughened Shoulderguards
+				{ 17, 219483, 443705 },                          -- Tracker's Toughened Handguards
+				{ 18, 219485, 443709 },                          -- Tracker's Toughened Girdle
+				{ 19, 219475, 443703 },                          -- Tracker's Chitin Hauberk
+				{ 20, 219473, 443704 },                          -- Tracker's Chitin Galoshes
+				{ 21, 219474, 443710 },                          -- Tracker's Chitin Cuffs
 				{ 22, 217135, 438907, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Chainmail
 				{ 23, 217136, 438908, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Cowl
 				{ 24, 217141, 438913, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Cuffs
@@ -7385,6 +7548,248 @@ data["Leatherworking"] = {
 				{ 115, 8187,  10509 }, -- Turtle Scale Gloves : =ds=#sr# 205 : =ds=AtlasLoot["World Drop"]
 			},
 		},
+		{ --LeatherArmorEnhancements
+			name = AL["Armor Enhancements"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 244640, 1237544, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Forest Hunter's Armor Kit
+				{ 2, 244642, 1237545 },                                                          -- Blood Knight's Armor Kit
+				{ 3, 244644, 1237546 },                                                          -- Thalassian Scout Armor Kit
+			},
+			[TWW_DIFF] = {
+				{ 1, 219912, 444104 },                           -- Dual Layered Armor Kit
+				{ 2, 219906, 444103,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Defender's Armor Kit
+				{ 3, 219909, 444102,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stormbound Armor Kit
+				{ 4, 235335, 1216520, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Armor Kit
+			},
+			[WOD_DIFF] = {
+				{ 1, 128014, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Essence (Sold, Ashran)
+				{ 2, 127712, 187489, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Mighty Burnished Essence (Sold, Ashran)
+				{ 3, 127730, 187513, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Savage Burnished Essence (Sold, Garrison)
+				{ 5, 116170, 171266, [PRICE_EXTRA_ITTYPE] = "118721:1" }, -- Leather Refurbishing Kit (Sold, Ashran)
+			},
+			[MOP_DIFF] = {
+				{ 1, 83765, 124127 }, -- Angerhide Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
+				{ 2, 83763, 124128 }, -- Ironscale Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
+				{ 3, 83764, 124129 }, -- Shadowleather Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
+				{ 5, 85570, 124125 }, -- Toughened Leg Armor : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
+				{ 6, 85569, 124124 }, -- Sha-Touched Leg Armor : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
+				{ 7, 85568, 124126 }, -- Brutal Leg Armor : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
+				{ 9, 85559, 124628 }, -- Sha Armor Kit : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
+			},
+			[CATA_DIFF] = {
+				{ 1,  56551, 78478 }, -- Charscale Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
+				{ 2,  56550, 78477 }, -- Dragonscale Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
+				{ 3,  71720, 101599 }, -- Drakehide Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
+				{ 5,  56517, 78437 }, -- Heavy Savage Armor Kit : =ds=#sr# 485 : =ds=AtlasLoot["Trainer"]
+				{ 7,  56503, 78420 }, -- Twilight Leg Armor : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
+				{ 8,  56502, 78419 }, -- Scorched Leg Armor : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
+				{ 10, 56477, 78379 }, -- Savage Armor Kit : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+			},
+			[WOTLK_DIFF] = {
+				{ 1, 44963, 62448 }, -- Earthen Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 2, 38373, 50965 }, -- Frosthide Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 3, 38374, 50967 }, -- Icescale Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 5, 38371, 50964 }, -- Jormungar Leg Armor : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
+				{ 6, 38372, 50966 }, -- Nerubian Leg Armor : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
+				{ 8, 38376, 50963 }, -- Heavy Borean Armor Kit : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
+			},
+			[BC_DIFF] = {
+				{ 1,  29536, 35557 }, -- Nethercleft Leg Armor : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Exalted"]
+				{ 2,  29535, 35554 }, -- Nethercobra Leg Armor : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Exalted"]
+				{ 4,  34207, 44770 }, -- Glove Reinforcements : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 5,  38375, 50962 }, -- Borean Armor Kit : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 6,  34330, 44970 }, -- Heavy Knothide Armor Kit : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 8,  29534, 35555 }, -- Clefthide Leg Armor : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
+				{ 9,  29533, 35549 }, -- Cobrahide Leg Armor : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Honored"]
+				{ 16, 25652, 32458 }, -- Magister's Armor Kit : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Revered"]
+				{ 17, 25651, 32457 }, -- Vindicator's Armor Kit : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Aldor"] - AtlasLoot["Revered"]
+				{ 18, 18251, 22727 }, -- Core Armor Kit : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Molten Core"]
+				{ 19, 25650, 32456 }, -- Knothide Armor Kit : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+			},
+			[CLASSIC_DIFF] = {
+				{ 1, 15564, 19058 }, -- Rugged Armor Kit : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 2, 8173,  10487 }, -- Thick Armor Kit : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 3, 4265,  3780 }, -- Heavy Armor Kit : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 4, 2313,  2165 }, -- Medium Armor Kit : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 5, 2304,  2152 }, -- Light Armor Kit : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- Profession Equipment
+			name = AL["Profession Equipment"],
+			[MIDNIGHT_DIFF] = {
+				{ 1,  244811, 1237565, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Hideshaper's Regalia
+				{ 2,  244808, 1237568, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Wildseeker's Workbag
+				{ 3,  244809, 1237571, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Wildseeker's Stridercap
+				{ 4,  244812, 1237550, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Alchemist's Mixcap
+				{ 5,  244813, 1237553, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Ironbender's Regalia
+				{ 6,  244810, 1237556, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Scrapmaster's Gauntlets
+				{ 7,  244807, 1237559, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Herbtender's Cradle
+				{ 8,  244814, 1237562, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:200" }, -- Thalassian Gemshaper's Grand Cover
+				{ 9,  244625, 1237564, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Leathershaper's Smock
+				{ 10, 244622, 1237567, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Hunter's Pack
+				{ 11, 244623, 1237570, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Eversong Hunter's Headcover
+				{ 12, 244626, 1237549, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Alchemist's Hat
+				{ 13, 244628, 1237552, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Forgemaster's Cover
+				{ 14, 244624, 1237555, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Engineer's Gloves
+				{ 15, 244621, 1237558, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Herbalist's Backpack
+				{ 16, 244630, 1237561, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" }, -- Sin'dorei Jeweler's Cover
+				{ 17, 244619, 1237563 },                                       -- Hideworker's Cover
+				{ 18, 244616, 1237566 },                                       -- Skinner's Backpack
+				{ 19, 244617, 1237569 },                                       -- Skinner's Cap
+				{ 20, 244620, 1237548 },                                       -- Chemist's Cap
+				{ 21, 244627, 1237551 },                                       -- Apprentice Smith's Apron
+				{ 22, 244618, 1237554 },                                       -- Tinker's Handguard
+				{ 23, 244615, 1237557 },                                       -- Eversong Botanist's Satchel
+				{ 24, 244629, 1237560 },                                       -- Apprentice Jeweler's Apron
+			},
+			[TWW_DIFF] = {
+				{ 1,  219871, 444117, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Arathi Leatherworker's Smock
+				{ 2,  219870, 444111, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Scrapmaster's Gauntlets
+				{ 3,  219869, 444121, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Cap
+				{ 4,  219868, 444119, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Pack
+				{ 5,  219874, 444108, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Forgemaster's Apron
+				{ 6,  219876, 444115, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Jeweler's Cover
+				{ 7,  219872, 444106, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Nerubian Alchemist's Hat
+				{ 8,  219867, 444113, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stonebound Herbalist's Pack
+				{ 16, 219866, 444105 },                                   -- Apothecary's Cap
+				{ 17, 219873, 444107 },                                   -- Steelsmith's Apron
+				{ 18, 219875, 444114 },                                   -- Gemcutter's Apron
+				{ 19, 219864, 444110 },                                   -- Scrapsmith's Gloves
+				{ 20, 219865, 444116 },                                   -- Hideshaper's Cover
+				{ 21, 219862, 444118 },                                   -- Hideseeker's Pack
+				{ 22, 219861, 444112 },                                   -- Gardener's Basket
+				{ 23, 219863, 444120 },                                   -- Hideseeker's Hat
+			},
+		},
+		{ --LeatherMiscellaneous
+			name = AL["Miscellaneous"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 244639, 1237547 }, -- Void-touched Drums
+				{ 3, 244603, 1237577 }, -- Blessed Pango Charm
+				{ 4, 244607, 1237578 }, -- Primal Spore Binding
+				{ 5, 244674, 1237579 }, -- Devouring Banding
+			},
+			[TWW_DIFF] = {
+				{ 1, 219905, 444122 }, -- Thunderous Drums
+				{ 3, 219495, 441460 }, -- Blessed Weapon Grip
+				{ 4, 219504, 441461 }, -- Writhing Armor Banding
+			},
+			[BFA_DIFF] = {
+				{ 1,  162122, 278423 }, -- Amber Rallying Horn
+				{ 16, 162116, 276256 }, -- Tempest Hide Pouch
+
+				{ 3,  154167, 256791 }, -- Drums of the Maelstrom
+
+				{ 5,  154169, 256793 }, -- Shimmerscale Diving Helmet
+				{ 18, 154168, 256792 }, -- Shimmerscale Diving Suit
+
+				{ 7,  154166, 256790 }, -- Coarse Leather Barding
+			},
+			[LEGION_DIFF] = {
+				{ 1,  142406, 230936 }, -- Drums of the Mountain
+				{ 2,  142406, 230954 }, -- Drums of the Mountain
+				{ 3,  142406, 230955 }, -- Drums of the Mountain
+				{ 5,  129956, 194779 }, -- Leather Love Seat
+				{ 6,  129958, 194778 }, -- Leather Pet Leash
+				{ 7,  129961, 194775 }, -- Flaming Hoop
+				{ 8,  129960, 194776 }, -- Leather Pet Bed
+				{ 10, 131746, 196648 }, -- Stonehide Leather Barding
+				{ 16, 129962, 194780 }, -- Elderhorn Riding Harness
+			},
+			[WOD_DIFF] = {
+				{ 1, 108883, 171291, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Riding Harness (Sold, Ashran)
+				{ 3, 116261, 171290, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Inscription Bag (Sold, Ashran)
+				{ 4, 116259, 171288, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Leather Bag (Sold, Ashran)
+				{ 5, 116260, 171289, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Mining Bag (Sold, Ashran)
+				{ 7, 120257, 178208, [PRICE_EXTRA_ITTYPE] = "118721:1" }, -- Drums of Fury (Sold, Ashran)
+				{ 9, 118721, 176089 },                        -- Secrets of Draenor Leatherworking (Learnt by item 115358)
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  102351,                               146613 }, -- Drums of Rage : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 2,  95536,                                140185 }, -- Magnificent Hide Pack : =ds=#sr# 595 : =ds=AtlasLoot["Discovery"]: spell140040
+				{ 3,  70136,                                100583 }, -- Royal Scribe's Satchel : =ds=#sr# 510 : =ds=AtlasLoot_IngameLocales["Molten Front"]
+				{ 4,  70137,                                100586 }, -- Triple-Reinforced Mining Bag : =ds=#sr# 500 : =ds=AtlasLoot_IngameLocales["Molten Front"]
+				{ 5,  49633,                                69386 }, -- Drums of Forgotten Kings : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 6,  49634,                                69388 }, -- Drums of the Wild : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
+				{ 7,  38347,                                50971 }, -- Mammoth Mining Bag : =ds=#sr# 415 : =ds=AtlasLoot_IngameLocales["The Sons of Hodir"] - AtlasLoot["Honored"]
+				{ 8,  44446,                                60643 }, -- Pack of Endless Pockets : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
+				{ 9,  38399,                                50970 }, -- Trapper's Traveling Pack : =ds=#sr# 415 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Revered"]
+				{ 10, 29532,                                35538 }, -- Drums of Panic : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Honored"]
+				{ 11, 29529,                                35543 }, -- Drums of Battle : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Honored"]
+				{ 12, 34105,                                44359 }, -- Quiver of a Thousand Feathers : =ds=#sr# 360 : nil
+				{ 16, 34490,                                45117 }, -- Bag of Many Hides : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Terokkar Forest"]
+				{ 17, 25653,                                32461 }, -- Riding Crop : =ds=#sr# 350 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]
+				{ 18, 29531,                                35539 }, -- Drums of Restoration : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
+				{ 19, 29530,                                35544 }, -- Drums of Speed : =ds=#sr# 345 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
+				{ 20, 29528,                                35540 }, -- Drums of War : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
+				{ 21, 29540,                                35530 }, -- Reinforced Mining Bag : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
+				{ 22, 34482,                                45100 }, -- Leatherworker's Satchel : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 23, 25679,                                32482 }, -- Comfortable Insoles : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["The Exodar"] / Silvermoon City
+				{ 24, 34086,                                44953 }, -- Winter Boots : =ds=#sr# 285 : =ds=AL["Feast of Winter Veil"] : AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Ironforge"] / Orgrimmar
+				{ 25, 18258,                                22815 }, -- Gordok Ogre Suit : =ds=#sr# 275 : =ds=AtlasLoot["Old Quest Reward"]
+				{ 26, 18662,                                23190 }, -- Heavy Leather Ball : =ds=#sr# 150 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Ironforge"] / Orgrimmar
+				{ 27, [ATLASLOOT_IT_HORDE] = { 5081, 5244 } }, -- Kodo Hide Bag : =ds=#sr# 40 : #QUESTID:769#
+			},
+		},
+		{ --LeatherLeather
+			name = AL["Leather"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 244633, 1237573 }, -- Infused Scalewoven Hide
+				{ 2, 244631, 1237572 }, -- Scalewoven Hide
+				{ 3, 244635, 1237574 }, -- Sin'dorei Armor Banding
+				{ 4, 244637, 1237575 }, -- Silvermoon Weapon Wrap
+			},
+			[TWW_DIFF] = {
+				{ 1, 219880, 444075 }, -- Carapace-Backed Hide
+				{ 2, 219883, 444076 }, -- Crystalfused Hide
+				{ 3, 219892, 444079 }, -- Leyfused Hide
+				{ 4, 219889, 444078 }, -- Sporecoated Hide
+				{ 5, 219886, 444077 }, -- Writhing Hide
+				{ 6, 219898, 444086 }, -- Chitin Armor Banding
+				{ 7, 219901, 444087 }, -- Storm-Touched Weapon Wrap
+			},
+			[BFA_DIFF] = {
+				{ 1, 152542, 272278 }, -- Hardened Tempest Hide
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  110611, 171391, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Burnished Leather (Learnt by item 115358)
+				{ 2,  110611, 182121, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Burnished Leather (Sold, Garrison)
+				{ 4,  98617,  146923 },                         -- Accelerated Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 5,  98617,  142976 },                         -- Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
+				{ 6,  72163,  131865 },                         -- Magnificent Hide : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
+				{ 7,  72163,  140040 },                         -- Magnificence of Leather : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
+				{ 8,  72163,  140041 },                         -- Magnificence of Scales : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
+				{ 9,  72120,  124627 },                         -- Exotic Leather : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
+				{ 10, 56516,  78436 },                          -- Heavy Savage Leather : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 11, 52976,  84950 },                          -- Savage Leather : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
+				{ 12, 38425,  50936 },                          -- Heavy Borean Leather : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
+				{ 13, 33568,  64661 },                          -- Borean Leather : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
+				{ 14, 23793,  32455 },                          -- Heavy Knothide Leather : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
+				{ 16, 21887,  32454 },                          -- Knothide Leather : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
+				{ 17, 15407,  19047 },                          -- Cured Rugged Hide : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 18, 8170,   22331 },                          -- Rugged Leather : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
+				{ 19, 8172,   10482 },                          -- Cured Thick Hide : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 20, 4304,   20650 },                          -- Thick Leather : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
+				{ 21, 4236,   3818 },                           -- Cured Heavy Hide : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 22, 4234,   20649 },                          -- Heavy Leather : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
+				{ 23, 4233,   3817 },                           -- Cured Medium Hide : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 24, 2319,   20648 },                          -- Medium Leather : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
+				{ 25, 4231,   3816 },                           -- Cured Light Hide : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
+				{ 26, 2318,   2881 },                           -- Light Leather : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+		{ -- LeatherDecor
+			name = ALIL["Decor"],
+			[MIDNIGHT_DIFF] = {
+				{ 1, 262589, 1246940, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Simple Haranir Table
+				{ 2, 262600, 1246941, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },              -- Stitched Haranir Rug
+				{ 3, 243090, 1246942, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },              -- Sturdy Haranir Chair
+				{ 4, 264244, 1246943 },                                                          -- Plush Haranir Leather Pillow
+				{ 5, 262449, 1246937 },                                                          -- Embossed Sin'dorei Fur Rug
+				{ 6, 253457, 1246938 },                                                          -- Leather-Bound Haranir Wall Shelf
+				{ 7, 265791, 1246939 },                                                          -- Haranir Canopy Bed
+			},
+		},
 		{ --LeatherWeapons
 			name = AL["Weapons"],
 			[BFA_DIFF] = {
@@ -7462,191 +7867,6 @@ data["Leatherworking"] = {
 				{ 27, 2308,  2159 }, -- Fine Leather Cloak : =ds=#sr# 85 : =ds=AtlasLoot["Trainer"]
 				{ 28, 2310,  2162 }, -- Embossed Leather Cloak : =ds=#sr# 60 : =ds=AtlasLoot["Trainer"]
 				{ 29, 7276,  9058 }, -- Handstitched Leather Cloak : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ --LeatherArmorEnhancements
-			name = AL["Armor Enhancements"],
-			[TWW_DIFF] = {
-				{ 1, 219912, 444104 },                           -- Dual Layered Armor Kit
-				{ 2, 219906, 444103,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Defender's Armor Kit
-				{ 3, 219909, 444102,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stormbound Armor Kit
-				{ 4, 235335, 1216520, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Armor Kit
-			},
-			[WOD_DIFF] = {
-				{ 1, 128014, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Essence (Sold, Ashran)
-				{ 2, 127712, 187489, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Mighty Burnished Essence (Sold, Ashran)
-				{ 3, 127730, 187513, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Savage Burnished Essence (Sold, Garrison)
-				{ 5, 116170, 171266, [PRICE_EXTRA_ITTYPE] = "118721:1" }, -- Leather Refurbishing Kit (Sold, Ashran)
-			},
-			[MOP_DIFF] = {
-				{ 1, 83765, 124127 }, -- Angerhide Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
-				{ 2, 83763, 124128 }, -- Ironscale Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
-				{ 3, 83764, 124129 }, -- Shadowleather Leg Armor : =ds=#sr# 575 : =ds=AtlasLoot_IngameLocales["Golden Lotus"] - AtlasLoot["Honored"]
-				{ 5, 85570, 124125 }, -- Toughened Leg Armor : =ds=#sr# 555 : =ds=AtlasLoot["Trainer"]
-				{ 6, 85569, 124124 }, -- Sha-Touched Leg Armor : =ds=#sr# 545 : =ds=AtlasLoot["Trainer"]
-				{ 7, 85568, 124126 }, -- Brutal Leg Armor : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
-				{ 9, 85559, 124628 }, -- Sha Armor Kit : =ds=#sr# 525 : =ds=AtlasLoot["Trainer"]
-			},
-			[CATA_DIFF] = {
-				{ 1,  56551, 78478 }, -- Charscale Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
-				{ 2,  56550, 78477 }, -- Dragonscale Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
-				{ 3,  71720, 101599 }, -- Drakehide Leg Armor : =ds=#sr# 525 : =ds=AtlasLoot["Vendor"] "10 #heavysavageleather#"
-				{ 5,  56517, 78437 }, -- Heavy Savage Armor Kit : =ds=#sr# 485 : =ds=AtlasLoot["Trainer"]
-				{ 7,  56503, 78420 }, -- Twilight Leg Armor : =ds=#sr# 480 : =ds=AtlasLoot["Trainer"]
-				{ 8,  56502, 78419 }, -- Scorched Leg Armor : =ds=#sr# 475 : =ds=AtlasLoot["Trainer"]
-				{ 10, 56477, 78379 }, -- Savage Armor Kit : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-			},
-			[WOTLK_DIFF] = {
-				{ 1, 44963, 62448 }, -- Earthen Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 2, 38373, 50965 }, -- Frosthide Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 3, 38374, 50967 }, -- Icescale Leg Armor : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 5, 38371, 50964 }, -- Jormungar Leg Armor : =ds=#sr# 405 : =ds=AtlasLoot["Trainer"]
-				{ 6, 38372, 50966 }, -- Nerubian Leg Armor : =ds=#sr# 400 : =ds=AtlasLoot["Trainer"]
-				{ 8, 38376, 50963 }, -- Heavy Borean Armor Kit : =ds=#sr# 395 : =ds=AtlasLoot["Trainer"]
-			},
-			[BC_DIFF] = {
-				{ 1,  29536, 35557 }, -- Nethercleft Leg Armor : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Exalted"]
-				{ 2,  29535, 35554 }, -- Nethercobra Leg Armor : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Exalted"]
-				{ 4,  34207, 44770 }, -- Glove Reinforcements : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 5,  38375, 50962 }, -- Borean Armor Kit : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 6,  34330, 44970 }, -- Heavy Knothide Armor Kit : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 8,  29534, 35555 }, -- Clefthide Leg Armor : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Cenarion Expedition"] - AtlasLoot["Honored"]
-				{ 9,  29533, 35549 }, -- Cobrahide Leg Armor : =ds=#sr# 335 : =ds=AtlasLoot_IngameLocales["Honor Hold"] / Thrallmar - AtlasLoot["Honored"]
-				{ 16, 25652, 32458 }, -- Magister's Armor Kit : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Scryers"] - AtlasLoot["Revered"]
-				{ 17, 25651, 32457 }, -- Vindicator's Armor Kit : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["The Aldor"] - AtlasLoot["Revered"]
-				{ 18, 18251, 22727 }, -- Core Armor Kit : =ds=#sr# 300 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Molten Core"]
-				{ 19, 25650, 32456 }, -- Knothide Armor Kit : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-			},
-			[CLASSIC_DIFF] = {
-				{ 1, 15564, 19058 }, -- Rugged Armor Kit : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 2, 8173,  10487 }, -- Thick Armor Kit : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 3, 4265,  3780 }, -- Heavy Armor Kit : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 4, 2313,  2165 }, -- Medium Armor Kit : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 5, 2304,  2152 }, -- Light Armor Kit : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
-			},
-		},
-		{ -- Profession Equipment
-			name = AL["Profession Equipment"],
-			[TWW_DIFF] = {
-				{ 1,  219866, 444105 },                                   -- Apothecary's Cap
-				{ 2,  219873, 444107 },                                   -- Steelsmith's Apron
-				{ 3,  219875, 444114 },                                   -- Gemcutter's Apron
-				{ 4,  219864, 444110 },                                   -- Scrapsmith's Gloves
-				{ 5,  219865, 444116 },                                   -- Hideshaper's Cover
-				{ 6,  219862, 444118 },                                   -- Hideseeker's Pack
-				{ 7,  219861, 444112 },                                   -- Gardener's Basket
-				{ 8,  219863, 444120 },                                   -- Hideseeker's Hat
-				{ 16, 219871, 444117, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Arathi Leatherworker's Smock
-				{ 17, 219870, 444111, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Scrapmaster's Gauntlets
-				{ 18, 219869, 444121, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Cap
-				{ 19, 219868, 444119, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Deep Tracker's Pack
-				{ 20, 219874, 444108, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Forgemaster's Apron
-				{ 21, 219876, 444115, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Jeweler's Cover
-				{ 22, 219872, 444106, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Nerubian Alchemist's Hat
-				{ 23, 219867, 444113, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stonebound Herbalist's Pack
-			},
-		},
-		{ --LeatherMiscellaneous
-			name = AL["Miscellaneous"],
-			[TWW_DIFF] = {
-				{ 1,  219905, 444122 }, -- Thunderous Drums
-				{ 3,  219495, 441460 }, -- Blessed Weapon Grip
-				{ 4,  219504, 441461 }, -- Writhing Armor Banding
-				{ 6,  219880, 444075 }, -- Carapace-Backed Hide
-				{ 7,  219898, 444086 }, -- Chitin Armor Banding
-				{ 8,  219883, 444076 }, -- Crystalfused Hide
-				{ 9,  219892, 444079 }, -- Leyfused Hide
-				{ 10, 219889, 444078 }, -- Sporecoated Hide
-				{ 11, 219901, 444087 }, -- Storm-Touched Weapon Wrap
-				{ 12, 219886, 444077 }, -- Writhing Hide
-			},
-			[BFA_DIFF] = {
-				{ 1,  162122, 278423 }, -- Amber Rallying Horn
-				{ 16, 162116, 276256 }, -- Tempest Hide Pouch
-
-				{ 3,  154167, 256791 }, -- Drums of the Maelstrom
-
-				{ 5,  154169, 256793 }, -- Shimmerscale Diving Helmet
-				{ 18, 154168, 256792 }, -- Shimmerscale Diving Suit
-
-				{ 7,  154166, 256790 }, -- Coarse Leather Barding
-			},
-			[LEGION_DIFF] = {
-				{ 1,  142406, 230936 }, -- Drums of the Mountain
-				{ 2,  142406, 230954 }, -- Drums of the Mountain
-				{ 3,  142406, 230955 }, -- Drums of the Mountain
-				{ 5,  129956, 194779 }, -- Leather Love Seat
-				{ 6,  129958, 194778 }, -- Leather Pet Leash
-				{ 7,  129961, 194775 }, -- Flaming Hoop
-				{ 8,  129960, 194776 }, -- Leather Pet Bed
-				{ 10, 131746, 196648 }, -- Stonehide Leather Barding
-				{ 16, 129962, 194780 }, -- Elderhorn Riding Harness
-			},
-			[WOD_DIFF] = {
-				{ 1, 108883, 171291, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Riding Harness (Sold, Ashran)
-				{ 3, 116261, 171290, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Inscription Bag (Sold, Ashran)
-				{ 4, 116259, 171288, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Leather Bag (Sold, Ashran)
-				{ 5, 116260, 171289, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Mining Bag (Sold, Ashran)
-				{ 7, 120257, 178208, [PRICE_EXTRA_ITTYPE] = "118721:1" }, -- Drums of Fury (Sold, Ashran)
-				{ 9, 118721, 176089 },                        -- Secrets of Draenor Leatherworking (Learnt by item 115358)
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  102351,                               146613 }, -- Drums of Rage : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 2,  95536,                                140185 }, -- Magnificent Hide Pack : =ds=#sr# 595 : =ds=AtlasLoot["Discovery"]: spell140040
-				{ 3,  70136,                                100583 }, -- Royal Scribe's Satchel : =ds=#sr# 510 : =ds=AtlasLoot_IngameLocales["Molten Front"]
-				{ 4,  70137,                                100586 }, -- Triple-Reinforced Mining Bag : =ds=#sr# 500 : =ds=AtlasLoot_IngameLocales["Molten Front"]
-				{ 5,  49633,                                69386 }, -- Drums of Forgotten Kings : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 6,  49634,                                69388 }, -- Drums of the Wild : =ds=#sr# 450 : =ds=AtlasLoot["Trainer"]
-				{ 7,  38347,                                50971 }, -- Mammoth Mining Bag : =ds=#sr# 415 : =ds=AtlasLoot_IngameLocales["The Sons of Hodir"] - AtlasLoot["Honored"]
-				{ 8,  44446,                                60643 }, -- Pack of Endless Pockets : =ds=#sr# 415 : =ds=AtlasLoot["Trainer"]
-				{ 9,  38399,                                50970 }, -- Trapper's Traveling Pack : =ds=#sr# 415 : =ds=AtlasLoot_IngameLocales["The Kalu'ak"] - AtlasLoot["Revered"]
-				{ 10, 29532,                                35538 }, -- Drums of Panic : =ds=#sr# 370 : =ds=AtlasLoot_IngameLocales["Keepers of Time"] - AtlasLoot["Honored"]
-				{ 11, 29529,                                35543 }, -- Drums of Battle : =ds=#sr# 365 : =ds=AtlasLoot_IngameLocales["The Sha'tar"] - AtlasLoot["Honored"]
-				{ 12, 34105,                                44359 }, -- Quiver of a Thousand Feathers : =ds=#sr# 360 : nil
-				{ 16, 34490,                                45117 }, -- Bag of Many Hides : =ds=#sr# 350 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Terokkar Forest"]
-				{ 17, 25653,                                32461 }, -- Riding Crop : =ds=#sr# 350 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Old Hillsbrad Foothills"]
-				{ 18, 29531,                                35539 }, -- Drums of Restoration : =ds=#sr# 350 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
-				{ 19, 29530,                                35544 }, -- Drums of Speed : =ds=#sr# 345 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
-				{ 20, 29528,                                35540 }, -- Drums of War : =ds=#sr# 340 : =ds=AtlasLoot["Trainer"]
-				{ 21, 29540,                                35530 }, -- Reinforced Mining Bag : =ds=#sr# 325 : =ds=AtlasLoot_IngameLocales["Kurenai"] / The Mag'har - AtlasLoot["Honored"]
-				{ 22, 34482,                                45100 }, -- Leatherworker's Satchel : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 23, 25679,                                32482 }, -- Comfortable Insoles : =ds=#sr# 300 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["The Exodar"] / Silvermoon City
-				{ 24, 34086,                                44953 }, -- Winter Boots : =ds=#sr# 285 : =ds=AL["Feast of Winter Veil"] : AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Ironforge"] / Orgrimmar
-				{ 25, 18258,                                22815 }, -- Gordok Ogre Suit : =ds=#sr# 275 : =ds=AtlasLoot["Old Quest Reward"]
-				{ 26, 18662,                                23190 }, -- Heavy Leather Ball : =ds=#sr# 150 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Ironforge"] / Orgrimmar
-				{ 27, [ATLASLOOT_IT_HORDE] = { 5081, 5244 } }, -- Kodo Hide Bag : =ds=#sr# 40 : #QUESTID:769#
-			},
-		},
-		{ --LeatherLeather
-			name = AL["Leather"],
-			[BFA_DIFF] = {
-				{ 1, 152542, 272278 }, -- Hardened Tempest Hide
-			},
-			[NORMAL_DIFF] = {
-				{ 1,  110611, 171391, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Burnished Leather (Learnt by item 115358)
-				{ 2,  110611, 182121, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Burnished Leather (Sold, Garrison)
-				{ 4,  98617,  146923 },                         -- Accelerated Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 5,  98617,  142976 },                         -- Hardened Magnificent Hide : =ds=#sr# 600 : =ds=AtlasLoot["Drop"]: AtlasLoot_IngameLocales["Pandaria"]
-				{ 6,  72163,  131865 },                         -- Magnificent Hide : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
-				{ 7,  72163,  140040 },                         -- Magnificence of Leather : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-				{ 8,  72163,  140041 },                         -- Magnificence of Scales : =ds=#sr# 500 : =ds=AtlasLoot["World Drop"]
-				{ 9,  72120,  124627 },                         -- Exotic Leather : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
-				{ 10, 56516,  78436 },                          -- Heavy Savage Leather : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 11, 52976,  84950 },                          -- Savage Leather : =ds=#sr# 425 : =ds=AtlasLoot["Trainer"]
-				{ 12, 38425,  50936 },                          -- Heavy Borean Leather : =ds=#sr# 390 : =ds=AtlasLoot["Trainer"]
-				{ 13, 33568,  64661 },                          -- Borean Leather : =ds=#sr# 350 : =ds=AtlasLoot["Trainer"]
-				{ 14, 23793,  32455 },                          -- Heavy Knothide Leather : =ds=#sr# 325 : =ds=AtlasLoot["Trainer"]
-				{ 16, 21887,  32454 },                          -- Knothide Leather : =ds=#sr# 300 : =ds=AtlasLoot["Trainer"]
-				{ 17, 15407,  19047 },                          -- Cured Rugged Hide : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 18, 8170,   22331 },                          -- Rugged Leather : =ds=#sr# 250 : =ds=AtlasLoot["Trainer"]
-				{ 19, 8172,   10482 },                          -- Cured Thick Hide : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 20, 4304,   20650 },                          -- Thick Leather : =ds=#sr# 200 : =ds=AtlasLoot["Trainer"]
-				{ 21, 4236,   3818 },                           -- Cured Heavy Hide : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 22, 4234,   20649 },                          -- Heavy Leather : =ds=#sr# 150 : =ds=AtlasLoot["Trainer"]
-				{ 23, 4233,   3817 },                           -- Cured Medium Hide : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 24, 2319,   20648 },                          -- Medium Leather : =ds=#sr# 100 : =ds=AtlasLoot["Trainer"]
-				{ 25, 4231,   3816 },                           -- Cured Light Hide : =ds=#sr# 35 : =ds=AtlasLoot["Trainer"]
-				{ 26, 2318,   2881 },                           -- Light Leather : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 			},
 		},
 	}
