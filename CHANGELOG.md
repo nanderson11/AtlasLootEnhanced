@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.21.3 -
+## 9.21.3 - March 12, 2026
 ### Added
 - Added Midnight Engineering recipes
 - Added Midnight Inscription recipes
