@@ -3,6 +3,7 @@
 ## 9.21.4 -
 ### Added
 - Added Midnight toys to Collections
+- Added Midnight pets to Collections
 
 ## 9.21.3 - March 12, 2026
 ### Added

@@ -6538,6 +6538,81 @@ data["COMPANIONS"]         = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
+		{ -- Midnight
+			name = EXPANSION_NAME11,
+			-- CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   246314, "pet4974" },                                     -- Dali
+				{ 2,   255151, "pet4906" },                                     -- Scruffbeak
+				{ 3,   262774, "pet4967" },                                     -- Gortham
+				{ 4,   250137, "pet4876" },                                     -- Mud Potadpole
+				{ 5,   251003, "pet4891" },                                     -- Wrathful Wyrm
+				{ 6,   264303, "pet4972" },                                     -- Willie
+				{ 7,   260942, "pet4951" },                                     -- Bubbly Snapling
+				{ 8,   258660, "pet4912" },                                     -- Silvermoon Broom
+				{ 9,   265609, "pet4985" },                                     -- Princess Bloodshed
+				{ 10,  251005, "pet4892" },                                     -- Riftblade Familiar
+				{ 11,  250145, "pet4884" },                                     -- Pangolil
+				{ 12,  265030, "pet4983" },                                     -- Kai
+				{ 13,  262999, "pet4971", [QUEST_EXTRA_ITTYPE] = 90544 },       -- Luma
+				{ 14,  260922, "pet4950", [QUEST_EXTRA_ITTYPE] = 91382 },       -- Fidoficus
+				{ 15,  264366, "pet4975" },                                     -- Razeshi C.
+				{ 16,  267838, "pet5003" },                                     -- Sunwing Hatchling
+				{ 17,  244339, "pet4816", [QUEST_EXTRA_ITTYPE] = 89385 },       -- Hawkstrider Hatchling
+				{ 18,  264434, "pet4976", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" }, -- Voldy
+				{ 19,  269028, "pet5012", [ACH_EXTRA_ITTYPE] = 61960 },         -- Sootpaw
+				{ 20,  258189, "pet4910", [ACH_EXTRA_ITTYPE] = 61091 },         -- Do, Child of Filo
+				{ 21,  260730, "pet4948" },                                     -- Perturbed Sporebat
+				{ 22,  251002, "pet4889" },                                     -- Nether Familiar
+				{ 23,  240840, "pet4803", [ACH_EXTRA_ITTYPE] = 61567 },         -- Niblet
+				{ 24,  259224, "pet4928", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Dragonhawk Munchkin
+				{ 25,  265035, "pet4984", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Medusa
+				{ 26,  264892, "pet4981" },                                     -- Nova
+				{ 27,  250138, "pet4877" },                                     -- Violet Chick
+				{ 28,  250135, "pet4874" },                                     -- Akil Fledgling
+				{ 29,  260360, "pet4944" },                                     -- Gummi the Glow Wyrm
+				{ 30,  264909, "pet4982", [PRICE_EXTRA_ITTYPE] = "brimmingArcana:200" }, -- Flicker
+				{ 101, 258903, "pet4927" },                                     -- Percival
+				{ 102, 250863, "pet4888", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Naloki
+				{ 103, 250139, "pet4878" },                                     -- Ebon Snapling
+				{ 104, 259991, "pet4930", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Lil' Preyseeker
+				{ 105, 260585, "pet4946", [QUEST_EXTRA_ITTYPE] = 92739 },       -- Linda the Lucky
+				{ 106, 239101, "pet4795" },                                     -- Voidcrawler
+				{ 107, 266076, "pet4881" },                                     -- Nether Siphoner
+				{ 108, 262390, "pet4953" },                                     -- Sporbie
+				{ 109, 263492, "pet4952", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Blitzcreek
+				{ 110, 262394, "pet4954" },                                     -- Ziorg'pharon
+				{ 111, 251001, "pet4890" },                                     -- Vibrant Manaling
+				{ 112, 250136, "pet4875" },                                     -- Rootling Nester
+				{ 113, 250143, "pet4883" },                                     -- Dragonhawk Mosswing
+				{ 114, 250148, "pet4879" },                                     -- Blistercreepling
+				{ 115, 238793, "pet4790" },                                     -- Devouring Runt
+				{ 116, 250146, "pet4885" },                                     -- Gloom Toad
+				{ 117, 264654, "pet4977", [QUEST_EXTRA_ITTYPE] = 89560 },       -- Emberwing Hatchling
+				{ 118, 262391, "pet4958" },                                     -- Ominous Dominus
+				{ 119, 250147, "pet4886" },                                     -- Silkcrawler
+				{ 120, 260705, "pet4947", [QUEST_EXTRA_ITTYPE] = 92866 },       -- Assistant Botanist Leafy
+				{ 121, 250140, "pet4880" },                                     -- Swamp Biter
+				{ 122, 250142, "pet4882" },                                     -- Azure Sporebat
+				{ 123, 262395, "pet4959" },                                     -- Hexed Bunny
+				{ 124, 262396, "pet4957" },                                     -- Lost Star
+				{ 125, 262342, "pet4956" },                                     -- Spormilian
+				{ 126, 262343, "pet4960" },                                     -- Treja'saka
+				{ 127, 258737, "pet4913", [ACH_EXTRA_ITTYPE] = 61051 },         -- Moon Darter
+				{ 128, 262392, "pet4961" },                                     -- Nibblesworth
+				{ 129, 251004, "pet3364" },                                     -- Striped Snakebiter
+				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
+				-- { 103, 259337, "pet4929" },                                        -- Munchy
+				-- { 119, 262393, "pet4955" },                                        -- Kreepah'zoyd
+				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
+				-- { 123, 258739, "pet4914" },                                        -- Chillcrawler
+				-- { 128, 258122, "pet4909" },                                        -- Emerald Hatchling
+				-- { 128, 262768, "pet4965" },                                        -- Chirpy Mandrake
+				-- { 130, 262763, "pet4964" },                                        -- Plump Mandrake
+				-- { 130, 262762, "pet4963" },                                        -- Grumpy Mandrake
+				-- { 130, 262769, "pet4966" },                                        -- Screechy Mandrake
+			}
+		},
 		{ -- The War Within
 			name = EXPANSION_NAME10,
 			-- CoinTexture = "Reputation",
