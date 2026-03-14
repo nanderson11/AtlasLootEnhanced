@@ -1339,11 +1339,69 @@ data["MOUNTS"]             = {
 		{ -- Midnight
 			name = EXPANSION_NAME11,
 			[ALLIANCE_DIFF] = {
-				{ 1, 263452, "mount", [PRICE_EXTRA_ITTYPE] = "tender:550" }, -- Comfy Silvermoon Flying Quilt
-				{ 2, 263451, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" }, -- Comfy Bel'ameth Flying Quilt
+				{ 1,   263452, "mount", [PRICE_EXTRA_ITTYPE] = "tender:550" },  -- Comfy Silvermoon Flying Quilt
+				{ 2,   263451, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Comfy Bel'ameth Flying Quilt
+				{ 3,   260916, "mount" },                                       -- Nether-Swept Drake
+				{ 4,   257180, "mount" },                                       -- Contained Stormarion Defender
+				{ 5,   256424, "mount" },                                       -- Echo of Aln'sharan
+				{ 6,   257444, "mount" },                                       -- Hexed Vilefeather Eagle
+				{ 7,   252012, "mount" },                                       -- Vibrant Petalwing
+				{ 8,   257147, "mount" },                                       -- Cobalt Dragonhawk
+				{ 9,   252017, "mount" },                                       -- Ruddy Sporeglider
+				{ 10,  252011, "mount", [ACH_EXTRA_ITTYPE] = 62386 },           -- Brilliant Petalwing
+				{ 11,  257223, "mount" },                                       -- Ancestral War Bear
+				{ 12,  260635, "mount" },                                       -- Sanguine Harrower
+				{ 13,  246735, "mount" },                                       -- Rootstalker Grimlynx
+				{ 14,  262914, "mount" },                                       -- Spectral Hawkstrider
+				{ 15,  256423, "mount" },                                       -- Untainted Grove Crawler
+				{ 16,  257156, "mount" },                                       -- Cerulean Hawkstrider
+				{ 17,  257152, "mount" },                                       -- Amani Sharptalon
+				{ 18,  257446, "mount" },                                       -- Insatiable Shredclaw
+				{ 19,  257085, "mount" },                                       -- Augmented Stormray
+				{ 20,  257200, "mount" },                                       -- Escaped Witherbark Pango
+				{ 21,  257176, "mount" },                                       -- Duskbrute Harrower
+				{ 22,  260231, "mount" },                                       -- Lucent Hawkstrider
+				{ 23,  257145, "mount", [ACH_EXTRA_ITTYPE] = 61584 },           -- Crimson Dragonhawk
+				{ 24,  257144, "mount", [ACH_EXTRA_ITTYPE] = 62190 },           -- Umbral Dragonhawk
+				{ 25,  263579, "mount", [ACH_EXTRA_ITTYPE] = 61263 },           -- Vivacious Chloroceros
+				{ 26,  257193, "mount", [ACH_EXTRA_ITTYPE] = 42703 },           -- Preyseeker's Nightmare
+				{ 27,  260697, "mount", [ACH_EXTRA_ITTYPE] = 62385 },           -- Lab-grown Stormray
+				{ 28,  246734, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Fierce Grimlynx
+				{ 29,  260696, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Voidbound Stormray
+				{ 30,  252014, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Cerulean Sporeglider
+				{ 101, 250889, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Amani Windcaller
+				{ 102, 257219, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Amani Blessed Bear
+				{ 103, 257445, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Ravenous Shredclaw
+				{ 104, 257154, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Crimson Silvermoon Hawkstrider
+				{ 105, 257448, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Frenzied Shredclaw
+				{ 106, 257447, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Prowling Shredclaw
+				{ 107, 257142, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Fiery Dragonhawk
+				{ 108, 257240, "mount", [QUEST_EXTRA_ITTYPE] = 86902 },         -- Relinquished Scarlet Charger
+				{ 109, 250782, "mount", [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:6400" }, -- Amani Sunfeather
+				{ 110, 257197, "mount", [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:6400" }, -- Blessed Amani Burrower
+				{ 111, 246736, "mount", [ACH_EXTRA_ITTYPE] = 61506 },           -- Ivory Grimlynx
+				{ 112, 265656, "mount", [ACH_EXTRA_ITTYPE] = 62103 },           -- Anu'shalla, Shadow's Guidance
+				{ 113, 263580, "mount", [PRICE_EXTRA_ITTYPE] = "luminousDust:10" }, -- Vivid Chloroceros
+				{ 114, 222988, "mount", [PRICE_EXTRA_ITTYPE] = "luminousDust:10" }, -- Elder Glowmite
+				{ 115, 257199, "mount", [ACH_EXTRA_ITTYPE] = 61906 },           -- Giganto Manis
+				{ 116, 246590, "mount" },                                       -- Ashes of Belo'ren
+				{ 117, 260887, "mount", [ACH_EXTRA_ITTYPE] = 61380 },           -- Tenebrous Harrower
+				{ 118, 257191, "mount", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2000" }, -- Preyseeker's Hubris
+				{ 119, 257192, "mount", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2550" }, -- Preyseeker's Wrath
+				-- { 120, 263222, "mount", [ACH_EXTRA_ITTYPE] = 61799 }, -- Arcanovoid Construct
+				-- { 121, 262620, "mount", [ACH_EXTRA_ITTYPE] = 61256 }, -- Calamitous Carrion
+				-- { 122, 262621, "mount", [ACH_EXTRA_ITTYPE] = 61258 }, -- Convalescent Carrion
+				-- { 123, 257504, "mount", [ACH_EXTRA_ITTYPE] = 61405 }, -- Vicious Snaplizard
+				-- { 124, 262500, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Silvermoon's Arcane Defender
+				-- { 125, 262502, "mount", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Elven Arcane Guardian
+				-- { 126, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
+				-- { 127, 257143, "mount" }, -- Peridot Dragonhawk
+				-- { 128, 260233, "mount" }, -- Emerald Hawkstrider
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 112, 265656, "mount", [ACH_EXTRA_ITTYPE] = 62096 }, -- Anu'shalla, Shadow's Guidance
+				-- { 123, 257502, "mount", [ACH_EXTRA_ITTYPE] = 61403 }, -- Vicious Snaplizard
 			},
 		},
 		{ -- The War Within
