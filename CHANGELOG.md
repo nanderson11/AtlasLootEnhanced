@@ -4,6 +4,9 @@
 ### Added
 - Added Midnight toys to Collections
 - Added Midnight pets to Collections
+- Added missing decor items to Hara'ti faction
+### Changed
+- Updated decor item prices at faction vendors
 
 ## 9.21.3 - March 12, 2026
 ### Added
