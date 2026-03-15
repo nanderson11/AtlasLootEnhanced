@@ -162,6 +162,45 @@ data["LEGION7GEAR"] = {
 }
 --]]
 
+data["TWWSEASON3"] = {
+	name = format(EXPANSION_NAME10.." "..AL["Season %d"], 3),
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1,  232617, "mount" },                      -- Astral Gladiator's Fel Bat
+				{ 2,  243157, "mount" },                      -- Vicious Void Creeper
+				{ 3,  232908, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Astral Gladiator's Tabard
+				{ 4,  244234 },                               -- Astral Gladiator's Prestigious Cloak
+				{ 5,  242636 },                               -- Astral Legend's Pennant
+				{ 7,  248343, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Dagger
+				{ 8,  248345, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Warglaive
+				{ 9,  248346, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Spear
+				{ 10, 248347, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Staff
+				{ 11, 248348, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Greatsword
+				{ 12, 248349, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Battlestaff
+				{ 13, 248350, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Crossbow
+				{ 14, 248351, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Scepter
+				{ 15, 248352, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Focus
+				{ 16, 248353, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Shield
+				{ 17, 248355, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Claws
+				{ 18, 248356, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Bow
+				{ 19, 248358, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Pulverizer
+				{ 20, 248359, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Sword
+				{ 21, 248364, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Axe
+				{ 22, 248365, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Cinquedea
+				{ 23, 248366, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Mace
+				{ 24, 248367, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Censer
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 2, 243159, "mount" }, -- Vicious Void Creeper
+			},
+		},
+	},
+}
+
 data["TWWSEASON2"] = {
 	name = format(EXPANSION_NAME10.." "..AL["Season %d"], 2),
 	ContentType = NORMAL_ITTYPE,

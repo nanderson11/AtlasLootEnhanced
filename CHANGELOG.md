@@ -7,6 +7,7 @@
 - Added Midnight mounts to Collections
 - Added Midnight tier sets to Collections
 - Added missing decor items to Hara'ti faction
+- Added TWW Season 3 PvP items
 ### Changed
 - Updated decor item prices at faction vendors
 
