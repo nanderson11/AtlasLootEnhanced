@@ -5,6 +5,7 @@
 - Added Midnight toys to Collections
 - Added Midnight pets to Collections
 - Added Midnight mounts to Collections
+- Added Midnight tier sets to Collections
 - Added missing decor items to Hara'ti faction
 ### Changed
 - Updated decor item prices at faction vendors
