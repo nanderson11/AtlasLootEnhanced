@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.21.5 -
+### Fixed
+- Fixed error when no modules are enabled
+
 ## 9.21.4 - March 14, 2026
 ### Added
 - Added Midnight toys to Collections
