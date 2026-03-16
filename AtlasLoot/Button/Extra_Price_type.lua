@@ -226,9 +226,10 @@ local function SetContentInfo(frame, typ, value, delimiter)
 			if info then
 				currentAmount = info.quantity
 				texture = info.iconFileID
-				frame:AddText(currentAmount >= tonumber(value) and STRING_GREEN..value..delimiter or STRING_RED..value..delimiter)
+				frame:AddText(currentAmount >= tonumber(value) and STRING_GREEN..value or STRING_RED..value)
 			end
 			frame:AddIcon(texture, 12)
+			frame:AddText(delimiter)
 		elseif PRICE_INFO[typ].itemID then
 			-- This fetches the item icon and calls this function again so that it hits the PRICE_INFO[typ].icon if test
 			PRICE_INFO[typ].icon = GetItemIcon(PRICE_INFO[typ].itemID)
