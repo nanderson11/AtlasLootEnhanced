@@ -5,7 +5,11 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local MIDNIGHT_DIFF = data:AddDifficulty(EXPANSION_NAME11)
+local MIDNIGHT_DIFF = data:AddDifficulty(EXPANSION_NAME11, "CraftingPreset", {
+	Item = {
+		item1bonus = "Scaling",
+	},
+})
 local TWW_DIFF = data:AddDifficulty(EXPANSION_NAME10)
 local DF_DIFF = data:AddDifficulty(EXPANSION_NAME9)
 local SL_DIFF = data:AddDifficulty(EXPANSION_NAME8)

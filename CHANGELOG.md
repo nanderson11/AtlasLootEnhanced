@@ -2,6 +2,7 @@
 
 ## 9.21.5 -
 ### Fixed
+- Fixed item levels of Midnight crafted gear
 - Fixed incorrect formatting of extra price text when it has two currencies
 - Fixed error when no modules are enabled
 - Removed a couple TBC ring enchants that are no longer available
