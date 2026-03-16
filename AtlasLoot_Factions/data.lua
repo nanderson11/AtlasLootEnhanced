@@ -4332,16 +4332,16 @@ data["BCFACTIONS"] = {
 			[NORMAL_DIFF] = {
 				{ 1,  "f989rep6" },
 				{ 2,  28272,     [PRICE_EXTRA_ITTYPE] = "money:80000" }, -- Formula: Enchant Gloves - Major Spellpower (p4 360)
-				{ 3,  22536,     [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Formula: Enchant Ring - Minor Intellect (p4 360)
-				{ 4,  25910,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Enigmatic Skyfire Diamond (p12 365)
-				{ 5,  33160,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Facet of Eternity (p12 360)
-				{ 6,  29713,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Pattern: Drums of Panic (p7 370)
-				{ 8,  "f989rep7" },
-				{ 9,  29184 },                                -- Timewarden's Leggings
-				{ 10, 29185 },                                -- Continuum Blade
-				{ 11, 24181,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Living Ruby Serpent (p12 370)
-				{ 12, 24174,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Pendant of Frozen Flame (p12 360)
-				{ 13, 33158,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Stone of Blades (p12 360)
+				--{ 3,  22536,     [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Formula: Enchant Ring - Minor Intellect (p4 360)
+				{ 3,  25910,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Enigmatic Skyfire Diamond (p12 365)
+				{ 4,  33160,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Facet of Eternity (p12 360)
+				{ 5,  29713,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Pattern: Drums of Panic (p7 370)
+				{ 7,  "f989rep7" },
+				{ 8,  29184 },                                -- Timewarden's Leggings
+				{ 9,  29185 },                                -- Continuum Blade
+				{ 10, 24181,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Living Ruby Serpent (p12 370)
+				{ 11, 24174,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Pendant of Frozen Flame (p12 360)
+				{ 12, 33158,     [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Stone of Blades (p12 360)
 				{ 16, "f989rep8" },
 				{ 17, 29183 },                                -- Bindings of the Timewalker
 				{ 18, 29181 },                                -- Timelapse Shard
@@ -4398,14 +4398,14 @@ data["BCFACTIONS"] = {
 				{ 10, 22910,      [PRICE_EXTRA_ITTYPE] = "money:80000" }, -- Recipe: Elixir of Major Shadow Power (p1 350)
 				{ 11, 33157,      [PRICE_EXTRA_ITTYPE] = "money:120000" }, -- Design: Falling Star (p12 360)
 				{ 16, "f1011rep6" },
-				{ 17, 22538,      [PRICE_EXTRA_ITTYPE] = "money:200000" }, -- Formula: Enchant Ring - Stats (p4 375)
-				{ 18, 30833,      [PRICE_EXTRA_ITTYPE] = "money:60000" }, -- Pattern: Cloak of Arcane Evasion (p8 350)
-				{ 20, "f1011rep8" },
-				{ 21, 30834 },                                 -- Shapeshifter's Signet
-				{ 22, 30832 },                                 -- Gavel of Unearthed Secrets
-				{ 23, 30830 },                                 -- Trident of the Outcast Tribe
-				{ 24, 33148,      [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Formula: Enchant Cloak - Dodge (p4 300)
-				{ 25, 31778,      [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Lower City Tabard
+				--{ 17, 22538,      [PRICE_EXTRA_ITTYPE] = "money:200000" }, -- Formula: Enchant Ring - Stats (p4 375)
+				{ 17, 30833,      [PRICE_EXTRA_ITTYPE] = "money:60000" }, -- Pattern: Cloak of Arcane Evasion (p8 350)
+				{ 19, "f1011rep8" },
+				{ 20, 30834 },                                 -- Shapeshifter's Signet
+				{ 21, 30832 },                                 -- Gavel of Unearthed Secrets
+				{ 22, 30830 },                                 -- Trident of the Outcast Tribe
+				{ 23, 33148,      [PRICE_EXTRA_ITTYPE] = "money:100000" }, -- Formula: Enchant Cloak - Dodge (p4 300)
+				{ 24, 31778,      [PRICE_EXTRA_ITTYPE] = "money:10000" }, -- Lower City Tabard
 			},
 		},
 		{ --Netherwing

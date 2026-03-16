@@ -3,6 +3,7 @@
 ## 9.21.5 -
 ### Fixed
 - Fixed error when no modules are enabled
+- Removed a couple TBC ring enchants that are no longer available
 
 ## 9.21.4 - March 14, 2026
 ### Added
