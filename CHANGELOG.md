@@ -1,6 +1,8 @@
 ﻿# Changelog
 
 ## 9.21.5 -
+### Added
+- Added crafted decor items from previous expansions to Crafting
 ### Fixed
 - Fixed item levels of Midnight crafted gear
 - Fixed incorrect formatting of extra price text when it has two currencies
