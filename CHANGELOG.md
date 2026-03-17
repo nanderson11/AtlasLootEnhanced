@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.21.5 -
+## 9.22.0 -
 ### Added
+- If you have the profession of a recipe, the secondary button will get a gold border and you can click on it to open your profession UI to that recipe
 - Added crafted decor items from previous expansions to Crafting
 ### Fixed
 - Fixed item levels of Midnight crafted gear
