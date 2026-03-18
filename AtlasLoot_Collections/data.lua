@@ -1388,12 +1388,12 @@ data["MOUNTS"]             = {
 				{ 117, 260887, "mount", [ACH_EXTRA_ITTYPE] = 61380 },           -- Tenebrous Harrower
 				{ 118, 257191, "mount", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2000" }, -- Preyseeker's Hubris
 				{ 119, 257192, "mount", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2550" }, -- Preyseeker's Wrath
-				-- { 120, 263222, "mount", [ACH_EXTRA_ITTYPE] = 61799 }, -- Arcanovoid Construct
-				-- { 121, 262620, "mount", [ACH_EXTRA_ITTYPE] = 61256 }, -- Calamitous Carrion
-				-- { 122, 262621, "mount", [ACH_EXTRA_ITTYPE] = 61258 }, -- Convalescent Carrion
-				-- { 123, 257504, "mount", [ACH_EXTRA_ITTYPE] = 61405 }, -- Vicious Snaplizard
-				-- { 124, 262500, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Silvermoon's Arcane Defender
-				-- { 125, 262502, "mount", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Elven Arcane Guardian
+				{ 120, 262500, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Silvermoon's Arcane Defender
+				{ 121, 262502, "mount", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Elven Arcane Guardian
+				{ 122, 263222, "mount", [ACH_EXTRA_ITTYPE] = 61799 },           -- Arcanovoid Construct
+				{ 123, 262620, "mount", [ACH_EXTRA_ITTYPE] = 61256 },           -- Calamitous Carrion
+				{ 124, 262621, "mount", [ACH_EXTRA_ITTYPE] = 61258 },           -- Convalescent Carrion
+				{ 125, 257504, "mount", [ACH_EXTRA_ITTYPE] = 61405 },           -- Vicious Snaplizard
 				-- { 126, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 				-- { 127, 257143, "mount" }, -- Peridot Dragonhawk
 				-- { 128, 260233, "mount" }, -- Emerald Hawkstrider
@@ -1401,7 +1401,7 @@ data["MOUNTS"]             = {
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 112, 265656, "mount", [ACH_EXTRA_ITTYPE] = 62096 }, -- Anu'shalla, Shadow's Guidance
-				-- { 123, 257502, "mount", [ACH_EXTRA_ITTYPE] = 61403 }, -- Vicious Snaplizard
+				{ 125, 257502, "mount", [ACH_EXTRA_ITTYPE] = 61403 }, -- Vicious Snaplizard
 			},
 		},
 		{ -- The War Within
@@ -6775,9 +6775,9 @@ data["COMPANIONS"]         = {
 				{ 127, 258737, "pet4913", [ACH_EXTRA_ITTYPE] = 61051 },         -- Moon Darter
 				{ 128, 262392, "pet4961" },                                     -- Nibblesworth
 				{ 129, 251004, "pet3364" },                                     -- Striped Snakebiter
-				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
+				{ 130, 262393, "pet4955", [PRICE_EXTRA_ITTYPE] = "undercoin:10000" }, -- Kreepah'zoyd
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
-				-- { 119, 262393, "pet4955" },                                        -- Kreepah'zoyd
+				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
 				-- { 123, 258739, "pet4914" },                                        -- Chillcrawler
 				-- { 128, 258122, "pet4909" },                                        -- Emerald Hatchling
@@ -7147,9 +7147,9 @@ data["TOYS"]               = {
 				{ 29,  266370, [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:3200" }, -- Dundun's Abundant Travel Method
 				{ 30,  251633, [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:6400" }, -- Bursting Bounty Bundle
 				{ 101, 264672 },                                       -- Cosmic Ritual Stone
-				-- { 20, 262431 },                                       -- Bouncy Mushroom (delve undercoin)
-				-- { 20, 267291 },                                       -- Coffer Key Glue (delve undercoin)
-				-- { 20, 264413 },                                       -- Dominating Victory (delve quest: nulling nullaeus)
+				{ 102, 264413, [QUEST_EXTRA_ITTYPE] = 93525 },         -- Dominating Victory
+				{ 103, 267291, [PRICE_EXTRA_ITTYPE] = "undercoin:250" }, -- Coffer Key Glue
+				{ 104, 262431, [PRICE_EXTRA_ITTYPE] = "undercoin:5000" }, -- Bouncy Mushroom
 				-- { 20, 257736 },                                       -- Lightcalled Hearthstone (world quest: march on quel'danas)
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}

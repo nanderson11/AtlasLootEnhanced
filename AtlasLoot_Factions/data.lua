@@ -157,52 +157,61 @@ data["MIDNIGHTFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   "f2704rep32" },
-				{ 2,   "267479:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                           -- Aspiring Hara'ti Defender's Sash
-				{ 3,   "267480:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                           -- Aspiring Hara'ti Defender's Cord
-				{ 4,   "267481:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                           -- Aspiring Hara'ti Defender's Belt
-				{ 5,   "267482:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },                                                           -- Aspiring Hara'ti Defender's Greatbelt
-				{ 6,   256613,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Cloak of the Hara'ti Elder
-				{ 7,   267257,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Cloak of the Hara'ti Sage
-				{ 8,   267258,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Cloak of the Hara'ti Seer
+				{ 2,   "267479:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },               -- Aspiring Hara'ti Defender's Sash
+				{ 3,   "267480:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },               -- Aspiring Hara'ti Defender's Cord
+				{ 4,   "267481:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },               -- Aspiring Hara'ti Defender's Belt
+				{ 5,   "267482:13578:13649", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:25" },               -- Aspiring Hara'ti Defender's Greatbelt
+				{ 6,   256613,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Cloak of the Hara'ti Elder
+				{ 7,   267257,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Cloak of the Hara'ti Sage
+				{ 8,   267258,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Cloak of the Hara'ti Seer
 				{ 10,  "f2704rep33" },
-				{ 11,  246402,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                          -- Hollowed Harandar Gourds
-				{ 12,  246408,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                          -- Haranir Herb Rack
+				{ 11,  246402,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Hollowed Harandar Gourds
+				{ 12,  246408,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Haranir Herb Rack
 				{ 16,  "f2704rep35" },
-				{ 17,  258141,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" },                                        -- Recipe: Haranir Phial of Perception
-				{ 18,  247500,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" },                                        -- Recipe: Rootbound Vat
-				{ 19,  256751,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                     -- Formula: Enchant Weapon - Worldsoul Tenacity
-				{ 20,  256745,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                     -- Formula: Enchant Chest - Mark of the Rootwarden
-				{ 21,  256749,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                     -- Formula: Enchant Tool - Haranir Multicrafting
-				{ 22,  256743,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" },                                     -- Formula: Gleeful Glamour - Haranir
-				{ 23,  263443,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" },                                       -- Technique: Contract: The Hara'ti
-				{ 24,  258509,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" },                                       -- Technique: Harandar Signpost
-				{ 25,  258510,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" },                                       -- Technique: Magnificent Towering Bookcase
-				{ 26,  256700,               [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150:voidlightMarl:1500" },                                  -- Design: Signet of Azerothian Blessings
-				{ 27,  256639,               [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" },                                 -- Pattern: World Tree Rootwraps
-				{ 28,  259457,               [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" },                                 -- Pattern: Simple Haranir Table
+				{ 17,  258141,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" }, -- Recipe: Haranir Phial of Perception
+				{ 18,  247500,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" }, -- Recipe: Rootbound Vat
+				{ 19,  256751,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Formula: Enchant Weapon - Worldsoul Tenacity
+				{ 20,  256745,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Formula: Enchant Chest - Mark of the Rootwarden
+				{ 21,  256749,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Formula: Enchant Tool - Haranir Multicrafting
+				{ 22,  256743,               [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Formula: Gleeful Glamour - Haranir
+				{ 23,  263443,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Technique: Contract: The Hara'ti
+				{ 24,  258509,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Technique: Harandar Signpost
+				{ 25,  258510,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Technique: Magnificent Towering Bookcase
+				{ 26,  256700,               [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150:voidlightMarl:1500" }, -- Design: Signet of Azerothian Blessings
+				{ 27,  256639,               [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Pattern: World Tree Rootwraps
+				{ 28,  259457,               [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Pattern: Simple Haranir Table
 				{ 101, "f2704rep36" },
-				{ 102, 258410,               [PRICE_EXTRA_ITTYPE] = "herbalismMoxie:75:voidlightMarl:750" },                                        -- Traditions of the Haranir: Herbalism
-				{ 103, 258411,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:75:voidlightMarl:750" },                                         -- Traditions of the Haranir: Inscription
-				{ 105, "f2704rep40" },
-				{ 106, 256615,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Tabard of the Hara'ti Elder
-				{ 107, 267261,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Tabard of the Hara'ti Sage
-				{ 108, 267262,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Tabard of the Hara'ti Seer
-				{ 110, "f2704rep43" },
-				{ 111, 256552,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" },                                                         -- Verdant Rutaani Seed
-				{ 113, "f2704rep46" },
-				{ 114, 246734,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Fierce Grimlynx
-				{ 116, "f2704rep47" },
-				{ 117, 259073,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Arsenal: Arms of the Hara'ti
-				{ 118, 256614,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Elder
-				{ 119, 267259,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Sage
-				{ 120, 267260,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Seer
-				{ 122, "f2704rep49" },
-				{ 123, 252014,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Cerulean Sporeglider
-				{ 125, "f2704rep50" },
-				{ 126, 258014,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Guardian's Armor
-				{ 127, 258013,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Scout's Outfit
-				{ 128, 258012,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootwarden's Wear
-				{ 129, 258010,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootdancer's Garb
+				{ 102, 258410,               [PRICE_EXTRA_ITTYPE] = "herbalismMoxie:75:voidlightMarl:750" }, -- Traditions of the Haranir: Herbalism
+				{ 103, 258411,               [PRICE_EXTRA_ITTYPE] = "scribingMoxie:75:voidlightMarl:750" }, -- Traditions of the Haranir: Inscription
+				{ 105, "f2704rep37" },
+				{ 106, 251980,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Fungarian Sack
+				{ 107, 249768,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },              -- Fungarian Barrel
+				{ 108, 246959,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Sealed Fungal Jar
+				-- { 101, "f2704rep38" }, -- waist?
+				{ 110, "f2704rep40" },
+				{ 111, 256615,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Elder
+				{ 112, 267261,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Sage
+				{ 113, 267262,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Seer
+				-- { 101, "f2704rep42" }, -- decor?
+				{ 116, "f2704rep43" },
+				{ 117, 256552,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Verdant Rutaani Seed
+				-- { 101, "f2704rep44" }, -- Munchy pet?
+				-- { 101, "f2704rep45" }, -- decor?
+				{ 119, "f2704rep46" },
+				{ 120, 246734,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Fierce Grimlynx
+				{ 122, "f2704rep47" },
+				{ 123, 259073,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Arsenal: Arms of the Hara'ti
+				{ 124, 256614,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Elder
+				{ 125, 267259,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Sage
+				{ 126, 267260,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Seer
+				-- { 101, "f2704rep48" }, -- decor?
+				{ 128, "f2704rep49" },
+				{ 129, 252014,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Cerulean Sporeglider
+				{ 201, "f2704rep50" },
+				{ 202, 258014,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Guardian's Armor
+				{ 203, 258013,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Scout's Outfit
+				{ 204, 258012,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootwarden's Wear
+				{ 205, 258010,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootdancer's Garb
 			}
 		},
 		{ -- The Singularity

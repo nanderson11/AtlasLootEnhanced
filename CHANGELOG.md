@@ -1,9 +1,11 @@
 ﻿# Changelog
 
-## 9.22.0 -
+## 9.22.0 - March 18, 2026
 ### Added
-- If you have the profession of a recipe, the secondary button will get a gold border and you can click on it to open your profession UI to that recipe
+- If your current character has the profession of a recipe, the secondary button will get a gold border and you can click on it to open your profession UI to that recipe
 - Added crafted decor items from previous expansions to Crafting
+- Added a few Midnight Season 1 toys, pets and mounts
+- Added Hara'ti Renown 7 decor items
 ### Fixed
 - Fixed item levels of Midnight crafted gear
 - Fixed incorrect formatting of extra price text when it has two currencies
