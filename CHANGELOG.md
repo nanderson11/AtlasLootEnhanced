@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.1 - March 21, 2026
+### Added
+- Added new Trial of Style items
+
 ## 9.22.0 - March 18, 2026
 ### Added
 - If your current character has the profession of a recipe, the secondary button will get a gold border and you can click on it to open your profession UI to that recipe
