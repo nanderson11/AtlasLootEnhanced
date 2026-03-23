@@ -4,8 +4,7 @@
 ### Added
 - Added new Trial of Style items
 ### Changed
-- Changed Halls of Atonement instance loot back to non-season loot
-- Changed Tazavesh, the Veiled Market instance loot back to non-season loot
+- Changed various Shadowlands and TWW instances back to non-season loot
 
 ## 9.22.0 - March 18, 2026
 ### Added

@@ -257,11 +257,9 @@ data["Priory of the Sacred Flame"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 7, nil }
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 7, nil }
 			},
 		},
 		{ -- Baron Braunpyke
@@ -276,11 +274,9 @@ data["Priory of the Sacred Flame"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 7, 252009 }, -- Bloodstained Memento
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 7, 252009 }, -- Bloodstained Memento
 			},
 		},
 		{ -- Prioress Murrpray
@@ -350,11 +346,9 @@ data["Ara-Kara, City of Echoes"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 6, nil },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 6, nil },
 			},
 		},
 		{ -- Ki'katal the Harvester
@@ -371,7 +365,6 @@ data["Ara-Kara, City of Echoes"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 8,  nil },
 				{ 16, 223088 }, -- Design: Elusive Blasphemite
 				{ 17, 223121 }, -- Formula: Enchanted Weathered Harbinger Crest
 				{ 18, 223122 }, -- Formula: Enchanted Runed Harbinger Crest
@@ -720,11 +713,9 @@ data["Operation Floodgate"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 6, 251880 }, -- Momma's Mega Medallion
-				{ 7, 246278 }, -- Overpressure Platelegs
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ -- Demolition Duo
@@ -738,10 +729,9 @@ data["Operation Floodgate"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 6, 246279 }, -- Fizzlefuse Cuffs
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ -- Swampface
@@ -752,14 +742,13 @@ data["Operation Floodgate"] = {
 				{ 3, 234506 }, -- Muckdiver's Wading Plate
 				{ 4, 234495 }, -- Razorchoke Slacks
 				{ 5, 232543 }, -- Ringing Ritual Mud
-				{ 8, 236768, "pet4759" }, -- Craboom
+				{ 7, 236768, "pet4759" }, -- Craboom
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 6, 246277 }, -- Swampface's Oozewalkers
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ -- Geezle Gigazap
