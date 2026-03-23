@@ -3,6 +3,7 @@
 ## 9.22.1 - March 21, 2026
 ### Added
 - Added new Trial of Style items
+- Added mount buttons to Midnight mounts in instances
 ### Changed
 - Changed various Shadowlands and TWW instances back to non-season loot
 

@@ -138,7 +138,7 @@ data["Windrunner Spire"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 9, 262914 }, -- Spectral Hawkstrider
+				{ 9, 262914, "mount" }, -- Spectral Hawkstrider
 			},
 		},
 	}
@@ -222,7 +222,7 @@ data["Magisters Terrace Midnight"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 9, 260231 }, -- Lucent Hawkstrider
+				{ 9, 260231, "mount" }, -- Lucent Hawkstrider
 			},
 		},
 	}
@@ -940,7 +940,7 @@ data["March on Quel'Danas"] = {
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = HEROIC_PRE_DIFF,
-				{ 14, 246590 }, -- Ashes of Belo'ren
+				{ 14, 246590, "mount" }, -- Ashes of Belo'ren
 				{ 20, 266885 }, -- March on Quel'Danas Vanquisher's Gleaming Trophy
 			},
 			[RF_DIFF] = {
