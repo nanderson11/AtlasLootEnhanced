@@ -92,9 +92,10 @@ data["Algeth'ar Academy"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 5, 258529 }, -- Arcaneclaw Spear
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Overgrown Ancient
@@ -126,9 +127,10 @@ data["Algeth'ar Academy"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, 258531 }, -- Crawth's Scaleguard
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		{ -- Echo of Doragosa
@@ -139,29 +141,14 @@ data["Algeth'ar Academy"] = {
 				{ 3, 193701 }, -- Algeth'ar Puzzle Box
 				{ 4, 193703 }, -- Organized Pontificator's Mask
 				{ 5, 193704 }, -- Scaled Commencement Spaulders
-				{ 6, 198059 }, -- Titan Training Matrix IV
-				{ 7, 193705 }, -- Breastplate of Proven Knowledge
-				{ 8, 198056 }, --Titan Training Matrix II
+				{ 6, 193705 }, -- Breastplate of Proven Knowledge
+				{ 8, 260359 }, -- Valdrakken Bookcase
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1, 193706 }, -- Venerated Professor's Greaves
-				{ 2, 193707 }, -- Final Grade
-				{ 3, 193701 }, -- Algeth'ar Puzzle Box
-				{ 4, 193703 }, -- Organized Pontificator's Mask
-				{ 5, 193704 }, -- Scaled Commencement Spaulders
-				{ 6, 198059 }, -- Titan Training Matrix IV
-				{ 7, 193705 }, -- Breastplate of Proven Knowledge
-				{ 8, 198058 }, --Titan Training Matrix III
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				{ 1, 193706 }, -- Venerated Professor's Greaves
-				{ 2, 193707 }, -- Final Grade
-				{ 3, 193701 }, -- Algeth'ar Puzzle Box
-				{ 4, 193703 }, -- Organized Pontificator's Mask
-				{ 5, 193704 }, -- Scaled Commencement Spaulders
-				{ 6, 198059 }, -- Titan Training Matrix IV
-				{ 7, 193705 }, -- Breastplate of Proven Knowledge
-				{ 8, 198059 }, --Titan Training Matrix IV
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 	}

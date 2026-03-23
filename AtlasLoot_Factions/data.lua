@@ -187,11 +187,10 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 106, 251980,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Fungarian Sack
 				{ 107, 249768,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },              -- Fungarian Barrel
 				{ 108, 246959,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },              -- Sealed Fungal Jar
-				-- { 101, "f2704rep38" }, -- waist?
 				{ 110, "f2704rep40" },
-				{ 111, 256615,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Elder
-				{ 112, 267261,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Sage
-				{ 113, 267262,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" }, -- Tabard of the Hara'ti Seer
+				{ 111, 256615,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Elder
+				{ 112, 267261,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Sage
+				{ 113, 267262,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Seer
 				-- { 101, "f2704rep42" }, -- decor?
 				{ 116, "f2704rep43" },
 				{ 117, 256552,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Verdant Rutaani Seed
