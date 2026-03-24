@@ -368,20 +368,66 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 14, 257447,     "mount",                                    [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Prowling Shredclaw
 			}
 		},
-		--[[ { -- Prey: Season 1
+		{ -- Prey: Season 1
 			FactionID = 2764,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1, "f2764rep2" },
+				{ 1,   "f2764rep31" },
+				{ 2,   264434,      "pet4976",                                                        [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" }, -- Voldy
+				{ 3,   264666,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" },                                                        -- Rod of Exanguishation
+				{ 4,   258022,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:400" },                                                        -- Skilled Preyseeker's Plumed Helm
+				{ 5,   258024,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:400" },                                                        -- Skilled Preyseeker's Shoulder-spikes
+				{ 6,   266196,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                       -- Ensemble: Preyseeker's Refined Armor
+				{ 7,   266197,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                       -- Ensemble: Preyseeker's Sleek Armor
+				{ 8,   266198,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                       -- Ensemble: Preyseeker's Rugged Armor
+				{ 9,   266199,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                       -- Ensemble: Preyseeker's Polished Armor
+				{ 10,  256754,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" },                                    -- Formula: Enchant Shoulders - Nature's Embrace
+				{ 11,  256756,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" },                                    -- Formula: Enchant Boots - Farstrider's Hunt
+				{ 12,  267399,      [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:remnantOfAnguish:500" },                                      -- Technique: Sturdy Ren'dorei Cask
+				{ 13,  267400,      [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:remnantOfAnguish:500" },                                      -- Technique: Wild Hanging Scroll
+				{ 16,  "f2764rep34" },
+				{ 17,  265794,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" },                                                        -- Preyseeker's Plinth
+				{ 19,  "f2764rep35" },
+				{ 20,  257191,      "mount",                                                          [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2000" }, -- Preyseeker's Hubris
+				{ 22,  "f2764rep36" },
+				{ 23,  263933,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" },                                                        -- Preyseeker's Hearthstone
+				{ 24,  258028,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                        -- Famed Preyseeker's Plumed Helm
+				{ 25,  258026,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                        -- Famed Preyseeker's Shoulder-spikes
+				{ 26,  258030,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                        -- Famed Preyseeker's Knapsack
+				{ 28,  "f2764rep38" },
+				{ 29,  265795,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" },                                                       -- Preyseeker's Ornate Plinth
+				{ 101, "f2764rep39" },
+				{ 102, 259991,      "pet4930",                                                        [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Lil' Preyseeker
+				{ 104, "f2764rep40" },
+				{ 105, 257192,      "mount",                                                          [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2550" }, -- Preyseeker's Wrath
 			}
-		}, ]]
-		--[[ { -- Delves: Season 1
+		},
+		{ -- Delves: Season 1
 			FactionID = 2742,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1, "f2742rep2" },
+				{ 1,  "f2742rep31" },
+				{ 2,  263996,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Twilight Tabernacle
+				{ 4,  "f2742rep32" },
+				{ 5,  263994,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Fungal Chest
+				{ 7,  "f2742rep33" },
+				{ 8,  264175,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Amani Strongbox
+				{ 10, "f2742rep34" },
+				{ 11, 264170,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Ancient Kaldorei Coffer
+				{ 13, "f2742rep35" },
+				{ 14, 262500,      "mount",                                   [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Silvermoon's Arcane Defender
+				{ 16, "f2742rep36" },
+				{ 17, 262951,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Sin'dorei Gravestone
+				{ 19, "f2742rep37" },
+				{ 20, 264414,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Midnight Delver's Flare Gun
+				{ 21, 264008,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Root-Wrapped Reliquary
+				{ 23, "f2742rep38" },
+				{ 24, 264007,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Corewarden's Spoils
+				{ 26, "f2742rep40" },
+				{ 27, 265100,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Corewarden's Hearthstone
+				{ 28, 263995,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Delver's Bountiful Coffer
 			}
-		}, ]]
+		},
 	}
 }
 

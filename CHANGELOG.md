@@ -3,8 +3,9 @@
 ## 9.22.1 - March 23, 2026
 ### Added
 - Added new Trial of Style items
+- Added Prey and Delve season journeys to Factions
+- Added Midnight PVP Season 1 rewards to PvP
 - Added mount buttons to Midnight mounts in instances
-- Added Midnight PVP Season 1 rewards
 ### Changed
 - Changed Midnight Season 1 instances to seasonal loot
 - Changed various Shadowlands and TWW instances back to non-season loot
