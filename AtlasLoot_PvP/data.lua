@@ -162,6 +162,46 @@ data["LEGION7GEAR"] = {
 }
 --]]
 
+data["MIDNIGHTSEASON1"] = {
+	name = format(EXPANSION_NAME11.." "..AL["Season %d"], 1),
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1,  260228 },                              -- Galactic Gladiator's Goredrake
+				{ 2,  257504, "mount" },                     -- Vicious Snaplizard
+				{ 3,  264164, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Galactic Gladiator's Tabard
+				{ 4,  264010 },                              -- Galactic Gladiator's Prestigious Cloak
+				{ 5,  255879 },                              -- Galactic Legend's Pennant
+				{ 7,  265614, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Polearm
+				{ 8,  265615, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Staff
+				{ 9,  265616, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Bow
+				{ 10, 265625, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Blaster
+				{ 11, 265627, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Greatsword
+				{ 12, 265628, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Morningstar
+				{ 13, 265630, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Battlestaff
+				{ 14, 265638, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Galactic Gladiator's Greataxe
+				{ 15, 265612, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Dagger
+				{ 16, 265613, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Warglaive
+				{ 17, 265617, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Scepter
+				{ 18, 265618, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Tome
+				{ 19, 265619, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Shield
+				{ 20, 265621, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Shattered Blade
+				{ 21, 265623, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Slicer
+				{ 22, 265629, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Sword
+				{ 23, 265632, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Galactic Gladiator's Hammer
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 2, 257502, "mount" },                -- Vicious Snaplizard
+				{ 3, 260441, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Galactic Gladiator's Tabard
+				{ 4, 260443 },                         -- Galactic Gladiator's Prestigious Cloak
+			},
+		},
+	},
+}
+
 data["TWWSEASON3"] = {
 	name = format(EXPANSION_NAME10.." "..AL["Season %d"], 3),
 	ContentType = NORMAL_ITTYPE,
@@ -169,11 +209,11 @@ data["TWWSEASON3"] = {
 		{
 			name = AL["Non-Set Gear"],
 			[ALLIANCE_DIFF] = {
-				{ 1,  232617, "mount" },                      -- Astral Gladiator's Fel Bat
-				{ 2,  243157, "mount" },                      -- Vicious Void Creeper
+				{ 1,  232617, "mount" },                     -- Astral Gladiator's Fel Bat
+				{ 2,  243157, "mount" },                     -- Vicious Void Creeper
 				{ 3,  232908, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Astral Gladiator's Tabard
-				{ 4,  244234 },                               -- Astral Gladiator's Prestigious Cloak
-				{ 5,  242636 },                               -- Astral Legend's Pennant
+				{ 4,  244234 },                              -- Astral Gladiator's Prestigious Cloak
+				{ 5,  242636 },                              -- Astral Legend's Pennant
 				{ 7,  248343, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Dagger
 				{ 8,  248345, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Astral Gladiator's Warglaive
 				{ 9,  248346, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Astral Gladiator's Spear
