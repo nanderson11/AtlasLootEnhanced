@@ -7,6 +7,8 @@
 ### Changed
 - Changed Midnight Season 1 instances to seasonal loot
 - Changed various Shadowlands and TWW instances back to non-season loot
+### Fixed
+- Fixed item levels of WoD instances on Heroic and Mythic
 
 ## 9.22.0 - March 18, 2026
 ### Added

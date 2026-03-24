@@ -19,83 +19,23 @@ AtlasLoot:RegisterModules(addonname)
 
 local AL = AtlasLoot.Locales
 
-local NORMAL_AUCH_DIFF = data:AddDifficulty(AL["Normal"], "AuchWithPreset", {
+local ADD_SCALING = {
 	Item = {
-		item1bonus = "Auch",
-		item2bonus = "Auch",
-	},
-})
-local NORMAL_BSM_DIFF = data:AddDifficulty(AL["Normal"], "BSMWithPreset", {
-	Item = {
-		item1bonus = "BSM",
-		item2bonus = "BSM",
-	},
-})
-local NORMAL_ID_DIFF = data:AddDifficulty(AL["Normal"], "IDWithPreset", {
-	Item = {
-		item1bonus = "ID",
-		item2bonus = "ID",
-	},
-})
-local NORMAL_SKYREACH_DIFF = data:AddDifficulty(AL["Normal"], "SkyreachWithPreset", {
-	Item = {
-		item1bonus = "Skyreach",
-		item2bonus = "Skyreach",
-	},
-})
+		addDifficultyBonus = true,
+	}
+}
+
 -- Used for CM gear collection
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
-local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
-	Item = {
-		item1bonus = "Dungeon",
-		item2bonus = "Dungeon",
-	},
-})
--- TODO: this yields item level 83, but the one above yields 16. It should be 43
---[[ local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
-	Item = {
-		addDifficultyBonus = true,
-	},
-}, 1) ]]
-local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", {
-	Item = {
-		addDifficultyBonus = true,
-	},
-}, 2)
-local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
-	Item = {
-		addDifficultyBonus = true,
-	},
-}, 23)
 
-local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
-	Item = {
-		item1bonus = nil,
-		item2bonus = "RaidWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 17)
-local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", {
-	Item = {
-		item1bonus = nil,
-		item2bonus = "RaidWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 14)
-local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
-	Item = {
-		item1bonus = "HeroicRaid",
-		item2bonus = "HeroicRaidWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 15)
-local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", {
-	Item = {
-		item1bonus = "MythicRaid",
-		item2bonus = "MythicRaidWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 16)
+local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", ADD_SCALING, 1)
+local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", ADD_SCALING, 2)
+local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", ADD_SCALING, 23)
+
+local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", ADD_SCALING, 17)
+local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", ADD_SCALING, 14)
+local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", ADD_SCALING, 15)
+local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", ADD_SCALING, 16)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
@@ -185,7 +125,7 @@ data["Auchindoun"] = {
 	items = {
 		{ --AuchKaathar
 			EncounterJournalID = 1185,
-			[NORMAL_AUCH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109824 }, -- Cord of Arcane Mystery
 				{ 2,   109826 }, -- Cord of Swirling Light
 				{ 3,   109828 }, -- Felflame Belt
@@ -234,15 +174,15 @@ data["Auchindoun"] = {
 				{ 127, 110045 }, -- Kamui's Crystalline Staff of Wizardry
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --AuchNyami
 			EncounterJournalID = 1186,
-			[NORMAL_AUCH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109903 }, -- Felflame Robes
 				{ 2,   109900 }, -- Frost-Touched Robes
 				{ 3,   109902 }, -- Lightbinder Robes
@@ -287,16 +227,16 @@ data["Auchindoun"] = {
 				{ 123, 110047 }, -- Soulcutter Mageblade
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 125, "ac9023" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --AuchAzzakel
 			EncounterJournalID = 1216,
-			[NORMAL_AUCH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109864 }, -- Bracers of Arcane Mystery
 				{ 2,   109866 }, -- Bracers of Swirling Light
 				{ 3,   109881 }, -- Felflame Bracers
@@ -341,16 +281,16 @@ data["Auchindoun"] = {
 				{ 118, 110048 }, -- Azzakel's Boltslinger
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 120, "ac9551" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --AuchTerongor
 			EncounterJournalID = 1225,
-			[NORMAL_AUCH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109912 }, -- Bloody-Blade Drape
 				{ 2,   109911 }, -- Cape of Annealing Flesh
 				{ 3,   109908 }, -- Cloak of Arcane Mysteries
@@ -418,13 +358,13 @@ data["Auchindoun"] = {
 				{ 216, "ac9039" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 206, "114240:0", false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Corrupted Blood of Teron'gor
 				{ 217, "ac9049" },
 				{ 218, "ac9552" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_AUCH_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 217, "ac10080" },
 			},
 		},
@@ -446,7 +386,7 @@ data["BloodmaulSlagMines"] = {
 	items = {
 		{ --BSMMagmolatus
 			EncounterJournalID = 893,
-			[NORMAL_BSM_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109903 }, -- Felflame Robes
 				{ 2,   109900 }, -- Frost-Touched Robes
 				{ 3,   109902 }, -- Lightbinder Robes
@@ -489,16 +429,16 @@ data["BloodmaulSlagMines"] = {
 				{ 110, 109857 }, -- Verdant Plate Grips
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 116, "ac8993" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --BSMCrushto
 			EncounterJournalID = 888,
-			[NORMAL_BSM_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109864 }, -- Bracers of Arcane Mystery
 				{ 2,   109866 }, -- Bracers of Swirling Light
 				{ 3,   109881 }, -- Felflame Bracers
@@ -543,15 +483,15 @@ data["BloodmaulSlagMines"] = {
 				{ 118, 110040 }, -- Crushto's Neck Separator
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --BSMRoltall
 			EncounterJournalID = 887,
-			[NORMAL_BSM_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109912 }, -- Bloody-Blade Drape
 				{ 2,   109911 }, -- Cape of Annealing Flesh
 				{ 3,   109908 }, -- Cloak of Arcane Mysteries
@@ -596,15 +536,15 @@ data["BloodmaulSlagMines"] = {
 				{ 118, 110041 }, -- Roltall's Brutal Crescent
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --BSMGugrokk
 			EncounterJournalID = 889,
-			[NORMAL_BSM_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109974 }, -- Felflame Hood
 				{ 2,   109971 }, -- Frost-Touched Hood
 				{ 3,   109970 }, -- Hood of Arcane Mystery
@@ -676,14 +616,14 @@ data["BloodmaulSlagMines"] = {
 				{ 220, "ac9037" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 212, "113682:0", false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Core of Flame
 				{ 221, "ac9046" },
 				{ 222, "ac9005" },
 				{ 223, "ac9008" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_BSM_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 221, "ac10076" },
 			},
 		},
@@ -911,7 +851,7 @@ data["IronDocks"] = {
 	items = {
 		{ --IDNokgar
 			EncounterJournalID = 1235,
-			[NORMAL_ID_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109903 }, -- Felflame Robes
 				{ 2,   109900 }, -- Frost-Touched Robes
 				{ 3,   109902 }, -- Lightbinder Robes
@@ -961,16 +901,16 @@ data["IronDocks"] = {
 				{ 128, 110055 }, -- Gutwrench Goreaxe
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 130, "ac9083" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --IDEnforcers
 			EncounterJournalID = 1236,
-			[NORMAL_ID_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109974 }, -- Felflame Hood
 				{ 2,   109971 }, -- Frost-Touched Hood
 				{ 3,   109970 }, -- Hood of Arcane Mystery
@@ -1015,15 +955,15 @@ data["IronDocks"] = {
 				{ 124, 110056 }, -- Black Iron Sniper Rifle
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --IDOshir
 			EncounterJournalID = 1237,
-			[NORMAL_ID_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109864 }, -- Bracers of Arcane Mystery
 				{ 2,   109866 }, -- Bracers of Swirling Light
 				{ 3,   109881 }, -- Felflame Bracers
@@ -1069,15 +1009,15 @@ data["IronDocks"] = {
 
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
 		{ --IDSkulloc
 			EncounterJournalID = 1238,
-			[NORMAL_ID_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109948 }, -- Felflame Spaulders
 				{ 2,   109931 }, -- Frost-Touched Shoulderpads
 				{ 3,   109933 }, -- Lightbinder Shoulderpads
@@ -1144,12 +1084,12 @@ data["IronDocks"] = {
 				{ 216, "ac9038" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 217, "ac9047" },
 				{ 218, "ac9082" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_ID_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 217, "ac10079" },
 			},
 		},
@@ -1429,7 +1369,7 @@ data["Skyreach"] = {
 	items = {
 		{ --SkyreachRanjit
 			EncounterJournalID = 965,
-			[NORMAL_SKYREACH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109974 }, -- Felflame Hood
 				{ 2,   109971 }, -- Frost-Touched Hood
 				{ 3,   109970 }, -- Hood of Arcane Mystery
@@ -1486,7 +1426,7 @@ data["Skyreach"] = {
 		},
 		{ --SkyreachAraknath
 			EncounterJournalID = 966,
-			[NORMAL_SKYREACH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109797 }, -- Felflame Sandals
 				{ 2,   109785 }, -- Frost-Touched Boots
 				{ 3,   109796 }, -- Lightbinder Treads
@@ -1545,7 +1485,7 @@ data["Skyreach"] = {
 		},
 		{ --SkyreachRukhran
 			EncounterJournalID = 967,
-			[NORMAL_SKYREACH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109864 }, -- Bracers of Arcane Mystery
 				{ 2,   109866 }, -- Bracers of Swirling Light
 				{ 3,   109881 }, -- Felflame Bracers
@@ -1606,7 +1546,7 @@ data["Skyreach"] = {
 		},
 		{ --SkyreachViryx
 			EncounterJournalID = 968,
-			[NORMAL_SKYREACH_DIFF] = {
+			[NORMAL_DUNGEON_DIFF] = {
 				{ 1,   109948 },                                    -- Felflame Spaulders
 				{ 2,   109931 },                                    -- Frost-Touched Shoulderpads
 				{ 3,   109933 },                                    -- Lightbinder Shoulderpads

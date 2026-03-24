@@ -16,7 +16,6 @@ AtlasLoot:RegisterModules(addonname)
 
 local ADD_SCALING = {
 	Item = {
-		item1bonus = "Scaling",
 		addDifficultyBonus = true,
 	}
 }
