@@ -2,11 +2,14 @@
 
 ## 9.22.2 -
 ### Added
-- Added Timewalking difficulty to Shadowlands and BFA instances
-- Added Heroic difficulty to King's Rest
+- Added Timewalking difficulty to Shadowlands, BFA and Legion instances
+- Added Heroic difficulty to King's Rest, The Arcway, Court of Stars and Return to Karazhan
 - Added Normal and Heroic difficulties to Siege of Boralus
+### Changed
+- Reordered Legion instance loot so that gear and relics are grouped together
 ### Fixed
 - Fixed instance map button for Uldir and Crucible of Storms
+- Removed Electrostatic Lasso from Imonar the Soulhunter
 
 ## 9.22.1 - March 23, 2026
 ### Added
