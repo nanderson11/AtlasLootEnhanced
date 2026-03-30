@@ -87,8 +87,6 @@ local ITEM_BONUS_PRESET = {
 	-- Dungeons
 	["Dungeon"]                           = { 3524, 522 },
 	-- ## Legion
-	["LegionMDungeon2"]                   = { 3452 },
-	["LegionMDungeon2Titanforged"]        = GetPresetForTitanforged(162, LEGION_MAX_UPGRADELVL, TITANFORGED_ADD), --{ 3452, 1522 },
 	["LegionMaxItemLvl"]                  = function(itemID, difficultyID, baseLvl)
 		return GetScaledItem(itemID, difficultyID, LEGION_MAX_UPGRADELVL)
 	end,

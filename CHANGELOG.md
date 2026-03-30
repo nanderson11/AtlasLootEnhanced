@@ -2,7 +2,7 @@
 
 ## 9.22.2 -
 ### Added
-- Added Timewalking difficulty to Shadowlands, BFA and Legion instances
+- Added Timewalking difficulty to Shadowlands, BFA, Legion and WoD instances
 - Added Heroic difficulty to King's Rest, The Arcway, Court of Stars and Return to Karazhan
 - Added Normal and Heroic difficulties to Siege of Boralus
 ### Changed
