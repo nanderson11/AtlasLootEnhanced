@@ -1,5 +1,13 @@
 ﻿# Changelog
 
+## 9.22.2 -
+### Added
+- Added Timewalking difficulty to Shadowlands and BFA instances
+- Added Heroic difficulty to King's Rest
+- Added Normal and Heroic difficulties to Siege of Boralus
+### Fixed
+- Fixed instance map button for Uldir and Crucible of Storms
+
 ## 9.22.1 - March 23, 2026
 ### Added
 - Added new Trial of Style items
