@@ -27,31 +27,16 @@ local ADD_SCALING = {
 
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
+local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingDungeonWithPreset", ADD_SCALING, 24)
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", nil, 7)
-local RF_SOO_DIFF = data:AddDifficulty(AL["Raid Finder"], "lfrWithPreset", {
-	Item = {
-		item1bonus = "LFR",
-		item2bonus = "LFR",
-	},
-}, 17)
 local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "rn", nil, 4)
-local NORMAL_SOO_DIFF = data:AddDifficulty(AL["Normal"], "nsoo", nil, 14)
 local HEROIC_RAID_DIFF = data:AddDifficulty(AL["Heroic"], "rh", nil, 6)
-local HEROIC_SOO_DIFF = data:AddDifficulty(AL["Heroic"], "heroicSoOWithPreset", {
-	Item = {
-		item1bonus = "HeroicSoO",
-		item2bonus = "HeroicSoOWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 15)
-local MYTHIC_SOO_DIFF = data:AddDifficulty(AL["Mythic"], "myhticSoOWithPreset", {
-	Item = {
-		item1bonus = "MythicSoO",
-		item2bonus = "MythicSoOWarforged",
-		autoCompleteItem2 = true,
-	},
-}, 16)
+
+local RF_SOO_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", ADD_SCALING, 17)
+local NORMAL_SOO_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", ADD_SCALING, 14)
+local HEROIC_SOO_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", ADD_SCALING, 15)
+local MYTHIC_SOO_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", ADD_SCALING, 16)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
