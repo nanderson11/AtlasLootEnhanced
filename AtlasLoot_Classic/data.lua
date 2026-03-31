@@ -1486,10 +1486,10 @@ data["ScarletHalls"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 88269 },                         -- Scarlet Sandals
 				{ 2, 88270 },                         -- Lightblade Bracer
-				{ 3, 132550 },                        -- Scarlet Chain Footpads
-				{ 4, 88271 },                         -- Harlan's Shoulders
-				{ 5, 88273 },                         -- Armsmaster's Sealed Locket
-				{ 6, 88272 },                         -- The Gleaming Ravager
+				{ 3, 88271 },                         -- Harlan's Shoulders
+				{ 4, 88273 },                         -- Armsmaster's Sealed Locket
+				{ 5, 88272 },                         -- The Gleaming Ravager
+				{ 6, 132550 },                        -- Scarlet Chain Footpads
 				{ 8, 23192, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Tabard of the Scarlet Crusade
 			},
 			[HEROIC_DIFF] = "AtlasLoot_MistsofPandaria",
