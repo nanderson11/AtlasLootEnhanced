@@ -1,13 +1,14 @@
 ﻿# Changelog
 
-## 9.22.2 -
+## 9.22.2 - April 1, 2026
 ### Added
 - Added Timewalking difficulty to Shadowlands, BFA, Legion, WoD and MoP instances
+- Added April Trading Post items to Collections
 - Added Heroic difficulty to King's Rest, The Arcway, Court of Stars and Return to Karazhan
 - Added Normal and Heroic difficulties to Siege of Boralus
 ### Changed
-- Reordered Legion instance loot so that gear and relics are grouped together
 - Significant additions, fixes and changes to MoP instance loot
+- Reordered Legion instance loot so that gear and relics are grouped together
 ### Fixed
 - Fixed instance map button for Uldir and Crucible of Storms
 - Removed Electrostatic Lasso from Imonar the Soulhunter

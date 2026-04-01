@@ -1425,6 +1425,8 @@ local MOUNT_INFO = {
 		[1261648] = 257504, -- Vicious Snaplizard
 		[1261629] = 257502, -- Vicious Snaplizard
 		[1265785] = 260233, -- Emerald Hawkstrider
+		[1266993] = 260893, -- Arboreal Pseudoshell
+		[1269273] = 262705, -- Vicious Snapvine
 		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
 		-- [1261293] = 257143, -- Peridot Dragonhawk
 
