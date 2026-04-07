@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.3 -
+## Changed
+- Collected highlight now defaults to collected when the same appearance is learned from another item. Enable the "Use exact item source for Collected highlight" option to go back to the old behavior.
+
 ## 9.22.2 - April 1, 2026
 ### Added
 - Added Timewalking difficulty to Shadowlands, BFA, Legion, WoD and MoP instances
