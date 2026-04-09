@@ -1397,8 +1397,8 @@ data["MOUNTS"]             = {
 				{ 126, 260233, "mount", [QUEST_EXTRA_ITTYPE] = 88769 },         -- Emerald Hawkstrider
 				{ 127, 260893, "mount", [PRICE_EXTRA_ITTYPE] = "tender:450" },  -- Arboreal Pseudoshell
 				{ 128, 262705, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" },  -- Vicious Snapvine
+				{ 129, 257143, "mount", [QUEST_EXTRA_ITTYPE] = 90867 },         -- Peridot Dragonhawk
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
-				-- { 128, 257143, "mount" }, -- Peridot Dragonhawk
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -1714,6 +1714,7 @@ data["MOUNTS"]             = {
 				{ 116, 223449, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Kor'kron Warsaber
 				{ 117, 223469, "mount", [PRICE_EXTRA_ITTYPE] = "tender:600" }, -- Sentinel War Wolf
 				{ 118, 212631, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" }, -- Brilliant Sunburst Peafowl
+				{ 119, 212599, "mount" },                             -- Noble Flying Carpet
 
 			},
 			[HORDE_DIFF] = {
