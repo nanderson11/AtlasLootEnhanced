@@ -818,11 +818,11 @@ local BonusListLevelDelta = {
 local BonusID_Diff = {
 	[1] = 1,
 	[2] = 2,
-	[3] = 0,
-	[4] = 0,
-	[5] = 0,
-	[6] = 0,
-	[7] = 0,
+	[3] = 4,
+	[4] = 5,
+	[5] = 3,
+	[6] = 6,
+	[7] = 83,
 	[8] = 0,
 	[9] = 0,
 	[11] = 10,
@@ -838,6 +838,7 @@ local BonusID_Diff = {
 	[24] = UnitLevel("player") == GetMaxPlayerLevel() and 186 or 22,
 	[25] = 0,
 	[29] = 0,
+	[33] = UnitLevel("player") == GetMaxPlayerLevel() and 186 or 22,
 }
 local BonusID_BY_DIFF = 3524
 

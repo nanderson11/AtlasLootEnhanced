@@ -1,8 +1,13 @@
 ﻿# Changelog
 
-## 9.22.3 -
+## 9.22.3 - April 10, 2026
+### Added
+- Added Daetan Swiftplume loot for Noblegarden
+- Added Timewalking difficulty to Cataclysm instances
+- Added Peridot Dragonhawk to Collections
 ## Changed
 - Collected highlight now defaults to collected when the same appearance is learned from another item. Enable the "Use exact item source for Collected highlight" option to go back to the old behavior.
+- Significant additions, fixes and changes to Cataclysm instance loot
 
 ## 9.22.2 - April 1, 2026
 ### Added
