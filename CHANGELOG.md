@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.4 -
+### Added
+- Added more Hara'ti Renown items
+
 ## 9.22.3 - April 10, 2026
 ### Added
 - Added Daetan Swiftplume loot for Noblegarden

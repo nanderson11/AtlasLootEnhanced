@@ -191,26 +191,30 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 111, 256615,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Elder
 				{ 112, 267261,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Sage
 				{ 113, 267262,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },             -- Tabard of the Hara'ti Seer
-				-- { 101, "f2704rep42" }, -- decor?
-				{ 116, "f2704rep43" },
-				{ 117, 256552,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Verdant Rutaani Seed
-				-- { 101, "f2704rep44" }, -- Munchy pet?
+				{ 116, "f2704rep42" },
+				{ 117, 263039,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },              -- Harandar Flowering Lamp
+				{ 118, 263195,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },              -- Harandar Glowvine Lamppost
+				{ 119, 263194,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },              -- Harandar Glowvine Sconce
+				{ 121, "f2704rep43" },
+				{ 122, 256552,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" },             -- Verdant Rutaani Seed
+				{ 124, "f2704rep44" },
+				{ 125, 259337,               "pet4929",                                                          [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Munchy
 				-- { 101, "f2704rep45" }, -- decor?
-				{ 119, "f2704rep46" },
-				{ 120, 246734,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Fierce Grimlynx
-				{ 122, "f2704rep47" },
-				{ 123, 259073,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Arsenal: Arms of the Hara'ti
-				{ 124, 256614,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Elder
-				{ 125, 267259,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Sage
-				{ 126, 267260,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Seer
+				{ 127, "f2704rep46" },
+				{ 128, 246734,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Fierce Grimlynx
+				{ 201, "f2704rep47" },
+				{ 202, 259073,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Arsenal: Arms of the Hara'ti
+				{ 203, 256614,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Elder
+				{ 204, 267259,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Sage
+				{ 205, 267260,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                         -- Shoulderguards of the Hara'ti Seer
 				-- { 101, "f2704rep48" }, -- decor?
-				{ 128, "f2704rep49" },
-				{ 129, 252014,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Cerulean Sporeglider
-				{ 201, "f2704rep50" },
-				{ 202, 258014,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Guardian's Armor
-				{ 203, 258013,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Scout's Outfit
-				{ 204, 258012,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootwarden's Wear
-				{ 205, 258010,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootdancer's Garb
+				{ 207, "f2704rep49" },
+				{ 208, 252014,               "mount",                                                            [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Cerulean Sporeglider
+				{ 210, "f2704rep50" },
+				{ 211, 258014,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Guardian's Armor
+				{ 212, 258013,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Scout's Outfit
+				{ 213, 258012,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootwarden's Wear
+				{ 214, 258010,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                         -- Ensemble: Hara'ti Rootdancer's Garb
 			}
 		},
 		{ -- The Singularity
