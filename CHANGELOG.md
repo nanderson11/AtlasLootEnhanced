@@ -2,6 +2,7 @@
 
 ## 9.22.4 -
 ### Added
+- Added 12.0.5 mounts, pets and toys to Collections
 - Added more Hara'ti Renown items
 - Added Timewalking difficulty to WOTLK instances
 - Added new Children's Week item
