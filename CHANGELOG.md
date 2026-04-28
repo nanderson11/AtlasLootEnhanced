@@ -3,6 +3,11 @@
 ## 9.22.4 -
 ### Added
 - Added more Hara'ti Renown items
+- Added Timewalking difficulty to WOTLK instances
+## Changed
+- Significant additions, fixes and changes to WOTLK instance loot
+### Fixed
+- Fixed instance map button for The Oculus
 
 ## 9.22.3 - April 10, 2026
 ### Added
