@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.22.4 -
+## 9.22.4 - April 28, 2026
 ### Added
 - Added 12.0.5 mounts, pets and toys to Collections
+- Added Ritual Sites faction
 - Added more Hara'ti Renown items
 - Added Timewalking difficulty to WOTLK instances
 - Added new Children's Week item

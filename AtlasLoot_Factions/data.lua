@@ -435,6 +435,25 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 28, 263995,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Delver's Bountiful Coffer
 			}
 		},
+		{ -- Ritual Sites
+			FactionID = 2792,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2792rep33" },
+				{ 2,  273159,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                 -- Void Elf Scribe's Desk
+				{ 3,  273135,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                 -- Void Elf Floating Desk
+				{ 4,  273142,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                 -- Runic Parchment
+				{ 5,  273157,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                 -- Void Flame Candle
+				{ 6,  273147,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                 -- Void Inkwell
+				{ 8,  "f2792rep36" },
+				{ 9,  270331,      "pet5037",                                 [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1800" }, -- Void-Infused Mindbreaker Fry
+				{ 10, 270330,      "pet5036",                                 [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1800" }, -- Void-Touched Dragonhawk Egg
+				{ 12, "f2792rep37" },
+				{ 13, 271158,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:500" },                                 -- Dark Obelisk
+				{ 16, "f2792rep38" },
+				{ 17, 268578,      "mount",                                   [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4500" }, -- Void-Touched Hawkstrider
+			}
+		},
 	}
 }
 
