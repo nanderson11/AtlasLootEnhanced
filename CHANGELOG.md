@@ -4,6 +4,7 @@
 ### Added
 - Added more Hara'ti Renown items
 - Added Timewalking difficulty to WOTLK instances
+- Added new Children's Week item
 ## Changed
 - Significant additions, fixes and changes to WOTLK instance loot
 - Updated TOC to 12.0.5

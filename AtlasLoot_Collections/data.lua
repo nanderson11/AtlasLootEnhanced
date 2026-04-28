@@ -7154,6 +7154,7 @@ data["TOYS"]               = {
 				{ 103, 267291, [PRICE_EXTRA_ITTYPE] = "undercoin:250" }, -- Coffer Key Glue
 				{ 104, 262431, [PRICE_EXTRA_ITTYPE] = "undercoin:5000" }, -- Bouncy Mushroom
 				{ 105, 257736, [QUEST_EXTRA_ITTYPE] = 88710 },         -- Lightcalled Hearthstone
+				{ 106, 272287 },                                       -- Nap Mat
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},
