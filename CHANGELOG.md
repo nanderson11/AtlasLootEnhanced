@@ -6,6 +6,7 @@
 - Added Timewalking difficulty to WOTLK instances
 ## Changed
 - Significant additions, fixes and changes to WOTLK instance loot
+- Updated TOC to 12.0.5
 ### Fixed
 - Fixed instance map button for The Oculus
 
