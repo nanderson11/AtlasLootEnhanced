@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.5 -
+### Added
+- Added Witherbark Warbear Mother to Collections
+
 ## 9.22.4 - April 28, 2026
 ### Added
 - Added 12.0.5 mounts, pets and toys to Collections

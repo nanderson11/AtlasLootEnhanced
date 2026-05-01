@@ -1440,6 +1440,7 @@ local MOUNT_INFO = {
 		[1282936] = 268578, -- Void-Touched Hawkstrider
 		[1287357] = 270041, -- Void-Touched Snapdragon
 		[1286606] = 269828, -- Void-Corrupted Hex Eagle
+		[1261362] = 257225, -- Witherbark Warbear Mother
 		[1287359] = 270058, -- Void-Corrupted Lynx
 		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
 

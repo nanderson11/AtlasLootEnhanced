@@ -1409,7 +1409,8 @@ data["MOUNTS"]             = {
 				{ 208, 268578, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4500" }, -- Void-Touched Hawkstrider
 				{ 209, 270041, "mount" },                                       -- Void-Touched Snapdragon
 				{ 210, 269828, "mount" },                                       -- Void-Corrupted Eagle Talon
-				{ 211, 270058, "mount" },                                       -- Rope Lynx Harness
+				{ 211, 257225, "mount" },                                       -- Witherbark Warbear Harness
+				{ 212, 270058, "mount" },                                       -- Rope Lynx Harness
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 			},
 			[HORDE_DIFF] = {
