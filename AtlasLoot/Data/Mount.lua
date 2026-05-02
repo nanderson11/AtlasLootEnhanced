@@ -1442,6 +1442,8 @@ local MOUNT_INFO = {
 		[1286606] = 269828, -- Void-Corrupted Hex Eagle
 		[1261362] = 257225, -- Witherbark Warbear Mother
 		[1287359] = 270058, -- Void-Corrupted Lynx
+		[1282276] = 268364, -- Gilneas Loyalist's Rouncey
+		[1282275] = 268363, -- Pyrewood Rebel's Rouncey
 		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
 
 		-- [449416] = 223570, -- Ebonhide Ramolith

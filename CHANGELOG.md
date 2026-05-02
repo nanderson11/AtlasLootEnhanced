@@ -3,6 +3,7 @@
 ## 9.22.5 -
 ### Added
 - Added Witherbark Warbear Mother to Collections
+- Added May Trading Post items to Collections
 
 ## 9.22.4 - April 28, 2026
 ### Added

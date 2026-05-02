@@ -1411,6 +1411,8 @@ data["MOUNTS"]             = {
 				{ 210, 269828, "mount" },                                       -- Void-Corrupted Eagle Talon
 				{ 211, 257225, "mount" },                                       -- Witherbark Warbear Harness
 				{ 212, 270058, "mount" },                                       -- Rope Lynx Harness
+				{ 213, 268364, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Gilneas Loyalist's Rouncey
+				{ 214, 268363, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Pyrewood Rebel's Rouncey
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 			},
 			[HORDE_DIFF] = {
@@ -7089,6 +7091,7 @@ data["COMPANIONS"]         = {
 				{ 220, 206174, "pet3582", [PRICE_EXTRA_ITTYPE] = "tender:500" },   -- Blub
 				{ 221, 223474, "pet4566", [PRICE_EXTRA_ITTYPE] = "tender:300" },   -- Worgli the Apprehensive
 				{ 222, 211271, "pet3491" },                                        -- Arfus
+				{ 223, 224576, "pet4595", [PRICE_EXTRA_ITTYPE] = "tender:250" },   -- Lil' Flameo
 				-- { 12,  193068 }, -- Time-Lost Treeflitter
 				-- { 21,  193380 }, -- Pink Salamanther
 				-- { 26,  193587 }, -- Time-Lost Duck
