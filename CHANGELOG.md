@@ -1,9 +1,10 @@
 ﻿# Changelog
 
-## 9.22.5 -
+## 9.22.5 - May 4, 2026
 ### Added
 - Added Witherbark Warbear Mother to Collections
 - Added May Trading Post items to Collections
+- Added remaining Hara'ti Renown items
 
 ## 9.22.4 - April 28, 2026
 ### Added
