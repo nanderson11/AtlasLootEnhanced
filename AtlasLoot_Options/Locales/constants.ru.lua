@@ -21,7 +21,6 @@ AL["Lock minimap button around minimap."] = "Заблокировать кноп
 AL["Lock minimap button."] = "Заблокировать кнопку мини-карты."
 AL["Main Window"] = "Главное окно"
 AL["Minimap Button"] = "Кнопка мини-карты"
-AL["Model"] = "Модель"
 AL["Preview"] = "Пред. просмотр"
 AL["Quick Loot"] = "Быстрая добыча"
 AL["Reset frame position"] = "Сбросить положение рамки"

@@ -607,8 +607,7 @@ local DIREMAULENT_LOOT5 = {
 	{ 8,  18315 },                                         -- Ring of Demonic Potency
 	{ 9,  18310 },                                         -- Fiendish Machete
 	{ 10, 18321 },                                         -- Energetic Rod
-	{ 12, "INV_Box_01", nil,                               AL["Felvine Shard"], nil },
-	{ 13, 18501,        [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Felvine Shard
+	{ 12, 18501,  [ATLASLOOT_IT_FILTERIGNORE] = true },    -- Felvine Shard
 	{ 16, "ac644" },
 }
 local DIREMAULWEST_LOOT1 = {
@@ -1710,14 +1709,14 @@ data["ShadowfangKeep"] = {
 		{ --ShadowfangGodfrey
 			EncounterJournalID = 100,
 			[NORMAL_DIFF] = {
-				{ 1,  3748 },                            -- Feline Mantle
-				{ 2,  151071 },                          -- Gloves of the Uplifted Cup
-				{ 3,  151072 },                          -- Worgen Hunter's Helm
-				{ 4,  151073 },                          -- Greaves of the Misguided
-				{ 5,  6220 },                            -- Meteor Shard
-				{ 6,  6318 },                            -- Odo's Ley Staff
-				{ 7,  6641 },                            -- Haunting Blade
-				{ 9,  244655 },                          -- Gilnean Circular Rug
+				{ 1,  3748 },                           -- Feline Mantle
+				{ 2,  151071 },                         -- Gloves of the Uplifted Cup
+				{ 3,  151072 },                         -- Worgen Hunter's Helm
+				{ 4,  151073 },                         -- Greaves of the Misguided
+				{ 5,  6220 },                           -- Meteor Shard
+				{ 6,  6318 },                           -- Odo's Ley Staff
+				{ 7,  6641 },                           -- Haunting Blade
+				{ 9,  244655 },                         -- Gilnean Circular Rug
 				{ 11, 60877,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Godfrey's Crystal Scope
 				{ 12, 60882,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Tenebrous Orb
 				{ 14, "ac631" },

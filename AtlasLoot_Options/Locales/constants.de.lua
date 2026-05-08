@@ -21,7 +21,6 @@ AL["Lock minimap button around minimap."] = "Fixiert den Minikartenbutton an der
 AL["Lock minimap button."] = "Minikartenbutton fixieren."
 AL["Main Window"] = "Hauptfenster"
 AL["Minimap Button"] = "Minikartenbutton"
-AL["Model"] = "Modell"
 AL["Preview"] = "Vorschau"
 AL["Quick Loot"] = "Schnell Plündern"
 AL["Reset frame position"] = "Fensterposition zurücksetzen"

@@ -21,7 +21,6 @@ AL["Lock minimap button around minimap."] = "Bloquear el botón del minimapa alr
 AL["Lock minimap button."] = "Bloquear botón del minimapa."
 AL["Main Window"] = "Ventana principal"
 AL["Minimap Button"] = "Botón del minimapa"
-AL["Model"] = "Modelo"
 AL["Preview"] = "Vista previa"
 AL["Quick Loot"] = "Botín rápido"
 AL["Reset frame position"] = "Reiniciar posición del marco"

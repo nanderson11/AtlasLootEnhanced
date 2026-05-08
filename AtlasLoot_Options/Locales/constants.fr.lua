@@ -22,7 +22,6 @@ AL["Lock minimap button around minimap."] = "Verrouiller le bouton de la minicar
 AL["Lock minimap button."] = "Verrouiller le bouton de la minicarte."
 AL["Main Window"] = "Fenêtre principale"
 AL["Minimap Button"] = "Bouton de la minicarte"
-AL["Model"] = "Modèle"
 AL["Preview"] = "Aperçu"
 AL["Quick Loot"] = "Butin rapide"
 AL["Reset frame position"] = "Réinitialiser la position du cadre"

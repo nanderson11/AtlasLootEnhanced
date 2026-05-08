@@ -20,7 +20,6 @@ AL["Lock minimap button around minimap."] = "Bloqueie o botão mini-mapa ao redo
 AL["Lock minimap button."] = "Bloqueie o botão mini-mapa."
 AL["Main Window"] = "Janela principal"
 AL["Minimap Button"] = "Botão mini-mapa"
-AL["Model"] = "Modelo"
 AL["Subtitle"] = "legenda"
 AL["Windows"] = "Janelas"
 AL["Show favourite item icon in item tooltip"] = "Mostrar ícone do iten favorito na dica de ferramenta do iten"
