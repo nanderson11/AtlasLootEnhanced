@@ -9667,7 +9667,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyPandaren
-			name = AL["Pandaren"],
+			name = ALIL["Pandaren"],
 			[MOP_DIFF] = {
 				{ 1,  89685, 113981 }, -- Spear of Xuen : #ACHIEVEMENTID:7333# : nil
 				{ 3,  79903, 113977 }, -- Apothecary Tins : =ds=#sr# 525 : #ACHIEVEMENTID:7332#
@@ -9717,7 +9717,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyVrykul
-			name = AL["Vrykul"],
+			name = ALIL["Vrykul"],
 			[WOTLK_DIFF] = {
 				{ 1,  64460, 90997 }, -- Nifflevar Bearded Axe : =ds=#sr# 350 : =ds=#h1#, #w1#
 				{ 3,  64464, 91014 }, -- Fanged Cloak Pin : =ds=#sr# 350 : nil
@@ -9729,7 +9729,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyDraenei
-			name = AL["Draenei"],
+			name = ALIL["Draenei"],
 			[BC_DIFF] = {
 				{ 1,  64456, 90983 }, -- Arrival of the Naaru : =ds=#sr# 300 : nil
 				{ 3,  64440, 90853 }, -- Anklet with Golden Bells : =ds=#sr# 300 : nil
@@ -9759,7 +9759,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyDwarf
-			name = AL["Dwarf"],
+			name = ALIL["Dwarf"],
 			[CLASSIC_DIFF] = {
 				{ 1,   64489, 91227 }, -- Staff of Sorcerer-Thane Thaurissan : =ds=#sr# 75 : =ds=#w9#
 				{ 3,   64372, 90521 }, -- Clockwork Gnome : =ds=#sr# 75 : =ds=#e13#
@@ -9817,7 +9817,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyNightElf
-			name = AL["Night Elf"],
+			name = ALIL["Night Elf"],
 			[CLASSIC_DIFF] = {
 				{ 1,  64645, 91757 }, -- Tyrande's Favorite Doll : =ds=#sr# 75
 				{ 2,  64643, 90616 }, -- Queen Azshara's Dressing Gown : =ds=#sr# 75
@@ -9847,7 +9847,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyTroll
-			name = AL["Troll"],
+			name = ALIL["Troll"],
 			[CLASSIC_DIFF] = {
 				{ 1,  64377, 90608 }, -- Zin'rokh, Destroyer of Worlds : =ds=#sr# 75 : =ds=#h2#, #w10#
 				{ 4,  64348, 90429 }, -- Atal'ai Scepter : =ds=#sr# 1 : #ACHIEVEMENTID:4858#
