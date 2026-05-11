@@ -24,9 +24,9 @@ local ADD_SCALING = {
 	}
 }
 
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
-local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingDungeonWithPreset", ADD_SCALING, 24)
+local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY_TIMEWALKER, "timewalkingDungeonWithPreset", ADD_SCALING, 24)
 
 local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", nil, 4)
 
@@ -37,7 +37,7 @@ local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
-local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
+local RAID_CONTENT = data:AddContentType(RAIDS, ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
 local BC_DUNGEONMASTER_AC_TABLE = { --[Outland Dungeonmaster]

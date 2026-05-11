@@ -10,19 +10,19 @@ local ADD_SCALING = {
 	}
 }
 
-local RF_DIFF = Set:AddDifficulty(AL["Raid Finder"], "rf")
-local NORMAL_DIFF = Set:AddDifficulty(AL["Normal"], "n")
+local RF_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY3, "rf")
+local NORMAL_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY1, "n")
 local HEROIC_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "h")
 local P25_DIFF = Set:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25")
 local P25H_DIFF = Set:AddDifficulty(RAID_DIFFICULTY_25PLAYER_HEROIC, "p25h")
-local MYTHIC_DIFF = Set:AddDifficulty(AL["Mythic"], "m")
+local MYTHIC_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY6, "m")
 local HEROIC_PRE_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "hB1", { "HeroicRaid", "HeroicRaidWarforged" })
-local MYTHIC_PRE_DIFF = Set:AddDifficulty(AL["Mythic"], "mB1", { "MythicRaid", "MythicRaidWarforged" })
+local MYTHIC_PRE_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY6, "mB1", { "MythicRaid", "MythicRaidWarforged" })
 
-local RF_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Raid Finder"], "LFRWithDifficulty", ADD_SCALING, 17)
-local NORMAL_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Normal"], "NormalWithDifficulty", ADD_SCALING, 14)
+local RF_DIFFICULTY_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY3, "LFRWithDifficulty", ADD_SCALING, 17)
+local NORMAL_DIFFICULTY_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY1, "NormalWithDifficulty", ADD_SCALING, 14)
 local HEROIC_DIFFICULTY_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicWithDifficulty", ADD_SCALING, 15)
-local MYTHIC_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Mythic"], "MythicWithDifficulty", ADD_SCALING, 16)
+local MYTHIC_DIFFICULTY_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY6, "MythicWithDifficulty", ADD_SCALING, 16)
 
 local SOURCE_INFO = Set:AddInfoList(AL["Source"])
 

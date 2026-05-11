@@ -18,12 +18,12 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", nil, 17)
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 14)
+local RF_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY3, "rf", nil, 17)
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", nil, 14)
 local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", nil, 15)
 local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", nil, 4)
 local P25H_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER_HEROIC, "p25h", nil, 6)
-local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
+local MYTHIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "m", nil, 16)
 
 local LEGENDARY_DIFF = data:AddDifficulty(ITEM_QUALITY5_DESC)
 
@@ -1331,7 +1331,7 @@ data["CMGEAR"]             = {
 }
 
 data["MOUNTS"]             = {
-	name = AL["Mounts"],
+	name = MOUNTS,
 	ContentType = COLLECTION_CONTENT,
 	TableType = NORMAL_ITTYPE,
 	items =
@@ -2427,7 +2427,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- Dungeons & Raids
-			name = DUNGEONS.." & "..AL["Raids"],
+			name = DUNGEONS.." & "..RAIDS,
 			[LEGION_DIFF] = {
 				{ 1, 142236, "mount" }, -- Midnight's Eternal Reins
 				{ 2, 137574, "mount" }, -- Living Infernal Core
@@ -2561,7 +2561,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- In-game Shop
-			name = AL["Shop"],
+			name = BLIZZARD_STORE,
 			[NORMAL_DIFF] = {
 				{ 1,  54811,  "mount" }, -- Celestial Steed
 				{ 2,  69846,  "mount" }, -- Winged Guardian
@@ -3224,7 +3224,7 @@ data["HEIRLOOM"]           = {
 			},
 		},
 		{ --HeirloomPVPArmor
-			name = AL["PvP"].." "..ARMOR,
+			name = PVP.." "..ARMOR,
 			[NORMAL_DIFF] = {
 				{ 1,  "122372:Stage3H", 122340 },                                -- Strengthened Stockade Pauldrons
 				{ 2,  "122372:Stage2H", 122338 },                                -- Strengthened Stockade Pauldrons
@@ -3250,7 +3250,7 @@ data["HEIRLOOM"]           = {
 			},
 		},
 		{ --HeirloomPVPWeapon
-			name = AL["PvP"].." "..AL["Weapons"],
+			name = PVP.." "..AL["Weapons"],
 			[NORMAL_DIFF] = {
 				{ 1,  "122364:Stage3H", 122341 },                                -- Sharpened Scarlet Kris
 				{ 2,  "122364:Stage2H", 122339 },                                -- Sharpened Scarlet Kris
@@ -3274,7 +3274,7 @@ data["HEIRLOOM"]           = {
 			},
 		},
 		{ --HeirloomPVPTrinkets
-			name = AL["PvP"].." "..AL["Trinkets"],
+			name = PVP.." "..AL["Trinkets"],
 			[ALLIANCE_DIFF] = {
 				{ 1,  "122530:Stage3H", 122340 },                                -- Inherited Mark of Tyranny
 				{ 2,  "122530:Stage2H", 122338 },                                -- Inherited Mark of Tyranny
@@ -3692,7 +3692,7 @@ data["LEGENDARIES"]        = {
 }
 
 data["MOLTENFRONT"]        = {
-	name = ALIL["Molten Front"].." "..AL["Rewards"],
+	name = ALIL["Molten Front"].." "..REWARDS,
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
@@ -4190,7 +4190,7 @@ data["TABARDS"]            = {
 			},
 		},
 		{ -- PvP
-			name = AL["PvP"],
+			name = PVP,
 			[ALLIANCE_DIFF] = {
 				{ 1,  115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" }, -- Primal Gladiator's Tabard
 				{ 3,  15196,  [PRICE_EXTRA_ITTYPE] = "markofhonor:1" }, -- Private's Tabard
@@ -6663,11 +6663,11 @@ data["TIERSETS_BYCLASS"]   = {
 }
 
 data["TIMELESSISLE"]       = {
-	name = ALIL["Timeless Isle"].." "..AL["Rewards"],
+	name = ALIL["Timeless Isle"].." "..REWARDS,
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = ALIL["Timeless Isle"].." "..AL["Rewards"],
+			name = ALIL["Timeless Isle"].." "..REWARDS,
 			[NORMAL_DIFF] = {
 				{ 1,   103989, [PRICE_EXTRA_ITTYPE] = "timelesscoin:50000" },                  -- Alacrity of Xuen
 				{ 2,   103988, [PRICE_EXTRA_ITTYPE] = "timelesscoin:50000" },                  -- Contemplation of Chi-Ji

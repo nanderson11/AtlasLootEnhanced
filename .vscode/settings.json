@@ -201,7 +201,16 @@
 		"AUCTION_CATEGORY_ITEM_ENHANCEMENT",
 		"ITEMS",
 		"MISCELLANEOUS",
-		"MODEL"
+		"MODEL",
+		"MOUNTS",
+		"PETS",
+		"PVP",
+		"RAIDS",
+		"REWARDS",
+		"RUNES",
+		"BLIZZARD_STORE",
+		"SPECIAL",
+		"SUMMON"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",

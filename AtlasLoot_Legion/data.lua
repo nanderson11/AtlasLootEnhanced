@@ -25,7 +25,7 @@ local ADD_SCALING = {
 	}
 }
 
-local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
+local RF_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY3, "LFRWithPreset", {
 	Item = {
 		--item1bonus = "LegionLFR",
 		item2bonus = "LegionMaxItemLvl",
@@ -33,13 +33,13 @@ local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
 		addDifficultyBonus = true,
 	},
 }, 17)
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", {
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", {
 	Item = {
 		item1bonus = "Scaling",
 		addDifficultyBonus = true,
 	},
 }, 1)
-local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset", {
+local NORMAL_RAID_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "NormalRaidWithPreset", {
 	Item = {
 		--item1bonus = nil,
 		item2bonus = "LegionMaxItemLvl",
@@ -47,7 +47,7 @@ local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "NormalRaidWithPreset"
 		addDifficultyBonus = true,
 	},
 }, 14)
-local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset", {
+local NORMAL_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "DungeonWithPreset", {
 	Item = {
 		item1bonus = "Scaling",
 		item2bonus = "LegionMaxItemLvl",
@@ -64,7 +64,7 @@ local HEROIC_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicDungeo
 		addDifficultyBonus = true,
 	},
 }, 2)
-local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWithPreset", {
+local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "MythicDungeonWithPreset", {
 	Item = {
 		--item1bonus = "LegionMDungeon",
 		item2bonus = "LegionMaxItemLvl",
@@ -80,8 +80,8 @@ local HEROIC_PRE_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicWithPreset
 		addDifficultyBonus = true,
 	},
 }, 15)
-local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
-local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", {
+local MYTHIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "m", nil, 16)
+local MYTHIC_PRE_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "MyhticWithPreset", {
 	Item = {
 		--item1bonus = "LegionMythicRaid",
 		item2bonus = "LegionMaxItemLvl",
@@ -89,14 +89,14 @@ local MYTHIC_PRE_DIFF = data:AddDifficulty(AL["Mythic"], "MyhticWithPreset", {
 		addDifficultyBonus = true,
 	},
 }, 16)
-local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingDungeonWithPreset", ADD_SCALING, 24)
+local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY_TIMEWALKER, "timewalkingDungeonWithPreset", ADD_SCALING, 24)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
-local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
+local RAID_CONTENT = data:AddContentType(RAIDS, ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
 local LEGION_DUNGEON_HERO_AC_TABLE = { --[Legion Dungeon Hero]

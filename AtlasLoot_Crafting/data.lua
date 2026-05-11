@@ -21,7 +21,7 @@ local CATA_DIFF = data:AddDifficulty(EXPANSION_NAME3)
 local WOTLK_DIFF = data:AddDifficulty(EXPANSION_NAME2)
 local BC_DIFF = data:AddDifficulty(EXPANSION_NAME1)
 local CLASSIC_DIFF = data:AddDifficulty(EXPANSION_NAME0)
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"])
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local CRAFTING_ITTYPE = data:AddItemTableType("Item", "Profession")
@@ -3960,7 +3960,7 @@ data["Engineering"] = {
 			},
 		},
 		{ --EngineeringMountsPets
-			name = AL["Mounts"].." & "..AL["Pets"],
+			name = MOUNTS.." & "..PETS,
 			[TWW_DIFF] = {
 				{ 1, 221967, 447373 }, -- Crowd Pummeler 2-30
 			},
@@ -4595,7 +4595,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionRunes
-			name = AL["Runes"],
+			name = RUNES,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 245879, 1230050 }, -- Vantus Rune: Radiant
 			},
@@ -9744,7 +9744,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyOrc
-			name = AL["Orc"],
+			name = ALIL["Orc"],
 			[BC_DIFF] = {
 				{ 1,  64644, 90843 }, -- Headdress of the First Shaman : =ds=#sr# 300 : =ds=#s1#, #a3#
 				{ 3,  64436, 90831 }, -- Fiendish Whip : =ds=#sr# 300 : nil
@@ -10235,7 +10235,7 @@ data["Cooking"] = {
 			},
 		},
 		{ --CookingSpecial
-			name = AL["Special"],
+			name = SPECIAL,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 242298, 1226194, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Argentleaf Tea
 				{ 2, 242299, 1226195, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sanguithorn Tea

@@ -17,7 +17,7 @@ local data = AtlasLoot.ItemDB:Add(addonname)
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 1)
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", nil, 1)
 
 -- change sortorder for factions
 local ALLIANCE_DIFF, HORDE_DIFF
@@ -136,7 +136,7 @@ data["ArgentTournament"]      = {
 			},
 		},
 		{ --ArgentTournamentMounts
-			name = AL["Mounts"],
+			name = MOUNTS,
 			[ALLIANCE_DIFF] = {
 				{ 1,  45591,      "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Darnassian Nightsaber
 				{ 2,  45590,      "mount", [PRICE_EXTRA_ITTYPE] = "championsseal:100" }, -- Exodar Elekk
@@ -173,7 +173,7 @@ data["ArgentTournament"]      = {
 			},
 		},
 		{ --ArgentTournamentPets
-			name = AL["Pets"],
+			name = PETS,
 			[ALLIANCE_DIFF] = {
 				{ 1, 44998, "pet214" },                                                                 -- Argent Squire
 				{ 2, 44984, "pet212",                                  [PRICE_EXTRA_ITTYPE] = "championsseal:40" }, -- Ammen Vale Lashling
@@ -401,7 +401,7 @@ data["DarkmoonFaire"]         = {
 	ContentType = PERMRECEVENTS_CONTENT,
 	items = {
 		{ --DarkmoonMountsPets
-			name = AL["Mounts"].." & "..AL["Pets"],
+			name = MOUNTS.." & "..PETS,
 			[NORMAL_DIFF] = {
 				{ 1,  73766,  "mount",   [PRICE_EXTRA_ITTYPE] = "darkmoon:180" }, -- Darkmoon Dancing Bear
 				{ 2,  72140,  "mount",   [PRICE_EXTRA_ITTYPE] = "darkmoon:180" }, -- Swift Forest Strider

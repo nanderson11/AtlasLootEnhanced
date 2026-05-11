@@ -26,8 +26,8 @@ local ADD_SCALING = {
 	}
 }
 
-local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", ADD_SCALING, 17)
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
+local RF_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY3, "rf", ADD_SCALING, 17)
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
 local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", ADD_SCALING, 4)
 
@@ -37,7 +37,7 @@ local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
 
 local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
-local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
+local RAID_CONTENT = data:AddContentType(RAIDS, ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
 local CLASSIC_INSTANCE_AC_TABLE = { --[Classic Dungeonmaster]
@@ -795,7 +795,7 @@ data["DireMaul"] = {
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT5,
 		},
 		{ --Dire Maul West - Lord Helnurath
-			name = AL["Lord Hel'nurath"].." ("..AL["Summon"]..")",
+			name = AL["Lord Hel'nurath"].." ("..SUMMON..")",
 			[NORMAL_DIFF] = DIREMAULWEST_LOOT6,
 		},
 		{ --Dire Maul West - Prince Tortheldrin
@@ -950,7 +950,7 @@ data["LowerBlackrockSpire"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = {
 		{ --LBRSFelguard
-			name = AL["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")",
+			name = AL["Burning Felguard"].." ("..AL["Rare"]..", "..SUMMON..")",
 			[NORMAL_DIFF] = {
 				{ 1, 13181 }, -- Demonskin Gloves
 				{ 2, 13182 }, -- Phase Blade

@@ -23,22 +23,22 @@ local ADD_SCALING = {
 local AL = AtlasLoot.Locales
 local ALIL = AtlasLoot.IngameLocales
 
-local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
+local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
-local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", ADD_SCALING, 23)
-local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingDungeonWithPreset", ADD_SCALING, 24)
+local MYTHIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "m", ADD_SCALING, 23)
+local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY_TIMEWALKER, "timewalkingDungeonWithPreset", ADD_SCALING, 24)
 
-local NORMAL_RAID_DIFF = data:AddDifficulty(AL["Normal"], "rn", ADD_SCALING, 3)
+local NORMAL_RAID_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "rn", ADD_SCALING, 3)
 local HEROIC_RAID_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "rh", ADD_SCALING, 5)
 local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", ADD_SCALING, 4)
 local P25H_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER_HEROIC, "p25h", ADD_SCALING, 6)
-local TIMEWALKING_RAID_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingRaidWithPreset", ADD_SCALING, 33)
+local TIMEWALKING_RAID_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY_TIMEWALKER, "timewalkingRaidWithPreset", ADD_SCALING, 33)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
-local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
+local RAID_CONTENT = data:AddContentType(RAIDS, ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
 local WOTLK_DUNGEONMASTER_AC_TABLE = { --[Northrend Dungeonmaster]

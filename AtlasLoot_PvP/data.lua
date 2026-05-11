@@ -32,7 +32,7 @@ local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 
 local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 
-local PVP_CONTENT = data:AddContentType(AL["PvP"], ATLASLOOT_PVP_COLOR)
+local PVP_CONTENT = data:AddContentType(PVP, ATLASLOOT_PVP_COLOR)
 
 --[[ template
 data["LEGION7SET"] = {
