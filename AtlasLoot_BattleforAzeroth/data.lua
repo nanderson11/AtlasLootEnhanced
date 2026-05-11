@@ -61,8 +61,8 @@ local NORMAL_DUNGEON_DIFF = data:AddDifficulty(AL["Normal"], "DungeonWithPreset"
 		addDifficultyBonus = true,
 	},
 }, 1)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 2)
-local HEROIC_DUNGEON_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicDungeonWithPreset", {
+local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", nil, 2)
+local HEROIC_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicDungeonWithPreset", {
 	Item = {
 		item2bonus = "BfAMaxItemLvl", --"BfAHCDungeonTitanforged",
 		autoCompleteItem2 = true,
@@ -76,7 +76,7 @@ local MYTHICD_DUNGEON_DIFF = data:AddDifficulty(AL["Mythic"], "MythicDungeonWith
 		addDifficultyBonus = true,
 	},
 }, 23)
-local HEROIC_PRE_DIFF = data:AddDifficulty(AL["Heroic"], "HeroicWithPreset", {
+local HEROIC_PRE_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicWithPreset", {
 	Item = {
 		item2bonus = "BfAMaxItemLvl",
 		autoCompleteItem2 = true,
@@ -97,7 +97,7 @@ local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
-local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_COLOR)
+local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables

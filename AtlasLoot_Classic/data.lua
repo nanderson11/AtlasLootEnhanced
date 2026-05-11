@@ -28,15 +28,15 @@ local ADD_SCALING = {
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", ADD_SCALING, 17)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
-local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", ADD_SCALING, 4)
+local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
+local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", ADD_SCALING, 4)
 
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
 
-local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_COLOR)
+local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
@@ -477,7 +477,7 @@ data["BlackrockDepths"] = {
 			},
 		},
 		{ --Miscellaneous Sets
-			name = AL["Miscellaneous"].." "..AL["Sets"],
+			name = MISCELLANEOUS.." "..AL["Sets"],
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_Collections:CLASSICSETS:4",
 		},
@@ -597,17 +597,17 @@ local DIREMAULENT_LOOT4 = {
 	{ 3, 18261, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Book of Incantations
 }
 local DIREMAULENT_LOOT5 = {
-	{ 1,  18328 },                                         -- Shadewood Cloak
-	{ 2,  18327 },                                         -- Whipvine Cord
-	{ 3,  18318 },                                         -- Merciful Greaves
-	{ 4,  18309 },                                         -- Gloves of Restoration
-	{ 5,  18312 },                                         -- Energized Chestplate
-	{ 6,  18326 },                                         -- Razor Gauntlets
-	{ 7,  18314 },                                         -- Ring of Demonic Guile
-	{ 8,  18315 },                                         -- Ring of Demonic Potency
-	{ 9,  18310 },                                         -- Fiendish Machete
-	{ 10, 18321 },                                         -- Energetic Rod
-	{ 12, 18501,  [ATLASLOOT_IT_FILTERIGNORE] = true },    -- Felvine Shard
+	{ 1,  18328 },                                   -- Shadewood Cloak
+	{ 2,  18327 },                                   -- Whipvine Cord
+	{ 3,  18318 },                                   -- Merciful Greaves
+	{ 4,  18309 },                                   -- Gloves of Restoration
+	{ 5,  18312 },                                   -- Energized Chestplate
+	{ 6,  18326 },                                   -- Razor Gauntlets
+	{ 7,  18314 },                                   -- Ring of Demonic Guile
+	{ 8,  18315 },                                   -- Ring of Demonic Potency
+	{ 9,  18310 },                                   -- Fiendish Machete
+	{ 10, 18321 },                                   -- Energetic Rod
+	{ 12, 18501,  [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Felvine Shard
 	{ 16, "ac644" },
 }
 local DIREMAULWEST_LOOT1 = {
@@ -1970,7 +1970,7 @@ data["Stratholme"] = {
 			},
 		},
 		{ --Miscellaneous Sets
-			name = AL["Miscellaneous"].." "..AL["Sets"],
+			name = MISCELLANEOUS.." "..AL["Sets"],
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_Collections:CLASSICSETS:4",
 		},
@@ -2354,7 +2354,7 @@ data["WailingCaverns"] = {
 			[NORMAL_DIFF] = WAILING_CAVERNS_LOOT12,
 		},
 		{ --Miscellaneous Sets
-			name = AL["Miscellaneous"].." "..AL["Sets"],
+			name = MISCELLANEOUS.." "..AL["Sets"],
 			ExtraList = true,
 			[NORMAL_DIFF] = "AtlasLoot_Collections:CLASSICSETS:4",
 		},

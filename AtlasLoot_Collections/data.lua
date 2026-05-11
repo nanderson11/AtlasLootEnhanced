@@ -20,9 +20,9 @@ local ALIL = AtlasLoot.IngameLocales
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "rf", nil, 17)
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", nil, 14)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", nil, 15)
-local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
-local P25H_DIFF = data:AddDifficulty(AL["25 Player Heroic"], "p25h", nil, 6)
+local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", nil, 15)
+local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", nil, 4)
+local P25H_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER_HEROIC, "p25h", nil, 6)
 local MYTHIC_DIFF = data:AddDifficulty(AL["Mythic"], "m", nil, 16)
 
 local LEGENDARY_DIFF = data:AddDifficulty(ITEM_QUALITY5_DESC)
@@ -1005,7 +1005,7 @@ data["APEXISCRYSTALGEAR"]  = {
 	ContentType = COLLECTION_CONTENT,
 	items = {
 		{
-			name = string.format(AL["ilvl %d"], 650).." "..AL["Armor"],
+			name = string.format(AL["ilvl %d"], 650).." "..ARMOR,
 			[NORMAL_DIFF] = {
 				{ 1,  128225, [PRICE_EXTRA_ITTYPE] = "apexis:20000" }, -- Empowered Apexis Fragment
 				{ 3,  124554, [PRICE_EXTRA_ITTYPE] = "apexis:5000" }, -- Baleful Hood
@@ -1024,7 +1024,7 @@ data["APEXISCRYSTALGEAR"]  = {
 			},
 		},
 		{
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[NORMAL_DIFF] = {
 				{ 1,   123974, "mount",                                            [PRICE_EXTRA_ITTYPE] = "apexis:150000" },   -- Reins of the Corrupted Dreadwing
 				{ 2,   116785, "mount",                                            [PRICE_EXTRA_ITTYPE] = "money:50000000:apexis:5000" }, -- Swift Frostwolf
@@ -1922,7 +1922,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- Achievements
-			name = AL["Achievements"],
+			name = ACHIEVEMENTS,
 			CoinTexture = "Achievement",
 			[NORMAL_DIFF] = {
 				-- Alliance
@@ -2360,7 +2360,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- Black Market Auction House
-			name = AL["Black Market Auction House"],
+			name = BLACK_MARKET_AUCTION_HOUSE,
 			[NORMAL_DIFF] = {
 				{ 1,   13335,  "mount" }, -- Deathcharger's Reins
 				{ 2,   23720,  "mount" }, -- Riding Turtle
@@ -2402,7 +2402,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- Crafting
-			name = AL["Crafting"],
+			name = PROFESSIONS_CRAFTING,
 			[NORMAL_DIFF] = {
 				{ 1,  65891,  "mount" }, -- Vial of the Sands
 				{ 3,  60954,  "mount" }, -- Fossilized Raptor
@@ -2427,7 +2427,7 @@ data["MOUNTS"]             = {
 			},
 		},
 		{ -- Dungeons & Raids
-			name = AL["Dungeons"].." & "..AL["Raids"],
+			name = DUNGEONS.." & "..AL["Raids"],
 			[LEGION_DIFF] = {
 				{ 1, 142236, "mount" }, -- Midnight's Eternal Reins
 				{ 2, 137574, "mount" }, -- Living Infernal Core
@@ -2736,7 +2736,7 @@ data["CLASSICSETS"]        = {
 			},
 		},
 		{
-			name = AL["Miscellaneous"].." "..AL["Sets"],
+			name = MISCELLANEOUS.." "..AL["Sets"],
 			[NORMAL_DIFF] = {
 				{ 1,  "ClassicMisc:ironweavebattlesuit:n" },
 				{ 3,  "ClassicMisc:thegladiator:n" },
@@ -3224,7 +3224,7 @@ data["HEIRLOOM"]           = {
 			},
 		},
 		{ --HeirloomPVPArmor
-			name = AL["PvP"].." "..AL["Armor"],
+			name = AL["PvP"].." "..ARMOR,
 			[NORMAL_DIFF] = {
 				{ 1,  "122372:Stage3H", 122340 },                                -- Strengthened Stockade Pauldrons
 				{ 2,  "122372:Stage2H", 122338 },                                -- Strengthened Stockade Pauldrons
@@ -3291,7 +3291,7 @@ data["HEIRLOOM"]           = {
 			},
 		},
 		{ --HeirloomMiscellaneous
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[NORMAL_DIFF] = {
 				{ 1, 122703, "ac9909" }, -- Chauffeured Chopper
 			},
@@ -4134,7 +4134,7 @@ data["TABARDS"]            = {
 			},
 		},
 		{ -- Guild
-			name = AL["Guild"],
+			name = GUILD,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1, 69210, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Guild Tabard	-- NEUTRAL

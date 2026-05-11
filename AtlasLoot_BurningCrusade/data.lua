@@ -17,7 +17,6 @@ local data = AtlasLoot.ItemDB:Add(addonname, 2)
 AtlasLoot:RegisterModules(addonname)
 
 local AL = AtlasLoot.Locales
-local ALIL = AtlasLoot.IngameLocales
 
 local ADD_SCALING = {
 	Item = {
@@ -26,8 +25,10 @@ local ADD_SCALING = {
 }
 
 local NORMAL_DIFF = data:AddDifficulty(AL["Normal"], "n", ADD_SCALING, 1)
-local HEROIC_DIFF = data:AddDifficulty(AL["Heroic"], "h", ADD_SCALING, 2)
-local P25_DIFF = data:AddDifficulty(AL["25 Player"], "p25", nil, 4)
+local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
+local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(AL["Timewalking"], "timewalkingDungeonWithPreset", ADD_SCALING, 24)
+
+local P25_DIFF = data:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25", nil, 4)
 
 local ALLIANCE_DIFF = data:AddDifficulty(FACTION_ALLIANCE, "alliance", nil, 1)
 local HORDE_DIFF = data:AddDifficulty(FACTION_HORDE, "horde", nil, 1)
@@ -35,10 +36,7 @@ local HORDE_DIFF = data:AddDifficulty(FACTION_HORDE, "horde", nil, 1)
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
-local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
-local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
-
-local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_COLOR)
+local DUNGEON_CONTENT = data:AddContentType(DUNGEONS, ATLASLOOT_DUNGEON_COLOR)
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables

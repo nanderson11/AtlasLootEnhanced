@@ -167,7 +167,7 @@ ATLASLOOT_MODULE_LIST = {
 	},
 	{
 		addonName = "AtlasLoot_Crafting",
-		name = AL["Crafting"],
+		name = PROFESSIONS_CRAFTING,
 		tt_title = nil, -- ToolTip title
 		tt_text = nil, -- ToolTip text
 	},

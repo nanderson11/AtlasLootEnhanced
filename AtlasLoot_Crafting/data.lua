@@ -395,7 +395,7 @@ data["Alchemy"] = {
 			},
 		},
 		{ --AlchemyMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 241340, 1230885 }, -- Magister's Alchemist Stone
 				{ 2, 241291, 1230861 }, -- Primal Philosopher's Stone
@@ -829,7 +829,7 @@ data["Blacksmithing"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --SmithingArmor
-			name = AL["Armor"],
+			name = ARMOR,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  244463, 1230766 },                          -- Murder Row Fleet Feet
 				{ 2,  244472, 1230767 },                          -- Knight-Commander's Palisade
@@ -1857,7 +1857,7 @@ data["Blacksmithing"] = {
 			},
 		},
 		{ --SmithingMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 238197, 1230761 },                                      -- Refulgent Copper Ingot
 				{ 2, 238202, 1230762 },                                      -- Gloaming Alloy
@@ -2722,7 +2722,7 @@ data["Enchanting"] = {
 			},
 		},
 		{ --EnchantingMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  243733, 1236491, [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Thalassian Phoenix Oil
 				{ 2,  243735, 1236492, [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Oil of Dawn
@@ -3238,7 +3238,7 @@ data["Engineering"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --EngineeringArmorWeapons
-			name = AL["Armor"].." & "..AL["Weapons"],
+			name = ARMOR.." & "..AL["Weapons"],
 			[MIDNIGHT_DIFF] = {
 				{ 1,   244746, 1229873 },                          -- Aetherlume Sun Guard
 				{ 2,   244774, 1229881 },                          -- Aetherlume Stompers
@@ -3789,7 +3789,7 @@ data["Engineering"] = {
 			},
 		},
 		{ --EngineeringMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 257751, 1261913 }, -- Weighted Boomshots
 				{ 2, 257749, 1261895 }, -- Laced Zoomshots
@@ -4702,7 +4702,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 265337, 1230062, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Aln'hara Sprigshot
 				{ 2, 265336, 1230058, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Faunatender's Trust
@@ -4936,7 +4936,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionItemEnhancements
-			name = AL["Item Enhancements"],
+			name = AUCTION_CATEGORY_ITEM_ENHANCEMENT,
 			[NORMAL_DIFF] = {
 				{ 1,   128018,     178248, [PRICE_EXTRA_ITTYPE] = "119297:5" }, -- Ensorcelled Tarot (Sold, Ashran)
 				{ 2,   127718,     187495, [PRICE_EXTRA_ITTYPE] = "114931:20" }, -- Mighty Ensorcelled Tarot (Sold, Ashran)
@@ -4968,7 +4968,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionDeathKnight
-			name = AL["Glyphs"].." - "..ALIL["DEATHKNIGHT"],
+			name = GLYPHS.." - "..ALIL["DEATHKNIGHT"],
 			[NORMAL_DIFF] = {
 				{ 1, 43535,  57209 }, -- Glyph of the Geist
 				{ 2, 43551,  57224 }, -- Glyph of Foul Menagerie
@@ -4979,7 +4979,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionDemonHunter
-			name = AL["Glyphs"].." - "..ALIL["DEMONHUNTER"],
+			name = GLYPHS.." - "..ALIL["DEMONHUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1, 133796 }, -- Glyph of Fearsome Metamorphosis
 				{ 2, 139362, 225529 }, -- Glyph of Mana Touched Souls
@@ -4991,7 +4991,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionDruid
-			name = AL["Glyphs"].." - "..ALIL["DRUID"],
+			name = GLYPHS.." - "..ALIL["DRUID"],
 			[NORMAL_DIFF] = {
 				{ 1,  40919,  56948 }, -- Glyph of the Orca
 				{ 2,  43334,  58287 }, -- Glyph of the Ursol Chameleon
@@ -5008,7 +5008,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionHunter
-			name = AL["Glyphs"].." - "..ALIL["HUNTER"],
+			name = GLYPHS.." - "..ALIL["HUNTER"],
 			[NORMAL_DIFF] = {
 				{ 1, 43350,  58301 }, -- Glyph of Lesser Proportion
 				{ 2, 137238, 225543 }, -- Glyph of the Trident
@@ -5021,7 +5021,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionMage
-			name = AL["Glyphs"].." - "..ALIL["MAGE"],
+			name = GLYPHS.." - "..ALIL["MAGE"],
 			[NORMAL_DIFF] = {
 				{ 1, 42751,  56986 }, -- Glyph of Crittermorph
 				{ 2, 104104, 148270 }, -- Glyph of the Unbound Elemental
@@ -5032,7 +5032,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionMonk
-			name = AL["Glyphs"].." - "..ALIL["MONK"],
+			name = GLYPHS.." - "..ALIL["MONK"],
 			[NORMAL_DIFF] = {
 				{ 1, 87881,  112462 }, -- Glyph of Crackling Tiger Lightning
 				{ 2, 87883,  112464 }, -- Glyph of Honor
@@ -5043,7 +5043,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionPaladin
-			name = AL["Glyphs"].." - "..ALIL["PALADIN"],
+			name = GLYPHS.." - "..ALIL["PALADIN"],
 			[NORMAL_DIFF] = {
 				{ 1, 41100,  57032 }, -- Glyph of the Luminous Charger
 				{ 2, 43366,  58312 }, -- Glyph of Winged Vengeance
@@ -5053,7 +5053,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionPriest
-			name = AL["Glyphs"].." - "..ALIL["PRIEST"],
+			name = GLYPHS.." - "..ALIL["PRIEST"],
 			[LEGION_DIFF] = {
 				-- 7.3.0
 				{ 1, 153036, 254238 }, -- Glyph of Dark Absolution
@@ -5071,7 +5071,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionRogue
-			name = AL["Glyphs"].." - "..ALIL["ROGUE"],
+			name = GLYPHS.." - "..ALIL["ROGUE"],
 			[TWW_DIFF] = {
 				{ 1, 234246, 1213515 },                                    -- Glyph of the Admiral's Pistol Shot
 				{ 2, 234245, 1213517 },                                    -- Glyph of the Ashvane Pistol Shot
@@ -5086,7 +5086,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionShaman
-			name = AL["Glyphs"].." - "..ALIL["SHAMAN"],
+			name = GLYPHS.." - "..ALIL["SHAMAN"],
 			[NORMAL_DIFF] = {
 				{ 1, 43386,  58332 }, -- Glyph of the Spectral Wolf
 				{ 2, 104126, 148281 }, -- Glyph of Spirit Raptors
@@ -5098,7 +5098,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionWarlock
-			name = AL["Glyphs"].." - "..ALIL["WARLOCK"],
+			name = GLYPHS.." - "..ALIL["WARLOCK"],
 			[NORMAL_DIFF] = {
 				{ 1,  42459,  57263 }, -- Glyph of Felguard
 				{ 2,  43394,  58341 }, -- Glyph of Soulwell
@@ -5113,7 +5113,7 @@ data["Inscription"] = {
 			},
 		},
 		{ --InscriptionWarrior
-			name = AL["Glyphs"].." - "..ALIL["WARRIOR"],
+			name = GLYPHS.." - "..ALIL["WARRIOR"],
 			[NORMAL_DIFF] = {
 				{ 1, 43398,  58345 }, -- Glyph of Gushing Wound
 				{ 2, 43400,  58347 }, -- Glyph of Mighty Victory
@@ -6026,7 +6026,7 @@ data["Jewelcrafting"] = {
 			},
 		},
 		{ --JewelMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  240974, 1230474 }, -- Kaleidoscopic Prism
 				{ 2,  240972, 1230475 }, -- Sin'dorei Lens
@@ -6668,7 +6668,7 @@ data["Leatherworking"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --LeatherLeatherArmor
-			name = AL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..ARMOR,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  244612, 1237486, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Row Walker's Deflectors
 				{ 2,  244613, 1237487 },                                                          -- Row Walker's Insurance
@@ -7336,7 +7336,7 @@ data["Leatherworking"] = {
 			},
 		},
 		{ --LeatherMailArmor
-			name = AL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..ARMOR,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  244602, 1237515 },                          -- Ranger-General's Grips
 				{ 2,  244605, 1237516 },                          -- Axe-Flingin' Bands
@@ -7983,7 +7983,7 @@ data["Leatherworking"] = {
 			},
 		},
 		{ --LeatherMiscellaneous
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 244639, 1237547 }, -- Void-touched Drums
 				{ 3, 244603, 1237577 }, -- Blessed Pango Charm
@@ -8363,7 +8363,7 @@ data["Tailoring"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --TailoringArmor
-			name = AL["Armor"],
+			name = ARMOR,
 			[MIDNIGHT_DIFF] = {
 				{ 1,   239658, 1228982 },                          -- Sunfire Cloak
 				{ 2,   239659, 1228983 },                          -- Sunfire Treads
@@ -9294,7 +9294,7 @@ data["Tailoring"] = {
 			},
 		},
 		{ --TailoringMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[MIDNIGHT_DIFF] = {
 				{ 1,  240166, 1228961 }, -- Arcanoweave Lining
 				{ 2,  240164, 1228960 }, -- Sunfire Silk Lining
@@ -9521,7 +9521,7 @@ data["Archaeology"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --ArchaeologyArmorWeapons
-			name = AL["Armor"].." & "..AL["Weapons"],
+			name = ARMOR.." & "..AL["Weapons"],
 			[NORMAL_DIFF] = {
 				{ 1,  64885,  92163 }, -- Scimitar of the Sirocco : AL["Tol'vir"]
 				{ 2,  64460,  90997 }, -- Nifflevar Bearded Axe : AL["Vrykul"]
@@ -9545,7 +9545,7 @@ data["Archaeology"] = {
 			},
 		},
 		{ --ArchaeologyMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[NORMAL_DIFF] = {
 				{ 1,  67538,  91790 }, -- Recipe: Vial of the Sands : AL["Tol'vir"] : (p1 525)
 				{ 2,  60954,  90619 }, -- Fossilized Raptor : AL["Fossil"]
@@ -9877,7 +9877,7 @@ data["Cooking"] = {
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --CookingAttributes
-			name = AL["Attributes"],
+			name = STAT_CATEGORY_ATTRIBUTES,
 			[MIDNIGHT_DIFF] = {
 				{ 1, 242275, 1226171, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Royal Roast
 				{ 2, 255847, 1259654, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Impossibly Royal Roast

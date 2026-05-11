@@ -43,7 +43,7 @@ data["ArgentTournament"]      = {
 	ContentType = PERMRECEVENTS_CONTENT,
 	items = {
 		{ --ArgentTournamentGear
-			name = AL["Armor"].." / "..AL["Weapons"],
+			name = ARMOR.." / "..AL["Weapons"],
 			[ALLIANCE_DIFF] = {
 				{ 1,  45156, [PRICE_EXTRA_ITTYPE] = "championsseal:10" }, -- Sash of Shattering Hearts
 				{ 2,  45181, [PRICE_EXTRA_ITTYPE] = "championsseal:10" }, -- Wrap of the Everliving Tree
@@ -196,7 +196,7 @@ data["ArgentTournament"]      = {
 			},
 		},
 		{ --ArgentTournamentMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[ALLIANCE_DIFF] = {
 				{ 1,  45714, [PRICE_EXTRA_ITTYPE] = "46114:1" }, -- Darnassus Commendation Badge
 				{ 2,  45715, [PRICE_EXTRA_ITTYPE] = "46114:1" }, -- Exodar Commendation Badge
@@ -341,7 +341,7 @@ data["BrawlersGuild"]         = {
 			},
 		},
 		{ -- Miscellaneous
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[ALLIANCE_DIFF] = {
 				-- Potions
 				{ 1,  253011, [PRICE_EXTRA_ITTYPE] = "money:24000" },                     -- Brawler's Healing Brute Punch
@@ -397,7 +397,7 @@ data["BrawlersGuild"]         = {
 }
 
 data["DarkmoonFaire"]         = {
-	name = AL["Darkmoon Faire"],
+	name = CALENDAR_FILTER_DARKMOON,
 	ContentType = PERMRECEVENTS_CONTENT,
 	items = {
 		{ --DarkmoonMountsPets
@@ -566,7 +566,7 @@ data["DarkmoonFaire"]         = {
 			},
 		},
 		{ --DarkmoonHeirloomArmor
-			name = AL["Heirloom"].." - "..AL["Armor"],
+			name = AL["Heirloom"].." - "..ARMOR,
 			[NORMAL_DIFF] = {
 				{ 1,  93859, [PRICE_EXTRA_ITTYPE] = "42985:1:darkmoon:44" }, -- Bloodstained Dreadmist Mantle
 				{ 2,  93864, [PRICE_EXTRA_ITTYPE] = "42984:1:darkmoon:44" }, -- Majestic Ironfeather Shoulders
@@ -1100,7 +1100,7 @@ data["LoveisintheAir"]        = {
 			},
 		},
 		{ --LoveisintheAirMisc
-			name = AL["Miscellaneous"],
+			name = MISCELLANEOUS,
 			[NORMAL_DIFF] = {
 				{ 1,  116651, "ac9394" },                                                        -- True Love Prism
 				{ 3,  50160,  "ac1694",                             [PRICE_EXTRA_ITTYPE] = "lovetoken:20" }, -- Lovely Dress Box
@@ -1323,7 +1323,7 @@ data["ChildrensWeek"]         = {
 		{ --ChildrensWeek
 			name = AL["Children's Week"],
 			[NORMAL_DIFF] = {
-				{ 1,   "INV_Box_01", nil,                                AL["Azeroth"],                              ALIL["Stormwind City"].." / "..ALIL["Orgrimmar"] },
+				{ 1,   "INV_Box_01", nil,                                AZEROTH,                                    ALIL["Stormwind City"].." / "..ALIL["Orgrimmar"] },
 				{ 2,   23007,        "pet126" },                -- Piglet's Collar
 				{ 3,   23015,        "pet127" },                -- Rat Cage
 				{ 4,   66073,        "pet289" },                -- Snail Shell

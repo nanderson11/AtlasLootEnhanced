@@ -12,16 +12,16 @@ local ADD_SCALING = {
 
 local RF_DIFF = Set:AddDifficulty(AL["Raid Finder"], "rf")
 local NORMAL_DIFF = Set:AddDifficulty(AL["Normal"], "n")
-local HEROIC_DIFF = Set:AddDifficulty(AL["Heroic"], "h")
-local P25_DIFF = Set:AddDifficulty(AL["25 Player"], "p25")
-local P25H_DIFF = Set:AddDifficulty(AL["25 Player Heroic"], "p25h")
+local HEROIC_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "h")
+local P25_DIFF = Set:AddDifficulty(RAID_DIFFICULTY_25PLAYER, "p25")
+local P25H_DIFF = Set:AddDifficulty(RAID_DIFFICULTY_25PLAYER_HEROIC, "p25h")
 local MYTHIC_DIFF = Set:AddDifficulty(AL["Mythic"], "m")
-local HEROIC_PRE_DIFF = Set:AddDifficulty(AL["Heroic"], "hB1", { "HeroicRaid", "HeroicRaidWarforged" })
+local HEROIC_PRE_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "hB1", { "HeroicRaid", "HeroicRaidWarforged" })
 local MYTHIC_PRE_DIFF = Set:AddDifficulty(AL["Mythic"], "mB1", { "MythicRaid", "MythicRaidWarforged" })
 
 local RF_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Raid Finder"], "LFRWithDifficulty", ADD_SCALING, 17)
 local NORMAL_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Normal"], "NormalWithDifficulty", ADD_SCALING, 14)
-local HEROIC_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Heroic"], "HeroicWithDifficulty", ADD_SCALING, 15)
+local HEROIC_DIFFICULTY_DIFF = Set:AddDifficulty(PLAYER_DIFFICULTY2, "HeroicWithDifficulty", ADD_SCALING, 15)
 local MYTHIC_DIFFICULTY_DIFF = Set:AddDifficulty(AL["Mythic"], "MythicWithDifficulty", ADD_SCALING, 16)
 
 local SOURCE_INFO = Set:AddInfoList(AL["Source"])
@@ -273,7 +273,7 @@ local SetTable = {
 	},
 
 	["ClassicMisc"] = { -- Miscellaneous Classic Sets
-		name = AL["Miscellaneous"].." "..AL["Sets"],
+		name = MISCELLANEOUS.." "..AL["Sets"],
 		{            -- Ironweave Battlesuit
 			name = C_Item.GetItemSetInfo(520).." ("..AL["Cloth"]..")",
 			subSetName = "ironweavebattlesuit",
@@ -2910,7 +2910,7 @@ local SetTable = {
 			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
 		},
 		{ -- LFR Cloth
-			name = AL["Cloth"].." "..AL["Armor"],
+			name = AL["Cloth"].." "..ARMOR,
 			subSetName = "rfcloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -2924,7 +2924,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Leather
-			name = AL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..ARMOR,
 			subSetName = "rfleather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -2938,7 +2938,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Mail
-			name = AL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..ARMOR,
 			subSetName = "rfmail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -2952,7 +2952,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Plate
-			name = AL["Plate"].." "..AL["Armor"],
+			name = AL["Plate"].." "..ARMOR,
 			subSetName = "rfplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -3150,7 +3150,7 @@ local SetTable = {
 			[MYTHIC_PRE_DIFF] = NORMAL_DIFF,
 		},
 		{ -- LFR Cloth
-			name = AL["Cloth"].." "..AL["Armor"],
+			name = AL["Cloth"].." "..ARMOR,
 			subSetName = "rfcloth",
 			icon = "mage",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -3164,7 +3164,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Leather
-			name = AL["Leather"].." "..AL["Armor"],
+			name = AL["Leather"].." "..ARMOR,
 			subSetName = "rfleather",
 			icon = "rogue",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -3178,7 +3178,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Mail
-			name = AL["Mail"].." "..AL["Armor"],
+			name = AL["Mail"].." "..ARMOR,
 			subSetName = "rfmail",
 			icon = "hunter",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -3192,7 +3192,7 @@ local SetTable = {
 			},
 		},
 		{ -- LFR Plate
-			name = AL["Plate"].." "..AL["Armor"],
+			name = AL["Plate"].." "..ARMOR,
 			subSetName = "rfplate",
 			icon = "warri",
 			[SOURCE_INFO] = "sourceTemplateLFR",
@@ -9755,17 +9755,17 @@ local SetTable = {
 	["Tier3"] = { -- T3 Sets
 		name = format(AL["Tier %d Sets"], 3),
 		sourceTemplate = {
-			AL["Black Market Auction House"], -- Head
-			AL["Black Market Auction House"], -- Shoulder
-			AL["Black Market Auction House"], -- Chest
-			AL["Black Market Auction House"], -- Wrist
-			AL["Black Market Auction House"], -- Hands
-			AL["Black Market Auction House"], -- Waist
-			AL["Black Market Auction House"], -- Legs
-			AL["Black Market Auction House"], -- Feet
+			BLACK_MARKET_AUCTION_HOUSE, -- Head
+			BLACK_MARKET_AUCTION_HOUSE, -- Shoulder
+			BLACK_MARKET_AUCTION_HOUSE, -- Chest
+			BLACK_MARKET_AUCTION_HOUSE, -- Wrist
+			BLACK_MARKET_AUCTION_HOUSE, -- Hands
+			BLACK_MARKET_AUCTION_HOUSE, -- Waist
+			BLACK_MARKET_AUCTION_HOUSE, -- Legs
+			BLACK_MARKET_AUCTION_HOUSE, -- Feet
 			AL["No longer available"], -- Finger
 		},
-		{                            -- Druid
+		{                      -- Druid
 			name = ALIL["DRUID"],
 			subSetName = "druid",
 			icon = "druid",
