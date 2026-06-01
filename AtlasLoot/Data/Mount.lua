@@ -1444,6 +1444,8 @@ local MOUNT_INFO = {
 		[1287359] = 270058, -- Void-Corrupted Lynx
 		[1282276] = 268364, -- Gilneas Loyalist's Rouncey
 		[1282275] = 268363, -- Pyrewood Rebel's Rouncey
+		[1283908] = 268877, -- Dusk-Painted Sun Roc
+		[1283910] = 268876, -- Flame-Painted Sun Roc
 		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
 
 		-- [449416] = 223570, -- Ebonhide Ramolith

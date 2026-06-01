@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.22.6 -
+## 9.22.6 - June 1, 2026
 ### Added
+- Added June Trading Post items to Collections
 - Added Timewalking difficulty to TBC instances
 ### Changed
 - Significant additions, fixes and changes to TBC instance loot

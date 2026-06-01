@@ -1413,6 +1413,8 @@ data["MOUNTS"]             = {
 				{ 212, 270058, "mount" },                                       -- Rope Lynx Harness
 				{ 213, 268364, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Gilneas Loyalist's Rouncey
 				{ 214, 268363, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Pyrewood Rebel's Rouncey
+				{ 215, 268877, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Dusk-Painted Sun Roc
+				{ 216, 268876, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Flame-Painted Sun Roc
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 			},
 			[HORDE_DIFF] = {
@@ -6808,6 +6810,7 @@ data["COMPANIONS"]         = {
 				{ 212, 269999, "pet5020" },                                     -- Overloaded Manaling
 				{ 213, 270062, "pet5022" },                                     -- Void-Touched Chick
 				{ 214, 270063, "pet5023" },                                     -- Void-Touched Lynx Kitten
+				{ 215, 72153,  "pet665",  [PRICE_EXTRA_ITTYPE] = "tender:250" }, -- Sand Scarab
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
