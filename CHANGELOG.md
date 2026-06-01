@@ -1,5 +1,12 @@
 ﻿# Changelog
 
+## 9.22.6 -
+### Added
+- Added Timewalking difficulty to TBC instances
+### Changed
+- Significant additions, fixes and changes to TBC instance loot
+- Switched many translations to in-game translations, hopefully yielding better or at least more consistent translations
+
 ## 9.22.5 - May 4, 2026
 ### Added
 - Added Witherbark Warbear Mother to Collections
