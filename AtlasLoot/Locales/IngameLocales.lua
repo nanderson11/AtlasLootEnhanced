@@ -119,13 +119,11 @@ local IngameLocales = {
 	["Ahn'Qiraj"]             = GetMapName(319),
 	["Blackrock Depths"]      = GetMapName(242),
 	["Blackwing Lair"]        = GetMapName(287),
-	["Lower Blackrock Spire"] = GetAchievementName(643),
 	["Molten Core"]           = GetMapName(232),
 	["Orgrimmar"]             = GetMapName(85),
 	["Ruins of Ahn'Qiraj"]    = GetMapName(247),
 	["Shadowfang Keep"]       = GetMapName(310),
 	["Stormwind City"]        = GetMapName(84),
-	["Upper Blackrock Spire"] = GetAchievementName(1307),
 
 	-- Burning Crusade
 	["Black Temple"]          = GetMapName(339),

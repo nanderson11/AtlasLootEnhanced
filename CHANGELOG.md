@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## 9.22.7 -
+### Added
+- Added Timewalking difficulty to Vanilla instances
+### Changed
+- Significant additions, fixes and changes to Vanilla instance loot
+
 ## 9.22.6 - June 1, 2026
 ### Added
 - Added June Trading Post items to Collections
