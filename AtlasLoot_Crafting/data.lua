@@ -69,6 +69,26 @@ data["Alchemy"] = {
 				{ 18, 212311, 430616, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Enhanced Ambidexterity
 				{ 19, 212308, 430615, [ATLASLOOT_IT_AMOUNT1] = 4 },                                  -- Phial of Truesight
 			},
+			[DF_DIFF] = {
+				{ 1,  191318, 370438, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of the Eye in the Storm
+				{ 2,  197720, 381270, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Aerated Phial of Quick Hands
+				{ 3,  191336, 370463, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Static Empowerment
+				{ 4,  191342, 370472, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Aerated Phial of Deftness
+				{ 5,  191330, 370460, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Charged Isolation
+				{ 6,  191348, 370476, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Charged Phial of Alacrity
+				{ 7,  191321, 370453, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Still Air
+				{ 8,  191327, 370457, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Iced Phial of Corrupting Rage
+				{ 9,  191345, 370473, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Steaming Phial of Finesse
+				{ 10, 191324, 370456, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Icy Preservation
+				{ 11, 191339, 370465, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Tepid Versatility
+				{ 12, 191333, 370462, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Glacial Fury
+				{ 13, 191354, 370483, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Crystalline Phial of Perception
+				{ 14, 191357, 370504, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Phial of Elemental Chaos
+			},
+			[SL_DIFF] = {
+				{ 1, 171276, 307101 }, -- Spectral Flask of Power
+				{ 2, 171278, 307103 }, -- Spectral Flask of Stamina
+			},
 			[BFA_DIFF] = {
 				{ 1,  152639, 252351 }, -- Flask of Endless Fathoms
 				{ 2,  152639, 252352 }, -- Flask of Endless Fathoms
@@ -174,6 +194,48 @@ data["Alchemy"] = {
 				{ 12, 212251, 430595,  [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Draught of Shocking Revelations
 				{ 13, 212248, 430594,  [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Draught of Silent Footfalls
 				{ 14, 248331, 1246966, [ATLASLOOT_IT_AMOUNT1] = 5, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Umbral Essentia
+			},
+			[DF_DIFF] = {
+				{ 1,  191384, 370547, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Aerated Mana Potion
+				{ 2,  204370, 405832, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Stinky Bright Potion
+				{ 3,  191372, 370533, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Residual Neural Channeling Agent
+				{ 4,  191360, 370521, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Bottled Putrescence
+				{ 5,  191396, 370558, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Gusts
+				{ 6,  191393, 370556, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of the Hushed Zephyr
+				{ 7,  191399, 370561, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Shocking Disclosure
+				{ 8,  207021, 415628, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Dreamwalker's Healing Potion
+				{ 9,  191375, 370536, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Delicate Suspension of Spores
+				{ 10, 191363, 370524, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Frozen Focus
+				{ 11, 191378, 370539, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Refreshing Healing Potion
+				{ 12, 191369, 370528, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Withering Vitality
+				{ 13, 191351, 370478, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Frozen Fatality
+				{ 14, 191366, 370525, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Chilled Clarity
+				{ 15, 207039, 415810, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Potion of Withering Dreams
+				{ 16, 191381, 370543, [ATLASLOOT_IT_AMOUNT1] = 20 }, -- Elemental Potion of Ultimate Power
+				{ 17, 191387, 370551, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Elemental Potion of Power
+			},
+			[SL_DIFF] = {
+				{ 1,  171271, 307094 }, -- Potion of Hardened Shadows
+				{ 2,  171275, 307098 }, -- Potion of Spectral Strength
+				{ 3,  171268, 301683 }, -- Spiritual Mana Potion
+				{ 4,  176811, 322301 }, -- Potion of Sacrificial Anima
+				{ 5,  171272, 307095 }, -- Potion of Spiritual Clarity
+				{ 6,  171351, 307384 }, -- Potion of Deathly Fixation
+				{ 7,  171267, 301578 }, -- Spiritual Healing Potion
+				{ 8,  171269, 261423 }, -- Spiritual Rejuvenation Potion
+				{ 9,  171273, 307096 }, -- Potion of Spectral Intellect
+				{ 10, 187802, 359870 }, -- Cosmic Healing Potion
+				{ 11, 171349, 307382 }, -- Potion of Phantom Fire
+				{ 12, 171270, 307093 }, -- Potion of Spectral Agility
+				{ 13, 171274, 307097 }, -- Potion of Spectral Stamina
+				{ 14, 171350, 307383 }, -- Potion of Divine Awakening
+				{ 15, 171352, 307381 }, -- Potion of Empowered Exorcisms
+				{ 16, 171266, 261424 }, -- Potion of the Hidden Spirit
+				{ 17, 171370, 256133 }, -- Potion of Specter Swiftness
+				{ 18, 184090, 344316 }, -- Potion of the Psychopomp's Speed
+				{ 19, 183823, 342887 }, -- Potion of Unhindered Passing
+				{ 20, 171264, 295084 }, -- Potion of Shaded Sight
+				{ 21, 171263, 256134 }, -- Potion of Soul Purity
 			},
 			[BFA_DIFF] = {
 				{ 1,   163225, 279165 }, -- Battle Potion of Stamina
@@ -411,6 +473,57 @@ data["Alchemy"] = {
 				{ 8, 228404, 462122 },                          -- Petal Powder
 				{ 9, 228401, 462121 },                          -- Bubbling Mycobloom Culture
 			},
+			[DF_DIFF] = {
+				{ 1,  191492, 370677 },                 -- Alacritous Alchemist Stone
+				{ 2,  191491, 370676 },                 -- Sustaining Alchemist Stone
+				{ 4,  204633, 405879 },                 -- Cauldron of Extracted Putrescence
+				{ 5,  191488, 370673, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Cauldron of the Pooka
+				{ 6,  191482, 370668 },                 -- Potion Cauldron of Power
+				{ 7,  204238, 406106 },                 -- Draconic Phial Cauldron
+				{ 8,  191485, 370672 },                 -- Potion Cauldron of Ultimate Power
+				{ 10, 191493, 370717, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Primal Convergent
+				{ 11, 191496, 370722 },                 -- Omnium Draconis
+				{ 13, 203407, 400270 },                 -- Draconic Suppression Powder
+				{ 16, 191514, 370730, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Brood Salt
+				{ 17, 191520, 370732, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Agitating Potion Augmentation
+				{ 18, 191511, 370729, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Stable Fluidic Draconium
+				{ 19, 191517, 370731, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Writhefire Oil
+				{ 20, 191523, 370733, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Reactive Phial Embellishment
+				{ 21, 191529, 370735 },                 -- Illustrious Insight
+				{ 22, 191532, 370738 },                 -- Potion Absorption Inhibitor
+				{ 24, 191499, 370723, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sagacious Incense
+				{ 25, 191502, 370724, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Somniferous Incense
+				{ 26, 191505, 370725, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Exultant Incense
+				{ 27, 191508, 370728, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Fervid Incense
+			},
+			[SL_DIFF] = {
+				{ 1,  171323, 307200 }, -- Spiritual Alchemy Stone
+				{ 3,  171284, 307087 }, -- Eternal Cauldron
+				{ 5,  171301, 307100 }, -- Spiritual Anti-Venom
+				{ 7,  183942, 343675 }, -- Novice Crafter's Mark
+				{ 8,  187827, 360014 }, -- Infusion: Corpse Purification
+				{ 9,  187742, 359673 }, -- Crafter's Mark of the First Ones
+				{ 10, 187741, 359666 }, -- Crafter's Mark IV
+				{ 11, 173383, 343677 }, -- Crafter's Mark III
+				{ 12, 173382, 343678 }, -- Crafter's Mark II
+				{ 13, 187850, 360318 }, -- Sustaining Armor Polish
+				{ 14, 173381, 343679 }, -- Crafter's Mark I
+				{ 15, 173384, 343676 }, -- Crafter's Mark of the Chained Isle
+				{ 16, 171288, 307121 }, -- Ground Vigil's Torch
+				{ 17, 171290, 307123 }, -- Ground Marrowroot
+				{ 18, 171292, 307125 }, -- Ground Nightshade
+				{ 19, 171287, 307120 }, -- Ground Death Blossom
+				{ 20, 171289, 307122 }, -- Ground Widowbloom
+				{ 21, 171291, 307124 }, -- Ground Rising Glory
+				{ 22, 171286, 307119 }, -- Embalmer's Oil
+				{ 23, 171285, 307118 }, -- Shadowcore Oil
+				{ 25, 186699, 354882 }, -- Widow Burst
+				{ 26, 186698, 354884 }, -- Torch Burst
+				{ 27, 186701, 354881 }, -- Glory Burst
+				{ 28, 186697, 354885 }, -- Blossom Burst
+				{ 29, 186700, 354880 }, -- Marrow Burst
+				{ 30, 180751, 334413 }, -- Red Noggin Candle
+			},
 			[BFA_DIFF] = {
 				{ 1,  162519, 276975 }, -- Mystical Cauldron
 				{ 2,  162519, 276976 }, -- Mystical Cauldron
@@ -522,6 +635,20 @@ data["Alchemy"] = {
 				{ 12, 223884, 430620 }, -- Volatile Weaving
 				-- { 13, 223884, 430621 }, -- Volatile Stone (ends up being the same as Weaving)
 				{ 13, 211802, 449575 }, -- Volatile Coalescence
+			},
+			[DF_DIFF] = {
+				{ 1, 190327, 370711, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Transmute: Awakened Air
+				{ 2, 190329, 370708, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Transmute: Awakened Frost
+				{ 3, 190316, 370710, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Transmute: Awakened Earth
+				{ 4, 190321, 370707, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Transmute: Awakened Fire
+				{ 5, 192182, 370714 },                 -- Transmute: Decay to Elements
+				{ 6, 192181, 370715 },                 -- Transmute: Order to Elements
+				{ 7, 204463, 405847 },                 -- Transmute: Dracothyst
+			},
+			[SL_DIFF] = {
+				{ 1, 186694, 307144 },                 -- Stones to Ore
+				{ 2, 171428, 307142, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Shadowghast Ingot
+				{ 3, 180457, 307143 },                 -- Shadestone
 			},
 			[BFA_DIFF] = {
 				{ 1,  152668, 251832 }, -- Transmute: Expulsom

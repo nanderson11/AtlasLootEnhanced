@@ -3,6 +3,7 @@
 ## 9.22.7 -
 ### Added
 - Added Timewalking difficulty to Vanilla instances
+- Added Dragonflight and Shadowlands Alchemy recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
 
