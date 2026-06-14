@@ -1014,6 +1014,113 @@ data["Blacksmithing"] = {
 				{ 24, 217144, 438915, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Sabatons
 				{ 25, 217149, 438920, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Waistguard
 			},
+			[DF_DIFF] = {
+				{ 1,   190526, 367614 }, -- Allied Wristguard of Companionship
+				{ 2,   190519, 367615 }, -- Allied Chestplate of Generosity
+				{ 3,   191623, 367618 }, -- Unstable Frostfire Belt
+				{ 4,   190523, 367619 }, -- Frostfire Legguards of Preparation
+				{ 5,   210646, 426332 }, -- Flourishing Dream Helm
+				{ 6,   190498, 367605 }, -- Primal Molten Helm
+				{ 7,   190497, 367606 }, -- Primal Molten Gauntlets
+				{ 8,   190496, 367607 }, -- Primal Molten Sabatons
+				{ 9,   190495, 367608 }, -- Primal Molten Breastplate
+				{ 10,  190502, 367601 }, -- Primal Molten Vambraces
+				{ 11,  190501, 367602 }, -- Primal Molten Greatbelt
+				{ 12,  190500, 367603 }, -- Primal Molten Pauldrons
+				{ 13,  190499, 367604 }, -- Primal Molten Legplates
+				{ 14,  201954, 395881 }, -- Explorer's Expert Greaves
+				{ 15,  189539, 367609 }, -- Explorer's Plate Bracers
+				{ 16,  189537, 367610 }, -- Explorer's Plate Boots
+				{ 17,  201951, 395883 }, -- Explorer's Expert Helm
+				{ 18,  201953, 395879 }, -- Explorer's Expert Gauntlets
+				{ 19,  201955, 367611 }, -- Explorer's Expert Clasp
+				{ 20,  189538, 395886 }, -- Explorer's Plate Chestguard
+				{ 21,  201952, 395880 }, -- Explorer's Expert Spaulders
+				{ 23,  191985, 367616 }, -- Infurious Warboots of Impunity
+				{ 24,  190522, 367617 }, -- Infurious Helm of Vengeance
+				{ 25,  211569, 430089 }, -- Draconic Combatant's Draconium Waistguard
+				{ 26,  211567, 430085 }, -- Draconic Combatant's Draconium Greaves
+				{ 27,  211566, 430086 }, -- Draconic Combatant's Draconium Helm
+				{ 28,  211568, 430087 }, -- Draconic Combatant's Draconium Pauldrons
+				{ 29,  211564, 430088 }, -- Draconic Combatant's Draconium Sabatons
+				{ 30,  211570, 430082 }, -- Draconic Combatant's Draconium Armguards
+				{ 101, 211563, 430083 }, -- Draconic Combatant's Draconium Breastplate
+				{ 102, 211565, 430084 }, -- Draconic Combatant's Draconium Gauntlets
+				{ 103, 208264, 419032 }, -- Verdant Combatant's Draconium Breastplate
+				{ 104, 208266, 419033 }, -- Verdant Combatant's Draconium Gauntlets
+				{ 105, 208268, 419034 }, -- Verdant Combatant's Draconium Greaves
+				{ 106, 208267, 419035 }, -- Verdant Combatant's Draconium Helm
+				{ 107, 208269, 419036 }, -- Verdant Combatant's Draconium Pauldrons
+				{ 108, 208265, 419037 }, -- Verdant Combatant's Draconium Sabatons
+				{ 109, 208271, 419031 }, -- Verdant Combatant's Draconium Armguards
+				{ 110, 208270, 419038 }, -- Verdant Combatant's Draconium Waistguard
+				{ 111, 204123, 403160 }, -- Obsidian Combatant's Draconium Gauntlets
+				{ 112, 204126, 403163 }, -- Obsidian Combatant's Draconium Pauldrons
+				{ 113, 204125, 403161 }, -- Obsidian Combatant's Draconium Greaves
+				{ 114, 204122, 403164 }, -- Obsidian Combatant's Draconium Sabatons
+				{ 115, 204124, 403162 }, -- Obsidian Combatant's Draconium Helm
+				{ 116, 204127, 403165 }, -- Obsidian Combatant's Draconium Waistguard
+				{ 117, 204121, 403159 }, -- Obsidian Combatant's Draconium Breastplate
+				{ 118, 204128, 403158 }, -- Obsidian Combatant's Draconium Armguards
+				{ 119, 193602, 376618 }, -- Crimson Combatant's Draconium Breastplate
+				{ 120, 193604, 376619 }, -- Crimson Combatant's Draconium Gauntlets
+				{ 121, 193606, 376620 }, -- Crimson Combatant's Draconium Greaves
+				{ 122, 193605, 376621 }, -- Crimson Combatant's Draconium Helm
+				{ 123, 193607, 376622 }, -- Crimson Combatant's Draconium Pauldrons
+				{ 124, 193608, 376624 }, -- Crimson Combatant's Draconium Waistguard
+				{ 125, 193603, 376623 }, -- Crimson Combatant's Draconium Sabatons
+				{ 126, 193609, 376617 }, -- Crimson Combatant's Draconium Armguards
+			},
+			[SL_DIFF] = {
+				{ 1,   171444, 322589 }, -- Shadowsteel Gauntlets
+				{ 2,   171447, 322593 }, -- Shadowsteel Pauldrons
+				{ 3,   171445, 322590 }, -- Shadowsteel Helm
+				{ 4,   171448, 322594 }, -- Shadowsteel Waistguard
+				{ 5,   171442, 322587 }, -- Shadowsteel Breastplate
+				{ 6,   171446, 322591 }, -- Shadowsteel Greaves
+				{ 7,   171443, 322588 }, -- Shadowsteel Sabatons
+				{ 8,   171449, 322595 }, -- Shadowsteel Armguards
+				{ 9,   171375, 307664 }, -- Ceremonious Sabatons
+				{ 10,  171381, 307670 }, -- Ceremonious Armguards
+				{ 11,  171380, 307669 }, -- Ceremonious Waistguard
+				{ 12,  171376, 307665 }, -- Ceremonious Gauntlets
+				{ 13,  171374, 307663 }, -- Ceremonious Breastplate
+				{ 14,  171378, 307667 }, -- Ceremonious Greaves
+				{ 15,  171377, 307666 }, -- Ceremonious Helm
+				{ 16,  171379, 307668 }, -- Ceremonious Pauldrons
+				{ 18,  171413, 338969 }, -- Shadowghast Sabatons
+				{ 19,  171413, 332047 }, -- Shadowghast Sabatons
+				{ 20,  171413, 332012 }, -- Shadowghast Sabatons
+				{ 21,  171413, 307711 }, -- Shadowghast Sabatons
+				{ 23,  171419, 338976 }, -- Shadowghast Armguards
+				{ 24,  171419, 332041 }, -- Shadowghast Armguards
+				{ 25,  171419, 332006 }, -- Shadowghast Armguards
+				{ 26,  171419, 307705 }, -- Shadowghast Armguards
+				{ 101, 171414, 338970 }, -- Shadowghast Gauntlets
+				{ 102, 171414, 332046 }, -- Shadowghast Gauntlets
+				{ 103, 171414, 332011 }, -- Shadowghast Gauntlets
+				{ 104, 171414, 307710 }, -- Shadowghast Gauntlets
+				{ 106, 171418, 338975 }, -- Shadowghast Waistguard
+				{ 107, 171418, 332042 }, -- Shadowghast Waistguard
+				{ 108, 171418, 332007 }, -- Shadowghast Waistguard
+				{ 109, 171418, 307706 }, -- Shadowghast Waistguard
+				{ 111, 171417, 338974 }, -- Shadowghast Pauldrons
+				{ 112, 171417, 332043 }, -- Shadowghast Pauldrons
+				{ 113, 171417, 332008 }, -- Shadowghast Pauldrons
+				{ 114, 171417, 307707 }, -- Shadowghast Pauldrons
+				{ 116, 171412, 338968 }, -- Shadowghast Breastplate
+				{ 117, 171412, 332048 }, -- Shadowghast Breastplate
+				{ 118, 171412, 332013 }, -- Shadowghast Breastplate
+				{ 119, 171412, 307712 }, -- Shadowghast Breastplate
+				{ 121, 171416, 338972 }, -- Shadowghast Greaves
+				{ 122, 171416, 332044 }, -- Shadowghast Greaves
+				{ 123, 171416, 332009 }, -- Shadowghast Greaves
+				{ 124, 171416, 307708 }, -- Shadowghast Greaves
+				{ 126, 171415, 338971 }, -- Shadowghast Helm
+				{ 127, 171415, 332045 }, -- Shadowghast Helm
+				{ 128, 171415, 332010 }, -- Shadowghast Helm
+				{ 129, 171415, 307709 }, -- Shadowghast Helm
+			},
 			[BFA_DIFF] = {
 				{ 1,   152811, 253190 }, -- Stormsteel Girdle
 				{ 2,   162465, 253191 }, -- Imbued Stormsteel Girdle
@@ -1700,6 +1807,47 @@ data["Blacksmithing"] = {
 				{ 102, 225377, 455004, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Sword
 				{ 103, 225373, 455000, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Shield
 			},
+			[DF_DIFF] = {
+				{ 1,  205046, 408283 }, -- Shadowed Razing Annihilator
+				{ 2,  205168, 408326 }, -- Shadowed Impact Buckler
+				{ 3,  192081, 367623 }, -- Shield of the Hearth
+				{ 4,  190515, 367588 }, -- Obsidian Seared Halberd
+				{ 5,  190511, 367587 }, -- Obsidian Seared Hexsword
+				{ 6,  190518, 367593 }, -- Obsidian Seared Slicer
+				{ 7,  190514, 367590 }, -- Obsidian Seared Claymore
+				{ 8,  190512, 367594 }, -- Obsidian Seared Runeaxe
+				{ 9,  190516, 367591 }, -- Obsidian Seared Crusher
+				{ 10, 190517, 367592 }, -- Obsidian Seared Invoker
+				{ 11, 190513, 367589 }, -- Obsidian Seared Facesmasher
+				{ 12, 190509, 367586 }, -- Primal Molten Mace
+				{ 13, 190510, 365734 }, -- Primal Molten Greataxe
+				{ 14, 190508, 365729 }, -- Primal Molten Warglaive
+				{ 15, 190505, 365730 }, -- Primal Molten Shortblade
+				{ 16, 190506, 365731 }, -- Primal Molten Spellblade
+				{ 17, 190507, 367585 }, -- Primal Molten Longsword
+				{ 18, 190503, 367622 }, -- Primal Molten Defender
+				{ 19, 190485, 367595 }, -- Draconium Knuckles
+				{ 20, 190483, 367596 }, -- Draconium Dirk
+				{ 21, 190482, 367597 }, -- Draconium Stiletto
+				{ 22, 190486, 367598 }, -- Draconium Great Mace
+				{ 23, 190484, 367599 }, -- Draconium Sword
+				{ 24, 201324, 393416 }, -- Draconium Great Axe
+				{ 25, 190487, 367600 }, -- Draconium Axe
+				{ 26, 201322, 393404 }, -- Draconium Defender
+			},
+			[SL_DIFF] = {
+				{ 1,  171382, 307675 }, -- Ceremonious Rapier
+				{ 2,  171390, 307679 }, -- Ceremonious Blade
+				{ 3,  171388, 307672 }, -- Ceremonious Axe
+				{ 4,  171389, 307676 }, -- Ceremonious Reaper
+				{ 5,  171385, 307680 }, -- Ceremonious Shanker
+				{ 6,  171384, 307677 }, -- Ceremonious Smasher
+				{ 7,  171386, 307681 }, -- Ceremonious Spear
+				{ 8,  171387, 307674 }, -- Ceremonious Mace
+				{ 9,  171383, 307678 }, -- Ceremonious Claymore
+				{ 10, 171392, 307682 }, -- Ceremonious Warglaive
+				{ 11, 171391, 307671 }, -- Ceremonious Shield
+			},
 			[BFA_DIFF] = {
 				{ 1,   159857, 269476 }, -- Honorable Combatant's Shanker
 				{ 2,   159857, 269477 }, -- Honorable Combatant's Shanker
@@ -2006,6 +2154,39 @@ data["Blacksmithing"] = {
 				{ 12, 222520, 450291 },                                   -- Coreforged Repair Hammer
 				{ 13, 222523, 450292, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Coreforged Skeleton Key
 			},
+			[DF_DIFF] = {
+				{ 1,  190533, 367713, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Obsidian Seared Alloy
+				{ 2,  204995, 408282, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Shadowed Alloy
+				{ 3,  190530, 367712, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Frostfire Alloy
+				{ 4,  190536, 367714, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Infurious Alloy
+				{ 5,  189541, 365735, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Primal Molten Alloy
+				{ 7,  194542, 377281 },                 -- Prototype Explorer's Barding Framework
+				{ 8,  194541, 377280 },                 -- Prototype Regal Barding Framework
+				{ 10, 191304, 388279 },                 -- Sturdy Expedition Shovel
+				{ 11, 201366, 393853 },                 -- Master's Hammer
+				{ 12, 191256, 371394, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Serevite Skeleton Key
+				{ 13, 205038, 408299 },                 -- Heat-Resistant Rescue Ring
+				{ 14, 191260, 371395 },                 -- Serevite Repair Hammer
+				{ 15, 191250, 371349 },                 -- Armor Spikes
+				{ 16, 205043, 408288 },                 -- Shadowed Belt Clasp
+				{ 17, 203408, 400808 },                 -- Ancient Ceremonial Trident
+				{ 18, 204832, 409224 },                 -- Reclaimed Gauntlet Chassis
+				{ 19, 191529, 376700 },                 -- Illustrious Insight
+				{ 21, 191886, 371403 },                 -- Alvin the Anvil
+			},
+			[SL_DIFF] = {
+				{ 1,  171428, 307611, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Shadowghast Ingot
+				{ 3,  171441, 307721 },                 -- Laestrite Skeleton Key
+				{ 5,  187784, 359700 },                 -- Vestige of the Eternal
+				{ 6,  185960, 352439 },                 -- Vestige of Origins
+				{ 7,  187742, 359671 },                 -- Crafter's Mark of the First Ones
+				{ 8,  173384, 343188 },                 -- Crafter's Mark of the Chained Isle
+				{ 9,  187741, 359665 },                 -- Crafter's Mark IV
+				{ 10, 173383, 343186 },                 -- Crafter's Mark III
+				{ 11, 173382, 343185 },                 -- Crafter's Mark II
+				{ 12, 173381, 343184 },                 -- Crafter's Mark I
+				{ 13, 183942, 343662 },                 -- Novice Crafter's Mark
+			},
 			[BFA_DIFF] = {
 				{ 1,  152812, 253110 }, -- Monel-Hardened Hoofplates
 				{ 2,  159826, 269064 }, -- Monelite Skeleton Key
@@ -2062,6 +2243,17 @@ data["Blacksmithing"] = {
 				{ 1, 222502, 450285, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Ironclaw Whetstone
 				{ 2, 222508, 450287, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Ironclaw Weightstone
 				{ 3, 222505, 450286 },                 -- Ironclaw Razorstone
+			},
+			[DF_DIFF] = {
+				{ 1, 191933, 371650, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Primal Whetstone
+				{ 2, 191943, 371674, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Primal Weightstone
+				{ 3, 191948, 371682, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Primal Razorstone
+			},
+			[SL_DIFF] = {
+				{ 1, 171439, 307720 }, -- Shaded Weightstone
+				{ 2, 171437, 307718 }, -- Shaded Sharpening Stone
+				{ 3, 171438, 307719 }, -- Porous Weightstone
+				{ 4, 171436, 307717 }, -- Porous Sharpening Stone
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  127731, 187514, [PRICE_EXTRA_ITTYPE] = "109118:60" }, -- Savage Steelforged Essence (Sold, Ashran)
@@ -2136,6 +2328,25 @@ data["Blacksmithing"] = {
 				{ 21, 222481, 450268 },                          -- Proficient Pickaxe
 				{ 22, 222480, 450267 },                          -- Proficient Sickle
 				{ 23, 222482, 450269 },                          -- Proficient Skinning Knife
+			},
+			[DF_DIFF] = {
+				{ 1,  191228, 371372 }, -- Black Dragon Touched Hammer
+				{ 2,  191224, 371365 }, -- Khaz'gorite Sickle
+				{ 3,  191888, 371412 }, -- Khaz'gorite Blacksmith's Hammer
+				{ 4,  191226, 371368 }, -- Khaz'gorite Needle Set
+				{ 5,  191229, 371371 }, -- Khaz'gorite Leatherworker's Toolset
+				{ 6,  191230, 371374 }, -- Khaz'gorite Blacksmith's Toolbox
+				{ 7,  191227, 371369 }, -- Khaz'gorite Leatherworker's Knife
+				{ 8,  191225, 371367 }, -- Khaz'gorite Skinning Knife
+				{ 9,  191223, 371366 }, -- Khaz'gorite Pickaxe
+				{ 16, 191238, 371338 }, -- Draconium Leatherworker's Knife
+				{ 17, 191235, 371364 }, -- Draconium Blacksmith's Toolbox
+				{ 18, 191239, 371302 }, -- Draconium Needle Set
+				{ 19, 191240, 371304 }, -- Draconium Skinning Knife
+				{ 20, 191241, 371343 }, -- Draconium Sickle
+				{ 21, 191237, 371344 }, -- Draconium Blacksmith's Hammer
+				{ 22, 191236, 371360 }, -- Draconium Leatherworker's Toolset
+				{ 23, 191242, 371309 }, -- Draconium Pickaxe
 			},
 		},
 		{ -- SmithingDecor

@@ -3,7 +3,8 @@
 ## 9.22.7 -
 ### Added
 - Added Timewalking difficulty to Vanilla instances
-- Added Dragonflight and Shadowlands Alchemy recipes
+- Added DF and SL Alchemy recipes
+- Added DF and SL Blacksmithing recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
 
