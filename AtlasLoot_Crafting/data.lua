@@ -2602,6 +2602,14 @@ data["Enchanting"] = {
 				{ 1, 224405, 445355 }, -- Scepter of Radiant Magics
 				{ 2, 224404, 445324 }, -- Enchanted Spearwood Wand
 			},
+			[DF_DIFF] = {
+				{ 1, 200642, 391179 }, -- Torch of Primal Awakening
+				{ 2, 204401, 405803 }, -- Spore Keeper's Baton
+				{ 3, 200641, 391176 }, -- Enchanted Writhebark Wand
+			},
+			[SL_DIFF] = {
+				{ 1, 172462, 265105 }, -- Enchanted Twilight Wand
+			},
 			[BFA_DIFF] = {
 				{ 1,  159922, 269715 }, -- Honorable Combatant's Sorcerous Scepter
 				{ 2,  159922, 269716 }, -- Honorable Combatant's Sorcerous Scepter
@@ -2637,6 +2645,28 @@ data["Enchanting"] = {
 				{ 7, 223779, 445339 }, -- Enchant Weapon - Authority of Radiant Power
 				{ 8, 223770, 445336 }, -- Enchant Weapon - Authority of Storms
 				{ 9, 223782, 445341 }, -- Enchant Weapon - Authority of the Depths
+			},
+			[DF_DIFF] = {
+				{ 1,  204621, 405076 }, -- Shadowflame Wreathe
+				{ 2,  199968, 389549 }, -- Earthen Devotion
+				{ 3,  207085, 416047 }, -- Dreaming Devotion
+				{ 4,  199970, 389550 }, -- Sophic Devotion
+				{ 5,  199974, 389558 }, -- Wafting Devotion
+				{ 6,  199966, 389547 }, -- Burning Devotion
+				{ 7,  199972, 389551 }, -- Frozen Devotion
+				{ 8,  199969, 389540 }, -- Earthen Writ
+				{ 9,  204613, 404859 }, -- Spore Tender
+				{ 10, 199971, 389542 }, -- Sophic Writ
+				{ 11, 199967, 389537 }, -- Burning Writ
+				{ 12, 199973, 389543 }, -- Frozen Writ
+				{ 13, 199975, 389546 }, -- Wafting Writ
+			},
+			[SL_DIFF] = {
+				{ 1, 172370, 309620 }, -- Lightless Force
+				{ 2, 172365, 309622 }, -- Ascended Vigor
+				{ 3, 172367, 309621 }, -- Eternal Grace
+				{ 4, 172368, 309623 }, -- Sinful Revelation
+				{ 5, 172366, 309627 }, -- Celestial Guidance
 			},
 			[BFA_DIFF] = {
 				{ 1,   153479, 255129, [ATLASLOOT_IT_AMOUNT1] = "10%" }, -- Weapon Enchant - Torrent of Elements
@@ -2787,6 +2817,16 @@ data["Enchanting"] = {
 				{ 2, 223651, 445368, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Boots - Scout's March
 				{ 3, 223618, 445335, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Boots - Cavalry's March
 			},
+			[DF_DIFF] = {
+				{ 1, 199934, 389479 }, -- Plainsrunner's Breeze
+				{ 2, 199935, 389480 }, -- Rider's Reassurance
+				{ 3, 199936, 389484 }, -- Watcher's Loam
+			},
+			[SL_DIFF] = {
+				{ 1, 172413, 309532 }, -- Agile Soulwalker
+				{ 2, 177661, 323609 }, -- Soul Treads
+				{ 3, 172419, 309534 }, -- Eternal Agility
+			},
 			[MOP_DIFF] = {
 				{ 1, 74718, 104414 }, -- Enchant Boots - Pandaren's Step : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
 				{ 2, 74717, 104409 }, -- Enchant Boots - Blurred Speed : =ds=#sr# 550 : =ds=AtlasLoot["Trainer"]
@@ -2848,6 +2888,20 @@ data["Enchanting"] = {
 				{ 2, 223687, 445321 },                          -- Enchant Chest - Oathsworn's Strength
 				{ 3, 223681, 445353 },                          -- Enchant Chest - Stormrider's Agility
 				{ 4, 223684, 445322, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Chest - Council's Intellect
+			},
+			[DF_DIFF] = {
+				{ 1, 199943, 389416 }, -- Accelerated Agility
+				{ 2, 199944, 389417 }, -- Reserve of Intellect
+				{ 3, 199946, 389410 }, -- Waking Stats
+				{ 4, 199945, 389419 }, -- Sustained Strength
+			},
+			[SL_DIFF] = {
+				{ 1, 177659, 323760 }, -- Eternal Skirmish
+				{ 2, 177716, 323762 }, -- Sacred Stats
+				{ 3, 172418, 309535 }, -- Eternal Bulwark
+				{ 4, 177715, 323761 }, -- Eternal Bounds
+				{ 5, 177962, 324773 }, -- Eternal Stats
+				{ 6, 183738, 342316 }, -- Eternal Insight
 			},
 			[MOP_DIFF] = {
 				{ 1, 74708, 104395 }, -- Enchant Chest - Glorious Stats : =ds=#sr# 575 : =ds=AtlasLoot["Trainer"]
@@ -2928,6 +2982,26 @@ data["Enchanting"] = {
 				{ 10, 223675, 445375 }, -- Enchant Ring - Radiant Mastery
 				{ 11, 223672, 445320 }, -- Enchant Ring - Radiant Haste
 				{ 12, 223660, 445387 }, -- Enchant Ring - Radiant Critical Strike
+			},
+			[DF_DIFF] = {
+				{ 1, 199955, 389294 }, -- Devotion of Mastery
+				{ 2, 199954, 389293 }, -- Devotion of Haste
+				{ 3, 199956, 389295 }, -- Devotion of Versatility
+				{ 4, 199953, 389292 }, -- Devotion of Critical Strike
+				{ 5, 199958, 389135 }, -- Writ of Haste
+				{ 6, 199960, 389151 }, -- Writ of Versatility
+				{ 7, 199959, 389136 }, -- Writ of Mastery
+				{ 8, 199957, 388930 }, -- Writ of Critical Strike
+			},
+			[SL_DIFF] = {
+				{ 1, 172362, 309617 }, -- Tenet of Haste
+				{ 2, 172364, 309619 }, -- Tenet of Versatility
+				{ 3, 172361, 309616 }, -- Tenet of Critical Strike
+				{ 4, 172363, 309618 }, -- Tenet of Mastery
+				{ 5, 172358, 309613 }, -- Bargain of Haste
+				{ 6, 172360, 309615 }, -- Bargain of Versatility
+				{ 7, 172357, 309612 }, -- Bargain of Critical Strike
+				{ 8, 172359, 309614 }, -- Bargain of Mastery
 			},
 			[BFA_DIFF] = {
 				{ 1,  153442, 255075, [ATLASLOOT_IT_AMOUNT1] = "9" }, -- Pact of Critical Strike
@@ -3058,6 +3132,16 @@ data["Enchanting"] = {
 				{ 8, 223702, 445380, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Perception
 				{ 9, 223705, 445398, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Enchant Tool - Algari Resourcefulness
 			},
+			[DF_DIFF] = {
+				{ 1, 198716, 390825 }, -- Runed Khaz'gorite Rod
+				{ 2, 198715, 390823 }, -- Runed Draconium Rod
+				{ 3, 201601, 394189 }, -- Runed Serevite Rod
+				{ 5, 199964, 389525 }, -- Draconic Perception
+				{ 6, 199962, 389513 }, -- Draconic Finesse
+				{ 7, 199961, 389508 }, -- Draconic Deftness
+				{ 8, 199963, 389519 }, -- Draconic Ingenuity
+				{ 9, 199965, 389530 }, -- Draconic Resourcefulness
+			},
 		},
 		{ --EnchantingMisc
 			name = MISCELLANEOUS,
@@ -3125,6 +3209,54 @@ data["Enchanting"] = {
 				{ 102, 224322, 445397 },                                                      -- Gleeful Glamour - Worgen
 				{ 103, 224323, 445345 },                                                      -- Gleeful Glamour - Zandalari Troll
 				{ 104, 249706, 1249469 },                                                     -- Gleeful Glamour - Ethereal
+			},
+			[DF_DIFF] = {
+				{ 1,   200479, 390831 }, -- Sophic Amalgamation
+				{ 2,   200469, 390855 }, -- Khadgar's Disenchanting Rod
+				{ 4,   211519, 429947 }, -- Enchanted Aspect's Awakened Crest
+				{ 5,   211518, 429945 }, -- Enchanted Wyrm's Awakened Crest
+				{ 6,   211520, 429948 }, -- Enchanted Whelpling's Awakened Crest
+				{ 7,   206961, 414989 }, -- Enchanted Aspect's Dreaming Crest
+				{ 8,   206960, 414988 }, -- Enchanted Wyrm's Dreaming Crest
+				{ 9,   206977, 414985 }, -- Enchanted Whelpling's Dreaming Crest
+				{ 10,  204697, 406418 }, -- Enchanted Aspect's Shadowflame Crest
+				{ 11,  204682, 406413 }, -- Enchanted Wyrm's Shadowflame Crest
+				{ 12,  204681, 406108 }, -- Enchanted Whelpling's Shadowflame Crest
+				{ 13,  204673, 405937 }, -- Titan Training Matrix V
+				{ 16,  203410, 400809 }, -- Glowing Crystal Bookmark
+				{ 17,  210003, 422338 }, -- Shalasar's Sophic Vellum
+				{ 18,  191529, 391202 }, -- Illustrious Insight
+				{ 19,  200618, 391185 }, -- Primal Invocation Extract
+				{ 21,  200470, 390839 }, -- Illusion: Primal Mastery
+				{ 22,  200883, 391813 }, -- Illusion: Primal Air
+				{ 23,  200905, 391814 }, -- Illusion: Primal Earth
+				{ 24,  200906, 391815 }, -- Illusion: Primal Fire
+				{ 25,  200907, 391816 }, -- Illusion: Primal Frost
+				{ 26,  204567, 405650 }, -- Illusory Adornment: Spores
+				{ 27,  201310, 391809 }, -- Illusory Adornment: Frost
+				{ 28,  201316, 391810 }, -- Illusory Adornment: Air
+				{ 29,  201313, 391811 }, -- Illusory Adornment: Earth
+				{ 30,  200616, 390951 }, -- Illusory Adornment: Fire
+				{ 101, 201319, 391812 }, -- Illusory Adornment: Order
+				{ 102, 206969, 414946 }, -- Illusory Adornment: Dreams
+				{ 103, 201161, 391806 }, -- Scepter of Spectacle: Air
+				{ 104, 201160, 391807 }, -- Scepter of Spectacle: Earth
+				{ 105, 201158, 391808 }, -- Scepter of Spectacle: Order
+				{ 106, 200535, 391197 }, -- Scepter of Spectacle: Frost
+				{ 107, 200472, 391196 }, -- Scepter of Spectacle: Fire
+			},
+			[SL_DIFF] = {
+				{ 1,  172438, 309637 },                 -- Enchanted Heavy Callous Hide
+				{ 2,  172439, 309638 },                 -- Enchanted Lightless Silk
+				{ 3,  172437, 309636 },                 -- Enchanted Elethium Bar
+				{ 4,  172231, 309645, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Eternal Crystal
+				{ 5,  172230, 309644, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Sacred Shard
+				{ 7,  187825, 360013 },                 -- Cosmic Protoweave
+				{ 8,  187823, 360007 },                 -- Magically Regulated Automa Core
+				{ 9,  173382, 343683 },                 -- Crafter's Mark II
+				{ 10, 173381, 343684 },                 -- Crafter's Mark I
+				{ 11, 183942, 343680 },                 -- Novice Crafter's Mark
+				{ 13, 186973, 355184 },                 -- Anima-ted Leash
 			},
 			[BFA_DIFF] = {
 				{ 1, 162110, 278418 }, -- Disenchanting Rod
@@ -3268,6 +3400,19 @@ data["Enchanting"] = {
 				{ 5, 223717, 445325, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Enchant Bracer - Chant of Armored Leech
 				{ 6, 223711, 445334, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Enchant Bracer - Chant of Armored Avoidance
 			},
+			[DF_DIFF] = {
+				{ 1, 199937, 389301 }, -- Devotion of Avoidance
+				{ 2, 199938, 389303 }, -- Devotion of Leech
+				{ 3, 199939, 389304 }, -- Devotion of Speed
+				{ 4, 199941, 389298 }, -- Writ of Leech
+				{ 5, 199942, 389300 }, -- Writ of Speed
+				{ 6, 199940, 389297 }, -- Writ of Avoidance
+			},
+			[SL_DIFF] = {
+				{ 1, 172416, 309610 }, -- Shaded Hearthing
+				{ 2, 172414, 309608 }, -- Illuminated Soul
+				{ 3, 172415, 309609 }, -- Eternal Intellect
+			},
 			[BFA_DIFF] = {
 				{ 1,  160328, 271366 }, -- Safe Hearthing
 				{ 2,  160330, 271433 }, -- Cooled Hearthing
@@ -3353,6 +3498,20 @@ data["Enchanting"] = {
 				{ 5, 223735, 445393 }, -- Enchant Cloak - Chant of Leeching Fangs
 				{ 6, 223729, 445386 }, -- Enchant Cloak - Chant of Winged Grace
 			},
+			[DF_DIFF] = {
+				{ 1, 199947, 389403 }, -- Graceful Avoidance
+				{ 2, 199948, 389405 }, -- Homebound Speed
+				{ 3, 199949, 389404 }, -- Regenerative Leech
+				{ 4, 199952, 389400 }, -- Writ of Speed
+				{ 5, 199951, 389398 }, -- Writ of Leech
+				{ 6, 199950, 389397 }, -- Writ of Avoidance
+			},
+			[SL_DIFF] = {
+				{ 1, 177660, 323755 }, -- Soul Vitality
+				{ 2, 172411, 309530 }, -- Fortified Avoidance
+				{ 3, 172412, 309531 }, -- Fortified Leech
+				{ 4, 172410, 309528 }, -- Fortified Speed
+			},
 			[LEGION_DIFF] = {
 				{ 1,  128549, 190878 }, -- Binding of Agility
 				{ 2,  128549, 191004 }, -- Binding of Agility
@@ -3431,6 +3590,11 @@ data["Enchanting"] = {
 		},
 		{ --EnchantingGloves
 			name = AL["Gloves"],
+			[SL_DIFF] = {
+				{ 1, 172408, 309526 }, -- Eternal Strength
+				{ 2, 172406, 309524 }, -- Shadowlands Gathering
+				{ 3, 172407, 309525 }, -- Strength of Soul
+			},
 			[BFA_DIFF] = {
 				{ 1,  159466, 267482 }, -- Zandalari Mining
 				{ 2,  159471, 267498 }, -- Zandalari Crafting

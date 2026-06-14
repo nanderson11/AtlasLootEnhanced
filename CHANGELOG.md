@@ -5,6 +5,7 @@
 - Added Timewalking difficulty to Vanilla instances
 - Added DF and SL Alchemy recipes
 - Added DF and SL Blacksmithing recipes
+- Added DF and SL Enchanting recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
 
