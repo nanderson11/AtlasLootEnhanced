@@ -3819,6 +3819,41 @@ data["Engineering"] = {
 				{ 22, 217158, 438929, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Plate Bracers
 				{ 23, 225370, 455005, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Rifle
 			},
+			[DF_DIFF] = {
+				{ 1,  198327, 382318 }, -- Needlessly Complex Wristguards
+				{ 2,  198332, 382319 }, -- Complicated Cuffs
+				{ 3,  198333, 382320 }, -- Difficult Wrist Protectors
+				{ 4,  198322, 382317 }, -- Overengineered Sleeve Extenders
+				{ 5,  198324, 382389 }, -- Peripheral Vision Projectors
+				{ 6,  198325, 382390 }, -- Oscillating Wilderness Opticals
+				{ 7,  198326, 382391 }, -- Battle-Ready Binoculars
+				{ 8,  198323, 382388 }, -- Lightweight Ocular Lenses
+				{ 9,  198331, 382386 }, -- Sentry's Stabilized Specs
+				{ 10, 198328, 382383 }, -- Quality-Assured Optics
+				{ 11, 198329, 382384 }, -- Milestone Magnifiers
+				{ 12, 198330, 382385 }, -- Deadline Deadeyes
+				{ 14, 198335, 382321 }, -- Ol' Smoky
+				{ 15, 198334, 382387 }, -- P.E.W. x2
+				{ 16, 211612, 430093 }, -- Draconic Combatant's Cloth Goggles
+				{ 17, 211613, 430094 }, -- Draconic Combatant's Leather Goggles
+				{ 18, 211614, 430095 }, -- Draconic Combatant's Mail Goggles
+				{ 19, 211615, 430096 }, -- Draconic Combatant's Plate Goggles
+				{ 20, 208313, 419042 }, -- Verdant Combatant's Cloth Goggles
+				{ 21, 208314, 419043 }, -- Verdant Combatant's Leather Goggles
+				{ 22, 208315, 419044 }, -- Verdant Combatant's Mail Goggles
+				{ 23, 208316, 419045 }, -- Verdant Combatant's Plate Goggles
+				{ 24, 205278, 409351 }, -- Obsidian Combatant's Cloth Goggles
+				{ 25, 205279, 409353 }, -- Obsidian Combatant's Leather Goggles
+				{ 26, 205280, 409355 }, -- Obsidian Combatant's Mail Goggles
+				{ 27, 205281, 409356 }, -- Obsidian Combatant's Plate Goggles
+			},
+			[SL_DIFF] = {
+				{ 1, 172905, 310501 }, -- Flexible Ectoplasmic Specs
+				{ 2, 172906, 310504 }, -- Grounded Ectoplasmic Specs
+				{ 3, 172908, 310509 }, -- Reinforced Ectoplasmic Specs
+				{ 4, 172907, 310507 }, -- Articulated Ectoplasmic Specs
+				{ 6, 172923, 310536 }, -- Precision Lifeforce Inverter
+			},
 			[BFA_DIFF] = {
 				{ 1,   160488, 272056 }, -- AZ3-R1-T3 Synthetic Specs
 				{ 2,   160488, 272057 }, -- AZ3-R1-T3 Synthetic Specs
@@ -4059,6 +4094,30 @@ data["Engineering"] = {
 				{ 10, 221959, 447368,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Portable Profession Possibility Projector
 				{ 11, 232985, 1213620, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- 22H Slicks
 			},
+			[DF_DIFF] = {
+				{ 1,  198275, 382328, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- S.A.V.I.O.R.
+				{ 2,  198264, 382368 },                     -- Centralized Precipitation Emitter
+				{ 3,  192443, 382371 },                     -- Element-Infused Rocket Helmet
+				{ 4,  198206, 382369 },                     -- Environmental Emulator
+				{ 5,  204818, 408230 },                     -- Mallard Mortar
+				{ 6,  201930, 382336 },                     -- H.E.L.P.
+				{ 7,  198227, 382370 },                     -- Giggle Goggles
+				{ 8,  207092, 416149 },                     -- Portable Party Platter
+				{ 9,  198173, 382408 },                     -- Atomic Recalibrator
+				{ 10, 198156, 382367 },                     -- Wyrmhole Generator: Dragon Isles
+				{ 11, 199414, 387246 },                     -- Zapthrottle Soul Inhaler
+				{ 12, 202087, 396777 },                     -- Tinker Removal Kit
+				{ 13, 198268, 382337 },                     -- Portable Tinker's Workbench
+				{ 14, 198265, 382338 },                     -- Portable Alchemist's Lab Bench
+				{ 15, 198247, 382407, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Neural Silencer Mk3
+			},
+			[SL_DIFF] = {
+				{ 1, 172924, 310535 }, -- Wormhole Generator: Shadowlands
+				{ 2, 172912, 310490 }, -- Momentum Redistributor Boots
+				{ 3, 172914, 310492 }, -- Gravimetric Scrambler Cannon
+				{ 4, 184308, 345179 }, -- Disposable Spectrophasic Reanimator
+				{ 5, 172915, 310493 }, -- 50UL-TR4P
+			},
 			[BFA_DIFF] = {
 				{ 1,  153573, 256070 }, -- Electroshock Mount Motivator
 				{ 2,  153573, 256071 }, -- Electroshock Mount Motivator
@@ -4094,6 +4153,12 @@ data["Engineering"] = {
 				{ 2, 221917, 447355 }, -- Impeccable Cogwheel
 				{ 3, 221914, 447354 }, -- Overclocked Cogwheel
 				{ 4, 221911, 447353 }, -- Serrated Cogwheel
+			},
+			[DF_DIFF] = {
+				{ 1, 198236, 382363 }, -- Meticulously-Tuned Gear
+				{ 2, 198307, 382364 }, -- One-Size-Fits-All Gear
+				{ 3, 198231, 382362 }, -- Rapidly Ticking Gear
+				{ 4, 198174, 382361 }, -- Razor-Sharp Gear
 			},
 			[MOP_DIFF] = {
 				{ 1, 77544, 131211 }, -- Flashing Tinker's Gear : =ds=#sr# 535 : =ds=AtlasLoot["Trainer"]
@@ -4158,6 +4223,22 @@ data["Engineering"] = {
 				{ 13, 221799, 447334 }, -- Miner's Bismuth Hoard
 				{ 14, 221786, 447322 }, -- Spring-Loaded Bismuth Fabric Cutters
 			},
+			[DF_DIFF] = {
+				{ 1,  198235, 382342 }, -- Lapidary's Khaz'gorite Clamps
+				{ 2,  198246, 382399 }, -- Khaz'gorite Encased Samophlange
+				{ 3,  194126, 382340 }, -- Spring-Loaded Khaz'gorite Fabric Cutters
+				{ 4,  198205, 382400 }, -- Khaz'gorite Brainwave Amplifier
+				{ 5,  198226, 382329 }, -- Khaz'gorite Fisherfriend
+				{ 6,  198244, 382341 }, -- Khaz'gorite Delver's Helmet
+				{ 7,  198263, 382339 }, -- Bottomless Mireslush Ore Satchel
+				{ 8,  198225, 382394 }, -- Draconium Fisherfriend
+				{ 9,  198204, 382398 }, -- Draconium Brainwave Amplifier
+				{ 10, 198234, 382395 }, -- Lapidary's Draconium Clamps
+				{ 11, 198243, 382392 }, -- Draconium Delver's Helmet
+				{ 12, 194125, 382396 }, -- Spring-Loaded Draconium Fabric Cutters
+				{ 13, 198245, 382397 }, -- Draconium Encased Samophlange
+				{ 14, 198262, 382393 }, -- Bottomless Stonecrust Ore Satchel
+			},
 		},
 		{ --EngineeringReagents
 			name = AL["Reagents"],
@@ -4185,6 +4266,38 @@ data["Engineering"] = {
 				{ 19, 221859, 447338 }, -- Gyrating Gear
 				{ 20, 221853, 447336 }, -- Handful of Bismuth Bolts
 				{ 21, 221856, 447337 }, -- Whimsical Wiring
+			},
+			[DF_DIFF] = {
+				{ 1,  198192, 382378, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Greased-Up Gears
+				{ 2,  198198, 382380 },                     -- Reinforced Machine Chassis
+				{ 3,  198183, 382375, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Handful of Serevite Bolts
+				{ 4,  198189, 382377, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Everburning Blasting Powder
+				{ 5,  198195, 382379 },                     -- Arclight Capacitor
+				{ 6,  198650, 382374, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Rummage Through Scrap
+				{ 7,  198186, 382376, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Shock-Spring Coil
+				{ 8,  198201, 382345, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Assorted Safety Fuses
+				{ 10, 198256, 382351 },                     -- Magazine of Healing Darts
+				{ 11, 198259, 382349 },                     -- Critical Failure Prevention Unit
+				{ 12, 198253, 382350 },                     -- Calibrated Safety Switch
+				{ 13, 198619, 384491 },                     -- Spring-Loaded Capacitor Casing
+				{ 16, 191529, 382381 },                     -- Illustrious Insight
+				{ 17, 198216, 382346, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Haphazardly Tethered Wires
+				{ 18, 198219, 382348, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Overcharged Overclocker
+			},
+			[SL_DIFF] = {
+				{ 1,  172936, 310525, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Mortal Coiled Spring
+				{ 2,  172937, 310526, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Wormfed Gear Assembly
+				{ 3,  172935, 310524, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Porous Polishing Abrasive
+				{ 4,  172934, 310522, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Handful of Laestrite Bolts
+				{ 6,  187831, 360088 },                     -- Pure-Air Sail Extensions
+				{ 7,  187836, 360126 },                     -- Erratic Genesis Matrix
+				{ 9,  187742, 359674 },                     -- Crafter's Mark of the First Ones
+				{ 10, 173384, 343103 },                     -- Crafter's Mark of the Chained Isle
+				{ 11, 187741, 359664 },                     -- Crafter's Mark IV
+				{ 12, 173383, 343102 },                     -- Crafter's Mark III
+				{ 13, 173382, 343100 },                     -- Crafter's Mark II
+				{ 14, 173381, 343099 },                     -- Crafter's Mark I
+				{ 15, 183942, 343661 },                     -- Novice Crafter's Mark
 			},
 			[WOD_DIFF] = {
 				{ 1, 111366, 169080, [ATLASLOOT_IT_AMOUNT1] = "8+" }, -- Gearspring Parts (Learnt by item 111921)
@@ -4249,6 +4362,15 @@ data["Engineering"] = {
 				{ 1, 257745, 1261866 }, -- Farstrider's Hawkeye
 				{ 2, 257747, 1261893 }, -- Smuggler's Lynxeye
 			},
+			[DF_DIFF] = {
+				{ 1, 198316, 382326 }, -- High Intensity Thermal Scanner
+				{ 2, 198313, 382325 }, -- Projectile Propulsion Pinion
+				{ 3, 198310, 382402 }, -- Gyroscopic Kaleidoscope
+			},
+			[SL_DIFF] = {
+				{ 1, 172921, 310534 }, -- Infra-green Reflex Sight
+				{ 2, 172920, 310533 }, -- Optical Target Embiggener
+			},
 			[BFA_DIFF] = {
 				{ 1,  158203, 265097 }, -- Incendiary Ammunition
 				{ 2,  158203, 265098 }, -- Incendiary Ammunition
@@ -4295,6 +4417,17 @@ data["Engineering"] = {
 			[MIDNIGHT_DIFF] = {
 				{ 1, 257751, 1261913 }, -- Weighted Boomshots
 				{ 2, 257749, 1261895 }, -- Laced Zoomshots
+			},
+			[DF_DIFF] = {
+				{ 1, 198163, 382366, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Endless Stack of Needles
+				{ 2, 198160, 382365, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Completely Safe Rockets
+				{ 4, 204856, 407170 },                 -- Inspired Order Recalibrator
+				{ 5, 203411, 400810 },                 -- Gnomish Voicebox
+			},
+			[SL_DIFF] = {
+				{ 1, 172917, 310495 }, -- Dimensional Shifter
+				{ 2, 172918, 310496 }, -- Electro-Jump
+				{ 3, 172919, 310497 }, -- Damage Retaliator
 			},
 			[BFA_DIFF] = {
 				{ 1,  162107,      278411 }, -- Makeshift Azerite Detector
@@ -4466,6 +4599,12 @@ data["Engineering"] = {
 			[TWW_DIFF] = {
 				{ 1, 221967, 447373 }, -- Crowd Pummeler 2-30
 			},
+			[DF_DIFF] = {
+				{ 1, 193572, 382332 }, -- Quack-E
+			},
+			[SL_DIFF] = {
+				{ 1, 180208, 331007 }, -- PHA7-YNX
+			},
 			[BFA_DIFF] = {
 				{ 1, 161134, 274621 }, -- Mecha-Mogul Mk2
 			},
@@ -4498,6 +4637,16 @@ data["Engineering"] = {
 			[TWW_DIFF] = {
 				{ 1, 221904, 447350 }, -- Tinker: Earthen Delivery Drill
 				{ 2, 221908, 447351 }, -- Tinker: Heartseeking Health Injector
+			},
+			[DF_DIFF] = {
+				{ 1, 198298, 382401 }, -- Tinker: Plane Displacer
+				{ 2, 198301, 382359 }, -- Tinker: Supercollide-O-Tron
+				{ 3, 198304, 382344 }, -- Tinker: Grounded Circuitry
+				{ 4, 198295, 382324 }, -- Tinker: Breath of Neltharion
+				{ 5, 201407, 393796 }, -- Tinker: Arclight Vital Correctors
+				{ 6, 198289, 382334 }, -- Tinker: Alarm-O-Turret
+				{ 7, 205014, 408052 }, -- Tinker: Shadowflame Rockets
+				{ 8, 199188, 386667 }, -- Tinker: Polarity Amplifier
 			},
 			[LEGION_DIFF] = {
 				{ 1,  132509, 198972 }, -- Deployable Bullet Dispenser
@@ -4547,6 +4696,28 @@ data["Engineering"] = {
 				{ 2, 221876, 447343, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Potion Bomb of Recovery
 				{ 3, 221872, 447342, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Potion Bomb of Speed
 				{ 4, 224586, 447374 },                 -- Box o' Booms
+			},
+			[DF_DIFF] = {
+				{ 1,  198166, 382354 },                     -- Suspiciously Ticking Crate
+				{ 2,  198169, 382358 },                     -- Suspiciously Silent Crate
+				{ 3,  198281, 382333, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Sticky Warp Grenade
+				{ 4,  198180, 382331 },                     -- D.U.C.K.O.Y.
+				{ 5,  204823, 407005, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Polarity Bomb
+				{ 6,  198292, 382323, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Grease Grenade
+				{ 7,  198239, 382330, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Creature Combustion Canister
+				{ 8,  198278, 382322, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Primal Deconstruction Charge
+				{ 9,  198228, 382343, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Gravitational Displacer
+				{ 10, 198157, 382353, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- I.W.I.N. Button Mk10
+				{ 11, 198210, 382357, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- EZ-Thro Primal Deconstruction Charge
+				{ 12, 204827, 407006, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- EZ-Thro Polarity Bomb
+				{ 13, 198213, 382356, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- EZ-Thro Gravitational Displacer
+				{ 14, 199193, 386670, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- EZ-Thro Grease Grenade
+				{ 15, 198207, 382355, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- EZ-Thro Creature Combustion Canister
+			},
+			[SL_DIFF] = {
+				{ 1, 172902, 310486, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Bomb Bola Launcher
+				{ 2, 172903, 310484, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Nutcracker Grenade
+				{ 3, 172904, 310485, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Shadow Land Mine
 			},
 			[BFA_DIFF] = {
 				{ 1,  153494, 255395 }, -- Thermo-Accelerated Plague Spreader
@@ -4618,6 +4789,14 @@ data["Engineering"] = {
 		},
 		{ --EngineeringFirework
 			name = AL["Firework"],
+			[DF_DIFF] = {
+				{ 1, 198172, 382327 },                     -- Bundle of Fireworks
+				{ 2, 198222, 382403, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Blue Fireflight
+				{ 3, 198224, 382335, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Green Fireflight
+				{ 4, 198550, 384314, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Bronze Fireflight
+				{ 5, 198549, 384313, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Black Fireflight
+				{ 6, 198223, 382404, [ATLASLOOT_IT_AMOUNT1] = "2-3" }, -- Red Fireflight
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  89991, 131353 },                 -- Pandaria Firework : =ds=#sr# 500 : =ds=AtlasLoot["Trainer"]
 				{ 2,  89893, 131256, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Autumn Flower Firework : =ds=#sr# 500 : #ITEMID:89991#

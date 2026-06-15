@@ -6,6 +6,7 @@
 - Added DF and SL Alchemy recipes
 - Added DF and SL Blacksmithing recipes
 - Added DF and SL Enchanting recipes
+- Added DF and SL Engineering recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
 
