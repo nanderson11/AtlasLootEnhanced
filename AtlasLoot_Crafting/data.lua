@@ -4944,6 +4944,18 @@ data["Inscription"] = {
 				{ 5, 225369, 455008, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Staff
 				{ 6, 225368, 455007, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Pillar
 			},
+			[DF_DIFF] = {
+				{ 1, 194897, 383542 }, -- Kinetic Pillar of the Isles
+				{ 2, 194898, 383541 }, -- Illuminating Pillar of the Isles
+				{ 3, 194894, 383545 }, -- Weathered Explorer's Stave
+				{ 4, 194893, 383543 }, -- Overseer's Writhebark Stave
+				{ 5, 194892, 383544 }, -- Pioneer's Writhebark Stave
+
+			},
+			[SL_DIFF] = {
+				{ 1, 173428, 311688 }, -- Soul Keeper's Column
+				{ 2, 173054, 311689 }, -- Soul Keeper's Spire
+			},
 			[NORMAL_DIFF] = {
 				{ 1,   "113134:Stage6W", 187518 },                        -- Crystalfire Spellstaff (Stage 6)
 				{ 2,   "113134:Stage5W", 187494 },                        -- Crystalfire Spellstaff (Stage 5)
@@ -4987,6 +4999,13 @@ data["Inscription"] = {
 				{ 1, 222565, 444196 },                          -- Inquisitor's Torch
 				{ 2, 222566, 444197 },                          -- Vagabond's Torch
 				{ 3, 225372, 455006, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Lamp
+			},
+			[DF_DIFF] = {
+				{ 1, 194879, 383540 }, -- Crackling Codex of the Isles
+				{ 2, 194877, 383539 }, -- Core Explorer's Compendium
+			},
+			[SL_DIFF] = {
+				{ 1, 173050, 311408 }, -- Newly Departed Codex
 			},
 			[BFA_DIFF] = {
 				{ 1, 159940, 269741 }, -- Honorable Combatant's Etched Vessel
@@ -5047,6 +5066,31 @@ data["Inscription"] = {
 				{ 6, 219933, 444338, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Emblem
 				{ 7, 219932, 444337, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Insignia of Alacrity
 				{ 8, 219931, 444336, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Medallion
+			},
+			[DF_DIFF] = {
+				{ 1,  198478, 383770 }, -- Darkmoon Deck Box: Dance
+				{ 2,  198477, 383767 }, -- Darkmoon Deck Box: Rime
+				{ 3,  194872, 383325 }, -- Darkmoon Deck Box: Inferno
+				{ 4,  198481, 383772 }, -- Darkmoon Deck Box: Watcher
+				{ 6,  211608, 430092 }, -- Draconic Combatant's Emblem
+				{ 7,  211607, 430091 }, -- Draconic Combatant's Insignia of Alacrity
+				{ 8,  211606, 430090 }, -- Draconic Combatant's Medallion
+				{ 9,  208309, 419041 }, -- Verdant Combatant's Emblem
+				{ 10, 208308, 419040 }, -- Verdant Combatant's Insignia of Alacrity
+				{ 11, 208307, 419039 }, -- Verdant Combatant's Medallion
+				{ 12, 204166, 403168 }, -- Obsidian Combatant's Emblem
+				{ 13, 204165, 403167 }, -- Obsidian Combatant's Insignia of Alacrity
+				{ 14, 204164, 403166 }, -- Obsidian Combatant's Medallion
+				{ 15, 203377, 400028 }, -- Crimson Combatant's Emblem
+				{ 16, 203376, 400027 }, -- Crimson Combatant's Insignia of Alacrity
+				{ 17, 203375, 400026 }, -- Crimson Combatant's Medallion
+			},
+			[SL_DIFF] = {
+				{ 1, 177874, 324035 }, -- Darkmoon Card of Voracity
+				{ 2, 177875, 324037 }, -- Darkmoon Card of Putrescence
+				{ 3, 177873, 324039 }, -- Darkmoon Card of the Indomitable
+				{ 4, 173066, 311441 }, -- Darkmoon Card of Death
+				{ 5, 177876, 324036 }, -- Darkmoon Card of Repose
 			},
 			[BFA_DIFF] = {
 				{ 1,  153598, 256246 }, -- Darkmoon Card of War
@@ -5140,6 +5184,23 @@ data["Inscription"] = {
 				{ 9,  249704, 1249468 },                          -- Deal: Cartel Om
 				{ 10, 249700, 1249463 },                          -- Deal: Cartel Zo
 			},
+			[DF_DIFF] = {
+				{ 1, 204993, 408278 }, -- Contract: Loamm Niffen
+				{ 2, 198500, 383591 }, -- Contract: Maruuk Centaur
+				{ 3, 198506, 383593 }, -- Contract: Dragonscale Expedition
+				{ 4, 198494, 383588 }, -- Contract: Iskaara Tuskarr
+				{ 5, 198497, 383590 }, -- Contract: Valdrakken Accord
+				{ 6, 210244, 425263 }, -- Contract: Dream Wardens
+				{ 7, 198503, 383592 }, -- Contract: Artisan's Consortium
+			},
+			[SL_DIFF] = {
+				{ 1, 173062, 311412 }, -- Contract: Court of Harvesters
+				{ 2, 187796, 359786 }, -- Contract: Enlightened Brokers
+				{ 3, 175924, 311411 }, -- Contract: The Undying Army
+				{ 4, 173051, 311409 }, -- Contract: The Ascended
+				{ 5, 173053, 311410 }, -- Contract: The Wild Hunt
+				{ 6, 186522, 354000 }, -- Contract: Death's Advance
+			},
 			[BFA_DIFF] = {
 				{ 1,  153661, 256275 }, -- Contract: Proudmoore Admiralty
 				{ 2,  153661, 256276 }, -- Contract: Proudmoore Admiralty
@@ -5188,6 +5249,14 @@ data["Inscription"] = {
 				{ 5, 222573, 444204 }, -- Lightweight Scribe's Quill
 				{ 6, 222575, 444206 }, -- Hasty Alchemist's Mixing Rod
 			},
+			[DF_DIFF] = {
+				{ 1, 194875, 383548 }, -- Scribe's Resplendent Quill
+				{ 2, 191231, 383550 }, -- Alchemist's Brilliant Mixing Rod
+				{ 3, 191232, 383552 }, -- Chef's Splendid Rolling Pin
+				{ 4, 194874, 383547 }, -- Scribe's Fastened Quill
+				{ 5, 191234, 383549 }, -- Alchemist's Sturdy Mixing Rod
+				{ 6, 191233, 383551 }, -- Chef's Smooth Rolling Pin
+			},
 		},
 		{ --InscriptionReagents
 			name = AL["Reagents"],
@@ -5229,17 +5298,50 @@ data["Inscription"] = {
 				{ 18, 222555, 444190 },                          -- Codified Greenwood
 				{ 19, 222558, 444191 },                          -- Boundless Cipher
 			},
+			[DF_DIFF] = {
+				{ 1,  194570, 383554 },                 -- Draconic Missive of the Aurora
+				{ 2,  192553, 383556 },                 -- Draconic Missive of the Fireflash
+				{ 3,  194576, 383560 },                 -- Draconic Missive of the Harmonious
+				{ 4,  194567, 383555 },                 -- Draconic Missive of the Feverflare
+				{ 5,  194573, 383562 },                 -- Draconic Missive of the Quickblade
+				{ 6,  194579, 383561 },                 -- Draconic Missive of the Peerless
+				{ 8,  198534, 390847 },                 -- Draconic Missive of Ingenuity
+				{ 9,  200565, 390848 },                 -- Draconic Missive of Resourcefulness
+				{ 10, 200568, 390849 },                 -- Draconic Missive of Multicraft
+				{ 11, 200571, 390850 },                 -- Draconic Missive of Crafting Speed
+				{ 12, 200580, 390853 },                 -- Draconic Missive of Deftness
+				{ 13, 200574, 390851 },                 -- Draconic Missive of Finesse
+				{ 14, 200577, 390852 },                 -- Draconic Missive of Perception
+				{ 16, 194754, 383790, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Cosmic Ink
+				{ 17, 194760, 383791, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Burnished Ink
+				{ 18, 194850, 383787, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flourishing Ink
+				{ 19, 194751, 383786, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Blazing Ink
+				{ 20, 194856, 383788, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Serene Ink
+				{ 22, 194862, 383530 },                 -- Runed Writhebark
+				{ 23, 194859, 383531 },                 -- Chilled Rune
+				{ 24, 191529, 391781 },                 -- Illustrious Insight
+				{ 26, 198431, 383538 },                 -- Jetscale Sigil
+				{ 27, 194868, 383535 },                 -- Emberscale Sigil
+				{ 28, 194870, 383536 },                 -- Bronzescale Sigil
+				{ 29, 194871, 383533 },                 -- Azurescale Sigil
+				{ 30, 194869, 383534 },                 -- Sagescale Sigil
+			},
+			[SL_DIFF] = {
+				{ 1,  175970, 321029 }, -- Tranquil Ink
+				{ 2,  173059, 311406 }, -- Luminous Ink
+				{ 3,  173058, 311405 }, -- Umbral Ink
+				{ 5,  173162, 324196 }, -- Missive of Mastery
+				{ 6,  173160, 324198 }, -- Missive of Haste
+				{ 7,  173163, 324195 }, -- Missive of Versatility
+				{ 8,  173161, 324197 }, -- Missive of Critical Strike
+				{ 10, 173382, 343689 }, -- Crafter's Mark II
+				{ 11, 173381, 343691 }, -- Crafter's Mark I
+				{ 12, 183942, 343686 }, -- Novice Crafter's Mark
+			},
 			[BFA_DIFF] = {
-				{ 1,  152511, 256223 }, -- Mass Mill Sea Stalk
-				{ 2,  152505, 256217 }, -- Mass Mill Riverbud
-				{ 3,  152506, 256218 }, -- Mass Mill Star Moss
-				{ 4,  152507, 256219 }, -- Mass Mill Akunda's Bite
-				{ 5,  152508, 256220 }, -- Mass Mill Winter's Kiss
-				{ 6,  152509, 256221 }, -- Mass Mill Siren's Pollen
-				{ 7,  152510, 256308 }, -- Mass Mill Anchor Weed
-				{ 16, 158189, 264778 }, -- Viridescent Ink
-				{ 17, 158187, 264776 }, -- Ultramarine Ink
-				{ 18, 158188, 264777 }, -- Crimson Ink
+				{ 1, 158189, 264778 }, -- Viridescent Ink
+				{ 2, 158187, 264776 }, -- Ultramarine Ink
+				{ 3, 158188, 264777 }, -- Crimson Ink
 			},
 			[LEGION_DIFF] = {
 				{ 1, 129100, 209658 }, -- Mass Mill Aethril
@@ -5284,6 +5386,20 @@ data["Inscription"] = {
 				{ 1, 226034, 444203 },                           -- Vantus Rune: Nerub-ar Palace
 				{ 2, 232935, 472951,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Vantus Rune: Liberation of Undermine
 				{ 3, 244147, 1236908, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Vantus Rune: Manaforge Omega
+			},
+			[DF_DIFF] = {
+				{ 1, 210247, 425954 },                 -- Vantus Rune: Amirdrassil, the Dream's Hope
+				{ 2, 204858, 408272 },                 -- Vantus Rune: Aberrus, the Shadowed Crucible
+				{ 3, 198491, 383546 },                 -- Vantus Rune: Vault of the Incarnates
+				{ 5, 194824, 383525, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Chirping Rune
+				{ 6, 194817, 383529, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Howling Rune
+				{ 7, 194821, 383527, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Buzzing Rune
+				{ 8, 204971, 408271, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Hissing Rune
+			},
+			[SL_DIFF] = {
+				{ 1, 187805, 359890 }, -- Vantus Rune: Sepulcher of the First Ones
+				{ 2, 173067, 311453 }, -- Vantus Rune: Castle Nathria
+				{ 3, 186662, 354394 }, -- Vantus Rune: Sanctum of Domination
 			},
 			[BFA_DIFF] = {
 				{ 1, 153673, 256303 }, -- Vantus Rune: Uldir
@@ -5381,6 +5497,19 @@ data["Inscription"] = {
 				{ 10, 222649, 444236 }, -- Algari Treatise on Skinning
 				{ 11, 222547, 444186 }, -- Algari Treatise on Tailoring
 			},
+			[DF_DIFF] = {
+				{ 1,  194697, 383522 }, -- Draconic Treatise on Alchemy
+				{ 2,  198454, 383517 }, -- Draconic Treatise on Blacksmithing
+				{ 3,  194702, 383523 }, -- Draconic Treatise on Enchanting
+				{ 4,  198510, 383844 }, -- Draconic Treatise on Engineering
+				{ 5,  194704, 383515 }, -- Draconic Treatise on Herbalism
+				{ 6,  194699, 383759 }, -- Draconic Treatise on Inscription
+				{ 7,  194703, 383524 }, -- Draconic Treatise on Jewelcrafting
+				{ 8,  194700, 383519 }, -- Draconic Treatise on Leatherworking
+				{ 9,  194708, 383516 }, -- Draconic Treatise on Mining
+				{ 10, 201023, 392944 }, -- Draconic Treatise on Skinning
+				{ 11, 194698, 383520 }, -- Draconic Treatise on Tailoring
+			},
 		},
 		{ --InscriptionMisc
 			name = MISCELLANEOUS,
@@ -5391,6 +5520,45 @@ data["Inscription"] = {
 			},
 			[TWW_DIFF] = {
 				{ 1, 246809, 1243994, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Inspired Writer's Quill
+			},
+			[DF_DIFF] = {
+				{ 1,   209998, 422337 }, -- Lydiara's Binding Rune
+				{ 2,   203412, 400811 }, -- Arcane Dispelling Rune
+				{ 3,   194827, 383512 }, -- Bundle O' Cards: Dragon Isles
+				{ 4,   194829, 384949 }, -- Serene Fortune
+				{ 5,   194829, 384948 }, -- Flourishing Fortune
+				{ 6,   194829, 383563 }, -- Blazing Fortune
+				{ 8,   197362, 383582 }, -- Renewed Proto-Drake: Spined Crest
+				{ 9,   197347, 383586 }, -- Renewed Proto-Drake: Silver and Blue Armor
+				{ 10,  197377, 383581 }, -- Renewed Proto Drake: Bovine Horns
+				{ 11,  197394, 383580 }, -- Renewed Proto-Drake: Predator Pattern
+				{ 12,  197352, 383587 }, -- Renewed Proto-Drake: Steel and Yellow Armor
+				{ 13,  197592, 383584 }, -- Windborne Velocidrake: Spined Head
+				{ 14,  197578, 391832 }, -- Windborne Velocidrake: Silver and Blue Armor
+				{ 15,  197579, 391848 }, -- Windborne Velocidrake: Steel and Orange Armor
+				{ 16,  197597, 383583 }, -- Windborne Velocidrake: Black Fur
+				{ 17,  197634, 383585 }, -- Windborne Velocidrake: Windswept Pattern
+				{ 18,  196988, 383575 }, -- Cliffside Wylderdrake: Red Hair
+				{ 19,  196968, 391846 }, -- Cliffside Wylderdrake: Steel and Yellow Armor
+				{ 20,  196981, 383574 }, -- Cliffside Wylderdrake: Conical Head
+				{ 21,  196963, 391836 }, -- Cliffside Wylderdrake: Silver and Blue Armor
+				{ 22,  196980, 383576 }, -- Cliffside Wylderdrake: Triple Head Horns
+				{ 23,  207761, 425961 }, -- Grotto Netherwing Drake: Chin Tendrils
+				{ 24,  207773, 425959 }, -- Grotto Netherwing Drake: Spiked Jaw
+				{ 25,  197117, 383577 }, -- Highland Drake: Black Hair
+				{ 26,  197154, 383579 }, -- Highland Drake: Spined Neck
+				{ 27,  197091, 391834 }, -- Highland Drake: Silver and Blue Armor
+				{ 28,  197096, 391845 }, -- Highland Drake: Steel and Yellow Armor
+				{ 29,  197108, 383578 }, -- Highland Drake: Spined Head
+				{ 30,  203314, 408222 }, -- Winding Slitherdrake: Curved Chin Horn
+				{ 101, 203324, 408221 }, -- Winding Slitherdrake: White Hair
+				{ 102, 203364, 408223 }, -- Winding Slitherdrake: Small Finned Throat
+				{ 103, 203300, 408218 }, -- Winding Slitherdrake: Blue and Silver Armor
+				{ 104, 203311, 425958 }, -- Winding Slitherdrake: Hairy Chin
+				{ 105, 203304, 408220 }, -- Winding Slitherdrake: Yellow and Silver Armor
+			},
+			[SL_DIFF] = {
+				{ 1, 180755, 334537 }, -- Fae Revel Masque
 			},
 			[BFA_DIFF] = {
 				{ 1, 162114, 278422 }, -- Crimson Ink Well
@@ -5527,6 +5695,22 @@ data["Inscription"] = {
 		},
 		{ --InscriptionScrolls
 			name = AL["Scrolls"],
+			[DF_DIFF] = {
+				{ 1, 197718, 385197, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Scroll of Sales
+				{ 2, 194732, 384869, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Love Charm
+				{ 3, 194737, 383572, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Spell Shield
+				{ 4, 194731, 383565, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Magma Missile
+				{ 5, 194734, 383569, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Whirling Breeze
+				{ 6, 194738, 383573, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Shadow Orb
+				{ 7, 194735, 383570, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Arcane Burst
+				{ 8, 194733, 383567, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Aqua Torrent
+				{ 9, 194736, 383571, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Illusion Parchment: Chilling Wind
+			},
+			[SL_DIFF] = {
+				{ 1, 173049, 311425 }, -- Tome of the Still Mind
+				{ 2, 173065, 311423 }, -- Writ of Grave Robbing
+				{ 3, 173048, 311424 }, -- Codex of the Still Mind
+			},
 			[BFA_DIFF] = {
 				{ 1,  153647, 256235 }, -- Tome of the Quiet Mind
 				{ 2,  153647, 256236 }, -- Tome of the Quiet Mind
@@ -5669,6 +5853,7 @@ data["Inscription"] = {
 				{ 5, 139436, 192852 }, -- Glyph of Tattered Wings
 				{ 6, 139437, 225528 }, -- Glyph of Fel-Enemies
 				{ 7, 139438, 225530 }, -- Glyph of Shadow-Enemies
+				{ 8, 203762, 408277 }, -- Glyph of the Chosen Glaive
 			},
 		},
 		{ --InscriptionDruid
@@ -5686,6 +5871,15 @@ data["Inscription"] = {
 				{ 10, 162029, 276121 }, -- Glyph of the Humble Flyer
 				{ 11, 162022, 276059 }, -- Glyph of the Dolphin
 				{ 12, 162027, 276088 }, -- Glyph of the Tideskipper
+				{ 13, 187931, 360880 }, -- Mark of the Regal Dredbat
+				{ 14, 187884, 360539 }, -- Mark of the Twilight Runestag
+				{ 15, 187934, 360885 }, -- Mark of the Midnight Runestag
+				{ 16, 188164, 362412 }, -- Glyph of the Wild Mushroom
+				{ 17, 187888, 360545 }, -- Mark of the Shimmering Ardenmoth
+				{ 18, 187887, 360542 }, -- Mark of the Gloomstalker Dredbat
+				{ 19, 187936, 360899 }, -- Mark of the Sable Ardenmoth
+				{ 20, 211400, 429149 }, -- Glyph of the Lunar Chameleon
+				{ 21, 210735, 427956 }, -- Mark of the Auric Dreamstag
 			},
 		},
 		{ --InscriptionHunter
@@ -5735,35 +5929,31 @@ data["Inscription"] = {
 		},
 		{ --InscriptionPriest
 			name = GLYPHS.." - "..ALIL["PRIEST"],
-			[LEGION_DIFF] = {
-				-- 7.3.0
-				{ 1, 153036, 254238 }, -- Glyph of Dark Absolution
-				{ 2, 153033, 254231 }, -- Glyph of the Voidling
-				{ 3, 153031, 254227 }, -- Glyph of the Lightspawn
-			},
 			[NORMAL_DIFF] = {
-				{ 1, 43373,  58320 }, -- Glyph of Shackle Undead
-				{ 2, 79538,  124466 }, -- Glyph of the Heavens
-				{ 3, 87277,  126696 }, -- Glyph of the Val'kyr
-				{ 4, 87392,  126800 }, -- Glyph of Shadowy Friends
-				{ 5, 104120, 148276 }, -- Glyph of the Sha
-				{ 6, 104122, 148278 }, -- Glyph of Inspired Hymns
-				{ 7, 129017, 192838 }, -- Glyph of Ghostly Fade
+				{ 1,  43373,  58320 }, -- Glyph of Shackle Undead
+				{ 2,  79538,  124466 }, -- Glyph of the Heavens
+				{ 3,  87277,  126696 }, -- Glyph of the Val'kyr
+				{ 4,  87392,  126800 }, -- Glyph of Shadowy Friends
+				{ 5,  104120, 148276 }, -- Glyph of the Sha
+				{ 6,  104122, 148278 }, -- Glyph of Inspired Hymns
+				{ 7,  129017, 192838 }, -- Glyph of Ghostly Fade
+				{ 8,  153036, 254238 }, -- Glyph of Dark Absolution
+				{ 9,  153033, 254231 }, -- Glyph of the Voidling
+				{ 10, 153031, 254227 }, -- Glyph of the Lightspawn
+				{ 11, 207088, 416137 }, -- Glyph of the Shath'Yar
 			},
 		},
 		{ --InscriptionRogue
 			name = GLYPHS.." - "..ALIL["ROGUE"],
-			[TWW_DIFF] = {
-				{ 1, 234246, 1213515 },                                    -- Glyph of the Admiral's Pistol Shot
-				{ 2, 234245, 1213517 },                                    -- Glyph of the Ashvane Pistol Shot
-				{ 3, 234247, 1213514, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Gilded Pistol Shot
-				{ 4, 234248, 1213512, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Twilight Pistol Shot
-			},
 			[NORMAL_DIFF] = {
-				{ 1, 45768,  64260 }, -- Glyph of Disguise
-				{ 2, 129020, 225549 }, -- Glyph of Flash Bang
-				{ 3, 139358, 192841 }, -- Glyph of Blackout
-				{ 4, 139442, 225548 }, -- Glyph of Burnout
+				{ 1, 45768,  64260 },                                      -- Glyph of Disguise
+				{ 2, 129020, 225549 },                                     -- Glyph of Flash Bang
+				{ 3, 139358, 192841 },                                     -- Glyph of Blackout
+				{ 4, 139442, 225548 },                                     -- Glyph of Burnout
+				{ 5, 234246, 1213515 },                                    -- Glyph of the Admiral's Pistol Shot
+				{ 6, 234245, 1213517 },                                    -- Glyph of the Ashvane Pistol Shot
+				{ 7, 234247, 1213514, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Gilded Pistol Shot
+				{ 8, 234248, 1213512, [PRICE_EXTRA_ITTYPE] = "flameBlessedIron:350" }, -- Glyph of the Twilight Pistol Shot
 			},
 		},
 		{ --InscriptionShaman
@@ -5776,6 +5966,8 @@ data["Inscription"] = {
 				{ 5, 137288, 225552 }, -- Glyph of Pebbles
 				{ 6, 137289, 225551 }, -- Glyph of Flickering
 				{ 7, 139289, 225550 }, -- Glyph of Critterhex
+				{ 8, 190378, 367389 }, -- Glyph of the Spectral Lupine
+				{ 9, 190380, 367393 }, -- Glyph of the Spectral Vulpine
 			},
 		},
 		{ --InscriptionWarlock
@@ -5796,15 +5988,16 @@ data["Inscription"] = {
 		{ --InscriptionWarrior
 			name = GLYPHS.." - "..ALIL["WARRIOR"],
 			[NORMAL_DIFF] = {
-				{ 1, 43398,  58345 }, -- Glyph of Gushing Wound
-				{ 2, 43400,  58347 }, -- Glyph of Mighty Victory
-				{ 3, 49084,  68166 }, -- Glyph of Thunder Strike
-				{ 4, 80587,  112429 }, -- Glyph of Hawk Feast
-				{ 5, 80588,  112430 }, -- Glyph of Burning Anger
-				{ 6, 85221,  123781 }, -- Glyph of the Blazing Trail
-				{ 7, 104138, 148292 }, -- Glyph of the Weaponmaster
-				{ 8, 137188, 225560 }, -- Glyph of the Blazing Savior
-				{ 9, 141898, 228381 }, -- Glyph of Falling Thunder
+				{ 1,  43398,  58345 }, -- Glyph of Gushing Wound
+				{ 2,  43400,  58347 }, -- Glyph of Mighty Victory
+				{ 3,  49084,  68166 }, -- Glyph of Thunder Strike
+				{ 4,  80587,  112429 }, -- Glyph of Hawk Feast
+				{ 5,  80588,  112430 }, -- Glyph of Burning Anger
+				{ 6,  85221,  123781 }, -- Glyph of the Blazing Trail
+				{ 7,  104138, 148292 }, -- Glyph of the Weaponmaster
+				{ 8,  137188, 225560 }, -- Glyph of the Blazing Savior
+				{ 9,  141898, 228381 }, -- Glyph of Falling Thunder
+				{ 10, 203763, 408273 }, -- Glyph of the Heaved Armament
 			},
 		},
 	}
