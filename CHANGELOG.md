@@ -8,6 +8,7 @@
 - Added DF and SL Enchanting recipes
 - Added DF and SL Engineering recipes
 - Added DF and SL Inscription recipes
+- Added DF and SL Jewelcrafting recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
 

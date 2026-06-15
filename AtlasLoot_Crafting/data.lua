@@ -6028,6 +6028,24 @@ data["Jewelcrafting"] = {
 				{ 7, 213749, 435322, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Determined Bloodstone
 				{ 8, 213747, 435320, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Enduring Bloodstone
 			},
+			[DF_DIFF] = {
+				{ 1, 192983, 374467 }, -- Fierce Illimited Diamond
+				{ 2, 192980, 374465 }, -- Inscribed Illimited Diamond
+				{ 3, 192986, 374468 }, -- Skillful Illimited Diamond
+				{ 4, 192989, 374470 }, -- Resplendent Illimited Diamond
+			},
+			[SL_DIFF] = {
+				{ 1,  173130, 311864 }, -- Masterful Jewel Cluster
+				{ 2,  173128, 311865 }, -- Quick Jewel Cluster
+				{ 3,  173129, 311859 }, -- Versatile Jewel Cluster
+				{ 4,  173127, 311863 }, -- Deadly Jewel Cluster
+				{ 5,  173126, 311867 }, -- Straddling Jewel Doublet
+				{ 6,  173122, 311871 }, -- Quick Jewel Doublet
+				{ 7,  173121, 311868 }, -- Deadly Jewel Doublet
+				{ 8,  173124, 311869 }, -- Masterful Jewel Doublet
+				{ 9,  173123, 311866 }, -- Versatile Jewel Doublet
+				{ 10, 173125, 311870 }, -- Revitalizing Jewel Doublet
+			},
 			[BFA_DIFF] = {
 				{ 1,  153709, 256702 }, -- Kraken's Eye of Intellect
 				{ 2,  153708, 256701 }, -- Kraken's Eye of Agility
@@ -6114,6 +6132,13 @@ data["Jewelcrafting"] = {
 				{ 3, 213453, 434550 }, -- Quick Ruby
 				{ 4, 213459, 434552 }, -- Versatile Ruby
 			},
+			[DF_DIFF] = {
+				{ 1, 192917, 374442 }, -- Crafty Alexstraszite
+				{ 2, 192920, 374443 }, -- Sensei's Alexstraszite
+				{ 3, 192926, 374445 }, -- Deadly Alexstraszite
+				{ 4, 192923, 374444 }, -- Radiant Alexstraszite
+				{ 5, 192900, 374437 }, -- Crafty Queen's Ruby
+			},
 			[MOP_DIFF] = {
 				{ 1,  76696, 107705 }, -- Bold Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
 				{ 2,  76694, 107706 }, -- Brilliant Primordial Ruby : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131686
@@ -6195,6 +6220,13 @@ data["Jewelcrafting"] = {
 				{ 3, 213468, 434554 }, -- Quick Sapphire
 				{ 4, 213474, 434563 }, -- Versatile Sapphire
 			},
+			[DF_DIFF] = {
+				{ 1, 192933, 374447 }, -- Energized Malygite
+				{ 2, 192936, 374448 }, -- Zen Malygite
+				{ 3, 192929, 374446 }, -- Radiant Malygite
+				{ 4, 192940, 374449 }, -- Stormy Malygite
+				{ 5, 192903, 374438 }, -- Zen Mystic Sapphire
+			},
 			[LEGION_DIFF] = {
 				{ 1, 151585, 247774 }, -- Versatile Labradorite
 			},
@@ -6269,6 +6301,13 @@ data["Jewelcrafting"] = {
 				{ 2, 213480, 434543 }, -- Masterful Emerald
 				{ 3, 213486, 434542 }, -- Quick Emerald
 				{ 4, 213483, 434544 }, -- Versatile Emerald
+			},
+			[DF_DIFF] = {
+				{ 1, 192953, 374455 }, -- Quick Ysemerald
+				{ 2, 192946, 374453 }, -- Keen Ysemerald
+				{ 3, 192943, 374450 }, -- Crafty Ysemerald
+				{ 4, 192950, 374454 }, -- Energized Ysemerald
+				{ 5, 192906, 374439 }, -- Energized Vibrant Emerald
 			},
 			[MOP_DIFF] = {
 				{ 1,   76646, 106960 }, -- Balanced Wild Jade : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]: spell131688
@@ -6420,6 +6459,13 @@ data["Jewelcrafting"] = {
 				{ 3, 213492, 434546 }, -- Quick Onyx
 				{ 4, 213495, 434548 }, -- Versatile Onyx
 			},
+			[DF_DIFF] = {
+				{ 1, 192959, 374457 }, -- Keen Neltharite
+				{ 2, 192965, 374459 }, -- Fractured Neltharite
+				{ 3, 192956, 374456 }, -- Sensei's Neltharite
+				{ 4, 192962, 374458 }, -- Zen Neltharite
+				{ 5, 192910, 374440 }, -- Sensei's Sundered Onyx
+			},
 			[LEGION_DIFF] = {
 				{ 1, 151584, 247773 }, -- Masterful Argulite
 			},
@@ -6561,6 +6607,29 @@ data["Jewelcrafting"] = {
 				{ 2, 215133, 435382 }, -- Binding of Binding
 				{ 3, 215130, 435379 }, -- Malleable Band
 				{ 4, 215137, 435386 }, -- Algari Competitor's Signet
+			},
+			[DF_DIFF] = {
+				{ 1, 193000, 374498 }, -- Ring-Bound Hourglass
+				{ 2, 192999, 374497 }, -- Signet of Titanic Insight
+				{ 3, 194082, 376233 }, -- Band of New Beginnings
+				{ 5, 211536, 430056 }, -- Draconic Combatant's Jeweled Signet
+				{ 6, 208237, 419005 }, -- Verdant Combatant's Jeweled Signet
+				{ 7, 204094, 403132 }, -- Obsidian Combatant's Jeweled Signet
+				{ 8, 192997, 374496 }, -- Crimson Combatant's Jeweled Signet
+			},
+			[SL_DIFF] = {
+				{ 1,  173133, 311885 }, -- Quick Oxxein Ring
+				{ 2,  173131, 311887 }, -- Versatile Solenium Ring
+				{ 3,  173134, 311884 }, -- Deadly Sinvyr Ring
+				{ 4,  173132, 311886 }, -- Masterful Phaedrum Ring
+				{ 5,  173137, 311881 }, -- Quick Laestrite Band
+				{ 6,  173135, 311883 }, -- Versatile Laestrite Band
+				{ 7,  173138, 311880 }, -- Deadly Laestrite Band
+				{ 8,  173136, 311882 }, -- Masterful Laestrite Band
+				{ 10, 178926, 338978 }, -- Shadowghast Ring
+				{ 11, 178926, 332074 }, -- Shadowghast Ring
+				{ 12, 178926, 332039 }, -- Shadowghast Ring
+				{ 13, 178926, 327920 }, -- Shadowghast Ring
 			},
 			[BFA_DIFF] = {
 				{ 1,  153686, 256510 }, -- Amberblaze Loop
@@ -6755,6 +6824,30 @@ data["Jewelcrafting"] = {
 				{ 3, 215134, 435383 }, -- Fractured Gemstone Locket
 				{ 4, 215144, 435387 }, -- Algari Competitor's Amulet
 			},
+			[DF_DIFF] = {
+				{ 1, 193001, 374499 }, -- Elemental Lariat
+				{ 2, 193002, 374501 }, -- Choker of Shielding
+				{ 3, 201759, 394621 }, -- Torc of Passed Time
+				{ 4, 192996, 374494 }, -- Pendant of Impending Perils
+				{ 6, 211537, 430055 }, -- Draconic Combatant's Jeweled Amulet
+				{ 7, 208238, 419004 }, -- Verdant Combatant's Jeweled Amulet
+				{ 8, 204095, 403131 }, -- Obsidian Combatant's Jeweled Amulet
+				{ 9, 192998, 374495 }, -- Crimson Combatant's Jeweled Amulet
+			},
+			[SL_DIFF] = {
+				{ 1,  173146, 311907 }, -- Quick Oxxein Necklace
+				{ 2,  173144, 311909 }, -- Versatile Solenium Necklace
+				{ 3,  173147, 311906 }, -- Deadly Sinvyr Necklace
+				{ 4,  173145, 311908 }, -- Masterful Phaedrum Necklace
+				{ 5,  173142, 311903 }, -- Quick Laestrite Choker
+				{ 6,  173140, 311905 }, -- Versatile Laestrite Choker
+				{ 7,  173143, 311902 }, -- Deadly Laestrite Choker
+				{ 8,  173141, 311904 }, -- Masterful Laestrite Choker
+				{ 10, 178927, 338977 }, -- Shadowghast Necklace
+				{ 11, 178927, 332075 }, -- Shadowghast Necklace
+				{ 12, 178927, 332040 }, -- Shadowghast Necklace
+				{ 13, 178927, 327921 }, -- Shadowghast Necklace
+			},
 			[LEGION_DIFF] = {
 				{ 1,   136712, 209604 }, -- Queen's Opal Pendant
 				{ 2,   136712, 209607 }, -- Queen's Opal Pendant
@@ -6934,6 +7027,62 @@ data["Jewelcrafting"] = {
 				{ 20, 213782, 435338 },                                   -- Algari Emerald Prism
 				{ 22, 235712, 1226650 },                                  -- Design: Void-Crystal Panther
 			},
+			[DF_DIFF] = {
+				{ 1,   193887, 374510 },                     -- Jeweled Ruby Whelpling
+				{ 2,   193886, 374512 },                     -- Jeweled Sapphire Whelpling
+				{ 3,   193889, 374514 },                     -- Jeweled Onyx Whelpling
+				{ 4,   193885, 374516 },                     -- Jeweled Amber Whelpling
+				{ 5,   193888, 374511 },                     -- Jeweled Emerald Whelpling
+				{ 7,   193371, 375063 },                     -- "Rhinestone" Sunglasses
+				{ 8,   194748, 377960 },                     -- Split-Lens Specs
+				{ 9,   205045, 408231 },                     -- B.B.F. Fist
+				{ 10,  193033, 374525 },                     -- Convergent Prism
+				{ 11,  193032, 374522 },                     -- Jeweled Offering
+				{ 12,  193029, 374518, [ATLASLOOT_IT_AMOUNT1] = "1-2" }, -- Projection Prism
+				{ 14,  204217, 403483 },                     -- Unstable Elementium
+				{ 15,  192992, 374472 },                     -- Tiered Medallion Setting
+				{ 16,  192893, 374551 },                     -- Jeweled Dragon's Heart
+				{ 17,  192889, 374547 },                     -- Dreamer's Vision
+				{ 18,  192891, 374549 },                     -- Earthwarden's Prize
+				{ 19,  192888, 374546 },                     -- Queen's Gift
+				{ 20,  192890, 374548 },                     -- Keeper's Glory
+				{ 21,  192892, 374550 },                     -- Timewatcher's Patience
+				{ 23,  204909, 408397 },                     -- Statuette of Foreseen Power
+				{ 24,  205171, 408398 },                     -- Figurine of the Gathering Storm
+				{ 25,  194723, 377804 },                     -- Kalu'ak Figurine
+				{ 26,  193007, 374502 },                     -- Narcissist's Sculpture
+				{ 27,  193011, 374506 },                     -- Revitalizing Red Carving
+				{ 28,  193015, 374508 },                     -- Statue of Tyr's Herald
+				{ 29,  193019, 374509, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Djaradin's "Pinata"
+				{ 101, 204854, 407161 },                     -- Immaculate Coalescing Dracothyst
+				{ 102, 203413, 400812 },                     -- Crystal Tuning Fork
+				{ 103, 200938, 392697 },                     -- Empty Soul Cage
+				{ 104, 192887, 374553, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Elemental Harmony
+				{ 105, 192834, 374475 },                     -- Shimmering Clasp
+				{ 106, 192883, 374480, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Glossy Stone
+				{ 107, 191474, 374477, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Draconic Vial
+				{ 108, 192876, 374478, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Frameless Lens
+				{ 110, 208746, 420740 },                     -- Dreamtender's Charm
+				{ 111, 191529, 391782 },                     -- Illustrious Insight
+				{ 112, 192894, 374483, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Blotting Sand
+				{ 113, 192897, 374484, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pounce
+			},
+			[SL_DIFF] = {
+				{ 1,  186982, 355189 }, -- Shaded Stone Statue
+				{ 2,  186981, 355187 }, -- Porous Stone Statue
+				{ 4,  180760, 334548 }, -- Crown of the Righteous
+				{ 6,  185960, 352443 }, -- Vestige of Origins
+				{ 7,  187784, 359701 }, -- Vestige of the Eternal
+				{ 8,  187742, 359672 }, -- Crafter's Mark of the First Ones
+				{ 9,  173384, 343694 }, -- Crafter's Mark of the Chained Isle
+				{ 10, 187741, 359663 }, -- Crafter's Mark IV
+				{ 11, 173383, 343695 }, -- Crafter's Mark III
+				{ 12, 173382, 343696 }, -- Crafter's Mark II
+				{ 13, 173381, 343697 }, -- Crafter's Mark I
+				{ 14, 183942, 343693 }, -- Novice Crafter's Mark
+				{ 16, 187849, 360317 }, -- Devourer Essence Stone
+				{ 17, 187829, 360016 }, -- Aealic Harmonizing Stone
+			},
 			[BFA_DIFF] = {
 				{ 1, 162112, 278419 }, -- Kaleidoscopic Lens
 			},
@@ -7039,6 +7188,16 @@ data["Jewelcrafting"] = {
 				{ 7, 215119, 435375 },                          -- Right-Handed Magnifying Glass
 				{ 8, 215117, 435377 },                          -- Storyteller's Glasses
 			},
+			[DF_DIFF] = {
+				{ 1, 193039, 374538 }, -- Fine-Print Trifocals
+				{ 2, 193040, 374540 }, -- Magnificent Margin Magnifier
+				{ 3, 193041, 374542 }, -- Alexstraszite Loupes
+				{ 4, 193042, 374543 }, -- Resonant Focus
+				{ 5, 193035, 374530 }, -- Bold-Print Bifocals
+				{ 6, 193037, 374532 }, -- Sundered Onyx Loupe
+				{ 7, 193036, 374531 }, -- Left-Handed Magnifying Glass
+				{ 8, 193038, 374537 }, -- Chromatic Focus
+			},
 		},
 		{ -- JewelcraftingDecor
 			name = ALIL["Decor"],
@@ -7106,6 +7265,13 @@ data["Jewelcrafting"] = {
 				{ 3, 213504, 434538 }, -- Quick Amber
 				{ 4, 213510, 434540 }, -- Versatile Amber
 				{ 5, 213515, 434536 }, -- Solid Amber
+			},
+			[DF_DIFF] = {
+				{ 1, 192971, 374461 }, -- Forceful Nozdorite
+				{ 2, 192974, 374462 }, -- Puissant Nozdorite
+				{ 3, 192968, 374460 }, -- Jagged Nozdorite
+				{ 4, 192977, 374463 }, -- Steady Nozdorite
+				{ 5, 192913, 374441 }, -- Solid Eternity Amber
 			},
 			[LEGION_DIFF] = {
 				{ 1, 151580, 247771 }, -- Deadly Deep Chemirine
@@ -7495,6 +7661,12 @@ data["Jewelcrafting"] = {
 		},
 		{ --JewelTrinkets
 			name = AL["Trinkets"],
+			[DF_DIFF] = {
+				{ 1, 193004, 374488 }, -- Idol of the Spell-Weaver
+				{ 2, 193003, 374486 }, -- Idol of the Life-Binder
+				{ 3, 193006, 374493 }, -- Idol of the Earth-Warder
+				{ 4, 193005, 374490 }, -- Idol of the Dreamer
+			},
 			[CATA_DIFF] = {
 				{ 1, 52199, 73640 }, -- Figurine - Demon Panther : =ds=#sr# 475 : =ds=#QUESTID:25047#
 				{ 2, 52354, 73643 }, -- Figurine - Dream Owl : =ds=#sr# 475 : =ds=#QUESTID:28777#
