@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.8 -
+### Added
+- Added Sporefall
+
 ## 9.22.7 - June 16, 2026
 ### Added
 - Added Timewalking difficulty to Vanilla instances
