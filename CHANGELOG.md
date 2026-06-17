@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.22.7 -
+## 9.22.7 - June 16, 2026
 ### Added
 - Added Timewalking difficulty to Vanilla instances
 - Added DF and SL Alchemy recipes
@@ -11,6 +11,7 @@
 - Added DF and SL Jewelcrafting recipes
 ### Changed
 - Significant additions, fixes and changes to Vanilla instance loot
+- Updated TOC to 12.0.7
 
 ## 9.22.6 - June 1, 2026
 ### Added
