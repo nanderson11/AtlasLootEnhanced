@@ -1415,6 +1415,10 @@ data["MOUNTS"]             = {
 				{ 214, 268363, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Pyrewood Rebel's Rouncey
 				{ 215, 268877, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Dusk-Painted Sun Roc
 				{ 216, 268876, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Flame-Painted Sun Roc
+				{ 217, 274650, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Netherforged Nullframe
+				{ 218, 274649, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Voidmancer's Starcarver
+				{ 219, 275664, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Tortured Gorger
+				{ 220, 269240, "mount" },                                       -- Luminous Sporeglider
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 			},
 			[HORDE_DIFF] = {
@@ -6811,6 +6815,10 @@ data["COMPANIONS"]         = {
 				{ 213, 270062, "pet5022" },                                     -- Void-Touched Chick
 				{ 214, 270063, "pet5023" },                                     -- Void-Touched Lynx Kitten
 				{ 215, 72153,  "pet665",  [PRICE_EXTRA_ITTYPE] = "tender:250" }, -- Sand Scarab
+				{ 216, 275662, "pet5073", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Frosticus Maximus
+				{ 217, 275663, "pet5074", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Silento
+				{ 218, 252195, "pet4898", [PRICE_EXTRA_ITTYPE] = "238365:50" }, -- Fishstick Keith
+				{ 219, 271185, "pet5041", [QUEST_EXTRA_ITTYPE] = 94883 },       -- Emberlyn
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
@@ -7188,6 +7196,9 @@ data["TOYS"]               = {
 				{ 106, 272287 },                                       -- Nap Mat
 				{ 107, 268456, [PRICE_EXTRA_ITTYPE] = "illusionaryCoin:200" }, -- Animated Bench
 				{ 108, 268455, [PRICE_EXTRA_ITTYPE] = "illusionaryCoin:200" }, -- Enchanted Hourglass
+				{ 109, 264313 },                                       -- Madcap Redcap
+				{ 110, 264367 },                                       -- Mycomancer's Hearthspore
+				{ 111, 276371, [QUEST_EXTRA_ITTYPE] = 97072 },         -- Lightveil Recall Beacon
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},

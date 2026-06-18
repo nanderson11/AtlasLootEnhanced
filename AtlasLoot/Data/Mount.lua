@@ -1446,6 +1446,10 @@ local MOUNT_INFO = {
 		[1282275] = 268363, -- Pyrewood Rebel's Rouncey
 		[1283908] = 268877, -- Dusk-Painted Sun Roc
 		[1283910] = 268876, -- Flame-Painted Sun Roc
+		[1294663] = 274650, -- Netherforged Nullframe
+		[1294648] = 274649, -- Voidmancer's Starcarver
+		[1297427] = 275664, -- Tortured Gorger
+		[1284973] = 269240, -- Luminous Sporeglider
 		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
 
 		-- [449416] = 223570, -- Ebonhide Ramolith

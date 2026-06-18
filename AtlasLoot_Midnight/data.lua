@@ -1012,6 +1012,7 @@ data["Sporefall"] = {
 				{ 14, 264367 }, -- Mycomancer's Hearthspore
 				{ 15, 268280 }, -- Sporelord's Shroom Cap
 				{ 16, 247235 }, -- Luminous Rotshroom
+				{ 17, 269245, 269240 }, -- Delicious Sporesnack -> Luminous Sporeglider
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,

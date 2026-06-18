@@ -3,6 +3,7 @@
 ## 9.22.8 -
 ### Added
 - Added Sporefall
+- Added 12.0.7 mounts, pets and toys to Collections
 - Added Timewalking difficulty to Dragonflight instances
 - Added two missing Dragonflight world bosses
 
