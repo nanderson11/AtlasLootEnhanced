@@ -3,6 +3,8 @@
 ## 9.22.8 -
 ### Added
 - Added Sporefall
+- Added Timewalking difficulty to Dragonflight instances
+- Added two missing Dragonflight world bosses
 
 ## 9.22.7 - June 16, 2026
 ### Added
