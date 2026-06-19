@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.22.8 -
+## 9.22.8 - June 19, 2026
 ### Added
 - Added Sporefall
 - Added 12.0.7 mounts, pets and toys to Collections
