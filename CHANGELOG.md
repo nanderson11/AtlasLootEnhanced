@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.9 - June 23, 2026
+### Added
+- Added new Midsummer Fire Festival items
+
 ## 9.22.8 - June 19, 2026
 ### Added
 - Added Sporefall

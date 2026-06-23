@@ -1419,6 +1419,7 @@ data["MOUNTS"]             = {
 				{ 218, 274649, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Voidmancer's Starcarver
 				{ 219, 275664, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Tortured Gorger
 				{ 220, 269240, "mount" },                                       -- Luminous Sporeglider
+				{ 221, 275464, "mount" },                                       -- Sun Festival's Painted Roc
 				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
 			},
 			[HORDE_DIFF] = {
