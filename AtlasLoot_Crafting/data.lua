@@ -7777,6 +7777,116 @@ data["Leatherworking"] = {
 				{ 28, 217131, 438903, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Trousers
 				{ 29, 217133, 438905, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Leather Wristwraps
 			},
+			[DF_DIFF] = {
+				{ 1,   193451, 375142 }, -- Slimy Expulsion Boots
+				{ 2,   193452, 375143 }, -- Toxic Thorn Footwraps
+				{ 3,   204706, 406266 }, -- Spore Colony Shoulderguards
+				{ 4,   193494, 375197 }, -- Flaring Cowl
+				{ 5,   193454, 375145 }, -- Old Spirit's Wristwraps
+				{ 6,   193457, 375147 }, -- String of Spiritual Knick-Knacks
+				{ 7,   193458, 375146 }, -- Snowball Makers
+				{ 8,   193453, 375144 }, -- Allied Heartwarming Fur Coat
+				{ 9,   193456, 375148 }, -- Infurious Spirit's Hood
+				{ 10,  193455, 375149 }, -- Infurious Footwraps of Indemnity
+				{ 11,  193407, 375115 }, -- Life-Bound Belt
+				{ 12,  193400, 375112 }, -- Life-Bound Cap
+				{ 13,  193419, 375116 }, -- Life-Bound Bindings
+				{ 14,  193399, 375109 }, -- Life-Bound Chestpiece
+				{ 15,  193408, 375113 }, -- Life-Bound Trousers
+				{ 16,  193398, 375110 }, -- Life-Bound Boots
+				{ 17,  193406, 375114 }, -- Life-Bound Shoulderpads
+				{ 18,  193418, 375111 }, -- Life-Bound Gloves
+				{ 19,  193390, 375105 }, -- Pioneer's Leather Tunic
+				{ 20,  201941, 395864 }, -- Pioneer's Practiced Cowl
+				{ 21,  201942, 395868 }, -- Pioneer's Practiced Shoulderpads
+				{ 22,  201945, 395863 }, -- Pioneer's Practiced Belt
+				{ 23,  201944, 395867 }, -- Pioneer's Practiced Leggings
+				{ 24,  193388, 375104 }, -- Pioneer's Leather Wristguards
+				{ 25,  193386, 375103 }, -- Pioneer's Leather Boots
+				{ 26,  201943, 395865 }, -- Pioneer's Practiced Gloves
+				{ 28,  211540, 430057 }, -- Draconic Combatant's Resilient Mask
+				{ 29,  211541, 430060 }, -- Draconic Combatant's Resilient Shoulderpads
+				{ 30,  211542, 430064 }, -- Draconic Combatant's Resilient Belt
+				{ 101, 211544, 430061 }, -- Draconic Combatant's Resilient Gloves
+				{ 102, 211539, 430058 }, -- Draconic Combatant's Resilient Chestpiece
+				{ 103, 211538, 430062 }, -- Draconic Combatant's Resilient Boots
+				{ 104, 211543, 430059 }, -- Draconic Combatant's Resilient Trousers
+				{ 105, 211545, 430063 }, -- Draconic Combatant's Resilient Wristwraps
+				{ 106, 208244, 419008 }, -- Verdant Combatant's Resilient Trousers
+				{ 107, 208246, 419012 }, -- Verdant Combatant's Resilient Wristwraps
+				{ 108, 208242, 419009 }, -- Verdant Combatant's Resilient Shoulderpads
+				{ 109, 208243, 419013 }, -- Verdant Combatant's Resilient Belt
+				{ 110, 208241, 419006 }, -- Verdant Combatant's Resilient Mask
+				{ 111, 208245, 419010 }, -- Verdant Combatant's Resilient Gloves
+				{ 112, 208240, 419007 }, -- Verdant Combatant's Resilient Chestpiece
+				{ 113, 208239, 419011 }, -- Verdant Combatant's Resilient Boots
+				{ 114, 204098, 403133 }, -- Obsidian Combatant's Resilient Mask
+				{ 115, 204101, 403135 }, -- Obsidian Combatant's Resilient Trousers
+				{ 116, 204103, 403139 }, -- Obsidian Combatant's Resilient Wristwraps
+				{ 117, 204099, 403136 }, -- Obsidian Combatant's Resilient Shoulderpads
+				{ 118, 204100, 403140 }, -- Obsidian Combatant's Resilient Belt
+				{ 119, 204102, 403137 }, -- Obsidian Combatant's Resilient Gloves
+				{ 120, 204097, 403134 }, -- Obsidian Combatant's Resilient Chestpiece
+				{ 121, 204096, 403138 }, -- Obsidian Combatant's Resilient Boots
+				{ 122, 193432, 375126 }, -- Crimson Combatant's Resilient Mask
+				{ 123, 193436, 375130 }, -- Crimson Combatant's Resilient Gloves
+				{ 124, 193433, 375129 }, -- Crimson Combatant's Resilient Shoulderpads
+				{ 125, 193434, 375133 }, -- Crimson Combatant's Resilient Belt
+				{ 126, 193431, 375127 }, -- Crimson Combatant's Resilient Chestpiece
+				{ 127, 193430, 375131 }, -- Crimson Combatant's Resilient Boots
+				{ 128, 193435, 375128 }, -- Crimson Combatant's Resilient Trousers
+				{ 129, 193437, 375132 }, -- Crimson Combatant's Resilient Wristwraps
+			},
+			[SL_DIFF] = {
+				{ 1,   172255, 309235 }, -- Shadebound Pauldrons
+				{ 2,   172252, 309232 }, -- Shadebound Gauntlets
+				{ 3,   172256, 309236 }, -- Shadebound Waistguard
+				{ 4,   172253, 309233 }, -- Shadebound Helm
+				{ 5,   172257, 309237 }, -- Shadebound Armguards
+				{ 6,   172251, 309230 }, -- Shadebound Treads
+				{ 7,   172254, 309234 }, -- Shadebound Leggings
+				{ 8,   172250, 309231 }, -- Shadebound Vest
+				{ 9,   172234, 309175 }, -- Desolate Leather Vest
+				{ 10,  172239, 309179 }, -- Desolate Leather Pauldrons
+				{ 11,  172235, 309174 }, -- Desolate Leather Treads
+				{ 12,  172238, 309178 }, -- Desolate Leather Leggings
+				{ 13,  172237, 309177 }, -- Desolate Leather Helm
+				{ 14,  172241, 309181 }, -- Desolate Leather Armguards
+				{ 15,  172240, 309180 }, -- Desolate Leather Waistguard
+				{ 16,  172236, 309176 }, -- Desolate Leather Gauntlets
+				{ 18,  172320, 338985 }, -- Umbrahide Waistguard
+				{ 19,  172320, 332055 }, -- Umbrahide Waistguard
+				{ 20,  172320, 332020 }, -- Umbrahide Waistguard
+				{ 21,  172320, 309204 }, -- Umbrahide Waistguard
+				{ 23,  172321, 338986 }, -- Umbrahide Armguards
+				{ 24,  172321, 332056 }, -- Umbrahide Armguards
+				{ 25,  172321, 332021 }, -- Umbrahide Armguards
+				{ 26,  172321, 309205 }, -- Umbrahide Armguards
+				{ 101, 172314, 338979 }, -- Umbrahide Vest
+				{ 102, 172314, 332050 }, -- Umbrahide Vest
+				{ 103, 172314, 332015 }, -- Umbrahide Vest
+				{ 104, 172314, 309199 }, -- Umbrahide Vest
+				{ 106, 172318, 338983 }, -- Umbrahide Leggings
+				{ 107, 172318, 332053 }, -- Umbrahide Leggings
+				{ 108, 172318, 332018 }, -- Umbrahide Leggings
+				{ 109, 172318, 309202 }, -- Umbrahide Leggings
+				{ 111, 172319, 338984 }, -- Umbrahide Pauldrons
+				{ 112, 172319, 332054 }, -- Umbrahide Pauldrons
+				{ 113, 172319, 332019 }, -- Umbrahide Pauldrons
+				{ 114, 172319, 309203 }, -- Umbrahide Pauldrons
+				{ 116, 172315, 338980 }, -- Umbrahide Treads
+				{ 117, 172315, 332049 }, -- Umbrahide Treads
+				{ 118, 172315, 332014 }, -- Umbrahide Treads
+				{ 119, 172315, 309198 }, -- Umbrahide Treads
+				{ 121, 172317, 338982 }, -- Umbrahide Helm
+				{ 122, 172317, 332052 }, -- Umbrahide Helm
+				{ 123, 172317, 332017 }, -- Umbrahide Helm
+				{ 124, 172317, 309201 }, -- Umbrahide Helm
+				{ 126, 172316, 338981 }, -- Umbrahide Gauntlets
+				{ 127, 172316, 332051 }, -- Umbrahide Gauntlets
+				{ 128, 172316, 332016 }, -- Umbrahide Gauntlets
+				{ 129, 172316, 309200 }, -- Umbrahide Gauntlets
+			},
 			[BFA_DIFF] = {
 				{ 1,   162468, 256767 }, -- Emblazoned Tempest Boots
 				{ 16,  162470, 256770 }, -- Emblazoned Tempest Leggings
@@ -8445,6 +8555,115 @@ data["Leatherworking"] = {
 				{ 28, 217139, 438911, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Leggings
 				{ 29, 217134, 438906, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Chain Treads
 			},
+			[DF_DIFF] = {
+				{ 1,   193466, 375151 }, -- Acidic Hailstone Treads
+				{ 2,   193460, 375150 }, -- Venom-Steeped Stompers
+				{ 3,   193459, 375153 }, -- Ancestor's Dew Drippers
+				{ 4,   193465, 375154 }, -- Scale Rein Grips
+				{ 5,   193463, 375152 }, -- Wind Spirit's Lasso
+				{ 6,   193462, 375156 }, -- Infurious Chainhelm Protector
+				{ 7,   193464, 375157 }, -- Allied Legguards of Sansok Khan
+				{ 8,   193461, 375155 }, -- Infurious Boots of Reprieve
+				{ 9,   204704, 406267 }, -- Adaptive Dracothyst Armguards
+				{ 10,  193427, 375119 }, -- Flame-Touched Handguards
+				{ 11,  193423, 375120 }, -- Flame-Touched Helmet
+				{ 12,  193426, 375121 }, -- Flame-Touched Legguards
+				{ 13,  193424, 375122 }, -- Flame-Touched Spaulders
+				{ 14,  193425, 375123 }, -- Flame-Touched Chain
+				{ 15,  193428, 375124 }, -- Flame-Touched Cuffs
+				{ 16,  193422, 375117 }, -- Flame-Touched Chainmail
+				{ 17,  193421, 375118 }, -- Flame-Touched Treads
+				{ 18,  193394, 375108 }, -- Trailblazer's Scale Vest
+				{ 19,  201948, 395845 }, -- Trailblazer's Toughened Grips
+				{ 20,  201947, 395851 }, -- Trailblazer's Toughened Spikes
+				{ 21,  201946, 395839 }, -- Trailblazer's Toughened Coif
+				{ 22,  201949, 395847 }, -- Trailblazer's Toughened Legguards
+				{ 23,  193393, 375107 }, -- Trailblazer's Scale Bracers
+				{ 24,  193392, 375106 }, -- Trailblazer's Scale Boots
+				{ 25,  201950, 395844 }, -- Trailblazer's Toughened Chainbelt
+				{ 27,  211549, 430068 }, -- Draconic Combatant's Adamant Epaulets
+				{ 28,  211550, 430072 }, -- Draconic Combatant's Adamant Girdle
+				{ 29,  211548, 430065 }, -- Draconic Combatant's Adamant Cowl
+				{ 30,  211552, 430069 }, -- Draconic Combatant's Adamant Gauntlets
+				{ 101, 211547, 430066 }, -- Draconic Combatant's Adamant Chainmail
+				{ 102, 211546, 430070 }, -- Draconic Combatant's Adamant Treads
+				{ 103, 211551, 430067 }, -- Draconic Combatant's Adamant Leggings
+				{ 104, 211553, 430071 }, -- Draconic Combatant's Adamant Cuffs
+				{ 105, 208254, 419020 }, -- Verdant Combatant's Adamant Cuffs
+				{ 106, 208250, 419017 }, -- Verdant Combatant's Adamant Epaulets
+				{ 107, 208251, 419021 }, -- Verdant Combatant's Adamant Girdle
+				{ 108, 208252, 419016 }, -- Verdant Combatant's Adamant Leggings
+				{ 109, 208249, 419014 }, -- Verdant Combatant's Adamant Cowl
+				{ 110, 208253, 419018 }, -- Verdant Combatant's Adamant Gauntlets
+				{ 111, 208248, 419015 }, -- Verdant Combatant's Adamant Chainmail
+				{ 112, 208247, 419019 }, -- Verdant Combatant's Adamant Treads
+				{ 113, 204109, 403143 }, -- Obsidian Combatant's Adamant Leggings
+				{ 114, 204111, 403147 }, -- Obsidian Combatant's Adamant Cuffs
+				{ 115, 204107, 403144 }, -- Obsidian Combatant's Adamant Epaulets
+				{ 116, 204108, 403148 }, -- Obsidian Combatant's Adamant Girdle
+				{ 117, 204106, 403141 }, -- Obsidian Combatant's Adamant Cowl
+				{ 118, 204110, 403145 }, -- Obsidian Combatant's Adamant Gauntlets
+				{ 119, 204105, 403142 }, -- Obsidian Combatant's Adamant Chainmail
+				{ 120, 204104, 403146 }, -- Obsidian Combatant's Adamant Treads
+				{ 121, 193441, 375134 }, -- Crimson Combatant's Adamant Cowl
+				{ 122, 193445, 375138 }, -- Crimson Combatant's Adamant Gauntlets
+				{ 123, 193440, 375135 }, -- Crimson Combatant's Adamant Chainmail
+				{ 124, 193439, 375139 }, -- Crimson Combatant's Adamant Treads
+				{ 125, 193444, 375136 }, -- Crimson Combatant's Adamant Leggings
+				{ 126, 193446, 375140 }, -- Crimson Combatant's Adamant Cuffs
+				{ 127, 193442, 375137 }, -- Crimson Combatant's Adamant Epaulets
+				{ 128, 193443, 375141 }, -- Crimson Combatant's Adamant Girdle
+			},
+			[SL_DIFF] = {
+				{ 1,   172258, 309239 }, -- Shadowscale Vest
+				{ 2,   172263, 309243 }, -- Shadowscale Pauldrons
+				{ 3,   172260, 309240 }, -- Shadowscale Gauntlets
+				{ 4,   172264, 309244 }, -- Shadowscale Waistguard
+				{ 5,   172261, 309241 }, -- Shadowscale Helm
+				{ 6,   172265, 309245 }, -- Shadowscale Armguards
+				{ 7,   172259, 309238 }, -- Shadowscale Treads
+				{ 8,   172262, 309242 }, -- Shadowscale Leggings
+				{ 9,   172246, 309186 }, -- Desolate Scale Greaves
+				{ 10,  172242, 309183 }, -- Desolate Scale Vest
+				{ 11,  172249, 309189 }, -- Desolate Scale Armguards
+				{ 12,  172248, 309188 }, -- Desolate Scale Waistguard
+				{ 13,  172244, 309184 }, -- Desolate Scale Gauntlets
+				{ 14,  172247, 309187 }, -- Desolate Scale Pauldrons
+				{ 15,  172245, 309185 }, -- Desolate Scale Helm
+				{ 16,  172243, 309182 }, -- Desolate Scale Treads
+				{ 18,  172328, 338993 }, -- Boneshatter Waistguard
+				{ 19,  172328, 332063 }, -- Boneshatter Waistguard
+				{ 20,  172328, 332028 }, -- Boneshatter Waistguard
+				{ 21,  172328, 309212 }, -- Boneshatter Waistguard
+				{ 23,  172329, 338994 }, -- Boneshatter Armguards
+				{ 24,  172329, 332064 }, -- Boneshatter Armguards
+				{ 25,  172329, 332029 }, -- Boneshatter Armguards
+				{ 26,  172329, 309213 }, -- Boneshatter Armguards
+				{ 101, 172322, 338987 }, -- Boneshatter Vest
+				{ 102, 172322, 332058 }, -- Boneshatter Vest
+				{ 103, 172322, 332023 }, -- Boneshatter Vest
+				{ 104, 172322, 309207 }, -- Boneshatter Vest
+				{ 106, 172326, 338991 }, -- Boneshatter Greaves
+				{ 107, 172326, 332061 }, -- Boneshatter Greaves
+				{ 108, 172326, 332026 }, -- Boneshatter Greaves
+				{ 109, 172326, 309210 }, -- Boneshatter Greaves
+				{ 111, 172327, 338992 }, -- Boneshatter Pauldrons
+				{ 112, 172327, 332062 }, -- Boneshatter Pauldrons
+				{ 113, 172327, 332027 }, -- Boneshatter Pauldrons
+				{ 114, 172327, 309211 }, -- Boneshatter Pauldrons
+				{ 116, 172323, 338988 }, -- Boneshatter Treads
+				{ 117, 172323, 332057 }, -- Boneshatter Treads
+				{ 118, 172323, 332022 }, -- Boneshatter Treads
+				{ 119, 172323, 309206 }, -- Boneshatter Treads
+				{ 121, 172325, 338990 }, -- Boneshatter Helm
+				{ 122, 172325, 332060 }, -- Boneshatter Helm
+				{ 123, 172325, 332025 }, -- Boneshatter Helm
+				{ 124, 172325, 309209 }, -- Boneshatter Helm
+				{ 126, 172324, 338989 }, -- Boneshatter Gauntlets
+				{ 127, 172324, 332059 }, -- Boneshatter Gauntlets
+				{ 128, 172324, 332024 }, -- Boneshatter Gauntlets
+				{ 129, 172324, 309208 }, -- Boneshatter Gauntlets
+			},
 			[BFA_DIFF] = {
 				{ 1,   161961, 256771 }, -- Mistscale Boots
 				{ 16,  161962, 256774 }, -- Mistscale Leggings
@@ -8928,6 +9147,16 @@ data["Leatherworking"] = {
 				{ 3, 219909, 444102,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stormbound Armor Kit
 				{ 4, 235335, 1216520, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Charged Armor Kit
 			},
+			[DF_DIFF] = {
+				{ 1, 193559, 375164 }, -- Reinforced Armor Kit
+				{ 2, 193556, 375161 }, -- Frosted Armor Kit
+				{ 3, 193557, 375162 }, -- Fierce Armor Kit
+				{ 4, 204700, 406214 }, -- Lambent Armor Kit
+			},
+			[SL_DIFF] = {
+				{ 1, 172347, 324088 }, -- Heavy Desolate Armor Kit
+				{ 2, 172346, 324087 }, -- Desolate Armor Kit
+			},
 			[WOD_DIFF] = {
 				{ 1, 128014, 171286, [PRICE_EXTRA_ITTYPE] = "118721:5" }, -- Burnished Essence (Sold, Ashran)
 				{ 2, 127712, 187489, [PRICE_EXTRA_ITTYPE] = "110609:60" }, -- Mighty Burnished Essence (Sold, Ashran)
@@ -9018,14 +9247,32 @@ data["Leatherworking"] = {
 				{ 6,  219876, 444115, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Earthen Jeweler's Cover
 				{ 7,  219872, 444106, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Nerubian Alchemist's Hat
 				{ 8,  219867, 444113, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Stonebound Herbalist's Pack
-				{ 16, 219866, 444105 },                                   -- Apothecary's Cap
-				{ 17, 219873, 444107 },                                   -- Steelsmith's Apron
-				{ 18, 219875, 444114 },                                   -- Gemcutter's Apron
-				{ 19, 219864, 444110 },                                   -- Scrapsmith's Gloves
-				{ 20, 219865, 444116 },                                   -- Hideshaper's Cover
-				{ 21, 219862, 444118 },                                   -- Hideseeker's Pack
-				{ 22, 219861, 444112 },                                   -- Gardener's Basket
-				{ 23, 219863, 444120 },                                   -- Hideseeker's Hat
+				{ 9,  219866, 444105 },                                   -- Apothecary's Cap
+				{ 10, 219873, 444107 },                                   -- Steelsmith's Apron
+				{ 11, 219875, 444114 },                                   -- Gemcutter's Apron
+				{ 12, 219864, 444110 },                                   -- Scrapsmith's Gloves
+				{ 13, 219865, 444116 },                                   -- Hideshaper's Cover
+				{ 14, 219862, 444118 },                                   -- Hideseeker's Pack
+				{ 15, 219861, 444112 },                                   -- Gardener's Basket
+				{ 16, 219863, 444120 },                                   -- Hideseeker's Hat
+			},
+			[DF_DIFF] = {
+				{ 1,  193489, 375190 }, -- Reinforced Pack
+				{ 2,  193492, 375194 }, -- Masterwork Smock
+				{ 3,  193490, 375191 }, -- Expert Skinner's Cap
+				{ 4,  193613, 375195 }, -- Flameproof Apron
+				{ 5,  193616, 375192 }, -- Resplendent Cover
+				{ 6,  193493, 375196 }, -- Expert Alchemist's Hat
+				{ 7,  193488, 375189 }, -- Lavish Floral Pack
+				{ 8,  193491, 375193 }, -- Shockproof Gloves
+				{ 9,  193482, 375183 }, -- Skinner's Cap
+				{ 10, 193612, 375187 }, -- Smithing Apron
+				{ 11, 193615, 375184 }, -- Jeweler's Cover
+				{ 12, 193487, 375188 }, -- Alchemist's Hat
+				{ 13, 193485, 375185 }, -- Protective Gloves
+				{ 14, 193480, 375182 }, -- Durable Pack
+				{ 15, 193486, 375186 }, -- Resilient Smock
+				{ 16, 193479, 375181 }, -- Floral Basket
 			},
 		},
 		{ --LeatherMiscellaneous
@@ -9041,6 +9288,37 @@ data["Leatherworking"] = {
 				{ 1, 219905, 444122 }, -- Thunderous Drums
 				{ 3, 219495, 441460 }, -- Blessed Weapon Grip
 				{ 4, 219504, 441461 }, -- Writhing Armor Banding
+			},
+			[DF_DIFF] = {
+				{ 1,  193470, 409555 }, -- Lustrous Scaled Drums
+				{ 2,  193470, 409557 }, -- Hide-Bound Drums
+				{ 3,  193470, 375168 }, -- Leather-Bound Drums
+				{ 5,  193469, 375160 }, -- Toxified Armor Patch
+				{ 6,  208187, 418579 }, -- Verdant Conduit
+				{ 7,  204708, 406275 }, -- Shadowflame-Tempered Armor Patch
+				{ 8,  193468, 375159 }, -- Fang Adornments
+				{ 9,  191529, 375166 }, -- Illustrious Insight
+				{ 10, 203414, 400814 }, -- Reinforced Pristine Leather
+				{ 11, 209351, 422330 }, -- Erden's Glowspore Grip
+				{ 13, 197719, 381547 }, -- Artisan's Sign
+				{ 14, 193476, 375171 }, -- Gnoll Tent
+				{ 15, 193478, 375172 }, -- Tuskarr Beanbag
+			},
+			[SL_DIFF] = {
+				{ 1,  172233, 309173 }, -- Drums of Deathly Ferocity
+				{ 3,  187784, 359702 }, -- Vestige of the Eternal
+				{ 4,  185960, 352444 }, -- Vestige of Origins
+				{ 5,  187742, 359669 }, -- Crafter's Mark of the First Ones
+				{ 6,  173384, 343189 }, -- Crafter's Mark of the Chained Isle
+				{ 7,  187741, 359662 }, -- Crafter's Mark IV
+				{ 8,  173383, 343192 }, -- Crafter's Mark III
+				{ 9,  173382, 343193 }, -- Crafter's Mark II
+				{ 10, 173381, 343195 }, -- Crafter's Mark I
+				{ 11, 183942, 343660 }, -- Novice Crafter's Mark
+				{ 13, 168419, 324735 }, -- Comfortable Rider's Barding
+				{ 14, 186985, 355354 }, -- Elusive Pet Treat
+				{ 15, 186686, 354797 }, -- Pallid Oracle Bones
+				{ 16, 186702, 354800 }, -- Pallid Bone Flute
 			},
 			[BFA_DIFF] = {
 				{ 1,  162122, 278423 }, -- Amber Rallying Horn
@@ -9115,6 +9393,20 @@ data["Leatherworking"] = {
 				{ 5, 219886, 444077 }, -- Writhing Hide
 				{ 6, 219898, 444086 }, -- Chitin Armor Banding
 				{ 7, 219901, 444087 }, -- Storm-Touched Weapon Wrap
+			},
+			[DF_DIFF] = {
+				{ 1, 197735, 381849 },                 -- Finished Prototype Explorer's Barding
+				{ 2, 197736, 381848 },                 -- Finished Prototype Regal Barding
+				{ 3, 193226, 375173, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Stonecrust Hide
+				{ 4, 193229, 375174, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Mireslush Hide
+				{ 5, 193236, 375176, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Infurious Hide
+				{ 6, 193245, 375179, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Frostbite Scales
+				{ 7, 193242, 375178, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Earthshine Scales
+				{ 8, 193248, 375180, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Infurious Scales
+			},
+			[SL_DIFF] = {
+				{ 1, 172097, 308897 }, -- Heavy Callous Hide
+				{ 2, 172096, 308899 }, -- Heavy Desolate Leather
 			},
 			[BFA_DIFF] = {
 				{ 1, 152542, 272278 }, -- Hardened Tempest Hide
@@ -9206,6 +9498,17 @@ data["Leatherworking"] = {
 		},
 		{ --LeatherWeapons
 			name = AL["Weapons"],
+			[DF_DIFF] = {
+				{ 1, 193449, 375125 }, -- Bow of the Dragon Hunters
+				{ 2, 193496, 375199 }, -- Witherrot Tome
+				{ 3, 193383, 375102 }, -- Bonewrought Crossbow
+			},
+			[SL_DIFF] = {
+				{ 1, 172349, 309190 }, -- Bone Bound Knuckles
+				{ 2, 172348, 309191 }, -- Desolate Leather Cestus
+				{ 3, 172350, 309192 }, -- Composite Bow
+				{ 4, 172351, 309193 }, -- Composite Crossbow
+			},
 			[BFA_DIFF] = {
 				{ 1,  154162, 256779 }, -- Mistscale Knuckles
 				{ 2,  154162, 256780 }, -- Mistscale Knuckles

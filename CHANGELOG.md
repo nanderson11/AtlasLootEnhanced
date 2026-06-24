@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.10 -
+### Added
+- Added DF and SL Leatherworking recipes
+
 ## 9.22.9 - June 23, 2026
 ### Added
 - Added new Midsummer Fire Festival items
