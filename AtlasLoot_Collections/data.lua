@@ -3804,6 +3804,7 @@ data["TABARDS"]            = {
 				{ 8,  267261,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                  -- Tabard of the Hara'ti Sage
 				{ 9,  267262,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                  -- Tabard of the Hara'ti Seer
 				{ 10, [ATLASLOOT_IT_ALLIANCE] = 246740, [ATLASLOOT_IT_HORDE] = 246795,              [QUEST_EXTRA_ITTYPE] = 90961 }, -- Tabard of the Haranir
+				{ 11, 267280,                           [PRICE_EXTRA_ITTYPE] = "money:300000" },                        -- Darkspear Dash Tabard
 				-- { 1, 267467 },                                  -- Silversun Compact Tabard (currently unobtainable)
 				-- { 1, 266902 },                                  -- Depthdiver's Tabard (currently unobtainable)
 				-- { 1, 266965 },                                  -- Tabard of Amani Abundance (currently unobtainable)
@@ -7200,6 +7201,7 @@ data["TOYS"]               = {
 				{ 109, 264313 },                                       -- Madcap Redcap
 				{ 110, 264367 },                                       -- Mycomancer's Hearthspore
 				{ 111, 276371, [QUEST_EXTRA_ITTYPE] = 97072 },         -- Lightveil Recall Beacon
+				{ 112, 267323, [QUEST_EXTRA_ITTYPE] = 94954 },         -- Troll Scroll of Rainbow Roll
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},

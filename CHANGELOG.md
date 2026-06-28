@@ -2,6 +2,7 @@
 
 ## 9.22.10 -
 ### Added
+- Added Darkspear Dash items
 - Added DF and SL Leatherworking recipes
 
 ## 9.22.9 - June 23, 2026
