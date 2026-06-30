@@ -9785,6 +9785,131 @@ data["Tailoring"] = {
 				{ 102, 217119, 438891, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Cloth Treads
 				{ 103, 217123, 438895, [PRICE_EXTRA_ITTYPE] = "honor:7500" }, -- Algari Competitor's Cloth Tunic
 			},
+			[DF_DIFF] = {
+				{ 1,   193512, 376505 }, -- Chronocloth Sash
+				{ 2,   193527, 376503 }, -- Chronocloth Gloves
+				{ 3,   193537, 376504 }, -- Chronocloth Leggings
+				{ 4,   193520, 376502 }, -- Azureweave Mantle
+				{ 5,   193525, 376501 }, -- Azureweave Slippers
+				{ 6,   193536, 376500 }, -- Azureweave Robe
+				{ 7,   193530, 376497 }, -- Allied Wristguards of Time Dilation
+				{ 8,   193521, 376492 }, -- Hood of Surging Time
+				{ 9,   193526, 376493 }, -- Amice of the Blue
+				{ 10,  193532, 376496 }, -- Blue Dragon Soles
+				{ 11,  205025, 408318 }, -- Undulating Sporecloak
+				{ 12,  193511, 376510 }, -- Vibrant Wildercloth Shawl
+				{ 13,  193509, 376511 }, -- Vibrant Wildercloth Vestments
+				{ 14,  193519, 376512 }, -- Vibrant Wildercloth Slippers
+				{ 15,  193504, 376513 }, -- Vibrant Wildercloth Handwraps
+				{ 16,  193523, 376514 }, -- Vibrant Wildercloth Headcover
+				{ 17,  193518, 376515 }, -- Vibrant Wildercloth Slacks
+				{ 18,  193508, 376516 }, -- Vibrant Wildercloth Shoulderspikes
+				{ 19,  193516, 376517 }, -- Vibrant Wildercloth Girdle
+				{ 20,  193510, 376518 }, -- Vibrant Wildercloth Wristwraps
+				{ 21,  201938, 395813 }, -- Surveyor's Seasoned Gloves
+				{ 22,  201939, 395814 }, -- Surveyor's Seasoned Pants
+				{ 23,  201937, 395815 }, -- Surveyor's Seasoned Shoulders
+				{ 24,  193497, 376509 }, -- Surveyor's Cloth Bands
+				{ 25,  193498, 376508 }, -- Surveyor's Cloth Treads
+				{ 26,  193515, 376507 }, -- Surveyor's Cloth Robe
+				{ 27,  193500, 376506 }, -- Surveyor's Tailored Cloak
+				{ 28,  201940, 395809 }, -- Surveyor's Seasoned Cord
+				{ 29,  201936, 395807 }, -- Surveyor's Seasoned Hood
+				{ 101, 193513, 376494 }, -- Infurious Binding of Gesticulation
+				{ 102, 193524, 376495 }, -- Infurious Legwraps of Possibility
+				{ 103, 211560, 430074 }, -- Draconic Combatant's Wildercloth Tunic
+				{ 104, 211556, 430075 }, -- Draconic Combatant's Wildercloth Treads
+				{ 105, 211559, 430076 }, -- Draconic Combatant's Wildercloth Gloves
+				{ 106, 211558, 430077 }, -- Draconic Combatant's Wildercloth Hood
+				{ 107, 211562, 430073 }, -- Draconic Combatant's Wildercloth Cloak
+				{ 108, 211554, 430078 }, -- Draconic Combatant's Wildercloth Leggings
+				{ 109, 211555, 430079 }, -- Draconic Combatant's Wildercloth Shoulderpads
+				{ 110, 211561, 430080 }, -- Draconic Combatant's Wildercloth Sash
+				{ 111, 211557, 430081 }, -- Draconic Combatant's Wildercloth Bands
+				{ 112, 208255, 419027 }, -- Verdant Combatant's Wildercloth Leggings
+				{ 113, 208260, 419025 }, -- Verdant Combatant's Wildercloth Gloves
+				{ 114, 208256, 419028 }, -- Verdant Combatant's Wildercloth Shoulderpads
+				{ 115, 208262, 419029 }, -- Verdant Combatant's Wildercloth Sash
+				{ 116, 208263, 419022 }, -- Verdant Combatant's Wildercloth Cloak
+				{ 117, 208261, 419023 }, -- Verdant Combatant's Wildercloth Tunic
+				{ 118, 208258, 419030 }, -- Verdant Combatant's Wildercloth Bands
+				{ 119, 208257, 419024 }, -- Verdant Combatant's Wildercloth Treads
+				{ 120, 208259, 419026 }, -- Verdant Combatant's Wildercloth Hood
+				{ 121, 204118, 403150 }, -- Obsidian Combatant's Wildercloth Tunic
+				{ 122, 204120, 403149 }, -- Obsidian Combatant's Wildercloth Cloak
+				{ 123, 204114, 403151 }, -- Obsidian Combatant's Wildercloth Treads
+				{ 124, 204112, 403154 }, -- Obsidian Combatant's Wildercloth Leggings
+				{ 125, 204116, 403153 }, -- Obsidian Combatant's Wildercloth Hood
+				{ 126, 204117, 403152 }, -- Obsidian Combatant's Wildercloth Gloves
+				{ 127, 204113, 403155 }, -- Obsidian Combatant's Wildercloth Shoulderpads
+				{ 128, 204119, 403156 }, -- Obsidian Combatant's Wildercloth Sash
+				{ 129, 204115, 403157 }, -- Obsidian Combatant's Wildercloth Bands
+				{ 130, 193522, 376519 }, -- Crimson Combatant's Wildercloth Cloak
+				{ 201, 193514, 376520 }, -- Crimson Combatant's Wildercloth Tunic
+				{ 202, 193503, 376521 }, -- Crimson Combatant's Wildercloth Treads
+				{ 203, 193507, 376522 }, -- Crimson Combatant's Wildercloth Gloves
+				{ 204, 193502, 376525 }, -- Crimson Combatant's Wildercloth Shoulderpads
+				{ 205, 193517, 376526 }, -- Crimson Combatant's Wildercloth Sash
+				{ 206, 193501, 376524 }, -- Crimson Combatant's Wildercloth Leggings
+				{ 207, 193506, 376523 }, -- Crimson Combatant's Wildercloth Hood
+				{ 208, 193505, 376527 }, -- Crimson Combatant's Wildercloth Bands
+			},
+			[SL_DIFF] = {
+				{ 1,   173221, 310903 }, -- Shadowlace Cord
+				{ 2,   173216, 310896 }, -- Shadowlace Footwraps
+				{ 3,   173214, 310897 }, -- Shadowlace Tunic
+				{ 4,   173215, 310898 }, -- Shadowlace Cloak
+				{ 5,   173218, 310900 }, -- Shadowlace Cowl
+				{ 6,   173217, 310899 }, -- Shadowlace Handwraps
+				{ 7,   173222, 310904 }, -- Shadowlace Cuffs
+				{ 8,   173220, 310902 }, -- Shadowlace Mantle
+				{ 9,   173219, 310901 }, -- Shadowlace Trousers
+				{ 10,  173200, 310876 }, -- Shrouded Cloth Belt
+				{ 11,  173201, 310877 }, -- Shrouded Cloth Bracers
+				{ 12,  173193, 310870 }, -- Shrouded Cloth Robe
+				{ 13,  173195, 310869 }, -- Shrouded Cloth Sandals
+				{ 14,  173194, 310871 }, -- Shrouded Cloth Cape
+				{ 15,  173196, 310872 }, -- Shrouded Cloth Mittens
+				{ 16,  173197, 310873 }, -- Shrouded Cloth Hood
+				{ 17,  173198, 310874 }, -- Shrouded Cloth Pants
+				{ 18,  173199, 310875 }, -- Shrouded Cloth Spaulders
+				{ 20,  173248, 339003 }, -- Grim-Veiled Belt
+				{ 21,  173248, 332072 }, -- Grim-Veiled Belt
+				{ 22,  173248, 332037 }, -- Grim-Veiled Belt
+				{ 23,  173248, 310885 }, -- Grim-Veiled Belt
+				{ 25,  173249, 339004 }, -- Grim-Veiled Bracers
+				{ 26,  173249, 332073 }, -- Grim-Veiled Bracers
+				{ 27,  173249, 332038 }, -- Grim-Veiled Bracers
+				{ 28,  173249, 310886 }, -- Grim-Veiled Bracers
+				{ 101, 173243, 338997 }, -- Grim-Veiled Sandals
+				{ 102, 173243, 332065 }, -- Grim-Veiled Sandals
+				{ 103, 173243, 332030 }, -- Grim-Veiled Sandals
+				{ 104, 173243, 310878 }, -- Grim-Veiled Sandals
+				{ 106, 173241, 338996 }, -- Grim-Veiled Robe
+				{ 107, 173241, 332066 }, -- Grim-Veiled Robe
+				{ 108, 173241, 332031 }, -- Grim-Veiled Robe
+				{ 109, 173241, 310879 }, -- Grim-Veiled Robe
+				{ 111, 173242, 338995 }, -- Grim-Veiled Cape
+				{ 112, 173242, 332067 }, -- Grim-Veiled Cape
+				{ 113, 173242, 332032 }, -- Grim-Veiled Cape
+				{ 114, 173242, 310880 }, -- Grim-Veiled Cape
+				{ 116, 173244, 338998 }, -- Grim-Veiled Mittens
+				{ 117, 173244, 332068 }, -- Grim-Veiled Mittens
+				{ 118, 173244, 332033 }, -- Grim-Veiled Mittens
+				{ 119, 173244, 310881 }, -- Grim-Veiled Mittens
+				{ 121, 173245, 339000 }, -- Grim-Veiled Hood
+				{ 122, 173245, 332069 }, -- Grim-Veiled Hood
+				{ 123, 173245, 332034 }, -- Grim-Veiled Hood
+				{ 124, 173245, 310882 }, -- Grim-Veiled Hood
+				{ 126, 173246, 339001 }, -- Grim-Veiled Pants
+				{ 127, 173246, 332070 }, -- Grim-Veiled Pants
+				{ 128, 173246, 332035 }, -- Grim-Veiled Pants
+				{ 129, 173246, 310883 }, -- Grim-Veiled Pants
+				{ 201, 173247, 339002 }, -- Grim-Veiled Spaulders
+				{ 202, 173247, 332071 }, -- Grim-Veiled Spaulders
+				{ 203, 173247, 332036 }, -- Grim-Veiled Spaulders
+				{ 204, 173247, 310884 }, -- Grim-Veiled Spaulders
+			},
 			[BFA_DIFF] = {
 				{ 1,   162476, 257121 }, -- Emblazoned Deep Sea Gloves
 				{ 16,  162478, 257124 }, -- Emblazoned Deep Sea Breeches
@@ -10500,6 +10625,17 @@ data["Tailoring"] = {
 				{ 25, 222863, 446986, [PRICE_EXTRA_ITTYPE] = "210814:150:kej:1500" }, -- Prodigy's Toolbox
 				{ 26, 224852, 454431 },                                   -- The Severed Satchel
 			},
+			[DF_DIFF] = {
+				{ 1, 194018, 376529 }, -- Azureweave Expedition Pack
+				{ 2, 194020, 376561 }, -- Chronocloth Reagent Bag
+				{ 3, 202287, 405974 }, -- Paw-Made Winterpelt Reagent Bag
+				{ 4, 194017, 376528 }, -- Wildercloth Bag
+				{ 5, 194019, 376560 }, -- Simply Stitched Reagent Bag
+			},
+			[SL_DIFF] = {
+				{ 1, 184480, 345986 }, -- Lightless Silk Pouch
+				{ 2, 184479, 345985 }, -- Shrouded Cloth Bag
+			},
 			[BFA_DIFF] = {
 				{ 1,  154695, 257125 }, -- Deep Sea Bag
 				{ 2,  154695, 257126 }, -- Deep Sea Bag
@@ -10571,6 +10707,11 @@ data["Tailoring"] = {
 				{ 7, 238046, 1228338, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Pure Energizing Fiber
 				{ 8, 238044, 1228342, [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Pure Precise Fiber
 			},
+			[DF_DIFF] = {
+				{ 1, 194014, 376540 }, -- Temporal Spellthread
+				{ 2, 194011, 376539 }, -- Frozen Spellthread
+				{ 3, 194008, 376538 }, -- Vibrant Spellthread
+			},
 			[BFA_DIFF] = {
 				{ 1, "prof279182" }, -- Resilient Spellthread
 				{ 2, "prof279183" }, -- Discreet Spellthread
@@ -10641,6 +10782,20 @@ data["Tailoring"] = {
 				{ 12, 222841, 446964 },                                   -- Weavercloth Gardening Hat
 				{ 13, 222844, 446967 },                                   -- Weavercloth Tailor's Coat
 			},
+			[DF_DIFF] = {
+				{ 1,  193540, 376546 }, -- Dragoncloth Tailoring Vestments
+				{ 2,  193544, 376544 }, -- Master's Wildercloth Alchemist's Robe
+				{ 3,  193545, 376548 }, -- Master's Wildercloth Chef's Hat
+				{ 4,  193543, 376552 }, -- Master's Wildercloth Fishing Cap
+				{ 5,  193533, 376550 }, -- Master's Wildercloth Enchanter's Hat
+				{ 6,  193542, 376554 }, -- Master's Wildercloth Gardening Hat
+				{ 7,  193541, 376545 }, -- Wildercloth Tailor's Coat
+				{ 8,  193539, 376549 }, -- Wildercloth Enchanter's Hat
+				{ 9,  193538, 376553 }, -- Wildercloth Gardening Hat
+				{ 10, 193528, 376543 }, -- Wildercloth Alchemist's Robe
+				{ 11, 193534, 376547 }, -- Wildercloth Chef's Hat
+				{ 12, 193529, 376551 }, -- Wildercloth Fishing Cap
+			}
 		},
 		{ --TailoringMisc
 			name = MISCELLANEOUS,
@@ -10663,6 +10818,46 @@ data["Tailoring"] = {
 				{ 5, 222882, 446997 }, -- Weavercloth Embroidery Thread
 				{ 6, 222885, 446995 }, -- Preserving Embroidery Thread
 				{ 7, 224440, 447002 }, -- Weavercloth Bandage
+			},
+			[DF_DIFF] = {
+				{ 1,  194048, 376530 },                 -- Wildercloth Bandage
+				{ 2,  194042, 376531 },                 -- Explorer's Banner of Herbology
+				{ 3,  194045, 376532 },                 -- Explorer's Banner of Geology
+				{ 5,  205411, 409839 },                 -- Medical Wrap Kit
+				{ 6,  193941, 376542 },                 -- Bronzed Grip Wrappings
+				{ 7,  193944, 376541 },                 -- Blue Silken Lining
+				{ 8,  205012, 408304 },                 -- Reserve Parachute
+				{ 9,  210671, 426434 },                 -- Verdant Tether
+				{ 10, 193950, 376533, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Abrasive Polishing Cloth
+				{ 11, 193956, 376535, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Blazing Embroidery Thread
+				{ 12, 193962, 376537, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Shimmering Embroidery Thread
+				{ 13, 193953, 376534, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Vibrant Polishing Cloth
+				{ 14, 193959, 376536, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Chromatic Embroidery Thread
+				{ 15, 191529, 376699 },                 -- Illustrious Insight
+				{ 16, 203415, 400815 },                 -- Traditional Morqut Kite
+				{ 17, 194537, 376563 },                 -- Fiddle with Draconium Fabric Cutters
+				{ 18, 194538, 376564 },                 -- Fiddle with Khaz'gorite Fabric Cutters
+				{ 20, 194060, 376570 },                 -- Dragonscale Expedition's Expedition Tent
+				{ 21, 194057, 376567 },                 -- Cushion of Time Travel
+				{ 22, 194058, 376568 },                 -- Cold Cushion
+				{ 23, 194056, 376565 },                 -- Duck-Stuffed Duck Lovie
+				{ 24, 194059, 376569 },                 -- Market Tent
+				{ 25, 194052, 376566 },                 -- Forlorn Funeral Pall
+			},
+			[SL_DIFF] = {
+				{ 1,  173191, 310923 }, -- Heavy Shrouded Cloth Bandage
+				{ 2,  173192, 310924 }, -- Shrouded Cloth Bandage
+				{ 4,  187784, 359703 }, -- Vestige of the Eternal
+				{ 5,  185960, 352445 }, -- Vestige of Origins
+				{ 6,  173384, 343200 }, -- Crafter's Mark of the Chained Isle
+				{ 7,  187742, 359670 }, -- Crafter's Mark of the First Ones
+				{ 8,  187741, 359661 }, -- Crafter's Mark IV
+				{ 9,  173383, 343201 }, -- Crafter's Mark III
+				{ 10, 173382, 343202 }, -- Crafter's Mark II
+				{ 11, 173381, 343204 }, -- Crafter's Mark I
+				{ 12, 183942, 343659 }, -- Novice Crafter's Mark
+				{ 14, 180752, 334499 }, -- Pink Party Hat
+				{ 15, 186975, 355183 }, -- Shrouded Hand Towel
 			},
 			[BFA_DIFF] = {
 				{ 1,  159792, 268983 }, -- Hooked Deep Sea Net
@@ -10717,6 +10912,13 @@ data["Tailoring"] = {
 				{ 2, 222801, 446928, [ATLASLOOT_IT_AMOUNT1] = "2" }, -- Dawnweave Bolt
 				{ 3, 224832, 454397 },                   -- Exquisite Weavercloth Bolt
 				{ 4, 222804, 446929 },                   -- Weavercloth Bolt
+			},
+			[DF_DIFF] = {
+				{ 1, 193938, 376556 }, -- Azureweave Bolt
+				{ 2, 193935, 376557 }, -- Chronocloth Bolt
+				{ 3, 193929, 376558 }, -- Vibrant Wildercloth Bolt
+				{ 4, 193932, 376559 }, -- Infurious Wildercloth Bolt
+				{ 5, 193926, 376555 }, -- Wildercloth Bolt
 			},
 			[BFA_DIFF] = {
 				{ 1, 158378, 272440 }, -- Embroidered Deep Sea Satin
