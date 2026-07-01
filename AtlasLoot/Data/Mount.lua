@@ -1451,7 +1451,10 @@ local MOUNT_INFO = {
 		[1297427] = 275664, -- Tortured Gorger
 		[1284973] = 269240, -- Luminous Sporeglider
 		[1298439] = 275464, -- Sun Festival's Painted Roc
-		-- [1262840] = 260228, -- Galactic Gladiator's Goredrake
+		[350220] = 192778, -- Liquid Hot Magma Slug
+		[404018] = 210140, -- Black-Furred Bakar
+		[1264184] = 258884, -- Spawn of Vyranoth
+		[1262840] = 260228, -- Galactic Gladiator's Goredrake
 
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger

@@ -2,6 +2,7 @@
 
 ## 9.22.10 -
 ### Added
+- Added Dragonflight Timewalking rewards
 - Added Darkspear Dash items
 - Added DF and SL Leatherworking recipes
 - Added DF and SL Tailoring recipes

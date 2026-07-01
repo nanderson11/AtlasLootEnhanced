@@ -351,6 +351,10 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 1,  238739, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Chrono Corsair
 				{ 2,  205208, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Sandy Shalewing
 				{ 3,  232624, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Timely Buzzbee
+				{ 4,  257511, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bronze Wilderling Harness
+				{ 5,  257514, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bronze Corpsefly Harness
+				{ 6,  257516, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bronze Gravewing Harness
+				{ 7,  257513, "mount",                                  [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Bronze Aquilon Harness
 				{ 16, 122338, [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                                -- Ancient Heirloom Armor Casing
 				{ 17, 122339, [PRICE_EXTRA_ITTYPE] = "timewarped:900" },                                -- Ancient Heirloom Scabbard
 				{ 18, 122340, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                               -- Timeworn Heirloom Armor Casing
@@ -363,6 +367,61 @@ data["TIMEWALKINGEVENT"]   = {
 				{ 25, 187998, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Eternal Heirloom Scabbard
 				{ 26, 204336, [PRICE_EXTRA_ITTYPE] = "timewarped:1000", },                              -- Awakened Heirloom Armor Casing
 				{ 27, 204337, [PRICE_EXTRA_ITTYPE] = "timewarped:1200", },                              -- Awakened Heirloom Scabbard
+			},
+		},
+		{ -- Dragonflight
+			name = EXPANSION_NAME9,
+			[NORMAL_DIFF] = {
+				{ 1,   192778,         "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Liquid Hot Magma Slug
+				{ 2,   210140,         "mount",                                 [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Black-Furred Bakar
+				{ 3,   260885,         "pet4949",                               [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Shadowflame Remnant
+				{ 4,   259335,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Photo Finisher
+				{ 5,   259899,         [PRICE_EXTRA_ITTYPE] = "timewarped:750" },                               -- Ashen Horn of the Fallen Keeper
+				{ 6,   260170,         [PRICE_EXTRA_ITTYPE] = "timewarped:500" },                               -- Oathstone Fragment
+				{ 8,   258841,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Dragonscale Expedition
+				{ 9,   258842,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Maruuk Centaur
+				{ 10,  258843,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Iskaara Tuskarr
+				{ 11,  258844,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Valdrakken Accord
+				{ 12,  258845,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Loamm Niffen
+				{ 13,  258846,         [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Commendation of the Dream Wardens
+				{ 16,  260917,         [PRICE_EXTRA_ITTYPE] = "timewarped:2500" },                              -- Infinite Broodkeeper's Greatstaff
+				{ 17,  260926,         [PRICE_EXTRA_ITTYPE] = "timewarped:4000" },                              -- Ensemble: Shadowflame-Seared Druidic Garb
+				{ 18,  260899,         [PRICE_EXTRA_ITTYPE] = "timewarped:2500" },                              -- Ensemble: Time-Lost Earthwarden's Battlegear
+				{ 19,  260921,         [PRICE_EXTRA_ITTYPE] = "timewarped:1500" },                              -- Khan's Ceremonial Crossbow
+				{ 20,  260914,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Arsenal: Lost Plunder Key
+				{ 21,  260915,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Arsenal: Found Plunder Key
+				{ 22,  260923,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Infinite Timeslicer
+				{ 23,  260941,         [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- Ensemble: Winter's Dreaming Garb
+				{ 24,  260944,         [PRICE_EXTRA_ITTYPE] = "timewarped:2000" },                              -- Ensemble: Pristine Draconic Scholar's Finery
+				{ 25,  260919,         [PRICE_EXTRA_ITTYPE] = "timewarped:600" },                               -- Scavenger's Banner
+				{ 26,  260920,         [PRICE_EXTRA_ITTYPE] = "timewarped:600" },                               -- Emergency Landing Kit
+				{ 27,  196993,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Cliffside Wylderdrake: Sleek Horns
+				{ 28,  210478,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Flourishing Whimsydrake: Gold and Pink Armor
+				{ 29,  207757,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Grotto Netherwing Drake: Purple and Silver Armor
+				{ 30,  207777,         [PRICE_EXTRA_ITTYPE] = "timewarped:1000" },                              -- Grotto Netherwing Drake: Yellow Scales
+				{ 101, 260945,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Ensemble: Razorscale Pauldrons
+				{ 102, 260946,         [PRICE_EXTRA_ITTYPE] = "timewarped:1200" },                              -- Ensemble: Dragonstone Shoulderguards
+				{ 104, "262362:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Expeditioner's Spellblade
+				{ 105, "262363:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Expeditioner's Mallet
+				{ 106, "262360:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Storyteller's Verses
+				{ 107, "262361:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Rothide Crusher
+				{ 108, "262359:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Djaradin Sparring Spear
+				{ 109, "262367:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:35" },                                -- Slumbering Guardian's Bulwark
+				{ 110, "262366:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Headmaster's Emberstaff
+				{ 111, "262365:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:100" },                               -- Maruuk Hunting Bow
+				{ 112, "262364:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Drakonid Stabber
+				{ 113, "262368:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:50" },                                -- Centaur Battleglaive
+				{ 114, "262380:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chronomental Gauntlets
+				{ 115, "262385:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Nokhud Reaver Legplates
+				{ 116, "262381:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chronomental Gloves
+				{ 117, "262384:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Shikaar Scout Breeches
+				{ 118, "262378:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chronomental Grips
+				{ 119, "262382:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Teerai Watcher Breeches
+				{ 120, "262379:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Chronomental Halfgloves
+				{ 121, "262383:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Ohn'ir Initiate Leggings
+				{ 122, "262388:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Vaultkeeper's Signet
+				{ 123, "262387:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Silver Keeper's Band
+				{ 124, "262386:13607", [PRICE_EXTRA_ITTYPE] = "timewarped:25" },                                -- Bronze Drake's Promise
 			},
 		},
 		{ -- Shadowlands
@@ -1420,7 +1479,10 @@ data["MOUNTS"]             = {
 				{ 219, 275664, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Tortured Gorger
 				{ 220, 269240, "mount" },                                       -- Luminous Sporeglider
 				{ 221, 275464, "mount" },                                       -- Sun Festival's Painted Roc
-				-- { 127, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 }, -- Galactic Gladiator's Goredrake
+				{ 222, 260228, "mount", [ACH_EXTRA_ITTYPE] = 61188 },           -- Galactic Gladiator's Goredrake
+				{ 223, 258884, "mount", [ACH_EXTRA_ITTYPE] = 61463 },           -- Spawn of Vyranoth
+				{ 224, 192778, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Liquid Hot Magma Slug
+				{ 225, 210140, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Black-Furred Bakar
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -1611,10 +1673,10 @@ data["MOUNTS"]             = {
 				{ 528, 258515, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Crimson Lupine
 				{ 529, 259463, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Snowpaw Glimmerfur Prowler
 				{ 530, 258188, "mount", [ACH_EXTRA_ITTYPE] = 61451 },                    -- Geargrinder Mk. 11
-				{ 601, 257511, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Wilderling Harness
-				{ 602, 257514, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Corpsefly Harness
-				{ 603, 257516, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Gravewing Harness
-				{ 604, 257513, "mount", [ACH_EXTRA_ITTYPE] = 61394 },                    -- Bronze Aquilon Harness
+				{ 601, 257511, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Bronze Wilderling Harness
+				{ 602, 257514, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Bronze Corpsefly Harness
+				{ 603, 257516, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Bronze Gravewing Harness
+				{ 604, 257513, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" },      -- Bronze Aquilon Harness
 				{ 605, 212228, "mount", [PRICE_EXTRA_ITTYPE] = "tender:750" },           -- Reins of the Soaring Sky Fox
 				{ 606, 248994, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },           -- Kalu'ak Crest-Horn
 				{ 607, 211085, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },             -- Jeweled Sapphire Scarab
@@ -6821,6 +6883,7 @@ data["COMPANIONS"]         = {
 				{ 217, 275663, "pet5074", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:15" }, -- Silento
 				{ 218, 252195, "pet4898", [PRICE_EXTRA_ITTYPE] = "238365:50" }, -- Fishstick Keith
 				{ 219, 271185, "pet5041", [QUEST_EXTRA_ITTYPE] = 94883 },       -- Emberlyn
+				{ 220, 260885, "pet4949", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Shadowflame Remnant
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
@@ -7202,6 +7265,9 @@ data["TOYS"]               = {
 				{ 110, 264367 },                                       -- Mycomancer's Hearthspore
 				{ 111, 276371, [QUEST_EXTRA_ITTYPE] = 97072 },         -- Lightveil Recall Beacon
 				{ 112, 267323, [QUEST_EXTRA_ITTYPE] = 94954 },         -- Troll Scroll of Rainbow Roll
+				{ 113, 259335, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Photo Finisher
+				{ 114, 259899, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ashen Horn of the Fallen Keeper
+				{ 115, 260170, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Oathstone Fragment
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},
