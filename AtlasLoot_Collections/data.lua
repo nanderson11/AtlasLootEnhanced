@@ -1483,6 +1483,8 @@ data["MOUNTS"]             = {
 				{ 223, 258884, "mount", [ACH_EXTRA_ITTYPE] = 61463 },           -- Spawn of Vyranoth
 				{ 224, 192778, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Liquid Hot Magma Slug
 				{ 225, 210140, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Black-Furred Bakar
+				{ 226, 273317, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Blackwater X-TREME Firework Rocket
+				{ 227, 273651, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Bilgewater X-TREME Firework Rocket
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -6954,8 +6956,8 @@ data["COMPANIONS"]         = {
 				{ 125, 232519, "pet4690" },                                               -- Razeshi B.
 				{ 126, 224439, "pet4470" },                                               -- Oop'lajax
 				{ 127, 224450, "pet4527" },                                               -- Lil' Moss Rosy
-				{ 128, 228790, "pet4617" },                                               -- Thrillbot 9000
-				{ 129, 228793, "pet4618" },                                               -- Chillbot 9000
+				{ 128, 228790, "pet4617", [PRICE_EXTRA_ITTYPE] = "tender:250" },          -- Thrillbot 9000
+				{ 129, 228793, "pet4618", [PRICE_EXTRA_ITTYPE] = "tender:250" },          -- Chillbot 9000
 				{ 130, 222980, "pet4542", [ACH_EXTRA_ITTYPE] = 41200 },                   -- Slim
 				{ 201, 224259, "pet4590" },                                               -- Flash
 				{ 202, 221849, "pet4465", [QUEST_EXTRA_ITTYPE] = 79110 },                 -- Vanilla

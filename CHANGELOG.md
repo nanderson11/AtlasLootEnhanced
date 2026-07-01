@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.22.10 -
+## 9.22.10 - July 1, 2026
 ### Added
 - Added Dragonflight Timewalking rewards
+- Added July Trading Post items to Collections
 - Added Darkspear Dash items
 - Added DF and SL Leatherworking recipes
 - Added DF and SL Tailoring recipes
