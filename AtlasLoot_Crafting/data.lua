@@ -12034,5 +12034,31 @@ data["Cooking"] = {
 				{ 27, [ATLASLOOT_IT_ALLIANCE] = { 44840, 62049 }, [ATLASLOOT_IT_HORDE] = { 44840, 66035 } }, -- Cranberry Chutney : =ds=#sr# 160 : =ds=AtlasLoot["Vendor"]
 			},
 		},
+		{ -- CookingDecor
+			name = ALIL["Decor"],
+			[TWW_DIFF] = {
+				{ 1, 239170, 1245993 }, -- Dornic Mine and Cheese Platter
+				{ 2, 246708, 1245995 }, -- Dornic Sliced Mineloaf
+				{ 3, 245326, 1266541 }, -- Kaheti Predator's Assortment
+				{ 4, 246709, 1245994 }, -- Earthen Hospitality Cheese-Like Brick
+			},
+			[DF_DIFF] = {
+				{ 1, 247222, 1266555 }, -- Drake Kebab Platter
+				{ 2, 247224, 1260331 }, -- Valdrakken Blossomfruit Platter
+				{ 3, 247225, 1260333 }, -- Bruffalon Rib Platter
+			},
+			[SL_DIFF] = {
+				{ 1, 246705, 1260334 }, -- Caramel Mint Noodle Dish
+			},
+			[BFA_DIFF] = {
+				{ 1, 245484, 1260337 }, -- Boralus-Style Lobster Platter
+			},
+			[WOD_DIFF] = {
+				{ 1, 245428, 1266560 }, -- Hungry Human's Platter
+			},
+			[MOP_DIFF] = {
+				{ 1, 247220, 1266563 }, -- Mushan Dumpling Stack
+			},
+		},
 	}
 }
