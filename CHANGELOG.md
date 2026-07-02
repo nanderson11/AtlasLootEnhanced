@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.11 -
+### Added
+- Added DF and SL Cooking recipes
+
 ## 9.22.10 - July 1, 2026
 ### Added
 - Added Dragonflight Timewalking rewards

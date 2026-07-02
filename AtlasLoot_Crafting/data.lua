@@ -11447,6 +11447,22 @@ data["Cooking"] = {
 				{ 7, 222725, 445105, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Mycobloom Risotto
 				{ 8, 222727, 445107, [ATLASLOOT_IT_AMOUNT1] = "3" }, -- Angler's Delight
 			},
+			[DF_DIFF] = {
+				{ 1,  204072, 403018, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Deviously Deviled Eggs
+				{ 2,  197792, 381412 },                 -- Fated Fortune Cookie
+				{ 3,  197788, 381403, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Braised Bruffalon Brisket
+				{ 4,  197774, 381385, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Charred Hornswog Steaks
+				{ 5,  197789, 381404, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Riverside Picnic
+				{ 6,  197790, 381407, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Roast Duck Delight
+				{ 7,  197791, 381411, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Salted Meat Mash
+				{ 8,  197775, 381386, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Scrambled Basilisk Eggs
+				{ 9,  197777, 381389, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Hopefully Healthy
+				{ 10, 197776, 381388, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Thrice-Spiced Mammoth Kabob
+			},
+			[SL_DIFF] = {
+				{ 1, 172069, 308415, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Banana Beef Pudding
+				{ 2, 172068, 308414 },                 -- Pickled Meat Smoothie
+			},
 			[WOD_DIFF] = {
 				{ 1, 122347, 180760 },                    -- Whiptail Fillet (Sold, Garrison)
 				{ 2, 111447, 160984, [ATLASLOOT_IT_AMOUNT1] = "4+" }, -- Talador Surf and Turf (Learnt by tasting or cooking)
@@ -11571,6 +11587,29 @@ data["Cooking"] = {
 				{ 24, 222728, 445108,  [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Beledar's Bounty
 				{ 25, 235805, 1218414, [ATLASLOOT_IT_AMOUNT1] = "3" },                            -- Authentic Undermine Clam Chowder
 				{ 26, 223967, 447871,  [PRICE_EXTRA_ITTYPE] = "kej:1500" },                       -- Protein Slurp
+			},
+			[DF_DIFF] = {
+				{ 1,  202290, 398438, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Firewater Sorbet
+				{ 2,  197784, 381398, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Sizzling Seafood Medley
+				{ 3,  197786, 381400, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Thousandbone Tongueslicer
+				{ 4,  197787, 381402, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Great Cerulean Sea
+				{ 5,  197783, 381397, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Aromatic Seafood Platter
+				{ 6,  197785, 381399, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Revenge, Served Cold
+				{ 7,  197782, 381396, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Feisty Fish Sticks
+				{ 8,  197778, 381391, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Timely Demise
+				{ 9,  197781, 381395, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Salt-Baked Fishcake
+				{ 10, 197780, 381393, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Seamoth Surprise
+				{ 11, 197779, 381392, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Filet of Fangs
+			},
+			[SL_DIFF] = {
+				{ 1, 172041, 308400, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Spinefin Souffle and Fries
+				{ 2, 172049, 308413, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Iridescent Ravioli with Apple Sauce
+				{ 3, 172051, 308426, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Steak a la Mode
+				{ 4, 172045, 308405, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Tenebrous Crown Roast Aspic
+				{ 5, 172044, 308404, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Cinnamon Bonefish Stew
+				{ 6, 172048, 308412, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Meaty Apple Dumplings
+				{ 7, 172040, 308397, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Butterscotch Marinated Ribs
+				{ 8, 172050, 308425, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Sweet Silvergill Sausages
 			},
 			[BFA_DIFF] = {
 				{ 1, 154887, 259436, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Loa Loaf
@@ -11748,6 +11787,18 @@ data["Cooking"] = {
 				{ 3, 222732, 445112, [ATLASLOOT_IT_AMOUNT1] = "5" },                                     -- Feast of the Divine Day
 				{ 4, 222735, 445115, [ATLASLOOT_IT_AMOUNT1] = "3", [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:1000" }, -- Everything Stew
 			},
+			[DF_DIFF] = {
+				{ 1, 197794, 381418, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Gral's Devotion
+				{ 2, 197794, 381415, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Gral's Reverence
+				{ 3, 197794, 381417, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Gral's Veneration
+				{ 4, 197793, 381413, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Yusa's Hearty Stew
+				{ 5, 197795, 381420 },                 -- Hoard of Draconic Delicacies
+			},
+			[SL_DIFF] = {
+				{ 1, 187648, 359333 }, -- Empty Kettle of Stone Soup
+				{ 2, 172043, 308403 }, -- Feast of Gluttonous Hedonism
+				{ 3, 172042, 308402 }, -- Surprisingly Palatable Feast
+			},
 			[BFA_DIFF] = {
 				{ 1, 156526, 259422 }, -- Bountiful Captain's Feast
 				{ 2, 156525, 259418 }, -- Galley Banquet
@@ -11802,6 +11853,23 @@ data["Cooking"] = {
 				{ 7, 223966, 447870, [ATLASLOOT_IT_AMOUNT1] = "2",                 [PRICE_EXTRA_ITTYPE] = "kej:1500" }, -- Everything-on-a-Stick
 				{ 7, 223971, 447875, [PRICE_EXTRA_ITTYPE] = "kej:1500" },                                               -- Azj-Kahet Special
 			},
+			[DF_DIFF] = {
+				{ 1, 197767, 381377, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Blubbery Muffin
+				{ 2, 204845, 407066, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Rocks on the Rocks
+				{ 3, 197768, 381378 },                 -- Celebratory Cake
+				{ 4, 197769, 381380, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tasty Hatchling's Treat
+				{ 5, 197766, 381376, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Snow in a Cone
+				{ 6, 197772, 381383 },                 -- Churnbelly Tea
+				{ 7, 207054, 416001, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Slumbering Peacebloom Tea
+				{ 8, 204848, 407100, [ATLASLOOT_IT_AMOUNT1] = 5 }, -- Charitable Cheddar
+				{ 9, 203409, 400807 },                 -- Sparkling Spice Pouch
+			},
+			[SL_DIFF] = {
+				{ 1, 172062, 308419, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Smothered Shank
+				{ 2, 172061, 308417, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Seraph Tenders
+				{ 3, 172063, 308420, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Fried Bonefish
+				{ 4, 186726, 354768, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Porous Rock Candy
+			},
 			[BFA_DIFF] = {
 				{ 1, 163781, 280282, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Heartsbane Hexwurst
 			},
@@ -11854,6 +11922,22 @@ data["Cooking"] = {
 			},
 			[TWW_DIFF] = {
 				{ 1, 222744, 445479, [ATLASLOOT_IT_AMOUNT1] = "10", [PRICE_EXTRA_ITTYPE] = "money:200000" }, -- Cinder Nectar
+			},
+			[DF_DIFF] = {
+				{ 1, 197763, 381371, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Breakfast of Draconic Champions
+				{ 2, 197762, 381370, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Sweet and Sour Clam Chowder
+				{ 3, 197758, 381365, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Twice-Baked Potato
+				{ 4, 197759, 381367, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Cheese and Quackers
+				{ 5, 197761, 381369, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Probably Protein
+				{ 6, 197760, 381368, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Mackerel Snackerel
+				{ 7, 197771, 381382, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Delicious Dragon Spittle
+				{ 8, 197770, 381381, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Zesty Water
+			},
+			[SL_DIFF] = {
+				{ 1, 172047, 308411, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Candied Amberjack Cakes
+				{ 2, 186725, 354766, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Bonemeal Bread
+				{ 3, 172046, 308410 },                 -- Biscuits and Caviar
+				{ 4, 186704, 354764, [ATLASLOOT_IT_AMOUNT1] = 3 }, -- Twilight Tea
 			},
 			[BFA_DIFF] = {
 				{ 1, 154889, 259430, [ATLASLOOT_IT_AMOUNT1] = "5+" }, -- Grilled Catfish
