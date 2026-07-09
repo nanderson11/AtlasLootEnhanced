@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.22.11 -
+## 9.22.11 - July 9, 2026
 ### Added
+- Added Dusk Grimlynx and Akiki to Collections
 - Added Cooking Decor
 - Added DF and SL Cooking recipes
 

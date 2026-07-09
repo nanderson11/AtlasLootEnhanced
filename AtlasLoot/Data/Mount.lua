@@ -1457,7 +1457,7 @@ local MOUNT_INFO = {
 		[1262840] = 260228, -- Galactic Gladiator's Goredrake
 		[1292102] = 273317, -- Blackwater X-TREME Firework Rocket
 		[1292344] = 273651, -- Bilgewater X-TREME Firework Rocket
-
+		[1243582] = 246731, -- Dusk Grimlynx
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

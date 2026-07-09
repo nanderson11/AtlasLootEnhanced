@@ -1485,6 +1485,7 @@ data["MOUNTS"]             = {
 				{ 225, 210140, "mount", [PRICE_EXTRA_ITTYPE] = "timewarped:5000" }, -- Black-Furred Bakar
 				{ 226, 273317, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Blackwater X-TREME Firework Rocket
 				{ 227, 273651, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Bilgewater X-TREME Firework Rocket
+				{ 228, 246731, "mount", [QUEST_EXTRA_ITTYPE] = 92899 },         -- Dusk Grimlynx
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -6886,6 +6887,7 @@ data["COMPANIONS"]         = {
 				{ 218, 252195, "pet4898", [PRICE_EXTRA_ITTYPE] = "238365:50" }, -- Fishstick Keith
 				{ 219, 271185, "pet5041", [QUEST_EXTRA_ITTYPE] = 94883 },       -- Emberlyn
 				{ 220, 260885, "pet4949", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Shadowflame Remnant
+				{ 221, 268557, "pet5007", [QUEST_EXTRA_ITTYPE] = 93012 },       -- Akiki
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
