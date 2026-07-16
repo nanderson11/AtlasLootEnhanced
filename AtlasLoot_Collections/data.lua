@@ -6888,6 +6888,7 @@ data["COMPANIONS"]         = {
 				{ 219, 271185, "pet5041", [QUEST_EXTRA_ITTYPE] = 94883 },       -- Emberlyn
 				{ 220, 260885, "pet4949", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Shadowflame Remnant
 				{ 221, 268557, "pet5007", [QUEST_EXTRA_ITTYPE] = 93012 },       -- Akiki
+				{ 222, 262768, "pet4965" },                                     -- Sleepy Mandrake
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
