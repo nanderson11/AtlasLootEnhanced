@@ -9589,130 +9589,13 @@ data["Leatherworking"] = {
 	}
 }
 
-data["Mining"] = {
-	name = C_Spell.GetSpellName(2575),
-	ContentType = PRIMPROFESSION_CONTENT,
-	TableType = CRAFTING_ITTYPE,
-	items = {
-		{ -- BFA all
-			name = EXPANSION_NAME7,
-			[BFA_DIFF] = {
-				{ 1,  152512, 253333 }, -- Monelite Deposit
-				{ 2,  152512, 253334 }, -- Monelite Deposit
-				{ 3,  152512, 253335 }, -- Monelite Deposit
-				{ 5,  152579, 253336 }, -- Storm Silver Deposit
-				{ 6,  152579, 253337 }, -- Storm Silver Deposit
-				{ 7,  152579, 253338 }, -- Storm Silver Deposit
-				{ 9,  152513, 253339 }, -- Platinum Deposit
-				{ 10, 152513, 253340 }, -- Platinum Deposit
-				{ 11, 152513, 253341 }, -- Platinum Deposit
-				{ 16, 152512, 253342 }, -- Monelite Seam
-				{ 17, 152512, 253343 }, -- Monelite Seam
-				{ 18, 152512, 253344 }, -- Monelite Seam
-				{ 20, 152579, 253345 }, -- Storm Silver Seam
-				{ 21, 152579, 253346 }, -- Storm Silver Seam
-				{ 22, 152579, 253347 }, -- Storm Silver Seam
-			}
-		},
-		{ -- Legion all
-			name = EXPANSION_NAME6,
-			[LEGION_DIFF] = {
-				{ 1,   151564, 247848 }, -- Empyrium Deposit
-				{ 2,   151564, 247849 }, -- Empyrium Deposit
-				{ 3,   151564, 247850 }, -- Empyrium Deposit
-				{ 5,   123919, 184492 }, -- Felslate Deposit
-				{ 6,   123919, 184493 }, -- Felslate Deposit
-				{ 7,   123919, 184494 }, -- Felslate Deposit
-				{ 9,   123918, 184454 }, -- Leystone Deposit
-				{ 10,  123918, 184456 }, -- Leystone Deposit
-				{ 11,  123918, 184457 }, -- Leystone Deposit
-				{ 13,  123918, 184488 }, -- Living Leystone
-				{ 14,  123918, 184489 }, -- Living Leystone
-				{ 15,  123918, 184490 }, -- Living Leystone
-				{ 16,  151564, 247851 }, -- Empyrium Seam
-				{ 17,  151564, 247852 }, -- Empyrium Seam
-				{ 18,  151564, 247853 }, -- Empyrium Seam
-				{ 20,  123919, 184496 }, -- Felslate Seam
-				{ 21,  123919, 184497 }, -- Felslate Seam
-				{ 22,  123919, 184498 }, -- Felslate Seam
-				{ 24,  123918, 184484 }, -- Leystone Seam
-				{ 25,  123918, 184485 }, -- Leystone Seam
-				{ 26,  123918, 184486 }, -- Leystone Seam
-				{ 28,  123919, 184500 }, -- Living Felslate
-				{ 29,  123919, 184501 }, -- Living Felslate
-				{ 30,  123919, 184502 }, -- Living Felslate
-				{ 101, 124444, 184504 }, -- Infernal Brimstone
-				{ 102, 124444, 184505 }, -- Infernal Brimstone
-				{ 103, 124444, 191970 }, -- Infernal Brimstone
-			}
-		},
-		{ -- MoP all
-			name = EXPANSION_NAME4,
-			[MOP_DIFF] = {
-				{ 1,  72096, 102165 }, -- Smelt Ghost Iron
-				{ 16, 72095, 102167 }, -- Smelt Trillium
-			}
-		},
-		{ -- Cata all
-			name = EXPANSION_NAME3,
-			[CATA_DIFF] = {
-				{ 1,  51950, 74529 }, -- Smelt Pyrite
-				{ 3,  52186, 74530 }, -- Smelt Elementium
-				{ 4,  53039, 74537 }, -- Smelt Hardened Elementium
-				{ 16, 54849, 84038 }, -- Smelt Obsidium
-			}
-		},
-		{ -- WotLK all
-			name = EXPANSION_NAME2,
-			[WOTLK_DIFF] = {
-				{ 1,  36913, 49258 }, -- Smelt Saronite
-				{ 3,  36916, 49252 }, -- Smelt Cobalt
-				{ 16, 41163, 55211 }, -- Smelt Titanium
-				{ 18, 37663, 55208 }, -- Smelt Titansteel
-			}
-		},
-		{ -- BC all
-			name = EXPANSION_NAME1,
-			[BC_DIFF] = {
-				{ 1,  22573, 35750, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Earth Shatter
-				{ 3,  23446, 29358 },                  -- Smelt Adamantite
-				{ 4,  23573, 29686 },                  -- Smelt Hardened Adamantite
-				{ 16, 22574, 35751, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Fire Sunder
-				{ 18, 35128, 46353 },                  -- Smelt Hardened Khorium
-				{ 19, 23447, 29359 },                  -- Smelt Eternium
-				{ 20, 23448, 29360 },                  -- Smelt Felsteel
-				{ 21, 23449, 29361 },                  -- Smelt Khorium
-				{ 22, 23445, 29356 },                  -- Smelt Fel Iron
-			}
-		},
-		{ -- Classic all
-			name = EXPANSION_NAME0,
-			[CLASSIC_DIFF] = {
-				{ 1,  17771, 22967 },                -- Smelt Enchanted Elementium
-				{ 3,  3577,  3308 },                 -- Smelt Gold
-				{ 4,  2842,  2658 },                 -- Smelt Silver
-				{ 6,  2840,  2657 },                 -- Smelt Copper
-				{ 7,  3576,  3304 },                 -- Smelt Tin
-				{ 8,  2841,  2659, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Smelt Bronze
-				{ 9,  12359, 16153 },                -- Smelt Thorium
-				{ 11, 12655, 70524 },                -- Enchanted Thorium Bar
-				{ 18, 6037,  10098 },                -- Smelt Truesilver
-				{ 21, 3859,  3569 },                 -- Smelt Steel
-				{ 22, 3575,  3307 },                 -- Smelt Iron
-				{ 23, 3860,  10097 },                -- Smelt Mithril
-				{ 26, 11371, 14891 },                -- Smelt Dark Iron
-			}
-		},
-	}
-}
-
 data["Tailoring"] = {
 	name = C_Spell.GetSpellName(3908),
 	ContentType = PRIMPROFESSION_CONTENT,
 	TableType = CRAFTING_ITTYPE,
 	items = {
 		{ --TailoringArmor
-			name = ARMOR,
+			name = AL["Armor"],
 			[MIDNIGHT_DIFF] = {
 				{ 1,   239658, 1228982 },                          -- Sunfire Cloak
 				{ 2,   239659, 1228983 },                          -- Sunfire Treads
@@ -10798,7 +10681,7 @@ data["Tailoring"] = {
 			}
 		},
 		{ --TailoringMisc
-			name = MISCELLANEOUS,
+			name = AL["Miscellaneous"],
 			[MIDNIGHT_DIFF] = {
 				{ 1,  240166, 1228961 }, -- Arcanoweave Lining
 				{ 2,  240164, 1228960 }, -- Sunfire Silk Lining
@@ -11061,6 +10944,153 @@ data["Tailoring"] = {
 				{ 28, 2575,  2392 }, -- Red Linen Shirt : =ds=#sr# 40 : =ds=AtlasLoot["Trainer"]
 				{ 29, 2576,  2393 }, -- White Linen Shirt : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
 				{ 30, 4344,  3915 }, -- Brown Linen Shirt : =ds=#sr# 1 : =ds=AtlasLoot["Trainer"]
+			},
+		},
+	}
+}
+
+data["Mining"] = {
+	name = C_Spell.GetSpellName(2575),
+	ContentType = PRIMPROFESSION_CONTENT,
+	TableType = CRAFTING_ITTYPE,
+	items = {
+		{ -- MIDNIGHT all
+			name = EXPANSION_NAME11,
+	                TableType = NORMAL_ITTYPE,
+			[MIDNIGHT_DIFF] = {
+				{ 1,  237359, 237361 }, -- Refulgent Copper
+				{ 2,  237362, 237361 }, -- Umbral Tin
+				{ 3,  237364, 237365 }, -- Brilliant Silver 
+				{ 4,  237366}, -- Dazzling Thorium
+			}
+		},
+		{ -- BFA all
+			name = EXPANSION_NAME7,
+			[BFA_DIFF] = {
+				{ 1,  152512, 253333 }, -- Monelite Deposit
+				{ 2,  152512, 253334 }, -- Monelite Deposit
+				{ 3,  152512, 253335 }, -- Monelite Deposit
+				{ 5,  152579, 253336 }, -- Storm Silver Deposit
+				{ 6,  152579, 253337 }, -- Storm Silver Deposit
+				{ 7,  152579, 253338 }, -- Storm Silver Deposit
+				{ 9,  152513, 253339 }, -- Platinum Deposit
+				{ 10, 152513, 253340 }, -- Platinum Deposit
+				{ 11, 152513, 253341 }, -- Platinum Deposit
+				{ 16, 152512, 253342 }, -- Monelite Seam
+				{ 17, 152512, 253343 }, -- Monelite Seam
+				{ 18, 152512, 253344 }, -- Monelite Seam
+				{ 20, 152579, 253345 }, -- Storm Silver Seam
+				{ 21, 152579, 253346 }, -- Storm Silver Seam
+				{ 22, 152579, 253347 }, -- Storm Silver Seam
+			}
+		},
+		{ -- Legion all
+			name = EXPANSION_NAME6,
+			[LEGION_DIFF] = {
+				{ 1,   151564, 247848 }, -- Empyrium Deposit
+				{ 2,   151564, 247849 }, -- Empyrium Deposit
+				{ 3,   151564, 247850 }, -- Empyrium Deposit
+				{ 5,   123919, 184492 }, -- Felslate Deposit
+				{ 6,   123919, 184493 }, -- Felslate Deposit
+				{ 7,   123919, 184494 }, -- Felslate Deposit
+				{ 9,   123918, 184454 }, -- Leystone Deposit
+				{ 10,  123918, 184456 }, -- Leystone Deposit
+				{ 11,  123918, 184457 }, -- Leystone Deposit
+				{ 13,  123918, 184488 }, -- Living Leystone
+				{ 14,  123918, 184489 }, -- Living Leystone
+				{ 15,  123918, 184490 }, -- Living Leystone
+				{ 16,  151564, 247851 }, -- Empyrium Seam
+				{ 17,  151564, 247852 }, -- Empyrium Seam
+				{ 18,  151564, 247853 }, -- Empyrium Seam
+				{ 20,  123919, 184496 }, -- Felslate Seam
+				{ 21,  123919, 184497 }, -- Felslate Seam
+				{ 22,  123919, 184498 }, -- Felslate Seam
+				{ 24,  123918, 184484 }, -- Leystone Seam
+				{ 25,  123918, 184485 }, -- Leystone Seam
+				{ 26,  123918, 184486 }, -- Leystone Seam
+				{ 28,  123919, 184500 }, -- Living Felslate
+				{ 29,  123919, 184501 }, -- Living Felslate
+				{ 30,  123919, 184502 }, -- Living Felslate
+				{ 101, 124444, 184504 }, -- Infernal Brimstone
+				{ 102, 124444, 184505 }, -- Infernal Brimstone
+				{ 103, 124444, 191970 }, -- Infernal Brimstone
+			}
+		},
+		{ -- MoP all
+			name = EXPANSION_NAME4,
+			[MOP_DIFF] = {
+				{ 1,  72096, 102165 }, -- Smelt Ghost Iron
+				{ 16, 72095, 102167 }, -- Smelt Trillium
+			}
+		},
+		{ -- Cata all
+			name = EXPANSION_NAME3,
+			[CATA_DIFF] = {
+				{ 1,  51950, 74529 }, -- Smelt Pyrite
+				{ 3,  52186, 74530 }, -- Smelt Elementium
+				{ 4,  53039, 74537 }, -- Smelt Hardened Elementium
+				{ 16, 54849, 84038 }, -- Smelt Obsidium
+			}
+		},
+		{ -- WotLK all
+			name = EXPANSION_NAME2,
+			[WOTLK_DIFF] = {
+				{ 1,  36913, 49258 }, -- Smelt Saronite
+				{ 3,  36916, 49252 }, -- Smelt Cobalt
+				{ 16, 41163, 55211 }, -- Smelt Titanium
+				{ 18, 37663, 55208 }, -- Smelt Titansteel
+			}
+		},
+		{ -- BC all
+			name = EXPANSION_NAME1,
+			[BC_DIFF] = {
+				{ 1,  22573, 35750, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Earth Shatter
+				{ 3,  23446, 29358 },                  -- Smelt Adamantite
+				{ 4,  23573, 29686 },                  -- Smelt Hardened Adamantite
+				{ 16, 22574, 35751, [ATLASLOOT_IT_AMOUNT1] = 10 }, -- Fire Sunder
+				{ 18, 35128, 46353 },                  -- Smelt Hardened Khorium
+				{ 19, 23447, 29359 },                  -- Smelt Eternium
+				{ 20, 23448, 29360 },                  -- Smelt Felsteel
+				{ 21, 23449, 29361 },                  -- Smelt Khorium
+				{ 22, 23445, 29356 },                  -- Smelt Fel Iron
+			}
+		},
+		{ -- Classic all
+			name = EXPANSION_NAME0,
+			[CLASSIC_DIFF] = {
+				{ 1,  17771, 22967 },                -- Smelt Enchanted Elementium
+				{ 3,  3577,  3308 },                 -- Smelt Gold
+				{ 4,  2842,  2658 },                 -- Smelt Silver
+				{ 6,  2840,  2657 },                 -- Smelt Copper
+				{ 7,  3576,  3304 },                 -- Smelt Tin
+				{ 8,  2841,  2659, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Smelt Bronze
+				{ 9,  12359, 16153 },                -- Smelt Thorium
+				{ 11, 12655, 70524 },                -- Enchanted Thorium Bar
+				{ 18, 6037,  10098 },                -- Smelt Truesilver
+				{ 21, 3859,  3569 },                 -- Smelt Steel
+				{ 22, 3575,  3307 },                 -- Smelt Iron
+				{ 23, 3860,  10097 },                -- Smelt Mithril
+				{ 26, 11371, 14891 },                -- Smelt Dark Iron
+			}
+		},
+	}
+}
+
+data["Herbalism"] = {
+	name = C_Spell.GetSpellName(2366),
+	ContentType = PRIMPROFESSION_CONTENT,
+	TableType = CRAFTING_ITTYPE,
+	items = {
+		{ -- MIDNIGHT all
+			name = EXPANSION_NAME11,
+	                TableType = NORMAL_ITTYPE,
+			[MIDNIGHT_DIFF] = {
+				{ 1,  236761, 236767 }, -- Tranquility Bloom
+				{ 2,  236776, 236777 }, -- Argentleaf
+				{ 3,  236774, 236775 }, -- Azeroot
+				{ 4,  236778, 236779 }, -- Mana Lily
+				{ 5,  236770, 236771 }, -- Sanguithorn
+				{ 6,  236780}, -- Nocturnal Lotus
 			},
 		},
 	}
