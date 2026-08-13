@@ -1486,6 +1486,8 @@ data["MOUNTS"]             = {
 				{ 226, 273317, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Blackwater X-TREME Firework Rocket
 				{ 227, 273651, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Bilgewater X-TREME Firework Rocket
 				{ 228, 246731, "mount", [QUEST_EXTRA_ITTYPE] = 92899 },         -- Dusk Grimlynx
+				{ 229, 211087, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Hateforged Blazecycle
+				{ 230, 274681, "mount", [PRICE_EXTRA_ITTYPE] = "tender:550" },  -- Badlands Buzzard
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,

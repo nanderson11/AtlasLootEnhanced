@@ -2,6 +2,7 @@
 
 ## 9.22.12 -
 ### Added
+- Added August Trading Post items to Collections
 - Added Sleepy Mandrake to Collections
 - Added DF and SL Tier Sets to Collections
 
