@@ -3,6 +3,7 @@
 ## 9.22.12 -
 ### Added
 - Added Sleepy Mandrake to Collections
+- Added DF and SL Tier Sets to Collections
 
 ## 9.22.11 - July 9, 2026
 ### Added
