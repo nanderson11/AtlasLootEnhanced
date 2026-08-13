@@ -1,12 +1,13 @@
 ﻿# Changelog
 
-## 9.22.12 -
+## 9.22.12 - August 12, 2026
 ### Added
 - Added August Trading Post items to Collections
 - Added Sleepy Mandrake to Collections
 - Added DF and SL Tier Sets to Collections
 ### Changed
 - Updated TOC to 12.1.0
+- Updated libraries
 
 ## 9.22.11 - July 9, 2026
 ### Added
