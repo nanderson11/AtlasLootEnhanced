@@ -7653,25 +7653,25 @@ data["COMPANIONS"]         = {
 		{ -- Legion
 			name = EXPANSION_NAME6,
 			[NORMAL_DIFF] = {
-				{ 1,  129108, "pet1751", [PRICE_EXTRA_ITTYPE] = "bronze:5000" }, -- Son of Goredome
-				{ 2,  141349, "pet1937", [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Strange Humming Crystal
-				{ 3,  140320, "pet1929", [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Corgnelius
-				{ 4,  136901, "pet1719", [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Eye of Inquisition
-				{ 5,  140316, "pet1928", [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Firebat Pup
-				{ 6,  136900, "pet1718", [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Hateful Eye
-				{ 7,  136903, "pet1723", [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Nightmare Whelpling
-				{ 8,  136922, "pet1887", [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Wyrmy Tunkins
-				{ 9,  130167, "pet1803", [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Thistleleaf Adventurer
-				{ 10, 153252, "pet2135", [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Rebellious Imp
-				{ 11, 146953, "pet2042", [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Scraps
-				{ 12, 147841, "pet2050", [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Orphaned Felbat
-				{ 13, 151828, "pet2072", [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Ageless Bronze Drake
-				{ 14, 151829, "pet2071", [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Bronze Proto-Whelp
-				{ 15, 153195, "pet2136", [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Uuna's Doll
-				{ 16, 153055, "pet2119", [PRICE_EXTRA_ITTYPE] = "bronze:20000" }, -- Fel-Afflicted Skyfin
-				{ 17, 153054, "pet2118", [PRICE_EXTRA_ITTYPE] = "bronze:20000" }, -- Docile Skyfin
-				{ 18, 153026, "pet2115", [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Cross Gazer
-				{ 19, 153056, "pet2120", [PRICE_EXTRA_ITTYPE] = "bronze:20000" }, -- Grasping Manifestation
+				{ 1,  129108, "pet1751" }, -- Son of Goredome
+				{ 2,  141349, "pet1937" }, -- Strange Humming Crystal
+				{ 3,  140320, "pet1929" }, -- Corgnelius
+				{ 4,  136901, "pet1719" }, -- Eye of Inquisition
+				{ 5,  140316, "pet1928" }, -- Firebat Pup
+				{ 6,  136900, "pet1718" }, -- Hateful Eye
+				{ 7,  136903, "pet1723" }, -- Nightmare Whelpling
+				{ 8,  136922, "pet1887" }, -- Wyrmy Tunkins
+				{ 9,  130167, "pet1803" }, -- Thistleleaf Adventurer
+				{ 10, 153252, "pet2135" }, -- Rebellious Imp
+				{ 11, 146953, "pet2042" }, -- Scraps
+				{ 12, 147841, "pet2050" }, -- Orphaned Felbat
+				{ 13, 151828, "pet2072" }, -- Ageless Bronze Drake
+				{ 14, 151829, "pet2071" }, -- Bronze Proto-Whelp
+				{ 15, 153195, "pet2136" }, -- Uuna's Doll
+				{ 16, 153055, "pet2119" }, -- Fel-Afflicted Skyfin
+				{ 17, 153054, "pet2118" }, -- Docile Skyfin
+				{ 18, 153026, "pet2115" }, -- Cross Gazer
+				{ 19, 153056, "pet2120" }, -- Grasping Manifestation
 			}
 		},
 	},
@@ -7954,36 +7954,36 @@ data["TOYS"]               = {
 		{ -- Legion
 			name = EXPANSION_NAME6,
 			[NORMAL_DIFF] = {
-				{ 1,  131724, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Crystalline Eye of Undravius
-				{ 2,  131717, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Starlight Beacon
-				{ 3,  129165, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Barnacle-Encrusted Gem
-				{ 4,  130169, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Tournament Favor
-				{ 5,  140363, [PRICE_EXTRA_ITTYPE] = "bronze:20000" }, -- Pocket Fel Spreader
-				{ 6,  141862, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Mote of Light
-				{ 7,  140160, [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Stormforged Vrykul Horn
-				{ 8,  143544, [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Skull of Corruption
-				{ 9,  142265, [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Big Red Raygun
-				{ 10, 142530, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Crate of Bobbers: Tugboat
-				{ 11, 142529, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Crate of Bobbers: Cat Head
-				{ 12, 142528, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Crate of Bobbers: Can of Worms
-				{ 13, 143662, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Crate of Bobbers: Wooden Pepe
-				{ 14, 119211, [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Golden Hearthstone Card: Lord Jaraxxus
-				{ 15, 147843, [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Sira's Extra Cloak
-				{ 16, 147867, [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Pilfered Sweeper
-				{ 17, 153204, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- All-Seer's Eye
-				{ 18, 153193, [PRICE_EXTRA_ITTYPE] = "bronze:10000" }, -- Baarut the Brisk
-				{ 19, 153183, [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Barrier Generator
-				{ 20, 153124, [PRICE_EXTRA_ITTYPE] = "bronze:35000" }, -- Spire of Spite
-				{ 21, 153293, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Sightless Eye
-				{ 22, 153179, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Blue Conservatory Scroll
-				{ 23, 153181, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Red Conservatory Scroll
-				{ 24, 153180, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Yellow Conservatory Scroll
-				{ 25, 153253, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- S.F.E. Interceptor
-				{ 26, 153182, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Holy Lightsphere
-				{ 27, 153126, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Micro-Artillery Controller
-				{ 28, 152982, [PRICE_EXTRA_ITTYPE] = "bronze:80000" }, -- Vixx's Chest of Tricks
-				{ 29, 153004, [PRICE_EXTRA_ITTYPE] = "bronze:100000" }, -- Unstable Portal Emitter
-				{ 30, 153194, [PRICE_EXTRA_ITTYPE] = "bronze:25000" }, -- Legion Communication Orb
+				{ 1,  131724 }, -- Crystalline Eye of Undravius
+				{ 2,  131717 }, -- Starlight Beacon
+				{ 3,  129165 }, -- Barnacle-Encrusted Gem
+				{ 4,  130169 }, -- Tournament Favor
+				{ 5,  140363 }, -- Pocket Fel Spreader
+				{ 6,  141862 }, -- Mote of Light
+				{ 7,  140160 }, -- Stormforged Vrykul Horn
+				{ 8,  143544 }, -- Skull of Corruption
+				{ 9,  142265 }, -- Big Red Raygun
+				{ 10, 142530 }, -- Crate of Bobbers: Tugboat
+				{ 11, 142529 }, -- Crate of Bobbers: Cat Head
+				{ 12, 142528 }, -- Crate of Bobbers: Can of Worms
+				{ 13, 143662 }, -- Crate of Bobbers: Wooden Pepe
+				{ 14, 119211 }, -- Golden Hearthstone Card: Lord Jaraxxus
+				{ 15, 147843 }, -- Sira's Extra Cloak
+				{ 16, 147867 }, -- Pilfered Sweeper
+				{ 17, 153204 }, -- All-Seer's Eye
+				{ 18, 153193 }, -- Baarut the Brisk
+				{ 19, 153183 }, -- Barrier Generator
+				{ 20, 153124 }, -- Spire of Spite
+				{ 21, 153293 }, -- Sightless Eye
+				{ 22, 153179 }, -- Blue Conservatory Scroll
+				{ 23, 153181 }, -- Red Conservatory Scroll
+				{ 24, 153180 }, -- Yellow Conservatory Scroll
+				{ 25, 153253 }, -- S.F.E. Interceptor
+				{ 26, 153182 }, -- Holy Lightsphere
+				{ 27, 153126 }, -- Micro-Artillery Controller
+				{ 28, 152982 }, -- Vixx's Chest of Tricks
+				{ 29, 153004 }, -- Unstable Portal Emitter
+				{ 30, 153194 }, -- Legion Communication Orb
 			}
 		},
 	},
