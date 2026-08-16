@@ -3941,13 +3941,13 @@ data["TABARDS"]            = {
 			[ALLIANCE_DIFF] = {
 				{ 1,   194675 },                                     -- Gilded Dracthyr's Tabard
 				{ 2,   198802, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Artisan's Consortium Tabard
-				{ 3,   198730 },                                     -- Dragonscale Expedition Tabard
-				{ 4,   198731 },                                     -- Iskaara Tuskarr Tabard
-				{ 5,   198732 },                                     -- Valdrakken Accord Tabard
-				{ 6,   205286 },                                     -- Loamm Niffen Tabard
-				{ 7,   210501 },                                     -- Dream Wardens Tabard
-				{ 8,   210469 },                                     -- Personal Tabard
-				{ 9,   208199 },                                     -- Tabard of the Tyr's Guard
+				{ 3,   198730, [QUEST_EXTRA_ITTYPE] = 70832 },       -- Dragonscale Expedition Tabard
+				{ 4,   198731, [QUEST_EXTRA_ITTYPE] = 70968 },       -- Iskaara Tuskarr Tabard
+				{ 5,   198732, [QUEST_EXTRA_ITTYPE] = 70905 },       -- Valdrakken Accord Tabard
+				{ 6,   205286, [QUEST_EXTRA_ITTYPE] = 75727 },       -- Loamm Niffen Tabard
+				{ 7,   210501, [QUEST_EXTRA_ITTYPE] = 78363 },       -- Dream Wardens Tabard
+				{ 8,   210469, [QUEST_EXTRA_ITTYPE] = 79513 },       -- Personal Tabard
+				{ 9,   208199, [QUEST_EXTRA_ITTYPE] = 77341 },       -- Tabard of the Tyr's Guard
 				{ 10,  219349 },                                     -- Plunderlord's Tabard
 				{ 11,  204445 },                                     -- Black Dragonflight's Tabard
 				{ 12,  212336 },                                     -- The Tavern's Tabard

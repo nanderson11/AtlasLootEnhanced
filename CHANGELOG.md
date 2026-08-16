@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.22.13 -
+### Added
+- Added quest sources to some DF tabards
+
 ## 9.22.12 - August 12, 2026
 ### Added
 - Added August Trading Post items to Collections
