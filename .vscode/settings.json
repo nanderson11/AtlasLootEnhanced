@@ -210,7 +210,8 @@
 		"RUNES",
 		"BLIZZARD_STORE",
 		"SPECIAL",
-		"SUMMON"
+		"SUMMON",
+		"COVENANT_SANCTUM_TAB_RENOWN"
 	],
 	"Lua.diagnostics.disable": [
 		"need-check-nil",

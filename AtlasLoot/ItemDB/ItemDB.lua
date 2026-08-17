@@ -417,6 +417,8 @@ function ItemDB.ContentProto:GetName()
 	elseif self.FactionID then
 		local temp = C_Reputation.GetFactionDataByID(self.FactionID) or C_MajorFactions.GetMajorFactionData(self.FactionID)
 		return temp.name --or "Faction "..self.FactionID
+	elseif self.CovenantID then
+		return C_Covenants.GetCovenantData(self.CovenantID).name.." ("..COVENANT_SANCTUM_TAB_RENOWN..")"
 	else
 		return UNKNOWN
 	end
@@ -448,6 +450,8 @@ function ItemDB.ContentProto:GetNameForItemTable(index)
 		else
 			return temp.name
 		end
+	elseif self.items[index].CovenantID then
+		return C_Covenants.GetCovenantData(self.items[index].CovenantID).name.." ("..COVENANT_SANCTUM_TAB_RENOWN..")"
 	else
 		return UNKNOWN
 	end

@@ -2,6 +2,7 @@
 
 ## 9.22.13 -
 ### Added
+- Added Covenant renowns to Factions
 - Added quest sources to some DF tabards
 
 ## 9.22.12 - August 12, 2026

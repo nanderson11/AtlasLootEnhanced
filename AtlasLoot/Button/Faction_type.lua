@@ -294,22 +294,28 @@ function Faction.Refresh(button)
 	local reputationInfo = C_GossipInfo.GetFriendshipReputation(factionID)
 	local friendshipFactionID = reputationInfo.friendshipFactionID
 
-	local temp = C_Reputation.GetFactionDataByID(factionID) or C_MajorFactions.GetMajorFactionData(factionID)
 	local name = nil
-	if (temp == nil) then
-		name = BF[AtlasLoot.Data.Faction.FACTION_KEY[factionID]] or FACTION.." "..factionID
-	else
-		name = temp.name
-	end
 	local standingID = nil
-	if (temp ~= nil) then
-		standingID = temp.reaction
-	end
-	local isMajorFaction = C_Reputation.IsMajorFaction(factionID);
-	local majorFactionData, renownLevel
-	if isMajorFaction then
-		majorFactionData = C_MajorFactions.GetMajorFactionData(factionID);
-		renownLevel = majorFactionData.renownLevel;
+	local renownLevel = nil
+	-- The first four factionIDs don't matter, so we'll pretend the covenants are the first four factions
+	if (factionID < 5) then
+		name = C_Covenants.GetCovenantData(factionID).name.." ("..COVENANT_SANCTUM_TAB_RENOWN..")"
+		renownLevel = C_Covenants.GetActiveCovenantID() == factionID and C_CovenantSanctumUI.GetRenownLevel() or 0
+	else
+		local temp = C_Reputation.GetFactionDataByID(factionID) or C_MajorFactions.GetMajorFactionData(factionID)
+		if (temp == nil) then
+			name = BF[AtlasLoot.Data.Faction.FACTION_KEY[factionID]] or FACTION.." "..factionID
+		else
+			name = temp.name
+		end
+
+		if (temp ~= nil) then
+			standingID = temp.reaction
+		end
+		if C_Reputation.IsMajorFaction(factionID) then
+			local majorFactionData = C_MajorFactions.GetMajorFactionData(factionID);
+			renownLevel = majorFactionData.renownLevel;
+		end
 	end
 
 	if button.type == "secButton" then
@@ -325,7 +331,7 @@ function Faction.Refresh(button)
 			reqRepText = GetLocRepStanding(RepID or standingID) or ""
 		end
 
-		if RepID and isMajorFaction then
+		if RepID and (C_Reputation.IsMajorFaction(factionID) or factionID < 5) then
 			local i = RepID - 30
 			if renownLevel < i then
 				button.icon:SetDesaturated(true)
@@ -423,13 +429,17 @@ function Faction.ShowToolTipFrame(button)
 	local frame = Faction.tooltipFrame
 	local factionID = button.FactionID
 	local name, description, standingID, barMin, barMax, barValue = nil, nil, nil, nil, nil, nil
-	local temp = C_Reputation.GetFactionDataByID(factionID) or C_MajorFactions.GetMajorFactionData(factionID)
-	if (temp == nil) then
-		name = BF[AtlasLoot.Data.Faction.FACTION_KEY[factionID]] or FACTION.." "..factionID
+	if (factionID < 5) then
+		name = C_Covenants.GetCovenantData(factionID).name.." ("..COVENANT_SANCTUM_TAB_RENOWN..")"
 	else
-		name, description, standingID, barMin, barMax, barValue = temp.name, temp.description, temp.reaction, temp.currentReactionThreshold, temp.nextReactionThreshold, temp.currentStanding
+		local temp = C_Reputation.GetFactionDataByID(factionID) or C_MajorFactions.GetMajorFactionData(factionID)
+		if (temp == nil) then
+			name = BF[AtlasLoot.Data.Faction.FACTION_KEY[factionID]] or FACTION.." "..factionID
+		else
+			name, description, standingID, barMin, barMax, barValue = temp.name, temp.description, temp.reaction, temp.currentReactionThreshold, temp.nextReactionThreshold, temp.currentStanding
+		end
+		standingID = standingID or 1
 	end
-	standingID = standingID or 1
 	local colorIndex = standingID;
 	local barColor = FACTION_BAR_COLORS[colorIndex];
 	local factionStandingtext;
@@ -460,6 +470,15 @@ function Faction.ShowToolTipFrame(button)
 		barValue = isCapped and majorFactionData.renownLevelThreshold or majorFactionData.renownReputationEarned or 0;
 		barColor = BLUE_FONT_COLOR;
 		factionStandingtext = str_format(RENOWN_LEVEL_LABEL, majorFactionData.renownLevel);
+	elseif (factionID < 5) then
+		isCapped = C_Covenants.GetActiveCovenantID() == factionID and C_CovenantSanctumUI.HasMaximumRenown() or false
+		barMin, barMax, barValue = barMin or 0, barMax or 1, barValue or 0
+		if (isCapped) then
+			-- max rank, make it look like a full bar
+			barMin, barMax, barValue = 0, 1, 1;
+		end
+		barColor = BLUE_FONT_COLOR;
+		factionStandingtext = str_format(RENOWN_LEVEL_LABEL, C_Covenants.GetActiveCovenantID() == factionID and C_CovenantSanctumUI.GetRenownLevel() or 0);
 	else
 		barMin, barMax, barValue = barMin or 0, barMax or 1, barValue or 0
 		if (isCapped) then
@@ -486,7 +505,7 @@ function Faction.ShowToolTipFrame(button)
 	frame.standing.bar:SetMinMaxValues(barMin, barMax)
 	frame.standing.bar:SetValue(barValue)
 	frame.standing.bar:SetStatusBarColor(barColor.r, barColor.g, barColor.b)
-	if (isCapped) then
+	if (isCapped or factionID < 5) then
 		frame.standing.text:SetText(str_format("%s", factionStandingtext))
 	else
 		frame.standing.text:SetText(str_format("%s ( %d / %d )", factionStandingtext, barValue - barMin, barMax - barMin))

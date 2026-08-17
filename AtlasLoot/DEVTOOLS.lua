@@ -1171,7 +1171,10 @@ local function getItemPrice(strg, newPrice, costItemID)
 		[1501] = "WrithingEssence", -- Writhing Essence, added in 7.3.0
 		[1506] = "ArgusWaystone",   -- Argus Waystone, added in 7.3.0
 		[1508] = "VeiledArgunite",  -- Veiled Argunite, added in 7.3.0
-		-- DragonFlight
+		-- Shadowlands
+		[1813] = "reservoiranima",  -- Reservoir Anima
+		[1885] = "gratefuloffering", -- Reservoir Anima
+		-- Dragonflight
 		[2003] = "dragonSupplies",  -- Dragon Isles Supplies
 		-- TWW
 		[2815] = "resonanceCrystal",

@@ -1797,7 +1797,100 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 27, 178991,     [PRICE_EXTRA_ITTYPE] = "money:95000" },                                 -- Tabard of the Ascended
 			},
 		},
-		-- thanks for serious2 added below
+		{ -- Kyrian (Renown)
+			CovenantID = 1,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f1rep36" },
+				{ 2,   181288,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500" },                                                                          -- Halo of the Harmonious
+				{ 4,   "f1rep41" },
+				{ 5,   184353,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" },                                                                           -- Kyrian Hearthstone
+				{ 7,   "f1rep44" },
+				{ 8,   183249,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:250" },                                                                           -- Memory of a Vital Sacrifice
+				{ 10,  "f1rep46" },
+				{ 11,  178182,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Watcher's Gauntlets
+				{ 12,  177199,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Bearer's Gauntlets
+				{ 13,  179951,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Forgelite's Gloves
+				{ 14,  177669,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Collector's Gauntlets
+				{ 15,  177202,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Bearer's Girdle
+				{ 16,  178185,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Watcher's Girdle
+				{ 17,  179955,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Forgelite's Belt
+				{ 18,  177672,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Collector's Girdle
+				{ 19,  177203,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Bearer's Wristwraps
+				{ 20,  178186,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Watcher's Wristwraps
+				{ 21,  177673,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Collector's Wristwraps
+				{ 22,  179956,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Forgelite's Wristwraps
+				{ 24,  "f1rep53" },
+				{ 25,  180764,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" },         -- Phalynx of Purity
+				{ 101, "f1rep56" },
+				{ 102, 178187,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Harmonious Watcher's Cloak
+				{ 103, 177220,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Harmonious Bearer's Cloak
+				{ 104, 179957,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Harmonious Forgelite's Cloak
+				{ 105, 177674,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Harmonious Collector's Cloak
+				{ 106, 178181,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Watcher's Warboots
+				{ 107, 177668,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Collector's Warboots
+				{ 108, 177198,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Bearer's Warboots
+				{ 109, 179950,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Harmonious Forgelite's Boots
+				{ 110, 178183,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Watcher's Legguards
+				{ 111, 177200,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Bearer's Legguards
+				{ 112, 177670,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Collector's Legguards
+				{ 113, 179953,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Harmonious Forgelite's Breeches
+				{ 116, "f1rep57" },
+				{ 117, 184350,    "pet3042",                                                       [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:30" }, -- Ruffle
+				{ 119, "f1rep62" },
+				{ 120, 178180,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Watcher's Chestplate
+				{ 121, 177197,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Bearer's Chestplate
+				{ 122, 177667,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Collector's Chestplate
+				{ 123, 179949,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Forgelite's Vest
+				{ 124, 178179,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Watcher's Helm
+				{ 125, 177196,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Bearer's Helm
+				{ 126, 177666,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Collector's Helm
+				{ 127, 179952,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Forgelite's Helm
+				{ 128, 177201,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Bearer's Shoulders
+				{ 129, 178184,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Watcher's Shoulders
+				{ 130, 179954,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Forgelite's Spaulders
+				{ 201, 177671,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Harmonious Collector's Shoulders
+				{ 203, "f1rep64" },
+				{ 204, 181294,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:40" },                                                      -- Harmonious Wings of the Ascended
+				{ 206, "f1rep66" },
+				{ 207, 184352,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2500" },                                                                          -- Illusion: Transcendent Soul
+				{ 209, "f1rep67" },
+				{ 210, 174303,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Forgelite's Carver
+				{ 211, 184541,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Collector's Battleaxe
+				{ 212, 177864,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Bearer's Poniard
+				{ 213, 184543,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Watcher's Barb
+				{ 214, 177854,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Watcher's Spellsword
+				{ 215, 177848,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Collector's Kopis
+				{ 216, 184542,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Forgelite's Blade
+				{ 217, 184545,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Bearer's Halberd
+				{ 218, 177859,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Forgelite's Bow
+				{ 219, 180316,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Collector's Greatmaul
+				{ 220, 177869,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Watcher's Guiding Light
+				{ 221, 174314,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Collector's Bulwark
+				{ 222, 184240,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Bearer's Warglaive
+				{ 223, 178974,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Harmonious Watcher's Vesperstaff
+				{ 225, "f1rep69" },
+				{ 226, 180765,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:100:gratefuloffering:50" }, -- Eternal Phalynx of Purity
+				{ 228, "f1rep75" },
+				{ 229, 186482,    "mount" },                                                                                                               -- Elysian Aquilon
+				{ 301, "f1rep78" },
+				{ 302, 187163 },                                                                                                                           -- Memory of the Spheres' Harmony
+				{ 304, "f1rep82" },
+				{ 305, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 307, "f1rep86" },
+				{ 308, 186593 },                                                                                                                           -- A Tiny Pair of Wings
+				{ 310, "f1rep90" },
+				{ 311, 186515 },                                                                                                                           -- Ensemble: Aspiring Aspirant's Regalia
+				{ 313, "f1rep97" },
+				{ 314, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 316, "f1rep100" },
+				{ 317, 186485,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:7500" },         -- Ascendant's Aquilon
+				{ 319, "f1rep106" },
+				{ 320, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 322, "f1rep107" },
+				{ 323, 186516,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Devoted Aspirant's Regalia
+			},
+		},
 		{ -- Court of Harvesters
 			FactionID = 2413,
 			CoinTexture = "Reputation",
@@ -1825,6 +1918,106 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 24, 182207,     [PRICE_EXTRA_ITTYPE] = "money:12500000" },                                   --Illusion: Sinsedge
 				{ 25, 179282,     [PRICE_EXTRA_ITTYPE] = "money:2500000" },                                    --Court of Harvesters Tabard
 				{ 26, 184755,     [PRICE_EXTRA_ITTYPE] = "money:1980000" },                                    --Reinforced High Collar
+			},
+		},
+		{ -- Venthyr (Renown)
+			CovenantID = 2,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2rep36" },
+				{ 2,   183712,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500" },                                                                          -- Gleaming Crypt Keeper's Mantle
+				{ 4,   "f2rep41" },
+				{ 5,   183716,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" },                                                                           -- Venthyr Sinstone
+				{ 7,   "f2rep44" },
+				{ 8,   183249,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:250" },                                                                           -- Memory of a Vital Sacrifice
+				{ 10,  "f2rep46" },
+				{ 11,  181096,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Soulbreaker's Crimson Handwraps
+				{ 12,  181042,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Crimson Death Shroud Gloves
+				{ 13,  181069,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Fearstalker's Crimson Gauntlets
+				{ 14,  181007,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Dread Sentinel's Crimson Grips
+				{ 15,  181100,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Soulbreaker's Crimson Sash
+				{ 16,  181046,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Crimson Death Shroud Belt
+				{ 17,  181073,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Fearstalker's Crimson Belt
+				{ 18,  181010,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Dread Sentinel's Crimson Girdle
+				{ 19,  181101,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Soulbreaker's Crimson Wraps
+				{ 20,  181047,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Crimson Death Shroud Bindings
+				{ 21,  181074,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Fearstalker's Crimson Bracers
+				{ 22,  181011,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Dread Sentinel's Crimson Vambraces
+				{ 24,  "f2rep53" },
+				{ 25,  183715,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" },         -- Sinfall Gargon
+				{ 101, "f2rep56" },
+				{ 102, 181102,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Soulbreaker's Crimson Drape
+				{ 103, 181048,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Crimson Death Shroud Wrap
+				{ 104, 181075,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Fearstalker's Crimson Cloak
+				{ 105, 181012,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Dread Sentinel's Crimson Cloak
+				{ 106, 181095,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Soulbreaker's Crimson Slippers
+				{ 107, 181041,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Crimson Death Shroud Boots
+				{ 108, 181068,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Fearstalker's Crimson Sabatons
+				{ 109, 181006,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Dread Sentinel's Crimson Greatboots
+				{ 110, 181098,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Soulbreaker's Crimson Leggings
+				{ 111, 181044,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Crimson Death Shroud Breeches
+				{ 112, 181071,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Fearstalker's Crimson Leggings
+				{ 113, 181008,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Dread Sentinel's Crimson Legguards
+				{ 116, "f2rep57" },
+				{ 117, 181555,    "pet2966",                                                       [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:30" }, -- Sinheart
+				{ 119, "f2rep62" },
+				{ 120, 181094,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Soulbreaker's Crimson Vestments
+				{ 121, 181040,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Crimson Death Shroud Vest
+				{ 122, 181067,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Fearstalker's Crimson Hauberk
+				{ 123, 181005,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Dread Sentinel's Crimson Chestplate
+				{ 124, 181097,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Soulbreaker's Crimson Hood
+				{ 125, 181043,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Crimson Death Shroud Hood
+				{ 126, 181070,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Fearstalker's Crimson Helm
+				{ 127, 181004,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Dread Sentinel's Crimson Headgear
+				{ 128, 181099,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Soulbreaker's Crimson Mantle
+				{ 129, 181045,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Crimson Death Shroud Spaulders
+				{ 130, 181072,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Fearstalker's Crimson Monnion
+				{ 201, 181009,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Dread Sentinel's Crimson Spaulders
+				{ 203, "f2rep64" },
+				{ 204, 183705,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:40" },                                                      -- Mantle of Crimson Blades
+				{ 206, "f2rep66" },
+				{ 207, 182204,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2500" },                                                                          -- Illusion: Sinwrath
+				{ 209, "f2rep67" },
+				{ 210, 182430,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Sinseeker's Dredwing Gavel
+				{ 211, 182435,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Crimsonbarbed Sinbreaker
+				{ 212, 182439,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Sinheart Spell Foci
+				{ 213, 182431,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Gilded Sineater's Staff
+				{ 214, 182433,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Barbedged Dredblade
+				{ 215, 182434,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Crimson-Edged Wingblade
+				{ 216, 182428,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Gilded Sinfall Bastard Sword
+				{ 217, 183975,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Sinfall Ceremonial Blade
+				{ 218, 182427,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Sinfall Heartpiercer
+				{ 219, 182429,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Claw of the Gilded Stoneborn
+				{ 220, 182432,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Gilded Sentry Stave
+				{ 221, 182436,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Crimson Dredwing Glaive
+				{ 222, 182437,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Screecher's Crimson Spinethrower
+				{ 223, 182438,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Sinfall Gilded Bulwark
+				{ 225, "f2rep69" },
+				{ 226, 182332,    "mount" },                                                                                                               -- Gravestone Battle Gargon
+				{ 228, "f2rep75" },
+				{ 229, 186476,    "mount" },                                                                                                               -- Sinfall Gravewing
+				{ 301, "f2rep78" },
+				{ 302, 186635 },                                                                                                                           -- Memory of Sinful Delight
+				{ 304, "f2rep82" },
+				{ 305, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 307, "f2rep86" },
+				{ 308, 186580 },                                                                                                                           -- A Tiny Sinstone
+				{ 310, "f2rep90" },
+				{ 311, 186507 },                                                                                                                           -- Ensemble: Harvester's Court Attire
+				{ 313, "f2rep94" },
+				{ 314, 186510,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Sinful Inquisitor's Vestments
+				{ 316, "f2rep95" },
+				{ 317, 245501,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:300" },                                                                           -- Venthyr Tome of Unforgiven Sins
+				{ 319, "f2rep97" },
+				{ 320, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 322, "f2rep100" },
+				{ 323, 186478,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:7500" },         -- Obsidian Gravewing
+				{ 325, "f2rep104" },
+				{ 326, 186508,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Court Inquisitor's Vestments
+				{ 328, "f2rep106" },
+				{ 329, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 401, "f2rep107" },
+				{ 402, 186509,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Sinful Venthyr Attire
 			},
 		},
 		{ -- The Undying Army
@@ -1858,6 +2051,98 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 28, 181808,     [PRICE_EXTRA_ITTYPE] = "money:5000000" },                               --Death Fetish
 			},
 		},
+		{ -- Necrolord (Renown)
+			CovenantID = 4,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f4rep36" },
+				{ 2,   181801,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500" },                                                                          -- Standard of the Necrolords
+				{ 4,   "f4rep41" },
+				{ 5,   182773,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" },                                                                           -- Necrolord Hearthstone
+				{ 7,   "f4rep44" },
+				{ 8,   183249,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:250" },                                                                           -- Memory of a Vital Sacrifice
+				{ 10,  "f4rep46" },
+				{ 11,  182234,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Conjurer's Gloves
+				{ 12,  182225,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Wraith's Stranglers
+				{ 13,  182243,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Tactician's Gauntlets
+				{ 14,  182216,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Harbinger's Crushers
+				{ 15,  182237,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Conjurer's Cinch
+				{ 16,  182228,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Wraith's Belt
+				{ 17,  182246,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Tactician's Girdle
+				{ 18,  182219,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Harbinger's Warbelt
+				{ 19,  182238,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Conjurer's Wristwraps
+				{ 20,  182229,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Wraith's Armguards
+				{ 21,  182247,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Tactician's Bracers
+				{ 22,  182220,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Harbinger's Vambraces
+				{ 24,  "f4rep53" },
+				{ 25,  182076,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" },         -- Plaguerot Tauralus
+				{ 101, "f4rep56" },
+				{ 102, 182239,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Prime Conjurer's Cape
+				{ 103, 182230,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Prime Wraith's Cloak
+				{ 104, 182248,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Prime Tactician's Drape
+				{ 105, 182221,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Prime Harbinger's Greatcloak
+				{ 106, 182233,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Conjurer's Slippers
+				{ 107, 182224,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Wraith's Boots
+				{ 108, 182242,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Tactician's Sabatons
+				{ 109, 182215,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Prime Harbinger's Stompers
+				{ 110, 182235,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Conjurer's Leggings
+				{ 111, 182226,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Wraith's Breeches
+				{ 112, 182244,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Tactician's Chausses
+				{ 113, 182217,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Prime Harbinger's Greaves
+				{ 116, "f4rep57" },
+				{ 117, 183601,    "pet3043",                                                       [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:30" }, -- Jiggles
+				{ 119, "f4rep62" },
+				{ 120, 182232,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Conjurer's Tunic
+				{ 121, 182223,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Wraith's Jerkin
+				{ 122, 182241,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Tactician's Hauberk
+				{ 123, 182214,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Harbinger's Chestguard
+				{ 124, 182231,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Conjurer's Cowl
+				{ 125, 182222,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Wraith's Visage
+				{ 126, 182240,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Tactician's Faceguard
+				{ 127, 182213,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Harbinger's Greathelm
+				{ 128, 182236,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Conjurer's Mantle
+				{ 129, 182227,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Wraith's Shoulders
+				{ 130, 182245,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Tactician's Spaulders
+				{ 201, 182218,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Prime Harbinger's Pauldrons
+				{ 203, "f4rep64" },
+				{ 204, 181805,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:40" },                                                      -- Osteowings of the Necrolords
+				{ 206, "f4rep66" },
+				{ 207, 183462,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2500" },                                                                          -- Illusion: Unbreakable Resolve
+				{ 209, "f4rep67" },
+				{ 210, 184070,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Colossal Greataxe of Pandemonium
+				{ 211, 184072,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Brutal Fury-Forged Cleaver
+				{ 212, 184063,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Shank of the Unseen Eye
+				{ 213, 184073,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Crooked Plaguedtouched Dagger
+				{ 214, 184069,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Soulbarb, the Breathless Kill
+				{ 215, 184066,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Wriggling Soulcharged Mace
+				{ 216, 184065,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Lambent Plaguetouched Focus
+				{ 217, 184071,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Blooddoused Aranakk Polearm
+				{ 218, 184064,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Deathforged Bulwark of Maldraxxus
+				{ 219, 184068,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Greatstaff of the Lichsworn
+				{ 220, 184074,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Chopper of the Hidden Hand
+				{ 221, 184067,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Skullformed Ossein Warglaive
+				{ 223, "f4rep69" },
+				{ 224, 181821,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:100:gratefuloffering:50" }, -- Armored Plaguerot Tauralus
+				{ 226, "f4rep75" },
+				{ 227, 186487,    "mount" },                                                                                                               -- Maldraxxian Corpsefly
+				{ 229, "f4rep78" },
+				{ 230, 186570 },                                                                                                                           -- Memory of Glory
+				{ 301, "f4rep82" },
+				{ 302, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 304, "f4rep86" },
+				{ 305, 186524 },                                                                                                                           -- A Tiny Vial of Slime
+				{ 307, "f4rep90" },
+				{ 308, 186503 },                                                                                                                           -- Ensemble: Initiate's Necromantle Vestments
+				{ 310, "f4rep97" },
+				{ 311, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 313, "f4rep100" },
+				{ 314, 186488,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:7500" },         -- Regal Corpsefly Harness
+				{ 316, "f4rep106" },
+				{ 317, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 319, "f4rep107" },
+				{ 320, 186502,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Marileth's Assistant Vestments
+			},
+		},
 		{ -- The Wild Hunt
 			FactionID = 2465,
 			CoinTexture = "Reputation",
@@ -1886,6 +2171,101 @@ data["SHADOWLANDSFACTIONS"] = {
 				{ 25, 184751,     [PRICE_EXTRA_ITTYPE] = "money:4390000" },                                    --Cycle-Tender's Pantaloons
 				{ 26, 184750,     [PRICE_EXTRA_ITTYPE] = "money:4390000" },                                    --Amber-Plated Legguards
 				{ 27, 178336,     [PRICE_EXTRA_ITTYPE] = "money:2120000" },                                    --Tabard of the Wild Hunt
+			},
+		},
+		{ -- Night Fae (Renown)
+			CovenantID = 3,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f3rep36" },
+				{ 2,   181307,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500" },                                                                          -- Night Courtier's Bulb
+				{ 4,   "f3rep41" },
+				{ 5,   180290,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" },                                                                           -- Night Fae Hearthstone
+				{ 7,   "f3rep44" },
+				{ 8,   183249,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:250" },                                                                           -- Memory of a Vital Sacrifice
+				{ 10,  "f3rep46" },
+				{ 11,  181930,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Gloves
+				{ 12,  179665,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Handwraps
+				{ 13,  179785,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Armguards
+				{ 14,  179908,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Gauntlets
+				{ 15,  179800,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Belt
+				{ 16,  179677,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Sash
+				{ 17,  181926,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Buckle
+				{ 18,  179904,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Girdle
+				{ 19,  179803,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Bracers
+				{ 20,  179680,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Cuffs
+				{ 21,  181925,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Armbands
+				{ 22,  179903,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Vambraces
+				{ 24,  "f3rep53" },
+				{ 25,  180413,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:5000" },         -- Shadeleaf Runestag
+				{ 101, "f3rep56" },
+				{ 102, 179624,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Night Courtier's Drape
+				{ 103, 179628,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Night Courtier's Cape
+				{ 104, 181879,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Night Courtier's Greatcloak
+				{ 105, 179634,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:10" },                                                      -- Night Courtier's Cloak
+				{ 106, 179661,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Sandals
+				{ 107, 179782,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Anklewraps
+				{ 108, 181931,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Footguards
+				{ 109, 179909,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2000:gratefuloffering:15" },                                                      -- Night Courtier's Sabatons
+				{ 110, 179671,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Leggings
+				{ 111, 181928,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Legguards
+				{ 112, 179906,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Greaves
+				{ 113, 179791,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3000:gratefuloffering:25" },                                                      -- Night Courtier's Britches
+				{ 116, "f3rep57" },
+				{ 117, 182663,    "pet3018",                                                       [PRICE_EXTRA_ITTYPE] = "reservoiranima:1500:gratefuloffering:20" }, -- Trootie
+				{ 119, "f3rep62" },
+				{ 120, 179654,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Robes
+				{ 121, 179910,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Chestplate
+				{ 122, 179658,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Tunic
+				{ 123, 179776,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Chestguard
+				{ 124, 181932,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Hauberk
+				{ 125, 179794,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Vestment
+				{ 126, 181941,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Raiment
+				{ 127, 179788,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Crest
+				{ 128, 179668,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Cowl
+				{ 129, 181929,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Guise
+				{ 130, 179907,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Greathelm
+				{ 201, 181927,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Spaulders
+				{ 202, 179905,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Pauldrons
+				{ 203, 179674,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Amice
+				{ 204, 179797,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:4000:gratefuloffering:30" },                                                      -- Night Courtier's Mantle
+				{ 206, "f3rep64" },
+				{ 207, 181311,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:40" },                                                      -- Night Courtier's Pack
+				{ 209, "f3rep66" },
+				{ 210, 184164,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:2500" },                                                                          -- Illusion: Wild Soul
+				{ 212, "f3rep67" },
+				{ 213, 179494,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Fang
+				{ 214, 179581,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Jaws
+				{ 215, 180257,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Warglaive
+				{ 216, 179558,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Scepter
+				{ 217, 182352,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Mace
+				{ 218, 180020,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Wand
+				{ 219, 180077,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Warbow
+				{ 220, 179540,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Maul
+				{ 221, 179528,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Warspear
+				{ 222, 180003,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Spire
+				{ 223, 179568,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Lyre
+				{ 224, 179608,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:3500:gratefuloffering:50" },                                                      -- Night Courtier's Barrier
+				{ 226, "f3rep69" },
+				{ 227, 180722,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:100:gratefuloffering:40" }, -- Enchanted Shadeleaf Runestag
+				{ 229, "f3rep75" },
+				{ 230, 186493,    "mount" },                                                                                                               -- Ardenweald Wilderling
+				{ 301, "f3rep78" },
+				{ 302, 187223 },                                                                                                                           -- Memory of the Seeds of Rampant Growth
+				{ 304, "f3rep82" },
+				{ 305, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 307, "f3rep86" },
+				{ 308, 186473 },                                                                                                                           -- A Tiny Winter Staff
+				{ 310, "f3rep90" },
+				{ 311, 186497 },                                                                                                                           -- Garb of Pure Spirit
+				{ 313, "f3rep97" },
+				{ 314, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 316, "f3rep100" },
+				{ 317, 186494,    "mount",                                                         [PRICE_EXTRA_ITTYPE] = "reservoiranima:7500" },         -- Autumnal Wilderling Harness
+				{ 319, "f3rep106" },
+				{ 320, 186472 },                                                                                                                           -- Wisps of Memory
+				{ 322, "f3rep107" },
+				{ 323, 186498,    [PRICE_EXTRA_ITTYPE] = "reservoiranima:10000" },                                                                         -- Ensemble: Garb of the Azure Dusk
 			},
 		},
 		{ -- Court of Night
