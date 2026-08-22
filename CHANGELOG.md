@@ -1,7 +1,8 @@
 ﻿# Changelog
 
-## 9.22.13 -
+## 9.23.0 -
 ### Added
+- Added Altar of Fangs, Venomous Abyss and Tidebound Grotto instance loot
 - Added Covenant renowns to Factions
 - Added quest sources to some DF tabards
 

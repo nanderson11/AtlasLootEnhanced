@@ -631,6 +631,75 @@ data["Voidscar Arena"] = {
 	}
 }
 
+data["Altar of Fangs"] = {
+	EncounterJournalID = 1322,
+	MapID = 2588,
+	AtlasMapID = "AltarOfFangs",
+	ContentType = DUNGEON_CONTENT,
+	items = {
+		{ -- Rav'i
+			EncounterJournalID = 2878,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, 273793 }, -- Hydraspine Twinblade
+				{ 2, 273780 }, -- Venom-Etched Crescent
+				{ 3, 273785 }, -- Primordial Robe of Rites
+				{ 4, 273775 }, -- Hydra Scale Wristguards
+				{ 5, 273777 }, -- Poison-Proof Stompers
+				{ 6, 273795 }, -- Coiled Fangstone
+				{ 7, 273796 }, -- Vile Vial of Volatile Venom
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- The Writhing Coil
+			EncounterJournalID = 2879,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, 273783 }, -- Toxin-Coated Warstaff
+				{ 2, 273782 }, -- Vile Writhefang Glaive
+				{ 3, 273779 }, -- Nocuous Focal Fang
+				{ 4, 273781 }, -- Strand of Warding Fangs
+				{ 5, 273774 }, -- Snakeskin Spaulders
+				{ 6, 273787 }, -- Aged Interwoven Scaleplate
+				{ 7, 273786 }, -- Leggings of Entwined Serpents
+				{ 8, 273794 }, -- Knot of Writhing Serpents
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+		},
+		{ -- Zul'jan
+			EncounterJournalID = 2880,
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1,  273778 }, -- Polished Lightwood Channeler
+				{ 2,  275070 }, -- Sharpened Lightwood Slasher
+				{ 3,  273784 }, -- Ancestral Amani Recurve
+				{ 4,  273791 }, -- Spare Speaker's Hood
+				{ 5,  273789 }, -- Chestguard of Corroded Scales
+				{ 6,  273773 }, -- Handwraps of Blasphemous Rites
+				{ 7,  273776 }, -- Ancient General's Obsidian Pillars
+				{ 8,  273792 }, -- Band of the Amani Warlord
+				{ 9,  273797 }, -- Tattered Amani War Banner
+				{ 16, 270900 }, -- Pattern: Snakeskin Lining
+				{ 17, 279211 }, -- Pillar of the Fanged Altar
+			},
+			[HEROIC_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+			},
+			[MYTHICD_DUNGEON_DIFF] = {
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 11, 276804, "mount" }, -- The Writhing Brood
+			},
+		},
+	}
+}
+
 data["WorldBossesMidnight"] = {
 	name = AL["World Bosses"],
 	ContentType = RAID_CONTENT,
@@ -1013,6 +1082,283 @@ data["Sporefall"] = {
 				{ 15, 268280 }, -- Sporelord's Shroom Cap
 				{ 16, 247235 }, -- Luminous Rotshroom
 				{ 17, 269245, 269240 }, -- Delicious Sporesnack -> Luminous Sporeglider
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+	}
+}
+
+data["VenomousAbyss"] = {
+	EncounterJournalID = 1320,
+	MapID = 2606,
+	AtlasMapID = "VenomousAbyss",
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{ -- Nek'zali the Soulcoiler
+			EncounterJournalID = 2888,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  268203 }, -- Hexing Spiritrender
+				{ 2,  268208 }, -- Strongblood's Ceremonial Cleaver
+				{ 3,  270930 }, -- Tomb-Creeper's Claw
+				{ 4,  268230 }, -- Crown of the Eternal Fang
+				{ 5,  268229 }, -- Skullguard of the Risen Sacrifice
+				{ 6,  268248 }, -- Amani Summoning Shawl
+				{ 7,  268235 }, -- Vestment of the Awakening
+				{ 8,  268240 }, -- Restless Spirit Shackles
+				{ 9,  268216 }, -- Cursed Reliquary Cincture
+				{ 10, 268236 }, -- Initiate's Sacrificial Tights
+				{ 11, 268245 }, -- Entombed Cultist's Sabatons
+				{ 12, 268218 }, -- Nek'zali's Spiritwalkers
+				{ 13, 270162 }, -- Soulcoiler Ritual Vessel
+				{ 16, 280305, "pet5125" }, -- Soulcoil Remnant
+				{ 17, 279115 }, -- Soulcoiler's Ritual Candle
+				{ 18, 281227 }, -- Soulcoiler's Rush'kah
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Entombed Sentinels
+			EncounterJournalID = 2874,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270912 }, -- Venomcast Idol
+				{ 2,  270911 }, -- Venomcured Idol
+				{ 3,  270913 }, -- Venomforged Idol
+				{ 4,  270910 }, -- Venomwoven Idol
+				{ 5,  268198 }, -- Caustic Keeper-Crusher
+				{ 6,  268204 }, -- Ancient Construct's Venomshiv
+				{ 7,  268197 }, -- Spine of the Hissing Abyss
+				{ 8,  268219 }, -- Shadow Hunter's Warmask
+				{ 9,  268250 }, -- Sentinel's Vitriolic Chain
+				{ 10, 268228 }, -- Venom-Singed Cuffs
+				{ 11, 268224 }, -- Venom Warden's Greaves
+				{ 12, 270165 }, -- Keeper's Seething Core
+				{ 16, 264716 }, -- Hexed Tomb Brazier
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- The Lost Explorers
+			EncounterJournalID = 2894,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270924 }, -- Venomcast Remnant
+				{ 2,  270923 }, -- Venomcured Remnant
+				{ 3,  270925 }, -- Venomforged Remnant
+				{ 4,  270922 }, -- Venomwoven Remnant
+				{ 5,  268210 }, -- Malevolent Spiritcudgel
+				{ 6,  268200 }, -- Gebbo's Backup Blaster
+				{ 7,  268196 }, -- Venom-Slashed Scuteward
+				{ 8,  268242 }, -- Errant Scrollsage's Hood
+				{ 9,  268239 }, -- Shellbound Bracers
+				{ 10, 268227 }, -- Unpossessed Skullsash
+				{ 11, 268258 }, -- Boots of the Reckless Wayfarer
+				{ 12, 270160 }, -- First Mate's Shellward
+				{ 13, 270164 }, -- Gebbo's Bottomless Bag
+				{ 16, 279118 }, -- Lost Explorers' Mailbox
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Vashnik the Malignant
+			EncounterJournalID = 2882,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270928 }, -- Venomcast Icon
+				{ 2,  270927 }, -- Venomcured Icon
+				{ 3,  270929 }, -- Venomforged Icon
+				{ 4,  270926 }, -- Venomwoven Icon
+				{ 5,  268214 }, -- Malignant Toothed Edge
+				{ 6,  268205 }, -- Venomancer's Winged Channeler
+				{ 7,  268246 }, -- Frothing Venom Spaulders
+				{ 8,  268254 }, -- Serpentine Mixing Belt
+				{ 9,  268260 }, -- Scaled Fiend's Warboots
+				{ 10, 268249 }, -- Vile Alchemist's Band
+				{ 11, 270161 }, -- Fang of Umbral Malignance
+				{ 12, 270166 }, -- Vashnik's Sanguine Rancor
+				{ 16, 272361 }, -- Venomous Pyre
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Sszorak
+			EncounterJournalID = 2871,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270920 }, -- Venomcast Relic
+				{ 2,  270919 }, -- Venomcured Relic
+				{ 3,  270921 }, -- Venomforged Relic
+				{ 4,  270918 }, -- Venomwoven Relic
+				{ 5,  268206 }, -- Slithering Savage's Gavel
+				{ 6,  268201 }, -- Venomous Boneglaive
+				{ 7,  268234 }, -- Ruthless Slaughtergrips
+				{ 8,  268257 }, -- Caustic Chain-Wrapped Sash
+				{ 9,  268233 }, -- Ferocious Scaleboots
+				{ 10, 268252 }, -- Apex Brute's Claw Ring
+				{ 11, 270174 }, -- Idol of the Howling Nexus
+				{ 12, 270163 }, -- Sszorak's Ferocity
+				{ 16, 244343 }, -- Vessel of the Howling Ossuary
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- The Twin Fangs
+			EncounterJournalID = 2887,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270916 }, -- Venomcast Effigy
+				{ 2,  270915 }, -- Venomcured Effigy
+				{ 3,  270917 }, -- Venomforged Effigy
+				{ 4,  270914 }, -- Venomwoven Effigy
+				{ 5,  268264 }, -- Ravenous Feaster's Fang
+				{ 6,  268251 }, -- Amulet of the Twin Fangs
+				{ 7,  268241 }, -- Ornaments of the Eternal Coil
+				{ 8,  268223 }, -- Ophidian Fangmail
+				{ 9,  268220 }, -- Scaleplate Strangulators
+				{ 10, 268261 }, -- Bespittled Slitherslippers
+				{ 11, 270171 }, -- Preternatural Antivenom
+				{ 12, 270170 }, -- Vexhul's Everflowing Gland
+				{ 16, 273070 }, -- Pattern: Adorned Fang
+				{ 17, 279122 }, -- Venom-Fanged Font
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = HEROIC_PRE_DIFF,
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- The Coiled Altar
+			EncounterJournalID = 2883,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  268213 }, -- Maze-roa, Warlord's Fury
+				{ 2,  268209 }, -- Aman'muso, Warlord's Vengeance
+				{ 3,  268211 }, -- Baleful Hexblade
+				{ 4,  268231 }, -- Soulslither Spaulders
+				{ 5,  268253 }, -- Silken Voodoo Drape
+				{ 6,  268222 }, -- Reckless Spirit Breastplate
+				{ 7,  268243 }, -- Grasps of the Eternal Shadow
+				{ 8,  268259 }, -- Girdle of Toxic Regret
+				{ 9,  268256 }, -- Sash of the Forlorn Vessel
+				{ 10, 268225 }, -- Coiled Hex Legguards
+				{ 11, 268237 }, -- Cuisses of the Uncoiled Union
+				{ 12, 268255 }, -- Cackling Soultreads
+				{ 13, 270169 }, -- Hex Lord's Dooming Idol
+				{ 14, 270173 }, -- Zul'jin's Guillotine Technique
+				{ 16, 279131 }, -- Pillar of the Coiled Isle
+				{ 17, 275937 }, -- Hex Lord's Visage
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, 275938 }, -- Hex Lord's Gaze
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+		{ -- Ula'tek
+			EncounterJournalID = 2895,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  270909 }, -- Slumbering Coil Curio
+				{ 2,  268215 }, -- Abyssal Broodfiend's Bardiche
+				{ 3,  271092 }, -- Jan'thrazet, the Soul Fang
+				{ 4,  268202 }, -- Jaw of the Shackled Goddess
+				{ 5,  271093 }, -- Zatha'tek, Breath of Corruption
+				{ 6,  268207 }, -- Caustic Repose Greatbow
+				{ 7,  271875 }, -- Gaze of the Coiled Watcher
+				{ 8,  271874 }, -- Venomkeeper's Horrific Cowl
+				{ 9,  268265 }, -- Aqirbane Reliquary
+				{ 10, 271876 }, -- Awoken Dreadfang Cuirass
+				{ 11, 271878 }, -- Chausses of Unbound Rancor
+				{ 12, 270168 }, -- Font of Venomous Rage
+				{ 13, 270175 }, -- Voracious Heart of Ula'tek
+				{ 16, 279500 }, -- "Rage of the Shackled" Mural
+				{ 17, 279129 }, -- The Venomous Abyss Gleaming Trophy
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, 279125 }, -- The Venomous Abyss Aureate Trophy
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = HEROIC_PRE_DIFF,
+				{ 15, 275658, "mount" }, -- Primeval Skyfriend
+				{ 19, 279127 }, -- The Venomous Abyss Argent Trophy
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+	}
+}
+
+data["TideboundGrotto"] = {
+	EncounterJournalID = 1317,
+	MapID = 2632,
+	AtlasMapID = "TideboundGrotto",
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{ -- Nymrissa Wavecaller
+			EncounterJournalID = 2849,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  268199 }, -- Tidepiercer's Bubble Popper
+				{ 2,  268262 }, -- Bubblefin Splash Guard
+				{ 3,  268263 }, -- Frostscale's Mystic Frond
+				{ 4,  268226 }, -- Swelling Sea Spaulders
+				{ 5,  268221 }, -- Tidebound Sorcereress's Robes
+				{ 6,  268217 }, -- Rising Tide Wristguards
+				{ 7,  268238 }, -- Grips of Swirling Fury
+				{ 8,  268232 }, -- Cincture of the Abyssal Grotto
+				{ 9,  268244 }, -- Forgotten Grotto Girdle
+				{ 10, 268247 }, -- Breakwater Boots
+				{ 11, 268266 }, -- Alluring Bubbleband
+				{ 12, 270167 }, -- Wavecaller's Seastone
+				{ 16, 279112 }, -- Clumped Asteroidea
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
