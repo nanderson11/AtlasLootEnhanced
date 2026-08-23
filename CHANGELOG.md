@@ -5,6 +5,7 @@
 - Added Altar of Fangs, Venomous Abyss and Tidebound Grotto instance loot
 - Added Zul'jarra's Forces and Captain Tokka to Factions
 - Added Prey and Delve season journeys to Factions
+- Added Midnight 12.1 Tier Sets to Collections
 - Added Covenant renowns to Factions
 - Added quest sources to some DF tabards
 
