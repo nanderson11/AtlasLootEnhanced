@@ -1185,6 +1185,225 @@ local SetTable = {
 		},
 	},
 
+	["Tier36"] = { -- T36 Sets
+		name = format(AL["Tier %d Sets"], 36),
+		sourceTemplate = {
+			EJ_GetInstanceInfo(1320).." - "..EJ_GetEncounterInfo(2882), -- Chest
+			EJ_GetInstanceInfo(1320).." - "..EJ_GetEncounterInfo(2874), -- Hands
+			EJ_GetInstanceInfo(1320).." - "..EJ_GetEncounterInfo(2887), -- Head
+			EJ_GetInstanceInfo(1320).." - "..EJ_GetEncounterInfo(2871), -- Legs
+			EJ_GetInstanceInfo(1320).." - "..EJ_GetEncounterInfo(2894), -- Shoulder
+		},
+		{                                                      -- Deathknight, Baleful Grave-Knight's Crucible
+			name = ALIL["DEATHKNIGHT"],
+			subSetName = "dk",
+			icon = "dk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271477, -- Baleful Grave-Knight's Breastplate
+				271475, -- Baleful Grave-Knight's Deathgrips
+				271474, -- Baleful Grave-Knight's Casque
+				271473, -- Baleful Grave-Knight's Greaves
+				271472, -- Baleful Grave-Knight's Gibbets
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Demon Hunter, Abyssal Doomhound's Pursuit
+			name = ALIL["DEMONHUNTER"],
+			subSetName = "demonhunter",
+			icon = "dh",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271540, -- Abyssal Doomhound's Coreguard
+				271538, -- Abyssal Doomhound's Studded Gauntlets
+				271537, -- Abyssal Doomhound's Relentless Stare
+				271536, -- Abyssal Doomhound's Legwraps
+				271535, -- Abyssal Doomhound's Jaws
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Druid, Bark of the Enigmatic Dreamwatcher
+			name = ALIL["DRUID"],
+			subSetName = "druid",
+			icon = "druid",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271531, -- Enigmatic Dreamwatcher's Lunar Raiment
+				271529, -- Enigmatic Dreamwatcher's Gauntlets
+				271528, -- Enigmatic Dreamwatcher's Somnolent Stare
+				271527, -- Enigmatic Dreamwatcher's Leggings
+				271526, -- Enigmatic Dreamwatcher's Plumage
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Evoker, Echo of Calamity
+			name = ALIL["EVOKER"],
+			subSetName = "evoker",
+			icon = "evoker",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271504, -- Searing Caldera of Calamity
+				271502, -- Calamitous Echo's Ebon Greathorns
+				271501, -- Calamitous Echo's Magmashapers
+				271500, -- Earthen Pillars of Calamity
+				271499, -- Calamitous Echo's Sundered Peaks
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Hunter, Skulking Viper's Ambush
+			name = ALIL["HUNTER"],
+			subSetName = "hunter",
+			icon = "hunter",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271495, -- Skulking Viper's Scuteplate
+				271493, -- Skulking Viper's Hidepiercers
+				271492, -- Skulking Viper's Weeping Fangs
+				271491, -- Skulking Viper's Coiled Legwraps
+				271490, -- Jaws of the Skulking Viper
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Mage, Primal Leywarden's Attire
+			name = ALIL["MAGE"],
+			subSetName = "mage",
+			icon = "mage",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271567, -- Crest of the Primal Leywarden
+				271565, -- Primal Leywarden's Manashapers
+				271564, -- Crown of the Primal Leywarden
+				271563, -- Primal Leywarden's Tailored Legwraps
+				271562, -- Primal Leywarden's Manaflux
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Monk, Guile of the Monkey King
+			name = ALIL["MONK"],
+			subSetName = "monk",
+			icon = "monk",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271522, -- Battle Gi of the Monkey King
+				271520, -- Monkey King's Fighting Fists
+				271519, -- Monkey King's Unyielding Visage
+				271518, -- Pantaloons of the Monkey King
+				271517, -- Tassels of the Monkey King
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Paladin, Radiance of the Consecrated Flame
+			name = ALIL["PALADIN"],
+			subSetName = "paladin",
+			icon = "pala",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271468, -- Bulwark of the Consecrated Flame
+				271466, -- Gauntlets of the Consecrated Flame
+				271465, -- Warhelm of the Consecrated Flame
+				271464, -- Greaves of the Consecrated Flame
+				271463, -- Pauldrons of the Consecrated Flame
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Priest, Cosmic Penitent's Raiment
+			name = ALIL["PRIEST"],
+			subSetName = "priest",
+			icon = "priest",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271558, -- Cosmic Penitent's Eclipsing Robes
+				271556, -- Cosmic Penitent's Celestial Grips
+				271555, -- Cosmic Penitent's Truesight
+				271554, -- Enveloping Legwraps of the Cosmic Penitent
+				271553, -- Cosmic Penitent's Echoing Screams
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Rogue, Chosen Bloodslayer's Hexweave
+			name = ALIL["ROGUE"],
+			subSetName = "rogue",
+			icon = "rogue",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271513, -- Chosen Bloodslayer's Banded Poncho
+				271511, -- Chosen Bloodslayer's Fanged Grips
+				271510, -- Chosen Bloodslayer's Spirit Shroud
+				271509, -- Chosen Bloodslayer's Reinforced Pants
+				271508, -- Chosen Bloodslayer's Voodoo Guards
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Shaman, Ophidian Oracle's Prophecy
+			name = ALIL["SHAMAN"],
+			subSetName = "shaman",
+			icon = "shaman",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271486, -- Fanged Raiment of the Ophidian Oracle
+				271484, -- Hexing Grips of the Ophidian Oracle
+				271483, -- Serpent Crown of the Ophidian Oracle
+				271482, -- Leggings of the Ophidian Oracle
+				271481, -- Hissing Mantle of the Ophidian Oracle
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warlock, Damned Necrolyte's Shattered Restraints
+			name = ALIL["WARLOCK"],
+			subSetName = "warlock",
+			icon = "warlock",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271549, -- Damned Necrolyte's Rattling Robes
+				271547, -- Damned Necrolyte's Charred Grasps
+				271546, -- Skull of the Damned Necrolyte
+				271545, -- Damned Necrolyte's Leg Bindings
+				271544, -- Spires of the Damned Necrolyte
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+		{ -- Warrior, Jade Warlord's Dominion
+			name = ALIL["WARRIOR"],
+			subSetName = "warrior",
+			icon = "warri",
+			[SOURCE_INFO] = "sourceTemplate",
+			[RF_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[NORMAL_DIFFICULTY_DIFF] = {
+				271459, -- Cuirass of the Jade Warlord
+				271457, -- Jeweled Gauntlets of the Jade Warlord
+				271456, -- Tempered Horns of the Jade Warlord
+				271455, -- Greaves of the Jade Warlord
+				271454, -- Raging Pauldrons of the Jade Warlord
+			},
+			[HEROIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+			[MYTHIC_DIFFICULTY_DIFF] = NORMAL_DIFFICULTY_DIFF,
+		},
+	},
+
 	["Tier35"] = { -- T35 Sets
 		name = format(AL["Tier %d Sets"], 35),
 		sourceTemplate = {
