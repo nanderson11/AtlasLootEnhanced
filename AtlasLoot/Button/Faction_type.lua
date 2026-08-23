@@ -199,12 +199,15 @@ local FACTION_IMAGES = {
 	[2767] = "interface\\icons\\warrior_talent_icon_furyintheblood",   -- Bizmo's Brawlpub
 
 	-- Midnight
-	[2710] = "interface\\icons\\ui_majorfaction_ gold", -- Silvermoon Court
-	[2696] = "interface\\icons\\ui_majorfaction_ flames", -- Amani Tribe
-	[2704] = "interface\\icons\\ui_majorfaction_ vines", -- Hara'ti
-	[2699] = "interface\\icons\\ui_majorfaction_ sky", -- The Singularity
-	[2764] = "interface\\icons\\ui_prey",              -- Prey: Season 1
-	[2742] = "interface\\icons\\ui_delves",            -- Delves: Season 1
+	[2710] = "interface\\icons\\ui_majorfaction_ gold",               -- Silvermoon Court
+	[2696] = "interface\\icons\\ui_majorfaction_ flames",             -- Amani Tribe
+	[2704] = "interface\\icons\\ui_majorfaction_ vines",              -- Hara'ti
+	[2699] = "interface\\icons\\ui_majorfaction_ sky",                -- The Singularity
+	[2764] = "interface\\icons\\ui_prey",                             -- Prey: Season 1
+	[2742] = "interface\\icons\\ui_delves",                           -- Delves: Season 1
+	[2772] = "interface\\icons\\ui_majorfaction_renown_zuljarrasforces", -- Zul'jarra's Forces
+	[2808] = "interface\\icons\\ui_prey",                             -- Prey: Season 2
+	[2796] = "interface\\icons\\ui_delves",                           -- Delves: Season 2
 }
 
 local function GetLocRepStanding(id)

@@ -180,6 +180,10 @@ Faction.FACTION_KEY = {
 	[2764] = "Prey: Season 1",
 	[2742] = "Delves: Season 1",
 	[2792] = "Ritual Sites",
+	[2772] = "Zul'jarra's Forces",
+	[2773] = "Captain Tokka",
+	[2808] = "Prey: Season 2",
+	[2796] = "Delves: Season 2",
 }
 
 Faction.FriendshipRanks = {
@@ -316,5 +320,13 @@ Faction.FriendshipRanks = {
 		[4] = AL["Trendsetter"],
 		[5] = AL["Host"],
 		[6] = AL["Luminary"],
+	},
+	-- Captain Tokka
+	[2773] = {
+		[1] = AL["Stranger"],
+		[2] = AL["Doomed Sailor"],
+		[3] = AL["Cursed Angler"],
+		[4] = AL["Venom Trawler"],
+		[5] = AL["Bloodsworn Crew"],
 	},
 }

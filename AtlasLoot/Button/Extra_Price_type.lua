@@ -203,6 +203,7 @@ local PRICE_INFO = {
 	["jewelcraftingMoxie"]         = { currencyID = 3262 }, -- Artisan Jewelcrafter's Moxie
 	["scribingMoxie"]              = { currencyID = 3261 }, -- Artisan Scribe's Moxie
 	["engineeringMoxie"]           = { currencyID = 3259 }, -- Artisan Engineer's Moxie
+	["coiledFilament"]             = { currencyID = 3546 }, -- Coiled Filament
 
 	-- others
 	["money"]                      = { func = C_CurrencyInfo.GetCoinTextureString },

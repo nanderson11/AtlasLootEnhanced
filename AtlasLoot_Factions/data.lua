@@ -455,6 +455,173 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 17, 268578,      "mount",                                   [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4500" }, -- Void-Touched Hawkstrider
 			}
 		},
+		{ -- Zul'jarra's Forces
+			FactionID = 2772,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2772rep32" },
+				{ 2,   276249,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                       -- Cloak of the Hash'ura
+				{ 4,   "f2772rep33" },
+				{ 5,   249765,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Amani Supply Sack
+				{ 6,   263316,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Amani Storage Crate
+				{ 7,   264331,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Amani Wayfarer's Torch
+				{ 16,  "f2772rep35" },
+				{ 17,  275300,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                                       -- Recipe: Loa's Gathering
+				{ 18,  271885,      [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },                                                         -- Recipe: Concentrated Silvermoon Health Potion
+				{ 19,  273073,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150" },                                                      -- Formula: Rite of the Hash'ey
+				{ 20,  272196,      [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },                                                        -- Technique: Vantus Rune: Tides
+				{ 21,  277967,      [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },                                                        -- Technique: Contract: Zul'jarra's Forces
+				{ 22,  275316,      [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:150" },                                                     -- Schematic: Coiled Amani Hookshot
+				{ 23,  275310,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150" },                                                      -- Formula: Keen Hex Mask
+				{ 24,  275332,      [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },                                                  -- Pattern: Flat Snakeskin Canopy
+				{ 25,  275304,      [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150" },                                                   -- Plans: Amani Forgemaster's Workbench
+				{ 26,  277820,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                                       -- Recipe: Ula'tek Snakehead Lure
+				{ 101, "f2772rep36" },
+				{ 102, 274500,      [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:75:voidlightMarl:750" },                                        -- Demystifyin': Alchemy
+				{ 103, 274508,      [PRICE_EXTRA_ITTYPE] = "skinningMoxie:75:voidlightMarl:750" },                                       -- Demystifyin': Skinning
+				{ 104, 274509,      [PRICE_EXTRA_ITTYPE] = "miningMoxie:75:voidlightMarl:750" },                                         -- Demystifyin': Mining
+				{ 105, 274510,      [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:75:voidlightMarl:750" },                                  -- Demystifyin': Jewelcrafting
+				{ 106, 274511,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:75:voidlightMarl:750" },                                     -- Demystifyin': Enchanting
+				{ 107, 274507,      [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:75:voidlightMarl:750" },                                 -- Demystifyin': Leatherworking
+				{ 108, 274512,      [PRICE_EXTRA_ITTYPE] = "tailoringMoxie:75:voidlightMarl:750" },                                      -- Demystifyin': Tailoring
+				{ 109, 274513,      [PRICE_EXTRA_ITTYPE] = "herbalismMoxie:75:voidlightMarl:750" },                                      -- Demystifyin': Herbalism
+				{ 110, 274514,      [PRICE_EXTRA_ITTYPE] = "scribingMoxie:75:voidlightMarl:750" },                                       -- Demystifyin': Inscription
+				{ 111, 274515,      [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:75:voidlightMarl:750" },                                  -- Demystifyin': Blacksmithing
+				{ 112, 274516,      [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:75:voidlightMarl:750" },                                    -- Demystifyin': Engineering
+				{ 116, "f2772rep37" },
+				{ 117, 269778,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Stitched Blisterfang Bag
+				{ 118, 269779,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Fanged Scaleskin Pouch
+				{ 119, 277280,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                                        -- Vilescar Weapon Rack
+				{ 121, "f2772rep40" },
+				{ 122, 276250,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                       -- Tabard of the Hash'ura
+				{ 124, "f2772rep41" },
+				{ 125, 277271,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Wrapped Scaleskin Urn
+				{ 126, 277273,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Cracked Vilescar Urn
+				{ 127, 277275,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Charmed Blisterfang Urn
+				{ 129, "f2772rep42" },
+				{ 130, 276248,      "pet5093",                                                        [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Snek'zali
+				{ 201, "f2772rep43" },
+				{ 202, 276925,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" },                                                       -- Idol of Ula'tek
+				{ 204, "f2772rep45" },
+				{ 205, 276457,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Amani Worship Candle
+				{ 206, 276459,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                                        -- Amani Ritual Candles
+				{ 207, 264271,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                                        -- Amani Ritual Totem
+				{ 208, 276841,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Arsenal: Armaments of the Loa
+				{ 210, "f2772rep46" },
+				{ 211, 276251,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                                                       -- Shoulderguards of the Hash'ura
+				{ 213, "f2772rep47" },
+				{ 214, 276802,      "mount",                                                          [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Indigo Coiled Horror
+				{ 216, "f2772rep48" },
+				{ 217, 277323,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                                        -- Sealed Serpentine Reliquary
+				{ 218, 271177,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                                        -- Opened Serpentine Reliquary
+				{ 219, 267377,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                                        -- Ula'tek Ritual Monolith
+				{ 220, 276610,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Ensemble: Warplate of Nalorakk's Chosen
+				{ 221, 276609,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Ensemble: Chainmail of Akil'zon's Chosen
+				{ 222, 276608,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Ensemble: Battlegear of Halazzi's Chosen
+				{ 223, 276607,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Ensemble: Vestments of Jan'alai's Chosen
+				{ 225, "f2772rep49" },
+				{ 226, 276551,      "mount",                                                          [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Violet-Backed Skyfang
+				{ 228, "f2772rep50" },
+				{ 229, 277326,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Axe of the Amani
+				{ 230, 277327,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:5000" },                                                       -- Mantle of Nalorakk
+			}
+		},
+		{ -- Captain Tokka
+			FactionID = 2773,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2773rep2" },
+				{ 2,  278332,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                       -- Recipe: Puffer Plate
+				{ 3,  277923,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:150" },                                        -- Aged Tortollan Scroll Case
+				{ 4,  277927,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                        -- Yellowed Kelp Pile
+				{ 6,  "f2773rep3" },
+				{ 7,  271891,               [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },                                         -- Recipe: Alluring Nostrum
+				{ 8,  275318,               [PRICE_EXTRA_ITTYPE] = "engineeringMoxie:150" },                                     -- Schematic: Proudmoore Ship-in-a-Bottle
+				{ 9,  275336,               [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },                                  -- Pattern: Mounted Moby
+				{ 10, 275693,               [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" },                                   -- Design: Opalescent Amani Peridot
+				{ 11, 275018,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                       -- Recipe: Coiled Stargorger Lure
+				{ 12, 277931,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                        -- Hanging Yellowed Kelp
+				{ 16, "f2773rep4" },
+				{ 17, 278391,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                        -- Eerie Bauble
+				{ 18, 275020,               "pet5070",                                       [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Venom Elemental
+				{ 19, 275301,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                       -- Recipe: Feast of Knowledge
+				{ 20, 275012,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" },                                       -- Recipe: Tokka's Multi-Ward
+				{ 21, 277929,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:500" },                                        -- Rustic Fishing Rack
+				{ 22, 277925,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                        -- Blue Tortollan Signpost
+				{ 24, "f2773rep5" },
+				{ 25, 275653,               "mount",                                         [PRICE_EXTRA_ITTYPE] = "coiledFilament:2500" }, -- Sea-Dwelling Isle Serpent
+				{ 26, "244790:13843:12251", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" },                                       -- The Coiled Huntress
+				{ 27, 274796,               [PRICE_EXTRA_ITTYPE] = "coiledFilament:500" },                                       -- Envenomed Deathblade
+				{ 28, 274814,               [PRICE_EXTRA_ITTYPE] = "coiledFilament:1000" },                                      -- Envenomed Game Ripper
+				{ 29, 274802,               [PRICE_EXTRA_ITTYPE] = "coiledFilament:500" },                                       -- Envenomed Gavel
+				{ 30, 277921,               [PRICE_EXTRA_ITTYPE] = "voidlightMarl:500" },                                        -- Traditional Tortollan Tent
+			}
+		},
+		{ -- Prey: Season 2
+			FactionID = 2808,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,   "f2808rep31" },
+				{ 2,   278123,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Sturdy Silvermoon Crate Lid
+				{ 4,   "f2808rep32" },
+				{ 5,   275312,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" },                                           -- Formula: Furious Tiki Mask
+				{ 6,   273061,      [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150:remnantOfAnguish:500" },                                        -- Plans: Hunter's Ritual Stone
+				{ 7,   275275,      [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:remnantOfAnguish:500" },                                              -- Recipe: Ersatz Venom Splatter
+				{ 8,   278126,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Mysterious Sin'dorei Candlestick
+				{ 10,  "f2808rep33" },
+				{ 11,  278130,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Gilded Silvermoon Compass
+				{ 16,  "f2808rep34" },
+				{ 17,  276229,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" },                                                               -- Preyhunter's Trophy Stand
+				{ 18,  276258,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" },                                                               -- Companion Command Crystal
+				{ 19,  278134,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Sturdy Silvermoon Crate
+				{ 21,  "f2808rep35" },
+				{ 22,  250870,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Crimson Crystal Fragment
+				{ 23,  253449,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Bound Silvermoon Drapes
+				{ 25,  "f2808rep36" },
+				{ 26,  258029,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Plumed Helm
+				{ 27,  258027,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Shoulder-Spikes
+				{ 28,  258031,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Knapsack
+				{ 29,  278145,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Stonecarved Sin'dorei Jar
+				{ 101, "f2808rep37" },
+				{ 102, 278101,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Polished Armor
+				{ 103, 278103,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Rugged Armor
+				{ 104, 278104,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Sleek Armor
+				{ 105, 278105,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Refined Armor
+				{ 106, 278261,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Arsenal: Preyhunter's Lost Armaments
+				{ 107, 278148,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Adorned Sin'dorei Satchel
+				{ 109, "f2808rep38" },
+				{ 110, 275704,      "pet5078",                                                           [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Riftbreaker
+				{ 111, 275702,      "pet5076",                                                           [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Prismguard
+				{ 112, 279092,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1000" },                                                              -- Anguish-Touched Pouch
+				{ 114, "f2808rep39" },
+				{ 115, 278151,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                               -- Blood Knight's Decorative Shield
+				{ 116, "f2808rep40" },
+				{ 117, 275660,      "mount",                                                             [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2250" }, -- Preyhunter's Fury
+				{ 118, 250868,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                               -- Crimson Crystal Column
+			}
+		},
+		{ -- Delves: Season 2
+			FactionID = 2796,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2796rep31" },
+				{ 2,  265386,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Fortified Amani Awning
+				{ 4,  "f2796rep32" },
+				{ 5,  276536,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Corrosive Reticule
+				{ 7,  "f2796rep33" },
+				{ 8,  276189,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Effigy of Dundun
+				{ 10, "f2796rep34" },
+				{ 11, 265033,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Zul'Aman Brazier Post
+				{ 13, "f2796rep35" },
+				{ 14, 276162,      "mount",                                   [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Corroded Soul Crusher
+				{ 16, "f2796rep36" },
+				{ 17, 267207,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Amani Territorial Totem
+				{ 19, "f2796rep37" },
+				{ 20, 275936,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Delve-O-Bot 7001: Midnight Software Update Chip
+				{ 22, "f2796rep38" },
+				{ 23, 272360,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Ula'tek Ritual Stone
+			}
+		},
 	}
 }
 
