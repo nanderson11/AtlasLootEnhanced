@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## 9.23.0 -
+## 9.23.0 - August 23, 2026
 ### Added
 - Added Altar of Fangs, Venomous Abyss and Tidebound Grotto instance loot
 - Added Zul'jarra's Forces and Captain Tokka to Factions
