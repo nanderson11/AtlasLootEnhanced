@@ -3,6 +3,7 @@
 ## 9.23.1 -
 ### Added
 - Added 12.1 tabards and some missing tabards to Collections
+- Added 12.1 toys to Collections
 
 ## 9.23.0 - August 23, 2026
 ### Added

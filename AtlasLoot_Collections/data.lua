@@ -7809,51 +7809,69 @@ data["TOYS"]               = {
 			name = EXPANSION_NAME11,
 			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
-				{ 1,   259084 },                                       -- Gift of the Cycle
-				{ 2,   253629, [QUEST_EXTRA_ITTYPE] = 86903 },         -- Personal Key to the Arcantina
-				{ 3,   264695, [ACH_EXTRA_ITTYPE] = 62126 },           -- Interdimensional Parcel Signal
-				{ 4,   268717, [ACH_EXTRA_ITTYPE] = 62125 },           -- Pango Plating
-				{ 5,   252265 },                                       -- Hexed Potatoad Mucus
-				{ 6,   251903 },                                       -- Potatoad Egg
-				{ 7,   268728 },                                       -- Saptor Salve
+				{ 1,   259084 },                                           -- Gift of the Cycle
+				{ 2,   253629, [QUEST_EXTRA_ITTYPE] = 86903 },             -- Personal Key to the Arcantina
+				{ 3,   264695, [ACH_EXTRA_ITTYPE] = 62126 },               -- Interdimensional Parcel Signal
+				{ 4,   268717, [ACH_EXTRA_ITTYPE] = 62125 },               -- Pango Plating
+				{ 5,   252265 },                                           -- Hexed Potatoad Mucus
+				{ 6,   251903 },                                           -- Potatoad Egg
+				{ 7,   268728 },                                           -- Saptor Salve
 				{ 8,   263933, [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" }, -- Preyseeker's Hearthstone
 				{ 9,   264666, [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" }, -- Rod of Exanguishation
-				{ 10,  248485 },                                       -- Wormhole Generator: Quel'Thalas
-				{ 11,  267139 },                                       -- Hungry Black Hole
-				{ 12,  264805 },                                       -- Brann-O-Vision 3000
-				{ 13,  250319 },                                       -- Researcher's Shadowgraft
-				{ 14,  263975, [ACH_EXTRA_ITTYPE] = 62388 },           -- Feeling Fielder Mk. 7
-				{ 15,  243146, [QUEST_EXTRA_ITTYPE] = 88708 },         -- Ren'dorei Struggle
+				{ 10,  248485 },                                           -- Wormhole Generator: Quel'Thalas
+				{ 11,  267139 },                                           -- Hungry Black Hole
+				{ 12,  264805 },                                           -- Brann-O-Vision 3000
+				{ 13,  250319 },                                           -- Researcher's Shadowgraft
+				{ 14,  263975, [ACH_EXTRA_ITTYPE] = 62388 },               -- Feeling Fielder Mk. 7
+				{ 15,  243146, [QUEST_EXTRA_ITTYPE] = 88708 },             -- Ren'dorei Struggle
 				{ 16,  264517, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Galactic Flag of Victory
 				{ 17,  265100, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Corewarden's Hearthstone
-				{ 18,  258963 },                                       -- Shroom Jumper's Parachute
-				{ 19,  268695, [ACH_EXTRA_ITTYPE] = 62400 },           -- Pin-o-Matic Camera
+				{ 18,  258963 },                                           -- Shroom Jumper's Parachute
+				{ 19,  268695, [ACH_EXTRA_ITTYPE] = 62400 },               -- Pin-o-Matic Camera
 				{ 20,  259240, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Sin'dorei Wine
 				{ 21,  263244, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Enigmatic Fountain
-				{ 22,  263198, [QUEST_EXTRA_ITTYPE] = 91137 },         -- Valdekar's Special
-				{ 23,  267456, [QUEST_EXTRA_ITTYPE] = 92870 },         -- Lil' Scoots' Pillow
-				{ 24,  263871, [QUEST_EXTRA_ITTYPE] = 93965 },         -- Holy Pet Leash
+				{ 22,  263198, [QUEST_EXTRA_ITTYPE] = 91137 },             -- Valdekar's Special
+				{ 23,  267456, [QUEST_EXTRA_ITTYPE] = 92870 },             -- Lil' Scoots' Pillow
+				{ 24,  263871, [QUEST_EXTRA_ITTYPE] = 93965 },             -- Holy Pet Leash
 				{ 25,  250974, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Akil'zon's Updraft
 				{ 26,  264414, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Midnight Delver's Flare Gun
 				{ 27,  256552, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Verdant Rutaani Seed
-				{ 28,  251491, [ACH_EXTRA_ITTYPE] = 61094 },           -- Magical Pet Clicker
+				{ 28,  251491, [ACH_EXTRA_ITTYPE] = 61094 },               -- Magical Pet Clicker
 				{ 29,  266370, [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:3200" }, -- Dundun's Abundant Travel Method
 				{ 30,  251633, [PRICE_EXTRA_ITTYPE] = "unalloyedAbundance:6400" }, -- Bursting Bounty Bundle
-				{ 101, 264672 },                                       -- Cosmic Ritual Stone
-				{ 102, 264413, [QUEST_EXTRA_ITTYPE] = 93525 },         -- Dominating Victory
-				{ 103, 267291, [PRICE_EXTRA_ITTYPE] = "undercoin:250" }, -- Coffer Key Glue
-				{ 104, 262431, [PRICE_EXTRA_ITTYPE] = "undercoin:5000" }, -- Bouncy Mushroom
-				{ 105, 257736, [QUEST_EXTRA_ITTYPE] = 88710 },         -- Lightcalled Hearthstone
-				{ 106, 272287 },                                       -- Nap Mat
+				{ 101, 264672 },                                           -- Cosmic Ritual Stone
+				{ 102, 264413, [QUEST_EXTRA_ITTYPE] = 93525 },             -- Dominating Victory
+				{ 103, 267291, [PRICE_EXTRA_ITTYPE] = "undercoin:250" },   -- Coffer Key Glue
+				{ 104, 262431, [PRICE_EXTRA_ITTYPE] = "undercoin:5000" },  -- Bouncy Mushroom
+				{ 105, 257736, [QUEST_EXTRA_ITTYPE] = 88710 },             -- Lightcalled Hearthstone
+				{ 106, 272287 },                                           -- Nap Mat
 				{ 107, 268456, [PRICE_EXTRA_ITTYPE] = "illusionaryCoin:200" }, -- Animated Bench
 				{ 108, 268455, [PRICE_EXTRA_ITTYPE] = "illusionaryCoin:200" }, -- Enchanted Hourglass
-				{ 109, 264313 },                                       -- Madcap Redcap
-				{ 110, 264367 },                                       -- Mycomancer's Hearthspore
-				{ 111, 276371, [QUEST_EXTRA_ITTYPE] = 97072 },         -- Lightveil Recall Beacon
-				{ 112, 267323, [QUEST_EXTRA_ITTYPE] = 94954 },         -- Troll Scroll of Rainbow Roll
+				{ 109, 264313 },                                           -- Madcap Redcap
+				{ 110, 264367 },                                           -- Mycomancer's Hearthspore
+				{ 111, 276371, [QUEST_EXTRA_ITTYPE] = 97072 },             -- Lightveil Recall Beacon
+				{ 112, 267323, [QUEST_EXTRA_ITTYPE] = 94954 },             -- Troll Scroll of Rainbow Roll
 				{ 113, 259335, [PRICE_EXTRA_ITTYPE] = "timewarped:1000" }, -- Photo Finisher
-				{ 114, 259899, [PRICE_EXTRA_ITTYPE] = "timewarped:750" }, -- Ashen Horn of the Fallen Keeper
-				{ 115, 260170, [PRICE_EXTRA_ITTYPE] = "timewarped:500" }, -- Oathstone Fragment
+				{ 114, 259899, [PRICE_EXTRA_ITTYPE] = "timewarped:750" },  -- Ashen Horn of the Fallen Keeper
+				{ 115, 260170, [PRICE_EXTRA_ITTYPE] = "timewarped:500" },  -- Oathstone Fragment
+				{ 116, 275988, [QUEST_EXTRA_ITTYPE] = 97482 },             -- Corrosive Victory
+				{ 117, 280419, [ACH_EXTRA_ITTYPE] = 63662 },               -- Cursed Badge of the Soulcoilers
+				{ 118, 276207 },                                           -- Preyhunter's Masquerade
+				{ 119, 276189, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Effigy of Dundun
+				{ 120, 276925, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:4000" }, -- Idol of Ula'tek
+				{ 121, 274817, [PRICE_EXTRA_ITTYPE] = "274595:10:voidlightMarl:750" }, -- Gold Starfish
+				{ 122, 278557, [PRICE_EXTRA_ITTYPE] = "274595:10:voidlightMarl:750" }, -- Otoola's Recognition
+				{ 123, 279021 },                                           -- Forgotten Memento
+				{ 124, 275683 },                                           -- G-00
+				{ 125, 279054 },                                           -- Idol of Blue Water and Blue Sky
+				{ 126, 277954 },                                           -- Jaktu's Cursed Blade
+				{ 127, 268504 },                                           -- Malfunctioning Staff
+				{ 128, 279052 },                                           -- Ancient Amani Mask
+				{ 129, 274921 },                                           -- Pearl of Jubilation
+				{ 130, 280201, [QUEST_EXTRA_ITTYPE] = 96546 },             -- Book of Storytime
+				{ 201, 276229, [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" }, -- Preyhunter's Trophy Stand
+				{ 202, 276258, [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" }, -- Companion Command Crystal
+				{ 203, 275825, [ACH_EXTRA_ITTYPE] = 63167 },               -- Ula'tek's Sssacrificial Rain
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},
