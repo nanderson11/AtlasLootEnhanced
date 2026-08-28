@@ -3871,13 +3871,20 @@ data["TABARDS"]            = {
 				{ 8,  267261,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                  -- Tabard of the Hara'ti Sage
 				{ 9,  267262,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                  -- Tabard of the Hara'ti Seer
 				{ 10, [ATLASLOOT_IT_ALLIANCE] = 246740, [ATLASLOOT_IT_HORDE] = 246795,              [QUEST_EXTRA_ITTYPE] = 90961 }, -- Tabard of the Haranir
-				{ 11, 267280,                           [PRICE_EXTRA_ITTYPE] = "money:300000" },                        -- Darkspear Dash Tabard
-				-- { 1, 267467 },                                  -- Silversun Compact Tabard (currently unobtainable)
+				{ 11, 266965 },                                                                                         -- Tabard of Amani Abundance
+				{ 12, 267280,                           [PRICE_EXTRA_ITTYPE] = "money:300000" },                        -- Darkspear Dash Tabard
+				{ 13, 274450,                           [PRICE_EXTRA_ITTYPE] = "money:50000" },                         -- Alliance Tabard of Participation
+				{ 14, 267467,                           [QUEST_EXTRA_ITTYPE] = 90871 },                                 -- Silversun Compact Tabard
+				{ 15, 264164,                           [PRICE_EXTRA_ITTYPE] = "honor:100" },                           -- Galactic Gladiator's Tabard
+				{ 16, 276250,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:3000" },                  -- Tabard of the Hash'ura
+				{ 17, 272005,                           [PRICE_EXTRA_ITTYPE] = "honor:100" },                           -- Venomous Gladiator's Tabard
 				-- { 1, 266902 },                                  -- Depthdiver's Tabard (currently unobtainable)
-				-- { 1, 266965 },                                  -- Tabard of Amani Abundance (currently unobtainable)
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 13, 274451, [PRICE_EXTRA_ITTYPE] = "money:50000" }, -- Horde Tabard of Participation
+				{ 15, 260441, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Galactic Gladiator's Tabard
+				{ 17, 272006, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Venomous Gladiator's Tabard
 			},
 		},
 		{ -- The War Within
