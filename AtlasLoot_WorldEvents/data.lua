@@ -1015,6 +1015,38 @@ data["SkyridingCups"]         = {
 				{ 28, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
 			},
 		},
+		{ -- Northrend Cup
+			name = AL["Northrend Cup"],
+			[NORMAL_DIFF] = {
+				{ 1,  249560, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Silver Mantle
+				{ 2,  249561, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Silver Cloak
+				{ 3,  249562, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Skymaster's Silver Tabard
+				{ 4,  249563, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Crown
+				{ 5,  249565, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Epaulets
+				{ 6,  249564, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Sapphire Shoulderguards
+				{ 7,  263502, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Skymaster's Blood Tabard
+				{ 8,  263501, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Blood Cloak
+				{ 9,  263500, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Blood Mantle
+				{ 10, 263503, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Blood Circlet
+				{ 11, 263504, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Skymaster's Blood Pauldrons
+				{ 12, 213635, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Checkered Pennant
+				{ 13, 211877, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:5" }, -- Drake Racer's Scarf
+				{ 14, 213592, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Helmet
+				{ 15, 213585, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:5" }, -- Icy Drake Racer's Scarf
+				{ 16, 213591, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Shoulderpads
+				{ 17, 213590, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Jersey
+				{ 18, 213589, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Handwraps
+				{ 19, 213588, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Belt
+				{ 20, 213587, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Leggings
+				{ 21, 213586, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:15" }, -- Icy Drake Racer's Boots
+				{ 23, 197594, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Windborne Velocidrake: Small Ears
+				{ 24, 197124, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Highland Drake: Swept Horns
+				{ 25, 197002, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Cliffside Wylderdrake: Flared Cheek
+				{ 26, 203348, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Winding Slitherdrake: Pointed Nose
+				{ 27, 207768, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:25" }, -- Grotto Netherwing Drake: Volatile Pattern
+				{ 29, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
+			},
+		},
 	}
 }
 

@@ -350,6 +350,7 @@ AL["High Inquisitor Whitemane"] = "Верховный инквизитор Ва�
 --AL["Skyriding Cups"] = "Skyriding Cups"
 AL["Eastern Kingdoms Cup"] = "Кубок Восточных королевств"
 AL["Outland Cup"] = "Кубок Запределья"
+AL["Northrend Cup"] = "Кубок Нордскола"
 AL["Tier 1"] = "1-й уровень"
 AL["Tier 2"] = "2-й уровень"
 AL["Tier 3"] = "3-й уровень"

@@ -6,6 +6,7 @@
 - Added 12.1 toys to Collections
 - Added 12.1 pets to Collections
 - Added 12.1 mounts to Collections
+- Added Northrend Cup items
 
 ## 9.23.0 - August 23, 2026
 ### Added
