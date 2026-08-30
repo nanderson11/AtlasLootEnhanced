@@ -7470,6 +7470,35 @@ data["COMPANIONS"]         = {
 				{ 220, 260885, "pet4949", [PRICE_EXTRA_ITTYPE] = "timewarped:2200" }, -- Shadowflame Remnant
 				{ 221, 268557, "pet5007", [QUEST_EXTRA_ITTYPE] = 93012 },       -- Akiki
 				{ 222, 262768, "pet4965" },                                     -- Sleepy Mandrake
+				{ 223, 275020, "pet5070", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Venom Elemental
+				{ 224, 276248, "pet5093", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Snek'zali
+				{ 225, 275704, "pet5078", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Riftbreaker
+				{ 226, 275702, "pet5076", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Prismguard
+				{ 227, 280305, "pet5125" },                                     -- Soulcoil Remnant
+				{ 228, 275632, "pet5072", [PRICE_EXTRA_ITTYPE] = "corrosiveCoin:5000" }, -- Volatile Venomfang
+				{ 229, 275631, "pet5071", [PRICE_EXTRA_ITTYPE] = "corrosiveCoin:5000" }, -- Corrosive Writhling
+				{ 230, 279483, "pet3526", [QUEST_EXTRA_ITTYPE] = 97565 },       -- Three-Eyed Fish
+				{ 301, 268644, "pet5011", [QUEST_EXTRA_ITTYPE] = 93393 },       -- Zan
+				{ 302, 276234, "pet5092" },                                     -- Vibrant Venomfang
+				{ 303, 280178, "pet5133" },                                     -- Poison Dart Frog
+				{ 304, 279197, "pet5129" },                                     -- Slitherfang
+				{ 305, 280540, "pet5137" },                                     -- Lil' Mon
+				{ 306, 280189, "pet5134" },                                     -- Cauldron Concoction
+				{ 307, 279387, "pet5130", [ACH_EXTRA_ITTYPE] = 63609 },         -- Ula'took
+				{ 308, 270191, "pet5026", [ACH_EXTRA_ITTYPE] = 62460 },         -- Lil'Kruul's Hilt
+				{ 309, 270211, "pet5027", [ACH_EXTRA_ITTYPE] = 62461 },         -- Furiostraza's Filter
+				{ 310, 280138, "pet5132", [ACH_EXTRA_ITTYPE] = 62492 },         -- Zesty
+				{ 311, 282417, "pet5164" },                                     -- J'imothy
+				{ 312, 278572, "pet5126" },                                     -- Pale Hexscale
+				{ 313, 279921, "pet5131", [ACH_EXTRA_ITTYPE] = 63633 },         -- Ki'clak
+				{ 314, 270214, "pet5028" },                                     -- Poisoned Parasite
+				{ 315, 270250, "pet5034" },                                     -- Steady Croakfrog
+				{ 316, 270252, "pet5032" },                                     -- Nightfur Kapara
+				{ 317, 270254, "pet5031" },                                     -- Caustic Writhling
+				{ 318, 270249, "pet5029" },                                     -- Cursed Spawn
+				{ 319, 270251, "pet5033" },                                     -- Sleek Snakebiter
+				{ 320, 270253, "pet5030" },                                     -- Jaundiced Slitherer
+				{ 321, 270248, "pet5035" },                                     -- Autumn Snapling
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
