@@ -1488,11 +1488,34 @@ data["MOUNTS"]             = {
 				{ 228, 246731, "mount", [QUEST_EXTRA_ITTYPE] = 92899 },         -- Dusk Grimlynx
 				{ 229, 211087, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Hateforged Blazecycle
 				{ 230, 274681, "mount", [PRICE_EXTRA_ITTYPE] = "tender:550" },  -- Badlands Buzzard
+				{ 301, 275658, "mount" },                                       -- Primeval Skyfriend
+				{ 302, 276804, "mount" },                                       -- The Writhing Brood
+				{ 303, 275660, "mount", [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2250" }, -- Preyhunter's Fury
+				{ 304, 276802, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:6000" }, -- Indigo Coiled Horror
+				{ 305, 276551, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:8000" }, -- Violet-Backed Skyfang
+				{ 306, 275653, "mount", [PRICE_EXTRA_ITTYPE] = "coiledFilament:2500" }, -- Sea-Dwelling Isle Serpent
+				{ 307, 276162, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" }, -- Corroded Soul Crusher
+				{ 308, 275654, "mount", [PRICE_EXTRA_ITTYPE] = "corrosiveCoin:10000" }, -- Caustic Venomfang
+				{ 309, 273838, "mount", [QUEST_EXTRA_ITTYPE] = 96305 },         -- Spirit of Tok'jara
+				{ 310, 276803, "mount" },                                       -- Ruby Writhe
+				{ 311, 276549, "mount" },                                       -- Topaz Skyfang
+				{ 312, 275659, "mount" },                                       -- Hexflame Reaver
+				{ 313, 275656, "mount", [ACH_EXTRA_ITTYPE] = 63359 },           -- Auriferous Venomfang
+				{ 314, 276553, "mount", [ACH_EXTRA_ITTYPE] = 63653 },           -- Emerald Skyfang
+				{ 315, 276801, "mount", [ACH_EXTRA_ITTYPE] = 63630 },           -- Venomous Coiler
+				{ 316, 275657, "mount", [ACH_EXTRA_ITTYPE] = 63333 },           -- Apophic Soul Crusher
+				{ 317, 275652, "mount", [ACH_EXTRA_ITTYPE] = 63254 },           -- Crimson Venomfang
+				{ 318, 277192, "mount", [ACH_EXTRA_ITTYPE] = 63104 },           -- Umbral Ashes
+				{ 319, 276881, "mount", [ACH_EXTRA_ITTYPE] = 62447 },           -- Breath of Blight
+				{ 320, 276882, "mount", [ACH_EXTRA_ITTYPE] = 62449 },           -- Breath of Ruin
+				{ 321, 275302, "mount", [ACH_EXTRA_ITTYPE] = 62930 },           -- Venomous Gladiator's Goredrake
+				{ 322, 275433, "mount", [ACH_EXTRA_ITTYPE] = 63103 },           -- Vicious Lightbloom Boar
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 				{ 112, 265656, "mount", [ACH_EXTRA_ITTYPE] = 62096 }, -- Anu'shalla, Shadow's Guidance
 				{ 125, 257502, "mount", [ACH_EXTRA_ITTYPE] = 61403 }, -- Vicious Snaplizard
+				{ 322, 275432, "mount", [ACH_EXTRA_ITTYPE] = 63099 }, -- Vicious Lightbloom Boar
 			},
 		},
 		{ -- The War Within
