@@ -1459,15 +1459,11 @@ data["Skyreach"] = {
 				{ 116, 110030 }, -- Chakram-Breaker Greatsword
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1, 258046 }, -- Chakram-Breaker Greatsword
-				{ 2, 258218 }, -- Skybreaker's Blade
-				{ 3, 258412 }, -- Stormshaper's Crossbow
-				{ 4, 258575 }, -- Rigid Scale Greatcloak
-				{ 5, 258574 }, -- Legwraps of Swirling Light
-				--{ 118, "ac9033" },
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 118, "ac9033" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1520,16 +1516,10 @@ data["Skyreach"] = {
 				{ 124, 110031 }, -- Spire of the Furious Construct
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1, 258047 }, -- Spire of the Furious Construct
-				{ 2, 258436 }, -- Edge of the Burning Sun
-				{ 3, 258579 }, -- Gutcrusher Greathelm
-				{ 4, 258578 }, -- Lightbinder Shoulderguards
-				{ 5, 258576 }, -- Sharpeye Chestguard
-				{ 6, 258577 }, -- Boots of Burning Focus
-				{ 7, 252418 }, -- Solar Core Igniter
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1582,18 +1572,11 @@ data["Skyreach"] = {
 				{ 118, 110032 }, -- Beakbreaker Scimitar
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1, 258048 }, -- Beakbreaker Scimitar
-				{ 2, 258438 }, -- Blazing Sunclaws
-				{ 3, 258472 }, -- Rukhran's Solar Reliquary
-				{ 4, 258581 }, -- Bloodfeather Mantle
-				{ 5, 258580 }, -- Bracers of Blazing Light
-				{ 6, 258583 }, -- Incarnadine Gauntlets
-				{ 7, 258582 }, -- Rigid Scale Boots
-				{ 8, 252411 }, -- Radiant Sunstone
-				-- { 120, "ac9035" },
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 120, "ac9035" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -1667,31 +1650,25 @@ data["Skyreach"] = {
 				{ 208, 109778 },                                    -- Signet of the Glorious Protector
 				{ 209, 109769 },                                    -- Slicebinder Loop
 				{ 210, 109777 },                                    -- Unsullied Signet
-				{ 216, 110011 },                                    -- Fires of the Sun
-				{ 218, 110033 },                                    -- Arcanic of the High Sage
-				{ 219, 110034 },                                    -- Viryx's Indomitable Bulwark
-				{ 221, "114780:0", false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pure Solium Band
-				{ 223, "ac8843" },
+				{ 211, 110011 },                                    -- Fires of the Sun
+				{ 212, 110033 },                                    -- Arcanic of the High Sage
+				{ 213, 110034 },                                    -- Viryx's Indomitable Bulwark
+				{ 215, "114780:0", false, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Pure Solium Band
+				{ 216, 258744 },                                    -- Skyreach Circular Table
+				{ 218, "ac8843" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1,  252420 }, -- Solarflare Prism
-				{ 2,  258484 }, -- Sunlance of Viryx
-				{ 3,  258050 }, -- Arcanic of the High Sage
-				{ 4,  258049 }, -- Viryx's Indomitable Bulwark
-				{ 5,  258585 }, -- Sharpeye Gleam
-				{ 6,  258587 }, -- Spaulders of Scorching Ray
-				{ 7,  258586 }, -- Bloodfeather Chestguard
-				{ 8,  258584 }, -- Lightbinder Treads
-				{ 10, 258744 }, -- Skyreach Circular Table
-				-- { 224, "ac8844" },
-				-- { 225, "ac9036" },
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 218, "ac8844" },
+				{ 219, "ac9036" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
-				-- { 224, "ac10081" },
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 218, "ac10081" },
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 218, nil },
 			},
 		},
 		{ --Challenge Mode Gear

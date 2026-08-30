@@ -25,7 +25,7 @@ local ALIL = AtlasLoot.IngameLocales
 
 local NORMAL_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "n", ADD_SCALING, 1)
 local HEROIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY2, "h", ADD_SCALING, 2)
-local MYTHIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "m", ADD_SCALING, 23)
+-- local MYTHIC_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY6, "m", ADD_SCALING, 23)
 local TIMEWALKING_DUNGEON_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY_TIMEWALKER, "timewalkingDungeonWithPreset", ADD_SCALING, 24)
 
 local NORMAL_RAID_DIFF = data:AddDifficulty(PLAYER_DIFFICULTY1, "rn", ADD_SCALING, 3)
@@ -1053,17 +1053,18 @@ data["FHPitOfSaron"] = {
 				{ 14, 49723, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- The Forgemaster's Hammer
 			},
 			[HEROIC_DIFF] = {
-				{ 1, 49802 }, -- Garfrost's Two-Ton Hammer
-				{ 2, 50227 }, -- Surgeon's Needle
-				{ 3, 50228 }, -- Barbed Ymirheim Choker
-				{ 4, 50234 }, -- Shoulderplates of Frozen Blood
-				{ 5, 50233 }, -- Spurned Val'kyr Shoulderguards
-				{ 6, 49806 }, -- Flayer's Black Belt
-				{ 7, 49805 }, -- Ice-Steeped Sandals
-				--{ 16, "ac4524" },
+				GetItemsFromDiff = NORMAL_DIFF,
+				{ 16, "ac4524" },
 			},
-			[MYTHIC_DIFF] = {
-				GetItemsFromDiff = HEROIC_DIFF,
+			[TIMEWALKING_DUNGEON_DIFF] = {
+				{ 1, 133486 }, -- Garfrost's Two-Ton Hammer
+				{ 2, 133485 }, -- Unspeakable Secret
+				{ 3, 133488 }, -- Polished Mirror Helm
+				{ 4, 133501 }, -- Skeleton Lord's Cranium
+				{ 5, 133508 }, -- Shroud of Rime
+				{ 6, 133490 }, -- Flayer's Black Belt
+				{ 7, 133489 }, -- Ice-Steeped Sandals
+				{ 8, 133487 }, -- Ring of Carnelian and Bone
 			},
 		},
 		{ --PoSKrickIck
@@ -1083,18 +1084,17 @@ data["FHPitOfSaron"] = {
 				{ 12, 50235 }, -- Ick's Rotting Thumb
 			},
 			[HEROIC_DIFF] = {
-				{ 1, 49807 }, -- Krick's Beetle Stabber
-				{ 2, 50264 }, -- Chewed Leather Wristguards
-				{ 3, 49809 }, -- Wristguards of Subterranean Moss
-				{ 4, 49808 }, -- Bent Gold Belt
-				{ 5, 50263 }, -- Braid of Salt and Fire
-				{ 6, 49810 }, -- Scabrous Zombie Leather Belt
-				{ 7, 49811 }, -- Black Dragonskin Breeches
-				{ 8, 49812 }, -- Purloined Wedding Ring
-				{ 9, 252421 }, -- Rotting Globule
+				GetItemsFromDiff = NORMAL_DIFF,
 			},
-			[MYTHIC_DIFF] = {
-				GetItemsFromDiff = HEROIC_DIFF,
+			[TIMEWALKING_DUNGEON_DIFF] = {
+				{ 1, 133491 }, -- Krick's Beetle Stabber
+				{ 2, 133517 }, -- Saronite-Studded Shoulderguards
+				{ 3, 133493 }, -- Wristguards of Subterranean Moss
+				{ 4, 133492 }, -- Bent Gold Belt
+				{ 5, 133494 }, -- Scabrous Zombie Belt
+				{ 6, 133495 }, -- Black Dragonskin Breeches
+				{ 7, 133504 }, -- Rimewoven Silks
+				{ 8, 133496 }, -- Purloined Wedding Ring
 			},
 		},
 		{ --PoSTyrannus
@@ -1127,20 +1127,20 @@ data["FHPitOfSaron"] = {
 				{ 26, 267007 }, -- Eye of Acherus
 			},
 			[HEROIC_DIFF] = {
-				{ 1,  49813 }, -- Rimebane Rifle
-				{ 2,  49824 }, -- Horns of the Spurned Val'kyr
-				{ 3,  49819 }, -- Skeleton Lord's Cranium
-				{ 4,  49823 }, -- Cloak of the Fallen Cardinal
-				{ 5,  50272 }, -- Frost Wyrm Ribcage
-				{ 6,  49825 }, -- Palebone Robes
-				{ 7,  49817 }, -- Shaggy Wyrmleather Leggings
-				{ 8,  50259 }, -- Nevermelting Ice Crystal
-				{ 10, 267007 }, -- Eye of Acherus
-				--{ 23, 43102,   [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Frozen Orb
-				--{ 25, "ac4525" },
+				GetItemsFromDiff = NORMAL_DIFF,
+				{ 28, "ac4525" },
 			},
-			[MYTHIC_DIFF] = {
-				GetItemsFromDiff = HEROIC_DIFF,
+			[TIMEWALKING_DUNGEON_DIFF] = {
+				{ 1,  133497 }, -- Rimebane Rifle
+				{ 2,  133503 }, -- Protector of Frigid Souls
+				{ 3,  133506 }, -- Horns of the Spurned Val'kyr
+				{ 4,  133500 }, -- Painfully Sharp Choker
+				{ 5,  133505 }, -- Cloak of the Fallen Cardinal
+				{ 6,  133507 }, -- Palebone Robes
+				{ 7,  133498 }, -- Scourgelord's Frigid Chestplate
+				{ 8,  133502 }, -- Gondria's Spectral Bracer
+				{ 9,  133499 }, -- Shaggy Wyrmleather Leggings
+				{ 11, 267007 }, -- Eye of Acherus
 			},
 		},
 		FH_TRASH_MOBS,

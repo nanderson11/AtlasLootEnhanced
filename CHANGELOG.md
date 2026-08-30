@@ -7,6 +7,8 @@
 - Added 12.1 pets to Collections
 - Added 12.1 mounts to Collections
 - Added Northrend Cup items
+### Changed
+- Changed Midnight Season 2 instances to seasonal loot and reverted Season 1 instances to non-seasonal loot
 
 ## 9.23.0 - August 23, 2026
 ### Added

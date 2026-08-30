@@ -1812,20 +1812,18 @@ data["SeatoftheTriumvirate"] = {
 		{ -- Zuraal the Ascended
 			EncounterJournalID = 1979,
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1, 151312 }, -- Ampoule of Pure Void
-				{ 2, 151329 }, -- Breastplate of the Dark Touch
-				{ 3, 151320 }, -- Void-Coated Stompers
-				{ 4, 151300 }, -- Handwraps of the Ascended
-				{ 5, 151308 }, -- Eredath Seal of Nobility
-				{ 6, 151336 }, -- Voidlashed Hood
-				{ 7, 258514 }, -- Umbral Spire of Zuraal
-				-- { 3,  151331 }, -- Pauldrons of the Broken
-				-- { 5,  151326 }, -- Waistguard of Bound Energy
-				-- { 6,  151315 }, -- Bracers of Dark Binding
-				-- { 8,  151304 }, -- Subjugator's Leggings
-
-				--[[ { 12, 151291 }, -- Frozen Void Shard
-				{ 13, 151293 }, -- Orb of the Abandoned Magi ]]
+				{ 1,  151312 }, -- Ampoule of Pure Void
+				{ 2,  151329 }, -- Breastplate of the Dark Touch
+				{ 3,  151320 }, -- Void-Coated Stompers
+				{ 4,  151300 }, -- Handwraps of the Ascended
+				{ 5,  151308 }, -- Eredath Seal of Nobility
+				{ 6,  151336 }, -- Voidlashed Hood
+				{ 7,  151331 }, -- Pauldrons of the Broken
+				{ 8,  151326 }, -- Waistguard of Bound Energy
+				{ 9,  151315 }, -- Bracers of Dark Binding
+				{ 10, 151304 }, -- Subjugator's Leggings
+				{ 12, 151291 }, -- Frozen Void Shard
+				{ 13, 151293 }, -- Orb of the Abandoned Magi
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
@@ -1843,10 +1841,8 @@ data["SeatoftheTriumvirate"] = {
 				{ 7,  151321 }, -- Darkfang Scale Wristguards
 				{ 8,  151323 }, -- Pauldrons of the Void Hunter
 				{ 9,  151337 }, -- Shadow-Weaver's Crown
-				{ 10, 258516 }, -- Wand of Saprish's Gaze
-
-				--[[ { 5,  151294 }, -- Coalesced Void
-				{ 10, 151295 }, -- Darkstorm Arrowhead ]]
+				{ 11, 151294 }, -- Coalesced Void
+				{ 12, 151295 }, -- Darkstorm Arrowhead
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
@@ -1863,14 +1859,11 @@ data["SeatoftheTriumvirate"] = {
 				{ 6,  151305 }, -- Entropic Wristwraps
 				{ 7,  151310 }, -- Reality Breacher
 				{ 8,  151317 }, -- Footpads of Seeping Dread
-				{ 9,  258524 }, -- Grips of the Dark Viceroy
-				{ 10, 258523 }, -- Nezhar's Netherclaw
-				-- { 3,  151316 }, -- Cinch of the Umbral Lasher
-				-- { 11, 151338 }, -- Leggings of Shifting Darkness
-
-				--[[ { 1,  151297 }, -- Carved Argunite Idol
-				{ 5,  151290 }, -- Darktide Fervor
-				{ 7,  151288 }, -- Void-Resistant Seedpod ]]
+				{ 9,  151316 }, -- Cinch of the Umbral Lasher
+				{ 10, 151338 }, -- Leggings of Shifting Darkness
+				{ 12, 151297 }, -- Carved Argunite Idol
+				{ 13, 151290 }, -- Darktide Fervor
+				{ 14, 151288 }, -- Void-Resistant Seedpod
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
@@ -1887,14 +1880,12 @@ data["SeatoftheTriumvirate"] = {
 				{ 6,  151319 }, -- Twilight's Edge Spaulders
 				{ 7,  151328 }, -- Vambraces of Lost Hope
 				{ 8,  151340 }, -- Echo of L'ura
-				{ 9,  258525 }, -- Scepter of the Endless Night
-				{ 11, 241044 }, -- Argussian Crate
-				-- { 9,  151339 }, -- Legplates of Ultimate Sacrifice
-				-- { 3,  151324 }, -- Helm of Shadowy Descent
-
-				--[[ { 2,  151289 }, -- Badge of the Fallen Vindicator
-				{ 5,  151296 }, -- Blood of the Vanquished
-				{ 13, 151292 }, -- Sanctified Eredar Lock ]]
+				{ 9,  151339 }, -- Legplates of Ultimate Sacrifice
+				{ 10, 151324 }, -- Helm of Shadowy Descent
+				{ 12, 151289 }, -- Badge of the Fallen Vindicator
+				{ 13, 151296 }, -- Blood of the Vanquished
+				{ 14, 151292 }, -- Sanctified Eredar Lock
+				{ 16, 241044 }, -- Argussian Crate
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,

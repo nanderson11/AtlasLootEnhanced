@@ -450,7 +450,7 @@ data["Kings' Rest"] = {
 		{ -- Dazar, The First King
 			EncounterJournalID = 2172,
 			[HEROIC_DUNGEON_DIFF] = {
-				{ 1,  159236 }, -- Headdress of the First Empire
+				--[[ { 1,  159236 }, -- Headdress of the First Empire
 				{ 2,  159645 }, -- Headcracker of Supplication
 				{ 3,  159422 }, -- Helm of the Raptor King
 				{ 4,  158344 }, -- Mantle of Ceremonial Ascension
@@ -459,17 +459,31 @@ data["Kings' Rest"] = {
 				{ 7,  159301 }, -- Primal Dinomancer's Belt
 				{ 8,  159423 }, -- Pauldrons of the Great Unifier
 				{ 9,  158355 }, -- Loa-Blessed Chestguard
-				{ 10, 159303 }, -- Vest of Reverent Adoration
+				{ 10, 159303 }, -- Vest of Reverent Adoration ]]
+
+				{ 1,  159644 }, -- Geti'ikku, Cut of Death
+				{ 2,  159645 }, -- Headcracker of Supplication
+				{ 3,  239047 }, -- Headdress of the First Empire
+				{ 4,  239050 }, -- Helm of the Raptor King
+				{ 5,  239045 }, -- Mantle of Ceremonial Ascension
+				{ 6,  239051 }, -- Pauldrons of the Great Unifier
+				{ 7,  239049 }, -- Spaulders of Prime Emperor
+				{ 8,  239046 }, -- Loa-Blessed Chestguard
+				{ 9,  239048 }, -- Vest of Reverent Adoration
+				{ 10, 159301 }, -- Primal Dinomancer's Belt
+				{ 11, 273649 }, -- Stormbound Emblem of Dazar
+				{ 13, 278245 }, -- Royal Attendant's Coffin
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
-				{ 16, "ac12848" }, -- AC: Mythic: Kings' Rest
-				{ 17, "ac12723" }, -- AC: Mythic: Kings' Rest "How to Keep a Mummy"
-				{ 18, "ac13008" }, -- AC: Mythic: Kings' Rest Guild Run
-				{ 20, 159921,   "mount" }, -- Mummified Raptor Skull
+				-- { 16, "ac12848" }, -- AC: Mythic: Kings' Rest
+				-- { 17, "ac12723" }, -- AC: Mythic: Kings' Rest "How to Keep a Mummy"
+				-- { 18, "ac13008" }, -- AC: Mythic: Kings' Rest Guild Run
+				{ 15, 159921, "mount" }, -- Mummified Raptor Skull
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				{ 13, nil },
 			},
 		},
 		BATTLEFORAZEROTH_DUNGEON_HERO_AC_TABLE,
@@ -730,21 +744,24 @@ data["Temple of Sethraliss"] = {
 				{ 1, 159637 }, -- Snakebite Recurve
 				{ 2, 158714 }, -- Swarm's Edge
 				{ 3, 162544 }, -- Jade Ophidian Band
-				{ 4, 159437 }, -- Fangproof Gauntlets
-				{ 5, 159375 }, -- Legguards of the Awakening Brood
-				{ 6, 159327 }, -- Sand-Shined Snakeskin Sandals
-				{ 7, 159255 }, -- Ouroborial Sash
-				{ 8, 158367 }, -- Merektha's Fang
+				{ 4, 159375 }, -- Legguards of the Awakening Brood
+				{ 5, 159327 }, -- Sand-Shined Snakeskin Sandals
+				{ 6, 159255 }, -- Ouroborial Sash
+				{ 7, 158367 }, -- Merektha's Fang
+				{ 8, 159437 }, -- Fangproof Gauntlets
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 8, nil },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 8, nil },
 				{ 9, 160832, "pet2186" }, -- Viable Cobra Egg
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 8, nil },
 			},
 		},
 		{ -- Galvazzt
@@ -780,19 +797,30 @@ data["Temple of Sethraliss"] = {
 				{ 8,  159318 }, -- Hood of the Slithering Loa
 				{ 9,  159254 }, -- Brood Cleanser's Amice
 				{ 10, 158373 }, -- Resonating Crystal Scimitar
+				{ 12, 278982 }, -- Hatchery of Hissing Eggs
 				{ 16, "ac12504" }, -- AC: The Temple of Sethraliss
 			},
 			[HEROIC_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 16, "ac12505" }, -- AC: Heroic: The Temple of Sethraliss
+				{ 1,  158373 }, -- Resonating Crystal Scimitar
+				{ 2,  239033 }, -- Hood of the Slithering Loa
+				{ 3,  239035 }, -- Sethraliss' Fanged Helm
+				{ 4,  239031 }, -- Brood Cleanser's Amice
+				{ 5,  239037 }, -- C'thraxxi Binders Pauldrons
+				{ 6,  239034 }, -- Corrupted Hexxer's Vestments
+				{ 7,  239036 }, -- Desert Guardian's Breastplate
+				{ 8,  239032 }, -- Robes of the Reborn Serpent
+				{ 9,  159337 }, -- Grips of Electrified Defense
+				{ 10, 158368 }, -- Sethraliss' Defiled Relic
+				{ 12, 278982 }, -- Hatchery of Hissing Eggs
+				--{ 16, "ac12505" }, -- AC: Heroic: The Temple of Sethraliss
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 16, "ac12506" }, -- AC: Mythic: The Temple of Sethraliss
-				{ 17, "ac13004" }, -- AC: Mythic: The Temple of Sethraliss Guild Run
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				--{ 16, "ac12506" }, -- AC: Mythic: The Temple of Sethraliss
+				--{ 17, "ac13004" }, -- AC: Mythic: The Temple of Sethraliss Guild Run
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
-				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
 			},
 		},
 		BATTLEFORAZEROTH_DUNGEON_HERO_AC_TABLE,

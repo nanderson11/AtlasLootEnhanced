@@ -71,10 +71,9 @@ data["Algeth'ar Academy"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 5, 258529 }, -- Arcaneclaw Spear
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -112,10 +111,9 @@ data["Algeth'ar Academy"] = {
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
-				{ 7, 258531 }, -- Crawth's Scaleguard
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
-				GetItemsFromDiff = HEROIC_DUNGEON_DIFF,
+				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -130,16 +128,20 @@ data["Algeth'ar Academy"] = {
 				{ 4, 193703 }, -- Organized Pontificator's Mask
 				{ 5, 193704 }, -- Scaled Commencement Spaulders
 				{ 6, 193705 }, -- Breastplate of Proven Knowledge
-				{ 8, 260359 }, -- Valdrakken Bookcase
+				{ 7, 198056 }, -- Titan Training Matrix II
+				{ 9, 260359 }, -- Valdrakken Bookcase
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, 198058 }, -- Titan Training Matrix III
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, 198059 }, -- Titan Training Matrix IV
 			},
 			[TIMEWALKING_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 7, nil },
 			},
 		},
 	}
