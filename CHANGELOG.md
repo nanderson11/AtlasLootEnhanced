@@ -1,12 +1,13 @@
 ﻿# Changelog
 
-## 9.23.1 -
+## 9.23.1 - September 2, 2026
 ### Added
 - Added 12.1 tabards and some missing tabards to Collections
 - Added 12.1 toys to Collections
 - Added 12.1 pets to Collections
 - Added 12.1 mounts to Collections
 - Added Northrend Cup items
+- Added September Trading Post items to Collections
 ### Changed
 - Changed Midnight Season 2 instances to seasonal loot and reverted Season 1 instances to non-seasonal loot
 

@@ -1510,6 +1510,9 @@ data["MOUNTS"]             = {
 				{ 320, 276882, "mount", [ACH_EXTRA_ITTYPE] = 62449 },           -- Breath of Ruin
 				{ 321, 275302, "mount", [ACH_EXTRA_ITTYPE] = 62930 },           -- Venomous Gladiator's Goredrake
 				{ 322, 275433, "mount", [ACH_EXTRA_ITTYPE] = 63103 },           -- Vicious Lightbloom Boar
+				{ 323, 278574, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Crested Aqua Leafmimic
+				{ 324, 278575, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Crested Verdant Leafmimic
+				{ 325, 278573, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Crested Ember Leafmimic
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -7587,7 +7590,7 @@ data["COMPANIONS"]         = {
 				{ 120, 229368, "pet4630" },                                               -- Gill'el
 				{ 121, 222973, "pet4492", [PRICE_EXTRA_ITTYPE] = "kej:2250" },            -- Fringe
 				{ 122, 221820, "pet4537" },                                               -- Chester
-				{ 123, 228765, "pet4616" },                                               -- Gummi
+				{ 123, 228765, "pet4616", [PRICE_EXTRA_ITTYPE] = "tender:250" },          -- Gummi
 				{ 124, 232807, "pet4664", [ACH_EXTRA_ITTYPE] = 41349 },                   -- Iron Chick
 				{ 125, 232519, "pet4690" },                                               -- Razeshi B.
 				{ 126, 224439, "pet4470" },                                               -- Oop'lajax
