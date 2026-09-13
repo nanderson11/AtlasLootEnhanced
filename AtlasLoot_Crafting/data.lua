@@ -172,13 +172,16 @@ data["Alchemy"] = {
 				{ 4,  268954, 1230854, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Entropic Extract
 				{ 5,  241295, 1230862, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Potion of Devoured Dreams
 				{ 6,  241303, 1230867, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Void-Shrouded Tincture
-				{ 8,  241297, 1230863, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Potion of Zealotry
-				{ 9,  241301, 1230865, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Lightfused Mana Potion
-				{ 10, 241305, 1230866, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Silvermoon Health Potion
-				{ 11, 241339, 1230886, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Enlightenment Tonic
-				{ 12, 241307, 1230868, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Refreshing Serum
-				{ 13, 241309, 1230869, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Light's Potential
-				{ 14, 241287, 1230858, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Light's Preservation
+				{ 7,  271889, 1289746, [ATLASLOOT_IT_AMOUNT1] = 5, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },        -- Alluring Nostrum
+				{ 9,  241297, 1230863, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Potion of Zealotry
+				{ 10, 241301, 1230865, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Lightfused Mana Potion
+				{ 11, 241305, 1230866, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Silvermoon Health Potion
+				{ 12, 241339, 1230886, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Enlightenment Tonic
+				{ 13, 241307, 1230868, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Refreshing Serum
+				{ 14, 241309, 1230869, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Light's Potential
+				{ 15, 241287, 1230858, [ATLASLOOT_IT_AMOUNT1] = 5 },                                                   -- Light's Preservation
+				{ 16, 271886, 1289745, [ATLASLOOT_IT_AMOUNT1] = 5, [PRICE_EXTRA_ITTYPE] = "corrosiveCoin:2500:alchemyMoxie:150" }, -- Liquid Luster
+				{ 17, 271883, 1289744, [ATLASLOOT_IT_AMOUNT1] = 5, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },        -- Concentrated Silvermoon Health Potion
 			},
 			[TWW_DIFF] = {
 				{ 1,  211878, 430590,  [ATLASLOOT_IT_AMOUNT1] = 5 },                          -- Algari Healing Potion
@@ -775,11 +778,12 @@ data["Alchemy"] = {
 			name = ALIL["Decor"],
 			[MIDNIGHT_DIFF] = {
 				{ 1, 253506, 1233133, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:voidlightMarl:1500" }, -- Rootbound Vat
-				{ 2, 256356, 1233135, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },        -- Sunsmoke Censer
-				{ 3, 262356, 1233137, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },        -- Haranir Preserving Agents
-				{ 4, 257420, 1233138 },                                                   -- Silvermoon Spire Fountain
-				{ 5, 262355, 1233132 },                                                   -- Entropic Illuminant
-				{ 6, 262354, 1233136 },                                                   -- Riftstone
+				{ 2, 256356, 1233135, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },          -- Sunsmoke Censer
+				{ 3, 262356, 1233137, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150" },          -- Haranir Preserving Agents
+				{ 4, 257420, 1233138 },                                                     -- Silvermoon Spire Fountain
+				{ 5, 262355, 1233132 },                                                     -- Entropic Illuminant
+				{ 6, 262354, 1233136 },                                                     -- Riftstone
+				{ 7, 279359, 1296429, [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:remnantOfAnguish:500" }, -- Ersatz Venom Splatter
 			},
 			[TWW_DIFF] = {
 				{ 1, 252758, 1259673 }, -- Boulder Springs Hot Tub
@@ -2235,9 +2239,10 @@ data["Blacksmithing"] = {
 		{ --SmithingWeaponEnhancement
 			name = AL["Weapon Enhancements"],
 			[MIDNIGHT_DIFF] = {
-				{ 1, 237367, 1230759 },                 -- Refulgent Weightstone
-				{ 2, 237372, 1230760 },                 -- Refulgent Razorstone
-				{ 3, 237370, 1230758, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Refulgent Whetstone
+				{ 1, 237367, 1230759 },                                                           -- Refulgent Weightstone
+				{ 2, 237372, 1230760 },                                                           -- Refulgent Razorstone
+				{ 3, 237370, 1230758, [ATLASLOOT_IT_AMOUNT1] = 4 },                               -- Refulgent Whetstone
+				{ 4, 273059, 1291683, [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150:remnantOfAnguish:500" }, -- Hunter's Ritual Stone
 			},
 			[TWW_DIFF] = {
 				{ 1, 222502, 450285, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Ironclaw Whetstone
@@ -2357,6 +2362,9 @@ data["Blacksmithing"] = {
 				{ 3, 262451, 1276108, [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150" }, -- Gilded Silvermoon Anvil
 				{ 4, 262457, 1276110, [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150" }, -- Gilded Silvermoon Hanger
 				{ 5, 262456, 1276109 },                                      -- Ornamental Silvermoon Hanger
+				{ 6, 275305, 1296496 },                                      -- Amani Forgemaster's Decorative Spear
+				{ 7, 279329, 1296497 },                                      -- Amani Forgemaster's Rack
+				{ 8, 263709, 1296495, [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150" }, -- Amani Forgemaster's Workbench
 			},
 			[TWW_DIFF] = {
 				{ 1, 245312, 1259675 }, -- Rusting Bolted Bench
@@ -2625,15 +2633,16 @@ data["Enchanting"] = {
 		{ --EnchantingWeaponEnchants
 			name = AL["Weapon Enchants"],
 			[MIDNIGHT_DIFF] = {
-				{ 1, 244000, 1236081, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Worldsoul Tenacity
-				{ 2, 243968, 1236065, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Strength of Halazzi
-				{ 3, 244028, 1236095, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Acuity of the Ren'dorei
-				{ 4, 243972, 1236067 },                                                      -- Enchant Weapon - Berserker's Rage
-				{ 5, 244026, 1236094 },                                                      -- Enchant Weapon - Flames of the Sin'dorei
-				{ 6, 243996, 1236079 },                                                      -- Enchant Weapon - Worldsoul Cradle
-				{ 7, 243970, 1236066 },                                                      -- Enchant Weapon - Jan'alai's Precision
-				{ 8, 244030, 1236097 },                                                      -- Enchant Weapon - Arcane Mastery
-				{ 9, 243998, 1236080 },                                                      -- Enchant Weapon - Worldsoul Aegis
+				{ 1,  244000, 1236081, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Worldsoul Tenacity
+				{ 2,  243968, 1236065, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Strength of Halazzi
+				{ 3,  244028, 1236095, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Enchant Weapon - Acuity of the Ren'dorei
+				{ 4,  243972, 1236067 },                                                      -- Enchant Weapon - Berserker's Rage
+				{ 5,  244026, 1236094 },                                                      -- Enchant Weapon - Flames of the Sin'dorei
+				{ 6,  243996, 1236079 },                                                      -- Enchant Weapon - Worldsoul Cradle
+				{ 7,  243970, 1236066 },                                                      -- Enchant Weapon - Jan'alai's Precision
+				{ 8,  244030, 1236097 },                                                      -- Enchant Weapon - Arcane Mastery
+				{ 9,  243998, 1236080 },                                                      -- Enchant Weapon - Worldsoul Aegis
+				{ 10, 273071, 1291694, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150" },        -- Enchant Weapon - Rite of the Hash'ey
 			},
 			[TWW_DIFF] = {
 				{ 1, 223766, 445351 }, -- Enchant Weapon - Oathsworn's Tenacity
@@ -3339,10 +3348,13 @@ data["Enchanting"] = {
 				{ 5,  268041, 1281349, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Endless Codex of the Voidtouched
 				{ 6,  268038, 1281342, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Endless Codex of Blooming Light
 				{ 7,  262470, 1246907, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:voidlightMarl:1500" }, -- Spellbound Tome of Thalassian Magics
-				{ 8,  262590, 1246908 },                                                      -- Rootflame Campfire
-				{ 9,  262468, 1246903 },                                                      -- Ren'dorei Postal Repository
-				{ 10, 262450, 1246904 },                                                      -- Ensorcelled Broom
-				{ 11, 262455, 1246905 },                                                      -- Font of Gleaming Water
+				{ 8,  262590, 1246908 },                                                        -- Rootflame Campfire
+				{ 9,  262468, 1246903 },                                                        -- Ren'dorei Postal Repository
+				{ 10, 262450, 1246904 },                                                        -- Ensorcelled Broom
+				{ 11, 262455, 1246905 },                                                        -- Font of Gleaming Water
+				{ 12, 279335, 1296500, [PRICE_EXTRA_ITTYPE] = "274597:50:voidlightMarl:750" },  -- Formula: Enchanted Voidwell Fish
+				{ 13, 279362, 1296499, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" }, -- Furious Tiki Mask
+				{ 14, 279332, 1296498, [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150" },          -- Keen Hex Mask
 			},
 			[TWW_DIFF] = {
 				{ 1, 253039, 1259715 }, -- Dornogal Hanging Sconce
@@ -4080,6 +4092,8 @@ data["Engineering"] = {
 				{ 3, 248485, 1229928 }, -- Wormhole Generator: Quel'Thalas
 				{ 4, 248409, 1229926 }, -- W-47CH D0G
 				{ 5, 248137, 1229924 }, -- M3DDY
+				{ 6, 275683, 1297647 }, -- G-00
+				{ 7, 275676, 1305148 }, -- R0CKY-To-Go
 			},
 			[TWW_DIFF] = {
 				{ 1,  221949, 447365,  [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Pausing Pylon
@@ -4249,6 +4263,7 @@ data["Engineering"] = {
 				{ 4,  248136, 1229917 }, -- M3DDY, Travel-Sized
 				{ 5,  257735, 1261945 }, -- B0P, Curator of Booms
 				{ 6,  255843, 1229921 }, -- HU5H, Nonchalant Pup
+				{ 7,  273062, 1291687 }, -- Coiled Snake-Eye
 				{ 16, 243576, 1229853 }, -- Soul Sprocket
 				{ 17, 243574, 1229755 }, -- Song Gear
 			},
@@ -4545,6 +4560,7 @@ data["Engineering"] = {
 				{ 5, 246460, 1248612 }, -- Ambient Aethercharged Crystal
 				{ 6, 262465, 1248613 }, -- Ren'dorei Stargazer
 				{ 7, 262789, 1248614 }, -- Small Telogrus Lamp
+				{ 8, 279341, 1296503 }, -- Aetherlume Field Lamp
 			},
 			[TWW_DIFF] = {
 				{ 1, 253252, 1259778 }, -- Replica Rumbling Wastes Drill Pod
@@ -5172,6 +5188,7 @@ data["Inscription"] = {
 				{ 2, 245799, 1230051, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Silvermoon Court
 				{ 3, 245797, 1230052, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Amani Tribe
 				{ 4, 245793, 1230054, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150:voidlightMarl:1500" }, -- Contract: The Singularity
+				{ 5, 277968, 1303151, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },        -- Contract: Zul'jarra's Forces
 			},
 			[TWW_DIFF] = {
 				{ 1,  222597, 444220,  [PRICE_EXTRA_ITTYPE] = "210814:150" }, -- Contract: Council of Dornogal
@@ -5380,7 +5397,8 @@ data["Inscription"] = {
 		{ --InscriptionRunes
 			name = RUNES,
 			[MIDNIGHT_DIFF] = {
-				{ 1, 245879, 1230050 }, -- Vantus Rune: Radiant
+				{ 1, 245879, 1230050 },                                 -- Vantus Rune: Radiant
+				{ 2, 272194, 1290561, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" }, -- Vantus Rune: Tides
 			},
 			[TWW_DIFF] = {
 				{ 1, 226034, 444203 },                           -- Vantus Rune: Nerub-ar Palace
@@ -5607,6 +5625,8 @@ data["Inscription"] = {
 				{ 10, 262597, 1248625, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },          -- Gilded Eversong Book
 				{ 11, 262595, 1248627 },                                                      -- Homely Wall Shelves
 				{ 12, 262790, 1248620 },                                                      -- Restful Bronze Bench
+				{ 13, 280752, 1296505 },                                                      -- "Cursed Gaze of Ula'tek" Mural
+				{ 14, 280757, 1296506 },                                                      -- Chiseled Amani Tablet
 			},
 			[TWW_DIFF] = {
 				{ 1, 253164, 1260005 }, -- Algari Fence
@@ -7000,7 +7020,8 @@ data["Jewelcrafting"] = {
 				{ 3,  240991, 1230476 }, -- Sunglass Vial
 				{ 5,  251489, 1230478 }, -- Stabilizing Gemstone Bandolier
 				{ 6,  251487, 1230477 }, -- Prismatic Focusing Iris
-				{ 8,  241141, 1230499 }, -- Monologuer's Chalice
+				{ 7,  273065, 1291690 }, -- Polished Ammolite
+				{ 9,  241141, 1230499 }, -- Monologuer's Chalice
 				{ 16, 241135, 1230484 }, -- Sanguine Garnet Prism
 				{ 17, 241132, 1230482 }, -- Amani Lapis Prism
 				{ 18, 241133, 1230483 }, -- Tenebrous Amethyst Prism
@@ -7208,6 +7229,9 @@ data["Jewelcrafting"] = {
 				{ 4, 262469, 1246895 },                                                         -- Brilliant Phoenix Harp
 				{ 5, 262461, 1246889 },                                                         -- Tenebrous Ren'dorei Armillary
 				{ 6, 248965, 1246892 },                                                         -- Resplendent Highborne Statue
+				{ 7, 280762, 1297681, [PRICE_EXTRA_ITTYPE] = "274597:50:voidlightMarl:750" },   -- Roaring Amani Garnet
+				{ 8, 279356, 1297679, [PRICE_EXTRA_ITTYPE] = "jewelcraftingMoxie:150" },        -- Opalescent Amani Peridot
+				{ 9, 279343, 1297680 },                                                         -- Piercing Amani Lapis
 			},
 			[TWW_DIFF] = {
 				{ 1, 253253, 1260172 }, -- Gundargaz Candelabra
@@ -9282,7 +9306,8 @@ data["Leatherworking"] = {
 				{ 3, 244603, 1237577 }, -- Blessed Pango Charm
 				{ 4, 244607, 1237578 }, -- Primal Spore Binding
 				{ 5, 244674, 1237579 }, -- Devouring Banding
-				{ 7, 270058, 1291046 }, -- Rope Lynx Harness
+				{ 6, 273068, 1291691 }, -- Adorned Fang
+				{ 8, 270058, 1291046 }, -- Rope Lynx Harness
 			},
 			[TWW_DIFF] = {
 				{ 1, 219905, 444122 }, -- Thunderous Drums
@@ -9441,13 +9466,16 @@ data["Leatherworking"] = {
 		{ -- LeatherDecor
 			name = ALIL["Decor"],
 			[MIDNIGHT_DIFF] = {
-				{ 1, 262589, 1246940, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Simple Haranir Table
-				{ 2, 262600, 1246941, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },              -- Stitched Haranir Rug
-				{ 3, 243090, 1246942, [PRICE_EXTRA_ITTYPE] = "scribingMoxie:150" },              -- Sturdy Haranir Chair
-				{ 4, 264244, 1246943 },                                                          -- Plush Haranir Leather Pillow
-				{ 5, 262449, 1246937 },                                                          -- Embossed Sin'dorei Fur Rug
-				{ 6, 253457, 1246938 },                                                          -- Leather-Bound Haranir Wall Shelf
-				{ 7, 265791, 1246939 },                                                          -- Haranir Canopy Bed
+				{ 1,  262589, 1246940, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150:voidlightMarl:1500" }, -- Simple Haranir Table
+				{ 2,  262600, 1246941, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },        -- Stitched Haranir Rug
+				{ 3,  243090, 1246942, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },        -- Sturdy Haranir Chair
+				{ 4,  264244, 1246943 },                                                          -- Plush Haranir Leather Pillow
+				{ 5,  262449, 1246937 },                                                          -- Embossed Sin'dorei Fur Rug
+				{ 6,  253457, 1246938 },                                                          -- Leather-Bound Haranir Wall Shelf
+				{ 7,  265791, 1246939 },                                                          -- Haranir Canopy Bed
+				{ 8,  266170, 1296509, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },        -- Flat Snakeskin Canopy
+				{ 9,  279348, 1296511, [PRICE_EXTRA_ITTYPE] = "leatherworkingMoxie:150" },        -- Mounted Moby
+				{ 10, 279346, 1296510 },                                                          -- Stretched Snakeskin Rack
 			},
 			[TWW_DIFF] = {
 				{ 1, 239214, 1270836 }, -- Well-Lit Incontinental Couch
@@ -10802,7 +10830,8 @@ data["Tailoring"] = {
 			[MIDNIGHT_DIFF] = {
 				{ 1,  240166, 1228961 }, -- Arcanoweave Lining
 				{ 2,  240164, 1228960 }, -- Sunfire Silk Lining
-				{ 3,  239711, 1228941 }, -- Bright Linen Bandage
+				{ 3,  270898, 1288335 }, -- Snakeskin Lining
+				{ 4,  239711, 1228941 }, -- Bright Linen Bandage
 				{ 16, 267445, 1280542 }, -- Silvermoon Agent's Drape
 				{ 17, 267446, 1280543 }, -- Scout's Cape
 				{ 18, 267447, 1280544 }, -- Farstrider's Embroidered Cover
@@ -10979,6 +11008,8 @@ data["Tailoring"] = {
 				{ 4, 262591, 1229002 },                                                     -- Luxurious Silvermoon Lounge Cushion
 				{ 5, 262599, 1229000 },                                                     -- Silvermoon Curtains
 				{ 6, 262611, 1246929 },                                                     -- Voidstrider Saddlebag
+				{ 7, 279350, 1296512 },                                                     -- Twilight's Blade Bedroll
+				{ 8, 279353, 1296514, [PRICE_EXTRA_ITTYPE] = "274597:50:voidlightMarl:750" }, -- Tortollan Slingsack
 			},
 			[TWW_DIFF] = {
 				{ 1, 252755, 1260215 }, -- Dornogal Framed Rug
@@ -11533,32 +11564,35 @@ data["Cooking"] = {
 		{ --CookingRatings
 			name = AL["Ratings"],
 			[MIDNIGHT_DIFF] = {
-				{ 1,  255848, 1259660, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Flora Frenzy
-				{ 2,  242274, 1226170, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Champion's Bento
-				{ 3,  242287, 1226183, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Arcano Cutlets
-				{ 4,  242278, 1226174, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Tasty Smoked Tetra
-				{ 5,  242283, 1226179, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Sun-Seared Lumifin
-				{ 6,  242277, 1226173, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Crimson Calamari
-				{ 7,  242286, 1226182, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Fel-Kissed Filet
-				{ 8,  242282, 1226178, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Null and Void Plate
-				{ 9,  242281, 1226177, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Glitter Skewers
-				{ 10, 242285, 1226181, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Warped Wise Wings
-				{ 11, 242276, 1226172, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Braised Blood Hunter
-				{ 12, 242280, 1226176, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Buttered Root Crab
-				{ 13, 242284, 1226180, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Void-Kissed Fish Rolls
-				{ 16, 242290, 1226186, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Wise Tails
-				{ 17, 242291, 1226187, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Fried Bloomtail
-				{ 18, 242292, 1226188, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Eversong Pudding
-				{ 19, 242293, 1226189, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Sunwell Delight
-				{ 20, 242294, 1226190, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Felberry Figs
-				{ 21, 242295, 1226191, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Hearthflame Supper
-				{ 22, 242296, 1226192, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Bloodthistle-Wrapped Cutlets
-				{ 24, 242309, 1226166, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Farstrider Rations
-				{ 25, 242306, 1226202, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Forager's Medley
-				{ 26, 242307, 1226203, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Quick Sandwich
-				{ 27, 242308, 1226204, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Portable Snack
-				{ 28, 242304, 1226200, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Spiced Biscuits
-				{ 29, 242305, 1226201, [ATLASLOOT_IT_AMOUNT1] = 4 }, -- Silvermoon Standard
+				{ 1,   255848, 1259660, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Flora Frenzy
+				{ 2,   242274, 1226170, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Champion's Bento
+				{ 3,   242287, 1226183, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Arcano Cutlets
+				{ 4,   242278, 1226174, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Tasty Smoked Tetra
+				{ 5,   242283, 1226179, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Sun-Seared Lumifin
+				{ 6,   242277, 1226173, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Crimson Calamari
+				{ 7,   242286, 1226182, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Fel-Kissed Filet
+				{ 8,   242282, 1226178, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Null and Void Plate
+				{ 9,   242281, 1226177, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Glitter Skewers
+				{ 10,  242285, 1226181, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Warped Wise Wings
+				{ 11,  242276, 1226172, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Braised Blood Hunter
+				{ 12,  242280, 1226176, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Buttered Root Crab
+				{ 13,  242284, 1226180, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Void-Kissed Fish Rolls
+				{ 14,  275258, 1295783, [ATLASLOOT_IT_AMOUNT1] = 2, [PRICE_EXTRA_ITTYPE] = "274596:250:voidlightMarl:750" }, -- Venom-Spiced Cutlets
+				{ 15,  275261, 1296419, [ATLASLOOT_IT_AMOUNT1] = 2 },                                            -- Sweet-And-Sour Skewers
+				{ 16,  275260, 1296418, [ATLASLOOT_IT_AMOUNT1] = 2, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" }, -- Puffer Plate
+				{ 18,  242290, 1226186, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Wise Tails
+				{ 19,  242291, 1226187, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Fried Bloomtail
+				{ 20,  242292, 1226188, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Eversong Pudding
+				{ 21,  242293, 1226189, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Sunwell Delight
+				{ 22,  242294, 1226190, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Felberry Figs
+				{ 23,  242295, 1226191, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Hearthflame Supper
+				{ 24,  242296, 1226192, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Bloodthistle-Wrapped Cutlets
+				{ 26,  242309, 1226166, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Farstrider Rations
+				{ 27,  242306, 1226202, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Forager's Medley
+				{ 28,  242307, 1226203, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Quick Sandwich
+				{ 29,  242308, 1226204, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Portable Snack
+				{ 30,  242304, 1226200, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Spiced Biscuits
+				{ 101, 242305, 1226201, [ATLASLOOT_IT_AMOUNT1] = 4 },                                            -- Silvermoon Standard
 			},
 			[TWW_DIFF] = {
 				{ 1,  223968, 447872,  [PRICE_EXTRA_ITTYPE] = "kej:1500" },                       -- Spongey Scramble
@@ -11776,10 +11810,13 @@ data["Cooking"] = {
 		{ --CookingBanquetFeast
 			name = AL["Banquets/Feasts"],
 			[MIDNIGHT_DIFF] = {
-				{ 1, 242272, 1226168, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Quel'dorei Medley
-				{ 2, 255846, 1226175, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Harandar Celebration
-				{ 3, 255845, 1257796, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Silvermoon Parade
-				{ 4, 242273, 1226169, [ATLASLOOT_IT_AMOUNT1] = 2 }, -- Blooming Feast
+				{ 1, 242272, 1226168, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Quel'dorei Medley
+				{ 2, 255846, 1226175, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Harandar Celebration
+				{ 3, 255845, 1257796, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Silvermoon Parade
+				{ 4, 242273, 1226169, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Blooming Feast
+				{ 5, 275265, 1295776, [ATLASLOOT_IT_AMOUNT1] = 2, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" }, -- Loa's Gathering
+				{ 6, 275266, 1295777, [ATLASLOOT_IT_AMOUNT1] = 2, [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1500" }, -- Feast of Knowledge
+				{ 7, 275264, 1295534, [ATLASLOOT_IT_AMOUNT1] = 2 },                                  -- Amani Cornucopia
 			},
 			[TWW_DIFF] = {
 				{ 1, 222720, 445100, [ATLASLOOT_IT_AMOUNT1] = "3" },                                     -- The Sushi Special
