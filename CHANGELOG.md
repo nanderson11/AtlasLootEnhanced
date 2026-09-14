@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 9.23.3 -
+### Added
+- Added Shadowlands Toys to Collections
+
 ## 9.23.2 - September 13, 2026
 ### Added
 - Added 12.1 profession recipes to Crafting

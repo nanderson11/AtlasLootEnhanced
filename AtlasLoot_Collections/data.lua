@@ -7862,7 +7862,6 @@ data["TOYS"]               = {
 	items = {
 		{ -- Midnight
 			name = EXPANSION_NAME11,
-			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   259084 },                                           -- Gift of the Cycle
 				{ 2,   253629, [QUEST_EXTRA_ITTYPE] = 86903 },             -- Personal Key to the Arcantina
@@ -7932,7 +7931,6 @@ data["TOYS"]               = {
 		},
 		{ -- The War Within
 			name = EXPANSION_NAME10,
-			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   236687 },                                         -- Explosive Hearthstone
 				{ 2,   226373, [PRICE_EXTRA_ITTYPE] = "resonanceCrystal:5000" }, -- Everlasting Noggenfogger Elixir
@@ -8043,7 +8041,6 @@ data["TOYS"]               = {
 		},
 		{ -- Dragonflight
 			name = EXPANSION_NAME9,
-			-- CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   191891 },                                        -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
 				{ 2,   192443 },                                        -- Element-Infused Rocket Helmet
@@ -8098,7 +8095,7 @@ data["TOYS"]               = {
 				{ 121, 199899 },                                        -- Iskaara Tug Sled
 				{ 122, 199902 },                                        -- Wayfinder's Compass
 				{ 123, 200116 },                                        -- Everlasting Horn of Lavaswimming
-				-- { 124, 200142 }, -- Generous Goblin Grenade (unobtainable)
+				{ 124, 193588 },                                        -- Timewalker's Hearthstone
 				{ 125, 200148 },                                        -- A Collection Of Me
 				{ 126, 200160 },                                        -- Notfar's Favorite Food
 				{ 127, 200178 },                                        -- Infected Ichor
@@ -8133,14 +8130,132 @@ data["TOYS"]               = {
 				{ 226, 218112, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Colorful Beach Chair
 				{ 227, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
 				{ 228, 212525, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Delicate Ebony Parasol
+				{ 229, 191925 },                                        -- Falling Star Flinger
+				{ 230, 191937 },                                        -- Falling Star Catcher
+				-- { 124, 200142 }, -- Generous Goblin Grenade (unobtainable)
 			}
 		},
-		--[[
 		{ -- Shadowlands
 			name = EXPANSION_NAME8,
 			[NORMAL_DIFF] = {
+				{ 1,   186974, [PRICE_EXTRA_ITTYPE] = "phantasma:300" }, -- Experimental Anima Cell
+				{ 2,   182694 },                                       -- Stylish Black Parasol
+				{ 3,   190196 },                                       -- Enlightened Hearthstone
+				{ 4,   187840 },                                       -- Sparkle Wings
+				{ 5,   183988 },                                       -- Bondable Val'kyr Diadem
+				{ 6,   183986 },                                       -- Bondable Sinstone
+				{ 7,   173984 },                                       -- Scroll of Aeons
+				{ 8,   172924 },                                       -- Wormhole Generator: Shadowlands
+				{ 9,   187689, [ACH_EXTRA_ITTYPE] = 15221 },           -- Dance Dance Darkmoon
+				{ 10,  183716, [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" }, -- Venthyr Sinstone
+				{ 11,  180290, [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" }, -- Night Fae Hearthstone
+				{ 12,  182695, [ACH_EXTRA_ITTYPE] = 14766 },           -- Weathered Purple Parasol
+				{ 13,  182773, [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" }, -- Necrolord Hearthstone
+				{ 14,  184489 },                                       -- Fae Harp
+				{ 15,  182696 },                                       -- The Countess's Parasol
+				{ 16,  188952, [ACH_EXTRA_ITTYPE] = 15252 },           -- Dominated Hearthstone
+				{ 17,  180993 },                                       -- Bat Visage Bobber
+				{ 18,  177951, [QUEST_EXTRA_ITTYPE] = 59865 },         -- Glimmerflies on Strings
+				{ 19,  186702 },                                       -- Pallid Bone Flute
+				{ 20,  188701, [PRICE_EXTRA_ITTYPE] = "burningblossom:50" }, -- Fire Festival Batons
+				{ 21,  181794 },                                       -- Orophea's Lyre
+				{ 22,  187860, [ACH_EXTRA_ITTYPE] = 15229 },           -- Mortis Mover
+				{ 23,  183989, [PRICE_EXTRA_ITTYPE] = "infusedRuby:50" }, -- Dredger Barrow Racer
+				{ 24,  184353, [PRICE_EXTRA_ITTYPE] = "reservoiranima:750" }, -- Kyrian Hearthstone
+				{ 25,  182729 },                                       -- Hearty Dragon Plume
+				{ 26,  187051 },                                       -- Forgotten Feather
+				{ 27,  184223, [ACH_EXTRA_ITTYPE] = 14471 },           -- Helm of the Dominated
+				{ 28,  184449, [ACH_EXTRA_ITTYPE] = 14634 },           -- Jiggles's Favorite Toy
+				{ 29,  183847, [QUEST_EXTRA_ITTYPE] = 61761 },         -- Acolyte's Guise
+				{ 30,  180873 },                                       -- Smolderheart
+				{ 101, 187159, [QUEST_EXTRA_ITTYPE] = 63922 },         -- Shadow Slicing Shortsword
+				{ 102, 190177 },                                       -- Sphere of Enlightened Cogitation
+				{ 103, 190237, [PRICE_EXTRA_ITTYPE] = "money:50000000" }, -- Broker Translocation Matrix
+				{ 104, 187422 },                                       -- Rockin' Rollin' Racer Customizer 19.9.3
+				{ 105, 184404 },                                       -- Ever-Abundant Hearth
+				{ 106, 184410, [PRICE_EXTRA_ITTYPE] = "money:17650000" }, -- Aspirant's Stretcher
+				{ 107, 187793, [ACH_EXTRA_ITTYPE] = 15211 },           -- Personal Containment Trap
+				{ 108, 184447 },                                       -- Kevin's Party Supplies
+				{ 109, 187869, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: Into the Shadowlands
+				{ 110, 187591, [PRICE_EXTRA_ITTYPE] = "timewarped:1500" }, -- Nightborne Guard's Vigilance
+				{ 111, 180947, [QUEST_EXTRA_ITTYPE] = 57771 },         -- Tithe Collector's Vessel
+				{ 112, 184490 },                                       -- Fae Pipes
+				{ 113, 183856, [QUEST_EXTRA_ITTYPE] = 62592 },         -- Mystical Orb of Meditation
+				{ 114, 184312 },                                       -- Borr-Geth's Fiery Brimstone
+				{ 115, 184495 },                                       -- Infested Arachnid Casing
+				{ 116, 190853 },                                       -- Bushel of Mysterious Fruit
+				{ 117, 192485 },                                       -- Stored Wisdom Device
+				{ 118, 192099, [PRICE_EXTRA_ITTYPE] = "money:1" },     -- Earpieces of Tranquil Focus
+				{ 119, 183900, [PRICE_EXTRA_ITTYPE] = "money:13500000" }, -- Sinvyr Tea Set
+				{ 120, 184318 },                                       -- Battlecry of Krexus
+				{ 121, 187417 },                                       -- Adamant Vaults Cell
+				{ 122, 183876, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Quill of Correspondence
+				{ 123, 184476 },                                       -- Regenerating Slime Vial
+				{ 124, 181825 },                                       -- Phial of Ravenous Slime
+				{ 125, 184396 },                                       -- Malfunctioning Goliath Gauntlet
+				{ 126, 184418 },                                       -- Acrobatic Steward
+				{ 127, 187900, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: The Wonders of Kul Tiras and Zandalar
+				{ 128, 188698, [QUEST_EXTRA_ITTYPE] = 13502 },         -- Eagger Basket
+				{ 129, 183901 },                                       -- Bonestorm Top
+				{ 130, 184435 },                                       -- Mark of Purity
+				{ 201, 187339 },                                       -- Silver Shardhide Whistle
+				{ 202, 188694, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:50" }, -- Spring Florist's Pouch
+				{ 203, 190754 },                                       -- Firim's Specimen Container
+				{ 204, 184075 },                                       -- Stonewrought Sentry
+				{ 205, 184415 },                                       -- Soothing Vesper
+				{ 206, 187113 },                                       -- Personal Ball and Chain
+				{ 207, 188680, [PRICE_EXTRA_ITTYPE] = "money:52" },    -- Winter Veil Chorus Book
+				{ 208, 184508, [ACH_EXTRA_ITTYPE] = 14625 },           -- Mawsworn Pet Leash
+				{ 209, 186501 },                                       -- Doomwalker Trophy Stand
+				{ 210, 186973 },                                       -- Anima-ted Leash
+				{ 211, 190333, [PRICE_EXTRA_ITTYPE] = "cyphers:100" }, -- Jiro Circle of Song
+				{ 212, 184487 },                                       -- Gormling in a Bag
+				{ 213, 186985 },                                       -- Elusive Pet Treat
+				{ 214, 187075 },                                       -- Box of Rattling Chains
+				{ 215, 187140, [QUEST_EXTRA_ITTYPE] = 63921 },         -- Ring of Duplicity
+				{ 216, 188699, [PRICE_EXTRA_ITTYPE] = "burningblossom:100" }, -- Insulated Dancing Insoles
+				{ 217, 190457 },                                       -- Protopological Cube
+				{ 218, 183903, [ACH_EXTRA_ITTYPE] = 14721 },           -- Smelly Jelly
+				{ 219, 184413 },                                       -- Mnemonic Attunement Pane
+				{ 220, 186686 },                                       -- Pallid Oracle Bones
+				{ 221, 187155, [QUEST_EXTRA_ITTYPE] = 63909 },         -- Guise of the Changeling
+				{ 222, 187419 },                                       -- Steward's First Feather
+				{ 223, 178530 },                                       -- Wreath-A-Rang
+				{ 224, 182732 },                                       -- The Necronom-i-nom
+				{ 225, 187895, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: The Dangers of Draenor
+				{ 226, 184292 },                                       -- Ancient Elethium Coin
+				{ 227, 187174 },                                       -- Shaded Judgment Stone
+				{ 228, 187512 },                                       -- Tome of Small Sins
+				{ 229, 187875, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: United Fronts of the Broken Isles
+				{ 230, 190238 },                                       -- Xy'rath's Booby-Trapped Cache
+				{ 301, 182890, [PRICE_EXTRA_ITTYPE] = "sinstonefragments:500" }, -- Rapid Recitation Quill
+				{ 302, 187154, [QUEST_EXTRA_ITTYPE] = 63892 },         -- Ancient Korthian Runes
+				{ 303, 188695, [PRICE_EXTRA_ITTYPE] = "burningblossom:150" }, -- Summer Cranial Skillet
+				{ 304, 179393 },                                       -- Mirror of Envious Dreams
+				{ 305, 187176 },                                       -- Vesper of Harmony
+				{ 306, 187896, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: A Stormstout's Guide to Pandaria
+				{ 307, 187913 },                                       -- Apprentice Slimemancer's Boots
+				{ 308, 190734 },                                       -- Makaris's Satchel of Mines
+				{ 309, 182780 },                                       -- Muckpool Cookpot
+				{ 310, 187416 },                                       -- Jailer's Cage
+				{ 311, 187420 },                                       -- Maw-Ocular Viewfinder
+				{ 312, 187898, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: True Cost of the Northrend Campaign
+				{ 313, 187139 },                                       -- Bottled Shade Heart
+				{ 314, 187705 },                                       -- Choofa's Call
+				{ 315, 187344 },                                       -- Offering Kit Maker
+				{ 316, 187899, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: The Many Curiosities of Outland
+				{ 317, 187184 },                                       -- Vesper of Clarity
+				{ 318, 187185 },                                       -- Vesper of Faith
+				{ 319, 184218, [PRICE_EXTRA_ITTYPE] = "sinstonefragments:1000" }, -- Vulgarity Arbiter
+				{ 320, 187897, [PRICE_EXTRA_ITTYPE] = "money:100000000" }, -- Scouting Map: Cataclysm's Consequences
+				{ 321, 190926 },                                       -- Infested Automa Core
+				-- { 1, 187958 }, -- Shrouded Banner of the Opportune (no longer obtainable)
+				-- { 1, 187834 }, -- Tormented Banner of the Opportune (no longer obtainable)
+				-- { 1, 187957 }, -- Encrypted Banner of the Opportune (no longer obtainable)
+				-- { 1, 174445 }, -- Glimmerfly Cocoon (unobtainable)
 			}
 		},
+		--[[
 		{ -- BFA
 			name = EXPANSION_NAME7,
 			[NORMAL_DIFF] = {

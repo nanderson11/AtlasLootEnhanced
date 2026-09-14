@@ -162,11 +162,14 @@ local PRICE_INFO = {
 	["valor"]                      = { currencyID = 1191 },
 	["timewarped"]                 = { currencyID = 1166 }, -- Timewarped Badge
 	["honor"]                      = { currencyID = 1792 }, -- Honor
+	["phantasma"]                  = { currencyID = 1728 }, -- Phantasma
 	["stygia"]                     = { currencyID = 1767 }, -- Stygia, added in 9.0.1
 	["reservoiranima"]             = { currencyID = 1813 }, -- Reservoir Anima, added in 9.0.1
 	["sinstonefragments"]          = { currencyID = 1816 }, -- Sinstone Fragments, added in 9.0.1
+	["infusedRuby"]                = { currencyID = 1820 }, -- Infused Ruby
 	["gratefuloffering"]           = { currencyID = 1885 }, -- Grateful Offering, added in 9.0.1
 	["catalogedresearch"]          = { currencyID = 1931 }, -- Cataloged Research, added in 9.1.0
+	["cyphers"]                    = { currencyID = 1979 }, -- Cyphers of the First Ones
 	["cosmicFlux"]                 = { currencyID = 2009 }, -- Cosmic Flux
 	["dragonSupplies"]             = { currencyID = 2003 }, -- Dragon Isles Supplies
 	["paracausalFlakes"]           = { currencyID = 2594 }, -- Paracausal Flakes
