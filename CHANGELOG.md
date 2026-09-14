@@ -3,6 +3,7 @@
 ## 9.23.2 -
 ### Added
 - Added 12.1 profession recipes to Crafting
+- Added Midnight PVP Season 2 rewards to PvP
 
 ## 9.23.1 - September 2, 2026
 ### Added

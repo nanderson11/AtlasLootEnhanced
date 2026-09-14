@@ -162,6 +162,46 @@ data["LEGION7GEAR"] = {
 }
 --]]
 
+data["MIDNIGHTSEASON2"] = {
+	name = format(EXPANSION_NAME11.." "..AL["Season %d"], 2),
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1,  275302, "mount" },                     -- Venomous Gladiator's Goredrake
+				{ 2,  275433, "mount" },                     -- Vicious Lightbloom Boar
+				{ 3,  272005, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Venomous Gladiator's Tabard
+				{ 4,  272010 },                              -- Venomous Gladiator's Prestigious Cloak
+				{ 5,  275068 },                              -- Venomous Legend's Pennant
+				{ 7,  277312, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Axe
+				{ 8,  277306, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Barb
+				{ 9,  277307, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Basher
+				{ 10, 277302, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Blaster
+				{ 11, 277300, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Dagger
+				{ 12, 277301, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Fangs
+				{ 13, 277298, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Fetish
+				{ 14, 277308, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Greataxe
+				{ 15, 277295, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Greatstaff
+				{ 16, 277303, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Greatsword
+				{ 17, 277296, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Longbow
+				{ 18, 277294, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Polearm
+				{ 19, 277292, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Rib
+				{ 20, 277299, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Shield
+				{ 21, 277304, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" }, -- Venomous Gladiator's Smasher
+				{ 22, 277305, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Sword
+				{ 23, 277293, [PRICE_EXTRA_ITTYPE] = "markofhonor:5" }, -- Venomous Gladiator's Warglaive
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 2, 275432, "mount" },                -- Vicious Lightbloom Boar
+				{ 3, 272006, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Venomous Gladiator's Tabard
+				{ 4, 272007 },                         -- Venomous Gladiator's Prestigious Cloak
+			},
+		},
+	},
+}
+
 data["MIDNIGHTSEASON1"] = {
 	name = format(EXPANSION_NAME11.." "..AL["Season %d"], 1),
 	ContentType = NORMAL_ITTYPE,
@@ -169,7 +209,7 @@ data["MIDNIGHTSEASON1"] = {
 		{
 			name = AL["Non-Set Gear"],
 			[ALLIANCE_DIFF] = {
-				{ 1,  260228 },                              -- Galactic Gladiator's Goredrake
+				{ 1,  260228, "mount" },                     -- Galactic Gladiator's Goredrake
 				{ 2,  257504, "mount" },                     -- Vicious Snaplizard
 				{ 3,  264164, [PRICE_EXTRA_ITTYPE] = "honor:100" }, -- Galactic Gladiator's Tabard
 				{ 4,  264010 },                              -- Galactic Gladiator's Prestigious Cloak
