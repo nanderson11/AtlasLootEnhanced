@@ -172,6 +172,8 @@ local PRICE_INFO = {
 	["cyphers"]                    = { currencyID = 1979 }, -- Cyphers of the First Ones
 	["cosmicFlux"]                 = { currencyID = 2009 }, -- Cosmic Flux
 	["dragonSupplies"]             = { currencyID = 2003 }, -- Dragon Isles Supplies
+	["elementalOverflow"]          = { currencyID = 2118 }, -- Elemental Overflow
+	["bloodyTokens"]               = { currencyID = 2123 }, -- Bloody Tokens
 	["paracausalFlakes"]           = { currencyID = 2594 }, -- Paracausal Flakes
 	["tender"]                     = { currencyID = 2032 }, -- Trader's Tender
 	["resonanceCrystal"]           = { currencyID = 2815 }, -- Resonance Crystal

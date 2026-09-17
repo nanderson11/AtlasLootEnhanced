@@ -8042,97 +8042,196 @@ data["TOYS"]               = {
 		{ -- Dragonflight
 			name = EXPANSION_NAME9,
 			[NORMAL_DIFF] = {
-				{ 1,   191891 },                                        -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
-				{ 2,   192443 },                                        -- Element-Infused Rocket Helmet
-				{ 3,   192495 },                                        -- Malfunctioning Stealthman 54
-				{ 4,   193032 },                                        -- Jeweled Offering
-				{ 5,   193033 },                                        -- Convergent Prism
-				{ 6,   193476 },                                        -- Gnoll Tent
-				{ 7,   193478 },                                        -- Tuskarr Beanbag
-				{ 8,   194052 },                                        -- Forlorn Funeral Pall
-				{ 9,   194056 },                                        -- Duck-Stuffed Duck Lovie
-				{ 10,  194057 },                                        -- Cushion of Time Travel
-				{ 11,  194058 },                                        -- Cold Cushion
-				{ 12,  194059 },                                        -- Market Tent
-				{ 13,  194060 },                                        -- Dragonscale Expedition's Expedition Tent
-				{ 14,  194885 },                                        -- Ohuna Perch
-				{ 15,  197719 },                                        -- Artisan's Sign
-				{ 16,  197961 },                                        -- Whelps on Strings
-				{ 17,  197986 },                                        -- Murglasses
-				{ 18,  198039 },                                        -- Rock of Appreciation
-				{ 19,  198090 },                                        -- Jar of Excess Slime
-				{ 20,  198156 },                                        -- Wyrmhole Generator
-				{ 21,  198173 },                                        -- Atomic Recalibrator
-				{ 22,  198206 },                                        -- Environmental Emulator
-				{ 23,  198227 },                                        -- Giggle Goggles
-				{ 24,  198264 },                                        -- Centralized Precipitation Emitter
-				{ 25,  198402 },                                        -- Maruuk Cooking Pot
-				{ 26,  198409 },                                        -- Personal Shell
-				{ 27,  198428 },                                        -- Tuskarr Dinghy
-				{ 28,  198474 },                                        -- Artist's Easel
-				{ 29,  198537 },                                        -- Taivan's Trumpet
-				{ 30,  198646 },                                        -- Ornate Dragon Statue
-				{ 101, 198720 },                                        -- Soft Purple Pillow
-				{ 102, 198721 },                                        -- Skinny Reliquary Pillow
-				{ 103, 198722 },                                        -- Small Triangular Pillow
-				{ 104, 198728 },                                        -- Explorer's League Banner
-				{ 105, 198729 },                                        -- Reliquary Banner
-				{ 106, 198827 },                                        -- Magical Snow Sled
-				{ 107, 198857 },                                        -- Lucky Duck
-				{ 108, 199337 },                                        -- Bag of Furious Winds
-				{ 109, 199554 },                                        -- S.E.A.T.
-				{ 110, 199649 },                                        -- Dragon Tea Set
-				{ 111, 199650 },                                        -- Whale Bone Tea Set
-				{ 112, 199767 },                                        -- Red Dragon Banner
-				{ 113, 199768 },                                        -- Black Dragon Banner
-				{ 114, 199769 },                                        -- Blue Dragon Banner
-				{ 115, 199770 },                                        -- Bronze Dragon Banner
-				{ 116, 199771 },                                        -- Green Dragon Banner
-				{ 117, 199892 },                                        -- Tuskarr Traveling Soup Pot
-				{ 118, 199894 },                                        -- Fisherman's Folly
-				{ 119, 199896 },                                        -- Rubbery Fish Head
-				{ 120, 199897 },                                        -- Blue-Covered Beanbag
-				{ 121, 199899 },                                        -- Iskaara Tug Sled
-				{ 122, 199902 },                                        -- Wayfinder's Compass
-				{ 123, 200116 },                                        -- Everlasting Horn of Lavaswimming
-				{ 124, 193588 },                                        -- Timewalker's Hearthstone
-				{ 125, 200148 },                                        -- A Collection Of Me
-				{ 126, 200160 },                                        -- Notfar's Favorite Food
-				{ 127, 200178 },                                        -- Infected Ichor
-				{ 128, 200198 },                                        -- Primalist Prison
-				{ 129, 200249 },                                        -- Mage's Chewed Wand
-				{ 130, 200469 },                                        -- Khadgar's Disenchanting Rod
-				{ 201, 200550 },                                        -- Very Comfortable Pelt
-				{ 202, 200551 },                                        -- Comfortable Pile of Pelts
-				{ 203, 200597 },                                        -- Lover's Bouquet
-				{ 204, 200628 },                                        -- Somewhat-Stabilized Arcana
-				{ 205, 200630 },                                        -- Ohn'ir Windsage's Hearthstone
-				{ 206, 200631 },                                        -- Happy Tuskarr Palooza
-				{ 207, 200636 },                                        -- Primal Invocation Quintessence
-				{ 208, 200640 },                                        -- Obsidian Egg Clutch
-				{ 209, 200707 },                                        -- Armoire of Endless Cloaks
-				{ 210, 200857 },                                        -- Talisman of Sargha
-				{ 211, 200869 },                                        -- Ohn Lite Branded Horn
-				{ 212, 200878 },                                        -- Wheeled Floaty Boaty Controller
-				{ 213, 200926 },                                        -- Compendium of Love
-				{ 214, 200960 },                                        -- Seed of Renewed Souls
-				{ 215, 200999 },                                        -- The Super Shellkhan Gang
-				{ 216, 201435 },                                        -- Shuffling Sands
-				{ 217, 201815 },                                        -- Cloak of Many Faces
-				{ 218, 201927 },                                        -- Gleaming Arcanocrystal
-				{ 219, 201933 },                                        -- Black Dragon's Challenge Dummy
-				{ 220, 202019 },                                        -- Golden Dragon Goblet
-				{ 221, 202021 },                                        -- Breaker's Flag of Victory
-				{ 222, 202022 },                                        -- Yennu's Kite
-				{ 223, 202042 },                                        -- Aquatic Shades
-				{ 224, 202711 },                                        -- Lost Compass
-				{ 225, 204675, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" }, -- A Drake's Big Basket of Eggs
-				{ 226, 218112, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Colorful Beach Chair
-				{ 227, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" }, -- Vial of Endless Draconic Scales
-				{ 228, 212525, [PRICE_EXTRA_ITTYPE] = "tender:200" },   -- Delicate Ebony Parasol
-				{ 229, 191925 },                                        -- Falling Star Flinger
-				{ 230, 191937 },                                        -- Falling Star Catcher
-				-- { 124, 200142 }, -- Generous Goblin Grenade (unobtainable)
+				{ 1,   191891, [QUEST_EXTRA_ITTYPE] = 66299 },                        -- Professor Chirpsnide's Im-PECK-able Harpy Disguise
+				{ 2,   192443 },                                                      -- Element-Infused Rocket Helmet
+				{ 3,   192495 },                                                      -- Malfunctioning Stealthman 54
+				{ 4,   193032 },                                                      -- Jeweled Offering
+				{ 5,   193033 },                                                      -- Convergent Prism
+				{ 6,   193476 },                                                      -- Gnoll Tent
+				{ 7,   193478 },                                                      -- Tuskarr Beanbag
+				{ 8,   194052 },                                                      -- Forlorn Funeral Pall
+				{ 9,   194056 },                                                      -- Duck-Stuffed Duck Lovie
+				{ 10,  194057 },                                                      -- Cushion of Time Travel
+				{ 11,  194058 },                                                      -- Cold Cushion
+				{ 12,  194059 },                                                      -- Market Tent
+				{ 13,  194060 },                                                      -- Dragonscale Expedition's Expedition Tent
+				{ 14,  194885, [QUEST_EXTRA_ITTYPE] = 71074 },                        -- Ohuna Perch
+				{ 15,  197719 },                                                      -- Artisan's Sign
+				{ 16,  197961, [ACH_EXTRA_ITTYPE] = 17782 },                          -- Whelps on Strings
+				{ 17,  197986, [ACH_EXTRA_ITTYPE] = 15781 },                          -- Murglasses
+				{ 18,  198039, [QUEST_EXTRA_ITTYPE] = 66226 },                        -- Rock of Appreciation
+				{ 19,  198090, [QUEST_EXTRA_ITTYPE] = 65595 },                        -- Jar of Excess Slime
+				{ 20,  198156 },                                                      -- Wyrmhole Generator
+				{ 21,  198173 },                                                      -- Atomic Recalibrator
+				{ 22,  198206 },                                                      -- Environmental Emulator
+				{ 23,  198227 },                                                      -- Giggle Goggles
+				{ 24,  198264 },                                                      -- Centralized Precipitation Emitter
+				{ 25,  198402 },                                                      -- Maruuk Cooking Pot
+				{ 26,  198409 },                                                      -- Personal Shell
+				{ 27,  198428, [ACH_EXTRA_ITTYPE] = 15889 },                          -- Tuskarr Dinghy
+				{ 28,  198474, [QUEST_EXTRA_ITTYPE] = 70171 },                        -- Artist's Easel
+				{ 29,  198537, [QUEST_EXTRA_ITTYPE] = 69096 },                        -- Taivan's Trumpet
+				{ 30,  198646, [PRICE_EXTRA_ITTYPE] = "money:2000000" },              -- Ornate Dragon Statue
+				{ 101, 198720 },                                                      -- Soft Purple Pillow
+				{ 102, 198721 },                                                      -- Skinny Reliquary Pillow
+				{ 103, 198722 },                                                      -- Small Triangular Pillow
+				{ 104, 198728, [PRICE_EXTRA_ITTYPE] = "193050:20:dragonSupplies:150" }, -- Explorer's League Banner
+				{ 105, 198729, [PRICE_EXTRA_ITTYPE] = "193050:20:dragonSupplies:150" }, -- Reliquary Banner
+				{ 106, 198827 },                                                      -- Magical Snow Sled
+				{ 107, 198857 },                                                      -- Lucky Duck
+				{ 108, 199337 },                                                      -- Bag of Furious Winds
+				{ 109, 199554 },                                                      -- S.E.A.T.
+				{ 110, 199649 },                                                      -- Dragon Tea Set
+				{ 111, 199650 },                                                      -- Whale Bone Tea Set
+				{ 112, 199767 },                                                      -- Red Dragon Banner
+				{ 113, 199768 },                                                      -- Black Dragon Banner
+				{ 114, 199769 },                                                      -- Blue Dragon Banner
+				{ 115, 199770 },                                                      -- Bronze Dragon Banner
+				{ 116, 199771 },                                                      -- Green Dragon Banner
+				{ 117, 199892 },                                                      -- Tuskarr Traveling Soup Pot
+				{ 118, 199894 },                                                      -- Fisherman's Folly
+				{ 119, 199896, [QUEST_EXTRA_ITTYPE] = 70967 },                        -- Rubbery Fish Head
+				{ 120, 199897, [PRICE_EXTRA_ITTYPE] = "193210:10:197756:10:dragonSupplies:100" }, -- Blue-Covered Beanbag
+				{ 121, 199899 },                                                      -- Iskaara Tug Sled
+				{ 122, 199902, [QUEST_EXTRA_ITTYPE] = 70828 },                        -- Wayfinder's Compass
+				{ 123, 200116 },                                                      -- Everlasting Horn of Lavaswimming
+				{ 124, 193588 },                                                      -- Timewalker's Hearthstone
+				{ 125, 200148 },                                                      -- A Collection Of Me
+				{ 126, 200160 },                                                      -- Notfar's Favorite Food
+				{ 127, 200178 },                                                      -- Infected Ichor
+				{ 128, 200198 },                                                      -- Primalist Prison
+				{ 129, 200249 },                                                      -- Mage's Chewed Wand
+				{ 130, 200469 },                                                      -- Khadgar's Disenchanting Rod
+				{ 201, 200550 },                                                      -- Very Comfortable Pelt
+				{ 202, 200551 },                                                      -- Comfortable Pile of Pelts
+				{ 203, 200597, [QUEST_EXTRA_ITTYPE] = 70721 },                        -- Lover's Bouquet
+				{ 204, 200628, [QUEST_EXTRA_ITTYPE] = 71097 },                        -- Somewhat-Stabilized Arcana
+				{ 205, 200630, [ACH_EXTRA_ITTYPE] = 16423 },                          -- Ohn'ir Windsage's Hearthstone
+				{ 206, 200631 },                                                      -- Happy Tuskarr Palooza
+				{ 207, 200636 },                                                      -- Primal Invocation Quintessence
+				{ 208, 200640, [PRICE_EXTRA_ITTYPE] = "201399:1:201402:1:dragonSupplies:100" }, -- Obsidian Egg Clutch
+				{ 209, 200707, [PRICE_EXTRA_ITTYPE] = "193050:20:dragonSupplies:100" }, -- Armoire of Endless Cloaks
+				{ 210, 200857 },                                                      -- Talisman of Sargha
+				{ 211, 200869 },                                                      -- Ohn Lite Branded Horn
+				{ 212, 200878, [QUEST_EXTRA_ITTYPE] = 72063 },                        -- Wheeled Floaty Boaty Controller
+				{ 213, 200926, [QUEST_EXTRA_ITTYPE] = 66503 },                        -- Compendium of Love
+				{ 214, 200960, [QUEST_EXTRA_ITTYPE] = 72113 },                        -- Seed of Renewed Souls
+				{ 215, 200999 },                                                      -- The Super Shellkhan Gang
+				{ 216, 201435, [PRICE_EXTRA_ITTYPE] = "money:37500" },                -- Shuffling Sands
+				{ 217, 201815 },                                                      -- Cloak of Many Faces
+				{ 218, 201927 },                                                      -- Gleaming Arcanocrystal
+				{ 219, 201933 },                                                      -- Black Dragon's Challenge Dummy
+				{ 220, 202019 },                                                      -- Golden Dragon Goblet
+				{ 221, 202021, [PRICE_EXTRA_ITTYPE] = "bloodyTokens:1500" },          -- Breaker's Flag of Victory
+				{ 222, 202022 },                                                      -- Yennu's Kite
+				{ 223, 202042 },                                                      -- Aquatic Shades
+				{ 224, 202711 },                                                      -- Lost Compass
+				{ 225, 204675, [PRICE_EXTRA_ITTYPE] = "noblegardenchocolate:200" },   -- A Drake's Big Basket of Eggs
+				{ 226, 218112, [PRICE_EXTRA_ITTYPE] = "tender:200" },                 -- Colorful Beach Chair
+				{ 227, 212518, [PRICE_EXTRA_ITTYPE] = "ridersOfAzerothBadge:40" },    -- Vial of Endless Draconic Scales
+				{ 228, 212525, [PRICE_EXTRA_ITTYPE] = "tender:200" },                 -- Delicate Ebony Parasol
+				{ 229, 191925 },                                                      -- Falling Star Flinger
+				{ 230, 191937 },                                                      -- Falling Star Catcher
+				{ 301, 206268, [PRICE_EXTRA_ITTYPE] = "tender:500" },                 -- Ethereal Transmogrifier
+				{ 302, 199830, [QUEST_EXTRA_ITTYPE] = 66418 },                        -- Tuskarr Training Dummy
+				{ 303, 204686, [QUEST_EXTRA_ITTYPE] = 72444 },                        -- Titan Containment Device
+				{ 304, 212524, [PRICE_EXTRA_ITTYPE] = "tender:200" },                 -- Delicate Crimson Parasol
+				{ 305, 209859 },                                                      -- Festive Trans-Dimensional Bird Whistle
+				{ 306, 202207, [ACH_EXTRA_ITTYPE] = 17207 },                          -- Reusable Oversized Bobber
+				{ 307, 212500, [PRICE_EXTRA_ITTYPE] = "tender:200" },                 -- Delicate Silk Parasol
+				{ 308, 204170, [QUEST_EXTRA_ITTYPE] = 72479 },                        -- Clan Banner
+				{ 309, 205418 },                                                      -- Blazing Shadowflame Cinder
+				{ 310, 208092 },                                                      -- Torch of Pyrreth
+				{ 311, 220692, [PRICE_EXTRA_ITTYPE] = "tender:350" },                 -- X-treme Water Blaster Display
+				{ 312, 212523, [PRICE_EXTRA_ITTYPE] = "tender:200" },                 -- Delicate Jade Parasol
+				{ 313, 209035 },                                                      -- Hearthstone of the Flame
+				{ 314, 209944, [PRICE_EXTRA_ITTYPE] = "207026:500" },                 -- Friendsurge Defenders
+				{ 315, 206195, [PRICE_EXTRA_ITTYPE] = "151567:90:151564:90:VeiledArgunite:900" }, -- Path of the Naaru
+				{ 316, 207092 },                                                      -- Portable Party Platter
+				{ 317, 206696 },                                                      -- Tricked-Out Thinking Cap
+				{ 318, 211946, [ACH_EXTRA_ITTYPE] = 20033 },                          -- Hearthstone Game Table
+				{ 319, 206347, [PRICE_EXTRA_ITTYPE] = "tender:10" },                  -- Mannequin Charm
+				{ 320, 210455, [QUEST_EXTRA_ITTYPE] = 78083 },                        -- Draenic Hologem
+				{ 321, 206993 },                                                      -- Investi-gator's Pocketwatch
+				{ 322, 212337 },                                                      -- Stone of the Hearth
+				{ 323, 206565, [PRICE_EXTRA_ITTYPE] = "206576:15" },                  -- Plagued Grain
+				{ 324, 203757 },                                                      -- Brazier of Madness
+				{ 325, 205904, [ACH_EXTRA_ITTYPE] = 18100 },                          -- Vibrant Clacking Claw
+				{ 326, 208096 },                                                      -- Familiar Journal
+				{ 327, 205045 },                                                      -- B.B.F. Fist
+				{ 328, 210975, [PRICE_EXTRA_ITTYPE] = "lovetoken:100" },              -- Date Simulation Modulator
+				{ 329, 204220, [QUEST_EXTRA_ITTYPE] = 74994 },                        -- Hraxian's Unbreakable Will
+				{ 330, 204405 },                                                      -- Stuffed Bear
+				{ 401, 205796 },                                                      -- Molten Lava Pack
+				{ 402, 211788 },                                                      -- Tess's Peacebloom
+				{ 403, 216881 },                                                      -- Duck Disguiser
+				{ 404, 202261 },                                                      -- Warcraft Rumble Toy: Sneed
+				{ 405, 202020, [PRICE_EXTRA_ITTYPE] = "202039:75:elementalOverflow:1200" }, -- Chasing Storm
+				{ 406, 201931 },                                                      -- Warcraft Rumble Toy: Maiev
+				{ 407, 202309 },                                                      -- Defective Doomsday Device
+				{ 408, 205688 },                                                      -- Glutinous Glitterscale Glob
+				{ 409, 202253, [QUEST_EXTRA_ITTYPE] = 73031 },                        -- Primal Stave of Claw and Fur
+				{ 410, 205419 },                                                      -- Dinn's Drum
+				{ 411, 206038, [PRICE_EXTRA_ITTYPE] = "burningblossom:500" },         -- Flamin' Ring of Flashiness
+				{ 412, 208825 },                                                      -- Junior Timekeeper's Racing Belt
+				{ 413, 208186, [ACH_EXTRA_ITTYPE] = 18554 },                          -- Boffins
+				{ 414, 202360 },                                                      -- Dented Can
+				{ 415, 204257 },                                                      -- Holoviewer: The Lady of Dreams
+				{ 416, 210974, [PRICE_EXTRA_ITTYPE] = "lovetoken:40" },               -- Eyes For You Only
+				{ 417, 203852 },                                                      -- Spore-Bound Essence
+				{ 418, 208415, [QUEST_EXTRA_ITTYPE] = 76146 },                        -- Stasis Sand
+				{ 419, 202862 },                                                      -- Warcraft Rumble Toy: Murloc
+				{ 420, 208433, [ACH_EXTRA_ITTYPE] = 18790 },                          -- Bronze Racer's Pennant
+				{ 421, 211864, [PRICE_EXTRA_ITTYPE] = "lovetoken:270" },              -- Exquisite Love Boat
+				{ 422, 205463 },                                                      -- Molten Lava Ball
+				{ 423, 201930 },                                                      -- H.E.L.P.
+				{ 424, 210864, [QUEST_EXTRA_ITTYPE] = 77958 },                        -- Improvised Leafbed
+				{ 425, 205963, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },         -- Sniffin' Salts
+				{ 426, 207099, [ACH_EXTRA_ITTYPE] = 18559 },                          -- Tiny Box of Tiny Rocks
+				{ 427, 208883 },                                                      -- Sandbox Storm Gryphon
+				{ 428, 202859 },                                                      -- Warcraft Rumble Toy: Undead Ghoul
+				{ 429, 205255, [QUEST_EXTRA_ITTYPE] = 75724 },                        -- Niffen Diggin' Mitts
+				{ 430, 205936, [PRICE_EXTRA_ITTYPE] = "money:1" },                    -- New Niffen No-Sniffin' Tonic
+				{ 501, 206008 },                                                      -- Nightmare Banner
+				{ 502, 209052, [PRICE_EXTRA_ITTYPE] = "brewfest:200" },               -- Brew Barrel
+				{ 503, 223146, [QUEST_EXTRA_ITTYPE] = 80077 },                        -- Satchel of Stormborn Seeds
+				{ 504, 204262 },                                                      -- Holoviewer: The Timeless One
+				{ 505, 207730 },                                                      -- Idol of Ohn'ahra
+				{ 506, 206043 },                                                      -- Fyrakk's Frenzy
+				{ 507, 208658, [QUEST_EXTRA_ITTYPE] = 77412 },                        -- Mirror of Humility
+				{ 508, 202283, [QUEST_EXTRA_ITTYPE] = 72554 },                        -- Reading Glasses
+				{ 509, 208058, [QUEST_EXTRA_ITTYPE] = 77241 },                        -- Minute Glass
+				{ 510, 204818 },                                                      -- Mallard Mortar
+				{ 511, 209858, [PRICE_EXTRA_ITTYPE] = "207026:500" },                 -- Dreamsurge Remnant
+				{ 512, 202856 },                                                      -- Warcraft Rumble Toy: Stonehoof Tauren
+				{ 513, 204687 },                                                      -- Obsidian Battle Horn
+				{ 514, 208421, [ACH_EXTRA_ITTYPE] = 18725 },                          -- Compendium of the New Moon
+				{ 515, 210725 },                                                      -- Owl Post
+				{ 516, 199900, [PRICE_EXTRA_ITTYPE] = "money:52631" },                -- Secondhand Survey Tools
+				{ 517, 204389, [QUEST_EXTRA_ITTYPE] = 72981 },                        -- Stone Breaker
+				{ 518, 208798, [QUEST_EXTRA_ITTYPE] = 77342 },                        -- Recorded Memories of Tyr's Guard
+				{ 519, 210656 },                                                      -- Winter Veil Socks
+				{ 520, 203725, [QUEST_EXTRA_ITTYPE] = 75258 },                        -- Display of Strength
+				{ 521, 203734, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:200" },         -- Snow Blanket
+				{ 522, 202851 },                                                      -- Warcraft Rumble Toy: Night Elf Huntress
+				{ 523, 204256 },                                                      -- Holoviewer: The Scarlet Queen
+				{ 524, 202865 },                                                      -- Warcraft Rumble Toy: Whelp Egg
+				{ 525, 205908 },                                                      -- Inherited Wisdom of Senegos
+				{ 526, 210411 },                                                      -- Fast Growing Seed
+				-- { 1, 200142 }, -- Generous Goblin Grenade (unobtainable)
+				-- { 1, 220777 }, -- Cherry Blossom Trail (no longer obtainable)
+				-- { 1, 217725 }, -- Essence of Yu'lon (no longer obtainable)
+				-- { 1, 217724 }, -- Kindness of Chi-Ji (no longer obtainable)
+				-- { 1, 217723 }, -- Fury of Xuen (no longer obtainable)
+				-- { 1, 217726 }, -- Fortitude of Niuzao (no longer obtainable)
+				-- { 1, 203716 }, -- Thundering Banner of the Aspects (no longer obtainable)
+				-- { 1, 206343 }, -- Crimson Legend's Pennant (probably no longer obtainable)
+				-- { 1, 206267 }, -- Obsidian Legend's Pennant (probably no longer obtainable)
+				-- { 1, 211869 }, -- Draconic Legend's Pennant (probably no longer obtainable)
+				-- { 1, 210497 }, -- Verdant Legend's Pennant (probably no longer obtainable)
+				-- { 1, 218128 }, -- Draconic Banner of the Aspects (no longer obtainable)
+				-- { 1, 211424 }, -- Dreaming Banner of the Aspects (no longer obtainable)
+				-- { 1, 208057 }, -- Smoldering Banner of the Aspects (no longer obtainable)
 			}
 		},
 		{ -- Shadowlands

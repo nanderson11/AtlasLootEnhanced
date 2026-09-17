@@ -3,6 +3,7 @@
 ## 9.23.3 -
 ### Added
 - Added Shadowlands Toys to Collections
+- Added missing Dragonflight Toys to Collections and added sources on the existing ones
 
 ## 9.23.2 - September 13, 2026
 ### Added
