@@ -1,4 +1,4 @@
-﻿## Interface: 120100
+﻿## Interface: 120105
 
 ## Title: AtlasLoot |cFF22B14C[Core]|r
 ## Title-deDE: AtlasLoot |cFF22B14C[Kern]|r
