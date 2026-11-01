@@ -1486,6 +1486,7 @@ local MOUNT_INFO = {
 		[1305206] = 278574, -- Crested Aqua Leafmimic
 		[1305207] = 278575, -- Crested Verdant Leafmimic
 		[1305204] = 278573, -- Crested Ember Leafmimic
+		[1250481] = 250191, -- Reins of the Bilebound Ur'zul
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

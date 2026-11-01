@@ -3,7 +3,9 @@
 ## 9.23.3 -
 ### Added
 - Added Shadowlands toys to Collections
+- Added October Trading Post items to Collections
 - Added missing Dragonflight toys to Collections and added sources on the existing ones
+- Added Gnomatic Projector toy to Collections
 ### Changed
 - Updated TOC to 12.1.5
 
