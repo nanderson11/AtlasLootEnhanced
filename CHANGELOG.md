@@ -1,8 +1,9 @@
 ﻿# Changelog
 
-## 9.23.3 -
+## 9.23.3 - November 1, 2026
 ### Added
 - Added Shadowlands toys to Collections
+- Added November Trading Post items to Collections
 - Added October Trading Post items to Collections
 - Added missing Dragonflight toys to Collections and added sources on the existing ones
 - Added Gnomatic Projector toy to Collections

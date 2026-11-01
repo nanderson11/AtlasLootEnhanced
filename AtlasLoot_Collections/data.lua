@@ -1515,6 +1515,9 @@ data["MOUNTS"]             = {
 				{ 325, 278573, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Crested Ember Leafmimic
 				{ 326, 93671,  "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Ghastly Charger's Skull
 				{ 327, 250191, "mount", [PRICE_EXTRA_ITTYPE] = "tender:700" },  -- Reins of the Bilebound Ur'zul
+				{ 328, 250928, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Aubergine Warturkey
+				{ 329, 282648, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Hot Motocross Bunmover 4400
+				{ 330, 282649, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Hot Motocross Bunmover 4600
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
