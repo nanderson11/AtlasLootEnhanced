@@ -1490,6 +1490,7 @@ local MOUNT_INFO = {
 		[1251689] = 250928, -- Aubergine Warturkey
 		[1314168] = 282648, -- Hot Motocross Bunmover 4400
 		[1314169] = 282649, -- Hot Motocross Bunmover 4600
+		[1301331] = 276926, -- Corrupted Swarmer
 		-- [449416] = 223570, -- Ebonhide Ramolith
 		-- [1217340] = 235554, -- Midnight Darkmoon Charger
 		-- [1218014] = 235659, -- Midnight Butterfly

@@ -1372,3 +1372,40 @@ data["TideboundGrotto"] = {
 		},
 	}
 }
+
+data["TheUnbindingOfKithix"] = {
+	EncounterJournalID = 1324,
+	MapID = 2670,
+	AtlasMapID = "TheUnbindingOfKithix",
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = {
+		{ -- Kith'ix
+			EncounterJournalID = 2896,
+			[NORMAL_RAID_DIFF] = {
+				{ 1,  280799 }, -- Lu'selama, Light's Justice
+				{ 2,  281056 }, -- Sanctified Knight's Phoenixblade
+				{ 3,  281239 }, -- Corroded Hulk's Skullcap
+				{ 4,  281236 }, -- Chestwrap of Palpable Terror
+				{ 5,  281238 }, -- Aberrant Commander's Gauntlets
+				{ 6,  281235 }, -- Voidweaver's Leggings
+				{ 7,  281029 }, -- Band of the Swarmcaller
+				{ 8,  280617 }, -- Lightbearer's Shield Fragment
+				{ 9,  280835 }, -- Sigil of the Impending Eclipse
+				{ 10, 281215 }, -- Twisted Horror's Tendril
+				{ 16, 281213 }, -- Kith'ix's Seal
+				{ 17, 281615 }, -- Shadeweaver's Hearthstone
+			},
+			[HEROIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+			[MYTHIC_PRE_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, 284159 }, -- Libram of the Matriarch
+			},
+			[RF_DIFF] = {
+				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			},
+		},
+	}
+}

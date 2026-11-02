@@ -184,6 +184,7 @@ Faction.FACTION_KEY = {
 	[2773] = "Captain Tokka",
 	[2808] = "Prey: Season 2",
 	[2796] = "Delves: Season 2",
+	[2838] = "Aqir Research Enclave",
 }
 
 Faction.FriendshipRanks = {
@@ -328,5 +329,13 @@ Faction.FriendshipRanks = {
 		[3] = AL["Cursed Angler"],
 		[4] = AL["Venom Trawler"],
 		[5] = AL["Bloodsworn Crew"],
+	},
+	-- Aqir Research Enclave
+	[2838] = {
+		[1] = FACTION_STANDING_LABEL4,
+		[2] = FACTION_STANDING_LABEL5,
+		[3] = FACTION_STANDING_LABEL6,
+		[4] = FACTION_STANDING_LABEL7,
+		[5] = FACTION_STANDING_LABEL8,
 	},
 }

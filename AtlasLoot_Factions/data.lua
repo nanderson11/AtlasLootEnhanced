@@ -562,42 +562,42 @@ data["MIDNIGHTFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1,   "f2808rep31" },
-				{ 2,   278123,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Sturdy Silvermoon Crate Lid
+				{ 2,   278123,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                           -- Sturdy Silvermoon Crate Lid
 				{ 4,   "f2808rep32" },
-				{ 5,   275312,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" },                                           -- Formula: Furious Tiki Mask
-				{ 6,   273061,      [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150:remnantOfAnguish:500" },                                        -- Plans: Hunter's Ritual Stone
-				{ 7,   275275,      [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:remnantOfAnguish:500" },                                              -- Recipe: Ersatz Venom Splatter
-				{ 8,   278126,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Mysterious Sin'dorei Candlestick
+				{ 5,   275312,      [PRICE_EXTRA_ITTYPE] = "enchantingMoxie:150:remnantOfAnguish:500" },                                       -- Formula: Furious Tiki Mask
+				{ 6,   273061,      [PRICE_EXTRA_ITTYPE] = "blacksmithingMoxie:150:remnantOfAnguish:500" },                                    -- Plans: Hunter's Ritual Stone
+				{ 7,   275275,      [PRICE_EXTRA_ITTYPE] = "alchemyMoxie:150:remnantOfAnguish:500" },                                          -- Recipe: Ersatz Venom Splatter
+				{ 8,   278126,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                           -- Mysterious Sin'dorei Candlestick
 				{ 10,  "f2808rep33" },
-				{ 11,  278130,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Gilded Silvermoon Compass
+				{ 11,  278130,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                           -- Gilded Silvermoon Compass
 				{ 16,  "f2808rep34" },
-				{ 17,  276229,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" },                                                               -- Preyhunter's Trophy Stand
-				{ 18,  276258,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" },                                                               -- Companion Command Crystal
-				{ 19,  278134,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Sturdy Silvermoon Crate
+				{ 17,  276229,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:800" },                                                           -- Preyhunter's Trophy Stand
+				{ 18,  276258,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" },                                                           -- Companion Command Crystal
+				{ 19,  278134,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                           -- Sturdy Silvermoon Crate
 				{ 21,  "f2808rep35" },
-				{ 22,  250870,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Crimson Crystal Fragment
-				{ 23,  253449,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Bound Silvermoon Drapes
+				{ 22,  250870,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                           -- Crimson Crystal Fragment
+				{ 23,  253449,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                           -- Bound Silvermoon Drapes
 				{ 25,  "f2808rep36" },
-				{ 26,  258029,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Plumed Helm
-				{ 27,  258027,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Shoulder-Spikes
-				{ 28,  258031,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                               -- Vaunted Preyhunter's Knapsack
-				{ 29,  278145,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                               -- Stonecarved Sin'dorei Jar
+				{ 26,  258029,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                           -- Vaunted Preyhunter's Plumed Helm
+				{ 27,  258027,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                           -- Vaunted Preyhunter's Shoulder-Spikes
+				{ 28,  258031,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:500" },                                                           -- Vaunted Preyhunter's Knapsack
+				{ 29,  278145,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:200" },                                                           -- Stonecarved Sin'dorei Jar
 				{ 101, "f2808rep37" },
-				{ 102, 278101,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Polished Armor
-				{ 103, 278103,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Rugged Armor
-				{ 104, 278104,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Sleek Armor
-				{ 105, 278105,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Ensemble: Preyhunter's Refined Armor
-				{ 106, 278261,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                              -- Arsenal: Preyhunter's Lost Armaments
-				{ 107, 278148,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                               -- Adorned Sin'dorei Satchel
+				{ 102, 278101,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                          -- Ensemble: Preyhunter's Polished Armor
+				{ 103, 278103,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                          -- Ensemble: Preyhunter's Rugged Armor
+				{ 104, 278104,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                          -- Ensemble: Preyhunter's Sleek Armor
+				{ 105, 278105,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                          -- Ensemble: Preyhunter's Refined Armor
+				{ 106, 278261,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1600" },                                                          -- Arsenal: Preyhunter's Lost Armaments
+				{ 107, 278148,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:100" },                                                           -- Adorned Sin'dorei Satchel
 				{ 109, "f2808rep38" },
 				{ 110, 275704,      "pet5078",                                                           [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Riftbreaker
 				{ 111, 275702,      "pet5076",                                                           [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1200" }, -- Preyhunter's Prismguard
-				{ 112, 279092,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1000" },                                                              -- Anguish-Touched Pouch
+				{ 112, 279092,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:1000" },                                                          -- Anguish-Touched Pouch
 				{ 114, "f2808rep39" },
-				{ 115, 278151,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                               -- Blood Knight's Decorative Shield
+				{ 115, 278151,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                           -- Blood Knight's Decorative Shield
 				{ 116, "f2808rep40" },
 				{ 117, 275660,      "mount",                                                             [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:2250" }, -- Preyhunter's Fury
-				{ 118, 250868,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                               -- Crimson Crystal Column
+				{ 118, 250868,      [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:350" },                                                           -- Crimson Crystal Column
 			}
 		},
 		{ -- Delves: Season 2
@@ -620,6 +620,28 @@ data["MIDNIGHTFACTIONS"] = {
 				{ 20, 275936,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:10" },                                -- Delve-O-Bot 7001: Midnight Software Update Chip
 				{ 22, "f2796rep38" },
 				{ 23, 272360,      [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                               -- Ula'tek Ritual Stone
+			}
+		},
+		{ -- Aqir Research Enclave
+			FactionID = 2838,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1,  "f2838rep2" },
+				{ 2,  274927,     "pet5068",                                  [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1000" }, -- Aqir Wingreaver
+				{ 3,  275873,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                  -- Dormant Brood Egg
+				{ 4,  275869,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                  -- Nourished Brood Eggs
+				{ 6,  "f2838rep3" },
+				{ 7,  274923,     "pet5066",                                  [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1000" }, -- Aqir Scuttler
+				{ 8,  275879,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                  -- Dormant Brood Egg Cluster
+				{ 9,  275867,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:250" },                                  -- Nourished Brood Egg Cluster
+				{ 11, "f2838rep4" },
+				{ 12, 276927,     "pet5100",                                  [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2000" }, -- Aqir Razorwing
+				{ 13, 275871,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:350" },                                  -- Dormant Clutch of Brood Eggs
+				{ 14, 275865,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:350" },                                  -- Nourished Clutch of Brood Eggs
+				{ 16, "f2838rep5" },
+				{ 17, 276926,     "mount",                                    [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Corrupted Swarmer
+				{ 18, 275039,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" },                                 -- Curse of the Aqir
+				{ 19, 280050,     [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1000" },                                 -- Aqir Hunter's Trophy
 			}
 		},
 	}

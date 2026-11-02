@@ -3,6 +3,8 @@
 ## 9.23.3 - November 1, 2026
 ### Added
 - Added Shadowlands toys to Collections
+- Added The Unbinding of Kith'ix instance loot
+- Added Aqir Research Enclave to Factions
 - Added November Trading Post items to Collections
 - Added October Trading Post items to Collections
 - Added new decor and recipes to Hallow's End
