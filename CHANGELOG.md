@@ -5,6 +5,7 @@
 - Added Shadowlands toys to Collections
 - Added November Trading Post items to Collections
 - Added October Trading Post items to Collections
+- Added new decor and recipes to Hallow's End
 - Added missing Dragonflight toys to Collections and added sources on the existing ones
 - Added Gnomatic Projector toy to Collections
 ### Changed

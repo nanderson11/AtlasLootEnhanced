@@ -1846,6 +1846,36 @@ data["HallowsEnd"]            = {
 				{ 23, 139004, [PRICE_EXTRA_ITTYPE] = "trickytreat:2" }, -- Hallowed Wand - Banshee
 			},
 		},
+		{ -- Decor
+			name = ALIL["Decor"],
+			[NORMAL_DIFF] = {
+				{ 1,  282081, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Candlelit Smiling Jack-o'-Lantern
+				{ 2,  282083, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Unlit Smiling Jack-o'-Lantern
+				{ 3,  282086, [PRICE_EXTRA_ITTYPE] = "money:2500000" }, -- Buckled Witch Hat
+				{ 4,  282090, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Eternally Powered Glowskull
+				{ 5,  282072, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Enchanted Hallow's End Candle
+				{ 6,  282051, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Simple Hallow's End Candle
+				{ 7,  282077, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Spooky Scarecrow
+				{ 8,  282095, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Ominous Heartsbane Banner
+				{ 9,  282075, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Heartsbane Candle
+				{ 10, 282092, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Heartsbane Ritual Markings
+				{ 11, 282100, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Heartsbane Doom Catcher
+				{ 12, 282098, [PRICE_EXTRA_ITTYPE] = "money:1000000" }, -- Elaborate Heartsbane Doom Catcher
+				{ 13, 282192, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Candlelit Shrieking Jack-o'-Lantern
+				{ 14, 282194, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Candlelit Ogre Jack-o'-Lantern
+				{ 15, 282196, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Filled Candy Bucket
+				{ 16, 282198, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Unlit Shrieking Jack-o'-Lantern
+				{ 17, 282200, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Unlit Ogre Jack-o'-Lantern
+				{ 18, 282202, [PRICE_EXTRA_ITTYPE] = "trickytreat:15" }, -- Elaborate Heartsbane Ritual Markings
+				{ 19, 282204, [PRICE_EXTRA_ITTYPE] = "trickytreat:25" }, -- Ominous Heartsbane Shrine
+				{ 20, 282206, [PRICE_EXTRA_ITTYPE] = "trickytreat:15" }, -- Heartsbane Stone Circle
+				{ 21, 282208, [PRICE_EXTRA_ITTYPE] = "trickytreat:25" }, -- Heartsbane Banner
+				{ 22, 282213, [PRICE_EXTRA_ITTYPE] = "trickytreat:25" }, -- Looming Heartsbane Effigy
+				{ 23, 282289, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Horrific Head of the Horseman
+				{ 25, 284212, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Technique: Apple Bobbing Bucket
+				{ 26, 284213, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" }, -- Pattern: Spidery Witch Hat
+			},
+		},
 	},
 }
 

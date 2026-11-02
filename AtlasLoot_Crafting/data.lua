@@ -5627,6 +5627,7 @@ data["Inscription"] = {
 				{ 12, 262790, 1248620 },                                                      -- Restful Bronze Bench
 				{ 13, 280752, 1296505 },                                                      -- "Cursed Gaze of Ula'tek" Mural
 				{ 14, 280757, 1296506 },                                                      -- Chiseled Amani Tablet
+				{ 15, 282190, 1315433, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" },             -- Apple Bobbing Bucket
 			},
 			[TWW_DIFF] = {
 				{ 1, 253164, 1260005 }, -- Algari Fence
@@ -11010,6 +11011,7 @@ data["Tailoring"] = {
 				{ 6, 262611, 1246929 },                                                     -- Voidstrider Saddlebag
 				{ 7, 279350, 1296512 },                                                     -- Twilight's Blade Bedroll
 				{ 8, 279353, 1296514, [PRICE_EXTRA_ITTYPE] = "274597:50:voidlightMarl:750" }, -- Tortollan Slingsack
+				{ 9, 282184, 1315440, [PRICE_EXTRA_ITTYPE] = "trickytreat:20" },            -- Spidery Witch Hat
 			},
 			[TWW_DIFF] = {
 				{ 1, 252755, 1260215 }, -- Dornogal Framed Rug
