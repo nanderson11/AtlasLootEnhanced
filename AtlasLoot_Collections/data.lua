@@ -1518,6 +1518,9 @@ data["MOUNTS"]             = {
 				{ 328, 250928, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Aubergine Warturkey
 				{ 329, 282648, "mount", [PRICE_EXTRA_ITTYPE] = "tender:500" },  -- Hot Motocross Bunmover 4400
 				{ 330, 282649, "mount", [PRICE_EXTRA_ITTYPE] = "tender:0" },    -- Hot Motocross Bunmover 4600
+				{ 401, 276926, "mount", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Corrupted Swarmer
+				{ 402, 283363, "mount", [ACH_EXTRA_ITTYPE] = 63715 },           -- Loa-Blessed Wayfarer
+				{ 403, 282414, "mount", [PRICE_EXTRA_ITTYPE] = "money:50000000000" }, -- Sporebearer Fungal Strider
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -7532,6 +7535,9 @@ data["COMPANIONS"]         = {
 				{ 321, 270248, "pet5035" },                                     -- Autumn Snapling
 				{ 322, 190609, "pet3254", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Watcher of the Huntress
 				{ 323, 277282, "pet5115", [PRICE_EXTRA_ITTYPE] = "tender:350" }, -- Archmage's Familiar
+				{ 324, 274927, "pet5068", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1000" }, -- Aqir Wingreaver
+				{ 325, 274923, "pet5066", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:1000" }, -- Aqir Scuttler
+				{ 326, 276927, "pet5100", [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2000" }, -- Aqir Razorwing
 				-- { 103, 259337, "pet4929" },                                        -- Munchy
 				-- { 102, 260306, "pet4942" },                                        -- Distorted Memory
 				-- { 120, 262881, "pet4968" },                                        -- Lil' Staropod
@@ -7934,6 +7940,16 @@ data["TOYS"]               = {
 				{ 202, 276258,                           [PRICE_EXTRA_ITTYPE] = "remnantOfAnguish:600" }, -- Companion Command Crystal
 				{ 203, 275825,                           [ACH_EXTRA_ITTYPE] = 63167 },               -- Ula'tek's Sssacrificial Rain
 				{ 204, [ATLASLOOT_IT_ALLIANCE] = 267472, [QUEST_EXTRA_ITTYPE] = 47709 },             -- Gnomatic Projector
+				{ 205, 284159 },                                                                     -- Libram of the Matriarch
+				{ 206, 281615 },                                                                     -- Shadeweaver's Hearthstone
+				{ 207, 281136,                           [QUEST_EXTRA_ITTYPE] = 95211 },             -- Hiveborne Hearthstone
+				{ 208, 280820 },                                                                     -- Loa-Blessed Victory
+				{ 209, 275039,                           [PRICE_EXTRA_ITTYPE] = "voidlightMarl:2500" }, -- Curse of the Aqir
+				{ 210, 286643,                           [QUEST_EXTRA_ITTYPE] = 98836 },             -- Kinduru's Spiriting Quill
+				{ 211, 280825 },                                                                     -- Rite of Jan'alai's Flame
+				{ 212, 280821 },                                                                     -- Trail of Halazzi
+				{ 213, 280822 },                                                                     -- Nalorakk's Strength Charm
+				{ 214, 280823 },                                                                     -- Feathers of Akil'zon
 				-- { 20,  250320 },                                      -- Lightgraft (unknown)
 			}
 		},
