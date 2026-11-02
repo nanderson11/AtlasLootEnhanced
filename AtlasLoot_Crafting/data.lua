@@ -9483,8 +9483,10 @@ data["Leatherworking"] = {
 				{ 2, 243327, 1260328 }, -- Zhevra-Stripe Rug
 			},
 			[DF_DIFF] = {
-				{ 1, 248114, 1259195 }, -- Draconic Nesting Bed
-				{ 2, 248657, 1259233 }, -- Valdrakken Market Tent
+				{ 1, 248114, 1259195 },                                 -- Draconic Nesting Bed
+				{ 2, 248657, 1259233 },                                 -- Valdrakken Market Tent
+				{ 3, 284240, 1315719, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:400" }, -- Beloved Ottuk Plushie
+				{ 4, 284242, 1315728, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:400" }, -- Beloved Ottuuuuuuk Plushie
 			},
 			[SL_DIFF] = {
 				{ 1, 258238, 1263313 }, -- Maldraxxian Crate
@@ -11018,8 +11020,9 @@ data["Tailoring"] = {
 				{ 2, 245305, 1260326 }, -- Undermine Bean Bag Chair
 			},
 			[DF_DIFF] = {
-				{ 1, 248121, 1259247 }, -- Draconic Circular Rug
-				{ 2, 257053, 1261940 }, -- Tapestry of the Five Flights
+				{ 1, 248121, 1259247 },                                  -- Draconic Circular Rug
+				{ 2, 257053, 1261940 },                                  -- Tapestry of the Five Flights
+				{ 3, 284244, 1315691, [PRICE_EXTRA_ITTYPE] = "dragonSupplies:400" }, -- Lillistrasza's Lucky Duck Plushie
 			},
 			[SL_DIFF] = {
 				{ 1, 264713, 1272575 }, -- Heart of the Forest Banner
@@ -11039,6 +11042,7 @@ data["Tailoring"] = {
 				{ 1, 245421, 1261232, [PRICE_EXTRA_ITTYPE] = "118722:1" }, -- Karabor Bed
 				{ 2, 258303, 1263360, [PRICE_EXTRA_ITTYPE] = "118722:1" }, -- Beloved Elekk Plushie
 				{ 3, 251546, 1261231, [PRICE_EXTRA_ITTYPE] = "118722:1" }, -- Argussian Circular Rug
+				{ 4, 284238, 1315766, [PRICE_EXTRA_ITTYPE] = "118722:1" }, -- Beloved Murloc Plushie
 			},
 			[MOP_DIFF] = {
 				{ 1, 258302, 1263553 }, -- Pandaren Fishing Net

@@ -6,6 +6,7 @@
 - Added The Unbinding of Kith'ix instance loot
 - Added Aqir Research Enclave to Factions
 - Added 12.1.5 mounts, pets and toys to Collections
+- Added 12.1.5 recipes to Crafting
 - Added November Trading Post items to Collections
 - Added October Trading Post items to Collections
 - Added new decor and recipes to Hallow's End
